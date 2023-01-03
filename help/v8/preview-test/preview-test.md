@@ -1,37 +1,30 @@
 ---
 audience: end-user
-title: E メールのプレビューとテスト
-description: Campaign v8 Web ドキュメント
-source-git-commit: fa7baaa7cc75fdb20d4c21f1391edb9aa5dd268c
-workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 3%
+title: プレビューと配達確認について
+description: Campaign v8 web ドキュメント
+exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+workflow-type: ht
+source-wordcount: '120'
+ht-degree: 100%
 
 ---
 
-# E メールのプレビューとテスト {#preview-test-send}
+# プレビューと配達確認について {#about-preview-proofs}
 
 >[!NOTE]
 >
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023 年 1 月に準備が整います。
+>このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
-## コンテンツをプレビュー
+メールコンテンツを定義したら、送信前に、そのメールコンテンツの表示方法を確認できます。これにより、コンテンツやパーソナライゼーションの設定で発生する可能性のあるエラーを検出するために、メールをテストできます。
 
-<!--
-Diff from AJO: 
-preview: more features than AJO: preview using target population, test profiles or audience
--->
+これを行うには、Adobe Campaign で次の操作を実行します。
 
-![](assets/preview.png)
+* プロファイルデータを使用した[メールのコンテンツとパーソナライゼーションのプレビュー](#preview)。
 
-1. テストするプロファイルを選択（ターゲットプロファイル/テストプロファイル/オーディエンス）
-1. コンテンツをプレビュー
+<!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* メールをテストし、検証するために、特定の受信者に[配達確認を送信する](#send-proofs)。
 
-## 配達確認の送信
+これらのアクションは、「**[!UICONTROL コンテンツをシミュレート]**」ボタンから実行できます。このボタンは、メールのコンテンツをメールデザイナーから作成する際にアクセスできます。
 
-配達確認を送信するための詳細な手順
-
-<!--
-Diff from AJO: 
-substitution, test profile
--->
+![](assets/simulate.png)
