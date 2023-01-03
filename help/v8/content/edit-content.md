@@ -1,50 +1,64 @@
 ---
 audience: end-user
-title: E メールコンテンツの設定
-description: Campaign v8 Web ドキュメント
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
-workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 0%
+title: メールコンテンツの編集
+description: Campaign v8 web ドキュメント
+exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
+source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
+workflow-type: ht
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
+# メールコンテンツの編集 {#configure-content}
 
-# E メールコンテンツの設定 {#configure-content}
-
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023 年 1 月に準備が整います。
-
-コンテンツ編集ボタン：件名行、添付ファイル、オファーの追加、トラッキング有効（「+配達確認をプレビューするためのリンク付きコンテンツをシミュレート」ボタンを含む）の使用例を表示
-
-![](assets/content-dashboard.png)
-
-## 電子メールヘッダー
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_content"
+>title="メールコンテンツの作成"
+>abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="電子メールヘッダー"
+>title="メールヘッダー"
 >abstract="TBC"
-
-## 電子メール添付ファイル
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="E メール添付ファイル"
+>title="メール添付ファイル"
 >abstract="TBC"
-
-## メールトラッキング
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="トラッキングオプション"
 >abstract="TBC"
 
+>[!NOTE]
+>
+>このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
+メールのコンテンツの作成を開始するには、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。この画面では、メールのコンテンツを定義し、電子メールデザイナーにアクセスしてデザインできます。
 
+![](assets/content-dashboard.png)
 
-<!--
-Offers same as campaign (no design, only selection)
-Diff from AJO:  attachement
--->
+メールのコンテンツを定義する手順は次のとおりです。
+
+1. 「**[!UICONTROL 送信者名]**」と「**[!UICONTROL 送信元電子メール]**」の情報を確認します。これらのフィールドは読み取り専用で、メールの作成時に選択したメールテンプレートで設定されます。
+
+1. メールの「**[!UICONTROL 件名]**」を定義します。それには、式エディターを開いて、そのコンテンツを定義し、様々な属性やコンテンツブロックまたはオファーを使用してパーソナライゼーションを追加します。詳しくは、[コンテンツをパーソナライズする方法](../personalization/personalize.md)を参照してください。
+
+1. メールでオファーを送信する場合は、「**[!UICONTROL オファー]**」ボタンを使用して選択します。 その後、パーソナライゼーションフィールドを使用してメールに挿入できます。詳しくは、[オファーの送信方法](offers.md)を参照してください。
+
+1. 「**[!UICONTROL 電子メールデザイナー]**」ボタンをクリックして、メールのコンテンツを構造化しデザインします。メールコンテンツのデザイン方法に関する追加情報については、次の節を参照してください。
+
+   * [メールのデザイン方法を説明します](create-email-content.md)
+   * [コンテンツのスタイル設定](get-started-email-style.md)
+
+1. メールにファイルを添付する場合は、「**[!UICONTROL 添付ファイルを追加]**」ボタンをクリックして、1 つまたは複数のファイルを選択します。
+
+   <!--limitation on size + number of files?-->
+
+1. デフォルトでは、開封数およびクリック数のメールトラッキングログが有効になっています。これらのオプションを無効にするには、「**[!UICONTROL オプション機能]**」セクションで選択を解除します。詳しくは、[リンクを追加しトラッキングを管理する方法](message-tracking.md)を参照してください。
+
+メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。詳しくは、[メールのプレビューとテストの方法](../preview-test/preview-test.md)を参照してください。
+
+<!-- show screenshot showing an email fully configured + highlight the simulate content button-->
