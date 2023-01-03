@@ -1,50 +1,48 @@
 ---
 audience: end-user
-title: オーディエンスを追加
-description: Campaign v8 Web ドキュメント
-source-git-commit: fe06419e429f48dbcc71802c372130be22e68d52
-workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+title: オーディエンスの追加
+description: Campaign v8 web ドキュメント
+exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
+source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
+workflow-type: ht
+source-wordcount: '234'
+ht-degree: 100%
 
 ---
 
-# オーディエンスを追加 {#add-audience}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="マーケティングキャンペーンの基本を学ぶ"
->abstract="E メールコンテンツのオーディエンスを管理する方法を説明します。"
-
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023 年 1 月に準備が整います。
-
-<!--
-Audience only created for the delivery, not available later-->
-
-## 既存のオーディエンスを選択 {#audience-select}
+# オーディエンスの選択 {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="既存のオーディエンスを選択"
->abstract="TBC"
+>title="既存オーディエンスの選択"
+>abstract="オーディエンスは、Adobe Campaign v8 コンソールで定義されます。Adobe Experience Platform 統合を使用できる場合は、Platform で定義されたオーディエンスも表示されます。"
 
-3 つの方法：
-* 既存のオーディエンス
+>[!NOTE]
+>
+>このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
-<!--
-Campaign or AEP Audiences
--->
-* 即座に新しいを作成する
+この節では、メール配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。新しいオーディエンスを作成する場合は、[こちら](segment-builder.md)を参照してください。
 
-<!--
-query like AEP segment builder (same component with campaign data)
--->
-* ファイルからインポート
+1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
 
-新しいオーディエンスの作成（またはファイルからインポート）でユースケースを表示
+   ![](assets/create-audience.png)
 
-<!--
-control groups like acc: exract, random, based on attribute
--->
+1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。このメールで使用する新しいオーディエンスを作成するには、「**独自に作成**」を選択します。[こちら](segment-builder.md)を参照してください。
+
+   この画面には、Adobe Campaign コンソールまたは Adobe Experience Platform で定義されたすべての既存オーディエンスが表示されます。
+
+   ![](assets/create-audience2.png)
+
+1. オーディエンスを選択し、「**選択**」をクリックします。
+
+1. オーディエンスを絞り込む必要がある場合は、「**ルールを編集**」をクリックします。
+
+   ![](assets/create-audience3.png)
+
+1. セグメントビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](segment-builder.md)を参照してください。
+
+   ![](assets/create-audience4.png)
+
+1. 「**保存**」をクリックします。
+
+また、コントロール母集団を設定して、キャンペーンの影響を測定することもできます。コントロール母集団はメッセージを受信しません。これにより、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。[こちら](control-group.md)を参照してください。
