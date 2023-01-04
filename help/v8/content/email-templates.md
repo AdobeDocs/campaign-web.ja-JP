@@ -2,27 +2,23 @@
 audience: end-user
 product: campaign
 title: 電子メールテンプレートの使用
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 16%
 
 ---
-
 
 # E メールコンテンツテンプレートの使用 {#email-content-templates}
 
 >[!NOTE]
 >
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023 年 1 月に準備が整います。
+>このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
 以下を使用： **[!UICONTROL デザインテンプレートを選択]** 「 」セクションを使用して、テンプレートからコンテンツを作成します。
 
 ![](assets/email_designer-templates.png)
-
-次の中から選択できます。
-* 標準の 20 個の E メールテンプレート。
-* 保存済みテンプレート. [詳細情報](#save-as-template)
 
 ## テンプレートとして保存 {#save-as-template}
 
@@ -40,7 +36,7 @@ E メールコンテンツを設計したら、後で再利用できるように
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-次回 E メールを作成する際には、このテンプレートを使用してコンテンツを作成できます。 [方法](#use-saved-template)
+次回 E メールを作成する際には、このテンプレートを使用してコンテンツを作成できます。 方法については、[こちら](#use-saved-template)を参照してください。
 
 ![](assets/email_designer-saved-template.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: オファーの送信
 description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 999ece2367b8bb791f57fba311172b4dc3f2cdf1
-workflow-type: ht
-source-wordcount: '529'
-ht-degree: 100%
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 >
 >このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
-Adobe Campaign v8 web では、**[!UICONTROL インタラクション]**&#x200B;モジュールを使用してコンソールで作成されたオファーをメールで送信できます。インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign V8 のドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja)を参照してください。
+Adobe Campaign v8 web では、**[!UICONTROL インタラクション]**&#x200B;モジュールを使用してコンソールで作成されたオファーをメールで送信できます。インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign V8 のドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)を参照してください。
 
 メールでオファーを送信する手順は、次のとおりです。
 

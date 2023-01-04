@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: レポート
-description: Campaign v8 Web ドキュメント
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+description: Campaign v8 web ドキュメント
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 39%
+ht-degree: 45%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023 年 1 月に準備が整います。
+>このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
 <!--
 detail delivery reports and how to access them
@@ -54,6 +55,3 @@ Adobe Campaignには、配信ごとにアクセス可能な複数のタイプの
 **ホットクリック**
 
 このレポートは、各リンクでのメッセージのコンテンツ（HTML および／またはテキスト）を、リンクでのクリック率と共に表示します。パーソナライゼーションブロックの購読解除リンク、ミラーページリンクおよびオファーリンクは、累積クリック数の合計では考慮されますが、レポートには表示されません。
-
-
-

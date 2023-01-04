@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Journey Optimizer での垂直方向の整列とパディングの調整
+title: E メールデザイナーでの垂直方向の整列とパディングの調整
 description: 垂直方向の整列とパディングの調整方法を学ぶ
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: 03e14361fe0671129407660c51276ea91c85b111
-workflow-type: ht
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 

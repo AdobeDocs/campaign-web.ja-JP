@@ -3,10 +3,10 @@ audience: end-user
 title: セグメントビルダーの操作
 description: Campaign v8 web ドキュメント
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 05efb03e8657e9ac3419e11fc7bbae49b5d93fe7
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 セグメントビルダーを使用すると、Adobe Campaign データベースに含まれるデータをフィルタリングすることで、メッセージのターゲットとなる母集団を定義できます。 既存のオーディエンスを選択する場合は、この[節](add-audience.md)を参照してください。
 
-セグメントビルダーについて詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
+セグメントビルダーについて詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)を参照してください。
 
 メールのデザイン時に新しいオーディエンスを作成するには、次の手順に従います。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールの作成
 description: Campaign v8 web ドキュメント
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
-workflow-type: ht
-source-wordcount: '1183'
-ht-degree: 100%
+source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+workflow-type: tm+mt
+source-wordcount: '1181'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="送信のスケジュール設定"
->abstract="送信の日付と正確な時刻を定義します。マーケティングメッセージに最も適した時間を選択することで、クリック数と開封率を最大化します。"
+>abstract="送信の日付と正確な時刻を定義します。マーケティングメッセージに最も適した時間を選択することで、開封率を最大化します。"
 
 メールの送信をスケジュールするには、「**[!UICONTROL 有効にする]**」をクリックしてから、送信する日時を指定します。
 

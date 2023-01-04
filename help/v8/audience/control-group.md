@@ -4,7 +4,7 @@ title: コントロール母集団の設定
 description: Campaign v8 web ドキュメント
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
 

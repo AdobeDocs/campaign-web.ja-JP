@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Journey Optimizer でのプリヘッダーの追加
+title: E メールデザイナーでのプリヘッダーの追加
 description: メールコンテンツのデザイン方法を説明します
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 8515e9cabb535759b47b15ff86a2baa2384fc105
-workflow-type: ht
-source-wordcount: '228'
-ht-degree: 100%
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 96%
 
 ---
 

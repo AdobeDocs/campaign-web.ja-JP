@@ -4,7 +4,7 @@ title: 電子メールデザイナーのコンテンツコンポーネントの�
 description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 100%
 

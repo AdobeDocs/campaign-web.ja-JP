@@ -3,9 +3,9 @@ audience: end-user
 title: オーディエンスについて
 description: オーディエンスについて
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 0bfc201fc20261edbeb07ce787f0de61de18cfcb
-workflow-type: ht
-source-wordcount: '126'
+source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+workflow-type: tm+mt
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="マーケティングキャンペーンの基本を学ぶ"
+>title="オーディエンスの概要"
 >abstract="メールコンテンツのオーディエンスを管理する方法について説明します。"
 
 >[!NOTE]

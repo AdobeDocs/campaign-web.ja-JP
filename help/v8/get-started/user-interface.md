@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスについて説明します
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 15ee9ea467f9243834374cfe1a3e411f929c2a77
-workflow-type: ht
-source-wordcount: '717'
-ht-degree: 100%
+source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
+workflow-type: tm+mt
+source-wordcount: '1131'
+ht-degree: 64%
 
 ---
 
@@ -19,11 +19,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="インターフェイス"
->abstract="TBC"
+>abstract="新しい Campaign v8 Web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
-新しい Campaign v8 Web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。
+新しい Campaign v8 Web インターフェイスは、統合され、直感的で一貫性のあるユーザーエクスペリエンスを提供します。
 
-ユーザーインターフェイスを閲覧する際の主要な概念は、Adobe Experience Platform と共通です。詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=ja#adobe-experience-platform-ui-guide)を参照してください。
+<!--
+Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
+-->
 
 >[!NOTE]
 >
@@ -37,13 +39,13 @@ ht-degree: 100%
 
 ## 左側のナビゲーションメニュー
 
-左側のリンクを参照すると、Campaign v8 の web 機能にアクセスできます。
+左側のリンクを参照すると、Campaign v8 の web 機能にアクセスできます。複数のリンクには、並べ替えやフィルタリングが可能なオブジェクトのリストが表示されます。 また、必要なすべての情報を表示するように列を設定することもできます。 [こちら](#list-screens)を参照してください。メール配信リストを除く、すべてのリスト画面は読み取り専用です。編集/表示用のリスト項目をクリックすると、アルファでは利用できません。
 
 ![](assets/home.png)
 
-### ホームページ
+### ホーム
 
-Campaign v8 web ホームページには、出発点となる主要なリンクやリソースが含まれています。**最近使用したもの**&#x200B;リストには、最近作成した配信へのショートカットが一覧表示されます。このリストには、配信の作成日と変更日およびステータスが表示されます。
+この画面には、Campaign v8 の主な Web 機能にすばやくアクセスするための主要なリンクやリソースが含まれています。 **最近使用したもの**&#x200B;リストには、最近作成した配信へのショートカットが一覧表示されます。このリストには、配信の作成日と変更日およびステータスが表示されます。
 
 <!--
 * Banner
@@ -65,13 +67,15 @@ Global report not alpha
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="エクスプローラー"
->abstract="TBC"
+>abstract="**エクスプローラー**&#x200B;メニューには、クライアントコンソールのフォルダー階層と同じフォルダー階層が表示されます。Campaign v8 のすべてのコンポーネント、フォルダーおよびスキーマを参照できます。メール配信リストを除く、すべてのリスト画面は読み取り専用です。"
 
 **エクスプローラー**&#x200B;メニューには、クライアントコンソールのフォルダー階層と同じフォルダー階層が表示されます。Campaign v8 のすべてのコンポーネント、フォルダーおよびスキーマを参照できます。メール配信リストを除く、すべてのリスト画面は読み取り専用です。
 
 エクスプローラーに表示される項目は、ユーザー権限によって異なります。
 
-リスト画面の場合と同様に、必要なすべての情報を表示するように列を設定できます。[こちら](#list-screens)を参照してください。
+他のリスト画面と同様に、列を設定して表示をパーソナライズし、必要なすべての情報を表示できます。 [こちら](#list-screens)を参照してください。
+
+Campaign エクスプローラーについて詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-explorer.html).
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -85,66 +89,63 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="キャンペーン"
->abstract="TBC"
+>abstract="キャンペーンのリストです。 キャンペーンの開始日／終了日／最終変更日やステータスなどの有用な情報を確認できます。リストは、ステータスまたは開始日／終了日でフィルタリングできます。キャンペーンテンプレートも使用できます。これらのリストは読み取り専用です。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="配信"
->abstract="TBC"
+>abstract="配信のリストを参照します。 配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開きます。その他の項目は読み取り専用です。 配信テンプレートも使用できます。"
 
-* **キャンペーン** - キャンペーンのリストです。キャンペーンの開始日／終了日／最終変更日やステータスなどの有用な情報を確認できます。リストは、ステータスまたは開始日／終了日でフィルタリングできます。キャンペーンテンプレートも使用できます。これらのリストは読み取り専用です。
+* **キャンペーン** - キャンペーンのリストです。デフォルトでは、変更の開始日/終了日/最終日とステータスを表示できます。 リストは、ステータスまたは開始日／終了日でフィルタリングできます。キャンペーンテンプレートも使用できます。これらのリストは読み取り専用です。
 
-* **配信** - 配信のリストを閲覧できます。配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開きます。その他の項目は読み取り専用です。 配信テンプレートも使用できます。
+* **配信** - 配信のリストを閲覧できます。デフォルトでは、状態、最終変更日および主要 KPI を表示できます。 リストは、状態、コンタクト日またはチャネルでフィルタリングできます。E メール配信をクリックして、ダッシュボードを開き、配信の詳細の概要を確認します。 他のチャネルでの配信は読み取り専用です。 配信テンプレートは、読み取り専用モードでも使用できます。 クライアントコンソールを使用して編集できます。 参照 [ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja).
 
 ### 顧客管理
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="受信者"
->abstract="TBC"
+>abstract="受信者データベースにアクセスします。 メールアドレス、名、姓などの有用な情報を確認できます。このリストは読み取り専用です。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="オーディエンス"
->abstract="TBC"
+>abstract="これはオーディエンスのリストです。 オーディエンスのタイプ、接触チャネル、作成日／最終変更日およびラベルを確認できます。このリストは接触チャネルでフィルタリングできます。このリストは読み取り専用です。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="購読リスト"
->abstract="TBC"
+>abstract="購読リストを閲覧します。 購読リストのタイプ、モードおよびラベルを確認できます。このリストは読み取り専用です。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="ターゲティングワークフロー"
->abstract="TBC"
+>abstract="キャンペーンワークフローのリストにアクセスします。 ワークフローの状態、前回／次の処理日および環境を確認できます。リストは、状態、前回の処理日およびワークフロータイプでフィルタリングできます。ワークフローテンプレートも使用できます。これらのリストは読み取り専用です。"
 
-* **受信者** - 受信者データベースにアクセスできます。メールアドレス、名、姓などの有用な情報を確認できます。このリストは読み取り専用です。
-* **オーディエンス** - オーディエンスのリストです。 オーディエンスのタイプ、接触チャネル、作成日／最終変更日およびラベルを確認できます。このリストは接触チャネルでフィルタリングできます。このリストは読み取り専用です。
-* **購読リスト** - 購読リストを閲覧できます。購読リストのタイプ、モードおよびラベルを確認できます。このリストは読み取り専用です。
-* **ターゲティングワークフロー** - キャンペーンワークフローのリストにアクセスできます。ワークフローの状態、前回／次の処理日および環境を確認できます。リストは、状態、前回の処理日およびワークフロータイプでフィルタリングできます。ワークフローテンプレートも使用できます。これらのリストは読み取り専用です。
+* **受信者** - 受信者データベースにアクセスできます。デフォルトでは、メールアドレス、名および姓を表示できます。 このリストは読み取り専用です。
+* **オーディエンス** - オーディエンスのリストです。 デフォルトでは、タイプ、接触チャネル、作成日/最終変更日およびラベルを表示できます。 このリストは接触チャネルでフィルタリングできます。このリストは読み取り専用です。
+* **購読リスト** - 購読リストを閲覧できます。デフォルトでは、タイプ、モードおよびラベルを表示できます。 このリストは読み取り専用です。
+* **ターゲティングワークフロー** - キャンペーンワークフローのリストにアクセスできます。デフォルトでは、その状態、最終/次の処理日および環境を表示できます。 リストは、状態、前回の処理日およびワークフロータイプでフィルタリングできます。ワークフローテンプレートも使用できます。これらのリストは読み取り専用です。
 
 ### 意思決定管理
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="オファー"
->abstract="TBC"
+>abstract="インタラクションオファーのリストを参照します。 デフォルトでは、ステータス、開始日/終了日および環境を表示できます。 リストは、状態や開始日／終了日でフィルタリングできます。オファーテンプレートも使用できます。これらのリストは読み取り専用です。"
 
-* **オファー** - インタラクションオファーのリストを閲覧できます。オファーのステータス、開始日／終了日および環境を確認できます。リストは、状態や開始日／終了日でフィルタリングできます。オファーテンプレートも使用できます。これらのリストは読み取り専用です。
+* **オファー** - インタラクションオファーのリストを閲覧できます。デフォルトでは、ステータス、開始日/終了日および環境を表示できます。 リストは、状態や開始日／終了日でフィルタリングできます。オファーテンプレートも使用できます。これらのリストは読み取り専用です。
 
-## 統合シェル
+## 上部バー
 
-Campaign v8 web は、統合シェルと統合されています。上部バーの右側には、いくつかのボタンが表示されます。
-
-![](assets/unified-shell.png){width="70%" align="left"}
-
-これらのボタンを使用すると、次のことができます。
+インターフェイスの上部のバーでは、次の操作を実行できます。
 
 * アルファ顧客としてのフィードバックの共有
 * IMS 組織の切り替え
 * Adobe Experience Cloud アプリケーションの切り替え
 * ヘルプページへのアクセス、サポートへの問い合わせ、フィードバックの共有検索フィールドからヘルプ記事およびビデオを検索できます。
 
+![](assets/unified-shell.png){width="70%" align="left"}
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
@@ -161,15 +162,17 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## リスト画面の設定 {#list-screens}
 
-メール配信リストを除く、すべてのリスト画面は読み取り専用です。
+左側のナビゲーションメニューからの複数のリンク（例： ） **配信** または **キャンペーン**、オブジェクトのリストを表示します。 これらのリスト画面は、E メール配信リストを除き、読み取り専用です。
 
 項目をすばやく見つけるには、検索バーを使用するか、コンテキスト条件に基づいてリストをフィルタリングします。
 
 ![](assets/filter.png){width="70%" align="left"}
 
-リストは複数の列で表示されます。 各列は、1 つずつ昇順または降順に並べ替えることができます。列の設定を変更して、追加情報を表示することもできます。それには、リストの右上隅にあるアイコンをクリックします。 列の追加または削除や表示順序の変更を行うことができます。
+リストは複数の列で表示されます。 列の設定を変更して、追加情報を表示できます。 それには、リストの右上隅にあるアイコンをクリックします。 列の追加または削除や表示順序の変更を行うことができます。
 
 ![](assets/columns.png){width="70%" align="left"}
+
+任意の列見出しをクリックして、リスト内の項目を並べ替えることができます。 リストがその列で並べ替えられていることを示す矢印が（上または下）表示されます。 数値列または日付列の場合、上向き矢印はリストが昇順で並べ替えられていることを示し、下向き矢印は降順であることを示します。 文字列列または英数字列の場合、値はアルファベット順に表示されます。
 
 <!--
 ## Supported browsers {#browsers}

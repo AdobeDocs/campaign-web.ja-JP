@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Journey Optimizer でのメールの設計
+title: E メールデザイナーでの E メールのデザイン
 description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: fd85f2b799602b7c411b73e7b1c1cbd38c798857
-workflow-type: ht
-source-wordcount: '541'
-ht-degree: 100%
+source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 98%
 
 ---
 
@@ -91,10 +91,6 @@ ht-degree: 100%
 
 1. パーソナライゼーションフィールドを挿入して、プロファイルデータからのメールコンテンツをカスタマイズします。[詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
 
-1. 動的コンテンツを追加して、条件付きルールに基づいてコンテンツをターゲットプロファイルに適応させます。<!-- Add link to Get started with dynamic content-->
-
-   ![](assets/email_designer_6.png)
-
 1. 左側のパネルから「**[!UICONTROL リンク]**」タブをクリックし、トラッキングするコンテンツのすべての URL を表示します。必要に応じて、**[!UICONTROL トラッキングタイプ]**、**[!UICONTROL ラベル]**&#x200B;を変更して、**[!UICONTROL タグ]**&#x200B;を追加できます。[詳しくは、リンクとメッセージトラッキングを参照してください](message-tracking.md)
 
    ![](assets/email_designer_7.png)
@@ -106,6 +102,8 @@ ht-degree: 100%
    >コードエディターに切り替えた後で、このメールのビジュアルデザイナーに戻すことはできません。
 
 1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、メールのレンダリングを確認します。デスクトップ表示またはモバイル表示を選択できます。[詳しくは、メールのプレビューを参照してください](../preview-test/preview-test.md)
+
+   ![](assets/email_designer_28.png)
 
 1. メールの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 
