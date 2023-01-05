@@ -3,10 +3,10 @@ audience: end-user
 title: メールコンテンツの編集
 description: Campaign v8 web ドキュメント
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
+source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '317'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="メールコンテンツの作成"
->abstract="TBC"
+>abstract="このセクションでは、E メール用のコンテンツを作成し、E メールデザイナーを使用して洗練された外観を設定できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
