@@ -3,10 +3,10 @@ audience: end-user
 title: 詳細設定
 description: Campaign v8 web ドキュメント
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 66a1a324d671bd8ef2847005a3ab75d113110117
+source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
