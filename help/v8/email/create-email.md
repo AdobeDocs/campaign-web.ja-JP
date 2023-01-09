@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールの作成
 description: Campaign v8 web ドキュメント
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 98%
+source-wordcount: '1174'
+ht-degree: 87%
 
 ---
 
@@ -116,9 +116,11 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >リストで使用可能なオーディエンスは、Campaign V8 インスタンスから、またはインスタンスに宛先／ソースの統合が実装されている場合は Adobe Experience Platform から作成されます。
+   >リストで使用可能なオーディエンスは、Campaign V8 インスタンスから、またはインスタンスで宛先/ソースの統合が設定されている場合はAdobe Experience Platformから作成されます。
+   >
+   >宛先/ソースの統合により、Experience PlatformセグメントをAdobe Campaignに送信したり、キャンペーンの配信とトラッキングログをAdobe Experience Platformに送信したりできます。 [Campaign とAdobe Experience Platformの連携の仕組み](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. オーディエンスを選択したら、必要に応じてそのルールを編集できます。
+1. オーディエンスを選択したら、追加のルールを使用してターゲットを絞り込むことができます。
 
    また、コントロール母集団を設定して、ターゲットされていないプロファイルの動作と比較した、メール受信者の行動を分析することもできます。[詳しくは、コントロール母集団の操作方法を参照してください](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ ht-degree: 98%
 
 メールの送信をスケジュールするには、「**[!UICONTROL 有効にする]**」をクリックしてから、送信する日時を指定します。
 
-デフォルトでは、「**[!UICONTROL 送信前に確認]**」オプションが有効になっています。つまり、メールを送信するには、指定した日時に送信を確認する必要があります。このオプションを無効にすると、確認を必要とせずにスケジュールされた日時にメールが送信されます。
+デフォルトでは、 **[!UICONTROL 送信前の確認]** 」オプションが有効になっている場合、指定した日時に E メールを送信できるように、送信を確定する必要があります。 このオプションを無効にすると、確認を必要とせずにスケジュールされた日時にメールが送信されます。
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ ht-degree: 98%
 
 メールの準備が整ったら、送信を開始する前に、プレビューおよびテストできます。
 
-この使用例では、既存のプロファイルを使用してメールをプレビューし、ターゲットに含まれていないテストプロファイルに配達確認を送信します。
+この使用例では、E メールをプレビューし、既存のプロファイルを使用して配達確認を送信します。
 
 メールのプレビューおよびテスト方法に関する追加情報については、 [この節](../preview-test/preview-test.md)を参照してください。
 
@@ -161,7 +163,7 @@ ht-degree: 98%
 
 1. メールの配達確認を送信するには、「**[!UICONTROL テスト]**」ボタンをクリックして、配達確認を受信するプロファイルを選択します。
 
-   この例では、特定のテストプロファイル（ターゲットに含まれていないシードアドレス）に配達確認を送信します。[詳しくは、シードアドレスの使用方法を参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=ja){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
