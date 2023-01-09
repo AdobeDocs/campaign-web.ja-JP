@@ -3,10 +3,10 @@ audience: end-user
 title: プレビューと配達確認について
 description: Campaign v8 web ドキュメント
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 これを行うには、Adobe Campaign で次の操作を実行します。
 
-* プロファイルデータを使用した[メールのコンテンツとパーソナライゼーションのプレビュー](#preview)。
+* [E メールのコンテンツとパーソナライゼーションのプレビュー](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
 * メールをテストし、検証するために、特定の受信者に[配達確認を送信する](#send-proofs)。
@@ -28,3 +28,7 @@ ht-degree: 100%
 これらのアクションは、「**[!UICONTROL コンテンツをシミュレート]**」ボタンから実行できます。このボタンは、メールのコンテンツをメールデザイナーから作成する際にアクセスできます。
 
 ![](assets/simulate.png)
+
+>[!NOTE]
+>
+>コンテンツのシミュレーションは、 **[!UICONTROL 確認して送信]** 」ボタンをクリックします。
