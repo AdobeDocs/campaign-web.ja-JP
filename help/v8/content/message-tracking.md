@@ -3,10 +3,10 @@ audience: end-user
 title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 92%
 
 ---
 
@@ -102,3 +102,8 @@ ht-degree: 100%
    * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
    * **[!UICONTROL なし]**：この URL のトラッキングをアクティブ化しません。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. を追加します。 **[!UICONTROL カテゴリ]** をクリックし、 **[!UICONTROL 保存]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. 配信を送信したら、配信レポートにアクセスします。 以下 **[!UICONTROL トラッキング]** メニュー、 **[!UICONTROL URL とクリックストリーム]** レポートには、配信で最も訪問回数の多い URL が表示されます。 [詳細情報](../reporting/reports.md)
