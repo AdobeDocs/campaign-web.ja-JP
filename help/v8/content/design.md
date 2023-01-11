@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: E メールデザイナーの操作
+title: 電子メールデザイナーの操作
 description: Campaign v8 web ドキュメント
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '14'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
-# E メールデザイナーの操作 {#email-designer}
+# 電子メールデザイナーの操作 {#email-designer}
 
 ![](../assets/do-not-localize/badge.png)
 
