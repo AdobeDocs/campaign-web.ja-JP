@@ -1,52 +1,52 @@
 ---
 audience: end-user
 product: campaign
-title: 電子メールテンプレートの使用
+title: メールテンプレートの操作
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# E メールコンテンツテンプレートの使用 {#email-content-templates}
+# メールコンテンツテンプレートの操作 {#email-content-templates}
 
 ![](../assets/do-not-localize/badge.png)
 
-以下を使用： **[!UICONTROL デザインテンプレートを選択]** 「 」セクションを使用して、テンプレートからコンテンツを作成します。
+「**[!UICONTROL デザインテンプレートを選択]**」セクションを使用して、テンプレートからコンテンツの作成を開始します。
 
 ![](assets/email_designer-templates.png)
 
 ## テンプレートとして保存 {#save-as-template}
 
-E メールコンテンツを設計したら、後で再利用できるように保存できます。 それには、次の手順に従います。
+メールコンテンツを設計したら、後で再利用できるように保存できます。 それには、次の手順に従います。
 
 1. 画面の右上にある省略記号をクリックします。
 
-1. 選択 **[!UICONTROL デザインテンプレートを保存]** を選択します。
+1. ドロップダウンメニューから「**[!UICONTROL デザインテンプレートを保存]**」を選択します。
 
    ![](assets/email_designer-save-template.png)
 
-1. このテンプレートの名前を追加します。
+1. このテンプレートに名前を追加します。
 
    ![](assets/email_designer-template-name.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-次回 E メールを作成する際には、このテンプレートを使用してコンテンツを作成できます。 方法については、[こちら](#use-saved-template)を参照してください。
+次回メールを作成する際には、このテンプレートを使用してコンテンツを作成できます。 方法については、[こちら](#use-saved-template)を参照してください。
 
 ![](assets/email_designer-saved-template.png)
 
-## 保存したテンプレートを使用 {#use-saved-template}
+## 保存済みテンプレートの使用 {#use-saved-template}
 
-1. を開きます。 [電子メールデザイナー](create-email-content.md).
+1. [電子メールデザイナー](create-email-content.md)を開きます。 
 
-1. の **[!UICONTROL メール画面を作成]**、 **[!UICONTROL サンプルテンプレート]** 「 」タブがデフォルトで選択されています。 を選択します。 **[!UICONTROL 保存済みのテンプレート]** タブをクリックします。
+1. 「**[!UICONTROL メール画面を作成]**」では、「**[!UICONTROL サンプルテンプレート]**」タブがデフォルトで選択されています。 「**[!UICONTROL 保存済みのテンプレート]**」タブを選択します。
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 以前のすべての [保存済みテンプレート](#save-as-template) が表示されます。 並べ替え可能です **[!UICONTROL 名前別]**, **[!UICONTROL 最終変更日]** および **[!UICONTROL 最終作成日]**.
+1. 以前に[保存済みのすべてのテンプレート](#save-as-template)のリストが表示されます。「**[!UICONTROL 名前別]**」、「**[!UICONTROL 最終変更日]**」および「**[!UICONTROL 最終作成日]**」で並べ替えることができます。
 
    ![](assets/email_designer-saved-templates.png)
 
@@ -56,6 +56,6 @@ E メールコンテンツを設計したら、後で再利用できるように
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. クリック **[!UICONTROL このメールを使用]** をクリックします。
+1. 画面右上の「**[!UICONTROL このメールを使用]**」をクリックします。
 
-1. E メールデザイナーを使用して、必要に応じてコンテンツを編集します。
+1. 電子メールデザイナーを使用して、必要に応じてコンテンツを編集します。
