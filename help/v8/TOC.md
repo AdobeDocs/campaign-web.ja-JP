@@ -5,17 +5,17 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 61%
+ht-degree: 58%
 
 ---
 
 
 # Adobe Campaign v8 Web ドキュメント {#v8}
 
-+ [Campaign v8 web ドキュメント](campaign-web-home.md)
++ [Campaign Web v8 ドキュメント](campaign-web-home.md)
 + 新機能{#whats-new}
    + [最新のリリースノート](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)

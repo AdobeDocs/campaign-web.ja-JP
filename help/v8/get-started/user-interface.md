@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスについて説明します
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 60%
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="インターフェイス"
->abstract="新しい Campaign v8 Web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
+>abstract="新しい Campaign v8 Web インターフェイスは、統合され、直感的で一貫性のあるユーザーエクスペリエンスを提供します。"
 
 新しい Campaign v8 Web インターフェイスは、マーケティングキャンペーンの設計と配信をシンプル化する、最新で直感的なユーザーエクスペリエンスを提供します。 この新しいインターフェイスは、Adobe Experience Platformと統合されています。
 
@@ -39,7 +39,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左側のナビゲーションメニュー
 
-左側のリンクを参照すると、Campaign v8 の web 機能にアクセスできます。複数のリンクには、並べ替えやフィルタリングが可能なオブジェクトのリストが表示されます。 また、必要なすべての情報を表示するように列を設定することもできます。 [こちら](#list-screens)を参照してください。メール配信リストを除く、すべてのリスト画面は読み取り専用です。編集/表示用のリスト項目をクリックすると、アルファでは利用できません。 すべてのリストは、ベータ版および GA 版で編集可能になります。 左側のナビゲーションメニューに表示される項目は、ユーザー権限によって異なります。
+左側のリンクを参照して、Campaign v8 Web 機能にアクセスします。 複数のリンクには、並べ替えやフィルタリングが可能なオブジェクトのリストが表示されます。 また、必要なすべての情報を表示するように列を設定することもできます。 [こちら](#list-screens)を参照してください。メール配信リストを除く、すべてのリスト画面は読み取り専用です。編集/表示用のリスト項目をクリックすると、アルファでは利用できません。 すべてのリストは、ベータ版および GA 版で編集可能になります。 左側のナビゲーションメニューに表示される項目は、ユーザー権限によって異なります。
 
 ![](assets/home.png)
 
@@ -54,7 +54,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * Learning cards
 -->
 
-ホームページの下部のセクションから、Campaign v8 web の主要ヘルプページにアクセスします。
+ホームページの下部のセクションから、Campaign v8 Web キーのヘルプページにアクセスします。
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -156,7 +156,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-また、Campaign v8 web の基本を学ぶうえで役に立つオンボーディングガイドも利用できます。右下隅にあるアイコンをクリックし、利用できるステップバイステップ方式のシナリオの 1 つを選択し、指示に従うだけです。
+また、Campaign v8 Web の使用を開始する際に役立つオンボーディングガイドも利用できます。 右下隅にあるアイコンをクリックし、利用できるステップバイステップ方式のシナリオの 1 つを選択し、指示に従うだけです。
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
