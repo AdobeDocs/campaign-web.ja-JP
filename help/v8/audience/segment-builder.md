@@ -3,14 +3,14 @@ audience: end-user
 title: セグメントビルダーの操作
 description: Campaign v8 web ドキュメント
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 98%
+source-wordcount: '559'
+ht-degree: 78%
 
 ---
 
-# セグメントビルダーの操作 {#segment-builder}
+# ルールビルダーを使用したオーディエンスの定義 {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 98%
 
 この節では、新しいメールをデザインする際にオーディエンスを作成する方法について説明します。作成したオーディエンスは、このメールでのみ使用できます。
 
-セグメントビルダーを使用すると、Adobe Campaign データベースに含まれるデータをフィルタリングすることで、メッセージのターゲットとなる母集団を定義できます。 既存のオーディエンスを選択する場合は、この[節](add-audience.md)を参照してください。
+ルールビルダーを使用すると、データベースに含まれるデータをフィルタリングすることで、メッセージのターゲットとなる母集団を定義できます。 既存のオーディエンスを選択する場合は、この[節](add-audience.md)を参照してください。
 
-セグメントビルダーについて詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html)を参照してください。
+ルールビルダーについて詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 メールのデザイン時に新しいオーディエンスを作成するには、次の手順に従います。
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
    ![](assets/segment-builder0.png)
 
-1. 「**独自に作成**」を選択します。セグメントビルダーが表示されます。
+1. 「**独自に作成**」を選択します。ルールビルダーが表示されます。
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ ht-degree: 98%
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **オーディエンス**：このタブでは、Campaign Classic コンソールで定義された既存のオーディエンスの 1 つを使用してフィルタリングできます。
+* **オーディエンス**:このタブでは、Campaign ClassicコンソールまたはAdobe Experience Platformで定義された既存のオーディエンスの 1 つを使用して、フィルタリングすることができます。
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >Adobe Experience Platformオーディエンスを活用するには、宛先との統合を設定する必要があります。 詳しくは、 [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja).
 
 検索バーを使用して、要素をすばやく見つけることができます。
 
@@ -87,7 +91,7 @@ ht-degree: 98%
 
    ![](assets/segment-builder10.png)
 
-1. 「**結果を表示**」をクリックすると、クエリに一致する受信者のリストと数が表示されます。
+1. 「**結果を表示**」をクリックすると、クエリに一致する受信者のリストと数が表示されます。また、列を追加して、データを視覚化および確認することもできます。 この例では、 **市区町村** アトランタとシアトルを見てみましょう。
 
    ![](assets/segment-builder11.png)
 

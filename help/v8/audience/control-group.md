@@ -3,10 +3,10 @@ audience: end-user
 title: コントロール母集団の設定
 description: Campaign v8 web ドキュメント
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
    ![](assets/control-group.png)
 
-* **属性ごとにランク付け**：このオプションを使用すると、1 つ以上の並べ替え順に基づく制限を定義できます。
+* **属性別にランク付け**:このオプションを使用すると、特定の並べ替え順で、特定の属性に基づいて一連のプロファイルを除外できます。
 
    ![](assets/control-group2.png)
 

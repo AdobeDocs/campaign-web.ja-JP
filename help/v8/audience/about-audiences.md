@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスについて
 description: オーディエンスについて
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 82%
+source-wordcount: '128'
+ht-degree: 67%
 
 ---
 
@@ -42,11 +42,11 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-コンテンツを設計したら、メールのオーディエンスを定義する必要があります。これが配信のターゲットであり、E メールを受信する受信者です。 オーディエンスのタイプは、ターゲットマッピングによって異なります。
+この節では、E メールのオーディエンスを定義する方法について説明します。 これが配信のターゲットであり、E メールを受信する受信者です。 オーディエンスのタイプは、ターゲットマッピングによって異なります。
 
 オーディエンスを定義するには、次の操作を実行します。
 
-* Adobe Campaign コンソールで定義された既存のオーディエンスを使用します。[こちら](add-audience.md)を参照してください。
+* 既存のオーディエンスを使用する場合は、 [セクション](add-audience.md).
 * メールに使用する新しいオーディエンスを作成します。[こちら](segment-builder.md)を参照してください。
 
 また、コントロール母集団を定義すると、キャンペーンの影響を測定するために、オーディエンスの一部にメッセージを送信しないようにできます。[こちら](control-group.md)を参照してください。

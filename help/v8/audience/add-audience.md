@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスの追加
 description: Campaign v8 web ドキュメント
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a572ac51db2ef79dc45afe2504aeb8476314bbfc
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 92%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 100%
    この画面には、Adobe Campaign コンソールまたは Adobe Experience Platform で定義されたすべての既存オーディエンスが表示されます。
 
    ![](assets/create-audience2.png)
+
+   >[!NOTE]
+   >
+   >Adobe Experience Platformオーディエンスを活用するには、宛先との統合を設定する必要があります。 詳しくは、 [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja).
 
 1. オーディエンスを選択し、「**選択**」をクリックします。
 
