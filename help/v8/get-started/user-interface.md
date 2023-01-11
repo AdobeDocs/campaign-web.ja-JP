@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスについて説明します
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 63%
+source-wordcount: '1172'
+ht-degree: 60%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 63%
 >title="インターフェイス"
 >abstract="新しい Campaign v8 Web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
-新しい Campaign v8 Web インターフェイスは、最新の統合された直感的なユーザーエクスペリエンスを提供し、ワークフロー、マーケティングキャンペーンの設計と配信を簡素化し、Adobe Experience Platformのネイティブアプリケーションのエクスペリエンスと一貫します。
+新しい Campaign v8 Web インターフェイスは、マーケティングキャンペーンの設計と配信をシンプル化する、最新で直感的なユーザーエクスペリエンスを提供します。 この新しいインターフェイスは、Adobe Experience Platformと統合されています。
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左側のナビゲーションメニュー
 
-左側のリンクを参照すると、Campaign v8 の web 機能にアクセスできます。複数のリンクには、並べ替えやフィルタリングが可能なオブジェクトのリストが表示されます。 また、必要なすべての情報を表示するように列を設定することもできます。 [こちら](#list-screens)を参照してください。メール配信リストを除く、すべてのリスト画面は読み取り専用です。編集/表示用のリスト項目をクリックすると、アルファでは利用できません。
+左側のリンクを参照すると、Campaign v8 の web 機能にアクセスできます。複数のリンクには、並べ替えやフィルタリングが可能なオブジェクトのリストが表示されます。 また、必要なすべての情報を表示するように列を設定することもできます。 [こちら](#list-screens)を参照してください。メール配信リストを除く、すべてのリスト画面は読み取り専用です。編集/表示用のリスト項目をクリックすると、アルファでは利用できません。 すべてのリストは、ベータ版および GA 版で編集可能になります。 左側のナビゲーションメニューに表示される項目は、ユーザー権限によって異なります。
 
 ![](assets/home.png)
 
 ### ホーム
 
-この画面には、Campaign v8 の主な Web 機能にすばやくアクセスするための主要なリンクやリソースが含まれています。 **最近使用したもの**&#x200B;リストには、最近作成した配信へのショートカットが一覧表示されます。このリストには、配信の作成日と変更日およびステータスが表示されます。
+この画面には、Campaign v8 の主な Web 機能にすばやくアクセスするための主要なリンクやリソースが含まれています。 この **最近** リストには、最近作成および変更された配信へのショートカットが表示されます。 このリストには、配信の作成日と変更日およびステータスが表示されます。
 
 <!--
 * Banner
@@ -140,8 +140,8 @@ Navtree view depends on permissions (same as console).
 
 インターフェイスの上部のバーでは、次の操作を実行できます。
 
-* アルファ顧客としてのフィードバックの共有
-* IMS 組織の切り替え
+* フィードバックをアルファテスターとして共有
+* 組織とインスタンスの切り替え
 * Adobe Experience Cloud アプリケーションの切り替え
 * ヘルプページへのアクセス、サポートへの問い合わせ、フィードバックの共有検索フィールドからヘルプ記事およびビデオを検索できます。
 

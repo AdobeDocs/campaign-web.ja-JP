@@ -3,10 +3,10 @@ audience: end-user
 title: 基本を学ぶ
 description: Campaign v8 web ドキュメント
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 82%
+source-wordcount: '332'
+ht-degree: 76%
 
 ---
 
@@ -32,7 +32,7 @@ only existing customers
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。
 
-コンソールで利用できる既存の機能に加えて、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platformのネイティブアプリケーションのエクスペリエンスと一貫性を保つ、新しい最新の Web ベースのユーザーインターフェイスを構築しました。
+コンソールで利用できる既存の機能に加えて、マーケティングキャンペーンの設計と配信を簡素化し、Adobe Experience Platformとの一貫性を保つ新しい最新の Web ベースのユーザーインターフェイスを構築しました。
 
 ## アルファ機能
 
@@ -49,8 +49,8 @@ No search and pulse notifications in Alpha
 
 **メールキャンペーンの作成、開始、測定**
 
-* メールエディターでパーソナライズされたメールコンテンツのデザイン
-* セグメントビルダーを使用したターゲットオーディエンスの定義
+* E メールデザイナーでパーソナライズされた E メールコンテンツをデザイン
+* ルールビルダーを使用したターゲットオーディエンスの定義
 * メールメッセージのプレビュー、テスト、送信
 * ビルトインレポートを使用した送信の監視および結果の測定
 
@@ -59,6 +59,10 @@ add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
+
+>[!NOTE]
+>
+>クロスチャネルのキャンペーンとワークフロー管理機能は、ベータ版プログラムで使用できるようになります。
 
 ## クライアントコンソール
 
@@ -71,7 +75,7 @@ Web UI で使用できない Campaign v8 機能を使用する必要がある場
 ![](assets/connect.png)
 
 1. [Adobe Experience Cloud](http://experience.adobe.com) に接続します。
-1. Adobe IMS の資格情報を使用してログインします。
+1. Adobe の資格情報を使用してログインします。
 1. 「**クイックアクセス**」セクションで、「**Campaign**」をクリックします。
 
 <!--
