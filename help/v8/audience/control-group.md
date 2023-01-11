@@ -3,10 +3,10 @@ audience: end-user
 title: コントロール母集団の設定
 description: Campaign v8 web ドキュメント
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 94%
+source-wordcount: '545'
+ht-degree: 77%
 
 ---
 
@@ -56,6 +56,28 @@ ht-degree: 94%
 
 **サイズ制限**&#x200B;の定義：メインターゲットから抽出するプロファイル数を制限する方法を設定する必要があります。
 
+**例**
+
+ログを表示して、除外されたプロファイルを確認したり、特定したりできます。 5 つのプロファイルに対するランダムな除外の例を見てみましょう。
+
+![](assets/control-group4.png)
+
+配信の準備が完了すると、次の画面で除外を表示できます。
+
+* この **除外する** 送信前の配信ダッシュボードの KPI。
+
+   ![](assets/control-group5.png)
+
+* この **除外ログ** 各プロファイルと関連する実行を表示 **理由**.
+
+   ![](assets/control-group6.png)
+
+* この **除外の原因** 各タイポロジルールの除外されたプロファイルの数を表示します。
+
+   ![](assets/control-group7.png)
+
+配信ログについて詳しくは、 [セクション](../monitor/delivery-logs.md).
+
 ## 追加の母集団 {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ ht-degree: 94%
 
 * 既存のオーディエンスを使用するには、「**オーディエンスを選択**」をクリックします。[こちら](add-audience.md)を参照してください。
 
-* 新しいクエリを定義するには、「**自分で作成**」を選択し、セグメントビルダーを使用して除外条件を定義します。[こちら](segment-builder.md)を参照してください。
+* 新しいクエリを定義するには、「 **独自の** ルールビルダーを使用して除外条件を定義します。 [こちら](segment-builder.md)を参照してください。
 
 オーディエンスに含まれるプロファイル、またはクエリの結果と一致するプロファイルは、ターゲットから除外されます。

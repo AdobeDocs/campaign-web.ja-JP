@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールの作成
 description: Campaign v8 web ドキュメント
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="オーディエンスの定義"
->abstract="マーケティングメッセージに最適なオーディエンスを選択します。Campaign v8 インスタンスで既に定義されている既存のオーディエンスを選択するか、Adobe Experience Platform から選択するか、セグメントビルダーを使用して新しいオーディエンスを作成するかを選択できます。"
+>abstract="マーケティングメッセージに最適なオーディエンスを選択します。Campaign v8 インスタンスで既に定義されている既存のオーディエンスを選択するか、Adobe Experience Platformから選択するか、ルールビルダーを使用して新しいオーディエンスを作成するかを選択できます。"
 
 この使用例では、既存のオーディエンスにメールを送信します。オーディエンスの操作方法に関する追加情報については、[この節](../audience/about-audiences.md)を参照してください。
 

@@ -3,7 +3,7 @@ audience: end-user
 title: E メールの準備と送信
 description: Campaign v8 web ドキュメント
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 12%
@@ -60,7 +60,7 @@ send also KPIs
    * **配信する**:送信されるメッセージの数
    * **除外する**:タイポロジルールによって除外されるメッセージの数
 
-1. 次をクリック： **ログ** 」ボタンをクリックし、エラーがないことを確認します。 最後のログメッセージには、エラーメッセージとエラー件数が表示されます。詳しくは、[こちらの節](#send)を参照してください。
+1. 次をクリック： **ログ** 」ボタンをクリックし、エラーがないことを確認します。 最後のログメッセージには、エラーメッセージとエラー件数が表示されます。詳しくは、[こちらの節](delivery-logs.md)を参照してください。
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +82,7 @@ send also KPIs
 
    ![](assets/send.png)
 
-1. 送信の進行状況が表示されます。 表示された KPI を確認します。 また、ログを確認することもできます。 詳しくは、[こちらの節](#send)を参照してください。
+1. 送信の進行状況が表示されます。 表示された KPI を確認します。 また、ログを確認することもできます。 詳しくは、[こちらの節](delivery-logs.md)を参照してください。
 
    ![](assets/send2.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスの追加
 description: Campaign v8 web ドキュメント
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 92%
+ht-degree: 86%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 92%
 
    ![](assets/create-audience3.png)
 
-1. セグメントビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](segment-builder.md)を参照してください。
+1. ルールビルダーを使用すると、追加のフィルターを使用してオーディエンスをエンリッチメントしたり、異なるオーディエンスを組み合わせたりできます。 [こちら](segment-builder.md)を参照してください。
 
    ![](assets/create-audience4.png)
 
