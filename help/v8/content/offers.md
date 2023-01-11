@@ -3,14 +3,16 @@ audience: end-user
 title: オファーの送信
 description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '508'
 ht-degree: 94%
 
 ---
 
 # オファーの送信 {#offers-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
@@ -21,10 +23,6 @@ ht-degree: 94%
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="オファーの詳細設定"
 >abstract="TBC"
-
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
 Adobe Campaign v8 Web では、 **[!UICONTROL インタラクション]** モジュール。 インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign V8 のドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)を参照してください。
 

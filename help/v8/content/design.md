@@ -2,18 +2,16 @@
 audience: end-user
 title: E メールデザイナーの操作
 description: Campaign v8 web ドキュメント
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 69%
+source-wordcount: '14'
+ht-degree: 28%
 
 ---
 
 # E メールデザイナーの操作 {#email-designer}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 
 

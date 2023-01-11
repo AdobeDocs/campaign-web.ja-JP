@@ -3,18 +3,16 @@ audience: end-user
 product: campaign
 title: 電子メールテンプレートの使用
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 16%
+source-wordcount: '178'
+ht-degree: 7%
 
 ---
 
 # E メールコンテンツテンプレートの使用 {#email-content-templates}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 以下を使用： **[!UICONTROL デザインテンプレートを選択]** 「 」セクションを使用して、テンプレートからコンテンツを作成します。
 

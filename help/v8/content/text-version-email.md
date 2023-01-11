@@ -3,18 +3,16 @@ audience: end-user
 title: メールのテキストバージョンを作成
 description: メールのテキストバージョンを作成する方法を学ぶ
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
 
 # メールのテキストバージョンを作成 {#text-version-email}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 HTML コンテンツを表示できない場合に使用する、テキストバージョンのメール本文を作成することをお勧めします。
 

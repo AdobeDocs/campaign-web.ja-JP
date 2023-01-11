@@ -3,18 +3,14 @@ audience: end-user
 title: コントロール母集団の設定
 description: Campaign v8 web ドキュメント
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 77%
+source-wordcount: '526'
+ht-degree: 76%
 
 ---
 
 # コントロール母集団の設定 {#control-group}
-
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
 コントロール母集団を使用すると、キャンペーンの影響を測定するために、オーディエンスの一部にメッセージを送信しないようにできます。
 

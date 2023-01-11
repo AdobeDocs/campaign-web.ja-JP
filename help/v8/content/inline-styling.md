@@ -3,18 +3,16 @@ audience: end-user
 title: インラインスタイル属性を追加する
 description: インラインスタイル属性を追加する方法を説明します
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: aef03e727f751c25df48c29fcbc9bd553af08357
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '129'
 ht-degree: 100%
 
 ---
 
 # インラインスタイル属性を追加する {#adding-inline-styling-attributes}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 メールデザイナーインターフェイスで、要素を選択してその設定を右側のペインに表示する際に、その特定の要素に対するインライン属性と値をカスタマイズできます。
 

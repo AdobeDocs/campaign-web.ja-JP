@@ -3,18 +3,16 @@ audience: end-user
 title: E メールデザイナーでのプリヘッダーの追加
 description: メールコンテンツのデザイン方法を説明します
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '210'
 ht-degree: 96%
 
 ---
 
 # プリヘッダーの追加 {#preheader}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

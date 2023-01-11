@@ -3,18 +3,16 @@ audience: end-user
 title: メールの背景をパーソナライズする
 description: メールの背景をパーソナライズする方法を学ぶ
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
 
 # メールの背景をパーソナライズする {#backgrounds}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

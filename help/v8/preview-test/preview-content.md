@@ -3,23 +3,21 @@ audience: end-user
 title: メールコンテンツのプレビュー
 description: Campaign v8 web ドキュメント
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 73%
+source-wordcount: '219'
+ht-degree: 70%
 
 ---
 
 # メールコンテンツのプレビュー {#preview}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="コンテンツのスマートプレビュー"
 >abstract="Adobe Campaignでは、プロファイルを使用して、送信前に E メールのコンテンツをプレビューし、パーソナライゼーションと受信者への表示方法を確認できます。"
-
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
 Adobe Campaign では、プロファイルを使用して、送信前にメールのコンテンツをプレビューし、パーソナライゼーションを確認して、受信者にどのように表示されるのかを確認できます。
 

@@ -3,18 +3,16 @@ audience: end-user
 title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '549'
 ht-degree: 92%
 
 ---
 
 # リンクの追加とメッセージの追跡 {#tracking}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 電子メールデザイナーを使用してコンテンツにリンクを追加し、受信者の行動を監視するために送信されたメッセージを追跡します。
 

@@ -3,18 +3,16 @@ audience: end-user
 title: レポート
 description: Campaign v8 web ドキュメント
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 45%
+source-wordcount: '381'
+ht-degree: 42%
 
 ---
 
 # レポート {#reports}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 <!--
 detail delivery reports and how to access them

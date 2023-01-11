@@ -3,20 +3,16 @@ audience: end-user
 title: 詳細設定
 description: Campaign v8 web ドキュメント
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 96d5ee712131ba314ef25736e421efe436d5170a
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 57%
+source-wordcount: '1222'
+ht-degree: 56%
 
 ---
 
 # 詳細設定 {#advanced-settings}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
 これらの設定は、 **技術的な配信パラメーター** 電子メールテンプレートで定義される。 特定の配信に対していずれかの変更を行う場合は、注意して作業を進めてください。
 

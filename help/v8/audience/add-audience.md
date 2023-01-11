@@ -3,23 +3,21 @@ audience: end-user
 title: オーディエンスの追加
 description: Campaign v8 web ドキュメント
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 86%
+source-wordcount: '240'
+ht-degree: 85%
 
 ---
 
 # オーディエンスの選択 {#add-audience}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="既存オーディエンスの選択"
 >abstract="オーディエンスは、Adobe Campaign v8 コンソールで定義されます。Adobe Experience Platform 統合を使用できる場合は、Platform で定義されたオーディエンスも表示されます。"
-
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
 この節では、メール配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。新しいオーディエンスを作成する場合は、[こちら](segment-builder.md)を参照してください。
 

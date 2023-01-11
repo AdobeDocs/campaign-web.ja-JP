@@ -3,18 +3,16 @@ audience: end-user
 title: リンクのスタイルの定義
 description: リンクのスタイルを定義する方法を学ぶ
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '141'
 ht-degree: 100%
 
 ---
 
 # リンクのスタイルの定義 {#styling-links}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 メールデザイナーでは、リンクに下線を引き、その色とターゲットを選択できます。
 

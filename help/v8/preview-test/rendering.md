@@ -3,18 +3,16 @@ audience: end-user
 title: E メールのレンダリングをテスト
 description: Campaign v8 web ドキュメント
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 19%
+source-wordcount: '153'
+ht-degree: 9%
 
 ---
 
 # E メールのレンダリングをテストする {#rendering}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 E メールを送信する前に、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
 

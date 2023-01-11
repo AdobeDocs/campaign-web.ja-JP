@@ -3,23 +3,21 @@ audience: end-user
 title: E メールの準備と送信
 description: Campaign v8 web ドキュメント
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 12%
+source-wordcount: '521'
+ht-degree: 9%
 
 ---
 
 # メールの準備と送信 {#prepare-send}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="メールの準備と送信"
 >abstract="メールの準備方法と KPI の送信に関する詳細を確認します。"
-
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
 
 <!--
 

@@ -3,18 +3,16 @@ audience: end-user
 title: セグメントビルダーの操作
 description: Campaign v8 web ドキュメント
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 78%
+source-wordcount: '540'
+ht-degree: 77%
 
 ---
 
 # ルールビルダーを使用したオーディエンスの定義 {#segment-builder}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 この節では、新しいメールをデザインする際にオーディエンスを作成する方法について説明します。作成したオーディエンスは、このメールでのみ使用できます。
 

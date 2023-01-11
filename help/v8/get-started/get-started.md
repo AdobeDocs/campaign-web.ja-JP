@@ -3,18 +3,16 @@ audience: end-user
 title: 基本を学ぶ
 description: Campaign v8 web ドキュメント
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 74%
+source-wordcount: '313'
+ht-degree: 72%
 
 ---
 
 # 基本を学ぶ {#get-started}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 <!--
 V8 web overview

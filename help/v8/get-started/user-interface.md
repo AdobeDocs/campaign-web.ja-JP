@@ -3,18 +3,16 @@ audience: end-user
 title: インターフェイスについて説明します
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 55%
+source-wordcount: '1153'
+ht-degree: 54%
 
 ---
 
 # インターフェイスについて説明します {#user-interface}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"

@@ -3,18 +3,16 @@ audience: end-user
 title: 最初のメールの作成
 description: Campaign v8 web ドキュメント
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1155'
 ht-degree: 84%
 
 ---
 
 # 最初のメールの送信 {#first-email}
 
->[!NOTE]
->
->このドキュメントは作成中で、頻繁に更新されています。 このコンテンツの最終バージョンは、2023年1月に用意できます。
+![](../assets/do-not-localize/badge.png)
 
 このユースケースでは、最初のメールの作成方法を示します。シルバーロイヤルティ顧客とゴールドロイヤルティ顧客に対して特定の日にメールを送信するようスケジュールを設定します。このメールは、事前定義済みテンプレートを使用してデザインされ、プロファイルの属性を使用してパーソナライゼーションを組み込みます。
 
