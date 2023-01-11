@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: E メールデザイナーでの E メールのデザイン
+title: 電子メールデザイナーでのメールの設計
 description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 

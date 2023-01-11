@@ -6,7 +6,7 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 >title="オファーの詳細設定"
 >abstract="TBC"
 
-Adobe Campaign v8 Web では、 **[!UICONTROL インタラクション]** モジュール。 インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign V8 のドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)を参照してください。
+Adobe Campaign v8 Web では、 **[!UICONTROL インタラクション]** モジュール。 インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign V8 のドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja)を参照してください。
 
 メールでオファーを送信する手順は、次のとおりです。
 

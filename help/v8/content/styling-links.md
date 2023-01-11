@@ -4,7 +4,7 @@ title: リンクのスタイルの定義
 description: リンクのスタイルを定義する方法を学ぶ
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 

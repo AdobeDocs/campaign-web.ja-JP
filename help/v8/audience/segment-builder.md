@@ -6,7 +6,7 @@ exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 77%
 
 ルールビルダーを使用すると、データベースに含まれるデータをフィルタリングすることで、メッセージのターゲットとなる母集団を定義できます。 既存のオーディエンスを選択する場合は、この[節](add-audience.md)を参照してください。
 
-ルールビルダーについて詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+ルールビルダーについて詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja).
 
 メールのデザイン時に新しいオーディエンスを作成するには、次の手順に従います。
 
