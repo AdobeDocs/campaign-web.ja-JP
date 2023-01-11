@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスについて
 description: オーディエンスについて
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '134'
+ht-degree: 82%
 
 ---
 
@@ -42,7 +42,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-コンテンツを設計したら、メールのオーディエンスを定義する必要があります。これが配信のターゲットであり、メールを受信するプロファイルです。
+コンテンツを設計したら、メールのオーディエンスを定義する必要があります。これが配信のターゲットであり、E メールを受信する受信者です。 オーディエンスのタイプは、ターゲットマッピングによって異なります。
 
 オーディエンスを定義するには、次の操作を実行します。
 
