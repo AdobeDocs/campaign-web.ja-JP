@@ -3,7 +3,7 @@ audience: end-user
 title: 基本を学ぶ
 description: Campaign v8 web ドキュメント
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 24%
@@ -30,7 +30,7 @@ only existing customers
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。
 
-最初は、リッチでのみ利用可能 [クライアントコンソール](#ac-client)の Campaign は、ユーザーエクスペリエンスを大幅に改善するための新しい Web ユーザーインターフェイスと、より使いやすく、アクセシビリティと新しいデザインを提供するようになりました。 この新しい最新の UI は、マーケティングキャンペーンの設計と配信を簡素化し、Adobe Experience Platformなどの他のAdobeソリューションとの一貫性を保ちます。
+最初は、リッチでのみ利用可能 [クライアントコンソール](#ac-client)の Campaign は、ユーザーエクスペリエンスを大幅に改善するための新しい Web ユーザーインターフェイスと、より使いやすく、アクセシビリティと新しいデザインを提供するようになりました。 この新しい最新の UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platformを含む他のAdobeソリューションと共に一貫性を保ちます。
 
 
 ![](assets/home.png)
