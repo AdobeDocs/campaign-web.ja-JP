@@ -5,9 +5,9 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '168'
 ht-degree: 91%
 
 ---
@@ -54,5 +54,5 @@ ht-degree: 91%
 + メールの送信と監視 {#monitor}
    + [メールの準備と送信](monitor/prepare-send.md)
    + [配信ログの監視](monitor/delivery-logs.md)
+   + [メール配信設定](advanced-settings/delivery-settings.md)
 + [レポート](reporting/reports.md)
-+ [詳細設定](advanced-settings/delivery-settings.md)
