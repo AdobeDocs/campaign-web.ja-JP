@@ -3,10 +3,10 @@ audience: end-user
 title: 基本を学ぶ
 description: Campaign v8 web ドキュメント
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 72%
+source-wordcount: '374'
+ht-degree: 24%
 
 ---
 
@@ -30,53 +30,36 @@ only existing customers
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。
 
-コンソールで利用できる既存の機能に加えて、マーケティングキャンペーンの設計と配信を簡素化し、Adobe Experience Platformとの一貫性を保つ新しい最新の Web ベースのユーザーインターフェイスを構築しました。
+最初は、リッチでのみ利用可能 [クライアントコンソール](#ac-client)の Campaign は、ユーザーエクスペリエンスを大幅に改善するための新しい Web ユーザーインターフェイスと、より使いやすく、アクセシビリティと新しいデザインを提供するようになりました。 この新しい最新の UI は、マーケティングキャンペーンの設計と配信を簡素化し、Adobe Experience Platformなどの他のAdobeソリューションとの一貫性を保ちます。
 
-## アルファ機能
 
-この Web インターフェイスは、現在、次の機能を持つ Alpha 専門家のみが使用できます。
+![](assets/home.png)
 
-**最新の直感的で統一されたエクスペリエンス**
+この新しい UI は、まず **営業者**  — この最初のバージョンでは、一般的な管理タスクはすべて使用できませんが、以降のバージョンでは対処します。 新しい UI では、クライアントコンソールで利用できるすべての機能やオプションが利用できるわけではありません。 新しい使用例、オプションおよび機能は、今後のリリースで利用できるようになります。
 
-* 単一の共有ユーザーセッションを使用して、新しいインターフェイスや他のアプリケーションにアクセス
-* Unified Shell の統合：コミュニティ学習、ヘルプセンター、ソリューションスイッチャーへのアクセス
-<!--
-No search and pulse notifications in Alpha
--->
-* 左側のメニューとフォルダーを使用して新しいナビゲーションを体験する
+Web UI で使用できない Campaign v8 機能にアクセスする必要がある場合は、 [クライアントコンソール](#ac-client).
 
-**メールキャンペーンの作成、開始、測定**
+## Campaign クライアントコンソールについて{#ac-client}
 
-* E メールデザイナーでパーソナライズされた E メールコンテンツをデザイン
-* ルールビルダーを使用したターゲットオーディエンスの定義
-* メールメッセージのプレビュー、テスト、送信
-* ビルトインレポートを使用した送信の監視および結果の測定
+Campaign クライアントコンソールは、お使いのシステムにインストールされているブラウザーベースのアプリケーションです。 Web サービス API を使用して、Campaign アプリケーションサーバーに接続します。
 
-<!--
-add info somewhere to remind users that
-* they still have access to their console (+ link to v8 console doc)
-* they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
--->
+でクライアントコンソールをダウンロードしてインストールする方法を説明します。 [この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
->[!NOTE]
->
->クロスチャネルのキャンペーンとワークフロー管理機能は、ベータ版プログラムで使用できるようになります。
+Campaign v8 の使用方法について詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}.
 
-## クライアントコンソール
-
-Web UI で使用できない Campaign v8 機能を使用する必要がある場合は、クライアントコンソールを使用できます。Campaign v8 の使用方法について詳しくは、[ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja)を参照してください。
-
-データはコンソールと web UI の間で共有されます。例えば、コンソールを使用して配信テンプレートを作成した場合、web インターフェイスで使用できます。
+キャンペーンデータは、アプリケーションサーバーに保存されます。 データは、クライアントコンソールと Web UI の両方から使用できます。 例えば、クライアントコンソールを使用して配信テンプレートを作成した場合、Web UI でも使用できます。 また、Web UI で E メール配信を作成した場合、この配信はクライアントコンソールからもアクセスできます。
 
 ## Campaign への接続
 
 ![](assets/connect.png)
 
-1. [Adobe Experience Cloud](http://experience.adobe.com) に接続します。
+1. 接続先 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Adobe の資格情報を使用してログインします。
 1. 「**クイックアクセス**」セクションで、「**Campaign**」をクリックします。
+1. 次のページで、 **起動** 」ボタンをクリックします。
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
 -> or Campaign v8 web if direct URL
 -->
+
