@@ -3,7 +3,7 @@ audience: end-user
 title: 基本を学ぶ
 description: Campaign v8 web ドキュメント
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
+source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 24%
@@ -51,11 +51,12 @@ Campaign v8 の使用方法について詳しくは、 [ドキュメント](http
 
 ## Campaign への接続
 
-![](assets/connect.png)
 
 1. 接続先 [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Adobe の資格情報を使用してログインします。
 1. 「**クイックアクセス**」セクションで、「**Campaign**」をクリックします。
+   ![](assets/connect.png)
+
 1. 次のページで、 **起動** 」ボタンをクリックします。
 
 <!--
