@@ -3,7 +3,7 @@ audience: end-user
 title: オーディエンスの追加
 description: Campaign v8 web ドキュメント
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 85%
@@ -33,7 +33,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >Adobe Experience Platformオーディエンスを活用するには、宛先との統合を設定する必要があります。 詳しくは、 [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja).
+   >Adobe Experience Platformオーディエンスを活用するには、宛先との統合を設定する必要があります。 詳しくは、 [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}.
 
 1. オーディエンスを選択し、「**選択**」をクリックします。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 基本を学ぶ
 description: Campaign v8 web ドキュメント
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 24%
+source-wordcount: '391'
+ht-degree: 23%
 
 ---
 
@@ -58,6 +58,7 @@ Campaign v8 の使用方法について詳しくは、 [ドキュメント](http
    ![](assets/connect.png)
 
 1. 次のページで、 **起動** 」ボタンをクリックします。
+これで、Campaign に連携しました。 でユーザーインターフェイスの使用を開始する方法を説明します。 [このページ](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8

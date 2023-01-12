@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールの作成
 description: Campaign v8 web ドキュメント
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 85%
+source-wordcount: '1153'
+ht-degree: 84%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >テンプレートとは、再利用するためにテンプレートとして保存された特定の配信設定です。配信テンプレートは、Adobe Campaign コンソールで管理者ユーザーが設定します。詳しくは、[配信テンプレートの使用方法](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=ja){target=&quot;_blank&quot;}を参照してください。
+   >テンプレートとは、再利用するためにテンプレートとして保存された特定の配信設定です。配信テンプレートは、Adobe Campaign コンソールで管理者ユーザーが設定します。[配信テンプレートの使用方法を説明します。](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -116,7 +116,7 @@ ht-degree: 85%
    >
    >リストで使用可能なオーディエンスは、Campaign V8 インスタンスから、またはインスタンスで宛先/ソースの統合が設定されている場合はAdobe Experience Platformから作成されます。
    >
-   >宛先/ソースの統合により、Experience PlatformセグメントをAdobe Campaignに送信したり、キャンペーンの配信とトラッキングログをAdobe Experience Platformに送信したりできます。 [Campaign とAdobe Experience Platformの連携の仕組み](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
+   >宛先/ソースの統合により、Experience PlatformセグメントをAdobe Campaignに送信したり、キャンペーンの配信とトラッキングログをAdobe Experience Platformに送信したりできます。 [Campaign とAdobe Experience Platformの連携の仕組み](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. オーディエンスを選択したら、追加のルールを使用してターゲットを絞り込むことができます。
 
@@ -161,7 +161,7 @@ ht-degree: 85%
 
 1. メールの配達確認を送信するには、「**[!UICONTROL テスト]**」ボタンをクリックして、配達確認を受信するプロファイルを選択します。
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 
