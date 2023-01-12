@@ -3,10 +3,10 @@ audience: end-user
 title: メールコンテンツの編集
 description: Campaign v8 web ドキュメント
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 77%
+source-wordcount: '308'
+ht-degree: 71%
 
 ---
 
@@ -59,7 +59,7 @@ E メールのコンテンツの作成を開始するには、 **[!UICONTROL コ
 
    <!--limitation on size + number of files?-->
 
-1. デフォルトでは、開封数およびクリック数のメールトラッキングログが有効になっています。これらのオプションを無効にするには、「**[!UICONTROL オプション機能]**」セクションで選択を解除します。詳しくは、[リンクを追加しトラッキングを管理する方法](message-tracking.md)を参照してください。
+1. デフォルトでは、配信に対してトラッキングが有効になっています。 このオプションは、 **[!UICONTROL オプション機能]** 」セクションに入力します。 詳しくは、[リンクを追加しトラッキングを管理する方法](message-tracking.md)を参照してください。
 
 メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。詳しくは、[メールのプレビューとテストの方法](../preview-test/preview-test.md)を参照してください。
 
