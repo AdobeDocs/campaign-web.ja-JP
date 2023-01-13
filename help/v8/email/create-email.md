@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールの送信
 description: Campaign Web UI での最初のメールの送信方法を説明します
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 83%
+source-wordcount: '1268'
+ht-degree: 67%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 83%
 
 1. **[!UICONTROL 配信]**&#x200B;メニューから新しい配信を作成します。
 
-1. **[!UICONTROL メール]**&#x200B;チャネルと使用するテンプレートを選択し、「**[!UICONTROL 作成]**」をクリックします。
+1. を選択します。 **[!UICONTROL 電子メール]** チャネルと使用するテンプレートを選択し、「 **[!UICONTROL 配信を作成]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ ht-degree: 83%
    * **[!UICONTROL 配信コード]**：このフィールドを使用すると、独自の命名規則に基づいて配信を整理できます。
    * **[!UICONTROL 説明]**：配信の説明を指定します。
    * **[!UICONTROL 特性]**：分類目的でメールの特性を指定します。<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >特定のカスタムフィールドを使用してスキーマを拡張した場合は、 「**[!UICONTROL カスタムオプション]**」セクションでそれらのフィールドにアクセスできます。
@@ -79,7 +78,7 @@ ht-degree: 83%
 
    メールコンテンツの作成に使用する方法を選択します。この例では、既存のデザインテンプレートを使用します。
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ ht-degree: 83%
 
    ![](assets/add-perso.png)
 
-1. コンテンツの準備が整ったら、それを保存してから、矢印をクリックしてメール作成画面に戻ります。
+1. コンテンツの準備が整ったら、デザインを保存して閉じ、「 」をクリックします。 **[!UICONTROL 保存]** をクリックして、e メール作成画面に戻ります。
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ ht-degree: 83%
 
    また、コントロール母集団を設定して、ターゲットされていないプロファイルの動作と比較した、メール受信者の行動を分析することもできます。[詳しくは、コントロール母集団の操作方法を参照してください](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## 送信のスケジュール設定 {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ ht-degree: 83%
 
 メールの準備が整ったら、送信を開始する前に、プレビューおよびテストできます。
 
-この使用例では、E メールをプレビューし、既存のプロファイルを使用して配達確認を送信します。
+この使用例では、ターゲットプロファイルの一部を偽装しているときに、E メールをプレビューし、特定の E メールアドレスに配達確認を送信します。
 
 メールのプレビューおよびテスト方法に関する追加情報については、 [この節](../preview-test/preview-test.md)を参照してください。
 
-1. 「**[!UICONTROL レビューして送信]**」をクリックします。メールのプレビューが、設定済みのすべてのプロパティ、オーディエンス、スケジュールと共に表示されます。変更ボタンを使用して、これらの要素を編集できます。
+1. クリック **[!UICONTROL 確認して送信]**. メールのプレビューが、設定済みのすべてのプロパティ、オーディエンス、スケジュールと共に表示されます。変更ボタンを使用して、これらの要素を編集できます。
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして、メールをプレビューし、配達確認を送信します。
 
@@ -159,21 +160,25 @@ ht-degree: 83%
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. メールの配達確認を送信するには、「**[!UICONTROL テスト]**」ボタンをクリックして、配達確認を受信するプロファイルを選択します。
+1. E メールの配達確認を送信するには、 **[!UICONTROL テスト]** ボタンをクリックして、配達確認の送信に使用するモードを選択します。
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   この例では、「メインターゲットから代替」モードを使用します。つまり、配信のターゲットとなる一部のプロファイルを偽装しながら、特定の E メールアドレスに配達確認を送信します。
 
-   この例では、特定のテストプロファイル（ターゲットに含まれていないシードアドレス）に配達確認を送信します。でのシードアドレスの使用方法を説明します。 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html?lang=ja){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. 「アドレスを追加」をクリックし、配達確認を受信する電子メールアドレスを指定します。
+
+   各電子メールアドレスに対して、別のユーザーとして実行するターゲットからプロファイルを選択します。 また、Adobe Campaign にターゲットからランダムプロファイルを選択させることもできます。
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >また、ターゲットプロファイルの一部を偽装し、選択したメールアドレスに配達確認メッセージを送信することで、メッセージをテストすることもできます。[詳しくは、配達確認の送信方法を参照してください](../preview-test/preview-test.md)
-
 1. 「**[!UICONTROL テストメールを送信]**」をクリックし、送信を確認します。
 
-   配達確認を送信したら、「**[!UICONTROL テストメールログを表示]**」ボタンをクリックすると、ステータスを確認できます。
+   配達確認は、選択したプロファイルを使用して指定した E メールアドレスに、 **[配達確認 x]** プレフィックス
+
+   ![](assets/proof-sent.png)
+
+   送信のステータスを確認し、送信済みの配達確認にいつでもアクセスするには、 **[!UICONTROL テストメールログを表示]** 「コンテンツをシミュレート」画面の「 」ボタン
 
 ## メールの送信と監視 {#prepare-send}
 
@@ -183,11 +188,15 @@ ht-degree: 83%
 
    ![](assets/preparation.png)
 
-1. メールを送信する準備が整ったら、「**[!UICONTROL 送信]**」をクリックし、送信を確認します。
+1. E メールを送信する準備が整ったら、「 **[!UICONTROL 送信]** または **[!UICONTROL 予定どおりに送信]** 次に、送信を確定します。
 
-   送信を統計と共にリアルタイムで追跡できます。また、「**[!UICONTROL ログ]**」ボタンを使用すると、メール送信に関する詳細情報にアクセスできます。[詳しくは、配信ログの監視方法を参照してください](../monitor/delivery-logs.md)
-   ![](assets/logs.png)
+1. E メールの送信が開始されたら、即座に、またはスケジュールされた日に、この画面で E メールの送信を統計と共にリアルタイムで追跡できます。
 
-1. メールの送信後、詳細な分析のために専用の[レポート](../reporting/reports.md)にアクセスできます。
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >また、「**[!UICONTROL ログ]**」ボタンを使用すると、メール送信に関する詳細情報にアクセスできます。[詳しくは、配信ログの監視方法を参照してください](../monitor/delivery-logs.md)
+
+1. メールの送信後、詳細な分析のために専用のレポートにアクセスできます。[レポートの操作方法を説明します。](../reporting/reports.md)
    ![](assets/reports.png)
