@@ -5,9 +5,9 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
+source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 93%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 93%
       + [リンクのスタイルの定義](content/styling-links.md)
       + [インラインスタイル属性を追加する](content/inline-styling.md)
    + コンテンツのパーソナライズ {#personalize}
-      + [パーソナライゼーションの基本を学ぶ](personalization/personalize.md)
+      + [パーソナライゼーションの追加](personalization/personalize.md)
    + [オファーの送信](content/offers.md)
 + メールオーディエンスの選択 {#audience}
    + [オーディエンスについて](audience/about-audiences.md)
