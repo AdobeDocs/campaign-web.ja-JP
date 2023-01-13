@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: オーディエンスについて
-description: オーディエンスについて
+title: オーディエンスの概要
+description: Campaign Web UI でのオーディエンスの使用方法を説明します
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 59%
+source-wordcount: '128'
+ht-degree: 56%
 
 ---
 
-# オーディエンスについて {#about-audiences}
+# オーディエンスの概要 {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 

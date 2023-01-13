@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 基本を学ぶ
-description: Campaign v8 web ドキュメント
+title: 基本を学ぶ Campaign v8 Web を使用
+description: Campaign v8 Web の概要
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 23%
+source-wordcount: '401'
+ht-degree: 20%
 
 ---
 
-# 基本を学ぶ {#get-started}
+# Campaign v8 Web の概要 {#get-started}
 
 ![](../assets/do-not-localize/badge.png)
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 配信ログの監視
-description: Campaign v8 web ドキュメント
+description: 詳しくは、配信ログの監視方法を参照してください
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
