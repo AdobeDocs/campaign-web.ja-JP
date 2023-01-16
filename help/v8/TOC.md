@@ -5,9 +5,9 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: e67f941d59b38a5dfa5985cacfc7403314e9c71f
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 + [Campaign v8 web ドキュメント](campaign-web-home.md)
 + 新機能{#whats-new}
-   + [最新のリリースノート](rn/release-notes.md)
+   + [リリースノート](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
 + [基本を学ぶ](get-started/get-started.md)
 + [インターフェイスについて説明します](get-started/user-interface.md)

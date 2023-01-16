@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8 リリースノート
 description: Campaign Web v8 リリースノート
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 28%
+source-wordcount: '195'
+ht-degree: 12%
 
 ---
 
@@ -22,16 +22,21 @@ ht-degree: 28%
 
 **最新の直感的で統一されたエクスペリエンス**
 
+Campaign の新しい Web UI は、すべてのAdobe Experience Cloudソリューションやアプリと連携した、新しいユーザーエクスペリエンスを提供します。 以下を提供します。
+
 * 単一の共有ユーザーセッションで新しいインターフェイスやその他のAdobeソリューションにアクセス
-* Unified Shell の統合：コミュニティ学習、ヘルプセンター、ソリューションスイッチャーへのアクセス
+* 左側のパネルからすべてのメニューとフォルダーを使用できるようになり、新しいナビゲーションエクスペリエンスが実現しました。
+* 上部バーのソリューションおよび組織の切り替えツール
+* コミュニティ、ヘルプセンター、サポートへの直接アクセスを備えた統合シェル統合
 <!--
 No search and pulse notifications in Alpha
 -->
-* 左側のメニューとフォルダーを使用して新しいナビゲーションを体験する
 
 新しい UI について詳しくは、 [このページ](../get-started/user-interface.md).
 
 **メールキャンペーンの作成、開始、測定**
+
+新しいキャンペーン Web UI を使用して、次の操作を実行できます。
 
 * E メールデザイナーでパーソナライズされた E メールコンテンツをデザイン — [詳細情報](../content/edit-content.md)
 * ルールビルダーを使用してターゲットオーディエンスを定義する — [詳細情報](../audience/about-audiences.md)
@@ -46,4 +51,4 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->クロスチャネルのキャンペーンとワークフロー管理機能は、ベータ版プログラムで使用できるようになります。
+>クロスチャネルキャンペーンとワークフロー管理機能は、ベータ版リリースで利用できるようになります。
