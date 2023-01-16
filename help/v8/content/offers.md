@@ -3,10 +3,10 @@ audience: end-user
 title: オファーの送信
 description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 91%
+source-wordcount: '513'
+ht-degree: 78%
 
 ---
 
@@ -33,11 +33,13 @@ Adobe Campaign v8 Web では、 **[!UICONTROL インタラクション]** モジ
 
 ## 提案するオファーの設定 {#configure}
 
-メールで提案するオファーを選択するには、メールコンテンツの編集画面から「**[!UICONTROL オファー]**」ボタンをクリックし、提案するオファーを設定します。
+1. E メールで提案するオファーを選択するには、 **[!UICONTROL オファー]** ボタンをクリックします。
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. オファー環境に合致する&#x200B;**[!UICONTROL オファースペース]**&#x200B;を選択します。
+1. 受信者に提案するオファーを設定します。 まず、 **[!UICONTROL オファースペース]** がオファー環境に一致することを確認します。
+
+   ![](assets/create-content-offers.png)
 
 1. エンジンのオファー選択を調整するには、オファーを並べ替える特定の&#x200B;**[!UICONTROL オファーカテゴリ]**&#x200B;を選択します。
 
@@ -67,10 +69,10 @@ Adobe Campaign v8 Web では、 **[!UICONTROL インタラクション]** モジ
 
 ## メールへのオファーの挿入 {#insert}
 
-オファーは、式エディターを使用してメールに追加されます。次のいずれかに挿入できます。
+オファーは、式エディターを使用して E メールに追加できます。 次のいずれかに挿入できます。
 
-* メールの件名
-*  メール本文（任意のコンテンツコンポーネントでパーソナライゼーションを許可することで）詳しくは、[コンテンツコンポーネントの追加方法](content-components.md)を参照してください。
+* 電子メールの件名行で、
+* 任意のコンテンツコンポーネントでパーソナライゼーションを許可することで、E メールの本文に表示します。 詳しくは、[コンテンツコンポーネントの追加方法](content-components.md)を参照してください。
 
 >[!NOTE]
 >
