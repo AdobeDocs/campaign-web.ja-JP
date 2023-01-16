@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign Web v8 リリースノート
 description: Campaign Web v8 リリースノート
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
+source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 **最新の直感的で統一されたエクスペリエンス**
 
-Campaign の新しい Web UI は、すべてのAdobe Experience Cloudソリューションやアプリと連携した、新しいユーザーエクスペリエンスを提供します。 以下を提供します。
+Campaign の新しい Web UI は、すべてのAdobe Experience Cloudソリューションおよびアプリと連携した、新しいユーザーエクスペリエンスを提供します。 以下を提供します。
 
 * 単一の共有ユーザーセッションで新しいインターフェイスやその他のAdobeソリューションにアクセス
 * 左側のパネルからすべてのメニューとフォルダーを使用できるようになり、新しいナビゲーションエクスペリエンスが実現しました。
