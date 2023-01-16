@@ -3,7 +3,7 @@ audience: end-user
 title: コントロール母集団の設定
 description: Campaign Web UI でメッセージのコントロール母集団を設定する方法を説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 74%
@@ -64,7 +64,7 @@ ht-degree: 74%
 
    ![](assets/control-group5.png)
 
-* この **除外ログ** 各プロファイルと関連する実行を表示 **理由**.
+* この **除外ログ** 各プロファイルと関連する除外の表示 **理由**.
 
    ![](assets/control-group6.png)
 

@@ -3,7 +3,7 @@ audience: end-user
 title: メールの準備と送信
 description: Campaign Web UI で E メールを準備して送信する方法を説明します
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 83%
@@ -34,7 +34,7 @@ send also KPIs
 
 ## 送信の準備{#prepare}
 
-コンテンツ、オーディエンスおよびスケジュールを定義したら、メッセージの準備を始めます。準備段階では、ターゲット母集団を計算し、ターゲットに含まれるプロファイルごとのメッセージコンテンツを生成します。準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。分析時に使用される検証ルールについて詳しくは、ここで説明します [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#validation-process-with-typologies){target="_blank"}.
+コンテンツ、オーディエンスおよびスケジュールを定義したら、メッセージの準備を始めます。準備段階では、ターゲット母集団を計算し、ターゲットに含まれるプロファイルごとのメッセージコンテンツを生成します。準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。分析時に使用される検証ルールについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#validation-process-with-typologies){target="_blank"}.
 
 以下の手順に従います。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスについて説明します
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 84%
+source-wordcount: '1166'
+ht-degree: 83%
 
 ---
 
@@ -97,6 +97,10 @@ Navtree view depends on permissions (same as console).
 * **キャンペーン** - キャンペーンのリストです。デフォルトでは、変更の開始日／終了日／最終更新日およびステータスを表示できます。リストは、ステータスまたは開始日／終了日でフィルタリングできます。キャンペーンテンプレートも使用できます。これらのリストは読み取り専用です。
 
 * **配信** - 配信のリストを閲覧できます。デフォルトでは、配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開くので、配信の詳細を大まかに確認できます。他のチャネルでの配信は読み取り専用です。配信テンプレートも読み取り専用モードで使用できます。これらは、クライアントコンソールを使用して編集できます。参照 [ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+
+   以下を使用： **その他のアクション** ボタンを使用して配信を削除または複製します。
+
+   ![](assets/more-actions.png){width="70%" align="left"}
 
 ### 顧客管理
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 配信ログの監視
 description: 詳しくは、配信ログの監視方法を参照してください
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 85%
 
 ---
 
@@ -45,13 +45,13 @@ ht-degree: 100%
 
 ## 除外
 
-「**除外ログ**」タブには、送信されたターゲットから除外されたすべてのメッセージがリスト表示され、送信が失敗した理由を特定します。
+この **除外ログ** 「 」タブには、ターゲットから除外されたすべてのメッセージのリストが表示され、送信が失敗した理由を特定します。
 
 ![](assets/logs3.png)
 
 ## 除外の原因
 
-「**除外の原因**」タブには、ターゲット送信から除外されたメッセージの量（メッセージ数）が表示されます。
+この **除外の原因** 「 」タブには、ターゲットから除外されたメッセージの量（メッセージ数）が表示されます。
 
 ![](assets/logs4.png)
 
