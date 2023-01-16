@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: プレビューと配達確認について
-description: メッセージをプレビューし、配達確認を送信する方法を説明します
+title: プレビューとテストについて
+description: メッセージのプレビューと E メールのテスト方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 14%
+source-wordcount: '110'
+ht-degree: 7%
 
 ---
 
-# プレビューと配達確認について {#about-preview-proofs}
+# プレビューとテスト用の E メールについて {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,7 +21,7 @@ E メールを送信する前に、コンテンツを確認してテストし、
 * [E メールのコンテンツとパーソナライゼーションのプレビュー](#preview),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [配達確認を送信](#send-proofs) を特定の受信者に送信して、テストおよび検証をおこないます。
+* [テストメールの送信](#send-proofs) を特定の受信者に送信して、テストおよび検証をおこないます。
 
 これらのアクションは、 **[!UICONTROL コンテンツをシミュレート]** 電子メールデザイナーからの電子メールのコンテンツを作成する際にアクセス可能なボタン：
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 配信ログの監視
 description: 詳しくは、配信ログの監視方法を参照してください
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 85%
+source-wordcount: '295'
+ht-degree: 81%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 85%
 
 ## 配信
 
-「**配信**」タブには、この配信のすべての発生履歴が表示されます。送信されたメッセージのリストとそのステータスがここに保存されます。各受信者の配信ステータスを表示できます。
+この **ログの送信** 「 」タブには、この配信のすべての発生履歴が表示されます。 送信されたメッセージのリストとそのステータスがここに保存されます。各受信者の配信ステータスを表示できます。
 
 ![](assets/logs2.png)
 

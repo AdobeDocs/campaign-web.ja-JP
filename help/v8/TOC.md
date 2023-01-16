@@ -5,10 +5,10 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 93%
+source-wordcount: '165'
+ht-degree: 90%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 93%
    + [コントロール母集団の設定](audience/control-group.md)
    + [ルールビルダーを使用したオーディエンスの定義](audience/segment-builder.md)
 + メールのプレビューとテスト {#preview-test}
-   + [プレビューと配達確認について](preview-test/preview-test.md)
+   + [プレビューとテストについて](preview-test/preview-test.md)
    + [メールコンテンツのプレビュー](preview-test/preview-content.md)
-   + [配達確認の送信](preview-test/proofs.md)
+   + [テストメールを送信](preview-test/proofs.md)
 + メールの送信と監視 {#monitor}
    + [メールの準備と送信](monitor/prepare-send.md)
    + [配信ログの監視](monitor/delivery-logs.md)

@@ -3,10 +3,10 @@ keywords: Campaign web;ホーム;人気のトピック
 description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: e9afb17fc06de45d0557301b1d3e5a205f23836d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 47%
+source-wordcount: '120'
+ht-degree: 46%
 
 ---
 
@@ -53,7 +53,7 @@ Campaign は、ユーザーエクスペリエンスを大幅に向上させる�
 <img alt="検証" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>配達確認のテストと送信</strong></a>
+<a href="preview-test/proofs.md"><strong>E メールのプレビューとテスト</strong></a>
 </div>
 <p>
 </td>
