@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8 リリースノート
 description: Campaign Web v8 リリースノート
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
+source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 12%
+source-wordcount: '288'
+ht-degree: 8%
 
 ---
 
@@ -52,3 +52,12 @@ add info somewhere to remind users that
 >[!NOTE]
 >
 >クロスチャネルキャンペーンとワークフロー管理機能は、ベータ版リリースで利用できるようになります。
+
+## 用語の更新
+
+既存の Campaign ユーザーの場合、一部の概念は、業界の最新の用語標準に合わせて名前が変更されています。 これらの変更は Web UI にのみ適用され、クライアントコンソールには反映されません。 以下に要約します。
+
+* 配達確認が **メールのテスト**. 配達確認を送信するには、 **テスト** ボタンをクリックして、E メール配信 UI を
+* 配信分析が **配信準備**. 分析を開始する必要がある場合は、 **準備** ボタン
+* メールプレビューを **コンテンツをシミュレート** ボタン
+* リストが **オーディエンス**
