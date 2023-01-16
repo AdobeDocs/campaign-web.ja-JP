@@ -3,10 +3,10 @@ audience: end-user
 title: メールコンテンツの編集
 description: Campaign Web UI で E メールコンテンツを編集する方法を説明します
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 68%
+source-wordcount: '331'
+ht-degree: 70%
 
 ---
 
@@ -56,6 +56,8 @@ E メールのコンテンツの作成を開始するには、 **[!UICONTROL コ
    * [コンテンツのスタイル設定](get-started-email-style.md)
 
 1. メールにファイルを添付する場合は、「**[!UICONTROL 添付ファイルを追加]**」ボタンをクリックして、1 つまたは複数のファイルを選択します。
+
+   パフォーマンスの問題を回避するために、1 つの E メールに複数の添付ファイルを含めないことをお勧めします。
 
    <!--limitation on size + number of files?-->
 

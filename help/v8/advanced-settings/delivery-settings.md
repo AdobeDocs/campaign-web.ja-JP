@@ -3,10 +3,10 @@ audience: end-user
 title: メール配信設定
 description: Campaign Web UI での E メール配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 59%
+source-wordcount: '1468'
+ht-degree: 58%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 59%
 
 ![アルファ版](../assets/do-not-localize/badge.png)
 
-これらの設定は、 **技術的な配信パラメーター** 電子メールテンプレートで定義される。
+これらの設定は、 **技術的な配信パラメーター** 電子メールテンプレートで定義される。 これらは、 **配信設定の指定** e メール配信を編集する際に使用できるアイコン。
 
 ## メール配信設定 {#email-delivery-settings}
 
