@@ -3,9 +3,9 @@ audience: end-user
 title: テストメールを送信
 description: テストメールの定義と送信方法を説明します
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '540'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 テスト E メールは、次の 2 種類の受信者に送信できます。
 
-* **テストプロファイル**:シードアドレスにテストメールを送信します。シードアドレスは、データベース内の追加の架空の受信者です。
+* **テストプロファイル**:シードアドレスにテストメールを送信します。シードアドレスは、データベース内の追加の架空の受信者です。 これらは、Adobe Campaignコンソールの **[!UICONTROL リソース]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL シードアドレス]** フォルダー。
 
 * **メインターゲットからの代替**:既存のプロファイルを偽装しているときに、特定のメールアドレスにテストメールを送信します。 これにより、E メールを受信者と同じように体験し、プロファイルが受け取るメッセージを正確に表示できます。
 
