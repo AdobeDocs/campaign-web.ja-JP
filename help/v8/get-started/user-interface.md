@@ -3,7 +3,7 @@ audience: end-user
 title: インターフェイスについて説明します
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
+source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 88%
@@ -184,16 +184,26 @@ Campaign v8 Web は、Google Chrome、Safari およびMicrosoft Edge の最新�
 
 Campaign v8 Web は現在、次の言語で利用できます。
 
-* 英語（米国） — 米国
-* フランス語 — FR
-* ドイツ語 — DE
-* イタリア語 — IT
-* スペイン語 — ES
-* ポルトガル語（ブラジル） - PTBR
-* 日本語 — JP
-* 韓国語 — KR
-* 簡体字中国語 — CHS
-* 繁体字中国語 — CHT
+<table>
+<tr>
+<td>
+<p>英語（米国） — 米国</p>
+<p>フランス語 — FR</p>
+<p>ドイツ語 — DE</p>
+<p>イタリア語 — IT</p>
+</td>
+<td>
+<p>スペイン語 — ES</p>
+<p>ポルトガル語（ブラジル） - PTBR</p>
+<p>日本語 — JP</p>
+</td>
+<td>
+<p>韓国語 — KR</p>
+<p>簡体字中国語 — CHS</p>
+<p>繁体字中国語 — CHT</p>
+</td>
+</tr>
+</table>
 
 デフォルトのインターフェイス言語は、ユーザープロファイルで指定された優先言語によって決まります。
 
