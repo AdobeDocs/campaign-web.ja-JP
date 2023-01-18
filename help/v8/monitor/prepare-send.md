@@ -3,10 +3,10 @@ audience: end-user
 title: メールの準備と送信
 description: Campaign Web UI で E メールを準備して送信する方法を説明します
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 83%
+source-wordcount: '546'
+ht-degree: 80%
 
 ---
 
@@ -94,4 +94,4 @@ send also KPIs
    >
    >この **開封数** および **クリック数** 指標は 5 分後に更新されます。
 
-   送信はいつでも一時停止、再開できます。送信中に配信を停止した場合は、再開できません。
+   送信はいつでも一時停止、再開できます。配信の送信中に停止すると、再開できません。

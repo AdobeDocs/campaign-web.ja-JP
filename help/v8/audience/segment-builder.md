@@ -3,10 +3,10 @@ audience: end-user
 title: ルールビルダーを使用したオーディエンスの定義
 description: セグメントビルダーの操作方法を説明します。
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 76%
+source-wordcount: '545'
+ht-degree: 92%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 76%
 
 この節では、新しいメールをデザインする際にオーディエンスを作成する方法について説明します。作成したオーディエンスは、このメールでのみ使用できます。
 
-ルールビルダーを使用すると、データベースに含まれるデータをフィルタリングすることで、メッセージのターゲットとなる母集団を定義できます。 既存のオーディエンスを選択する場合は、この[節](add-audience.md)を参照してください。
+ルールビルダーを使用すると、 データベースに含まれるデータをフィルタリングすることで、メッセージのターゲットとなる母集団を定義できます。 既存のオーディエンスを選択する場合は、[こちら](add-audience.md)を参照してください。
 
-ルールビルダーについて詳しくは、 [セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja).
+ルールビルダーについて詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
 
 メールのデザイン時に新しいオーディエンスを作成するには、次の手順に従います。
 
@@ -38,19 +38,19 @@ ht-degree: 76%
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **オーディエンス**:このタブでは、Campaign ClassicコンソールまたはAdobe Experience Platformで定義された既存のオーディエンスの 1 つを使用して、フィルタリングすることができます。
+* **オーディエンス**：このタブでは、Campaign Classic コンソールまたは Adobe Experience Platform で定義された既存のオーディエンスの 1 つを使用してフィルタリングできます。
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
 
    >[!NOTE]
    >
-   >Adobe Experience Platformオーディエンスを活用するには、宛先との統合を設定する必要があります。 詳しくは、 [宛先ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}.
+   >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 [宛先に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}を参照してください。
 
 検索バーを使用して、要素をすばやく見つけることができます。
 
 ## キャンバス
 
-キャンバスは、パレットから追加された要素を基に、ルールを設定したり組み合わせたりできる中央ゾーンです。新しいルールを追加するには、パレットからタイルをドラッグし、キャンバスにドロップします。 追加するデータのタイプに応じて、コンテキスト固有のオプションが表示されます。
+キャンバスは、パレットから追加された要素を基に、ルールを設定したり組み合わせたりできる中央ゾーンです。新しいルールを追加するには、パレットからタイルをドラッグし、キャンバスにドロップします。 追加するデータのタイプに応じて、コンテキスト固有のオプションを表示できます。
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -89,7 +89,7 @@ ht-degree: 76%
 
    ![](assets/segment-builder10.png)
 
-1. 「**結果を表示**」をクリックすると、クエリに一致する受信者のリストと数が表示されます。また、列を追加して、データを視覚化および確認することもできます。 この例では、 **市区町村** アトランタとシアトルを見てみましょう。
+1. 「**結果を表示**」をクリックすると、クエリに一致する受信者のリストと数が表示されます。また、列を追加し、データを視覚化して確認することもできます。 この例では、**市区町村**&#x200B;列を追加すると、アトランタとシアトルが表示されます。
 
    ![](assets/segment-builder11.png)
 

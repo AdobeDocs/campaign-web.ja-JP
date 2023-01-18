@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスについて説明します
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 83%
+source-wordcount: '1164'
+ht-degree: 98%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="インターフェイスについて説明します"
->abstract="新しい Campaign v8 Web インターフェイスは、統合され、直感的で一貫性のあるユーザーエクスペリエンスを提供します。"
+>abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
-新しい Campaign v8 Web インターフェイスは、マーケティングキャンペーンの設計と配信をシンプル化する、最新で直感的なユーザーエクスペリエンスを提供します。 この新しいインターフェイスは、Adobe Experience Platformと統合されています。
+新しい Campaign v8 web インターフェイスは、マーケティングキャンペーンのデザインと配信を簡素化する、最新の直感的なユーザーエクスペリエンスを提供します。この新しいインターフェイスは、Adobe Experience Platform と統合されています。
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -37,13 +37,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## 左側のナビゲーションメニュー
 
-左側のリンクを参照して、Campaign v8 Web 機能にアクセスします。 いくつかのリンクを選択すると、並べ替えやフィルタリングが可能なオブジェクトのリストが表示されます。また、必要なすべての情報を表示するように列を設定することもできます。[こちら](#list-screens)を参照してください。メール配信リストを除く、すべてのリスト画面は読み取り専用です。アルファバージョンでは、リスト項目をクリックして編集／表示することはできません。すべてのリストは、ベータ版および GA 版で編集可能になります。 左側のナビゲーションメニューに表示される項目は、ユーザー権限によって異なります。
+左側のリンクを参照すると、Campaign v8 web 機能にアクセスできます。いくつかのリンクを選択すると、並べ替えやフィルタリングが可能なオブジェクトのリストが表示されます。また、必要なすべての情報を表示するように列を設定することもできます。[こちら](#list-screens)を参照してください。メール配信リストを除く、すべてのリスト画面は読み取り専用です。アルファバージョンでは、リスト項目をクリックして編集／表示することはできません。すべてのリストは、今後のバージョンで編集可能になる予定です。 左側のナビゲーションメニューに表示される項目は、ユーザー権限によって異なります。
 
 ![](assets/home.png)
 
 ### ホーム
 
-この画面には、Campaign v8 の主な Web 機能にすばやくアクセスするための主要なリンクやリソースが含まれています。 この **最近** リストには、最近作成および変更された配信へのショートカットが表示されます。 このリストには、配信の作成日と変更日およびステータスが表示されます。
+この画面には、主な Campaign v8 web 機能にすばやくアクセスするための主要なリンクやリソースが含まれています。**最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、配信の作成日と変更日およびステータスが表示されます。
 
 <!--
 * Banner
@@ -52,7 +52,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * Learning cards
 -->
 
-ホームページの下部のセクションから、Campaign v8 Web キーのヘルプページにアクセスします。
+ホームページの下部のセクションから、Campaign v8 web の主要ヘルプページにアクセスします。
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -73,7 +73,7 @@ Global report not alpha
 
 他のリスト画面と同様に、必要な情報をすべて表示するために、列を設定して表示をパーソナライズすることができます。[こちら](#list-screens)を参照してください。
 
-Campaign エクスプローラーについて詳しくは、 [ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Campaign エクスプローラーについて詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html?lang=ja#ac-explorer-ui){target="_blank"}を参照してください。
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -96,7 +96,7 @@ Navtree view depends on permissions (same as console).
 
 * **キャンペーン** - キャンペーンのリストです。デフォルトでは、変更の開始日／終了日／最終更新日およびステータスを表示できます。リストは、ステータスまたは開始日／終了日でフィルタリングできます。キャンペーンテンプレートも使用できます。これらのリストは読み取り専用です。
 
-* **配信** - 配信のリストを閲覧できます。デフォルトでは、配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開くので、配信の詳細を大まかに確認できます。他のチャネルでの配信は読み取り専用です。配信テンプレートも読み取り専用モードで使用できます。これらは、クライアントコンソールを使用して編集できます。参照 [ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **配信** - 配信のリストを閲覧できます。デフォルトでは、配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開くので、配信の詳細を大まかに確認できます。他のチャネルでの配信は読み取り専用です。配信テンプレートも読み取り専用モードで使用できます。これらは、クライアントコンソールを使用して編集できます。詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=ja){target="_blank"}を参照してください。
 
    以下を使用： **その他のアクション** ボタンを使用して配信を削除または複製します。
 
@@ -142,8 +142,8 @@ Navtree view depends on permissions (same as console).
 
 インターフェイスの上部のバーでは、次の操作を行えます。
 
-* フィードバックをアルファテスターとして共有
-* 組織とインスタンスの切り替え
+* アルファテスターとしてのフィードバックの共有
+* 組織とインスタンス間の切り替え
 * Adobe Experience Cloud アプリケーションの切り替え
 * ヘルプページへのアクセス、サポートへの問い合わせ、フィードバックの共有検索フィールドからヘルプ記事およびビデオを検索できます。
 
@@ -158,7 +158,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-また、Campaign v8 Web の使用を開始する際に役立つオンボーディングガイドも利用できます。 右下隅にあるアイコンをクリックし、利用できるステップバイステップ方式のシナリオの 1 つを選択し、指示に従うだけです。
+また、Campaign v8 web の基本を学ぶうえで役に立つオンボーディングガイドも利用できます。右下隅にあるアイコンをクリックし、利用できるステップバイステップ方式のシナリオの 1 つを選択し、指示に従うだけです。
 
 ![](assets/onboarding.png){width="70%" align="left"}
 

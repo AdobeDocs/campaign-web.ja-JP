@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールの送信
 description: Campaign Web UI での最初のメールの送信方法を説明します
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 22%
+source-wordcount: '1244'
+ht-degree: 24%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 22%
 
 ![](../assets/do-not-localize/badge.png)
 
-最初のターゲット E メールを作成する方法については、この使用例を参照してください。 シルバーおよびゴールドのロイヤリティ顧客に対して、特定の日に E メールを送信するようスケジュールを設定します。
+最初のターゲット E メールを作成する方法を説明します。 この使用例では、シルバーおよびゴールドロイヤルティメンバーに対して、特定の日に E メールを送信するようにスケジュールします。
 
-事前に定義されたデザインテンプレートを利用すると、顧客プロファイル属性に基づいてパーソナライズされたコンテンツが E メールに表示されます。
+事前定義されたデザインテンプレートに基づき、E メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="メールテンプレートの選択"
->abstract="テンプレートは、Adobe Campaign v8 コンソールで定義されます。 これは、タイポロジルール、パーソナライゼーション、ルーティングパラメーターなどの事前定義済みパラメーターを含んだ特定の配信設定です。"
+>abstract="E メールテンプレートは、タイポロジルール、パーソナライゼーション、ルーティングパラメーターなど、事前定義された設定を含む特定の配信設定です。 テンプレートは、Campaign クライアントコンソールで定義されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -38,7 +38,7 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >テンプレートは事前に設定された配信設定で、今後の使用のために保存されます。 管理者ユーザーは、Adobe Campaignコンソールで作成できます。 [配信テンプレートの使用方法を説明します。](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+   >テンプレートは事前に設定された配信設定で、今後の使用のために保存されます。 管理者ユーザーは、Adobe Campaignコンソールで作成できます。 [詳しくは、配信テンプレートの使用方法を参照してください](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=ja){target="_blank"}。
 
    ![](assets/channel-template.png)
 
@@ -67,11 +67,11 @@ ht-degree: 22%
 
 この使用例では、事前に定義されたテンプレートを使用して E メールをデザインします。
 
-は、事前定義済みのテンプレートを使用して E メールをデザインします。 E メールコンテンツの設定に関する詳細な手順については、 [この節](../content/edit-content.md).
+E メールコンテンツの設定方法に関する詳細な手順については、 [この節](../content/edit-content.md).
 
 1. E メールコンテンツの作成を開始するには、 **[!UICONTROL コンテンツを編集]** 」ボタンをクリックします。
 
-   これにより、専用のインターフェイスが表示され、E メールデザイナーを使用して E メールのコンテンツを設定し、デザインできます。
+   これにより、E メールコンテンツを設定し、E メールデザイナーを使用してデザインできる専用のインターフェイスが表示されます。
 
    ![](assets/edit-content.png)
 
@@ -106,9 +106,9 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="オーディエンスの定義"
->abstract="マーケティングメッセージに最適なオーディエンスを選択します。Campaign v8 インスタンスで既に定義されている既存のオーディエンスを選択するか、Adobe Experience Platformから選択するか、ルールビルダーを使用して新しいオーディエンスを作成するかを選択できます。"
+>abstract="マーケティングメッセージに最適なオーディエンスを選択します。Campaign v8 インスタンスまたはAdobe Experience Platformで既に定義されている既存のオーディエンスを選択するか、ルールビルダーを使用して新しいオーディエンスを作成することができます。"
 
-この使用例では、既存のオーディエンスに E メールを送信します。 オーディエンスの操作方法に関する追加の手順については、 [この節](../audience/about-audiences.md).
+この使用例では、既存のオーディエンスに電子メールを送信します。 オーディエンスの操作方法に関する追加の手順については、 [この節](../audience/about-audiences.md).
 
 1. E メールのオーディエンスを選択するには、 **[!UICONTROL オーディエンスを選択]** ボタンをクリックし、リストから既存のオーディエンスを選択します。
 
@@ -118,9 +118,9 @@ ht-degree: 22%
 
    >[!NOTE]
    >
-   >リストで使用可能なオーディエンスは、Campaign V8 インスタンスから、またはインスタンスで宛先/ソースの統合が設定されている場合はAdobe Experience Platformから作成されます。
+   >リストで使用可能なオーディエンスは、Campaign v8 インスタンスから、またはインスタンスで宛先/ソースの統合が設定されている場合はAdobe Experience Platformから作成されます。
    >
-   >宛先/ソースの統合により、Experience PlatformセグメントをAdobe Campaignに送信したり、キャンペーンの配信とトラッキングログをAdobe Experience Platformに送信したりできます。 [Campaign とAdobe Experience Platformの連携の仕組み](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >宛先／ソースの統合により、Experience Platform セグメントを Adobe Campaign に送信したり、キャンペーンの配信とトラッキングログを Adobe Experience Platform に送信したりできます。[Campaign と Adobe Experience Platform の連携方法を参照してください](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ja){target="_blank"}。
 
 1. オーディエンスを選択したら、追加のルールを適用してターゲットを絞り込むことができます。
 
@@ -133,7 +133,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="送信のスケジュール設定"
->abstract="送信の日付と正確な時刻を定義します。マーケティングメッセージに最も適した時間を選択することで、開封率を最大化します。"
+>abstract="送信の日付と正確な時刻を定義します。マーケティングメッセージに最も適した時間を選択することで、開封率を最大化できます。"
 
 E メールの送信をスケジュールするには、 **[!UICONTROL 有効にする]** 送信する日時を設定します。
 
@@ -149,9 +149,9 @@ E メールを送信する前に、プレビューおよびテストを行って
 
 メールのプレビューおよびテスト方法に関する追加情報については、 [この節](../preview-test/preview-test.md)を参照してください。
 
-1. E メールを確認して送信するには、以下をクリックします。 **[!UICONTROL 確認して送信]**. これにより、E メールのプレビューと、設定済みのすべてのプロパティ、オーディエンス、スケジュールが表示されます。 これらの要素は、変更ボタンをクリックして編集できます。
+1. E メールを確認して送信するには、以下をクリックします。 **[!UICONTROL 確認して送信]**. E メールのプレビューと、設定済みのすべてのプロパティ、オーディエンス、スケジュールが表示されます。 これらの要素は、変更ボタンをクリックして編集できます。
 
-1. E メールをプレビューしてテストバージョンを送信するには、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。 プレビューインターフェイスが開きます。
+1. E メールをプレビューしてテストバージョンを送信するには、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
 
    ![](assets/review-email.png)
 
@@ -179,7 +179,7 @@ E メールを送信する前に、プレビューおよびテストを行って
 
 1. クリック **[!UICONTROL テストメールの送信]** 送信を確認します。
 
-   選択したプロファイルと **[配達確認 x]** プレフィックス
+   選択したプロファイルで **[配達確認 x]** プレフィックス
 
    ![](assets/proof-sent.png)
 

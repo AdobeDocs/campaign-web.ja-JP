@@ -3,10 +3,10 @@ audience: end-user
 title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 89%
+source-wordcount: '548'
+ht-degree: 90%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 89%
 
 [電子メールデザイナー](create-email-content.md)を使用すると、各リンクのトラッキングタイプを編集するなど、追跡する URL を管理できます。
 
-1. 左側のパネルから 「**[!UICONTROL リンク]**」アイコンをクリックして、追跡するコンテンツのすべての URL のリストを表示します。
+1. 次をクリック： **[!UICONTROL リンク]** アイコンを使用して、追跡するコンテンツのすべての URL のリストを表示します。
 
    このリストを使用すると、一元表示が可能になり、メールコンテンツ内の各 URL を特定できます。
 
@@ -100,8 +100,8 @@ ht-degree: 89%
    * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
    * **[!UICONTROL なし]**：この URL のトラッキングをアクティブ化しません。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. を追加します。 **[!UICONTROL カテゴリ]** をクリックし、 **[!UICONTROL 保存]**.
+1. 「**[!UICONTROL カテゴリ]**」をリンクに追加して、トラッキングされたリンクをグループ化し、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/message-tracking-edit-a-link_2.png)
 
-1. 配信を送信したら、配信レポートにアクセスします。 以下 **[!UICONTROL トラッキング]** メニュー、 **[!UICONTROL URL とクリックストリーム]** レポートには、配信で最も訪問回数の多い URL が表示されます。 [詳細情報](../reporting/reports.md)
+1. 配信を送信したら、配信レポートにアクセスします。 **[!UICONTROL トラッキング]**&#x200B;メニューの下の **[!UICONTROL URL とクリックストリーム]**&#x200B;レポートには、配信で最も訪問回数の多い URL が表示されます。 [詳細情報](../reporting/reports.md)
