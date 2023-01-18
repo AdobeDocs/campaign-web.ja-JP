@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8 リリースノート
 description: Campaign Web v8 リリースノート
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
+source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 13%
+source-wordcount: '322'
+ht-degree: 12%
 
 ---
 
@@ -58,6 +58,7 @@ add info somewhere to remind users that
 既存の Campaign ユーザーの場合、最新の用語規格に合わせて、一部の概念の名前が変更されています。 これらの変更は Campaign Web UI にのみ適用され、クライアントコンソールには反映されません。 以下に要約します。
 
 * 配達確認が **メールのテスト**:配達確認を送信するには、 **テスト** 」ボタンをクリックします。 配達確認のターゲットが **テストプロファイル**
+* シードアドレスは **テストプロファイル**:シードアドレスにテストメールを送信します。シードアドレスは、データベース内の追加の架空の受信者です
 * 配信分析が **配信準備**. 分析を開始する必要がある場合は、 **準備** ボタン
 * メールプレビューを **コンテンツをシミュレート** ボタン
 * リストが **オーディエンス**
