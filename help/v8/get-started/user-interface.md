@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスについて説明します
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 98%
+source-wordcount: '1282'
+ht-degree: 90%
 
 ---
 
@@ -152,16 +152,6 @@ Navtree view depends on permissions (same as console).
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## コンテキストヘルプとオンボーディングガイド
-
-コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合、「**?**」アイコンをクリックすると、ヘルプ情報や関連ドキュメントのリンクが表示されます。
-
-![](assets/context-help.png){width="70%" align="left"}
-
-また、Campaign v8 web の基本を学ぶうえで役に立つオンボーディングガイドも利用できます。右下隅にあるアイコンをクリックし、利用できるステップバイステップ方式のシナリオの 1 つを選択し、指示に従うだけです。
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## リスト画面の設定 {#list-screens}
 
 左側のナビゲーションメニューの複数のリンクには、**配信**&#x200B;または&#x200B;**キャンペーン**&#x200B;など、オブジェクトのリストが表示されます。メール配信リストを除き、すべてのリスト画面は読み取り専用です。
@@ -175,6 +165,43 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 ![](assets/columns.png){width="70%" align="left"}
 
 任意の列ヘッダーをクリックすると、リスト内の項目を並べ替えることができます。リストがその列で並べ替えられていることを示す（上または下）矢印が表示されます。数値列または日付列の場合、上向き矢印はリストが昇順で並べ替えられていることを示し、下向き矢印は降順であることを示します。文字列の列または英数字の列の場合、値はアルファベット順に表示されます。
+
+## コンテキストヘルプとオンボーディングガイド
+
+コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合、「**?**」アイコンをクリックすると、ヘルプ情報や関連ドキュメントのリンクが表示されます。
+
+![](assets/context-help.png){width="70%" align="left"}
+
+また、Campaign v8 web の基本を学ぶうえで役に立つオンボーディングガイドも利用できます。右下隅にあるアイコンをクリックし、利用できるステップバイステップ方式のシナリオの 1 つを選択し、指示に従うだけです。
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## サポートしているブラウザー {#browsers}
+
+Campaign v8 Web は、Google Chrome、Safari およびMicrosoft Edge の最新バージョンで最適に動作するように設計されています。 古いバージョンや他のブラウザーでは、特定の機能の使用に問題が生じる場合があります。
+
+## 言語環境設定 {#language-pref}
+
+ユーザーインターフェイスは、現在、次の言語で使用できます。
+
+* 英語
+* フランス語
+* ドイツ語
+* イタリア語
+* スペイン語
+* ポルトガル語（ブラジル）
+* 日本語
+* 韓国語
+
+デフォルトのインターフェイス言語は、ユーザープロファイルで指定された優先言語によって決まります。
+
+言語を変更するには：
+
+* クリック **環境設定** アバターから右上に
+   ![](assets/preferences.png)
+* 次に、E メールアドレスの下に表示される言語をクリックします
+* 目的の言語を選択し、 **保存**. 使用しているコンポーネントが最初の言語にローカライズされていない場合に備えて、2 番目の言語を選択できます。
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}
