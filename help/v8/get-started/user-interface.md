@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスについて説明します
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b203d1e2adb1b41cdc4adf398934707f6093b317
+source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1301'
 ht-degree: 88%
 
 ---
@@ -182,7 +182,7 @@ Campaign v8 Web は、Google Chrome、Safari およびMicrosoft Edge の最新�
 
 ## 言語環境設定 {#language-pref}
 
-ユーザーインターフェイスは、現在、次の言語で使用できます。
+Campaign v8 Web は現在、次の言語で利用できます。
 
 * 英語（米国） — 米国
 * フランス語 — FR
@@ -199,10 +199,16 @@ Campaign v8 Web は、Google Chrome、Safari およびMicrosoft Edge の最新�
 
 言語を変更するには：
 
-* クリック **環境設定** アバターから右上に
-   ![](assets/preferences.png)
-* 次に、E メールアドレスの下に表示される言語をクリックします
-* 目的の言語を選択し、 **保存**. 使用しているコンポーネントが最初の言語にローカライズされていない場合に備えて、2 番目の言語を選択できます。
+1. プロファイルアイコンをクリックし、右上の「 」をクリックして、「 」を選択します。 **環境設定**.
+
+   ![](assets/preferences.png){width="70%" align="left"}
+
+1. 次に、E メールアドレスの下に表示される言語をクリックします。
+
+   ![](assets/preferences2.png)
+
+1. 目的の言語を選択し、 **保存**. 使用しているコンポーネントが最初の言語にローカライズされていない場合に備えて、2 番目の言語を選択できます。
+
    ![](assets/select-language.png)
 
 <!--
