@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 46%
+ht-degree: 71%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 46%
 ![](assets/do-not-localize/badge.png)
 
 
-Campaign は、ユーザーエクスペリエンスを大幅に向上させるための、使いやすさ、アクセシビリティ、新しいデザインを備えた新しい Web ユーザーインターフェイスを提供します。 この新しい最新の UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platformを含む他のAdobeソリューションと共に一貫性を保ちます。 [詳細情報](get-started/get-started.md)
+Campaign は、ユーザーエクスペリエンスを大幅に向上させるための、使いやすさ、アクセシビリティ、新しいデザインを備えた新しい Web ユーザーインターフェイスを提供します。 この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。[詳細情報](get-started/get-started.md)
 
 >Campaign v8 Web は現在アルファバージョンです。 アクセスは、一部のアルファ顧客に制限されています。製品インターフェイス、機能、使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/release-notes.md)
 

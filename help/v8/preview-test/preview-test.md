@@ -6,7 +6,7 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ E メールを送信する前に、コンテンツを確認してテストし、
 
 これを行うには、Adobe Campaign で次の操作を実行します。
 
-* [E メールのコンテンツとパーソナライゼーションのプレビュー](#preview),
+* [メールのコンテンツとパーソナライゼーションのプレビュー](#preview)。
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
 * [テストメールの送信](#send-proofs) を特定の受信者に送信して、テストおよび検証をおこないます。
