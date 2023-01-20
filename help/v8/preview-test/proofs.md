@@ -1,79 +1,73 @@
 ---
 audience: end-user
-title: テストメールを送信
-description: テストメールの定義と送信方法を説明します
+title: Send test emails
+description: Learn how to define and send test emails
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 8%
-
 ---
-
-# テストメールを送信 {#send-proofs}
+# Send test emails {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-テストメールの送信は、メールキャンペーンを検証し、潜在的な問題を特定するための重要な手順です。 テスト E メールを送信することで、リンク、オプトアウトリンク、画像、ミラーページなどの様々な要素を確認し、エラーを検出できます。
+Sending test emails is an important step in validating your email campaign and identifying potential issues. By sending test emails, you can check various elements such as links, opt-out links, images, and mirror pages, as well as detect any errors.
 
-テスト E メールは、次の 2 種類の受信者に送信できます。
+Test emails can be sent to two types of recipients: 
 
-* **テストプロファイル**:シードアドレスにテストメールを送信します。シードアドレスは、データベース内の追加の架空の受信者です。 これらは、Adobe Campaignコンソールの **[!UICONTROL リソース]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL シードアドレス]** フォルダー。
+* **Test profiles**: send test emails to seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
+    
+* **Substitution from main target**: send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile receives.
 
-* **メインターゲットからの代替**:既存のプロファイルを偽装しているときに、特定のメールアドレスにテストメールを送信します。 これにより、E メールを受信者と同じように体験し、プロファイルが受け取ったメッセージを正確に表示できます。
+## Select the test recipients {#recipients}
 
-## テスト受信者を選択 {#recipients}
+1. Access the email content simulation screen, then click the **[!UICONTROL Test]** button.
 
-1. E メールコンテンツのシミュレーション画面にアクセスし、 **[!UICONTROL テスト]** 」ボタンをクリックします。
+    ![](assets/test-button.png)
 
-   ![](assets/test-button.png)
+1. Use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that receive the test email:
 
-1. 以下を使用： **[!UICONTROL モード]** ドロップダウンリストを使用して、テスト E メールを受信する受信者のタイプを選択します。
+    * **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database,
+    
+    * **Substitution from main target**: send the test email to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
 
-   * **テストプロファイル**:シードアドレスにテスト用の E メールを送信します。シードアドレスは、データベース内の追加の架空の受信者です。
+    ![](assets/test-mode.png)
 
-   * **メインターゲットからの代替**:既存のプロファイルを偽装しているときに、特定のメールアドレスにテストメールを送信します。 これにより、E メールを受信者と同じように体験し、プロファイルが受け取るメッセージを正確に表示できます。
+    >[!NOTE]
+    >
+    >By default, the **[!UICONTROL Test profiles]** mode is selected. If you have already selected profiles to preview the email in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients.
 
-   ![](assets/test-mode.png)
+1. To send test emails to substitution profiles, choose the **[!UICONTROL Substitution from target]** mode then follow these steps:
 
-   >[!NOTE]
-   >
-   >デフォルトでは、 **[!UICONTROL テストプロファイル]** モードが選択されています。 コンテンツシミュレーション画面で E メールのプレビュー用のプロファイルを既に選択している場合、それらのプロファイルはテスト受信者として事前に選択されています。 選択を解除したり、受信者を追加したりできます。
+    1. Click the **[!UICONTROL Add address]** button and specify the email address that receives the test email.
 
-1. テストメールを代替プロファイルに送信するには、 **[!UICONTROL ターゲットからの代替]** モードで次の手順に従います。
+        You can enter any email address. This allows you to send test emails to any users, even if they are not users of Adobe Campaign V8.
 
-   1. 次をクリック： **[!UICONTROL アドレスを追加]** ボタンをクリックし、テスト電子メールを受信する電子メールアドレスを指定します。
+    1. Select the profile from the target to use to send the test email. You can also let Adobe Campaign select a random profile from the target.
 
-      任意の電子メールアドレスを入力できます。 これにより、Adobe Campaign V8 のユーザーでなくても、すべてのユーザーにテストメールを送信できます。
+    1. Confirm the recipient and repeat the operation to add as many addresses as needed.
 
-   1. テスト E メールの送信に使用するプロファイルをターゲットから選択します。 また、Adobe Campaign にターゲットからランダムプロファイルを選択させることもできます。
+        ![](assets/substitution.png)
 
-   1. 受信者を確認し、必要な数のアドレスを追加するように操作を繰り返します。
+1. Once the test recipients have been selected, you can send the test email. [Learn how to send test emails](#send)
 
-      ![](assets/substitution.png)
+    >[!NOTE]
+    >
+    >If you want to send the final email message to the recipients of the test email, enable the **[!UICONTROL Include test population in the main target]** option on.
 
-1. テスト受信者を選択したら、テスト用 E メールを送信できます。 [テストメールの送信方法を説明します](#send)
+## Send the test email {#send}
 
-   >[!NOTE]
-   >
-   >テスト用 E メールの受信者に最終的な E メールメッセージを送信する場合は、 **[!UICONTROL メインターゲットにテスト母集団を含める]** オプションをオンにします。
-
-## テストメールを送信 {#send}
-
-選択した受信者にテスト E メールを送信するには、 **[!UICONTROL テストメールの送信]** 次に、送信を確定します。
+To send the test email to the selected recipients, click **[!UICONTROL Send test email]** then confirm the sending.
 
 ![](assets/send-proof.png)
 
-配信のコンテンツが完成するまで、必要な数のテスト E メールを送信します。 この操作が完了したら、メールをメインターゲットに送信できます。[メールの準備と送信の方法を学ぶ](../monitor/prepare-send.md)
+Send as many test emails as necessary until you have finalized the content of your delivery. Once this is done, you can send the email to the main target. [Learn how to prepare and send your email](../monitor/prepare-send.md)
 
-## 送信済みテストメールにアクセス {#access-proofs}
+## Access sent test emails {#access-proofs}
 
-テスト E メールが送信されると、 **[!UICONTROL テストメールログを表示]** 」ボタンをクリックします。
+Once the test emails have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button.
 
-これらのログでは、選択した配信に対して送信されたすべてのテスト E メールにアクセスし、送信に関する特定の統計を視覚化できます。 [詳しくは、配信ログの監視方法を参照してください](../monitor/delivery-logs.md)
+These logs allow you to access all the test emails sent for the selected delivery, and to visualize specific statistics related to their sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-また、他の配信と同様に、配信リストから送信済みのテスト E メールにアクセスすることもできます。
+You can also access sent test emails from the deliveries list, like any delivery.
 
 ![](assets/delivery-list.png)

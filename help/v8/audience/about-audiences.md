@@ -1,23 +1,17 @@
 ---
 audience: end-user
-title: オーディエンスの概要
-description: Campaign Web UI でのオーディエンスの使用方法を説明します
+title: Get started with audiences
+description: Learn how to use audiences in Campaign Web UI
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 67%
-
 ---
-
-# オーディエンスの概要 {#about-audiences}
+# Get started with audiences {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="オーディエンスの概要"
->abstract="メールコンテンツのオーディエンスを管理する方法について説明します。"
+>title="Get started with audiences"
+>abstract="Learn how to manage audience for your email content."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -40,13 +34,13 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-この節では、E メールのオーディエンスを定義する方法について説明します。 オーディエンスは、配信のメインターゲットです。e メールを受信した受信者。 オーディエンスのタイプは、配信テンプレートで定義されたターゲットマッピングによって異なります。[こちら](../email/create-email.md)を参照してください。
+In this section, learn how to define the audience of email. The audience is the main target of your delivery: the recipients who receive the email. The type of audience depends on the target mapping defined in the delivery template. See this [section](../email/create-email.md). 
 
-オーディエンスを定義するには、次の操作を実行します。
+To define the audience, you can:
 
-* 既存のオーディエンスを使用します。詳しくは、この[節](add-audience.md)を参照してください。
-* 新しいオーディエンスを作成します。 [こちら](segment-builder.md)を参照してください。
+* use an existing audience, see this [section](add-audience.md).
+* create a new audience. See this [section](segment-builder.md).
 
-また、コントロール母集団を定義すると、キャンペーンの影響を測定するために、オーディエンスの一部にメッセージを送信しないようにできます。[こちら](control-group.md)を参照してください。
+You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
 
 ![](assets/about-audience.png)

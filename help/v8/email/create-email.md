@@ -1,89 +1,83 @@
 ---
 audience: end-user
-title: 最初のメールの送信
-description: Campaign Web UI での最初のメールの送信方法を説明します
+title: Send your first email
+description: Learn how to send your first email with Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 24%
-
 ---
-
-# 最初のメールの送信 {#first-email}
+# Send your first email {#first-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-最初のターゲット E メールを作成する方法を説明します。 この使用例では、シルバーおよびゴールドロイヤルティメンバーに対して、特定の日に E メールを送信するようにスケジュールします。
+Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-事前定義されたデザインテンプレートに基づき、E メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
+Based on a predefined design template, the email also features personalized content based on customer profile attributes.
 
 ![](assets/delivery-list.png)
 
-## メールの作成 {#create-email}
+## Create the email {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="メールテンプレートの選択"
->abstract="E メールテンプレートは、タイポロジルール、パーソナライゼーション、ルーティングパラメーターなど、事前定義された設定を含む特定の配信設定です。 テンプレートは、Campaign クライアントコンソールで定義されます。"
+>title="Select an email template"
+>abstract="An email template is a specific delivery configuration that contains predefined settings, such as typology rules, personnalization or routing parameters. Templates are defined in the Campaign client console."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="メールのプロパティ"
->abstract="プロパティは、配信の名前付けや分類に役立つ一般的な配信パラメーターです。配信が Adobe Campaign v8 コンソールで定義された拡張スキーマに基づいている場合は、いくつかの特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。"
+>title="Email Properties"
+>abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
 
-1. 新しい配信を作成するには、 **[!UICONTROL 配信]** メニューと選択 **[!UICONTROL 電子メール]** をチャネルとして使用します。
+1. To create a new delivery, go to the **[!UICONTROL Deliveries]** menu and select **[!UICONTROL Email]** as the channel.
 
-1. 使用するテンプレートを選択し、 **[!UICONTROL 配信を作成]**.
+1. Select the template you want to use and click **[!UICONTROL Create delivery]**.
 
-   >[!NOTE]
-   >
-   >テンプレートは事前に設定された配信設定で、今後の使用のために保存されます。 管理者ユーザーは、Adobe Campaignコンソールで作成できます。 [詳しくは、配信テンプレートの使用方法を参照してください](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=ja){target="_blank"}。
+    >[!NOTE]
+    >
+    >Templates are pre-configured delivery settings saved for future use. They can be created by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-   ![](assets/channel-template.png)
+    ![](assets/channel-template.png)
 
-1. メールのラベルを指定し、必要に応じて追加のオプションを設定します。
+1. Provide a label for the email and configure additional options based on your needs:
 
-   * **[!UICONTROL 内部名]**：配信に一意の ID を割り当てます。
-   * **[!UICONTROL フォルダー]**：配信を特定のフォルダーに保存します。
-   * **[!UICONTROL 配信コード]**：このフィールドを使用すると、独自の命名規則に基づいて配信を整理できます。
-   * **[!UICONTROL 説明]**：配信の説明を指定します。
-   * **[!UICONTROL 特性]**：分類目的でメールの特性を指定します。<!--The content of the list is defined in the delivery template selected when creating the email.-->
+    * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery,
+    * **[!UICONTROL Folder]**: store the delivery in a specific folder,
+    * **[!UICONTROL Delivery code]**: use this field to organize your deliveries based on your own naming convention,
+    * **[!UICONTROL Description]**: specify a description for the delivery,
+    * **[!UICONTROL Nature]**: specify the nature of the email for classification purposes.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
-   >[!NOTE]
-   >
-   >特定のカスタムフィールドでスキーマを拡張した場合は、 **[!UICONTROL カスタムオプション]** 」セクションに入力します。
+    >[!NOTE]
+    >
+    >If you have extended your schema with specific custom fields, you can access them in the **[!UICONTROL Custom options]** section.
 
-   ![](assets/email-properties.png)
+    ![](assets/email-properties.png)
 
-   また、タイポロジルールやターゲットマッピングなどの詳細設定には、配信名の横にある「 」ボタンをクリックしてアクセスできます。 これらの設定は、選択したテンプレートで事前に設定されていますが、この特定の E メールで必要に応じて編集できます。
+    Additionally, advanced settings, such as typology rules and target mappings, can be accessed by clicking the button located next to the delivery name. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
 
-## メールコンテンツの作成 {#create-content}
+## Create the email content {#create-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="E メールコンテンツのデザイン方法を学ぶ"
->abstract="E メールデザイナーの使用方法を説明します。"
+>title="Learn how to design your email content"
+>abstract="Learn how to use the Email Designer."
 
-この使用例では、事前に定義されたテンプレートを使用して E メールをデザインします。
+In this use case, you use a predefined template to design our email.
 
-E メールコンテンツの設定方法に関する詳細な手順については、 [この節](../content/edit-content.md).
+Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
 
-1. E メールコンテンツの作成を開始するには、 **[!UICONTROL コンテンツを編集]** 」ボタンをクリックします。
+1. To start creating the email content, click the **[!UICONTROL Edit content]** button. 
 
-   これにより、E メールコンテンツを設定し、E メールデザイナーを使用してデザインできる専用のインターフェイスが表示されます。
+   This brings you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
 
-   ![](assets/edit-content.png)
+    ![](assets/edit-content.png)
 
-1. E メールの件名行を入力し、式エディターを使用してパーソナライズします。 詳しくは、[コンテンツをパーソナライズする方法](../personalization/personalize.md)を参照してください。
+1. Enter the subject line of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
 
-   ![](assets/subject-line.png)
+    ![](assets/subject-line.png)
 
-1. E メールの本文をデザインするには、 **[!UICONTROL メール本文を編集]** 」ボタンをクリックします。
+1. To design the body of the email, click the **[!UICONTROL Edit email body]** button.
 
-   メールコンテンツの作成に使用する方法を選択します。この例では、事前定義済みのデザインテンプレートを使用します。
+    Choose the method to use to create your email content. In this example, use a predefined design template.
 
-   ![](assets/select-template.png)
+    ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -91,116 +85,116 @@ E メールコンテンツの設定方法に関する詳細な手順について
 
     ![](assets/import-folder.png)-->
 
-1. テンプレートを選択すると、E メールデザイナーに表示され、必要な編集を加えたり、パーソナライゼーションを追加したりできます。
+1. Once you have selected the template, it is displayed in the Email Designer, where you can make any necessary edits and add personalization.
 
-   例えば、パーソナライゼーションを電子メールタイトルに追加するには、コンポーネントブロックを選択し、 **[!UICONTROL パーソナライゼーションを追加]**.
+    For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 
-   ![](assets/add-perso.png)
+    ![](assets/add-perso.png)
 
-1. コンテンツの設定が完了したら、デザインを保存して閉じます。 クリック **[!UICONTROL 保存]** をクリックして、e メール作成画面に戻ります。
+1. Once you are satisfied with the content, save and close your design. Click **[!UICONTROL Save]** to return to the email creation screen.
 
-   ![](assets/save-content.png)
+    ![](assets/save-content.png)
 
-## オーディエンスの定義 {#define-audience}
+## Define the audience {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="オーディエンスの定義"
->abstract="マーケティングメッセージに最適なオーディエンスを選択します。Campaign v8 インスタンスまたはAdobe Experience Platformで既に定義されている既存のオーディエンスを選択するか、ルールビルダーを使用して新しいオーディエンスを作成することができます。"
+>title="Define the audience"
+>abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform, or you can create a new audience with the rule builder."
 
-この使用例では、既存のオーディエンスに電子メールを送信します。 オーディエンスの操作方法に関する追加の手順については、 [この節](../audience/about-audiences.md).
+In this use case, you send the email to an existing audience. Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
 
-1. E メールのオーディエンスを選択するには、 **[!UICONTROL オーディエンスを選択]** ボタンをクリックし、リストから既存のオーディエンスを選択します。
+1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
 
-   この例では、シルバーおよびゴールドのロイヤルティポイントレベルに属する顧客をターゲティングする既存のオーディエンスを使用します。
+    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
 
-   ![](assets/create-audience.png)
+    ![](assets/create-audience.png)
 
-   >[!NOTE]
-   >
-   >リストで使用可能なオーディエンスは、Campaign v8 インスタンスから、またはインスタンスで宛先/ソースの統合が設定されている場合はAdobe Experience Platformから作成されます。
-   >
-   >宛先／ソースの統合により、Experience Platform セグメントを Adobe Campaign に送信したり、キャンペーンの配信とトラッキングログを Adobe Experience Platform に送信したりできます。[Campaign と Adobe Experience Platform の連携方法を参照してください](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ja){target="_blank"}。
+    >[!NOTE]
+    >
+    >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
+    >
+    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
-1. オーディエンスを選択したら、追加のルールを適用してターゲットを絞り込むことができます。
+1. Once the audience is selected, you can further refine the target by applying additional rules.
 
-   また、コントロール母集団を設定して、ターゲット設定されていない受信者と比較した、E メール受信者の行動を分析することもできます。 [詳しくは、コントロール母集団の操作方法を参照してください](../audience/control-group.md)
+    You can also set a control group to analyze the behavior of the email recipients compared to those who were not targeted. [Learn how to work with control groups](../audience/control-group.md)
 
-   ![](assets/audience-selected.png)
+    ![](assets/audience-selected.png)
 
-## 送信のスケジュール設定 {#schedule}
+## Schedule the sending {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="送信のスケジュール設定"
->abstract="送信の日付と正確な時刻を定義します。マーケティングメッセージに最も適した時間を選択することで、開封率を最大化できます。"
+>title="Schedule the sending"
+>abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
 
-E メールの送信をスケジュールするには、 **[!UICONTROL 有効にする]** 送信する日時を設定します。
+To schedule the sending of the email, click **[!UICONTROL Enable]** and set the desired date and time for sending. 
 
-デフォルトでは、 **[!UICONTROL 送信前の確認]** 「 」オプションが有効になっている場合に、スケジュールされた日時に E メールを送信する前に送信を確認する必要があります。 スケジュールされた日時に電子メールを自動的に送信する場合は、このオプションを無効にできます。
+By default, the **[!UICONTROL Confirm before sending]** option is enabled, requiring you to confirm the sending before the email is sent at the scheduled date and time. If you wish to send the email automatically on the scheduled date and time, you can disable this option.
 
 ![](assets/schedule.png)
 
-## メールのプレビューとテスト {#preview-test}
+## Preview and test the email {#preview-test}
 
-E メールを送信する前に、プレビューおよびテストを行って、期待通りに動作するかどうかを確認できます。
+Before sending your email, you can preview and test it to ensure it meets your expectations.
 
-この使用例では、ターゲットプロファイルの一部を偽装しているときに、E メールをプレビューし、特定の E メールアドレスにテストバージョンを送信します。
+In this use case, you preview the email and send test versions to specific email addresses while impersonating some of the targeted profiles.
 
-メールのプレビューおよびテスト方法に関する追加情報については、 [この節](../preview-test/preview-test.md)を参照してください。
+Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
 
-1. E メールを確認して送信するには、以下をクリックします。 **[!UICONTROL 確認して送信]**. E メールのプレビューと、設定済みのすべてのプロパティ、オーディエンス、スケジュールが表示されます。 これらの要素は、変更ボタンをクリックして編集できます。
+1. To review and send the email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
 
-1. E メールをプレビューしてテストバージョンを送信するには、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
+1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. 
 
-   ![](assets/review-email.png)
+    ![](assets/review-email.png)
 
-1. 左側で、E メールのプレビューに使用するプロファイルを選択します。
+1. On the left-hand side, select the profile(s) you want to use to preview the email.
 
-   右側のウィンドウには、選択したプロファイルに基づく E メールのプレビューが表示されます。 複数のプロファイルを追加した場合は、それらのプロファイルを切り替えて、対応する E メールをプレビューできます。
+    The right pane displays a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
 
-   ![](assets/preview.png)
+    ![](assets/preview.png)
 
    <!-- !NOTE
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. テストバージョンの E メールを送信するには、 **[!UICONTROL テスト]** ボタンをクリックして、使用するモードを選択します。
+1. To send test versions of your email, click the **[!UICONTROL Test]** button then choose the mode you want to use.
 
-   この例では、 **[!UICONTROL メインターゲットから置換]** モード：e メールのターゲットとなる一部のプロファイルを偽装しているときに、特定の e メールアドレスにテストバージョンを送信します。
+    In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
 
-   ![](assets/proof-mode.png)
+    ![](assets/proof-mode.png)
 
-1. クリック **[!UICONTROL アドレスを追加]** テストバージョンを受け取る電子メールアドレスを指定します。
+1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the test versions.
 
-   電子メールアドレスごとに、別のユーザーとして実行するプロファイルを選択します。 また、Adobe Campaign にターゲットからランダムプロファイルを選択させることもできます。
+    For each email address, select the profile to impersonate. You can also let Adobe Campaign select a random profile from the target.
 
-   ![](assets/proof-test-profile.png)
+    ![](assets/proof-test-profile.png)
 
-1. クリック **[!UICONTROL テストメールの送信]** 送信を確認します。
+1. Click **[!UICONTROL Send test email ]** and confirm the sending.
 
-   選択したプロファイルで **[配達確認 x]** プレフィックス
+    Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
 
-   ![](assets/proof-sent.png)
+    ![](assets/proof-sent.png)
 
-   送信のステータスを確認し、送信済みのテスト E メールにいつでもアクセスするには、 **[!UICONTROL テストメールログを表示]** 「コンテンツをシミュレート」画面の「 」ボタン
+    You can check the status of the sending and access the sent test emails at any time by clicking the **[!UICONTROL View test email log]** button in the simulate content screen.
 
-## メールの送信と監視 {#prepare-send}
+## Send and monitor the email {#prepare-send}
 
-E メールを確認およびテストした後、準備を開始して送信できます。
+After reviewing and testing your email, you can launch its preparation and send it.
 
-1. E メールの準備を開始するには、 **[!UICONTROL 準備]**. [詳しくは、メールの準備方法を参照してください](../monitor/prepare-send.md)
+1. To launch the preparation of the email, click **[!UICONTROL Prepare]**. [Learn how to prepare an email](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png)
+    ![](assets/preparation.png)
+ 
+1. Once your email is ready to be sent, click the **[!UICONTROL Send]** button (or **[!UICONTROL Send as scheduled]** if you have scheduled its sending) and confirm the sending.
 
-1. E メールを送信する準備が整ったら、 **[!UICONTROL 送信]** ボタン ( または **[!UICONTROL 予定どおりに送信]** 送信をスケジュールしている場合 )、および送信を確認します。
+1. During the sending process, you can track its progress and view statistics in real-time directly in this screen.
 
-1. 送信プロセス中に、進行状況をリアルタイムで追跡し、統計をこの画面で直接表示できます。
+    ![](assets/sent-mail.png)
 
-   ![](assets/sent-mail.png)
+    You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
 
-   また、 **[!UICONTROL ログ]** 」ボタンをクリックします。 [詳しくは、配信ログの監視方法を参照してください](../monitor/delivery-logs.md)
-
-1. E メールの送信後、 **[!UICONTROL レポート]** 」ボタンをクリックします。
+1. After the email has been sent, you can access dedicated reports for further analysis by clicking the **[!UICONTROL Reporting]** button.
 
 ![](assets/reports.png)

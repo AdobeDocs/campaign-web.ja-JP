@@ -1,25 +1,19 @@
 ---
 audience: end-user
-title: インターフェイスについて説明します
-description: Campaign v8 Web ユーザーインターフェイス
+title: Discover the interface
+description: Campaign v8 Web user interface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
-workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 88%
-
 ---
-
-# インターフェイスについて説明します {#user-interface}
+# Discover the interface {#user-interface}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="インターフェイスについて説明します"
->abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
+>title="Discover the interface"
+>abstract="The new Campaign v8 Web interface offers an integrated, intuitive and consistent user experience."
 
-新しい Campaign v8 web インターフェイスは、マーケティングキャンペーンのデザインと配信を簡素化する、最新の直感的なユーザーエクスペリエンスを提供します。この新しいインターフェイスは、Adobe Experience Platform と統合されています。
+The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -27,7 +21,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 >[!NOTE]
 >
->このドキュメントは、製品のユーザーインターフェイスに対する最新の変更を反映するために頻繁に更新されています。ただし、一部のスクリーンショットは、お使いのユーザーインターフェイスと多少異なる場合があります。
+>This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
 
 
 <!--
@@ -35,15 +29,15 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## 左側のナビゲーションメニュー
+## Left navigation menu
 
-左側のリンクを参照すると、Campaign v8 web 機能にアクセスできます。いくつかのリンクを選択すると、並べ替えやフィルタリングが可能なオブジェクトのリストが表示されます。また、必要なすべての情報を表示するように列を設定することもできます。[こちら](#list-screens)を参照してください。メール配信リストを除く、すべてのリスト画面は読み取り専用です。アルファバージョンでは、リスト項目をクリックして編集／表示することはできません。すべてのリストは、今後のバージョンで編集可能になる予定です。 左側のナビゲーションメニューに表示される項目は、ユーザー権限によって異なります。
+Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in future versions. The items displayed in the left navigation menu depend on your user permissions.
 
 ![](assets/home.png)
 
-### ホーム
+### Home
 
-この画面には、主な Campaign v8 web 機能にすばやくアクセスするための主要なリンクやリソースが含まれています。**最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、配信の作成日と変更日およびステータスが表示されます。
+This screen includes key links and resources for a quick access to the main Campaign v8 Web features. The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their creation and modification dates and status.
 
 <!--
 * Banner
@@ -52,7 +46,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * Learning cards
 -->
 
-ホームページの下部のセクションから、Campaign v8 web の主要ヘルプページにアクセスします。
+Access Campaign v8 Web key help pages from the lower section of the home page.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -60,20 +54,20 @@ CONTROL PANEL not alpha
 Global report not alpha
 -->
 
-### エクスプローラー
+### Explorer
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="エクスプローラー"
->abstract="**エクスプローラー**&#x200B;メニューには、クライアントコンソールのフォルダー階層と同じフォルダー階層が表示されます。Campaign v8 のすべてのコンポーネント、フォルダーおよびスキーマを参照できます。メール配信リストを除く、すべてのリスト画面は読み取り専用です。"
+>title="Explorer"
+>abstract="The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list."
 
-**エクスプローラー**&#x200B;メニューには、クライアントコンソールのフォルダー階層と同じフォルダー階層が表示されます。Campaign v8 のすべてのコンポーネント、フォルダーおよびスキーマを参照できます。メール配信リストを除く、すべてのリスト画面は読み取り専用です。
+The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list. 
 
-エクスプローラーに表示される項目は、ユーザー権限によって異なります。
+The items displayed in the Explorer depend on your user permissions. 
 
-他のリスト画面と同様に、必要な情報をすべて表示するために、列を設定して表示をパーソナライズすることができます。[こちら](#list-screens)を参照してください。
+Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
 
-Campaign エクスプローラーについて詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html?lang=ja#ac-explorer-ui){target="_blank"}を参照してください。
+For more information on the Campaign explorer, refer to this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -82,144 +76,144 @@ If you need to view your lists of recipients (age, gender), transactions or live
 Navtree view depends on permissions (same as console).
 -->
 
-### キャンペーン管理
+### Campaign Management
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
->title="キャンペーン"
->abstract="これはキャンペーンのリストです。キャンペーンの開始日／終了日／最終変更日やステータスなどの有用な情報を確認できます。リストは、ステータスまたは開始日／終了日でフィルタリングできます。キャンペーンテンプレートも使用できます。これらのリストは読み取り専用です。"
+>title="Campaigns"
+>abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
->title="配信"
->abstract="配信のリストを閲覧できます。配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開きます。その他の項目は読み取り専用です。 配信テンプレートも使用できます。"
+>title="Deliveries"
+>abstract="Browse through your list of deliveries. You can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard. Other items are read-only. Delivery templates are also available."
 
-* **キャンペーン** - キャンペーンのリストです。デフォルトでは、変更の開始日／終了日／最終更新日およびステータスを表示できます。リストは、ステータスまたは開始日／終了日でフィルタリングできます。キャンペーンテンプレートも使用できます。これらのリストは読み取り専用です。
+* **Campaigns** - This is the list of your campaigns. By default, you can view their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only. 
 
-* **配信** - 配信のリストを閲覧できます。デフォルトでは、配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開くので、配信の詳細を大まかに確認できます。他のチャネルでの配信は読み取り専用です。配信テンプレートも読み取り専用モードで使用できます。これらは、クライアントコンソールを使用して編集できます。詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html?lang=ja){target="_blank"}を参照してください。
+* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Delivery templates are also available in read-only mode. You can use the Client Console to edit them. See this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-   以下を使用： **その他のアクション** ボタンを使用して配信を削除または複製します。
+    Use the **More actions** button to delete or duplicate a delivery.
 
-   ![](assets/more-actions.png){width="70%" align="left"}
+    ![](assets/more-actions.png){width="70%" align="left"}
 
-### 顧客管理
+### Customer Management
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="受信者"
->abstract="受信者データベースにアクセスできます。メールアドレス、名、姓などの有用な情報を確認できます。このリストは読み取り専用です。"
+>title="Recipients"
+>abstract="Access your recipient database. You can view useful information such as their email address, first name and last name. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
->title="オーディエンス"
->abstract="これはオーディエンスのリストです。オーディエンスのタイプ、接触チャネル、作成日／最終変更日およびラベルを確認できます。このリストは接触チャネルでフィルタリングできます。このリストは読み取り専用です。"
+>title="Audiences"
+>abstract="This is your list of audiences. You can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="購読リスト"
->abstract="購読リストを閲覧できます。購読リストのタイプ、モードおよびラベルを確認できます。このリストは読み取り専用です。"
+>title="Subscriptions lists"
+>abstract="Browse through your subscriptions lists. You can view their type, mode and label. This list is read-only."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
->title="ターゲティングワークフロー"
->abstract="キャンペーンワークフローのリストにアクセスします。ワークフローの状態、前回／次の処理日および環境を確認できます。リストは、状態、前回の処理日およびワークフロータイプでフィルタリングできます。ワークフローテンプレートも使用できます。これらのリストは読み取り専用です。"
+>title="Targeting workflows"
+>abstract="Access your list of Campaign workflows. You can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only."
 
-* **受信者** - 受信者データベースにアクセスできます。デフォルトでは、メールアドレス、名前（名）および名前（姓）が表示されます。このリストは読み取り専用です。
-* **オーディエンス** - オーディエンスのリストです。 デフォルトでは、オーディエンスのタイプ、接触チャネル、作成日／最終変更日およびラベルが表示されます。このリストは接触チャネルでフィルタリングできます。このリストは読み取り専用です。
-* **購読リスト** - 購読リストを閲覧できます。デフォルトでは、購読リストのタイプ、モードおよびラベルが表示されます。このリストは読み取り専用です。
-* **ターゲティングワークフロー** - キャンペーンワークフローのリストにアクセスできます。デフォルトでは、ワークフローの状態、前回／次回の処理日および環境が表示されます。リストは、状態、前回の処理日およびワークフロータイプでフィルタリングできます。ワークフローテンプレートも使用できます。これらのリストは読み取り専用です。
+* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. This list is read-only. 
+* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only. 
+* **Subscriptions lists** - Browse through your subscriptions lists. By default, you can view their type, mode and label. This list is read-only. 
+* **Targeting workflows** - Access your list of Campaign workflows. By default, you can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only. 
 
-### 意思決定管理
+### Decision Management
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
->title="オファー"
->abstract="インタラクションオファーのリストを閲覧できます。デフォルトでは、オファーのステータス、開始日／終了日および環境が表示されます。リストは、状態や開始日／終了日でフィルタリングできます。オファーテンプレートも使用できます。これらのリストは読み取り専用です。"
+>title="Offers"
+>abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only."
 
-* **オファー** - インタラクションオファーのリストを閲覧できます。デフォルトでは、オファーのステータス、開始日／終了日および環境が表示されます。リストは、状態や開始日／終了日でフィルタリングできます。オファーテンプレートも使用できます。これらのリストは読み取り専用です。
+* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
 
-## 上部バー
+## Top bar
 
-インターフェイスの上部のバーでは、次の操作を行えます。
+The top bar of the interface allows you to:
 
-* アルファテスターとしてのフィードバックの共有
-* 組織とインスタンス間の切り替え
-* Adobe Experience Cloud アプリケーションの切り替え
-* ヘルプページへのアクセス、サポートへの問い合わせ、フィードバックの共有検索フィールドからヘルプ記事およびビデオを検索できます。
+* share your feedback as an Alpha tester
+* switch between organizations and instances
+* switch between your Adobe Experience Cloud applications
+* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## リスト画面の設定 {#list-screens}
+## Configure list screens {#list-screens}
 
-左側のナビゲーションメニューの複数のリンクには、**配信**&#x200B;または&#x200B;**キャンペーン**&#x200B;など、オブジェクトのリストが表示されます。メール配信リストを除き、すべてのリスト画面は読み取り専用です。
+Several links from the left navigation menu, for example **Deliveries** or **Campaigns**, display lists of objects. These list screens are read-only, except the email delivery list. 
 
-項目をすばやく見つけるには、検索バーを使用するか、コンテキスト条件に基づいてリストをフィルタリングします。
+To find items quicker, you can use the search bar or filter the list based on contextual criteria. 
 
 ![](assets/filter.png){width="70%" align="left"}
 
-リストは複数の列で表示されます。 列の設定を変更すると、追加情報を表示できます。それには、リストの右上隅にあるアイコンをクリックします。 列の追加または削除や表示順序の変更を行うことができます。
+The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the icon in the top right corner of the list. You can add or remove columns and change the order in which they are displayed.
 
 ![](assets/columns.png){width="70%" align="left"}
 
-任意の列ヘッダーをクリックすると、リスト内の項目を並べ替えることができます。リストがその列で並べ替えられていることを示す（上または下）矢印が表示されます。数値列または日付列の場合、上向き矢印はリストが昇順で並べ替えられていることを示し、下向き矢印は降順であることを示します。文字列の列または英数字の列の場合、値はアルファベット順に表示されます。
+You can sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. For numeric or date columns, the Up arrow indicates that the list is sorted in ascending order while the Down arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
 
-## コンテキストヘルプとオンボーディングガイド
+## Contextual help and on-boarding guide
 
-コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合、「**?**」アイコンをクリックすると、ヘルプ情報や関連ドキュメントのリンクが表示されます。
+A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-また、Campaign v8 web の基本を学ぶうえで役に立つオンボーディングガイドも利用できます。右下隅にあるアイコンをクリックし、利用できるステップバイステップ方式のシナリオの 1 つを選択し、指示に従うだけです。
+An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
-## サポートしているブラウザー {#browsers}
+## Supported browsers {#browsers}
 
-Campaign v8 Web は、Google Chrome、Safari およびMicrosoft Edge の最新バージョンで最適に動作するように設計されています。 古いバージョンや他のブラウザーでは、特定の機能の使用に問題が生じる場合があります。
+Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
 
-## 言語環境設定 {#language-pref}
+## Language preferences {#language-pref}
 
-Campaign v8 Web は現在、次の言語で利用できます。
+Campaign v8 Web is currently available in the following languages:
 
 <table>
 <tr>
 <td>
-<p>英語（米国） — 米国</p>
-<p>フランス語 — FR</p>
-<p>ドイツ語 — DE</p>
-<p>イタリア語 — IT</p>
+<p>English (US) - EN-US</p>
+<p>French - FR</p>
+<p>German - DE</p>
+<p>Italian - IT</p>
 </td>
 <td>
-<p>スペイン語 — ES</p>
-<p>ポルトガル語（ブラジル） - PTBR</p>
-<p>日本語 — JP</p>
+<p>Spanish - ES</p>
+<p>Portuguese (Brazilian) - PTBR</p>
+<p>Japanese - JP</p>
 </td>
 <td>
-<p>韓国語 — KR</p>
-<p>簡体字中国語 — CHS</p>
-<p>繁体字中国語 — CHT</p>
+<p>Korean - KR</p>
+<p>Simplified Chinese - CHS</p>
+<p>Traditional Chinese - CHT</p>
 </td>
 </tr>
 </table>
 
-デフォルトのインターフェイス言語は、ユーザープロファイルで指定された優先言語によって決まります。
+Your default interface language is determined by the preferred language specified in your user profile.
 
-言語を変更するには：
+To change your language:
 
-1. プロファイルアイコンをクリックし、右上の「 」をクリックして、「 」を選択します。 **環境設定**.
+1. Click on your profile icon, on the top right, then select **Preferences**.
 
-   ![](assets/preferences.png){width="70%" align="left"}
+    ![](assets/preferences.png){width="70%" align="left"}
 
-1. 次に、E メールアドレスの下に表示される言語をクリックします。
+1. Then click the language displayed under your email address.
 
-   ![](assets/preferences2.png)
+    ![](assets/preferences2.png)
 
-1. 目的の言語を選択し、 **保存**. 使用しているコンポーネントが最初の言語にローカライズされていない場合に備えて、2 番目の言語を選択できます。
+1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
 
-   ![](assets/select-language.png)
+    ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}

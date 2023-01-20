@@ -1,107 +1,101 @@
 ---
 audience: end-user
-title: 電子メールデザイナーでのメールの設計
-description: メールコンテンツをゼロから設計する方法を学ぶ
+title: Design emails in the Email Designer
+description: Learn how to design your emails content from scratch
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 91%
-
 ---
-
-# ゼロから開始 {#create-email-content}
+# Start from scratch {#create-email-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="構造コンポーネントについて"
->abstract="構造コンポーネントは、メールのレイアウトを定義します。"
+>title="About Structure components"
+>abstract="Structure components define the layout of the email."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="構造コンポーネントについて"
->abstract="構造コンポーネントは、ランディングページのレイアウトを定義します。"
+>title="About Structure components"
+>abstract="Structure components define the layout of the landing page."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="構造コンポーネントについて"
->abstract="構造コンポーネントは、フラグメントのレイアウトを定義します。"
+>title="About Structure components"
+>abstract="Structure components define the layout of the fragment."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="構造コンポーネントについて"
->abstract="構造コンポーネントは、テンプレートのレイアウトを定義します。"
+>title="About Structure components"
+>abstract="Structure components define the layout of the template."
 
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
->title="メール列の定義"
->abstract="メールデザイナーを使用すると、列構造を定義することで、メールのレイアウトを簡単に定義できます。"
+>title="Defining email columns"
+>abstract="The Email Designer allows you to easily define the layout of your email by defining column structure."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="ランディングページ列の定義"
->abstract="メールデザイナーを使用すると、列構造を定義することで、ランディングページのレイアウトを簡単に定義できます。"
+>title="Defining landing page columns"
+>abstract="The Email Designer allows you to easily define the layout of your landing page by defining column structure."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="フラグメント列の定義"
->abstract="メールデザイナーを使用すると、列構造を定義することで、フラグメントのレイアウトを簡単に定義できます。"
+>title="Defining fragment columns"
+>abstract="The Email Designer allows you to easily define the layout of your fragment by defining column structure."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
->title="テンプレート列の定義"
->abstract="メールデザイナーを使用すると、列構造を定義することで、テンプレートのレイアウトを簡単に定義できます。"
+>title="Defining template columns"
+>abstract="The Email Designer allows you to easily define the layout of your template by defining column structure."
 
-メールデザイナーを使用すると、メールの構造を簡単に定義できます。簡単なドラッグ＆ドロップ操作で構造要素を追加して移動することで、メールの本文を数秒でデザインできます。
+The Email Designer allows you to easily define the structure of your email. By adding and moving structural elements with simple drag-and-drop actions, you can design the body of your email within seconds.
 
-メールコンテンツの作成を開始するには、次の手順に従います。
+To start building your email content, follow the steps below:
 
-1. メールデザイナーのホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
+1. From the Email Designer home page, select the **[!UICONTROL Design from scratch]** option.
 
-   ![](assets/email_designer.png)
+    ![](assets/email_designer.png)
 
-1. **[!UICONTROL 構造コンポーネント]**&#x200B;をキャンバスにドラッグ＆ドロップしてメールコンテンツのデザインを開始し、メールのレイアウトを定義します。
-
-   >[!NOTE]
-   >
-   >列の積み重ねは、すべてのメールプログラムと互換性があるわけではありません。 サポートされていない場合、列は積み重ねられません。
-
-   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
-
-   ![](assets/email_designer_2.png)
-
-1. 必要に応じて&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;を追加し、右側の専用パネルで設定を編集します。
-
-   **[!UICONTROL n:n 列]**&#x200B;コンポーネントを選択して、選択する列の数（3 ～ 10）を定義します。また、各列の下部にある矢印を移動して、各列の幅を定義することもできます。
+1. Start designing your email content by drag and dropping **[!UICONTROL Structure components]** into the canvas to define the layout of your email.
 
    >[!NOTE]
    >
-   >各列のサイズは、構造コンポーネントの全幅の 10％未満にすることはできません。空でない列は削除できません。
+   >Stacking columns is not compatible with all email programs. When not supported, columns are not stacked.
 
-1. **[!UICONTROL コンテンツコンポーネント]**&#x200B;セクションを展開し、必要な数の要素を 1 つ以上の構造コンポーネントに追加します。[詳しくは、コンテンツコンポーネントを参照してください](content-components.md)
+    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. 各コンポーネントは、右側の&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;パネルを使用して、さらにカスタマイズできます。例えば、各コンポーネントのテキストスタイル、パディングまたは余白を変更できます。 [詳しくは、整列とパディングを参照してください](alignment-and-padding.md)
+    ![](assets/email_designer_2.png)
 
-   ![](assets/email_designer_5.png)
+1. Add as many **[!UICONTROL Structure components]** as needed and edit their settings in the dedicated pane on the right.
 
-1. パーソナライゼーションフィールドを挿入して、プロファイルデータからのメールコンテンツをカスタマイズします。[詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
+    Select the **[!UICONTROL n:n column]** component to define the number of columns of your choice (between 3 and 10). You can also define the width of each column by moving the arrows at the bottom of each column.
 
-1. 次をクリック： **[!UICONTROL リンク]** 」タブをクリックして、追跡する必要のあるコンテンツのすべての URL を表示します。 必要に応じて、**[!UICONTROL トラッキングタイプ]**&#x200B;または&#x200B;**[!UICONTROL ラベル]**&#x200B;を変更して、**[!UICONTROL カテゴリ]**&#x200B;を追加できます。[詳しくは、リンクとメッセージトラッキングを参照してください](message-tracking.md)
-
-   ![](assets/email_designer_7.png)
-
-1. 必要に応じて、詳細メニューの「**[!UICONTROL コードエディターに切り替え]**」をクリックして、メールをさらにパーソナライズできます。[詳しくは、コードエディターを参照してください](code-content.md)
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >コードエディターに切り替えた後で、この電子メールのビジュアルデザイナーに戻すことはできません。
+   >Each column size cannot be under 10% of the total width of the structure component. You cannot remove a column that is not empty.
 
-1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、メールのレンダリングを確認します。デスクトップ表示またはモバイル表示を選択できます。[詳しくは、メールのプレビューを参照してください](../preview-test/preview-test.md)
+1. Expand the **[!UICONTROL Content components]** section and add as many elements as you need into one or more structure components. [Learn more about content components](content-components.md)
 
-   ![](assets/email_designer_28.png)
+1. Each component can be further customized using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
 
-1. メールの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
+    ![](assets/email_designer_5.png)
+
+1. Insert personalization fields to customize your email content from profiles data. [Learn more about content personalization](../personalization/personalize.md)
+
+1. Click the **[!UICONTROL Links]** tab from the left pane to display all the URLs of your content that must be tracked. You can modify their **[!UICONTROL Tracking Type]** or **[!UICONTROL Label]** and add **[!UICONTROL Categories]** if needed. [Learn more about links and message tracking](message-tracking.md)
+
+    ![](assets/email_designer_7.png)
+
+1. If needed, you can further personalize your email by clicking **[!UICONTROL Switch to code editor]** from the advanced menu. [Learn more about the code editor](code-content.md)
+
+    >[!CAUTION]
+    >
+    >You cannot revert back to the visual designer for this email after switching to the code editor.
+
+1. Once your content is ready, click **[!UICONTROL Simulate content]** to check your email rendering. You can choose the desktop or mobile view. [Learn more about previewing your email](../preview-test/preview-test.md)
+
+    ![](assets/email_designer_28.png)
+
+1. When your email is ready, click **[!UICONTROL Save]**.
 

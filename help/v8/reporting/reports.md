@@ -1,16 +1,10 @@
 ---
 audience: end-user
-title: 配信レポート
-description: 配信レポートにアクセスして使用する方法を説明します
+title: Delivery reports
+description: Learn how to access and use delivery reports
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
-workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 84%
-
 ---
-
-# 配信レポート {#reports}
+# Delivery reports {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -20,61 +14,60 @@ detail delivery reports and how to access them
 same content as in v7 (excepted for the navigation that is similar to AJO
 -->
 
-Adobe Campaign には、配信ごとにアクセス可能な複数のタイプのレポートが用意されています。 これらのレポートを使用すると、メッセージの影響とパフォーマンスを組み込みダッシュボードで測定し視覚化できます。
+Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
 
-レポートを表示するには、次の手順に従います。
+To display reports, follow these steps:
 
-1. メール配信にアクセスし、「**レポート**」ボタンをクリックします。
+1. Access your email delivery and click the **Report** button.
 
-   ![](assets/reporting.png)
+    ![](assets/reporting.png)
 
-1. 左メニューで、リストからレポートを選択します。
+1. From the left menu, select a report from the list.
 
-   ![](assets/reporting2.png){width="70%" align="left"}
+    ![](assets/reporting2.png){width="70%" align="left"}
 
-## 送信
+## Sending
 
-* **配信の概要**：このレポートは、配信に関するすべての主要な情報を提供します。ターゲット母集団、除外の原因、配信統計。
+* **Delivery summary**: This report provides all the main information on the delivery. Target population, Causes of exclusion, Delivery statistics.
 
-   ![](assets/reporting3.png)
+    ![](assets/reporting3.png)
 
-* **配信スループット**：このレポートには、指定された期間の配信スループットに関する情報が含まれています。メッセージが配信される速度を測定するには、1 時間に送信されたメッセージの数とメッセージのサイズ（bps）が基準になります。次の例では、最初のグラフに正常な配信を青で、誤った配信をオレンジで示しています。
+* **Delivery throughput**: This report contains information on the delivery throughput for a given period. To measure the speed at which the messages are delivered, the criteria are the number of messages sent per hour and the size of the messages (in bits per second). In the example below, the first graph shows the successful deliveries in blue, and the number of erroneous deliveries in orange.
 
-   ![](assets/reporting3bis.png)
+    ![](assets/reporting3bis.png)
 
-* **ブロードキャスト統計情報**：このレポートは、処理および送信されたすべてのメッセージ数、ハードバウンス数とソフトバウンス数、開封数、クリック数、購読解除数をインターネットドメインごとに分類表示します。
+* **Broadcast statistics**: This report shows the breakdown by internet domain, of all messages processed and sent, of hard and soft bounces, opens, clicks and unsubscriptions.
 
+    ![](assets/reporting4.png)
 
-   ![](assets/reporting4.png)
+* **Non-deliverables and bounces**: This report shows the breakdown of non-deliverables as well as a breakdown of bounces per internet domain.
 
-* **配信不能件数とバウンス数**:このレポートは、配信不能件数の分類と、インターネットドメインごとのバウンス数の分類を表示します。
+    ![](assets/reporting5.png)
 
-   ![](assets/reporting5.png)
+## Tracking
 
-## トラッキング
+* **Tracking indicators**: This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery. It gives access to delivery and reception statistics, open and click-through rates, generated click streams, web tracking as well as sharing activities to social networks.
 
-* **トラッキング指標**：このレポートでは、配信を受信したときの受信者の行動をトラッキングするための主要な指標を組み合わせています。配信統計と受信統計、開封率とクリックスルー率、生成されたクリックストリーム、web トラッキングだけでなく、ソーシャルネットワークへの共有アクティビティにもアクセスできます。
+    ![](assets/reporting6.png)
 
-   ![](assets/reporting6.png)
+* **URLs and click streams**: This report shows the list of pages visited following a delivery.
 
-* **URL とクリックストリーム**：このレポートでは、配信後に訪問されたページのリストを示します。
+    ![](assets/reporting7.png)
 
-   ![](assets/reporting7.png)
+* **User Activities**: This report shows the breakdown of opens and clicks per half-hour, hour or day, in the form of a chart.
 
-* **ユーザーアクティビティ**:このレポートは、30 分、1 時間または 1 日あたりの開封数とクリック数の分類をグラフ形式で表示します。
+    ![](assets/reporting8.png)
 
-   ![](assets/reporting8.png)
+* **Tracking Statistics**: This report provides statistics on opens and clicks.
 
-* **トラッキング統計**:このレポートは、開封数とクリック数の統計を表示します。
+    ![](assets/reporting9.png)
 
-   ![](assets/reporting9.png)
+* **Breakdown of opens**: This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 
-* **開封数の分類**：このレポートは、対象となる期間中の、オペレーティングシステム、デバイスおよびブラウザーごとの開封数の分類を表示します。それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフはモバイルデバイスでの開封数のみに関する統計を示しています。
+    ![](assets/reporting10.png)
 
-   ![](assets/reporting10.png)
+## Hotclicks
 
-## ホットクリック数
-
-このレポートは、各リンクでのメッセージのコンテンツ（HTML および／またはテキスト）を、リンクでのクリック率と共に表示します。パーソナライゼーションブロックの購読解除リンク、ミラーページリンクおよびオファーリンクは、累積クリック数の合計では考慮されますが、レポートには表示されません。
+This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
 
 ![](assets/reporting11.png)

@@ -1,23 +1,17 @@
 ---
 audience: end-user
-title: メールの準備と送信
-description: Campaign Web UI で E メールを準備して送信する方法を説明します
+title: Prepare and send an email
+description: Learn how to prepare and send an email with Campaign Web UI
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 80%
-
 ---
-
-# メールの準備と送信 {#prepare-send}
+# Prepare and send your email {#prepare-send}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="メールの準備と送信"
->abstract="メールの準備方法と KPI の送信に関する詳細を確認します。"
+>title="Prepare and send your email"
+>abstract="Discover how to prepare your email and learn more about sending KPIs."
 
 <!--
 
@@ -32,66 +26,66 @@ exclusion logs, causes
 send also KPIs
 -->
 
-## 送信の準備{#prepare}
+## Prepare the send{#prepare}
 
-コンテンツ、オーディエンスおよびスケジュールを定義したら、メッセージの準備を始めます。準備段階では、ターゲット母集団を計算し、ターゲットに含まれるプロファイルごとのメッセージコンテンツを生成します。準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。分析時に使用される検証ルールについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#validation-process-with-typologies){target="_blank"}.
+When you have defined your content, audience and schedule, you're ready to prepare your message. During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
-以下の手順に従います。
+Follow the steps below: 
 
-1. 配信ダッシュボードで、 右上隅の「**準備**」ボタンをクリックし、確定します。
+1. From the delivery dashboard, click the **Prepare** button located in the top right corner and confirm.
 
-   ![](assets/prepare.png)
+    ![](assets/prepare.png)
 
-   準備の進行状況が表示されます。ターゲット母集団のサイズによっては、この操作に時間がかかる場合があります。
+   The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
 
-   >[!NOTE]
-   >
-   >「**準備を停止**」ボタンでいつでも準備を停止できます。準備段階では、メッセージは送信されません。そのため、何かに影響を与えるリスクなく、準備を開始または停止できます。
+    >[!NOTE]
+    >
+    >You can stop the preparation at any time using the **Stop preparation** button. During the preparation phase, no messages are sent. You can therefore start or stop this without risk of impacting anything.
 
-1. 準備が完了したら、KPI を確認します。送信するメッセージの数が期待値と異なる場合は、オーディエンスを変更し、準備をやり直します。
+1. When the preparation is finished, check the KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation. 
 
-   ![](assets/prepare2.png)
+    ![](assets/prepare2.png)
+    
+    Here are the different KPIs displayed:
 
-   次に、様々な KPI を示します。
+    * **Targeted**: the number of recipients targeted
+    * **To deliver**: the number of messages that will be sent 
+    * **To exclude**: the number of messages excluded by a typology rule
 
-   * **ターゲット**：ターゲットとする受信者の数
-   * **配信対象**：送信されるメッセージの数
-   * **除外対象**：タイポロジルールによって除外されるメッセージの数
+1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](delivery-logs.md).
 
-1. 「**ログ**」ボタンをクリックし、エラーがないことを確認します。最後のログメッセージには、エラーメッセージとエラー件数が表示されます。詳しくは、[こちらの節](delivery-logs.md)を参照してください。
+    ![](assets/prepare-logs.png)
 
-   ![](assets/prepare-logs.png)
-
-準備中に配信の送信を妨げる重大なエラーが検出された場合、準備ステータスは配信ダッシュボードに失敗と表示されます。
+If the preparation detects a critical error preventing the delivery from being sent, the preparation status appears as failed in the delivery dashboard.
 
 ![](assets/prepare-error.png)
 
-準備が完了した後に配信に変更を加える場合は、変更を反映させるために準備をやり直す必要があります。
+If you need to make any changes to your delivery after the preparation, you need to restart the preparation for those changes to be taken into account. 
 
-エラーなく準備が完了したら、メッセージの送信準備は完了です。詳しくは、[こちらの節](#send)を参照してください。
+Once the preparation is complete with no error, your message is ready to be sent. For more on this, see this [section](#send).
 
-## メッセージの送信{#send}
+## Send the message{#send}
 
-準備が完了したら、メッセージを送信できます。この手順は、すぐに送信するメッセージに対してのみ必要となります。メッセージがスケジュールされている場合は、指定した日付に送信されます。
+Once the preparation is complete, you can now send your message. This step is only required for messages sent immediately. If the message is scheduled, it is sent at the defined date. 
 
-次の手順に従います。
+Follow these steps:
 
-1. 配信ダッシュボードで、右上隅の「**送信**」ボタンをクリックして、確定します。
+1. From the delivery dashboard, click the **Send** button in the top right corner and confirm.
 
-   ![](assets/send.png)
+    ![](assets/send.png)
 
-1. 送信の進行状況が表示されます。表示された KPI を確認します。また、ログを確認することもできます。詳しくは、[こちらの節](delivery-logs.md)を参照してください。
+1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](delivery-logs.md).
 
-   ![](assets/send2.png)
+    ![](assets/send2.png)
 
-   次に、様々な KPI を示します。
+    Here are the different KPIs displayed:
 
-   * **配信済み**:正常に配信されたメッセージ数。 表示される割合は、送信されたメッセージの合計数に基づきます。
-   * **開封数**：開封されたメッセージの数。表示される割合は、配信されたメッセージ数に対する、ユニーク開封数の割合です。
-   * **クリック数**：メール内で 1 回以上クリックした受信者の数。表示される割合は、配信されたメッセージ数に対する、ユニーククリック数の割合です。
+    * **Delivered**: the number of messages successfully delivered. The percentage displayed is based on the total number of sent messages.
+    * **Opens**: the number of opened messages. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages.
+    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages.
 
-   >[!NOTE]
-   >
-   >この **開封数** および **クリック数** 指標は 5 分後に更新されます。
+    >[!NOTE]
+    >
+    >The **Opens** and **Clicks** indicators are updated after 5 minutes.  
 
-   送信はいつでも一時停止、再開できます。配信の送信中に停止すると、再開できません。
+   You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you cannot resume.

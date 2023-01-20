@@ -1,34 +1,27 @@
 ---
 audience: end-user
-title: メールのレンダリングをテスト
-description: Campaign Web UI で E メールのレンダリングをテストする方法を説明します
+title: Test email rendering
+description: Learn how to test your email rendering in Campaign Web UI
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 75%
-
 ---
-
-# メールのレンダリングをテストする {#rendering}
+# Test the email rendering {#rendering}
 
 ![](../assets/do-not-localize/badge.png)
 
-E メールを送信する前に、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
+Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
 
-Adobe Campaign では、送信されるメッセージを受信する様々なコンテキストでプレビューし、主要なデスクトップやアプリケーション（web メール、メッセージサービス、モバイルなど）での互換性を確認できます。
+To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
 
+To test the email rendering, follow these steps:
 
-メールのレンダリングをテストするには、次の手順に従います。
+1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
 
-1. メールコンテンツ作成画面にアクセスし、「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
+1. Click the **[!UICONTROL Render email]** button.
 
-1. 「**[!UICONTROL メールをレンダリング]**」ボタンをクリックします。
+    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-   左側のペインには、様々なデスクトップ、モバイルおよび web ベースのメールクライアントが表示されます。目的のメールクライアントを選択して、メールのプレビューを右側のパネルに表示します。
+    ![](assets/render-context.png)
 
-   ![](assets/render-context.png)
-
-   >[!NOTE]
-   >
-   >メールクライアントのリストには、主要なメールクライアントのサンプルが表示されます。その他のメールクライアントは、上部検索バーの横にあるフィルターボタンから使用できます。
+    >[!NOTE]
+    >
+    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.

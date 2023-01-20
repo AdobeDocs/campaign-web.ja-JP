@@ -1,72 +1,66 @@
 ---
 audience: end-user
-title: 配信ログの監視
-description: 詳しくは、配信ログの監視方法を参照してください
+title: Monitor delivery logs
+description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 81%
-
 ---
-
-# 配信ログの監視 {#delivery-logs}
+# Monitor delivery logs {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="配信ログ"
+>title="Delivery logs"
 >abstract="TBC"
 
-メールを準備して送信した後、配信ログを使用して、エラーがないことを確認できます。これらのログは、メッセージダッシュボードから直接アクセスできます。送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
+After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-ログを表示するには、配信ダッシュボードにアクセスし、「**ログ**」ボタンをクリックします。
+To view the logs, access your delivery dashboard and click the **Logs** button.
 
-複数のタブが表示されます。
+Several tabs are available:
 
-## ログ
+## Logs
 
-「**ログ**」タブには、配信と配達確認に関するすべてのメッセージが含まれます。特別なアイコンによって、エラーまたは警告を識別できます。
+The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
-すべての検証手順、警告およびエラーが表示されます。色付きのアイコンは、メッセージタイプを示します。
+All the validation steps, warnings and errors are listed. Colored icons show the message type:
 
-* 灰色のアイコンは、情報メッセージを示します。
-* 黄色のアイコンは、重要でない処理エラーを示します。
-* 赤色のアイコンは、配信の送信を妨げる重大なエラーを示します。
+* The grey icon indicates an informative message.
+* The yellow icon indicates a non-critical processing error.
+* The red icon indicates a critical error that prevents sending the delivery. 
 
 ![](assets/logs.png)
 
-## 配信
+## Deliveries
 
-この **ログの送信** 「 」タブには、この配信のすべての発生履歴が表示されます。 送信されたメッセージのリストとそのステータスがここに保存されます。各受信者の配信ステータスを表示できます。
+The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
 ![](assets/logs2.png)
 
-## 除外
+## Exclusions
 
-この **除外ログ** 「 」タブには、ターゲットから除外されたすべてのメッセージのリストが表示され、送信が失敗した理由を特定します。
+The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
 
 ![](assets/logs3.png)
 
-## 除外の原因
+## Exclusion causes
 
-この **除外の原因** 「 」タブには、ターゲットから除外されたメッセージの量（メッセージ数）が表示されます。
+The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
 
 ![](assets/logs4.png)
 
-## トラッキングされる URL
+## Tracked URLs
 
-「**トラッキングする URL**」タブは、送信されたメッセージに含まれている URL を、その URL タイプとソース URL を含めて再グループ化します。
+The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
 ![](assets/logs5.png)
 
-## トラッキング
+## Tracking
 
-「**トラッキング**」タブには、この配信のトラッキング履歴が一覧表示されます。このタブには、送信されたメッセージのトラッキングデータ、つまり、Adobe Campaign によってトラッキングされたすべての URL が表示されます。
+The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
 >[!NOTE]
 >
->配信トラッキングが有効になっていない場合、このタブは表示されません。
+>If tracking is not enabled for a delivery, this tab is not displayed.
 
 ![](assets/logs6.png)

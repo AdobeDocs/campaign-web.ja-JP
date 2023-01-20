@@ -1,94 +1,88 @@
 ---
 audience: end-user
-title: コントロール母集団の設定
-description: Campaign Web UI でメッセージのコントロール母集団を設定する方法を説明します
+title: Set a control group
+description: Learn how to set a control group for your messages in Campaign Web UI
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 71%
-
 ---
+# Set a control group {#control-group}
 
-# コントロール母集団の設定 {#control-group}
+You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
 
-コントロール母集団を使用すると、キャンペーンの影響を測定するために、オーディエンスの一部にメッセージを送信しないようにできます。
+To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You can then compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
 
-これを Adobe Campaign で行うには、配信のオーディエンスを定義する際にコントロール母集団を作成します。プロファイルは、無作為、フィルターの有無、または条件に基づいてコントロール母集団に追加されます。次に、メッセージを受信したターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。
+The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 
-コントロール母集団は、メインターゲットから無作為に抽出できます。特定の母集団から選択することもできます。したがって、コントロール母集団を定義する方法は主に 2 つあります。
+* Extract a number of profiles from the main target.
+* Exclude some profiles based on criteria defined in a query.
 
-* メインターゲットから複数のプロファイルを抽出します。
-* クエリで定義された条件に基づいて、一部のプロファイルを除外します。
+You can use both methods when defining a control group.
 
-コントロール母集団を定義する際は、両方の方法を使用できます。
+All profiles being part of the control group at the delivery preparation step are removed from the main target. They do not receive the message.
 
-配信の準備手順でコントロール母集団に含まれているすべてのプロファイルが、メインターゲットから削除されます。 メッセージは受信されません。
-
-コントロール母集団を作成するには、 配信作成アシスタントの「**オーディエンス**」セクションの「**[!UICONTROL コントロール母集団を設定]**」ボタンをクリックします。
+To create a control group, click the **[!UICONTROL Set Control Group]** button, from the **Audience** section of the delivery creation assistant.
 
 ![](assets/control-group1.png)
 
-## ターゲットから抽出 {#extract-target}
+## Extract from target {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="ターゲットから抽出"
+>title="Extract from target"
 >abstract="TBC"
 
-コントロール母集団を定義するには、ターゲット母集団から一定の割合または一定数のプロファイルを、無作為または並べ替えに基づいて抽出できます。
+To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
 
-まず、ターゲットからプロファイルを抽出する方法を定義します。ランダムに、または並べ替えに基づいて。
+First, define the way the profiles are e extracted from the target: randomly or based on a sorting.
 
-「**ターゲットから抽出**」セクションで、**除外タイプ**&#x200B;を選択します。
+Under the **Extract from target** section, choose an **Exclusion type**:
 
-* **ランダム**:配信を準備する際、Adobe Campaignは、サイズ制限として設定されている割合または最大数に対応するプロファイル数をランダムに抽出します。
+* **Random**: when preparing the delivery, Adobe Campaign  randomly extracts a number of profiles corresponding to the percentage or to the maximum number that is set as the size limit.
 
-   ![](assets/control-group.png)
+    ![](assets/control-group.png)
 
-* **属性ごとにランク付け**：特定の並べ替え順で特定の属性に基づいて一連のプロファイルを除外できます。
+* **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
 
-   ![](assets/control-group2.png)
+    ![](assets/control-group2.png)
 
-**サイズ制限**&#x200B;の定義：メインターゲットから抽出するプロファイルの数を制限する方法を設定する必要があります。
+Then define the **Size limit**: you must set how you are going to limit the number of profiles that you extract from the main target. 
 
-**例**
+**Example**
 
-ログを表示して、除外されたプロファイルを確認および特定できます。5 つのプロファイルに対するランダムな除外の例を見てみましょう。
+You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
 
 ![](assets/control-group4.png)
 
-配信準備が完了したら、以下の画面で除外を確認できます。
+After the delivery preparation, you can view the exclusions on the following screens:
 
-* 送信前の配信ダッシュボードでの&#x200B;**除外対象** KPI。
+* The **To exclude** KPI in the delivery dashboard, before the sending.
 
-   ![](assets/control-group5.png)
+    ![](assets/control-group5.png)
 
-* この **除外ログ** 各プロファイルと関連する除外の表示 **理由**.
+* The **Exclusion logs** display each profile and the related exclusion **Reason**.
 
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
 
-* この **除外の原因** 各タイポロジルールの除外されたプロファイルの数を表示します。
+* The **Exclusion causes** display the number of excluded profile for each typology rule.
 
-   ![](assets/control-group7.png)
+    ![](assets/control-group7.png)
 
-配信ログについて詳しくは、[こちら](../monitor/delivery-logs.md)を参照してください。
+For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
 
-## 追加の母集団 {#extra-population}
+## Extra population {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="追加の母集団"
+>title="Extra population"
 >abstract="TBC"
 
-コントロール母集団を定義するもう 1 つの方法は、既存のオーディエンスを使用するか、またはクエリを定義してターゲットから特定のプロファイルを除外することです。
+Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 
-**コントロール母集団**&#x200B;の定義画面で、「**追加の母集団**」セクションの「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
+From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
 ![](assets/control-group3.png)
 
-* 既存のオーディエンスを使用するには、「**オーディエンスを選択**」をクリックします。[こちら](add-audience.md)を参照してください。
+* To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
 
-* 新しいクエリを定義するには、「**独自に作成**」を選択し、ルールビルダーを使用して除外条件を定義します。[こちら](segment-builder.md)を参照してください。
+* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
 
-オーディエンスに含まれるプロファイル、またはクエリの結果と一致するプロファイルは、ターゲットから除外されます。
+The profiles included in the audience or matching the result of the query are excluded from the target.

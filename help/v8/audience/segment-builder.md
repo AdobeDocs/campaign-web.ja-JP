@@ -1,98 +1,92 @@
 ---
 audience: end-user
-title: ルールビルダーを使用したオーディエンスの定義
-description: セグメントビルダーの操作方法を説明します。
+title: Define an audience with the rule builder
+description: Learn how to work with the Segment Buidler
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 92%
-
 ---
-
-# ルールビルダーを使用したオーディエンスの定義 {#segment-builder}
+# Define an audience with the rule builder {#segment-builder}
 
 ![](../assets/do-not-localize/badge.png)
 
-この節では、新しいメールをデザインする際にオーディエンスを作成する方法について説明します。作成したオーディエンスは、このメールでのみ使用できます。
+This section describes how to create an audience when designing a new email. The created audience can only be used in this email. 
 
-ルールビルダーを使用すると、 データベースに含まれるデータをフィルタリングすることで、メッセージのターゲットとなる母集団を定義できます。 既存のオーディエンスを選択する場合は、[こちら](add-audience.md)を参照してください。
+The rule builder allows you to define the population targeted by your message by filtering data contained in the database. If you want to select an existing audience, refer to this [section](add-audience.md). 
 
-ルールビルダーについて詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
+For more information on the rule builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-メールのデザイン時に新しいオーディエンスを作成するには、次の手順に従います。
+To create a new audience when designing an email, follow these steps: 
 
-1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
+1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
-   ![](assets/segment-builder0.png)
+    ![](assets/segment-builder0.png)
 
-1. 「**独自に作成**」を選択します。ルールビルダーが表示されます。
+1. Select **Create your own**. The rule builder is displayed.
 
-   ![](assets/segment-builder.png)
+    ![](assets/segment-builder.png)
 
-## パレット
+## The palette
 
-左側のパレットには、オーディエンスを作成するためにフィルタリングできるすべての要素が含まれています。パレットに含まれるタイルを設定して考慮するには、中央のキャンバスに移動する必要があります。パレットは次の 2 つのタブに分かれています。
+The palette, located on the left side contains all the elements that you can filter on to create your audience. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account. The palette is divided into two tabs:
 
-* **属性**：このタブでは、スキーマから使用可能なすべてのフィールドにアクセスできます。フィールドのリストは、メールテンプレートで定義されているターゲティングスキーマによって異なります。
+* **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **オーディエンス**：このタブでは、Campaign Classic コンソールまたは Adobe Experience Platform で定義された既存のオーディエンスの 1 つを使用してフィルタリングできます。
+* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform.
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+    ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 [宛先に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}を参照してください。
+    >[!NOTE]
+    >
+    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
-検索バーを使用して、要素をすばやく見つけることができます。
+You can use the search bar to find elements quickly.
 
-## キャンバス
+## The canvas
 
-キャンバスは、パレットから追加された要素を基に、ルールを設定したり組み合わせたりできる中央ゾーンです。新しいルールを追加するには、パレットからタイルをドラッグし、キャンバスにドロップします。 追加するデータのタイプに応じて、コンテキスト固有のオプションを表示できます。
+The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You can then be presented with context-specific options according to the type of data being added. 
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
-## ルールのプロパティパネル
+## The rule properties pane
 
-右側に表示される「**ルールのプロパティ**」パネルでは、次のアクションを実行できます。
+On the right side, the **Rule properties** pane allows you to perform the following actions:
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **結果を表示：**&#x200B;オーディエンスによってターゲットされた受信者のリストを表示します。。
-* **コードビュー**：オーディエンスのコードベースのバージョンを SQL で表示します。
-* **詳細属性の表示**：左側のパレットに属性の完全なリスト（ノード、グループ、1 対 1 のリンク、1 対多のリンク）を表示する場合は、このオプションを選択します。
-* **属性**：作成したオーディエンスの説明が表示されます。
+* **View results:** displays the list of recipients targeted by the audience.
+* **Code view**: displays a code-based version of the audience in SQL.
+* **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
+* **Attributes**: displays a description of the created audience.
 
-## 例
+## Example
 
-この例では、アトランタまたはシアトルに住み、1980 年以降に生まれたすべての顧客をターゲットにするオーディエンスを作成します。
+In this example, we build an audience to target all customers living in Atlanta or Seattle and born after 1980. 
 
-1. パレットの「**属性**」タブで、「**生年月日**」フィールドを検索します。タイルをドラッグし、キャンバスにドロップします。
+1. In the **Attributes** tab of the palette, search for the **Date of birth** field. Drag the tile and drop it onto the canvas. 
 
-   ![](assets/segment-builder6.png)
+    ![](assets/segment-builder6.png)
 
-1. キャンバスで、「**これ以降**」演算子を使用して、目的の日付を入力します。
+1. In the canvas, choose the **After** operator and enter the desired date.
 
-   ![](assets/segment-builder7.png)
+    ![](assets/segment-builder7.png)
 
-1. パレットで、「**市区町村**」フィールドを検索し、キャンバスの最初のルールの下に追加します。
+1. In the palette, search for the **City** field and add it to the canvas below the first rule. 
 
-   ![](assets/segment-builder8.png)
+    ![](assets/segment-builder8.png)
 
-1. テキストフィールドに最初の都市名を入力し、Enter キーを押します。
+1. In the text field, enter the first city name, then press enter. 
 
-   ![](assets/segment-builder9.png)
+    ![](assets/segment-builder9.png)
 
-1. 2 つ目の都市名に対して、同じ操作を繰り返します。
+1. Repeat this action for the second city name.
 
-   ![](assets/segment-builder10.png)
+    ![](assets/segment-builder10.png)
 
-1. 「**結果を表示**」をクリックすると、クエリに一致する受信者のリストと数が表示されます。また、列を追加し、データを視覚化して確認することもできます。 この例では、**市区町村**&#x200B;列を追加すると、アトランタとシアトルが表示されます。
+1. Click **View results** to display the list and number of recipients matching the query. You can also add columns to visualize and check the data. In our example, add the **City** column and should see Atlanta and Seattle.
 
-   ![](assets/segment-builder11.png)
+    ![](assets/segment-builder11.png)
 
-1. 「**確認**」をクリックします。
+1. Click **Confirm**.
 
-オーディエンスが定義され、メールで使用できる状態になります。
+Your audience is defined and ready to be used in your email.

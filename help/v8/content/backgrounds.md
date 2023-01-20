@@ -1,62 +1,56 @@
 ---
 audience: end-user
-title: メールの背景をパーソナライズする
-description: メールの背景をパーソナライズする方法を学ぶ
+title: Personalize your email background
+description: Learn how to personalize your email background
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 96%
-
 ---
-
-# メールの背景をパーソナライズする {#backgrounds}
+# Personalize your email background {#backgrounds}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="背景設定"
->abstract="コンテンツの背景色や背景画像をパーソナライズできます。背景画像は、すべてのメールクライアントでサポートされているわけではありません。"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
 
-電子メールデザイナーで背景を設定する際の推奨事項は次のとおりです。
+When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
-1. デザインで必要な場合は、メールの本文に背景色を適用します。
-1. 通常は、列レベルで背景色を設定します。
-1. 画像やテキストコンポーネントは管理が困難であるため、背景色を使用しないようにしてください。
+1. Apply a background color to the body of your email if required by your design.
+1. Usually, set background colors at the column level.
+1. Try not to use background colors on image or text components as they are difficult to manage.
 
-使用可能な背景設定を次に示します。
+Below are the available background settings that you can use.
 
-* **[!UICONTROL 背景色]**&#x200B;をメール全体に対して設定します。左側のウィンドウからアクセス可能なナビゲーションツリーで、本文設定を選択していることを確認してください。
+* Set a **[!UICONTROL Background color]** for the whole email. Make sure you select the body settings in the navigation tree accessible from the left pane.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
-* すべての構造コンポーネントに同じ背景色を設定するには、**[!UICONTROL ビューポートの背景色]**&#x200B;を選択します。 このオプションを使用すると、背景色から別の設定を選択できます。
+* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
-* 構造コンポーネントごとに異なる背景色を設定します。左側ウィンドウのナビゲーションツリーで構造を選択し、その構造にのみ特定の背景色を適用します。
+* Set a different background color for each structure component. Select a structure in the navigation tree on the left pane to apply a specific background color only to that structure.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
-   >[!NOTE]
-   >
-   >構造の背景色が隠れてしまう場合があるので、ビューポートの背景色を設定しないでください。
+  >[!NOTE]
+  >
+  >Make sure you do not set a viewport background color as it may hide the structure background colors.
 
-* 構造コンポーネントのコンテンツに対して、**[!UICONTROL 背景画像]**&#x200B;を設定します。
+* Set a **[!UICONTROL Background image]** for the content of a structure component.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
-   >[!NOTE]
-   >
-   >一部のメールプログラムでは、背景画像はサポートされていません。サポートされていない場合は、代わりに行の背景色が使用されます。 画像を表示できない場合は、必ず適切なフォールバックの背景色を選択してください。
+  >[!NOTE]
+  >
+  >Some email programs do not support background images. When not supported, the row background color is used instead. Make sure you select an appropriate fallback background color in case the image cannot be displayed.
 
-* 列レベルで背景色を設定します。
+* Set a background color at the column level.
 
-   ![](assets/background_5.png)
+  ![](assets/background_5.png)
 
-   >[!NOTE]
-   >
-   >これは最も一般的な使用例です。アドビでは、メールコンテンツ全体を柔軟に編集できるように、背景色を列レベルで設定することをお勧めします。
+  >[!NOTE]
+  >
+  >This is the most common use case. Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
 
-   また、列レベルで背景画像を設定することもできますが、ほとんど使用されません。
+  You can also set a background image at the column level, but this is rarely used.

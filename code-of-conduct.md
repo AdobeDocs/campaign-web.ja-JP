@@ -1,50 +1,71 @@
----
-source-git-commit: 91649bdf1e6561c9af93d22bd4980f6f5a87bf7c
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+# Adobe Code of Conduct
 
----
-# アドビの行動規範
+## Our Pledge
 
-## アドビの誓約
+In the interest of fostering an open and welcoming environment, we as
+contributors and maintainers pledge to making participation in our project and
+our community a harassment-free experience for everyone, regardless of age, body
+size, disability, ethnicity, gender identity and expression, level of experience,
+nationality, personal appearance, race, religion, or sexual identity and
+orientation.
 
-開かれた快適な環境を育むために、アドビは、投稿者および保守者として、年齢、体型、身体障害、民族性、性同一性と性表現、経験レベル、国籍、容姿、人種、宗教、性的同一性と性的指向などにかかわらず、アドビのプロジェクトおよびコミュニティへの参加がすべての人にとってハラスメントのない経験となることを誓います。
+## Our Standards
 
-## アドビの標準
+Examples of behavior that contributes to creating a positive environment
+include:
 
-建設的な環境の創出に貢献する行動には、例えば、次のものがあります。
+* Using welcoming and inclusive language
+* Being respectful of differing viewpoints and experiences
+* Gracefully accepting constructive criticism
+* Focusing on what is best for the community
+* Showing empathy towards other community members
 
-* 友好的かつ包括的な言葉を使用する
-* 異なる視点や経験を尊重する
-* 建設的な批判を素直に受け入れる
-* コミュニティにとって最善なことに重点を置く
-* 他のコミュニティメンバーに共感を示す
+Examples of unacceptable behavior by participants include:
 
-参加者による受け入れがたい行動には、例えば、次のものがあります。
+* The use of sexualized language or imagery and unwelcome sexual attention or
+advances
+* Trolling, insulting/derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or electronic
+  address, without explicit permission
+* Other conduct which could reasonably be considered inappropriate in a
+  professional setting
 
-* 性的な意味を含む言葉や画像および相手の意に反した性的な関心や誘い文句の使用
-* 荒らし、侮辱的／軽蔑的なコメント、個人攻撃または政治的攻撃
-* 公的または私的な嫌がらせ
-* 住所やメールアドレスなど、他者の個人情報を明示的な許可なく公開すること
-* 職場において合理的に不適切だと考えられるその他の行為
+## Our Responsibilities
 
-## アドビの責任
+Project maintainers are responsible for clarifying the standards of acceptable
+behavior and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behavior.
 
-プロジェクトメンテナーは、許容される行動の基準を明確にする責任があり、容認できない行動に対して適切かつ公正な是正措置を講じることが期待されています。
+Project maintainers have the right and responsibility to remove, edit, or
+reject comments, commits, code, wiki edits, issues, and other contributions
+that are not aligned to this Code of Conduct, or to ban temporarily or
+permanently any contributor for other behaviors that they deem inappropriate,
+threatening, offensive, or harmful.
 
-プロジェクトメンテナーには、この行動規範に適合しないコメント、コミット、コード、Wiki 編集、問題、その他の投稿を削除、編集または拒否する権限と責任があります。また、不適切、脅威、不快、有害と見なされる投稿やその他の行動を一時的または永久的に禁止する権限と責任も有します。
+## Scope
 
-## 対象範囲
+This Code of Conduct applies both within project spaces and in public spaces
+when an individual is representing the project or its community. Examples of
+representing a project or community include using an official project e-mail
+address, posting via an official social media account, or acting as an appointed
+representative at an online or offline event. Representation of a project may be
+further defined and clarified by project maintainers.
 
-この行動規範は、個人がプロジェクトやそのコミュニティを代表するときに、プロジェクト内および公共空間内の両方で適用されます。プロジェクトまたはコミュニティを代表する例としては、プロジェクトの公式電子メールアドレスの使用、ソーシャルメディアの公式アカウントからの投稿、指名された代表としてのオンラインまたはオフラインのイベントにおける行動があります。プロジェクトを代表する行為については、プロジェクトメンテナーによってさらに詳しく定義され明確化される可能性があります。
+## Enforcement
 
-## 実施
+Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported by contacting the project team at Grp-opensourceoffice@adobe.com. All
+complaints will be reviewed and investigated and will result in a response that
+is deemed necessary and appropriate to the circumstances. The project team is
+obligated to maintain confidentiality with regard to the reporter of an incident.
+Further details of specific enforcement policies may be posted separately.
 
-暴言、嫌がらせまたはその他の容認できない行為については、プロジェクトチーム（Grp-opensourceoffice@adobe.com）に連絡して報告することができます。すべての申し立ては、審査および調査され、状況に対して必要かつ適切と判断された対応が取られます。プロジェクトチームには、インシデントの報告者に関する守秘義務があります。具体的な実施ポリシーの詳細が別途投稿される場合があります。
+Project maintainers who do not follow or enforce the Code of Conduct in good
+faith may face temporary or permanent repercussions as determined by other
+members of the project's leadership.
 
-この行動規範を誠実に遵守または実施しないプロジェクトメンテナーに対しては、プロジェクトを統率する他のメンバーの判断により、一時的または恒久的な措置が講じられる場合があります。
+## Attribution
 
-## アトリビューション
-
-この行動規範は、[Contributor Covenant](https://contributor-covenant.org) バージョン 1.4（[https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)）を基に作成されています。
+This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org), version 1.4,
+available at [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)

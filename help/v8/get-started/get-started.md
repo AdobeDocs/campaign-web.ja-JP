@@ -1,16 +1,10 @@
 ---
 audience: end-user
-title: 基本を学ぶ Campaign v8 Web を使用
-description: Campaign v8 Web の概要
+title: Get started with Campaign v8 Web
+description: Get started with Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
-workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 81%
-
 ---
-
-# Campaign v8 Web の概要 {#get-started}
+# Get started with Campaign v8 Web {#get-started}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,44 +15,44 @@ only existing customers
 -->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="基本を学ぶ"
->abstract="主な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。"
+>title="Get started"
+>abstract="Discover key capabilities, user interface and global guidelines."
 
 >[!NOTE]
 >
->Campaign v8 Web は現在アルファバージョンです。 アクセスは、一部のアルファ顧客に制限されています。製品インターフェイス、機能、使用フローは予告なく変更される場合があることに注意してください。
+>Campaign v8 Web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
-Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。
+Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-当初は、リッチな [クライアントコンソール](#ac-client)の Campaign は、ユーザーエクスペリエンスを大幅に改善するための新しい Web ユーザーインターフェイスと、より使いやすく、アクセシビリティと新しいデザインを提供するようになりました。 この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。
+Initially only available through a rich [client console](#ac-client), Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
 
 
 ![](assets/home.png)
 
-この新しい UI は、まず **営業者**  — この最初のバージョンでは、一般的な管理タスクはすべて使用できませんが、以降のバージョンでは対処します。 なお、現在のところ、新しい UI では、クライアントコンソールで利用できる機能やオプションのすべてを使用できるわけではありません。 今後のリリースで、新しいユースケース、オプションおよび機能が利用できるようになります。
+This new UI first serves the needs of the **business practitioner** – all typical administration tasks are not available in this first version, but will be addressed in subsequent versions. Note that not every single functionality or option available in the client console is available for now in the new UI. New use-cases, options and features will be available in future releases.
 
-Web UI で使用できない Campaign v8 機能にアクセスする必要がある場合は、[クライアントコンソール](#ac-client)を使用してください。
+If you need to access Campaign v8 capabilities which are not available in the web UI, you can use the [client console](#ac-client). 
 
-## Campaign クライアントコンソールについて{#ac-client}
+## About Campaign client console{#ac-client}
 
-Campaign クライアントコンソールは、お使いのシステムにインストールされるブラウザーベースのアプリケーションです。 Web サービス API を使用して、Campaign アプリケーションサーバーに接続します。
+The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
 
-クライアントコンソールのダウンロードおよびインストール方法については、[こちら](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html?lang=ja){target="_blank"}を参照してください。
+Learn how to download and install the client console in [this section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
-Campaign v8 の使用方法について詳しくは、[ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}を参照してください。
+For more information on how to use Campaign v8, refer to the [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
 
-Campaign データは、アプリケーションサーバーに保存されます。 クライアントコンソールと web UI の両方からデータを利用できます。 例えば、クライアントコンソールを使用して配信テンプレートを作成した場合、web UI でも使用できます。また、web UI でメール配信を作成した場合、クライアントコンソールからもこの配信にアクセスできます。
+Campaign data is stored in the application server. Data is available both from the client console and from the web UI. For example, if you create a delivery template using the client console, it is also available in the web UI. And if you create an email delivery in the web UI, this delivery is also accessible from the client console.
 
-## Campaign への接続
+## Connect to Campaign
 
 
-1. [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"} に接続します。
-1. アドビの資格情報を使用してログインします。
-1. 「**クイックアクセス**」セクションで、「**Campaign**」をクリックします。
-   ![](assets/connect.png)
+1. Connect to [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
+1. Log in with your Adobe credentials.
+1. In the **Quick access** section, click **Campaign**.
+    ![](assets/connect.png)
 
-1. 次のページで、Campaign インスタンスの「**ローンチ**」ボタンをクリックします。
-Campaign に接続しました。ユーザーインターフェイスの使用を開始する方法については、[このページ](user-interface.md)を参照してください。
+1. In the next page, click the **Launch** button of your Campaign instance.
+    You are now connected to Campaign. Learn how to start using the user interface in [this page](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
