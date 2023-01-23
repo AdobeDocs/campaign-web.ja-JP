@@ -1,30 +1,36 @@
 ---
 audience: end-user
-title: Add inline styling attributes
-description: Learn how to add inline styling attributes
+title: インラインスタイル属性を追加する
+description: インラインスタイル属性を追加する方法を説明します
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: ht
+source-wordcount: '129'
+ht-degree: 100%
+
 ---
-# Add inline styling attributes {#adding-inline-styling-attributes}
+
+# インラインスタイル属性を追加する {#adding-inline-styling-attributes}
 
 ![](../assets/do-not-localize/badge.png)
 
-In the Email Designer interface, when you select an element and display its settings on the right pane, you can customize the inline attributes and their value for that specific element.
+メールデザイナーインターフェイスで、要素を選択してその設定を右側のペインに表示する際に、その特定の要素に対するインライン属性と値をカスタマイズできます。
 
-1. Select an component directly in your content or using the **[!UICONTROL Navigation tree]** available in the left pane.
+1. コンテンツ内で直接コンポーネントを選択するか、または左側のペインに表示される&#x200B;**[!UICONTROL ナビゲーションツリー]**&#x200B;を使用してコンポーネントを選択します。
 
-1. From the **[!UICONTROL Component settings]** menu on the right, look for the **[!UICONTROL Styles Inline]** section.
+1. 右側の&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;メニューから、**[!UICONTROL スタイルインライン]**&#x200B;セクションを見つけます。
 
    ![](assets/styles_1.png)
 
-1. Modify the values of the existing attributes.
+1. 既存の属性の値を変更します。
 
-1. You can add new properties using the **+** button. You can add any attribute and value that is CSS-compliant.
+1. 新しいプロパティを追加するには、「**+**」ボタンを使用します。CSS に準拠している任意の属性と値を追加できます。
 
    ![](assets/styles_2.png)
 
-The styling is applied to the selected element.
+スタイルが選択した要素に適用されます。
 
 >[!NOTE]
 >
->If the child elements do not have specific styling attributes defined, the styling of the parent element is inherited.
+>子要素に特定のスタイル属性が定義されていない場合、親要素のスタイル設定が継承されます。
 

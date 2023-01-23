@@ -1,33 +1,39 @@
 ---
 audience: end-user
-title: Define a style for links
-description: Learn how to define a style for links
+title: リンクのスタイルの定義
+description: リンクのスタイルを定義する方法を学ぶ
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 92%
+
 ---
-# Define a style for links {#styling-links}
+
+# リンクのスタイルの定義 {#styling-links}
 
 ![](../assets/do-not-localize/badge.png)
 
-You can underline a link and select its color and target in the Email Designer.
+メールデザイナーでは、リンクに下線を引き、その色とターゲットを選択できます。
 
-1. In a **[!UICONTROL Text]** component where a link is inserted, select your link.
+1. リンクが挿入された&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントで、リンクを選択します。
 
-1. In the **[!UICONTROL Component settings]** menu, check **[!UICONTROL Underline link]** to have the label underlined.
+1. **[!UICONTROL コンポーネント設定]**&#x200B;メニューで、**[!UICONTROL 下線リンク]**&#x200B;をチェックして、ラベルに下線を引きます。
 
    ![](assets/link_1.png)
 
-1. Choose how your audience is redirected with the **[!UICONTROL Target]** drop-down:
+1. でのオーディエンスのリダイレクト方法を選択 **[!UICONTROL ターゲット]** ドロップダウン：
 
-    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
-    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
-    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
-    * **[!UICONTROL Parent]**: opens the link in the parent frame.
-    * **[!UICONTROL Top]**: opens the link in the full body of the window.
+   * **[!UICONTROL なし]**：クリックされたのと同じフレームでリンクを開きます（デフォルト）。
+   * **[!UICONTROL 空白]**：リンクを新しいウィンドウまたはタブで開きます。
+   * **[!UICONTROL セルフ]**：クリックされたのと同じフレームでリンクを開きます。
+   * **[!UICONTROL 親]**：親フレームでリンクを開きます。
+   * **[!UICONTROL 上]**：ウィンドウの全体でリンクを開きます。
 
    ![](assets/link_2.png)
 
-1. To change the color of your link, click on **[!UICONTROL Link color]** from the right pane.
+1. リンクの色を変更するには、右側のパネルで&#x200B;**[!UICONTROL リンクの色]**&#x200B;をクリックします。
 
    ![](assets/link_3.png)
 
-1. Save your changes.
+1. 変更内容を保存します。

@@ -1,85 +1,91 @@
 ---
 audience: end-user
-title: Send offers
-description: Send offers
+title: オファーの送信
+description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '509'
+ht-degree: 62%
+
 ---
-# Send offers {#offers-content}
+
+# オファーの送信 {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Offers settings"
+>title="オファー設定"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Offers Advanced Settings"
+>title="オファーの詳細設定"
 >abstract="TBC"
 
-Adobe Campaign v8 Web allows you to send with your emails offers that have been created in the console using the **[!UICONTROL Interaction]** module. For more information on Interaction and how to manage an offer catalog in the console, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Adobe Campaign v8 Web では、**[!UICONTROL インタラクション]**&#x200B;モジュールを使用してコンソールで作成されたオファーを、メールで送信できます。インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign V8 のドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
 
-The steps to send offers with an email are as follows:
+メールでオファーを送信する手順は、次のとおりです。
 
-1. [Configure the offers to propose](#configure),
-1. [Insert the offers into the email](#insert).
+1. [提案するオファーを設定します](#configure)。
+1. [オファーをメールに挿入します](#insert)。
 
-## Configure the offers to propose {#configure}
+## 提案するオファーの設定 {#configure}
 
-1. To select the offers to propose in your email, click the **[!UICONTROL Offers]** button from the email content edition screen.
+1. E メールで提案するオファーを選択するには、 **[!UICONTROL オファー]** ボタンをクリックします。
 
-    ![](assets/setup-offers.png)
+   ![](assets/setup-offers.png)
 
-1. Configure which offers should be proposed to the recipients. First select the **[!UICONTROL Offer space]** that matches your offer environment.
+1. 受信者に提案するオファーを設定します。 まず、 **[!UICONTROL オファースペース]** がオファー環境に一致することを確認します。
 
-    ![](assets/create-content-offers.png)
+   ![](assets/create-content-offers.png)
 
-1. To refine the engine's choice of offers, select a specific **[!UICONTROL Offer category]** in which offers are sorted.
+1. エンジンのオファー選択を調整するには、オファーを並べ替える特定の&#x200B;**[!UICONTROL オファーカテゴリ]**&#x200B;を選択します。
 
-    If no category is specified, all the offers contained in the environment are taken into account by the Offer engine, unless an **[!UICONTROL Offer theme]** is selected.
+   カテゴリが指定されていない場合、環境に含まれるすべてのオファーがオファーエンジンで考慮されます ( **[!UICONTROL オファーテーマ]** が選択されている。
 
-    >[!NOTE]
-    >
-    >Themes are key words defined upstream in the categories. They act as a filter and let you refine the number of offers to be presented by selecting them in a set of categories. 
+   >[!NOTE]
+   >
+   >テーマは、カテゴリの上流で定義されたキーワードです。これらはフィルターとして機能し、一連のカテゴリで選択することにより、提示するオファーの数を調整することができます。
 
-1. Use the **[!UICONTROL Propositions]** field to specify the number of offers you want to insert into the email.
+1. 「**[!UICONTROL 提案]**」フィールドを使用して、メールに挿入するオファーの数を指定します。
 
-1. Select the **[!UICONTROL Exclude non-eligible recipients]** option if necessary.
+1. 必要に応じて、「**[!UICONTROL 不適格な受信者を除外]**」オプションを選択します。
 
-    This option lets you activate or deactivate the exclusion of recipients for whom there are not enough eligible offers.
-    
-    * If the option is enabled, recipients who do not have enough propositions are excluded from the delivery.
-    * If the option is disabled, these recipients are not excluded but they cannot have the requested number of propositions.
+   このオプションを使用すると、実施要件を満たすオファーがない受信者の除外を有効または無効にすることができます。
 
-1. If necessary, select the **[!UICONTROL Hide everything if no offer is selected]** option.
+   * このオプションを有効にすると、十分な提案がない受信者が配信から除外されます。
+   * このオプションを無効にした場合、これらの受信者は除外されませんが、リクエストされた数の提案を受け取ることはできません。
 
-    This option lets you choose how the message is processed in case one of the propositions does not exist.
-    
-    * If the option is enabled, the representation of the missing proposition is not displayed and no content appears in the message for this proposition.
-    * If the option is disabled, the message itself is cancelled during sending and recipients can no longer receive any messages.
+1. 必要に応じて、「**[!UICONTROL オファーが選択されていない場合はすべて非表示にする]**」オプションを選択します。
 
-Once you have configured the offers to propose into your email, you can insert them into the email using the Expression Editor. [Learn how to insert offers into the email](#insert)
+   このオプションを使用すると、提案の 1 つが存在しない場合に、メッセージを処理する方法を選択できます。
 
-## Insert offers into the email {#insert}
+   * このオプションを有効にすると、見つからない提案の表示域が表示されず、この提案に関するコンテンツはメッセージに表示されません。
+   * このオプションを無効にすると、送信中にメッセージ自体がキャンセルされ、受信者は一切メッセージを受信できなくなります。
 
-Offers can be added into the email using the Expression Editor. They can be inserted either:
+メールに提案するオファーを設定したら、式エディターを使用してメールにオファーを挿入できます。詳しくは、[メールにオファーを挿入する方法](#insert)を参照してください。
 
-* In the email subject line,
-* In the email body by allowing personalization in any content component. [Learn how to add content components](content-components.md)
+## メールへのオファーの挿入 {#insert}
+
+オファーは、式エディターを使用して E メールに追加できます。 次のいずれかに挿入できます。
+
+* 電子メールの件名行で、
+* 任意のコンテンツコンポーネントでパーソナライゼーションを許可することで、E メールの本文に表示します。 詳しくは、[コンテンツコンポーネントの追加方法](content-components.md)を参照してください。
 
 >[!NOTE]
 >
->Before inserting an offer, make sure you have [configured which offers to propose with the email](#configure).
+>オファーを挿入する前に、[メールで提案するオファーを設定](#configure)したことを確認します。
 
-To insert an offer using the Expression Editor, follow these steps:
+式エディターを使用してオファーを挿入するには、次の手順に従います。
 
-1. Open the Expression Editor, then select the **[!UICONTROL Propositions]** menu.
+1. 式エディターを開き、**[!UICONTROL 提案]**&#x200B;メニューを選択します。
 
-    Available propositions display in the list. The number of propositions is defined when configuring the offers to propose.
+   使用可能な提案がリストに表示されます。提案の数は、提案するオファーを設定する際に定義されます。
 
-    ![](assets/offer-insertion.png)
+   ![](assets/offer-insertion.png)
 
-1. Add the propositions into the email subject or body using the personalization fields, rendering functions or offer attributes available for each proposition.
+1. 提案ごとに使用可能なパーソナライゼーションフィールド、レンダリング関数またはオファー属性を使用して、メールの件名または本文に提案を追加します。
 
-    ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png)

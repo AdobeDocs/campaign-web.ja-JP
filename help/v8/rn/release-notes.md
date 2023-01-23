@@ -1,41 +1,47 @@
 ---
 audience: end-user
-title: Campaign Web v8 Release Notes
-description: Campaign Web v8 Release Notes
+title: Campaign Web v8 リリースノート
+description: Campaign Web v8 リリースノート
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
+source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 100%
+
 ---
-# Release Notes {#release-notes}
+
+# リリースノート {#release-notes}
 
 ![](../assets/do-not-localize/badge.png)
 
-This page lists all the latest features and improvements for Campaign Web v8. 
+このページでは、Campaign Web v8 の最新の機能と改善点をすべて掲載しています。
 
-## Alpha release{#alpha-release}
+## アルファリリース{#alpha-release}
 
-This new Campaign web interface is currently only available to **Alpha practitioners** with the following capabilities:
+この新しい Campaign Web インターフェイスは、現在、**アルファ実務担当者**&#x200B;のみが使用でき、次の機能が搭載されています。
 
-**Modern, intuitive and unified experience**
+**現代的で直感的な統一されたエクスペリエンス**
 
-Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions and apps. It offers:
+Campaign の新しい web UI は、すべての Adobe Experience Cloud ソリューションおよびアプリと連携して、新しいユーザーエクスペリエンスを提供します。提供される機能は次のとおりです。
 
-* Access to the new interface and other Adobe solutions with a single and shared user session
-* New navigation experience, with all menus and folders available from the left rail
-* Solution and organization switchers from the top bar
-* Unified Shell integration, with a direct access to community, help center, and support
+* 単一の共有ユーザーセッションで新しいインターフェイスや他のアドビソリューションにアクセス
+* 左側のパネルからすべてのメニューとフォルダーにアクセスできる、新しいナビゲーションエクスペリエンス
+* 上部バーのソリューションと組織の切り替えボタン
+* コミュニティ、ヘルプセンター、サポートへの直接アクセスを備えた統合シェルの統合
 <!--
 No search and pulse notifications in Alpha
 -->
 
-Learn more about the new UI in [this page](../get-started/user-interface.md).
+新しい UI について詳しくは、[このページ](../get-started/user-interface.md)を参照してください。
 
-**Create, launch and measure your email campaign**
+**メールキャンペーンの作成、開始、測定**
 
-Use the new Campaign Web UI to:
+新しい Campaign Web UI を使用すると、次の操作を実行できます。
 
-* Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
-* Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
-* Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
-* Monitor send and measure results with built-in reports - [Learn more](../reporting/reports.md)
+* パーソナライズされたメールコンテンツを電子メールデザイナーでデザイン - [詳細情報](../content/edit-content.md)
+* ルールビルダーでターゲットオーディエンスを定義 - [詳細情報](../audience/about-audiences.md)
+* メールメッセージのプレビュー、テスト、送信 - [詳細情報](../monitor/prepare-send.md)
+* ビルトインレポートを使用した送信の監視および結果の測定 - [詳細情報](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -45,14 +51,14 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Please note that cross-channel campaigns and workflow management capabilities will be available with the beta release. 
+>なお、ベータ版リリースでクロスチャネルキャンペーンおよびワークフロー管理機能を使用できるようになります。
 
-## Terminology updates
+## 用語の更新
 
-As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
+既存の Campaign ユーザーとして、一部の概念は最新の用語標準に合わせて名前が変更されています。これらの変更は Campaign Web UI にのみ適用され、クライアントコンソールには反映されません。以下を参照してください。
 
-* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs target is now refered as **Test profiles**
-* Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database
-* Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button
-* Email Preview is now available throught the **Simulate content** button
-* Lists are now **Audiences**
+* 配達確認は、**テストメール**&#x200B;になりました。配達確認を送信するには、メール配信 UI の「**テスト**」ボタンを使用します。配達確認ターゲットのターゲットは、**テストプロファイル**&#x200B;と呼ばれるようになりました。
+* シードアドレスは **テストプロファイル** として使用されるようになりました。データベース内の追加の架空受信者シードアドレスにテストメールを送信します。
+* 配信分析は、**配信準備**&#x200B;になりました。分析を開始する必要がある場合は、「**準備**」ボタンをクリックします。
+* メールのプレビューは、「**コンテンツをシミュレート**」ボタンから使用できるようになりました。
+* リストは、**オーディエンス**&#x200B;になりました。

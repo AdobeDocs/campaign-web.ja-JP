@@ -1,184 +1,191 @@
 ---
 audience: end-user
-title: Email Delivery Settings
-description: Learn more about email delivery settings in Campaign Web UI
+title: メール配信設定
+description: Campaign Web UI での E メール配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 87%
+
 ---
-# Email delivery settings {#email-del-settings}
 
-![Alpha version](../assets/do-not-localize/badge.png)
+# メール配信設定 {#email-del-settings}
 
-These settings are **technical delivery parameters** that are defined in the email template. They are available from the **Configure delivery settings** icon available when editing an email delivery.
+![アルファ版](../assets/do-not-localize/badge.png)
 
-## Email delivery settings {#email-delivery-settings}
+これらの設定は、メールテンプレートで定義される&#x200B;**技術的な配信パラメーター**&#x200B;です。これらは、 **配信設定の指定** e メール配信を編集する際に使用できるアイコン。
+
+## メール配信設定 {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> These settings are described for your information only. Some of them depend on your configuration and permissions. They must not be modified in this version of the product. 
+> これらの設定については、情報提供のみを目的として説明しています。一部のものは、設定や権限によって異なります。それらは、このバージョンの製品では変更できません。
 
-## Typology {#typology}
+## タイポロジ {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
->title="Typology"
->abstract="Typology lets you control, filter and monitor the sending of deliveries."
+>title="タイポロジ"
+>abstract="タイポロジでは、配信の送信を制御、フィルタリングおよび監視できます。"
 
-Typologies are sets of **typology rules**, that are executed during the message analysis phase. They allow you to make sure your emails always contain certain elements (such as an unsubscription link or a subject line) or filtering rules to exclude groups from your intended target (like unsubscribers, competitors, or non-loyalty customers).
+タイポロジとは、メッセージの分析段階で実行される一連の&#x200B;**タイポロジルール**&#x200B;です。電子メールに常に必要な特定の要素（購読解除リンクや件名行など）が含まれていることを確かめたり、ターゲットグループから特定グループ（非購読者、競合他社、非顧客など）を除外するフィルタールールを設定したりできます。
 
-When associating a typology with a message or message template, the typology rules included in the typology are executed to check the message validity during message preparation.
+タイポロジをメッセージまたはメッセージテンプレートに関連付けると、タイポロジに含まれているタイポロジルールがメッセージの準備中に実行されて、メッセージの有効性がチェックされます。
 
 ![](assets/delivery-settings-1.png)
 
 
-### Pressure parameters {#pressure-parameters}
+### 頻度パラメーター {#pressure-parameters}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="Delivery weight"
->abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
+>title="配信の重み付け"
+>abstract="配信に重みを付けることで、頻度管理のフレームワーク内で最も優先順位の高い配信を指定できます。最も大きな重みを付けられたメッセージが、最優先されます。"
 
-In this section, pressure parameters let you define a **threshold**. This is the maximum number of messages that can be sent to one profile over a given period. Once this threshold has been reached, no more deliveries can take place until the end of the period considered. This process lets you automatically exclude a profile from a delivery if a message exceeds the set threshold, thus avoiding over-solicitation.
+このセクションでは、頻度パラメーターを使用して&#x200B;**しきい値**&#x200B;を定義できます。これは、特定の期間に 1 つのプロファイルに送信できるメッセージの最大数です。しきい値に達すると、その後は指定された期間が完了するまで、配信は実施できなくなります。このプロセスにより、メッセージの数がしきい値を超過したプロファイルは配信から自動的に除外されるので、過剰な配信が回避できます。
 
-Threshold values can be either constant or variable. This means that for a given period, thresholds can vary from one profile to another, or even for the same profile.
+しきい値は、定数または変数のいずれかです。したがって、ある期間、しきい値はプロファイルによって異なる場合も、同じプロファイルで異なる場合もあります。
 
-In the **Weight type** field, three options are available:
+「**重み付けタイプ**」フィールドでは、次の 3 つのオプションを使用できます。
 
-* **Constant**
-* **Depends on the recipient**
-* **Defined in each rule**
+* **定数**
+* **受信者に依存**
+* **各ルールで定義**
 
-Use the **Delivery weight** field to define the delivery priority. Each delivery has a weight which represents its level of priority. By default, the weight of a delivery is set to 5. Pressure rules let you define the weight of the deliveries which they are applied to. Weights can be either set or calculated via a formula to suit recipients. For example, you can define the weight of a delivery based on recipient interests.
+「**配信の重み付け**」フィールドでは、配信の優先順位を定義できます。各配信には、優先度を表す重みが付けられます。
+デフォルトでは、配信の重みは 5 に設定されています。頻度ルールでは、配信に適用する重みを定義できます。 重みの値は、定数を指定するか、受信者ごとに数式で算出します。例えば、受信者の興味に基づいて配信の重みを定義することができます。
 
 
-Use the **Delivery mode** field to select the target evaluation mode. Three modes are available:
+「**配信モード**」フィールドでは、ターゲットの評価モードを選択できます。次の 3 つのモードを選択できます。
 
-* **Target estimation and message personalization**
-* **Estimation and approval of the provisional target**
-* **Target evaluation**
+* **ターゲットの推定とメッセージのパーソナライゼーション**
+* **暫定ターゲットの推定と承認**
+* **ターゲットの評価**
 
-Fatigue management comes with the **Campaign Optimization** add-on. Learn more about pressure rules and how to configure fatigue management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+疲労管理については、**キャンペーンの最適化**&#x200B;アドオンが付属しています。頻度ルールと疲労管理の設定方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。
 
-### Capacity settings {#capacity-settings}
+### 処理能力設定 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_recipient_importance"
->title="Importance of the recipient"
->abstract="The importance of the recipient is a formula used to determine which recipients are kept when the capacity typology rules are exceeded."
+>title="受信者の重要度"
+>abstract="受信者の重要度は、処理能力タイポロジルールを超過した場合に維持する受信者を決定するために使用される式です。"
 
-In this section, you can select a capacity rule defined in the Adobe Campaign v8 Console. This rule is associated to the email channel.
+このセクションでは、Adobe Campaign v8 コンソールで定義した処理能力ルールを選択できます。このルールは、メールチャネルに関連付けられています。
 
-The **importance of the recipient** field is a formula used to determine which recipients are kept when the capacity typology rules are exceeded.
+「**受信者の重要度**」フィールドは、処理能力タイポロジルールを超過した場合に維持する受信者を決定するために使用される式です。
 
-Learn more about consistency and capacity rules and how to configure them in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
-
-
-## Audience {#audience}
-
-In this section, you can select a **target mapping** among those available. Target mappings are defined in the Adobe Campaign v8 console. 
-
-Learn more about target mappings in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
-
-## Delivery {#delivery}
-
-Delivery parameters are technical settings which apply to your delivery. 
-
-* **Routing**: the integrated email routing external account is provided by default. It contains the technical parameters that allow the application to send emails.
-
-* **Test SMTP delivery**: this option is used to test sending via SMTP. The delivery is processed up to connection to the SMTP server but is not sent: for every recipient of the delivery, Campaign connects to the SMTP provider server, executes the SMTP RCPT TO command, and closes the connection before the SMTP DATA command.
-
-* **Email BCC**: this option is used to store emails on an external system through BCC by simply adding a BCC email address to your message target. Learn more about Email BCC in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+一貫性ルールと処理能力ルール、その設定方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"}を参照してください。
 
 
+## オーディエンス {#audience}
 
-### Retries {#retries}
+このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。
+
+ターゲットマッピングについて詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
+
+## 配信 {#delivery}
+
+配信パラメーターは、配信に適用する技術的な設定です。
+
+* **ルーティング**：統合されたメールルーティング用外部アカウントがデフォルトで提供されます。アプリケーションからメールを送信するための技術的なパラメーターが含まれています。
+
+* **SMTP 配信をテスト**：このオプションを使用して、SMTP 経由での送信をテストします。配信は SMTP サーバーへの接続まで処理されますが、送信はされません。配信の受信者ごとに、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
+
+* **BCC でメールを送信**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。BCC でメールを送信について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
+
+
+
+### 再試行 {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
->title="Maximum number of retries"
->abstract="If a message fails due to a temporary error, retries are performed until the end of the delivery duration."
+>title="再試行の最大数"
+>abstract="一時的なエラーが原因でメッセージ送信が失敗した場合は、配信期間が終了するまで再試行がおこなわれます。"
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-Learn more about retry management in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+再試行管理について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
 
-## Approval {#approval}
+## 承認 {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
+>title="承認モード"
+>abstract="様々なプロセスを完全に監視および制御するために、配信の各手順は承認の対象となることがあります。"
 
-If warnings are generated during the delivery preparation, you can configure the delivery to define whether or not it should still be executed. By default, the user must confirm the sending of messages at the end of the analysis phase: this is **manual** validation.
+配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。デフォルトでは、分析フェーズの最後に、メッセージの送信をユーザーが確認する必要があります（**手動**&#x200B;検証）。
 
-You can select another approval mode in the appropriate field. Available modes are: 
+別の承認モードは、該当するフィールドで選択できます。使用可能なモードは次のとおりです。
 
-* **Manual**: At the end of the analysis phase, the user must confirm delivery to start sending. 
+* **手動**：分析フェーズの最後に、配信の送信開始をユーザーが確認する必要があります。
 
-* **Semi-Automatic**: Sending begins automatically if the analysis phase generates no warning messages.
+* **半自動**：分析フェーズで警告メッセージが送信されなかった場合には送信が自動的に開始されます。
 
-* **Automatic**: Sending begins automatically at the end of the analysis phase, irrespective of its result.
+* **自動**：分析が終了した時点で、その結果にかかわらず送信が自動的に開始されます。
 
 
-## Validity {#validity}
+## 有効性 {#validity}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
->title="Delivery duration"
->abstract="The Delivery duration field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached."
+>title="配信期間"
+>abstract="「配信期間」フィールドには、グローバルで行う配信再試行の期限を入力できます。Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="Resources validity limit"
->abstract="The Validity limit field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time."
+>title="リソースの有効期間"
+>abstract="「有効期限」フィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。このページのリソースは、期間限定で有効です。"
 
 
-The **Delivery duration** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
+「**配信期間**」フィールドには、グローバルでおこなう配信再試行の期限を入力できます。Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。
 
-You can also choose to specify dates. To do this, select **Explicitly set validity dates**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
+日付を指定することもできます。そのためには、「**有効期限を明示的に設定**」を選択します。この場合、配信および有効期限日に時刻を指定することもできます。デフォルト値は現在時刻ですが、入力フィールドを使用して直接変更できます。
 
-**Resources Validity limit** is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
+**リソースの有効期限**&#x200B;は、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスク容量を節約するために、このページ上のリソースは限られた時間のみ有効です。
 
 ![](assets/delivery-settings-2.png)
 
 
-Learn more about delivery validity period in [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+配信の有効期間について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja#validity-period){target="_blank"}を参照してください。
 
-### Mirror page management {#mirror}
+### ミラーページ管理 {#mirror}
 
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the email. By default, the mirror page is generated if the link is inserted in the content of the mail. 
+ミラーページは、web ブラウザーでオンラインアクセス可能な HTML ページです。そのコンテンツはメールと同一です。デフォルトでは、メールのコンテンツにリンクが挿入されている場合にミラーページが生成されます。
 
-In addition to the default mode, the following options are also available:
+デフォルトモードのほかに、次のオプションも選択できます。
 
-* **[!UICONTROL Force the generation of the mirror page]**: even if no link to the mirror page is inserted in the delivery, the mirror page is created.
-* **[!UICONTROL Do not generate the mirror page]**: no mirror page is generated, even if the link is present in the delivery.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: this option lets you access the content of the mirror page, with personalization information, in the delivery log window. To do this, after the end of the delivery, click the **[!UICONTROL Delivery]** tab and select the line of the recipient whose mirror page you wish to view. Click the **[!UICONTROL Display the mirror page for this message...]** link.
+* **[!UICONTROL ミラーページを強制的に生成]**:配信にミラーページへのリンクが挿入されていない場合でも、ミラーページが作成されます。
+* **[!UICONTROL ミラーページを生成しない]**：配信コンテンツ内にリンクが挿入されていても、ミラーページを生成しません。
+* **[!UICONTROL メッセージ識別子のみを使用してアクセス可能なミラーページを生成]**：配信ログウィンドウで、パーソナライゼーション情報を含むミラーページのコンテンツにアクセスできるようにします。これを使用するには、配信が完了した後に「**[!UICONTROL 配信]**」タブをクリックし、メッセージを受け取った受信者の行を選択してから、「**[!UICONTROL このメッセージのミラーページを表示]**」リンクをクリックします。
 
 
-### Tracking {#tracking}
+### トラッキング {#tracking}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="Validity period"
->abstract="This option defines the duration for which the tracking is activated on the URLs."
+>title="有効期間"
+>abstract="このオプションは、URL でトラッキングが有効化される期間を定義します。"
 
-Tracking parameters are defined in the related section. Possible options are:
+トラッキングパラメーターは、関連するセクションで定義されています。 選択できるオプションは次のとおりです。
 
-**Tracking validity limit**: use this option to change the duration for which the tracking is activated on the URLs.
+**トラッキングの有効制限**:URL でトラッキングが有効化される期間を変更するには、このオプションを使用します。
 
-**Substitution URL for expired URLs**: use this option to enter a URL to a fall-back web page: it is displayed once the tracking has expired.
+**期限切れ URL の代替 URL**：フォールバック web ページへの URL を入力します。トラッキングの有効期限が切れると表示されます。
 
-## Test Settings {#test-setttings}
+## テスト設定 {#test-setttings}
 
-You can set the exclusion parameters in this section. Available options are:
+このセクションでは、除外パラメーターを設定できます。次のオプションを使用できます。
 
-* **Keep double** lets you authorize multiple deliveries to recipients who satisfy several targeting criteria.
+* **重複を保持**：複数のターゲティング条件を満たす受信者に対して複数の配信を許可できます。
 
-* **Keep denylisted addresses** lets you keep from the target any profiles no longer being targeted by the delivery, such as after an unsubscription (opt-out).
+* **ブロックリスト登録済みアドレスを保持**：購読解除（オプトアウト）後など、配信のターゲットでなくなったプロファイルをターゲットから除外できます。
 
-* **Keep quarantined addresses** lets you keep from the target any profiles with an address that does not respond. 
+* **強制隔離されたアドレスを保持**：プロファイルで指定されているアドレスからの応答がないターゲットを除外できます。
 
-You can also customize the name of the test emails.
+テスト用電子メールの名前をカスタマイズすることもできます。
 
-Use the **Keep the delivery code for the proof** to associate to the test email the same delivery code as the one defined for the delivery to which it relates.
+以下を使用： **配達確認の配信コードを保持** を使用して、関連する配信に定義したものと同じ配信コードをテスト e メールに関連付けます。
 
-By default, the subject of the test email is prefixed by ‘PROOF #’, where # is the number of the test email. You can change this prefix in the **Label prefix** field.
+デフォルトでは、テスト E メールの件名の前には「PROOF #」が付きます。ここで、「#」はテスト E メールの番号です。 このプレフィックスは「**ラベルのプレフィックス**」フィールドで変更できます。

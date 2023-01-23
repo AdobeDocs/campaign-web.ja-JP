@@ -1,25 +1,32 @@
 ---
 audience: end-user
-title: About email preview and test
-description: Learn how to preview and test emails
+title: E メールのプレビューとテストについて
+description: メールのプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 12%
+
 ---
-# About email preview and test {#about-preview-proofs}
+
+# E メールのプレビューとテストについて {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
+E メールを送信する前に、コンテンツを確認してテストし、コンテンツやパーソナライゼーションの設定にエラーがなく正確で正確なものであることを確認することが重要です。
 
-To do this, Adobe Campaign allows you to:
+これを行うには、Adobe Campaign で次の操作を実行します。
 
-* [Preview the email content and personalization](#preview),
+* [メールのコンテンツとパーソナライゼーションのプレビュー](#preview)。
+
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Send test emails](#send-proofs) to specific recipients for testing and validation.
+* [テストメールの送信](#send-proofs) を特定の受信者に送信して、テストおよび検証をおこないます。
 
-These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
+これらのアクションは、 **[!UICONTROL コンテンツをシミュレート]** 電子メールデザイナーからの電子メールのコンテンツを作成する際にアクセス可能なボタン：
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->Content simulation is also available from the delivery summary after clicking the **[!UICONTROL Review and send]** button.
+>コンテンツのシミュレーションは、配信の概要で「 **[!UICONTROL 確認して送信]** 」ボタンをクリックします。

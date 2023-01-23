@@ -1,44 +1,50 @@
 ---
 audience: end-user
-title: Select an audience
-description: Learn how to select an audience
+title: オーディエンスの選択
+description: オーディエンスの選択方法を説明します
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 94%
+
 ---
-# Select an audience {#add-audience}
+
+# オーディエンスの選択 {#add-audience}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="The audiences are defined in the Adobe Campaign v8 Console. If you have an Adobe Experience Platform integration available, you should be able to see Platform defined audiences too."
+>title="既存オーディエンスの選択"
+>abstract="オーディエンスは、Adobe Campaign v8 コンソールで定義されます。Adobe Experience Platform 統合を使用できる場合は、Platform で定義されたオーディエンスも表示されます。"
 
-This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
+この節では、メール配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。新しいオーディエンスを作成する場合は、[こちら](segment-builder.md)を参照してください。
 
-1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
+1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
 
    ![](assets/create-audience.png)
 
-1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
+1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。このメールで使用する新しいオーディエンスを作成するには、「**独自に作成**」を選択します。[こちら](segment-builder.md)を参照してください。
 
-    This screen displays all existing audiences defined in the Adobe Campaign console or from Adobe Experience Platform.
+   この画面には、Adobe Campaign コンソールまたは Adobe Experience Platform で定義されたすべての既存オーディエンスが表示されます。
 
-    ![](assets/create-audience2.png)
+   ![](assets/create-audience2.png)
 
-    >[!NOTE]
-    >
-    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
+   >[!NOTE]
+   >
+   >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 [宛先に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}を参照してください。
 
-1. Choose an audience and click **Select**.
+1. オーディエンスを選択し、「**選択**」をクリックします。
 
-1. Click **Edit rules** if you want to refine your audience.
+1. オーディエンスを絞り込む必要がある場合は、「**ルールを編集**」をクリックします。
 
    ![](assets/create-audience3.png)
 
-1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
+1. ルールビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](segment-builder.md)を参照してください。
 
    ![](assets/create-audience4.png)
 
-1. Click **Save**. 
+1. 「**保存**」をクリックします。
 
-You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See [section](control-group.md).
+また、コントロール母集団を設定して、キャンペーンの影響を測定することもできます。コントロール母集団はメッセージを受信しません。 これにより、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。[こちら](control-group.md)を参照してください。

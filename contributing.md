@@ -1,53 +1,46 @@
-# Contributing
+---
+source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
+workflow-type: ht
+source-wordcount: '294'
+ht-degree: 100%
 
-Thanks for choosing to contribute!
+---
+# 投稿
 
-The following are a set of guidelines to follow when contributing to this project.
+ご投稿いただきありがとうございます。
 
-## Code Of Conduct
+このプロジェクトに投稿する際に従う一連のガイドラインを次に示します。
 
-This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
-you are expected to uphold this code. Please report unacceptable behavior to
-[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+## 行動規範
 
-## Contributor Guide Documentation
+このプロジェクトはアドビ[行動規範](code-of-conduct.md)を遵守しています。参加することにより、この行動規範を遵守することが期待されます。許容できない行動を見かけた場合は
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) に報告してください。
 
-See the [Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+## 投稿者ガイドのドキュメント
 
-## Have A Question?
+[投稿者ガイド](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=ja)を参照してください。
 
-Start by filing an issue. The existing committers on this project work to reach
-consensus around project direction and issue solutions within issue threads
-(when appropriate).
+## ご質問がある場合
 
-## Contributor License Agreement
+まず、問題を報告してください。 このプロジェクトの既存のコミッターは、（必要に応じて）問題スレッド内のプロジェクトの方向性と問題の解決策に関して合意に達するよう取り組みます。
 
-All third-party contributions to this project must be accompanied by a signed contributor
-license agreement. This gives Adobe permission to redistribute your contributions
-as part of the project. [Sign our CLA](http://opensource.adobe.com/cla.html). You
-only need to submit an Adobe CLA one time, so if you have submitted one previously,
-you are good to go!
+## 投稿者のライセンス契約
 
-## Code Reviews
+このプロジェクトへのサードパーティ投稿者には、署名済みの投稿者のライセンス契約が必要です。これにより、アドビの権限をプロジェクトの一部として再配布する権限が付与されます。[当社の CLA に署名](http://opensource.adobe.com/cla.html)してください。Adobe CLA は一度送信すればよいので、以前に送信したことがある場合は、先へ進むことができます。
 
-All submissions should come in the form of pull requests and need to be reviewed
-by project committers. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
-for more information on sending pull requests.
+## コードレビュー
+
+すべての送信は、プルリクエスト形式で行われ、プロジェクト承諾者のレビューを受ける必要があります。プルリクエストの送信について詳しくは、[GitHub のプルリクエストドキュメント](https://help.github.com/articles/about-pull-requests/)をお読みください。
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## From Contributor To Committer
+## 投稿者からコミッターへ
 
-We love contributions from our community! If you'd like to go a step beyond contributor
-and become a committer with full write access and a say in the project, you must
-be invited to the project. The existing committers employ an internal nomination
-process that must reach lazy consensus (silence is approval) before invitations
-are issued. If you feel you are qualified and want to get more deeply involved,
-feel free to reach out to existing committers to have a conversation about that.
+当社はコミュニティからの投稿を歓迎しています。 投稿者から一歩進んで、プロジェクトでの完全な書き込みアクセス権と発言権を持つコミッターになりたい場合は、プロジェクトに招待される必要があります。 既存のコミッターは、招待状が発行される前に、内部の指名プロセスで、Lazy Consensus（暗黙の了承）に達する必要があります。 自分に資格があり、さらに深く関わりたいと思われる方は、既存のコミッターに連絡して、それに関して話し合ってください。
 
-## Security Issues
+## セキュリティ上の問題
 
-Security issues shouldn't be reported on this issue tracker. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
+セキュリティ上の問題は、このイシュートラッカーでは報告しないでください。 代わりに、[セキュリティの専門家に問題を提起してください](https://helpx.adobe.com/jp/security/alertus.html)

@@ -1,60 +1,66 @@
 ---
 audience: end-user
-title: Edit the email content
-description: Learn how to edit the email content in Campaign Web UI
+title: メールコンテンツの編集
+description: Campaign Web UI で E メールコンテンツを編集する方法を説明します
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 76%
+
 ---
-# Edit the email content {#configure-content}
+
+# メールコンテンツの編集 {#configure-content}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="Create the email content"
->abstract="With this section, you can create the content for your email and use the Email Designer to give it a polished look."
+>title="メールコンテンツの作成"
+>abstract="この節では、メールのコンテンツを作成し、電子メールデザイナーを使用して洗練された外観にすることができます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Email Header"
+>title="メールヘッダー"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="Email attachment"
+>title="メール添付ファイル"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Tracking options"
+>title="トラッキングオプション"
 >abstract="TBC"
 
-To start creating the content of an email, click the **[!UICONTROL Edit content]** button from the email creation screen.
+メールのコンテンツの作成を開始するには、メール作成画面から「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
 ![](assets/edit-content.png)
 
-This screen allows you to define the content of your email and access the Email Designer to design it.
+この画面では、メールのコンテンツを定義し、電子メールデザイナーにアクセスしてデザインできます。
 
 ![](assets/content-dashboard.png)
 
-The steps to define the content of your email are as follows:
+メールのコンテンツを定義する手順は次のとおりです。
 
-1. Check the **[!UICONTROL From name]** and **[!UICONTROL From email]** information. These fields are read-only, they are configured in the email template selected when creating the email.
+1. 「**[!UICONTROL 送信者名]**」と「**[!UICONTROL 送信元電子メール]**」の情報を確認します。これらのフィールドは読み取り専用で、メールの作成時に選択したメールテンプレートで設定されます。
 
-1. Define the email **[!UICONTROL Subject line]**. To do this, type your subject directly into the dedicated field, or open the Expression Editor to define to add personalization using various attributes and content blocks or offers. [Learn how to personalize content](../personalization/personalize.md)
+1. メールの「**[!UICONTROL 件名]**」を定義します。これを行うには、件名を専用フィールドに直接入力するか、式エディターを開いて、様々な属性とコンテンツブロックまたはオファーを使用してパーソナライゼーションを追加するように定義します。詳しくは、[コンテンツをパーソナライズする方法](../personalization/personalize.md)を参照してください。
 
-1. If you want to send offers with your email, select them using the **[!UICONTROL Set up offers]** button. You are then able to insert them into the email using personalization fields. [Learn how to send offers](offers.md)
+1. 電子メールでオファーを送信する場合は、 **[!UICONTROL オファーの設定]** 」ボタンをクリックします。 その後、パーソナライゼーションフィールドを使用して E メールに挿入できます。 詳しくは、[オファーの送信方法](offers.md)を参照してください。
 
-1. Click the **[!UICONTROL Edit email body]** button to structure and design the content of the email. Additional information on how to design email content are available in these sections:
+1. 次をクリック： **[!UICONTROL メール本文を編集]** ボタンを使用して、E メールのコンテンツを構築しデザインします。 メールコンテンツのデザイン方法に関する追加情報については、次の節を参照してください。
 
-    * [Learn how to design emails](create-email-content.md)
-    * [Style your content](get-started-email-style.md)
+   * [メールのデザイン方法を説明します](create-email-content.md)
+   * [コンテンツのスタイル設定](get-started-email-style.md)
 
-1. If you want to attach a file to the email, click the **[!UICONTROL Add attachment]** button then select one or multiple file(s).
-    
-    To avoid performance issue, it is recommended not to include more than one attachment per email. 
+1. メールにファイルを添付する場合は、「**[!UICONTROL 添付ファイルを追加]**」ボタンをクリックして、1 つまたは複数のファイルを選択します。
 
-    <!--limitation on size + number of files?-->
+   パフォーマンスの問題を回避するために、1 つの E メールに複数の添付ファイルを含めないことをお勧めします。
 
-1. By default, tracking is enabled for the delivery. You can disable this option from from the **[!UICONTROL Optional features]** section. [Learn how to add links and manage tracking](message-tracking.md)
+   <!--limitation on size + number of files?-->
 
-Once the content of your email has been defined, use the **[!UICONTROL Simulate content]** button to check how it displays before sending it. [Learn how to preview and test your email](../preview-test/preview-test.md)
+1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。詳しくは、[リンクを追加しトラッキングを管理する方法](message-tracking.md)を参照してください。
+
+E メールのコンテンツが定義されたら、 **[!UICONTROL コンテンツをシミュレート]** ボタンをクリックして、送信前に表示する内容を確認します。 詳しくは、[メールのプレビューとテストの方法](../preview-test/preview-test.md)を参照してください。

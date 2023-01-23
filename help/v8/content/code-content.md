@@ -1,29 +1,35 @@
 ---
 audience: end-user
-title: Code your own email content
-description: Learn how to code your own email content
+title: 独自のメールコンテンツをコーディング
+description: 独自のメールコンテンツのコーディング方法を説明します
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: ht
+source-wordcount: '121'
+ht-degree: 100%
+
 ---
-# Code your own content {#code-content}
+
+# 独自コンテンツのコーディング {#code-content}
 
 ![](../assets/do-not-localize/badge.png)
 
-Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
+**[!UICONTROL 独自のコーディング]**&#x200B;モードを使用して、Raw HTML を読み込んだり、メールコンテンツをコーディングしたりします。この方法には、HTML スキルが必要です。
 
-1. In the Email Designer home page, select **[!UICONTROL Code your own]**.
+1. 電子メールデザイナーのホームページで、「**[!UICONTROL 独自のコーディング]**」を選択します。
 
-    ![](assets/code-your-own.png)
+   ![](assets/code-your-own.png)
 
-1. Enter or paste your raw HTML code. 
+1. Raw HTML コードを入力または貼り付けます。
 
-1. Use the left pane to leverage personalization capabilities.
+1. 左側のペインを使用してパーソナライゼーション機能を活用します。
 
-1. If you want to open the Email Designer to start your email from a new design, select **[!UICONTROL Change your design]** from the options menu.
-    
-    ![](assets/code-editor-change-design.png)
+1. メールデザイナーを開いて新しいデザインからメールを開始する場合は、オプションメニューから「**[!UICONTROL デザインを変更]**」を選択します。
 
-1. Click the **[!UICONTROL Simulate content]** button to check the message design and personalization using test profiles.
+   ![](assets/code-editor-change-design.png)
 
-1. Once your code is ready, click **[!UICONTROL Save]** then go back to the message creation screen to finalize your message.
+1. **[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンをクリックして、テストプロファイルを使用してメッセージデザインとパーソナライゼーションを確認します。
 
-    ![](assets/code-editor-save.png)
+1. コードの準備が整ったら、「**[!UICONTROL 保存]**」をクリックし、メッセージ作成画面に戻り、メッセージを最終決定します。
+
+   ![](assets/code-editor-save.png)

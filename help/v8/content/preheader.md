@@ -1,46 +1,52 @@
 ---
 audience: end-user
-title: Add a preheader in the Email Designer
-description: Learn how to design your emails content
+title: 電子メールデザイナーでのプリヘッダーの追加
+description: メールコンテンツのデザイン方法を説明します
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: ht
+source-wordcount: '210'
+ht-degree: 100%
+
 ---
-# Add a preheader {#preheader}
+
+# プリヘッダーの追加 {#preheader}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Adding a preheader"
->abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
+>title="プリヘッダーの追加"
+>abstract="プリヘッダーは、メールクライアントからメールを表示する際に件名の後に続く短い概要テキストです。多くの場合、メールの短い概要を提供し、通常は 1 文長です。"
 
-A preheader is a short summary text that follows the subject line when viewing an email from your email client. 
+プリヘッダーは、メールクライアントからメールを表示する際に件名の後に続く短い概要テキストです。
 
-In many cases, it provides a short summary of the email, and is typically one sentence long. 
+多くの場合、メールの短い概要を提供し、通常は 1 文長です。
 
 >[!NOTE]
 >
->Preheaders are not supported by all email clients. When not supported, the preheader does not display.
+>プリヘッダーは、すべてのメールクライアントでサポートされているわけではありません。サポートされていない場合、プリヘッダーは表示されません。
 
-To define the email preheader, follow the steps below:
+メールのプリヘッダーを定義するには、次の手順に従います。
 
-1. From the Email Designer, add at least a **[!UICONTROL Structure components]** to start designing your email.
+1. メールデザイナーから、少なくとも&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;を追加して、メールのデザインを開始します。
 
-1. Click the **[!UICONTROL Navigation tree]** icon from the left pane and select **[!UICONTROL Body]**.
+1. 左側のペインから&#x200B;**[!UICONTROL ナビゲーションツリー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 本文]**」を選択します。
 
-    ![](assets/preheader_body.png)
+   ![](assets/preheader_body.png)
 
-1. From the **[!UICONTROL Body settings]** right pane, click the edit icon next to the **[!UICONTROL Preheader]** field to add content.
+1. **[!UICONTROL 本文の設定]**&#x200B;の右側のペインで、**[!UICONTROL プリヘッダー]**&#x200B;フィールドの隣の編集アイコンをクリックして、コンテンツを追加します。
 
-    ![](assets/preheader_body_settings.png)
+   ![](assets/preheader_body_settings.png)
 
-1. Add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
+1. プリヘッダーを追加します。 「**[!UICONTROL パーソナライゼーションを追加]**」アイコンをクリックして、さらにパーソナライズできます。
 
-    ![](assets/preheader_3.png)
+   ![](assets/preheader_3.png)
 
-1. From the **[!UICONTROL Edit Personalization]** window, you can add **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** or **[!UICONTROL Personalization fields]**.
+1. **[!UICONTROL パーソナライゼーションを編集]**&#x200B;ウィンドウで、**[!UICONTROL コンテンツブロック]**、**[!UICONTROL 動的コンテンツ]**&#x200B;または&#x200B;**[!UICONTROL パーソナライゼーションフィールド]**&#x200B;を追加できます。
 
-1. Click **[!UICONTROL Validate]** to check your personalization syntax.
+1. 「**[!UICONTROL 検証]**」をクリックして、パーソナライゼーション構文を確認します。
 
-1. Click **[!UICONTROL Save]**.
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-Your preheader is now configured for your email.
+これで、メールのプリヘッダーが設定されました。

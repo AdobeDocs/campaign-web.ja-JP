@@ -1,55 +1,61 @@
 ---
 audience: end-user
 product: campaign
-title: Work with email templates
+title: メールテンプレートの操作
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: ht
+source-wordcount: '178'
+ht-degree: 100%
+
 ---
-# Work with email content templates {#email-content-templates}
+
+# メールコンテンツテンプレートの操作 {#email-content-templates}
 
 ![](../assets/do-not-localize/badge.png)
 
-Use the **[!UICONTROL Select design template]** section to start building your content from a template.
+「**[!UICONTROL デザインテンプレートを選択]**」セクションを使用して、テンプレートからコンテンツの作成を開始します。
 
 ![](assets/email_designer-templates.png)
 
-## Save as template {#save-as-template}
+## テンプレートとして保存 {#save-as-template}
 
-Once you designed your email content, you can save it for future reuse. To do this, follow the steps below.
+メールコンテンツを設計したら、後で再利用できるように保存できます。 それには、次の手順に従います。
 
-1. Click the ellipsis on top right of the screen.
+1. 画面の右上にある省略記号をクリックします。
 
-1. Select **[!UICONTROL Save design template]** from the drop-down menu.
+1. ドロップダウンメニューから「**[!UICONTROL デザインテンプレートを保存]**」を選択します。
 
-    ![](assets/email_designer-save-template.png)
+   ![](assets/email_designer-save-template.png)
 
-1. Add a name for this template.
+1. このテンプレートに名前を追加します。
 
-    ![](assets/email_designer-template-name.png)
+   ![](assets/email_designer-template-name.png)
 
-1. Click **[!UICONTROL Save]**.
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-Next time you create an email, you can use this template to build your content. [Learn how](#use-saved-template)
+次回メールを作成する際には、このテンプレートを使用してコンテンツを作成できます。 方法については、[こちら](#use-saved-template)を参照してください。
 
 ![](assets/email_designer-saved-template.png)
 
-## Use a saved template {#use-saved-template}
+## 保存済みテンプレートの使用 {#use-saved-template}
 
-1. Open the [email designer](create-email-content.md).
+1. [電子メールデザイナー](create-email-content.md)を開きます。 
 
-1. On the **[!UICONTROL Create your email screen]**, the **[!UICONTROL Sample templates]** tab is selected by default. Select the **[!UICONTROL Saved templates]** tab.
+1. 「**[!UICONTROL メール画面を作成]**」では、「**[!UICONTROL サンプルテンプレート]**」タブがデフォルトで選択されています。 「**[!UICONTROL 保存済みのテンプレート]**」タブを選択します。
 
-    ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png)
 
-1.  The list of all previously [saved templates](#save-as-template) displays. You can sort them **[!UICONTROL By name]**, **[!UICONTROL Last modified]** and **[!UICONTROL Last created]**.
+1. 以前に[保存済みのすべてのテンプレート](#save-as-template)のリストが表示されます。「**[!UICONTROL 名前別]**」、「**[!UICONTROL 最終変更日]**」および「**[!UICONTROL 最終作成日]**」で並べ替えることができます。
 
-    ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png)
 
-1. Select the template of your choice from the list.
+1. リストから目的のテンプレートを選択します。
 
-1. Once selected, you can navigate between all the saved templates using the right and left arrrows.
+1. 選択したら、左右の矢印を使用して、保存済みのすべてのテンプレート間を移動できます。
 
-    ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Click **[!UICONTROL Use this email]** on top right of the screen.
+1. 画面右上の「**[!UICONTROL このメールを使用]**」をクリックします。
 
-1. Edit your content as desired using the email designer.
+1. 電子メールデザイナーを使用して、必要に応じてコンテンツを編集します。

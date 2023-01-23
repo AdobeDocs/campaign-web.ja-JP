@@ -1,183 +1,189 @@
 ---
 audience: end-user
-title: Use email designer content components
-description: Learn how to use content components in your emails
+title: 電子メールデザイナーのコンテンツコンポーネントの使用
+description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '1079'
+ht-degree: 94%
+
 ---
-# Use the Email designer content components {#content-components}
+
+# 電子メールデザイナーのコンテンツコンポーネントの使用 {#content-components}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは、メールのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは、フラグメントのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a template."
+>title="コンテンツコンポーネントについて"
+>abstract="コンテンツコンポーネントは、テンプレートのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
-## Add content components {#add-content-components}
+## コンテンツコンポーネントの追加 {#add-content-components}
 
-To add content components to your email and adjust them to your needs, follow the steps below.
+メールにコンテンツコンポーネントを追加し、必要に応じて調整するには、次の手順に従います。
 
-1. In the Email Designer, use an existing content or drag and drop **[!UICONTROL Structure components]** into your empty content to define the layout of your email. [Learn how](create-email-content.md)
+1. 電子メールデザイナーで、既存のコンテンツを使用するか、**[!UICONTROL 構造コンポーネント]**&#x200B;を空のコンテンツにドラッグ＆ドロップして、メールのレイアウトを定義します。方法については、[こちら](create-email-content.md)を参照してください。
 
-1. To access the **[!UICONTROL Content components]** section, select the corresponding button from the Email Designer left pane.
+1. 「**[!UICONTROL コンテンツコンポーネント]**」セクションにアクセスするには、対応するボタンを電子メールデザイナーの左ペインから選択します。
 
-    ![](assets/email_designer_content_components.png)
+   ![](assets/email_designer_content_components.png)
 
-1. Drag and drop the content components of your choice inside the relevant structure components.
+1. 選択したコンテンツコンポーネントを、関係のある構造コンポーネント内にドラッグ＆ドロップします。
 
-    ![](assets/email_designer_add_content_components.png)
+   ![](assets/email_designer_add_content_components.png)
 
-    >[!NOTE]
-    >
-    >You can add several components into a single structure component and into each column of a structure component.
+   >[!NOTE]
+   >
+   >単一の構造コンポーネントおよび構造コンポーネントの各列に複数のコンポーネントを追加できます。
 
-1. Adjust the styling attributes for each component using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+1. 右側の&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;ペインを使用して、各コンポーネントのスタイル属性を調整します。例えば、各コンポーネントのテキストスタイル、パディングまたは余白を変更できます。 詳しくは、[整列とパディング](alignment-and-padding.md)を参照してください。
 
-    ![](assets/email_designer_content_components_settings.png)
+   ![](assets/email_designer_content_components_settings.png)
 
-When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
-You can add as many **[!UICONTROL Content components]** as you need inside a **[!UICONTROL Structure component]** which defines the layout of your email.
+メールコンテンツをゼロから作成する場合は、**[!UICONTROL コンテンツコンポーネント]**を使用すると、メールに配置して使用できる生の空コンポーネントでメールをさらにパーソナライズできます。
+メールのレイアウトを定義する**[!UICONTROL 構造コンポーネント]**&#x200B;内には、**[!UICONTROL コンテンツコンポーネント]**&#x200B;を必要な数だけ追加できます。
 
-## Container {#container}
+## コンテナ {#container}
 
-You can add a simple container inside which you add another content component. This allows you to apply a specific styling to the container, which is different from the component used inside.
+シンプルなコンテナを追加し、その中に別のコンテンツコンポーネントを追加できます。 これにより、コンテナに特定のスタイルを適用できます（内部で使用されるコンポーネントとは異なります）。
 
-For example, add a **[!UICONTROL Container]** component and then add a [Button](#button) component inside that container. You can use a specific background for the container, and another one for the button.
+例えば、**[!UICONTROL コンテナ]**&#x200B;コンポーネントを追加したあと、そのコンテナの内部に[ボタン](#button)コンポーネントを追加します。 コンテナには特定の背景を使用し、ボタンには別の背景を指定することができます。
 
 ![](assets/email_designer_container_component.png)
 
-## Button {#buttons}
+## ボタン {#buttons}
 
-Use the **[!UICONTROL Button]** component to insert one or multiple buttons into your email and redirect your email audience to another page.
+**[!UICONTROL ボタン]**&#x200B;コンポーネントを使用すると、メールに 1 つまたは複数のボタンを挿入し、メールのオーディエンスを別のページにリダイレクトすることができます。
 
-1. From **[!UICONTROL Content components]**, drag and drop the **[!UICONTROL Button]** component into a **[!UICONTROL Structure component]**.
+1. **[!UICONTROL コンテンツコンポーネント]**&#x200B;から、**[!UICONTROL ボタン]**&#x200B;コンポーネントを&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;にドラッグ＆ドロップします。
 
-    ![](assets/email_designer_13.png)
+   ![](assets/email_designer_13.png)
 
-1. Click your newly added button to personalize the text and to have access to the **[!UICONTROL Components settings]** in the Email Designer right pane.
+1. 新しく追加したボタンをクリックして、テキストをパーソナライズしたり、電子メールデザイナーの右ペインにある&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;にアクセスしたりします。
 
-    ![](assets/email_designer_14.png)
+   ![](assets/email_designer_14.png)
 
-1. In the **[!UICONTROL Link]** field, add the URL you want to redirect to when clicking the button.
+1. 「**[!UICONTROL リンク]**」フィールドに、ボタンをクリックしたときにリダイレクトする URL を追加します。
 
-1. Choose how your the content is displayed with the **[!UICONTROL Target]** drop-down list:
+1. コンテンツを **[!UICONTROL ターゲット]** ドロップダウンリスト：
 
-    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
-    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
-    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
-    * **[!UICONTROL Parent]**: opens the link in the parent frame.
-    * **[!UICONTROL Top]**: opens the link in the full body of the window.
+   * **[!UICONTROL なし]**：クリックされたのと同じフレームでリンクを開きます（デフォルト）。
+   * **[!UICONTROL 空白]**：リンクを新しいウィンドウまたはタブで開きます。
+   * **[!UICONTROL セルフ]**：クリックされたのと同じフレームでリンクを開きます。
+   * **[!UICONTROL 親]**：親フレームでリンクを開きます。
+   * **[!UICONTROL 上位]**：ウィンドウの全体でリンクを開きます。
 
-    ![](assets/email_designer_15.png)
+   ![](assets/email_designer_15.png)
 
-1. You can further personalize your button by changing styling attributes such as **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, etc. from the **[!UICONTROL Component settings]** pane.
+1. ボタンをさらにパーソナライズするには、「**[!UICONTROL 境界線]**」、「**[!UICONTROL サイズ]**」、「**[!UICONTROL 余白]**」などのスタイル属性を&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;ペインから変更します。
 
-## Text {#text}
+## テキスト {#text}
 
-Use the **[!UICONTROL Text]** component to insert text into your email, and adjust the style (border, size, padding, etc.) using the **[!UICONTROL Component settings]** pane.
+**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用すると、メールにテキストを挿入し、スタイル（境界線、サイズ、パディングなど）を&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;ペインで調整できます。
 
-1. From **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Text]** in a **[!UICONTROL Structure component]**.
+1. **[!UICONTROL コンテンツコンポーネント]**&#x200B;から、**[!UICONTROL テキスト]**&#x200B;を&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;にドラッグ＆ドロップします。
 
-    ![](assets/email_designer_11.png)
+   ![](assets/email_designer_11.png)
 
-1. Click on your newly added component to personalize the text and to have access to the **[!UICONTROL Components Settings]** in the right pane of the email designer.
+1. 新しく追加したコンポーネントをクリックして、テキストをパーソナライズしたり、電子メールデザイナーの右ペインにある&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;にアクセスしたりします。
 
-1. Change your text with the following options available in the toolbar:
+1. ツールバーで使用できる次のオプションを使用して、テキストを変更します。
 
-    ![](assets/email_designer_27.png)
+   ![](assets/email_designer_27.png)
 
-    * **[!UICONTROL Change text style]**: apply bold, italic, underline or strike through to your text.
-    * **Change alignment**: choose between left, right, center or justified alignment for your text.
-    * **[!UICONTROL Create list]**: add bullet or number list to your text.
-    * **[!UICONTROL Set heading]**: add up to six heading levels to your text.
-    * **Font size**: select the font size of your text in pixels.
-    * **[!UICONTROL Edit image]**: add an image or an asset to your text component.
-    * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
-    * **[!UICONTROL Duplicate]**: add a copy of your text component.
-    * **[!UICONTROL Delete]**: delete the selected text component from your email.
-    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data.
-    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles.
+   * **[!UICONTROL テキストスタイルを変更]**：テキストに太字、斜体、下線または取り消し線を適用します。
+   * **整列を変更**：テキストの配置を左揃え、右揃え、中央揃えまたは両端揃えにします。
+   * **[!UICONTROL リストを作成]**：テキストに箇条書きリストまたは番号リストを追加します。
+   * **[!UICONTROL 見出しを設定]**：テキストに最大 6 つの見出しレベルを追加します。
+   * **フォントサイズ**：テキストのフォントサイズをピクセル単位で選択します。
+   * **[!UICONTROL 画像を編集]**：テキストコンポーネントに画像またはアセットを追加します。
+   * **[!UICONTROL ソースコードを表示]**：テキストのソースコードを表示します。これは変更できません。
+   * **[!UICONTROL 複製]**：テキストコンポーネントのコピーを追加します。
+   * **[!UICONTROL 削除]**：選択したテキストコンポーネントをメールから削除します。
+   * **[!UICONTROL パーソナライゼーションを追加]**：パーソナライゼーションフィールドを追加して、プロファイルデータからコンテンツをカスタマイズします。
+   * **[!UICONTROL 条件付きコンテンツを有効にする]**：条件付きコンテンツを追加して、コンポーネントのコンテンツをターゲットプロファイルに適応させます。
 
-1. Adjust the other styling attributes such as text color, font family, border, padding, margin, etc. from the **[!UICONTROL Component settings]** pane.
+1. その他のスタイル属性（テキストの色、フォントファミリー、境界線、パディング、余白など）を&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;パネルから調整します。
 
-    ![](assets/email_designer_12.png)
+   ![](assets/email_designer_12.png)
 
-## Divider {#divider}
+## ディバイダー {#divider}
 
-Use the **[!UICONTROL Divider]** component to insert a dividing line to organize the layout and content of your email.
+**[!UICONTROL ディバイダー]**&#x200B;コンポーネントを使用すると、分割線を挿入してメールのレイアウトとコンテンツを整理できます。
 
-You can adjust styling attributes such as the line color, style and height from the **[!UICONTROL Component settings]** pane.
+線の色、スタイル、高さなどのスタイル属性は、**[!UICONTROL コンポーネント設定]**&#x200B;パネルから調整できます。
 
 ![](assets/email_designer_16.png)
 
 ## HTML {#HTML}
 
-Use the **[!UICONTROL HTML]** component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components to reuse some external content.
+**[!UICONTROL HTML]** コンポーネントを使用して、既存の HTML の別の部分をコピーして貼り付けることができます。これにより、無料のモジュラー HTML コンポーネントを作成して、一部の外部コンテンツを再利用できます。
 
-1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL HTML]** component into a **[!UICONTROL Structure component]**.
+1. **[!UICONTROL コンテンツコンポーネント]**&#x200B;から、**[!UICONTROL HTML]** コンポーネントを&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;にドラッグ＆ドロップします。
 
-    ![](assets/email_designer_22.png)
+   ![](assets/email_designer_22.png)
 
-1. Click on your newly added component, then select **[!UICONTROL Show the source code]** from the contextual toolbar to add your HTML.
+1. 新しく追加したコンポーネントをクリックし、コンテキストツールバーから「**[!UICONTROL ソースコードを表示]**」選択して HTML を追加します。
 
-    ![](assets/email_designer_23.png)
+   ![](assets/email_designer_23.png)
 
 >[!NOTE]
 >
->To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into components.
+>外部コンテンツを簡単にメールデザイナーに準拠させるには、ゼロからメッセージを作成し、既存のメールのコンテンツをコンポーネントにコピーすることをお勧めします。
 
-## Image {#image}
+## 画像 {#image}
 
-Use the **[!UICONTROL Image]** component to insert an image file from your computer in your email.
+**[!UICONTROL 画像]**&#x200B;コンポーネントを使用して、コンピューターからメールに画像ファイルを挿入します。
 
-1. In **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Image]** in a **[!UICONTROL Structure component]**.
+1. **[!UICONTROL コンテンツコンポーネント]**&#x200B;で、**[!UICONTROL 画像]**&#x200B;コンポーネントを&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;にドラッグ＆ドロップします。
 
-    ![](assets/email_designer_9.png)
+   ![](assets/email_designer_9.png)
 
-1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
+1. 「**[!UICONTROL 参照]**」をクリックして、アセットから画像ファイルを選択します。
 
-1. Click your newly added component and set up your image properties using the **[!UICONTROL Components settings]** pane:
+1. 新しく追加したコンポーネントをクリックし、**[!UICONTROL コンポーネント設定]**&#x200B;パネルを使用して画像プロパティを設定します。
 
-    * **[!UICONTROL Image title]** lets you define a title to your image.
-    * **[!UICONTROL Alt text]** lets you define the caption linked to your image. This corresponds to the alt HTML attribute.
+   * **[!UICONTROL 画像タイトル]**&#x200B;を使用すると、画像のタイトルを指定できます。
+   * **[!UICONTROL 代替テキスト]**&#x200B;を使用すると、画像にリンクされたキャプションを定義できます。これは、HTML の alt 属性に対応します。
 
-    ![](assets/email_designer_10.png)
+   ![](assets/email_designer_10.png)
 
-1. Adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content from the **[!UICONTROL Component settings]** pane.
+1. 余白、境界線など、他のスタイル属性を調整、または、別のコンテンツにオーディエンスをリダイレクトするためのリンクを&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;パネルで追加します。
 
-## Social {#social}
+## ソーシャル {#social}
 
-Use the **[!UICONTROL Social]** component to insert links to social media pages into your email content.
+**[!UICONTROL ソーシャル]**&#x200B;コンポーネントを使用すると、メールコンテンツにソーシャルメディアページへのリンクを挿入できます。
 
-1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL Social]** component into a **[!UICONTROL Structure component]**.
+1. **[!UICONTROL コンテンツコンポーネント]**&#x200B;から、**[!UICONTROL ソーシャル]**&#x200B;コンポーネントを&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;にドラッグ＆ドロップします。
 
-1. Click your newly added component.
+1. 新しく追加したコンポーネントをクリックします。
 
-1. In the **[!UICONTROL Social]** field of the **[!UICONTROL Components settings]** pane, choose which social media you want to add or remove.
+1. **[!UICONTROL コンポーネント設定]**&#x200B;パネルの「**[!UICONTROL ソーシャル]**」フィールドで、追加または削除するソーシャルメディアを選択します。
 
-    ![](assets/email_designer_20.png)
+   ![](assets/email_designer_20.png)
 
-1. Choose the size of your icons in the **[!UICONTROL Size of images]** field.
+1. 「**[!UICONTROL 画像のサイズ]**」フィールドでアイコンのサイズを選択します。
 
-1. Click on each of your social media icons to configure the **[!UICONTROL URL]** to which your audience is redirected.
+1. 各ソーシャルメディアアイコンをクリックして、 **[!UICONTROL URL]** オーディエンスのリダイレクト先となるもの。
 
-    ![](assets/email_designer_21.png)
+   ![](assets/email_designer_21.png)
 
-1. You can also change the icons of each of your social media if needed in the **[!UICONTROL Image]** field.
+1. 必要に応じて、「**[!UICONTROL 画像]**」フィールドで各ソーシャルメディアのアイコンを変更することもできます。
 
-1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Component settings]** pane.
+1. スタイル、余白、境界線など、他のスタイル属性を&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;パネルから調整します。
