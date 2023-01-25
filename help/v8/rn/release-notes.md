@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web v8 リリースノート
 description: Campaign Web v8 リリースノート
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
 
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->なお、ベータ版リリースでクロスチャネルキャンペーンおよびワークフロー管理機能を使用できるようになります。
 
-## 用語の更新
+## 用語の更新{#terminology-updates}
 
 既存の Campaign ユーザーとして、一部の概念は最新の用語標準に合わせて名前が変更されています。これらの変更は Campaign Web UI にのみ適用され、クライアントコンソールには反映されません。以下を参照してください。
 
@@ -62,3 +59,17 @@ add info somewhere to remind users that
 * 配信分析は、**配信準備**&#x200B;になりました。分析を開始する必要がある場合は、「**準備**」ボタンをクリックします。
 * メールのプレビューは、「**コンテンツをシミュレート**」ボタンから使用できるようになりました。
 * リストは、**オーディエンス**&#x200B;になりました。
+
+## 制限事項{#limitations-alpha}
+
+クロスチャネルキャンペーンやワークフロー管理など、一部の Campaign 主要機能は、ベータ版リリースで利用できるようになります。
+
+このアルファバージョンには、以下の制限が適用されます。
+
+* 編集可能なオブジェクトは「配信」のみです。 その他は読み取り専用です。 フィルターを使用してすべてを参照します。
+* このバージョンは、1 回の電子メールキャンペーン用に設計されています。 その他のチャネルはまだサポートされていません。
+* 管理ユーザーインターフェイスは使用できません。
+* レポート指標（開封数やトラッキングデータなど）は、1 時間ごとに更新されます。
+* 配信ダッシュボードの KPI は 5 分ごとに更新されます。  — ただし、配信の準備はリアルタイムです。
+* 上部のバーにあるAdobe Experience Cloud通知と統合ヘルプは、まだ統合されていません。
+
