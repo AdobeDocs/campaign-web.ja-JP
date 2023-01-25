@@ -1,23 +1,22 @@
 ---
 audience: end-user
-title: メールのレンダリングをテスト
-description: Campaign Web UI で E メールのレンダリングをテストする方法を説明します
+title: メールのレンダリングのテスト
+description: Campaign web UI でメールのレンダリングをテストする方法について説明します
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# メールのレンダリングをテストする {#rendering}
+# メールのレンダリングのテスト {#rendering}
 
 ![](../assets/do-not-localize/badge.png)
 
-E メールを送信する前に、様々な Web クライアント、Web メールおよびデバイスで受信者へのメッセージの表示が最適化されていることを確認してください。
+メールを送信する前に、様々な web クライアント、web メールおよびデバイスでメッセージが最適な形で受信者に表示されることを確認してください。
 
-Adobe Campaign では、送信されるメッセージを受信する様々なコンテキストでプレビューし、主要なデスクトップやアプリケーション（web メール、メッセージサービス、モバイルなど）での互換性を確認できます。
-
+Adobe Campaign では、送信されるメッセージを、受信する可能性のある様々なコンテキストでプレビューし、主要なデスクトップやアプリケーション（web メール、メッセージサービス、モバイルなど）での互換性を確認することができます。
 
 メールのレンダリングをテストするには、次の手順に従います。
 
