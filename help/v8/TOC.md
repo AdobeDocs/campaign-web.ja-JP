@@ -6,9 +6,9 @@ breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,14 +42,14 @@ ht-degree: 97%
    + [パーソナライゼーションの追加](personalization/personalize.md)
    + [オファーの送信](content/offers.md)
 + メールオーディエンスの選択 {#audience}
-   + [オーディエンスの概要](audience/about-audiences.md)
+   + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [オーディエンスの選択](audience/add-audience.md)
    + [コントロール母集団の設定](audience/control-group.md)
    + [ルールビルダーを使用したオーディエンスの定義](audience/segment-builder.md)
 + メールのプレビューとテスト {#preview-test}
    + [プレビューとテストについて](preview-test/preview-test.md)
    + [メールコンテンツのプレビュー](preview-test/preview-content.md)
-   + [テストメールを送信](preview-test/proofs.md)
+   + [テストメールの送信](preview-test/proofs.md)
 + メールの送信と監視 {#monitor}
    + [メールの準備と送信](monitor/prepare-send.md)
    + [配信ログの監視](monitor/delivery-logs.md)
