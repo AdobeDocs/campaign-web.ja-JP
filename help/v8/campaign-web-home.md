@@ -4,9 +4,9 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 71%
 ![](assets/do-not-localize/badge.png)
 
 
-Campaign は、ユーザーエクスペリエンスを大幅に向上させるための、使いやすさ、アクセシビリティ、新しいデザインを備えた新しい Web ユーザーインターフェイスを提供します。 この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。[詳細情報](get-started/get-started.md)
+Campaign で新しい web ユーザーインターフェイスが提供されるようになりました。これは、より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。[詳細情報](get-started/get-started.md)
 
->Campaign v8 Web は現在アルファバージョンです。 アクセスは、一部のアルファ顧客に制限されています。製品インターフェイス、機能、使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/release-notes.md)
+>Campaign v8 Web は現在アルファバージョンです。 アクセスは、一部のアルファ顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/release-notes.md)
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -27,16 +27,16 @@ Campaign は、ユーザーエクスペリエンスを大幅に向上させる�
 <a href="get-started/user-interface.md">
 <img alt="新しい UI" src="assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>キャンペーンの新しい UI</strong>
+<div><a href="get-started/user-interface.md"><strong>Campaign の新しい UI</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="content/create-email-content.md">
-<img alt="頻度の低い" src="assets/do-not-localize/email-design.jpg">
+<img alt="低頻度" src="assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>電子メールのデザイン</strong></a>
+<a href="content/create-email-content.md"><strong>メールのデザイン</strong></a>
 </div>
 <p></td>
 <td>
@@ -53,7 +53,7 @@ Campaign は、ユーザーエクスペリエンスを大幅に向上させる�
 <img alt="検証" src="assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>E メールのプレビューとテスト</strong></a>
+<a href="preview-test/proofs.md"><strong>メールのプレビューとテスト</strong></a>
 </div>
 <p>
 </td>
