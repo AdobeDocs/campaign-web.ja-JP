@@ -4,9 +4,9 @@ title: リンクのスタイルの定義
 description: リンクのスタイルを定義する方法を学ぶ
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
    ![](assets/link_1.png)
 
-1. でのオーディエンスのリダイレクト方法を選択 **[!UICONTROL ターゲット]** ドロップダウン：
+1. 「**[!UICONTROL ターゲット]**」ドロップダウンで、オーディエンスのリダイレクト方法を選択します。
 
    * **[!UICONTROL なし]**：クリックされたのと同じフレームでリンクを開きます（デフォルト）。
    * **[!UICONTROL 空白]**：リンクを新しいウィンドウまたはタブで開きます。
