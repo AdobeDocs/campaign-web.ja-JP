@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: メールの準備と送信
-description: Campaign Web UI で E メールを準備して送信する方法を説明します
+description: Campaign web UI でのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ send also KPIs
 
 ## 送信の準備{#prepare}
 
-コンテンツ、オーディエンスおよびスケジュールを定義したら、メッセージの準備を始めます。準備段階では、ターゲット母集団を計算し、ターゲットに含まれるプロファイルごとのメッセージコンテンツを生成します。準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。分析時に使用される検証ルールについて詳しくは、 [Campaign Classicv7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#validation-process-with-typologies){target="_blank"}.
+コンテンツ、オーディエンスおよびスケジュールを定義したら、メッセージの準備を始めます。準備段階では、ターゲット母集団を計算し、ターゲットに含まれるプロファイルごとのメッセージコンテンツを生成します。準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。分析時に使用される検証ルールについては、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=ja#validation-process-with-typologies){target="_blank"}を参照してください。
 
 以下の手順に従います。
 
@@ -86,12 +86,12 @@ send also KPIs
 
    次に、様々な KPI を示します。
 
-   * **配信済み**:正常に配信されたメッセージ数。 表示される割合は、送信されたメッセージの合計数に基づきます。
-   * **開封数**：開封されたメッセージの数。表示される割合は、配信されたメッセージ数に対する、ユニーク開封数の割合です。
-   * **クリック数**：メール内で 1 回以上クリックした受信者の数。表示される割合は、配信されたメッセージ数に対する、ユニーククリック数の割合です。
+   * **配信済み**：正常に配信されたメッセージの数。表示されるパーセンテージは、送信されたメッセージの合計数に基づきます。
+   * **開封数**：開封されたメッセージの数。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーク開封数の割合です。
+   * **クリック数**：メール内で 1 回以上クリックした受信者の数。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーククリック数の割合です。
 
    >[!NOTE]
    >
-   >この **開封数** および **クリック数** 指標は 5 分後に更新されます。
+   >**開封数**&#x200B;および&#x200B;**クリック数**&#x200B;指標は、5 分後に更新されます。
 
-   送信はいつでも一時停止、再開できます。配信の送信中に停止すると、再開できません。
+   送信はいつでも一時停止、再開できます。送信中に配信を停止した場合は、再開できません。
