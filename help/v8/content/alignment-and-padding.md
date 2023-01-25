@@ -4,9 +4,9 @@ title: 電子メールデザイナーでの垂直方向の整列とパディン�
 description: 垂直方向の整列とパディングの調整方法を学ぶ
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
