@@ -6,7 +6,7 @@ breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
    + [リリースノート](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
 + [基本を学ぶ](get-started/get-started.md)
-+ [インターフェイスについて説明します](get-started/user-interface.md)
++ [インターフェイスについて](get-started/user-interface.md)
 + [最初のメールの作成](email/create-email.md)
 + メールコンテンツの作成 {#content}
    + [メールコンテンツの編集](content/edit-content.md)
