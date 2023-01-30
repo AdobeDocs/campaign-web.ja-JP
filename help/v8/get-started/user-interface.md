@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: インターフェイスについて説明します
+title: インターフェイスについて
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
@@ -10,13 +10,13 @@ ht-degree: 89%
 
 ---
 
-# インターフェイスについて説明します {#user-interface}
+# インターフェイスについて {#user-interface}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="インターフェイスについて説明します"
+>title="インターフェイスについて"
 >abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
 新しい Campaign v8 web インターフェイスは、マーケティングキャンペーンのデザインと配信を簡素化する、最新の直感的なユーザーエクスペリエンスを提供します。この新しいインターフェイスは、Adobe Experience Platform と統合されています。
