@@ -3,10 +3,10 @@ audience: end-user
 title: メールの準備と送信
 description: Campaign web UI でのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 91%
 
 ---
 
@@ -72,6 +72,22 @@ send also KPIs
 
 ## メッセージの送信{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="配信済み"
+>abstract="正常に配信されたメッセージ数。 この指標は 5 分ごとに更新されます。 表示されるパーセンテージは、送信されたメッセージの合計数に基づきます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="開封数"
+>abstract="開かれたメッセージの数。 この指標は 5 分ごとに更新されます。 表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーク開封数の割合です。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="クリック数"
+>abstract="E メールを少なくとも 1 回クリックした受信者の数。 この指標は 5 分ごとに更新されます。 表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーククリック数の割合です。"
+
+
 準備が完了したら、メッセージを送信できます。この手順は、すぐに送信するメッセージに対してのみ必要となります。メッセージがスケジュールされている場合は、指定した日付に送信されます。
 
 次の手順に従います。
@@ -92,6 +108,6 @@ send also KPIs
 
    >[!NOTE]
    >
-   >**開封数**&#x200B;および&#x200B;**クリック数**&#x200B;指標は、5 分後に更新されます。
+   >すべての指標は、配信が開始されてから 5 分ごとに更新されます。 配信準備の指標はリアルタイムです。
 
    送信はいつでも一時停止、再開できます。送信中に配信を停止した場合は、再開できません。
