@@ -4,9 +4,9 @@ title: インターフェイスについて
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## サポートしているブラウザー {#browsers}
 
-Campaign v8 Web は、Google Chrome、Safari およびMicrosoft Edge の最新バージョンで最適に動作するように設計されています。 古いバージョンや他のブラウザーでは、特定の機能の使用に問題が生じる場合があります。
+Campaign v8 Web は、最新バージョンの Google Chrome、Safari および Microsoft Edge で最適に動作するように設計されています。古いバージョンや他のブラウザーでは、特定の機能を使用する際に問題が発生する可能性があります。
 
 ## 言語環境設定 {#language-pref}
 
@@ -187,20 +187,20 @@ Campaign v8 Web は現在、次の言語で利用できます。
 <table>
 <tr>
 <td>
-<p>英語（米国） — 米国</p>
-<p>フランス語 — FR</p>
-<p>ドイツ語 — DE</p>
-<p>イタリア語 — IT</p>
+<p>英語（米国）- EN-US</p>
+<p>フランス語 - FR</p>
+<p>ドイツ語 - DE</p>
+<p>イタリア語 - IT</p>
 </td>
 <td>
-<p>スペイン語 — ES</p>
-<p>ポルトガル語（ブラジル） - PTBR</p>
-<p>日本語 — JP</p>
+<p>スペイン語 - ES</p>
+<p>ポルトガル語（ブラジル）- PTBR</p>
+<p>日本語 - JP</p>
 </td>
 <td>
-<p>韓国語 — KR</p>
-<p>簡体字中国語 — CHS</p>
-<p>繁体字中国語 — CHT</p>
+<p>韓国語 - KR</p>
+<p>簡体字中国語 - CHS</p>
+<p>繁体字中国語 - CHT</p>
 </td>
 </tr>
 </table>
@@ -209,15 +209,15 @@ Campaign v8 Web は現在、次の言語で利用できます。
 
 言語を変更するには：
 
-1. プロファイルアイコンをクリックし、右上の「 」をクリックして、「 」を選択します。 **環境設定**.
+1. 右上のプロファイルアイコンをクリックし、 「**環境設定**」を選択します。
 
    ![](assets/preferences.png){width="70%" align="left"}
 
-1. 次に、E メールアドレスの下に表示される言語をクリックします。
+1. 次に、メールアドレスの下に表示されている言語をクリックします。
 
    ![](assets/preferences2.png)
 
-1. 目的の言語を選択し、 **保存**. 使用しているコンポーネントが最初の言語にローカライズされていない場合に備えて、2 番目の言語を選択できます。
+1. 優先言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
 
    ![](assets/select-language.png)
 
