@@ -17,7 +17,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="メールの準備と送信"
->abstract="メールの準備方法と KPI の送信に関する詳細を確認します。"
+>abstract="メールの準備方法と KPI の送信に関する詳細について説明します。"
 
 <!--
 

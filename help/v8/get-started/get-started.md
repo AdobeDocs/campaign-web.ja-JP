@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: 基本を学ぶCampaign v8 web の基本を学ぶ
+title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 100%
 

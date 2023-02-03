@@ -4,7 +4,7 @@ title: 最初のメールの送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="メールコンテンツのデザイン方法を学ぶ"
->abstract="電子メールデザイナーの使用方法について説明します。"
+>abstract="メールデザイナーの使用方法について説明します。"
 
 このユースケースでは、事前定義されたテンプレートを使用してメールをデザインします。
 
