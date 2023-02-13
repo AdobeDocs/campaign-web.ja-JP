@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: インターフェイスについて
+title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
-workflow-type: ht
-source-wordcount: '1301'
-ht-degree: 100%
+source-git-commit: d063c6757881b7793c8d399de42fde8423f44cdc
+workflow-type: tm+mt
+source-wordcount: '1309'
+ht-degree: 99%
 
 ---
 
-# インターフェイスについて {#user-interface}
+# インターフェイスを確認する {#user-interface}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="インターフェイスについて"
+>title="インターフェイスを確認する"
 >abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
 新しい Campaign v8 web インターフェイスは、マーケティングキャンペーンのデザインと配信を簡素化する、最新の直感的なユーザーエクスペリエンスを提供します。この新しいインターフェイスは、Adobe Experience Platform と統合されています。
@@ -226,3 +226,22 @@ Campaign v8 Web は現在、次の言語で利用できます。
 
 Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
 -->
+
+
+
+<!--
+######## This part stores the contextualHelp definition for WebUI BETA ###########
+######## These blocks should be dispatched in the appropriate pages when available ###########
+######## PLEASE DO NOT DELETE ###########
+-->
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="SMS レポートの概要"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="プッシュレポートの概要"
+>abstract="TBC"
+
