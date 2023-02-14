@@ -4,7 +4,7 @@ title: メールスタイルの基本を学ぶ
 description: メールコンテンツのスタイルを調整する様々な方法を説明します
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
 ht-degree: 100%
 
