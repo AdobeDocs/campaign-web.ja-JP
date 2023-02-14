@@ -20,7 +20,7 @@ ht-degree: 100%
    + [リリースノート](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
 + [基本を学ぶ](get-started/get-started.md)
-+ [インターフェイスについて](get-started/user-interface.md)
++ [インターフェイスを確認する](get-started/user-interface.md)
 + [最初のメールの作成](email/create-email.md)
 + メールコンテンツの作成 {#content}
    + [メールコンテンツの編集](content/edit-content.md)
