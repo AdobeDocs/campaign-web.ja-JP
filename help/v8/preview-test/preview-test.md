@@ -4,7 +4,7 @@ title: メールのプレビューとテストについて
 description: メールのプレビューとテストの方法について説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '110'
 ht-degree: 100%
 
