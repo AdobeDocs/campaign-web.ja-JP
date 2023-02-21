@@ -6,7 +6,7 @@ breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
 source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
