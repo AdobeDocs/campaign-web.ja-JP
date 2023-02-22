@@ -4,8 +4,8 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
-workflow-type: tm+mt
-source-wordcount: '120'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
