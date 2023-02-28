@@ -4,9 +4,9 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d3cbac2dfe1f5a0a6f1d79b2671e6c0a07efa156
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ only existing customers
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="基本を学ぶ"
->abstract="主な機能、ユーザーインターフェイス、グローバルガイドラインを確認します。"
+>abstract="主な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。"
 
 >[!NOTE]
 >
