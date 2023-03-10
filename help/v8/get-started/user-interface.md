@@ -4,7 +4,7 @@ title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 100%
 
@@ -168,7 +168,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## コンテキストヘルプとオンボーディングガイド
 
-コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合、「**?**」アイコンをクリックすると、ヘルプ情報や関連ドキュメントのリンクが表示されます。
+コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合、**？**&#x200B;アイコンをクリックしてヘルプ情報および関連ドキュメントのリンクを表示してください。
 
 ![](assets/context-help.png){width="70%" align="left"}
 
