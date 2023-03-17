@@ -102,11 +102,11 @@ ht-degree: 100%
 
    ![](assets/save-content.png)
 
-## オーディエンスの定義 {#define-audience}
+## オーディエンスを定義 {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="オーディエンスの定義"
+>title="オーディエンスを定義"
 >abstract="マーケティングメッセージに最適なオーディエンスを選択します。Campaign v8 インスタンスまたは Adobe Experience Platform で既に定義されている既存のオーディエンスを選択するか、ルールビルダーを使用して新しいオーディエンスを作成できます。"
 
 このユースケースでは、既存のオーディエンスにメールを送信します。オーディエンスの操作方法に関する追加手順については、[この節](../audience/about-audiences.md)を参照してください。
