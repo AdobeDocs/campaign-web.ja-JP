@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 050d97695dd2012644af4a35eca3e6cd9f5f02af
+source-git-commit: a61b1322ef277ab1707ef8f81009e3d344b1fd5a
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 100%
+source-wordcount: '1339'
+ht-degree: 99%
 
 ---
 
@@ -263,4 +263,19 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="プッシュ通知テンプレート"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="キャンペーン作成プロパティ"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="キャンペーン作成スケジュール"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="ルールビルダーの詳細属性"
 >abstract="未定"
