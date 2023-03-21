@@ -5,8 +5,8 @@ description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1292'
+ht-degree: 100%
 
 ---
 
