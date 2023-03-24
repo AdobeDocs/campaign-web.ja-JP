@@ -3,26 +3,16 @@ audience: end-user
 title: オファーの送信
 description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 99%
 
 ---
 
 # オファーの送信 {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="オファー設定"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="オファーの詳細設定"
->abstract="TBC"
 
 Adobe Campaign v8 Web では、**[!UICONTROL インタラクション]**&#x200B;モジュールを使用してコンソールで作成されたオファーを、メールで送信できます。インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign V8 のドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
 
@@ -32,6 +22,16 @@ Adobe Campaign v8 Web では、**[!UICONTROL インタラクション]**&#x200B;
 1. [オファーをメールに挿入します](#insert)。
 
 ## 提案するオファーの設定 {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="オファー設定"
+>abstract="受信者に提案するオファーを設定します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="オファーの詳細設定"
+>abstract="オファーに関するアドバンスオプションの設定"
 
 1. メールで提案するオファーを選択するには、メールコンテンツ編集画面で「**[!UICONTROL オファー]**」ボタンをクリックします。
 

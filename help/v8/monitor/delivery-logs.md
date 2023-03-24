@@ -3,10 +3,10 @@ audience: end-user
 title: 配信ログの監視
 description: 配信ログの監視方法について説明します
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="配信ログ"
->abstract="TBC"
+>abstract="配信ログを使用して、エラーが発生していないことを確認できます。"
 
 メールを準備して送信した後、配信ログを使用して、エラーがないことを確認できます。これらのログは、メッセージダッシュボードから直接アクセスできます。送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
 

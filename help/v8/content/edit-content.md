@@ -3,10 +3,10 @@ audience: end-user
 title: メールコンテンツの編集
 description: Campaign web UI でメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '384'
+ht-degree: 84%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="メールヘッダー"
->abstract="TBC"
+>abstract="このセクションでは、電子メールテンプレートで定義された差出人名と差出人電子メールの値を制御できます。 「件名」フィールドは、式エディターを使用してカスタマイズできます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="メール添付ファイル"
->abstract="TBC"
+>abstract="メッセージに挿入する 1 つ以上のファイルを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="トラッキングオプション"
->abstract="TBC"
+>abstract="デフォルトでは、配信のトラッキングが有効になっています。ここからこのオプションを無効にできます。"
 
 メールのコンテンツの作成を開始するには、メール作成画面から「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
@@ -61,6 +61,6 @@ ht-degree: 100%
 
    <!--limitation on size + number of files?-->
 
-1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。[リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
+1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、 **[!UICONTROL オプション機能]** 」セクションに入力します。 [リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
 
 メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。[メールのプレビューとテストの方法を学ぶ](../preview-test/preview-test.md)

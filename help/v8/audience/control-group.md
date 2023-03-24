@@ -3,9 +3,9 @@ audience: end-user
 title: コントロール母集団の設定
 description: Campaign web UI でメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '576'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="ターゲットから抽出"
->abstract="TBC"
+>abstract="コントロール母集団を定義するには、ターゲット母集団から一定の割合または一定数のプロファイルを、無作為または並べ替えに基づいて抽出できます。"
 
 コントロール母集団を定義するには、ターゲット母集団から一定の割合または一定数のプロファイルを、無作為または並べ替えに基づいて抽出できます。
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="追加の母集団"
->abstract="TBC"
+>abstract="コントロール母集団を定義するもう 1 つの方法は、既存のオーディエンスを使用するか、またはクエリを定義してターゲットから特定のプロファイルを除外することです。"
 
 コントロール母集団を定義するもう 1 つの方法は、既存のオーディエンスを使用するか、またはクエリを定義してターゲットから特定のプロファイルを除外することです。
 
