@@ -6,7 +6,7 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -61,6 +61,6 @@ ht-degree: 86%
 
    <!--limitation on size + number of files?-->
 
-1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、 **[!UICONTROL オプション機能]** 」セクションに入力します。 [リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
+1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。[リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
 
 メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。[メールのプレビューとテストの方法を学ぶ](../preview-test/preview-test.md)
