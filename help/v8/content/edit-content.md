@@ -3,10 +3,10 @@ audience: end-user
 title: メールコンテンツの編集
 description: Campaign web UI でメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 84%
+source-wordcount: '376'
+ht-degree: 86%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 84%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="メールヘッダー"
->abstract="このセクションでは、電子メールテンプレートで定義された差出人名と差出人電子メールの値を制御できます。 「件名」フィールドは、式エディターを使用してカスタマイズできます。"
+>title="メールパラメーター"
+>abstract="電子メールテンプレートで、送信者名と送信者電子メールの値を定義します。 件名行は、式エディターを使用してパーソナライズできます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

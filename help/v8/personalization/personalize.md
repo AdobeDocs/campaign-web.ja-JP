@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 89%
@@ -82,7 +82,7 @@ ht-degree: 89%
 * **[!UICONTROL 固有名詞のフォーマット設定関数]**：JavaScript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字を大文字に変更します。
 * **[!UICONTROL 挨拶]**:受信者の姓名と共に挨拶文を挿入し、その後にコンマを付けます。 例：「こんにちは、John Doe。」
 * **[!UICONTROL ロゴを挿入]**：インスタンス設定で定義されているロゴを挿入します。
-* **[!UICONTROL ミラーページへのリンク]**:リンクを [ミラーページ](mirror-page.md). デフォルトの形式：「このメッセージが正しく表示されない場合は、ここをクリックしてください。」
+* **[!UICONTROL ミラーページへのリンク]**:リンクを [ミラーページ](../content/mirror-page.md). デフォルトの形式：「このメッセージが正しく表示されない場合は、ここをクリックしてください。」
 * **[!UICONTROL ミラーページの URL]**：ミラーページの URL を挿入し、配信デザイナーがリンクを確認できるようにします。
 * **[!UICONTROL 単一モードのオファー許可 URL]**：オファーを&#x200B;**[!UICONTROL 許可済み]**&#x200B;に設定できる URL を挿入します。（このブロックは、インタラクションモジュールが有効な場合に使用できます）
 * **[!UICONTROL 登録の確認]**：購読を確認できるリンクを挿入します。
