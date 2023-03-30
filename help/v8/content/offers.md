@@ -4,9 +4,9 @@ title: オファーの送信
 description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign v8 Web では、**[!UICONTROL インタラクション]**&#x200B;
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="オファーの詳細設定"
->abstract="オファーに関するアドバンスオプションの設定"
+>abstract="オファーに関する詳細設定オプションの設定"
 
 1. メールで提案するオファーを選択するには、メールコンテンツ編集画面で「**[!UICONTROL オファー]**」ボタンをクリックします。
 
