@@ -5,10 +5,10 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+source-git-commit: 82c7abb4fe8cd7ecc68748ca59f2e5c7b5336d34
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 95%
          + [ゼロから開始 ](content/create-email-content.md)
          + [メールコンテンツの読み込み](content/existing-content.md)
          + [独自コンテンツのコーディング](content/code-content.md)
+         + [電子メールテンプレートを使用](content/email-templates.md)
       + [コンテンツコンポーネントの使用](content/content-components.md)
       + [テキストバージョンの生成](content/text-version-email.md)
       + [ミラーページへのリンクを追加](content/mirror-page.md)
