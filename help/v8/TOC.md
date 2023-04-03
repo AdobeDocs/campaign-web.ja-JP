@@ -5,10 +5,10 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 82%
+source-wordcount: '229'
+ht-degree: 80%
 
 ---
 
@@ -61,9 +61,10 @@ ht-degree: 82%
       + [SMS 配信の概要](sms/gs-sms.md)
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
-   + [オーディエンスの選択](audience/add-audience.md)
+   + [既存オーディエンスの選択](audience/add-audience.md)
    + [ルールビルダーを使用したオーディエンスの作成](audience/segment-builder.md)
    + [オーディエンスのインポート](audience/import-audience.md)
+   + [Adobe Experience Platformオーディエンスの使用](audience/aep-audience.md)
    + [コントロール母集団の設定](audience/control-group.md)
 + クロスチャネルキャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)

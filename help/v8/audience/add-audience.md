@@ -4,22 +4,31 @@ title: オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+source-wordcount: '272'
+ht-degree: 90%
 
 ---
 
 
-# オーディエンスの選択 {#add-audience}
+# 既存オーディエンスの選択 {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="既存オーディエンスの選択"
 >abstract="オーディエンスは、Adobe Campaign v8 コンソールで定義されます。Adobe Experience Platform 統合を使用できる場合は、Platform で定義されたオーディエンスも表示されます。"
 
-この節では、メール配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。新しいオーディエンスを作成する場合は、[こちら](segment-builder.md)を参照してください。
+この節では、メール配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。
+
+また、次のこともできます。
+
+* 新しいオーディエンスを作成します。 [詳細情報](segment-builder.md)
+* ファイルからオーディエンスをインポート. [詳細情報](import-audience.md)
+* Adobe Experience Platformオーディエンスを使用する。 [詳細情報](aep-audience.md)。
+
+
+メッセージの既存のオーディエンスを選択するには、次の手順に従います。
 
 1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
 
