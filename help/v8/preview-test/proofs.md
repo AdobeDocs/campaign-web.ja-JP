@@ -3,16 +3,15 @@ audience: end-user
 title: テストメールの送信
 description: テストメールの定義および送信方法を説明します
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '541'
+ht-degree: 99%
 
 ---
 
 # テストメールの送信 {#send-proofs}
-
-![](../assets/do-not-localize/badge.png)
 
 テストメールの送信は、メールキャンペーンを検証し、潜在的な問題を特定するための重要な手順です。テストメールを送信することで、リンク、オプトアウトリンク、画像、ミラーページなどの様々な要素を確認できるほか、エラーも検出できます。
 

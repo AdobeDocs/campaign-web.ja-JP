@@ -2,17 +2,17 @@
 audience: end-user
 title: オーディエンスの基本を学ぶ
 description: Campaign web UI でのオーディエンスの使用方法について説明します
+badge: label="Alpha" type="Informative"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 100%
+source-wordcount: '125'
+ht-degree: 96%
 
 ---
 
-# オーディエンスの基本を学ぶ {#about-audiences}
 
-![](../assets/do-not-localize/badge.png)
+# オーディエンスの基本を学ぶ {#about-audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"

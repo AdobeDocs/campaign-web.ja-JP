@@ -3,22 +3,16 @@ audience: end-user
 title: 配信レポート
 description: 配信レポートへのアクセス方法と使用方法について説明します
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 98%
 
 ---
 
 # 配信レポート {#reports}
 
-![](../assets/do-not-localize/badge.png)
-
-<!--
-detail delivery reports and how to access them
-
-same content as in v7 (excepted for the navigation that is similar to AJO
--->
 
 Adobe Campaign には、配信ごとにアクセス可能な複数のタイプのレポートが用意されています。 これらのレポートを使用すると、メッセージの影響とパフォーマンスを組み込みダッシュボードで測定し視覚化できます。
 

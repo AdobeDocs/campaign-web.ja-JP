@@ -3,16 +3,15 @@ audience: end-user
 title: メールスタイルの基本を学ぶ
 description: メールコンテンツのスタイルを調整する様々な方法を説明します
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 96%
 
 ---
 
 # メールスタイルの基本を学ぶ {#get-started-email-style}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Adobe Campaign] でメールコンテンツの作成を開始したら、電子メールデザイナーの設定ペインで多数のスタイル設定パラメーターおよび属性を調整できます。
 

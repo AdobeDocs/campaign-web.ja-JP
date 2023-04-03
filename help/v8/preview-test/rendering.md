@@ -3,16 +3,17 @@ audience: end-user
 title: メールのレンダリングのテスト
 description: Campaign web UI でメールのレンダリングをテストする方法について説明します
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 97%
 
 ---
 
+
 # メールのレンダリングのテスト {#rendering}
 
-![](../assets/do-not-localize/badge.png)
 
 メールを送信する前に、様々な web クライアント、web メールおよびデバイスでメッセージが最適な形で受信者に表示されることを確認してください。
 

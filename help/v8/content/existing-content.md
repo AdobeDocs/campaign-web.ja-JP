@@ -3,16 +3,15 @@ audience: end-user
 title: メールコンテンツの読み込み
 description: メールコンテンツの読み込み方法を学ぶ
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 100%
+source-wordcount: '137'
+ht-degree: 97%
 
 ---
 
 # メールコンテンツの読み込み {#existing-content}
-
-![](../assets/do-not-localize/badge.png)
 
 電子メールデザイナーを使用すると、既存の HTML コンテンツを読み込むことができます。 このコンテンツには次のようなものがあります。
 

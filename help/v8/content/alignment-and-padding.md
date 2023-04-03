@@ -3,16 +3,16 @@ audience: end-user
 title: 電子メールデザイナーでの垂直方向の整列とパディングの調整
 description: 垂直方向の整列とパディングの調整方法を学ぶ
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 97%
 
 ---
 
-# 垂直方向の整列とパディングを調整する {#alignment-and-padding}
 
-![](../assets/do-not-localize/badge.png)
+# 垂直方向の整列とパディングを調整する {#alignment-and-padding}
 
 この例では、3 列で構成される構造コンポーネント内のパディングと垂直方向の整列を調整します。
 

@@ -3,16 +3,16 @@ audience: end-user
 title: 最初のメールの送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 100%
+source-wordcount: '1296'
+ht-degree: 99%
 
 ---
 
-# 最初のメールの送信 {#first-email}
 
-![](../assets/do-not-localize/badge.png)
+# 最初のメールの送信 {#first-email}
 
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 

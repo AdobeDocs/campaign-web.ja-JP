@@ -2,7 +2,8 @@
 audience: end-user
 title: ミラーページへのリンクを追加
 description: ミラーページへのリンクを追加および管理する方法を説明します
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informative"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 37%
@@ -11,8 +12,6 @@ ht-degree: 37%
 
 
 # ミラーページへのリンクを追加{#mirror-page}
-
-## ミラーページについて{#about-mirror-page}
 
 ミラーページは、E メールのオンラインバージョンです。
 
@@ -27,7 +26,6 @@ Adobe Campaignで生成されるミラーページには、すべてのパーソ
 ミラーページへのリンクを挿入することをお勧めします。 このリンクには、「このメールをブラウザーに表示」や「このオンラインを読む」などがあります。 多くの場合、電子メールのヘッダーまたはフッターに配置されています。
 
 Adobe Campaignでは、専用の **パーソナライゼーションブロック**. 組み込み **ミラーページへのリンク** パーソナライゼーションブロックは、メールコンテンツに次のコードを挿入します。 `<%@ include view='MirrorPage' %>`.
-
 
 メールにミラー ページへのリンクを追加するには：
 
