@@ -3,16 +3,16 @@ audience: end-user
 title: メール配信設定
 description: Campaign web UI でのメール配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informative"
+source-git-commit: 5ae59f72739943a7073e7cbd0d4d8cec0b7eb7ee
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 90%
 
 ---
 
-# メール配信設定 {#email-del-settings}
 
-![アルファ版](../assets/do-not-localize/badge.png)
+# メール配信設定 {#email-del-settings}
 
 これらの設定は、メールテンプレートで定義される&#x200B;**技術的な配信パラメーター**&#x200B;です。メール配信の編集時に使用できる「**配信設定を指定**」アイコンから使用できます。
 
