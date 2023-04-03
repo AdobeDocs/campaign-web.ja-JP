@@ -5,10 +5,10 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: 694085f49f2722cc8eefb08196503bc210e36ffa
+source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 87%
+source-wordcount: '222'
+ht-degree: 82%
 
 ---
 
@@ -62,8 +62,9 @@ ht-degree: 87%
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [オーディエンスの選択](audience/add-audience.md)
+   + [ルールビルダーを使用したオーディエンスの作成](audience/segment-builder.md)
+   + [オーディエンスのインポート](audience/import-audience.md)
    + [コントロール母集団の設定](audience/control-group.md)
-   + [ルールビルダーを使用したオーディエンスの定義](audience/segment-builder.md)
 + クロスチャネルキャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
    + [最初のキャンペーンを作成](campaigns/create-campaigns.md)
