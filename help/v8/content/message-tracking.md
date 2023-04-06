@@ -6,8 +6,8 @@ exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 92%
 >
 >マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）はチャネルサーフェス（メッセージプリセット）レベルでメッセージの作成時に定義されます。
 
-すべての電子メールメッセージに、ミラーページへの特定のリンクを追加する必要があります。 ミラーページについて詳しくは、 [この節](mirror-page.md).
+すべてのメールメッセージに、ミラーページへの特定のリンクを追加する必要があります。ミラーページについて詳しくは、[この節](mirror-page.md)を参照してください。
 
 ## トラッキングの管理 {#manage-tracking}
 

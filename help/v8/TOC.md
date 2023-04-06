@@ -7,8 +7,8 @@ title: Campaign v8 Web ドキュメント
 hide: true
 source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 80%
                + [E メールコンテンツテンプレートを使用する](content/email-templates.md)
             + [コンテンツコンポーネントの使用](content/content-components.md)
             + [テキストバージョンの生成](content/text-version-email.md)
-            + [ミラーページへのリンクを追加](content/mirror-page.md)
+            + [ミラーページへのリンクの追加](content/mirror-page.md)
             + [プリヘッダーの追加](content/preheader.md)
             + [リンクの追加とメッセージの追跡](content/message-tracking.md)
          + コンテンツのスタイル設定 {#style}

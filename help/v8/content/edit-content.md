@@ -6,8 +6,8 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="メールパラメーター"
->abstract="電子メールテンプレートで、送信者名と送信者電子メールの値を定義します。 件名行は、式エディターを使用してパーソナライズできます。"
+>abstract="送信者名と送信元メールの値は、メールテンプレートで定義します。件名は、式エディターを使用してパーソナライズできます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
