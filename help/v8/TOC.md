@@ -5,10 +5,10 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
+source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '245'
+ht-degree: 79%
 
 ---
 
@@ -72,5 +72,10 @@ ht-degree: 0%
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
    + [最初のワークフローを作成](workflows/create-workflows.md)
+   + ワークフローアクティビティの操作 {#activities}
+      + [ワークフローアクティビティの概要](workflows/get-started-activities.md)
+      + [ターゲティングアクティビティ](workflows/targeting-activities.md)
+      + [チャネルアクティビティ](workflows/channel-activities.md)
+      + [データ管理アクティビティ](workflows/data-management-activities.md)
 + [レポート](reporting/reports.md)
 
