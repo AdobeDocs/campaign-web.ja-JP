@@ -5,13 +5,13 @@ description: メールでコンテンツコンポーネントを使用する方�
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 電子メールデザイナーのコンテンツコンポーネントの使用 {#content-components}
+# メールデザイナーのコンテンツコンポーネントの使用 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
