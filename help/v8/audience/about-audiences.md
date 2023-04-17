@@ -5,9 +5,9 @@ description: Campaign web UI でのオーディエンスの使用方法につい
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '137'
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ control groups like acc: exract, random, based on attribute
 
 オーディエンスを定義するには、次の操作を実行します。
 
-* 既存のオーディエンスを使用します。 [詳細情報](add-audience.md)
-* 新しいオーディエンスを作成します。 [詳細情報](segment-builder.md)
-* ファイルからオーディエンスをインポート. [詳細情報](import-audience.md)
-* Adobe Experience Platformオーディエンスを使用する。 [詳細情報](aep-audience.md)
+* 既存のオーディエンスの使用。[詳細情報](add-audience.md)
+* 新しいオーディエンスの作成。[詳細情報](segment-builder.md)
+* ファイルからのオーディエンスのインポート。[詳細情報](import-audience.md)
+* Adobe Experience Platform オーディエンスの使用。[詳細情報](aep-audience.md)
 
-また、コントロール母集団を定義して、オーディエンスの一部にメッセージが送信されないようにし、キャンペーンの影響を測定することもできます。 [詳細情報](control-group.md)
+また、コントロール母集団を定義すると、キャンペーンの影響を測定するために、オーディエンスの一部にメッセージを送信しないようにできます。[詳細情報](control-group.md)
 
 ![](assets/about-audience.png)
