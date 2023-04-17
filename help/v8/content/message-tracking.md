@@ -5,13 +5,13 @@ description: リンクを追加し、送信済みメッセージを追跡する�
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
-# リンクの追加とメッセージの追跡 {#tracking}
+# リンクの追加とメッセージのトラッキング {#tracking}
 
 電子メールデザイナーを使用してコンテンツにリンクを追加し、受信者の行動を監視するために送信されたメッセージを追跡します。
 
