@@ -5,9 +5,9 @@ description: Campaign web UI でのメール配信設定の詳細を説明しま
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1473'
+ht-degree: 100%
 
 ---
 
