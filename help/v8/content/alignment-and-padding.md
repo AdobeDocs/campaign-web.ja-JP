@@ -5,14 +5,14 @@ description: 垂直方向の整列とパディングの調整方法を学ぶ
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# 垂直方向の整列とパディングを調整する {#alignment-and-padding}
+# 垂直方向の整列とパディングの調整 {#alignment-and-padding}
 
 この例では、3 列で構成される構造コンポーネント内のパディングと垂直方向の整列を調整します。
 
