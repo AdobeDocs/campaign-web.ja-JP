@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Campaign v8 Web でのメッセージと配信の概要
-description: Campaign Web での配信の操作方法とメッセージの送信方法について説明します。
+title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
+description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Alpha" type="Positive"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '33'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Campaign Web でのメッセージの概要 {#gs-messages}
+# Campaign Web でのメッセージの基本を学ぶ {#gs-messages}
