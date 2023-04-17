@@ -4,10 +4,10 @@ title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '1349'
-ht-degree: 100%
+source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
+workflow-type: tm+mt
+source-wordcount: '1360'
+ht-degree: 99%
 
 ---
 
@@ -287,4 +287,19 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="エラー指標"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="Android コンテンツをプッシュ"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_iOS_content"
+>title="iOSコンテンツをプッシュ"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_content"
+>title="SMS コンテンツ"
 >abstract="未定"
