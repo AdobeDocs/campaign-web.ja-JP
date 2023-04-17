@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
 workflow-type: tm+mt
 source-wordcount: '245'
-ht-degree: 79%
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 79%
 + 新機能{#whats-new}
    + [リリースノート](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
-+ Adobe Campaign の概要 {#start}
++ Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
    + [インターフェイスを確認する](get-started/user-interface.md)
 + メッセージと配信 {#msg}
@@ -33,7 +33,7 @@ ht-degree: 79%
                + [ゼロから開始 ](content/create-email-content.md)
                + [メールコンテンツの読み込み](content/existing-content.md)
                + [独自コンテンツのコーディング](content/code-content.md)
-               + [E メールコンテンツテンプレートを使用する](content/email-templates.md)
+               + [メールコンテンツテンプレートの使用](content/email-templates.md)
             + [コンテンツコンポーネントの使用](content/content-components.md)
             + [テキストバージョンの生成](content/text-version-email.md)
             + [ミラーページへのリンクの追加](content/mirror-page.md)
@@ -56,15 +56,15 @@ ht-degree: 79%
          + [配信ログの監視](monitor/delivery-logs.md)
          + [メール配信設定](advanced-settings/delivery-settings.md)
    + プッシュ通知 {#push}
-      + [プッシュ通知の概要](push/gs-push.md)
-   + SMS{#sms}
-      + [SMS 配信の概要](sms/gs-sms.md)
+      + [プッシュ通知の基本を学ぶ](push/gs-push.md)
+   + SMS {#sms}
+      + [SMS 配信の基本を学ぶ](sms/gs-sms.md)
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [既存オーディエンスの選択](audience/add-audience.md)
    + [ルールビルダーを使用したオーディエンスの作成](audience/segment-builder.md)
    + [オーディエンスのインポート](audience/import-audience.md)
-   + [Adobe Experience Platformオーディエンスの使用](audience/aep-audience.md)
+   + [Adobe Experience Platform オーディエンスの使用](audience/aep-audience.md)
    + [コントロール母集団の設定](audience/control-group.md)
 + クロスチャネルキャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
