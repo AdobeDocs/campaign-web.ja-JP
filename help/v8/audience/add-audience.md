@@ -5,9 +5,9 @@ description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
 source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 90%
 
 また、次のこともできます。
 
-* 新しいオーディエンスを作成します。 [詳細情報](segment-builder.md)
-* ファイルからオーディエンスをインポート. [詳細情報](import-audience.md)
-* Adobe Experience Platformオーディエンスを使用する。 [詳細情報](aep-audience.md)。
+* 新しいオーディエンスの作成。[詳細情報](segment-builder.md)
+* ファイルからのオーディエンスのインポート。[詳細情報](import-audience.md)
+* Adobe Experience Platform オーディエンスの使用。[詳細情報](aep-audience.md)
 
 
 メッセージの既存のオーディエンスを選択するには、次の手順に従います。
