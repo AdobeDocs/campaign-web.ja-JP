@@ -3,10 +3,11 @@ audience: end-user
 title: ワークフローのデータ管理アクティビティの使用
 description: データ管理アクティビティをAdobe Campaign Web ワークフローで使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '392'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,12 @@ ht-degree: 1%
 
 ## エンリッチメント {#enrichment}
 
-「エンリッチメント」アクティビティは、通常、ターゲティングアクティビティの後のワークフローで使用されます。 データベースの追加情報を使用して、ターゲットデータを拡張できます。
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="エンリッチメント アクティビティ"
+>abstract="「エンリッチメント」アクティビティを使用すると、データベースの追加情報でターゲットデータを拡張できます。 これは、一般的に、アクティビティのターゲティング後のワークフローで使用されます。<br/>エンリッチメントデータをワークフローに追加すると、エンリッチメントアクティビティ後に追加されたアクティビティで使用して、行動、好み、ニーズに基づいて顧客を個別のグループにセグメント化したり、ターゲットオーディエンスの共感を呼び込む可能性が高くなります。"
+
+「エンリッチメント」アクティビティを使用すると、データベースの追加情報でターゲットデータを拡張できます。 これは、一般的に、アクティビティのターゲティング後のワークフローで使用されます。
 
 エンリッチメントデータは次のいずれかを実行できます。
 
