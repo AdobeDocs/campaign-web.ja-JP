@@ -4,10 +4,10 @@ title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 99%
+source-wordcount: '1388'
+ht-degree: 96%
 
 ---
 
@@ -227,6 +227,8 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
+REFER TO 
+https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -290,11 +292,123 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_push_iOS_content"
+>id="acw_deliveries_push_ios_content"
 >title="iOSコンテンツをプッシュ"
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS コンテンツ"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="アプリ購読者"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="テスト母集団"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="プレビューモード"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_enrichmentdata"
+>title="エンリッチメントデータ"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="パーソナライズ機能"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_select"
+>title="ファイル選択"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_columns"
+>title="列の定義"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_formatting"
+>title="書式設定パラメーター"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="送信のレポート"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="レポートの追跡"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="レポートの概要"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="ターゲット統計のレポート"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_selection"
+>title="集計レポート配信の選択"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="キャンペーンのプロパティ"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="キャンペーンスケジュール"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="ワークフローリスト"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="キャンペーンの作成"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="キャンペーンスケジュール"
+>abstract="未定"
+
+
+<!--BETA-->
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_fields"
+>title="重複排除フィールド"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="重複排除設定"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="重複排除の補完"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_dimension_complement"
+>title="Dimension補数"
 >abstract="未定"
