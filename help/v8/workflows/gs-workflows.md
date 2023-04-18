@@ -4,16 +4,16 @@ title: ワークフローの基本を学ぶ
 description: ワークフローの開始方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 6%
+source-wordcount: '358'
+ht-degree: 7%
 
 ---
 
 # ワークフローの基本を学ぶ {#workflows}
 
-## Adobe Campaignワークフローとは
+## ワークフローとは何ですか？
 
 クロスチャネルマーケティングは、顧客に効果的に連絡を取りたいと考えるあらゆるビジネスにとって不可欠です。 Adobe Campaignは、マーケティングキャンペーンを簡単に管理できる複雑なプロセスを設計できる、包括的なグラフィカル環境を提供します。
 
