@@ -3,10 +3,11 @@ audience: end-user
 title: ファイルからの受信者のインポート
 description: 外部ファイルから受信者をインポートする方法
 badge: label="Alpha" type="Positive"
-source-git-commit: c44518e6e760fd7afcb90d3aec86e229ae1e2daf
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+exl-id: e6e0dd01-5573-4261-aace-fd173827c383
+source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 96%
 
 ---
 
@@ -28,3 +29,21 @@ ht-degree: 100%
 1. 設定が正しければ、「**確認**」をクリックします。
 
 メッセージコンテンツを作成およびパーソナライズする際に、パーソナライゼーションエディターで入力ファイルからフィールドを選択できます。
+
+## サンプルファイル {#sample-file}
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="サンプルファイル"
+>abstract="サポートされているファイル形式：txt、csv、xls。 先頭行を列ヘッダーとして使用."
+
+
+```json
+{
+lastname,firstname,birthdate,email,crmID
+Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
+Mars,Daniel,17/11/1987,dannymars@example.com,123545
+Smith,Clara,08/02/1989,clara.smith@example.com,124567
+Durance,Allison,15/12/1978,allison.durance@example.com,120987
+}
+```
