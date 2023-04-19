@@ -4,9 +4,9 @@ title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
+source-git-commit: 403f1e5fcb353f4c89f12066854853b51861293b
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1369'
 ht-degree: 96%
 
 ---
@@ -242,21 +242,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
->id="acw_import_from_a_file"
->title="ファイルからオーディエンスをインポート"
->abstract="未定"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_formatting"
->title="形式設定"
->abstract="未定"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_columns"
->title="列設定"
->abstract="未定"
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="プッシュ通知テンプレート"
 >abstract="未定"
@@ -332,6 +317,11 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="サンプルファイル"
+>abstract="未定"
+
+>[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="列の定義"
 >abstract="未定"
@@ -372,25 +362,9 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_schedule"
->title="キャンペーンスケジュール"
->abstract="未定"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="ワークフローリスト"
 >abstract="未定"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="キャンペーンの作成"
->abstract="未定"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="キャンペーンスケジュール"
->abstract="未定"
-
 
 <!--BETA-->
 >[!CONTEXTUALHELP]
