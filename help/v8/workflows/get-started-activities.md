@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: ワークフローアクティビティの概要
-description: Adobe Campaign Web ワークフローの構築に活用できる様々なタイプのアクティビティについて説明します
+title: ワークフローアクティビティの基本を学ぶ
+description: Adobe Campaign web ワークフローの作成に活用できる様々なタイプのアクティビティについて詳しく見る
 badge: label="Alpha" type="Positive"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 0c269e63-c861-4e51-b999-2e8d33fec7a0
+source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+workflow-type: ht
+source-wordcount: '61'
+ht-degree: 100%
 
 ---
 
-# ワークフローアクティビティの概要 {#get-started-activities}
+# ワークフローアクティビティの基本を学ぶ {#get-started-activities}
 
 ワークフローアクティビティとは
 
@@ -18,4 +19,4 @@ ht-degree: 0%
 
 使用方法（追加、削除、複製など）
 
-ターゲティングへの参照/チャネル/データ管理アクティビティページ（クリック可能な写真）
+ターゲティング／チャネル／データ管理アクティビティページへの参照（クリック可能な写真）
