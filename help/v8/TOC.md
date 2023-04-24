@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -72,11 +72,11 @@ ht-degree: 90%
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
    + 最初のワークフローを作成 {#create-workflow}
-      + [ワークフロー作成の主要な原則](workflows/gs-workflow-creation.md)
+      + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
-      + [ワークフローの実行を開始および監視](workflows/start-monitor-workflows.md)
+      + [ワークフローの実行の開始と監視](workflows/start-monitor-workflows.md)
    + ワークフローの設計 {#design-workflows}
-      + [ワークフローキャンバスの概要](workflows/gs-canvas.md)
+      + [ワークフローキャンバスの基本を学ぶ](workflows/gs-canvas.md)
       + [ターゲティングアクティビティ](workflows/targeting-activities.md)
       + [チャネルアクティビティ](workflows/channel-activities.md)
       + [データ管理アクティビティ](workflows/data-management-activities.md)
