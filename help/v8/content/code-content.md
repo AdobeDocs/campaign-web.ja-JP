@@ -4,10 +4,10 @@ title: 独自のメールコンテンツをコーディング
 description: 独自のメールコンテンツのコーディング方法を説明します
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '126'
-ht-degree: 100%
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 63%
 
 ---
 
@@ -23,9 +23,13 @@ ht-degree: 100%
 
 1. 左側のペインを使用してパーソナライゼーション機能を活用します。
 
-1. メールデザイナーを開いて新しいデザインからメールを開始する場合は、オプションメニューから「**[!UICONTROL デザインを変更]**」を選択します。
+1. E メールの内容をクリアし、新しいデザインから E メールを開始する場合は、 **[!UICONTROL デザインを変更]** を選択します。
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >この操作により、E メールデザイナーで選択したテンプレートが開きます。 ここから、E メールのデザインを完了するか、 **[!UICONTROL コードエディターに切り替え]** オプション。
 
 1. **[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンをクリックして、テストプロファイルを使用してメッセージデザインとパーソナライゼーションを確認します。
 
