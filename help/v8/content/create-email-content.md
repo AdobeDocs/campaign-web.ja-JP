@@ -5,9 +5,9 @@ description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
 source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 94%
 
    ![](assets/email_designer_7.png)
 
-1. 必要に応じて、「 」をクリックして E メールをさらにパーソナライズできます。 **[!UICONTROL コードエディターに切り替え]** 電子メールのソースコードを直接操作するために、詳細設定メニューから。 [詳しくは、コードエディターを参照してください](code-content.md)
+1. 必要に応じて、詳細メニューの「**[!UICONTROL コードエディターに切り替え]**」をクリックしてコードエディターに切り替え、メールをさらにパーソナライズし、メールのソースコードを直接操作できます。[詳しくは、コードエディターを参照してください](code-content.md)
 
    >[!CAUTION]
    >
