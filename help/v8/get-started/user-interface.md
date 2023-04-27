@@ -5,9 +5,9 @@ description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 2c5d4c46892ad9fa575e4ed56aa6fa599f1ece7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1366'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -333,12 +333,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
->title="レポートの追跡"
+>title="追跡のレポート"
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
->title="レポートの概要"
+>title="概要のレポート"
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
@@ -348,7 +348,7 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="集計レポート配信の選択"
+>title="集計した「配信を選択」のレポート"
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
@@ -374,10 +374,10 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="重複排除の補完"
+>title="重複排除の補集合"
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Dimension補数"
+>title="ディメンションの補集合"
 >abstract="未定"
