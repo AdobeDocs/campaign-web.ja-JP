@@ -4,13 +4,26 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 94d0d7dcb08aa82f43a66145eb275969905e6bdd
-workflow-type: ht
-source-wordcount: '25'
-ht-degree: 100%
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 63%
 
 ---
 
 # ワークフローの実行の開始と監視 {#start-monitor}
 
 コンテンツ未定
+
+* ワークフローの実行方法
+* 実行をリアルタイムで追跡します。
+
+   デフォルトでは：アクティビティステータス表示+トランジションの結果。 進行状況ボタンを非表示にして非表示にする
+
+   青色視覚流
+
+* ワークフローを一時停止/停止します。 一時停止後にワークフローを再開する。
+* ログとタスクにアクセス
+* エラーの場合の影響：視覚的な指標+ステータス
+
+   <!--to reformulate-->エラーが発生した場合に一時停止せず実行を継続するように、ワークフローを設定することもできます。それには、ワークフローのプロパティを編集し、「エラー管理」セクションの「エラーの場合」フィールドで「無視」オプションを選択します。無視できる連続エラー数を指定します。連続エラーがこの数を超えると、プロセスが一時停止します。

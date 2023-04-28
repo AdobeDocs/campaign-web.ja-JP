@@ -4,15 +4,17 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 94%
 
 ---
 
 
 # ワークフロー作成の主な原則 {#gs-workflow-creation}
+
+コンテンツ未定
 
 ワークフローはプロセス定義です。ワークフロー図は、実行される処理を表したものです。ワークフローは、次のプロセスのインスタンスでもあります。ワークフローインスタンスは、実際に何が起きているかを表したものです。
 
@@ -43,3 +45,5 @@ ht-degree: 100%
 ワークフローを作成する主な手順は次のとおりです。
 
 未定：説明とドキュメントページへの参照を含むプロセス全体を示す図
+
+プロパティを作成および定義し、キャンバスでアクティビティを調整して、必要に応じて設定を行い、実行を開始して監視します。
