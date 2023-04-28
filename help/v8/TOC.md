@@ -5,10 +5,10 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 title: Campaign v8 Web ドキュメント
 hide: true
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 93%
 
 ---
 
@@ -74,12 +74,13 @@ ht-degree: 100%
    + 最初のワークフローを作成 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
-      + [ワークフローの実行の開始と監視](workflows/start-monitor-workflows.md)
-   + ワークフローの設計 {#design-workflows}
-      + [ワークフローキャンバスの基本を学ぶ](workflows/gs-canvas.md)
+      + [ワークフローアクティビティの調整](workflows/build-workflow.md)
+      + [ワークフロー設定を指定](workflows/workflow-settings.md)
+      + [ワークフローの開始と監視](workflows/start-monitor-workflows.md)
+   + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
+   + ワークフローアクティビティの使用 {#design-workflows}
       + [ターゲティングアクティビティ](workflows/targeting-activities.md)
       + [チャネルアクティビティ](workflows/channel-activities.md)
       + [データ管理アクティビティ](workflows/data-management-activities.md)
-   + [ワークフローへのアクセスと監視](workflows/access-monitor.md)
 + [レポート](reporting/reports.md)
 
