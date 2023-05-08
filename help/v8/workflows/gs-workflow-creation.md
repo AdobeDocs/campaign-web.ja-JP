@@ -5,9 +5,9 @@ description: Adobe Campaign Web を使用してワークフローを作成する
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,4 +46,4 @@ ht-degree: 94%
 
 未定：説明とドキュメントページへの参照を含むプロセス全体を示す図
 
-プロパティを作成および定義し、キャンバスでアクティビティを調整して、必要に応じて設定を行い、実行を開始して監視します。
+プロパティの作成と定義／キャンバスでのアクティビティのオーケストレーション／必要に応じた設定の指定／実行の開始と監視
