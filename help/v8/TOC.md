@@ -6,9 +6,9 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
 source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,11 +74,11 @@ ht-degree: 93%
    + 最初のワークフローを作成 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
-      + [ワークフローアクティビティの調整](workflows/build-workflow.md)
-      + [ワークフロー設定を指定](workflows/workflow-settings.md)
+      + [ワークフローアクティビティのオーケストレーション](workflows/build-workflow.md)
+      + [ワークフロー設定の指定](workflows/workflow-settings.md)
       + [ワークフローの開始と監視](workflows/start-monitor-workflows.md)
    + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
-   + ワークフローアクティビティの使用 {#design-workflows}
+   + ワークフローアクティビティの操作 {#design-workflows}
       + [ターゲティングアクティビティ](workflows/targeting-activities.md)
       + [チャネルアクティビティ](workflows/channel-activities.md)
       + [データ管理アクティビティ](workflows/data-management-activities.md)
