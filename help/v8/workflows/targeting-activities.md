@@ -5,7 +5,7 @@ description: ターゲティングアクティビティを Adobe Campaign Web �
 badge: label="Alpha" type="Positive"
 exl-id: ffd58dbc-9207-4c1c-bad5-a208378621cf
 source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
 ht-degree: 100%
 
@@ -15,4 +15,4 @@ ht-degree: 100%
 
 コンテンツ未定
 
-<!--à reformuler-->ターゲティングアクティビティは、セットを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
+<!--à reformuler-->これらのアクティビティでは、セットを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
