@@ -4,10 +4,10 @@ title: ファイルからの受信者のインポート
 description: 外部ファイルから受信者をインポートする方法
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
+source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="サンプルファイル"
->abstract="サポートされているファイル形式 : txt、csv、xls。先頭行を列ヘッダーとして使用します。"
+>abstract="サポートされているファイル形式：txt、csv。 先頭行を列ヘッダーとして使用します。"
 
 
 ```json
