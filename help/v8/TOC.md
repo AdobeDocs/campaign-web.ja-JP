@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 4bfe96782dc34d641144e4a6e744c262a79a1a7e
+workflow-type: tm+mt
+source-wordcount: '259'
+ht-degree: 96%
 
 ---
 
@@ -71,13 +71,13 @@ ht-degree: 100%
    + [最初のキャンペーンを作成](campaigns/create-campaigns.md)
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
+   + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
    + 最初のワークフローを作成 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
-      + [ワークフローアクティビティのオーケストレーション](workflows/build-workflow.md)
+      + [ワークフローアクティビティの追加と設定](workflows/build-workflow.md)
       + [ワークフロー設定の指定](workflows/workflow-settings.md)
       + [ワークフローの開始と監視](workflows/start-monitor-workflows.md)
-   + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
    + ワークフローアクティビティの操作 {#design-workflows}
       + [ターゲティングアクティビティ](workflows/targeting-activities.md)
       + [チャネルアクティビティ](workflows/channel-activities.md)
