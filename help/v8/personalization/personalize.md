@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '656'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 95%
 
 ---
 
@@ -38,43 +38,6 @@ ht-degree: 100%
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## メールの件名のパーソナライズ {#personalize-subject-line}
-
-メッセージの「**[!UICONTROL 件名]**」フィールドにパーソナライゼーションを追加するには、次の手順に従います。
-
-1. 「**件名**」フィールドの右側にある「**パーソナライゼーションダイアログを開く**」アイコンをクリックします。
-1. 件名の内容を入力し、追加するパーソナライゼーション属性を選択します。
-1. 「**確認**」をクリックして確定します。パーソナライゼーション属性が件名に追加されます。
-
-![](assets/perso-subject.png)
-
-## メールコンテンツのパーソナライズ {#personalize-emails}
-
-メールコンテンツをパーソナライズするには、電子メールデザイナーでメッセージを開き、次の操作を実行します。
-
-1. テキストブロック内をクリックします。
-1. コンテキストツールバーで、「**パーソナライゼーションを追加**」を選択します。
-
-   ![](assets/perso-add-to-content.png)
-
-1. パーソナライゼーションエディターに受信者の名前を挿入し、確認します。
-
-   ![](assets/perso-add-name.png)
-
-   パーソナライゼーション属性がメールコンテンツに追加されます。
-
-   コンテンツをシミュレートして、レンダリングを確認できます。[詳細情報](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-メールにコンテンツブロックを追加するには、同じ手順を適用し、最後のアイコンからコンテンツブロックを選択します。
-
-![](assets/perso-insert-block.png)
-
-挿入すると、コンテンツブロックがメールコンテンツに追加されます（下図を参照）。 配信準備段階で、パーソナライゼーションが生成されると、受信者プロファイルに適合するように自動的に調整されます。
-
-![](assets/perso-content-block-in-email.png)
-
 
 ビルトインコンテンツブロックは次のとおりです。
 
@@ -92,7 +55,44 @@ ht-degree: 100%
 * **[!UICONTROL コンテンツメールのスタイル]**&#x200B;および&#x200B;**[!UICONTROL 通知スタイル]**：定義済みの HTML スタイルでメールを書式設定するコードを生成します。
 * **[!UICONTROL 登録解除リンク]**：すべての配信を購読解除（ブロックリスト登録）できるリンクを挿入します。関連付けられているデフォルトのコンテンツは、「このメッセージが届いたのは、お客様が&#x200B;***組織名***&#x200B;または関連会社と連絡を取ったことがあるからです。***組織名***&#x200B;からメッセージを受け取らないようにするには、ここをクリックしてください。」です。
 
+## メールの件名のパーソナライズ {#personalize-subject-line}
 
+メッセージの「**[!UICONTROL 件名]**」フィールドにパーソナライゼーションを追加するには、次の手順に従います。
+
+1. 「**[!UICONTROL 件名]**」フィールドの右側にある「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンをクリックします。
+
+   ![](assets/perso-subject.png){width="600"}
+
+1. 件名の内容を入力し、追加するパーソナライゼーション属性を選択します。
+
+1. クリック **[!UICONTROL 確認]****をクリックして検証します。 パーソナライゼーション属性が件名に追加されます。
+
+## メールコンテンツのパーソナライズ {#personalize-emails}
+
+メールコンテンツをパーソナライズするには、電子メールデザイナーでメッセージを開き、次の操作を実行します。
+
+1. テキストブロック内をクリックします。
+1. コンテキストツールバーで、「**[!UICONTROL パーソナライゼーションを追加]**」を選択します。
+
+   ![](assets/perso-add-to-content.png)
+
+1. パーソナライゼーションエディターに受信者の名前を挿入し、確認します。
+
+   ![](assets/perso-add-name.png)
+
+   パーソナライゼーション属性がメールコンテンツに追加されます。
+
+   コンテンツをシミュレートして、レンダリングを確認できます。[詳細情報](../preview-test/preview-content.md)
+
+   ![](assets/perso-rendering.png)
+
+1. メールにコンテンツブロックを追加するには、同じ手順を適用し、最後のアイコンからコンテンツブロックを選択します。
+
+   ![](assets/perso-insert-block.png)
+
+1. 挿入後、コンテンツブロックが E メールコンテンツに追加されます。配信の準備手順で、パーソナライゼーションが生成されると、受信者プロファイルに自動的に適応されます。
+
+   ![](assets/perso-content-block-in-email.png)
 
 ## メール内のリンクのパーソナライズ {#personalize-links}
 

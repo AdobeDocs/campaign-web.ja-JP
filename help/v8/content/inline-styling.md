@@ -4,10 +4,10 @@ title: インラインスタイル属性を追加する
 description: インラインスタイル属性を追加する方法を説明します
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '133'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 1. コンテンツ内で直接コンポーネントを選択するか、または左側のペインに表示される&#x200B;**[!UICONTROL ナビゲーションツリー]**&#x200B;を使用してコンポーネントを選択します。
 
-1. 右側の&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;メニューから、**[!UICONTROL スタイルインライン]**&#x200B;セクションを見つけます。
+1. 次の **[!UICONTROL スタイル]** タブで、 **[!UICONTROL 詳細]** 」ドロップダウンリストから選択できます。
 
    ![](assets/styles_1.png)
 

@@ -4,10 +4,10 @@ title: 電子メールデザイナーでのプリヘッダーの追加
 description: メールコンテンツのデザイン方法
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '217'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '203'
+ht-degree: 96%
 
 ---
 
@@ -34,13 +34,9 @@ ht-degree: 100%
 
    ![](assets/preheader_body.png)
 
-1. **[!UICONTROL 本文の設定]**&#x200B;の右側のペインで、**[!UICONTROL プリヘッダー]**&#x200B;フィールドの隣の編集アイコンをクリックして、コンテンツを追加します。
+1. 次の **[!UICONTROL 設定]** 「 」タブで、プリヘッダーを追加します。 「**[!UICONTROL パーソナライゼーションを追加]**」アイコンをクリックして、さらにパーソナライズできます。
 
    ![](assets/preheader_body_settings.png)
-
-1. プリヘッダーを追加します。 「**[!UICONTROL パーソナライゼーションを追加]**」アイコンをクリックして、さらにパーソナライズできます。
-
-   ![](assets/preheader_3.png)
 
 1. **[!UICONTROL パーソナライゼーションを編集]**&#x200B;ウィンドウで、**[!UICONTROL コンテンツブロック]**、**[!UICONTROL 動的コンテンツ]**&#x200B;または&#x200B;**[!UICONTROL パーソナライゼーションフィールド]**&#x200B;を追加できます。
 

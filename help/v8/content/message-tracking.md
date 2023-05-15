@@ -4,10 +4,10 @@ title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '373'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 1. 変更内容を保存します。
 
-1. リンクを作成したら、右側の&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;パネルから変更できます。
+1. リンクを作成した後でも、 **[!UICONTROL 設定]** タブをクリックします。
 
    * リンクを編集して、**[!UICONTROL ターゲット]**&#x200B;を変更できます。
    * リンクに下線を引くかどうかは、対応するオプションをオンにすることで選択できます。

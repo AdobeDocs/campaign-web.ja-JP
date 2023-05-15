@@ -4,10 +4,10 @@ title: リンクのスタイルの定義
 description: リンクのスタイルを定義する方法を学ぶ
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '144'
-ht-degree: 100%
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 1. リンクが挿入された&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントで、リンクを選択します。
 
-1. **[!UICONTROL コンポーネント設定]**&#x200B;メニューで、**[!UICONTROL 下線リンク]**&#x200B;をチェックして、ラベルに下線を引きます。
+1. 内 **[!UICONTROL 設定]** タブ、チェック **[!UICONTROL リンクに下線を引く]** ラベルに下線を付ける。
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    ![](assets/link_2.png)
 
-1. リンクの色を変更するには、右側のパネルで&#x200B;**[!UICONTROL リンクの色]**&#x200B;をクリックします。
+1. リンクの色を変更するには、 **[!UICONTROL リンクの色]** から **[!UICONTROL スタイル]** タブをクリックします。
 
    ![](assets/link_3.png)
 
