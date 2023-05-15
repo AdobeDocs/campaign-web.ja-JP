@@ -4,9 +4,9 @@ title: Adobe Campaign Web でのワークフローの設計
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 636a5b40-c351-45a0-bcda-934dbce1a430
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: ht
-source-wordcount: '100'
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 100%
 コンテンツ TBC
 
 ワークフローキャンバスの概要と原則
+
+
+ワークフローメニューまたはキャンペーン内で[ワークフローを作成](create-workflow.md)したら、実行される様々なタスクの調整を開始できます。
+
+これを行うには、視覚的なキャンバスを使用して、ワークフローダイアグラムを作成し、様々なアクティビティを追加して、順番にリンクします。
+
+* [ワークフローキャンバスの操作方法を学ぶ](#canvas)
+* [ワークフローアクティビティを追加して接続する方法を学ぶ](#activities)
 
 ## ワークフローキャンバスの操作 {#canvas}
 
@@ -31,3 +39,5 @@ ht-degree: 100%
 * アクティビティを追加／削除する方法
 * トランジションの操作：結果を表示し、トランジションにラベルを追加します
 * アクティビティ間の関係：前のアクティビティに応じて、追加できるアクティビティと追加できないアクティビティ
+
+ワークフローダイアグラムのデザインが完了したら、ワークフローを実行し、様々なタスクの実行方法を追跡できます。[ワークフローを開始し、その実行を監視する方法については、こちらを参照してください](start-monitor-workflows.md)
