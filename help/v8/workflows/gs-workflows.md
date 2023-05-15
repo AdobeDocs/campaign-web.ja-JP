@@ -4,7 +4,7 @@ title: ワークフローの基本を学ぶ
 description: ワークフローの開始方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
