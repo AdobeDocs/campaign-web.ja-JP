@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
-workflow-type: ht
-source-wordcount: '79'
-ht-degree: 100%
+source-git-commit: daf2b536c2483ab350c468910863b1076773a080
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 55%
 
 ---
 
@@ -16,9 +16,8 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="ワークフロー"
->abstract="キャンペーンワークフローのリストにアクセスします。ワークフローの状態、前回／次の処理日および環境を確認できます。リストは、状態、前回の処理日およびワークフロータイプでフィルタリングできます。ワークフローテンプレートも使用できます。これらのリストは読み取り専用です。"
+>abstract="この画面では、ワークフローのリストにアクセスし、ワークフローのステータス、最終実行日/次回実行日を確認し、新しいワークフローを作成できます。 「テンプレート」タブを参照して、ワークフローテンプレートにアクセスします。"
 
-コンテンツ未定
 
 ## 作成されたワークフローへのアクセス
 
