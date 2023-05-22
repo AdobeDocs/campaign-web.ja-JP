@@ -4,9 +4,9 @@ title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 21%
 
 ---
@@ -28,6 +28,11 @@ Adobe Campaignを使用して、クロスチャネルキャンペーンを作成
 >id="acw_campaign_creation_properties"
 >title="キャンペーン作成プロパティ"
 >abstract="キャンペーンのプロパティとメタデータを定義します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="キャンペーンのプロパティ"
+>abstract="キャンペーンの設定とメタデータを定義します。"
 
 キャンペーンのプロパティは、新しいキャンペーンの作成時に表示されます。
 
