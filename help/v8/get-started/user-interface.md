@@ -4,10 +4,10 @@ title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 85%
+source-wordcount: '1549'
+ht-degree: 86%
 
 ---
 
@@ -342,10 +342,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="配信の集計レポート"
 >abstract="集計データレポートを表示する配信を少なくとも 2 つ選択します。"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="ワークフローリスト"
->abstract="キャンペーンで使用可能なワークフローのリスト。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"

@@ -4,10 +4,10 @@ title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 21%
+source-wordcount: '303'
+ht-degree: 20%
 
 ---
 
@@ -19,6 +19,14 @@ Adobe Campaignを使用して、クロスチャネルキャンペーンを作成
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Adobe Campaignのセグメント化機能を使用すると、大量のデータベースに対してクエリを実行し、キャンペーンを完全にターゲットに設定できる動的マーケティングセグメントを簡単に定義できます。
 
 ## クロスチャネルキャンペーンの作成 {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="ワークフローリスト"
+>abstract="キャンペーンで使用可能なワークフローのリスト。 「ワークフローを作成」ボタンを使用して、キャンペーンにワークフローを追加します。"
+
+
 
 クロスチャネルキャンペーンでは、単一のマーケティングコミュニケーションは異なるチャネルを使用します。データはチャネル間で受け渡されます。顧客は、例えば、前回の通信とのやり取りに基づいて、複数のチャネルを介して通信を受け取ります。
 
