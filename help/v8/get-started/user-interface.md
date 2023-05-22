@@ -4,10 +4,10 @@ title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 93%
+source-wordcount: '1558'
+ht-degree: 85%
 
 ---
 
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS レポートの概要"
->abstract="未定"
+>abstract="SMS 配信のレポート指標を確認します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="プッシュレポートの概要"
->abstract="未定"
+>abstract="プッシュ配信のレポート指標を確認します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="ルールビルダーの詳細属性"
->abstract="未定"
+>abstract="詳細属性を使用して、ルールを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Android コンテンツのプッシュ"
->abstract="未定"
+>abstract="プッシュ Android コンテンツを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="iOS コンテンツのプッシュ"
->abstract="未定"
+>abstract="プッシュiOSコンテンツを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="送信のレポート"
->abstract="未定"
+>abstract="キャンペーンレポートの送信指標を参照してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="追跡のレポート"
->abstract="未定"
+>abstract="キャンペーンレポートについては、トラッキング指標を参照してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="概要のレポート"
->abstract="未定"
+>abstract="配信の主要指標。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="ターゲット統計のレポート"
->abstract="未定"
+>abstract="このセクションには、オーディエンスに応じた特定の指標が表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="集計した「配信を選択」のレポート"
->abstract="未定"
+>title="配信の集計レポート"
+>abstract="集計データレポートを表示する配信を少なくとも 2 つ選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="ワークフローリスト"
->abstract="未定"
+>abstract="キャンペーンで使用可能なワークフローのリスト。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="権限が必要です"
->abstract="未定"
+>abstract="セグメントを作成するには、管理者から権限が付与されている必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="権限が必要です"
->abstract="未定"
+>abstract="セグメントを作成するには、管理者から権限が付与されている必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="新しい強制隔離指標"
 >abstract="新しい強制隔離指標。"
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="SMS テンプレートの選択"
+>abstract="事前定義済みのテンプレートを選択して SMS 配信を開始します。"
