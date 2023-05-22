@@ -4,10 +4,10 @@ title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 94%
+source-wordcount: '1458'
+ht-degree: 93%
 
 ---
 
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="プッシュ通知テンプレート"
 >abstract="未定"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="キャンペーン作成プロパティ"
->abstract="キャンペーンのプロパティとメタデータを定義します。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="キャンペーン作成スケジュール"
->abstract="キャンペーンのスケジュールを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="列の定義"
->abstract="未定"
+>abstract="ファイルから挿入する列を選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="書式設定パラメーター"
->abstract="未定"
+>abstract="ファイルの形式設定パラメーターを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -394,25 +385,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="属性ピッカーの詳細フィールド"
->abstract="未定"
+>abstract="詳細フィールドを使用して列を設定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="ルールビルダーの詳細フィールド"
->abstract="未定"
+>abstract="詳細フィールドを使用して列を設定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="SMS 配信プロパティ"
->abstract="未定"
+>abstract="SMS 配信プロパティを管理します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="プッシュ配信プロパティ"
->abstract="未定"
+>abstract="プッシュ配信プロパティを管理します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="新しい強制隔離指標"
->abstract="未定"
+>abstract="新しい強制隔離指標。"
 
