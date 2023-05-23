@@ -4,10 +4,10 @@ title: オーディエンスの基本を学ぶ
 description: Campaign web UI でのオーディエンスの使用方法について説明します
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ control groups like acc: exract, random, based on attribute
 
 * 既存のオーディエンスの使用。[詳細情報](add-audience.md)
 * 新しいオーディエンスの作成。[詳細情報](segment-builder.md)
-* ファイルからのオーディエンスのインポート。[詳細情報](import-audience.md)
+* 外部ファイルのオーディエンスを使用します。 [詳細情報](file-audience.md)
 * Adobe Experience Platform オーディエンスの使用。[詳細情報](aep-audience.md)
 
 また、コントロール母集団を定義すると、キャンペーンの影響を測定するために、オーディエンスの一部にメッセージを送信しないようにできます。[詳細情報](control-group.md)
