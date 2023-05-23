@@ -1,34 +1,40 @@
 ---
 audience: end-user
-title: ファイルからの受信者のインポート
-description: 外部ファイルから受信者をインポートする方法
+title: ファイルからの受信者のターゲティング
+description: 外部ファイルの受信者を使用して電子メールオーディエンスを作成する方法を説明します
 badge: label="Alpha" type="Positive"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
+source-git-commit: a6c85aeed30726532ab6060fec5cb4b5e398d9ec
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 97%
+source-wordcount: '193'
+ht-degree: 34%
 
 ---
 
-# ファイルからの受信者のインポート {#audience-from-file}
+# ファイルからの受信者のターゲティング {#audience-from-file}
 
-テキストファイル（TXT）またはコンマ区切り値ファイル（CSV）をアップロードして、配信インターフェイスから連絡先を追加または更新できます。それにより、プロファイルはデータベースに追加されます。
+外部ファイルから連絡先をアップロードできます。 この機能は、E メール配信でのみ使用できます。サポートされる形式は次のとおりです。テキストファイル (TXT) またはコンマ区切り値ファイル (CSV)。 それにより、プロファイルはデータベースに追加されます。
 
 >[!NOTE]
 >
->また、インポートワークフローを作成して、複数のプロファイルを追加または更新することもできます。
+>インポートワークフローを作成して、複数のプロファイルを追加または更新できます。  詳細情報
 
 
-インターフェイスで直接ローカルファイルからプロファイルを追加するには、次の手順に従います。
+インターフェイスから直接ローカルファイルからプロファイルをターゲットにするには、次の手順に従います。
 
-1. 配信作成ウィンドウで、「**オーディエンスを選択**」ボタンをクリックし、「**ファイルから選択**」オプションを選択します。
+1. E メール配信作成ウィンドウで、 **オーディエンスを選択** ボタンをクリックし、 **ファイルから選択** オプション。
+
+   ![](assets/select-from-file.png)
+
 1. アップロードするローカルファイルを選択します。
-1. 列設定とデータのフォーマット方法を定義します。列をスキップするには、「**列を無視**」切替スイッチを使用します。
 1. 画面の中央のセクションで、データがどのようにマッピングされるかをプレビューします。
+1. 次の中から E メールアドレスを含む列を選択します： **住所フィールド** 」ドロップダウンリストから選択できます。
+1. 使用可能なオプションから列設定とデータの書式設定を調整します。
 1. 設定が正しければ、「**確認**」をクリックします。
 
 メッセージコンテンツを作成およびパーソナライズする際に、パーソナライゼーションエディターで入力ファイルからフィールドを選択できます。
+
+![](assets/select-external-perso.png)
 
 ## サンプルファイル {#sample-file}
 
@@ -40,10 +46,10 @@ ht-degree: 97%
 
 ```json
 {
-lastname,firstname,birthdate,email,crmID
-Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
-Mars,Daniel,17/11/1987,dannymars@example.com,123545
-Smith,Clara,08/02/1989,clara.smith@example.com,124567
-Durance,Allison,15/12/1978,allison.durance@example.com,120987
+lastname,firstname,city,birthdate,email,denylist
+Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+Mars,Daniel,London,17/11/1999,dannymars@example.com,0
+Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
