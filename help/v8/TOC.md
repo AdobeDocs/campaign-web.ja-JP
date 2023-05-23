@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 95%
+source-wordcount: '270'
+ht-degree: 91%
 
 ---
 
@@ -59,11 +59,13 @@ ht-degree: 95%
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
    + SMS {#sms}
       + [SMS 配信の基本を学ぶ](sms/gs-sms.md)
+      + [SMS 配信の作成](sms/create-sms.md)
+      + [SMS 配信のデザイン ](sms/content-sms.md)
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [既存オーディエンスの選択](audience/add-audience.md)
    + [ルールビルダーを使用したオーディエンスの作成](audience/segment-builder.md)
-   + [オーディエンスのインポート](audience/file-audience.md)
+   + [ファイルからオーディエンスを読み込む](audience/file-audience.md)
    + [Adobe Experience Platform オーディエンスの使用](audience/aep-audience.md)
    + [コントロール母集団の設定](audience/control-group.md)
 + クロスチャネルキャンペーン {#campaigns}
