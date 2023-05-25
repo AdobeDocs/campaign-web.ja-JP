@@ -4,10 +4,10 @@ title: コントロール母集団の設定
 description: Campaign web UI でメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,11 @@ ht-degree: 100%
 コントロール母集団を作成するには、 配信作成アシスタントの「**オーディエンス**」セクションの「**[!UICONTROL コントロール母集団を設定]**」ボタンをクリックします。
 
 ![](assets/control-group1.png)
+
+>[!CAUTION]
+>
+>ターゲット母集団の読み込み時には、コントロール母集団を使用できません [外部ファイルから](file-audience.md).
+
 
 ## ターゲットから抽出 {#extract-target}
 
