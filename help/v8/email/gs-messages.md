@@ -4,10 +4,10 @@ title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 36%
+source-wordcount: '604'
+ht-degree: 33%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
 ## 配信の作成
 
-スタンドアロンの配信は、 **配信** メインメニューに表示されるか、マーケティングキャンペーンのコンテキストで配信を作成できます。
+スタンドアロンの配信は、 **配信** 左側のメニューに移動するか、マーケティングキャンペーンのコンテキストで配信を作成する場合は、 **キャンペーン** 左メニュー
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 キャンペーンで配信を作成するには、次の手順に従います。
 
 1. キャンペーンを作成するか、既存のキャンペーンを開きます。
+1. ワークフローを作成するか、既存のワークフローを開きます。
+1. の追加と設定 **オーディエンスの構築** 「 」アクティビティを選択し、 `+`」ボタンをクリックします。
+   ![](assets/add-delivery-in-wf.png)
+1. 配信アクティビティを選択します。E メール、SMS、プッシュ通知 (Android) またはプッシュ通知 (iOS)。 配信チャネルと配信コンテンツの定義方法について詳しくは、次の節を参照してください。
+
+   * [メールチャネル](../email/create-email.md)
+   * [プッシュ通知チャネル](../push/gs-push.md)
+   * [SMS チャネル](../sms/create-sms.md)
+
+1. ワークフローを開始し、ログを確認します。
 
 キャンペーンの設定方法の詳細については、
 
