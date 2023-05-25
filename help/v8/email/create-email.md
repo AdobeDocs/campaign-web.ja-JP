@@ -4,10 +4,10 @@ title: 最初のメールの送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 100%
+source-wordcount: '1308'
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="オーディエンスを定義"
->abstract="マーケティングメッセージに最適なオーディエンスを選択します。Campaign v8 インスタンスまたは Adobe Experience Platform で既に定義されている既存のオーディエンスを選択するか、ルールビルダーを使用して新しいオーディエンスを作成できます。"
+>abstract="マーケティングメッセージに最適なオーディエンスを選択します。Campaign v8 インスタンスまたは Adobe Experience Platform で既に定義されている既存のオーディエンスを選択するか、ルールビルダーを使用して新しいオーディエンスを作成できます。「ファイルから選択」に対してはコントロール母集団が有効になっていません。逆も同様です。"
 
 このユースケースでは、既存のオーディエンスにメールを送信します。オーディエンスの操作方法に関する追加手順については、[この節](../audience/about-audiences.md)を参照してください。
 
