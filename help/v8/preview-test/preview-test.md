@@ -4,10 +4,10 @@ title: メールのプレビューとテストについて
 description: メールのプレビューとテストの方法について説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '114'
-ht-degree: 100%
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 そのために、Adobe Campaign では以下を行えます。
 
 * [メールのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)。
-   <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
+* [E メールのレンダリングを確認](#rendering) 一般的なデスクトップ、モバイル、web ベースのクライアント
 * 特定の受信者に[テストメールを送信](proofs.md)して、テストと検証を行います。
 
 これらのアクションは、「**[!UICONTROL コンテンツをシミュレート]**」ボタンから実行できます。このボタンは、メールのコンテンツを電子メールデザイナーから作成する際に使用できます。
