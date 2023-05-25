@@ -4,7 +4,7 @@ title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 40%
@@ -102,7 +102,7 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 ## 配信のプレビューとテスト
 
-メッセージコンテンツを定義したら、プレビューしてメッセージのレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認できます。 [詳細情報](preview.md)
+メッセージコンテンツを定義したら、プレビューしてメッセージのレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認できます。 [詳細情報](../preview-test/preview-test.md)
 
 
 ## 配信とトラッキングログ{#gs-tracking-logs}
