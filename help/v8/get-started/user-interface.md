@@ -4,9 +4,9 @@ title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
+source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1544'
 ht-degree: 83%
 
 ---
@@ -244,7 +244,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="プッシュ通知テンプレート"
->abstract="未定"
+>abstract="プッシュ通知テンプレートを選択して、プッシュ配信を開始します。"
 
 
 >[!CONTEXTUALHELP]
