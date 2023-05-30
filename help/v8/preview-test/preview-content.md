@@ -4,9 +4,9 @@ title: メールコンテンツのプレビュー
 description: Campaign web UI でメールコンテンツをプレビューする方法を学ぶ
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '252'
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+workflow-type: tm+mt
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # メールコンテンツのプレビュー {#preview}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="コンテンツのスマートプレビュー"
->abstract="プロファイルデータを使用すると、メールのコンテンツを送信前にプレビューしたり、パーソナライゼーション属性を制御したり、メッセージコンテンツが受信者にどのように表示されるかを確認したりできます。"
 
 Adobe Campaign のコンテンツシミュレーション機能を使用すると、メールのコンテンツを送信前にプレビューしたり、パーソナライゼーションを制御したり、受信者にコンテンツがどのように表示されるかを確認したりできます。
 

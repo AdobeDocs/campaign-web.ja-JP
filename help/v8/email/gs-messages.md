@@ -4,7 +4,7 @@ title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 36%
@@ -50,7 +50,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 1. 以下を使用：  **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して配信やパーソナライゼーションの設定をテストします。 メッセージのシミュレーションの詳細については、 [この節](../preview-test/preview-test.md).
 1. 次をクリック：  **[!UICONTROL 準備]** ボタンを使用してターゲット母集団を計算し、メッセージを生成します。 準備の手順には数分かかる場合があります。 準備が完了すると、メッセージを送信する準備が整います。 エラーが発生した場合は、 **ログ** アラートと警告を確認するには、次の手順に従います。
 1. 結果を確認し、  **[!UICONTROL 送信]** ボタンをクリックして、メッセージの送信を開始します。
-1. メッセージが送信されたら、 **レポート** 」セクションをクリックして、主要指標にアクセスします。 配信レポートについて詳しくは、 [この節](../reporting/reports.md).
+1. メッセージが送信されたら、 **レポート** 」セクションをクリックして、主要指標にアクセスします。 配信レポートについて詳しくは、 [この節](../reporting/delivery-reports.md).
 
 >[!TAB キャンペーンでの配信の作成]
 
