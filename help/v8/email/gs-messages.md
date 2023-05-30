@@ -4,14 +4,15 @@ title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 36%
+source-wordcount: '956'
+ht-degree: 35%
 
 ---
 
-# Campaign Web でのメッセージの基本を学ぶ {#gs-messages}
+# メッセージの基本を学ぶ{#gs-messages}
+
 
 Adobe Campaignでは、E メール、SMS、プッシュ通知を含むクロスチャネルキャンペーンを送信し、各種の専用レポートを使用してその有効性を評価できます。 これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。これらの配信は、スタンドアロンでもマーケティングキャンペーンのコンテキストに含めることもできます。
 

@@ -4,15 +4,20 @@ title: 最初のメールの送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 99%
+source-wordcount: '1333'
+ht-degree: 94%
 
 ---
 
 
 # 最初のメールの送信 {#first-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Adobe Campaignでの最初のメールの送信"
+>abstract="E メールデザイナーを使用して、コンテンツを作成、プレビューおよびテストし、既存のオーディエンスに E メールをエンドツーエンドで送信する方法を説明します。"
 
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 
@@ -20,7 +25,7 @@ ht-degree: 99%
 
 ![](assets/delivery-list.png)
 
-## メールを作成 {#create-email}
+## E メール配信の作成 {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ ht-degree: 99%
 >title="メールのプロパティ"
 >abstract="プロパティは、配信の名前付けや分類に役立つ一般的な配信パラメーターです。配信が Adobe Campaign v8 コンソールで定義された拡張スキーマに基づいている場合は、いくつかの特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。"
 
-1. 新しい配信を作成するには、左側のパネルの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
+新しい配信を作成するには、次の手順に従います。
+
+1. 次を参照： **[!UICONTROL 配信]** 左側のパネルのメニューで、  **[!UICONTROL 配信を作成]** 」ボタンをクリックします。
 
 1. 「**[!UICONTROL メール]**」をチャネルとして選択し、テンプレートを選択します。
 
@@ -60,11 +67,6 @@ ht-degree: 99%
    また、タイポロジルールやターゲットマッピングなどの詳細設定には、配信名の横にあるボタンをクリックしてアクセスできます。これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。
 
 ## メールコンテンツの作成 {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="メールコンテンツのデザイン方法を学ぶ"
->abstract="メールデザイナーの使用方法について説明します。"
 
 メールコンテンツを設定する方法について詳しくは、[この節](../content/edit-content.md)を参照してください。
 
