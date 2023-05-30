@@ -4,14 +4,20 @@ title: ワークフローの基本を学ぶ
 description: ワークフローの開始方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 95%
 
 ---
 
 # ワークフローの基本を学ぶ {#workflows}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="再考されたワークフローキャンバスインターフェイス"
+>abstract="包括的なグラフィカルキャンバスにより、セグメント化やキャンペーン実行などのプロセスを簡単に設計できます。"
+
 
 ## ワークフローとは何ですか？
 
