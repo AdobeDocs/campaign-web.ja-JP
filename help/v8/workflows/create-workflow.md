@@ -4,9 +4,9 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '640'
 ht-degree: 8%
 
 ---
@@ -28,13 +28,15 @@ Campaign v8 Web でワークフローを作成する最初の手順は、ワー�
    * **スタンドアロンワークフロー**:ワークフローメニューに移動し、右上隅の「ワークフローを作成」ボタンをクリックします。
    * **キャンペーンワークフロー：** キャンペーンメニューに移動し、新しいワークフローを作成するキャンペーンを開きます。 「ワークフロー」タブの右上隅にある「ワークフローを作成」ボタンをクリックします。
 
-1. ワークフローのプロパティダイアログボックスが表示されます。 ワークフローの作成に使用するテンプレートを選択し、名前を指定します。
-
-   ワークフローテンプレートには、事前に設定されたアクティビティと、新しいワークフローの作成に再利用できる全体的なプロパティ設定が含まれています。 クライアントコンソールから作成されます。 [テンプレートの使用方法を説明します。](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+   ワークフローのプロパティダイアログボックスが表示されます。
 
    ![](assets/workflow-create.png)
 
-1. 「その他のオプション」セクションで、保存フォルダーやタイムゾーンなど、ワークフローに固有の設定を指定します。 [ワークフローのプロパティを設定する方法を説明します](workflow-settings.md)
+1. ワークフローの作成に使用するテンプレートを選択し、ワークフローのラベルを指定します。
+
+   ワークフローテンプレートには、事前に設定されたアクティビティと、新しいワークフローの作成に再利用できる全体的なプロパティ設定が含まれています。 クライアントコンソールから作成されます。 [テンプレートの使用方法を説明します。](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+
+1. 保存フォルダーやタイムゾーンなど、ワークフローに固有の設定を行う場合は、「追加オプション」セクションを展開します。 [ワークフローのプロパティを設定する方法を説明します](workflow-settings.md)
 
 1. 「ワークフローを作成」ボタンをクリックして、ワークフローの作成を確定します。
 
