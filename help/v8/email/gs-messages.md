@@ -4,7 +4,7 @@ title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 35%
@@ -63,9 +63,9 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。
 
    ![](assets/add-delivery-in-wf.png)
 
-   この **[!UICONTROL オーディエンスの構築]** アクティビティについて詳しくは、 [この節](../workflows/targeting-activities.md).
+   この **[!UICONTROL オーディエンスの構築]** アクティビティについて詳しくは、 [この節](../workflows/workflow-activities.md#targeting).
 
-1. 配信アクティビティを選択します。 **[!UICONTROL 電子メール]**, **[!UICONTROL SMS]**, **[!UICONTROL プッシュ通知 (Android)]** または **[!UICONTROL プッシュ通知 (iOS)]**. ワークフローの配信チャネルアクティビティと、このワークフローでの配信コンテンツの定義方法について説明します [セクション](../workflows/channel-activities.md).
+1. 配信アクティビティを選択します。 **[!UICONTROL 電子メール]**, **[!UICONTROL SMS]**, **[!UICONTROL プッシュ通知 (Android)]** または **[!UICONTROL プッシュ通知 (iOS)]**. ワークフローの配信チャネルアクティビティと、このワークフローでの配信コンテンツの定義方法について説明します [セクション](../workflows/workflow-activities.md#channel).
 1. ワークフローを開始し、ログを確認します。
 
 ワークフローを作成せずに、キャンペーンに配信を追加することもできます。 これをおこなうには、 **[!UICONTROL 配信]** 」タブをクリックし、 **[!UICONTROL 配信を作成]** 」ボタンをクリックします。
