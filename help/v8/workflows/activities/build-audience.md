@@ -3,9 +3,9 @@ audience: end-user
 title: オーディエンスの作成ワークフローアクティビティの使用
 description: オーディエンスの作成ワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 14%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 14%
 
 # オーディエンスを作成 {#build-audience}
 
-このアクティビティを使用すると、オーディエンスを定義できます。 既存の Campaign オーディエンスを選択するか、ルールビルダーを使用して独自のクエリを定義できます。
+このアクティビティを使用すると、オーディエンスを定義できます。 既存のオーディエンスを選択するか、ルールビルダーを使用して独自のクエリを定義できます。
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
