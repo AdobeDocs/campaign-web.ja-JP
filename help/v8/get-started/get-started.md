@@ -4,10 +4,10 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 100%
+source-wordcount: '418'
+ht-degree: 94%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="基本を学ぶ"
->abstract="主な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。"
+>title="新機能"
+>abstract="Campaign Web の新しいユーザーインターフェイス、最新の改善点、主な機能、およびそれらを使用してオーディエンスのクロスチャネルキャンペーンを構築する方法について説明します。"
 
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。

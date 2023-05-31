@@ -4,10 +4,10 @@ title: オーディエンスの基本を学ぶ
 description: Campaign web UI でのオーディエンスの使用方法について説明します
 badge: label="Alpha" type="Positive"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: f2c7d5e56a4573ca37caa8524dd2207443400644
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 83%
+source-wordcount: '162'
+ht-degree: 75%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="オーディエンスの基本を学ぶ"
->abstract="Campaign のルールビルダーを使用し、メッセージのオーディエンスを構築するためのフィルタリング条件を定義する方法について説明します。"
+>abstract="Campaign のルールビルダーを使用し、メッセージのオーディエンスを構築するためのフィルタリング条件を定義する方法について説明します。 また、外部ファイルのデータを簡単に使用したり、Adobe Experience Platformオーディエンスをターゲット設定したりすることもできます。"
 
 <!--
 Audience only created for the delivery, not available later-->
