@@ -4,10 +4,10 @@ title: インターフェイスを確認する
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+source-git-commit: 8032c16b20c0c6754b81be856e3053f1d90f8635
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 72%
+source-wordcount: '1613'
+ht-degree: 71%
 
 ---
 
@@ -392,3 +392,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_sms_template_selection"
 >title="SMS テンプレートの選択"
 >abstract="事前定義済みのテンプレートを選択して SMS 配信を開始します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="配信済み"
+>abstract="配信済み KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="開封数"
+>abstract="KPI を開きます"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="クリック数"
+>abstract="KPI をクリック"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="購読解除"
+>abstract="購読解除 KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="スパム"
+>abstract="スパム KPI"
