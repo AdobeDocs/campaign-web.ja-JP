@@ -3,21 +3,24 @@ audience: end-user
 title: E メールワークフローアクティビティの使用
 description: E メールワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 84%
+source-wordcount: '50'
+ht-degree: 74%
 
 ---
 
 
 # メール {#email}
 
-説明、実行できるユースケース（アクティビティの後に、前にリンクできるその他の一般的なアクティビティ）
+<!--
+description, which use case you can perform (common other activities that you can link before of after the activity)
 
-アクティビティの追加と設定方法
+how to add and configure the activity
 
-ワークフロー内の設定済みアクティビティの例
+example of a configured activity within a workflow
+
+-->
 
 
 メール配信アクティビティでは、ワークフローでメールの送信を設定できます。
