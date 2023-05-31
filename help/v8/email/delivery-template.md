@@ -5,7 +5,8 @@ description: Campaign で配信テンプレートを作成および使用する�
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
+exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 57%
@@ -70,5 +71,3 @@ Campaign には、各チャネル用の一連の組み込みテンプレート�
 1. テンプレート名と設定を定義します。
 1. 次をクリック： **[!UICONTROL レビュー]** ボタンを使用して、テンプレートコンテンツを定義し、そのプロパティを変更します。
 1. 新しいテンプレートを保存します。
-
-
