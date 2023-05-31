@@ -4,10 +4,10 @@ title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの方法を説明します
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
+source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 79%
+source-wordcount: '904'
+ht-degree: 78%
 
 ---
 
@@ -40,6 +40,12 @@ ht-degree: 79%
 ### 結合 {#combine}
 
 この **結合** 「 」アクティビティは、他の「 」アクティビティの後に配置できますが、ワークフローの先頭には配置できません。 任意のアクティビティを **結合**.
+
+和集合：複数のアクティビティの結果を 1 つのターゲット内にグループ化します。和集合の節を参照してください。
+
+積集合：インバウンドアクティビティの結果が同じである母集団のみを抽出できます
+
+除外：別のターゲットが 1 つ以上抽出されるメインターゲットに基づいてターゲットを作成します。
 
 ### エンリッチメント {#enrichment}
 
