@@ -4,7 +4,7 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: acb9eb0b0f6ff9084345f754f2da73af7d765dc5
+source-git-commit: 9ff1d71e3d9c3107f8213b4d614000ec7f336a47
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 7%
@@ -57,7 +57,7 @@ Campaign v8 Web でワークフローを作成する最初の手順は、ワー�
 
    ![](assets/workflow-create.png)
 
-ワークフローを作成したら、専用のビジュアルキャンバスを使用して、実行する様々なタスクのオーケストレーションを開始できます。 [ワークフローアクティビティの調整方法については、こちらを参照してください](build-workflow.md)
+ワークフローを作成したら、専用のビジュアルキャンバスを使用して、実行する様々なタスクのオーケストレーションを開始できます。 [ワークフローアクティビティの調整方法については、こちらを参照してください](#build)
 
 ## ワークフローアクティビティのオーケストレーション {#build}
 
