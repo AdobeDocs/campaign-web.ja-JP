@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
+source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 92%
+source-wordcount: '287'
+ht-degree: 91%
 
 ---
 
@@ -81,7 +81,18 @@ ht-degree: 92%
       + [ワークフローの作成](workflows/create-workflow.md)
       + [ワークフロー設定の指定](workflows/workflow-settings.md)
       + [ワークフローの開始と監視](workflows/start-monitor-workflows.md)
-   + [ワークフローアクティビティ](workflows/workflow-activities.md)
+   + ワークフローアクティビティの操作 {#design-workflows}
+      + [ワークフローアクティビティについて](workflows/activities/about-activities.md)
+      + [AND 結合](workflows/activities/and-join.md)
+      + [オーディエンスを作成](workflows/activities/build-audience.md)
+      + [結合](workflows/activities/combine.md)
+      + [メール](workflows/activities/email.md)
+      + [終了](workflows/activities/end.md)
+      + [エンリッチメント](workflows/activities/enrichment.md)
+      + [分岐](workflows/activities/fork.md)
+      + [プッシュ](workflows/activities/push.md)
+      + [SMS](workflows/activities/sms.md)
+      + [待機](workflows/activities/wait.md)
 + レポート {#reports}
    + [レポートの基本を学ぶ](reporting/gs-reports.md)
    + [配信レポートへのアクセス](reporting/delivery-reports.md)
