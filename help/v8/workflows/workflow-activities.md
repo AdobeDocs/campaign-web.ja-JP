@@ -4,9 +4,9 @@ title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの方法を説明します
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 92444d4ee324f64a35f4cca0b40907bdf453732c
+source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '665'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,49 @@ ht-degree: 98%
 
 <!--à reformuler-->これらのアクティビティでは、セットを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
 
+### オーディエンスを作成 {#build-audience}
+
+### 結合 {#combine}
+
+## チャネルアクティビティ {#channel}
+
+Adobe Campaign Web を使用すると、メール、SMS、プッシュなど複数のチャネルをまたいでマーケティングキャンペーンを自動化および実行できます。Adobe Campaign のワークフローを使用すると、チャネルアクティビティをキャンバスに組み合わせて、顧客の行動に基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。
+
+例えば、メール、SMS、プッシュなど、様々なチャネルをまたいだ一連のメッセージを含むようこそメールキャンペーンを作成できます。また、顧客が購入を完了した後や、SMS を使用してパーソナライズされた誕生日メッセージを顧客に送信した後に、フォローアップメールを送信することもできます。
+
+チャネルアクティビティを使用すると、複数のタッチポイントで顧客を引きつけてコンバージョンを促進する、包括的でパーソナライズされたキャンペーンを作成できます。
+
+チャネルアクティビティは、パレットの画面左側にある「チャネル」セクションで使用できます。
+
+### メール {#email}
+
+説明、実行できるユースケース（アクティビティの後に、前にリンクできるその他の一般的なアクティビティ）
+
+アクティビティの追加と設定方法
+
+ワークフロー内の設定済みアクティビティの例
+
+
+メール配信アクティビティでは、ワークフローでメールの送信を設定できます。
+
+<!-- Scheduled emails available?
+
+This can be a single send email and sent just once, or it can be a recurring email.
+* Single send emails are standard emails, sent once.
+* Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
+
+When linked to a scheduler, you can define recurring emails.-->
+
+メール受信者は、オーディエンスのターゲティングアクティビティを通じて、同じワークフロー内のアクティビティの上流で定義されます。
+
+<!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
+
+### SMS {#sms}
+
+### プッシュ通知 (Android) {#push-android}
+
+### プッシュ通知 (iOS) {#push-ios}
 
 ## フロー制御アクティビティ {#flow-control}
 
@@ -28,6 +71,15 @@ ht-degree: 98%
 <!--à reformuler-->これらのアクティビティでは、セットを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
 
 フロー制御アクティビティは、ワークフローアクティビティを調整するために使用します。
+
+### 分岐 {#fork}
+
+### AND 結合 {#end}
+
+
+### 待機 {#end}
+
+### 終了 {#end}
 
 ## データ管理アクティビティ {#data-management}
 
