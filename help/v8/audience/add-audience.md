@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: オーディエンスの選択
+title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 97%
+source-wordcount: '274'
+ht-degree: 95%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 97%
 
 また、次のこともできます。
 
-* 新しいオーディエンスの作成。[詳細情報](segment-builder.md)
-* 外部ファイルのオーディエンスを使用します。 [詳細情報](file-audience.md)
+* 新しいオーディエンスを構築します。 [詳細情報](segment-builder.md)
+* 外部ファイルからオーディエンスを読み込みます。 [詳細情報](file-audience.md)
 * Adobe Experience Platform オーディエンスの使用。[詳細情報](aep-audience.md)
 
 

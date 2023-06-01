@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: ルールビルダーを使用したオーディエンスの定義
+title: ルールビルダーを使用したオーディエンスの作成
 description: セグメントビルダーの操作方法を説明します
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# ルールビルダーを使用したオーディエンスの定義 {#segment-builder}
+# ルールビルダーを使用したオーディエンスの作成 {#segment-builder}
 
 この節では、新しいメールをデザインする際にオーディエンスを作成する方法について説明します。作成したオーディエンスは、このメールでのみ使用できます。
 
