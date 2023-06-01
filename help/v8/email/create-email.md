@@ -4,10 +4,10 @@ title: 最初のメールの送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 92%
+source-wordcount: '1353'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Adobe Campaignでの最初のメールの送信"
+>title="メールの概要"
 >abstract="テンプレートから開始するか、Adobe Campaignの新しい電子メールデザイナーを使用して、コードを 1 行も書かずに電子メールを作成できます。 E メールデザイナーを使用して、コンテンツを作成、プレビューおよびテストし、既存のオーディエンスに E メールをエンドツーエンドで送信する方法を説明します。"
 
 
