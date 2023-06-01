@@ -4,10 +4,10 @@ title: 最初のメールの送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 94%
+source-wordcount: '1356'
+ht-degree: 92%
 
 ---
 
@@ -15,9 +15,10 @@ ht-degree: 94%
 # 最初のメールの送信 {#first-email}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card2"
 >title="Adobe Campaignでの最初のメールの送信"
->abstract="E メールデザイナーを使用して、コンテンツを作成、プレビューおよびテストし、既存のオーディエンスに E メールをエンドツーエンドで送信する方法を説明します。"
+>abstract="テンプレートから開始するか、Adobe Campaignの新しい電子メールデザイナーを使用して、コードを 1 行も書かずに電子メールを作成できます。 E メールデザイナーを使用して、コンテンツを作成、プレビューおよびテストし、既存のオーディエンスに E メールをエンドツーエンドで送信する方法を説明します。"
+
 
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 
