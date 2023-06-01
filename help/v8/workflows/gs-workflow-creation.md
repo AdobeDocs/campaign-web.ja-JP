@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
+source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 73%
+source-wordcount: '230'
+ht-degree: 77%
 
 ---
 
@@ -38,39 +38,4 @@ Campaign v8 Web を使用すると、ワークフローを視覚的なキャン�
 
 ワークフローを作成する主な手順は次のとおりです。
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="create-workflow.md#create">
-<img alt="リード" src="assets/do-not-localize/workflow-process-1 .jpeg">
-</a>
-<div><a href="create-workflow.md#create"><strong>ワークフローの作成</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="create-workflow.md#build">
-<img alt="低頻度" src="assets/do-not-localize/workflow-process-2.jpeg">
-</a>
-<div>
-<a href="create-workflow.md#build"><strong>アクティビティの調整</strong></a>
-</div>
-<p></td>
-<td>
-<a href="workflow-settings.md">
-<img alt="検証" src="assets/do-not-localize/workflow-process-3.jpeg">
-</a>
-<div>
-<a href="workflow-settings.md"><strong>詳細設定（オプション）</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="start-monitor-workflows.md">
-<img alt="ワークフローの開始と監視" src="assets/do-not-localize/workflow-process-4.jpeg">
-</a>
-<div>
-<a href="start-monitor-workflows.md"><strong>ワークフローの実行を開始および監視</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+![](assets/workflow-creation-process.png)
