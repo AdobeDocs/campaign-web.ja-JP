@@ -4,10 +4,10 @@ title: ワークフローの基本を学ぶ
 description: ワークフローの開始方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 95%
+source-wordcount: '399'
+ht-degree: 92%
 
 ---
 
@@ -47,3 +47,31 @@ Adobe Campaign の包括的なグラフィカル環境を使用すると、セ�
 * アクセスと監視
 
 （サブセクションへのリンク、未定）
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="ワークフローへのアクセスと管理" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>ワークフローへのアクセスと管理</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="リード" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>最初のワークフローを作成して実行</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="低頻度" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>ワークフローアクティビティの操作</strong></a>
+</div>
+<p></td>
+</tr></table>
