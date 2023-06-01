@@ -4,7 +4,7 @@ title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの方法を説明します
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c842829915784654b7130563d36dea188e84ff3d
+source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 39%
@@ -22,7 +22,7 @@ ht-degree: 39%
 * [チャネルアクティビティ](#channel)
 * [フロー制御アクティビティ](#flow-control)
 
-![](../assets/wokflow-activities.png)
+![](../assets/workflow-activities.png)
 
 ## ターゲティングアクティビティ {#targeting}
 
