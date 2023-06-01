@@ -4,10 +4,10 @@ title: ワークフローの基本を学ぶ
 description: ワークフローの開始方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 92%
+source-wordcount: '387'
+ht-degree: 91%
 
 ---
 
@@ -41,12 +41,6 @@ Adobe Campaign の包括的なグラフィカル環境を使用すると、セ�
 ## さらに深く掘り下げましょう
 
 これで、Adobe Campaign でワークフローの概要と使用できる操作を理解できたので、ドキュメントの節で詳しく説明し、この機能の使用を開始します。
-
-* 最初のワークフローを作成
-* ワークフローの設計
-* アクセスと監視
-
-（サブセクションへのリンク、未定）
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

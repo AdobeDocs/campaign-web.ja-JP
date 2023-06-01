@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
+source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 91%
+source-wordcount: '289'
+ht-degree: 88%
 
 ---
 
@@ -79,8 +79,9 @@ ht-degree: 91%
    + 最初のワークフローを作成して実行 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
-      + [ワークフロー設定の指定](workflows/workflow-settings.md)
-      + [ワークフローの開始と監視](workflows/start-monitor-workflows.md)
+      + [アクティビティの調整](workflows/orchestrate-activities.md)
+      + [詳細設定](workflows/workflow-settings.md)
+      + [ワークフローを開始および監視](workflows/start-monitor-workflows.md)
    + ワークフローアクティビティの操作 {#design-workflows}
       + [ワークフローアクティビティについて](workflows/activities/about-activities.md)
       + [AND 結合](workflows/activities/and-join.md)
