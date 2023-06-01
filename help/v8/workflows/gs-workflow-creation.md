@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: 748fef18a91a61f5ed956f65762a979e7dacabf3
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 73%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 100%
 
 Campaign v8 Web を使用すると、ワークフローを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
 
-ワークフローは、スタンドアロンワークフローとしてワークフローメニューから作成することも、キャンペーン内のキャンペーンメニューから作成することもできます。
-
-未定：スタンドアロンワークフローとキャンペーンワークフローの詳細な仕様。
+ワークフローは、スタンドアロンのワークフロー、ワークフローメニューから、またはキャンペーン内から直接作成できます。その場合、ワークフローはキャンペーンにリンクされ、他のすべてのキャンペーンのワークフローと共に実行されます。
 
 ## ワークフローの内部とは
 
 ワークフローダイアグラムは、実行される処理を表したものです。これは、実行される様々なタスクと、タスク同士の関係を示すものです。
+
+![](assets/workflow-example.png)
 
 各ワークフローには次が含まれます。
 
@@ -32,12 +32,45 @@ Campaign v8 Web を使用すると、ワークフローを視覚的なキャン�
 
 * **トランジション**：トランジションは、ソースアクティビティを宛先アクティビティにリンクし、そのシーケンスを定義します。
 
-* **作業用テーブル**：作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。各ワークフローは、複数のワークテーブルを使用します。作業用テーブルに伝達されたデータは、パージされない限り、ワークフローをスムースに処理するためにライフサイクル全体で使用されます。不要なテーブルは、ワークフローが休止状態になるたびにパージされます。また、最大のワークフローの実行中にサーバーの過負荷を回避する目的でパージされることがあります。
+* **作業用テーブル**：作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。各ワークフローは、複数のワークテーブルを使用します。これらのテーブルで伝達されたデータは、ワークフローのライフサイクルを通じて使用できます。
 
 ## ワークフローを作成するための主な手順
 
 ワークフローを作成する主な手順は次のとおりです。
 
-未定：説明とドキュメントページへの参照を含むプロセス全体を示す図
-
-プロパティの作成と定義／キャンバスでのアクティビティのオーケストレーション／必要に応じた設定の指定／実行の開始と監視
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-workflow.md#create">
+<img alt="リード" src="assets/do-not-localize/workflow-process-1 .jpeg">
+</a>
+<div><a href="create-workflow.md#create"><strong>ワークフローの作成</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md#build">
+<img alt="低頻度" src="assets/do-not-localize/workflow-process-2.jpeg">
+</a>
+<div>
+<a href="create-workflow.md#build"><strong>アクティビティの調整</strong></a>
+</div>
+<p></td>
+<td>
+<a href="workflow-settings.md">
+<img alt="検証" src="assets/do-not-localize/workflow-process-3.jpeg">
+</a>
+<div>
+<a href="workflow-settings.md"><strong>詳細設定（オプション）</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="start-monitor-workflows.md">
+<img alt="ワークフローの開始と監視" src="assets/do-not-localize/workflow-process-4.jpeg">
+</a>
+<div>
+<a href="start-monitor-workflows.md"><strong>ワークフローの実行を開始および監視</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
