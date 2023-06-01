@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスの作成ワークフローアクティビティの使用
 description: オーディエンスの作成ワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
+source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 14%
+source-wordcount: '193'
+ht-degree: 15%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 14%
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
+
+## 設定
 
 次の手順に従って、 **オーディエンスの構築** アクティビティ：
 
@@ -37,3 +39,5 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 選択 **オーディエンスの閲覧**.
 1. 「**続行**」をクリックします。
 1. 新しい E メールをデザインする際にオーディエンスを使用するのと同じ方法で、オーディエンスを選択します。 [こちら](../../audience/add-audience.md)を参照してください。
+
+## 例
