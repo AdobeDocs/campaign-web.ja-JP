@@ -3,10 +3,10 @@ audience: end-user
 title: 待機ワークフローアクティビティの使用
 description: 待機ワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 42%
+source-wordcount: '181'
+ht-degree: 39%
 
 ---
 
@@ -29,4 +29,6 @@ ht-degree: 42%
 
 ## 例
 
+次の例は、 **待機** アクティビティの作成に役立ちます。 イベントへの招待メールを送信します。送信後 24 時間が経過すると、同じ母集団に SMS 配信が送信されます。
 
+![](../assets/workflow-wait-example.png)
