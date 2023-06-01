@@ -4,10 +4,10 @@ title: Campaign Web v8 リリースノート
 description: Campaign Web v8 リリースノート
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '447'
+ht-degree: 79%
 
 ---
 
@@ -70,6 +70,7 @@ add info somewhere to remind users that
 このアルファ版には、以下の制限が適用されます。
 
 * 編集可能なオブジェクトは、配信、キャンペーン、ワークフロー、オーディエンス、テンプレートのみです。 その他は読み取り専用です。フィルターを使用してすべてを参照します。
+* オーディエンスは、今後の使用のために保存することはできません。
 * 管理ユーザーインターフェイスは使用できません。
 * レポート指標（開封数やトラッキングデータなど）は、1 時間ごとに更新されます。
 * 配信ダッシュボードの KPI は 5 分ごとに更新されます。- ただし、配信の準備はリアルタイムです。
