@@ -4,9 +4,9 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 90%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="新機能"
->abstract="Campaign Web の新しいユーザーインターフェイス、最新の改善点、主な機能、およびそれらを使用してオーディエンスのクロスチャネルキャンペーンを構築する方法について説明します。 Campaign は、使いやすい機能を備え、パーソナライズされたクロスチャネルキャンペーン作成プロセスを合理化し、成果を上げ、競争力を高めます。 "
+>abstract="Campaign Web の新しいユーザーインターフェイス、最新の改善点、主な機能を確認し、それらを使用してオーディエンスのクロスチャネルキャンペーンを作成する方法を学びます。 Campaign は、使いやすい機能を備え、パーソナライズされたクロスチャネルキャンペーン作成プロセスを合理化し、成果を上げ、競争力を高めます。 "
 
 
 
