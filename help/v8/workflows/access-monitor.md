@@ -4,22 +4,19 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: c290c65161c1e70b7eba6dde2088db5ffcf7b89e
+source-git-commit: be7cdfbffbe5c3b1a7ec58e5c60856a6bdc56200
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 7%
+source-wordcount: '366'
+ht-degree: 6%
 
 ---
 
-# ワークフローへのアクセスと監視 {#access-monitor}
-
+# ワークフローへのアクセスと管理 {#access-monitor}
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="ワークフロー"
->abstract="この画面では、ワークフローの完全なリストにアクセスし、ステータス、最終/次回の実行日を確認し、新しいワークフローを作成できます。 「テンプレート」タブを参照して、使用可能なワークフローテンプレートにアクセスします。"
-
-## ワークフローへのアクセスと管理 {#access}
+>abstract="この画面では、スタンドアロンワークフローとキャンペーンワークフローの完全なリストにアクセスし、現在のステータス、最終/次回の実行日を確認し、新しいワークフローを作成できます。 「テンプレート」タブを参照して、使用可能なワークフローテンプレートにアクセスします。"
 
 この **[!UICONTROL ワークフロー]** メニューから、ワークフローの完全なリストにアクセスできます。 このリストには、 **スタンドアロンワークフロー** この画面から作成された **キャンペーンワークフロー**：キャンペーン内で作成されたものです。
 
@@ -51,8 +48,6 @@ ht-degree: 7%
 
 ## ワークフローテンプレート {#templates}
 
-この **[!UICONTROL テンプレート]** 「 」タブには、使用可能なすべてのワークフローテンプレートが含まれています。
+この **[!UICONTROL テンプレート]** 「 」タブに、使用可能なすべてのワークフローテンプレートが表示されます。
 
-ワークフローテンプレートには、事前に設定されたアクティビティと、新しいワークフローの作成に再利用できる全体的なプロパティ設定が含まれています。
-
-クライアントコンソールから作成されます。 [テンプレートの使用方法を説明します。](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+ワークフローテンプレートには、事前に設定されたアクティビティと、新しいワークフローの作成に再利用できる全体的なプロパティ設定が含まれています。 クライアントコンソールから作成されます。 [テンプレートの使用方法を説明します。](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
