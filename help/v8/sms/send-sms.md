@@ -5,8 +5,8 @@ description: Adobe Campaign Web で SMS を送信する方法を説明します
 badge: label="Alpha" type="Positive"
 source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
