@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 25%
+source-wordcount: '884'
+ht-degree: 21%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="ワークフローのプロパティ"
->abstract="未定"
+>abstract="この節では、ワークフローの作成時にもアクセスできる一般的なワークフロープロパティを提供します。 ワークフローの作成に使用するテンプレートを選択し、ラベルを指定できます。 「その他のオプション」セクションを展開して、フォルダーやタイムゾーンを保存するワークフローなど、特定の設定を指定します。"
 
 この **[!UICONTROL プロパティ]** 「 」セクションには、ワークフローの作成時に利用できる一般的な設定が用意されています。
 
@@ -43,7 +43,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="セグメント化の設定"
->abstract="未定"
+>abstract="このセクションでは、ワークフロー内のプロファイルをターゲティングするターゲティングディメンションを選択し、2 回の実行の間にワークフローの結果を保持するように選択できます。 このオプションは、テスト目的でのみ使用し、実稼動ワークフローでは絶対に有効にしないでください。"
 
 * **[!UICONTROL ターゲティングディメンション]**:プロファイルのターゲティングに使用するターゲティングディメンションを選択します。受信者、契約受益者、オペレーター、購読者など
 * **[!UICONTROL 2 つの実行間の中間母集団の結果を保持]**:デフォルトでは、最後に実行したワークフローの作業用テーブルのみが保持されます。 それ以前に実行した作業用テーブルは、毎日実行されるテクニカルワークフローによってパージされます。
@@ -55,7 +55,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="実行設定"
->abstract="未定"
+>abstract="この節では、ワークフローの履歴を保持する日数など、ワークフローの実行に関する設定を指定できます。"
 
 * **[!UICONTROL 履歴（日数）]**:履歴をパージする日数を指定します。 履歴には、ワークフローに関連する要素が含まれます。ログ、タスク、イベント（ワークフロー操作にリンクされたテクニカルオブジェクト）。 標準のワークフローテンプレートのデフォルト値は 30 日です。履歴のパージは、デフォルトで毎日実行されるデータベースクリーンアップテクニカルワークフローによって実行されます
 
@@ -74,7 +74,7 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="エラー管理の設定"
->abstract="未定"
+>abstract="この節では、実行中にエラーが発生した場合のワークフローの動作を管理できます（実行を一時停止/停止するか、エラーを無視します）。"
 
 * **[!UICONTROL エラー管理]**:このフィールドでは、ワークフロータスクでエラーが発生した場合に実行するアクションを定義できます。 次の 2 つのオプションが使用可能です。
 
