@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: ec6a9f604c0ce06c503da36b6d8fbccd3557aded
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 88%
+source-wordcount: '307'
+ht-degree: 84%
 
 ---
 
@@ -59,10 +59,14 @@ ht-degree: 88%
          + [メール配信設定](advanced-settings/delivery-settings.md)
    + プッシュ通知 {#push}
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
+      + [プッシュ通知配信の作成](push/create-push.md)
+      + [プッシュ配信のデザイン](push/content-push.md)
+      + [プッシュ通知配信の送信](push/send-push.md)
    + SMS {#sms}
       + [SMS 配信の基本を学ぶ](sms/gs-sms.md)
       + [SMS 配信の作成](sms/create-sms.md)
       + [SMS 配信のデザイン ](sms/content-sms.md)
+      + [SMS 配信の送信 ](sms/send-sms.md)
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [既存オーディエンスの選択](audience/add-audience.md)
@@ -80,7 +84,7 @@ ht-degree: 88%
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
       + [アクティビティの調整](workflows/orchestrate-activities.md)
-      + [詳細設定](workflows/workflow-settings.md)
+      + [ワークフロー設定の指定](workflows/workflow-settings.md)
       + [ワークフローを開始および監視](workflows/start-monitor-workflows.md)
    + ワークフローアクティビティの操作 {#design-workflows}
       + [ワークフローアクティビティについて](workflows/activities/about-activities.md)
