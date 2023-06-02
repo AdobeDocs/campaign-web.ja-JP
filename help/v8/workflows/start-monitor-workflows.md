@@ -4,14 +4,14 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Alpha" type="Positive"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 7%
 
 ---
 
-# ワークフローの実行の開始と監視 {#start-monitor}
+# ワークフローを開始および監視 {#start-monitor}
 
 ワークフローを作成し、キャンバスで実行するタスクを設計したら、ワークフローを起動して、実行方法を監視できます。
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 | ![](assets/activity-status-red.png) | アクティビティでエラーが発生しました。 この問題を解決するには、ワークフローのログを開いて詳細を確認します。 |
 | ![](assets/activity-status-green.png) | アクティビティが正常に実行されました。 |
 
-## ログとタスクの監視
+## ログとタスクの監視 {#logs-tasks}
 
 ワークフローのログとタスクの監視は、ワークフローを分析し、正しく実行されていることを確認するための重要な手順です。 これらは、 **[!UICONTROL ログ]** アクションツールバーと各アクティビティのプロパティペインで使用できるアイコン。
 
