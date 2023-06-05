@@ -3,15 +3,36 @@ audience: end-user
 title: E メールワークフローアクティビティの使用
 description: E メールワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# メール {#email}
+# メール、SMS、プッシュ {#email}
+
+Adobe Campaign Web を使用すると、電子メール、SMS、プッシュなど複数のチャネルにわたるマーケティングキャンペーンを自動化し、実行できます。 チャネルアクティビティをキャンバスに組み合わせて、顧客の行動に基づいてアクションをトリガー化できるクロスチャネルワークフローを作成できます。
+
+例えば、メール、SMS、プッシュなど、様々なチャネルをまたいだ一連のメッセージを含むようこそメールキャンペーンを作成できます。また、顧客が購入を完了した後や、SMS を使用してパーソナライズされた誕生日メッセージを顧客に送信した後に、フォローアップメールを送信することもできます。
+
+チャネルアクティビティを使用すると、複数のタッチポイントをまたいで顧客を惹きつけ、コンバージョンを促進する、包括的でパーソナライズされたキャンペーンを作成できます。
+
+次に、 **チャネル** ワークフロー内の「 」アクティビティ：
+
+1. 必ず **オーディエンスの構築** アクティビティ。 オーディエンスは、配信のメインターゲットです。メッセージを受信した受信者。 キャンペーンワークフローのコンテキストでメッセージを送信する場合、メッセージオーディエンスは、チャネルアクティビティではなく、 **オーディエンスの構築** アクティビティ。 詳しくは、[この節](build-audience.md)を参照してください。
+
+   ![](../../msg/assets/add-delivery-in-wf.png)
+
+1. 配信アクティビティを選択します。 **[!UICONTROL 電子メール]**, **[!UICONTROL SMS]**, **[!UICONTROL プッシュ通知 (Android)]** または **[!UICONTROL プッシュ通知 (iOS)]**.
+
+1. を選択します。 **テンプレート**. テンプレートは、後で使用するために保存された、事前設定済みの配信設定です。[詳細情報](../../msg/delivery-template.md)
+
+1. クリック **配信を作成** スタンドアロン配信を作成する場合と同じ方法で、メッセージを定義します。 [詳細情報](../../msg/gs-message.md)
+
+
+1. ワークフローを開始し、ログを確認します。
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
@@ -19,11 +40,11 @@ description, which use case you can perform (common other activities that you ca
 how to add and configure the activity
 
 example of a configured activity within a workflow
+The Email delivery activity allows you to configure the sending an email in a workflow. 
 
 -->
 
 
-メール配信アクティビティでは、ワークフローでメールの送信を設定できます。
 
 <!-- Scheduled emails available?
 
