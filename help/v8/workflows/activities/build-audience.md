@@ -3,17 +3,27 @@ audience: end-user
 title: オーディエンスの作成ワークフローアクティビティの使用
 description: オーディエンスの作成ワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 12%
+source-wordcount: '314'
+ht-degree: 9%
 
 ---
 
 
 # オーディエンスを作成 {#build-audience}
 
-このアクティビティを使用すると、オーディエンスを定義できます。 既存のオーディエンスを選択するか、ルールビルダーを使用して独自のクエリを定義できます。
+この **オーディエンスの構築** アクティビティは **ターゲット設定** アクティビティ。 このアクティビティを使用すると、ワークフローに入るオーディエンスを定義できます。 キャンペーンワークフローのコンテキストでメッセージを送信する場合、メッセージオーディエンスは、チャネルアクティビティではなく、 **オーディエンスの構築** アクティビティ。
+
+オーディエンス母集団を定義するには、次の操作を実行します。
+
+* クライアントコンソールでリストとして作成した既存のオーディエンスを選択します。
+* Adobe Experience Platformオーディエンスを選択します。
+* フィルター条件を定義し組み合わせて、ルールビルダーを使用して新しいオーディエンスを作成します。
+
+>[!NOTE]
+>
+>このコンテキストでは、オーディエンスをファイルから読み込むことはできません。 この場合、スタンドアロン配信を作成する必要があります。 [詳細情報](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 次の手順に従って、 **オーディエンスの構築** アクティビティ：
 
-1. 「オーディエンスを作成」アクティビティを追加します。
+1. を追加します。 **オーディエンスの構築** アクティビティ。
 1. ラベルを定義します。
 1. オーディエンスタイプを定義します。 **独自の** または **オーディエンスの閲覧**.
 
