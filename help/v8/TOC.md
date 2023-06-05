@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 84%
+source-wordcount: '316'
+ht-degree: 81%
 
 ---
 
@@ -46,8 +46,6 @@ ht-degree: 84%
             + [垂直方向の整列とパディングを調整する](content/alignment-and-padding.md)
             + [リンクのスタイルの定義](content/styling-links.md)
             + [インラインスタイル属性を追加する](content/inline-styling.md)
-         + [パーソナライゼーションの追加](personalization/personalize.md)
-         + [条件付きコンテンツを追加](personalization/conditions.md)
          + [オファーの送信](content/offers.md)
       + メールのプレビューとテスト {#preview-test}
          + [プレビューとテストについて](preview-test/preview-test.md)
@@ -67,6 +65,10 @@ ht-degree: 84%
       + [SMS 配信の作成](sms/create-sms.md)
       + [SMS 配信のデザイン ](sms/content-sms.md)
       + [SMS 配信の送信 ](sms/send-sms.md)
+   + コンテンツを動的にする {#dynamic-content}
+      + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
+      + [パーソナライゼーションの追加](personalization/personalize.md)
+      + [条件付きコンテンツを追加](personalization/conditions.md)
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [既存オーディエンスの選択](audience/add-audience.md)
