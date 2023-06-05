@@ -4,10 +4,10 @@ product: campaign
 title: メールテンプレートの操作
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
+source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 38%
+ht-degree: 29%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 サンプルまたは保存済みのテンプレートの 1 つを使用してコンテンツの作成を開始するには、次の手順に従います。
 
-1. [メールデザイナー](create-email-content.md)を開きます。 
+1. を開きます。 [メールデザイナー](create-email-content.md).
 
 1. 「**[!UICONTROL メールを作成]**」画面では、「**[!UICONTROL サンプルテンプレート]**」タブがデフォルトで選択されています。
 
@@ -67,6 +67,6 @@ ht-degree: 38%
 
    ![](assets/email_designer-template-name.png)
 
-[このテンプレートを使用して](#use-templates)新しいコンテンツを作成できるようになりました。これは、メールデザイナーの「保存済みのテンプレート」タブで利用できます。****
+次の操作を実行できます。 [このテンプレートを使用](#use-templates) 新しいコンテンツを作成するには：これは、 **[!UICONTROL 保存済みのテンプレート]** E メールデザイナーのタブ
 
 ![](assets/email_designer-saved-template.png)
