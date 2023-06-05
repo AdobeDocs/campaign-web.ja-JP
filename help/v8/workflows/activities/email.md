@@ -3,10 +3,10 @@ audience: end-user
 title: E メールワークフローアクティビティの使用
 description: E メールワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
+source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '261'
+ht-degree: 32%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Web を使用すると、電子メール、SMS、プッシュな�
 
 1. を選択します。 **テンプレート**. テンプレートは、後で使用するために保存された、事前設定済みの配信設定です。[詳細情報](../../msg/delivery-template.md)
 
-1. クリック **配信を作成** スタンドアロン配信を作成する場合と同じ方法で、メッセージを定義します。 [詳細情報](../../msg/gs-message.md)
+1. クリック **配信を作成** スタンドアロン配信を作成する場合と同じ方法で、メッセージを定義します。 [詳細情報](../../msg/gs-messages.md)
 
 
 1. ワークフローを開始し、ログを確認します。
