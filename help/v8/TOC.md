@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 81%
+source-wordcount: '322'
+ht-degree: 77%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 81%
    + [配信テンプレートの操作](msg/delivery-template.md)
    + メール {#email}
       + [最初のメールの作成](email/create-email.md)
-      + メールコンテンツの作成 {#content}
-         + [メールコンテンツの編集](content/edit-content.md)
-         + メールのデザイン {#design-content}
-            + コンテンツのデザインの開始 {#start-design}
-               + [ゼロから開始 ](content/create-email-content.md)
-               + [メールコンテンツの読み込み](content/existing-content.md)
-               + [独自コンテンツのコーディング](content/code-content.md)
-               + [メールコンテンツテンプレートの使用](content/email-sample-templates.md)
+      + E メールコンテンツの定義 {#content}
+         + [E メールコンテンツの設定](content/edit-content.md)
+         + E メールのシェーピングを開始 {#start-design}
+            + [電子メールデザイナーの基本を学ぶ](content/get-started-email-designer.md)
+            + [ゼロから開始 ](content/create-email-content.md)
+            + [メールコンテンツの読み込み](content/existing-content.md)
+            + [独自コンテンツのコーディング](content/code-content.md)
+            + [メールコンテンツテンプレートの使用](content/email-templates.md)
+         + コンテンツのデザイン {#design-content}
             + [コンテンツコンポーネントの使用](content/content-components.md)
             + [テキストバージョンの生成](content/text-version-email.md)
             + [ミラーページへのリンクの追加](content/mirror-page.md)

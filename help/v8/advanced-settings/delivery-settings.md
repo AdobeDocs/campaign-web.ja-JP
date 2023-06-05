@@ -4,10 +4,10 @@ title: メール配信設定
 description: Campaign web UI でのメール配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -189,4 +189,4 @@ ht-degree: 100%
 
 **配達確認の配信コードを保持**：関連する配信に定義されている配信コードと同じ配信コードをテストメールに関連付けることができます。
 
-デフォルトでは、テストメールの件名の前には「PROOF #」が付けられます（「#」はテストメールの番号）。このプレフィックスは「**ラベルのプレフィックス**」フィールドで変更できます。
+デフォルトでは、テスト E メールの件名の前には「PROOF #」が付きます。ここで、「#」はテスト E メールの番号です。 このプレフィックスは「**ラベルのプレフィックス**」フィールドで変更できます。

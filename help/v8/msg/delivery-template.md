@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 15%
+source-wordcount: '937'
+ht-degree: 17%
 
 ---
 
@@ -19,14 +19,13 @@ ht-degree: 15%
 
 テンプレートには、次の項目を含めることができます。
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [タイポロジ](../advanced-settings/delivery-settings.md#typology)
+* 送信者のアドレス
 * An [audience](../audience/about-audiences.md)を含む [コントロール母集団](../audience/control-group.md)
-* カスタム [コンテンツ](../content/edit-content.md)<!--company logo, or signature-->
-* [パーソナライズされたフィールド](../personalization/personalize.md) および [条件付きコンテンツ](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* カスタム [コンテンツ](../content/edit-content.md)
+* [パーソナライズされたフィールド](../personalization/personalize.md) および [条件付きコンテンツ](../personalization/conditions.md)
 * リンク先 [ミラーページ](../content/mirror-page.md) および購読解除 [リンク](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。
 
 ## テンプレートへのアクセスと管理 {#access-manage-templates}
 

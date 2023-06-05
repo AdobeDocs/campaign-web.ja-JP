@@ -4,10 +4,10 @@ title: 最初のメールの送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positive"
-source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 92%
+source-wordcount: '1326'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 92%
 
 1. 次を参照： **[!UICONTROL 配信]** 左側のパネルのメニューで、  **[!UICONTROL 配信を作成]** 」ボタンをクリックします。
 
-1. 「**[!UICONTROL メール]**」をチャネルとして選択し、テンプレートを選択します。
+1. 選択 **[!UICONTROL 電子メール]** 「チャネル」として選択し、リストから e メール配信テンプレートを選択します。
 
    >[!NOTE]
    >
@@ -67,15 +67,19 @@ ht-degree: 92%
 
    また、タイポロジルールやターゲットマッピングなどの詳細設定には、配信名の横にあるボタンをクリックしてアクセスできます。これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。
 
-## メールコンテンツの作成 {#create-content}
+## メールコンテンツの定義 {#create-content}
 
-メールコンテンツを設定する方法について詳しくは、[この節](../content/edit-content.md)を参照してください。
+E メールコンテンツの作成を開始するには、次の手順に従います。
 
-このユースケースでは、事前定義されたテンプレートを使用してメールをデザインします。
+<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-1. メールコンテンツの作成を開始するには、メール配信を開き、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
+この使用例では、事前に定義された E メールを使用します [配信テンプレート](../msg/delivery-template.md) 電子メールをデザインするために使用します。
 
-   これにより、メールコンテンツを設定し、電子メールデザイナーを使用してデザインできる専用のインターフェイスが表示されます。
+1. E メール配信ダッシュボードで、 **[!UICONTROL コンテンツを編集]** 」ボタンをクリックします。
+
+   ![](assets/email-edit-content.png)
+
+   これにより、E メールコンテンツを設定し、E メールデザイナーにアクセスできる専用のインターフェイスが表示されます。 [詳細情報](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -85,7 +89,7 @@ ht-degree: 92%
 
 1. メールのコンテンツをデザインするには、「**[!UICONTROL メール本文を編集]**」ボタンをクリックします。
 
-   メールコンテンツの作成に使用する方法を選択します。この例では、事前定義済みのデザインテンプレートを使用します。
+   メールコンテンツの作成に使用する方法を選択します。この例では、 [定義済みコンテンツテンプレート](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -95,7 +99,7 @@ ht-degree: 92%
 
     ![](assets/import-folder.png)-->
 
-1. テンプレートを選択すると、電子メールデザイナーに表示され、必要な編集を加えたり、パーソナライゼーションを追加したりできます。
+1. テンプレートを選択すると、そのテンプレートが [メールデザイナー](../content/create-email-content.md)：必要な編集をおこなったり、パーソナライゼーションを追加したりできます。
 
    例えば、パーソナライゼーションをメールタイトルに追加するには、コンポーネントブロックを選択し、「**[!UICONTROL パーソナライゼーションを追加]**」をクリックします。
 
