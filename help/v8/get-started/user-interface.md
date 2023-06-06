@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
 workflow-type: tm+mt
-source-wordcount: '1506'
-ht-degree: 99%
+source-wordcount: '1508'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ Global report not alpha
 
 他のリスト画面と同様に、必要な情報をすべて表示するために、列を設定して表示をパーソナライズすることができます。[こちら](#list-screens)を参照してください。
 
-Campaign エクスプローラーについて詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html?lang=ja#ac-explorer-ui){target="_blank"}を参照してください。
+Campaign エクスプローラーについて詳しくは、この [Campaign v8 コンソールドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=ja#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
