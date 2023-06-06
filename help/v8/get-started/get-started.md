@@ -4,7 +4,7 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 90%
@@ -48,7 +48,7 @@ Campaign データは、アプリケーションサーバーに保存されま�
 ## Campaign への接続
 
 
-1. [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"} に接続します。
+1. [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"} に接続します。
 1. アドビの資格情報を使用してログインします。
 1. 「**クイックアクセス**」セクションで、「**Campaign**」をクリックします。
    ![](assets/connect.png)
