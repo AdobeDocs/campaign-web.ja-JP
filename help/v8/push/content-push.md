@@ -5,8 +5,8 @@ description: Adobe Campaign Web を使用したプッシュ通知配信のデザ
 badge: label="Alpha" type="Positive"
 source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '785'
+ht-degree: 57%
 
 ---
 
