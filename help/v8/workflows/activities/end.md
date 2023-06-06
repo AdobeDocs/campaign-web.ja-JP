@@ -3,14 +3,14 @@ audience: end-user
 title: 終了ワークフローアクティビティの使用
 description: 終了ワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 12d87baff81298583fac12fdf04d39997e875954
+source-git-commit: 749e251335d09137feb474d42bcdf1edc84367e7
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
 
 # 終了 {#end}
 
-この **終了** 「 」アクティビティを使用すると、ワークフローの終わりを視覚的に示すことができます。 このアクティビティは、機能上の影響を与えないので、オプションです。
+この **終了** アクティビティは **フロー制御** アクティビティ。 このアクティビティを使用すると、ワークフローの終わりを視覚的に示すことができます。 このアクティビティは、機能に対する影響がないので、オプションです。
