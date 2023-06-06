@@ -3,14 +3,24 @@ audience: end-user
 title: プッシュ通知配信のデザイン
 description: Adobe Campaign Web を使用したプッシュ通知配信のデザイン方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 965c2d72d81233c98beb4e4bc3c76692c7bf3990
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 57%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # プッシュ配信のデザイン {#content-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="Android コンテンツのプッシュ"
+>abstract="プッシュ Android コンテンツを定義します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_content"
+>title="iOS コンテンツのプッシュ"
+>abstract="プッシュ iOS コンテンツを定義します。"
 
 ## メッセージ {#push-message}
 

@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -235,20 +235,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="SMS オーディエンスの定義"
->abstract="SMS メッセージに最適なオーディエンスを選択します。"
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="SMS レポートの概要"
->abstract="SMS 配信のレポート指標を確認します。"
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="プッシュレポートの概要"
->abstract="プッシュ配信のレポート指標を確認します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,21 +250,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="エラー指標"
 >abstract="エラーステータスが含まれるメールの数です。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="Android コンテンツのプッシュ"
->abstract="プッシュ Android コンテンツを定義します。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="iOS コンテンツのプッシュ"
->abstract="プッシュ iOS コンテンツを定義します。"
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="アプリ購読者"
->abstract="アプリ購読者をメインターゲットに追加して、メッセージをプレビューおよびテストします。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -366,20 +337,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="ルールビルダーの詳細フィールド"
 >abstract="詳細フィールドを使用して列を設定します。"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="プッシュ配信プロパティ"
->abstract="プッシュ配信プロパティを管理します。"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="新しい強制隔離指標"
 >abstract="新しい強制隔離指標です。"
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="SMS テンプレートの選択"
->abstract="事前定義済みのテンプレートを選択して SMS 配信を開始します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

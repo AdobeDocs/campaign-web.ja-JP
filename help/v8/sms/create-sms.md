@@ -4,10 +4,10 @@ title: SMS 配信の作成
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 100%
 >id="acw_deliveries_sms_properties"
 >title="SMS 配信プロパティ"
 >abstract="プロパティには、配信の名前付けと分類の両方に役立つ一般的な配信パラメーターが含まれています。配信が拡張スキーマに基づいている場合は、特定のカスタムオプションフィールドを使用できます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="SMS オーディエンスの定義"
+>abstract="SMS メッセージに最適なオーディエンスを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="SMS テンプレートの選択"
+>abstract="事前定義済みのテンプレートを選択して SMS 配信を開始します。"
 
 1. **[!UICONTROL 配信]**&#x200B;ホームページで、「**[!UICONTROL 配信を作成]**」をクリックします。
 

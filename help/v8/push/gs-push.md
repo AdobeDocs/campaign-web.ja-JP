@@ -4,7 +4,7 @@ title: プッシュ通知の基本を学ぶ
 description: Adobe Campaign Web を使用してプッシュ通知を作成し、送信する方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 <img alt="低頻度" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md">プッシュ配信のデザイン<strong></strong></a>
+<a href="content-push.md"><strong>プッシュ配信のデザイン<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -46,6 +46,15 @@ ht-degree: 0%
 </a>
 <div>
 <a href="send-push.md"><strong>プッシュ配信の送信</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="send-push.md">
+<img alt="検証" src="assets/do-not-localize/push_report.jpeg">
+</a>
+<div>
+<a href="send-push.md"><strong>プッシュ配信レポート</strong></a>
 </div>
 <p>
 </td>

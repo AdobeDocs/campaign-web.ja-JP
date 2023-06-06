@@ -3,10 +3,10 @@ audience: end-user
 title: レポートの基本を学ぶ
 description: Campaign Web でレポートにアクセスして管理する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

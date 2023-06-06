@@ -4,10 +4,10 @@ title: SMS 配信のデザイン
 description: SMS 配信のデザイン方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 98%
 >id="acw_deliveries_sms_content"
 >title="SMS コンテンツ"
 >abstract="SMS 配信のコンテンツを作成し、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを使用してパーソナライズします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="アプリ購読者"
+>abstract="アプリ購読者をメインターゲットに追加して、メッセージをプレビューおよびテストします。"
 
 1. 配信ページで、「**[!UICONTROL コンテンツを編集]**」ボタンを使用して SMS コンテンツをデザインします。
 
