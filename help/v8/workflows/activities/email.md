@@ -3,15 +3,15 @@ audience: end-user
 title: E メールワークフローアクティビティの使用
 description: E メールワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 32%
+source-wordcount: '316'
+ht-degree: 31%
 
 ---
 
 
-# メール、SMS、プッシュ {#email}
+# メール、SMS、プッシュ {#channel}
 
 Adobe Campaign Web を使用すると、電子メール、SMS、プッシュなど複数のチャネルにわたるマーケティングキャンペーンを自動化し、実行できます。 チャネルアクティビティをキャンバスに組み合わせて、顧客の行動に基づいてアクションをトリガー化できるクロスチャネルワークフローを作成できます。
 
@@ -25,14 +25,22 @@ Adobe Campaign Web を使用すると、電子メール、SMS、プッシュな�
 
    ![](../../msg/assets/add-delivery-in-wf.png)
 
-1. 配信アクティビティを選択します。 **[!UICONTROL 電子メール]**, **[!UICONTROL SMS]**, **[!UICONTROL プッシュ通知 (Android)]** または **[!UICONTROL プッシュ通知 (iOS)]**.
+1. 配信アクティビティ（**[!UICONTROL メール]**、**[!UICONTROL SMS]**、**[!UICONTROL プッシュ通知（Android）]**&#x200B;または&#x200B;**[!UICONTROL プッシュ通知（iOS）]**）を選択します。
 
 1. を選択します。 **テンプレート**. テンプレートは、後で使用するために保存された、事前設定済みの配信設定です。[詳細情報](../../msg/delivery-template.md)
 
-1. クリック **配信を作成** スタンドアロン配信を作成する場合と同じ方法で、メッセージを定義します。 [詳細情報](../../msg/gs-messages.md)
+1. クリック **配信を作成** スタンドアロン配信を作成する場合と同じ方法で、メッセージを定義します。 また、配信設定の定義、コンテンツのスケジュール設定、シミュレーションをおこなう場所もあります。 [詳細情報](../../msg/gs-messages.md)
 
+1. ワークフローに戻り、「 **開始** をクリックして、ワークフローを起動します。
 
-1. ワークフローを開始し、ログを確認します。
+   デフォルトでは、配信ワークフローを開始すると、トリガーは直ちに送信されず、メッセージの準備ステージに移動します。
+
+1. クリック **確認して送信** チャネルアクティビティから送信を確定します。
+
+1. 配信ダッシュボードで、 **送信**.
+
+## 例
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
