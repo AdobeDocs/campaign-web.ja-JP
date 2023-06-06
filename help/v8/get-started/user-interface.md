@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: インターフェイスを確認する
+title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
 source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
 workflow-type: tm+mt
 source-wordcount: '1591'
-ht-degree: 72%
+ht-degree: 99%
 
 ---
 
-# インターフェイスの確認 {#user-interface}
+# インターフェイスを確認 {#user-interface}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="インターフェイスを確認する"
+>title="インターフェイスを確認"
 >abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
 新しい Campaign v8 web インターフェイスは、マーケティングキャンペーンのデザインと配信を簡素化する、最新の直感的なユーザーエクスペリエンスを提供します。この新しいインターフェイスは、Adobe Experience Platform と統合されています。
@@ -86,24 +86,24 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="キャンペーン"
->abstract="これはキャンペーンのリストです。キャンペーンの開始日／終了日／最終変更日やステータスなどの有用な情報を確認できます。リストは、ステータスまたは開始日／終了日でフィルタリングできます。「キャンペーンを作成」ボタンをクリックして、新しいキャンペーンを追加します。 キャンペーンを選択して、そのコンテンツ、配信および詳細を表示します。 「テンプレート」タブを参照して、テンプレートを表示および作成します。"
+>abstract="これはキャンペーンのリストです。キャンペーンの開始日／終了日／最終変更日やステータスなどの有用な情報を確認できます。リストは、ステータスまたは開始日／終了日でフィルタリングできます。「キャンペーンを作成」ボタンをクリックして、新しいキャンペーンを追加します。キャンペーンを選択して、そのコンテンツ、配信および詳細を表示します。「テンプレート」タブを参照して、テンプレートを表示および作成します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="配信"
->abstract="配信のリストを閲覧できます。ステータス、連絡先、変更日、主要 KPI を確認できます。 リストは、状態、コンタクト日またはチャネルでフィルタリングできます。「配信を作成」ボタンをクリックして、新しい配信を追加します。 配信を選択して、コンテンツ、オーディエンスおよび詳細を表示します。"
+>abstract="配信のリストを閲覧できます。ステータス、連絡先、変更日、主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。「配信を作成」ボタンをクリックして、新しい配信を追加します。配信を選択して、コンテンツ、オーディエンスおよび詳細を表示します。"
 
-「 CAMPAIGN MANAGEMENT 」セクションでは、マーケティングキャンペーン、配信およびワークフローにアクセスできます。
+「キャンペーン管理」セクションでは、マーケティングキャンペーン、配信およびワークフローにアクセスできます。
 
-* **キャンペーン**  — キャンペーンおよびキャンペーンテンプレートのリストです。 デフォルトでは、キャンペーンごとに、変更の開始日/終了日/終了日/最終日、現在のステータス、および作成元の Campaign オペレーター名を表示できます。 リストをステータス、開始日/終了日、フォルダーでフィルターしたり、独自のフィルター条件を定義する詳細フィルターを作成したりできます。 キャンペーンの詳細 [この節](../campaigns/gs-campaigns.md).
+* **キャンペーン** - キャンペーンのリストとキャンペーンテンプレートです。デフォルトでは、各キャンペーンの開始日／終了日／作成日／最終変更日、現在のステータス、キャンペーンを作成した Campaign オペレーターの名前を表示できます。ステータス、開始日／終了日、フォルダーでリストをフィルタリングしたり、詳細フィルターを作成して独自のフィルタリング条件を定義したりできます。キャンケーンの詳細については、[この節](../campaigns/gs-campaigns.md)を参照してください。
 
-* **配信** - 配信のリストを閲覧できます。デフォルトでは、配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開くので、配信の詳細を大まかに確認できます。他のチャネルでの配信は読み取り専用です。配信の詳細を説明します [この節](../msg/gs-messages.md).
+* **配信** - 配信のリストを閲覧できます。デフォルトでは、配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開くので、配信の詳細を大まかに確認できます。他のチャネルでの配信は読み取り専用です。配信について詳しくは、[この節](../msg/gs-messages.md)を参照してください。
 
    「**その他のアクション**」ボタンを使用すると、配信を削除または複製できます。
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **ワークフロー**  — この画面では、ワークフローとワークフローテンプレートの完全なリストにアクセスできます。 ステータス、最終/次の実行日を確認し、新しいワークフローまたは新しいワークフローテンプレートを作成できます。 他のオブジェクトと同じ基準でリストをフィルタリングできます。 さらに、キャンペーンに属するワークフローをフィルタリングすることも、属さないワークフローをフィルタリングすることもできます。 ワークフローの詳細を説明します [この節](../workflows/gs-workflows.md).
+* **ワークフロー** - この画面では、ワークフローとワークフローテンプレートの完全なリストにアクセスできます。ステータス、最後／次回の実行日を確認し、新しいワークフローまたは新しいワークフローテンプレートを作成できます。他のオブジェクトと同じ条件でリストをフィルタリングできます。さらに、キャンペーンに属するかどうかにかかわらず、ワークフローをフィルタリングできます。ワークフローについて詳しくは、[この節](../workflows/gs-workflows.md)を参照してください。
 
 
 ### 顧客管理
@@ -258,12 +258,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="送信済み指標"
->abstract="配信された電子メールの数。"
+>abstract="配信されたメールの数です。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="エラー指標"
->abstract="エラーステータスの電子メールの数。"
+>abstract="エラーステータスが含まれるメールの数です。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -273,12 +273,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="iOS コンテンツのプッシュ"
->abstract="プッシュiOSコンテンツを定義します。"
+>abstract="プッシュ iOS コンテンツを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="アプリ購読者"
->abstract="メッセージをプレビューし、メインターゲットにアプリの購読者を追加して、テストします。 "
+>abstract="アプリ購読者をメインターゲットに追加して、メッセージをプレビューおよびテストします。 "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -314,7 +314,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="概要のレポート"
->abstract="配信の主要指標。"
+>abstract="配信の主要指標です。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
@@ -324,7 +324,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="配信の集計レポート"
->abstract="集計データレポートを表示する配信を少なくとも 2 つ選択します。"
+>abstract="集計データレポートを表示する配信を 2 つ以上選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -374,7 +374,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="新しい強制隔離指標"
->abstract="新しい強制隔離指標。"
+>abstract="新しい強制隔離指標です。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"

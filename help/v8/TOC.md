@@ -8,7 +8,7 @@ hide: true
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 77%
+ht-degree: 79%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 77%
    + [ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
-   + [インターフェイスを確認する](get-started/user-interface.md)
+   + [インターフェイスを確認](get-started/user-interface.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
    + [配信テンプレートの操作](msg/delivery-template.md)
@@ -44,7 +44,7 @@ ht-degree: 77%
          + コンテンツのスタイル設定 {#style}
             + [メールスタイルの基本を学ぶ](content/get-started-email-style.md)
             + [背景設定の編集](content/backgrounds.md)
-            + [垂直方向の整列とパディングを調整する](content/alignment-and-padding.md)
+            + [垂直方向の整列とパディングを調整](content/alignment-and-padding.md)
             + [リンクのスタイルの定義](content/styling-links.md)
             + [インラインスタイル属性を追加する](content/inline-styling.md)
          + [オファーの送信](content/offers.md)
@@ -83,7 +83,7 @@ ht-degree: 77%
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
    + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
-   + 最初のワークフローを作成して実行 {#create-workflow}
+   + 最初のワークフローの作成と実行 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
       + [アクティビティの調整](workflows/orchestrate-activities.md)

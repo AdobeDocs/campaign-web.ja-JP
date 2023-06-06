@@ -4,10 +4,10 @@ title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの方法を説明します
 badge: label="Alpha" type="Positive"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '307'
+ht-degree: 11%
 
 ---
 
@@ -38,9 +38,11 @@ Adobe Campaign Web を使用すると、電子メール、SMS、プッシュな�
 
 以下 **チャネル** アクティビティは、次の場合に使用できます。
 
-* [メール](email.md)
-* [プッシュ](push.md)
-* [SMS](sms.md)
+* メール
+* プッシュ
+* SMS
+
+[こちら](enrichment.md)を参照してください。
 
 ## フロー制御アクティビティ {#flow-control}
 
