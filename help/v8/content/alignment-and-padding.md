@@ -5,9 +5,9 @@ description: 垂直方向の整列とパディングの調整方法を学ぶ
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
    ![](assets/alignment_2.png)
 
-1. その列の編集可能なパラメータが、 **[!UICONTROL スタイル]** タブをクリックします。 を調整します。 **[!UICONTROL 整列]** 該当するセクションを使用します。
+1. その列の編集可能なパラメーターは、「**[!UICONTROL スタイル]**」タブに表示されます。専用セクションを使用して、**[!UICONTROL 位置]**&#x200B;を調整します。
 
    ![](assets/alignment_3.png)
 
