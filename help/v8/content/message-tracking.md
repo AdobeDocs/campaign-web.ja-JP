@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 1. 変更内容を保存します。
 
-1. リンクを作成した後でも、 **[!UICONTROL 設定]** タブをクリックします。
+1. リンクを作成したら、「**[!UICONTROL 設定]**」タブから変更できます。
 
    * リンクを編集して、**[!UICONTROL ターゲット]**&#x200B;を変更できます。
    * リンクに下線を引くかどうかは、対応するオプションをオンにすることで選択できます。

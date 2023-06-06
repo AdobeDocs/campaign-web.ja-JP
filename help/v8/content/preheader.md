@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
    ![](assets/preheader_body.png)
 
-1. 次の **[!UICONTROL 設定]** 「 」タブで、プリヘッダーを追加します。 「**[!UICONTROL パーソナライゼーションを追加]**」アイコンをクリックして、さらにパーソナライズできます。
+1. 「**[!UICONTROL 設定]**」タブから、プリヘッダーを追加します。「**[!UICONTROL パーソナライゼーションを追加]**」アイコンをクリックして、さらにパーソナライズできます。
 
    ![](assets/preheader_body_settings.png)
 

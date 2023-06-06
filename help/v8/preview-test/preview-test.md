@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 78%
 そのために、Adobe Campaign では以下を行えます。
 
 * [メールのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)。
-* [E メールのレンダリングを確認](#rendering) 一般的なデスクトップ、モバイル、web ベースのクライアント
+* 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](#rendering)します。
 * 特定の受信者に[テストメールを送信](proofs.md)して、テストと検証を行います。
 
 これらのアクションは、「**[!UICONTROL コンテンツをシミュレート]**」ボタンから実行できます。このボタンは、メールのコンテンツを電子メールデザイナーから作成する際に使用できます。

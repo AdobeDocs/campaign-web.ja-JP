@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positive"
 source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 44%
+ht-degree: 46%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 44%
 
 >[!CAUTION]
 >
->ターゲット母集団の読み込み時には、コントロール母集団を使用できません [外部ファイルから](file-audience.md).
+>ターゲット母集団の読み込み時には、[外部ファイルから](file-audience.md)コントロール母集団を使用できません。
 
 配信にコントロール母集団を追加するには、 **[!UICONTROL コントロール母集団を有効にする]** 切り替え **対象ユーザ** 「 」セクションに表示されます。
 

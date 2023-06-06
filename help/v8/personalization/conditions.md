@@ -1,6 +1,6 @@
 ---
 title: 条件付きコンテンツの作成
-description: Adobe Campaign Web UI でコンテンツをパーソナライズするための条件を定義する方法を説明します
+description: Adobe Campaign web UI でコンテンツをパーソナライズするための条件を定義する方法について説明します
 feature: Personalization
 topic: Personalization
 role: Data Engineer
@@ -10,7 +10,7 @@ exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
 source-git-commit: 5598a82bf745659b8c1db8cb51b1a82cfd184093
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
