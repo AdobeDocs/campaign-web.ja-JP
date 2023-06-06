@@ -3,10 +3,10 @@ audience: end-user
 title: E メールワークフローアクティビティの使用
 description: E メールワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
+source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 31%
+source-wordcount: '365'
+ht-degree: 27%
 
 ---
 
@@ -41,7 +41,9 @@ Adobe Campaign Web を使用すると、電子メール、SMS、プッシュな�
 
 ## 例
 
+次に、セグメント化と 2 つの配信を含む、クロスチャネルワークフローの例を示します。 このワークフローは、E メールアドレスを持ち、コーヒーマシンに関心を持つすべての顧客をターゲットにします。 この母集団の中で、標準の顧客に E メールが送信され、VIPクライアントに SMS が送信されます。
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
