@@ -3,10 +3,10 @@ audience: end-user
 title: E メールワークフローアクティビティの使用
 description: E メールワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 27%
+source-wordcount: '347'
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign Web を使用すると、電子メール、SMS、プッシュな�
 
 ## 例
 
-次に、セグメント化と 2 つの配信を含む、クロスチャネルワークフローの例を示します。 このワークフローは、E メールアドレスを持ち、コーヒーマシンに関心を持つすべての顧客をターゲットにします。 この母集団の中で、標準の顧客に E メールが送信され、VIPクライアントに SMS が送信されます。
+次に、セグメント化と 2 つの配信を含む、クロスチャネルワークフローの例を示します。 「 」ワークフローでは、パリに住み、コーヒーマシンに関心を持つすべての顧客をターゲットに設定します。 この母集団の中で、標準の顧客に E メールが送信され、VIPクライアントに SMS が送信されます。
 
 ![](../assets/workflow-channel-example.png)
 <!--
@@ -62,8 +62,10 @@ This can be a single send email and sent just once, or it can be a recurring ema
 * Single send emails are standard emails, sent once.
 * Recurring emails allow you to send the same email multiple times to different targets over a defined period. You can aggregate the deliveries per period in order to get reports that correspond to your needs.
 
-When linked to a scheduler, you can define recurring emails.-->
+When linked to a scheduler, you can define recurring emails.
+Email recipients are defined upstream of the activity in the same workflow, via an Audience targeting activity.
 
-メール受信者は、オーディエンスのターゲティングアクティビティを通じて、同じワークフロー内のアクティビティの上流で定義されます。
+-->
+
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->

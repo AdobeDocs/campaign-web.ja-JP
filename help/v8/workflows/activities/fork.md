@@ -3,9 +3,9 @@ audience: end-user
 title: 分岐ワークフローアクティビティの使用
 description: 分岐ワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -13,9 +13,7 @@ ht-degree: 5%
 
 # 分岐 {#fork}
 
-この **分岐** 「 」アクティビティを使用すると、アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。
-
-この **分岐** 「 」アクティビティを使用すると、同じワークフロー内で複数の異なるアクティビティを個別に実行できます。
+この **分岐** アクティビティは **フロー制御** アクティビティ。 アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。
 
 ## 設定
 
