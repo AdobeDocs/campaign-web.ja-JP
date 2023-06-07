@@ -3,9 +3,9 @@ audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 25%
 
 ---
@@ -65,11 +65,8 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ![](../assets/workflow-intersection-example.png)
 
-以下 **除外** 例は、18～27 歳で adobe e メールドメインを持つプロファイルをフィルターするように設定された 2 つのクエリを示しています。 その後、アドビの E メールドメインを持つプロファイルは、最初のセットから除外されます。
+以下 **除外** 例は、18～27 歳で、Adobee メールドメインを持つプロファイルをフィルターするように設定された 2 つのクエリを示しています。 その後、AdobeE メールドメインのプロファイルは、最初のセットから除外されます。
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 

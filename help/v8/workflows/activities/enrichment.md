@@ -3,7 +3,7 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 28%
@@ -48,7 +48,7 @@ ht-degree: 28%
 
 ## 単一の属性
 
-ここでは、例えば誕生のデータなど、単一のエンリッチメント属性を追加します。 次の手順に従います。
+ここでは、生年月日など、単一のエンリッチメント属性を追加します。 次の手順に従います。
 
 1. 内側をクリック **属性** フィールドに入力します。
 1. ターゲティングディメンションからシンプルなフィールド（この例では生年月日）を選択します。
