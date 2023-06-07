@@ -4,39 +4,53 @@ title: メールコンテンツのプレビュー
 description: Campaign web UI でメールコンテンツをプレビューする方法を学ぶ
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: a06158b5aea52c074340ba9819dd67af4f148196
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 29%
 
 ---
 
 
-# メールコンテンツのプレビュー {#preview}
+# メールコンテンツのプレビュー {#preview-content}
 
+以下を使用： [!DNL Campaign] コンテンツシミュレーション機能を使用して、e メールを送信する前に e メールのコンテンツをプレビューできます。 これにより、パーソナライゼーションを制御し、受信者に対するパーソナライゼーションの表示方法を確認できます。
 
-Adobe Campaign のコンテンツシミュレーション機能を使用すると、メールのコンテンツを送信前にプレビューしたり、パーソナライゼーションを制御したり、受信者にコンテンツがどのように表示されるかを確認したりできます。
+E メールのコンテンツをプレビューするには、次の手順に従います。
 
-メールのコンテンツをプレビューするには、次の手順に従います。
+1. E メールを参照 [コンテンツを編集](../content/edit-content.md) screen または [メールデザイナー](../content/get-started-email-designer.md).
 
-1. メールコンテンツ作成画面を参照し、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
+1. 次をクリック： **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
 
-   ![](assets/simulate.png)
+   ![](assets/simulate-button.png)
 
-1. 「**[!UICONTROL プロファイルを選択]**」ボタンを使用して、1 つまたは複数のプロファイルを選択します。
+1. 以下を使用： **[!UICONTROL テストプロファイルを追加]** ボタンを使用して、パーソナライズされたコンテンツのプレビューに使用するプロファイルを選択します。
+
 1. テストプロファイルとプロファイルを組み合わせて、メールをプレビューできます。
 
-   ![](assets/preview-profile.png)
+   * 「**[!UICONTROL テストプロファイル]**」タブには、データベース内の架空の追加受信者であるすべてのシードアドレスが一覧表示されます。
 
-   * 「**[!UICONTROL テストプロファイル]**」タブには、データベース内の架空の追加受信者であるすべてのシードアドレスが一覧表示されます。これらは、Adobe Campaign コンソールで、**[!UICONTROL リソース]**／**[!UICONTROL Campaign Management]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成できます。
-   * 「**[!UICONTROL プロファイル]**」タブには、Campaign コンソールから&#x200B;**[!UICONTROL プロファイルとターゲット]**&#x200B;フォルダーに保存されたすべての受信者がリストされます。
+      >[!NOTE]
+      >
+      >テストプロファイルは、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
 
-1. プロファイルを選択すると、右側のパネルにメールのプレビューが表示されます。パーソナライズされた要素は、左側のパネルで選択したプロファイルのデータに置き換えられます。
+   * 「**[!UICONTROL プロファイル]**」タブには、 コンソールから&#x200B;**[!UICONTROL プロファイルとターゲット]**&#x200B;フォルダーに保存されたすべての受信者がリストされます。[!DNL Campaign][詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
-   複数のプロファイルを追加した場合は、リスト内のプロファイルを切り替えて、対応するメールコンテンツをプレビューできます。
+   ![](assets/simulate-select-profiles.png)
 
-1. 右上隅の専用アイコンをクリックして、様々なデバイス（デスクトップ、モバイル、タブレット）でのコンテンツのレンダリングをプレビューできます。
+1. クリック **[!UICONTROL 選択]** をクリックして、両方のタブで選択内容を確認します。
 
-   ![](assets/preview.png)
+   E メールのプレビューが **[!UICONTROL シミュレート]** 画面 パーソナライズされた要素は、左側のパネルで選択したプロファイルのデータに置き換えられます。
+
+   ![](assets/simulate-preview.png)
+
+1. 複数のプロファイルを追加した場合は、リスト内のプロファイルを切り替えて、対応するメールコンテンツをプレビューできます。また、左側のペインの対応するボタンを使用して、テストプロファイルをさらに追加し、選択を解除することもできます。
+
+1. 次の項目を調整できます。 **[!UICONTROL ズームレベル]** および右上隅の専用アイコンを使用して、デスクトップまたはモバイルデバイスでコンテンツをプレビューします。
+
+1. 次の **[!UICONTROL シミュレート]** 画面では、次のこともできます。
+   * 一般的な E メールクライアントで E メールのレンダリングを確認します。 [詳細情報](email-rendering.md)
+   * 検証のために特定の受信者にテストメールを送信します — [詳細情報](proofs.md)
+
 
 

@@ -4,14 +4,14 @@ title: メールのプレビューとテストについて
 description: メールのプレビューとテストの方法について説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha" type="Positive"
-source-git-commit: 012dd948dafd6f25b544ad5977979403e7dbdc01
+source-git-commit: 7bbc0ddec7792c270d47f6d3e8a39e75f74c1451
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 84%
+source-wordcount: '186'
+ht-degree: 23%
 
 ---
 
-# メールのプレビューとテストについて {#about-preview-proofs}
+# メールのプレビューとテストについて {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
@@ -20,18 +20,20 @@ ht-degree: 84%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="メールコンテンツのプレビュー"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="テストメールの送信"
 
-メールを送信する前に、そのコンテンツをレビューおよびテストして、コンテンツが正確でコンテンツやパーソナライゼーションの設定にエラーがないことを確認することが重要です。
+E メールコンテンツを定義したら、メッセージを送信する前に、テストプロファイルを使用してプレビューおよびテストできます。
 
-そのために、Adobe Campaign では以下を行えます。
+これは、正確でありながら、コンテンツとパーソナライゼーションの両方の設定でエラーが発生しないようにするために重要な手順です。
 
-* [メールのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)。
-* 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](#rendering)します。
-* 特定の受信者に[テストメールを送信](proofs.md)して、テストと検証を行います。
+これをおこなうには、 [!DNL Adobe Campaign] では、次のことが可能です。
 
-これらのアクションは、「**[!UICONTROL コンテンツをシミュレート]**」ボタンから実行できます。このボタンは、メールのコンテンツを電子メールデザイナーから作成する際に使用できます。
+* [E メールのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)
+* [E メールのレンダリングを確認](email-rendering.md) 一般的なデスクトップ、モバイル、web ベースのクライアント
+* [テストメールの送信](proofs.md) テストと検証の対象となる特定の受信者
 
-![](assets/simulate.png)
+これらのアクションは、 **[!UICONTROL コンテンツをシミュレート]** ボタン ( [コンテンツを編集](../content/edit-content.md) 画面または [メールデザイナー](../content/get-started-email-designer.md).
+
+![](assets/simulate-button.png)
 
 >[!NOTE]
 >
->「**[!UICONTROL レビューして送信]**」ボタンをクリックした後で、配信概要からコンテンツシミュレーションを利用することもできます。
+>コンテンツのシミュレーションは、 [配信の概要](../monitor/prepare-send.md) クリック後 **[!UICONTROL 確認して送信]** 」ボタンをクリックします。
