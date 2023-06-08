@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 36%
+source-wordcount: '298'
+ht-degree: 8%
 
 ---
 
@@ -42,36 +42,3 @@ ht-degree: 36%
 パーソナライゼーションフィールドを追加するには、コンテンツ内の目的の場所にカーソルを置き、「+」ボタンをクリックして挿入します。
 
 ![](assets/perso-insert-field.png)
-
-## メールコンテンツのパーソナライズ {#personalize-emails}
-
-メールコンテンツをパーソナライズするには、電子メールデザイナーでメッセージを開き、次の操作を実行します。
-
-1. テキストブロック内をクリックします。
-1. コンテキストツールバーで、「**[!UICONTROL パーソナライゼーションを追加]**」を選択します。
-
-   ![](assets/perso-add-to-content.png)
-
-1. パーソナライゼーションエディターに受信者の名前を挿入し、確認します。
-
-   ![](assets/perso-add-name.png)
-
-   パーソナライゼーション属性がメールコンテンツに追加されます。
-
-   コンテンツをシミュレートして、レンダリングを確認できます。[詳細情報](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-1. メールにコンテンツブロックを追加するには、同じ手順を適用し、最後のアイコンからコンテンツブロックを選択します。
-
-   ![](assets/perso-insert-block.png)
-
-1. 挿入すると、コンテンツブロックがメールコンテンツに追加されます。配信準備段階で、パーソナライゼーションが生成されると、受信者プロファイルに適合するように自動的に調整されます。
-
-   ![](assets/perso-content-block-in-email.png)
-
-
-## オファーのパーソナライズ {#personalize-offers}
-
-テキストタイプのコンテンツをオファーの表示域に追加する際に、パーソナライゼーションエディターにアクセスすることもできます。詳しくは、[こちら](../content/offers.md)を参照してください。
-
