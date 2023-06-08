@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 40%
+source-wordcount: '437'
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,7 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 * **条件付きコンテンツ**
 
-   条件付きコンテンツを設定し、受信者のプロファイルなどに基づいて動的なパーソナライゼーションを追加します。特定の条件が成立した場合に、テキストブロックや画像を挿入できます。条件が true でない場合のコンテンツの代替バージョンを定義できます。
+   条件付きコンテンツを設定して、例えば受信者のプロファイルに基づいてコンテンツを追加します。 特定の条件が成立した場合に、テキストブロックや画像を挿入できます。条件が true でない場合のコンテンツの代替バージョンを定義できます。
 
 * **ビルトインコンテンツブロック**
 
@@ -46,11 +46,13 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 Adobe Campaign V8 Web には式エディターが用意されており、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツに合わせてカスタマイズされたエクスペリエンスを作成できます。
 
-式エディターは、パーソナライゼーションダイアログを開くアイコンを持つすべてのフィールド（件名フィールド、E メールのテキストおよびボタンコンテンツコンポーネントなど）で、すべてのチャネルで使用できます。
+式エディターは、パーソナライゼーションダイアログを開くアイコンを持つすべてのフィールド（件名フィールド、E メールリンク、テキスト/ボタンコンテンツコンポーネントなど）で、すべてのチャネルで使用できます。
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 さらに、E メールのデザイン時に、専用の条件付きコンテンツビルダーにアクセスできます。 [メールでの条件付きコンテンツの作成方法を説明します](conditions.md)
 
