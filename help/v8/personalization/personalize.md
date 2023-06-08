@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 8%
+source-wordcount: '432'
+ht-degree: 7%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 8%
 
 | メニュー | 説明 |
 |-----|------------|
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | この **[!UICONTROL 購読者のアプリケーション]** メニューには、ターミナルやオペレーティングシステムが使用するフィールドなど、アプリケーションの購読者に関連するすべてのフィールドが一覧表示されます。 *このメニューは、プッシュ通知でのみ使用できます* |
 | ![](assets/do-not-localize/perso-recipients-menu.png) | この **[!UICONTROL 受信者]** メニューには、受信者の名前、年齢、住所など、受信者テーブルに定義されたすべてのフィールドが一覧表示されます。 |
 | ![](assets/do-not-localize/perso-message-menu.png) | この **[!UICONTROL メッセージ]** メニューには、配信ログに関連するすべてのフィールドが一覧表示されます。つまり、特定の受信者との最後のイベントの日付など、すべてのチャネルをまたいで受信者やデバイスに送信されたすべてのメッセージが一覧表示されます |
 | ![](assets/do-not-localize/perso-delivery-menu.png) | この **[!UICONTROL 配信]** メニューには、配信チャネル、ラベルなど、配信の実行に必要なパラメーターに関連するすべてのフィールドがリストされます。 |
