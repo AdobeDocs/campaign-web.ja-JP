@@ -3,14 +3,30 @@ audience: end-user
 title: SMS 配信の送信
 description: Adobe Campaign Web で SMS を送信する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '258'
+ht-degree: 24%
 
 ---
 
-# SMS 配信の送信 {#send-sms}
+# SMS 配信のプレビューと送信 {#send-sms}
+
+## SMS 配信をプレビュー{#preview-push}
+
+メッセージの内容を定義したら、テストプロファイルを利用してプレビューおよびテストできます。 パーソナライズされたコンテンツが含まれている場合は、テストプロファイルデータを利用して、このコンテンツがメッセージにどのように表示されるかを調べることができます。 これにより、メッセージが意図したとおりに表示され、パーソナライズされた情報が正しく表示されることを確認できます。
+
+1. 配信コンテンツページから、 **[!UICONTROL コンテンツをシミュレート]** パーソナライズされたコンテンツをプレビューする
+
+1. 「**[!UICONTROL テストプロファイルを追加]**」をクリックして、1 つ以上のテストプロファイルを選択します。
+
+1. テストプロファイルを選択したら、「**[!UICONTROL 選択]**」をクリックします。
+
+1. 右側のパネルにはメールのプレビューが表示され、パーソナライズされた要素が選択したプロファイルのデータに動的に置き換えられます。
+
+これで、SMS メッセージを確認してオーディエンスに送信できるようになりました。
+
+## SMS 配信の送信 {#preview-send-push}
 
 1. SMS コンテンツをパーソナライズした後、 **[!UICONTROL 確認して送信]** から **[!UICONTROL 配信]** ページ。
 
