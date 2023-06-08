@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 7%
@@ -31,7 +31,7 @@ ht-degree: 7%
 
 ![](assets/perso-access.png)
 
-式エディターが表示されます。 パーソナライゼーションフィールドは、画面の左側にある 3 つのメニューに整理されます。 これらのメニューを使用すると、Adobe Campaignデータベースで使用可能なすべてのフィールドにアクセスできます。
+式エディターが表示されます。 パーソナライゼーションフィールドは、画面の左側にあるいくつかのメニューに整理されています。 これらのメニューを使用すると、Adobe Campaignデータベースで使用可能なすべてのフィールドにアクセスできます。
 
 ![](assets/perso-insert-field.png)
 
