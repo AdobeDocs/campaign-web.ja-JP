@@ -4,10 +4,10 @@ title: コントロール母集団の設定
 description: Campaign web UI でメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 46%
+source-wordcount: '752'
+ht-degree: 47%
 
 ---
 
@@ -86,11 +86,12 @@ ht-degree: 46%
 * 配信ログの「ログ」タブには、除外手順が表示されます。
 
    ![](assets/control-group-sample-logs.png)
+<!--
 
+ * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-* この **除外ログ** 「 」タブには、各プロファイルと関連する除外が表示されます **理由**.
-
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
+-->
 
 * この **除外の原因** 「 」タブには、各タイポロジルールから除外されたプロファイルの数が表示されます。
 

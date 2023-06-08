@@ -4,10 +4,10 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 90%
+source-wordcount: '439'
+ht-degree: 83%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。
 
-当初は、機能豊富な[クライアントコンソール](#ac-client)でしか利用できませんでしたが、Campaign で新しい web ユーザーインターフェイスが提供されるようになりました。これは、より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。
+当初は、リッチな [クライアントコンソール](#ac-client)の Campaign は、ユーザーエクスペリエンスを大幅に改善するために、使いやすさ、アクセシビリティ、新しいデザインを備えた新しい Web ユーザーインターフェイス (UI) を提供します。 この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。
 
 ![](assets/home.png)
 
