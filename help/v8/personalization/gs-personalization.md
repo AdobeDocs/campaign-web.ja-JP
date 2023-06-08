@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e40c0b04ab985133de2d2d40e5fcb6a734ff42e9
+source-git-commit: a5d492cc43b73e365579c3f825d85671eb0b6da5
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 26%
@@ -30,13 +30,13 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
    &lt;%= recipient.location.city %> の構文は、受信者の市区町村をコンテンツに挿入します。
 
-   ![](assets/perso-subject-line.png)
+   ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **条件付きコンテンツ**:条件付きコンテンツを設定して、例えば受信者のプロファイルに基づいてコンテンツを追加します。 特定の条件が成立した場合に、テキストブロックや画像を挿入できます。条件が true でない場合のコンテンツの代替バージョンを定義できます。
 
 * **組み込みコンテンツブロック**:Campaign には、配信に挿入できる特定のレンダリングを含む、一連のパーソナライゼーションブロックが付属しています。 例えば、電子メールメッセージのミラーページにロゴ、挨拶メッセージまたはリンクを追加できます。 コンテンツブロックは、パーソナライゼーションエディターの専用のエントリから使用できます。
 
-   ![](assets/perso-content-blocks.png)
+   ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## 式エディターにアクセスする {#access}
 
@@ -48,15 +48,15 @@ Adobe Campaign V8 Web には式エディターが用意されており、すべ�
 
 *「送信者名」フィールドから式エディターにアクセスする*
 
-![](assets/expression-editor-access.png)
+![](assets/expression-editor-access.png){width="800" align="center"}
 
 *E メールテキストコンポーネントから式エディターにアクセスする*
 
-![](assets/expression-editor-access-email.png)
+![](assets/expression-editor-access-email.png){width="800" align="center"}
 
 *E メール内のリンクから式エディターにアクセスする*
 
-![](assets/perso-link-insert-icon.png){width="500" align="center"}
+![](assets/perso-link-insert-icon.png){width="800" align="center"}
 
 
 ## さらに深く掘り下げましょう
