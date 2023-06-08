@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 17a6b7af67cfc9ded7f98c9497a5242cbb9e5d47
+source-git-commit: e40c0b04ab985133de2d2d40e5fcb6a734ff42e9
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 26%
@@ -56,7 +56,8 @@ Adobe Campaign V8 Web には式エディターが用意されており、すべ�
 
 *E メール内のリンクから式エディターにアクセスする*
 
-![](assets/perso-link-insert-icon.png)
+![](assets/perso-link-insert-icon.png){width="500" align="center"}
+
 
 ## さらに深く掘り下げましょう
 
