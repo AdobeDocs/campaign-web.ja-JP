@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: c1ee83b456f47424f8032aaaca52a5e7c68a4077
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 68%
@@ -24,13 +24,13 @@ Adobe Campaignは、事前設定済みのコンテンツブロックのリスト
 
 1. コンテンツブロックを追加するフィールドを見つけ、 **[!UICONTROL パーソナライゼーションダイアログを開く]** アイコンをクリックして式エディターを開きます。
 
-   ![](assets/content-block-access.png)
+   ![](assets/content-block-access.png){width="800" align="center"}
 
 1. 式エディターで、 **[!UICONTROL コンテンツブロック]** 左メニュー
 
 1. コンテンツブロックを追加するには、コンテンツ内の目的の場所にカーソルを置き、「+」ボタンをクリックして挿入します。
 
-   ![](assets/content-blocks.png)
+   ![](assets/content-blocks.png){width="800" align="center"}
 
 ビルトインコンテンツブロックは次のとおりです。
 

@@ -8,10 +8,10 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 45f4d070c95861f5f96038df82ae7100860159e0
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 26%
+source-wordcount: '495'
+ht-degree: 25%
 
 ---
 
@@ -26,38 +26,37 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 次の項目を挿入することで、メッセージコンテンツを動的に設定できます。
 
-* **パーソナライゼーションフィールド**:パーソナライゼーションフィールドは、メッセージの第 1 レベルのパーソナライゼーションに使用されます。 パーソナライゼーションエディターから、データベースで使用可能な任意のフィールドを選択できます。配信の場合は、受信者、メッセージまたは配信に関連する任意のフィールドを選択できます。これらのパーソナライゼーション属性は、メッセージの件名行や本文に挿入できます。
+* **パーソナライゼーションフィールド**:パーソナライゼーションフィールドは、メッセージの第 1 レベルのパーソナライゼーションに使用されます。 パーソナライゼーションエディターから、データベースで使用可能な任意のフィールドを選択できます。配信の場合は、受信者、メッセージまたは配信に関連する任意のフィールドを選択できます。これらのパーソナライゼーション属性は、メッセージの件名行や本文に挿入できます。&lt;%= recipient.location.city %> の構文は、受信者の市区町村をコンテンツに挿入します。
 
-   &lt;%= recipient.location.city %> の構文は、受信者の市区町村をコンテンツに挿入します。
-
-   ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **条件付きコンテンツ**:条件付きコンテンツを設定して、例えば受信者のプロファイルに基づいてコンテンツを追加します。 特定の条件が成立した場合に、テキストブロックや画像を挿入できます。条件が true でない場合のコンテンツの代替バージョンを定義できます。
 
 * **組み込みコンテンツブロック**:Campaign には、配信に挿入できる特定のレンダリングを含む、一連のパーソナライゼーションブロックが付属しています。 例えば、電子メールメッセージのミラーページにロゴ、挨拶メッセージまたはリンクを追加できます。 コンテンツブロックは、パーソナライゼーションエディターの専用のエントリから使用できます。
 
-   ![](assets/perso-content-blocks.png){width="800" align="center"}
+  ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## 式エディターにアクセスする {#access}
 
 Adobe Campaign V8 Web には式エディターが用意されており、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツに合わせてカスタマイズされたエクスペリエンスを作成できます。 式エディターは、すべてのチャネルで、 **[!UICONTROL パーソナライゼーションダイアログを開く]** アイコン（件名フィールド、E メールリンク、テキスト/ボタンのコンテンツコンポーネントなど）
 
+動的にするコンテンツに応じて式エディターにアクセスする方法の例を以下に示します
+
+* *「送信者名」フィールドから式エディターにアクセスする*
+
+  ![](assets/expression-editor-access.png){width="800" align="center"}
+
+* *E メールテキストコンポーネントから式エディターにアクセスする*
+
+  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+
+* *E メール内のリンクから式エディターにアクセスする*
+
+  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+
 >[!NOTE]
 >
 >式エディターに加えて、E メールをデザインする際に、専用の条件付きコンテンツビルダーを利用することもできます。 [メールでの条件付きコンテンツの作成方法を説明します](conditions.md)
-
-*「送信者名」フィールドから式エディターにアクセスする*
-
-![](assets/expression-editor-access.png){width="800" align="center"}
-
-*E メールテキストコンポーネントから式エディターにアクセスする*
-
-![](assets/expression-editor-access-email.png){width="800" align="center"}
-
-*E メール内のリンクから式エディターにアクセスする*
-
-![](assets/perso-link-insert-icon.png){width="800" align="center"}
-
 
 ## さらに深く掘り下げましょう
 

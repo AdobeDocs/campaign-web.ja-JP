@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positive"
-source-git-commit: 1e5bc39adfeae4f956fc208ef9763eb020552364
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '384'
 ht-degree: 6%
 
 ---
@@ -31,31 +31,27 @@ ht-degree: 6%
 
 1. 式エディターを開くには、 **[!UICONTROL パーソナライゼーションダイアログを開く]** 件名行や SMS 本文など、テキストタイプの編集フィールドからアクセス可能なアイコン。 [式エディターにアクセスする方法を説明します](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png)
+   ![](assets/perso-access.png){width="800" align="center"}
 
 1. 式エディターが開きます。 Adobe Campaignデータベースで使用可能なパーソナライゼーションフィールドは、画面の左側にあるいくつかのメニューに整理されています。
 
-![](assets/perso-insert-field.png)
+   ![](assets/perso-insert-field.png){width="800" align="center"}
 
-| メニュー | 説明 |
-|-----|------------|
-| ![](assets/do-not-localize/perso-subscribers-menu.png) | この **[!UICONTROL 購読者のアプリケーション]** メニューには、使用するターミナルやオペレーティングシステムなど、アプリケーションの購読者に関連するフィールドが一覧表示されます。 *このメニューは、プッシュ通知でのみ使用できます* |
-| ![](assets/do-not-localize/perso-recipients-menu.png) | この **[!UICONTROL 受信者]** メニューには、受信者の名前、年齢、アドレスなど、受信者テーブルで定義されたフィールドが一覧表示されます。 |
-| ![](assets/do-not-localize/perso-message-menu.png) | この **[!UICONTROL メッセージ]** メニューには、特定の受信者との最後のイベントの日付など、すべてのチャネルで受信者に送信されるすべてのメッセージやデバイスを含む、配信ログに関連するフィールドが一覧表示されます |
-| ![](assets/do-not-localize/perso-delivery-menu.png) | この **[!UICONTROL 配信]** メニューには、配信チャネルやラベルなど、配信の実行に必要なパラメーターに関連するフィールドがリストされます。 |
+   | メニュー | 説明 |
+   |-----|------------|
+   | ![](assets/do-not-localize/perso-subscribers-menu.png) | この **[!UICONTROL 購読者のアプリケーション]** メニューには、使用するターミナルやオペレーティングシステムなど、アプリケーションの購読者に関連するフィールドが一覧表示されます。 *このメニューは、プッシュ通知でのみ使用できます* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | この **[!UICONTROL 受信者]** メニューには、受信者の名前、年齢、アドレスなど、受信者テーブルで定義されたフィールドが一覧表示されます。 |
+   | ![](assets/do-not-localize/perso-message-menu.png) | この **[!UICONTROL メッセージ]** メニューには、特定の受信者との最後のイベントの日付など、すべてのチャネルで受信者に送信されるすべてのメッセージやデバイスを含む、配信ログに関連するフィールドが一覧表示されます |
+   | ![](assets/do-not-localize/perso-delivery-menu.png) | この **[!UICONTROL 配信]** メニューには、配信チャネルやラベルなど、配信の実行に必要なパラメーターに関連するフィールドがリストされます。 |
 
->[!NOTE]
->
->デフォルトでは、各メニューには、選択したテーブル内のすべてのフィールドがリストされます（受信者、/メッセージ/配信）。 選択したテーブルにリンクするテーブルのフィールドを含める場合は、 **[!UICONTROL 詳細属性の表示]** オプションがリストの下に表示されます。
+   >[!NOTE]
+   >
+   >デフォルトでは、各メニューには、選択したテーブル内のすべてのフィールドがリストされます（受信者、/メッセージ/配信）。 選択したテーブルにリンクするテーブルのフィールドを含める場合は、 **[!UICONTROL 詳細属性の表示]** オプションがリストの下に表示されます。
 
 1. パーソナライゼーションフィールドを追加するには、コンテンツ内の目的の場所にカーソルを置き、 `+` ボタンをクリックして挿入します。
 
 1. コンテンツの準備が整ったら、コンテンツを保存し、コンテンツをシミュレートして、パーソナライゼーションのレンダリングをテストできます。 次の例は、受信者の名を持つ SMS メッセージのパーソナライゼーションを示しています。
 
-   *メッセージコンテンツにパーソナライゼーションタグを追加する*
+   ![](assets/perso-preview1.png){width="800" align="center"}
 
-   ![](assets/perso-preview1.png)
-
-   *特定のテストプロファイルに対するパーソナライゼーションのレンダリングをシミュレート*
-
-   ![](assets/perso-preview2.png)
+   ![](assets/perso-preview2.png){width="800" align="center"}
