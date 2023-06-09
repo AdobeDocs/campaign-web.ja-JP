@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 25%
@@ -40,7 +40,7 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 Adobe Campaign V8 Web には式エディターが用意されており、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツに合わせてカスタマイズされたエクスペリエンスを作成できます。 式エディターは、すべてのチャネルで、 **[!UICONTROL パーソナライゼーションダイアログを開く]** アイコン（件名フィールド、E メールリンク、テキスト/ボタンのコンテンツコンポーネントなど）
 
-動的にするコンテンツに応じて式エディターにアクセスする方法の例を以下に示します
+動的にするコンテンツに応じて式エディターにアクセスする方法の例を以下に示します。
 
 * *「送信者名」フィールドから式エディターにアクセスする*
 

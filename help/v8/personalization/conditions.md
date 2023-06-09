@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 3dc7f1f6522a7dbd2edadcb0f7b8841e30fd8af0
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 2%
@@ -59,11 +59,11 @@ ht-degree: 2%
 
    1. 置換 `Ìnsert content here` if 関数の条件を満たさないプロファイルに表示するコンテンツを含める。
 
-      ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){width="800" align="center"}
 
-      また、 **else if** 複数のコンテンツバリアントを使用して条件を作成するヘルパー関数。 例えば、以下の式は、受信者の言語に応じて、メッセージの 3 つのバリエーションを表示します。
+   また、 **else if** 複数のコンテンツバリアントを使用して条件を作成するヘルパー関数。 例えば、以下の式は、受信者の言語に応じて、メッセージの 3 つのバリエーションを表示します。
 
-      ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){width="800" align="center"}
 
    >[!NOTE]
    >
