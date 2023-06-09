@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 4b218f0811b53c4f6f89663f4336a73c61e03dfd
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 10%
+source-wordcount: '254'
+ht-degree: 9%
 
 ---
 
@@ -46,3 +46,10 @@ ht-degree: 10%
    * **[!UICONTROL 新しい強制隔離]**:除外され、強制隔離に追加されたプロファイルの数。
 
 * **[!UICONTROL 除外]** グラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
+
+## 配信スループット {#delivery-throughput}
+
+このレポートは、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報を表示します。 メッセージ配信の速度の測定に使用される主な指標は、1 時間に送信されたメッセージの数です。
+
+![](assets/reporting_sms_2.png)
+
