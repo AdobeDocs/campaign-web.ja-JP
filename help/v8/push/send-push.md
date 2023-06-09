@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ通知配信の送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 23%
+source-wordcount: '273'
+ht-degree: 22%
 
 ---
 
@@ -18,9 +18,13 @@ ht-degree: 23%
 
 1. 配信コンテンツページから、 **[!UICONTROL コンテンツをシミュレート]** パーソナライズされたコンテンツをプレビューする
 
+   ![](assets/push_send_1.png)
+
 1. 「**[!UICONTROL テストプロファイルを追加]**」をクリックして、1 つ以上のテストプロファイルを選択します。
 
 1. テストプロファイルを選択したら、「**[!UICONTROL 選択]**」をクリックします。
+
+   ![](assets/push_send_5.png)
 
 1. 右側のパネルにはメールのプレビューが表示され、パーソナライズされた要素が選択したプロファイルのデータに動的に置き換えられます。
 
@@ -30,13 +34,19 @@ ht-degree: 23%
 
 1. プッシュ通知コンテンツをパーソナライズした後、 **[!UICONTROL 確認して送信]** から **[!UICONTROL 配信]** ページ。
 
+   ![](assets/push_send_2.png)
+
 1. クリック**[!UICONTROL 準備]**、提供された進行状況と統計を監視します。
 
    エラーが発生した場合は、ログメニューを参照して、エラーの詳細を確認してください。
 
+   ![](assets/push_send_3.png)
+
 1. 「 」をクリックしてメッセージを送信します。 **[!UICONTROL 送信]** をクリックして、最終的な送信プロセスを続行します。
 
-1. 「 **[!UICONTROL 送信]** 」ボタンをクリックします。
+1. 「 **[!UICONTROL 送信]** または **[!UICONTROL 予定どおりに送信]** 」ボタンをクリックします。
+
+   ![](assets/push_send_4.png)
 
 配信が送信されたら、配信ページの KPI（主要業績評価指標）データと、ログメニューのデータをトラッキングできます。
 
