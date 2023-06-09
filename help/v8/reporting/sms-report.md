@@ -3,7 +3,7 @@ audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 9%
@@ -18,8 +18,6 @@ ht-degree: 9%
 >abstract="SMS 配信のレポート指標を確認します。"
 
 ## 配信の概要 {#delivery-summary}
-
-![](assets/reporting_sms.png)
 
 * **[!UICONTROL 配信の概要]** は、訪問者が SMS メッセージにどのように関わっているかに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。
 
