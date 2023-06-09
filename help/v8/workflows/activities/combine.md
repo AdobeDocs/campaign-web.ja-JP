@@ -3,10 +3,10 @@ audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 25%
+source-wordcount: '690'
+ht-degree: 23%
 
 ---
 
@@ -25,6 +25,16 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 ## 一般設定 {#general}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_merging_options"
+>title="積集合の結合オプション"
+>abstract="積集合は、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。 「結合するセット」セクションで、参加したい前のアクティビティをすべて選択します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_merging_options"
+>title="除外結合オプション"
+>abstract="除外を使用すると、特定の条件に従って、ある母集団から要素を除外できます。 「結合するセット」セクションで、参加したい前のアクティビティをすべて選択します。"
+
 以下の一般的な手順に従って、 **結合** アクティビティ：
 
 1. 次のような複数のアクティビティを追加 **オーディエンスの構築** アクティビティを作成して、2 つ以上の異なる実行分岐を形成する必要があります。
@@ -34,6 +44,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 内 **結合するセット** セクションでは、参加したい前のアクティビティをすべて確認します。
 
 ## 和集合 {#union}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="積集合の紐付けオプション"
+>abstract="紐付けタイプを選択して、重複の処理方法を定義します。"
 
 の **和集合**&#x200B;を選択する場合は、 **紐付けタイプ** 重複の処理方法を定義するには：
 
@@ -48,6 +63,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 1. 次の項目を確認できます。 **完了を生成** 」オプションを使用します。 補集合には、すべてのインバウンドアクティビティから積集合を引いた結果の和集合が含まれます。その後、追加のアウトバウンドトランジションがアクティビティに追加されます。
 
 ## 除外 {#exclusion}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_exclusion_options"
+>title="除外 ルール"
+>abstract="必要に応じて、インバウンドテーブルを操作できます。 別のディメンションからターゲットを除外するには、このターゲットが同じターゲティングディメンションをメインターゲットとして返します。それには、「除外ルール」セクションの「ルールを追加」をクリックし、ディメンションの変更条件を指定します。 データの紐付けは、属性または結合を使用して実行されます。"
 
 の **除外**&#x200B;の場合は、次の追加の手順に従う必要があります。
 
