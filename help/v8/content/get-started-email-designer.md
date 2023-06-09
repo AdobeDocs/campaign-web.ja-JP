@@ -3,16 +3,22 @@ audience: end-user
 title: メールコンテンツの編集
 description: Campaign Web UI の E メールデザイナーを使用してコンテンツの作成を開始する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 5%
+source-wordcount: '382'
+ht-degree: 9%
 
 ---
 
 # 電子メールデザイナーの基本を学ぶ {#get-started-email-designer}
 
-既存のコンテンツをにインポートできます。 [!DNL Journey Optimizer] コンテンツデザイン機能を活用するには：
+Adobe Campaign で E メールを作成したら、そのコンテンツを定義する必要があります。
+
+E メールデザイナーを使用すると、個別にカスタマイズした魅力的な E メールを、直感的なドラッグ&amp;ドロップインターフェイスで作成できます。 新規のコンテンツから始める場合でも、既存のコンテンツの読み込みか既存のテンプレートの活用かに関わらず、プロモーションやトランザクションなど、あらゆる E メール用のすべてのコンテンツの設計と洗練を行います。
+
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
 * 用途 [!DNL Campaign] e メールデザイン機能を使用して、レスポンシブ e メールを簡単に作成できます。 [詳細情報](create-email-content.md)
 
@@ -38,5 +44,5 @@ E メール配信ダッシュボードから、 [コンテンツを編集](edit-
 
 * **既存のコンテンツを選択** 組み込みテンプレートまたはカスタムテンプレートのリストから。 電子メールテンプレートの使用方法を説明します。 [この節](email-templates.md).
 
-   ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png)
 

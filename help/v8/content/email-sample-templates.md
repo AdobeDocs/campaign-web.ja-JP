@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: メールテンプレートの操作
 badge: label="Alpha" type="Positive"
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # メールテンプレートの操作 {#email-saved-content-templates}
 
-条件 [e メールの作成](#create-email)、 **[!UICONTROL デザインテンプレートを選択]** セクション **[!UICONTROL メールを作成]** インターフェイスを使用して、テンプレートからコンテンツの作成を開始できます。
+条件 [e メールの作成](../email/create-email.md)、 **[!UICONTROL デザインテンプレートを選択]** セクション **[!UICONTROL メールを作成]** インターフェイスを使用して、テンプレートからコンテンツの作成を開始できます。
 
 ![](assets/email_designer-sample-templates.png)
 

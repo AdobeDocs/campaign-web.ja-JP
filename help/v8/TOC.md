@@ -5,7 +5,7 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 75%
@@ -31,16 +31,16 @@ ht-degree: 75%
          + [E メールコンテンツの設定](content/edit-content.md)
          + E メールのシェーピングを開始 {#start-design}
             + [電子メールデザイナーの基本を学ぶ](content/get-started-email-designer.md)
-            + [ゼロから開始 ](content/create-email-content.md)
+            + [ゼロから開始](content/create-email-content.md)
             + [メールコンテンツの読み込み](content/existing-content.md)
             + [独自コンテンツのコーディング](content/code-content.md)
             + [メールコンテンツテンプレートの使用](content/email-templates.md)
          + コンテンツのデザイン {#design-content}
             + [コンテンツコンポーネントの使用](content/content-components.md)
-            + [テキストバージョンの生成](content/text-version-email.md)
+            + [リンクの追加とメッセージのトラッキング](content/message-tracking.md)
             + [ミラーページへのリンクの追加](content/mirror-page.md)
             + [プリヘッダーの追加](content/preheader.md)
-            + [リンクの追加とメッセージの追跡](content/message-tracking.md)
+            + [テキストバージョンの生成](content/text-version-email.md)
          + コンテンツのスタイル設定 {#style}
             + [メールスタイルの基本を学ぶ](content/get-started-email-style.md)
             + [背景設定の編集](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 75%
    + SMS {#sms}
       + [SMS 配信の基本を学ぶ](sms/gs-sms.md)
       + [SMS 配信の作成](sms/create-sms.md)
-      + [SMS 配信のデザイン ](sms/content-sms.md)
-      + [SMS 配信の送信 ](sms/send-sms.md)
+      + [SMS 配信のデザイン](sms/content-sms.md)
+      + [SMS 配信の送信](sms/send-sms.md)
    + コンテンツを動的にする {#dynamic-content}
       + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
       + [パーソナライゼーションの追加](personalization/personalize.md)

@@ -4,10 +4,10 @@ title: 電子メールデザイナーでのメールの設計
 description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positive"
-source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
-workflow-type: ht
-source-wordcount: '528'
-ht-degree: 100%
+source-git-commit: 22fdc1713ed893504cba7ad93bb69c7b3f2db7fe
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 61%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
->title="構造コンポーネントについて"
->abstract="構造コンポーネントは、メールのレイアウトを定義します。"
+>title="構造の追加"
+>abstract="構造は、E メールのレイアウトを定義します。 ドラッグ&amp;ドロップ **構造** コンポーネントをキャンバスに追加して、e メールコンテンツのデザインを開始します。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
->title="構造コンポーネントについて"
->abstract="構造コンポーネントは、ランディングページのレイアウトを定義します。"
+>title="構造の追加"
+>abstract="構造は、ランディングページのレイアウトを定義します。 ドラッグ&amp;ドロップ **構造** コンポーネントをキャンバスに追加して、ランディングページのデザインを開始します。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
->title="構造コンポーネントについて"
->abstract="構造コンポーネントは、フラグメントのレイアウトを定義します。"
+>title="構造の追加"
+>abstract="構造は、フラグメントのレイアウトを定義します。 ドラッグ&amp;ドロップ **構造** コンポーネントをキャンバスに挿入して、フラグメントコンテンツのデザインを開始します。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
->title="構造コンポーネントについて"
->abstract="構造コンポーネントは、テンプレートのレイアウトを定義します。"
+>title="構造の追加"
+>abstract="構造は、テンプレートのレイアウトを定義します。 ドラッグ&amp;ドロップ **構造** コンポーネントをキャンバスに追加して、テンプレートコンテンツのデザインを開始します。"
 
 
 >[!CONTEXTUALHELP]
@@ -56,41 +56,43 @@ ht-degree: 100%
 
 メールデザイナーを使用すると、メールの構造を簡単に定義できます。簡単なドラッグ＆ドロップ操作で構造要素を追加して移動することで、メールの本文を数秒でデザインできます。
 
-メールコンテンツの作成を開始するには、次の手順に従います。
+E メールコンテンツの作成を開始するには、次の手順に従います。
 
-1. メールデザイナーのホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
+1. 次の [メールデザイナー](get-started-email-designer.md#start-authoring) ホームページで、 **[!UICONTROL ゼロからデザイン]** オプション。
 
-   ![](assets/email_designer.png)
+   ![](assets/email_designer-from-scratch.png)
 
-1. **[!UICONTROL 構造コンポーネント]**&#x200B;をキャンバスにドラッグ＆ドロップしてメールコンテンツのデザインを開始し、メールのレイアウトを定義します。
+1. ドラッグ&amp;ドロップで E メールコンテンツのデザインを開始 **[!UICONTROL 構造]** をキャンバスにドラッグして、e メールのレイアウトを定義します。
 
    >[!NOTE]
    >
    >列の積み重ねは、すべてのメールプログラムと互換性があるわけではありません。 サポートされていない場合、列は積み重ねられません。
 
-   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
+1. 追加する数 **[!UICONTROL 構造]** 必要に応じて、右側の専用パネルで設定を編集します。
 
-   ![](assets/email_designer_2.png)
+   ![](assets/email_designer_structure_components.png)
 
-1. 必要に応じて&#x200B;**[!UICONTROL 構造コンポーネント]**&#x200B;を追加し、右側の専用パネルで設定を編集します。
-
-   **[!UICONTROL n:n 列]**&#x200B;コンポーネントを選択して、選択する列の数（3 ～ 10）を定義します。また、各列の下部にある矢印を移動して、各列の幅を定義することもできます。
+1. 次の項目を選択できます。 **[!UICONTROL n:n 列]** コンポーネントを使用して、選択する列の数を定義します (3 ～ 10)。 また、各列の下部にある矢印を移動して、各列の幅を定義することもできます。
 
    >[!NOTE]
    >
    >各列のサイズは、構造コンポーネントの全幅の 10％未満にすることはできません。空でない列は削除できません。
 
-1. **[!UICONTROL コンテンツコンポーネント]**&#x200B;セクションを展開し、必要な数の要素を 1 つ以上の構造コンポーネントに追加します。[詳しくは、コンテンツコンポーネントを参照してください](content-components.md)
+1. 次の **[!UICONTROL コンポーネント]** セクションで、必要な数の要素を 1 つ以上の構造にドラッグ&amp;ドロップします。 [詳しくは、コンテンツコンポーネントを参照してください](content-components.md)
 
-1. 各コンポーネントは、右側の&#x200B;**[!UICONTROL コンポーネント設定]**&#x200B;パネルを使用して、さらにカスタマイズできます。例えば、各コンポーネントのテキストスタイル、パディングまたは余白を変更できます。 [詳しくは、整列とパディングを参照してください](alignment-and-padding.md)
+1. 各コンポーネントは、 **[!UICONTROL 設定]** または **[!UICONTROL スタイル]** タブを右にクリックします。 例えば、各コンポーネントのテキストスタイル、パディングまたは余白を変更できます。 [詳しくは、整列とパディングを参照してください](alignment-and-padding.md)
 
-   ![](assets/email_designer_5.png)
+   ![](assets/email_designer-styles.png)
 
-1. パーソナライゼーションフィールドを挿入して、プロファイルデータからのメールコンテンツをカスタマイズします。[詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
+1. パーソナライゼーションフィールドを挿入して、プロファイルデータに基づいて E メールのコンテンツをカスタマイズします。 [詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
 
-1. 左側のパネルから「**[!UICONTROL リンク]**」タブをクリックすると、追跡が必要なコンテンツのすべての URL が表示されます。必要に応じて、**[!UICONTROL トラッキングタイプ]**&#x200B;または&#x200B;**[!UICONTROL ラベル]**&#x200B;を変更して、**[!UICONTROL カテゴリ]**&#x200B;を追加できます。[詳しくは、リンクとメッセージトラッキングを参照してください](message-tracking.md)
+1. コンテンツへのリンクを追加します。
 
-   ![](assets/email_designer_7.png)
+   左側のパネルから「**[!UICONTROL リンク]**」タブをクリックすると、追跡するコンテンツのすべての URL が表示されます。必要に応じて、**[!UICONTROL トラッキングタイプ]**&#x200B;または&#x200B;**[!UICONTROL ラベル]**&#x200B;を変更して、**[!UICONTROL カテゴリ]**&#x200B;を追加できます。
+
+[詳しくは、リンクとメッセージトラッキングを参照してください](message-tracking.md)
+
+   ![](assets/email_designer-links.png)
 
 1. 必要に応じて、詳細メニューの「**[!UICONTROL コードエディターに切り替え]**」をクリックして、メールをさらにパーソナライズできます。これにより、例えば、トラッキングタグやカスタム HTML タグを追加するために、メールソースコードを編集できます。[詳しくは、コードエディターを参照してください](code-content.md)
 
@@ -100,7 +102,7 @@ ht-degree: 100%
 
 1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、メールのレンダリングを確認します。デスクトップ表示またはモバイル表示を選択できます。[詳しくは、メールのプレビューを参照してください](../preview-test/preview-test.md)
 
-   ![](assets/email_designer_28.png)
+   ![](assets/email_designer-simulate.png)
 
 1. メールの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 

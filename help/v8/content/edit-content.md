@@ -4,10 +4,10 @@ title: メールコンテンツの編集
 description: Campaign web UI でメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positive"
-source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
+source-git-commit: 3aee085da2031a497469fa826bbca3498d3dd0aa
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 48%
+source-wordcount: '508'
+ht-degree: 43%
 
 ---
 
@@ -36,29 +36,33 @@ ht-degree: 48%
 電子メール **[!UICONTROL コンテンツを編集]** 次の操作を実行できます。
 * 送信者のアドレスや件名など、メッセージの基本要素を定義する
 * 添付ファイルの追加やオファーの設定など、追加のアクションを実行する
-* 次にアクセス： [メールデザイナー](get-started-email-designer.md) 電子メールの適切なコンテンツの作成を開始するには
+* 次にアクセス： [メールデザイナー](get-started-email-designer.md#start-authoring) 電子メールの適切なコンテンツの作成を開始するには
 
 E メールのコンテンツを設定または編集するには、次の手順に従います。
 
 1. 次をクリック： **[!UICONTROL コンテンツを編集]** ボタン [E メール配信ダッシュボード](../email/create-email.md) 画面
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content-button.png)
 
-1. E メールコンテンツ編集画面が開きます。 が新しい電子メールを設定している場合、 **[!UICONTROL 送信者名]** および **[!UICONTROL 送信元メール]** フィールドは既に設定されています。
+1. E メールコンテンツ編集画面が開きます。
 
    ![](assets/email-edit-content-dashboard.png)
+
+   >[!NOTE]
+   >
+   >が新しい電子メールを設定している場合、 **[!UICONTROL 送信者名]** および **[!UICONTROL 送信元メール]** フィールドは既に設定されています。
 
 1. この **[!UICONTROL 送信者名]** フィールドは、電子メールテンプレートで定義されます。 変更する場合は、ブランド名など、受信者が容易に識別できる名前を使用して、配信の開封率を高めます。
 
    >[!NOTE]
    >
-   >    受信者のエクスペリエンスの質を高めるために、「Megastore（担当：田中）」のように個人名を追加する方法もあります。
+   >受信者のエクスペリエンスをさらに向上させるには、「Eve from Luma」など、人の名前を追加します。
 
 1. この **[!UICONTROL 送信元メール]** また、「アドレス」フィールドは、e メールテンプレートでも定義されます。 アドレスドメインが、ドメインにデリゲートしたサブドメインと同じであることをAdobeします。
 
    >[!NOTE]
    >
-   >    「@」より前の部分は変更できますが、ドメインアドレスは変更できません。
+   >「@」より前の部分は変更できますが、ドメインアドレスは変更できません。
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
@@ -80,6 +84,10 @@ E メールのコンテンツを設定または編集するには、次の手順
 
    * [ゼロからのメールの作成](create-email-content.md)
    * [コンテンツのスタイル設定](get-started-email-style.md)
+
+   >[!NOTE]
+   >
+   >また、E メールのプレビューにマウスポインターを置いて、「 **[!UICONTROL 電子メールデザイナーを開く]**.
 
 1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。[リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
 
