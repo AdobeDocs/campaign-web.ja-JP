@@ -3,7 +3,7 @@ audience: end-user
 title: キャンペーンレポート
 description: キャンペーンレポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f937e189494c6bcf023c49254bfd8ddc5bfa51
+source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 28%
@@ -79,8 +79,11 @@ ht-degree: 28%
    * **[!UICONTROL 転送数]**:E メールを転送した受信者の数。
 
   ![](assets/campaign_report_email_4.png)
++++
 
 * **[!UICONTROL クリックストリーム]**
+
+  ![](assets/campaign_report_email_5.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -91,8 +94,6 @@ ht-degree: 28%
    * **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。
 
 +++
-
-  ![](assets/campaign_report_email_5.png)
 
 ### 配信不能件数 {#non-deliverables-email}
 
