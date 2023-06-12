@@ -4,10 +4,10 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 9a0aaf311ae964b12fd55a749cf82fa0024c0643
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 83%
+source-wordcount: '488'
+ht-degree: 72%
 
 ---
 
@@ -41,9 +41,12 @@ Campaign クライアントコンソールは、お使いのシステムにイ�
 
 クライアントコンソールのダウンロードおよびインストール方法については、[こちら](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html?lang=ja){target="_blank"}を参照してください。
 
-Campaign v8 の使用方法について詳しくは、[ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}を参照してください。
+Campaign v8 の使用方法について詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}.
 
 Campaign データは、アプリケーションサーバーに保存されます。 クライアントコンソールと web UI の両方からデータを利用できます。 例えば、クライアントコンソールを使用して配信テンプレートを作成した場合、web UI でも使用できます。また、web UI でメール配信を作成した場合、クライアントコンソールからもこの配信にアクセスできます。
+
+
+一部のオブジェクトは、クライアントコンソールでのみ作成および管理できます。 Campaign Web UI で表示および使用できますが、この環境から作成または変更することはできません。 すべての Campaign オブジェクトおよびコンポーネントは、左側のナビゲーションから使用できるエクスプローラービューから使用できます。
 
 ## Campaign への接続
 
