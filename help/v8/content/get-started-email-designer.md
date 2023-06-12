@@ -3,7 +3,7 @@ audience: end-user
 title: メールコンテンツの編集
 description: Campaign Web UI の E メールデザイナーを使用してコンテンツの作成を開始する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
+source-git-commit: 208647ea17f6e0d824ff119a4d046c8041a04777
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 9%
@@ -42,7 +42,7 @@ E メール配信ダッシュボードから、 [コンテンツを編集](edit-
 
 * **既存のHTMLコンテンツの読み込み** ファイルまたは.zip フォルダーから。 電子メールコンテンツをにインポートする方法を説明します。 [この節](existing-content.md).
 
-* **既存のコンテンツを選択** 組み込みテンプレートまたはカスタムテンプレートのリストから。 電子メールテンプレートの使用方法を説明します。 [この節](email-templates.md).
+* **既存のコンテンツを選択** 組み込みテンプレートまたはカスタムテンプレートのリストから。 電子メールテンプレートの使用方法を説明します。 [この節](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
 
