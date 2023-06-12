@@ -4,7 +4,7 @@ title: プッシュ通知の基本を学ぶ
 description: Adobe Campaign Web を使用してプッシュ通知を作成し、送信する方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 14%
@@ -23,7 +23,7 @@ ht-degree: 14%
 
 * スタンドアロン配信：ワークフローやキャンペーンを必要とせずに、個々のプッシュ通知配信で顧客を直接、即座にエンゲージメントします。
 
-![](../assets/do-not-localize/book.png) ここでプッシュ通知チャネルを設定する方法を説明します [ページ](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html).
+![](../assets/do-not-localize/book.png) ここでプッシュ通知チャネルを設定する方法を説明します [ページ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
