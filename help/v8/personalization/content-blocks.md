@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positive"
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 68%
+source-wordcount: '445'
+ht-degree: 66%
 
 ---
 
@@ -55,4 +55,5 @@ Adobe Campaignは、事前設定済みのコンテンツブロックのリスト
 
 >[!NOTE]
 >
->Adobe Campaign V8 コンソールから新しいブロックを定義して、配信のパーソナライゼーションを最適化することができます。 [詳しくは、コンソールのドキュメントを参照してください。](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=ja)
+>Adobe Campaign v8 コンソールから新しいブロックを定義すると、配信のパーソナライゼーションを最適化できます。 詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+

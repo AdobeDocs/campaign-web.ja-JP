@@ -4,10 +4,10 @@ title: メールコンテンツのプレビュー
 description: Campaign web UI でメールコンテンツをプレビューする方法を学ぶ
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positive"
-source-git-commit: a06158b5aea52c074340ba9819dd67af4f148196
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 29%
+source-wordcount: '313'
+ht-degree: 28%
 
 ---
 
@@ -30,9 +30,9 @@ E メールのコンテンツをプレビューするには、次の手順に従
 
    * 「**[!UICONTROL テストプロファイル]**」タブには、データベース内の架空の追加受信者であるすべてのシードアドレスが一覧表示されます。
 
-      >[!NOTE]
-      >
-      >テストプロファイルは、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+     >[!NOTE]
+     >
+     >テストプロファイルは、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
 
    * 「**[!UICONTROL プロファイル]**」タブには、 コンソールから&#x200B;**[!UICONTROL プロファイルとターゲット]**&#x200B;フォルダーに保存されたすべての受信者がリストされます。[!DNL Campaign][詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
