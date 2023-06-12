@@ -3,10 +3,10 @@ audience: end-user
 title: キャンペーンレポート
 description: キャンペーンレポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 28%
+source-wordcount: '1520'
+ht-degree: 21%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 28%
 ### 配信の概要 {#delivery-summary-email}
 
 * **[!UICONTROL 配信の概要]** は、訪問者が E メール配信にどのように関与しているかに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。
+
+  ![](assets/campaign_report_email_1.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -32,9 +34,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL 初期ターゲットオーディエンス統計]** テーブルには、受信者に関連するデータが表示されます。
 
-* **[!UICONTROL 初期ターゲットオーディエンス統計]**
+  ![](assets/campaign_report_email_2.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -46,9 +48,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細が表示されます。
 
-* **[!UICONTROL 実行統計]**
+  ![](assets/campaign_report_email_3.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -62,9 +64,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL 反応統計]** テーブルには、配信で受信者のアクティビティに使用できるデータが含まれます。
 
-* **[!UICONTROL 反応統計]**
+  ![](assets/campaign_report_email_4.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -77,11 +79,9 @@ ht-degree: 28%
    * **[!UICONTROL ミラーページ]**:ミラーページのリンクをクリックした受信者の数。
 
    * **[!UICONTROL 転送数]**:E メールを転送した受信者の数。
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL クリックストリーム]**
+* **[!UICONTROL クリックストリーム]** テーブルには、受信者による配信との関わり方に関するデータが表示されます。
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 28%
 
 ### 配信不能件数 {#non-deliverables-email}
 
-* **[!UICONTROL タイプごとのエラーの分類]** および **[!UICONTROL ブラウザーごとのエラーの分類]**
+* **[!UICONTROL タイプごとのエラーの分類]** および **[!UICONTROL ドメインごとのエラーの分類]** テーブルとグラフには、各ドメインで発生した可能性のあるエラーに関して使用可能なデータが含まれています。
+
+  ![](assets/campaign_report_email_6.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -109,11 +111,11 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### トラッキング指標 {#tracking-indicators-email}
 
-* **[!UICONTROL 配信統計]**
+* **[!UICONTROL 配信統計]** は、送信された E メールで使用可能なデータに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。
+
+  ![](assets/campaign_report_email_7.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -130,9 +132,9 @@ ht-degree: 28%
    * **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送される E メール数の推定値。
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL 初期ターゲットオーディエンス統計]** テーブルには、受信者に関連するデータが表示されます。
 
-* **[!UICONTROL 開封率およびクリックスルー率]**
+  ![](assets/campaign_report_email_8.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -147,11 +149,11 @@ ht-degree: 28%
    * **[!UICONTROL 反応率（生データ）]**：配信を少なくとも 1 回開封した受信者数に対する、配信で少なくとも 1 回クリックした受信者数の割合。
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URL とクリックストリーム {#url-email}
 
-* **[!UICONTROL URL とクリックストリーム]**
+* **[!UICONTROL URL とクリックストリーム]** は、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。
+
+  ![](assets/campaign_report_email_9.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -163,9 +165,9 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれています。
 
-* **[!UICONTROL 最も訪問されたリンク上位 10 件]**
+  ![](assets/campaign_report_email_10.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -175,23 +177,23 @@ ht-degree: 28%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL 時間の経過に伴うクリック数の分類]**、クリック数
+* **[!UICONTROL 時間の経過に伴うクリック数の分類]** グラフには、リンクごとの受信者の行動に使用できるデータが含まれます。
 
   ![](assets/campaign_report_email_11.png)
 
 ### ユーザーアクティビティ {#user-activities-email}
 
-* **[!UICONTROL ユーザーアクティビティ]**
+* **[!UICONTROL ユーザーアクティビティ]** 開封数とクリック数の分類をグラフの形式で表示します。
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++電子メールキャンペーンレポート指標の詳細を説明します。
 
    * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 
    * **[!UICONTROL 開封数]**：メッセージを少なくとも 1 回開封した、このドメインのユニークターゲット受信者の数。
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## SMS チャネル {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL 初期ターゲットオーディエンス統計]**
+* **[!UICONTROL 初期ターゲットオーディエンス統計]** テーブルには、受信者に関連するデータが表示されます。
 
   +++SMS キャンペーンレポート指標の詳細を説明します。
 
@@ -223,7 +225,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL 実行統計]**
+* **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細が表示されます。
 
   +++SMS キャンペーンレポート指標の詳細を説明します。
 
@@ -237,7 +239,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL クリックストリーム]**
+* **[!UICONTROL クリックストリーム]** テーブルには、受信者による配信との関わり方に関するデータが表示されます。
 
   +++SMS キャンペーンレポート指標の詳細を説明します。
 
@@ -267,7 +269,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL 初期ターゲットオーディエンス統計]**
+* **[!UICONTROL 初期ターゲットオーディエンス統計]** テーブルには、受信者に関連するデータが表示されます。
 
   +++プッシュキャンペーンレポート指標の詳細を説明します。
 
@@ -279,7 +281,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL 実行統計]**
+* **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細が表示されます。
 
   +++プッシュキャンペーンレポート指標の詳細を説明します。
 
@@ -293,7 +295,7 @@ ht-degree: 28%
 
 +++
 
-* **[!UICONTROL クリックストリーム]**
+* **[!UICONTROL クリックストリーム]** テーブルには、受信者による配信との関わり方に関するデータが表示されます。
 
   +++プッシュキャンペーンレポート指標の詳細を説明します。
 
