@@ -4,7 +4,7 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 98%
@@ -72,7 +72,7 @@ Global report not alpha
 
 他のリスト画面と同様に、必要な情報をすべて表示するために、列を設定して表示をパーソナライズすることができます。[こちら](#list-screens)を参照してください。
 
-Campaign エクスプローラーについて詳しくは、この [Campaign v8 コンソールドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=ja#ac-explorer-ui){target="_blank"}.
+Campaign エクスプローラーについて詳しくは、この [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=ja#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -99,9 +99,9 @@ Navtree view depends on permissions (same as console).
 
 * **配信** - 配信のリストを閲覧できます。デフォルトでは、配信の状態、最終変更日および主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。メール配信をクリックすると、その配信のダッシュボードが開くので、配信の詳細を大まかに確認できます。他のチャネルでの配信は読み取り専用です。配信について詳しくは、[この節](../msg/gs-messages.md)を参照してください。
 
-   「**その他のアクション**」ボタンを使用すると、配信を削除または複製できます。
+  「**その他のアクション**」ボタンを使用すると、配信を削除または複製できます。
 
-   ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){width="70%" align="left"}
 
 * **ワークフロー** - この画面では、ワークフローとワークフローテンプレートの完全なリストにアクセスできます。ステータス、最後／次回の実行日を確認し、新しいワークフローまたは新しいワークフローテンプレートを作成できます。他のオブジェクトと同じ条件でリストをフィルタリングできます。さらに、キャンペーンに属するかどうかにかかわらず、ワークフローをフィルタリングできます。ワークフローについて詳しくは、[この節](../workflows/gs-workflows.md)を参照してください。
 
@@ -164,7 +164,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 任意の列ヘッダーをクリックすると、リスト内の項目を並べ替えることができます。リストがその列で並べ替えられていることを示す（上または下）矢印が表示されます。数値列または日付列の場合、上向き矢印はリストが昇順で並べ替えられていることを示し、下向き矢印は降順であることを示します。文字列の列または英数字の列の場合、値はアルファベット順に表示されます。
 
-## コンテキストヘルプとオンボーディングガイド
+## コンテキストヘルプとオンボーディングガイド {#contextual-help}
 
 コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合、**？**&#x200B;アイコンをクリックしてヘルプ情報および関連ドキュメントのリンクを表示してください。
 
@@ -218,12 +218,6 @@ Campaign v8 Web は現在、次の言語で利用できます。
 1. 優先言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
 
    ![](assets/select-language.png)
-
-<!--
-## Supported browsers {#browsers}
-
-Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
--->
 
 
 

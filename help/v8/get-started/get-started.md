@@ -4,10 +4,10 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 72%
+source-wordcount: '469'
+ht-degree: 71%
 
 ---
 
@@ -34,19 +34,6 @@ Web UI で使用できない Campaign v8 機能にアクセスする必要があ
 >
 >Campaign v8 Web は現在アルファバージョンです。 アクセスは、一部のアルファ顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
-## Campaign クライアントコンソールについて{#ac-client}
-
-Campaign クライアントコンソールは、お使いのシステムにインストールされるブラウザーベースのアプリケーションです。 Web サービス API を使用して、Campaign アプリケーションサーバーに接続します。
-
-クライアントコンソールのダウンロードおよびインストール方法については、[こちら](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html?lang=ja){target="_blank"}を参照してください。
-
-Campaign v8 の使用方法について詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}.
-
-Campaign データは、アプリケーションサーバーに保存されます。 クライアントコンソールと web UI の両方からデータを利用できます。 例えば、クライアントコンソールを使用して配信テンプレートを作成した場合、web UI でも使用できます。また、web UI でメール配信を作成した場合、クライアントコンソールからもこの配信にアクセスできます。
-
-
-一部のオブジェクトは、クライアントコンソールでのみ作成および管理できます。 Campaign Web UI で表示および使用できますが、この環境から作成または変更することはできません。 すべての Campaign オブジェクトおよびコンポーネントは、左側のナビゲーションから使用できるエクスプローラービューから使用できます。
-
 ## Campaign への接続
 
 
@@ -63,3 +50,13 @@ Campaign に接続しました。ユーザーインターフェイスの使用�
 -> or Campaign v8 web if direct URL
 -->
 
+
+## Campaign クライアントコンソールについて{#ac-client}
+
+Campaign クライアントコンソールは、お使いのシステムにインストールされるブラウザーベースのアプリケーションです。 Web サービス API を使用して、Campaign アプリケーションサーバーに接続します。
+
+Campaign データは、アプリケーションサーバーに保存されます。 クライアントコンソールと web UI の両方からデータを利用できます。 例えば、クライアントコンソールを使用して配信テンプレートを作成した場合、web UI でも使用できます。また、web UI でメール配信を作成した場合、クライアントコンソールからもこの配信にアクセスできます。
+
+一部のオブジェクトは、クライアントコンソールでのみ作成および管理できます。 Campaign Web UI で表示および使用できますが、この環境から作成または変更することはできません。 すべての Campaign オブジェクトおよびコンポーネントは、左側のナビゲーションから使用できるエクスプローラービューから使用できます。
+
+Campaign v8 の使用方法について詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}.
