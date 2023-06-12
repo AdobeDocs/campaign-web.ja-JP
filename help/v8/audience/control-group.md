@@ -4,10 +4,10 @@ title: コントロール母集団の設定
 description: Campaign web UI でメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positive"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 47%
+source-wordcount: '759'
+ht-degree: 41%
 
 ---
 
@@ -81,11 +81,11 @@ ht-degree: 47%
 
 * 配信ダッシュボードで、送信前に **除外する** KPI
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * 配信ログの「ログ」タブには、除外手順が表示されます。
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ ht-degree: 47%
 
 * この **除外の原因** 「 」タブには、各タイポロジルールから除外されたプロファイルの数が表示されます。
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 配信ログについて詳しくは、[こちら](../monitor/delivery-logs.md)を参照してください。
 
@@ -104,19 +104,19 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="追加の母集団"
->abstract="既存のオーディエンスを選択するか、クエリを定義することで、ターゲットから特定の母集団を除外できます。"
+>abstract="既存のオーディエンスを選択するか、クエリを定義することで、配信オーディエンスから特定の母集団を除外できます。"
 
-コントロール母集団を定義するもう 1 つの方法は、既存のオーディエンスを使用するか、クエリを定義してターゲットから特定のプロファイルを除外することです。
+コントロール母集団を定義する別の方法は、既存のオーディエンス内の特定の母集団を選択するか、クエリを定義することです。
 
 **コントロール母集団**&#x200B;の定義画面で、「**追加の母集団**」セクションの「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
 
 ![](assets/control-group3.png)
 
-* 既存のオーディエンスを使用するには、「**オーディエンスを選択**」をクリックします。[こちら](add-audience.md)を参照してください。
+* 既存のオーディエンスを使用するには、「**オーディエンスを選択**」をクリックします。詳しくは、[こちら](add-audience.md)を参照してください。
 
-* 新しいクエリを定義するには、「**独自に作成**」を選択し、ルールビルダーを使用して除外条件を定義します。[こちら](segment-builder.md)を参照してください。
+* 新しいクエリを定義するには、「**独自に作成**」を選択し、ルールビルダーを使用して除外条件を定義します。詳しくは、[こちら](segment-builder.md)を参照してください。
 
-オーディエンスに含まれているプロファイル、またはクエリの結果と一致するプロファイルが、ターゲットから除外されます。
+オーディエンスに含まれるプロファイル、またはクエリの結果と一致するプロファイルは次のとおりです **除外済み** 配信ターゲットから：メッセージは受け取りません。
 
 ## 結果の比較{#control-group-results}
 
