@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ通知配信の送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 22%
+source-wordcount: '275'
+ht-degree: 23%
 
 ---
 
@@ -50,4 +50,4 @@ ht-degree: 22%
 
 配信が送信されたら、配信ページの KPI（主要業績評価指標）データと、ログメニューのデータをトラッキングできます。
 
-これで、組み込みレポートを使用して、メッセージの影響の測定を開始できます。
+これで、組み込みレポートを使用して、メッセージの影響の測定を開始できます。 [詳細情報](../reporting/push-report.md)
