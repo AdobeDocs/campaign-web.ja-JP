@@ -4,9 +4,9 @@ title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '513'
 ht-degree: 12%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 12%
 Adobe Campaign を使用して、クロスチャネルキャンペーンを作成します。マーケティングキャンペーンオーケストレーション機能を使用すると、顧客データの管理と一元化、顧客コミュニケーションとキャンペーンの設計、様々なチャネルにわたるパーソナライズされたエクスペリエンスの作成が可能です。 このバージョンでは、E メール、プッシュおよび SMS チャネルを使用できます。
 
 大量の E メールキャンペーンを設計および実行して、あらゆるプラットフォームおよび画面サイズに合わせてパーソナライズされたメッセージを配信します。
-開封数、クリック数、転送数などの詳細レポートで、配信の効果を測定します。  Adobe Campaign のセグメント化機能を使用すると、大量のデータベースに対してクエリを実行し、キャンペーンを完全にターゲットにする動的なマーケティングセグメントを簡単に定義できます。
+開封数、クリック数、転送数などの詳細レポートで、配信の有効性を測定します。  Adobe Campaign のセグメント化機能を使用すると、大量のデータベースに対してクエリを実行し、キャンペーンを完全にターゲットにする動的なマーケティングセグメントを簡単に定義できます。
 
 <!--
 Get Started with campaigns
@@ -56,7 +56,7 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 この **キャンペーンの設定** アイコンを使用すると、キャンペーンの作成時に定義したキャンペーンのプロパティを変更できます。 参照 [セクション](create-campaigns.md#create-campaigns)
 
-## ロングの監視と追跡{#campaign-monitoring}
+## ログの監視とトラッキング{#campaign-monitoring}
 
 キャンペーンの監視は、キャンペーンを分析するための重要な手順です。 これらは、 **ログ** 」ボタンをクリックします。
 
