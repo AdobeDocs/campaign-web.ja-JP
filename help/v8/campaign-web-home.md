@@ -4,7 +4,7 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 39b4ec268ba7b1383ad887ab35e66b67d1d4a2ef
+source-git-commit: 45f56870bc823b4f620063cd1a64d69e91c4e0a8
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 30%
@@ -69,19 +69,19 @@ Campaign に、ユーザビリティ、アクセシビリティ、新しいデ�
 
 <table style="table-layout:fixed">
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-ui.jpeg">
+<img alt="新しい UI" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
 </a></td><td>Campaign Web の新しいユーザーインターフェイス、最新の改善、主な機能について説明します。 これらを使用して、オーディエンスのクロスチャネルキャンペーンを作成する方法を説明します。 Campaign は、使いやすい機能を備え、パーソナライズされたクロスチャネルキャンペーン作成プロセスを合理化し、成果を上げ、競争力を高めます。</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-workflows.jpeg">
+<img alt="新しい UI" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
 </a></td><td>包括的なグラフィカルキャンバスにより、セグメント化やキャンペーン実行などのプロセスを簡単に設計できます。 指先で操作できるこの高度なツールを使用して、ワークフローを合理化し、キャンペーンを強化できます。</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-design.jpg">
+<img alt="新しい UI" src="assets/do-not-localize/menu-design.jpg" width="150px">
 </a></td><td>テンプレートから開始するか、Adobe Campaignの新しい電子メールデザイナーを使用して、コードを 1 行も書かずに電子メールを作成できます。 E メールデザイナーを使用して、コンテンツを作成、プレビューおよびテストし、既存のオーディエンスに E メールをエンドツーエンドで送信する方法を説明します。</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-dynamic.jpg">
+<img alt="新しい UI" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
 </a></td><td>条件付きコンテンツを作成して、受信者のプロファイルに基づいて動的パーソナライゼーションを定義し、特定の条件が満たされた場合にテキストブロックや画像を自動的に置き換えます。 この機能を使用すると、キャンペーンを新たな高みに導き、ターゲットを絞り込んでパーソナライズされたエクスペリエンスをオーディエンスに提供できます</td></tr>
 <tr style="border: 0;"><td><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-campaign.jpeg">
+<img alt="新しい UI" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
 </a></td><td>Adobe Campaignの機能は、一元化された顧客データの管理、顧客コミュニケーションおよびキャンペーンの設計、様々なチャネルにわたるパーソナライズされたエクスペリエンスの作成に役立ちます。E メール、プッシュ、SMS。</td></tr>
 </table>
 
