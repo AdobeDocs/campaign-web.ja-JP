@@ -4,10 +4,10 @@ title: テストメールの送信
 description: テストメールの定義および送信方法を説明します
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positive"
-source-git-commit: c6ebdf23c22cb197a816684108c782aa2180dc1e
+source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 テストメールは、次の 2 種類の受信者に送信できます。
 
-* **テストプロファイル** ：シードアドレスにテストメールを送信します。シードアドレスは、データベース内の追加の架空の受信者です。 これらは、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+* **テストプロファイル** ：シードアドレスにテストメールを送信します。シードアドレスは、データベース内の追加の架空の受信者です。 これらは、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **メインターゲットから置換**  — 既存のプロファイルを偽装しているときに、特定の電子メールアドレスにテスト用の電子メールを送信します。 これにより、プロファイルが受け取るメッセージが正確に表示され、メール受信者と同じエクスペリエンスが得られます。
 
