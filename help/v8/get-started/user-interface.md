@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 83%
+source-wordcount: '1772'
+ht-degree: 66%
 
 ---
 
@@ -129,29 +129,75 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## リスト画面の設定 {#list-screens}
+## リストの参照とフィルター {#list-screens}
 
-左側のナビゲーションメニューの複数のリンクには、**配信**&#x200B;または&#x200B;**キャンペーン**&#x200B;など、オブジェクトのリストが表示されます。メール配信リストを除き、すべてのリスト画面は読み取り専用です。
+左側のナビゲーションメニューのほとんどのリンクには、オブジェクトのリスト ( **配信** または **キャンペーン**. これらのリスト画面の一部は読み取り専用です。 以下に説明するように、リストの表示をカスタマイズし、これらのリストをフィルタリングできます。
+
+フィルターを削除するには、 **すべてクリア** 」ボタンをクリックします。
+
+### リスト画面のカスタマイズ {#custom-lists}
+
+リストは複数の列で表示されます。 列の設定を変更すると、追加情報を表示できます。これをおこなうには、 **カスタムレイアウトの列を設定する** アイコンをクリックします。
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+内 **列の設定** 画面を表示し、列を追加または削除し、列の表示順を変更します。
+
+例えば、次の設定の場合は、
+
+![](assets/columns.png){width="70%" align="left"}
+
+リストには、次の列が表示されます。
+
+![](assets/column-sample.png){width="70%" align="left"}
+
+以下を使用： **詳細属性の表示** 切り替えて、現在のリストのすべての属性を表示します。 [詳細情報](#adv-attributes)
+
+### データを並べ替え {#sort-lists}
+
+任意の列見出しをクリックして、リスト内の項目を並べ替えることもできます。 リストがその列で並べ替えられていることを示す（上または下）矢印が表示されます。
+
+数値列または日付列の場合、 **上** 矢印は、リストが昇順で並べ替えられ、 **下** 矢印は降順を示します。 文字列の列または英数字の列の場合、値はアルファベット順に表示されます。
+
+### 組み込みフィルター {#list-built-in-filters}
 
 項目をすばやく見つけるには、検索バーを使用するか、コンテキスト条件に基づいてリストをフィルタリングします。
 
 ![](assets/filter.png){width="70%" align="left"}
 
-リストは複数の列で表示されます。 列の設定を変更すると、追加情報を表示できます。それには、リストの右上隅にあるアイコンをクリックします。 列の追加または削除や表示順序の変更を行うことができます。
+例えば、ステータス、チャネル、コンタクト日またはフォルダーに関する配信をフィルターできます。 テストを非表示にすることもできます。
 
-![](assets/columns.png){width="70%" align="left"}
+### カスタムフィルター{#list-custom-filters}
 
-任意の列ヘッダーをクリックすると、リスト内の項目を並べ替えることができます。リストがその列で並べ替えられていることを示す（上または下）矢印が表示されます。数値列または日付列の場合、上向き矢印はリストが昇順で並べ替えられていることを示し、下向き矢印は降順であることを示します。文字列の列または英数字の列の場合、値はアルファベット順に表示されます。
+データに対してカスタムフィルターを作成するには、フィルターの下部まで参照し、 **ルールを追加** 」ボタンをクリックします。
 
-## コンテキストヘルプとオンボーディングガイド {#contextual-help}
+属性をドラッグ&amp;ドロップして、 **詳細フィルター** 画面
 
-コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合、**？**&#x200B;アイコンをクリックしてヘルプ情報および関連ドキュメントのリンクを表示してください。
+![](assets/custom-filter.png){width="70%" align="left"}
+
+以下を使用： **詳細属性の表示** 切り替えて、現在のリストのすべての属性を表示します。 [詳細情報](#adv-attributes)
+
+### 詳細属性を使用 {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="詳細属性を表示"
+>abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。 この切り替えを使用して、高度な属性を持つフィルターを作成します。"
+
+属性リストおよびフィルター設定画面には、デフォルトで、最も一般的な属性のみが表示されます。
+
+以下を使用： **詳細属性の表示** リストの下で切り替えて、現在のリストで使用可能な属性をすべて表示します。
+
+
+## コンテキストヘルプ {#contextual-help}
+
+コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合は、 `?` アイコンをクリックして、ヘルプ情報および関連ドキュメントのリンクを表示します。
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-また、Campaign v8 web の基本を学ぶうえで役に立つオンボーディングガイドも利用できます。右下隅にあるアイコンをクリックし、利用できるステップバイステップ方式のシナリオの 1 つを選択し、指示に従うだけです。
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## サポートしているブラウザー {#browsers}
 
@@ -187,17 +233,8 @@ Campaign v8 Web は現在、次の言語で利用できます。
 言語を変更するには：
 
 1. 右上のプロファイルアイコンをクリックし、 「**環境設定**」を選択します。
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. 次に、メールアドレスの下に表示されている言語をクリックします。
-
-   ![](assets/preferences2.png)
-
+1. 次に、E メールアドレスの下に表示される言語リンクをクリックします。
 1. 優先言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="ルールビルダーの詳細フィールド"
+>abstract="詳細フィールドを使用して列を設定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="権限が必要です"
 >abstract="セグメントを作成するには、管理者から権限が付与されている必要があります。"
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="属性ピッカーの詳細フィールド"
->abstract="詳細フィールドを使用して列を設定します。"
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="ルールビルダーの詳細フィールド"
->abstract="詳細フィールドを使用して列を設定します。"
+
 
 
 
