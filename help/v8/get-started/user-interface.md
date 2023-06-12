@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positive"
-source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
+source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1769'
 ht-degree: 66%
 
 ---
@@ -186,8 +186,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 属性リストおよびフィルター設定画面には、デフォルトで、最も一般的な属性のみが表示されます。
 
-以下を使用： **詳細属性の表示** リストの下で切り替えて、現在のリストで使用可能な属性をすべて表示します。
-
+以下を使用： **詳細属性の表示** 切り替えて、現在のリストで使用可能なすべての属性を表示します。
 
 ## コンテキストヘルプ {#contextual-help}
 
