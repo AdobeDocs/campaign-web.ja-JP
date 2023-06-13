@@ -2,11 +2,11 @@
 audience: end-user
 title: リストの参照、検索、フィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法について説明します。
-badge: label="Alpha" type="Positive"
-source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 14%
+source-wordcount: '415'
+ht-degree: 17%
 
 ---
 
@@ -65,6 +65,17 @@ ht-degree: 14%
 >id="acw_attributepicker_advancedfields"
 >title="詳細属性を表示"
 >abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。 この切り替えを使用して、高度な属性を持つフィルターを作成します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="ルールビルダーの詳細フィールド"
+>abstract="詳細フィールドを使用して列を設定します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="ルールビルダーの詳細属性"
+>abstract="詳細属性を使用して、ルールを定義します。"
+
 
 属性リストおよびフィルター設定画面には、デフォルトで、最も一般的な属性のみが表示されます。 設定された属性 `advanced` データスキーマの属性は、設定画面で非表示になります。
 
