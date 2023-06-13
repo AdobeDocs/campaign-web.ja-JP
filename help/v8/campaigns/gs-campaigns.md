@@ -4,10 +4,10 @@ title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 12%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -19,10 +19,18 @@ ht-degree: 12%
 >title="クロスチャネルキャンペーンの設計と送信"
 >abstract="Adobe Campaignの機能は、一元化された顧客データの管理、顧客コミュニケーションおよびキャンペーンの設計、様々なチャネルにわたるパーソナライズされたエクスペリエンスの作成に役立ちます。E メール、プッシュ、SMS。"
 
-Adobe Campaign を使用して、クロスチャネルキャンペーンを作成します。マーケティングキャンペーンオーケストレーション機能を使用すると、顧客データの管理と一元化、顧客コミュニケーションとキャンペーンの設計、様々なチャネルにわたるパーソナライズされたエクスペリエンスの作成が可能です。 このバージョンでは、E メール、プッシュおよび SMS チャネルを使用できます。
+Adobe Campaignでは、組み込みのキャンペーン管理機能を使用して、ターゲットを絞ったマーケティング戦略を簡単に調整できます。 スケジュールを定義する機能を使用すると、キャンペーンの期間とタイミングを計画し、戦略的な目標に合わせてオーディエンスのエンゲージメントを最大化できます。
 
-大量の E メールキャンペーンを設計および実行して、あらゆるプラットフォームおよび画面サイズに合わせてパーソナライズされたメッセージを配信します。
-開封数、クリック数、転送数などの詳細レポートで、配信の有効性を測定します。  Adobe Campaign のセグメント化機能を使用すると、大量のデータベースに対してクエリを実行し、キャンペーンを完全にターゲットにする動的なマーケティングセグメントを簡単に定義できます。
+キャンペーンに固有の複数のワークフローや配信を追加することで、様々なチャネルをまたいでパーソナライズされたエクスペリエンスを作成し、各タッチポイントが意図したオーディエンスの共感を呼び起こすようにできます。
+
+キャンペーンには、キャンペーン全体のパフォーマンスに関する包括的なインサイトを得るための専用のレポート指標が用意されており、効果を評価し、傾向を特定し、データに基づく意思決定を行って、将来の取り組みを最適化できます。
+
+<!--
+Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
+
+Design and execute high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
+Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns.
+-->
 
 <!--
 Get Started with campaigns
@@ -39,34 +47,20 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 * この **テンプレート** 「 」タブに、使用可能なキャンペーンテンプレートがすべて表示されます。 キャンペーンテンプレートは、新しいキャンペーンの作成に再利用できるように事前設定されています。 クライアントコンソールから作成されます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja)。
 
+リスト内の各キャンペーンには、現在のステータス、作成日、最終変更日時などに関する情報が表示されます。
+
 表示される列は、 **カスタムレイアウトの列を設定する** リストの右上隅にあるアイコン。 これにより、リストに情報を追加できます。 また、検索バーとフィルターを使用して、リスト内での検索を容易にすることができます。 [詳細情報](../get-started/user-interface.md#list-screens)
 
 例えば、キャンペーンスケジュールに基づいてフィルタリングできます。 フィルターパネルを開き、 **開始 — 終了日** セクション：
 
 ![キャンペーンリスト](assets/campaign-filter-on-dates.png)
 
-リスト内の各キャンペーンには、現在のステータス、作成日、最終変更日時などに関する情報が表示されます。
-
 ## キャンペーンダッシュボード{#campaign-dashboard}
 
-内 **参照** 」タブをクリックし、キャンペーンをクリックして、キャンペーンのダッシュボードを表示します。 次の 2 つのタブを使用できます。
+内 **参照** 「 」タブで、キャンペーンをクリックして、キャンペーンのダッシュボードを表示します。 次の 2 つのタブを使用できます。
 
 * この **ワークフロー** 「 」タブには、キャンペーンにリンクされているすべてのワークフローが表示されます。 また、このタブでは、キャンペーン内に新しいワークフローを作成できます。 参照 [セクション](create-campaigns.md#create-campaigns)
-* この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信の一覧が表示されます。 また、このタブでは、キャンペーン内に新しい配信を作成できます。 参照 [セクション](create-campaigns.md#create-campaigns)
+* この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信の一覧が表示されます。 キャンペーン内に新しい配信を作成することもできます。 参照 [セクション](create-campaigns.md#create-campaigns)
 
 この **キャンペーンの設定** アイコンを使用すると、キャンペーンの作成時に定義したキャンペーンのプロパティを変更できます。 参照 [セクション](create-campaigns.md#create-campaigns)
-
-## ログの監視とトラッキング{#campaign-monitoring}
-
-キャンペーンの監視は、キャンペーンを分析するための重要な手順です。 これらは、 **ログ** 」ボタンをクリックします。
-
-また、 **レポート** ボタンをクリックします。 参照 [セクション](../reporting/campaign-reports.md)
-
-## 複製と削除
-
-キャンペーンを複製または削除するには、省略記号ボタンをクリックし、「 **複製** または **削除**. キャンペーンのダッシュボードから、ワークフローや配信を複製または削除することもできます。
-
->[!NOTE]
->
->ワークフロー内の配信を削除するには、ワークフローからその配信を削除する必要があります。
 
