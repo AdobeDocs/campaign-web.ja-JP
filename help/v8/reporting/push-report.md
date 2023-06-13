@@ -3,10 +3,10 @@ audience: end-user
 title: 配信レポートのプッシュ
 description: プッシュ配信レポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 9%
+source-wordcount: '300'
+ht-degree: 8%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 9%
 >id="acw_push_report_overview"
 >title="プッシュレポートの概要"
 >abstract="プッシュ配信のレポート指標を確認します。"
+
+この **プッシュ配信レポート** では、プッシュチャネルの完全な概要を提供し、広範なインサイトと特定のデータを提供します。 各配信のパフォーマンス、効果、結果に関する包括的な情報を提供します。
 
 ## プッシュの概要 {#push-summary}
 
