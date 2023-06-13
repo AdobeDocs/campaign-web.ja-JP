@@ -3,36 +3,32 @@ audience: end-user
 title: 独自のメールコンテンツをコーディング
 description: 独自のメールコンテンツのコーディング方法を説明します
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Alpha" type="Positive"
-source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
-workflow-type: ht
-source-wordcount: '161'
-ht-degree: 100%
+badge: label="Alpha"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 60%
 
 ---
 
 # 独自のメールコンテンツをコーディング {#code-content}
 
-**[!UICONTROL 独自のコーディング]**&#x200B;モードを使用して、Raw HTML を読み込んだり、メールコンテンツをコーディングしたりします。この方法には、HTML スキルが必要です。
+**[!UICONTROL 独自のコーディング]**&#x200B;モードを使用して、Raw HTML を読み込んだり、メールコンテンツをコーディングしたりします。
 
-1. 電子メールデザイナーのホームページで、「**[!UICONTROL 独自のコーディング]**」を選択します。
+>[!CAUTION]
+>
+>この方法には、HTML スキルが必要です。
+
+1. の [メールデザイナー](get-started-email-designer.md) ホームページ、選択 **[!UICONTROL 独自のコーディング]**.
 
    ![](assets/code-your-own.png)
 
-1. Raw HTML コードを入力または貼り付けます。
+1. メインキャンバスに生のHTMLコードを入力するか貼り付けます。
 
-1. 左側のペインを使用してパーソナライゼーション機能を活用します。
+1. 左側のペインを使用してパーソナライゼーション機能を活用します。[詳細情報](../personalization/gs-personalization.md)
 
-1. メールの内容をクリアして新しいデザインからメールを開始する場合は、オプション メニューから「**[!UICONTROL デザインを変更]**」を選択します。
+   ![](assets/code-editor-personalization.png)
 
-   ![](assets/code-editor-change-design.png)
+1. **[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンをクリックして、テストプロファイルを使用してメッセージデザインとパーソナライゼーションを確認します。[詳細情報](../preview-test/preview-test.md)
 
-   >[!NOTE]
-   >
-   >このアクションにより、メールデザイナーで選択したテンプレートが開きます。ここから、メールのデザインを完成させるか、「**[!UICONTROL コードエディターに切り替え]**」オプションを使用してコードエディターに戻ることができます。
-
-1. **[!UICONTROL コンテンツをシミュレート]**&#x200B;ボタンをクリックして、テストプロファイルを使用してメッセージデザインとパーソナライゼーションを確認します。
-
-1. コードの準備が整ったら、「**[!UICONTROL 保存]**」をクリックし、メッセージ作成画面に戻り、メッセージを最終決定します。
-
-   ![](assets/code-editor-save.png)
+1. コードの準備が整ったら、「 **[!UICONTROL 保存して閉じる]** をクリックして、メッセージ作成画面に戻り、メッセージを最終決定します。

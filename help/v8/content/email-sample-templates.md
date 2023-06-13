@@ -2,11 +2,11 @@
 audience: end-user
 product: campaign
 title: メールテンプレートの操作
-badge: label="Alpha" type="Positive"
-source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
+badge: label="Alpha"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 11%
+source-wordcount: '120'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ Campaign には、選択可能な一連の組み込みテンプレートが付�
 
 サンプルテンプレートの 1 つを使用してコンテンツの作成を開始するには、次の手順に従います。
 
-1. を開きます。 [メールデザイナー](create-email-content.md).
+1. を開きます。 [メールデザイナー](get-started-email-designer.md).
 
 1. の **[!UICONTROL メールを作成]** 画面、 **[!UICONTROL サンプルテンプレート]**  が表示されます。
 
