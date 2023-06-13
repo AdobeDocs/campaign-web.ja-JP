@@ -2,17 +2,17 @@
 audience: end-user
 title: Adobe Campaign Web でのキャンペーンの作成
 description: Adobe Campaign Web を使用してクロスチャネルキャンペーンを作成する方法を学ぶ
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 17%
+source-wordcount: '290'
+ht-degree: 21%
 
 ---
 
 
-# クロスチャネルキャンペーンの作成 {#create-campaigns}
+# 最初のキャンペーンを作成 {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 17%
 >title="キャンペーンプロパティ"
 >abstract="キャンペーンの設定とメタデータを定義します。"
 
-キャンペーンには、ワークフローとスタンドアロン配信を含めることができます。
+キャンペーンには、ワークフローとスタンドアロン配信を含めることができます。 プロパティ、スケジュール、作業、配信、および無料スケジュール
+
+## キャンペーンの作成
 
 新しいキャンペーンを作成するには、次の手順に従います。
 
@@ -32,7 +34,7 @@ ht-degree: 17%
 1. を選択します。 **テンプレート** を使用して、キャンペーンのラベルを指定します。 キャンペーンテンプレートは、新しいキャンペーンの作成に再利用できるように事前設定されています。 クライアントコンソールから作成されます。
    [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja)。
 1. 必要に応じて、次の項目を変更できます **その他のオプション**:内部名、フォルダー、担当者、説明および特性
-1. 次を定義： **スケジュール** キャンペーンの キャンペーンは、開始日になると開始されます。 開始日と終了日はキャンペーンリストに表示され、フィルターとして使用できます。 [こちら](gs-campaigns.md#access-campaigns)を参照してください。
+1. 次を定義： **スケジュール** キャンペーンの キャンペーンは、開始日になると開始されます。 開始日と終了日はキャンペーンリストに表示され、フィルターとして使用できます。 [こちら](manage-campaigns.md#access-campaigns)を参照してください。
 
    ![キャンペーンプロパティの定義](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ ht-degree: 17%
 
 1. 以下を使用： **ログ** および **レポート** ボタンを使用して、キャンペーンのパフォーマンスを分析します。
 
-## ログの監視とトラッキング{#campaign-monitoring}
+## キャンペーンの監視とトラッキング{#campaign-monitoring}
 
 キャンペーンの監視は、キャンペーンを分析するための重要な手順です。 キャンペーンを開き、 **ログ** 」ボタンをクリックします。
 
 また、 **レポート** 」ボタンをクリックします。 [こちら](../reporting/campaign-reports.md)を参照してください。
 
-## キャンペーンの複製と削除
-
-キャンペーンの複製や削除は、次の場合におこなえます。
-
-* キャンペーンのリストで、省略記号ボタンをクリックし、「 **複製** または **削除**.
-* キャンペーン自体から、 **詳細** ボタンをクリックし、 **複製** または **削除**.
-
->[!NOTE]
->
->この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信が表示されます。 ただし、ワークフローで作成された配信はそこから削除できません。 ワークフローのコンテキストで作成された配信を削除するには、ワークフローから配信アクティビティを削除する必要があります。
-
++++WORKF ++画面
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

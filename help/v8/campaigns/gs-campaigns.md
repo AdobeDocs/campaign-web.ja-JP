@@ -2,12 +2,12 @@
 audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 7%
+source-wordcount: '151'
+ht-degree: 9%
 
 ---
 
@@ -25,6 +25,9 @@ Adobe Campaignでは、組み込みのキャンペーン管理機能を使用し
 
 キャンペーンには、キャンペーン全体のパフォーマンスに関する包括的なインサイトを得るための専用のレポート指標が用意されており、効果を評価し、傾向を特定し、データに基づく意思決定を行って、将来の取り組みを最適化できます。
 
+![キャンペーンフロー](assets/campaign-flow.png)
+
+
 <!--
 Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
 
@@ -38,38 +41,3 @@ Adobe Campaign offers a set of solutions that help you personalize and deliver c
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 -->
-
-## キャンペーンへのアクセスと管理{#access-campaigns}
-
-新しいキャンペーンを作成したり、既存のキャンペーンを管理したりするには、 **[!UICONTROL キャンペーン]** メニュー
-
-![キャンペーンリスト](assets/campaign-list.png)
-
-次の 2 つのタブを使用できます。
-
-* この **参照** 「 」タブには、既存のすべてのキャンペーンが一覧表示されます。 キャンペーンをクリックしてダッシュボードを開くか、 **キャンペーンを作成** 」ボタンをクリックします。 [こちら](create-campaigns.md#create-campaigns)を参照してください。
-
-* この **テンプレート** 「 」タブに、使用可能なキャンペーンテンプレートがすべて表示されます。 キャンペーンテンプレートは、新しいキャンペーンを作成する際に再利用できるように事前設定されています。 クライアントコンソールから作成されます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja)
-
-リスト内の各キャンペーンには、現在のステータス、作成日、最終変更日時などに関する情報が表示されます。
-
-表示される列は、 **カスタムレイアウトの列を設定する** リストの右上隅にあるアイコン。 これにより、リストに情報を追加できます。 また、検索バーとフィルターを使用して、リスト内での検索を容易にすることができます。 [詳細情報](../get-started/user-interface.md#list-screens)
-
-例えば、キャンペーンスケジュールに基づいてフィルタリングできます。 フィルターパネルを開き、 **開始 — 終了日** セクション：
-
-![キャンペーンフィルター](assets/campaign-filter-on-dates.png)
-
-## キャンペーンダッシュボード{#campaign-dashboard}
-
-内 **参照** 「 」タブで、キャンペーンをクリックして、キャンペーンのダッシュボードを表示します。
-
-![キャンペーンダッシュボード](assets/campaign-dashboard.png)
-
-キャンペーンのステータスとスケジュールが画面の上部に表示されます。 以下を使用して、 **キャンペーンの設定** アイコンを使用して、キャンペーンの作成時に定義したキャンペーンのプロパティを変更します。 キャンペーンのログ、レポート、複製、削除を表示する 3 つのボタンを使用できます。 参照 [セクション](create-campaigns.md#create-campaigns)
-
-次の 2 つのタブを使用できます。
-
-* この **ワークフロー** 「 」タブには、キャンペーンにリンクされているすべてのワークフローが表示されます。 また、このタブでは、キャンペーン内に新しいワークフローを作成できます。 参照 [セクション](create-campaigns.md#create-campaigns)
-
-* この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信の一覧が表示されます。 キャンペーン内に新しい配信を作成することもできます。 参照 [セクション](create-campaigns.md#create-campaigns)
-

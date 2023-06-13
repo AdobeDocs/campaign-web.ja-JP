@@ -2,12 +2,12 @@
 audience: end-user
 title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの方法を説明します
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 11%
+source-wordcount: '305'
+ht-degree: 10%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign Web を使用すると、電子メール、SMS、プッシュな�
 次のアクティビティは、ワークフローの整理と実行に固有です。 主なタスクは、他のアクティビティを調整することです。
 
 * この [AND 結合](and-join.md) 「 」アクティビティを使用すると、ワークフローの複数の実行分岐を同期できます。
-* この [終了](end.md) 「 」アクティビティを使用すると、ワークフローの終わりを視覚的に示すことができます。 このアクティビティは、機能に対する影響がないので、オプションです。
+* この **終了** 「 」アクティビティを使用すると、ワークフローの終わりを視覚的に示すことができます。 このアクティビティは、機能に対する影響がないので、オプションです。
 * この [分岐](fork.md) 「 」アクティビティを使用すると、アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。
 * この [待機](wait.md) 「 」アクティビティは、ワークフローの一部の実行を一時的に中断します。
 

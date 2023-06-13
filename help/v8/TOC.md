@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 73%
+source-wordcount: '351'
+ht-degree: 72%
 
 ---
 
@@ -81,6 +81,7 @@ ht-degree: 73%
    + [コントロール母集団の設定](audience/control-group.md)
 + クロスチャネルキャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
+   + [キャンペーンを管理](campaigns/manage-campaigns.md)
    + [最初のキャンペーンを作成](campaigns/create-campaigns.md)
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
@@ -97,7 +98,6 @@ ht-degree: 73%
       + [オーディエンスを作成](workflows/activities/build-audience.md)
       + [結合](workflows/activities/combine.md)
       + [メール、SMS、プッシュ](workflows/activities/email.md)
-      + [終了](workflows/activities/end.md)
       + [エンリッチメント](workflows/activities/enrichment.md)
       + [分岐](workflows/activities/fork.md)
       + [待機](workflows/activities/wait.md)
