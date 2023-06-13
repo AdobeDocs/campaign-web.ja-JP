@@ -4,10 +4,10 @@ title: Campaign Web v8 の新機能
 description: Campaign Web v8 に加わる新機能を紹介します
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 65%
+ht-degree: 62%
 
 ---
 
@@ -56,7 +56,7 @@ Campaign ユーザーは、引き続きクライアントコンソールにア�
 
 ## 用語の更新 {#terminology-updates}
 
-既存の Campaign ユーザーとして、一部の概念は最新の用語標準に合わせて名前が変更されています。これらの変更は Campaign Web UI にのみ適用され、クライアントコンソールには反映されません。以下を参照してください。
+既存の Campaign ユーザーとして、一部の概念は最新の用語標準に合わせて名前が変更されています。これらの変更は Campaign Web UI にのみ適用され、クライアントコンソールには反映されません。 以下を参照してください。
 
 * 配達確認は、**テストメール**&#x200B;になりました。配達確認を送信するには、メール配信 UI の「**テスト**」ボタンを使用します。配達確認ターゲットのターゲットは、**テストプロファイル**&#x200B;と呼ばれるようになりました。
 * シードアドレスは **テストプロファイル** として使用されるようになりました。データベース内の追加の架空受信者シードアドレスにテストメールを送信します。

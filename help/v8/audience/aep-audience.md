@@ -4,10 +4,10 @@ title: Adobe Experience Platform オーディエンスの使用
 description: Adobe Experience Platform のオーディエンスの使用方法
 badge: label="Alpha" type="Positive"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 56%
+source-wordcount: '291'
+ht-degree: 47%
 
 ---
 
@@ -22,13 +22,13 @@ Adobe Campaign Managed Cloud Service の宛先とソースコネクタを使用�
 >Campaign でAdobe Experience Platformオーディエンスを使用するには、Adobeソースおよび宛先との統合を設定する必要があります。 参照： [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ja){target="_blank"}.
 
 
-また、次のこともできます。
+配信のオーディエンスを選択するには、次の操作も実行できます。
 
 * 新しいオーディエンスを構築します。 [詳細情報](segment-builder.md)
 * 外部ファイルからオーディエンスを読み込みます。 [詳細情報](file-audience.md)
 * 既存の Campaign オーディエンスを使用します。 [詳細情報](add-audience.md)
 
-メッセージ用のAdobe Experience Platformオーディエンスを選択するには、次の手順に従います。
+配信用のAdobe Experience Platformオーディエンスを選択するには、次の手順に従います。
 
 1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
 
@@ -54,5 +54,4 @@ Adobe Campaign Managed Cloud Service の宛先とソースコネクタを使用�
 
 1. 「**保存**」をクリックします。
 
-また、コントロール母集団を設定して、キャンペーンの影響を測定することもできます。コントロール母集団はメッセージを受信しません。これにより、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。[こちら](control-group.md)を参照してください。
 
