@@ -4,10 +4,10 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
+source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -55,11 +55,11 @@ Adobe Campaign を使用して、クロスチャネルキャンペーンを作�
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="検証" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>再考されたワークフローキャンバスインターフェイス</strong></a>
+<a href="workflows/gs-workflows.md"><strong>再考されたワークフローキャンバスインターフェイス</strong></a>
 </div>
 <p>
 </td>
@@ -72,20 +72,20 @@ Adobe Campaign を使用して、クロスチャネルキャンペーンを作�
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="オーディエンス" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>コンテンツを動的にする</strong></a>
+<a href="personalization/gs-personalization.md"><strong>コンテンツを動的にする</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="検証" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>クロスチャネル配信の送信</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>クロスチャネル配信の送信</strong></a>
 </div>
 <p>
 </td>
