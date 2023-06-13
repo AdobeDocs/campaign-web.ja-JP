@@ -4,10 +4,10 @@ title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 9%
+source-wordcount: '165'
+ht-degree: 11%
 
 ---
 
@@ -26,6 +26,12 @@ Adobe Campaignでは、組み込みのキャンペーン管理機能を使用し
 キャンペーンには、キャンペーン全体のパフォーマンスに関する包括的なインサイトを得るための専用のレポート指標が用意されており、効果を評価し、傾向を特定し、データに基づく意思決定を行って、将来の取り組みを最適化できます。
 
 ![キャンペーンフロー](assets/campaign-flow.png)
+
+次の節を参照してください。
+
+* [キャンペーンへのアクセスと管理](manage-campaigns.md)
+* [最初のキャンペーンを作成](create-campaigns.md)
+
 
 
 <!--

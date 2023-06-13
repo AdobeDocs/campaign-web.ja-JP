@@ -4,15 +4,15 @@ title: Adobe Campaign Web でのキャンペーンの作成
 description: Adobe Campaign Web を使用してクロスチャネルキャンペーンを作成する方法を学ぶ
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
 
-# 最初のキャンペーンを作成 {#create-campaigns}
+# 最初のキャンペーンを作成 {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 21%
 >title="キャンペーンプロパティ"
 >abstract="キャンペーンの設定とメタデータを定義します。"
 
-キャンペーンには、ワークフローとスタンドアロン配信を含めることができます。 プロパティ、スケジュール、作業、配信、および無料スケジュール
+新しいキャンペーンを作成するには、キャンペーンのプロパティ、スケジュールを定義し、ワークフローと配信を含める必要があります。
 
-## キャンペーンの作成
+## キャンペーンの作成{#campaign-create}
 
 新しいキャンペーンを作成するには、次の手順に従います。
 
@@ -40,25 +40,27 @@ ht-degree: 21%
 
    >[!NOTE]
    >
-   >これらのプロパティは、後で **キャンペーンの設定** アイコン（キャンペーンラベルの横）をクリックします。 参照 [セクション](gs-campaigns.md#campaign-dashboard)
+   >これらのプロパティは、後で **キャンペーンの設定** アイコン（キャンペーンラベルの横）をクリックします。 [こちら](gs-campaigns.md#campaign-dashboard)を参照してください。
 
 1. 「**作成**」をクリックします。
 1. キャンペーンにワークフローと配信を追加します。
 
-   * 次の **ワークフロー** タブ、クリック **ワークフローを作成**. キャンペーンの作成時に、デフォルトのワークフローが自動的に追加されます。 詳しくは、 [ワークフローの作成](../workflows/create-workflow.md)
+   * 次の **ワークフロー** タブ、クリック **ワークフローを作成**. キャンペーンの作成時に、デフォルトのワークフローが自動的に追加されます。 詳しくは、 [ワークフローの作成](../workflows/create-workflow.md).
    * 次の **配信** タブ、クリック **配信を作成**. [詳細情報](../msg/gs-messages.md)
 
 1. 以下を使用： **ログ** および **レポート** ボタンを使用して、キャンペーンのパフォーマンスを分析します。
 
 ## キャンペーンの監視とトラッキング{#campaign-monitoring}
 
-キャンペーンの監視は、キャンペーンを分析するための重要な手順です。 キャンペーンを開き、 **ログ** 」ボタンをクリックします。
+キャンペーンの監視は、キャンペーンの効果性を分析するための重要な手順です。 キャンペーンを開き、 **ログ** 」ボタンをクリックします。
 
 また、 **レポート** 」ボタンをクリックします。 [こちら](../reporting/campaign-reports.md)を参照してください。
 
-+++WORKF ++画面
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 
