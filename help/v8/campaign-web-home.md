@@ -4,7 +4,7 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 563b5d78a48938a44f7d4bdcf89d2a0180b95920
+source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 38%
@@ -17,7 +17,7 @@ ht-degree: 38%
 
 Campaign に、ユーザビリティ、アクセシビリティ、新しいデザインを備えた新しい Web ユーザーインターフェイス (UI) が追加され、ユーザーエクスペリエンスが大幅に向上しました。 この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。[詳細情報](get-started/get-started.md)
 
->Campaign v8 Web は現在アルファバージョンです。 アクセスは、一部のアルファ顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/release-notes.md)
+>Campaign v8 Web は現在アルファバージョンです。 アクセスは、一部のアルファ顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/whats-new.md)
 
 ## Campaign Web の新機能
 

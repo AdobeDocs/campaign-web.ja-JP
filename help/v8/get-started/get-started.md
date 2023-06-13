@@ -4,7 +4,7 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positive"
-source-git-commit: c4b06445c23c82d02bd34b64f96445ca994c0a24
+source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 64%
@@ -51,7 +51,7 @@ Adobe Campaign Web に接続するには、次の手順に従います。
 
 既に別のAdobe Experience Cloudソリューションに接続している場合は、画面の右上にあるソリューション切り替えボタンから Campaign 環境を参照することもできます。
 
-## Campaign クライアントコンソールについて{#ac-client}
+## Campaign クライアントコンソールについて {#ac-client}
 
 Campaign クライアントコンソールは、お使いのシステムにインストールされるブラウザーベースのアプリケーションです。 Web サービス API を使用して、Campaign アプリケーションサーバーに接続します。
 
