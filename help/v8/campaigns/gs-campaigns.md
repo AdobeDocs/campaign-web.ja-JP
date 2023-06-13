@@ -4,7 +4,7 @@ title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha" type="Positive"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 7%
@@ -49,7 +49,7 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 * この **参照** 「 」タブには、既存のすべてのキャンペーンが一覧表示されます。 キャンペーンをクリックしてダッシュボードを開くか、 **キャンペーンを作成** 」ボタンをクリックします。 [こちら](create-campaigns.md#create-campaigns)を参照してください。
 
-* この **テンプレート** 「 」タブに、使用可能なキャンペーンテンプレートがすべて表示されます。 キャンペーンテンプレートは、新しいキャンペーンの作成に再利用できるように事前設定されています。 クライアントコンソールから作成されます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja)
+* この **テンプレート** 「 」タブに、使用可能なキャンペーンテンプレートがすべて表示されます。 キャンペーンテンプレートは、新しいキャンペーンを作成する際に再利用できるように事前設定されています。 クライアントコンソールから作成されます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja)
 
 リスト内の各キャンペーンには、現在のステータス、作成日、最終変更日時などに関する情報が表示されます。
 
@@ -70,5 +70,6 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 次の 2 つのタブを使用できます。
 
 * この **ワークフロー** 「 」タブには、キャンペーンにリンクされているすべてのワークフローが表示されます。 また、このタブでは、キャンペーン内に新しいワークフローを作成できます。 参照 [セクション](create-campaigns.md#create-campaigns)
+
 * この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信の一覧が表示されます。 キャンペーン内に新しい配信を作成することもできます。 参照 [セクション](create-campaigns.md#create-campaigns)
 

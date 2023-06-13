@@ -3,11 +3,56 @@ audience: end-user
 title: Adobe Experience Platform オーディエンスの使用
 description: Adobe Experience Platform のオーディエンスの使用方法
 badge: label="Alpha" type="Positive"
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
-workflow-type: ht
-source-wordcount: '26'
-ht-degree: 100%
+exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 56%
 
 ---
 
 # Adobe Experience Platform オーディエンスの使用{#aep-audience}
+
+Adobe Campaign Managed Cloud Service の宛先とソースコネクタを使用すると、Adobe Campaign と Adobe Experience Platform をシームレスに統合できます。
+
+作成したAdobe Experience Platformオーディエンスをクライアントコンソールで使用できるようになったら、Campaign オーディエンスがメッセージをパーソナライズおよび送信する場合と同じ方法で使用できます。
+
+>[!NOTE]
+>
+>Campaign でAdobe Experience Platformオーディエンスを使用するには、Adobeソースおよび宛先との統合を設定する必要があります。 参照： [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ja){target="_blank"}.
+
+
+また、次のこともできます。
+
+* 新しいオーディエンスを構築します。 [詳細情報](segment-builder.md)
+* 外部ファイルからオーディエンスを読み込みます。 [詳細情報](file-audience.md)
+* 既存の Campaign オーディエンスを使用します。 [詳細情報](add-audience.md)
+
+メッセージ用のAdobe Experience Platformオーディエンスを選択するには、次の手順に従います。
+
+1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
+
+   ![](assets/create-audience.png)
+
+1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。このメールで使用する新しいオーディエンスを作成するには、「**独自に作成**」を選択します。[こちら](segment-builder.md)を参照してください。
+
+   この画面には、現在のフォルダーに対して、Adobe Campaignクライアントコンソールで定義されたすべての既存のオーディエンスが表示されます。 Adobe Experience Platformからオーディエンスを選択するには、 `AEP Audiences folder` 画面の「フィルター」セクションから。
+
+   ![](assets/select-audience-folder.png)
+
+   次のように、オーディエンスの起源に基づいてフィルタリングするルールを定義することもできます。
+
+   ![](assets/filter-on-aep-audience.png)
+
+1. オーディエンスを選択し、「**選択**」をクリックします。
+
+1. オーディエンスを絞り込む必要がある場合は、「**ルールを編集**」をクリックします。
+
+   ![](assets/refine-audience.png)
+
+1. ルールビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](segment-builder.md)を参照してください。
+
+1. 「**保存**」をクリックします。
+
+また、コントロール母集団を設定して、キャンペーンの影響を測定することもできます。コントロール母集団はメッセージを受信しません。これにより、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。[こちら](control-group.md)を参照してください。
+

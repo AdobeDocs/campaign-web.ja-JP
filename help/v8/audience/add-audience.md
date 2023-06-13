@@ -4,10 +4,10 @@ title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positive"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。このメールで使用する新しいオーディエンスを作成するには、「**独自に作成**」を選択します。[こちら](segment-builder.md)を参照してください。
 
-   この画面には、Adobe Campaign コンソールまたは Adobe Experience Platform で定義されたすべての既存オーディエンスが表示されます。
+   この画面には、現在のフォルダーに対して、Adobe Campaignクライアントコンソールで定義されたすべての既存のオーディエンスが表示されます。
 
    ![](assets/create-audience2.png)
 
