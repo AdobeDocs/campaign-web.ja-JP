@@ -3,10 +3,10 @@ audience: end-user
 title: キャンペーンレポート
 description: キャンペーンレポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 24%
+source-wordcount: '1753'
+ht-degree: 27%
 
 ---
 
@@ -111,6 +111,8 @@ ht-degree: 24%
 
 * **[!UICONTROL タイプごとのエラーの分類]** および **[!UICONTROL ドメインごとのエラーの分類]** テーブルとグラフには、各ドメインで発生した可能性のあるエラーに関して使用可能なデータが含まれています。
 
+  このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[強制隔離管理](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja)を参照してください。
+
   ![](assets/campaign_report_email_6.png)
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
@@ -183,6 +185,7 @@ ht-degree: 24%
 
    * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 
+   * **[!UICONTROL プラットフォームの平均]**：この平均率は、それぞれの率（反応度、ユニーククリック数および累積クリック数）の下に表示され、過去 6 ヶ月間に送信された配信に対して計算されます。同じタイポロジを持つ、同じチャネルでの配信のみが考慮されます。配達確認は除外されます。
 +++
 
 * **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれています。
