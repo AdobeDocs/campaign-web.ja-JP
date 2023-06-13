@@ -3,7 +3,7 @@ audience: end-user
 title: 配信レポートのプッシュ
 description: プッシュ配信レポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 9%
@@ -21,6 +21,8 @@ ht-degree: 9%
 
 * **[!UICONTROL 配信の概要]** は、訪問者がプッシュメッセージにどのように関与しているかに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。
 
+  ![](assets/reporting_push_3.png)
+
   +++プッシュ配信レポート指標の詳細を説明します。
 
    * **[!UICONTROL 送信総数]**:配信の分析中に処理されたメッセージの合計数。
@@ -33,9 +35,9 @@ ht-degree: 9%
 
 +++
 
-  ![](assets/reporting_push_3.png)
-
 * **ターゲット母集団** オーディエンスに関連したグラフおよびテーブル表示データ。
+
+  ![](assets/reporting_push_4.png)
 
   +++プッシュ配信レポート指標の詳細を説明します。
 
@@ -45,9 +47,11 @@ ht-degree: 9%
 
 +++
 
-  ![](assets/reporting_push_4.png)
+
 
 * **全体的な統計** は、次のような送信済みプッシュ通知のデータを表示します。
+
+  ![](assets/reporting_push_5.png)
 
   +++プッシュ配信レポート指標の詳細を説明します。
 
@@ -58,8 +62,6 @@ ht-degree: 9%
    * **[!UICONTROL 新しい強制隔離]**:除外され、強制隔離に追加されたプロファイルの数。
 
 +++
-
-  ![](assets/reporting_push_5.png)
 
 * **[!UICONTROL 除外]** グラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
 

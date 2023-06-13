@@ -3,7 +3,7 @@ audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 9%
@@ -21,6 +21,8 @@ ht-degree: 9%
 
 * **[!UICONTROL 配信の概要]** は、訪問者が SMS メッセージにどのように関わっているかに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。
 
+  ![](assets/reporting_sms_3.png)
+
   +++ SMS 配信レポート指標の詳細を説明します。
 
    * **[!UICONTROL 送信総数]**:配信の分析中に処理されたメッセージの合計数。
@@ -32,9 +34,9 @@ ht-degree: 9%
    * **[!UICONTROL エラー]**:配信中に発生し、プロファイルに送信できなかったエラーの合計数。
 +++
 
-  ![](assets/reporting_sms_3.png)
-
 * **ターゲット母集団** グラフおよびテーブルには、オーディエンスに関連したデータが表示されます。
+
+  ![](assets/reporting_sms_4.png)
 
   +++ SMS 配信レポート指標の詳細を説明します。
 
@@ -43,9 +45,10 @@ ht-degree: 9%
    * **[!UICONTROL 除外]**:分析から除外されたプロファイルの数。
 +++
 
-  ![](assets/reporting_sms_4.png)
 
 * **全体的な統計** は、以下を含む送信済み SMS メッセージのデータを表示します。
+
+  ![](assets/reporting_sms_5.png)
 
   +++ SMS 配信レポート指標の詳細を説明します。
 
@@ -55,8 +58,6 @@ ht-degree: 9%
 
    * **[!UICONTROL 新しい強制隔離]**:除外され、強制隔離に追加されたプロファイルの数。
 +++
-
-  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL 除外]** グラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
 

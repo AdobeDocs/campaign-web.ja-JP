@@ -3,14 +3,26 @@ audience: end-user
 title: キャンペーンレポート
 description: キャンペーンレポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1562'
 ht-degree: 21%
 
 ---
 
 # キャンペーンレポート {#campaign-reports}
+
+キャンペーンレポートは、キャンペーンの成功とエラーを示す様々なウィジェットに分かれています。
+
+「キャンペーンレポート」ページが表示され、次のタブが示されます。
+
+* [E メールチャネル](#email-channel)
+* [SMS チャネル](#sms-channel)
+* [プッシュチャネル](#push-channel)
+
+キャンペーンレポートにアクセスするには、キャンペーンのダッシュボードで「レポート」をクリックします。
+
+![](assets/campaign_report_email_13.png)
 
 ## メールチャネル {#email-channel}
 

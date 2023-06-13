@@ -3,7 +3,7 @@ audience: end-user
 title: E メール配信レポート
 description: 電子メール配信レポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 33%
@@ -16,6 +16,8 @@ ht-degree: 33%
 
 * **[!UICONTROL 初期ターゲットオーディエンス統計]** テーブルには、受信者に関連するデータが表示されます。
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++メール配信レポート指標の詳細を説明します。
 
    * **[!UICONTROL 初期オーディエンス]**:ターゲット受信者の合計数。
@@ -26,6 +28,8 @@ ht-degree: 33%
 +++
 
 * **[!UICONTROL 配信統計]** テーブルには、配信の成功の詳細が表示されます。
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++電子メールキャンペーンレポート指標の詳細を説明します。
 
@@ -41,6 +45,8 @@ ht-degree: 33%
 
 * **[!UICONTROL 除外の理由]** グラフおよび表は、分析中に却下されたメッセージのルールごとの分類を示します。
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## 配信スループット {#delivery-throughtput}
 
 このレポートは、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報を表示します。 メッセージ配信の速度の測定に使用される主な指標は、1 時間に送信されたメッセージの数です。
@@ -48,6 +54,8 @@ ht-degree: 33%
 ## ブロードキャスト統計情報 {#broadcast-statistics}
 
 * **[!UICONTROL ブロードキャスト統計]** テーブルには、各ドメインで発生した可能性のあるエラーに関する使用可能なデータが含まれます。
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++メール配信レポート指標の詳細を説明します。
 
@@ -84,6 +92,8 @@ ht-degree: 33%
 
 * **[!UICONTROL 配信統計]** は、送信された E メールで使用可能なデータに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++メール配信レポート指標の詳細を説明します。
 
    * **[!UICONTROL 成功]**:配信されるメッセージ数に関して正常に処理されたメッセージ数。
@@ -100,6 +110,8 @@ ht-degree: 33%
 +++
 
 * **[!UICONTROL 開封率およびクリックスルー率]** テーブルには、受信者に関連するデータが表示されます。
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++メール配信レポート指標の詳細を説明します。
 
@@ -118,6 +130,8 @@ ht-degree: 33%
 
 * **[!UICONTROL URL とクリックストリーム]** は、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++メール配信レポート指標の詳細を説明します。
 
    * **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。
@@ -130,6 +144,8 @@ ht-degree: 33%
 
 * **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれています。
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++メール配信レポート指標の詳細を説明します。
 
    * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
@@ -140,9 +156,13 @@ ht-degree: 33%
 
 * **[!UICONTROL 時間の経過に伴うクリック数の分類]** グラフには、リンクごとの受信者の行動に使用できるデータが含まれます。
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## ユーザーアクティビティ {#user-activities-email}
 
 * **[!UICONTROL ユーザーアクティビティ]** 開封数とクリック数の分類をグラフの形式で表示します。
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++メール配信レポート指標の詳細を説明します。
 
@@ -156,6 +176,8 @@ ht-degree: 33%
 
 * **[!UICONTROL トラッキング統計]** グラフは、開封数とクリック数の統計を示します。
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++メール配信レポート指標の詳細を説明します。
 
    * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
@@ -167,6 +189,8 @@ ht-degree: 33%
 ## 開封数の分類 {#breakdown-opens}
 
 このレポートは、該当する期間中の、オペレーティングシステム、デバイスおよびブラウザーごとの開封の分類を表示します。それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフはモバイルデバイスでの開封数のみに関する統計を示しています。
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## ホットクリック数
 
