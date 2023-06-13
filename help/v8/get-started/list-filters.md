@@ -3,7 +3,7 @@ audience: end-user
 title: リストの参照、検索、フィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法について説明します。
 badge: label="Alpha" type="Positive"
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 14%
@@ -69,3 +69,6 @@ ht-degree: 14%
 属性リストおよびフィルター設定画面には、デフォルトで、最も一般的な属性のみが表示されます。 設定された属性 `advanced` データスキーマの属性は、設定画面で非表示になります。
 
 をアクティブにする **詳細属性の表示** 切り替えて、現在のリストで使用可能なすべての属性を表示します。属性リストは即座に更新されます。
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
