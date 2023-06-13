@@ -3,7 +3,7 @@ audience: end-user
 title: リストの参照、検索、フィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法について説明します。
 badge: label="Alpha" type="Positive"
-source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 14%
@@ -27,11 +27,11 @@ ht-degree: 14%
 
 例えば、次の設定の場合は、
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 リストには、次の列が表示されます。
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 以下を使用： **詳細属性の表示** 切り替えて、現在のリストのすべての属性を表示します。 [詳細情報](#adv-attributes)
 
@@ -45,7 +45,7 @@ ht-degree: 14%
 
 項目をすばやく見つけるには、検索バーを使用するか、コンテキスト条件に基づいてリストをフィルタリングします。
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 例えば、ステータス、チャネル、コンタクト日またはフォルダーに関する配信をフィルターできます。 テストを非表示にすることもできます。
 
@@ -55,7 +55,7 @@ ht-degree: 14%
 
 属性をドラッグ&amp;ドロップして、 **詳細フィルター** 画面
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 以下を使用： **詳細属性の表示** 切り替えて、現在のリストのすべての属性を表示します。 [詳細情報](#adv-attributes)
 
