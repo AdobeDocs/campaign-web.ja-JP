@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: dea30dcf033306e90f5838370e3970a0d833ecd9
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 74%
+source-wordcount: '350'
+ht-degree: 73%
 
 ---
 
@@ -61,12 +61,12 @@ ht-degree: 74%
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
       + [プッシュ通知配信の作成](push/create-push.md)
       + [プッシュ配信のデザイン](push/content-push.md)
-      + [プッシュ通知配信の送信](push/send-push.md)
+      + [プッシュ通知配信のプレビューと送信](push/send-push.md)
    + SMS {#sms}
       + [SMS 配信の基本を学ぶ](sms/gs-sms.md)
       + [SMS 配信の作成](sms/create-sms.md)
       + [SMS 配信のデザイン](sms/content-sms.md)
-      + [SMS 配信の送信](sms/send-sms.md)
+      + [SMS 配信のプレビューと送信](sms/send-sms.md)
    + コンテンツを動的にする {#dynamic-content}
       + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
       + [パーソナライゼーションの追加](personalization/personalize.md)
