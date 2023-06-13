@@ -4,9 +4,9 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
+source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 34%
 
 ---
@@ -29,7 +29,7 @@ Campaign に、ユーザビリティ、アクセシビリティ、新しいデ�
 
 包括的なグラフィカルキャンバスにより、セグメント化やキャンペーン実行などのプロセスを簡単に設計できます。 指先で操作できるこの高度なツールを使用して、ワークフローを合理化し、キャンペーンを強化できます。
 
-**E メールのデザイン**
+**E メールデザイナーの紹介**
 
 テンプレートから開始するか、Adobe Campaignの新しい電子メールデザイナーを使用して、コードを 1 行も書かずに電子メールを作成できます。 E メールデザイナーを使用して、コンテンツを作成、プレビューおよびテストし、既存のオーディエンスに E メールをエンドツーエンドで送信する方法を説明します。
 
@@ -51,6 +51,15 @@ Adobe Campaignの機能は、一元化された顧客データの管理、顧客
 <img alt="新しい UI" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>新しいユーザーインターフェイスの確認</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="検証" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>再考されたワークフローキャンバスインターフェイス</strong></a>
 </div>
 <p>
 </td>
@@ -77,15 +86,6 @@ Adobe Campaignの機能は、一元化された顧客データの管理、顧客
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>クロスチャネル配信の送信</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="検証" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>再考されたワークフローキャンバスインターフェイス</strong></a>
 </div>
 <p>
 </td>
