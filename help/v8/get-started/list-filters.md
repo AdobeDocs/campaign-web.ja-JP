@@ -3,7 +3,7 @@ audience: end-user
 title: リストの参照、検索、フィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法について説明します。
 badge: label="Alpha" type="Positive"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 14%
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 リストは複数の列で表示されます。 列の設定を変更すると、追加情報を表示できます。これをおこなうには、 **カスタムレイアウトの列を設定する** アイコンをクリックします。
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 内 **列の設定** 画面を表示し、列を追加または削除し、列の表示順を変更します。
 

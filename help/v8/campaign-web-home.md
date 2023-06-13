@@ -4,10 +4,10 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: dc898e0cb173b791c7a200257f44b979dd7a1641
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '484'
+ht-degree: 39%
 
 ---
 
@@ -37,7 +37,7 @@ Campaign に、ユーザビリティ、アクセシビリティ、新しいデ�
 
 受信者に関して収集した情報に基づいて、コンテンツをカスタマイズします。 動的コンテンツを利用すると、コンテンツの魅力が高まり、コンテンツが読まれる可能性が高まります。 名、興味、住所、購入内容などのプロファイルデータを活用して、特定の受信者に向けてメッセージをパーソナライズします。 条件付きコンテンツを作成して、配信を各受信者に合わせ、所持の情報に基づいて特定の顧客に関連するコンテンツのみを表示します。
 
-**クロスチャネル配信の送信**
+**クロスチャネルキャンペーンの作成**
 
 Adobe Campaign を使用して、クロスチャネルキャンペーンを作成します。マーケティングキャンペーンオーケストレーション機能を使用すると、顧客データの管理と一元化、顧客コミュニケーションとキャンペーンの設計、様々なチャネルにわたるパーソナライズされたエクスペリエンスの作成が可能です。 このバージョンでは、E メール、プッシュおよび SMS チャネルを使用できます。 開封数、クリック数、転送数などの詳細レポートで、配信の有効性を測定します。
 
@@ -64,11 +64,11 @@ Adobe Campaign を使用して、クロスチャネルキャンペーンを作�
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="低頻度" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>E メールデザイナーの紹介</strong></a>
+<a href="content/get-started-email-designer.md"><strong>E メールデザイナーの紹介</strong></a>
 </div>
 <p></td>
 <td>
@@ -85,7 +85,7 @@ Adobe Campaign を使用して、クロスチャネルキャンペーンを作�
 <img alt="検証" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="campaigns/gs-campaigns.md"><strong>クロスチャネル配信の送信</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>クロスチャネルキャンペーンの作成</strong></a>
 </div>
 <p>
 </td>
