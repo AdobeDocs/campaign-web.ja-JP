@@ -4,10 +4,10 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positive"
-source-git-commit: 1db4a082e215ef2d0de4f0c8bc527d24e47268f7
+source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 30%
+source-wordcount: '369'
+ht-degree: 34%
 
 ---
 
@@ -19,71 +19,98 @@ Campaign に、ユーザビリティ、アクセシビリティ、新しいデ�
 
 >Campaign v8 Web は現在アルファバージョンです。 アクセスは、一部のアルファ顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/release-notes.md)
 
-<!--
+## Campaign Web の新機能
+
+**Campaign v8 Web の新しいユーザーインターフェイスの確認**
+
+新しい Campaign v8 web インターフェイスは、マーケティングキャンペーンのデザインと配信を簡素化する、最新の直感的なユーザーエクスペリエンスを提供します。この新しいインターフェイスは、Adobe Experience Platform と統合されています。
+
+**再考されたワークフローキャンバスインターフェイス**
+
+包括的なグラフィカルキャンバスにより、セグメント化やキャンペーン実行などのプロセスを簡単に設計できます。 指先で操作できるこの高度なツールを使用して、ワークフローを合理化し、キャンペーンを強化できます。
+
+**E メールのデザイン**
+
+テンプレートから開始するか、Adobe Campaignの新しい電子メールデザイナーを使用して、コードを 1 行も書かずに電子メールを作成できます。 E メールデザイナーを使用して、コンテンツを作成、プレビューおよびテストし、既存のオーディエンスに E メールをエンドツーエンドで送信する方法を説明します。
+
+**コンテンツを動的にする**
+
+条件付きコンテンツを作成して、受信者のプロファイルに基づいて動的パーソナライゼーションを定義し、特定の条件が満たされた場合にテキストブロックや画像を自動的に置き換えます。 この機能を使用すると、キャンペーンを新たな高みに導き、ターゲットを絞り込んでパーソナライズされたエクスペリエンスをオーディエンスに提供できます
+
+**クロスチャネル配信の送信**
+
+Adobe Campaignの機能は、一元化された顧客データの管理、顧客コミュニケーションおよびキャンペーンの設計、様々なチャネルにわたるパーソナライズされたエクスペリエンスの作成に役立ちます。E メール、プッシュ、SMS。
+
+## さらに深く掘り下げましょう
+
+これで、Adobe Campaign Web で実行できる操作を理解できたので、これらのドキュメントの節をさらに掘り下げて、操作を開始します。
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/email-create.jpeg">
+<img alt="新しい UI" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>Discover the new user interface</strong>
+<div><a href="get-started/user-interface.md"><strong>新しいユーザーインターフェイスの確認</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="content/create-email-content.md">
-<img alt="Infrequent" src="assets/do-not-localize/email-design.jpg">
+<img alt="低頻度" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Meet the Email Designer</strong></a>
+<a href="content/create-email-content.md"><strong>E メールデザイナーの紹介</strong></a>
 </div>
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="Audiences" src="assets/do-not-localize/email-audience.jpg">
+<img alt="オーディエンス" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Make your content dynamic</strong></a>
+<a href="audience/about-audiences.md"><strong>コンテンツを動的にする</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="Validation" src="assets/do-not-localize/email-preview.jpg">
+<img alt="検証" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Send cross-channel deliveries</strong></a>
+<a href="preview-test/proofs.md"><strong>クロスチャネル配信の送信</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="Validation" src="assets/do-not-localize/email-preview.jpg">
+<img alt="検証" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Reimagined workflow canvas interface</strong></a>
+<a href="preview-test/proofs.md"><strong>再考されたワークフローキャンバスインターフェイス</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
--->
 
+<!--
 <table style="table-layout:fixed">
 <tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
-</a></td><td>Campaign Web の新しいユーザーインターフェイス、最新の改善、主な機能について説明します。 これらを使用して、オーディエンスのクロスチャネルキャンペーンを作成する方法を説明します。 Campaign は、使いやすい機能を備え、パーソナライズされたクロスチャネルキャンペーン作成プロセスを合理化し、成果を上げ、競争力を高めます。</td></tr>
+<img alt="new UI" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
+</a></td><td>Discover Campaign Web new user interface, latest improvements, key capabilities. Learn how to use them to build cross-channel campaigns for your audiences. With its user-friendly features, Campaign helps you streamline personalized cross-channel campaign creation process, drive results, and gain a competitive edge.</td></tr>
 <tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
-</a></td><td>包括的なグラフィカルキャンバスにより、セグメント化やキャンペーン実行などのプロセスを簡単に設計できます。 指先で操作できるこの高度なツールを使用して、ワークフローを合理化し、キャンペーンを強化できます。</td></tr>
+<img alt="new UI" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
+</a></td><td>Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns.</td></tr>
 <tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-design.jpg" width="150px">
-</a></td><td>テンプレートから開始するか、Adobe Campaignの新しい電子メールデザイナーを使用して、コードを 1 行も書かずに電子メールを作成できます。 E メールデザイナーを使用して、コンテンツを作成、プレビューおよびテストし、既存のオーディエンスに E メールをエンドツーエンドで送信する方法を説明します。</td></tr>
+<img alt="new UI" src="assets/do-not-localize/menu-design.jpg" width="150px">
+</a></td><td>Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case.</td></tr>
 <tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
-</a></td><td>条件付きコンテンツを作成して、受信者のプロファイルに基づいて動的パーソナライゼーションを定義し、特定の条件が満たされた場合にテキストブロックや画像を自動的に置き換えます。 この機能を使用すると、キャンペーンを新たな高みに導き、ターゲットを絞り込んでパーソナライズされたエクスペリエンスをオーディエンスに提供できます</td></tr>
+<img alt="new UI" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
+</a></td><td>Create conditional content to define dynamic personalization based on the recipient's profile, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience</td></tr>
 <tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="新しい UI" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
-</a></td><td>Adobe Campaignの機能は、一元化された顧客データの管理、顧客コミュニケーションおよびキャンペーンの設計、様々なチャネルにわたるパーソナライズされたエクスペリエンスの作成に役立ちます。E メール、プッシュ、SMS。</td></tr>
+<img alt="new UI" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
+</a></td><td>Adobe Campaign capabilities help you manage centralized customer data, design customer communications and campaigns, and create personalized experiences across different channels: Email, Push and SMS.</td></tr>
 </table>
+-->
+
 
 
 
