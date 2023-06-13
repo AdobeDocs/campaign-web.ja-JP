@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ通知配信の送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 23%
+source-wordcount: '354'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +28,16 @@ ht-degree: 23%
 
 1. 右側のパネルにはメールのプレビューが表示され、パーソナライズされた要素が選択したプロファイルのデータに動的に置き換えられます。
 
-これで、SMS メッセージを確認してオーディエンスに送信できるようになりました。
+これで、プッシュ通知を確認してオーディエンスに送信できます。
+
+## プッシュ通知配信をテストする {#test-send-sms}
+
+使用 **Adobe Campaign**を使用すると、プッシュ通知をメインオーディエンスに送信する前にテストできます。 この手順は、配信を検証し、問題を特定する際に重要です。
+テスト受信者は、リンク、画像、パーソナライゼーション設定などの要素を確認し、最適なパフォーマンスを確保し、エラーを検出できます。 このプロセスは、メインオーディエンスにリーチする前にプッシュ通知を調整し、最適化するのに役立ちます。
+
+![](../assets/do-not-localize/book.png) テストプッシュ通知を送信する方法については、こちらを参照してください [ページ](../preview-test/proofs.md).
+
+![](assets/push_send_6.png)
 
 ## プッシュ通知配信を送信 {#preview-send-push}
 

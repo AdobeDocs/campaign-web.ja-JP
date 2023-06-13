@@ -3,7 +3,7 @@ audience: end-user
 title: 配信レポートのプッシュ
 description: プッシュ配信レポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 9%
@@ -46,8 +46,6 @@ ht-degree: 9%
    * **[!UICONTROL 除外]**:分析から除外されたプロファイルの数。
 
 +++
-
-
 
 * **全体的な統計** は、次のような送信済みプッシュ通知のデータを表示します。
 

@@ -3,7 +3,7 @@ audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートにアクセスして使用する方法を説明します
 badge: label="Alpha" type="Positive"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 9%
@@ -60,6 +60,8 @@ ht-degree: 9%
 +++
 
 * **[!UICONTROL 除外]** グラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
+
+  ![](assets/reporting_sms_6.png)
 
 ## 配信スループット {#delivery-throughput}
 
