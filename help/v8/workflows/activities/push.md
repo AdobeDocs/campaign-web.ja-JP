@@ -2,11 +2,11 @@
 audience: end-user
 title: プッシュ通知ワークフローアクティビティの使用
 description: プッシュ通知ワークフローアクティビティの使用方法を説明します
-badge: label="Alpha" type="Positive"
-source-git-commit: c0e5902d3ee504aa5aa4e55f18416facfe4020b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 3%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 3%
     * Recurring delivery: Choose this option if you want the push notification to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the push notification to be sent at regular intervals.
 -->
 
-1. アクティビティを選択します。 配信メニューから、この配信に使用するテンプレートを選択します。 テンプレートの詳細を説明します
+1. アクティビティを選択します。 配信メニューから、この配信に使用するテンプレートを選択します。 テンプレートの詳細情報
 
 1. 「配信を作成」をクリックして、プッシュ通知配信を設定します。 プッシュ通知 (Android) 配信について詳しくは、このページを参照してください。
 
@@ -57,7 +57,7 @@ ht-degree: 3%
     * Recurring delivery: Choose this option if you want the push notification to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the push notification to be sent at regular intervals.
 -->
 
-1. アクティビティを選択します。 配信メニューから、この配信に使用するテンプレートを選択します。 テンプレートの詳細を説明します
+1. アクティビティを選択します。 配信メニューから、この配信に使用するテンプレートを選択します。 テンプレートの詳細情報
 
 1. 「配信を作成」をクリックして、プッシュ通知配信を設定します。 プッシュ通知 (iOS) 配信について詳しくは、このページを参照してください。
 

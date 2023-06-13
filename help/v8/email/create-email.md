@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールの送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Alpha" type="Positive"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1324'
 ht-degree: 86%
 
 ---

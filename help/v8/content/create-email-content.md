@@ -3,10 +3,10 @@ audience: end-user
 title: 電子メールデザイナーでのメールの設計
 description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Alpha" type="Positive"
-source-git-commit: 22fdc1713ed893504cba7ad93bb69c7b3f2db7fe
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '584'
 ht-degree: 61%
 
 ---

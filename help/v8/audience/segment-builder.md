@@ -3,11 +3,11 @@ audience: end-user
 title: Campaign のルールビルダーを使用したオーディエンスの作成
 description: ルールビルダーの操作方法を説明します
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha" type="Positive"
-source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 97%
+source-wordcount: '547'
+ht-degree: 96%
 
 ---
 
@@ -35,15 +35,15 @@ ht-degree: 97%
 
 * **属性**：このタブでは、スキーマから使用可能なすべてのフィールドにアクセスできます。フィールドのリストは、メールテンプレートで定義されているターゲティングスキーマによって異なります。
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+  ![](assets/segment-builder2.png){width="70%" align="left"}
 
 * **オーディエンス**：このタブでは、Campaign Classic コンソールまたは Adobe Experience Platform で定義された既存のオーディエンスの 1 つを使用してフィルタリングできます。
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+  ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 [宛先に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}を参照してください。
+  >[!NOTE]
+  >
+  >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 [宛先に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}を参照してください。
 
 検索バーを使用して、要素をすばやく見つけることができます。
 

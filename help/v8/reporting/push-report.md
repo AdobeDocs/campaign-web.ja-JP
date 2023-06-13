@@ -2,11 +2,11 @@
 audience: end-user
 title: 配信レポートのプッシュ
 description: プッシュ配信レポートにアクセスして使用する方法を説明します
-badge: label="Alpha" type="Positive"
-source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 8%
+source-wordcount: '298'
+ht-degree: 7%
 
 ---
 

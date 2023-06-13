@@ -2,11 +2,11 @@
 audience: end-user
 title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1070'
 ht-degree: 83%
 
 ---

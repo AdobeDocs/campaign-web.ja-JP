@@ -2,11 +2,11 @@
 audience: end-user
 title: SMS 配信の送信
 description: Adobe Campaign Web で SMS を送信する方法を説明します
-badge: label="Alpha" type="Positive"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 17%
+source-wordcount: '361'
+ht-degree: 16%
 
 ---
 

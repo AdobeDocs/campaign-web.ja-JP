@@ -2,11 +2,11 @@
 audience: end-user
 title: E メール配信レポート
 description: 電子メール配信レポートにアクセスして使用する方法を説明します
-badge: label="Alpha" type="Positive"
-source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 38%
+source-wordcount: '1405'
+ht-degree: 37%
 
 ---
 

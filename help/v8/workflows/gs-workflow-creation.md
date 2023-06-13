@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 3b193cf7116859f31ce04ba89773ef388b7916c7
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 77%
+source-wordcount: '228'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign v8 Web を使用すると、ワークフローを視覚的なキャン�
 
 * **アクティビティ**：アクティビティとは、実行されるタスクです。各種アクティビティは、ダイアグラム内にアイコンで示されます。各アクティビティには、特定のプロパティと、すべてのアクティビティに共通のその他のプロパティがあります。
 
-   ワークフローのダイアグラムでは、指定されたアクティビティが、特にループまたは繰り返しアクションがある場合に複数のタスクを生成できます。
+  ワークフローのダイアグラムでは、指定されたアクティビティが、特にループまたは繰り返しアクションがある場合に複数のタスクを生成できます。
 
 * **トランジション**：トランジションは、ソースアクティビティを宛先アクティビティにリンクし、そのシーケンスを定義します。
 

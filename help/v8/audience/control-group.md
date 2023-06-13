@@ -3,11 +3,11 @@ audience: end-user
 title: コントロール母集団の設定
 description: Campaign web UI でメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha" type="Positive"
-source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 41%
+source-wordcount: '757'
+ht-degree: 40%
 
 ---
 

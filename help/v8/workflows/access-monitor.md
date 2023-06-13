@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: be7cdfbffbe5c3b1a7ec58e5c60856a6bdc56200
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 6%
+source-wordcount: '364'
+ht-degree: 9%
 
 ---
 

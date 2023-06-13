@@ -2,11 +2,11 @@
 audience: end-user
 title: ファイルから受信者をターゲット設定する
 description: 外部ファイルの受信者を使用してメールオーディエンスを作成する方法を学ぶ
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 64%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 64%
 >* この機能は、次の場合にのみ使用できます。 **スタンドアロンの E メール配信**. ワークフローや SMS 配信やプッシュ配信では使用できません。
 >
 >* 外部ファイルからターゲット母集団を読み込む場合は、[コントロール母集団](control-group.md)を使用できません。
-
 
 
 電子メールインターフェイスから直接ローカルファイルからプロファイルをターゲットにするには、次の手順に従います。

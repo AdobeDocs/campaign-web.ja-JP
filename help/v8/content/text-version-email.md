@@ -3,11 +3,11 @@ audience: end-user
 title: メールのテキストバージョンを作成
 description: メールのテキストバージョンを作成する方法を学ぶ
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Alpha" type="Positive"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 98%
 
 ---
 
@@ -38,4 +38,3 @@ HTML コンテンツを表示できない場合に使用する、テキストバ
 >* **[!UICONTROL プレーンテキスト]**&#x200B;ビューで行った変更は、HTML ビューには反映されません。
 >
 >* プレーンテキストコンテンツを更新した後で 「**[!UICONTROL HTML と同期]**」オプションを再度有効にすると、変更内容が失われ、HTML バージョンから生成されたテキストコンテンツに置き換わります。
-

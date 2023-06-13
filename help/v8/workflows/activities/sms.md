@@ -2,10 +2,10 @@
 audience: end-user
 title: SMS ワークフローアクティビティを使用
 description: SMS ワークフローアクティビティの使用方法を説明します
-badge: label="Alpha" type="Positive"
-source-git-commit: c0e5902d3ee504aa5aa4e55f18416facfe4020b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '204'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 この **SMS** 「 」アクティビティは、ワークフロー内で SMS メッセージを送信する機能を提供します。 同じワークフロー内で決定された特定のターゲットに対する SMS 送信を自動化できます。
 
-SMS の受信者を定義するには、「オーディエンスをビルド」アクティビティを使用して、ワークフロー内の「 SMS 配信」アクティビティの前に SMS を設定します。 詳細情報.
+SMS の受信者を定義するには、「オーディエンスをビルド」アクティビティを使用して、ワークフロー内の「 SMS 配信」アクティビティの前に SMS を設定します。 詳細情報。
 
 1. 新しいワークフローを作成および設定した後、「オーディエンスを作成」アクティビティを追加して既存のオーディエンスを選択するか、ルールビルダーを使用して独自のクエリを定義します。
 
@@ -30,7 +30,7 @@ SMS の受信者を定義するには、「オーディエンスをビルド」�
     * Recurring delivery: Choose this option if you want the SMS to be sent multiple times based on a defined frequency. The frequency can be configured using a Scheduler activity, allowing you to schedule the SMS to be sent at regular intervals.
 -->
 
-1. アクティビティを選択します。 配信メニューから、この配信に使用するテンプレートを選択します。 テンプレートの詳細を説明します
+1. アクティビティを選択します。 配信メニューから、この配信に使用するテンプレートを選択します。 テンプレートの詳細情報
 
 1. 「配信を作成」をクリックして、SMS 配信を設定します。 SMS 配信について詳しくは、このページを参照してください。
 

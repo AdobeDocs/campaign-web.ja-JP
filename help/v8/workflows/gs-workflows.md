@@ -2,12 +2,12 @@
 audience: end-user
 title: ワークフローの基本を学ぶ
 description: ワークフローの開始方法を学ぶ
-badge: label="Alpha" type="Positive"
+badge: label="Alpha"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 80%
+source-wordcount: '388'
+ht-degree: 81%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Campaign の包括的なグラフィカル環境を使用すると、セ�
 <a href="create-workflow.md">
 <img alt="リード" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-workflow.md"><strong>最初のワークフローを作成して実行</strong>
+<div><a href="create-workflow.md"><strong>最初のワークフローの作成と実行</strong>
 </div>
 <p>
 </td>

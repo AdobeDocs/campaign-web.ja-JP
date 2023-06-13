@@ -2,11 +2,11 @@
 audience: end-user
 title: オーディエンスの作成ワークフローアクティビティの使用
 description: オーディエンスの作成ワークフローアクティビティの使用方法を説明します
-badge: label="Alpha" type="Positive"
-source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 9%
+source-wordcount: '312'
+ht-degree: 8%
 
 ---
 
