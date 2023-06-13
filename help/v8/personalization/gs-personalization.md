@@ -8,15 +8,20 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: e241226cacbc366aa884eb7781ce60188913d7b1
+source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 10%
+source-wordcount: '660'
+ht-degree: 9%
 
 ---
 
 
 # 動的コンテンツの基本を学ぶ
+
+>[!CONTEXTUALHELP]
+>id="acw_targetdata_personalization_dashboard"
+>title="パーソナライズ機能"
+>abstract="式エディターでは、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツに合わせてカスタマイズされたエクスペリエンスを作成できます。 プロファイルデータを活用して、各受信者に対するメッセージをパーソナライズし、条件付きコンテンツを作成して、各受信者にメッセージを適応させ、関連するコンテンツのみを表示できます。 さらに、パーソナライゼーションブロックを使用して、事前に定義されたパーソナライズされたコンテンツを配信に追加できます。"
 
 マーケターは、お客様の製品に真に興味を持つ顧客をターゲットにし、効果的で関連性の高いコンテンツを提供して顧客を惹きつけることが重要です。 発生する様々な受信者の範囲を考えると、異なる人に訴える複数のマーケティングコンテンツを作成するのに時間がかかり、無駄が多くなる可能性があります。 動的コンテンツは、ここで利用できます。
 
