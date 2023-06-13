@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 ---
 
 
-# 動的コンテンツの基本を学ぶ
+# 動的コンテンツの基本を学ぶ {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ ht-degree: 9%
 
 Adobe Campaign web 動的コンテンツ機能を使用すると、収集した受信者に関する情報に基づいてコンテンツをカスタマイズできます。 動的コンテンツを利用することで、マーケティング活動の関連性を高め、不要な製品や不要な製品やサービスのマーケティングを避けることができます。 このアプローチは、コンテンツの魅力を高め、コンテンツが読まれる可能性を高めます。 さらに、コンテンツをパーソナライズして、受信者に機械ではなく人から情報を受け取ったように感じさせることもできます。
 
-## コンテンツを動的にする方法は？
+## コンテンツを動的にする方法は？ {#make-content-dyn}
 
 Campaign Web 式エディターで JavaScript 構成要素を挿入することで、メッセージのコンテンツを動的に設定できます。 メッセージの送信時に、次の式がAdobe Campaignによって解釈され、各受信者に正しいコンテンツが配信されます。
 
@@ -65,7 +65,7 @@ Adobe Campaign V8 Web には式エディターが用意されており、すべ�
 >
 >式エディターに加えて、E メールをデザインする際に、専用の条件付きコンテンツビルダーを利用することもできます。 [メールでの条件付きコンテンツの作成方法を説明します](conditions.md)
 
-## さらに深く掘り下げましょう
+## さらに深く掘り下げましょう {#dive-deeper}
 
 コンテンツを動的にする方法を理解できたので、次にこれらのドキュメントの節をさらに詳しく調べて、この機能の使用を開始します。
 
