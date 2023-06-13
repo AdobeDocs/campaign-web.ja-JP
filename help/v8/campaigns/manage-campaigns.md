@@ -3,10 +3,10 @@ audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
 workflow-type: tm+mt
 source-wordcount: '414'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 7%
 
 キャンペーンリストには、次の 2 つのタブが表示されます。
 
-![キャンペーンリスト](assets/campaign-list.png)
-
 * この **参照** 「 」タブには、既存のすべてのキャンペーンが一覧表示されます。 キャンペーンをクリックしてダッシュボードを開くか、 **キャンペーンを作成** 」ボタンをクリックします。 [こちら](create-campaigns.md#create-campaigns)を参照してください。
 
 * この **テンプレート** 「 」タブに、使用可能なキャンペーンテンプレートがすべて表示されます。 キャンペーンテンプレートは、新しいキャンペーンを作成する際に再利用できるように事前設定されています。 クライアントコンソールから作成されます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja)
+
+![キャンペーンリスト](assets/campaign-list.png)
 
 リスト内の各キャンペーンには、現在のステータス、作成日、最終変更日時などに関する情報が表示されます。
 
@@ -43,9 +43,9 @@ ht-degree: 7%
 
 次の 2 つのタブを使用できます。
 
-* この **ワークフロー** 「 」タブには、キャンペーンにリンクされているすべてのワークフローが表示されます。 また、このタブでは、キャンペーン内に新しいワークフローを作成できます。 参照 [セクション](create-campaigns.md#create-campaigns)
+* この **ワークフロー** 「 」タブには、キャンペーンにリンクされているすべてのワークフローが表示されます。 また、このタブでは、キャンペーン内に新しいワークフローを作成できます。 [こちら](create-campaigns.md#create-campaigns)を参照してください。
 
-* この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信の一覧が表示されます。 キャンペーン内に新しい配信を作成することもできます。 参照 [セクション](create-campaigns.md#create-campaigns)
+* この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信の一覧が表示されます。 キャンペーン内に新しい配信を作成することもできます。 [こちら](create-campaigns.md#create-campaigns)を参照してください。
 
 ## キャンペーンの複製と削除
 
