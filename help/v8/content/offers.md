@@ -4,10 +4,10 @@ title: オファーの送信
 description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
+source-git-commit: 3de1ff02f095abf49a5ac23ad291408a81f80b51
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 95%
+source-wordcount: '552'
+ht-degree: 94%
 
 ---
 
@@ -45,9 +45,7 @@ Adobe Campaign v8 Web では、**[!UICONTROL インタラクション]**&#x200B;
 
    カテゴリが指定されてない場合、**[!UICONTROL オファーテーマ]**&#x200B;が選択されていない限り、環境に含まれているすべてのオファーがオファーエンジンで考慮されます。
 
-   >[!NOTE]
-   >
-   >テーマは、カテゴリの上流で定義されたキーワードです。これらはフィルターとして機能し、一連のカテゴリで選択することにより、提示するオファーの数を調整することができます。
+1. （オプション）カテゴリをフィルターするテーマを入力します。 テーマは、カテゴリの上流で定義されたキーワードです。これらはフィルターとして機能し、一連のカテゴリで選択することにより、提示するオファーの数を調整することができます。
 
 1. 「**[!UICONTROL 提案]**」フィールドを使用して、メールに挿入するオファーの数を指定します。
 
