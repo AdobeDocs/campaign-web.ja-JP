@@ -4,9 +4,9 @@ title: 配信コンテンツをプレビュー
 description: Campaign Web UI を使用して配信コンテンツをプレビューする方法を説明します
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 10%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 10%
 
 1. パーソナライズされたコンテンツのプレビューに使用するプロファイルを選択するには、次を使用します。
 
-   * **[!UICONTROL テストプロファイルを追加]** （E メールおよび SMS メッセージのプレビュー用）
+   * **[!UICONTROL テストプロファイルを追加]** （E メールと SMS 配信のプレビュー用）
 
-   * **[!UICONTROL 購読者を追加]** プッシュ配信のプレビューの場合
+   * **[!UICONTROL 購読者を追加]** （プッシュ通知のプレビュー）
 
 1. テストプロファイルとプロファイルを組み合わせて、E メールや SMS メッセージをプレビューできます。
 
