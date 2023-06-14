@@ -4,10 +4,10 @@ title: SMS 配信の作成
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 badge: label="Alpha"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 94%
+source-wordcount: '313'
+ht-degree: 91%
 
 ---
 
@@ -52,7 +52,11 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL コントロール母集団を有効にする]**」オプションをオンにして、配信の影響を測定するコントロール母集団を設定すると、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できるようになります。[詳細情報](../audience/control-group.md)
 
-1. 「**[!UICONTROL コンテンツの編集]**」をクリックして、SMS メッセージのコンテンツのデザインを開始します。
+1. 「**[!UICONTROL コンテンツの編集]**」をクリックして、SMS メッセージのコンテンツのデザインを開始します。[詳細情報](content-sms.md)
+
+   ![](assets/sms_create_4.png)
+
+   この画面から、 [コンテンツをシミュレート](../preview-test/preview-test.md) および [オファーの設定](../content/offers.md).
 
 1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。
 

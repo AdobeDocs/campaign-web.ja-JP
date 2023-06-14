@@ -5,7 +5,7 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
+source-git-commit: 34bed4f276fd0eeb54ad23ddd02e833a0547f707
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 68%
@@ -47,7 +47,6 @@ ht-degree: 68%
             + [垂直方向の整列とパディングを調整](content/alignment-and-padding.md)
             + [リンクのスタイルの定義](content/styling-links.md)
             + [インラインスタイル属性を追加する](content/inline-styling.md)
-         + [オファーの送信](content/offers.md)
       + メールの送信と監視 {#monitor}
          + [メールの準備と送信](monitor/prepare-send.md)
          + [配信ログの監視](monitor/delivery-logs.md)
@@ -67,6 +66,7 @@ ht-degree: 68%
       + [パーソナライゼーションの追加](personalization/personalize.md)
       + [条件付きコンテンツを追加](personalization/conditions.md)
       + [組み込みコンテンツブロックを追加する](personalization/content-blocks.md)
+   + [オファーの送信](content/offers.md)
    + 配信をプレビューおよびテストします {#preview-test}
       + [プレビューとテストについて](preview-test/preview-test.md)
       + [メッセージコンテンツをプレビュー](preview-test/preview-content.md)
