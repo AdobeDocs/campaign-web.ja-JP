@@ -4,10 +4,10 @@ title: オファーの送信
 description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4fbab5ddf2f1c69fbe27d214aa3e349075054c10
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 99%
+source-wordcount: '545'
+ht-degree: 95%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign v8 Web では、**[!UICONTROL インタラクション]**&#x200B;
 
    ![](assets/create-content-offers.png)
 
-1. エンジンのオファー選択を調整するには、オファーを並べ替える特定の&#x200B;**[!UICONTROL オファーカテゴリ]**&#x200B;を選択します。
+1. エンジンのオファー選択を調整するには、オファーを並べ替える特定の&#x200B;**[!UICONTROL オファーカテゴリ]**&#x200B;を選択します。フォルダーを選択すると、すべてのサブフォルダーが自動的に含まれ、削除できません。 なお、UI にはこの動作は反映されていません。
 
    カテゴリが指定されてない場合、**[!UICONTROL オファーテーマ]**&#x200B;が選択されていない限り、環境に含まれているすべてのオファーがオファーエンジンで考慮されます。
 
