@@ -4,7 +4,7 @@ title: テスト配信の送信
 description: テスト配信を定義して送信する方法を説明します
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 1%
@@ -27,11 +27,11 @@ ht-degree: 1%
 
   これらは、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* **[メインターゲットから置換](#substitution-profiles)**  — 送信 **メールと SMS のテスト** 既存のプロファイルを偽装しているときに、特定の電子メールアドレスまたは電話番号にアクセスできるようになりました。
+* [メインターゲットから置換](#substitution-profiles)  — 送信 **メールと SMS のテスト** 既存のプロファイルを偽装しているときに、特定の電子メールアドレスまたは電話番号にアクセスできるようになりました。
 
   これにより、受信者と同じようにメッセージを体験し、プロファイルが受け取るコンテンツを正確に表示できます。
 
-* **[購読者](#subscribers)**  — 送信 **プッシュ通知のテスト** をデータベースに追加した架空の購読者に送信できます。
+* [購読者](#subscribers)  — 送信 **プッシュ通知のテスト** をデータベースに追加した架空の購読者に送信できます。
 
   テストプロファイルと同様に、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
