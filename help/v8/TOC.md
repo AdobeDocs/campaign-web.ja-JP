@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 72%
+source-wordcount: '352'
+ht-degree: 68%
 
 ---
 
@@ -48,11 +48,6 @@ ht-degree: 72%
             + [リンクのスタイルの定義](content/styling-links.md)
             + [インラインスタイル属性を追加する](content/inline-styling.md)
          + [オファーの送信](content/offers.md)
-      + メールのプレビューとテスト {#preview-test}
-         + [プレビューとテストについて](preview-test/preview-test.md)
-         + [メールコンテンツのプレビュー](preview-test/preview-content.md)
-         + [メールをレンダリング](preview-test/email-rendering.md)
-         + [テストメールの送信](preview-test/proofs.md)
       + メールの送信と監視 {#monitor}
          + [メールの準備と送信](monitor/prepare-send.md)
          + [配信ログの監視](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 72%
       + [パーソナライゼーションの追加](personalization/personalize.md)
       + [条件付きコンテンツを追加](personalization/conditions.md)
       + [組み込みコンテンツブロックを追加する](personalization/content-blocks.md)
+   + 配信をプレビューおよびテストします {#preview-test}
+      + [プレビューとテストについて](preview-test/preview-test.md)
+      + [メッセージコンテンツをプレビュー](preview-test/preview-content.md)
+      + [テスト配信の送信](preview-test/proofs.md)
+      + [メールをレンダリング](preview-test/email-rendering.md)
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [既存オーディエンスの選択](audience/add-audience.md)

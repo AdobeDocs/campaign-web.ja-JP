@@ -4,33 +4,35 @@ title: メールのプレビューとテストについて
 description: メールのプレビューとテストの方法について説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 21%
+source-wordcount: '185'
+ht-degree: 15%
 
 ---
 
-# メールのプレビューとテストについて {#about-preview-test}
+# 配信のプレビューとテストについて {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="メッセージのプレビューとテスト"
 >abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="メールコンテンツのプレビュー"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="テストメールの送信"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="配信コンテンツのプレビュー"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="テストメッセージの送信"
 
-E メールコンテンツを定義したら、メッセージを送信する前に、テストプロファイルを使用してプレビューおよびテストできます。
+配信コンテンツを定義したら、メッセージを送信する前に、テストプロファイルを使用してプレビューおよびテストできます。
 
 これは、正確でありながら、コンテンツとパーソナライゼーションの両方の設定でエラーが発生しないようにするために重要な手順です。
 
 これをおこなうには、 [!DNL Adobe Campaign] では、次のことが可能です。
 
-* [E メールのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)
+* [メッセージの内容とパーソナライゼーションのプレビュー](preview-content.md)
+* [テスト配信の送信](proofs.md) テストおよび検証の対象となる特定の受信者または購読者
 * [E メールのレンダリングを確認](email-rendering.md) 一般的なデスクトップ、モバイル、web ベースのクライアント
-* [テストメールの送信](proofs.md) テストと検証の対象となる特定の受信者
 
-これらのアクションは、 **[!UICONTROL コンテンツをシミュレート]** ボタン ( [コンテンツを編集](../content/edit-content.md) 画面または [メールデザイナー](../content/get-started-email-designer.md).
+これらのアクションは、 **[!UICONTROL コンテンツをシミュレート]** ボタン（配信のコンテンツを編集画面からアクセス可能）
+
+<!-- from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).-->
 
 ![](assets/simulate-button.png)
 
