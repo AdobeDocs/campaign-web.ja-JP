@@ -3,9 +3,9 @@ audience: end-user
 title: E メール配信レポート
 description: 電子メール配信レポートにアクセスして使用する方法を説明します
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1407'
 ht-degree: 37%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 37%
 
 * **[!UICONTROL タイプごとのエラーの分類]** および **[!UICONTROL ドメインごとのエラーの分類]** テーブルとグラフには、各ドメインで発生した可能性のあるエラーに関して使用可能なデータが含まれています。
 
-  このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、 [強制隔離管理](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja)
+  このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 
