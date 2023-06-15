@@ -3,9 +3,9 @@ audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha"
-source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
+source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '416'
 ht-degree: 8%
 
 ---
@@ -56,4 +56,4 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信が表示されます。 ただし、ワークフローで作成された配信はそこから削除できません。 ワークフローのコンテキストで作成された配信を削除するには、ワークフローから配信アクティビティを削除する必要があります。
+>この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信が表示されます。 ただし、ワークフローで作成された配信はそこから削除できません。 ワークフローのコンテキストで作成された配信を削除するには、ワークフローから配信アクティビティを削除する必要があります。 [詳細情報](../msg/gs-messages.md#delivery-delete)
