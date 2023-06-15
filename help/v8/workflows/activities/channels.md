@@ -3,9 +3,9 @@ audience: end-user
 title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（E メール、プッシュ、SMS）を追加する方法を説明します
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '425'
 ht-degree: 12%
 
 ---
@@ -34,9 +34,7 @@ Adobe Campaign Web を使用すると、E メール、SMS、プッシュチャ�
 
    左側のパネルのチャネルアクティビティ設定から別のテンプレートを選択できます。 以前に選択したオーディエンスがチャネルに対応していない場合は、テンプレートを選択できません。 これを解決するには、 **オーディエンスの構築** 「 」アクティビティを選択して、正しいターゲットマッピングを持つオーディエンスを選択します。 ターゲットマッピングの詳細については、 [Adobe Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}.
 
-1. クリック **配信を作成**. これで、配信が配信リストで使用できるようになりました。
-
-1. スタンドアロン配信の作成時と同様に、メッセージの設定とコンテンツを定義します。 また、コンテンツをスケジュールおよびシミュレートすることもできます。 [詳細情報](../../msg/gs-messages.md)
+1. クリック **配信を作成**. スタンドアロン配信の作成時と同様に、メッセージの設定とコンテンツを定義します。 また、コンテンツをスケジュールおよびシミュレートすることもできます。 [詳細情報](../../msg/gs-messages.md)
 
 1. ワークフローに戻り、変更を保存します。
 
