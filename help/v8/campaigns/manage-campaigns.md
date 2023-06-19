@@ -3,9 +3,9 @@ audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha"
-source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '423'
 ht-degree: 8%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # キャンペーンへのアクセスと管理{#manage-campaigns}
 
-新しいキャンペーンを作成したり、既存のキャンペーンを管理したりするには、 **[!UICONTROL キャンペーン]** メニュー
+新しいキャンペーンを作成したり、既存のキャンペーンを管理したりするには、 **[!UICONTROL キャンペーン]** メニューを開きます。
 
 ## キャンペーンリスト{#access-campaigns}
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 ![キャンペーンリスト](assets/campaign-list.png)
 
-リスト内の各キャンペーンには、現在のステータス、作成日、最終変更日時などに関する情報が表示されます。
+デフォルトでは、リスト内の各キャンペーンには、現在のステータス、作成日、最終変更日時などに関する情報が表示されます。
 
 表示される列は、 **カスタムレイアウトの列を設定する** リストの右上隅にあるアイコン。 これにより、リストに情報を追加できます。 また、検索バーとフィルターを使用して、リスト内での検索を容易にすることができます。 [詳細情報](../get-started/user-interface.md#list-screens)
 
@@ -45,7 +45,7 @@ ht-degree: 8%
 
 * この **ワークフロー** 「 」タブには、キャンペーンにリンクされているすべてのワークフローが表示されます。 また、このタブでは、キャンペーン内に新しいワークフローを作成できます。 [こちら](create-campaigns.md#create-campaigns)を参照してください。
 
-* この **配信** 「 」タブには、キャンペーンにリンクされているすべての配信の一覧が表示されます。 キャンペーン内に新しい配信を作成することもできます。 [こちら](create-campaigns.md#create-campaigns)を参照してください。
+* この **配信** 「 」タブには、現在のキャンペーンにリンクされているすべての配信が表示されます。 キャンペーン内に新しい配信を作成することもできます。 [こちら](create-campaigns.md#create-campaigns)を参照してください。
 
 ## キャンペーンの複製と削除
 
