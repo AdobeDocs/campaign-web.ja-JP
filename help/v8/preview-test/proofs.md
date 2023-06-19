@@ -4,14 +4,19 @@ title: テスト配信の送信
 description: テスト配信を定義して送信する方法を説明します
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 4%
 
 ---
 
 # テスト配信の送信 {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="プレビューモード"
+>abstract="テスト母集団をメインターゲットに含めて、メッセージをプレビューおよびテストします。"
 
 **[!UICONTROL Adobe Campaign]** では、メッセージをメインオーディエンスに送信する前にテストできます。
 
@@ -20,6 +25,15 @@ ht-degree: 1%
 テストの受信者は、リンク、オプトアウトリンク、画像、ミラーページなどの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定、配信設定でエラーを検出できます。
 
 ## テスト受信者の選択 {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="テスト母集団"
+>abstract="テスト母集団モードを選択します。"
+
+
 
 使用しているチャネルに応じて、テストメッセージを次の 3 種類の受信者に送信できます。
 
@@ -38,6 +52,7 @@ ht-degree: 1%
 テスト配信の受信者を選択するには、使用するプロファイルのタイプに応じて、次の手順に従います。
 
 ### テストプロファイル {#test-profiles}
+
 
 1. E メールまたは SMS 配信のコンテンツを編集画面を参照し、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
 
