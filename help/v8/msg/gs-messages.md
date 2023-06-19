@@ -4,14 +4,20 @@ title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Alpha"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1119'
 ht-degree: 83%
 
 ---
 
 # メッセージの基本を学ぶ{#gs-messages}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_list"
+>title="配信"
+>abstract="配信のリストを閲覧できます。ステータス、連絡先、変更日、主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。「配信を作成」ボタンをクリックして、新しい配信を追加します。配信を選択して、コンテンツ、オーディエンスおよび詳細を表示します。"
+
 
 Adobe Campaign を使用すると、メール、SMS、プッシュ通知などのクロスチャネルキャンペーンを送信し、各種の専用レポートを使用してキャンペーンの有効性を評価できます。
 
@@ -52,6 +58,7 @@ Adobe Campaign v8 には、次の配信チャネルが付属しています。E 
 
 
 ## 配信を作成 {#create-delivery}
+
 
 スタンドアロンの配信を作成する場合は、**[!UICONTROL 配信]**&#x200B;の左メニューに移動するか、マーケティングキャンペーンのコンテキストで配信を作成する場合は、**[!UICONTROL キャンペーン]**&#x200B;の左メニューに移動します。
 
