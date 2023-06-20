@@ -7,24 +7,24 @@ role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '937'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
 # 配信テンプレートの操作 {#work-with-delivery-templates}
 
-高速で改善されたデザインプロセスを実現するために、配信テンプレートを作成して、キャンペーン全体でカスタムコンテンツを簡単に再利用できます。 この機能により、クリエイティブのルックアンドフィールを標準化して、キャンペーンの実行と開始を迅速におこなうことができます。
+設計プロセスを加速し改善するために、配信テンプレートを作成すると、キャンペーン全体でカスタムコンテンツを簡単に再利用できます。この機能を使用すると、クリエイティブなルックアンドフィールを標準化して、キャンペーンの実行と開始をより迅速に行うことができます。
 
 テンプレートには、次の項目を含めることができます。
 
 * [タイポロジ](../advanced-settings/delivery-settings.md#typology)
 * 送信者のアドレス
-* An [audience](../audience/about-audiences.md)を含む [コントロール母集団](../audience/control-group.md)
-* カスタム [コンテンツ](../content/edit-content.md)
-* [パーソナライズされたフィールド](../personalization/personalize.md) および [条件付きコンテンツ](../personalization/conditions.md)
-* リンク先 [ミラーページ](../content/mirror-page.md) および購読解除 [リンク](../content/message-tracking.md)
+* [オーディエンス ](../audience/about-audiences.md)（[コントロール母集団](../audience/control-group.md)を含む）
+* カスタム[コンテンツ](../content/edit-content.md)
+* [パーソナライズされたフィールド](../personalization/personalize.md)と[条件付きコンテンツ](../personalization/conditions.md)
+* [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md)
 * リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。
 
 ## テンプレートへのアクセスと管理 {#access-manage-templates}
@@ -32,45 +32,45 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="配信テンプレートの操作"
->abstract="配信テンプレートを使用すると、後で使用するために既存の配信を簡単に作成して保存できます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="既存のテンプレートの複製"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="配信のテンプレートへの変換"
+>abstract="配信テンプレートを使用すると、後で使用できるように既存の配信を簡単に作成して保存できます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ja#copy-an-existing-template" text="既存のテンプレートを複製"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ja#convert-an-existing-delivery" text="配信をテンプレートに変換"
 
-コンテンツテンプレートリストにアクセスするには、 **[!UICONTROL Campaign Management]** > **[!UICONTROL 配信]** 左のメニューから、 **テンプレート** タブをクリックします。
+コンテンツテンプレートリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;を選択し、「**テンプレート**」タブを参照します。
 
 ![](assets/templates-tab.png)
 
-以前のバージョンの [作成済み](#create-a-delivery-template) 現在の環境が表示されます。
+現在の環境で[作成](#create-a-delivery-template)されたすべてのテンプレートが表示されます。
 
-チャネルやフォルダーのコンテンツテンプレートにフィルターを適用することができます。 また、配信属性を使用してルールを作成することで、詳細フィルターを設定できます。 [ルールビルダーの詳細を説明します](../audience/segment-builder.md)
+チャネルおよびフォルダーのコンテンツテンプレートをフィルターできます。配信属性を使用してルールを作成すると、高度なフィルターを設定することもできます。[ルールビルダーの詳細情報](../audience/segment-builder.md)
 
 ![](assets/templates-filters.png)
 
-テンプレートを編集するには、リストから目的の項目をクリックします。 そこから：
+テンプレートを編集するには、リストから目的の項目をクリックします。そこから
 
-* コンテンツ、プロパティ、オーディエンスおよびそれに添付されているオファーを変更できます。
-* また、テンプレートをテストすることもできます。 [詳細情報](#test-template)
+* そのコンテンツ、プロパティ、オーディエンス、およびそれに添付されているオファーを変更できます。
+* また、テンプレートをテストすることもできます。[詳細情報](#test-template)
 
 ![](assets/templates-edition.png)
 
-を削除または [重複](#copy-an-existing-template) テンプレートで、対応するアクションを **[!UICONTROL その他のアクション]** メニュー ( **[!UICONTROL テンプレート]** リストまたはテンプレート編集画面から。
+テンプレートを削除または[複製](#copy-an-existing-template)するには、**[!UICONTROL その他のアクション]**&#x200B;メニュー（**[!UICONTROL テンプレート]**&#x200B;リストまたはテンプレート編集画面）から対応するアクションを選択します。
 
 ![](assets/templates-more-actions.png)
 
 >[!NOTE]
 >
->テンプレートを編集または削除しても、このテンプレートを使用して作成された配信は影響を受けません。
+>テンプレートが編集または削除されても、このテンプレートを使用して作成された配信は影響を受けません。
 
-## テンプレートの作成 {#create-a-delivery-template}
+## テンプレートを作成 {#create-a-delivery-template}
 
 配信テンプレートを作成するには、次の操作を実行します。
-* 既存のテンプレートの複製 — [詳細情報](#copy-an-existing-template)
-* 既存の配信をテンプレートに変換 — [詳細情報](#convert-an-existing-delivery)
-* 配信テンプレートをゼロから作成する — [詳細情報](#create-a-new-template)
+* 既存のテンプレートを複製 - [詳細情報](#copy-an-existing-template)
+* 既存の配信をテンプレートに変換 - [詳細情報](#convert-an-existing-delivery)
+* 配信テンプレートをゼロから作成 - [詳細情報](#create-a-new-template)
 
-### 既存のテンプレートの複製 {#copy-an-existing-template}
+### 既存のテンプレートを複製 {#copy-an-existing-template}
 
-キャンペーンには、各チャネル用の一連の組み込みテンプレート（メール、プッシュ、SMS）が付属しています。配信テンプレートを作成する最も簡単な方法は、組み込みテンプレートを複製してカスタマイズすることです。
+キャンペーンには、各チャネル用の一連の組み込みテンプレート（メール、プッシュ、SMS）が備わっています。配信テンプレートを作成する最も簡単な方法は、組み込みテンプレートを複製してカスタマイズすることです。
 
 >[!NOTE]
 >
@@ -79,46 +79,46 @@ ht-degree: 21%
 配信テンプレートを複製するには、次の手順に従います。
 
 1. **配信**&#x200B;の左側のメニューから、「**テンプレート**」タブを参照します。[詳細情報](#access-manage-templates)
-1. 次をクリック： **[!UICONTROL その他のアクション]** 」ボタンをクリックし、「  **[!UICONTROL 複製]**.
+1. 目的のテンプレート名の右側にある 「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 複製]**」を選択します。
 
-   また、リストからテンプレートを選択し、テンプレート編集画面からこのオプションを選択することもできます。
+   リストからテンプレートを選択し、テンプレート編集画面からこのオプションを選択することもできます。
 
-1. 複製を確認します。
+1. 複製を確定します。
 
    ![](assets/templates-duplicate-confirm.png)
 
-1. 中央の画面に新しいテンプレートダッシュボードが開きます。 必要に応じてテンプレート設定を編集します。
+1. 中央の画面に新しいテンプレートダッシュボードが開きます。必要に応じて、テンプレート設定を編集します。
 
    ![](assets/templates-duplicated-item.png)
 
-1. 次をクリック： **[!UICONTROL レビュー]** ボタンをクリックして、テンプレートを保存およびレビューします。 その場合でも、すべての設定を編集、削除および複製できます。
+1. 「**[!UICONTROL レビュー]**」ボタンをクリックして、テンプレートを保存して確認します。すべての設定を編集、削除および複製できます。
 
    ![](assets/templates-review-screen.png)
 
-1. 必要に応じて、テンプレートのレンダリングをテストします。 [詳細情報](#test-template)
+1. 必要に応じて、テンプレートのレンダリングをテストします。[詳細情報](#test-template)
 
-新しいテンプレートが [**テンプレート** リスト](#access-manage-templates). これで、新しい配信を作成する際にテンプレートを選択できます。
+新しいテンプレートが&#x200B;[**テンプレート**&#x200B;リスト](#access-manage-templates)に追加されます。これで、新しい配信を作成する際にテンプレートを選択できます。
 
-### 配信のテンプレートへの変換 {#convert-an-existing-delivery}
+### 配信をテンプレートに変換 {#convert-an-existing-delivery}
 
-任意の配信をテンプレートに変換して、今後繰り返される配信アクションのために使用することができます。
+配信をテンプレートに変換すると、今後繰り返し配信アクションの作成に使用できます。
 
 配信をテンプレートとして保存するには、次の手順に従います。
 
-1. 次に移動： **[!UICONTROL キャンペーン管理]** > **[!UICONTROL 配信]** メニュー
-1. 次の **[!UICONTROL 参照]** タブで、 **[!UICONTROL その他のアクション]** 」ボタンをクリックし、「 **[!UICONTROL テンプレートとしてコピー]**.
+1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;メニューに移動します。
+1. 「**[!UICONTROL 参照]**」タブで、目的の配信名の右側にある「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL テンプレートとしてコピー]**」を選択します。
 
    ![](assets/templates-convert-delivery.png)
 
-1. 複製を確認します。
+1. 複製を確定します。
 
-1. 中央の画面に新しいテンプレートダッシュボードが開きます。 必要に応じてテンプレート設定を編集します。
+1. 中央の画面に新しいテンプレートダッシュボードが開きます。必要に応じて、テンプレート設定を編集します。
 
-1. 次をクリック： **[!UICONTROL レビュー]** ボタンをクリックして、テンプレートを保存およびレビューします。 その場合でも、すべての設定を編集、削除および複製できます。
+1. 「**[!UICONTROL レビュー]**」ボタンをクリックして、テンプレートを保存およびレビューします。すべての設定を編集、削除および複製できます。
 
-1. 必要に応じて、テンプレートのレンダリングをテストします。 [詳細情報](#test-template)
+1. 必要に応じて、テンプレートのレンダリングをテストします。[詳細情報](#test-template)
 
-新しいテンプレートが [**テンプレート** リスト](#access-manage-templates). これで、新しい配信を作成する際にテンプレートを選択できます。
+新しいテンプレートが&#x200B;[**テンプレート**&#x200B;リスト](#access-manage-templates)に追加されます。これで、新しい配信を作成する際にテンプレートを選択できます。
 
 ### 新しいテンプレートの作成 {#create-a-new-template}
 
@@ -134,42 +134,41 @@ ht-degree: 21%
    ![](assets/templates-create-button.png)
 
 1. テンプレートに使用するチャネルを選択します。
-1. そのチャネルの組み込みの配信テンプレートは、デフォルトで、独自のテンプレートの作成に役立ちます。 必要に応じて、選択したチャネルの右側にある専用のボタンを使用し、別のテンプレートを選択します。
+1. そのチャネルの組み込み配信テンプレートは、独自のテンプレートの作成に役立つようにデフォルトで使用されます。 必要に応じて、選択したチャネルの右側にある専用ボタンを使用して別のテンプレートを選択します。
 
    ![](assets/templates-channel-browse.png)
 
-1. 次をクリック： **[!UICONTROL テンプレートを作成]** ボタンを再度クリックします。
+1. 「**[!UICONTROL テンプレートを作成]**」ボタンをもう一度クリックします。
 
-1. テンプレートのプロパティを定義します。 [audience](../audience/add-audience.md) 選択したチャネルに応じて、コンテンツとコンテンツが表示されます。
+1. 選択したチャネルに応じて、テンプレートのプロパティ、[オーディエンス](../audience/add-audience.md)およびコンテンツを定義します。
 
    >[!NOTE]
    >
    >配信チャネルと各コンテンツのデザイン方法について詳しくは、以下の節を参照してください。
    >
-   > * [E メールチャネル](../email/create-email.md)
+   > * [メールチャネル](../email/create-email.md)
    > * [プッシュ通知チャネル](../push/gs-push.md)
    > * [SMS チャネル](../sms/create-sms.md)
 
+1. 「**[!UICONTROL レビュー]**」ボタンをクリックしてテンプレートを保存およびレビューします。すべての設定を編集、削除および複製できます。
 
-1. 次をクリック： **[!UICONTROL レビュー]** ボタンをクリックして、テンプレートを保存およびレビューします。 その場合でも、すべての設定を編集、削除および複製できます。
+1. 必要に応じて、テンプレートのレンダリングをテストします。[詳細情報](#test-template)
 
-1. 必要に応じて、テンプレートのレンダリングをテストします。 [詳細情報](#test-template)
+新しいテンプレートが&#x200B;[**テンプレート**&#x200B;リスト](#access-manage-templates)に追加されます。これで、新しい配信を作成する際にテンプレートを選択できます。
 
-新しいテンプレートが [**テンプレート** リスト](#access-manage-templates). これで、新しい配信を作成する際にテンプレートを選択できます。
+## 配信テンプレートをテスト {#test-template}
 
-## 配信テンプレートのテスト {#test-template}
+ゼロから作成した場合も、既存のコンテンツから作成した場合も、配信テンプレートのレンダリングをテストできます。これを行うには、以下の手順に従います。
 
-最初から作成した場合も、既存のコンテンツから作成した場合も、任意の配信テンプレートのレンダリングをテストできます。 それには、次の手順に従います。
+1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;メニューから「**テンプレート**」タブに移動し、任意のテンプレートを選択します。[詳細情報](#access-manage-templates)
 
-1. 次を参照： **テンプレート** タブで **[!UICONTROL キャンペーン管理]** > **[!UICONTROL 配信]** メニューを開き、任意のテンプレートを選択します。 [詳細情報](#access-manage-templates)
-
-1. 次をクリック： **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、画面の右上に表示されます。
+1. 画面右上の「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
    ![](assets/templates-simulate-button.png)
 
-1. 1 つ以上のテストプロファイルを選択して、E メールのレンダリングを確認します。 また、データベースから実際のプロファイルを選択することもできます。
+1. 1 つ以上のテストプロファイルを選択して、メールのレンダリングを確認します。また、データベースから実際のプロファイルを選択することもできます。
 
-1. 様々なプロファイルを切り替えて、選択したプロファイルに応じてメッセージのパーソナライズされた表現を取得します。
+1. 様々なプロファイルを切り替えて、選択したプロファイルに従ってメッセージをパーソナライズして表示します。
 
    <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
 
@@ -181,12 +180,12 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->E メールのレンダリングや配達確認の送信は、配信テンプレートで使用できません。
+>メールのレンダリングを使用したり、配信テンプレートで配達確認を送信したりすることはできません。
 
-* [E メールコンテンツのプレビューの詳細を説明します](../preview-test/preview-content.md)
+* [メールコンテンツのプレビューの詳細情報](../preview-test/preview-content.md)
 
-* [SMS コンテンツのプレビューの詳細を説明します](../sms/content-sms.md)
+* [SMS コンテンツのプレビューの詳細情報](../sms/content-sms.md)
 
-* [プッシュコンテンツのプレビューの詳細を説明します](../push/gs-push.md)
+* [プッシュコンテンツのプレビューの詳細情報](../push/gs-push.md)
 
 
