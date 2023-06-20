@@ -7,7 +7,7 @@ exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 44%
+ht-degree: 86%
 
 ---
 
@@ -17,11 +17,11 @@ SMS 配信は、顧客のモバイルデバイスにテキストメッセージ�
 
 SMS チャネルには、SMS 配信を作成する次の 3 つの方法が用意されています。
 
-* **[!UICONTROL ワークフロー]**:SMS アクティビティを追加し、基本設定を定義し、より大きな自動化シーケンス内で SMS コンテンツを構成します。
+* **[!UICONTROL ワークフロー]**：SMS アクティビティを追加し、基本設定を定義し、より大きな自動化シーケンス内で SMS コンテンツを構成します。
 
-* **[!UICONTROL キャンペーン]**:SMS 配信を専用のキャンペーンに組み込み、ターゲットオーディエンスや配信スケジュールなどのパラメーターを設定します。
+* **[!UICONTROL キャンペーン]**：SMS 配信を専用のキャンペーンに組み込み、ターゲットオーディエンスや配信スケジュールなどのパラメーターを設定します。
 
-* **スタンドアロン配信**:ワークフローやキャンペーンを使用せずに、顧客との迅速で直接のコミュニケーションを可能にする個々の SMS 配信を作成します。
+* **スタンドアロン配信**：ワークフローやキャンペーンを必要とせずに、顧客との迅速で直接的な通信を可能にする個々の SMS 配信を作成します。
 
 ![](../assets/do-not-localize/book.png) で SMS チャネルを設定する方法を説明します。 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
@@ -30,7 +30,7 @@ SMS チャネルには、SMS 配信を作成する次の 3 つの方法が用意
 <a href="create-sms.md">
 <img alt="リード" src="assets/do-not-localize/create_sms.png">
 </a>
-<div><a href="create-sms.md"><strong>SMS 配信の作成</strong>
+<div><a href="create-sms.md"><strong>SMS 配信を作成</strong>
 </div>
 <p>
 </td>
@@ -39,7 +39,7 @@ SMS チャネルには、SMS 配信を作成する次の 3 つの方法が用意
 <img alt="低頻度" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href="content-sms.md"><strong>SMS 配信のデザイン<strong></strong></a>
+<a href="content-sms.md"><strong>SMS 配信をデザイン<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -47,7 +47,7 @@ SMS チャネルには、SMS 配信を作成する次の 3 つの方法が用意
 <img alt="検証" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
-<a href="send-sms.md"><strong>SMS 配信の送信</strong></a>
+<a href="send-sms.md"><strong>SMS 配信を送信</strong></a>
 </div>
 <p>
 </td>

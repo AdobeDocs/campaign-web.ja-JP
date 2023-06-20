@@ -8,7 +8,7 @@ hide: true
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 68%
+ht-degree: 93%
 
 ---
 
@@ -26,21 +26,21 @@ ht-degree: 68%
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
    + [配信テンプレートの操作](msg/delivery-template.md)
    + メール {#email}
-      + [最初のメールの作成](email/create-email.md)
-      + E メールコンテンツの定義 {#content}
-         + [E メールコンテンツの設定](content/edit-content.md)
-         + E メールのシェーピングを開始 {#start-design}
-            + [電子メールデザイナーの基本を学ぶ](content/get-started-email-designer.md)
+      + [最初のメールを作成](email/create-email.md)
+      + メールコンテンツを定義 {#content}
+         + [メールコンテンツを設定](content/edit-content.md)
+         + メールの作成を開始 {#start-design}
+            + [メールデザイナーの基本を学ぶ](content/get-started-email-designer.md)
             + [ゼロから開始](content/create-email-content.md)
             + [メールコンテンツの読み込み](content/existing-content.md)
             + [独自コンテンツのコーディング](content/code-content.md)
             + [メールコンテンツテンプレートの使用](content/email-sample-templates.md)
-         + コンテンツのデザイン {#design-content}
+         + コンテンツをデザイン {#design-content}
             + [コンテンツコンポーネントの使用](content/content-components.md)
             + [リンクの追加とメッセージのトラッキング](content/message-tracking.md)
             + [ミラーページへのリンクの追加](content/mirror-page.md)
-            + [プリヘッダーの追加](content/preheader.md)
-            + [テキストバージョンの生成](content/text-version-email.md)
+            + [プリヘッダーを追加](content/preheader.md)
+            + [テキストバージョンを生成](content/text-version-email.md)
          + コンテンツのスタイル設定 {#style}
             + [メールスタイルの基本を学ぶ](content/get-started-email-style.md)
             + [背景設定の編集](content/backgrounds.md)
@@ -53,19 +53,19 @@ ht-degree: 68%
          + [メール配信設定](advanced-settings/delivery-settings.md)
    + プッシュ通知 {#push}
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
-      + [プッシュ通知配信の作成](push/create-push.md)
-      + [プッシュ配信のデザイン](push/content-push.md)
+      + [プッシュ通知配信を作成](push/create-push.md)
+      + [プッシュ配信をデザイン](push/content-push.md)
       + [プッシュ通知配信のプレビューと送信](push/send-push.md)
    + SMS {#sms}
       + [SMS 配信の基本を学ぶ](sms/gs-sms.md)
-      + [SMS 配信の作成](sms/create-sms.md)
-      + [SMS 配信のデザイン](sms/content-sms.md)
+      + [SMS 配信を作成](sms/create-sms.md)
+      + [SMS 配信をデザイン](sms/content-sms.md)
       + [SMS 配信のプレビューと送信](sms/send-sms.md)
    + コンテンツを動的にする {#dynamic-content}
       + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
-      + [パーソナライゼーションの追加](personalization/personalize.md)
+      + [パーソナライゼーションを追加](personalization/personalize.md)
       + [条件付きコンテンツを追加](personalization/conditions.md)
-      + [組み込みコンテンツブロックを追加する](personalization/content-blocks.md)
+      + [ビルトインコンテンツブロックを追加](personalization/content-blocks.md)
    + [オファーの送信](content/offers.md)
    + 配信をプレビューおよびテストします {#preview-test}
       + [プレビューとテストについて](preview-test/preview-test.md)
@@ -75,10 +75,10 @@ ht-degree: 68%
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [既存オーディエンスの選択](audience/add-audience.md)
-   + [ルールビルダーを使用したオーディエンスの定義](audience/segment-builder.md)
-   + [ファイルから電子メールオーディエンスを読み込む](audience/file-audience.md)
+   + [ルールビルダーを使用したオーディエンスを定義](audience/segment-builder.md)
+   + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
    + [Adobe Experience Platform オーディエンスの使用](audience/aep-audience.md)
-   + [コントロール母集団の設定](audience/control-group.md)
+   + [コントロール母集団を設定](audience/control-group.md)
 + クロスチャネルキャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
    + [キャンペーンへのアクセスと管理](campaigns/manage-campaigns.md)
@@ -89,9 +89,9 @@ ht-degree: 68%
    + 最初のワークフローの作成と実行 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
-      + [アクティビティの調整](workflows/orchestrate-activities.md)
-      + [ワークフロー設定の指定](workflows/workflow-settings.md)
-      + [ワークフローを開始および監視](workflows/start-monitor-workflows.md)
+      + [アクティビティをオーケストレーション](workflows/orchestrate-activities.md)
+      + [ワークフロー設定を行う](workflows/workflow-settings.md)
+      + [ワークフローの開始と監視](workflows/start-monitor-workflows.md)
    + ワークフローアクティビティの操作 {#design-workflows}
       + [ワークフローアクティビティについて](workflows/activities/about-activities.md)
       + [AND 結合](workflows/activities/and-join.md)
@@ -105,7 +105,7 @@ ht-degree: 68%
    + [レポートの基本を学ぶ](reporting/gs-reports.md)
    + 配信レポート {#delivery-report}
       + [配信レポートへのアクセス](reporting/delivery-reports.md)
-      + [E メール配信レポート](reporting/email-report.md)
+      + [メール配信レポート](reporting/email-report.md)
       + [プッシュ配信レポート](reporting/push-report.md)
       + [SMS 配信レポート](reporting/sms-report.md)
    + [キャンペーンレポート](reporting/campaign-reports.md)

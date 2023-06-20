@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 99%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="新機能"
->abstract="Campaign Web の新しいユーザーインターフェイス、最新の改善、主な機能について説明します。 これらを使用して、オーディエンスのクロスチャネルキャンペーンを作成する方法を説明します。 Campaign は、使いやすい機能を備え、パーソナライズされたクロスチャネルキャンペーン作成プロセスを合理化し、成果を上げ、競争力を高めます。 "
+>abstract="Campaign web の新しいユーザーインターフェイス、最新の改善、主な機能を確認します。これらを使用して、オーディエンスのクロスチャネルキャンペーンを作成する方法を説明します。Campaign は、使いやすい機能を備えており、パーソナライズされたクロスチャネルキャンペーンの作成プロセスを合理化し、結果を推進し、競争力を高めるのに役立ちます。 "
 
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。
 
-当初は、リッチな [クライアントコンソール](#ac-client)の Campaign は、ユーザーエクスペリエンスを大幅に改善するために、使いやすさ、アクセシビリティ、新しいデザインを備えた新しい Web ユーザーインターフェイス (UI) を提供します。 この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。
+当初は、機能豊富な[クライアントコンソール](#ac-client)でしか利用できませんでしたが、Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。これは、より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。
 
 ![](assets/home.png)
 
@@ -36,9 +36,9 @@ Web UI で使用できない Campaign v8 機能にアクセスする必要があ
 
 ## Campaign への接続
 
-Adobe Campaign Web に接続するには、次の手順に従います。
+Adobe Campaign web に接続するには、次の手順に従います。
 
-1. 参照先 [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
+1. [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"} を参照します。
 1. アドビの資格情報を使用してログインします。
 1. 「**クイックアクセス**」セクションで、「**Campaign**」をクリックします。
 
@@ -46,10 +46,9 @@ Adobe Campaign Web に接続するには、次の手順に従います。
 
 1. 次のページで、Campaign インスタンスの「**ローンチ**」ボタンをクリックします。
 
-
    Campaign に接続しました。ユーザーインターフェイスの使用を開始する方法については、[このページ](user-interface.md)を参照してください。
 
-既に別のAdobe Experience Cloudソリューションに接続している場合は、画面の右上にあるソリューション切り替えボタンから Campaign 環境を参照することもできます。
+既に別の Adobe Experience Cloud ソリューションに接続している場合は、画面右上のソリューション切り替えボタンから Campaign 環境を参照することもできます。
 
 ## Campaign クライアントコンソールについて {#ac-client}
 
@@ -57,6 +56,6 @@ Campaign クライアントコンソールは、お使いのシステムにイ�
 
 Campaign データは、アプリケーションサーバーに保存されます。 クライアントコンソールと web UI の両方からデータを利用できます。 例えば、クライアントコンソールを使用して配信テンプレートを作成した場合、web UI でも使用できます。また、web UI でメール配信を作成した場合、クライアントコンソールからもこの配信にアクセスできます。
 
-一部のオブジェクトは、クライアントコンソールでのみ作成および管理できます。 Campaign Web UI で表示および使用できますが、この環境から作成または変更することはできません。 すべての Campaign オブジェクトおよびコンポーネントは、左側のナビゲーションから使用できるエクスプローラービューから使用できます。
+一部のオブジェクトは、クライアントコンソールでのみ作成および管理できます。これらは、Campaign web UI で表示および使用できますが、この環境から作成または変更することはできません。すべての Campaign オブジェクトとコンポーネントは、左側のナビゲーションからアクセスできるエクスプローラービューから使用できます。
 
-Campaign v8 の使用方法について詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}.
+Campaign v8 の使用方法について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}を参照してください。

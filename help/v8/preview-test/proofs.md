@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 テストの受信者は、リンク、オプトアウトリンク、画像、ミラーページなどの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定、配信設定でエラーを検出できます。
 
-## テスト受信者の選択 {#test-recipients}
+## テスト受信者を選択 {#test-recipients}
 
 
 
@@ -39,7 +39,7 @@ ht-degree: 4%
 
 * [テストプロファイル](#test-profiles)  — 送信 **メールと SMS のテスト** シードアドレス（データベース内の追加の架空の受信者）に割り当てます。
 
-  これらは、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  これらは、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
 
 * [メインターゲットから置換](#substitution-profiles)  — 送信 **メールと SMS のテスト** 既存のプロファイルを偽装しているときに、特定の電子メールアドレスまたは電話番号にアクセスできるようになりました。
 
@@ -47,7 +47,7 @@ ht-degree: 4%
 
 * [購読者](#subscribers)  — 送信 **プッシュ通知のテスト** をデータベースに追加した架空の購読者に送信できます。
 
-  テストプロファイルと同様に、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+  テストプロファイルと同様に、 [!DNL Campaign] コンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
 
 テスト配信の受信者を選択するには、使用するプロファイルのタイプに応じて、次の手順に従います。
 
@@ -56,7 +56,7 @@ ht-degree: 4%
 
 1. E メールまたは SMS 配信のコンテンツを編集画面を参照し、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
 
-1. 次をクリック： **[!UICONTROL テスト]** 」ボタンをクリックします。
+1. 「**[!UICONTROL テスト]**」ボタンをクリックします。
 
    >[!NOTE]
    >
@@ -72,7 +72,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >デフォルトでは、 **[!UICONTROL テストプロファイルを使用]** モードが選択されています。
+   >デフォルトでは、**[!UICONTROL テストプロファイルを使用]**&#x200B;モードが選択されています。
 
 1. テスト配信の受信者にも最終的なメッセージを送信するには、 **[!UICONTROL メインターゲットにテスト母集団を含める]** オプション。
 
@@ -86,7 +86,7 @@ ht-degree: 4%
 
 1. E メールまたは SMS 配信のコンテンツを編集画面を参照し、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
 
-1. 次をクリック： **[!UICONTROL テスト]** 」ボタンをクリックします。
+1. 「**[!UICONTROL テスト]**」ボタンをクリックします。
 
    ![](assets/simulate-test-button-email.png)
 
@@ -120,7 +120,7 @@ ht-degree: 4%
 
 1. 配信のコンテンツを編集画面を参照し、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
 
-1. 次をクリック： **[!UICONTROL テスト]** 」ボタンをクリックします。
+1. 「**[!UICONTROL テスト]**」ボタンをクリックします。
 
    ![](assets/simulate-test-button-push.png)
 
@@ -140,7 +140,7 @@ ht-degree: 4%
 
 1. 次をクリック： **[!UICONTROL テストを送信]** 」ボタンをクリックします。
 
-1. 送信を確認します。
+1. 送信を確定します。
 
    ![](assets/simulate-send-test.png)
 

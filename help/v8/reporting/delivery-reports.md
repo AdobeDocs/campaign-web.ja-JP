@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 62%
+ht-degree: 97%
 
 ---
 
@@ -17,9 +17,9 @@ Adobe Campaign には、配信ごとにアクセス可能な複数のタイプ�
 
 レポートを表示するには、次の手順に従います。
 
-1. 特定の配信のレポートを生成するには、 **[!UICONTROL 配信]** メニューを開き、レポートする配信を選択します。
+1. 特定の配信に関するレポートを生成するには、**[!UICONTROL 配信]**&#x200B;メニューに移動し、レポートする配信を選択します。
 
-1. お使いの **[!UICONTROL 配信]** ダッシュボードで、 **[!UICONTROL レポート]**.
+1. **[!UICONTROL 配信]**&#x200B;ダッシュボードで、「**[!UICONTROL レポート]**」をクリックします。
 
    ![](assets/reporting2.png)
 

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: プッシュ通知配信の作成
+title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 badge: label="Alpha"
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 65%
+ht-degree: 95%
 
 ---
 
-# プッシュ通知配信の作成 {#create-push}
+# プッシュ通知配信を作成 {#create-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
@@ -29,7 +29,7 @@ ht-degree: 65%
 
 1. **[!UICONTROL 配信]**&#x200B;ホームページで、「**[!UICONTROL 配信を作成]**」をクリックします。
 
-1. 以下 **[!UICONTROL チャネル]** 「 」セクションで、チャネルとして「プッシュ通知」を選択し、選択したオペレーショナルシステムに応じてテンプレートを選択します。Android またはiOS。 [テンプレートの詳細情報](../msg/delivery-template.md)
+1. 「**[!UICONTROL チャネル]**」セクションで、チャネルとして「プッシュ通知」を選択し、Android または iOS から選択したオペレーショナルシステムに応じてテンプレートを選択します。[テンプレートの詳細情報](../msg/delivery-template.md)
 
 1. 「**[!UICONTROL 配信を作成]**」ボタンをクリックして、確定します。
 
@@ -45,17 +45,17 @@ ht-degree: 65%
    * **[!UICONTROL 特性]**：分類目的でメールの特性を指定します。
 +++
 
-1. 次の **[!UICONTROL 対象ユーザ]** メニューで、この配信に使用するアプリケーションを選択します。
+1. **[!UICONTROL オーディエンス]**&#x200B;メニューで、この配信に使用するアプリケーションを選択します。
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、既存のオーディエンスをターゲットにするか、独自のユーザーを作成します。[詳細情報](../audience/about-audiences.md)
 
-   デフォルトでは、プッシュ通知はアプリケーションのすべての購読者に送信されます。
+   デフォルトでは、プッシュ通知はアプリケーションのすべてのサブスクライバーに送信されます。
 
    ![](assets/push_create_2.png)
 
 1. 「**[!UICONTROL コントロール母集団を有効にする]**」オプションをオンにして、配信の影響を測定するコントロール母集団を設定すると、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できるようになります。[詳細情報](../audience/control-group.md)
 
-1. クリック **[!UICONTROL コンテンツを編集]** プッシュ通知のコンテンツのデザインを開始します。 [詳細情報](content-push.md)
+1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、プッシュ通知のコンテンツのデザインを開始します。[詳細情報](content-push.md)
 
    ![](assets/push_create_5.png)
 
@@ -65,6 +65,6 @@ ht-degree: 65%
 
    ![](assets/push_create_3.png)
 
-1. クリック **[!UICONTROL 配信設定の指定]** をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。 [詳細情報](../advanced-settings/delivery-settings.md)
+1. 「**[!UICONTROL 配信設定を指定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 
    ![](assets/push_create_4.png)

@@ -9,24 +9,24 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 65%
+ht-degree: 99%
 
 ---
 
 
 # ビルトインコンテンツブロック {#ootb-content-blocks}
 
-Adobe Campaignは、事前設定済みのコンテンツブロックのリストを提供します。 これらのコンテンツブロックは動的でパーソナライズされており、特定のレンダリングを配信に挿入できます。 例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。
+Adobe Campaign は、事前設定済みのコンテンツブロックのリストを提供します。コンテンツブロックは動的で、パーソナライズされています。そこには、配信に挿入できる特定のレンダリングが格納されています。例えば、ロゴ、挨拶メッセージまたはミラーページへのリンクを追加できます。
 
 コンテンツブロックを配信に追加するには、次の手順に従います。
 
 1. 配信を開き、そのコンテンツを編集します。
 
-1. コンテンツブロックを追加するフィールドを見つけ、 **[!UICONTROL パーソナライゼーションダイアログを開く]** アイコンをクリックして式エディターを開きます。
+1. コンテンツブロックを追加するフィールドを見つけ、**[!UICONTROL パーソナライゼーションダイアログを開く]**&#x200B;アイコンをクリックして式エディターを開きます。
 
    ![](assets/content-block-access.png){width="800" align="center"}
 
-1. 式エディターで、 **[!UICONTROL コンテンツブロック]** 左メニュー
+1. 式エディターで、**[!UICONTROL コンテンツブロック]**&#x200B;の左側のメニューを参照します。
 
 1. コンテンツブロックを追加するには、コンテンツ内の目的の場所にカーソルを置き、「+」ボタンをクリックして挿入します。
 
@@ -40,7 +40,7 @@ Adobe Campaignは、事前設定済みのコンテンツブロックのリスト
 * **[!UICONTROL Facebook への事前入力]**
 * **[!UICONTROL 固有名詞の書式設定関数]**：JavaScript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字をすべて大文字に変更します。
 * **[!UICONTROL 挨拶]**：受信者の姓名の後にコンマを付けた挨拶文を挿入します。例：「こんにちは、John Doe。」
-* **[!UICONTROL ロゴを挿入]**:インスタンス設定で定義されているロゴを挿入します。
+* **[!UICONTROL ロゴの挿入]**：インスタンス設定で定義されているロゴを挿入します。
 * **[!UICONTROL ミラーページへのリンク]**：[ミラーページ](../content/mirror-page.md)へのリンクを挿入します。デフォルトの形式は、「このメッセージが正しく表示されない場合は、ここをクリックしてください」です。
 * **[!UICONTROL ミラーページの URL]**：ミラーページの URL を挿入し、配信デザイナーがリンクを確認できるようにします。
 * **[!UICONTROL 通知スタイル]**
@@ -55,5 +55,5 @@ Adobe Campaignは、事前設定済みのコンテンツブロックのリスト
 
 >[!NOTE]
 >
->Adobe Campaign v8 コンソールから新しいブロックを定義すると、配信のパーソナライゼーションを最適化できます。 詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+>Adobe Campaign v8 コンソールから新しいブロックを定義すると、配信のパーソナライゼーションを最適化できます。詳細については、[Campaign v8 コンソールドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=ja#create-custom-personalization-blocks)を参照してください{target="_blank"}。
 

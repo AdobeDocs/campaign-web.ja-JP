@@ -7,11 +7,11 @@ exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
-# SMS 配信のデザイン {#design-sms}
+# SMS 配信をデザイン {#design-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -37,7 +37,7 @@ ht-degree: 91%
 
 1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。
 
-1. 次にアクセス： **[!UICONTROL コンテンツをシミュレート]** メニューを使用して、パーソナライズされたコンテンツをプレビューします。 [詳細情報](send-sms.md#preview-sms)
+1. **[!UICONTROL コンテンツをシミュレート]**&#x200B;メニューにアクセスすると、パーソナライズされたコンテンツをプレビューできます。[詳細情報](send-sms.md#preview-sms)
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。
 

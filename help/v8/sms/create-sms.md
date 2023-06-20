@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: SMS 配信の作成
+title: SMS 配信を作成
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 badge: label="Alpha"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
-# SMS 配信の作成 {#create-sms}
+# SMS 配信を作成 {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
@@ -50,7 +50,7 @@ ht-degree: 91%
 
    ![](assets/sms_create_2.png)
 
-1. 「**[!UICONTROL コントロール母集団を有効にする]**」オプションをオンにして、配信の影響を測定するコントロール母集団を設定すると、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できるようになります。[詳細情報](../audience/control-group.md)
+1. 「**[!UICONTROL コントロールグループを有効にする]**」オプションをオンにして、配信の影響を測定するコントロール母集団を設定すると、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できるようになります。[詳細情報](../audience/control-group.md)
 
 1. 「**[!UICONTROL コンテンツの編集]**」をクリックして、SMS メッセージのコンテンツのデザインを開始します。[詳細情報](content-sms.md)
 
@@ -60,6 +60,6 @@ ht-degree: 91%
 
 1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。
 
-1. クリック **[!UICONTROL 配信設定の指定]** をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。 [詳細情報](../advanced-settings/delivery-settings.md)
+1. 「**[!UICONTROL 配信設定を指定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 
    ![](assets/sms_create_3.png)

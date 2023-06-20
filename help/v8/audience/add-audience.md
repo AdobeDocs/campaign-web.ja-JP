@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 89%
 
 また、次のこともできます。
 
-* 新しいオーディエンスを構築します。 [詳細情報](segment-builder.md)
-* 外部ファイルからオーディエンスを読み込みます。 [詳細情報](file-audience.md)
+* 新しいオーディエンスを作成します。[詳細情報](segment-builder.md)
+* 外部ファイルのオーディエンスを読み込みます。[詳細情報](file-audience.md)
 * Adobe Experience Platform オーディエンスの使用。[詳細情報](aep-audience.md)
 
 
@@ -36,7 +36,7 @@ ht-degree: 89%
 
 1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。このメールで使用する新しいオーディエンスを作成するには、「**独自に作成**」を選択します。[こちら](segment-builder.md)を参照してください。
 
-   この画面には、現在のフォルダーに対して、Adobe Campaignクライアントコンソールで定義されたすべての既存のオーディエンスが表示されます。
+   この画面には、現在のフォルダーに対して、Adobe Campaign クライアントコンソールで定義されたすべての既存のオーディエンスが表示されます。
 
    ![](assets/create-audience2.png)
 

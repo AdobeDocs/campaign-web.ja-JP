@@ -7,21 +7,21 @@ badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 42%
+ht-degree: 99%
 
 ---
 
-# E メールコンテンツの設定 {#edit-content}
+# メールコンテンツを設定 {#edit-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="メールコンテンツの作成"
+>title="メールコンテンツを作成"
 >abstract="この節では、メールのコンテンツを作成し、電子メールデザイナーを使用して洗練された外観にすることができます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="メールパラメーター"
->abstract="送信者名と送信者の電子メールの値は、電子メールテンプレートで定義されます。 件名行は、式エディターを使用してパーソナライズできます。"
+>abstract="送信者名と送信元メールの値は、メールテンプレートで定義します。件名は、式エディターを使用してパーソナライズできます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
@@ -33,32 +33,32 @@ ht-degree: 42%
 >title="トラッキングオプション"
 >abstract="デフォルトでは、配信のトラッキングが有効になっています。ここからこのオプションを無効にできます。"
 
-電子メール **[!UICONTROL コンテンツを編集]** 次の操作を実行できます。
+メールの&#x200B;**[!UICONTROL コンテンツを編集]**&#x200B;画面では、次の操作を実行できます。
 * 送信者のアドレスや件名など、メッセージの基本要素を定義する
 * 添付ファイルの追加やオファーの設定など、追加のアクションを実行する
-* 次にアクセス： [メールデザイナー](get-started-email-designer.md#start-authoring) 電子メールの適切なコンテンツの作成を開始するには
+* [メールデザイナー](get-started-email-designer.md#start-authoring)にアクセスして、適切なメールのコンテンツの作成を開始する
 
-E メールのコンテンツを設定または編集するには、次の手順に従います。
+メールのコンテンツを設定または編集するには、次の手順に従います。
 
-1. 次をクリック： **[!UICONTROL コンテンツを編集]** ボタン [E メール配信ダッシュボード](../email/create-email.md) 画面
+1. [メール配信ダッシュボード](../email/create-email.md)画面で「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
    ![](assets/email-edit-content-button.png)
 
-1. E メールコンテンツ編集画面が開きます。
+1. メールコンテンツ編集画面が開きます。
 
    ![](assets/email-edit-content-dashboard.png)
 
    >[!NOTE]
    >
-   >が新しい電子メールを設定している場合、 **[!UICONTROL 送信者名]** および **[!UICONTROL 送信元メール]** フィールドは既に設定されています。
+   >新しいメールを設定している場合、「**[!UICONTROL 送信者名]** 」フィールドと「**[!UICONTROL 送信元メール]**」フィールドには既に値が入力されています。
 
-1. この **[!UICONTROL 送信者名]** フィールドは、電子メールテンプレートで定義されます。 変更する場合は、ブランド名など、受信者が容易に識別できる名前を使用して、配信の開封率を高めます。
+1. 「**[!UICONTROL 送信者名]**」フィールドは、メールテンプレートで定義されます。変更する場合は、ブランド名など、受信者が容易に識別できる名前を使用して、配信の開封率を高めます。
 
    >[!NOTE]
    >
-   >受信者のエクスペリエンスをさらに向上させるには、「Eve from Luma」など、人の名前を追加します。
+   >受信者のエクスペリエンスの質を高めるために、「Luma（担当：田中）」のように個人名を追加する方法もあります。
 
-1. この **[!UICONTROL 送信元メール]** また、「アドレス」フィールドは、e メールテンプレートでも定義されます。 アドレスドメインが、ドメインにデリゲートしたサブドメインと同じであることをAdobeします。
+1. また、「**[!UICONTROL 送信元メール]**」アドレスフィールドもメールテンプレートで定義されます。アドレスドメインがアドビにデリゲートしたサブドメインと同じであることを確認します。
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ E メールのコンテンツを設定または編集するには、次の手順
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
-1. メールの「**[!UICONTROL 件名]**」を定義します。専用のフィールドに件名を直接入力するか、式エディターを開いて、様々な属性、コンテンツブロックまたはオファーを使用したパーソナライゼーションを追加します。 [コンテンツをパーソナライズする方法を学ぶ](../personalization/personalize.md)
+1. メールの「**[!UICONTROL 件名]**」を定義します。件名を専用フィールドに直接入力するか、式エディターを開いて、様々な属性とコンテンツブロックまたはオファーを使用してパーソナライゼーションを追加します。[コンテンツをパーソナライズする方法を学ぶ](../personalization/personalize.md)
 
 1. メールにファイルを添付する場合は、「**[!UICONTROL 添付ファイルを追加]**」ボタンをクリックして、1 つまたは複数のファイルを選択します。
 
@@ -80,14 +80,14 @@ E メールのコンテンツを設定または編集するには、次の手順
 
    その後、パーソナライゼーションフィールドを使用してメールに挿入できます。[オファーの送信方法を学ぶ](offers.md)
 
-1. 次をクリック： **[!UICONTROL メール本文を編集]** ボタンを使用して、E メールのコンテンツを構築しデザインします。 [メールデザイナー](#start-authoring). メールコンテンツのデザイン方法に関する追加情報については、次の節を参照してください。
+1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックし、[メールデザイナー](#start-authoring) を使用して、メールのコンテンツを構成およびデザインします。メールコンテンツのデザイン方法に関する追加情報については、次の節を参照してください。
 
-   * [ゼロからのメールの作成](create-email-content.md)
+   * [新規でのメールの作成](create-email-content.md)
    * [コンテンツのスタイル設定](get-started-email-style.md)
 
    >[!NOTE]
    >
-   >また、E メールのプレビューにマウスポインターを置いて、「 **[!UICONTROL 電子メールデザイナーを開く]**.
+   >また、メールのプレビューにポインタを合わせて、「**[!UICONTROL メールデザイナーを開く]**」を選択することもできます。
 
 1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。[リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
 

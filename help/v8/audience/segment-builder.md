@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Campaign のルールビルダーを使用したオーディエンスの作成
-description: ルールビルダーの操作方法を説明します
+title: Campaign のルールビルダーを使用してオーディエンスを作成
+description: ルールビルダーの操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
-# ルールビルダーを使用したオーディエンスの定義 {#segment-builder}
+# ルールビルダーを使用したオーディエンスを定義 {#segment-builder}
 
 この節では、新しいメールをデザインする際にオーディエンスを作成する方法について説明します。作成したオーディエンスは、このメールでのみ使用できます。
 
