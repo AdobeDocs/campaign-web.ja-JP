@@ -6,8 +6,8 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
-workflow-type: ht
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 
 1. 中央の画面に新しいテンプレートダッシュボードが開きます。必要に応じて、テンプレート設定を編集します。
 
-1. 「**[!UICONTROL レビュー]**」ボタンをクリックして、テンプレートを保存およびレビューします。すべての設定を編集、削除および複製できます。
+1. 「**[!UICONTROL レビュー]**」ボタンをクリックして、テンプレートを保存して確認します。すべての設定を編集、削除および複製できます。
 
 1. 必要に応じて、テンプレートのレンダリングをテストします。[詳細情報](#test-template)
 
@@ -170,7 +170,7 @@ ht-degree: 100%
 
 1. 様々なプロファイルを切り替えて、選択したプロファイルに従ってメッセージをパーソナライズして表示します。
 
-   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    また、ズームレベルを調整し、デスクトップビューまたはモバイルビューを選択することもできます。
 

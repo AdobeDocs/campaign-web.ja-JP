@@ -4,9 +4,9 @@ title: メールのプレビューとテストについて
 description: メールのプレビューとテストの方法について説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '180'
 ht-degree: 49%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 49%
 これを行うには、[!DNL Adobe Campaign] で次の操作を実行します。
 
 * [メッセージの内容とパーソナライゼーションのプレビュー](preview-content.md)
-* [テスト配信の送信](proofs.md) テストおよび検証の対象となる特定の受信者または購読者
+* [テスト配信の送信](test-deliveries.md) （配達確認）特定の受信者または購読者に対して、テストおよび検証をおこなう
 * 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](email-rendering.md)します。
 
 これらのアクションは、 **[!UICONTROL コンテンツをシミュレート]** ボタン（配信のコンテンツを編集画面からアクセス可能）

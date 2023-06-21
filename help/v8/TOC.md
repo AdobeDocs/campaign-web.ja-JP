@@ -5,7 +5,7 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 93%
@@ -70,7 +70,7 @@ ht-degree: 93%
    + 配信をプレビューおよびテストします {#preview-test}
       + [プレビューとテストについて](preview-test/preview-test.md)
       + [メッセージコンテンツをプレビュー](preview-test/preview-content.md)
-      + [テスト配信の送信](preview-test/proofs.md)
+      + [テスト配信の送信](preview-test/test-deliveries.md)
       + [メールをレンダリング](preview-test/email-rendering.md)
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)

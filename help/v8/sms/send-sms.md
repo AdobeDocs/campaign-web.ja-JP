@@ -3,7 +3,7 @@ audience: end-user
 title: SMS 配信の送信
 description: Adobe Campaign web で SMS を送信する方法を学ぶ
 badge: label="Alpha"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 66%
@@ -41,7 +41,7 @@ SMS 配信をプレビューする主な手順は次のとおりです。 配信
 
 テスト SMS の送信は、配信の品質と有効性を保証するための重要な手順です。テスト受信者は、リンク、オプトアウトリンク、画像などの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定、SMS 設定のエラーを特定できます。このプロセスは、メインオーディエンスに到達する前に SMS を徹底的に評価して最適化するのに役立ちます。
 
-![](../assets/do-not-localize/book.png) でテスト用 SMS を送信する方法を説明します。 [この節](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) でテスト用 SMS を送信する方法を説明します。 [この節](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 
