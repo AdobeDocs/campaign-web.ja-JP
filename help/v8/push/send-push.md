@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ通知配信を送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を学ぶ
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 57%
+ht-degree: 55%
 
 ---
 
@@ -49,7 +49,7 @@ SMS 配信をプレビューする主な手順は次のとおりです。 配信
 
    ![](assets/push_send_2.png)
 
-1. 「**[!UICONTROL 準備]**」をクリックし、表示される進行状況と統計を監視します。
+1. クリック **[!UICONTROL 準備]** およびは、提供された進行状況と統計を監視します。
 
    エラーが発生した場合は、ログメニューでエラーに関する詳細情報を参照してください。
 
