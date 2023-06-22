@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '437'
 ht-degree: 99%
 
 ---
@@ -34,10 +34,8 @@ Adobe Campaign は、事前設定済みのコンテンツブロックのリス�
 
 ビルトインコンテンツブロックは次のとおりです。
 
-* **[!UICONTROL Purl パーソナライゼーションの検証]**
 * **[!UICONTROL デフォルトのオプトアウトバナー]**
 * **[!UICONTROL Adobe Campaign で有効化]**：「Adobe Campaign で有効化」ロゴを挿入します。
-* **[!UICONTROL Facebook への事前入力]**
 * **[!UICONTROL 固有名詞の書式設定関数]**：JavaScript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字をすべて大文字に変更します。
 * **[!UICONTROL 挨拶]**：受信者の姓名の後にコンマを付けた挨拶文を挿入します。例：「こんにちは、John Doe。」
 * **[!UICONTROL ロゴの挿入]**：インスタンス設定で定義されているロゴを挿入します。
