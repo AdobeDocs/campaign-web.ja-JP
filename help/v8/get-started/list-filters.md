@@ -3,10 +3,10 @@ audience: end-user
 title: リストを参照、検索、フィルタリング
 description: Campaign web v8 のリストを参照およびフィルタリングする方法の確認
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '416'
+ht-degree: 91%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="ルールビルダーの詳細フィールド"
->abstract="詳細フィールドを使用して列を設定します。"
+>abstract="詳細フィールドを使用した詳細フィルターの設定"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
