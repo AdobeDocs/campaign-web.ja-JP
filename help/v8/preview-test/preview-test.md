@@ -1,24 +1,24 @@
 ---
 audience: end-user
-title: メールのプレビューとテストについて
-description: メールのプレビューとテストの方法について説明します
+title: 配信のプレビューとテストについて
+description: 配信をプレビューおよびテストする方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 49%
+source-wordcount: '179'
+ht-degree: 45%
 
 ---
 
-# 配信のプレビューとテストについて {#about-preview-test}
+# プレビューとテストについて {#about-preview-test}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="メッセージのプレビューとテスト"
 >abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="配信コンテンツのプレビュー"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="テストメッセージの送信"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="メッセージコンテンツをプレビュー"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="テスト配信の送信"
 
 配信コンテンツを定義したら、メッセージを送信する前に、テストプロファイルを使用してプレビューおよびテストできます。
 
