@@ -5,9 +5,9 @@ description: Adobe Campaign Web を使用してワークフローを作成する
 badge: label="Alpha"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
