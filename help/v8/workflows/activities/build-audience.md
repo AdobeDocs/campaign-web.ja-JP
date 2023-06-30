@@ -4,9 +4,9 @@ title: オーディエンスを作成ワークフローアクティビティの�
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
