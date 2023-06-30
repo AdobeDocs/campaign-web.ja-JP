@@ -5,9 +5,9 @@ description: Campaign web UI でのメール配信設定の詳細を説明しま
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1475'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 97%
 
 このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。
 
-ターゲットマッピングの詳細については、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}.
+ターゲットマッピングについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
 
 ## 配信 {#delivery}
 
@@ -93,7 +93,7 @@ ht-degree: 97%
 
 * **SMTP 配信をテスト**：このオプションを使用して、SMTP 経由での送信をテストします。配信は SMTP サーバーへの接続まで処理されますが、送信はされません。配信の受信者ごとに、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
-* **BCC でメールを送信**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。「BCC で E メールを送信」の詳細を説明します [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
+* **BCC でメールを送信**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。BCC でメールを送信について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
 
 
 
@@ -106,7 +106,7 @@ ht-degree: 97%
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-での再試行管理の詳細を説明します [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
+再試行管理について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
 
 ## 承認 {#approval}
 
@@ -148,7 +148,7 @@ ht-degree: 97%
 ![](assets/delivery-settings-2.png)
 
 
-配信の有効期間について詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja#validity-period){target="_blank"}.
+配信の有効期間について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja#validity-period){target="_blank"}を参照してください。
 
 ### ミラーページ管理 {#mirror}
 
