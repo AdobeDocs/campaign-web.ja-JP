@@ -5,9 +5,9 @@ description: Adobe Campaign Web を使用してプッシュ通知を作成し、
 badge: label="Alpha"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 * スタンドアロン配信：ワークフローやキャンペーンを必要とせずに、個々のプッシュ通知配信で顧客を直接、即座にエンゲージします。
 
-![](../assets/do-not-localize/book.png) でプッシュ通知チャネルを設定する方法を説明します。 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=ja){target="_blank"}.
+![](../assets/do-not-localize/book.png) プッシュ通知チャネルを設定する方法については、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=ja){target="_blank"}を参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
