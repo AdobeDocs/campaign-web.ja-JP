@@ -5,9 +5,9 @@ description: ミラーページへのリンクを追加および管理する方�
 badge: label="Alpha"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
