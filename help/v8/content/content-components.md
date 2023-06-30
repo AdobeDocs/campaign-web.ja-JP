@@ -5,9 +5,9 @@ description: メールでコンテンツコンポーネントを使用する方�
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Alpha"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1106'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
