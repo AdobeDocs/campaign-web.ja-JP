@@ -5,9 +5,9 @@ description: メールコンテンツのデザイン方法
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ ht-degree: 68%
 
 メールのプリヘッダーを定義するには、次の手順に従います。
 
-1. 次の [メールデザイナー](create-email-content.md)、少なくとも **[!UICONTROL 構造]** コンポーネントを使用して、e メールのデザインを開始します。
+1. [メールデザイナー](create-email-content.md)から、少なくとも&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントを追加して、メールのデザインを開始します。
 
 1. 左側のパネルから&#x200B;**[!UICONTROL ナビゲーションツリー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 本文]**」を選択します。
 
    ![](assets/preheader_body.png)
 
-1. 次の **[!UICONTROL 設定]** 「 」タブで、プリヘッダー用のテキストを入力します。
+1. 「**[!UICONTROL 設定]**」タブから、プリヘッダーのテキストを入力します。
 
-1. さらにパーソナライズするには、 **[!UICONTROL パーソナライゼーションを追加]** アイコン **[!UICONTROL プリヘッダー]** フィールドに入力します。
+1. さらにパーソナライズするには、「**[!UICONTROL プリヘッダー]**」フィールドの左側にある「**[!UICONTROL パーソナライゼーションを追加]**」アイコンをクリックします。
 
    ![](assets/preheader_body_settings.png)
 
-1. 次の **[!UICONTROL パーソナライゼーションを編集]** ウィンドウで、 [パーソナライゼーションフィールド](../personalization/personalize.md), [コンテンツブロック](../personalization/content-blocks.md) および [条件付きコンテンツ](../personalization/conditions.md) 左側の専用エントリを使用して
+1. **[!UICONTROL パーソナライゼーションを編集]**&#x200B;ウィンドウから、左側の専用エントリを使用して、[パーソナライゼーションフィールド](../personalization/personalize.md)、[コンテンツブロック](../personalization/content-blocks.md)および[条件付きコンテンツ](../personalization/conditions.md)を追加できます。
 
    ![](assets/preheader_body_personalization.png)
 
