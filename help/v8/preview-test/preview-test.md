@@ -7,7 +7,7 @@ badge: label="Alpha"
 source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 45%
+ht-degree: 91%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 45%
 >id="acw_deliveries_simulate"
 >title="メッセージのプレビューとテスト"
 >abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="メッセージコンテンツをプレビュー"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=ja" text="メッセージコンテンツのプレビュー"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="テスト配信の送信"
 
-配信コンテンツを定義したら、メッセージを送信する前に、テストプロファイルを使用してプレビューおよびテストできます。
+配信コンテンツを定義したら、メッセージを送信する前に、テストプロファイルを使用してプレビューとテストを行うことができます。
 
 これは、コンテンツが正確であると同時に、コンテンツとパーソナライゼーション設定の両方にエラーがないことを確認するための重要な手順です。
 
 これを行うには、[!DNL Adobe Campaign] で次の操作を実行します。
 
-* [メッセージの内容とパーソナライゼーションのプレビュー](preview-content.md)
-* [テスト配信の送信](test-deliveries.md) （配達確認）特定の受信者または購読者に対して、テストおよび検証をおこなう
+* [メッセージのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)
+* テストと検証のために、特定の受信者またはサブスクライバーに対する[テスト配信](test-deliveries.md)（配達確認）の送信
 * 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](email-rendering.md)します。
 
-これらのアクションは、 **[!UICONTROL コンテンツをシミュレート]** ボタン（配信のコンテンツを編集画面からアクセス可能）
+これらのアクションは、配信のコンテンツを編集画面からアクセスできる「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。
 
 <!-- from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).-->
 

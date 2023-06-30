@@ -6,7 +6,7 @@ badge: label="Alpha"
 source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="ルールビルダーの詳細フィールド"
->abstract="詳細フィールドを使用した詳細フィルターの設定"
+>abstract="詳細フィールドを使用して詳細フィルターを設定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -79,7 +79,7 @@ ht-degree: 91%
 
 デフォルトでは、属性リストおよびフィルター設定画面には、最も一般的な属性のみが表示されます。データスキーマで `advanced` 属性として設定した属性は、設定画面では非表示になります。
 
-をアクティブにする **詳細属性の表示** 切り替えて、現在のリストで使用可能なすべての属性を表示します。属性リストは即座に更新されます。
+現在のリストで使用可能なすべての属性を表示するには、「**詳細属性を表示**」切替スイッチをアクティブ化します。属性リストは即座に更新されます。
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
