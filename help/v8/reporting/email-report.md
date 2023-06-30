@@ -4,9 +4,9 @@ title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Alpha"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 99%
 
 * **[!UICONTROL タイプごとのエラーの分類]**&#x200B;および&#x200B;**[!UICONTROL ドメインごとのエラーの分類]**&#x200B;テーブルとグラフには、各ドメインで発生する可能性のあるエラーに関する使用可能なデータが含まれます。
 
-  このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}.
+  このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}を参照してください。
 
   ![](assets/campaign_report_email_6.png)
 
