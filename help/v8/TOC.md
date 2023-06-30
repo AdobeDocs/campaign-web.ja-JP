@@ -6,9 +6,9 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -67,11 +67,11 @@ ht-degree: 93%
       + [条件付きコンテンツを追加](personalization/conditions.md)
       + [ビルトインコンテンツブロックを追加](personalization/content-blocks.md)
    + [オファーの送信](content/offers.md)
-   + 配信をプレビューおよびテストします {#preview-test}
+   + 配信のプレビューとテスト {#preview-test}
       + [プレビューとテストについて](preview-test/preview-test.md)
-      + [メッセージコンテンツをプレビュー](preview-test/preview-content.md)
+      + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
       + [テスト配信の送信](preview-test/test-deliveries.md)
-      + [メールをレンダリング](preview-test/email-rendering.md)
+      + [メールのレンダリング](preview-test/email-rendering.md)
 + オーディエンスと受信者 {#audiences}
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [既存オーディエンスの選択](audience/add-audience.md)
