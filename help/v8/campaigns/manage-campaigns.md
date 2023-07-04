@@ -3,15 +3,20 @@ audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Alpha"
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 98%
 
 ---
 
 
 # キャンペーンへのアクセスと管理{#manage-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="キャンペーンスケジュール"
+>abstract="キャンペーンスケジュールを設定または変更します。"
 
 新しいキャンペーンを作成したり、既存のキャンペーンを管理したりするには、左側のナビゲーションで&#x200B;**[!UICONTROL キャンペーン]**&#x200B;メニューをクリックします。
 
