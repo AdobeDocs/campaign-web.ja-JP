@@ -3,11 +3,11 @@ audience: end-user
 title: メールの準備と送信
 description: Campaign web UI でのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+badge: label="アルファ版"
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+workflow-type: tm+mt
+source-wordcount: '871'
+ht-degree: 97%
 
 ---
 
@@ -128,6 +128,16 @@ ht-degree: 100%
 ![](assets/email-send-pause-or-stop.png)
 
 ## KPI の確認 {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="送信済み指標"
+>abstract="配信の分析中に処理されたメッセージの合計数。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="エラー指標"
+>abstract="送信されたメッセージの合計数に関する、配信および自動返信処理の間に累積したエラーの合計。"
 
 送信が完了したら、表示される KPI を確認できます。
 
