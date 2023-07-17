@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ版"
-source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1530'
 ht-degree: 99%
 
 ---
@@ -245,17 +245,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="権限が必要です"
 >abstract="セグメントを作成するには、管理者から権限が付与されている必要があります。"
-
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_metrics_newquarantines"
->title="新しい強制隔離指標"
->abstract="新しい強制隔離指標です。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

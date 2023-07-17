@@ -2,15 +2,20 @@
 audience: end-user
 title: SMS 配信の送信
 description: Adobe Campaign web で SMS を送信する方法を学ぶ
-badge: label="Alpha"
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+badge: label="アルファ版"
+source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 94%
 
 ---
 
 # SMS 配信のプレビューと送信 {#send-sms-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_metrics_newquarantines"
+>title="新しい強制隔離指標"
+>abstract="配信に失敗した配信（不明なユーザー、無効なドメイン）後に、配信されるメッセージの数に関して強制隔離されたアドレスの合計数。"
 
 ## SMS 配信のプレビュー{#preview-sms}
 
