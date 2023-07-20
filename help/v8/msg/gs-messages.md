@@ -2,12 +2,12 @@
 audience: end-user
 title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
-badge: label="Alpha"
+badge: label="アルファ版"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="配信"
->abstract="配信のリストを閲覧できます。ステータス、連絡先、変更日、主要 KPI を確認できます。リストは、状態、コンタクト日またはチャネルでフィルタリングできます。「配信を作成」ボタンをクリックして、新しい配信を追加します。配信を選択して、コンテンツ、オーディエンスおよび詳細を表示します。"
+>abstract="配信のリストを閲覧できます。ステータス、連絡先、変更日、主要 KPI を確認できます。リストは、ステータス、コンタクト日またはチャネルでフィルタリングできます。 「配信を作成」ボタンをクリックして、新しい配信を追加します。配信を選択して、コンテンツ、オーディエンスおよび詳細を表示します。"
 
 
 Adobe Campaign を使用すると、メール、SMS、プッシュ通知などのクロスチャネルキャンペーンを送信し、各種の専用レポートを使用してキャンペーンの有効性を評価できます。
@@ -133,7 +133,7 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 * **条件付きコンテンツ**&#x200B;の作成
 
-  条件付きコンテンツを設定し、受信者のプロファイルなどに基づいて動的なパーソナライゼーションを追加します。特定の条件が成立した場合に、テキストブロックや画像を挿入できます。[詳細情報](../personalization/conditions.md)
+  条件付きコンテンツを設定し、例えば受信者のプロファイルに基づいて動的なパーソナライゼーションを追加します。 特定の条件が成立した場合に、テキストブロックや画像を挿入できます。[詳細情報](../personalization/conditions.md)
 
 * **パーソナライズされたオファー**&#x200B;の追加
 
