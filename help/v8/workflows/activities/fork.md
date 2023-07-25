@@ -3,10 +3,10 @@ audience: end-user
 title: 分岐ワークフローアクティビティの使用
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 badge: label="アルファ版"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 例
 
-次の例では、2 つの&#x200B;**分岐**&#x200B;アクティビティを使用しています。
+次の例では、2 つの **分岐** アクティビティ：
 
 * 2 つのクエリの前にある 1 つのクエリは、同時に実行されます。
 * 積集合の後の 1 つは、ターゲット母集団にメールと SMS を同時に送信します。

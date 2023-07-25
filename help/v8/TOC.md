@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: ht
-source-wordcount: '352'
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+workflow-type: tm+mt
+source-wordcount: '353'
 ht-degree: 100%
 
 ---
@@ -100,6 +100,7 @@ ht-degree: 100%
       + [メール、SMS、プッシュ](workflows/activities/channels.md)
       + [エンリッチメント](workflows/activities/enrichment.md)
       + [分岐](workflows/activities/fork.md)
+      + [分割](workflows/activities/split.md)
       + [待機](workflows/activities/wait.md)
 + レポート {#reports}
    + [レポートの基本を学ぶ](reporting/gs-reports.md)

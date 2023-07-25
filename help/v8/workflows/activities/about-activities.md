@@ -2,12 +2,12 @@
 audience: end-user
 title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの操作方法を学ぶ
-badge: label="Alpha"
+badge: label="アルファ版"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 96%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 * [オーディエンスを作成](build-audience.md)アクティビティでは、ターゲット母集団を定義できます。既存のオーディエンスを選択するか、ルールビルダーを使用して独自のクエリを定義できます。
 * [結合](combine.md)アクティビティでは、インバウンド母集団に対してセグメント化を実行できます。和集合、積集合または除外を使用できます。
 * [エンリッチメント](enrichment.md)アクティビティでは、ワークフローで処理する追加のデータを定義できます。このアクティビティでは、インバウンドトランジションを利用し、追加のデータで出力トランジションを補完するようにアクティビティを設定できます。
+* この [分割](split.md) 「 」アクティビティを使用すると、入力母集団を複数のサブセットにセグメント化できます。
 
 ## チャネルアクティビティ {#channel}
 
