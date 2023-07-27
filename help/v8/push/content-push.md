@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ通知配信をデザイン
 description: Adobe Campaign Web を使用したプッシュ通知配信のデザイン方法を学ぶ
 badge: label="アルファ版"
-source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 82%
+source-wordcount: '1309'
+ht-degree: 80%
 
 ---
 
@@ -69,6 +69,13 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 >[!ENDTABS]
 
 ## プッシュ通知の詳細設定 {#push-advanced}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings"
+>title="プッシュ通知の詳細設定"
+>abstract="プッシュ通知の詳細設定（優先度、関連する通知数、アプリケーション変数など）を定義します。"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
