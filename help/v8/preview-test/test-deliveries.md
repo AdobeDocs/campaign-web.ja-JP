@@ -3,11 +3,11 @@ audience: end-user
 title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
-workflow-type: ht
-source-wordcount: '941'
-ht-degree: 100%
+badge: label="アルファ版"
+source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+workflow-type: tm+mt
+source-wordcount: '1000'
+ht-degree: 94%
 
 ---
 
@@ -26,14 +26,10 @@ ht-degree: 100%
 
 ## テスト受信者を選択 {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="テスト母集団"
 >abstract="テスト母集団モードを選択します。"
-
-
 
 使用しているチャネルに応じて、テストメッセージを次の 3 種類の受信者に送信できます。
 
@@ -53,6 +49,15 @@ ht-degree: 100%
 
 ### テストプロファイル {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="配達確認のターゲット"
+>abstract="メインターゲットに送信する前に配信をテストする場合は、2 つ目のファイルを「配達確認のターゲット」としてアップロードできます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="プロファイルのアップロード"
+>abstract="メインターゲットに使用したセットとは異なるセットで配信をテストする場合は、追加のプロファイルを含む 2 つ目のファイルをアップロードできます。"
 
 1. メールまたは SMS 配信のコンテンツを編集画面を参照し、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
