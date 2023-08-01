@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ版"
-source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
+source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 94%
+source-wordcount: '1628'
+ht-degree: 91%
 
 ---
 
@@ -277,6 +277,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="エラー"
 >abstract="エラー KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="このキャンペーンは読み取り専用です"
+>abstract="このキャンペーンを編集する権限がありません。 必要に応じて、管理者に連絡し、アクセス権を付与してもらってください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="この配信は読み取り専用です"
+>abstract="この配信を編集する権限がありません。 必要に応じて、管理者に連絡し、アクセス権を付与してもらってください。"
 
 <!-- Workflows-->
 
