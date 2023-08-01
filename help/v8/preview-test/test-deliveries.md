@@ -4,10 +4,10 @@ title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="アルファ版"
-source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 94%
+source-wordcount: '1030'
+ht-degree: 92%
 
 ---
 
@@ -58,6 +58,11 @@ ht-degree: 94%
 >id="acw_deliveries_simulate_test_upload"
 >title="プロファイルのアップロード"
 >abstract="メインターゲットに使用したセットとは異なるセットで配信をテストする場合は、追加のプロファイルを含む 2 つ目のファイルをアップロードできます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="テンプレートファイル"
+>abstract="ファイルの形式設定は、元のファイルと同じにする必要があります。<br/>サポートされているファイル形式：txt、csv。最大ファイルサイズ： 15 MB。 先頭行を列ヘッダーとして使用します。"
 
 1. メールまたは SMS 配信のコンテンツを編集画面を参照し、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
