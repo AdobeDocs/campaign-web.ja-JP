@@ -2,11 +2,11 @@
 audience: end-user
 title: プッシュ通知配信を送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を学ぶ
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
-workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '370'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 メッセージのコンテンツを定義したら、テストサブスクライバーを利用して、メッセージをプレビューしテストできます。パーソナライズされたコンテンツを挿入してある場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを利用して確認できます。ここで、メッセージが正しくレンダリングされ、パーソナライズされた要素が適切に組み込まれていることを確認できます。
 
-プッシュ通知をプレビューする主な手順は次のとおりです。 配信のプレビュー方法の詳細については、[この節](../preview-test/preview-content.md)を参照してください。
+プッシュ通知をプレビューする主な手順は次のとおりです。配信のプレビュー方法の詳細については、[この節](../preview-test/preview-content.md)を参照してください。
 
 1. 配信コンテンツページから、「**[!UICONTROL コンテンツをシミュレート]**」を使用して、パーソナライズされたコンテンツをプレビューします。
 
