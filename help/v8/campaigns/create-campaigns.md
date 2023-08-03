@@ -5,9 +5,9 @@ description: Adobe Campaign Web を使用してクロスチャネルキャンペ
 badge: label="アルファ版"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="キャンペーンスケジュール"
->abstract="キャンペーン作成時のキャンペーンスケジュールを定義します。"
+>abstract="キャンペーンの作成中にキャンペーンスケジュールを定義します。"
 
 新しいキャンペーンを作成するには、次の手順に従います。
 
