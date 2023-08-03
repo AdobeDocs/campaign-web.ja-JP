@@ -5,9 +5,9 @@ description: メールコンテンツの読み込み方法を学ぶ
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="アルファ版"
 source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 81%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
->title="既存の E メールコンテンツを使用"
->abstract="メールデザイナーを使用すると、既存の HTML コンテンツをインポートできます。このコンテンツには、スタイルシートが組み込まれたHTMLファイルや、HTMLファイル、スタイルシート (.css)、画像が含まれる.zip フォルダーが含まれます。"
+>title="既存のメールコンテンツの使用"
+>abstract="メールデザイナーを使用すると、既存の HTML コンテンツをインポートできます。このコンテンツは、スタイルシートが組み込まれた HTML ファイルや、HTML ファイル、スタイルシート（.css）および画像を含んだ .zip フォルダーにすることができます。"
 
 メールデザイナーを使用すると、既存の HTML コンテンツをインポートできます。このコンテンツには次のようなものがあります。
 
