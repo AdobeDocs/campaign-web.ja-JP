@@ -5,9 +5,9 @@ description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="アルファ版"
 source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1030'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,17 +52,17 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
 >title="配達確認のターゲット"
->abstract="メインターゲットに送信する前に配信をテストする場合は、2 つ目のファイルを「配達確認のターゲット」としてアップロードできます。"
+>abstract="メインターゲットに送信する前に配信をテストする場合は、2 番目のファイルを「配達確認のターゲット」としてアップロードできます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_upload"
 >title="プロファイルのアップロード"
->abstract="メインターゲットに使用したセットとは異なるセットで配信をテストする場合は、追加のプロファイルを含む 2 つ目のファイルをアップロードできます。"
+>abstract="メインターゲットに使用したセットとは異なるセットで配信をテストする場合は、追加のプロファイルを含む 2 番目のファイルをアップロードできます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="テンプレートファイル"
->abstract="ファイルの形式設定は、元のファイルと同じにする必要があります。<br/>サポートされているファイル形式：txt、csv。最大ファイルサイズ： 15 MB。 先頭行を列ヘッダーとして使用します。"
+>abstract="メモ：ファイル形式は、元のファイルと同じにする必要があります。<br/>サポートされているファイル形式：txt、csv。最大ファイルサイズ：15 MB。先頭行を列ヘッダーとして使用します。"
 
 1. メールまたは SMS 配信のコンテンツを編集画面を参照し、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
