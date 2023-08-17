@@ -2,10 +2,10 @@
 audience: end-user
 title: メールコンテンツを編集
 description: Campaign web UI のメールデザイナーを使用してコンテンツの作成を開始する方法を学ぶ
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '380'
+workflow-type: tm+mt
+source-wordcount: '379'
 ht-degree: 100%
 
 ---

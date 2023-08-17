@@ -3,10 +3,10 @@ audience: end-user
 title: コントロール母集団を設定
 description: Campaign web UI でメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '757'
+workflow-type: tm+mt
+source-wordcount: '756'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 コントロール母集団は、配信から除外されるサブ母集団です。コントロール母集団を定義して、オーディエンスの一部にメッセージを送信しないようにし、配信後の動作をメインターゲットと比較できます。このオプションは、キャンペーンの影響を測定するのに役立ちます。
 
-## コントロールグループを有効にする{#add-a-control-group}
+## コントロール母集団を有効にする{#add-a-control-group}
 
 コントロール母集団を追加するには、配信のオーディエンスを定義する際にオプションを有効にします。 コントロール母集団は、メインターゲットから無作為に抽出できます。特定の母集団から選択することもできます。したがって、コントロール母集団を定義する方法は主に 2 つあります。
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 配信にコントロール母集団を追加するには、配信作成画面の「**オーディエンス**」セクションの&#x200B;**[!UICONTROL コントロールグループを有効にする]**&#x200B;切替スイッチを有効にします。
 
-![「コントロールグループを有効にする」オプション](assets/control-group1.png)
+![「コントロール母集団を有効にする」オプション](assets/control-group1.png)
 
 
 ## ターゲットから抽出 {#extract-target}

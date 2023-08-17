@@ -2,10 +2,10 @@
 audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '688'
+workflow-type: tm+mt
+source-wordcount: '687'
 ht-degree: 100%
 
 ---

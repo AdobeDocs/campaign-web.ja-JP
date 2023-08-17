@@ -3,10 +3,10 @@ audience: end-user
 title: オファーの送信
 description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '640'
+workflow-type: tm+mt
+source-wordcount: '639'
 ht-degree: 100%
 
 ---

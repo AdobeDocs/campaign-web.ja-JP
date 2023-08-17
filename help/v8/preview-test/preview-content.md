@@ -3,10 +3,10 @@ audience: end-user
 title: 配信コンテンツのプレビュー
 description: Campaign web UI で配信コンテンツをプレビューする方法を学ぶ
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
-workflow-type: ht
-source-wordcount: '342'
+workflow-type: tm+mt
+source-wordcount: '341'
 ht-degree: 100%
 
 ---

@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
-workflow-type: ht
-source-wordcount: '516'
+workflow-type: tm+mt
+source-wordcount: '515'
 ht-degree: 100%
 
 ---

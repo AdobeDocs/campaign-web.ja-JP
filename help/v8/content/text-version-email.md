@@ -3,10 +3,10 @@ audience: end-user
 title: メールのテキストバージョンを作成
 description: メールのテキストバージョンを作成する方法を学ぶ
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '168'
+workflow-type: tm+mt
+source-wordcount: '167'
 ht-degree: 100%
 
 ---

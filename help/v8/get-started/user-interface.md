@@ -5,7 +5,7 @@ description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ版"
 source-git-commit: 1fee200c84e121978c5a6787107a30a89c027b57
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1667'
 ht-degree: 100%
 

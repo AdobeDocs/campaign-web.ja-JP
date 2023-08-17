@@ -2,10 +2,10 @@
 audience: end-user
 title: プッシュ通知ワークフローアクティビティを使用
 description: プッシュ通知ワークフローアクティビティの使用方法を学ぶ
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '324'
+workflow-type: tm+mt
+source-wordcount: '323'
 ht-degree: 100%
 
 ---

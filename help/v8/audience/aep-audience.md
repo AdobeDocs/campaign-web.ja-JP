@@ -2,11 +2,11 @@
 audience: end-user
 title: Adobe Experience Platform オーディエンスの使用
 description: Adobe Experience Platform のオーディエンスの使用方法
-badge: label="Alpha"
+badge: label="アルファ版"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '289'
+workflow-type: tm+mt
+source-wordcount: '288'
 ht-degree: 100%
 
 ---

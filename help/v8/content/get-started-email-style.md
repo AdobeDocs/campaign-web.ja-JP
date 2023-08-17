@@ -3,10 +3,10 @@ audience: end-user
 title: メールスタイルの基本を学ぶ
 description: メールコンテンツのスタイルを調整する様々な方法を説明します
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '117'
+workflow-type: tm+mt
+source-wordcount: '116'
 ht-degree: 100%
 
 ---

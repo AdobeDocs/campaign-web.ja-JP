@@ -2,10 +2,10 @@
 audience: end-user
 title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS）を追加する方法を学ぶ
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
-workflow-type: ht
-source-wordcount: '425'
+workflow-type: tm+mt
+source-wordcount: '424'
 ht-degree: 100%
 
 ---

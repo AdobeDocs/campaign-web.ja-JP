@@ -3,10 +3,10 @@ audience: end-user
 title: 独自のメールコンテンツをコーディング
 description: 独自のメールコンテンツのコーディング方法を説明します
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
-workflow-type: ht
-source-wordcount: '109'
+workflow-type: tm+mt
+source-wordcount: '108'
 ht-degree: 100%
 
 ---

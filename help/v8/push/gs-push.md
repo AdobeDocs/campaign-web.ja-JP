@@ -2,11 +2,11 @@
 audience: end-user
 title: プッシュ通知の基本を学ぶ
 description: Adobe Campaign Web を使用してプッシュ通知を作成し、送信する方法を学ぶ
-badge: label="Alpha"
+badge: label="アルファ版"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
-workflow-type: ht
-source-wordcount: '201'
+workflow-type: tm+mt
+source-wordcount: '200'
 ht-degree: 100%
 
 ---

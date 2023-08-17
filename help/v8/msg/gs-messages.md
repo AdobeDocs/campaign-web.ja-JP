@@ -5,7 +5,7 @@ description: Campaign Web での配信の操作方法とメッセージの送信
 badge: label="アルファ版"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%
 

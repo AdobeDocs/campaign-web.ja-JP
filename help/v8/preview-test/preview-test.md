@@ -5,7 +5,7 @@ description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="アルファ版"
 source-git-commit: 8ab2324bdc7b5c56a8b9f5369db24c5c32272707
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
 

@@ -3,10 +3,10 @@ audience: end-user
 title: メールの背景をパーソナライズする
 description: メールの背景をパーソナライズする方法を学ぶ
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Alpha"
+badge: label="アルファ版"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
-workflow-type: ht
-source-wordcount: '302'
+workflow-type: tm+mt
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
