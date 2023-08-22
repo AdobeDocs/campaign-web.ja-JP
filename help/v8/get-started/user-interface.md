@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ版"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
-ht-degree: 78%
+source-wordcount: '2286'
+ht-degree: 77%
 
 ---
 
@@ -38,10 +38,12 @@ ht-degree: 78%
 
 **最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、チャネル、ステータス、所有者、作成日、変更日が表示されます。
 
+The **主要業績評価指標** では、一般的な KPI を使用して、プラットフォームの有効性を確認できます。
+
 ホームページの「**ラーニング**」セクションから、Campaign v8 web の主要ヘルプページにアクセスします。
 
 
-#### 主要業績評価指標 {#user-interface-key-indicators}
+### 主要業績評価指標 {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ The **購読解除** 指標には、チャネルごとに次の KPI が表示さ
 >id="acw_keyindicators_errors"
 >title="エラー"
 >abstract="配信と自動バウンス処理の間に累積したエラーの合計数。付随している率は、配信されるメッセージ数の割合です。"
+
+The **エラー** 指標には、チャネルごとに次の KPI が表示されます。
 
 * 配信されるメッセージの合計数に対する、エラー数の割合。
 
