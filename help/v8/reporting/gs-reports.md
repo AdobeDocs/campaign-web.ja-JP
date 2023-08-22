@@ -3,7 +3,7 @@ audience: end-user
 title: レポートの基本を学ぶ
 description: Campaign web でレポートにアクセスして管理する方法を学ぶ
 badge: label="アルファ版"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 12578ed208ba9261b69ba5907c0083e483248a49
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%

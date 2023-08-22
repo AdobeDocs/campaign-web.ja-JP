@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ版"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 99%
+source-wordcount: '2263'
+ht-degree: 78%
 
 ---
 
@@ -39,6 +39,98 @@ ht-degree: 99%
 **最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、チャネル、ステータス、所有者、作成日、変更日が表示されます。
 
 ホームページの「**ラーニング**」セクションから、Campaign v8 web の主要ヘルプページにアクセスします。
+
+
+#### 主要業績評価指標 {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="スパム"
+>abstract="スパム KPI"
+
+ホームページを参照して、プラットフォームの主要業績評価指標を確認します。 これらの指標は、配信されたメッセージ、開封、クリック、購読解除およびエラー率を示します。
+
+指標は、デフォルトで、過去 7 日間に送信された配信に対して計算されます。 期間は、カードの右上にあるドロップダウンリストから変更できます。 テストプロファイルに送信されるメッセージは除外されます。
+
+表示するチャネルを選択できます。 デフォルトでは、これらの指標は E メールチャネルの指標を反映しています。
+
+![](assets/kpi.png)
+
+#### メッセージ配信済み {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="配信済み"
+>abstract="この指標は、選択したチャネルに関して、処理が成功したすべてのメッセージの合計と、送信されたメッセージの合計数に対する、成功と共に配信されたメッセージの割合を示します。"
+
+
+The **配信済み** 指標には、チャネルごとに次の KPI が表示されます。
+
+* 送信されるメッセージの合計数に対する、成功で配信されたメッセージ数の割合。
+
+* 正常に処理されたすべてのメッセージの合計。
+
+Adobe Campaignでは、メッセージを「配信済み」とマークするルールは次のとおりです。
+
+「シードアドレス」フィールドが「いいえ」に等しく、ステータスが「サービスプロバイダーで受信済み」（SMS の場合）、「送信済み」（E メールの場合）、「モバイルで受信済み」（プッシュ通知の場合）に等しいメッセージの数。
+
+
+#### 合計開封数 {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="開封数"
+>abstract="この指標は、選択したチャネルに関し、開封されたすべてのメッセージの合計と、正常に配信されたメッセージの合計数に対する、開封されたメッセージの割合を示します。"
+
+The **開封数** 指標には、チャネルごとに次の KPI が表示されます。
+
+* 正常に配信されたメッセージの合計数に対する、開封されたメッセージ数の割合。
+
+* チャネルごとに開封されたすべてのメッセージの合計。
+
+Adobe Campaignは、受信者が電子メールに含まれる画像をダウンロードすると、メッセージが開くことを検出します。 HTML およびマルチパート／オルタナティブの E メールには 0 ピクセルの画像が含まれており、これによって開封されたメッセージを検出できるようになります。テキスト形式のメッセージは画像を含まないので、開封されたかどうかを検出することは不可能です。メッセージの開封数に基づいて計算される値は、画像表示にリンクされる誤差があるので、常に推定値です。
+
+#### クリック率 {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="クリック数"
+>abstract="この指標は、選択したチャネルに関して、メッセージ内でクリックされたすべての URL の合計と、正常に配信されたメッセージの合計数に対するクリック率を示します。"
+
+The **クリック数** 指標には、チャネルごとに次の KPI が表示されます。
+
+* 正常に配信されたメッセージの合計数に対する、クリック数の割合。
+
+* 配信で少なくとも 1 回クリックしたユニークユーザーの数。 購読解除リンクおよびミラーページへのリンクは除外されます。
+
+この指標は、統合されたトラッキングテーブル (`nms:trackingStats`) をクリックします。 この集計テーブルは、受信者トラッキングログテーブル (`nms:trackingLogRcp`) と呼ばれ、リアルタイムでは計算されません。 テーブルは、トラッキングログを取得して数分後に生成されます。
+
+
+#### 購読解除率 {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="購読解除"
+>abstract="この指標は、選択したチャネルに関して、サービスからのすべての購読解除の合計と、正常に配信されたメッセージの合計数に対する、購読解除の割合を表示します。"
+
+The **購読解除** 指標には、チャネルごとに次の KPI が表示されます。
+
+* 正常に配信されたメッセージの合計数に対する、購読解除数の割合。
+
+* 購読解除リンクに対するすべてのクリックの合計（URL カテゴリが「オプトアウト」に等しい）。
+
+
+#### エラー率 {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="エラー"
+>abstract="配信と自動バウンス処理の間に累積したエラーの合計数。付随している率は、配信されるメッセージ数の割合です。"
+
+* 配信されるメッセージの合計数に対する、エラー数の割合。
+
+* 配信と自動リバウンド処理の間に累積したエラーの合計数。
+
 
 ### エクスプローラー {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="権限が必要です"
 >abstract="セグメントを作成するには、管理者から権限が付与されている必要があります。"
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="配信済み"
->abstract="配信済み KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="開封数"
->abstract="開封数 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="クリック数"
->abstract="クリック数 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="購読解除"
->abstract="購読解除 KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="スパム"
->abstract="スパム KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="エラー"
->abstract="エラー KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
