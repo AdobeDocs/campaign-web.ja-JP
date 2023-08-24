@@ -4,10 +4,10 @@ title: メール配信設定
 description: Campaign web UI でのメール配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="アルファ版"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 100%
+source-wordcount: '1392'
+ht-degree: 95%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 100%
 
 
 ### 頻度パラメーター {#pressure-parameters}
-
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="配信の重み付け"
->abstract="配信に重みを付けることで、頻度管理のフレームワーク内で最も優先順位の高い配信を指定できます。最も大きな重みを付けられたメッセージが、最優先されます。"
-
+>title="Delivery weight"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
+-->
 このセクションでは、頻度パラメーターを使用して&#x200B;**しきい値**&#x200B;を定義できます。これは、特定の期間に 1 つのプロファイルに送信できるメッセージの最大数です。しきい値に達すると、その後は指定された期間が完了するまで、配信は実施できなくなります。このプロセスにより、メッセージの数がしきい値を超過したプロファイルは配信から自動的に除外されるので、過剰な配信が回避できます。
 
 しきい値は、定数または変数のいずれかです。したがって、ある期間、しきい値はプロファイルによって異なる場合も、同じプロファイルで異なる場合もあります。
@@ -68,9 +68,9 @@ ht-degree: 100%
 ### 処理能力設定 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_recipient_importance"
->title="受信者の重要度"
->abstract="受信者の重要度は、処理能力タイポロジルールを超過した場合に維持する受信者を決定するために使用される式です。"
+>id="acw_email_settings_capacity_settings"
+>title="処理能力設定"
+>abstract="Adobe Campaign v8 コンソールで定義した処理能力ルールを選択します。 このルールは、メールチャネルに関連付けられています。"
 
 このセクションでは、Adobe Campaign v8 コンソールで定義した処理能力ルールを選択できます。このルールは、メールチャネルに関連付けられています。
 
@@ -87,6 +87,11 @@ ht-degree: 100%
 
 ## 配信 {#delivery}
 
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_delivery"
+>title="配信 設定"
+>abstract="配信パラメーターは、配信に適用する技術的な設定です。"
+
 配信パラメーターは、配信に適用する技術的な設定です。
 
 * **ルーティング**：統合されたメールルーティング用外部アカウントがデフォルトで提供されます。アプリケーションからメールを送信するための技術的なパラメーターが含まれています。
@@ -99,21 +104,18 @@ ht-degree: 100%
 
 ### 再試行 {#retries}
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_retries"
->title="再試行の最大数"
->abstract="一時的なエラーが原因でメッセージ送信が失敗した場合は、配信期間が終了するまで再試行されます。"
-
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
 再試行管理について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
 
 ## 承認 {#approval}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="承認モード"
->abstract="様々なプロセスを完全に監視および制御するために、配信の各手順は承認の対象となることがあります。"
+>title="Approval mode"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
+-->
 
 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。デフォルトでは、分析フェーズの最後に、メッセージの送信をユーザーが確認する必要があります（**手動**&#x200B;検証）。
 
@@ -129,15 +131,16 @@ ht-degree: 100%
 ## 有効性 {#validity}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_duration"
->title="配信期間"
->abstract="「配信期間」フィールドには、グローバルで行う配信再試行の期限を入力できます。Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。"
+>id="acw_email_settings_validity"
+>title="設定の有効性"
+>abstract="「配信期間」フィールドには、グローバルで行う配信再試行の期限を入力できます。つまり、Adobe Campaignは開始日にメッセージの送信を開始し、エラーのみを返すメッセージに対しては、有効制限に達するまで、定期的に設定可能な再試行が実行されます。「有効制限」フィールドは、ミラーページや画像などのアップロード済みリソースに使用されます。 これらのリソースは限られた時間のみ有効です。制限に達すると、リソースは使用できなくなります。"
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="リソースの有効期間"
->abstract="「有効期限」フィールドは、ミラーページや画像などのアップロードされたリソースに使用されます。これらのリソースは限られた時間のみ有効です。制限に達すると、リソースは使用できなくなります。"
-
+>title="Resources validity limit"
+>abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
+-->
 
 「**配信期間**」フィールドには、グローバルでおこなう配信再試行の期限を入力できます。Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。
 
@@ -164,10 +167,12 @@ ht-degree: 100%
 
 ### トラッキング {#tracking}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="有効期間"
->abstract="このオプションは、URL に対してトラッキングがアクティブになっている期間を定義します。"
+>title="Validity period"
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
+-->
 
 トラッキングパラメーターは、関連するセクションで定義されています。 選択できるオプションは次のとおりです。
 
