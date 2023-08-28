@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ版"
-source-git-commit: bbe4ed0ce05048cf22a18a36967b9a4c0422d93f
+source-git-commit: cc3209d8aba62ff4492e71eaaa641e77f5a27e93
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2577'
 ht-degree: 70%
 
 ---
@@ -478,4 +478,14 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="配信設定の Web 分析"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Campaign の配信テンプレート"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_template_for_campaign"
+>title="Campaign のワークフローテンプレート"
 >abstract="TBC"
