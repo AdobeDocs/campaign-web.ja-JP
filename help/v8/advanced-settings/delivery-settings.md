@@ -3,11 +3,11 @@ audience: end-user
 title: メール配信設定
 description: Campaign web UI でのメール配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="アルファ版"
+badge: label="アルファ"
 source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1392'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="処理能力設定"
->abstract="Adobe Campaign v8 コンソールで定義した処理能力ルールを選択します。 このルールは、メールチャネルに関連付けられています。"
+>abstract="Adobe Campaign v8 コンソールで定義した処理能力ルールを選択します。このルールは、メールチャネルに関連付けられています。"
 
 このセクションでは、Adobe Campaign v8 コンソールで定義した処理能力ルールを選択できます。このルールは、メールチャネルに関連付けられています。
 
@@ -91,7 +91,7 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="配信 設定"
+>title="配信設定"
 >abstract="配信パラメーターは、配信に適用する技術的な設定です。"
 
 配信パラメーターは、配信に適用する技術的な設定です。
@@ -135,7 +135,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_validity"
 >title="設定の有効性"
->abstract="「配信期間」フィールドには、グローバルで行う配信再試行の期限を入力できます。つまり、Adobe Campaignは開始日にメッセージの送信を開始し、エラーのみを返すメッセージに対しては、有効制限に達するまで、定期的に設定可能な再試行が実行されます。「有効制限」フィールドは、ミラーページや画像などのアップロード済みリソースに使用されます。 これらのリソースは限られた時間のみ有効です。制限に達すると、リソースは使用できなくなります。"
+>abstract="「配信期間」フィールドには、グローバルで行う配信再試行の期限を入力できます。Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。「有効期限」フィールドは、ミラーページや画像などのアップロードされたリソースに使用されます。これらのリソースは限られた時間のみ有効です。制限に達すると、リソースは使用できなくなります。"
 
 <!--
 >[!CONTEXTUALHELP]
