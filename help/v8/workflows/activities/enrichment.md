@@ -2,8 +2,8 @@
 audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
-badge: label="アルファ版"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="ベータ版"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 100%

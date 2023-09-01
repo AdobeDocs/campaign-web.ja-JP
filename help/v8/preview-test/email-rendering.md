@@ -3,8 +3,8 @@ audience: end-user
 title: メールのレンダリングのテスト
 description: Campaign web UI でメールのレンダリングをテストする方法について説明します
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="アルファ版"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="ベータ版"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%

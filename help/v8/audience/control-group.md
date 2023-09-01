@@ -3,11 +3,11 @@ audience: end-user
 title: コントロール母集団を設定
 description: Campaign web UI でメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="アルファ版"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="ベータ版"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="抽出モード"
->abstract="コントロール母集団を定義するには、ターゲット母集団から無作為に、または並べ替えに基づいて、一定の割合または一定数のプロファイルを抽出できます。"
+>abstract="コントロール母集団は、配信から除外される一連のプロファイルです。 コントロール母集団を定義するには、ターゲット母集団から無作為に、または並べ替えに基づいて、一定の割合または一定数のプロファイルを抽出できます。"
 
 
 ### コントロール母集団を作成 {#build-extract-target}
@@ -104,7 +104,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="追加の母集団"
->abstract="既存のオーディエンスを選択するか、クエリを定義すると、配信オーディエンスから特定の母集団を除外できます。"
+>abstract="コントロール母集団は、配信から除外される一連のプロファイルです。 既存のオーディエンスを選択するか、クエリを定義すると、配信オーディエンスから特定の母集団を除外できます。"
 
 コントロール母集団を定義する他の方法として、既存のオーディエンス内の特定の母集団を選択するか、クエリを定義します。
 

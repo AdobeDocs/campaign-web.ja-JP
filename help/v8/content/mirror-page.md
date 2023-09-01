@@ -2,9 +2,9 @@
 audience: end-user
 title: ミラーページへのリンクの追加
 description: ミラーページへのリンクを追加および管理する方法を学ぶ
-badge: label="アルファ版"
+badge: label="ベータ版"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%

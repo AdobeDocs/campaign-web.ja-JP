@@ -3,8 +3,8 @@ audience: end-user
 title: 電子メールデザイナーでのプリヘッダーの追加
 description: メールコンテンツのデザイン方法
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="アルファ版"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="ベータ版"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%

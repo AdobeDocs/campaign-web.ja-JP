@@ -3,11 +3,11 @@ audience: end-user
 title: Campaign のルールビルダーを使用してオーディエンスを作成
 description: ルールビルダーの操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="アルファ版"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="ベータ版"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
   >[!NOTE]
   >
-  >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 [宛先に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}を参照してください。
+  >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 詳しくは、 [Adobe Experience Platform Destinations ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}.
 
 検索バーを使用して、要素をすばやく見つけることができます。
 

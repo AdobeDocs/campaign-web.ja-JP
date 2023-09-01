@@ -3,11 +3,11 @@ audience: end-user
 title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="アルファ版"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="ベータ版"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 100%
+source-wordcount: '294'
+ht-degree: 58%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="既存オーディエンスの選択"
->abstract="オーディエンスは、Adobe Campaign v8 コンソールで定義されます。Adobe Experience Platform 統合を使用できる場合は、Platform で定義されたオーディエンスも表示されます。"
+>abstract="リストを参照して、既存のオーディエンスを選択します。 「フィルターを表示」アイコンを使用してリストをフィルターするか、特定のフォルダーを選択します。"
 
 この節では、メール配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。
 
 また、次のこともできます。
 
 * 新しいオーディエンスを作成します。[詳細情報](segment-builder.md)
-* 外部ファイルのオーディエンスを読み込みます。[詳細情報](file-audience.md)
+* 外部ファイルからオーディエンスを読み込みます（E メールの場合のみ）。 [詳細情報](file-audience.md)
 * Adobe Experience Platform オーディエンスの使用。[詳細情報](aep-audience.md)
 
 
@@ -36,21 +36,16 @@ ht-degree: 100%
 
 1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。このメールで使用する新しいオーディエンスを作成するには、「**独自に作成**」を選択します。[こちら](segment-builder.md)を参照してください。
 
-   この画面には、現在のフォルダーに対して、Adobe Campaign クライアントコンソールで定義されたすべての既存のオーディエンスが表示されます。
+   この画面には、現在のフォルダーの既存のすべてのオーディエンスが表示されます。
 
    ![](assets/create-audience2.png)
 
-   >[!NOTE]
-   >
-   >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 [宛先に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}を参照してください。
+   オーディエンスは **対象ユーザ** 左メニュー。 クライアントコンソールでも作成できます。
+
+   Adobe Experience Platformオーディエンスを使用するには、宛先との統合を設定する必要があります。 詳しくは、 [Adobe Experience Platform Destinations ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}.
 
 1. オーディエンスを選択し、「**選択**」をクリックします。
-
-1. オーディエンスを絞り込む必要がある場合は、「**ルールを編集**」をクリックします。
-
-   ![](assets/create-audience3.png)
-
-1. ルールビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](segment-builder.md)を参照してください。
+1. 以下を使用します。 **フィルターを表示** アイコンをクリックしてフィルターオプションを表示します。 クリック **ルールを追加** ルールビルダーにアクセスするには：ルールビルダーを使用して、オーディエンスのリストに対する詳細フィルターを作成できます。 このルールビルダーの使用方法を説明します [セクション](segment-builder.md).
 
    ![](assets/create-audience4.png)
 

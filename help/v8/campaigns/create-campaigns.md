@@ -2,9 +2,9 @@
 audience: end-user
 title: Adobe Campaign Web でのキャンペーンの作成
 description: Adobe Campaign Web を使用してクロスチャネルキャンペーンを作成する方法を学ぶ
-badge: label="アルファ版"
+badge: label="ベータ版"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 100%

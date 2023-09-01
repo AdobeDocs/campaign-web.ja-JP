@@ -3,11 +3,11 @@ audience: end-user
 title: メール配信設定
 description: Campaign web UI でのメール配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="アルファ"
-source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
-workflow-type: ht
-source-wordcount: '1392'
-ht-degree: 100%
+badge: label="ベータ版"
+source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
+workflow-type: tm+mt
+source-wordcount: '1494'
+ht-degree: 87%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="タイポロジ"
->abstract="タイポロジでは、配信の送信を制御、フィルタリングおよび監視できます。"
+>abstract="タイポロジとは、メッセージの準備中に実行される一連のルールです。 配信を制御、フィルタリングおよび監視できます。"
 
 タイポロジとは、メッセージの分析段階で実行される一連の&#x200B;**タイポロジルール**&#x200B;です。メールに常に必要な特定の要素（登録解除リンクや件名行など）が含まれていることを確かめたり、ターゲットグループから特定グループ（非購読者、競合他社、非顧客など）を除外するフィルタールールを設定したりできます。
 
@@ -38,12 +38,12 @@ ht-degree: 100%
 
 ### 頻度パラメーター {#pressure-parameters}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_weight"
->title="Delivery weight"
->abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
--->
+>id="acw_email_settings_pressure_parameters"
+>title="頻度パラメーター"
+>abstract="配信に重みを付けることで、頻度管理のフレームワーク内で最も優先順位の高い配信を指定できます。最も大きな重みを付けられたメッセージが、最優先されます。"
+
 
 このセクションでは、頻度パラメーターを使用して&#x200B;**しきい値**&#x200B;を定義できます。これは、特定の期間に 1 つのプロファイルに送信できるメッセージの最大数です。しきい値に達すると、その後は指定された期間が完了するまで、配信は実施できなくなります。このプロセスにより、メッセージの数がしきい値を超過したプロファイルは配信から自動的に除外されるので、過剰な配信が回避できます。
 
@@ -65,34 +65,34 @@ ht-degree: 100%
 * **暫定ターゲットの推定と承認**
 * **ターゲットの評価**
 
-疲労管理については、**キャンペーンの最適化**&#x200B;アドオンが付属しています。頻度ルールと疲労管理の設定方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。
+疲労管理については、**キャンペーンの最適化**&#x200B;アドオンが付属しています。頻度ルールと、疲労管理の設定方法について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}.
 
 ### 処理能力設定 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="処理能力設定"
->abstract="Adobe Campaign v8 コンソールで定義した処理能力ルールを選択します。このルールは、メールチャネルに関連付けられています。"
+>abstract="メッセージを配信する前に、処理能力ルールを使用して、組織が配信、配信で生成されるインバウンドメッセージ、購読者に連絡するための呼び出し数などを処理できることを確認します。 処理能力ルールは、Adobe Campaign v8 コンソールで定義されます。 この画面で、E メールチャネルに関連付けられたルールを選択します。"
 
 このセクションでは、Adobe Campaign v8 コンソールで定義した処理能力ルールを選択できます。このルールは、メールチャネルに関連付けられています。
 
 「**受信者の重要度**」フィールドは、処理能力タイポロジルールを超過した場合に維持する受信者を決定するために使用される式です。
 
-一貫性ルールと処理能力ルール、その設定方法について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"}を参照してください。
+一貫性と容量のルール、およびでの設定方法の詳細 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"}.
 
 
 ## オーディエンス {#audience}
 
 このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。
 
-ターゲットマッピングについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
+ターゲットマッピングの詳細については、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}.
 
 ## 配信 {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="配信設定"
->abstract="配信パラメーターは、配信に適用する技術的な設定です。"
+>abstract="配信パラメーターは、配信に適用する技術的な設定です。配信の BCC を有効化し、配信モードとルーチンモードを変更できます。 これらのオプションは、エキスパートユーザーにのみ制限されます。"
 
 配信パラメーターは、配信に適用する技術的な設定です。
 
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 * **SMTP 配信をテスト**：このオプションを使用して、SMTP 経由での送信をテストします。配信は SMTP サーバーへの接続まで処理されますが、送信はされません。配信の受信者ごとに、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
-* **BCC でメールを送信**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。BCC でメールを送信について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
+* **BCC でメールを送信**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。「BCC で E メールを送信」の詳細を説明します [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
 
 
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-再試行管理について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
+での再試行管理の詳細を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
 
 ## 承認 {#approval}
 
@@ -153,7 +153,7 @@ ht-degree: 100%
 ![](assets/delivery-settings-2.png)
 
 
-配信の有効期間について詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja#validity-period){target="_blank"}を参照してください。
+配信の有効期間について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja#validity-period){target="_blank"}.
 
 ### ミラーページ管理 {#mirror}
 

@@ -3,18 +3,18 @@ audience: end-user
 title: オファーの送信
 description: オファーの送信
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="アルファ版"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="ベータ版"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 100%
+source-wordcount: '641'
+ht-degree: 94%
 
 ---
 
 
 # オファーの送信 {#offers-content}
 
-Adobe Campaign v8 web では、**[!UICONTROL インタラクション]**&#x200B;モジュールを使用してコンソールで作成されたオファーを、配信で送信できます。インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
+Adobe Campaign v8 web では、**[!UICONTROL インタラクション]**&#x200B;モジュールを使用してコンソールで作成されたオファーを、配信で送信できます。インタラクションと、コンソールでのオファーカタログの管理方法について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}.
 
 配信でオファーを送信する手順は、次のとおりです。
 
@@ -39,7 +39,7 @@ Adobe Campaign v8 web では、**[!UICONTROL インタラクション]**&#x200B;
 
 1. 受信者に提案するオファーを設定します。
 
-   まず、オファー環境に合致する&#x200B;**[!UICONTROL オファースペース]**&#x200B;を選択します。オファースペースを作成する方法については、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=ja){target="_blank"}を参照してください。
+   まず、オファー環境に合致する&#x200B;**[!UICONTROL オファースペース]**&#x200B;を選択します。オファースペースを [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=ja){target="_blank"}
 
    ![](assets/create-content-offers.png)
 

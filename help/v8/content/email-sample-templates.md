@@ -2,8 +2,8 @@
 audience: end-user
 product: campaign
 title: メールテンプレートの操作
-badge: label="アルファ版"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="ベータ版"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%

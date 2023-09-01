@@ -2,12 +2,12 @@
 audience: end-user
 title: SMS 配信の基本を学ぶ
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
-badge: label="アルファ版"
+badge: label="ベータ版"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ SMS チャネルには、SMS 配信を作成する次の 3 つの方法が用意
 
 * **スタンドアロン配信**：ワークフローやキャンペーンを必要とせずに、顧客との迅速で直接的な通信を可能にする個々の SMS 配信を作成します。
 
-![](../assets/do-not-localize/book.png) SMS チャネルの設定方法については、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=ja){target="_blank"}を参照してください
+![](../assets/do-not-localize/book.png) で SMS チャネルを設定する方法を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html?lang=ja){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

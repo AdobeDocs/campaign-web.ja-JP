@@ -2,8 +2,8 @@
 audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
-badge: label="アルファ版"
-source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+badge: label="ベータ版"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%

@@ -3,8 +3,8 @@ audience: end-user
 title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="アルファ版"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+badge: label="ベータ版"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
@@ -51,7 +51,7 @@ Campaign の新しい web UI は、すべての Adobe Experience Cloud ソリュ
 
 Campaign ユーザーは、引き続きクライアントコンソールにアクセスして、Campaign のリソースとコンポーネントを作成および管理できます。データと設定は、環境間で同期されます。詳しくは、[こちら](../get-started/get-started.md#about-campaign-client-consoleac-client)を参照してください。
 
-さらに、クライアントコンソールで既に使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web UI に表示されます。エクスプローラビューについて詳しくは、[この節](../get-started/user-interface.md#explorer-user-interface-explorer)を参照してください。
+さらに、クライアントコンソールで既に使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web UI に表示されます。エクスプローラービューについて詳しくは、[この節](../get-started/user-interface.md#explorer-user-interface-explorer)を参照してください。
 
 
 ## 用語の更新 {#terminology-updates}

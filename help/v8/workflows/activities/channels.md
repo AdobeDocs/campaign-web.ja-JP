@@ -2,11 +2,11 @@
 audience: end-user
 title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS）を追加する方法を学ぶ
-badge: label="アルファ版"
-source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
+badge: label="ベータ版"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '425'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
    ![](../assets/delivery-activity-in-wf.png)
 
 
-   チャネルアクティビティ設定の左側のパネルから別のテンプレートを選択できます。以前に選択したオーディエンスがチャネルに対応していない場合は、テンプレートを選択できません。これを解決するには、**オーディエンスを作成**&#x200B;アクティビティを更新して、ターゲットマッピングが正しいオーディエンスを選択します。ターゲットマッピングについて詳しくは、[Adobe Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
+   チャネルアクティビティ設定の左側のパネルから別のテンプレートを選択できます。以前に選択したオーディエンスがチャネルに対応していない場合は、テンプレートを選択できません。これを解決するには、**オーディエンスを作成**&#x200B;アクティビティを更新して、ターゲットマッピングが正しいオーディエンスを選択します。ターゲットマッピングの詳細については、 [Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}.
 
 1. 「**配信を作成**」をクリックします。スタンドアロン配信の作成時と同様に、メッセージの設定とコンテンツを定義します。また、コンテンツをスケジュールおよびシミュレートすることもできます。[詳細情報](../../msg/gs-messages.md)
 
