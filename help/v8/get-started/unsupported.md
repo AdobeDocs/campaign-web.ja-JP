@@ -5,15 +5,15 @@ description: Campaign Web UI でサポートされていない機能のリスト
 badge: label="ベータ版"
 hide: true
 hidefromtoc: true
-source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 12%
+source-wordcount: '350'
+ht-degree: 11%
 
 ---
 
 
-# Campaign Web UI でサポートされない機能 {#unsupported-capabilities}
+# Campaign Web でサポートされていない機能 {#unsupported-capabilities}
 
 次の機能は、Campaign クライアントコンソールでアクセスできますが、Web ユーザーインターフェイスではまだ使用できません。 一部のバージョンは新しいバージョンで使用できますが、一部は使用できません。
 
@@ -22,17 +22,13 @@ ht-degree: 12%
 * ホームページダッシュボード
 * ホームページのカスタマイズ
 
-
 **キャンペーン管理**
 
 * マーケティングカレンダー/タイムライン
 * 予算とコストの管理
 * タスク管理
-* 分散型マーケティング
+* 分散型マーケティング（セントラル/ローカルマーケティング）
 * 応答管理
-
-**キャンペーンの最適化**
-
 * A/B テスト
 * マーケティングリソース管理 (MRM)、目標、シミュレーション、予算、コスト
 
@@ -46,6 +42,7 @@ ht-degree: 12%
 **Web コンテンツ**
 
 * ランディングページの作成と公開
+* Web アプリ、Web フォーム
 * 調査の管理
 
 **プロファイルと受信者**
@@ -66,16 +63,16 @@ ht-degree: 12%
 
 * パブリックリソースからのコンテンツ
 * ループ/コレクション管理
-* HTMLコンテンツのテンプレートとしての保存 `*`
+* HTMLコンテンツのテンプレートとしての保存`*`
 * Adobe Experience Managerからの電子メールテンプレートの同期
 * E メールコンテンツのAdobe Experience Manager 6.5 のアセット
 * コンテンツブロックの作成
 * カスタムフォームのコンテンツ
-* URL からのコンテンツ `*`
+* URL からのコンテンツ`*`
 * E メールフラグメント
 * E メール用の AMP
-* E メールフラグメント `*`
-* 多変量分析/多言語の使用例 `*`
+* E メールフラグメント`*`
+* 多変量分析/多言語の使用例`*`
 
 **タイポロジルール**
 
