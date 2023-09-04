@@ -5,9 +5,9 @@ description: Campaign Web UI でサポートされていない機能のリスト
 badge: label="ベータ版"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: f5e60740ea6f0434a3c06a8c4fd35ad7453bb665
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '346'
 ht-degree: 12%
 
 ---
@@ -66,16 +66,16 @@ ht-degree: 12%
 
 * パブリックリソースからのコンテンツ
 * ループ/コレクション管理
-* HTMLコンテンツをテンプレートとして保存（クライアントコンソールでは使用できません）
+* HTMLコンテンツのテンプレートとしての保存 `*`
 * Adobe Experience Managerからの電子メールテンプレートの同期
 * E メールコンテンツのAdobe Experience Manager 6.5 のアセット
 * コンテンツブロックの作成
 * カスタムフォームのコンテンツ
-* URL からのコンテンツ（クライアントコンソールでは使用できません）
+* URL からのコンテンツ `*`
 * E メールフラグメント
 * E メール用の AMP
-* E メールフラグメント（クライアントコンソールでは使用できません）
-* 多変量分析/多言語の使用例（クライアントコンソールでは使用できません）
+* E メールフラグメント `*`
+* 多変量分析/多言語の使用例 `*`
 
 **タイポロジルール**
 
@@ -125,3 +125,4 @@ ht-degree: 12%
 * ターゲットの承認
 
 
+`*` クライアントコンソールでは使用できません
