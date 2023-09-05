@@ -4,10 +4,10 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="ベータ版"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 98%
+source-wordcount: '1324'
+ht-degree: 95%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="メールの基本を学ぶ"
->abstract="テンプレートから開始するか、Adobe Campaign の新しいメールデザイナーを使用して、コードを 1 行も記述しなくてもメールを作成できます。メールデザイナーを使用してコンテンツを作成し、プレビューおよびテストして、既存のオーディエンスにメールを送信する方法をエンドツーエンドのユースケースで説明します。"
+>title="E メールコンテンツ用 Gen AI"
+>abstract="当社の Gen AI テクノロジーは、高度なアルゴリズムを利用して、高度にエンゲージメントとパーソナライズされたコンテンツを生成します。 Gen AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。 競争に先立ち、Gen AI を使用したメールマーケティングゲームをメールコンテンツに活用してください。"
 
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 

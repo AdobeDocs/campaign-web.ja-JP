@@ -4,14 +4,20 @@ title: Campaign のルールビルダーを使用してオーディエンスを�
 description: ルールビルダーの操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="ベータ版"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 98%
+source-wordcount: '602'
+ht-degree: 89%
 
 ---
 
 # ルールビルダーを使用したオーディエンスを定義 {#segment-builder}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="ターゲットオーディエンス"
+>abstract="配信ターゲットの作成はこれまで以上に簡単でした。 最新のルールビルダーを使用すると、データベースから受信者やその他のターゲティングディメンションのフィルタリング条件を定義できます。 Adobe Experience Platformオーディエンスを活用して、ターゲットオーディエンスをさらに絞り込み、キャンペーンの効果を最大化します。"
 
 この節では、新しいメールをデザインする際にオーディエンスを作成する方法について説明します。作成したオーディエンスは、このメールでのみ使用できます。
 

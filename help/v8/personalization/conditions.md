@@ -7,21 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="ベータ版"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '909'
 ht-degree: 100%
 
 ---
 
 # 条件付きコンテンツをビルド{#add-conditions}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="条件付きコンテンツを作成"
->abstract="条件付きコンテンツを作成して、受信者のプロファイルに基づいて動的にパーソナライゼーションを定義し、特定の条件が満たされるとテキストブロックと画像を自動的に置き換えます。この機能により、キャンペーンを新たな高みに引き上げて、高度にターゲティングされ、パーソナライズされたエクスペリエンスをオーディエンスに提供できます。"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"

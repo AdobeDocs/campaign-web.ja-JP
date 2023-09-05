@@ -4,9 +4,9 @@ title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="ベータ版"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 100%
 
 # キャンペーンの基本を学ぶ {#campaigns}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="クロスチャネルキャンペーンのデザインと送信"
->abstract="Adobe Campaign の機能は、一元化された顧客データの管理、顧客とのやり取りやキャンペーンのデザイン、メール、プッシュ、SMS などの様々なチャネルをまたいでパーソナライズされたエクスペリエンスの作成に役立ちます。"
 
 Adobe Campaign では、組み込みのキャンペーン管理機能を使用して、ターゲットにするマーケティング活動を簡単に調整できます。スケジュールを定義する機能を使用すると、戦略目標に合わせてキャンペーンの期間とタイミングを計画し、オーディエンスのエンゲージメントを最大化できます。
 

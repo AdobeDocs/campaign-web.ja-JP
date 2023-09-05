@@ -4,10 +4,10 @@ title: ワークフローの基本を学ぶ
 description: ワークフローの開始方法を学ぶ
 badge: label="ベータ版"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 89%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="ワークフローキャンバスインターフェイスを刷新"
->abstract="包括的なグラフィカルキャンバスにより、セグメント化やキャンペーン実行などのプロセスを簡単にデザインできます。この高度なツールをすぐに使用できるので、ワークフローを合理化し、キャンペーンを強化できます。"
+>title="その他のキャンペーンワークフローアクティビティ"
+>abstract="自動化と最適化の新しい可能性を解放し、より動的でパーソナライズされたカスタマージャーニーを作成できるようにします。 高度なセグメント化から条件付きトリガーに至るまで、追加のワークフローアクティビティにより、ターゲットメッセージを配信し、キャンペーンのパフォーマンスを向上させることができます。"
 
 ## ワークフローとは何ですか？
 
