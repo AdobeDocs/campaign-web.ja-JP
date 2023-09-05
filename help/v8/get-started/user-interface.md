@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ"
-source-git-commit: 970a7c7af8b94e96d33ef2e41f8ddcfda322252c
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 98%
+source-wordcount: '1724'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 **最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、チャネル、ステータス、所有者、作成日、変更日が表示されます。
 
-**主要業績評価指標**&#x200B;では、一般的な KPI を通じてプラットフォームの有効性を確認できます。
+**主要業績評価指標**&#x200B;では、一般的な KPI を通じてプラットフォームの有効性を確認できます。これらの KPI について詳しくは、 [このページ](../reporting/kpis.md).
 
 ホームページの「**ラーニング**」セクションから、Campaign v8 web の主要ヘルプページにアクセスします。
 
@@ -299,7 +299,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="有効期間"
->abstract="このオプションは、URL に対してトラッキングがアクティブになっている期間を定義します。"
+>abstract="有効期間は、メッセージ URL で追跡を有効にする期間を設定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
@@ -330,11 +330,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_template_settings_delivery_weight"
 >title="配信の重み付け"
 >abstract="配信に重みを付けることで、頻度管理のフレームワーク内で最も優先順位の高い配信を指定できます。最も大きな重みを付けられたメッセージが、最優先されます。"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_typology"
->title="タイポロジ"
->abstract="タイポロジでは、配信の送信を制御、フィルタリングおよび監視できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"

@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのキャンペーンの作成
 description: Adobe Campaign Web を使用してクロスチャネルキャンペーンを作成する方法を学ぶ
 badge: label="ベータ版"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 58%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="キャンペーン作成プロパティ"
->abstract="キャンペーンのプロパティとメタデータを定義します。"
+>abstract="この画面で、キャンペーンの設定を定義します。テンプレートを選択し、キャンペーンのラベルを入力します。 追加の設定を参照して、デフォルトの内部名、フォルダーの変更、説明の追加、担当者の選択を行います。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="キャンペーンプロパティ"
->abstract="キャンペーンの設定とメタデータを定義します。"
+>abstract="この画面では、キャンペーンのラベル、内部名、フォルダー、説明の設定を確認および更新できます。 また、割り当て先のユーザーを表示することもできます。"
 
-新しいキャンペーンを作成するには、そのプロパティを定義し、ワークフローと配信をスケジュールして含める必要があります。
+新しいキャンペーンを作成するには、キャンペーンのプロパティ、スケジュールを定義し、ワークフローと配信を含める必要があります。
 
 ## キャンペーンの作成{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="キャンペーンスケジュール"
->abstract="キャンペーンの作成中にキャンペーンスケジュールを定義します。"
 
 新しいキャンペーンを作成するには、次の手順に従います。
 
@@ -39,14 +34,7 @@ ht-degree: 100%
 1. 使用する&#x200B;**テンプレート**を選択し、キャンペーンのラベルを入力します。キャンペーンテンプレートは、新しいキャンペーンの作成に再利用できるように事前設定されており、これらはクライアントコンソールから作成されます。
    [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja)。
 1. 必要に応じて、内部名、フォルダー、担当者、説明、特性などの&#x200B;**追加オプション**&#x200B;を変更できます。
-1. キャンペーンの&#x200B;**スケジュール**&#x200B;を定義します。キャンペーンは、開始日になると開始します。開始日と終了日は、キャンペーンリストに表示され、フィルターとして使用できます。[こちら](manage-campaigns.md#access-campaigns)を参照してください。
-
-   ![キャンペーンプロパティを定義](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >これらのプロパティは、キャンペーンラベルの横にある「**キャンペーン設定を指定**」アイコンからいつでも変更できます。この[節](gs-campaigns.md#campaign-dashboard)を参照してください。
-
+1. キャンペーンの&#x200B;**スケジュール**&#x200B;を定義します。キャンペーンスケジュールを [この節](#campaign-schedule)
 1. 「**作成**」をクリックします。
 1. キャンペーンにワークフローと配信を追加します。
 
@@ -61,6 +49,29 @@ ht-degree: 100%
 
 また、専用のレポートを表示するには、「**レポート**」ボタンをクリックします。 [こちら](../reporting/campaign-reports.md)を参照してください。
 
+
+## キャンペーンスケジュールを定義 {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="キャンペーンスケジュール"
+>abstract="キャンペーンスケジュールを選択します。 キャンペーンは作成でき、開始日になると開始します。 デフォルトでは、キャンペーンの開始日は作成日で、期間は 5 日間です。 開始日と終了日は、キャンペーンリストに表示され、フィルターとして使用できます。"
+
+
+キャンペーンは、開始日になると開始します。開始日に達していない限り、キャンペーンに **[!UICONTROL ドラフト]** ステータス。 開始日に達すると、がに変わります。 **[!UICONTROL 処理中]**. 終了日に達すると、キャンペーンは **[!UICONTROL 完了]**.
+
+開始日と終了日は、キャンペーンリストに表示され、フィルターとして使用できます。[こちら](manage-campaigns.md#access-campaigns)を参照してください。
+
+![キャンペーンプロパティを定義](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>これらのプロパティは、キャンペーンラベルの横にある「**キャンペーン設定を指定**」アイコンからいつでも変更できます。この[節](gs-campaigns.md#campaign-dashboard)を参照してください。
+
+
+
+日付に達すると、送信準備が整ったワークフローのコンテキストでそのキャンペーンで作成された配信が、実際に送信されます。 この場合、ワークフローが開始されている必要があります。
 
 
 <!--
