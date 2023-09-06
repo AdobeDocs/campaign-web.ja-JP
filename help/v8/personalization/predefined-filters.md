@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="ベータ版"
-source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
+source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >title="定義済みフィルター"
 >abstract="Campaign Web で、特定のニーズに合わせて定義済みフィルターを容易に管理およびカスタマイズできる、使いやすいインターフェイスが提供されるようになりました。 1 回作成し、後で使用するために保存します。"
 
-定義済みフィルターは、将来使用できるカスタムフィルターです。 これらは、ルールビルダーで操作をフィルタリングする際に、ショートカットとして使用できます。
+定義済みフィルターは、将来使用できるカスタムフィルターです。 これらは、ルールビルダーで操作をフィルタリングする際に、ショートカットとして使用できます。 既存の組み込みフィルターを使用して、データの特定のサブセットにアクセスしたり、独自の定義済みフィルターを作成したりできます。
 
 
 ## 定義済みフィルターの作成 {#create-predefined-filter}
@@ -65,3 +65,5 @@ ht-degree: 0%
 
 ## 定義済みフィルターの管理 {#manage-predefined-filter}
 
+
+## 組み込みの定義済みフィルター {#ootb-predefined-filter}
