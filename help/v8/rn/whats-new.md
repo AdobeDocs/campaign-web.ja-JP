@@ -4,9 +4,9 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="ベータ版"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '962'
 ht-degree: 50%
 
 ---
@@ -79,7 +79,7 @@ Campaign の新しい web UI は、すべての Adobe Experience Cloud ソリュ
 
 * 定義済みフィルター管理
 
-  定義済みフィルター管理の概要。 Campaign Web UI は、特定のニーズに合わせて定義済みフィルターを容易に管理およびカスタマイズできる、ユーザーフレンドリなインターフェイスを提供します。 1 回作成し、後で使用するために保存します。
+  定義済みフィルター管理の概要。 Campaign Web UI は、特定のニーズに合わせて定義済みフィルターを容易に管理およびカスタマイズできる、ユーザーフレンドリなインターフェイスを提供します。 1 回作成し、後で使用するために保存します。 [詳細情報](../personalization/predefined-filters.md)
 
 
 * ターゲットオーディエンス

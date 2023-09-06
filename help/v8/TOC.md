@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 97%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 97%
       + [パーソナライゼーションを追加](personalization/personalize.md)
       + [条件付きコンテンツを追加](personalization/conditions.md)
       + [ビルトインコンテンツブロックを追加](personalization/content-blocks.md)
-      + [定義済みフィルターの作成と使用](personalization/predefined-filters.md)
+      + [定義済みフィルターの使用](personalization/predefined-filters.md)
    + [オファーの送信](content/offers.md)
    + 配信のプレビューとテスト {#preview-test}
       + [プレビューとテストについて](preview-test/preview-test.md)
