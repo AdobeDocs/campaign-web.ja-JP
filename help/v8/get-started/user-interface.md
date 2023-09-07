@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1747'
 ht-degree: 96%
 
 ---
@@ -265,6 +265,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscription_services_read_only"
 >title="このサービスは読み取り専用です"
 >abstract="このサービスを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="このオーディエンスは読み取り専用です"
+>abstract="このオーディエンスを編集する権限がありません。 必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
 
 <!-- Workflows-->
 
