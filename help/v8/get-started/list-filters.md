@@ -2,8 +2,8 @@
 audience: end-user
 title: リストを参照、検索、フィルタリング
 description: Campaign web v8 のリストを参照およびフィルタリングする方法の確認
-badge: label="アルファ版"
-source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
+badge: label="アルファ"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
