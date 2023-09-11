@@ -1,11 +1,11 @@
 ---
 title: 主要業績評価指標
-description: 主要業績評価指標の理解
-badge: label="ベータ版"
+description: 主要業績評価指標を理解する方法について説明します
+badge: label="Beta"
 source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

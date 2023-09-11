@@ -3,11 +3,11 @@ audience: end-user
 title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1032'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 * [テストプロファイル](#test-profiles) - シードアドレス（データベースに追加されている受信者）に&#x200B;**テストメールと SMS** を送信します。
 
-  これらは、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}
+  これらは、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
 
 * [メインターゲットから代用](#substitution-profiles) - 既存のプロファイルを借用して、特定のメールアドレスまたは電話番号に&#x200B;**テストメールと SMS** を送信します。
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 
 * [サブスクライバー](#subscribers) - データベースに追加された架空のサブスクライバーに&#x200B;**テストプッシュ通知**&#x200B;を送信します。
 
-  テストプロファイルは同様に、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}
+  テストプロファイルは同様に、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
 
 テスト配信の受信者を選択するには、使用するプロファイルのタイプに応じて、次の手順に従います。
 

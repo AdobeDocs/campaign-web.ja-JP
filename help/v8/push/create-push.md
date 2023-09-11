@@ -2,9 +2,9 @@
 audience: end-user
 title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
 ht-degree: 100%
 

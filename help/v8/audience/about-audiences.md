@@ -2,10 +2,10 @@
 audience: end-user
 title: オーディエンスの基本を学ぶ
 description: Campaign web UI でのオーディエンスの使用方法について説明します
-badge: label="ベータ版"
+badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 

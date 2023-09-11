@@ -3,9 +3,9 @@ audience: end-user
 title: インラインスタイル属性を追加する
 description: インラインスタイル属性を追加する方法を説明します
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
 ht-degree: 100%
 

@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Experience Platform オーディエンスの使用
 description: Adobe Experience Platform のオーディエンスの使用方法
-badge: label="ベータ版"
+badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Experience Platform オーディエンスを作成し、クライアント
 
 >[!NOTE]
 >
->Campaign で Adobe Experience Platform オーディエンスを使用するには、アドビのソースおよび宛先との統合を設定する必要があります。参照： [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ja){target="_blank"}.
+>Campaign で Adobe Experience Platform オーディエンスを使用するには、アドビのソースおよび宛先との統合を設定する必要があります。[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html?lang=ja){target="_blank"}を参照してください。
 
 
 配信のオーディエンスを選択するには、次の手順で実行することもできます。

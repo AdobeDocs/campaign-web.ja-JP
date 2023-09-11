@@ -2,11 +2,11 @@
 audience: end-user
 title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1753'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 99%
 
 * **[!UICONTROL タイプごとのエラーの分類]**&#x200B;および&#x200B;**[!UICONTROL ドメインごとのエラーの分類]**&#x200B;テーブルとグラフには、各ドメインで発生する可能性のあるエラーに関する使用可能なデータが含まれます。
 
-  このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}.
+  このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}を参照してください。
 
   ![](assets/campaign_report_email_6.png)
 

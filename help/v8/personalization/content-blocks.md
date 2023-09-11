@@ -5,11 +5,11 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -53,5 +53,5 @@ Adobe Campaign は、事前設定済みのコンテンツブロックのリス�
 
 >[!NOTE]
 >
->Adobe Campaign v8 コンソールから新しいブロックを定義すると、配信のパーソナライゼーションを最適化できます。詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=ja#create-custom-personalization-blocks){target="_blank"}.
+>Adobe Campaign v8 コンソールから新しいブロックを定義すると、配信のパーソナライゼーションを最適化できます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html?lang=ja#create-custom-personalization-blocks){target="_blank"}を参照してください。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: リンクのスタイルの定義
 description: リンクのスタイルを定義する方法を学ぶ
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '140'
 ht-degree: 100%
 
