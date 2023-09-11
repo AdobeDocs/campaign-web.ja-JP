@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="ベータ版"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 78b779051a71a89d45c73502a5e9220cedfa7498
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '687'
 ht-degree: 2%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 2%
 
 既存の組み込みフィルターを使用して、データの特定のサブセットにアクセスしたり、独自の定義済みフィルターを作成して保存したりできます。
 
+![](assets/predefined-filters-menu.png)
+
 
 ## 定義済みフィルターの作成 {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ ht-degree: 2%
 >title="定義済みフィルターの作成"
 >abstract="定義済みフィルタのラベルを入力し、適用するテーブルを選択します。 追加のオプションを開いて説明を追加し、このフィルターをお気に入りに設定します。 次に、「ルールを作成」ボタンを使用して、フィルター条件を定義します。"
 
-ルールビルダーを使用してフィルターを作成する場合は、後で使用するために保存できます。 カスタムフィルターとして保存した場合は、今後使用できます。 左側のナビゲーションの専用メニューから、定義済みフィルターを作成および編集することもできます。
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="定義済みフィルタールールの作成"
+>abstract="カスタムフィルターのフィルター条件を定義するには、「ルールを作成」ボタンをクリックします。"
+
 
 ルールビルダーでカスタムフィルターを保存するには、次の手順に従います。
 
@@ -82,7 +87,6 @@ ht-degree: 2%
 その後、現在のコンテキストで使用できる定義済みフィルターの完全なリストにアクセスできます。
 
 また、 **お気に入りのフィルター** 」セクションに表示されます。
-
 
 例えば、事前定義されたフィルターからオーディエンスを作成するには、次の手順に従います。
 
