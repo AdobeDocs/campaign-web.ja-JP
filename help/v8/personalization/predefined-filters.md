@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="ベータ版"
-source-git-commit: 78b779051a71a89d45c73502a5e9220cedfa7498
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '711'
 ht-degree: 2%
 
 ---
@@ -124,6 +124,8 @@ ht-degree: 2%
 * 既存のフィルターを編集し、ルールとプロパティを変更する
 * 定義済みフィルターの複製
 * 定義済みフィルターの削除
+
+定義済みフィルターを好みに追加して、ルールを作成する際にすばやくアクセスできるようにします。 この機能については、 [この節](#create-predefined-filter).
 
 ## 組み込みの定義済みフィルター {#ootb-predefined-filter}
 
