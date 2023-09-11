@@ -3,11 +3,11 @@ audience: end-user
 title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -58,4 +58,4 @@ Campaign データは、アプリケーションサーバーに保存されま�
 
 一部のオブジェクトは、クライアントコンソールでのみ作成および管理できます。これらは、Campaign web UI で表示および使用できますが、この環境から作成または変更することはできません。すべての Campaign オブジェクトとコンポーネントは、左側のナビゲーションからアクセスできるエクスプローラービューから使用できます。
 
-Campaign v8 の使用方法について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}.
+Campaign v8 の使用方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}を参照してください。

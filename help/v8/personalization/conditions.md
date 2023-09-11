@@ -5,7 +5,7 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="ベータ版"
+badge: label="Beta"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
 source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
