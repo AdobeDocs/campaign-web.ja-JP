@@ -3,19 +3,29 @@ audience: end-user
 title: Campaign web での権限管理
 description: Campaign web v8 の権限について説明します
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 38%
+source-wordcount: '473'
+ht-degree: 33%
 
 ---
 
 
 # アクセスと権限 {#access-and-permissions}
 
-アクセス制御では、配信、受信者、ワークフローなどのメインリストからのオブジェクトやデータへのアクセスを制限できます。また、これらの制限は、エクスプローラーのナビゲーションツリーにも適用されます。さらに、ユーザーインターフェイスからオブジェクトを作成、削除、複製、編集する権限が必要です。アクセス制御は、クライアントコンソールで管理します。 Campaign web のすべての権限は、Campaign クライアントコンソールの権限と同期されます。 ユーザー権限を定義および変更できるのは、Campaign 管理者のみです。権限について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
 
-Campaign web ユーザーインターフェイスを参照すると、権限に応じてデータ、オブジェクト、機能にアクセスできます。例えば、フォルダーへのアクセス権限がない場合、そのフォルダーは表示されません。また、権限は、オブジェクトとデータの管理にも影響します。特定のフォルダーに対する書き込み権限がないと、ユーザーインターフェイスに配信が表示されていても、そのフォルダーに配信を作成することはできません。
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="権限が必要です"
+>abstract="このオブジェクトを作成する前に、管理者から権限が付与されている必要があります。"
+
+
+
+アクセス制御では、配信、受信者、ワークフローなどのメインリストからのオブジェクトやデータへのアクセスを制限できます。また、これらの制限は、エクスプローラーのナビゲーションツリーにも適用されます。さらに、ユーザーインターフェイスからオブジェクトを作成、削除、複製、編集する権限が必要です。
+
+アクセス制御は、クライアントコンソールで管理します。 Campaign web のすべての権限は、Campaign クライアントコンソールの権限と同期されます。 ユーザー権限を定義および変更できるのは、Campaign 管理者のみです。権限について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
+
+Campaign の Web ユーザーインターフェイスを参照している間、権限に応じて、データ、オブジェクトおよび機能にアクセスできます。 例えば、フォルダーへのアクセス権限がない場合、そのフォルダーは表示されません。また、権限は、オブジェクトとデータの管理にも影響します。特定のフォルダーに対する書き込み権限がないと、ユーザーインターフェイスに配信が表示されていても、そのフォルダーに配信を作成することはできません。
 
 ## 権限を表示 {#view-permissions}
 
