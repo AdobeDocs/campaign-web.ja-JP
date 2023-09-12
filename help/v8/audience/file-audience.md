@@ -2,12 +2,12 @@
 audience: end-user
 title: ファイルから受信者をターゲット設定する
 description: 外部ファイルの受信者を使用してメールオーディエンスを作成する方法を学ぶ
-badge: label="ベータ版"
+badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '344'
+ht-degree: 94%
 
 ---
 
@@ -59,8 +59,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="サンプルファイル"
->abstract="サポートされているファイル形式：txt、csv。先頭行を列ヘッダーとして使用します。"
+>title="ファイルからのオーディエンスの読み込み"
+>abstract="サポートされるファイル形式は、TXT および CSV です。 先頭行を列ヘッダーとして使用します。ファイル形式を、以下のリンクにあるサンプルファイルに合わせます。"
 
 サポートされる形式は TXT および CSV です。先頭行は列ヘッダーです。
 
