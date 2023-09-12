@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ"
-source-git-commit: 3e57815403274df8e164c21270d0fcd916623d6d
+source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 96%
+source-wordcount: '1761'
+ht-degree: 95%
 
 ---
 
@@ -392,3 +392,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Campaign のワークフローテンプレート"
 >abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="権限が必要です"
+>abstract="このオブジェクトを作成する前に、管理者から権限が付与されている必要があります。"
+
