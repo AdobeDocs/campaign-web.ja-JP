@@ -2,9 +2,9 @@
 audience: end-user
 title: Adobe Campaign Web でのキャンペーンの作成
 description: Adobe Campaign Web を使用してクロスチャネルキャンペーンを作成する方法を学ぶ
-badge: label="ベータ版"
+badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 58%
@@ -68,8 +68,6 @@ ht-degree: 58%
 >[!NOTE]
 >
 >これらのプロパティは、キャンペーンラベルの横にある「**キャンペーン設定を指定**」アイコンからいつでも変更できます。この[節](gs-campaigns.md#campaign-dashboard)を参照してください。
-
-
 
 日付に達すると、送信準備が整ったワークフローのコンテキストでそのキャンペーンで作成された配信が、実際に送信されます。 この場合、ワークフローが開始されている必要があります。
 
