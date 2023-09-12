@@ -4,10 +4,10 @@ title: メールコンテンツの読み込み
 description: メールコンテンツの読み込み方法を学ぶ
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '171'
-ht-degree: 100%
+source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 62%
 
 ---
 
@@ -36,6 +36,19 @@ HTML コンテンツを含んだファイルを読み込むには、次の手順
 
 1. HTML コンテンツを含む HTML または .zip ファイルをドラッグ＆ドロップし、「**[!UICONTROL 読み込み]**」をクリックします。
 
-1. HTML の内容をアップロードしたら、電子メールデザイナーの機能を利用して、メールを編集およびプレビューできます。 [詳細情報](create-email-content.md)
+1. HTMLコンテンツがアップロードされると、コンテンツは **[!UICONTROL 互換性モード]**.
+
+   このモードでは、テキストのパーソナライズ、リンクの追加、コンテンツへのアセットの組み込みのみが可能です。
 
    ![](assets/html-imported.png)
+
+1. E メールデザイナーのコンテンツコンポーネントを活用するには、 **[!UICONTROL HTML変換器]** タブをクリックし、 **[!UICONTROL 変換]**.
+
+   ![](assets/html-imported-2.png)
+
+   >[!NOTE]
+   >
+   > の使用 `<table>` タグをHTMLファイルの最初のレイヤーとして使用すると、最上部のレイヤータグの背景や幅の設定など、スタイルが失われる場合があります。
+
+1. これで、E メールデザイナー機能を使用して、必要に応じて読み込んだファイルをパーソナライズできます [詳細情報](content-components.md).
+
