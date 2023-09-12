@@ -4,8 +4,8 @@ title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
@@ -33,17 +33,11 @@ ht-degree: 100%
 
 使用しているチャネルに応じて、テストメッセージを次の 3 種類の受信者に送信できます。
 
-* [テストプロファイル](#test-profiles) - シードアドレス（データベースに追加されている受信者）に&#x200B;**テストメールと SMS** を送信します。
+* [テストプロファイル](#test-profiles) - シードアドレス（データベースに追加されている受信者）に&#x200B;**テストメールと SMS** を送信します。これらは、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
 
-  これらは、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
+* [メインターゲットから代用](#substitution-profiles) - 既存のプロファイルを借用して、特定のメールアドレスまたは電話番号に&#x200B;**テストメールと SMS** を送信します。これにより、プロファイルが受け取るコンテンツが正確に表示され、メッセージ受信者と同じエクスペリエンスが得られます。
 
-* [メインターゲットから代用](#substitution-profiles) - 既存のプロファイルを借用して、特定のメールアドレスまたは電話番号に&#x200B;**テストメールと SMS** を送信します。
-
-  これにより、プロファイルが受け取るコンテンツが正確に表示され、メッセージ受信者と同じエクスペリエンスが得られます。
-
-* [サブスクライバー](#subscribers) - データベースに追加された架空のサブスクライバーに&#x200B;**テストプッシュ通知**&#x200B;を送信します。
-
-  テストプロファイルは同様に、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
+* [サブスクライバー](#subscribers) - データベースに追加された架空のサブスクライバーに&#x200B;**テストプッシュ通知**&#x200B;を送信します。テストプロファイルは同様に、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
 
 テスト配信の受信者を選択するには、使用するプロファイルのタイプに応じて、次の手順に従います。
 
