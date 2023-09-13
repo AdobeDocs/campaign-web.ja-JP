@@ -4,10 +4,10 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 59%
+source-wordcount: '895'
+ht-degree: 60%
 
 ---
 
@@ -77,18 +77,18 @@ Campaign の新しい web UI は、すべての Adobe Experience Cloud ソリュ
 
 * 定義済みフィルター管理
 
-  定義済みフィルター管理の概要。 Campaign Web UI は、特定のニーズに合わせて定義済みフィルターを容易に管理およびカスタマイズできる、ユーザーフレンドリなインターフェイスを提供します。 1 回作成し、後で使用するために保存します。 [詳細情報](../personalization/predefined-filters.md)
+  定義済みフィルター管理の概要。 Campaign Web UI は、特定のニーズに合わせて定義済みフィルターを容易に管理およびカスタマイズできる、ユーザーフレンドリなインターフェイスを提供します。 1 回作成し、後で使用するために保存します。 [詳細情報](predefined-filters.md)
 
 
 * ターゲットオーディエンス
 
   配信ターゲットの作成はこれまで以上に簡単でした。 最新のルールビルダーを使用すると、データベースから受信者やその他のターゲティングディメンションのフィルタリング条件を定義できます。 さらに、AEP(Adobe Experience Platform) オーディエンスを活用して、ターゲットオーディエンスをさらに絞り込み、キャンペーンの効果を最大限に高めることができます。
 
-* SMS とプッシュを使用するオファー
+* SMS を使用したオファー
 
-  新しい Web UI で、E メールに加えて、SMS およびプッシュ通知とオファーを統合できるようになりました。 プロモーションやタイムリーな通知を提供して、モバイルデバイスからオーディエンスにリーチします。
+  新しい Web UI で、E メールに加えて SMS とオファーを統合できるようになりました。 モバイルデバイスからオーディエンスにリーチし、プロモーションやタイムリーな通知を配信します。
 
-  アドビの高度な Web プラットフォーム上で SMS とプッシュ通知を通じて統合オファーの機能を活用し、マーケティング活動を強化します。
+  アドビの高度な Web プラットフォーム上で SMS を通じて統合オファーの機能を活用し、マーケティング活動を強化します。
 
 <!--
 * Adobe Experience Manager (AEM) Integration

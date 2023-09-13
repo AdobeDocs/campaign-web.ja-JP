@@ -3,11 +3,11 @@ audience: end-user
 title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="アルファ"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+badge: label="Beta"
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 88%
+source-wordcount: '1758'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 >title="インターフェイスを確認"
 >abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
-新しい Campaign v8 web インターフェイスは、マーケティングキャンペーンのデザインと配信を簡素化する、最新の直感的なユーザーエクスペリエンスを提供します。この新しいインターフェイスは、Adobe Experience Platform と統合されています。
+新しい Campaign v8 web インターフェイスは、マーケティングキャンペーンのデザインと配信を簡素化する、最新の直感的なユーザーエクスペリエンスを提供します。この新しいインターフェイスは、Adobe Experience Cloudのアプリおよびソリューションと統合されています。
 
 
 >[!NOTE]
@@ -114,13 +114,13 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
 * **オファー** - インタラクションオファーのリストを閲覧できます。デフォルトでは、オファーのステータス、開始日／終了日および環境が表示されます。このリストは、ステータスや開始日／終了日でフィルタリングできます。オファーテンプレートも使用できます。これらのリストは読み取り専用です。
 
-オファーの管理を作成する方法については、[Adobe Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
+E メールと SMS でオファーを作成して送信する方法については、 [この節](../content/offers.md).
 
 ## 上部バー
 
 インターフェイスの上部バーを使用して、次の操作を実行できます。
 
-* アルファテスターとしてのフィードバックの共有
+* フィードバックをベータ版テスターとして共有する
 * 組織とインスタンス間の切り替え
 * Adobe Experience Cloud アプリケーションの切り替え
 * ヘルプページへのアクセス、サポートへの問い合わせ、フィードバックの共有検索フィールドからヘルプ記事およびビデオを検索できます。

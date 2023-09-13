@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 20de61c502c205adbb87505a36b5fcd264bb938c
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 95%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 95%
    + [基本を学ぶ](get-started/get-started.md)
    + [インターフェイスを確認](get-started/user-interface.md)
    + [リストの参照、検索、フィルタリング](get-started/list-filters.md)
+   + [定義済みフィルターの使用](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
+   + [ガードレールと制限](get-started/guardrails.md)
    + [サポートされない機能](get-started/unsupported.md)
    + [AI の使用](get-started/using-ai.md)
 + メッセージと配信 {#msg}
@@ -69,7 +71,6 @@ ht-degree: 95%
       + [パーソナライゼーションを追加](personalization/personalize.md)
       + [条件付きコンテンツを追加](personalization/conditions.md)
       + [ビルトインコンテンツブロックを追加](personalization/content-blocks.md)
-      + [定義済みフィルターの使用](personalization/predefined-filters.md)
    + [オファーの送信](content/offers.md)
    + 配信のプレビューとテスト {#preview-test}
       + [プレビューとテストについて](preview-test/preview-test.md)
