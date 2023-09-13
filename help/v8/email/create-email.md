@@ -4,10 +4,10 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 96%
+source-wordcount: '1224'
+ht-degree: 95%
 
 ---
 
@@ -131,16 +131,11 @@ ht-degree: 96%
 
 ## 送信のスケジュール設定 {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="送信のスケジュール設定"
->abstract="送信の日付と正確な時刻を定義します。マーケティングメッセージに最も適した時間を選択することで、開封率を最大化します。"
-
-メールの送信スケジュールを設定するには、メール配信を開き、「**スケジュール**」セクションを参照します。「**[!UICONTROL スケジュールを有効にする]**」切替スイッチを使用してスケジュールをアクティベートし、送信する日時を設定します。配信を送信すると、実際の送信は、定義した連絡日に開始されます。
-
-デフォルトでは、「**[!UICONTROL 送信前に確認を有効にする]**」オプションが有効になっています。このオプションでは、スケジュール設定した日時にメールを送信する前に送信を確定する必要があります。スケジュールを設定した日時にメールを自動的に送信する必要がある場合は、このオプションを無効にします。
+メールの送信スケジュールを設定するには、メール配信を開き、「**スケジュール**」セクションを参照します。
 
 ![](assets/schedule.png)
+
+配信の送信スケジュールを設定する方法を説明します。 [この節](../msg/gs-messages.md#gs-schedule)
 
 ## メールのプレビューとテスト {#preview-test}
 

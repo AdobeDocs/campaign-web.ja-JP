@@ -3,8 +3,8 @@ audience: end-user
 title: メールの準備と送信
 description: Campaign web UI でのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="ベータ版"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+badge: label="Beta"
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 98%
@@ -35,7 +35,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >配信をスケジュールし、「**[!UICONTROL 送信前に確認を有効にする]**」オプションを無効にした場合、準備と送信の手順は「**[!UICONTROL 準備と送信]**」ボタンの下にグループ化されます。[詳しくは、スケジュール設定を参照してください](../email/create-email.md#schedule)
+   >配信をスケジュールし、「**[!UICONTROL 送信前に確認を有効にする]**」オプションを無効にした場合、準備と送信の手順は「**[!UICONTROL 準備と送信]**」ボタンの下にグループ化されます。[詳しくは、スケジュール設定を参照してください](../msg/gs-messages.md#gs-schedule)
 
 1. 準備の進行状況が表示されます。ターゲット母集団のサイズによっては、この操作に時間がかかる場合があります。
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 
 [準備](#prepare)が完了したら、メールを送信できます。
 
-メッセージがスケジュールされている場合は、指定した日付に送信されます。[詳細情報](#schedule-the-send)
+メッセージがスケジュールされている場合は、指定した日付に送信されます。[詳細情報](../msg/gs-messages.md#gs-schedule)
 
 ### 直ちに送信 {#send-immediately}
 
@@ -105,7 +105,7 @@ ht-degree: 98%
 
 メールを後で送信するようにスケジュールした場合は、次の手順に従います。
 
-1. 「**[!UICONTROL 確認して送信]**」ボタンを押す前に、メールのスケジュールを定義していることを確認します。[詳細情報](../email/create-email.md#schedule)
+1. 「**[!UICONTROL 確認して送信]**」ボタンを押す前に、メールのスケジュールを定義していることを確認します。[詳細情報](../msg/gs-messages.md#gs-schedule)
 
 1. 配信ダッシュボードで、右上隅の「**[!UICONTROL スケジュールどおりに送信]**」ボタンをクリックします。
 
@@ -115,7 +115,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >「**[!UICONTROL 送信前に確認を有効にする]**」オプションを無効にした場合、準備と送信の手順は「**[!UICONTROL 準備と送信]**」ボタンの下にグループ化されます。[詳しくは、スケジュール設定を参照してください](../email/create-email.md#schedule)
+   >「**[!UICONTROL 送信前に確認を有効にする]**」オプションを無効にした場合、準備と送信の手順は「**[!UICONTROL 準備と送信]**」ボタンの下にグループ化されます。[詳しくは、スケジュール設定を参照してください](../msg/gs-messages.md#gs-schedule)
 
 ## 送信を一時停止または停止 {#pause-stop-sending}
 
