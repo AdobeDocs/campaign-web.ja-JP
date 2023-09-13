@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="アルファ"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 91%
+source-wordcount: '1760'
+ht-degree: 88%
 
 ---
 
@@ -56,6 +56,12 @@ ht-degree: 91%
 他のリスト画面と同様に、必要な情報をすべて表示するために、列を設定して表示をパーソナライズすることができます。[こちら](#list-screens)を参照してください。
 
 Campaign エクスプローラー、フォルダー階層およびリソースについて詳しくは、この [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=ja#ac-explorer-ui){target="_blank"}を参照してください。
+
+
+### コンテキストヘルプ {#user-interface-help}
+
+製品のユーザーインターフェイスから質問をし、直接ガイダンスを見つけます。 コンテキストヘルプポップオーバーに組み込まれた新しい AI を利用したナレッジアシスタントは、Campaign の新機能に関する専門知識を習得し、育成するのに役立ちます。 最新の製品ドキュメントに基づき、ユースケースを作成する際に、ヘルプを見つけて迅速にステップバイステップのガイダンスを得るのに役立ちます。
+
 
 ### キャンペーン管理 {#user-interface-campaign-management}
 

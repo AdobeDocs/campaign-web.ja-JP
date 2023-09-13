@@ -4,10 +4,10 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 56%
+source-wordcount: '903'
+ht-degree: 59%
 
 ---
 
@@ -52,15 +52,13 @@ Campaign の新しい web UI は、すべての Adobe Experience Cloud ソリュ
 
 ## 最新の更新
 
-
 **ベータサマリ**
 
-* Audiences &amp; Personalization のデータ構成（フェデレーテッド）を有効にします。
-* AI テクノロジーを活用して、E メールコンテンツの生成を強化します。
-* アセットと完全なHTMLテンプレートをシームレスに同期
-* フォルダーとリソースを効率的に整理および管理します。
-* 魅力的で効果的なランディングページを作成します。
-* その他のワークフローアクティビティ：キャンペーンワークフローを強化するために、ディメンションの変更、重複排除、繰り返し配信などの追加のアクティビティにアクセスします。
+* オーディエンスおよびパーソナライゼーション用のデータ構成（フェデレート）の有効化
+* AI テクノロジーを活用してメールコンテンツの生成を強化する
+* アセットと完全なHTML・テンプレートをシームレスに同期
+* フォルダーとリソースを効率的に整理および管理
+* キャンペーンワークフローを強化するために、ディメンションの変更、重複排除、繰り返し配信などの追加アクティビティにアクセス
 
 **主な新機能**
 
@@ -92,11 +90,14 @@ Campaign の新しい web UI は、すべての Adobe Experience Cloud ソリュ
 
   アドビの高度な Web プラットフォーム上で SMS とプッシュ通知を通じて統合オファーの機能を活用し、マーケティング活動を強化します。
 
-* Adobe Experience Manager(AEM) 統合
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  Web UI に拡張されたAEM統合を使用すると、HTMLを簡単に管理し、完全なアセットテンプレートを同期して、魅力的なデジタルエクスペリエンスを手間をかけずに作成できます。
-
-  この統合により、Web UI 上のコンテンツ管理機能を向上および合理化して、生産性を高めます。
 
 ## Campaign web UI への移行
 
