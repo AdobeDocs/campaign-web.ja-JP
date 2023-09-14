@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 95%
+source-wordcount: '410'
+ht-degree: 90%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 95%
             + [ミラーページへのリンクの追加](content/mirror-page.md)
             + [プリヘッダーを追加](content/preheader.md)
             + [テキストバージョンを生成](content/text-version-email.md)
+         + コンテンツアシスタント {#content-assistant}
+            + [コンテンツアシスタントを使用したテキスト生成](content/generative-content.md)
+            + [コンテンツアシスタントを使用した画像の生成](content/generative-image.md)
+            + [コンテンツアシスタント付きメールを生成する](content/generative-email.md)
          + コンテンツのスタイル設定 {#style}
             + [メールスタイルの基本を学ぶ](content/get-started-email-style.md)
             + [背景設定の編集](content/backgrounds.md)
