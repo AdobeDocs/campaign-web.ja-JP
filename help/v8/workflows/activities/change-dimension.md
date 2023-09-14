@@ -3,7 +3,7 @@ audience: end-user
 title: 「ディメンションを変更」ワークフローアクティビティの使用
 description: 「ディメンションを変更」ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 39%
@@ -28,7 +28,7 @@ The **ディメンションを変更** アクティビティは **ターゲッ�
 
 1. を追加します。 **ディメンションを変更** アクティビティをワークフローに追加します。
 
-       &lt;!-![](../assets/workflow-change-dimension.png)—>
+       ![](../assets/workflow-change-dimension.png)
    
 1. 新しいターゲティングディメンションを「ディメンションを変更」フィールド経由で選択します。
 

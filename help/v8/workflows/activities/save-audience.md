@@ -3,7 +3,7 @@ audience: end-user
 title: オーディエンスの保存ワークフローアクティビティを使用する
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 14%
@@ -38,7 +38,7 @@ The **オーディエンスを保存** アクティビティは **ターゲッ�
 
 1. を追加します。 **オーディエンスを保存** アクティビティをワークフローに追加します。
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. Adobe Analytics の **モード** ドロップダウンで、実行するアクションを選択します。
 

@@ -3,7 +3,7 @@ audience: end-user
 title: スケジューラーワークフローアクティビティを使用
 description: スケジューラーワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 22%
@@ -30,7 +30,7 @@ The **スケジューラ** アクティビティは **フロー制御** アク�
 
 1. を追加します。 **スケジューラ** アクティビティをワークフローに追加します。
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. を設定します。 **実行頻度**:
 
@@ -58,7 +58,7 @@ The **スケジューラ** アクティビティは **フロー制御** アク�
 
 次の例では、「 」アクティビティは、2023 年 10 月 1 日から 2024 年 1 月 1 日までの週の各曜日の午前 9 時と午前 12 時に、1 日に何回かワークフローを開始するように設定されています。
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 

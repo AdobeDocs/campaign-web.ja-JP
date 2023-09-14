@@ -3,7 +3,7 @@ audience: end-user
 title: 重複排除ワークフローアクティビティの使用
 description: 重複排除ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 26%
@@ -26,7 +26,7 @@ The **重複排除** アクティビティは **ターゲット設定** アク�
 
 1. を追加します。 **重複排除** アクティビティをワークフローに追加します。
 
-   <!--![](../assets/workflow-deduplication.png)-->
+   ![](../assets/workflow-deduplication.png)
 
 1. Adobe Analytics の **重複を識別するためのフィールド** セクションで、 **属性を追加** ボタンを使用して、E メールアドレス、名、姓など、同一の値を使用して重複を識別できるフィールドを指定します。 フィールドの順序を使用すると、最初に処理するフィールドを指定できます。
 
