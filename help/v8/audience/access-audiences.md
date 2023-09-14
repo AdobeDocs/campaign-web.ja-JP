@@ -1,0 +1,38 @@
+---
+audience: end-user
+title: オーディエンスにアクセス
+description: Adobe Campaign Web でオーディエンスにアクセスする方法を説明します
+badge: label="Beta"
+source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 0%
+
+---
+
+
+# オーディエンスにアクセス {#create-audiences}
+
+Campaign Web で使用できるオーディエンスのリストには、 **[!UICONTROL オーディエンス]** メニュー。
+
+![](assets/audiences-list.png)
+
+オーディエンスは複数のソースから作成できます。 The **[!UICONTROL Origin]** 列は、特定のオーディエンスが作成された場所を示します。
+
+* **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** これらのオーディエンスは、Adobe Experience Platformで作成され、Adobeソースおよび宛先との統合を使用して Campaign Web で利用できるようになりました。 でこの統合を設定する方法を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+
+* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスは、キャンペーン Web ワークフローを使用して作成されています。 [オーディエンスの作成方法を説明します](create-audiences.md)
+
+*他の起源は？ 習慣なのか？ どこで定義しますか？*
+
+*タイプ列：フィルターでは使用できません。通常 異なるタイプ、グループとは何ですか？ リスト ?*
+
+オーディエンスの詳細を取得するには、リストからオーディエンスを開きます。 オーディエンスのプロパティと、オーディエンスに含まれているプロファイルの数が表示されます。 オーディエンス数は、いつでも **[!UICONTROL 計算]** 」ボタンをクリックします。
+
+「データ」タブでは、オーディエンスに属するプロファイルを表示できます。 列を追加することで、このビューをパーソナライズできます。 また、詳細フィルターを利用して、表示するデータを絞り込むこともできます。
+
+![](assets/audiences-details.png)
+
+オーディエンスを複製または削除するには、 **[!UICONTROL その他のアクション]** ボタンが表示されます。
+
+*オーディエンスが重複する場合、は (1) などの名前を保持しません。*
