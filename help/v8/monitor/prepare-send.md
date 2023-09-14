@@ -4,10 +4,10 @@ title: メールの準備と送信
 description: Campaign web UI でのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
+source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 92%
+source-wordcount: '925'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 92%
 
 ## 送信の準備 {#prepare}
 
-[コンテンツ](../content/edit-content.md)、[オーディエンス](../audience/add-audience.md)およびスケジュールを定義したら、メール配信の準備を始めます。
+を定義したら、 [コンテンツ](../content/edit-content.md), [audience](../audience/add-audience.md)、および [スケジュール](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)、E メール配信を準備する準備が整いました。
 
-準備段階では、ターゲット母集団を計算し、ターゲットに含まれるプロファイルごとのメッセージコンテンツを生成します。準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。
+配信の準備中に、ターゲット母集団が計算され、ターゲットに含まれる各プロファイルに対して生成されるメッセージコンテンツが表示されます。 準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。
 
 配信の準備中に使用される検証ルールについて詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=ja){target="_blank"}.
 
