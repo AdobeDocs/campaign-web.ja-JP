@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスの保存ワークフローアクティビティを使用する
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 64%
+source-wordcount: '323'
+ht-degree: 13%
 
 ---
 
@@ -18,57 +18,37 @@ ht-degree: 64%
 >id="acw_orchestration_saveaudience_activity"
 >title="Save an audience"
 >abstract="Use this activity to save the workflow audience."
+-->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Outbound transition for save audience"
->abstract="tbc"
+The **オーディエンスを保存** アクティビティは **ターゲット設定** アクティビティ。 このアクティビティを使用すると、既存のオーディエンスを更新したり、ワークフローの上流で計算された母集団から新しいオーディエンスを作成したりできます。 作成したオーディエンスは、アプリケーションオーディエンスのリストに追加され、 **オーディエンス** メニュー。
 
-Mode
-Audience label
-Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
-Update method
+このアクティビティは、基本的に、同じワークフローで計算された母集団グループを再利用可能なオーディエンスに変換することで、そのグループを維持するために使用されます。 他のターゲティングアクティビティ（など）に接続します。 **オーディエンスの構築** または **結合** アクティビティ。
 
-Replace audience with new data
+## 設定
 
-Complete audience with new data
-Folder
-Lists (/Profiles and Targets/Lists/)
+次の手順に従って、 **オーディエンスを保存** アクティビティ：
 
-Generate an outbound transition
-
-
-The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
-
-This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
-
-## Configuration
-
-Follow these steps to configure the **Save audience** activity:
-
-1. Add a **Save audience** activity to your workflow.
+1. を追加します。 **オーディエンスを保存** アクティビティをワークフローに追加します。
 
    ![](../assets/workflow-save-audience.png)
 
-1. In the **Mode** drop-down, select the action that you would like to carry out:
+1. Adobe Analytics の **モード** ドロップダウンで、実行するアクションを選択します。
 
-    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
+   * **既存のオーディエンスを作成または更新**：定義 **オーディエンスラベル**. オーディエンスが既に存在する場合は更新されます。存在しない場合は新しいオーディエンスが作成されます。
 
-    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
+   * **既存のオーディエンスの更新**：を選択します。 **対象ユーザ** 既存のオーディエンスのリストの中で更新する場合。
 
-1. Select the **Update mode** which will apply for existing audiences:
+1. を選択します。 **モードを更新** 既存のオーディエンスに適用される条件：
 
-    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
+   * **オーディエンスコンテンツを新しいデータで置き換える**：すべてのオーディエンスコンテンツを置き換えます。 古いデータは失われます。「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。このオプションを選択すると、オーディエンスのタイプと、更新されたオーディエンスのターゲティングディメンションが消去されます。
 
-    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
+   * **新しいデータでオーディエンスを完了**：古いオーディエンスコンテンツは保持され、「オーディエンスの保存」アクティビティのインバウンドトランジションのデータが追加されます。
 
-1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
+1. 残りの母集団を利用するには、「**補集合を生成**」オプションをチェックします。その後、追加のトランジションがアクティビティに追加されます。
 
-The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
-
-
-## Example
+保存したオーディエンスの内容は、そのオーディエンスの詳細表示で利用できます。詳細表示には、 **オーディエンス** メニュー。 この表示で使用できる列は、ワークフローの **SAve オーディエンス** アクティビティ。
 
 
+## 例
 
--->
+
