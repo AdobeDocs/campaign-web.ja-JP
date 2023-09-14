@@ -4,10 +4,10 @@ title: メールの準備と送信
 description: Campaign web UI でのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 98%
+source-wordcount: '924'
+ht-degree: 92%
 
 ---
 
@@ -70,20 +70,6 @@ ht-degree: 98%
 
 ## メッセージの送信 {#send}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_delivered"
->title="配信済み"
->abstract="正常に配信されたメッセージの数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、送信されたメッセージの合計数に基づきます。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_opens"
->title="開封数"
->abstract="開封されたメッセージの数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーク開封数の割合です。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_clicks"
->title="クリック数"
->abstract="メール内で 1 回以上クリックした受信者の数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーククリック数の割合です。"
 
 [準備](#prepare)が完了したら、メールを送信できます。
 
@@ -130,14 +116,38 @@ ht-degree: 98%
 ## KPI の確認 {#check-kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="配信済み"
+>abstract="正常に配信されたメッセージの数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、送信されたメッセージの合計数に基づきます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="開封数"
+>abstract="開封されたメッセージの数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーク開封数の割合です。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="クリック数"
+>abstract="メール内で 1 回以上クリックした受信者の数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーククリック数の割合です。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="送信済み指標"
 >abstract="配信の分析中に処理されたメッセージの合計数。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="エラー指標"
 >abstract="送信されたメッセージの合計数に対して、配信と自動返信処理の間に累積したエラーの合計数。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+
 
 送信が完了したら、表示される KPI を確認できます。
 
@@ -156,5 +166,7 @@ ht-degree: 98%
 >[!NOTE]
 >
 >すべての指標は、配信が開始されてから 5 分ごとに更新されます。配信準備の指標はリアルタイムです。
+
+KPI の詳細については、 [このページ](../reporting/kpis.md).
 
 また、ログを確認することもできます。[詳細情報](delivery-logs.md)
