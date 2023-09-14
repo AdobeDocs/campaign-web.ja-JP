@@ -3,9 +3,9 @@ audience: end-user
 title: オーディエンスの作成
 description: Adobe Campaign Web でオーディエンスを作成する方法を説明します
 badge: label="Beta"
-source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
+source-git-commit: 1b17dcbdaadcbf45b2c26d9099e6d139143d253c
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 1%
 キャンペーン Web を使用すると、既存のオーディエンスを視覚的なキャンバスに組み合わせるワークフローを作成できます。 「分割」や「除外」などの様々なワークフローアクティビティを組み込むことで、新しいオーディエンスや絞り込まれたオーディエンスを生成できます。
 
 ワークフローを作成すると、結果のオーディエンスは、既存のオーディエンスと共に Campaign Web に自動的に保存されます。 その後、これらのオーディエンスは、キャンペーンまたはスタンドアロン配信のターゲットに設定できます。
-
-## 最初のオーディエンスを作成 {#create}
 
 オーディエンスを作成するには、次の手順に従います。
 
