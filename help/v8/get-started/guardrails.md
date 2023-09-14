@@ -2,10 +2,10 @@
 title: Campaign Web UI のガードレールと制限
 description: Campaign Web UI のガードレールと制限
 badge: label="Beta"
-source-git-commit: ff95b563784ae507245e6690feedda33ea6a111b
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '443'
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,48 @@ Campaign クライアントコンソールで、 **エンリッチメント** �
 
 ## 定義済みフィルター {#filters-guardrails-limitations}
 
-
 配信のオーディエンスを選択する場合、またはワークフローでオーディエンスを作成する場合、一部の定義済みフィルターを使用できません。 特定のエラーメッセージが表示されます。 クエリを使用し、「フィルター条件と結果」を確認することはできますが、ルールビルダーで正確なクエリを表示することや、フィルターを編集することはできません。
 
-![](assets/filter-unavailable.png)
+![](assets/filter-unavailable.png){width="70%" align="left"}
+
+
+### サポートされていないデータタイプ {#unsupported-data-type}
+
+クライアントコンソールで使用できる次のデータ型は、Web インターフェイスにフィルターやルールを表示する場合はサポートされません。
+
+* 日時
+* 時間
+* 間隔
+* 重複
+* float
+
+### サポートされていないフィルタリング機能 {#unsupported-filtering-capabilities}
+
+クライアントコンソールで複雑な式や関数を使用してフィルターを作成した場合、Web インターフェイスで編集することはできません。
+
+また、次の演算子はサポートされていません。
+
+* 数値タイプ
+   * 次に含まれる
+   * いいえ
+
+* 文字列タイプ
+   * より大きい
+   * より小さい
+   * 次よりも大きいか等しい
+   * 次よりも小さいか等しい
+   * 次に類似
+   * 次に類似しない
+
+* 日付タイプ
+   * 以降
+   * 以前
+   * 等しくない
+   * 空である
+   * 空でない
+   * 次に含まれる
+   * 次に含まれない
+   * 過去
+
+* 1 対 N のリンク
+   * カウント、合計、平均、分、MAX
