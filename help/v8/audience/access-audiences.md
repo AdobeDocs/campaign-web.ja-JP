@@ -3,7 +3,7 @@ audience: end-user
 title: オーディエンスの監視と管理
 description: Adobe Campaign Web でオーディエンスを監視および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Campaign Web で使用できるオーディエンスのリストには、 **[!UI
 
 * **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** これらのオーディエンスは、Adobe Experience Platformで作成され、Adobeソースおよび宛先との統合を使用して Campaign Web で利用できるようになりました。 でこの統合を設定する方法を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスは、キャンペーン Web ワークフローを使用して作成されています。 [オーディエンスの作成方法を説明します](create-audiences.md)
+* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスは、キャンペーン Web ワークフローを使用して作成されています。 [オーディエンスの作成方法を説明します](create-audience.md)
 
 *他の起源は？ 習慣なのか？ どこで定義しますか？*
 
