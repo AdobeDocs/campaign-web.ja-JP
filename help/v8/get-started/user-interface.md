@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1752'
 ht-degree: 86%
 
 ---
@@ -223,11 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="集計データレポートを表示する配信を 2 つ以上選択します。"
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_fields"
->title="重複排除フィールド"
->abstract="未定"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="重複排除設定"
 >abstract="未定"
@@ -235,11 +230,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="重複排除の補集合"
->abstract="未定"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_dimension_complement"
->title="ディメンションの補集合"
 >abstract="未定"
 
 >[!CONTEXTUALHELP]
