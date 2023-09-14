@@ -3,9 +3,9 @@ audience: end-user
 title: オーディエンスの監視と管理
 description: Adobe Campaign Web でオーディエンスを監視および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ Campaign Web で使用できるオーディエンスのリストには、 **[!UI
 
 オーディエンスは複数のソースから作成できます。 The **[!UICONTROL Origin]** 列は、特定のオーディエンスが作成された場所を示します。
 
-* **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** これらのオーディエンスは、Adobe Experience Platformで作成され、Adobeソースおよび宛先との統合を使用して Campaign Web で利用できるようになりました。 でこの統合を設定する方法を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** これらのオーディエンスは、Adobe Experience Platform内で作成され、宛先ソースとAdobeの統合を使用して Campaign Web に統合されます。 でこの統合を設定する方法を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスは、キャンペーン Web ワークフローを使用して作成されています。 [オーディエンスの作成方法を説明します](create-audience.md)
+* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスは、Campaign の Web オーディエンスワークフローを使用して作成されています。 [オーディエンスの作成方法を説明します](create-audience.md)
 
 *他の起源は？ 習慣なのか？ どこで定義しますか？*
 
@@ -29,7 +29,7 @@ Campaign Web で使用できるオーディエンスのリストには、 **[!UI
 
 オーディエンスの詳細を取得するには、リストからオーディエンスを開きます。 オーディエンスのプロパティと、オーディエンスに含まれているプロファイルの数が表示されます。 オーディエンス数は、いつでも **[!UICONTROL 計算]** 」ボタンをクリックします。
 
-「データ」タブでは、オーディエンスに属するプロファイルを表示できます。 列を追加することで、このビューをパーソナライズできます。 また、詳細フィルターを利用して、表示するデータを絞り込むこともできます。
+The **[!UICONTROL データ]** 「 」タブでは、オーディエンスの一部であるプロファイルを視覚化できます。 列をさらに追加することでこのビューをカスタマイズしたり、詳細フィルターを利用して表示されるデータを絞り込んだりできます。
 
 ![](assets/audiences-details.png)
 
