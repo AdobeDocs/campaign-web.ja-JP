@@ -3,10 +3,10 @@ audience: end-user
 title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS）を追加する方法を学ぶ
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 78%
+source-wordcount: '491'
+ht-degree: 79%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 >* [スタンドアロンのプッシュ配信を作成](../../push/create-push.md)
 >
 
-## キャンペーンワークフローでの配信の作成{#create-a-delivery-in-a-workflow}
+## ワークフローでの配信の作成{#create-a-delivery-in-a-workflow}
 
-キャンペーンワークフローのコンテキストで E メール、SMS、またはプッシュ配信を作成するには、次の手順に従います。
+ワークフローのコンテキストで E メール、SMS、またはプッシュ配信を作成するには、次の手順に従います。
 
 1. **オーディエンスを作成**&#x200B;アクティビティを追加します。オーディエンスは配信のメインターゲットであり、メッセージを受信する受信者となります。キャンペーンワークフローのコンテキストでメッセージを送信する場合、メッセージオーディエンスはチャネルアクティビティではなく、**オーディエンスを作成**&#x200B;アクティビティで定義されます。詳しくは、[この節](build-audience.md)を参照してください。
 
@@ -56,7 +56,7 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 
 1. 配信ダッシュボードで、「**送信**」をクリックします。
 
-## 例{#cross-channel-workflow-sample}
+## 例 {#cross-channel-workflow-sample}
 
 セグメント化と 2 つの配信を含むクロスチャネルワークフローの例を次に示します。ワークフローでは、パリに在住し、コーヒーマシンに興味があるすべての顧客をターゲットにします。この母集団の中で、通常の顧客にはメールが送信され、VIP クライアントには SMS が送信されます。
 
