@@ -3,9 +3,9 @@ audience: end-user
 title: スケジューラーワークフローアクティビティを使用
 description: スケジューラーワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '333'
 ht-degree: 22%
 
 ---
@@ -13,10 +13,12 @@ ht-degree: 22%
 
 # スケジューラー {#scheduler}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="スケジューラーアクティビティ"
->abstract="「スケジューラー」アクティビティでは、次のことが可能です。"
+>title="Scheduler activity"
+>abstract="The Scheduler activity allows you..."
+-->
 
 The **スケジューラ** アクティビティは **フロー制御** アクティビティ。 ワークフローを開始するタイミングを指定できます。 このアクティビティは、予定されている開始と見なされます。 ワークフローの最初のアクティビティとしてのみ使用できます。
 
