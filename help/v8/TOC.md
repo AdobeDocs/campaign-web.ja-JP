@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: 1c90630ecff177e402dfb049c1952de22bd9bdb4
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 90%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 90%
          + コンテンツアシスタント {#content-assistant}
             + [コンテンツアシスタントを使用したテキスト生成](content/generative-content.md)
             + [コンテンツアシスタントを使用した画像の生成](content/generative-image.md)
-            + [コンテンツアシスタント付きメールを生成する](content/generative-email.md)
+            + [コンテンツアシスタントを使用した E メールの生成](content/generative-email.md)
          + コンテンツのスタイル設定 {#style}
             + [メールスタイルの基本を学ぶ](content/get-started-email-style.md)
             + [背景設定の編集](content/backgrounds.md)
