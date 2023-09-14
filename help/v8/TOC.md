@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '389'
 ht-degree: 95%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 95%
    + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
    + [受信者の操作](audience/about-recipients.md)
    + [オーディエンスの作成](audience/create-audience.md)
+   + [オーディエンスの監視と管理](audience/access-audiences.md)
    + ターゲットオーディエンス {#target-audiences}
       + [既存オーディエンスの選択](audience/add-audience.md)
       + [ルールビルダーを使用したオーディエンスを定義](audience/segment-builder.md)
@@ -105,10 +106,14 @@ ht-degree: 95%
       + [ワークフローアクティビティについて](workflows/activities/about-activities.md)
       + [AND 結合](workflows/activities/and-join.md)
       + [オーディエンスを作成](workflows/activities/build-audience.md)
+      + [ディメンションを変更](workflows/activities/change-dimension.md)
       + [結合](workflows/activities/combine.md)
+      + [重複の除外](workflows/activities/deduplication.md)
       + [メール、SMS、プッシュ](workflows/activities/channels.md)
       + [エンリッチメント](workflows/activities/enrichment.md)
       + [分岐](workflows/activities/fork.md)
+      + [オーディエンスを保存](workflows/activities/save-audience.md)
+      + [スケジューラー](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
       + [待機](workflows/activities/wait.md)
 + レポート {#reports}

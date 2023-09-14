@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: オーディエンスにアクセス
-description: Adobe Campaign Web でオーディエンスにアクセスする方法を説明します
+title: オーディエンスの監視と管理
+description: Adobe Campaign Web でオーディエンスを監視および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
 
-# オーディエンスにアクセス {#create-audiences}
+# オーディエンスの監視と管理 {#create-audiences}
 
 Campaign Web で使用できるオーディエンスのリストには、 **[!UICONTROL オーディエンス]** メニュー。
 
