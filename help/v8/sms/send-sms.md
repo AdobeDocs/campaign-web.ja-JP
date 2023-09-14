@@ -2,11 +2,11 @@
 audience: end-user
 title: SMS 配信の送信
 description: Adobe Campaign web で SMS を送信する方法を学ぶ
-badge: label="ベータ版"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="Beta"
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 95%
 
 ---
 
@@ -63,6 +63,9 @@ SMS 配信をプレビューする主な手順は次のとおりです。配信�
 1. 「**[!UICONTROL 送信]**」をクリックしてメッセージを送信し、最終的な送信プロセスに進みます。
 
    ![](assets/sms_send_5.png)
+
+   SMS 配信がスケジュールされている場合は、 **[!UICONTROL 予定どおりに送信]** 」ボタンをクリックします。 配信スケジュールについて詳しくは、 [この節](../msg/gs-messages.md#schedule-the-delivery-sending).
+
 
 1. 「**[!UICONTROL 送信]**」ボタンをクリックして、送信アクションを確定します。
 
