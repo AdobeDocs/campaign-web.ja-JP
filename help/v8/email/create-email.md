@@ -4,10 +4,10 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 95%
+source-wordcount: '1274'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,9 @@ ht-degree: 95%
 >title="メールのプロパティ"
 >abstract="プロパティは、配信の名前付けや分類に役立つ一般的な配信パラメーターです。配信が Adobe Campaign v8 コンソールで定義された拡張スキーマに基づいている場合は、いくつかの特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。"
 
-新しい配信を作成するには、次の手順に従います。
+スタンドアロンの E メール配信を作成することも、キャンペーンワークフローのコンテキストで E メールを作成することもできます。 以下の手順では、スタンドアロン（ワンショット）E メール配信の手順について説明します。 キャンペーンワークフローのコンテキストで作業している場合、作成手順の詳細は [この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+新しいスタンドアロンの E メール配信を作成するには、次の手順に従います。
 
 1. 左側のナビゲーションの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
 

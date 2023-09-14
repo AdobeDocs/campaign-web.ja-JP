@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 97%
+source-wordcount: '406'
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,14 @@ ht-degree: 97%
 >title="プッシュ配信プロパティ"
 >abstract="プッシュ配信プロパティを管理します。"
 
-1. **[!UICONTROL 配信]**&#x200B;ホームページで、「**[!UICONTROL 配信を作成]**」をクリックします。
+スタンドアロンのプッシュ通知配信を作成することも、キャンペーンワークフローのコンテキストでプッシュ通知を作成することもできます。 以下の手順では、スタンドアロン（ワンショット）プッシュ配信の手順について詳しく説明します。 キャンペーンワークフローのコンテキストで作業している場合、作成手順の詳細は [この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. 「**[!UICONTROL チャネル]**」セクションで、チャネルとして「プッシュ通知」を選択し、Android または iOS から選択したオペレーショナルシステムに応じてテンプレートを選択します。[テンプレートの詳細情報](../msg/delivery-template.md)
+
+新しいスタンドアロンのプッシュ配信を作成するには、次の手順に従います。
+
+1. 左側のナビゲーションの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
+
+1. の下 **[!UICONTROL チャネル]** セクション、選択 **プッシュ通知** 「 」チャネルで「 」テンプレートを選択し、選択したデバイスの運用システムに応じて、「 Android 」または「 iOS 」を選択します。 [テンプレートの詳細情報](../msg/delivery-template.md)
 
 1. 「**[!UICONTROL 配信を作成]**」ボタンをクリックして、確定します。
 

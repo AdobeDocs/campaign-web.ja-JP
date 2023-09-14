@@ -4,10 +4,10 @@ title: SMS 配信を作成
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 97%
+source-wordcount: '386'
+ht-degree: 82%
 
 ---
 
@@ -28,7 +28,12 @@ ht-degree: 97%
 >title="SMS テンプレートの選択"
 >abstract="事前定義済みのテンプレートを選択して SMS 配信を開始します。"
 
-1. **[!UICONTROL 配信]**&#x200B;ホームページで、「**[!UICONTROL 配信を作成]**」をクリックします。
+スタンドアロンの SMS 配信を作成することも、キャンペーンワークフローのコンテキストで SMS を作成することもできます。 以下の手順では、スタンドアロン（ワンショット）の SMS 配信の手順について説明します。 キャンペーンワークフローのコンテキストで作業している場合、作成手順の詳細は [この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+
+
+スタンドアロンの新しい SMS 配信を作成するには、次の手順に従います。
+
+1. 左側のナビゲーションの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
 
 1. 「**[!UICONTROL チャネル]**」セクションで、チャネルとして SMS を選択し、テンプレートを選択します。[テンプレートの詳細情報](../msg/delivery-template.md)
 

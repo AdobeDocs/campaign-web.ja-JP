@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 100%
+source-wordcount: '941'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 * [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md)
 * リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。
 
-## テンプレートへのアクセスと管理 {#access-manage-templates}
+## 配信テンプレートへのアクセスと管理 {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -61,14 +61,14 @@ ht-degree: 100%
 >
 >テンプレートが編集または削除されても、このテンプレートを使用して作成された配信は影響を受けません。
 
-## テンプレートを作成 {#create-a-delivery-template}
+## 配信テンプレートの作成 {#create-a-delivery-template}
 
 配信テンプレートを作成するには、次の操作を実行します。
 * 既存のテンプレートを複製 - [詳細情報](#copy-an-existing-template)
 * 既存の配信をテンプレートに変換 - [詳細情報](#convert-an-existing-delivery)
 * 配信テンプレートをゼロから作成 - [詳細情報](#create-a-new-template)
 
-### 既存のテンプレートを複製 {#copy-an-existing-template}
+### 既存の配信テンプレートの複製 {#copy-an-existing-template}
 
 キャンペーンには、各チャネル用の一連の組み込みテンプレート（メール、プッシュ、SMS）が備わっています。配信テンプレートを作成する最も簡単な方法は、組み込みテンプレートを複製してカスタマイズすることです。
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 新しいテンプレートが&#x200B;[**テンプレート**&#x200B;リスト](#access-manage-templates)に追加されます。これで、新しい配信を作成する際にテンプレートを選択できます。
 
-### 新しいテンプレートの作成 {#create-a-new-template}
+### 新しい配信テンプレートを作成 {#create-a-new-template}
 
 >[!NOTE]
 >
