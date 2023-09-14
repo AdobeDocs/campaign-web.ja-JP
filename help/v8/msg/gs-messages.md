@@ -4,10 +4,10 @@ title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 89%
+source-wordcount: '1289'
+ht-degree: 88%
 
 ---
 
@@ -88,11 +88,10 @@ Adobe Campaign v8 には、メール、SMS、モバイルアプリの配信チ�
 1. 結果を確認し、「**[!UICONTROL 送信]**」ボタンをクリックして、メッセージの送信を開始します。
 1. メッセージが送信されたら、「**レポート**」セクションを参照すると、主要指標にアクセスできます。配信レポートについて詳しくは、[この節](../reporting/delivery-reports.md)を参照してください。
 
->[!TAB キャンペーンワークフローでの配信の作成]
+>[!TAB ワークフローでの配信の作成]
 
-キャンペーンで配信を作成するには、次の手順に従います。
+ワークフローで配信を作成するには、次の手順に従います。
 
-1. キャンペーンを作成するか、既存のキャンペーンを開きます。[マーケティングキャンペーン](../campaigns/gs-campaigns.md)の詳細情報をご覧ください。
 1. ワークフローを作成するか、既存のワークフローを開きます。
 1. **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを追加して設定し、`+` ボタンをクリックします。
 
@@ -100,7 +99,7 @@ Adobe Campaign v8 には、メール、SMS、モバイルアプリの配信チ�
 
    **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティについて詳しくは、[この節](../workflows/activities/build-audience.md)を参照してください。
 
-1. 配信アクティビティ（**[!UICONTROL メール]**、**[!UICONTROL SMS]**、**[!UICONTROL プッシュ通知（Android）]**&#x200B;または&#x200B;**[!UICONTROL プッシュ通知（iOS）]**）を選択します。ワークフローの配信チャネルアクティビティと、配信コンテンツの定義方法について詳しくは、この[節](../workflows/activities/about-activities.md#channel)を参照してください。
+1. 配信アクティビティ（**[!UICONTROL メール]**、**[!UICONTROL SMS]**、**[!UICONTROL プッシュ通知（Android）]**&#x200B;または&#x200B;**[!UICONTROL プッシュ通知（iOS）]**）を選択します。ワークフローの配信チャネルアクティビティと、配信コンテンツの定義方法について詳しくは、この[節](../workflows/activities/channels.md)を参照してください。
 1. ワークフローを開始し、ログを確認します。
 
 ワークフローを作成せずに、キャンペーンに配信を追加することもできます。これを行うには、キャンペーンの「**[!UICONTROL 配信]**」タブを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
