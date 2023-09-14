@@ -4,7 +4,7 @@ title: SMS 配信を作成
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: a67a692cf9b74015323954eca5b4c554f7fe8eb6
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 82%
