@@ -3,22 +3,22 @@ audience: end-user
 title: スケジューラーワークフローアクティビティを使用
 description: スケジューラーワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 17%
+source-wordcount: '476'
+ht-degree: 16%
 
 ---
 
 
 # スケジューラー {#scheduler}
 
-<!--
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler activity"
->abstract="The Scheduler activity allows you..."
--->
+>title="スケジューラーアクティビティ"
+>abstract="The **スケジューラ** アクティビティは **フロー制御** アクティビティ。 ワークフローを開始するタイミングを指定できます。 このアクティビティは、予定されている開始と見なされます。 ワークフローの最初のアクティビティとしてのみ使用できます。"
+
 
 The **スケジューラ** アクティビティは **フロー制御** アクティビティ。 ワークフローを開始するタイミングを指定できます。 このアクティビティは、予定されている開始と見なされます。 ワークフローの最初のアクティビティとしてのみ使用できます。
 
@@ -29,6 +29,7 @@ The **スケジューラ** アクティビティは **フロー制御** アク�
 * ワークフローで繰り返し配信を送信する場合は、 **スケジューラ** アクティビティを作成し、実行頻度を設定します。 繰り返し配信アクティビティでは、スケジュールを定義できません。
 
 ## 設定
+
 
 次の手順に従って、 **スケジューラ** アクティビティ：
 

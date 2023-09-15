@@ -3,15 +3,21 @@ audience: end-user
 title: オーディエンスを作成ワークフローアクティビティの使用
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '311'
-ht-degree: 100%
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 97%
 
 ---
 
 
 # オーディエンスを作成 {#build-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience"
+>title="オーディエンスを作成"
+>abstract="**オーディエンスを作成**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、ワークフローに入るオーディエンスを定義できます。"
+
 
 **オーディエンスを作成**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、ワークフローに入るオーディエンスを定義できます。キャンペーンワークフローのコンテキストでメッセージを送信する場合、メッセージオーディエンスはチャネルアクティビティではなく、**オーディエンスを作成**&#x200B;アクティビティで定義されます。
 
@@ -29,7 +35,13 @@ ht-degree: 100%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 設定
+## 「オーディエンスを作成」アクティビティを設定する
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="ターゲティングディメンションを選択"
+>abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。"
+
 
 **オーディエンスを作成**&#x200B;アクティビティを設定するには、次の手順に従います。
 

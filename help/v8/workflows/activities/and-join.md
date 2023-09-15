@@ -2,22 +2,35 @@
 audience: end-user
 title: AND 結合ワークフローアクティビティの使用
 description: AND 結合アクティビティワークフローの使用方法を学ぶ
-badge: label="ベータ版"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="Beta"
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '232'
+ht-degree: 95%
 
 ---
 
 
 # AND 結合 {#join}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join"
+>title="「AND 結合」アクティビティ"
+>abstract="**AND 結合**&#x200B;アクティビティは、**フロー制御**&#x200B;アクティビティです。これを使用すると、ワークフローの複数の実行分岐を同期できます。"
+
+
+
 **AND 結合**&#x200B;アクティビティは、**フロー制御**&#x200B;アクティビティです。これを使用すると、ワークフローの複数の実行分岐を同期できます。
 
 このアクティビティは、すべてのインバウンドトランジションが有効化された（つまり、前のアクティビティがすべて終了した）ときにのみ、アウトバウンドトランジションをトリガーします。これにより、ワークフローを続行する前に、特定のアクティビティを確実に完了させるようにできます。
 
 ## 設定
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join_merging"
+>title="AND 結合アクティビティの設定"
+>abstract="参加するアクティビティを選択します。 **プライマリセット**&#x200B;ドロップダウンで、保持するインバウンドトランジションの母集団を選択します。"
 
 **AND 結合**&#x200B;アクティビティを設定するには、次の手順に従います。
 

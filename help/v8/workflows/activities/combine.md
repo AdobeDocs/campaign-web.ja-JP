@@ -3,15 +3,21 @@ audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '829'
+ht-degree: 80%
 
 ---
 
 
 # 結合 {#combine}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine"
+>title="アクティビティを結合"
+>abstract="The **結合** アクティビティは **ターゲット設定** アクティビティ。 このアクティビティを使用すると、インバウンド母集団に対してセグメント化を実行できます。したがって、複数の母集団を組み合わせたり、その一部を除外したり、複数のターゲットに共通するデータのみを保持したりできます。"
+
 
 The **結合** アクティビティは **ターゲット設定** アクティビティ。 このアクティビティを使用すると、インバウンド母集団に対してセグメント化を実行できます。したがって、いくつもの母集団を組み合わせて、一部を除外したり、複数のターゲットに共通するデータのみを保持したりできます。使用可能なセグメント化のタイプを次に示します。
 
@@ -35,6 +41,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="除外の結合オプション"
 >abstract="除外では、特定の条件に従って、ある母集団から要素を除外することができます。「結合の設定」セクションで、結合する前のアクティビティをすべてオンにします。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_options"
+>title="セグメントタイプを選択"
+>abstract="オーディエンスの結合方法として、和集合、積集合、除外のいずれかを選択します。"
+
 **結合**&#x200B;アクティビティの設定を開始するには、次の一般的な手順に従います。
 
 1. **オーディエンスを作成**&#x200B;アクティビティなどの複数のアクティビティを追加して、2 つ以上の異なる実行分岐を形成します。
@@ -49,6 +60,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="積集合の紐付けオプション"
 >abstract="紐付けタイプを選択して、重複の処理方法を定義します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_reconciliation"
+>title="紐付けオプション"
+>abstract="を選択します。 **紐付けタイプ** ：重複の処理方法を定義します。"
 
 Adobe Analytics の **結合** アクティビティの場合は、 **和集合**. その場合は、 **紐付けタイプ** 重複の処理方法を定義するには：
 
@@ -68,6 +84,12 @@ Adobe Analytics の **結合** アクティビティの場合は、 **積集合*
 >id="acw_orchestration_exclusion_options"
 >title="除外ルール"
 >abstract="必要に応じて、インバウンドテーブルを操作できます。別のディメンションからターゲットを除外するには、このターゲットが同じターゲティングディメンションをメインターゲットとして返します。それには、「除外ルール」セクションの「ルールを追加」をクリックし、ディメンションの変更条件を指定します。データの紐付けは、属性または結合を使用して実行されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_sets"
+>title="結合するセットを選択"
+>abstract="「**結合の設定**」セクションで、インバウンドトランジションから「**プライマリセット**」を選択します。これは、要素の除外元のセットです。これ以外のセットは、プライマリセットから除外する前の要素に一致します。"
+
 
 Adobe Analytics の **結合** アクティビティの場合は、 **除外**. この場合は、次の追加の手順に従う必要があります。
 
