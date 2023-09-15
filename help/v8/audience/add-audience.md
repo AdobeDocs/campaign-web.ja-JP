@@ -3,11 +3,11 @@ audience: end-user
 title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="ベータ版"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+badge: label="Beta"
+source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 58%
+source-wordcount: '334'
+ht-degree: 52%
 
 ---
 
@@ -43,6 +43,10 @@ ht-degree: 58%
    オーディエンスは **対象ユーザ** 左メニュー。 クライアントコンソールでも作成できます。
 
    Adobe Experience Platformオーディエンスを使用するには、宛先との統合を設定する必要があります。 詳しくは、 [Adobe Experience Platform Destinations ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}.
+
+   >[!IMPORTANT]
+   >
+   >製品のそのバージョンでは、ルールの作成、配信のオーディエンスの選択、ワークフローでのオーディエンスの作成の際に、一部の定義済みフィルターがユーザーインターフェイスで使用できない場合があります。 まだ使用できます。 [詳細情報](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. オーディエンスを選択し、「**選択**」をクリックします。
 1. 以下を使用します。 **フィルターを表示** アイコンをクリックしてフィルターオプションを表示します。 クリック **ルールを追加** ルールビルダーにアクセスするには：ルールビルダーを使用して、オーディエンスのリストに対する詳細フィルターを作成できます。 このルールビルダーの使用方法を説明します [セクション](segment-builder.md).
