@@ -2,18 +2,20 @@
 title: Campaign Web での AI を利用したナレッジアシスタントの使用
 description: Campaign Web での AI を利用したナレッジアシスタントの使用
 badge: label="Beta"
-hide: true
-hidefromtoc: true
-source-git-commit: 368f716e72abfe9ac22893798cf11f6fd90f2cd4
+source-git-commit: 18fc6233582fc0bfe0aeb682dfa90ba4f7ce85ce
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 2%
+source-wordcount: '478'
+ht-degree: 1%
 
 ---
 
 # AI を利用したナレッジアシスタントの使用 {#using-ai}
 
 製品コンテキストヘルプボックスで利用できる AI を利用したナレッジアシスタントを使用して、製品ドキュメントと現在の製品コンテキストに基づいて、AI で生成された迅速な回答を得ます。
+
+The **Gen AI を備えた知識アシスタント** コンテキストヘルプ内に組み込まれ、膨大なドキュメントリポジトリを簡単に切り替え、必要な正確な情報を即座に特定し、ドキュメントの検索とハウツー質問への回答に革新的に対応します。
+
+このアシスタントは、Campaign Gen AI の機能のおかげで、エクスペリエンスを変え、情報の取得や問題解決を簡単におこなえます。 複雑なタスクでのガイダンスを求める場合でも、広範なドキュメントをナビゲートする場合でも、Gen AI を備えた Knowledge Assistant は究極のコンパニオンであり、あらゆる操作で卓越した効率と正確性を提供します。
 
 ## 同意 {#consent-ai}
 

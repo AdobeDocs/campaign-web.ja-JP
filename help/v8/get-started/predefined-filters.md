@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '786'
 ht-degree: 4%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 4%
 既存の組み込みフィルターを使用して、データの特定のサブセットにアクセスしたり、独自の定義済みフィルターを作成して保存したりできます。
 
 ![](assets/predefined-filters-menu.png)
+
+>[!CAUTION]
+>
+>製品のそのバージョンでは、ルールの作成、配信のオーディエンスの選択、ワークフローでのオーディエンスの作成の際に、一部の定義済みフィルターがユーザーインターフェイスで使用できない場合があります。 まだ使用できます。 [詳細情報](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## 定義済みフィルターの作成 {#create-predefined-filter}
@@ -55,7 +59,7 @@ ht-degree: 4%
 
 1. 選択 **新しいフィルターの作成**&#x200B;をクリックし、そのフィルターの名前と説明を入力します。
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
    必要に応じて、フィルターをお気に入りに保存できます。 詳しくは、[こちら](#fav-filter)を参照してください。
 
@@ -89,7 +93,7 @@ ht-degree: 4%
 
 フィルターをお気に入りに保存すると、 **お気に入りのフィルター** 」セクションに表示されます。
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## 定義済みフィルターを使用 {#use-predefined-filter}
@@ -139,6 +143,8 @@ ht-degree: 4%
 
 定義済みフィルターを好みに追加して、ルールを作成する際にすばやくアクセスできるようにします。 詳しくは、[こちら](#fav-filter)を参照してください。
 
-## 組み込みの定義済みフィルター {#ootb-predefined-filter}
+<!--
+## Built-in predefined filters {#ootb-predefined-filter}
 
-Campaign には、クライアントコンソールから構築された定義済みフィルターのセットが用意されています。 これらのフィルターを使用して、オーディエンスおよびルールを定義できます。 これらは変更できません。
+Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
+-->
