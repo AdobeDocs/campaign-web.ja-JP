@@ -2,10 +2,10 @@
 title: Campaign Web UI のガードレールと制限
 description: Campaign Web UI のガードレールと制限
 badge: label="Beta"
-source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
+source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 6%
+source-wordcount: '526'
+ht-degree: 7%
 
 ---
 
@@ -16,11 +16,13 @@ Campaign クライアントコンソールで作成または変更されたコ�
 
 ## ワークフロー {#wf-guardrails-limitations}
 
-コンソールと Web UI の両方から同じワークフローにアクセスできます。 ただし、一部の制限が適用されることに注意してください。
-
 **アクティビティの編集**
 
-* Web UI でコンソールワークフローにアクセスする場合、互換性のあるアクティビティのみを変更できます。
+* Web UI でまだサポートされていないワークフローアクティビティは、読み取り専用です。 ワークフローの実行、メッセージの送信、ログの確認などを行うことができます。
+
+| コンソール | Web UI |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **キャンバスエディション**
 
@@ -41,17 +43,6 @@ Campaign クライアントコンソールで作成または変更されたコ�
 | コンソール | Web UI |
 | --- | --- |
 | ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
-
-<table>
-<tr>
-<th>コンソール</th>
-<th>Web UI</th>
-</tr>
-<tr>
-<td><img src="assets/limitations-loops-console.png"></td>
-<td><img src="assets/limitations-loops-web.png"></td>
-</tr>
-</table>
 
 **紐付けとエンリッチメント**
 
