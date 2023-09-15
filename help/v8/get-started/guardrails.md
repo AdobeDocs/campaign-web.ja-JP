@@ -2,10 +2,10 @@
 title: Campaign Web UI のガードレールと制限
 description: Campaign Web UI のガードレールと制限
 badge: label="Beta"
-source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
+source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 6%
+source-wordcount: '550'
+ht-degree: 7%
 
 ---
 
@@ -16,60 +16,54 @@ Campaign クライアントコンソールで作成または変更されたコ�
 
 ## ワークフロー {#wf-guardrails-limitations}
 
-**アクティビティ**
+### アクティビティ
 
-* Web UI でまだサポートされていないワークフローアクティビティは、読み取り専用です。 ワークフローの実行、メッセージの送信、ログの確認などを行うことができます。 Web UI とクライアントコンソールの両方で使用できるワークフローアクティビティは編集可能です。
-
-| コンソール | Web UI |
-| --- | --- |
-| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
-
-**カンバス**
-
-* Web UI で新しいワークフローを作成する場合、キャンバスは 1 つのエントリポイントのみをサポートします。 ただし、複数のエントリポイントを持つワークフローをコンソールで作成した場合は、
-
-ただし、ワークフローが複数のエントリポイントを持つクライアントコンソールキャンバスで作成されている場合でも、Web UI でも編集できます。 引き続き、を開いて編集できます
-
-
-
-このシナリオを試すには、複数のエントリポイントを持つクライアントコンソールからワークフローを作成し、Web UI から開いて結果を確認します。
-
-
-
-もちろん、アクティビティを編集し、通常どおりにワークフローを開始して実行することもできます。
-
-
-
-**アクティビティの配置**
-
-* ノードの配置は、（常にではなく）アクティビティが追加または削除された場合にのみ再計算されます（アクティビティの最初の配置は変更されます）。
-
-**非公開のオプション**
-
-* 互換性のないオプションは、Web UI には表示されません。
-
-**ループ**
-
-* ループは、Web UI ではまだ使用できません。 コンソールを使用してループを含むワークフローを作成した場合、Web UI からアクセスできません。 エラーメッセージが表示されます。
+Web UI でまだサポートされていないワークフローアクティビティは読み取り専用で、互換性のないアクティビティとして表示されます。 ワークフローの実行、メッセージの送信、ログの確認などを行うことができます。 Web UI とクライアントコンソールの両方で使用できるワークフローアクティビティは編集可能です。
 
 | コンソール | Web UI |
 | --- | --- |
-| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-**紐付けとエンリッチメント**
+Web UI でまだサポートされていないワークフローアクティビティ設定は表示されません。 ただし、ワークフローを実行する際には、これらの設定が適用されます。
 
-Campaign クライアントコンソールで、 **エンリッチメント** アクティビティは、紐付けとエンリッチメントの両方を実行できます。 Campaign Web UI では、紐付け機能はまだ使用できません。 コンソールアクティビティで紐付けを設定した場合、Web UI に互換性のないアクティビティとして表示されます。
+| コンソール | Web UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-* 次の場合、 **エンリッチメント** コンソールの「 」アクティビティはエンリッチメントのみを実行し、 **エンリッチメント** アクティビティが Web に表示されます。
-* 次の場合、 **エンリッチメント** コンソールの「 」アクティビティで紐付けのみが実行され、互換性のない「 」アクティビティが表示されます。
+コンソールで、 **エンリッチメント** アクティビティは、紐付けとエンリッチメントの両方を実行できます。 Web UI では、紐付け機能はまだ使用できません。 を定義済みの場合、コンソールで、紐付け設定を **エンリッチメント** アクティビティの場合、Web UI に互換性のない読み取り専用アクティビティとして表示されます。
+
+| コンソール | Web UI |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+
+### カンバス
+
+Web UI で新しいワークフローを作成する場合、キャンバスは 1 つのエントリポイントのみをサポートします。 ただし、複数のエントリポイントを持つワークフローをコンソールで作成した場合は、Web UI で開いて編集できます。
+
+| コンソール | Web UI |
+| --- | --- |
+| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+
+ループは、Web UI ではまだ使用できません。 コンソールを使用してループを含むワークフローを作成した場合、Web UI からアクセスできません。 エラーメッセージが表示されます。
+
+| コンソール | Web UI |
+| --- | --- |
+| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
+
+ノードの配置は、アクティビティが追加または削除されるたびに更新されます。 コンソールでワークフローを作成し、Web UI を使用して変更し、コンソールで再度開くと、小さな配置の問題が発生する場合があります。 これは、ワークフローの
+
+| 最初のワークフロー | 位置の変更 |
+| --- | --- |
+| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
 
 ## 定義済みフィルター {#filters-guardrails-limitations}
 
-製品のそのバージョンでは、配信のオーディエンスを選択する場合、またはワークフローでオーディエンスを作成する場合、一部の定義済みフィルターは、ユーザーインターフェイスで使用できません。
+配信のオーディエンスを選択する場合、またはワークフローでオーディエンスを作成する場合、製品のそのバージョンのユーザーインターフェイスでは、一部の定義済みフィルターを使用できません。
 
 特定のエラーメッセージが表示されます。 ルールビルダーでクエリのグラフィック表現を表示できず、フィルターを編集できない場合でも、クエリを使用して、フィルター条件と結果を確認できます。 また、SQL クエリにアクセスして、正確な設定を確認できます。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
+
 
 Web インターフェイスでフィルターを作成し、サポートされていない属性を使用してコンソールで修正した場合、グラフィック表現は Web インターフェイスで使用できなくなります。 どのような場合でも、フィルターは引き続き使用できます。
 
