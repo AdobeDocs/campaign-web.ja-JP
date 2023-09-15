@@ -2,9 +2,9 @@
 title: Campaign Web UI のガードレールと制限
 description: Campaign Web UI のガードレールと制限
 badge: label="Beta"
-source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
+source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '540'
 ht-degree: 6%
 
 ---
@@ -37,6 +37,10 @@ Campaign クライアントコンソールで作成または変更されたコ�
 **ループ**
 
 * ループは、Web UI ではまだ使用できません。 コンソールを使用してループを含むワークフローを作成した場合、Web UI からはアクセスできません。 エラーメッセージが表示されます。
+
+| コンソール | Web UI |
+| --- | --- |
+| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
 
 <table>
 <tr>
