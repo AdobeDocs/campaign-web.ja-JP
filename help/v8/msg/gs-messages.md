@@ -4,10 +4,10 @@ title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 88%
+source-wordcount: '1296'
+ht-degree: 86%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v8 には、メール、SMS、モバイルアプリの配信チ�
 
 ## 配信を作成 {#create-delivery}
 
-スタンドアロンの配信を作成する場合は、**[!UICONTROL 配信]**&#x200B;の左メニューに移動するか、マーケティングキャンペーンのコンテキストで配信を作成する場合は、**[!UICONTROL キャンペーン]**&#x200B;の左メニューに移動します。
+スタンドアロンの配信は、 **[!UICONTROL 配信]** 左側のメニューに表示されるか、キャンペーンに含まれる、または含まれないワークフローのコンテキストで配信を作成できます。
 
 配信の作成方法については、以下のタブを参照してください。
 
@@ -92,7 +92,7 @@ Adobe Campaign v8 には、メール、SMS、モバイルアプリの配信チ�
 
 ワークフローで配信を作成するには、次の手順に従います。
 
-1. ワークフローを作成するか、既存のワークフローを開きます。
+1. ワークフローを作成するか、既存のワークフローを開きます。ワークフローの詳細については、 [このページ](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを追加して設定し、`+` ボタンをクリックします。
 
    ![](assets/add-delivery-in-wf.png)
