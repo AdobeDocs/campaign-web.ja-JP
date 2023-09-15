@@ -3,7 +3,7 @@ audience: end-user
 title: コンテンツアシスタントの基本を学ぶ
 description: コンテンツアシスタントの概要
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 3%
@@ -37,7 +37,7 @@ Content Assistant は、生成 AI を活用した、E メールコンテンツ�
 <a href="generative-image.md">
 <img alt="画像の生成" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image"><strong>コンテンツアシスタントを使用した画像の生成</strong>
+<div><a href="generative-image.md"><strong>コンテンツアシスタントを使用した画像の生成</strong>
 </div>
 <p>
 </td>
