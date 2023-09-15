@@ -4,10 +4,10 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 56%
+source-wordcount: '991'
+ht-degree: 54%
 
 ---
 
@@ -102,6 +102,12 @@ Campaign Web ベータ版で提供される主な機能を以下に示します�
   製品のユーザーインターフェイスから質問をし、直接ガイダンスを見つけます。 コンテキストヘルプポップオーバーに組み込まれた新しい AI を利用したナレッジアシスタントは、Campaign の新機能に関する専門知識を習得し、育成するのに役立ちます。 最新の製品ドキュメントに基づき、ユースケースを作成する際に、ヘルプを見つけて迅速にステップバイステップのガイダンスを得るのに役立ちます。
 
   詳しくは、[こちら](../get-started/using-ai.md)を参照してください。
+
+* **HTMLコンバーター（E メールデザイン用）**
+
+  Campaign の E メールエディターで、任意のHTMLコンテンツをインポートして変換できるようになりました。 コンテンツブロックは自動的に識別され、E メールデザイナーで使用できます。強力なデザイン機能を使用して、コンテンツブロックを更新し、パーソナライズします。
+
+  詳しくは、[こちら](../content/existing-content.md)を参照してください。
 
 
 ## Campaign web UI への移行
