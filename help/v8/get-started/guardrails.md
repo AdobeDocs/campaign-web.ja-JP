@@ -2,10 +2,10 @@
 title: Campaign Web UI のガードレールと制限
 description: Campaign Web UI のガードレールと制限
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 7%
+source-wordcount: '586'
+ht-degree: 6%
 
 ---
 
@@ -60,10 +60,21 @@ Web UI で新しいワークフローを作成する場合、キャンバスは 
 
 配信のオーディエンスを選択する場合、またはワークフローでオーディエンスを作成する場合、製品のそのバージョンのユーザーインターフェイスでは、一部の定義済みフィルターを使用できません。
 
-特定のエラーメッセージが表示されます。 ルールビルダーでクエリのグラフィック表現を表示できず、フィルターを編集できない場合でも、クエリを使用して、フィルター条件と結果を確認できます。 また、SQL クエリにアクセスして、正確な設定を確認できます。
+特定のエラーメッセージが表示されます。
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+ルールビルダーでクエリのグラフィック表現を表示できず、フィルターを編集できない場合でも、フィルターを使用して、「 **属性** 」セクションに表示されます。
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+また、SQL クエリにアクセスして、正確な設定を確認できます。 これをおこなうには、 **コードビュー** 」ボタンをクリックします。
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+次をクリック： **計算** ボタンをクリックして、フィルターの条件に一致する項目の数を確認します。 以下を使用します。 **結果を表示** ボタンをクリックして、該当する項目を表示します。
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 Web インターフェイスでフィルターを作成し、サポートされていない属性を使用してコンソールで修正した場合、グラフィック表現は Web インターフェイスで使用できなくなります。 どのような場合でも、フィルターは引き続き使用できます。
 

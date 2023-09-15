@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 4%
@@ -31,7 +31,7 @@ ht-degree: 4%
 
 ![](assets/predefined-filters-menu.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >製品のそのバージョンでは、ルールの作成、配信のオーディエンスの選択、ワークフローでのオーディエンスの作成の際に、一部の定義済みフィルターがユーザーインターフェイスで使用できない場合があります。 まだ使用できます。 [詳細情報](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
