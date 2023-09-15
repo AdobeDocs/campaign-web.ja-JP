@@ -2,11 +2,11 @@
 audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
-badge: label="ベータ版"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="Beta"
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,8 @@ ht-degree: 100%
 
 新しいキャンペーンを作成したり、既存のキャンペーンを管理したりするには、左側のナビゲーションで&#x200B;**[!UICONTROL キャンペーン]**&#x200B;メニューをクリックします。
 
-## キャンペーンリスト{#access-campaigns}
+## キャンペーンのリスト {#access-campaigns}
+
 
 キャンペーンリストには、次の 2 つのタブが表示されます。
 
@@ -39,6 +40,12 @@ ht-degree: 100%
 ![キャンペーンフィルター](assets/campaign-filter-on-dates.png)
 
 ## キャンペーンダッシュボード{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="キャンペーンの配信のリスト"
+>abstract="「**配信**」タブには、現在のキャンペーンにリンクされているすべての配信がリストされます。編集する配信の名前をクリックします。 「配信を作成」ボタンを使用して、このキャンペーンの新しい配信を追加します。"
 
 キャンペーンリストの「**参照**」タブで、キャンペーンをクリックして詳細を表示します。
 

@@ -3,11 +3,11 @@ audience: end-user
 title: メール配信設定
 description: Campaign web UI でのメール配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="ベータ版"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+badge: label="Beta"
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 77%
+source-wordcount: '1829'
+ht-degree: 71%
 
 ---
 
@@ -22,18 +22,18 @@ ht-degree: 77%
 >
 > これらの設定については、情報提供のみを目的として説明しています。一部のものは、設定や権限によって異なります。それらは、このバージョンの製品では変更できません。
 
-## タイポロジ {#typology}
+## タイポロジ設定 {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="タイポロジ"
->abstract="タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルタリング、優先順位付けするタイポロジルールの集まりです。 タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
+>abstract="タイポロジ ルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルタリング、優先順位付けするタイポロジルールの集まりです。 タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="タイポロジ"
->abstract="タイポロジ ルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルタリング、優先順位付けするタイポロジルールの集まりです。 タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
+>title="配信のタイポロジ設定"
+>abstract="タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルタリング、優先順位付けするタイポロジルールの集まりです。 タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
 
 
 タイポロジとは、 **タイポロジルール**：準備段階で実行されます。 タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルタリング、優先順位付けするタイポロジルールの集まりです。 タイポロジルール内の条件に一致するプロファイルは、配信の準備段階で配信オーディエンスから除外されます。  メールに常に必要な特定の要素（登録解除リンクや件名行など）が含まれていることを確かめたり、ターゲットグループから特定グループ（非購読者、競合他社、非顧客など）を除外するフィルタールールを設定したりできます。
@@ -52,7 +52,7 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="頻度パラメーター"
+>title="配信の頻度パラメーター"
 >abstract="配信に重みを付けることで、疲労管理のフレームワーク内で最も優先度の高い配信を識別できます。 最も大きな重みを付けられたメッセージが、最優先されます。"
 
 
@@ -82,7 +82,7 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="処理能力設定"
+>title="処理能力設定 配信用"
 >abstract="メッセージを配信する前に、処理能力ルールを使用して、組織が配信、配信で生成されるインバウンドメッセージ、購読者に連絡するための呼び出し数などを処理できることを確認します。 処理能力ルールは、Adobe Campaign v8 コンソールで定義されます。 この画面で、E メールチャネルに関連付けられたルールを選択します。"
 
 このセクションでは、Adobe Campaign v8 コンソールで定義した処理能力ルールを選択できます。このルールは、メールチャネルに関連付けられています。
@@ -92,7 +92,14 @@ ht-degree: 77%
 一貫性と容量のルール、およびでの設定方法の詳細 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"}.
 
 
-## オーディエンス {#audience}
+## オーディエンス設定 {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="配信のオーディエンス設定"
+>abstract="を選択します。 **ターゲットマッピング** 手に入るものの中に ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。また、配信の除外パラメーターを設定することもできます。 "
+
 
 このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。
 
@@ -102,7 +109,7 @@ ht-degree: 77%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="配信設定"
+>title="配信の配信設定"
 >abstract="配信パラメーターは、配信に適用する技術的な設定です。配信の BCC を有効化し、配信モードとルーチンモードを変更できます。 これらのオプションは、エキスパートユーザーにのみ制限されます。"
 
 配信パラメーターは、配信に適用する技術的な設定です。
@@ -111,8 +118,21 @@ ht-degree: 77%
 
 * **SMTP 配信をテスト**：このオプションを使用して、SMTP 経由での送信をテストします。配信は SMTP サーバーへの接続まで処理されますが、送信はされません。配信の受信者ごとに、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
-* **BCC でメールを送信**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。「BCC で E メールを送信」の詳細を説明します [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
+* **BCC でメールを送信**：BCC メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。「BCC で E メールを送信」の詳細を説明します [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
 
+### Web 分析 {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="配信の Web 分析設定"
+>abstract="Web 分析アカウントを選択します。 このアカウントは、Campaign クライアントコンソールで設定されます。 また、使用している Analytics ツールと共有するタグを定義することもできます。"
+
+このセクションでは、Web 分析アカウントを選択できます。 このアカウントは、Campaign クライアントコンソールで設定されます。
+
+また、使用している Analytics ツールと共有するタグを定義することもできます。
+
+Web 分析と Campaign について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
 
 
 ### 再試行 {#retries}
@@ -123,12 +143,10 @@ ht-degree: 77%
 
 ## 承認 {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="配信の承認モード"
+>abstract="承認モードを選択します。 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。 "
 
 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。デフォルトでは、分析フェーズの最後に、メッセージの送信をユーザーが確認する必要があります（**手動**&#x200B;検証）。
 
@@ -194,6 +212,11 @@ ht-degree: 77%
 **期限切れ URL の代替 URL**：フォールバック web ページへの URL を入力します。トラッキングの有効期限が切れると表示されます。
 
 ## テスト設定 {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="配信のテスト設定"
+>abstract="除外パラメーターを選択し、テスト用 E メールのラベルをカスタマイズします。"
 
 このセクションでは、除外パラメーターを設定できます。次のオプションを使用できます。
 

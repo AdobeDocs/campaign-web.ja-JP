@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1661'
 ht-degree: 86%
 
 ---
@@ -60,7 +60,11 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
 ### コンテキストヘルプ {#user-interface-help}
 
-製品のユーザーインターフェイスから質問をし、直接ガイダンスを見つけます。 コンテキストヘルプポップオーバーに組み込まれた新しい AI を利用したナレッジアシスタントは、Campaign の新機能に関する専門知識を習得し、育成するのに役立ちます。 最新の製品ドキュメントに基づき、ユースケースを作成する際に、ヘルプを見つけて迅速にステップバイステップのガイダンスを得るのに役立ちます。
+The **Gen AI を備えた知識アシスタント** コンテキストヘルプ内に組み込まれ、膨大なドキュメントリポジトリを簡単に切り替え、必要な正確な情報を即座に特定し、ドキュメントの検索とハウツー質問への回答に革新的に対応します。
+
+このアシスタントは、Campaign Gen AI の機能のおかげで、エクスペリエンスを変え、情報の取得や問題解決を簡単におこなえます。 複雑なタスクでのガイダンスを求める場合でも、広範なドキュメントをナビゲートする場合でも、Gen AI を備えた Knowledge Assistant は究極のコンパニオンであり、あらゆる操作で卓越した効率と正確性を提供します。
+
+詳しくは、[こちら](using-ai.md)を参照してください。
 
 
 ### キャンペーン管理 {#user-interface-campaign-management}
@@ -244,10 +248,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Workflows-->
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="ワークフローリスト"
->abstract="キャンペーンで使用可能なワークフローのリストです。「ワークフローを作成」ボタンを使用して、キャンペーンにワークフローを追加します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
@@ -311,10 +311,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="グローバルレポートのトラッキング"
 >abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_delivery_list"
->title="キャンペーンの配信リスト"
->abstract="キャンペーンの配信リスト"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
@@ -323,25 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery settings-->
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_audience"
->title="配信設定オーディエンス"
->abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_approval"
->title="配信設定の承認"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_testsettings"
->title="配信設定のテスト設定"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_webanalytics"
->title="配信設定の Web 分析"
->abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
