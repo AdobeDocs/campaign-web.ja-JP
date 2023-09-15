@@ -3,7 +3,7 @@ audience: end-user
 title: 重複排除ワークフローアクティビティの使用
 description: 重複排除ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 27%
@@ -34,7 +34,7 @@ The **重複排除** アクティビティは **ターゲット設定** アク�
 
 ## 設定
 
-次の手順に従って、 **スケジューラ** アクティビティ：
+次の手順に従って、 **重複排除** アクティビティ：
 
 1. を追加します。 **重複排除** アクティビティをワークフローに追加します。
 
