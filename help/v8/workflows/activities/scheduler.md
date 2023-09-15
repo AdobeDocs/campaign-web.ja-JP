@@ -3,10 +3,10 @@ audience: end-user
 title: スケジューラーワークフローアクティビティを使用
 description: スケジューラーワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 16%
+source-wordcount: '499'
+ht-degree: 15%
 
 ---
 
@@ -30,6 +30,10 @@ The **スケジューラ** アクティビティは **フロー制御** アク�
 
 ## 設定
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="スケジューラーの有効性"
+>abstract="スケジューラーの有効期間を定義できます。 永続的に指定することも、特定の日付まで有効にすることもできます。"
 
 次の手順に従って、 **スケジューラ** アクティビティ：
 
