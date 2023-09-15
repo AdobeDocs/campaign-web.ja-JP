@@ -3,15 +3,38 @@ audience: end-user
 title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS）を追加する方法を学ぶ
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 58%
+source-wordcount: '786'
+ht-degree: 59%
 
 ---
 
 
 # E メール、SMS、プッシュアクティビティ {#channel}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="E メールアクティビティ"
+>abstract="E メール、SMS、プッシュチャネルをまたいでマーケティングキャンペーンを自動化および実行します。 チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。 "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="E メールアクティビティ"
+>abstract="E メール、SMS、プッシュチャネルをまたいでマーケティングキャンペーンを自動化および実行します。 チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。 "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="E メールアクティビティ"
+>abstract="E メール、SMS、プッシュチャネルをまたいでマーケティングキャンペーンを自動化および実行します。 チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。 "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="E メールアクティビティ"
+>abstract="E メール、SMS、プッシュチャネルをまたいでマーケティングキャンペーンを自動化および実行します。 チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。 "
 
 Adobe Campaign web を使用すると、メール、SMS、プッシュチャネルをまたいでマーケティングキャンペーンを自動化および実行できます。チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。
 

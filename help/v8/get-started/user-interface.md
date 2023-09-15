@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1490'
 ht-degree: 81%
 
 ---
@@ -88,11 +88,6 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 >id="acw_audiences_list"
 >title="オーディエンス"
 >abstract="これはオーディエンスのリストです。オーディエンスのタイプ、接触チャネル、作成日／最終変更日およびラベルを確認できます。このリストは接触チャネルでフィルタリングできます。このリストは読み取り専用です。"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_list"
->title="購読リスト"
->abstract="購読リストを閲覧できます。購読リストのタイプ、モードおよびラベルを確認できます。このリストは読み取り専用です。"
 
 
 「顧客管理」セクションでは、受信者、オーディエンスおよび購読を表示できます。これらのリストは読み取り専用です。

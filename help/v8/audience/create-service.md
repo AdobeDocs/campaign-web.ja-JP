@@ -3,10 +3,10 @@ audience: end-user
 title: 購読サービスの使用
 description: Adobe Campaign Web でサービスを作成する方法を説明します
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 10%
+source-wordcount: '312'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 10%
 >id="acw_subscription_services_read_only"
 >title="このサービスは読み取り専用です"
 >abstract="このサービスを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list"
+>title="購読サービス"
+>abstract="Adobe Campaignを使用して、ニュースレターなどのサービスを作成および監視し、これらのサービスの購読/購読解除を確認します。 購読は E メールおよび SMS 配信にのみ適用されます。"
 
 Adobe Campaignを使用して、ニュースレターなどのサービスを作成および監視し、これらのサービスの購読/購読解除を確認します。 購読は E メールおよび SMS 配信にのみ適用されます。
 
@@ -36,22 +41,33 @@ Adobe Campaignを使用して、ニュースレターなどのサービスを作
 
 ## 最初のサブスクリプションサービスを作成する {#create-service}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_properties"
+>title="購読サービスのプロパティ"
+>abstract="購読サービスのラベルを入力し、追加のオプションを定義します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_confirm"
+>title="購読サービスの確認メッセージ"
+>abstract="ユーザーがサービスを購読したり、サービスを購読解除したりする際に、確認メッセージを送信できます。 これらのメッセージに使用するテンプレートを選択します。"
+
+
 購読サービスを作成するには、次の手順に従います。
 
 1. を選択します。 **[!UICONTROL 購読サービスを作成]** 」ボタンをクリックします。
 
    ![](assets/service-create-button.png)
 
-1. チャネルを選択します。 **[!UICONTROL 電子メール]** および **[!UICONTROL SMS]** が使用可能です。
+1. チャネルを選択： **[!UICONTROL 電子メール]** または **[!UICONTROL SMS]**.
 
 1. サービスプロパティで、ラベルを入力し、必要に応じて追加のオプションを定義します。
 
    ![](assets/service-create-properties.png)
 
-1. 確認メッセージを選択します。
+1. ユーザーがサービスを購読したり、サービスを購読解除したりする際に、確認メッセージを送信できます。 これらのメッセージに使用するテンプレートを選択します。
 
    ![](assets/service-create-confirmation-msg.png)
 
-1. クリック **[!UICONTROL 保存してレビュー]**.
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 

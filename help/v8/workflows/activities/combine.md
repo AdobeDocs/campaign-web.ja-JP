@@ -3,10 +3,10 @@ audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 80%
+source-wordcount: '891'
+ht-degree: 82%
 
 ---
 
@@ -89,6 +89,12 @@ Adobe Analytics の **結合** アクティビティの場合は、 **積集合*
 >id="acw_orchestration_combine_sets"
 >title="結合するセットを選択"
 >abstract="「**結合の設定**」セクションで、インバウンドトランジションから「**プライマリセット**」を選択します。これは、要素の除外元のセットです。これ以外のセットは、プライマリセットから除外する前の要素に一致します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_exclusion"
+>title="除外ルール"
+>abstract="必要に応じて、インバウンドテーブルを操作できます。別のディメンションからターゲットを除外するには、このターゲットが同じターゲティングディメンションをメインターゲットとして返します。それには、「除外ルール」セクションの「ルールを追加」をクリックし、ディメンションの変更条件を指定します。データの紐付けは、属性または結合を使用して実行されます。"
+
 
 
 Adobe Analytics の **結合** アクティビティの場合は、 **除外**. この場合は、次の追加の手順に従う必要があります。
