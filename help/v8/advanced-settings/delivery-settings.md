@@ -1,26 +1,29 @@
 ---
 audience: end-user
-title: メール配信設定
-description: Campaign web UI でのメール配信設定の詳細を説明します
+title: 配信設定
+description: Campaign Web での配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '2094'
 ht-degree: 71%
 
 ---
 
 
-# メール配信設定 {#email-del-settings}
+# 配信設定 {#email-del-settings}
 
-これらの設定は、メールテンプレートで定義される&#x200B;**技術的な配信パラメーター**&#x200B;です。メール配信の編集時に使用できる「**配信設定を指定**」アイコンから使用できます。
+E メールの配信設定は次のとおりです。 **技術的な配信パラメーター** 電子メールテンプレートで定義される。 配信ごとにオーバーロードする可能性があります。
+
+これらの設定は、 **配信設定の指定** アイコンは、e メール配信または e メール配信テンプレートの編集時に使用できます。
+
 
 ## メール配信設定 {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> これらの設定については、情報提供のみを目的として説明しています。一部のものは、設定や権限によって異なります。それらは、このバージョンの製品では変更できません。
+>これらの設定については、情報提供のみを目的として説明しています。一部のものは、設定や権限によって異なります。それらは、このバージョンの製品では変更できません。
 
 ## タイポロジ設定 {#typology}
 
@@ -56,6 +59,11 @@ ht-degree: 71%
 >abstract="配信に重みを付けることで、疲労管理のフレームワーク内で最も優先度の高い配信を識別できます。 最も大きな重みを付けられたメッセージが、最優先されます。"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="配信の重み付け"
+>abstract="配信に重みを付けることで、頻度管理のフレームワーク内で最も優先順位の高い配信を指定できます。最も大きな重みを付けられたメッセージが、最優先されます。"
+
 このセクションでは、頻度パラメーターを使用して、 **しきい値** 疲労管理ルールを設定するには： これは、特定の期間に 1 つのプロファイルに送信できるメッセージの最大数です。しきい値に達すると、その後は指定された期間が完了するまで、配信は実施できなくなります。このプロセスにより、メッセージの数がしきい値を超過したプロファイルは配信から自動的に除外されるので、過剰な配信が回避できます。
 
 しきい値は、定数または変数のいずれかです。したがって、ある期間、しきい値はプロファイルによって異なる場合も、同じプロファイルで異なる場合もあります。
@@ -84,6 +92,13 @@ ht-degree: 71%
 >id="acw_email_settings_capacity_settings"
 >title="処理能力設定 配信用"
 >abstract="メッセージを配信する前に、処理能力ルールを使用して、組織が配信、配信で生成されるインバウンドメッセージ、購読者に連絡するための呼び出し数などを処理できることを確認します。 処理能力ルールは、Adobe Campaign v8 コンソールで定義されます。 この画面で、E メールチャネルに関連付けられたルールを選択します。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="受信者の重要度"
+>abstract="受信者の重要度は、処理能力タイポロジルールを超過した場合に維持する受信者を決定するために使用される式です。"
+
 
 このセクションでは、Adobe Campaign v8 コンソールで定義した処理能力ルールを選択できます。このルールは、メールチャネルに関連付けられています。
 
@@ -137,7 +152,12 @@ Web 分析と Campaign について詳しくは、 [Campaign v8（クライア�
 
 ### 再試行 {#retries}
 
-<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="再試行の最大数"
+>abstract="一時的なエラーが原因でメッセージ送信が失敗した場合は、配信期間が終了するまで再試行されます。"
+
+ソフトまたは無視のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。デフォルトでは、配信の初日に最低 1 時間の間隔をおいて 24 時間に 5 回の再試行がスケジュールされます。
 
 での再試行管理の詳細を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
 
@@ -146,7 +166,13 @@ Web 分析と Campaign について詳しくは、 [Campaign v8（クライア�
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="配信の承認モード"
->abstract="承認モードを選択します。 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。 "
+>abstract="承認モードを選択します。 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="配信の承認モード"
+>abstract="このテンプレートに基づく配信の承認モードを選択します。 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。"
 
 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。デフォルトでは、分析フェーズの最後に、メッセージの送信をユーザーが確認する必要があります（**手動**&#x200B;検証）。
 
@@ -166,6 +192,18 @@ Web 分析と Campaign について詳しくは、 [Campaign v8（クライア�
 >title="設定の有効性"
 >abstract="「配信期間」フィールドには、グローバルで行う配信再試行の期限を入力できます。Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。「有効期限」フィールドは、ミラーページや画像などのアップロードされたリソースに使用されます。これらのリソースは限られた時間のみ有効です。制限に達すると、リソースは使用できなくなります。"
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="リソースの有効期間"
+>abstract="「有効期限」フィールドは、ミラーページや画像などのアップロードされたリソースに使用されます。これらのリソースは限られた時間のみ有効です。制限に達すると、リソースは使用できなくなります。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="配信期間"
+>abstract="「配信期間」フィールドには、グローバルで行う配信再試行の期限を入力できます。Adobe Campaign は、開始日にメッセージの送信を開始した後、エラーのみを返すメッセージについて、設定された定期的な再試行を、有効期限日に達するまで実行します。"
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -204,6 +242,15 @@ Web 分析と Campaign について詳しくは、 [Campaign v8（クライア�
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="有効期間"
+>abstract="有効期間は、メッセージ URL で追跡を有効にする期間を設定します。"
+
 
 トラッキングパラメーターは、関連するセクションで定義されています。 選択できるオプションは次のとおりです。
 

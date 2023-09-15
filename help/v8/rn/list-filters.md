@@ -4,10 +4,10 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,9 @@ Campaign ユーザーは、引き続きクライアントコンソールにア�
 * メールのプレビューは、「**コンテンツをシミュレート**」ボタンから使用できるようになりました。
 * リストは、**オーディエンス**&#x200B;になりました。
 
-## 制限事項{#limitations-alpha}
+## 制限事項{#limitations-beta}
 
-このアルファ版には、以下の制限が適用されます。
+以下の制限は、このベータ版に適用されます。
 
 * 編集可能なオブジェクトは、配信、キャンペーン、ワークフロー、オーディエンス、テンプレートのみです。その他は読み取り専用です。フィルターを使用してすべてを参照します。
 * オーディエンスは、後で使用するために保存することはできません。

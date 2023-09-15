@@ -4,10 +4,10 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Web UI で使用できない Campaign v8 機能にアクセスする必要があ
 
 >[!NOTE]
 >
->Campaign v8 Web は現在アルファバージョンです。 アクセスは、一部のアルファ顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
+>Campaign v8 Web は現在ベータ版です。 アクセスは、一部のベータ版のお客様に制限されています。 製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
 ## Campaign への接続
 

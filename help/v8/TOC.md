@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: bf2f38b9a484376e21b0b6ac05ac03f4044bd9c8
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 88%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 88%
       + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
       + [Adobe Experience Platform オーディエンスの使用](audience/aep-audience.md)
    + [コントロール母集団を設定](audience/control-group.md)
-   + [購読サービスを作成](audience/create-service.md)
+   + [購読サービスの使用](audience/create-service.md)
 + クロスチャネルキャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
    + [キャンペーンへのアクセスと管理](campaigns/manage-campaigns.md)
