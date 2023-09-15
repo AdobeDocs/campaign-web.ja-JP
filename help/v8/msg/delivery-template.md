@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 98%
+source-wordcount: '962'
+ht-degree: 93%
 
 ---
 
 # 配信テンプレートの操作 {#work-with-delivery-templates}
 
-設計プロセスを加速し改善するために、配信テンプレートを作成すると、キャンペーン全体でカスタムコンテンツを簡単に再利用できます。この機能を使用すると、クリエイティブなルックアンドフィールを標準化して、キャンペーンの実行と開始をより迅速に行うことができます。
+高速で改善されたデザインプロセスを実現するために、配信テンプレートを作成して、キャンペーン全体でカスタムコンテンツや設定を簡単に再利用できます。 この機能を使用すると、クリエイティブなルックアンドフィールを標準化して、キャンペーンの実行と開始をより迅速に行うことができます。
 
 テンプレートには、次の項目を含めることができます。
 
@@ -26,6 +26,10 @@ ht-degree: 98%
 * [パーソナライズされたフィールド](../personalization/personalize.md)と[条件付きコンテンツ](../personalization/conditions.md)
 * [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md)
 * リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。
+
+>[!NOTE]
+>
+>配信テンプレートは、 [電子メールコンテンツテンプレート](../content/email-templates.md)：メッセージのコンテンツのみを再利用できます。
 
 ## 配信テンプレートへのアクセスと管理 {#access-manage-templates}
 
@@ -162,7 +166,7 @@ ht-degree: 98%
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;メニューから「**テンプレート**」タブに移動し、任意のテンプレートを選択します。[詳細情報](#access-manage-templates)
 
-1. 画面右上の「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
+1. 次をクリック： **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、画面の右上に表示されます。
 
    ![](assets/templates-simulate-button.png)
 
@@ -170,7 +174,7 @@ ht-degree: 98%
 
 1. 様々なプロファイルを切り替えて、選択したプロファイルに従ってメッセージをパーソナライズして表示します。
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    また、ズームレベルを調整し、デスクトップビューまたはモバイルビューを選択することもできます。
 

@@ -4,10 +4,10 @@ title: メールコンテンツの編集
 description: Campaign web UI でメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 90%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="メールコンテンツを作成"
->abstract="この節では、メールのコンテンツを作成し、電子メールデザイナーを使用して洗練された外観にすることができます。"
+>title="メールコンテンツの定義"
+>abstract="The **コンテンツを編集** 画面では、送信者のアドレスや件名など、メッセージの基本要素を定義し、添付ファイルやオファーの追加などの追加のアクションを実行し、E メールデザイナーにアクセスしてメッセージを洗練された外観にすることができます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -64,7 +64,9 @@ ht-degree: 100%
    >
    >「@」より前の部分は変更できますが、ドメインアドレスは変更できません。
 
-   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. を展開します。 **[!UICONTROL 返信先フィールド]** 」セクションに入力します。 送信者のアドレスは、デフォルトで返信に使用されます。 カスタマーサポートの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
+
+   ![](assets/email-edit-content-reply-to.png)
 
 1. メールの「**[!UICONTROL 件名]**」を定義します。件名を専用フィールドに直接入力するか、式エディターを開いて、様々な属性とコンテンツブロックまたはオファーを使用してパーソナライゼーションを追加します。[コンテンツをパーソナライズする方法を学ぶ](../personalization/personalize.md)
 
