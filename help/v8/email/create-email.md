@@ -4,7 +4,7 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 883463ef70bfd908ae0ec66863fa61ec2334442b
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 70%
@@ -66,7 +66,7 @@ ht-degree: 70%
 
    ![](assets/email-properties.png)
 
-5. また、タイポロジルールやターゲットマッピングなどの詳細設定には、 **[!UICONTROL 設定]** ボタンをクリックします。 これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。
+1. また、タイポロジルールやターゲットマッピングなどの詳細設定には、 **[!UICONTROL 設定]** ボタンをクリックします。 これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。
 
 ## オーディエンスを定義 {#define-audience}
 
