@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a6d3f7dccbf862017d7dde61ac138ef6a59f05f8
+source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 84%
+source-wordcount: '1487'
+ht-degree: 82%
 
 ---
 
@@ -57,21 +57,6 @@ ht-degree: 84%
 
 Campaign エクスプローラー、フォルダー階層およびリソースについて詳しくは、この [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=ja#ac-explorer-ui){target="_blank"}を参照してください。
 
-
-### コンテキストヘルプ {#user-interface-help}
-
-コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合は、「`?`」アイコンをクリックすると、ヘルプ情報や関連ドキュメントのリンクが表示されます。
-
-![](assets/context-help.png){width="40%" align="left"}
-
-新しいベータ版では、 **Gen AI を備えた知識アシスタント** コンテキストヘルプ内に組み込まれ、膨大なドキュメントリポジトリを簡単に切り替え、必要な正確な情報を即座に特定し、ドキュメントの検索とハウツー質問への回答に革新的に対応します。
-
-![](assets/ask-a-question.png)
-
-
-このアシスタントは、Campaign Gen AI の機能のおかげで、エクスペリエンスを変え、情報の取得や問題解決を簡単におこなえます。 複雑なタスクでのガイダンスを求める場合でも、広範なドキュメントをナビゲートする場合でも、Gen AI を備えた Knowledge Assistant は究極のコンパニオンであり、あらゆる操作で卓越した効率と正確性を提供します。
-
-詳しくは、[こちら](using-ai.md)を参照してください。
 
 
 ### キャンペーン管理 {#user-interface-campaign-management}
@@ -141,6 +126,22 @@ E メールと SMS でオファーを作成して送信する方法について�
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
+
+### コンテキストヘルプ {#user-interface-help}
+
+コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合は、「`?`」アイコンをクリックすると、ヘルプ情報や関連ドキュメントのリンクが表示されます。
+
+![](assets/context-help.png){width="40%" align="left"}
+
+新しいベータ版では、 **Gen AI を備えた知識アシスタント** コンテキストヘルプ内に組み込まれ、膨大なドキュメントリポジトリを簡単に切り替え、必要な正確な情報を即座に特定し、ドキュメントの検索とハウツー質問への回答に革新的に対応します。
+
+![](assets/ask-a-question.png)
+
+
+このアシスタントは、Campaign Gen AI の機能のおかげで、エクスペリエンスを変え、情報の取得や問題解決を簡単におこなえます。 複雑なタスクでのガイダンスを求める場合でも、広範なドキュメントをナビゲートする場合でも、Gen AI を備えた Knowledge Assistant は究極のコンパニオンであり、あらゆる操作で卓越した効率と正確性を提供します。
+
+詳しくは、[こちら](using-ai.md)を参照してください。
+
 ## サポートしているブラウザー {#browsers}
 
 Campaign v8 Web は、最新バージョンの Google Chrome、Safari および Microsoft Edge で最適に動作するように設計されています。古いバージョンや他のブラウザーでは、特定の機能を使用する際に問題が発生する可能性があります。
@@ -149,28 +150,19 @@ Campaign v8 Web は、最新バージョンの Google Chrome、Safari および 
 
 Campaign v8 Web は現在、次の言語で利用できます。
 
-<table>
-<tr>
-<td>
-<p>英語（米国）- EN-US</p>
-<p>フランス語 - FR</p>
-<p>ドイツ語 - DE</p>
-<p>イタリア語 - IT</p>
-</td>
-<td>
-<p>スペイン語 - ES</p>
-<p>ポルトガル語（ブラジル）- PTBR</p>
-<p>日本語 - JP</p>
-</td>
-<td>
-<p>韓国語 - KR</p>
-<p>簡体字中国語 - CHS</p>
-<p>繁体字中国語 - CHT</p>
-</td>
-</tr>
-</table>
+* 英語（米国）- EN-US
+* フランス語 - FR
+* ドイツ語 - DE
+* イタリア語 - IT
+* スペイン語 - ES
+* ポルトガル語（ブラジル）- PTBR
+* 日本語 - JP
+* 韓国語 - KR
+* 簡体字中国語 - CHS
+* 繁体字中国語 - CHT
 
-デフォルトのインターフェイス言語は、ユーザープロファイルで指定された優先言語によって決まります。
+
+Campaign Web のデフォルト言語は、ユーザープロファイルで指定された優先言語によって決まります。 Campaign サーバーとクライアントコンソールの言語とは関係ありません。
 
 言語を変更するには：
 
