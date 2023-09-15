@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
+source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 82%
+source-wordcount: '1509'
+ht-degree: 81%
 
 ---
 
@@ -170,6 +170,9 @@ Campaign Web のデフォルト言語は、ユーザープロファイルで指�
 1. 次に、メールアドレスの下に表示されている言語リンクをクリックします。
 1. 優先言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
 
+## ダークテーマ {#dark-theme}
+
+プロファイルアイコンからダークテーマに切り替えることができます。 以下を使用します。 **ダークテーマ** 有効/無効を切り替えます。
 
 ## 詳細情報 {#learn-more}
 
