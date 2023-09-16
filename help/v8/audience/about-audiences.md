@@ -4,10 +4,10 @@ title: オーディエンスの基本を学ぶ
 description: Campaign web UI でのオーディエンスの使用方法について説明します
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '214'
-ht-degree: 100%
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 98%
 
 ---
 
@@ -40,6 +40,7 @@ control groups like acc: exract, random, based on attribute
 
 オーディエンス母集団を定義するには、次の操作を実行します。
 
+* オーディエンスを作成して組み合わせます。 [詳細情報](create-audience.md)
 * クライアントコンソールでリストとして作成した既存のオーディエンスを選択します。[詳細情報](add-audience.md)
 * Adobe Experience Platform オーディエンスを選択します。[詳細情報](aep-audience.md)
 * フィルタリング条件を定義し組み合わせて、ルールビルダーを使用して新しいオーディエンスを作成します。[詳細情報](segment-builder.md)
