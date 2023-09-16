@@ -3,10 +3,10 @@ audience: end-user
 title: 重複排除ワークフローアクティビティの使用
 description: 重複排除ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
+source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 27%
+source-wordcount: '353'
+ht-degree: 20%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 27%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
->title="重複排除の補集合"
->abstract="未定"
+>title="補集合を生成"
+>abstract="残りの母集団が重複として除外された、追加のアウトバウンドトランジションを生成できます。 これをおこなうには、 **補集合を生成** オプション"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="重複排除設定"
->abstract="未定"
+>abstract="受信データ内の重複を削除するには、以下のフィールドで重複排除方法を定義します。 デフォルトでは、1 つのレコードのみが保持されます。 また、式または属性に基づいて重複排除モードを選択する必要があります。 デフォルトでは、重複から除外するレコードはランダムに選択されます。"
 
 The **重複排除** アクティビティは **ターゲット設定** アクティビティ。 このアクティビティでは、インバウンドアクティビティの結果から重複を削除できます。 The **重複排除** 「 」アクティビティは、通常、ターゲティングアクティビティの後、およびターゲットデータを使用できるアクティビティの前に使用されます。
 
