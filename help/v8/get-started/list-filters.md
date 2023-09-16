@@ -3,10 +3,10 @@ audience: end-user
 title: リストを参照、検索、フィルタリング
 description: Campaign web v8 のリストを参照およびフィルタリングする方法の確認
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="詳細属性を表示"
->abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。この切替スイッチを使用して、詳細属性を備えたフィルターを作成します。"
+>abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。この切り替えを使用して、詳細属性を表示します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
