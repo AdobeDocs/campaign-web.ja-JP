@@ -3,20 +3,15 @@ audience: end-user
 title: オーディエンスの監視と管理
 description: Adobe Campaign Web でオーディエンスを監視および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 9%
+source-wordcount: '239'
+ht-degree: 7%
 
 ---
 
 
 # オーディエンスの監視と管理 {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="このオーディエンスは読み取り専用です"
->abstract="このオーディエンスを編集する権限がありません。 必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
 
 Campaign Web で使用できるオーディエンスのリストには、 **[!UICONTROL オーディエンス]** メニュー。
 

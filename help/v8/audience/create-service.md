@@ -3,20 +3,15 @@ audience: end-user
 title: 購読サービスの使用
 description: Adobe Campaign Web でサービスを作成する方法を説明します
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 8%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
 
 # 購読サービスの使用 {#create-services}
-
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="このサービスは読み取り専用です"
->abstract="このサービスを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"

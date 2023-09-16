@@ -3,16 +3,15 @@ audience: end-user
 title: Campaign web での権限管理
 description: Campaign web v8 の権限について説明します
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 33%
+source-wordcount: '604'
+ht-degree: 45%
 
 ---
 
 
 # アクセスと権限 {#access-and-permissions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
@@ -20,6 +19,38 @@ ht-degree: 33%
 >abstract="このオブジェクトを作成する前に、管理者から権限が付与されている必要があります。"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="このオーディエンスは読み取り専用です"
+>abstract="このオーディエンスを編集する権限がありません。 必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="このサービスは読み取り専用です"
+>abstract="このサービスを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="このキャンペーンは読み取り専用です"
+>abstract="このキャンペーンを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="この配信は読み取り専用です"
+>abstract="この配信を編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="このワークフローは読み取り専用です"
+>abstract="このワークフローを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="このワークフローは読み取り専用です"
+>abstract="キャンバスがサポートされていないか、キャンバスに互換性がないので、このワークフローを編集できません。"
 
 アクセス制御では、配信、受信者、ワークフローなどのメインリストからのオブジェクトやデータへのアクセスを制限できます。また、これらの制限は、エクスプローラーのナビゲーションツリーにも適用されます。さらに、ユーザーインターフェイスからオブジェクトを作成、削除、複製、編集する権限が必要です。
 
@@ -30,7 +61,6 @@ Campaign の Web ユーザーインターフェイスを参照している間、
 ## 権限を表示 {#view-permissions}
 
 次から： **エクスプローラ**&#x200B;を使用すると、各フォルダーに対する権限を参照できます。 これらの権限はクライアントコンソールで設定され、Campaign データへのアクセスを整理および制御するために使用されます。
-
 
 フォルダーの権限を表示するには、次の手順に従います。
 
