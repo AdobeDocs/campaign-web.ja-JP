@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 81%
+source-wordcount: '1321'
+ht-degree: 77%
 
 ---
 
@@ -61,13 +61,6 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
 ### キャンペーン管理 {#user-interface-campaign-management}
 
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="キャンペーン"
->abstract="これはキャンペーンのリストです。キャンペーンの開始日／終了日／最終変更日やステータスなどの有用な情報を確認できます。リストは、ステータスまたは開始日／終了日でフィルタリングできます。「キャンペーンを作成」ボタンをクリックして、新しいキャンペーンを追加します。キャンペーンを選択して、そのコンテンツ、配信および詳細を表示します。「テンプレート」タブを参照して、テンプレートを表示および作成します。"
-
-
-
 「キャンペーン管理」セクションでは、マーケティングキャンペーン、配信およびワークフローにアクセスできます。
 
 * **キャンペーン** - キャンペーンのリストとキャンペーンテンプレートです。デフォルトでは、各キャンペーンの開始日／終了日／作成日／最終変更日、現在のステータス、キャンペーンを作成した Campaign オペレーターの名前を表示できます。ステータス、開始日／終了日、フォルダーでリストをフィルタリングしたり、詳細フィルターを作成して独自のフィルタリング条件を定義したりできます。キャンケーンの詳細については、[この節](../campaigns/gs-campaigns.md)を参照してください。
@@ -83,13 +76,6 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
 ### 顧客管理 {#user-interface-customer-management}
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="オーディエンス"
->abstract="これはオーディエンスのリストです。オーディエンスのタイプ、接触チャネル、作成日／最終変更日およびラベルを確認できます。このリストは接触チャネルでフィルタリングできます。このリストは読み取り専用です。"
-
-
 「顧客管理」セクションでは、受信者、オーディエンスおよび購読を表示できます。これらのリストは読み取り専用です。
 
 * **受信者** - 受信者データベースにアクセスできます。デフォルトでは、メールアドレス、名前（名）および名前（姓）が表示されます。受信者の詳細については、 [この節](../audience/about-recipients.md).
@@ -102,6 +88,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 >id="acw_offers_list"
 >title="オファー"
 >abstract="インタラクションオファーのリストを閲覧できます。デフォルトでは、オファーのステータス、開始日／終了日および環境が表示されます。このリストは、ステータスや開始日／終了日でフィルタリングできます。オファーテンプレートも使用できます。これらのリストは読み取り専用です。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="配信にオファーを追加"
 
 * **オファー** - インタラクションオファーのリストを閲覧できます。デフォルトでは、オファーのステータス、開始日／終了日および環境が表示されます。このリストは、ステータスや開始日／終了日でフィルタリングできます。オファーテンプレートも使用できます。これらのリストは読み取り専用です。
 
@@ -122,16 +109,13 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-### コンテキストヘルプ {#user-interface-help}
+## コンテキストヘルプ {#user-interface-help}
 
 コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合は、「`?`」アイコンをクリックすると、ヘルプ情報や関連ドキュメントのリンクが表示されます。
 
 ![](assets/context-help.png){width="40%" align="left"}
 
 新しいベータ版では、 **Gen AI を備えた知識アシスタント** コンテキストヘルプ内に組み込まれ、膨大なドキュメントリポジトリを簡単に切り替え、必要な正確な情報を即座に特定し、ドキュメントの検索とハウツー質問への回答に革新的に対応します。
-
-![](assets/ask-a-question.png)
-
 
 このアシスタントは、Campaign Gen AI の機能のおかげで、エクスペリエンスを変え、情報の取得や問題解決を簡単におこなえます。 複雑なタスクでのガイダンスを求める場合でも、広範なドキュメントをナビゲートする場合でも、Gen AI を備えた Knowledge Assistant は究極のコンパニオンであり、あらゆる操作で卓越した効率と正確性を提供します。
 
@@ -223,28 +207,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="権限が必要です"
 >abstract="セグメントを作成するには、管理者から権限が付与されている必要があります。"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="このキャンペーンは読み取り専用です"
->abstract="このキャンペーンを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="この配信は読み取り専用です"
->abstract="この配信を編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
-
 <!-- Workflows-->
 
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="このワークフローは読み取り専用です"
->abstract="このワークフローを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="このワークフローは読み取り専用です"
->abstract="キャンバスがサポートされていないか、キャンバスに互換性がないので、このワークフローを編集できません。"
 
 <!-- delivery template settings-->
 
