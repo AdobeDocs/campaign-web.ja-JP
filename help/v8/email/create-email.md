@@ -4,9 +4,9 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 883463ef70bfd908ae0ec66863fa61ec2334442b
+source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1352'
 ht-degree: 70%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 70%
 >id="acw_deliveries_email_audience"
 >title="配信用のオーディエンスを選択"
 >abstract="マーケティングメッセージに最適なオーディエンスを選択します。(Campaign v8 インスタンスまたはAdobe Experience Platformで既に定義されている ) 既存のオーディエンスを選択したり、ルールビルダーを使用して新しいオーディエンスを作成したり、オーディエンスを含むファイルをアップロードしたりできます。 コントロール母集団が **ファイルから選択** オプションとその逆。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="ターゲットオーディエンス"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="メインオーディエンスを選択"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="コントロール母集団を設定"
 
 このユースケースでは、既存のオーディエンスにメールを送信します。
