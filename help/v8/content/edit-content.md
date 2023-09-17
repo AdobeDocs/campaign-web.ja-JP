@@ -4,9 +4,9 @@ title: メールコンテンツの編集
 description: Campaign web UI でメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '572'
 ht-degree: 90%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 90%
    >
    >「@」より前の部分は変更できますが、ドメインアドレスは変更できません。
 
-1. を展開します。 **[!UICONTROL 返信先フィールド]** 」セクションに入力します。 送信者のアドレスは、デフォルトで返信に使用されます。 カスタマーサポートの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
+1. を展開します。 **[!UICONTROL 返信先フィールド]** 」セクションに入力します。 送信者の名前とアドレスは、デフォルトで返信に使用されます。 カスタマーサポートの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
 
    ![](assets/email-edit-content-reply-to.png)
 

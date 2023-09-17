@@ -4,10 +4,10 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 70%
+source-wordcount: '1354'
+ht-degree: 69%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 70%
 
    ![](assets/email-properties.png)
 
-1. また、タイポロジルールやターゲットマッピングなどの詳細設定には、 **[!UICONTROL 設定]** ボタンをクリックします。 これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。
+1. また、タイポロジルールやターゲットマッピングなどの詳細設定には、 **[!UICONTROL 設定]** ボタンをクリックします。 これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。[詳細情報](../advanced-settings/delivery-settings.md)
 
 ## オーディエンスを定義 {#define-audience}
 
@@ -157,7 +157,7 @@ E メールの送信をスケジュールするには、次の手順に従いま
 
 1. メールを確認するには、「**[!UICONTROL 確認して送信]**」をクリックします。これによりメールのプレビューが、設定済みのすべてのプロパティ、オーディエンス、スケジュールと共に表示されます。「変更」ボタンをクリックして、これらの要素を編集できます。
 
-1. メールをプレビューしてテストバージョンを送信するには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
+1. E メールをプレビューしてテストバージョンを送信するには、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
 
    ![](assets/review-email.png)
 

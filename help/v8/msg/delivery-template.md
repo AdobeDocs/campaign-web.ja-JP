@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 91%
+source-wordcount: '1014'
+ht-degree: 88%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 91%
 
 テンプレートには、次の項目を含めることができます。
 
-* [タイポロジ](../advanced-settings/delivery-settings.md#typology)
-* 送信者のアドレス
-* [オーディエンス ](../audience/about-audiences.md)（[コントロール母集団](../audience/control-group.md)を含む）
-* カスタム[コンテンツ](../content/edit-content.md)
-* [パーソナライズされたフィールド](../personalization/personalize.md)と[条件付きコンテンツ](../personalization/conditions.md)
-* [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md)
+* [タイポロジ](../advanced-settings/delivery-settings.md#typology),
+* 送信者のアドレス,
+* An [audience](../audience/about-audiences.md)を含む [コントロール母集団](../audience/control-group.md),
+* カスタム[コンテンツ](../content/edit-content.md),
+* [パーソナライズされたフィールド](../personalization/personalize.md)と[条件付きコンテンツ](../personalization/conditions.md),
+* [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md),
 * リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。
 
 >[!NOTE]
@@ -159,6 +159,8 @@ ht-degree: 91%
    > * [メールチャネル](../email/create-email.md)
    > * [プッシュ通知チャネル](../push/gs-push.md)
    > * [SMS チャネル](../sms/create-sms.md)
+
+1. また、電子メールテンプレートの場合、タイポロジルールやターゲットマッピングなどの詳細設定には、 **[!UICONTROL 設定]** ボタンをクリックします。 [詳細情報](../advanced-settings/delivery-settings.md)
 
 1. 「**[!UICONTROL レビュー]**」ボタンをクリックしてテンプレートを保存およびレビューします。すべての設定を編集、削除および複製できます。
 
