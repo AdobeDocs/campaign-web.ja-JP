@@ -3,9 +3,9 @@ audience: end-user
 title: スケジューラーワークフローアクティビティを使用
 description: スケジューラーワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '519'
 ht-degree: 15%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 15%
 
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_options"
+>id="acw_orchestration_scheduler"
 >title="スケジューラーアクティビティ"
->abstract="The **スケジューラ** アクティビティは **フロー制御** アクティビティ。 ワークフローを開始するタイミングを指定できます。 このアクティビティは、予定されている開始と見なされます。 ワークフローの最初のアクティビティとしてのみ使用できます。"
+>abstract="The **スケジューラ** 「 」アクティビティを使用すると、ワークフローを開始する日時を指定できます。 このアクティビティは、予定されている開始と見なされます。 ワークフローの最初のアクティビティとしてのみ使用できます。"
 
 
 The **スケジューラ** アクティビティは **フロー制御** アクティビティ。 ワークフローを開始するタイミングを指定できます。 このアクティビティは、予定されている開始と見なされます。 ワークフローの最初のアクティビティとしてのみ使用できます。
@@ -33,7 +33,13 @@ The **スケジューラ** アクティビティは **フロー制御** アク�
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
 >title="スケジューラーの有効性"
->abstract="スケジューラーの有効期間を定義できます。 永続的に指定することも、特定の日付まで有効にすることもできます。"
+>abstract="スケジューラーの有効期間を定義できます。 永続的な値（デフォルト）にすることも、特定の日付まで有効にすることもできます。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="スケジューラーオプション"
+>abstract="スケジューラーの頻度を定義します。 特定の時点で、1 日、1 週間、1 ヶ月に 1 回、または数回実行できます。"
 
 次の手順に従って、 **スケジューラ** アクティビティ：
 

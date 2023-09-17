@@ -3,10 +3,10 @@ audience: end-user
 title: 待機ワークフローアクティビティの使用
 description: 待機ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 91%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
->title="待機"
->abstract="**待機**&#x200B;アクティビティは、**フロー制御**&#x200B;アクティビティです。これは、実行する 2 つのアクティビティ間に一定の時間間隔を設定するために使用します。"
+>title="待機アクティビティ"
+>abstract="The **待機** 「 」アクティビティは、「 」アクティビティから「 」アクティビティへの切り替えを遅らせる場合に使用します。"
 
 
 **待機**&#x200B;アクティビティは、**フロー制御**&#x200B;アクティビティです。これは、実行する 2 つのアクティビティ間に一定の時間間隔を設定するために使用します。例えば、メール配信アクティビティを実行したあと数日間待機し、この期間中に発生した開封数とクリック数を分析してから、フォローアップ操作（リマインダーメール、オーディエンスの作成など）を実行します。
