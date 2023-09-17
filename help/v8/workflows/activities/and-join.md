@@ -3,10 +3,10 @@ audience: end-user
 title: AND 結合ワークフローアクティビティの使用
 description: AND 結合アクティビティワークフローの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 95%
+source-wordcount: '254'
+ht-degree: 84%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="「AND 結合」アクティビティ"
->abstract="**AND 結合**&#x200B;アクティビティは、**フロー制御**&#x200B;アクティビティです。これを使用すると、ワークフローの複数の実行分岐を同期できます。"
-
-
+>abstract="**AND 結合**&#x200B;アクティビティを使用すると、ワークフローの複数の実行分岐を同期できます。前のアクティビティがすべて完了するとトリガーされます。 これにより、ワークフローを続行する前に、特定のアクティビティが確実に完了していることを確認できます。"
 
 **AND 結合**&#x200B;アクティビティは、**フロー制御**&#x200B;アクティビティです。これを使用すると、ワークフローの複数の実行分岐を同期できます。
 

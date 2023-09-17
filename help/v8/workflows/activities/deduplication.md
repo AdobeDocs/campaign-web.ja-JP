@@ -3,15 +3,15 @@ audience: end-user
 title: 重複排除ワークフローアクティビティの使用
 description: 重複排除ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: bf98ca98510f51fb7496a380f6547b0d3e954006
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 20%
+source-wordcount: '387'
+ht-degree: 19%
 
 ---
 
 
-# 重複の除外 {#deduplication}
+# 重複排除 {#deduplication}
 
 <!--
 >[!CONTEXTUALHELP]
@@ -19,6 +19,13 @@ ht-degree: 20%
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication"
+>title="重複排除アクティビティ"
+>abstract="The **重複排除** 「 」アクティビティでは、インバウンドアクティビティの結果から重複を削除できます。 主に、ターゲティングアクティビティの後、およびターゲットデータを使用できるアクティビティの前に使用されます。"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
