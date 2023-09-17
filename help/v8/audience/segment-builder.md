@@ -3,8 +3,8 @@ audience: end-user
 title: Campaign のルールビルダーを使用してオーディエンスを作成
 description: ルールビルダーの操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="ベータ版"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+badge: label="Beta"
+source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 89%
@@ -12,7 +12,6 @@ ht-degree: 89%
 ---
 
 # ルールビルダーを使用したオーディエンスを定義 {#segment-builder}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
