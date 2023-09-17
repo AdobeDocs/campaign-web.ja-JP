@@ -4,10 +4,10 @@ title: メールコンテンツの編集
 description: Campaign web UI でメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 90%
+source-wordcount: '593'
+ht-degree: 82%
 
 ---
 
@@ -20,18 +20,19 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="メールパラメーター"
->abstract="送信者名と送信元メールの値は、メールテンプレートで定義します。件名は、式エディターを使用してパーソナライズできます。"
+>title="E メールの基本プロパティを設定します"
+>abstract="The **基本的な詳細** 「 」セクションでは、送信者のアドレスと返信先のアドレスを更新し、式エディターを使用して件名行を定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="メール添付ファイル"
+>title="メールにファイルを添付する"
 >abstract="メッセージに挿入する 1 つ以上のファイルを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="トラッキングオプション"
+>title="トラッキングを編集"
 >abstract="デフォルトでは、配信のトラッキングが有効になっています。ここからこのオプションを無効にできます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="リンクの追加とメッセージのトラッキング"
 
 メールの&#x200B;**[!UICONTROL コンテンツを編集]**&#x200B;画面では、次の操作を実行できます。
 * 送信者のアドレスや件名など、メッセージの基本要素を定義する
