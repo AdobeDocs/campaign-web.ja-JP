@@ -4,7 +4,7 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 9ca961b9e4536f6809129a6bafd496c5c191ce43
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 69%
@@ -21,7 +21,7 @@ ht-degree: 69%
 
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 
-事前定義済みに基づく [デザインテンプレート](../content/email-templates.md)の場合、E メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
+事前定義済みに基づく [デザインテンプレート](../content/email-sample-templates.md)の場合、E メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
 
 ## メール配信の作成 {#create-email}
 
