@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 88%
+source-wordcount: '1020'
+ht-degree: 87%
 
 ---
 
@@ -32,9 +32,15 @@ ht-degree: 88%
 * [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md),
 * リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。
 
+<!--
 >[!NOTE]
 >
->配信テンプレートは、 [電子メールコンテンツテンプレート](../content/email-templates.md)：メッセージのコンテンツのみを再利用できます。
+>Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
+
+>[!NOTE]
+>
+>配信テンプレートは、 [コンテンツテンプレート](../content/email-sample-templates.md)：標準で用意されているサンプルの電子メールテンプレートの 1 つを使用して、コンテンツの作成を開始できます。
+
 
 ## 配信テンプレートへのアクセスと管理 {#access-manage-templates}
 

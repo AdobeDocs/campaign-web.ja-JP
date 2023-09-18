@@ -4,7 +4,7 @@ product: campaign
 title: メールテンプレートの操作
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 88%
@@ -28,7 +28,6 @@ ht-degree: 88%
 >[!NOTE]
 >
 >E メールコンテンツテンプレートは、 [配信テンプレート](../msg/delivery-template.md). E メールコンテンツのみを再利用できます。配信テンプレートは、配信コンテンツを再利用するのに使用できますが、すべての配信設定およびタイポロジ、送信者のアドレス、オーディエンスなどのプロパティも再利用できます。
-
 
 ## テンプレートの使用 {#use-templates}
 

@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '418'
 ht-degree: 88%
 
 ---
@@ -40,7 +40,6 @@ ht-degree: 88%
             + [メールコンテンツの読み込み](content/existing-content.md)
             + [独自コンテンツのコーディング](content/code-content.md)
             + [メールコンテンツテンプレートの使用](content/email-sample-templates.md)
-            + [メールテンプレートの操作](content/email-templates.md)
          + コンテンツをデザイン {#design-content}
             + [コンテンツコンポーネントの使用](content/content-components.md)
             + [リンクの追加とメッセージのトラッキング](content/message-tracking.md)
