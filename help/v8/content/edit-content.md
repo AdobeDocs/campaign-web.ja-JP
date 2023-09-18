@@ -4,10 +4,10 @@ title: メールコンテンツの編集
 description: Campaign web UI でメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 80%
+source-wordcount: '633'
+ht-degree: 75%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 80%
 * 添付ファイルの追加やオファーの設定など、追加のアクションを実行する
 * [メールデザイナー](get-started-email-designer.md#start-authoring)にアクセスして、適切なメールのコンテンツの作成を開始する
 
+>[!NOTE]
+>
+>この画面のすべての編集可能なテキストフィールドは、パーソナライゼーションフィールドを使用して入力できます。 [コンテンツをパーソナライズする方法を学ぶ](../personalization/personalize.md)
+
 メールのコンテンツを設定または編集するには、次の手順に従います。
 
 1. [メール配信ダッシュボード](../email/create-email.md)画面で「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
@@ -69,7 +73,7 @@ ht-degree: 80%
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. メールの「**[!UICONTROL 件名]**」を定義します。件名を専用フィールドに直接入力するか、式エディターを開いて、様々な属性とコンテンツブロックまたはオファーを使用してパーソナライゼーションを追加します。[コンテンツをパーソナライズする方法を学ぶ](../personalization/personalize.md)
+1. メールの「**[!UICONTROL 件名]**」を定義します。専用のフィールドに件名を直接入力するか、式エディターを開いて追加します。 [パーソナライゼーション](../personalization/personalize.md) 様々な属性やコンテンツブロック、またはオファーを使用する。
 
 1. メールにファイルを添付する場合は、「**[!UICONTROL 添付ファイルを追加]**」ボタンをクリックして、1 つまたは複数のファイルを選択します。
 
