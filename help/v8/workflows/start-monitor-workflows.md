@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
+source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 88%
 |-----|------------|
 | ![](assets/activity-status-pending.png){width="70%"} | このアクティビティは現在実行中です。 |
 | ![](assets/activity-status-orange.png){width="70%"} | このアクティビティには注意が必要です。これには、配信の送信確認や、必要なアクションの実行が含まれる場合があります。 |
-| ![](assets/activity-status-red.png){width="70%"} | アクティビティでエラーが発生しました。この問題を解決するには、ワークフローのログを開いて詳細を確認します。 |
+| ![](assets/activity-status-red.png){width="70%"} | アクティビティでエラーが発生しました。 この問題を解決するには、ワークフローのログを開いて詳細を確認します。 |
 | ![](assets/activity-status-green.png){width="70%"} | アクティビティが正常に実行されました。 |
 
 ## ログとタスクを監視 {#logs-tasks}
