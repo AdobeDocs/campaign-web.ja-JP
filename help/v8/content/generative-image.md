@@ -3,9 +3,9 @@ audience: end-user
 title: コンテンツアシスタントを使用した画像の生成
 description: コンテンツアシスタントの概要
 badge: label="Beta"
-source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
+source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '315'
 ht-degree: 2%
 
 ---
@@ -33,9 +33,9 @@ E メールを作成し、パーソナライズした後は、生成 AI を活�
 
    ![](assets/image-genai-2.png)
 
-1. 選択 **[!UICONTROL ファイルをアップロード]** マーケティング概要を追加して、コンテンツアシスタントの詳細なコンテキストを表示する場合。
+1. 選択 **[!UICONTROL ファイルをアップロード]** コンテンツアシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加する場合。
 
-   また、 **[!UICONTROL アップロードされたコンテンツ]** をクリックして、以前に更新したファイルを検索します。
+   また、 **[!UICONTROL アップロードされたコンテンツ]** をクリックして、以前に更新したファイルを検索します。 アップロードしたコンテンツは、現在のユーザーのみが再利用できることに注意してください。
 
 1. を選択します。 **[!UICONTROL 縦横比]** を設定します。 これにより、アセットの幅と高さが決まります。
 
