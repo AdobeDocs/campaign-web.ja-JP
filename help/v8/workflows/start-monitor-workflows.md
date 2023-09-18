@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 88%
 
 ---
 
@@ -29,16 +29,27 @@ ht-degree: 100%
 >
 >視覚的なフローを無効にするには、キャンバスの上部のアクションバーにある「**[!UICONTROL 進行状況を非表示]**」ボタンをクリックします。
 
+## ワークフロートランジション {#transitions}
+
+ワークフローでは、トランジションを通じて 1 つのアクティビティから別のアクティビティに転送されたデータは、一時的な作業用テーブルに保存されます。
+
+このデータは、トランジションごとに表示できます。 これをおこなうには、トランジションを選択して、画面の右側でそのプロパティを開きます。
+
+* クリック **[!UICONTROL スキーマをプレビュー]** をクリックして、作業用テーブルのスキーマを表示します。
+* クリック **[!UICONTROL 結果をプレビュー]** 選択したトランジションで転送されたデータを視覚化します。
+
+![](assets/transition.png)
+
 ## アクティビティ実行を監視 {#activities}
 
 各アクティビティボックスの右上隅にある視覚的な指標を使用すると、アクティビティの実行を確認できます。
 
 | 視覚的な指標 | 説明 |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | このアクティビティは現在実行中です。 |
-| ![](assets/activity-status-orange.png) | このアクティビティには注意が必要です。これには、配信の送信確認や、必要なアクションの実行が含まれる場合があります。 |
-| ![](assets/activity-status-red.png) | アクティビティでエラーが発生しました。この問題を解決するには、ワークフローのログを開いて詳細を確認します。 |
-| ![](assets/activity-status-green.png) | アクティビティが正常に実行されました。 |
+| ![](assets/activity-status-pending.png){width="70%"} | このアクティビティは現在実行中です。 |
+| ![](assets/activity-status-orange.png){width="70%"} | このアクティビティには注意が必要です。これには、配信の送信確認や、必要なアクションの実行が含まれる場合があります。 |
+| ![](assets/activity-status-red.png){width="70%"} | アクティビティでエラーが発生しました。この問題を解決するには、ワークフローのログを開いて詳細を確認します。 |
+| ![](assets/activity-status-green.png){width="70%"} | アクティビティが正常に実行されました。 |
 
 ## ログとタスクを監視 {#logs-tasks}
 
