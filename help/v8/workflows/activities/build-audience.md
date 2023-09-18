@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスを作成ワークフローアクティビティの使用
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 61%
+source-wordcount: '485'
+ht-degree: 62%
 
 ---
 
@@ -64,7 +64,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!IMPORTANT]
 >
->複数の **[!UICONTROL オーディエンスの構築]** ワークフローのアクティビティにExperience Platformオーディエンスを含めるには、 **[!UICONTROL ディメンションを変更]** アクティビティを作成し、すべてのオーディエンスが「受信者」ターゲティングディメンションに属していることを確認します。 このページの下部には、ワークフローの例が表示されます。
+>を使用する場合、 **[!UICONTROL オーディエンスの構築]** Experience Platformオーディエンスをターゲットとするアクティビティには、 **[!UICONTROL ディメンションを変更]** アクティビティを作成して、オーディエンスのターゲティングディメンションが「受信者」に設定されていることを確認します。 このページの下部には、ワークフローの例が表示されます。
 
 ## 例
 
