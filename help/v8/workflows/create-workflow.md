@@ -4,7 +4,7 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法を説明します
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 8%
@@ -23,7 +23,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="キャンペーン内のワークフローのリスト"
->abstract="The **配信** 「 」タブには、現在のキャンペーンにリンクされているすべてのワークフローが表示されます。 編集するワークフローの名前をクリックします。 「ワークフローを作成」ボタンを使用して、このキャンペーン用の新しいワークフローを追加します。"
+>abstract="The **ワークフロー** 「 」タブには、現在のキャンペーンにリンクされているすべてのワークフローが表示されます。 編集するワークフローの名前をクリックします。 以下を使用します。 **ワークフローを作成** ボタンをクリックして、このキャンペーン用の新しいワークフローを追加します。"
 
 
 スタンドアロンのワークフロー、またはキャンペーン内にワークフローを作成できます。 最初の手順では、テンプレートを選択し、その一般的なプロパティを定義します。 その後、必要に応じて追加の設定を行うことができます。
