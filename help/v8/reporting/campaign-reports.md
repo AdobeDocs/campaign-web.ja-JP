@@ -3,14 +3,34 @@ audience: end-user
 title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
-source-wordcount: '1753'
-ht-degree: 100%
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+workflow-type: tm+mt
+source-wordcount: '1853'
+ht-degree: 95%
 
 ---
 
 # キャンペーンレポート {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="送信のレポート"
+>abstract="レポート内の「送信中」タブには、訪問者の配信とのやり取りに関する詳細なインサイトと、発生した可能性のあるエラーが表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="追跡のレポート"
+>abstract="レポート内の「送信」タブには、受信者のリンクごとの行動、開封数およびクリック数の分類、配信中に最も頻繁にクリックされた URL に関する詳細情報など、有用なデータが表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="配信の概要"
+>abstract="配信の概要は、訪問者が E メール配信にどのように関与しているかに関する詳細な情報を提供する主要業績評価指標 (KPI) を示します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="初期ターゲットオーディエンス統計"
+>abstract="「初期ターゲットオーディエンス統計」の表には、受信者に関するデータが表示されます"
 
 キャンペーンレポートは、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。
 

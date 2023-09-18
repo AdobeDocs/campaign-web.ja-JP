@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 74%
+source-wordcount: '1278'
+ht-degree: 73%
 
 ---
 
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="エンリッチメントデータ"
 >abstract="未定"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="送信のレポート"
->abstract="キャンペーンレポートの送信指標を参照してください。"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="追跡のレポート"
->abstract="キャンペーンレポートについては、トラッキング指標を参照してください。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="概要のレポート"
->abstract="配信の主要指標です。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="ターゲット統計のレポート"
->abstract="このセクションには、オーディエンスに応じた特定の指標が表示されます。"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="配信の集計レポート"
->abstract="集計データレポートを表示する配信を 2 つ以上選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="グローバルレポートのトラッキング"
 >abstract="トラッキングレポート指標は、この画面に表示されます"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
