@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 90%
+source-wordcount: '903'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 これらの設定は、ワークフローの作成時に選択したテンプレートで事前に設定されていますが、この特定のワークフローで必要に応じて編集できます。
 
-これを行うには、ワークフローラベルの横に表示されるキャンバスの左上隅の「**[!UICONTROL ワークフロー設定]**」アイコンをクリックします。
+これをおこなうには、 **[!UICONTROL 設定]** ワークフローキャンバスの上にあるアクションバーで使用できるボタン。
 
 ![](assets/workflow-settings.png)
 
