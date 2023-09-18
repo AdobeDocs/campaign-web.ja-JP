@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスを作成ワークフローアクティビティの使用
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 77%
+source-wordcount: '488'
+ht-degree: 61%
 
 ---
 
@@ -62,8 +62,16 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 「**続行**」をクリックします。
 1. 新しいメールをデザインする際にオーディエンスを使用するのと同じ方法で、オーディエンスを選択します。[こちら](../../audience/add-audience.md)を参照してください。
 
+>[!IMPORTANT]
+>
+>複数の **[!UICONTROL オーディエンスの構築]** ワークフローのアクティビティにExperience Platformオーディエンスを含めるには、 **[!UICONTROL ディメンションを変更]** アクティビティを作成し、すべてのオーディエンスが「受信者」ターゲティングディメンションに属していることを確認します。 このページの下部には、ワークフローの例が表示されます。
+
 ## 例
 
 2 つの&#x200B;**オーディエンスを作成**&#x200B;アクティビティを使用したワークフローの例を次に示します。最初のアクティビティは、ポーカープレーヤーのオーディエンスをターゲットにし、次にメール配信が続きます。2 番目のアクティビティは VIP クライアントオーディエンスをターゲットにし、次に SMS 配信が続きます。
 
 ![](../assets/workflow-audience-example.png)
+
+Adobe Experience PlatformオーディエンスとAdobe Campaignオーディエンスを組み合わせた別のワークフローの例を以下に示します。 これらのオーディエンスを組み合わせるには、 **[!UICONTROL ディメンションを変更]** 「受信者」ターゲティングディメンションを含むアクティビティは、Adobe Experience Platformオーディエンスの後に追加されます。 [「ディメンションを変更」アクティビティの設定方法を説明します](change-dimension.md)
+
+![](../assets/workflow-audience-aep.png)
