@@ -4,7 +4,7 @@ title: Adobe Experience Platform オーディエンスの使用
 description: Adobe Experience Platform のオーディエンスの使用方法
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
+source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 97%
@@ -52,5 +52,3 @@ Adobe Experience Platform オーディエンスを作成し、クライアント
 1. ルールビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](segment-builder.md)を参照してください。
 
 1. 「**保存**」をクリックします。
-
-
