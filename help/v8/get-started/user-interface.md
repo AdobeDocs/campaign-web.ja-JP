@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 73%
+source-wordcount: '1275'
+ht-degree: 72%
 
 ---
 
@@ -165,13 +165,6 @@ Campaign 環境で使用可能なリストを参照、検索、フィルタリ�
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
-
-
->[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_enrichmentdata"
->title="エンリッチメントデータ"
->abstract="未定"
-
 
 
 >[!CONTEXTUALHELP]
