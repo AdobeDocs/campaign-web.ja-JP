@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
+source-git-commit: 2cd42206ffd0ef758cc39db4e79a34f10e03588a
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 88%
+source-wordcount: '422'
+ht-degree: 87%
 
 ---
 
@@ -98,6 +98,7 @@ ht-degree: 88%
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
    + [キャンペーンへのアクセスと管理](campaigns/manage-campaigns.md)
    + [最初のキャンペーンを作成](campaigns/create-campaigns.md)
+   + [キャンペーンテンプレートの使用](campaigns/manage-campaign-templates.md)
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
    + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
