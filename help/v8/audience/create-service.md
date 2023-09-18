@@ -3,9 +3,9 @@ audience: end-user
 title: 購読サービスの使用
 description: Adobe Campaign Web でサービスを作成および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
+source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1019'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,9 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
 ## 購読サービスへのアクセス {#access-services}
 
-1. お使いのプラットフォームで使用可能な購読サービスにアクセスするには、 **[!UICONTROL 購読サービス]** メニューを使用します。
+お使いのプラットフォームで使用可能な購読サービスにアクセスするには、次の手順に従います。
+
+1. 次を参照： **[!UICONTROL 購読サービス]** メニューを使用します。
 
    ![](assets/service-list.png)
 
@@ -66,7 +68,7 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
    ![](assets/service-create-properties.png)
 
-1. デフォルトでは、購読は無制限です。次の項目を無効にすることができます。 **[!UICONTROL 無制限の有効期間]** オプションを使用して、サービスの有効期間を定義します。 次の例では、20 日後に、誰もこのサービスを購読できなくなります。
+1. デフォルトでは、購読は無制限です。次の項目を無効にすることができます。 **[!UICONTROL 無制限の有効期間]** オプションを使用して、サービスの有効期間を定義します。 次の例では、20 日後に、このサービスを購読できるユーザーはいなくなります。
 
    ![](assets/service-create-validity-period.png)
 
@@ -76,13 +78,13 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
 1. クリック **[!UICONTROL 保存してレビュー]**. 新しいサービスが **[!UICONTROL 購読サービス]** リスト。
 
-### 確認メッセージの作成 {#create-confirmation-message}
+## 確認メッセージの作成 {#create-confirmation-message}
 
 サービスを購読または購読解除するユーザーに確認メッセージを送信するには、 **[!UICONTROL 購読]** ターゲットマッピング（定義済みのターゲットなし） これを行うには、以下の手順に従います。
 
 1. 購読確認用の配信テンプレートを作成します。 方法については、[こちら](../msg/delivery-template.md)を参照してください。
 
-1. この配信のオーディエンスを選択しないでください。 代わりに、 **[!UICONTROL 配信設定]**、に移動します。 [対象ユーザ](../advanced-settings/delivery-settings.md#audience) 」タブで「 **[!UICONTROL 購読]** ターゲットマッピング。
+1. この配信のオーディエンスを選択しないでください。 代わりに、 **[!UICONTROL 配信設定]**、に移動します。 [対象ユーザ](../advanced-settings/delivery-settings.md#audience) 」タブで「 **[!UICONTROL 購読]** ターゲットマッピングをリストから取得します。
 
    ![](assets/service-confirmation-template-mapping.png)
 
@@ -102,7 +104,7 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
 これで、次の場合にこれらのメッセージを選択できます。 [購読サービスの作成](#create-service). そのサービスを購読または購読解除するユーザーには、選択した確認メッセージが表示されます。
 
-## サービスへの購読者の追加
+## サービスへの購読者の追加 {#add-subscribers}
 
 サービスを作成したら、購読者を手動で追加できます。 次の手順に従います。
 
@@ -116,11 +118,27 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. 選択した受信者が購読を受け取ります [確認メッセージ](#create-confirmation-message) 選択した日時 [サービスの作成](#create-service). クリック **[!UICONTROL 送信]**.
+1. クリック **[!UICONTROL 送信]**. 選択した受信者が購読を受け取ります [確認メッセージ](#create-confirmation-message) 選択した日時 [サービスの作成](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
 追加されたプロファイルは、「 **[!UICONTROL 購読者]** リスト。 これで、サービスが購読されました。
+
+## サービスから購読者を削除する {#remove-subscribers}
+
+サービスに購読者を追加したら、それらを削除できます。 次の手順に従います。
+
+1. 次の中から既存のサービスを選択します： **[!UICONTROL 購読サービス]** リスト。
+
+1. 目的の受信者名の横にある 3 つのドットのアイコンをクリックし、「 」を選択します。 **[!UICONTROL 削除]**.
+
+   ![](assets/service-subscribers-delete.png)
+
+1. 削除を確定し、「 **[!UICONTROL 送信]**. 選択した受信者が購読解除を受け取ります [確認メッセージ](#create-confirmation-message) 選択した日時 [サービスの作成](#create-service).
+
+   ![](assets/service-subscribers-delete-confirmation.png)
+
+受信者が **[!UICONTROL 購読者]** リストに登録され、サービスの購読登録が解除されました。
 
 ## 購読サービスのログとレポート {#logs-and-reports}
 
@@ -142,7 +160,7 @@ SMS および E メールチャネルに対するサブスクリプションサ�
 
      ![](assets/service-reports.png)
 
-   * The **[!UICONTROL 購読の全体的な変化]** グラフは、購読、購読解除、数値の変化、ロイヤルティの割合を含む、期間別の分類を表示します。
+   * The **[!UICONTROL 購読の全体的な変化]** グラフは、購読、購読解除、数値の変化、ロイヤルティの割合を含む、期間別の分類を表示します。<!--what is Registered?-->
 
    * 以下を使用します。 **[!UICONTROL リロード]** ボタンを使用して、トラッキングワークフローの実行およびスケジュールから最後の値を取得します。
 
