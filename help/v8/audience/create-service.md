@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: 購読サービスの使用
-description: Adobe Campaign Web でサービスを作成する方法を説明します
+description: Adobe Campaign Web でサービスを作成および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
+source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '344'
 ht-degree: 4%
 
 ---
@@ -44,14 +44,13 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="購読サービスのプロパティ"
->abstract="購読サービスのラベルを入力し、追加のオプションを定義します。"
+>title="サービスプロパティを定義する"
+>abstract="購読サービスのラベルを入力し、追加のオプション（サービスの有効期間など）を定義します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="購読サービスの確認メッセージ"
->abstract="ユーザーがサービスを購読したり、サービスを購読解除したりする際に、確認メッセージを送信できます。 これらのメッセージに使用するテンプレートを選択します。"
-
+>title="確認メッセージを選択"
+>abstract="ユーザーがサービスを購読または購読解除する際に、確認メッセージを送信できます。 そのメッセージに使用するテンプレートを選択します。"
 
 購読サービスを作成するには、次の手順に従います。
 

@@ -1,25 +1,24 @@
 ---
 product: campaign
 title: 配信テンプレートの操作
-description: Campaign で配信テンプレートを作成および使用する方法を学ぶ
+description: Campaign で配信テンプレートを作成および使用する方法を学ぶ Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1015'
 ht-degree: 88%
 
 ---
 
-# 配信テンプレートの操作 {#work-with-delivery-templates}
+# 配信テンプレートを操作 {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="配信テンプレート"
 >abstract="キャンペーンの実行と開始を迅速におこなうために、配信テンプレートを使用してクリエイティブなルックアンドフィールを標準化します。"
-
 
 高速で改善されたデザインプロセスを実現するために、配信テンプレートを作成して、キャンペーン全体でカスタムコンテンツや設定を簡単に再利用できます。 この機能を使用すると、クリエイティブなルックアンドフィールを標準化して、キャンペーンの実行と開始をより迅速に行うことができます。
 
