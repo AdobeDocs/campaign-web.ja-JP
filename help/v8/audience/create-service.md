@@ -3,9 +3,9 @@ audience: end-user
 title: 購読サービスの使用
 description: Adobe Campaign Web でサービスを作成および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '931'
 ht-degree: 4%
 
 ---
@@ -158,7 +158,15 @@ SMS および E メールチャネルに対するサブスクリプションサ�
 
    ![](assets/service-audience-subscribers.png)
 
-1. キャンペーンを作成し、作成したオーディエンスをターゲットに設定します。
+1. [配信の作成](../msg/gs-messages.md) をクリックし、上で作成したオーディエンスを選択します。
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. 必要に応じてメッセージコンテンツを編集し、配信を送信します。
+
+   ![](assets/service-delivery-ready.png)
+
+配信は、そのサービスの購読者にのみ送信されます。
 
 
 
