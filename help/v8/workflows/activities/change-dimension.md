@@ -3,26 +3,24 @@ audience: end-user
 title: 「ディメンションを変更」ワークフローアクティビティの使用
 description: 「ディメンションを変更」ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 25%
+source-wordcount: '191'
+ht-degree: 19%
 
 ---
 
 
 # ディメンションを変更 {#change-dimension}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_dimension_complement"
->title="Generate Complement"
->abstract="TBD"
--->
+>title="補集合を生成"
+>abstract="残りの母集団が重複として除外された、追加のアウトバウンドトランジションを生成できます。 これをおこなうには、 **補集合を生成** オプション"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_dimension"
->title="ディメンションを変更アクティビティ"
+>title="ディメンションアクティビティを変更"
 >abstract="このアクティビティを使用すると、オーディエンスの作成時にターゲティングディメンションを変更できます。 データテンプレートと入力ディメンションに応じて軸が移動します。 例えば、「契約」ディメンションから「クライアント」ディメンションに切り替えることができます。"
 
 

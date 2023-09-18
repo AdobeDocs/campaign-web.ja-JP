@@ -3,10 +3,10 @@ audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 * 「**参照**」タブには、既存のすべてのキャンペーンがリストされます。キャンペーンをクリックしてダッシュボードを開くか、「**キャンペーンを作成**」ボタンをクリックして新しいキャンペーンを作成できます。この[節](create-campaigns.md#create-campaigns)を参照してください。
 
-* 「**テンプレート**」タブには、使用可能なすべてのキャンペーンテンプレートがリストされます。キャンペーンテンプレートは、新しいキャンペーンを作成する際に再利用できるように事前設定されています。これらはクライアントコンソールから作成されます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=ja)
+* 「**テンプレート**」タブには、使用可能なすべてのキャンペーンテンプレートがリストされます。既存のテンプレートを表示したり、新しく作成したりできます。 [詳細情報](manage-campaign-templates.md)。
 
 ![キャンペーンリスト](assets/campaign-list.png)
 
