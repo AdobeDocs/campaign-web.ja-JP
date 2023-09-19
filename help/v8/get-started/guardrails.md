@@ -2,15 +2,15 @@
 title: Campaign Web UI のガードレールと制限
 description: Campaign Web UI のガードレールと制限
 badge: label="Beta"
-source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 6%
 
 ---
 
 
-# ガードレールと制限 {#guardrails-limitations}
+# ガードレールと制限事項 {#guardrails-limitations}
 
 Campaign クライアントコンソールで作成または変更されたコンポーネントを Campaign Web UI で使用する場合、以下に示すガードレールと制限が適用されます。
 
