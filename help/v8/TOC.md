@@ -35,7 +35,7 @@ ht-degree: 88%
       + メールコンテンツを定義 {#content}
          + [メールコンテンツを設定](content/edit-content.md)
          + メールの作成を開始 {#start-design}
-            + [メールデザイナーの基本を学ぶ](content/get-started-email-designer.md)
+            + [E メールデザイナーの基本を学ぶ](content/get-started-email-designer.md)
             + [ゼロから開始](content/create-email-content.md)
             + [メールコンテンツの読み込み](content/existing-content.md)
             + [独自コンテンツのコーディング](content/code-content.md)
