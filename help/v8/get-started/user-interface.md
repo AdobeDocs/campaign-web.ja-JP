@@ -4,7 +4,7 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 72%
@@ -88,7 +88,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 >abstract="コンソールで作成されたオファーおよびオファーテンプレートのリストを、 **インタラクション** モジュール。 これらのリストは読み取り専用です。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="配信にオファーを追加"
 
-「顧客管理」セクションで、オファーおよびオファーテンプレートを表示できます。 これらのリストは読み取り専用です。
+決定管理セクションで、オファーとオファーテンプレートを表示できます。 これらのリストは読み取り専用です。
 
 * **オファー**  — コンソールで作成されたオファーおよびオファーテンプレートのリストを、 **インタラクション** モジュール。 デフォルトでは、オファーのステータス、開始日／終了日および環境が表示されます。このリストは、ステータスや開始日／終了日でフィルタリングできます。オファーテンプレートも使用できます。
 

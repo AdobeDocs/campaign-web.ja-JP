@@ -3,9 +3,9 @@ audience: end-user
 title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS）を追加する方法を学ぶ
 badge: label="Beta"
-source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '781'
 ht-degree: 59%
 
 ---
@@ -36,7 +36,7 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## 配信の設定 {#create-a-delivery-in-a-workflow}
+## チャネルアクティビティの設定 {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,6 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 
    ![](../assets/delivery-activity-in-wf.png)
 
-
    チャネルアクティビティ設定の左側のパネルから別のテンプレートを選択できます。以前に選択したオーディエンスがチャネルに対応していない場合は、テンプレートを選択できません。これを解決するには、**オーディエンスを作成**&#x200B;アクティビティを更新して、ターゲットマッピングが正しいオーディエンスを選択します。ターゲットマッピングの詳細については、 [Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}.
 
 1. 「**配信を作成**」をクリックします。スタンドアロン配信の作成時と同様に、メッセージの設定とコンテンツを定義します。また、コンテンツをスケジュールおよびシミュレートすることもできます。[詳細情報](../../msg/gs-messages.md)
@@ -95,6 +94,7 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 セグメント化と 2 つの配信を含むクロスチャネルワークフローの例を次に示します。ワークフローでは、パリに在住し、コーヒーマシンに興味があるすべての顧客をターゲットにします。この母集団の中で、通常の顧客にはメールが送信され、VIP クライアントには SMS が送信されます。
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -105,7 +105,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-また、月の初日の午後 8 時に、自分のタイムゾーンに応じてモバイルアプリケーションの購読者にパーソナライズされたプッシュ通知を送信する繰り返しワークフローを作成することもできます。
+また、パリに住むすべてのお客様に、毎月初日の午後 8 時にパーソナライズされた SMS を送信する繰り返しワークフローを作成することもできます。
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 

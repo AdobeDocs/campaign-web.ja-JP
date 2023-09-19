@@ -3,7 +3,7 @@ audience: end-user
 title: オーディエンスを作成ワークフローアクティビティの使用
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -35,7 +35,7 @@ ht-degree: 62%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 「オーディエンスを作成」アクティビティを設定する
+## 「オーディエンスを作成」アクティビティを設定する{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 **オーディエンスを作成**&#x200B;アクティビティを設定するには、次の手順に従います。
+
+![](../assets/workflow-audience.png)
 
 1. **オーディエンスを作成**&#x200B;アクティビティを追加します。
 1. ラベルを定義します。
@@ -66,7 +68,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >
 >を使用する場合、 **[!UICONTROL オーディエンスの構築]** Experience Platformオーディエンスをターゲットとするアクティビティには、 **[!UICONTROL ディメンションを変更]** アクティビティを作成して、オーディエンスのターゲティングディメンションが「受信者」に設定されていることを確認します。 このページの下部には、ワークフローの例が表示されます。
 
-## 例
+## 例{#build-audience-examples}
 
 2 つの&#x200B;**オーディエンスを作成**&#x200B;アクティビティを使用したワークフローの例を次に示します。最初のアクティビティは、ポーカープレーヤーのオーディエンスをターゲットにし、次にメール配信が続きます。2 番目のアクティビティは VIP クライアントオーディエンスをターゲットにし、次に SMS 配信が続きます。
 
