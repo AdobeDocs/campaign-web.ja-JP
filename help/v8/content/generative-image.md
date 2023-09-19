@@ -3,9 +3,9 @@ audience: end-user
 title: コンテンツアシスタントを使用した画像の生成
 description: コンテンツアシスタントの概要
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # コンテンツアシスタントを使用した画像の生成 {#generative-image}
 
 E メールを作成し、パーソナライズした後は、生成 AI を活用した Content Assistant を使用してコンテンツを強化できます。 この機能により、パーソナライゼーションとコンテンツの改善のプロセスが簡素化されます。
+
+>[!AVAILABILITY]
+>
+>この機能は、10 月初旬に提供される予定です。
 
 次の例では、コンテンツアシスタントを活用してコンテンツを最適化および改善し、より使いやすいエクスペリエンスを実現する方法を説明します。 次の手順に従います。
 
