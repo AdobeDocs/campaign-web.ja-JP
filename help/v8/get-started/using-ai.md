@@ -2,9 +2,9 @@
 title: Campaign Web での AI を利用したナレッジアシスタントの使用
 description: Campaign Web での AI を利用したナレッジアシスタントの使用
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 推奨事項  {#recommendations-ai}
 
-AI を利用したナレッジアシスタントで質問する場合、現在の製品コンテキスト（現在のキャンペーン画面）が考慮されます。
+AI を利用したナレッジアシスタントで質問する場合、現在の製品コンテキスト（現在のキャンペーン画面や現在のヘルプボックスの内容）が考慮されます。
 
 AI を利用したナレッジアシスタントを最大限に活用するには、次の点についてアドバイスします。
 
