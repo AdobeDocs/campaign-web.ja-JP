@@ -2,7 +2,7 @@
 title: 受信者とオーディエンスの操作
 description: 受信者 Campaign Web の使用方法を説明します
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 21%
@@ -45,7 +45,7 @@ ht-degree: 21%
 >
 >権限によっては、データベースに保存されている受信者の完全なリストへのアクセス権がない場合があります。 権限について詳しくは、[この節](../get-started/permissions.md)を参照してください。
 
-さらに、ニュースレターなどのサービスに対する受信者の購読と購読解除を管理できます。 [購読サービスの使用方法を説明します](create-service.md)
+さらに、ニュースレターなどのサービスに対する受信者の購読と購読解除を管理できます。 [購読サービスの使用方法を説明します](manage-services.md)
 
 ## オーディエンスとは {#audiences}
 
