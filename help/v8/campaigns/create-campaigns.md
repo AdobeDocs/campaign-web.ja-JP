@@ -4,7 +4,7 @@ title: Adobe Campaign Web でのキャンペーンの作成
 description: Adobe Campaign Web を使用してクロスチャネルキャンペーンを作成する方法を学ぶ
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 55%
@@ -31,7 +31,7 @@ ht-degree: 55%
 新しいキャンペーンを作成するには、次の手順に従います。
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューをクリックし、「**[!UICONTROL キャンペーンを作成]**」ボタンをクリックします。
-1. 使用する&#x200B;**テンプレート**&#x200B;を選択し、キャンペーンのラベルを入力します。[詳細情報](manage-campaign-templates.md)。
+1. 使用する&#x200B;**テンプレート**&#x200B;を選択し、キャンペーンのラベルを入力します。[詳細情報](manage-campaigns.md#manage-campaign-templates)。
 1. 必要に応じて、内部名、フォルダー、担当者、説明、特性などの&#x200B;**追加オプション**&#x200B;を変更できます。
 1. キャンペーンの&#x200B;**スケジュール**&#x200B;を定義します。キャンペーンスケジュールを [この節](#campaign-schedule)
 1. 「**作成**」をクリックします。
