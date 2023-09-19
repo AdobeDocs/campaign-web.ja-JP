@@ -4,7 +4,7 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 72%
@@ -80,7 +80,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 * **オーディエンス** - オーディエンスのリストです。デフォルトでは、オーディエンスのタイプ、接触チャネル、作成日／最終変更日およびラベルが表示されます。このリストは接触チャネルでフィルタリングできます。オーディエンスとリストについて詳しくは、 [この節](../audience/about-audiences.md).
 * **購読** - 購読リストを閲覧できます。デフォルトでは、購読リストのタイプ、モードおよびラベルが表示されます。購読と購読解除を管理する方法については、[Adobe Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=ja){target="_blank"}を参照してください。
 
-### 意思決定管理
+### 意思決定管理 {#decision-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
@@ -94,7 +94,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
 E メールと SMS でオファーを作成して送信する方法については、 [この節](../content/offers.md).
 
-## 上部バー
+## 上部バー {#top-bar}
 
 インターフェイスの上部バーを使用して、次の操作を実行できます。
 

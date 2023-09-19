@@ -3,7 +3,7 @@ audience: end-user
 title: 購読サービスの使用
 description: Adobe Campaign Web でサービスを作成および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
+source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
 workflow-type: tm+mt
 source-wordcount: '1099'
 ht-degree: 4%
@@ -28,7 +28,7 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
 購読と購読解除の管理について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
-## 購読サービスへのアクセス {#access-services}
+## 購読サービスにアクセス {#access-services}
 
 お使いのプラットフォームで使用可能な購読サービスにアクセスするには、次の手順に従います。
 
