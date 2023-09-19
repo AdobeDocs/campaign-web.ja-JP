@@ -3,9 +3,9 @@ audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '887'
 ht-degree: 81%
 
 ---
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **積集合**&#x200B;では、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。
 * **除外**&#x200B;では、特定の条件に従って、ある母集団から要素を除外することができます。
 
-## 一般設定 {#general}
+## 結合アクティビティの設定 {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -48,13 +48,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 **結合**&#x200B;アクティビティの設定を開始するには、次の一般的な手順に従います。
 
+![](../assets/workflow-combine.png)
+
 1. **オーディエンスを作成**&#x200B;アクティビティなどの複数のアクティビティを追加して、2 つ以上の異なる実行分岐を形成します。
 1. **結合**&#x200B;アクティビティを任意の前の分岐に追加します。
 1. [和集合](#union)、[積集合](#intersection)または[除外](#exclusion)のセグメント化タイプを選択します。
 1. 「**続行**」をクリックします。
 1. 「**結合の設定**」セクションで、結合する前のアクティビティをすべてオンにします。
 
-## 和集合 {#union}
+## 和集合 {#combine-union}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
@@ -71,14 +73,14 @@ Adobe Analytics の **結合** アクティビティの場合は、 **和集合*
 * **キーのみ**：これはデフォルトのモードです。アクティビティは、異なるインバウンドトランジションの要素が同じキーを持つ場合、1 つの要素のみを保持します。このオプションは、インバウンド母集団が同質である場合にのみ使用できます。
 * **列の選択**：このオプションを選択し、データの紐付けが適用される列のリストを定義します。最初に（ソースデータを含む）プライマリセットを選択し、次に結合に使用する列を選択する必要があります。
 
-## 積集合 {#intersection}
+## 積集合 {#combine-intersection}
 
 Adobe Analytics の **結合** アクティビティの場合は、 **積集合**. この場合は、次の追加の手順に従う必要があります。
 
 1. 「**紐付けタイプ**」を選択して、重複の処理方法を定義します。[和集合](#union)の節を参照してください。
 1. 残りの母集団を処理するには、「**補集合を生成**」オプションをオンにします。補集合には、すべてのインバウンドアクティビティから積集合を引いた結果の和集合が含まれます。その後、追加のアウトバウンドトランジションがアクティビティに追加されます。
 
-## 除外 {#exclusion}
+## 除外 {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
@@ -103,7 +105,7 @@ Adobe Analytics の **結合** アクティビティの場合は、 **除外**. 
 1. 必要に応じて、インバウンドテーブルを操作できます。別のディメンションからターゲットを除外するには、このターゲットが同じターゲティングディメンションをメインターゲットとして返します。それには、「**除外ルール**」セクションの「**ルールを追加**」をクリックし、ディメンションの変更条件を指定します。データの紐付けは、属性または結合を使用して実行されます。
 1. 残りの母集団を処理するには、「**補集合を生成**」オプションをオンにします。[積集合](#intersection)の節を参照してください。
 
-## 例
+## 例{#combine-examples}
 
 次の例では、 **結合** アクティビティを追加し、 **和集合** を使用して、2 つのクエリのすべてのプロファイル（18～27 歳の人と 34～40 歳の人）を取得します。
 

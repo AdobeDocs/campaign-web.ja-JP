@@ -3,10 +3,10 @@ audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 92%
+source-wordcount: '1787'
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,27 @@ ht-degree: 92%
 
 ## 配信の概要 {#delivery-summary-email}
 
-* **[!UICONTROL 初期ターゲットオーディエンス統計]**&#x200B;テーブルには、受信者に関連したデータが表示されます。
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_email"
+>title="送信のレポート"
+>abstract="レポート内の送信メニューでは、訪問者の配信とのやり取りに関する詳細なインサイトと、発生した可能性のあるエラーを把握できます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_initial_target"
+>title="初期ターゲット母集団ウィジェット"
+>abstract="初期ターゲットオーディエンス母集団グラフには、受信者と配信の成功に関するデータが表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_summary"
+>title="配信統計ウィジェット"
+>abstract="「配信統計」グラフには、配信の成功と発生したエラーの詳細が表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_exclusion"
+>title="配信統計ウィジェット"
+>abstract="「除外の原因」グラフと表には、準備中に拒否されたメッセージのルールごとの分類が表示されます。"
+
+* **[!UICONTROL 初期ターゲットオーディエンスの母集団]** グラフには、受信者に関連するデータが表示されます。
 
   ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
@@ -29,7 +49,7 @@ ht-degree: 92%
    * **[!UICONTROL 除外]**：送信されたターゲットから除外されたメッセージの合計数。
 +++
 
-* **[!UICONTROL 配信統計]**&#x200B;テーブルには、配信の成功の詳細が表示されます。
+* **[!UICONTROL 配信統計]** グラフには、配信の成功の詳細が表示されます。
 
   ![](assets/reporting_email_2.png){align="left"}
 
@@ -69,9 +89,19 @@ ht-degree: 92%
 
 ## 配信スループット {#delivery-throughtput}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_email"
+>title="配信スループットウィジェット"
+>abstract="配信スループットレポートには、指定期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。"
+
 このレポートには、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
 
 ## ブロードキャスト統計情報 {#broadcast-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_broadcast_statistics"
+>title="ブロードキャスト統計ウィジェット"
+>abstract="「ブロードキャスト統計」テーブルには、各ドメインで発生した可能性のあるエラーに関して使用可能なデータが含まれます。"
 
 * **[!UICONTROL ブロードキャスト統計]**&#x200B;テーブルには、各ドメインで発生する可能性のあるエラーに関する使用可能なデータが含まれる。
 
@@ -95,6 +125,16 @@ ht-degree: 92%
 +++
 
 ## 配信不能件数とバウンス数 {#non-deliverables-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type"
+>title="タイプウィジェットごとのエラーの分類"
+>abstract="タイプテーブルおよびグラフごとのエラーの分類には、発生した各エラータイプで使用できるデータが含まれています。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain"
+>title="ドメインウィジェットごとのエラーの分類"
+>abstract="タイプ別のエラーの分類テーブルおよびグラフには、各ドメインに応じて発生した各エラータイプで使用可能なデータが含まれます。"
 
 * **[!UICONTROL タイプごとのエラーの分類]**&#x200B;および&#x200B;**[!UICONTROL ドメインごとのエラーの分類]**&#x200B;テーブルとグラフには、各ドメインで発生する可能性のあるエラーに関する使用可能なデータが含まれます。
 
@@ -122,7 +162,20 @@ ht-degree: 92%
 
 ## トラッキング指標 {#tracking-indicators-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_tracking_email"
+>title="追跡のレポート"
+>abstract="レポート内の「トラッキング」タブには、受信者のリンクごとの行動、開封数およびクリック数の分類、配信中に最も頻繁にクリックされた URL に関する詳細情報など、有用なデータが表示されます。"
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_delivery_statistics_indicators"
+>title=" 配信統計ウィジェット"
+>abstract="配信統計ウィジェットは、送信された E メールで使用可能なデータに関する詳細な情報を提供する主要業績評価指標 (KPI) を提供します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="開封率およびクリックスルー率のウィジェット"
+>abstract="開封率およびクリックスルー率テーブルには、配信に対する受信者のエンゲージメントに関するデータが表示されます。"
 
 * **[!UICONTROL 配信統計]**&#x200B;では、送信されたメールで使用可能なデータに関する詳細情報を提供する主要業績評価指標（KPI）が提供されます。
 
@@ -162,6 +215,11 @@ ht-degree: 92%
 
 ## URL とクリックストリーム {#url-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams"
+>title="URL とクリックストリームウィジェット"
+>abstract="URL とクリックストリームは、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。"
+
 * **[!UICONTROL URL とクリックストリーム]**&#x200B;では、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標（KPI）が提供されます。
 
   ![](assets/reporting_email_7.png){align="center"}
@@ -196,6 +254,11 @@ ht-degree: 92%
 
 ## ユーザーアクティビティ {#user-activities-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_user_activities"
+>title="ユーザーアクティビティウィジェット"
+>abstract="ユーザーアクティビティグラフは、開封数とクリック数の分類をグラフの形式で表示します。 データをターゲットにする期間を、最終日、時間、または 30 分から選択できます。"
+
 * **[!UICONTROL ユーザーアクティビティ]**&#x200B;では、開封数とクリック数の分類をグラフ形式で表示します。データをターゲットにする期間を、最終日、時間、または 30 分から選択できます。
 
   ![](assets/reporting_email_10.png){align="center"}
@@ -210,6 +273,10 @@ ht-degree: 92%
 
 ## トラッキング統計 {#tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_statistics"
+>title="トラッキング統計ウィジェット"
+>abstract="トラッキング統計グラフは、開封数とクリック数の統計を示します。 データをターゲットにする特定の時間枠を選択することもできます。"
 
 * **[!UICONTROL トラッキング統計]**&#x200B;グラフでは、開封数とクリック数の統計を表示します。データをターゲットにする特定の時間枠を選択することもできます。
 
@@ -225,12 +292,27 @@ ht-degree: 92%
 
 ## 開封数の分類 {#breakdown-opens}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_device"
+>title="デバイス別分類ウィジェット"
+>abstract="デバイス別の分類"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_os"
+>title="OS ウィジェットで分類"
+>abstract="OS 別の分類"
+
 このレポートは、該当する期間中の、オペレーティングシステム、デバイスおよびブラウザーごとの開封の分類を表示します。それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフはモバイルデバイスでの開封数のみに関する統計を示しています。
 より正確なターゲティングを実現するために、**[!UICONTROL 固定とモバイル]**&#x200B;から排他的にターゲットにする&#x200B;**[!UICONTROL モバイルのみ]**&#x200B;に柔軟に切り替えることができます。
 
 ![](assets/reporting_email_13.png){align="center"}
 
 ## ホットクリック数 {#hotclicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_hotclicks"
+>title="ホットクリック数レポート"
+>abstract="ホットクリック数レポートは、メッセージの内容と各リンクでのクリック率を表示します。"
 
 このレポートは、各リンクでのメッセージのコンテンツ（HTML および／またはテキスト）を、リンクでのクリック率と共に表示します。パーソナライゼーションブロックの購読解除リンク、ミラーページリンクおよびオファーリンクは、累積クリック数の合計では考慮されますが、レポートには表示されません。
 

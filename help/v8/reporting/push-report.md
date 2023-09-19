@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ配信レポート
 description: プッシュ配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 92%
+source-wordcount: '345'
+ht-degree: 79%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 92%
 >id="acw_push_report_overview"
 >title="プッシュレポートの概要"
 >abstract="プッシュ配信のレポート指標を確認します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_push"
+>title="送信のレポート"
+>abstract="レポート内の「送信中」タブには、訪問者の配信とのやり取りに関する詳細なインサイトと、発生した可能性のあるエラーが表示されます。"
 
 **プッシュ配信レポート**&#x200B;は、プッシュチャネルの完全な概要を提供し、広範なインサイトと特定のデータを提供します。これにより、各配信のパフォーマンス、有効性、結果に関する包括的な情報を入手できます。
 
@@ -68,6 +73,11 @@ ht-degree: 92%
   ![](assets/reporting_push_6.png)
 
 ## 配信スループット {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_push"
+>title="配信スループットレポート"
+>abstract="配信スループットレポートには、指定期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。"
 
 このレポートには、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
 
