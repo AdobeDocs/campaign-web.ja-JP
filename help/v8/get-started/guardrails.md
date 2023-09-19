@@ -2,7 +2,7 @@
 title: Campaign Web UI のガードレールと制限
 description: Campaign Web UI のガードレールと制限
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 6%
@@ -66,13 +66,17 @@ Web UI で新しいワークフローを作成する場合、キャンバスは 
 
 ルールビルダーでクエリのグラフィック表現を表示できず、フィルターを編集できない場合でも、フィルターを使用して、「 **属性** 」セクションに表示されます。
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 また、SQL クエリにアクセスして、正確な設定を確認できます。 これをおこなうには、 **コードビュー** 」ボタンをクリックします。
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-次をクリック： **計算** ボタンをクリックして、フィルターの条件に一致する項目の数を確認します。 以下を使用します。 **結果を表示** ボタンをクリックして、該当する項目を表示します。
+次をクリック： **計算** ボタンをクリックして、フィルターの条件に一致する項目の数を確認します。
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+以下を使用します。 **結果を表示** ボタンをクリックして、該当する項目を表示します。
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
