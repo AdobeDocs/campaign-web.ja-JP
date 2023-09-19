@@ -3,9 +3,9 @@ audience: end-user
 title: コンテンツアシスタントの基本を学ぶ
 description: コンテンツアシスタントの概要
 badge: label="Beta"
-source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 3%
 Content Assistant は、生成 AI を活用した、E メールコンテンツを改善するための貴重なツールです。 パーソナライゼーションとコンテンツの強化を簡素化し、E メール配信を最適化してオーディエンスの共感を深めます。
 
 この機能により、完全な E メールコンテンツが自動的に生成され、時間を節約し、品質の一貫性を保ちます。 Generative AI を使用すると、魅力的なメールを簡単に作成し、コミュニケーションの効果と効率を高めることができます。
+
+>[!AVAILABILITY]
+>
+>この機能は、10 月初旬に提供される予定です。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">

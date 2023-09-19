@@ -3,9 +3,9 @@ audience: end-user
 title: コンテンツアシスタントを含むテキスト
 description: コンテンツアシスタントの概要
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '351'
 ht-degree: 6%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 6%
 E メールを作成し、パーソナライズしたら、生成 AI を利用した Content Assistant を使用して、コンテンツを次のレベルに引き上げます。
 
 コンテンツアシスタントを使用すると、オーディエンスの共感を呼ぶ可能性の高い様々なコンテンツを提案することで、配信の影響を最適化できます。
+
+
+>[!AVAILABILITY]
+>
+>この機能は、10 月初旬に提供される予定です。
 
 1. E メール配信を作成および設定した後、 **[!UICONTROL コンテンツを編集]**.
 

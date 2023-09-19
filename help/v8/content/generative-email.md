@@ -3,9 +3,9 @@ audience: end-user
 title: コンテンツアシスタントを使用した E メールの生成
 description: コンテンツアシスタントの概要
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '418'
 ht-degree: 2%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 2%
 コンテンツアシスタントは、完全なメールコンテンツを自動的に生成し、時間を節約し、一貫性のある品質を確保することで、通信の影響を高めます。
 
 Generative AI を使用すると、オーディエンスの共感を呼ぶ魅力的な E メールを容易に作成し、コミュニケーションをより効果的かつ効率的に行うことができます。
+
+
+>[!AVAILABILITY]
+>
+>この機能は、10 月初旬に提供される予定です。
+
 
 1. E メール配信を作成および設定した後、 **[!UICONTROL コンテンツを作成]**.
 
