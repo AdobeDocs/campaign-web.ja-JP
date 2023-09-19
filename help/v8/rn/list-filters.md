@@ -4,7 +4,7 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 98%
@@ -40,9 +40,9 @@ Campaign の新しい web UI は、すべての Adobe Experience Cloud ソリュ
 
 新しい Campaign Web UI を使用すると、次の操作を実行できます。
 
-* パーソナライズされたメールコンテンツを電子メールデザイナーでデザイン - [詳細情報](../content/edit-content.md)
+* パーソナライズされたメールコンテンツを E メールデザイナーでデザイン - [詳細情報](../content/edit-content.md)
 * SMS やプッシュ通知を含むクロスチャネルキャンペーンを送信します。
-* ルールビルダーでターゲットオーディエンスを定義 - [詳細情報](../audience/about-audiences.md)
+* ルールビルダーでターゲットオーディエンスを定義 - [詳細情報](../audience/about-recipients.md)
 * メールメッセージのプレビュー、テスト、送信 - [詳細情報](../monitor/prepare-send.md)
 * ビルトインレポートを使用した送信の監視および結果の測定 - [詳細情報](../reporting/delivery-reports.md)
 

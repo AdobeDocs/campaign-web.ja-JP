@@ -4,7 +4,7 @@ title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 [!DNL Campaign] データベースの既存のプロファイルからのデータを表示しながら、特定のメールアドレスまたは電話番号にテストメールや SMS を送信するには、代用プロファイルを使用します。
 
-1. テストを送信する前に、配信のターゲットオーディエンスを定義する必要があります。[詳細情報](../audience/about-audiences.md)
+1. テストを送信する前に、配信のターゲットオーディエンスを定義する必要があります。[詳細情報](../audience/about-recipients.md)
 
 1. メールまたは SMS 配信のコンテンツを編集画面を参照し、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >配信の[オーディエンス](../audience/about-audiences.md)を選択していない場合、「**[!UICONTROL メインターゲットから代用]**」オプションは灰色表示され、代用プロファイルを選択できません。
+   >配信の[オーディエンス](../audience/about-recipients.md)を選択していない場合、「**[!UICONTROL メインターゲットから代用]**」オプションは灰色表示され、代用プロファイルを選択できません。
 
 1. 「**[!UICONTROL アドレスを追加]**」ボタンをクリックし、テスト配信を受信するメールアドレスまたは電話番号を指定します。
 

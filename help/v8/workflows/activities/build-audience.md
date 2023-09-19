@@ -3,7 +3,7 @@ audience: end-user
 title: オーディエンスを作成ワークフローアクティビティの使用
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 4028fabf0aca85ace97316b4e072c2b1dfa5dc5f
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -29,7 +29,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->このコンテキストでは、ファイルからオーディエンスを読み込むことはできません。この場合は、スタンドアロンの E メール配信を作成する必要があります。 [詳細情報](../../audience/about-audiences.md)
+>このコンテキストでは、ファイルからオーディエンスを読み込むことはできません。この場合は、スタンドアロンの E メール配信を作成する必要があります。 [詳細情報](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

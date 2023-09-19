@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 87%
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 * [タイポロジ](../advanced-settings/delivery-settings.md#typology),
 * 送信者のアドレス,
-* An [audience](../audience/about-audiences.md)を含む [コントロール母集団](../audience/control-group.md),
+* An [audience](../audience/about-recipients.md)を含む [コントロール母集団](../audience/control-group.md),
 * カスタム[コンテンツ](../content/edit-content.md),
 * [パーソナライズされたフィールド](../personalization/personalize.md)と[条件付きコンテンツ](../personalization/conditions.md),
 * [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md),

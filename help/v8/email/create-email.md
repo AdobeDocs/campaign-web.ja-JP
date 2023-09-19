@@ -4,7 +4,7 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 69%
@@ -79,7 +79,7 @@ ht-degree: 69%
 
 このユースケースでは、既存のオーディエンスにメールを送信します。
 
-オーディエンスの操作方法に関する追加手順については、[この節](../audience/about-audiences.md)を参照してください。
+オーディエンスの操作方法に関する追加手順については、[この節](../audience/about-recipients.md)を参照してください。
 
 1. メールのオーディエンスを選択するには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックし、リストから既存のオーディエンスを選択します。
 
@@ -107,7 +107,7 @@ ht-degree: 69%
 
    ![](assets/email-edit-content.png)
 
-   これにより、メールコンテンツを設定し、メールデザイナーをアクセスできる専用のインターフェイスが表示されます。[詳細情報](../content/edit-content.md)
+   これにより、メールコンテンツを設定し、E メールデザイナーをアクセスできる専用のインターフェイスが表示されます。[詳細情報](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -121,7 +121,7 @@ ht-degree: 69%
 
    ![](assets/select-template.png)
 
-1. テンプレートを選択すると、[メールデザイナー](../content/create-email-content.md)に表示され、必要な編集を加えたり、パーソナライゼーションを追加したりできます。
+1. テンプレートを選択すると、[E メールデザイナー](../content/create-email-content.md)に表示され、必要な編集を加えたり、パーソナライゼーションを追加したりできます。
 
    例えば、パーソナライゼーションをメールタイトルに追加するには、コンポーネントブロックを選択し、「**[!UICONTROL パーソナライゼーションを追加]**」をクリックします。
 

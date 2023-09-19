@@ -4,7 +4,7 @@ title: Campaign v8 Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 86%
@@ -79,7 +79,7 @@ Adobe Campaign v8 には、メール、SMS、モバイルアプリの配信チ�
    * [プッシュ通知チャネル](../push/gs-push.md)
    * [SMS チャネル](../sms/create-sms.md)
 
-1. メインターゲットとコントロール母集団に対する配信オーディエンスを定義します。オーディエンスについて詳しくは、[この節](../audience/about-audiences.md)を参照してください。
+1. メインターゲットとコントロール母集団に対する配信オーディエンスを定義します。オーディエンスについて詳しくは、[この節](../audience/about-recipients.md)を参照してください。
 1. メッセージコンテンツを定義します。
 1. （オプション）配信の定義 [スケジュール](#gs-schedule). スケジュールが定義されていない場合、「**[!UICONTROL 送信]**」ボタンをクリックするとメッセージが即座に送信されます。
 1. 設定を確認するには、「**[!UICONTROL 確認して送信]**」ボタンをクリックします。

@@ -3,7 +3,7 @@ audience: end-user
 title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 77%
@@ -52,7 +52,7 @@ ht-degree: 77%
 
 1. **[!UICONTROL オーディエンス]**&#x200B;メニューで、この配信に使用するアプリケーションを選択します。
 
-1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、既存のオーディエンスをターゲットにするか、独自のユーザーを作成します。[詳細情報](../audience/about-audiences.md)
+1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、既存のオーディエンスをターゲットにするか、独自のユーザーを作成します。[詳細情報](../audience/about-recipients.md)
 
    デフォルトでは、プッシュ通知はアプリケーションのすべてのサブスクライバーに送信されます。
 

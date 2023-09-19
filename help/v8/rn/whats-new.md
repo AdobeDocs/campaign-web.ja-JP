@@ -4,7 +4,7 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 51%
@@ -44,7 +44,7 @@ Campaign の新しい web UI は、すべての Adobe Experience Cloud ソリュ
 
 * パーソナライズされたメールコンテンツを E メールデザイナーでデザイン - [詳細情報](../content/edit-content.md)
 * SMS やプッシュ通知を含むクロスチャネルキャンペーンの送信 — [詳細情報](../workflows/activities/channels.md)
-* ルールビルダーでターゲットオーディエンスを定義 - [詳細情報](../audience/about-audiences.md)
+* ルールビルダーでターゲットオーディエンスを定義 - [詳細情報](../audience/about-recipients.md)
 * メッセージのプレビュー、テスト、送信 — [詳細情報](../monitor/prepare-send.md)
 * ビルトインレポートを使用した送信の監視および結果の測定 - [詳細情報](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Campaign web Beta リリースでは、ユーザーインターフェイスに�
 * シードアドレスが&#x200B;**テストプロファイル**&#x200B;として使用されるようになりました。シードアドレス（データベースに追加されている受信者）にテストメールを送信します。[詳細情報](../preview-test/test-deliveries.md)
 * 配信分析は、**配信準備**&#x200B;になりました。メッセージの準備を開始する必要がある場合は、 **準備** 」ボタンをクリックします。 [詳細情報](../monitor/prepare-send.md)
 * メールのプレビューが、「**コンテンツをシミュレート**」ボタンから使用できるようになりました。[詳細情報](../preview-test/preview-test.md)
-* リストは、**オーディエンス**&#x200B;になりました。[詳細情報](../audience/about-audiences.md)
+* リストは、**オーディエンス**&#x200B;になりました。[詳細情報](../audience/about-recipients.md)
 
 ## 制限事項{#limitations-beta}
 
