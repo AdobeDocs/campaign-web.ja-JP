@@ -3,7 +3,7 @@ audience: end-user
 title: 「ディメンションを変更」ワークフローアクティビティの使用
 description: 「ディメンションを変更」ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 524d690ad5dbaa1d63c53cece05207eb0d745540
+source-git-commit: dbe1bc0653c5c486b6277384a9cb7dddda51ee82
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 6%
@@ -46,4 +46,7 @@ The **ディメンションを変更** アクティビティは **ターゲッ�
 
 その後、 **[!UICONTROL ディメンションを変更]** 「 」アクティビティを使用して、ワークフローのターゲティングディメンションを「受信者」に切り替えることができます。 これにより、クエリに一致する受信者をターゲティングできます。
 
+<!--
 ![](assets/workflow-change-dimension-example.png)
+-->
+
