@@ -3,10 +3,10 @@ audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '604'
+ht-degree: 77%
 
 ---
 
@@ -22,12 +22,11 @@ ht-degree: 0%
 
 ## キャンペーンのリスト {#access-campaigns}
 
-
 キャンペーンリストには、次の 2 つのタブが表示されます。
 
 * 「**参照**」タブには、既存のすべてのキャンペーンがリストされます。キャンペーンをクリックしてダッシュボードを開くか、「**キャンペーンを作成**」ボタンをクリックして新しいキャンペーンを作成できます。この[節](create-campaigns.md#create-campaigns)を参照してください。
 
-* 「**テンプレート**」タブには、使用可能なすべてのキャンペーンテンプレートがリストされます。既存のテンプレートを表示したり、新しく作成したりできます。 [詳細情報](manage-campaign-templates.md)。
+* 「**テンプレート**」タブには、使用可能なすべてのキャンペーンテンプレートがリストされます。既存のテンプレートを表示したり、新しく作成したりできます。 [詳細情報](#manage-campaign-templates)。
 
 ![キャンペーンリスト](assets/campaign-list.png)
 
@@ -40,7 +39,6 @@ ht-degree: 0%
 ![キャンペーンフィルター](assets/campaign-filter-on-dates.png)
 
 ## キャンペーンダッシュボード{#campaign-dashboard}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
