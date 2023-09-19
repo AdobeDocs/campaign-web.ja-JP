@@ -3,9 +3,9 @@ audience: end-user
 title: 購読サービスの使用
 description: Adobe Campaign Web でサービスを作成および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
+source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1099'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
 1. 既存のサービスを編集するには、サービス名をクリックします。
 
-1. このサービス名の横にある 3 つのドットのアイコンを使用して、任意のサービスを削除または複製できます。
+1. このサービス名の横にある 3 つのドットのアイコンを使用して、任意のサービスを削除または複製できます。<!--so all subscribers are unsuibscribed - need to mention?-->
 
 ## 最初のサブスクリプションサービスを作成する {#create-service}
 
@@ -68,7 +68,11 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
    ![](assets/service-create-properties.png)
 
-1. デフォルトでは、購読は無制限です。次の項目を無効にすることができます。 **[!UICONTROL 無制限の有効期間]** オプションを使用して、サービスの有効期間を定義します。 次の例では、20 日後に、このサービスを購読できるユーザーはいなくなります。
+1. デフォルトでは、購読は無制限です。次の項目を無効にすることができます。 **[!UICONTROL 無制限の有効期間]** オプションを使用して、サービスの有効期間を定義します。
+
+   次の例では、20 日後に以下をおこないます。
+   * このサービスを購読できる受信者はいません。
+   * このサービスのすべての購読者は、20 日後に自動的に購読解除されます。 [詳細情報](#automatic-unsubscription)
 
    ![](assets/service-create-validity-period.png)
 
@@ -118,7 +122,7 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. クリック **[!UICONTROL 送信]**. 選択した受信者が購読を受け取ります [確認メッセージ](#create-confirmation-message) 選択した日時 [サービスの作成](#create-service).
+1. クリック **[!UICONTROL 送信]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 選択した受信者が購読を受け取ります [確認メッセージ](#create-confirmation-message) 選択した日時 [サービスの作成](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
@@ -126,7 +130,9 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
 ## サービスから購読者を削除する {#remove-subscribers}
 
-サービスに購読者を追加したら、それらを削除できます。 次の手順に従います。
+### 手動で受信者を購読解除 {#manual-unsubscription}
+
+サービスに購読登録者を追加したら、それぞれを手動で購読解除できます。 次の手順に従います。
 
 1. 次の中から既存のサービスを選択します： **[!UICONTROL 購読サービス]** リスト。
 
@@ -139,6 +145,16 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
    ![](assets/service-subscribers-delete-confirmation.png)
 
 受信者が **[!UICONTROL 購読者]** リストに登録され、サービスの購読登録が解除されました。
+
+### 受信者を自動的に配信停止 {#automatic-unsubscription}
+
+サブスクリプションサービスの期間を限定できます。 有効期間が終了すると、受信者は自動的に購読解除されます。
+
+この期間は、 [サービスの作成](#create-service). 次から： **[!UICONTROL その他のオプション]**、無効 **[!UICONTROL 無制限の有効期間]** 」オプションを選択し、サービスの有効期間を定義します。
+
+![](assets/service-create-validity-period.png)
+
+指定された期間が終了すると、すべての購読者がそのサービスから自動的に購読解除されます。
 
 ## 購読サービスのログとレポート {#logs-and-reports}
 
@@ -162,7 +178,7 @@ SMS および E メールチャネルに対するサブスクリプションサ�
 
    * The **[!UICONTROL 購読の全体的な変化]** グラフは、購読、購読解除、数値の変化、ロイヤルティの割合を含む、期間別の分類を表示します。<!--what is Registered?-->
 
-   * 以下を使用します。 **[!UICONTROL リロード]** ボタンを使用して、トラッキングワークフローの実行およびスケジュールから最後の値を取得します。
+1. 以下を使用します。 **[!UICONTROL リロード]** ボタンを使用して、トラッキングワークフローの実行およびスケジュールから最後の値を取得します。
 
 ## サービスの購読者への配信
 
