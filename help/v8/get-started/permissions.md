@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign web での権限管理
 description: Campaign web v8 の権限について説明します
 badge: label="Beta"
-source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 45%
+source-wordcount: '605'
+ht-degree: 42%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 45%
 >title="このワークフローは読み取り専用です"
 >abstract="キャンバスがサポートされていないか、キャンバスに互換性がないので、このワークフローを編集できません。"
 
-アクセス制御では、配信、受信者、ワークフローなどのメインリストからのオブジェクトやデータへのアクセスを制限できます。また、これらの制限は、エクスプローラーのナビゲーションツリーにも適用されます。さらに、ユーザーインターフェイスからオブジェクトを作成、削除、複製、編集する権限が必要です。
+アクセス制御では、配信、受信者、ワークフローなどのメインリストからのオブジェクトやデータへのアクセスを制限できます。これらの制限は、 **エクスプローラ** ナビゲーションツリー。 さらに、ユーザーインターフェイスからオブジェクトを作成、削除、複製、編集する権限が必要です。
 
-アクセス制御は、クライアントコンソールで管理します。 Campaign web のすべての権限は、Campaign クライアントコンソールの権限と同期されます。 ユーザー権限を定義および変更できるのは、Campaign 管理者のみです。権限について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
+アクセス制御は、Campaign クライアントコンソールで管理されます。 Campaign web のすべての権限は、Campaign クライアントコンソールの権限と同期されます。 ユーザー権限を定義および変更できるのは、Campaign 管理者のみです。権限について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 Campaign の Web ユーザーインターフェイスを参照している間、権限に応じて、データ、オブジェクトおよび機能にアクセスできます。 例えば、フォルダーへのアクセス権限がない場合、そのフォルダーは表示されません。また、権限は、オブジェクトとデータの管理にも影響します。特定のフォルダーに対する書き込み権限がないと、ユーザーインターフェイスに配信が表示されていても、そのフォルダーに配信を作成することはできません。
 
