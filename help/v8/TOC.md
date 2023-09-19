@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 5ea7ee7cc9046c80d28ea413cd11641e0b213ccf
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 88%
 
 ---
@@ -83,8 +83,7 @@ ht-degree: 88%
       + [テスト配信の送信](preview-test/test-deliveries.md)
       + [メールのレンダリング](preview-test/email-rendering.md)
 + オーディエンスと受信者 {#audiences}
-   + [オーディエンスの基本を学ぶ](audience/about-audiences.md)
-   + [受信者の操作](audience/about-recipients.md)
+   + [受信者とオーディエンスの操作](audience/about-recipients.md)
    + [オーディエンスの作成](audience/create-audience.md)
    + [オーディエンスの監視と管理](audience/access-audiences.md)
    + ターゲットオーディエンス {#target-audiences}
@@ -92,7 +91,7 @@ ht-degree: 88%
       + [ルールビルダーを使用したオーディエンスを定義](audience/segment-builder.md)
       + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
       + [Adobe Experience Platform オーディエンスの使用](audience/aep-audience.md)
-   + [コントロール母集団を設定](audience/control-group.md)
+      + [コントロール母集団を設定](audience/control-group.md)
    + [購読サービスの使用](audience/create-service.md)
 + クロスチャネルキャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)

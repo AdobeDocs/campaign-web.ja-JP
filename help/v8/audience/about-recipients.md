@@ -1,16 +1,18 @@
 ---
-title: 受信者の操作
+title: 受信者とオーディエンスの操作
 description: 受信者 Campaign Web の使用方法を説明します
 badge: label="Beta"
-source-git-commit: 0dc5d7d32c743a4e01f539b9c1fc1733ce1fcffe
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 6%
+source-wordcount: '582'
+ht-degree: 13%
 
 ---
 
 
-# 受信者の操作 {#about-recipients}
+# 受信者とオーディエンスの操作 {#about-recipients}
+
+## 受信者 {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -43,3 +45,22 @@ ht-degree: 6%
 >
 >権限によっては、データベースに保存されている受信者の完全なリストへのアクセス権がない場合があります。 権限について詳しくは、[この節](../get-started/permissions.md)を参照してください。
 
+さらに、ニュースレターなどのサービスに対する受信者の購読と購読解除を管理できます。 [購読サービスの使用方法を説明します](create-service.md)
+
+## オーディエンス {#audiences}
+
+オーディエンスは配信のメインターゲットであり、メッセージを受信する受信者となります。オーディエンスのタイプは、配信テンプレートで定義されたターゲットマッピングによって異なります。[配信テンプレートとは](../msg/delivery-template.md).
+
+オーディエンスの母集団を定義するには、次の操作を実行します。
+
+* [新しいオーディエンスを作成](create-audience.md) から **[!UICONTROL オーディエンス]** メニュー
+* [既存のオーディエンスを選択](add-audience.md) クライアントコンソールにリストとして作成され、
+* [Adobe Experience Platformオーディエンスを選択](aep-audience.md),
+* [新しいオーディエンスの作成](segment-builder.md) をルールビルダーと共に使用することをお勧めします。
+* [外部ファイルからのオーディエンスの使用](file-audience.md).このオプションは、スタンドアロンの E メール配信にのみ使用でき、キャンペーン配信には使用できません。
+
+オーディエンスをターゲティングする際に、 **コントロール母集団** を使用すると、オーディエンスの一部にメッセージを送信しないようにし、キャンペーンの影響を測定できます。 [コントロール母集団の設定方法を説明します](control-group.md)
+
+>[!NOTE]
+>
+>キャンペーンワークフローのコンテキストでメッセージを送信する場合、オーディエンスは、特定の **オーディエンスの構築** ワークフローアクティビティ。 このコンテキストでは、メール配信用のオーディエンスをファイルから読み込むことはできず、オーディエンスはこの専用アクティビティでのみ定義されます。キャンペーンワークフローで配信のオーディエンスを定義する方法を説明します [この節](../workflows/activities/build-audience.md)
