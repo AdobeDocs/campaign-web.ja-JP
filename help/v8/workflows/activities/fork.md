@@ -3,10 +3,10 @@ audience: end-user
 title: 分岐ワークフローアクティビティの使用
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 68%
+source-wordcount: '165'
+ht-degree: 66%
 
 ---
 
@@ -26,15 +26,17 @@ ht-degree: 68%
 
 The **分岐** アクティビティは **フロー制御** アクティビティ。 アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。
 
-## 設定
+## 分岐アクティビティを設定する{#fork-configuration}
 
 次の手順に従って、**分岐**&#x200B;アクティビティを設定します。
+
+![](../assets/workflow-fork.png)
 
 1. **分岐**&#x200B;アクティビティをワークフローに追加します。
 1. **トランジションを追加**&#x200B;をクリックし、新しいアウトバウンドトランジションを追加します。デフォルトでは、2 つのトランジションが定義されています。
 1. 各トランジションにラベルを追加します。
 
-## 例
+## 例{#fork-example}
 
 次の例では、2 つの&#x200B;**分岐**&#x200B;アクティビティを使用しています。
 

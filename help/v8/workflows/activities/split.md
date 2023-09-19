@@ -3,9 +3,9 @@ audience: end-user
 title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '652'
 ht-degree: 94%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 **分割**&#x200B;アクティビティは、フィルタリングルールや母集団サイズなどの様々な選択条件に基づいて、入力母集団を複数のサブセットにセグメント化できる&#x200B;**ターゲティング**&#x200B;アクティビティです。
 
-## 設定 {#general}
+## 分割アクティビティの設定 {#split-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
@@ -78,7 +78,7 @@ ht-degree: 94%
 
 これでアクティビティが設定され、ワークフローの実行時に、母集団はアクティビティに追加された順序で、様々なサブセットにセグメント化されます。
 
-## 例
+## 例{#split-example}
 
 次の例では、**[!UICONTROL 分割]**&#x200B;アクティビティを使用して、使用する通信チャネルに基づいて、オーディエンスを個別のサブセットにセグメント化します。
 

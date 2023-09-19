@@ -3,9 +3,9 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 91%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 例えば、顧客の購入に関する情報をワークフローの作業用テーブルに追加し、このデータを使用して、最新の購入または購入金額に応じてメールをパーソナライズできます。
 
-## 一般設定 {#general}
+## エンリッチメントアクティビティの設定 {#enrichment-configuration}
 
 次の手順に従って、**エンリッチメント**&#x200B;アクティビティを設定します。
 
@@ -76,7 +76,7 @@ ht-degree: 91%
 * フィルター：100 ドルを超える項目を除外
 * 並べ替え：「**注文日付**」フィールドを降順で並び替え。
 
-### 属性を追加
+### 属性を追加 {#add-attribute}
 
 エンリッチメントデータとして使用するコレクションリンクを選択する場所です。
 
@@ -86,7 +86,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment3.png)
 
-### コレクション設定の定義
+### コレクション設定の定義{#collection-settings}
 
 次に、データの収集方法と取得するレコード数を定義します。
 
@@ -99,7 +99,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment5.png)
 
-### フィルターの定義
+### フィルターの定義{#collection-filters}
 
 ここでは、エンリッチメント属性の最大値を定義します。100 を超える項目は除外します。
 
@@ -109,7 +109,7 @@ ht-degree: 91%
 
 ![](../assets/workflow-enrichment6.png)
 
-### 並べ替えを定義
+### 並べ替えを定義{#collection-sorting}
 
 **最新**&#x200B;の 3 つの購入を取得するには、並べ替えを適用する必要があります。
 
