@@ -3,10 +3,10 @@ audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1407'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 93%
 
    * **[!UICONTROL 初期オーディエンス]**：ターゲット受信者の合計数。
 
-   * **[!UICONTROL 配信]**：配信の分析後に配信されるメッセージの合計数。
+   * **[!UICONTROL 配信する]**：配信の準備後に配信されるメッセージの合計数。
 
    * **[!UICONTROL 除外]**：送信されたターゲットから除外されたメッセージの合計数。
 +++
@@ -35,7 +35,7 @@ ht-degree: 93%
 
   +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
-   * **[!UICONTROL 送信済みメッセージ]**：配信の分析後に配信されるメッセージの合計数。
+   * **[!UICONTROL 送信されたメッセージ]**：配信の準備後に配信されるメッセージの合計数。
 
    * **[!UICONTROL 成功]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
 

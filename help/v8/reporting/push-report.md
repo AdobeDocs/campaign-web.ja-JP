@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ配信レポート
 description: プッシュ配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+workflow-type: tm+mt
 source-wordcount: '297'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
   +++詳しくは、プッシュ配信レポート指標を参照してください。
 
-   * **[!UICONTROL 合計送信数]**：配信の分析中に処理されたメッセージの合計数。
+   * **[!UICONTROL 送信総数]**：配信の準備中に処理されたメッセージの合計数。
 
    * **[!UICONTROL 配信済み数]**：送信されたメッセージの合計数に対して、正常に送信できたメッセージの数。
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
   +++詳しくは、プッシュ配信レポート指標を参照してください。
 
-   * **[!UICONTROL 配信]**：配信の分析中に処理されたメッセージの合計数。
+   * **[!UICONTROL 配信する]**：配信の準備中に処理されたメッセージの合計数。
 
    * **[!UICONTROL 除外]**：分析から除外されたプロファイルの数。
 

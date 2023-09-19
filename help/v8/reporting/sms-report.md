@@ -2,11 +2,11 @@
 audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
-badge: label="ベータ版"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="Beta"
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
   +++SMS 配信レポート指標の詳細を説明します。
 
-   * **[!UICONTROL 合計送信数]**：配信の分析中に処理されたメッセージの合計数。
+   * **[!UICONTROL 送信総数]**：配信の準備中に処理されたメッセージの合計数。
 
    * **[!UICONTROL 成功]**：送信されたメッセージの合計数に対して、正常に送信されたメッセージの数。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
   +++SMS 配信レポート指標の詳細を説明します。
 
-   * **[!UICONTROL 配信]**：配信の分析中に処理されたメッセージの合計数。
+   * **[!UICONTROL 配信する]**：配信の準備中に処理されたメッセージの合計数。
 
    * **[!UICONTROL 除外]**：分析から除外されたプロファイルの数。
 +++
