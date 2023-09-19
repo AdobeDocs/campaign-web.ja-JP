@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ配信レポート
 description: プッシュ配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 79%
+source-wordcount: '368'
+ht-degree: 72%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 79%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="プッシュレポートの概要"
->abstract="プッシュ配信のレポート指標を確認します。"
+>abstract="The **プッシュ配信の概要** は、プッシュ配信の包括的な概要を提供し、広範なインサイトと特定のデータを提供します。 配信のパフォーマンス、効果、結果に関する包括的な情報を提供します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="送信のレポート"
->abstract="レポート内の「送信中」タブには、訪問者の配信とのやり取りに関する詳細なインサイトと、発生した可能性のあるエラーが表示されます。"
+>abstract="he **送信中** 」タブを使用すると、訪問者の配信とのやり取りに関する詳細なインサイトと、発生した可能性のあるエラーを確認できます。"
 
 **プッシュ配信レポート**&#x200B;は、プッシュチャネルの完全な概要を提供し、広範なインサイトと特定のデータを提供します。これにより、各配信のパフォーマンス、有効性、結果に関する包括的な情報を入手できます。
 
