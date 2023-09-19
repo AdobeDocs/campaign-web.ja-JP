@@ -3,7 +3,7 @@ audience: end-user
 title: オーディエンスを作成ワークフローアクティビティの使用
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
+source-git-commit: 4028fabf0aca85ace97316b4e072c2b1dfa5dc5f
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 62%
@@ -72,6 +72,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ![](../assets/workflow-audience-example.png)
 
-Adobe Experience PlatformオーディエンスとAdobe Campaignオーディエンスを組み合わせた別のワークフローの例を以下に示します。 これらのオーディエンスを組み合わせるには、 **[!UICONTROL ディメンションを変更]** 「受信者」ターゲティングディメンションを含むアクティビティは、Adobe Experience Platformオーディエンスの後に追加されます。 [「ディメンションを変更」アクティビティの設定方法を説明します](change-dimension.md)
+Adobe Experience PlatformオーディエンスとAdobe Campaignオーディエンスを組み合わせた別のワークフローの例を次に示します。 これらのオーディエンスを組み合わせるには、 **[!UICONTROL ディメンションを変更]** 「受信者」ターゲティングディメンションを含むアクティビティは、Adobe Experience Platformオーディエンスの後に追加されます。 [「ディメンションを変更」アクティビティの設定方法を説明します](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)
