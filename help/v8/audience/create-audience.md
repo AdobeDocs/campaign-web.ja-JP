@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: オーディエンスの作成
-description: Adobe Campaign Web でオーディエンスを作成する方法を説明します
+title: オーディエンスの作成と管理
+description: Adobe Campaign Web でオーディエンスを作成および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: 3de56ccc5f96c4a13ba5d1211b3d5320a01e979d
+source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 1%
+source-wordcount: '756'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ Campaign Web を使用すると、ビジュアルワークフローキャンバ�
 
 1. ワークフローの準備が整ったら、「 **[!UICONTROL 開始]** をクリックして実行します。
 
-ワークフローは、 **[!UICONTROL ワークフロー]** リストに追加されても、結果のオーディエンスは **[!UICONTROL オーディエンス]** リスト。 [オーディエンスの監視および管理方法について説明します](access-audiences.md)
+ワークフローは、 **[!UICONTROL ワークフロー]** リストに追加されても、結果のオーディエンスは **[!UICONTROL オーディエンス]** リスト。
 
 ## オーディエンスワークフローの例 {#example}
 
@@ -71,3 +71,25 @@ Campaign Web を使用すると、ビジュアルワークフローキャンバ�
 1. The **[!UICONTROL エンリッチメント]** 「 」アクティビティは、顧客が購入した商品のタイプを識別するために、「購入品」テーブルの情報を使用してオーディエンスを強化します。
 1. The **[!UICONTROL 分割]** 「 」アクティビティでは、顧客の最新の購入に基づいて、ワークフローを 2 つのパスに分割します。
 1. The **[!UICONTROL オーディエンスを保存]** 各パスの最後にあるアクティビティは、各パスで計算された母集団を含む、2 つの新しいオーディエンスをデータベースに作成します。
+
+## オーディエンスの監視と管理 {#monitor}
+
+Campaign Web で使用できるオーディエンスのリストには、 **[!UICONTROL オーディエンス]** メニュー。
+
+![](assets/audiences-list.png)
+
+オーディエンスは複数のソースから作成できます。 The **[!UICONTROL Origin]** 列は、特定のオーディエンスが作成された場所を示します。
+
+* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスはAdobe Campaign V8 コンソールで作成されます。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=ja){target="_blank"}を参照してください。
+
+* **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** これらのオーディエンスは、Adobe Experience Platform内で作成され、宛先ソースとAdobeの統合を使用して Campaign Web に統合されます。 でこの統合を設定する方法を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+
+* **[!UICONTROL Adobe Campaign WebUI]**：これらのオーディエンスは、Campaign の Web オーディエンスワークフローを使用して作成されます。 [オーディエンスの作成方法を説明します](create-audience.md)
+
+オーディエンスの詳細を取得するには、リストからオーディエンスを開きます。 オーディエンスのプロパティと、オーディエンスに含まれているプロファイルの数が表示されます。 オーディエンス数は、いつでも **[!UICONTROL 計算]** 」ボタンをクリックします。
+
+The **[!UICONTROL データ]** 「 」タブでは、オーディエンスの一部であるプロファイルを視覚化できます。 列をさらに追加することでこのビューをカスタマイズしたり、詳細フィルターを利用して表示されるデータを絞り込んだりできます。
+
+![](assets/audiences-details.png)
+
+オーディエンスを複製または削除するには、 **[!UICONTROL その他のアクション]** ボタンが表示されます。
