@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 329393419782f56a259840bf4979482ba87f5686
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 87%
+source-wordcount: '416'
+ht-degree: 86%
 
 ---
 
@@ -84,8 +84,7 @@ ht-degree: 87%
       + [メールのレンダリング](preview-test/email-rendering.md)
 + オーディエンスと受信者 {#audiences}
    + [受信者とオーディエンスの操作](audience/about-recipients.md)
-   + [オーディエンスの作成](audience/create-audience.md)
-   + [オーディエンスの監視と管理](audience/access-audiences.md)
+   + [オーディエンスの作成と管理](audience/create-audience.md)
    + ターゲットオーディエンス {#target-audiences}
       + [既存オーディエンスの選択](audience/add-audience.md)
       + [ルールビルダーを使用したオーディエンスを定義](audience/segment-builder.md)
