@@ -3,10 +3,10 @@ audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 81%
+source-wordcount: '886'
+ht-degree: 78%
 
 ---
 
@@ -71,7 +71,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 Adobe Analytics の **結合** アクティビティの場合は、 **和集合**. その場合は、 **紐付けタイプ** 重複の処理方法を定義するには：
 
 * **キーのみ**：これはデフォルトのモードです。アクティビティは、異なるインバウンドトランジションの要素が同じキーを持つ場合、1 つの要素のみを保持します。このオプションは、インバウンド母集団が同質である場合にのみ使用できます。
-* **列の選択**：このオプションを選択し、データの紐付けが適用される列のリストを定義します。最初に（ソースデータを含む）プライマリセットを選択し、次に結合に使用する列を選択する必要があります。
+* **列の選択**：このオプションを選択し、データの紐付けが適用される列のリストを定義します。 最初に（ソースデータを含む）プライマリセットを選択し、次に結合に使用する列を選択する必要があります。
 
 ## 積集合 {#combine-intersection}
 

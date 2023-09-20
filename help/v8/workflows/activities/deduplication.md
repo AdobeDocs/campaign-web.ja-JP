@@ -3,10 +3,10 @@ audience: end-user
 title: 重複排除ワークフローアクティビティの使用
 description: 重複排除ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
-source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
+source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 15%
+source-wordcount: '585'
+ht-degree: 27%
 
 ---
 
@@ -48,14 +48,11 @@ The **重複排除** アクティビティは **ターゲット設定** アク�
 
 1. 一意の数を選択 **保持する重複**. このフィールドのデフォルト値は 1 です。値 0 を指定すると、すべての重複を保持できます。
 
-<!--
-    For example, if records A and B are considered duplicates of record Y, and a record C is considered as a duplicate of record Z:
+   例えば、レコード A と B がレコード Y の重複と見なされ、レコード C がレコード Z の重複と見なされる場合：
 
-    * If the value of the field is 1: only the Y and Z records are kept.
-    * If the value of the field is 0: all the records are kept.
-    * If the value of the field is 2: records C and Z are kept and two records from A, B, and Y are kept, by chance or depending on the deduplication method selected thereafter.
-
--->
+   * このフィールドの値が 1 の場合：Y レコードと Z レコードのみが保持されます。
+   * このフィールドの値が 0 の場合：すべてのレコードが保持されます。
+   * このフィールドの値が 2 の場合：C レコードと Z レコードが保持されます。さらに、偶然に、またはその後選択した重複排除方法によっては、A、B、Y のレコードのうち、2 つのレコードが保持されます。
 
 1. を選択します。 **重複排除メソッド** 次を使用します。
 
