@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: メールコンテンツを編集
-description: Campaign web UI のメールデザイナーを使用してコンテンツの作成を開始する方法を学ぶ
+description: Campaign web UI の E メールデザイナーを使用してコンテンツの作成を開始する方法を学ぶ
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: ht
@@ -10,11 +10,11 @@ ht-degree: 100%
 
 ---
 
-# メールデザイナーの基本を学ぶ {#get-started-email-designer}
+# E メールデザイナーの基本を学ぶ {#get-started-email-designer}
 
 Adobe Campaign でメールを作成したら、そのコンテンツを定義する必要があります。
 
-メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個別にカスタマイズされた魅力的なメールを作成できます。空白の状態から開始する場合でも、既存のコンテンツをインポートする場合でも、既存のテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆるメールコンテンツのデザインと強化に対応します。
+E メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個別にカスタマイズされた魅力的なメールを作成できます。空白の状態から開始する場合でも、既存のコンテンツをインポートする場合でも、既存のテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆるメールコンテンツのデザインと強化に対応します。
 
 <!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
@@ -34,11 +34,11 @@ The Email Designer allows you to create email content and email content template
 
 ## コンテンツの作成を開始 {#start-authoring}
 
-メール配信ダッシュボードから、[コンテンツを編集](edit-content.md)画面に移動して、メールデザイナーのホームページを開きます。ここで、次のオプションからメールのデザイン方法を選択します。
+メール配信ダッシュボードから、[コンテンツを編集](edit-content.md)画面に移動して、E メールデザイナーのホームページを開きます。ここで、次のオプションからメールのデザイン方法を選択します。
 
-* **メールをゼロからデザイン** - メールデザイナーのインターフェイスを使用します。メールコンテンツのデザイン方法については、[この節](create-email-content.md)を参照してください。
+* **メールをゼロからデザイン** - E メールデザイナーのインターフェイスを使用します。メールコンテンツのデザイン方法については、[この節](create-email-content.md)を参照してください。
 
-* **Raw HTML をコーディングまたはペースト** - メールデザイナーで直接行います。独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
+* **Raw HTML をコーディングまたはペースト** - E メールデザイナーで直接行います。独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
 
 * **既存の HTML コンテンツをインポート** - ファイルまたは .zip フォルダーから行います。メールコンテンツのインポート方法については、[この節](existing-content.md)を参照してください。
 
