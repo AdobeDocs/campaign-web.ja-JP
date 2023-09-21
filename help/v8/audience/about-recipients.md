@@ -2,15 +2,17 @@
 title: 受信者とオーディエンスの操作
 description: 受信者 Campaign Web の使用方法を説明します
 badge: label="Beta"
-source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
+source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 20%
+source-wordcount: '1022'
+ht-degree: 19%
 
 ---
 
 
 # 受信者とオーディエンスの操作 {#about-recipients}
+
+Adobe Campaignでは、配信のターゲット母集団はオーディエンスです。 類似した行動や特性を共有する人々のオーディエンスセット。 この担当者のコレクションは、生成、選択または読み込みが可能です [以下に詳述する](#audiences). ほとんどの場合、オーディエンスはプロファイルで構成され、 [受信者](#recipients) Adobe Campaignで また、説明に従ってディメンションを変更することで、他のターゲットマッピングを操作することもできます [この節](#targeting-dimensions).
 
 ## 受信者とは {#recipients}
 
