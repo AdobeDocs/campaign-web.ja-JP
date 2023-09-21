@@ -3,9 +3,9 @@ audience: end-user
 title: オーディエンスの作成と管理
 description: Adobe Campaign Web でオーディエンスを作成および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '765'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="オーディエンス"
->abstract="この画面から、オーディエンスを作成して組み合わせ、視覚的なキャンバスにすることができます。 次のような様々なワークフローアクティビティを追加します。 **分割** または **除外** をクリックして、新しいオーディエンスと絞り込まれたオーディエンスを生成します。"
+>abstract="この画面から、配信のターゲットに設定できるすべてのオーディエンスのリストにアクセスできます。 クリック **作成** 次のような様々なワークフローアクティビティを使用して、新しいオーディエンスをビジュアルキャンバスに作成するには： **分割** または **除外**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

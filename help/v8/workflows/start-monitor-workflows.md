@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 87%
+source-wordcount: '569'
+ht-degree: 86%
 
 ---
 
@@ -24,10 +24,6 @@ ht-degree: 87%
 視覚的なフローを使用すると、ターゲットプロファイルの進行状況をリアルタイムで追跡できます。これにより、各アクティビティのステータスと、アクティビティ間で移行中のプロファイルの数をすばやく識別できます。
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->視覚的なフローを無効にするには、キャンバスの上部のアクションバーにある「**[!UICONTROL 進行状況を非表示]**」ボタンをクリックします。
 
 ## ワークフロートランジション {#transitions}
 
