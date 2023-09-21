@@ -3,9 +3,9 @@ audience: end-user
 title: サービスの購読者の管理
 description: Adobe Campaign Web でサービスの購読者に管理して配信する方法を説明します
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 # サービスの購読者の管理 {#manage-subscribers}
 
-一度 [サービスを作成しました](manage-services.md#create-service)を使用すると、購読者を追加したり、受信者を購読解除したり、そのサービスの購読者に配信したりできます。
+一度 [サービスを作成しました](manage-services.md#create-service)を使用すると、購読者を追加したり、受信者を購読解除したり、そのサービスの購読者にメッセージを送信したりできます。
+
+購読者の管理について詳しくは、このページを参照してください。 購読者にメッセージを送信する方法については、 [この節](../content/send-to-subscribers.md).
 
 ## サービスへの購読者の追加 {#add-subscribers}
 
@@ -62,25 +64,3 @@ ht-degree: 0%
 ![](assets/service-create-validity-period.png)
 
 指定された期間が終了すると、すべての購読者がそのサービスから自動的に購読解除されます。
-
-## サービスの購読者への配信
-
-一度 [購読サービスを作成しました](manage-services.md#create-service)を使用すると、配信の購読者をターゲットに設定できます。 次の手順に従います。
-
-1. [オーディエンスの作成](../audience/create-audience.md) 作成したサービスの購読者を含める：
-
-   * Adobe Analytics の **[!UICONTROL オーディエンスの構築]** アクティビティ、詳細属性の表示および選択 **[!UICONTROL 受信者]** > **[!UICONTROL 購読]** > **[!UICONTROL サービス]**.
-
-   * この例では、 **Luma ニュースレター** ラベル。
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [配信の作成](../msg/gs-messages.md#create-delivery) をクリックし、上で作成したオーディエンスを選択します。
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. 必要に応じてメッセージコンテンツを編集し、配信を送信します。
-
-   ![](assets/service-delivery-ready.png)
-
-配信は、そのサービスの購読者にのみ送信されます。

@@ -3,9 +3,9 @@ audience: end-user
 title: 購読サービスの使用
 description: Adobe Campaign Web でサブスクリプションサービスにアクセス、作成、管理する方法について説明します
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '771'
 ht-degree: 5%
 
 ---
@@ -108,7 +108,7 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
 これで、次の場合にこれらのメッセージを選択できます。 [購読サービスの作成](#create-service). そのサービスを購読または購読解除するユーザーには、選択した確認メッセージが表示されます。
 
-## 購読サービスのログとレポート {#logs-and-reports}
+## サブスクリプションサービスを監視する {#logs-and-reports}
 
 SMS および E メールチャネルに対するサブスクリプションサービスの効果を測定するには、特定のサービスのログとレポートにアクセスします。
 

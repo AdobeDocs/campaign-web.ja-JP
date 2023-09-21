@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: オファーの送信
-description: オファーの送信
+title: メッセージにオファーを追加
+description: オファーを追加して送信する方法を説明します
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 80%
+source-wordcount: '782'
+ht-degree: 78%
 
 ---
 
 
-# オファーの送信 {#offers-content}
+# メッセージにオファーを追加 {#offers-content}
 
 Adobe Campaign v8 web では、**[!UICONTROL インタラクション]**&#x200B;モジュールを使用してコンソールで作成されたオファーを、配信で送信できます。インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
 
