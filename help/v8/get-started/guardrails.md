@@ -2,9 +2,9 @@
 title: Campaign Web UI のガードレールと制限
 description: Campaign Web UI のガードレールと制限
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '588'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ Web UI で新しいワークフローを作成する場合、キャンバスは 
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-ノードの配置は、アクティビティが追加または削除されるたびに更新されます。 コンソールでワークフローを作成し、Web UI を使用して変更し、コンソールで再度開くと、小さな配置の問題が発生する場合があります。 これは、ワークフローの
+ノードの配置は、アクティビティが追加または削除されるたびに更新されます。 コンソールでワークフローを作成し、Web UI を使用して変更し、コンソールで再度開くと、小さな配置の問題が発生する場合があります。 これは、ワークフローのプロセスとタスクには影響しません。
 
 | 最初のワークフロー | 位置の変更 |
 | --- | --- |
