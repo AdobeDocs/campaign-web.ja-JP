@@ -3,10 +3,10 @@ audience: end-user
 title: サービスの購読者へのメッセージの送信
 description: サービスの購読者にメッセージを送信する方法を説明します
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 5%
+source-wordcount: '163'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Adobe Campaignで購読サービスを作成し、購読者にメッセージを送信できます。 で購読サービスを作成する方法を説明します。 [このページ](../audience//manage-services.md#create-service).
 
-購読者にメッセージを送信するには、購読者を識別する特定のオーディエンスを作成し、以下に説明する方法で配信を作成します。 これを実行するには、次の手順に従います。
+購読者にメッセージを送信するには、購読者を識別する特定のオーディエンスを作成し、以下に説明する方法で配信を作成します。
 
 1. オーディエンスの作成. のオーディエンスの詳細 [このページ](../audience/create-audience.md).
 
