@@ -2,7 +2,7 @@
 title: Campaign Web での AI を利用したナレッジアシスタントの使用
 description: Campaign Web での AI を利用したナレッジアシスタントの使用
 badge: label="Beta"
-source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
+source-git-commit: 6ac2e49f4171b78c5e6a7ab94cb8fd0f9f380965
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -55,3 +55,4 @@ AI を利用したナレッジアシスタントを最大限に活用するに�
 * 中立的なトーンで適切な用語を使用します。
 * 回答を評価し、フィードバックを提供して、エンジニアが経験から学び、結果を改善できるようにします。
 
+<img src="assets/AI_CH.gif"/>
