@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: オーディエンスの作成と管理
-description: Adobe Campaign Web でオーディエンスを作成および管理する方法について説明します
+title: オーディエンスの作成
+description: Adobe Campaign Web でオーディエンスを作成する方法を説明します
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 2%
+source-wordcount: '557'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 Campaign Web を使用すると、ビジュアルワークフローキャンバスに新しいオーディエンスを作成できます。 最初から始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。 例えば、複数のオーディエンスを 1 つのオーディエンスに組み合わせたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つを複数のオーディエンスに分割したりできます。
 
-ワークフローを作成すると、結果のオーディエンスは、既存のオーディエンスと共に Campaign データベースに自動的に保存されます。 その後、これらのオーディエンスは、キャンペーンまたはスタンドアロン配信のターゲットに設定できます。
+ワークフローを作成すると、結果のオーディエンスは、既存のオーディエンスと共に Campaign データベースに自動的に保存されます。 その後、これらのオーディエンスは、ワークフローまたはスタンドアロン配信のターゲットに設定できます。
 
 ## 最初のオーディエンスを作成 {#create}
 
@@ -59,7 +59,9 @@ Campaign Web を使用すると、ビジュアルワークフローキャンバ�
 
 1. ワークフローの準備が整ったら、「 **[!UICONTROL 開始]** をクリックして実行します。
 
-ワークフローは、 **[!UICONTROL ワークフロー]** リストに追加されても、結果のオーディエンスは **[!UICONTROL オーディエンス]** リスト。
+ワークフローは、 **[!UICONTROL ワークフロー]** リストに追加されても、結果のオーディエンスは **[!UICONTROL オーディエンス]** リスト。 [オーディエンスを監視および管理する方法について説明します](manage-audience.md)
+
+これで、このオーディエンスを配信のメインターゲットとして使用できます。 [詳細情報](add-audience.md)
 
 ## オーディエンスワークフローの例 {#example}
 
@@ -71,30 +73,3 @@ Campaign Web を使用すると、ビジュアルワークフローキャンバ�
 1. The **[!UICONTROL エンリッチメント]** 「 」アクティビティは、顧客が購入した商品のタイプを識別するために、「購入品」テーブルの情報を使用してオーディエンスを強化します。
 1. The **[!UICONTROL 分割]** 「 」アクティビティでは、顧客の最新の購入に基づいて、ワークフローを 2 つのパスに分割します。
 1. The **[!UICONTROL オーディエンスを保存]** 各パスの最後にあるアクティビティは、各パスで計算された母集団を含む、2 つの新しいオーディエンスをデータベースに作成します。
-
-## オーディエンスの監視と管理 {#monitor}
-
->[!CONTEXTUALHELP]
->id="acw_audiences_workflow_error_data_execution"
->title="オーディエンスエラー"
->abstract="オーディエンスデータを使用できません。 ワークフローの実行が終了するまでお待ちください。"
-
-Campaign Web で使用できるオーディエンスのリストには、 **[!UICONTROL オーディエンス]** メニュー。
-
-![](assets/audiences-list.png)
-
-オーディエンスは複数のソースから作成できます。 The **[!UICONTROL Origin]** 列は、特定のオーディエンスが作成された場所を示します。
-
-* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスはAdobe Campaign V8 コンソールで作成されます。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=ja){target="_blank"}を参照してください。
-
-* **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** これらのオーディエンスは、Adobe Experience Platform内で作成され、宛先ソースとAdobeの統合を使用して Campaign Web に統合されます。 でこの統合を設定する方法を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
-
-* **[!UICONTROL Adobe Campaign WebUI]**：これらのオーディエンスは、Campaign の Web オーディエンスワークフローを使用して作成されます。 [オーディエンスの作成方法を説明します](create-audience.md)
-
-オーディエンスの詳細を取得するには、リストからオーディエンスを開きます。 オーディエンスのプロパティと、オーディエンスに含まれているプロファイルの数が表示されます。 オーディエンス数は、いつでも **[!UICONTROL 計算]** 」ボタンをクリックします。
-
-The **[!UICONTROL データ]** 「 」タブでは、オーディエンスの一部であるプロファイルを視覚化できます。 列をさらに追加することでこのビューをカスタマイズしたり、詳細フィルターを利用して表示されるデータを絞り込んだりできます。
-
-![](assets/audiences-details.png)
-
-オーディエンスを複製または削除するには、 **[!UICONTROL その他のアクション]** ボタンが表示されます。

@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 84%
+source-wordcount: '422'
+ht-degree: 82%
 
 ---
 
@@ -85,13 +85,14 @@ ht-degree: 84%
       + [メールのレンダリング](preview-test/email-rendering.md)
 + オーディエンスと受信者 {#audiences}
    + [受信者とオーディエンスの操作](audience/about-recipients.md)
-   + [オーディエンスの作成と管理](audience/create-audience.md)
-   + ターゲットオーディエンス {#target-audiences}
+   + [オーディエンスの作成](audience/create-audience.md)
+   + 配信受信者を選択 {#target-audiences}
       + [既存オーディエンスの選択](audience/add-audience.md)
-      + [ルールビルダーを使用したオーディエンスを定義](audience/segment-builder.md)
-      + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
-      + [Adobe Experience Platform オーディエンスの使用](audience/aep-audience.md)
+      + [1 回限りのオーディエンスの構築](audience/one-time-audience.md)
+      + [ファイルからのオーディエンスの読み込み](audience/file-audience.md)
       + [コントロール母集団を設定](audience/control-group.md)
+   + [ルールビルダーの使用](audience/segment-builder.md)
+   + [オーディエンスの監視と管理](audience/manage-audience.md)
    + 購読サービスの使用 {#work-with-services}
       + [サービスの管理](audience/manage-services.md)
       + [購読者の管理](audience/manage-subscribers.md)
