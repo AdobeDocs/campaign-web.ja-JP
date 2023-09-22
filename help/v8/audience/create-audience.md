@@ -3,9 +3,9 @@ audience: end-user
 title: オーディエンスの作成と管理
 description: Adobe Campaign Web でオーディエンスを作成および管理する方法について説明します
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '780'
 ht-degree: 2%
 
 ---
@@ -73,6 +73,11 @@ Campaign Web を使用すると、ビジュアルワークフローキャンバ�
 1. The **[!UICONTROL オーディエンスを保存]** 各パスの最後にあるアクティビティは、各パスで計算された母集団を含む、2 つの新しいオーディエンスをデータベースに作成します。
 
 ## オーディエンスの監視と管理 {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="オーディエンスエラー"
+>abstract="オーディエンスデータを使用できません。 ワークフローの実行が終了するまでお待ちください。"
 
 Campaign Web で使用できるオーディエンスのリストには、 **[!UICONTROL オーディエンス]** メニュー。
 
