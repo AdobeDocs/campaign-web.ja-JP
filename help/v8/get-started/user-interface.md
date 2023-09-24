@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 72%
+source-wordcount: '1263'
+ht-degree: 73%
 
 ---
 
@@ -115,9 +115,9 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-新しいベータ版では、 **Gen AI を備えた知識アシスタント** コンテキストヘルプ内に組み込まれ、膨大なドキュメントリポジトリを簡単に切り替え、必要な正確な情報を即座に特定し、ドキュメントの検索とハウツー質問への回答に革新的に対応します。
+新しいベータ版では、 **AI を利用したナレッジアシスタント** コンテキストヘルプ内に組み込まれ、膨大なドキュメントリポジトリを簡単に切り替え、必要な正確な情報を即座に特定し、ドキュメントの検索とハウツー質問への回答に革新的に対応します。
 
-このアシスタントは、Campaign Gen AI の機能のおかげで、エクスペリエンスを変え、情報の取得や問題解決を簡単におこなえます。 複雑なタスクでのガイダンスを求める場合でも、広範なドキュメントをナビゲートする場合でも、Gen AI を備えた Knowledge Assistant は究極のコンパニオンであり、あらゆる操作で卓越した効率と正確性を提供します。
+このアシスタントは、Campaign Gen AI の機能のおかげで、エクスペリエンスを変え、情報の取得や問題解決を簡単におこなえます。 複雑なタスクでのガイダンスを求める場合でも、広範なドキュメントをナビゲートする場合でも、AI を活用したナレッジアシスタントは究極のコンパニオンで、すべてのインタラクションで卓越した効率と正確性を提供します。
 
 詳しくは、[こちら](using-ai.md)を参照してください。
 
@@ -182,11 +182,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery template settings-->
 
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="書き出し"
->abstract="選択したページのみを書き出すことができます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
