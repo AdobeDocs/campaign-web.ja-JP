@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
 badge: label="Beta"
-source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
+source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 17%
+source-wordcount: '503'
+ht-degree: 16%
 
 ---
 
@@ -95,7 +95,7 @@ The **全体的な統計** レポートには、送信した SMS メッセージ
 >abstract="The **除外** グラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。"
 
 
-* **[!UICONTROL 除外]** グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
+The **[!UICONTROL 除外]** グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。 除外ルールについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
 ![](assets/reporting_sms_6.png)
 

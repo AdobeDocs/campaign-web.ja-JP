@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ配信レポート
 description: プッシュ配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
+source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 40%
+source-wordcount: '487'
+ht-degree: 39%
 
 ---
 
@@ -94,7 +94,8 @@ The **全体的な統計** レポートには、送信されたプッシュ通�
 >title="全体的な統計のプッシュ"
 >abstract="The **除外** グラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。"
 
-The **[!UICONTROL 除外]** グラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。
+The **[!UICONTROL 除外]** グラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。 除外ルールについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+
 
 ![](assets/reporting_push_6.png)
 
