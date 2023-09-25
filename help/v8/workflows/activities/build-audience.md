@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスを作成ワークフローアクティビティの使用
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 62%
+source-wordcount: '478'
+ht-degree: 60%
 
 ---
 
@@ -54,7 +54,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 独自のクエリを作成するには、さらに次の手順を行います。
 
 1. 「**独自のクエリを作成**」を選択します。
-1. 「**ターゲティングディメンション**」を選択します。ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。[v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja#targeting-and-filtering-dimensions){target="_blank"}を参照してください。
+1. 「**ターゲティングディメンション**」を選択します。ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。ターゲティングディメンションについて詳しくは、 [この節](../../audience/about-recipients.md#targeting-dimensions).
 1. 「**続行**」をクリックします。
 1. 新しいメールをデザインする際にオーディエンスを作成するのと同じ方法で、ルールビルダーを使用してクエリを定義します。[こちら](../../audience/segment-builder.md)を参照してください。
 

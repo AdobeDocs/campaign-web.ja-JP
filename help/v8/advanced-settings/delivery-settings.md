@@ -4,10 +4,10 @@ title: 配信設定
 description: Campaign Web での配信設定の詳細を説明します
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
-source-wordcount: '2094'
-ht-degree: 71%
+source-wordcount: '2112'
+ht-degree: 70%
 
 ---
 
@@ -109,16 +109,15 @@ E メールの配信設定は次のとおりです。 **技術的な配信パラ
 
 ## オーディエンス設定 {#audience}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
 >title="配信のオーディエンス設定"
 >abstract="を選択します。 **ターゲットマッピング** 手に入るものの中に ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。また、配信の除外パラメーターを設定することもできます。 "
 
+このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。ターゲティングディメンション（ターゲットマッピング）は、操作で処理されるデータのタイプです。 ターゲット母集団（受信者、契約の受取人、オペレーター、購読者など）を定義できます。
 
-このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。
 
-ターゲットマッピングの詳細については、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}.
+ターゲットマッピングの詳細については、 [この節](../audience/about-recipients.md#targeting-dimensions).
 
 ## 配信 {#delivery}
 
