@@ -3,7 +3,7 @@ audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: f2ae73ce56e2e5128fecd8b74a6bdb096b8b75ec
+source-git-commit: cc58e6bcf030885ba364df7dfd51de797117120c
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 53%
@@ -30,11 +30,11 @@ ht-degree: 53%
 
 The **[!UICONTROL 初期ターゲット母集団]** グラフには、受信者に関連するデータが表示されます。 配信の準備および表示中に指標が計算されます。初期オーディエンス、送信するメッセージ数、除外された受信者数が表示されます。
 
-![](assets/reporting_email_1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.png){width="50%" align="center" zoomable="yes"}
 
 グラフの一部にマウスポインターを置くと、正確な数が表示されます。
 
-![](assets/reporting_email_1.1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.1.png){width="50%" align="center" zoomable="yes"}
 
 
 +++詳しくは、メール配信レポート指標を参照してください。
@@ -57,7 +57,7 @@ The **[!UICONTROL 初期ターゲット母集団]** グラフには、受信者�
 
 The **[!UICONTROL 配信統計]** グラフには、配信の成功の詳細が表示されます。 以下に、指標について詳しく説明します。
 
-![](assets/reporting_email_2.png){align="center" zoomable="yes"}
+![](assets/reporting_email_2.png){width="50%" align="center" zoomable="yes"}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
