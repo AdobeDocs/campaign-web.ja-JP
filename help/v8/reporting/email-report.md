@@ -3,10 +3,10 @@ audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 69%
+source-wordcount: '1932'
+ht-degree: 68%
 
 ---
 
@@ -301,6 +301,12 @@ ht-degree: 69%
 >id="acw_delivery_reporting_breakdown_os"
 >title="OS ごとの分類"
 >abstract="The **OS で分類** 該当する期間の、オペレーティングシステムごとの開封数の分類を表示します。 最初のグラフには、コンピューターおよびモバイルデバイスでの開封数に関する統計が表示されます。 2 つ目のグラフはモバイルデバイスでの開封数のみに関する統計を示しています。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="ブラウザーによる分類"
+>abstract="The **ブラウザーによる分類** 該当する期間中の、ブラウザーごとの開封の分類を表示します。 最初のグラフには、コンピューターおよびモバイルデバイスでの開封数に関する統計が表示されます。 2 つ目のグラフはモバイルデバイスでの開封数のみに関する統計を示しています。"
+
 
 このレポートは、該当する期間中の、オペレーティングシステム、デバイスおよびブラウザーごとの開封の分類を表示します。それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフはモバイルデバイスでの開封数のみに関する統計を示しています。
 
