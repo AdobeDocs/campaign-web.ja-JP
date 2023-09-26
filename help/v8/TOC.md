@@ -8,7 +8,7 @@ hide: true
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 82%
+ht-degree: 93%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 82%
    + [基本を学ぶ](get-started/get-started.md)
    + [インターフェイスを確認](get-started/user-interface.md)
    + [リストの参照、検索、フィルタリング](get-started/list-filters.md)
-   + [定義済みフィルターの使用](get-started/predefined-filters.md)
+   + [定義済みフィルターの操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
-   + [ガードレールと制限事項](get-started/guardrails.md)
-   + [サポートされない機能](get-started/unsupported.md)
-   + [ヘルプとガイダンスを見つける](get-started/using-ai.md)
+   + [ガードレールと制限](get-started/guardrails.md)
+   + [サポートされていない機能](get-started/unsupported.md)
+   + [ヘルプとガイダンスの検索](get-started/using-ai.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
    + [配信テンプレートの操作](msg/delivery-template.md)
@@ -48,9 +48,9 @@ ht-degree: 82%
             + [テキストバージョンを生成](content/text-version-email.md)
          + コンテンツアシスタント {#content-assistant}
             + [コンテンツアシスタントの基本を学ぶ](content/generative-gs.md)
-            + [コンテンツアシスタントを使用したテキスト生成](content/generative-content.md)
+            + [コンテンツアシスタントを使用したテキストの生成](content/generative-content.md)
             + [コンテンツアシスタントを使用した画像の生成](content/generative-image.md)
-            + [コンテンツアシスタントを使用した E メールの生成](content/generative-email.md)
+            + [コンテンツアシスタントを使用したメールの生成](content/generative-email.md)
          + コンテンツのスタイル設定 {#style}
             + [メールスタイルの基本を学ぶ](content/get-started-email-style.md)
             + [背景設定の編集](content/backgrounds.md)
@@ -93,7 +93,7 @@ ht-degree: 82%
       + [コントロール母集団を設定](audience/control-group.md)
    + [ルールビルダーの使用](audience/segment-builder.md)
    + [オーディエンスの監視と管理](audience/manage-audience.md)
-   + 購読サービスの使用 {#work-with-services}
+   + 購読サービスの操作 {#work-with-services}
       + [サービスの管理](audience/manage-services.md)
       + [購読者の管理](audience/manage-subscribers.md)
 + クロスチャネルキャンペーン {#campaigns}
