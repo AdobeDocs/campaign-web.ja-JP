@@ -4,9 +4,9 @@ product: campaign
 title: メールテンプレートの操作
 badge: label="Beta"
 source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '121'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 87%
 
 ![](assets/email_designer-sample-templates.png)
 
-Campaign には、選択可能な一連の組み込みの E メールコンテンツテンプレートが付属しています。
+Campaign には、選択可能な一連の組み込みメールコンテンツテンプレートが付属しています。
 
 サンプルテンプレートのいずれかを使用してコンテンツの作成を開始するには、次の手順に従います。
 
-1. [メールデザイナー](get-started-email-designer.md)を開きます。
+1. [E メールデザイナー](get-started-email-designer.md)を開きます。
 
 1. 「**[!UICONTROL メールを作成]**」画面に、**[!UICONTROL サンプルテンプレート]**&#x200B;のリストが表示されます。
 
@@ -32,4 +32,4 @@ Campaign には、選択可能な一連の組み込みの E メールコンテ�
 
 1. 画面右上の「**[!UICONTROL このテンプレートを使用]**」をクリックします。
 
-1. メールデザイナーを使用して、必要に応じてコンテンツを編集します。[詳細情報](create-email-content.md)
+1. E メールデザイナーを使用して、必要に応じてコンテンツを編集します。[詳細情報](create-email-content.md)

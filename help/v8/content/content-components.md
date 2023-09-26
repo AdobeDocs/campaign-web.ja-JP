@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 電子メールデザイナーのコンテンツコンポーネントの使用
+title: E メールデザイナーのコンテンツコンポーネントの使用
 description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
 source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1170'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# メールデザイナーのコンテンツを使用 {#content-components}
+# E メールデザイナーのコンテンツを使用 {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
@@ -41,7 +41,7 @@ ht-degree: 94%
 
 メールにコンテンツコンポーネントを追加し、必要に応じて調整するには、次の手順に従います。
 
-1. メールデザイナーで、[既存のコンテンツ](existing-content.md)を使用するか、**[!UICONTROL 構造]**&#x200B;を空のコンテンツにドラッグ＆ドロップして、メールのレイアウトを定義します。方法については、[こちら](create-email-content.md)を参照してください。
+1. E メールデザイナーで、[既存のコンテンツ](existing-content.md)を使用するか、**[!UICONTROL 構造]**&#x200B;を空のコンテンツにドラッグ＆ドロップして、メールのレイアウトを定義します。方法については、[こちら](create-email-content.md)を参照してください。
 
 1. 選択した&#x200B;**[!UICONTROL コンテンツ]**&#x200B;を、関係のある構造内にドラッグ＆ドロップします。
 
@@ -145,7 +145,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->外部コンテンツを簡単にメールデザイナーに準拠させるには、[ゼロからメッセージを作成](create-email-content.md)し、既存のメールのコンテンツをコンポーネントにコピーすることをお勧めします。
+>外部コンテンツを簡単に E メールデザイナーに準拠させるには、[ゼロからメッセージを作成](create-email-content.md)し、既存のメールのコンテンツをコンポーネントにコピーすることをお勧めします。
 
 ## 画像 {#image}
 
@@ -155,15 +155,15 @@ ht-degree: 94%
 
    ![](assets/email_designer_9.png)
 
-1. 「**[!UICONTROL 参照]**」をクリックして、アセットから画像ファイルを選択します。また、 **[!UICONTROL メディアを読み込む]**.
+1. 「**[!UICONTROL 参照]**」をクリックして、アセットから画像ファイルを選択します。また、「**[!UICONTROL メディアを読み込み]**」を選択することもできます。
 
-   アセットをアップロードし、Assets Essentialsに追加する方法について詳しくは、 [Adobe Experience Manager Assets Essentialsドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+   Assets Essentials でアセットをアップロードおよび追加する方法について詳しくは、[Adobe Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=ja)を参照してください。
 
    ![](assets/email_designer_28.png)
 
-1. フォルダー内を移動して必要な特定のアセットを見つけるか、検索バーを使用して効率的にアセットを見つけます。
+1. フォルダー内を移動して必要な特定のアセットを見つけるか、検索バーを使用して効率的に見つけます。
 
-   探しているアセットを見つけたら、 **[!UICONTROL 選択]**.
+   検索しているアセットが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
    ![](assets/email_designer_29.png)
 

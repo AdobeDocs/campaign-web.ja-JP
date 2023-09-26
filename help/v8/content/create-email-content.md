@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: 電子メールデザイナーでのメールの設計
+title: E メールデザイナーでのメールの設計
 description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
 ht-degree: 100%
 
@@ -37,28 +37,28 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="メール列の定義"
->abstract="メールデザイナーを使用すると、列構造を定義することで、メールのレイアウトを簡単に定義できます。"
+>abstract="E メールデザイナーを使用すると、列構造を定義することで、メールのレイアウトを簡単に定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="ランディングページ列の定義"
->abstract="メールデザイナーを使用すると、列構造を定義することで、ランディングページのレイアウトを簡単に定義できます。"
+>abstract="E メールデザイナーを使用すると、列構造を定義することで、ランディングページのレイアウトを簡単に定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="フラグメント列の定義"
->abstract="メールデザイナーを使用すると、列構造を定義することで、フラグメントのレイアウトを簡単に定義できます。"
+>abstract="E メールデザイナーを使用すると、列構造を定義することで、フラグメントのレイアウトを簡単に定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="テンプレート列の定義"
->abstract="メールデザイナーを使用すると、列構造を定義することで、テンプレートのレイアウトを簡単に定義できます。"
+>abstract="E メールデザイナーを使用すると、列構造を定義することで、テンプレートのレイアウトを簡単に定義できます。"
 
-メールデザイナーを使用すると、メールの構造を簡単に定義できます。簡単なドラッグ＆ドロップ操作で構造要素を追加して移動することで、メールの本文を数秒でデザインできます。
+E メールデザイナーを使用すると、メールの構造を簡単に定義できます。簡単なドラッグ＆ドロップ操作で構造要素を追加して移動することで、メールの本文を数秒でデザインできます。
 
 メールコンテンツの作成を開始するには、次の手順に従います。
 
-1. [メールデザイナー](get-started-email-designer.md#start-authoring)のホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
+1. [E メールデザイナー](get-started-email-designer.md#start-authoring)のホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
 
    ![](assets/email_designer-from-scratch.png)
 

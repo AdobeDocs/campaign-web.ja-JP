@@ -3,11 +3,11 @@ audience: end-user
 title: 配信コンテンツのプレビュー
 description: Campaign web UI で配信コンテンツをプレビューする方法を学ぶ
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 95%
 
      >[!NOTE]
      >
-     >テストプロファイルは、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}.
+     >テストプロファイルは、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください。
 
-   * 「**[!UICONTROL プロファイル]**」タブには、コンソールから&#x200B;**[!UICONTROL プロファイルとターゲット]**&#x200B;フォルダーに保存されたすべての受信者がリストされます。[!DNL Campaign]詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=ja){target="_blank"}.
+   * 「**[!UICONTROL プロファイル]**」タブには、コンソールから&#x200B;**[!UICONTROL プロファイルとターゲット]**&#x200B;フォルダーに保存されたすべての受信者がリストされます。[!DNL Campaign]詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=ja){target="_blank"}を参照してください。
 
    ![](assets/simulate-select-profiles.png)
 

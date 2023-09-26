@@ -3,9 +3,9 @@ audience: end-user
 title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # リンクの追加とメッセージのトラッキング {#tracking}
 
-電子メールデザイナーを使用してコンテンツにリンクを追加し、受信者の行動を監視するために送信されたメッセージを追跡します。
+E メールデザイナーを使用してコンテンツにリンクを追加し、受信者の行動を監視するために送信されたメッセージを追跡します。
 
 ## リンクを挿入 {#insert-links}
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ## トラッキングの管理 {#manage-tracking}
 
-[電子メールデザイナー](create-email-content.md)を使用すると、各リンクのトラッキングタイプを編集するなど、追跡する URL を管理できます。
+[E メールデザイナー](create-email-content.md)を使用すると、各リンクのトラッキングタイプを編集するなど、追跡する URL を管理できます。
 
 1. 左側のパネルで 「**[!UICONTROL リンク]**」アイコンをクリックすると、追跡するコンテンツのすべての URL のリストが表示されます。
 

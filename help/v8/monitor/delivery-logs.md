@@ -3,9 +3,9 @@ audience: end-user
 title: 配信ログの監視
 description: 配信ログの監視方法について説明します
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 

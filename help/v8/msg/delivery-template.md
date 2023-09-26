@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: 配信テンプレートの操作
-description: Campaign で配信テンプレートを作成および使用する方法を学ぶ Web
+title: 配信テンプレートを操作
+description: Campaign で配信テンプレートを作成および使用する方法を学ぶWeb
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="配信テンプレート"
->abstract="キャンペーンの実行と開始を迅速におこなうために、配信テンプレートを使用してクリエイティブなルックアンドフィールを標準化します。"
+>abstract="キャンペーンの実行と開始を迅速に行うには、クリエイティブなルックアンドフィールを標準化する配信テンプレートを使用します"
 
-高速で改善されたデザインプロセスを実現するために、配信テンプレートを作成して、キャンペーン全体でカスタムコンテンツや設定を簡単に再利用できます。 この機能を使用すると、クリエイティブなルックアンドフィールを標準化して、キャンペーンの実行と開始をより迅速に行うことができます。
+設計プロセスを加速し改善するために、配信テンプレートを作成すると、キャンペーン全体でカスタムコンテンツと設定を簡単に再利用できます。この機能を使用すると、クリエイティブなルックアンドフィールを標準化して、キャンペーンの実行と開始をより迅速に行うことができます。
 
 テンプレートには、次の項目を含めることができます。
 
 * [タイポロジ](../advanced-settings/delivery-settings.md#typology),
-* 送信者のアドレス,
-* An [audience](../audience/about-recipients.md)を含む [コントロール母集団](../audience/control-group.md),
-* カスタム[コンテンツ](../content/edit-content.md),
-* [パーソナライズされたフィールド](../personalization/personalize.md)と[条件付きコンテンツ](../personalization/conditions.md),
-* [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md),
+* 送信者のアドレス、
+* [オーディエンス](../audience/about-recipients.md)（[コントロール母集団](../audience/control-group.md)を含む）
+* カスタム[コンテンツ](../content/edit-content.md)、
+* [パーソナライズされたフィールド](../personalization/personalize.md)と[条件付きコンテンツ](../personalization/conditions.md)、
+* [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md)、
 * リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。
 
 <!--
@@ -39,14 +39,14 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->配信テンプレートは、 [コンテンツテンプレート](../content/email-sample-templates.md)：標準で用意されているサンプルの電子メールテンプレートの 1 つを使用して、コンテンツの作成を開始できます。
+>配信テンプレートは、標準で用意されているサンプルメールテンプレートのいずれかを使用してコンテンツの作成を開始できる[コンテンツテンプレート](../content/email-sample-templates.md)とは異なります。
 
 
 ## 配信テンプレートへのアクセスと管理 {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
->title="配信テンプレートの操作"
+>title="配信テンプレートを操作"
 >abstract="配信テンプレートを使用すると、後で使用できるように既存の配信を簡単に作成して保存できます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ja#copy-an-existing-template" text="既存のテンプレートを複製"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ja#convert-an-existing-delivery" text="配信をテンプレートに変換"
@@ -83,7 +83,7 @@ ht-degree: 87%
 * 既存の配信をテンプレートに変換 - [詳細情報](#convert-an-existing-delivery)
 * 配信テンプレートをゼロから作成 - [詳細情報](#create-a-new-template)
 
-### 既存の配信テンプレートの複製 {#copy-an-existing-template}
+### 既存の配信テンプレートを複製 {#copy-an-existing-template}
 
 キャンペーンには、各チャネル用の一連の組み込みテンプレート（メール、プッシュ、SMS）が備わっています。配信テンプレートを作成する最も簡単な方法は、組み込みテンプレートを複製してカスタマイズすることです。
 
@@ -135,7 +135,7 @@ ht-degree: 87%
 
 新しいテンプレートが&#x200B;[**テンプレート**&#x200B;リスト](#access-manage-templates)に追加されます。これで、新しい配信を作成する際にテンプレートを選択できます。
 
-### 新しい配信テンプレートを作成 {#create-a-new-template}
+### 新しい配信テンプレートの作成 {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -165,7 +165,7 @@ ht-degree: 87%
    > * [プッシュ通知チャネル](../push/gs-push.md)
    > * [SMS チャネル](../sms/create-sms.md)
 
-1. また、電子メールテンプレートの場合、タイポロジルールやターゲットマッピングなどの詳細設定には、 **[!UICONTROL 設定]** ボタンをクリックします。 [詳細情報](../advanced-settings/delivery-settings.md)
+1. また、メールテンプレートの場合、画面右上にある「**[!UICONTROL 設定]**」ボタンから、タイポロジルールやターゲットマッピングなどの詳細設定にアクセスできます。[詳細情報](../advanced-settings/delivery-settings.md)
 
 1. 「**[!UICONTROL レビュー]**」ボタンをクリックしてテンプレートを保存およびレビューします。すべての設定を編集、削除および複製できます。
 
@@ -179,7 +179,7 @@ ht-degree: 87%
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;メニューから「**テンプレート**」タブに移動し、任意のテンプレートを選択します。[詳細情報](#access-manage-templates)
 
-1. 次をクリック： **[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、画面の右上に表示されます。
+1. 画面右上の「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
    ![](assets/templates-simulate-button.png)
 

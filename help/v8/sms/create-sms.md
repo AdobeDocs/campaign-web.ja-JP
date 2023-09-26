@@ -5,9 +5,9 @@ description: Adobe Campaign Web で SMS を作成して送信する方法を学�
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
 source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 82%
 >title="SMS テンプレートの選択"
 >abstract="事前定義済みのテンプレートを選択して SMS 配信を開始します。"
 
-スタンドアロンの SMS 配信を作成することも、キャンペーンワークフローのコンテキストで SMS を作成することもできます。 以下の手順では、スタンドアロン（ワンショット）の SMS 配信の手順について説明します。 キャンペーンワークフローのコンテキストで作業している場合、作成手順の詳細は [この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+スタンドアロンの SMS 配信を作成することも、キャンペーンワークフローのコンテキストで SMS を作成することもできます。以下の手順では、スタンドアロン（1 回限りの）SMS 配信の手順について説明します。キャンペーンワークフローのコンテキストで作業している場合、作成手順について詳しくは[この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)で説明します。
 
 
-スタンドアロンの新しい SMS 配信を作成するには、次の手順に従います。
+スタンドアロン SMS 配信を新規作成するには、次の手順に従います。
 
 1. 左側のナビゲーションの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
 
@@ -63,7 +63,7 @@ ht-degree: 82%
 
    この画面から、[コンテンツをシミュレート](../preview-test/preview-test.md)したり、[オファーを設定](../content/offers.md)したりすることもできます。
 
-1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。配信スケジュールについて詳しくは、 [この節](../msg/gs-messages.md#gs-schedule).
+1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#gs-schedule)を参照してください。
 
 1. 「**[!UICONTROL 配信設定を指定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 

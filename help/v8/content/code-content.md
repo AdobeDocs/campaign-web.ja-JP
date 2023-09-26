@@ -3,9 +3,9 @@ audience: end-user
 title: 独自のメールコンテンツをコーディング
 description: 独自のメールコンテンツのコーディング方法を説明します
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >
 >この方法には、HTML スキルが必要です。
 
-1. [メールデザイナー](get-started-email-designer.md)のホームページで、「**[!UICONTROL 独自のコーディング]**」を選択します。
+1. [E メールデザイナー](get-started-email-designer.md)のホームページで、「**[!UICONTROL 独自のコーディング]**」を選択します。
 
    ![](assets/code-your-own.png)
 

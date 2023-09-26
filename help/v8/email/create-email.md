@@ -5,9 +5,9 @@ description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
 source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1355'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 69%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="E メールコンテンツ用 Gen AI"
->abstract="当社の Gen AI テクノロジーは、高度なアルゴリズムを利用して、高度にエンゲージメントとパーソナライズされたコンテンツを生成します。 Gen AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。 競争に先立ち、Gen AI を使用したメールマーケティングゲームをメールコンテンツに活用してください。"
+>title="メールコンテンツ用生成 AI"
+>abstract="アドビの生成 AI テクノロジーは、高度なアルゴリズムを利用して、非常に魅力的でパーソナライズされたコンテンツを生成します。生成 AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。競合他社に先んじて、メールコンテンツに対する生成 AI を使用してメールマーケティングゲームを向上させます。"
 
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 
-事前定義済みに基づく [デザインテンプレート](../content/email-sample-templates.md)の場合、E メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
+事前定義された[デザインテンプレート](../content/email-sample-templates.md)に基づき、メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
 
 ## メール配信の作成 {#create-email}
 
@@ -32,12 +32,12 @@ ht-degree: 69%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="E メールプロパティを定義する"
->abstract="プロパティは、配信の名前付けや分類に役立つ一般的な配信パラメーターです。追加の設定はオプションです。 配信が Adobe Campaign v8 コンソールで定義された拡張スキーマに基づいている場合は、いくつかの特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。"
+>title="メールプロパティの定義"
+>abstract="プロパティは、配信の名前付けや分類に役立つ一般的な配信パラメーターです。追加の設定はオプションです。配信が Adobe Campaign v8 コンソールで定義された拡張スキーマに基づいている場合は、いくつかの特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。"
 
-スタンドアロンの E メール配信を作成することも、キャンペーンワークフローのコンテキストで E メールを作成することもできます。 以下の手順では、スタンドアロン（ワンショット）E メール配信の手順について説明します。 キャンペーンワークフローのコンテキストで作業している場合、作成手順の詳細は [この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+スタンドアロンのメール配信を作成することも、キャンペーンワークフローのコンテキストでメールを作成することもできます。以下の手順では、スタンドアロン（1 回限りの）メール配信の手順について説明します。キャンペーンワークフローのコンテキストで作業している場合、作成手順について詳しくは[この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)で説明します。
 
-新しいスタンドアロンの E メール配信を作成するには、次の手順に従います。
+新しいスタンドアロンのメール配信を作成するには、次の手順に従います。
 
 1. 左側のナビゲーションの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 69%
 
    * **[!UICONTROL 内部名]**：配信に一意の ID を割り当てます。
    * **[!UICONTROL フォルダー]**：配信を特定のフォルダーに保存します。
-   * **[!UICONTROL 配信コード]**：このフィールドを使用して、独自の命名規則に基づいて配信を整理します。
+   * **[!UICONTROL 配信コード]**：このフィールドを使用すると、独自の命名規則に基づいて配信を整理できます。
    * **[!UICONTROL 説明]**：配信の説明を指定します。
    * **[!UICONTROL 特性]**：分類目的でメールの特性を指定します。<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
@@ -66,16 +66,16 @@ ht-degree: 69%
 
    ![](assets/email-properties.png)
 
-1. また、タイポロジルールやターゲットマッピングなどの詳細設定には、 **[!UICONTROL 設定]** ボタンをクリックします。 これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。[詳細情報](../advanced-settings/delivery-settings.md)
+1. また、画面右上にある「**[!UICONTROL 設定]**」ボタンから、タイポロジルールやターゲットマッピングなどの詳細設定にアクセスできます。これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。[詳細情報](../advanced-settings/delivery-settings.md)
 
 ## オーディエンスを定義 {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="配信用のオーディエンスを選択"
->abstract="マーケティングメッセージに最適なオーディエンスを選択します。(Campaign v8 インスタンスまたはAdobe Experience Platformで既に定義されている ) 既存のオーディエンスを選択したり、ルールビルダーを使用して新しいオーディエンスを作成したり、オーディエンスを含むファイルをアップロードしたりできます。 コントロール母集団が **ファイルから選択** オプションとその逆。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="メインオーディエンスを選択"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="コントロール母集団を設定"
+>abstract="マーケティングメッセージに最適なオーディエンスを選択します。既存のオーディエンス（Campaign v8 インスタンスまたは Adobe Experience Platform で既に定義されている）を選択するか、ルールビルダーを使用して新しいオーディエンスを作成するか、オーディエンスを含むファイルをアップロードすることができます。「**ファイルから選択**」オプションに対してはコントロール母集団が有効になっていません。逆も同様です。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=ja" text="メインオーディエンスを選択"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ja" text="コントロール母集団を設定"
 
 このユースケースでは、既存のオーディエンスにメールを送信します。
 
@@ -89,7 +89,7 @@ ht-degree: 69%
 
    >[!NOTE]
    >
-   >リストで使用可能なオーディエンスは、Campaign v8 インスタンスから、またはインスタンスに宛先/ソース統合が設定されている場合はAdobe Experience Platformから作成します。 この統合により、Experience PlatformセグメントをAdobe Campaignに送信したり、Campaign の配信とトラッキングログをAdobe Experience Platformに送信したりできます。 Campaign とAdobe Experience Platformの連携の仕組みについては、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+   >リストで使用可能なオーディエンスは、Campaign v8 インスタンスから、またはインスタンスに宛先／ソースの統合が設定されている場合は Adobe Experience Platform から作成されます。この統合により、Experience Platform セグメントを Adobe Campaign に送信したり、キャンペーンの配信とトラッキングログを Adobe Experience Platform に送信したりできます。Campaign と Adobe Experience Platform の操作方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
 
 1. オーディエンスを選択したら、追加のルールを適用してターゲットを絞り込むことができます。
 
@@ -133,13 +133,13 @@ ht-degree: 69%
 
 ## 送信のスケジュール設定 {#schedule}
 
-E メールの送信をスケジュールするには、次の手順に従います。
+メールの送信をスケジュール設定するには、次の手順に従います。
 
-配信の送信スケジュールの設定方法に関する追加の手順について詳しくは、 [この節](../msg/gs-messages.md#gs-schedule).
+配信の送信をスケジュール設定する方法に関する追加手順については、[この節](../msg/gs-messages.md#gs-schedule)を参照してください。
 
-1. 次を参照： **[!UICONTROL スケジュール]** 」セクションに入力します。
+1. 「**[!UICONTROL スケジュール]**」セクションを参照します。
 
-1. 以下を使用します。 **[!UICONTROL スケジュールを有効にする]** オンに切り替えて有効にします。
+1. **[!UICONTROL スケジュールを有効にする]**&#x200B;切替スイッチをオンにしてアクティブ化します。
 
 1. 送信する日時を設定します。
 
@@ -157,7 +157,7 @@ E メールの送信をスケジュールするには、次の手順に従いま
 
 1. メールを確認するには、「**[!UICONTROL 確認して送信]**」をクリックします。これによりメールのプレビューが、設定済みのすべてのプロパティ、オーディエンス、スケジュールと共に表示されます。「変更」ボタンをクリックして、これらの要素を編集できます。
 
-1. E メールをプレビューしてテストバージョンを送信するには、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
+1. メールをプレビューしてテストバージョンを送信するには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
    ![](assets/review-email.png)
 

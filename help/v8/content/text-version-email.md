@@ -3,9 +3,9 @@ audience: end-user
 title: メールのテキストバージョンを作成
 description: メールのテキストバージョンを作成する方法を学ぶ
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 HTML コンテンツを表示できない場合に使用する、テキストバージョンのメール本文を作成することをお勧めします。
 
-デフォルトでは、メールデザイナーは、パーソナライズフィールドを含む&#x200B;**[!UICONTROL プレーンテキスト]**&#x200B;バージョンのメールを作成します。このバージョンは自動的に生成され、コンテンツの HTML バージョンと同期されます。
+デフォルトでは、E メールデザイナーは、パーソナライズフィールドを含む&#x200B;**[!UICONTROL プレーンテキスト]**&#x200B;バージョンのメールを作成します。このバージョンは自動的に生成され、コンテンツの HTML バージョンと同期されます。
 
 プレーンテキストバージョンに別のコンテンツを使用する場合は、次の手順に従います。
 

@@ -5,9 +5,9 @@ description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beta"
 source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -40,4 +40,4 @@ ht-degree: 88%
 >
 >「**[!UICONTROL 確認して送信]**」ボタンをクリックすると、[配信概要](../monitor/prepare-send.md)からコンテンツシミュレーションを利用することもできます。
 >
->ファイルからアップロードされたオーディエンスをターゲットとする場合は、 [この節](../audience/file-audience.md#preview--test-your-email-test) 配信をプレビューおよびテストする方法を説明します。
+>ファイルからアップロードされたオーディエンスをターゲット設定している場合は、配信をプレビューしテストする方法については[この節](../audience/file-audience.md#preview--test-your-email-test) を参照してください。

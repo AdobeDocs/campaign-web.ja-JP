@@ -5,9 +5,9 @@ description: Campaign web UI でのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
 source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 88%
 
 ## 送信の準備 {#prepare}
 
-を定義したら、 [コンテンツ](../content/edit-content.md), [audience](../audience/add-audience.md)、および [スケジュール](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)、E メール配信を準備する準備が整いました。
+[コンテンツ](../content/edit-content.md)、[オーディエンス](../audience/add-audience.md)および[スケジュール](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)を定義したら、メール配信の準備が整います。
 
-配信の準備中に、ターゲット母集団が計算され、ターゲットに含まれる各プロファイルに対して生成されるメッセージコンテンツが表示されます。 準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。
+配信の準備中に、ターゲット母集団が計算され、ターゲットに含まれるプロファイルごとのメッセージコンテンツが生成されます。準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。
 
-配信の準備中に使用される検証ルールについて詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=ja){target="_blank"}.
+配信の準備時に使用される検証ルールについては、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html?lang=ja){target="_blank"}を参照してください。
 
 送信を準備する主な手順を以下に示します。
 
@@ -119,34 +119,34 @@ ht-degree: 88%
 >id="acw_deliveries_email_metrics_delivered"
 >title="配信済み"
 >abstract="正常に配信されたメッセージの数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、送信されたメッセージの合計数に基づきます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=ja" text="KPI について"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="開封数"
 >abstract="開封されたメッセージの数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーク開封数の割合です。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=ja" text="KPI について"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="クリック数"
 >abstract="メール内で 1 回以上クリックした受信者の数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーククリック数の割合です。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=ja" text="KPI について"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="送信済み指標"
 >abstract="配信の分析中に処理されたメッセージの合計数。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=ja" text="KPI について"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="エラー指標"
 >abstract="送信されたメッセージの合計数に対して、配信と自動返信処理の間に累積したエラーの合計数。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html?lang=ja" text="KPI について"
 
 
 送信が完了したら、表示される KPI を確認できます。
@@ -167,6 +167,6 @@ ht-degree: 88%
 >
 >すべての指標は、配信が開始されてから 5 分ごとに更新されます。配信準備の指標はリアルタイムです。
 
-KPI の詳細については、 [このページ](../reporting/kpis.md).
+KPI について詳しくは、[このページ](../reporting/kpis.md)を参照してください。
 
 また、ログを確認することもできます。[詳細情報](delivery-logs.md)

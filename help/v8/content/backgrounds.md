@@ -3,9 +3,9 @@ audience: end-user
 title: メールの背景をパーソナライズする
 description: メールの背景をパーソナライズする方法を学ぶ
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="ベータ版"
+badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >title="背景設定"
 >abstract="コンテンツの背景色や背景画像をパーソナライズできます。背景画像は、すべてのメールクライアントでサポートされているわけではありません。"
 
-電子メールデザイナーで背景を設定する際の推奨事項は次のとおりです。
+E メールデザイナーで背景を設定する際の推奨事項は次のとおりです。
 
 1. デザインで必要な場合は、メールの本文に背景色を適用します。
 1. 通常は、列レベルで背景色を設定します。
