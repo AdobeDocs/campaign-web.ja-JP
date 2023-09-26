@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 60%
+ht-degree: 98%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience"
->title="オーディエンスアクティビティの作成"
->abstract="The **オーディエンスの構築** 「 」アクティビティでは、ワークフローに入るオーディエンスを定義できます。 ワークフローのコンテキストでメッセージを送信する場合、メッセージオーディエンスは、チャネルアクティビティではなく、 **オーディエンスの構築** アクティビティ。"
+>title="オーディエンスを作成アクティビティ"
+>abstract="**オーディエンスを作成**&#x200B;アクティビティを使用すると、ワークフローに入るオーディエンスを定義できます。ワークフローのコンテキストでメッセージを送信する場合、メッセージオーディエンスはチャネルアクティビティではなく、**オーディエンスを作成**&#x200B;アクティビティで定義されます。"
 
 
-**オーディエンスを作成**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、ワークフローに入るオーディエンスを定義できます。ワークフローのコンテキストでメッセージを送信する場合、メッセージオーディエンスは、チャネルアクティビティではなく、 **オーディエンスの構築** アクティビティ。
+**オーディエンスを作成**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、ワークフローに入るオーディエンスを定義できます。ワークフローのコンテキストでメッセージを送信する場合、メッセージオーディエンスはチャネルアクティビティではなく、**オーディエンスを作成**&#x200B;アクティビティで定義されます。
 
 オーディエンス母集団を定義するには、次の操作を実行します。
 
@@ -29,17 +29,17 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->このコンテキストでは、ファイルからオーディエンスを読み込むことはできません。この場合は、スタンドアロンの E メール配信を作成する必要があります。 [詳細情報](../../audience/about-recipients.md)
+>このコンテキストでは、ファイルからオーディエンスを読み込むことはできません。この場合、スタンドアロンのメール配信を作成する必要があります。[詳細情報](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## 「オーディエンスを作成」アクティビティを設定する{#build-audience-configuration}
+## オーディエンスを作成アクティビティの設定{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="ターゲティングディメンションを選択"
+>title="ターゲティングディメンションの選択"
 >abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。"
 
 
@@ -66,7 +66,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!IMPORTANT]
 >
->を使用する場合、 **[!UICONTROL オーディエンスの構築]** Experience Platformオーディエンスをターゲットとするアクティビティには、 **[!UICONTROL ディメンションを変更]** アクティビティを作成して、オーディエンスのターゲティングディメンションが「受信者」に設定されていることを確認します。 このページの下部には、ワークフローの例が表示されます。
+>Experience Platform オーディエンスをターゲットとする&#x200B;**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用する場合は、その後に&#x200B;**[!UICONTROL ディメンションを変更]**&#x200B;アクティビティを追加して、オーディエンスのターゲティングディメンションが「受信者」に設定されていることを確認する必要があります。ワークフローの例は、このページの下部にあります。
 
 ## 例{#build-audience-examples}
 
@@ -74,6 +74,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 ![](../assets/workflow-audience-example.png)
 
-Adobe Experience PlatformオーディエンスとAdobe Campaignオーディエンスを組み合わせた別のワークフローの例を次に示します。 これらのオーディエンスを組み合わせるには、 **[!UICONTROL ディメンションを変更]** 「受信者」ターゲティングディメンションを含むアクティビティは、Adobe Experience Platformオーディエンスの後に追加されます。 [「ディメンションを変更」アクティビティの設定方法を説明します](change-dimension.md)
+Adobe Experience Platform オーディエンスと Adobe Campaign オーディエンスを組み合わせた別のワークフローの例を以下に示します。これらのオーディエンスを組み合わせるには、「受信者」ターゲティングディメンションを含む&#x200B;**[!UICONTROL ディメンションを変更]**&#x200B;アクティビティを Adobe Experience Platform オーディエンスの後に追加します。[詳しくは、ディメンションを変更アクティビティの設定方法を参照してください](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)

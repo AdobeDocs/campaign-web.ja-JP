@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 33%
+ht-degree: 43%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="既存オーディエンスの選択"
->abstract="リストを参照して、既存のオーディエンスを選択します。 「フィルターを表示」アイコンを使用してリストをフィルターするか、特定のフォルダーを選択します。"
+>abstract="リストを参照して、既存のオーディエンスを選択します。「フィルターを表示」アイコンを使用してリストをフィルターするか、特定のフォルダーを選択します。"
 
 この節では、配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。 配信のメインターゲットを定義する際には、次の操作も実行できます。
 

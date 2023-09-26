@@ -1,22 +1,22 @@
 ---
 audience: end-user
 title: 配信設定
-description: Campaign Web での配信設定の詳細を説明します
+description: Campaign Web での配信設定の詳細情報
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
 workflow-type: tm+mt
 source-wordcount: '2112'
-ht-degree: 70%
+ht-degree: 98%
 
 ---
 
 
 # 配信設定 {#email-del-settings}
 
-E メールの配信設定は次のとおりです。 **技術的な配信パラメーター** 電子メールテンプレートで定義される。 配信ごとにオーバーロードする可能性があります。
+メールの配信設定は、メールテンプレートで定義される&#x200B;**技術的な配信パラメーター**&#x200B;です。配信ごとに過負荷になる可能性があります。
 
-これらの設定は、 **配信設定の指定** アイコンは、e メール配信または e メール配信テンプレートの編集時に使用できます。
+これらの設定は、メール配信またはメール配信テンプレートの編集時に使用できる「**配信設定を指定**」アイコンから利用できます。
 
 
 ## メール配信設定 {#email-delivery-settings}
@@ -30,18 +30,18 @@ E メールの配信設定は次のとおりです。 **技術的な配信パラ
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="タイポロジ"
->abstract="タイポロジ ルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルタリング、優先順位付けするタイポロジルールの集まりです。 タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
+>abstract="タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="配信のタイポロジ設定"
->abstract="タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルタリング、優先順位付けするタイポロジルールの集まりです。 タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
+>abstract="タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
 
 
-タイポロジとは、 **タイポロジルール**：準備段階で実行されます。 タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルタリング、優先順位付けするタイポロジルールの集まりです。 タイポロジルール内の条件に一致するプロファイルは、配信の準備段階で配信オーディエンスから除外されます。  メールに常に必要な特定の要素（登録解除リンクや件名行など）が含まれていることを確かめたり、ターゲットグループから特定グループ（非購読者、競合他社、非顧客など）を除外するフィルタールールを設定したりできます。
+タイポロジとは、準備段階で実行される一連の&#x200B;**タイポロジルール**&#x200B;です。タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジルール内の条件に一致するプロファイルは、配信の準備段階で配信オーディエンスから除外されます。メールに常に必要な特定の要素（登録解除リンクや件名行など）が含まれていることを確かめたり、ターゲットグループから特定グループ（非購読者、競合他社、非顧客など）を除外するフィルタールールを設定したりできます。
 
-1 回の配信に複数のフィルタールールを簡単に一度に適用できるように、タイポロジルールを 1 つのタイポロジ内にグループ化します。
+1 回の配信に複数のフィルタリングルールを容易に一括適用できるように、タイポロジルールはタイポロジ内でグループ化されています。
 
 タイポロジをメッセージまたはメッセージテンプレートに関連付けると、タイポロジに含まれているタイポロジルールがメッセージの準備中に実行されて、メッセージの有効性がチェックされます。
 
@@ -56,7 +56,7 @@ E メールの配信設定は次のとおりです。 **技術的な配信パラ
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
 >title="配信の頻度パラメーター"
->abstract="配信に重みを付けることで、疲労管理のフレームワーク内で最も優先度の高い配信を識別できます。 最も大きな重みを付けられたメッセージが、最優先されます。"
+>abstract="配信に重みを付けることで、疲労管理のフレームワーク内で最も優先順位の高い配信を指定できます。最も大きな重みを付けられたメッセージが、最優先されます。"
 
 
 >[!CONTEXTUALHELP]
@@ -64,7 +64,7 @@ E メールの配信設定は次のとおりです。 **技術的な配信パラ
 >title="配信の重み付け"
 >abstract="配信に重みを付けることで、頻度管理のフレームワーク内で最も優先順位の高い配信を指定できます。最も大きな重みを付けられたメッセージが、最優先されます。"
 
-このセクションでは、頻度パラメーターを使用して、 **しきい値** 疲労管理ルールを設定するには： これは、特定の期間に 1 つのプロファイルに送信できるメッセージの最大数です。しきい値に達すると、その後は指定された期間が完了するまで、配信は実施できなくなります。このプロセスにより、メッセージの数がしきい値を超過したプロファイルは配信から自動的に除外されるので、過剰な配信が回避できます。
+このセクションでは、頻度パラメーターを使用して、「**しきい値**」を定義し、疲労管理ルールを設定します。これは、特定の期間に 1 つのプロファイルに送信できるメッセージの最大数です。しきい値に達すると、その後は指定された期間が完了するまで、配信は実施できなくなります。このプロセスにより、メッセージの数がしきい値を超過したプロファイルは配信から自動的に除外されるので、過剰な配信が回避できます。
 
 しきい値は、定数または変数のいずれかです。したがって、ある期間、しきい値はプロファイルによって異なる場合も、同じプロファイルで異なる場合もあります。
 
@@ -84,14 +84,14 @@ E メールの配信設定は次のとおりです。 **技術的な配信パラ
 * **暫定ターゲットの推定と承認**
 * **ターゲットの評価**
 
-疲労管理については、**キャンペーンの最適化**&#x200B;アドオンが付属しています。頻度ルールと、疲労管理の設定方法について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}.
+疲労管理については、**キャンペーンの最適化**&#x200B;アドオンが付属しています。頻度ルールと疲労管理の設定方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。
 
 ### 処理能力設定 {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="処理能力設定 配信用"
->abstract="メッセージを配信する前に、処理能力ルールを使用して、組織が配信、配信で生成されるインバウンドメッセージ、購読者に連絡するための呼び出し数などを処理できることを確認します。 処理能力ルールは、Adobe Campaign v8 コンソールで定義されます。 この画面で、E メールチャネルに関連付けられたルールを選択します。"
+>title="処理能力設定配信用"
+>abstract="メッセージを配信する前に、処理能力ルールを使用して、組織が配信や、その配信によって生成される可能性があるインバウンドメッセージと、購読者に連絡するための通話数などを処理できることを確認します。処理能力ルールは、Adobe Campaign v8 コンソールで定義されます。この画面で、メールチャネルに関連付けられたルールを選択します。"
 
 
 >[!CONTEXTUALHELP]
@@ -104,15 +104,15 @@ E メールの配信設定は次のとおりです。 **技術的な配信パラ
 
 「**受信者の重要度**」フィールドは、処理能力タイポロジルールを超過した場合に維持する受信者を決定するために使用される式です。
 
-一貫性と容量のルール、およびでの設定方法の詳細 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"}.
+一貫性ルールと処理能力ルール、その設定方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"}を参照してください。
 
 
 ## オーディエンス設定 {#audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_audience"
->title="配信のオーディエンス設定"
->abstract="を選択します。 **ターゲットマッピング** 手に入るものの中に ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。また、配信の除外パラメーターを設定することもできます。 "
+>title="配信用のオーディエンス設定"
+>abstract="利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択します。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。また、配信用の除外パラメーターを設定することもできます。 "
 
 このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。ターゲティングディメンション（ターゲットマッピング）は、操作で処理されるデータのタイプです。 ターゲット母集団（受信者、契約の受取人、オペレーター、購読者など）を定義できます。
 
@@ -123,8 +123,8 @@ E メールの配信設定は次のとおりです。 **技術的な配信パラ
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="配信の配信設定"
->abstract="配信パラメーターは、配信に適用する技術的な設定です。配信の BCC を有効化し、配信モードとルーチンモードを変更できます。 これらのオプションは、エキスパートユーザーにのみ制限されます。"
+>title="配信用の配信設定"
+>abstract="配信パラメーターは、配信に適用する技術的な設定です。配信用に BCC を有効にし、配信モードとルーチンモードを変更できます。これらのオプションは、エキスパートユーザーのみに制限されます。"
 
 配信パラメーターは、配信に適用する技術的な設定です。
 
@@ -132,21 +132,21 @@ E メールの配信設定は次のとおりです。 **技術的な配信パラ
 
 * **SMTP 配信をテスト**：このオプションを使用して、SMTP 経由での送信をテストします。配信は SMTP サーバーへの接続まで処理されますが、送信はされません。配信の受信者ごとに、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
-* **BCC でメールを送信**：BCC メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。「BCC で E メールを送信」の詳細を説明します [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
+* **BCC でメールを送信**：BCC メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。BCC でメールを送信について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
 
 ### Web 分析 {#web-analytics}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
->title="配信の Web 分析設定"
->abstract="Web 分析アカウントを選択します。 このアカウントは、Campaign クライアントコンソールで設定されます。 また、使用している Analytics ツールと共有するタグを定義することもできます。"
+>title="配信用の web 分析設定"
+>abstract="Web 分析アカウントを選択します。このアカウントは、Campaign クライアントコンソールで設定されます。使用している分析ツールと共有するタグを定義することもできます。"
 
-このセクションでは、Web 分析アカウントを選択できます。 このアカウントは、Campaign クライアントコンソールで設定されます。
+このセクションでは、web 分析アカウントを選択できます。このアカウントは、Campaign クライアントコンソールで設定されます。
 
-また、使用している Analytics ツールと共有するタグを定義することもできます。
+使用している分析ツールと共有するタグを定義することもできます。
 
-Web 分析と Campaign について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
+Web 分析と Campaign について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
 
 
 ### 再試行 {#retries}
@@ -158,20 +158,20 @@ Web 分析と Campaign について詳しくは、 [Campaign v8（クライア�
 
 ソフトまたは無視のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。デフォルトでは、配信の初日に最低 1 時間の間隔をおいて 24 時間に 5 回の再試行がスケジュールされます。
 
-での再試行管理の詳細を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}.
+再試行管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
 
 ## 承認 {#approval}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="配信の承認モード"
->abstract="承認モードを選択します。 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。"
+>abstract="承認モードを選択します。配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"
 >title="配信の承認モード"
->abstract="このテンプレートに基づく配信の承認モードを選択します。 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。"
+>abstract="このテンプレートに基づく配信の承認モードを選択します。配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。"
 
 配信の準備中に警告が発生した場合、配信を設定して、配信を実行するかどうかを定義できます。デフォルトでは、分析フェーズの最後に、メッセージの送信をユーザーが確認する必要があります（**手動**&#x200B;検証）。
 
@@ -219,7 +219,7 @@ Web 分析と Campaign について詳しくは、 [Campaign v8（クライア�
 ![](assets/delivery-settings-2.png)
 
 
-配信の有効期間について詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja#validity-period){target="_blank"}.
+配信の有効期間について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja#validity-period){target="_blank"}を参照してください。
 
 ### ミラーページ管理 {#mirror}
 
@@ -248,7 +248,7 @@ Web 分析と Campaign について詳しくは、 [Campaign v8（クライア�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_tracking_validity"
 >title="有効期間"
->abstract="有効期間は、メッセージ URL で追跡を有効にする期間を設定します。"
+>abstract="有効期間には、メッセージ URL に対してトラッキングがアクティブになっている期間を設定します。"
 
 
 トラッキングパラメーターは、関連するセクションで定義されています。 選択できるオプションは次のとおりです。
@@ -262,7 +262,7 @@ Web 分析と Campaign について詳しくは、 [Campaign v8（クライア�
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_testsettings"
 >title="配信のテスト設定"
->abstract="除外パラメーターを選択し、テスト用 E メールのラベルをカスタマイズします。"
+>abstract="除外パラメーターを選択し、テストメールのラベルをカスタマイズします。"
 
 このセクションでは、除外パラメーターを設定できます。次のオプションを使用できます。
 

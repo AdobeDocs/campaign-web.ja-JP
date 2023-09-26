@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 63%
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="ターゲットオーディエンス"
->abstract="配信ターゲットの作成はこれまで以上に簡単でした。 最新のルールビルダーを使用すると、データベースから受信者やその他のターゲティングディメンションのフィルタリング条件を定義できます。 Adobe Experience Platformオーディエンスを活用して、ターゲットオーディエンスをさらに絞り込み、キャンペーンの効果を最大化します。"
+>abstract="配信ターゲットの作成がこれまで以上に簡単になりました。最新のルールビルダーでは、データベースから受信者やその他のターゲティングディメンションのフィルタリング条件を定義できるようになりました。Adobe Experience Platform オーディエンスを活用して、ターゲットオーディエンスをさらに絞り込んで、キャンペーンの効果を最大化します。"
 
 ルールビルダーを使用すると、データベースに含まれるデータをフィルタリングすることで、配信のターゲットとなる母集団を定義できます。 これを使用して、 **[!UICONTROL オーディエンスの構築]** アクティビティを作成するか、配信を直接作成して 1 回限りのオーディエンスを作成するときに、直接アクセスできます。
 
@@ -37,7 +37,7 @@ ht-degree: 63%
 
   >[!NOTE]
   >
-  >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 詳しくは、 [Adobe Experience Platform Destinations ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}.
+  >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。 詳しくは、[Adobe Experience Platform の宛先に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}を参照してください。
 
 ## キャンバス
 
@@ -59,7 +59,7 @@ ht-degree: 63%
 
   >[!IMPORTANT]
   >
-  >この製品のバージョンでは、一部の定義済みフィルターはユーザーインターフェイスで使用できません。 まだ使用できます。 [詳細情報](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+  >この製品のバージョンでは、一部の定義済みフィルターはユーザーインターフェイスで使用できません。 引き続きそれらを使用できます。[詳細情報](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 * **属性**：作成したオーディエンスの説明が表示されます。
 

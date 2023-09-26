@@ -7,7 +7,7 @@ badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
@@ -26,18 +26,18 @@ Adobe Campaign v8 web では、**[!UICONTROL インタラクション]**&#x200B;
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
 >title="オファーパラメーターの定義"
->abstract="受信者に提案するオファーを設定するには、オファースペース（オプション）、カテゴリおよびテーマを定義し、配信に挿入するオファーの数を指定します。"
+>abstract="オファースペース、オプションでカテゴリとテーマを定義して、受信者に提案するオファーを設定し、配信に挿入するオファーの数を指定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="オファーの詳細設定"
->abstract="十分な実施要件を満たさないオファーの受信者の除外を有効にし、提案の 1 つが存在しない場合にメッセージを処理する方法を選択できます。"
+>abstract="実施要件を満たすオファーが十分にない受信者の除外を有効にし、提案の 1 つが存在しない場合にメッセージを処理する方法を選択できます。"
 
-Adobe Campaignでは、特定の連絡先に対して 1 つまたは複数の特定のオファーを提案できます。 1 つまたは複数の特定のオファーを提案することで、特定の連絡先に対するインタラクション中にリアルタイムで応答できるインタラクションモジュール。 これらのオファーは、簡単な通信メッセージ、1 つまたは複数の製品やサービスの特別オファーなどです。
+Adobe Campaign では、特定の連絡先に 1 つまたは複数の特定のオファーを提案できます。インタラクションモジュールを利用すれば、特定の連絡先とのインタラクション時に、1 つまたは複数の特定のオファーを提供することで、リアルタイムに応答することができます。これらのオファーは、簡単な通信メッセージ、1 つまたは複数の製品やサービスの特別オファーなどです。
 
 配信に追加するオファーを選択するには、次の手順に従います。
 
-1. 次をクリック： **[!UICONTROL オファーの設定]** ボタンを使用して、配信コンテンツ編集画面から削除します。
+1. 配信コンテンツ編集画面で「**[!UICONTROL オファーを設定]**」ボタンをクリックします。
 
    ![](assets/setup-offers.png)
 
@@ -103,8 +103,7 @@ Adobe Campaignでは、特定の連絡先に対して 1 つまたは複数の特
 
    >[!NOTE]
    >
-   >使用可能な提案の数は、エンジンの呼び出しがどのように設定されているかによって異なります。また、提案の順序は、オファーの優先度によって異なります。
-詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
+   >使用可能な提案の数は、エンジンの呼び出しがどのように設定されているかによって異なります。また、提案の順序は、オファーの優先度によって異なります。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ja){target="_blank"}を参照してください。
 
 1. 変更内容を保存します。
 
