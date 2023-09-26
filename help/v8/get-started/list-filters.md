@@ -4,9 +4,9 @@ title: リストを参照、検索、フィルタリング
 description: Campaign web v8 のリストを参照およびフィルタリングする方法の確認
 badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 86%
 
 ## カスタムフィルター{#list-custom-filters}
 
-データに対してカスタムフィルターを作成するには、フィルターの下部まで参照し、 **ルールを追加** ボタンをクリックして、ルールビルダーにアクセスします。
+データにカスタムフィルターを作成するには、フィルターの下部まで参照し、「**ルールを追加**」ボタンをクリックしてルールビルダーにアクセスします。
 
 属性をドラッグ＆ドロップして、**詳細フィルター**&#x200B;画面でフィルター条件を作成します。
 
@@ -59,14 +59,14 @@ ht-degree: 86%
 
 現在のリストですべての属性を表示するには、**詳細属性を表示**&#x200B;切替スイッチを使用します。[詳細情報](#adv-attributes)
 
-カスタムフィルターのルールビルダーの動作原則は、オーディエンスの作成に使用されるルールビルダーに似ています。 使用方法の詳細については、 [オーディエンスドキュメント](../audience/segment-builder.md).
+カスタムフィルターのルールビルダーの動作原則は、オーディエンスの作成に使用されるルールビルダーに似ています。使用方法について詳しくは、[オーディエンスのドキュメント](../audience/segment-builder.md)を参照してください。
 
 ## 詳細属性を使用 {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="詳細属性を表示"
->abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。この切り替えを使用して、詳細属性を表示します。"
+>abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。この切替スイッチを使用して、詳細属性を表示します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"

@@ -5,9 +5,9 @@ description: Adobe Campaign Web を使用してワークフローを作成する
 badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
 source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -36,25 +36,25 @@ Campaign v8 Web を使用すると、ワークフローを視覚的なキャン�
 ## ワークフローを作成するための主な手順 {#gs-workflow-steps}
 
 
-キャンペーンには、2 つの方法でワークフローを作成できます。
+キャンペーンでは、2 つの方法でワークフローを作成できます。
 
-1. ワークフローは、 **ワークフロー** メニュー。
+1. ワークフローは、**ワークフロー**&#x200B;メニューからスタンドアロンワークフローとして作成できます。
 
    ![](assets/create-a-standalone-wf.png)
 
-1. ワークフローは、 **ワークフロー** 」タブをクリックします。 キャンペーンに含めると、ワークフローは他のすべてのキャンペーンのワークフローと共に実行され、レポート指標はすべてキャンペーンレベルでグループ化されます。
+1. ワークフローは、キャンペーンの「**ワークフロー**」タブからキャンペーン内で直接作成できます。キャンペーンに含めると、ワークフローは他のすべてのキャンペーンのワークフローと共に実行され、レポート指標はすべてキャンペーンレベルでグループ化されます。
 
    ![](assets/create-a-wf-from-a-campaign.png)
 
 
-ワークフローを作成する主な手順を次に示します。
+ワークフローを作成する主な手順は次のとおりです。
 
 ![](assets/workflow-creation-process.png)
 
-これらの手順については、次の節で詳しく説明します。
+以下の手順については、次の節で詳しく説明します。
 
-1. [ワークフローを作成し、そのプロパティを定義します](create-workflow.md)
-1. [アクティビティの調整と設定](orchestrate-activities.md)
-1. [ワークフローの詳細設定](workflow-settings.md)
-1. [ワークフローを開始し、その実行を監視します](start-monitor-workflows.md)
+1. [ワークフローを作成し、そのプロパティを定義](create-workflow.md)
+1. [アクティビティを調整および設定](orchestrate-activities.md)
+1. [ワークフローの詳細設定を指定](workflow-settings.md)
+1. [ワークフローを開始し、その実行を監視](start-monitor-workflows.md)
 
