@@ -1,26 +1,30 @@
 ---
 audience: end-user
 title: コンテンツアシスタントを使用した E メールの生成
-description: コンテンツアシスタントの概要
+description: コンテンツアシスタントの基本を学ぶ
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
 
-# コンテンツアシスタント付きメールを生成する {#generative-email}
+# コンテンツアシスタント付きメールの生成 {#generative-email}
 
-コンテンツアシスタントは、完全なメールコンテンツを自動的に生成し、時間を節約し、一貫性のある品質を確保することで、通信の影響を高めます。
-
-Generative AI を使用すると、オーディエンスの共感を呼ぶ魅力的な E メールを容易に作成し、コミュニケーションをより効果的かつ効率的に行うことができます。
+コンテンツアシスタントは、完全なメールコンテンツを自動的に生成し、時間を節約し、一貫性のある品質を確保することで、通信の影響を高めます。 Generative AI を使用すると、オーディエンスの共感を呼ぶ魅力的な E メールを容易に作成し、コミュニケーションをより効果的かつ効率的に行うことができます。
 
 
 >[!AVAILABILITY]
 >
 >この機能は、10 月初旬に提供される予定です。
 
+
+
+
+## AI でHTMLコンテンツを生成 {#generative-email-generate}
+
+コンテンツアシスタントで E メールコンテンツを生成するには、次の手順に従います。 コンテンツアシスタントを使用して、既存のコンテンツを改善することもできます。詳しくは、 [このページ](generative-content.md).
 
 1. E メール配信を作成および設定した後、 **[!UICONTROL コンテンツを作成]**.
 
@@ -75,4 +79,5 @@ Generative AI を使用すると、オーディエンスの共感を呼ぶ魅力
    ![](assets/email-genai-6.png)
 
 1. コンテンツ、オーディエンス、スケジュールを定義したら、E メール配信を準備する準備が整います。 [詳細情報](../monitor/prepare-send.md)
+
 

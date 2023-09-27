@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: コンテンツアシスタントを使用した画像の生成
-description: コンテンツアシスタントの概要
+description: コンテンツアシスタントの基本を学ぶ
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -27,7 +27,7 @@ E メールを作成し、パーソナライズした後は、生成 AI を活�
 
 1. 次の項目に入力： **[!UICONTROL 基本的な詳細]** 配信に使用します。 完了したら、「 **[!UICONTROL E メールコンテンツを編集]**.
 
-1. コンテンツアシスタントを使用して、変更するアセットを選択します。
+1. コンテンツアシスタントで変更するアセットを選択します。
 
 1. 右側のメニューから、「 」を選択します。 **[!UICONTROL エクスペリエンスの生成]**.
 
