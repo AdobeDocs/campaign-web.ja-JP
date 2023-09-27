@@ -4,7 +4,7 @@ title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: f5e7f354735416f828d4b0e065cb8c424a9b4fc8
+source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
 workflow-type: tm+mt
 source-wordcount: '1145'
 ht-degree: 84%
@@ -58,7 +58,6 @@ ht-degree: 84%
 
 
 テストプロファイルはシードアドレスで、データベースの追加の受信者です。 これらは、 [!DNL Adobe Campaign] クライアントコンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 シードアドレスにテストメッセージを送信する手順については、以下で詳しく説明します。
-
 
 1. メールまたは SMS 配信のコンテンツを編集画面を参照し、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
