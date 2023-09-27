@@ -4,10 +4,10 @@ title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
+source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
 workflow-type: tm+mt
-source-wordcount: '1145'
-ht-degree: 84%
+source-wordcount: '1141'
+ht-degree: 68%
 
 ---
 
@@ -22,24 +22,37 @@ ht-degree: 84%
 
 メッセージのコンテンツやパーソナライゼーションの設定でエラーが発生する可能性を検出するには、テストメッセージをテストプロファイルに送信してから、ターゲットオーディエンスに送信します。 最新のコンテンツを検証するには、変更を加えるたびにテストメッセージを送信する必要があります。 テスト配信（旧称「配達確認」）の送信は、キャンペーンを検証し、潜在的な問題を特定するための重要な手順です。テストメッセージの受信者は、リンク、オプトアウトリンク、画像、ミラーページなどの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定、配信設定でエラーを検出できます。
 
-## テスト受信者を選択 {#test-recipients}
+## テスト受信者を含むコンテンツをシミュレート {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="テスト母集団"
 >abstract="テスト母集団モードを選択します。"
 
-使用しているチャネルに応じて、テストメッセージを次の 3 種類の受信者に送信できます。
+テストを送信する前に、配信のターゲットオーディエンスを定義する必要があります。[詳細情報](../audience/about-recipients.md)
 
-* [テストプロファイル](#test-profiles) - シードアドレス（データベースに追加されている受信者）に&#x200B;**テストメールと SMS** を送信します。これらは、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
 
-* [メインターゲットから代用](#substitution-profiles) - 既存のプロファイルを借用して、特定のメールアドレスまたは電話番号に&#x200B;**テストメールと SMS** を送信します。これにより、プロファイルが受け取るコンテンツが正確に表示され、メッセージ受信者と同じエクスペリエンスが得られます。
+メッセージコンテンツのテストを開始するには：
 
-* [サブスクライバー](#subscribers) - データベースに追加された架空のサブスクライバーに&#x200B;**テストプッシュ通知**&#x200B;を送信します。テストプロファイルは同様に、[!DNL Campaign] コンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
+1. E メールまたは SMS 配信のコンテンツを編集します。
+1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
+1. 次をクリック： **[!UICONTROL テスト]** ボタンをクリックして、テストメッセージを送信します。
 
-テスト配信の受信者を選択するには、使用するプロファイルのタイプに応じて、次の手順に従います。
+   ![](assets/simulate-test-button-email.png)
 
-### テストプロファイル {#test-profiles}
+1. テスト受信者を選択します。
+
+   メッセージチャネルに応じて、テストメッセージを次のタイプの受信者に送信できます。
+
+   * SMS や E メールの場合は、 [テストプロファイル](#test-profiles)：データベース内の特定の追加の受信者です。 これらの受信者は、 [!DNL Campaign] クライアントコンソール。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
+
+   * SMS や E メールの場合は、 [メインターゲットからの代替](#substitution-profiles) モード：テストメッセージを e メールのテストアドレスまたは電話番号に送信し、既存のプロファイルのパーソナライゼーションデータを使用します。 これにより、プロファイルが受け取るコンテンツが正確に表示され、メッセージ受信者と同じエクスペリエンスが得られます。
+
+   * プッシュメッセージの場合、 [購読者](#subscribers)：データベースに追加された架空の購読者です。 これらは、 [!DNL Campaign] コンソール。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
+
+   各モードの詳細な設定については、以下を参照してください。
+
+## テストプロファイルを使用 {#test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
@@ -57,11 +70,9 @@ ht-degree: 84%
 >abstract="メモ：ファイル形式は、元のファイルと同じにする必要があります。<br/>サポートされているファイル形式：txt、csv。最大ファイルサイズ：15 MB。先頭行を列ヘッダーとして使用します。"
 
 
-テストプロファイルはシードアドレスで、データベースの追加の受信者です。 これらは、 [!DNL Adobe Campaign] クライアントコンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 シードアドレスにテストメッセージを送信する手順については、以下で詳しく説明します。
+テストプロファイルはシードアドレスで、データベースの追加の受信者です。 これらは、 [!DNL Adobe Campaign] クライアントコンソール。 シードアドレスにテストメッセージを送信する手順については、以下で詳しく説明します。
 
-1. メールまたは SMS 配信のコンテンツを編集画面を参照し、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
-
-1. 「**[!UICONTROL テスト]**」ボタンをクリックします。
+1. 配信のコンテンツを編集し、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。 次に、 **[!UICONTROL テスト]** 」ボタンをクリックします。
 
    >[!NOTE]
    >
@@ -83,15 +94,12 @@ ht-degree: 84%
 
 1. テストプロファイルを選択したら、[テスト配信を送信](#send-test)できます。
 
-### 代用プロファイル {#substitution-profiles}
+## プロファイルデータの置き換え {#substitution-profiles}
 
-の既存のプロファイルのデータを表示しながら、特定の E メールアドレスまたは電話番号にテスト E メールまたは SMS を送信するには [!DNL Adobe Campaign] データベース、次に説明する代替プロファイルを使用します。
+プロファイルの置き換えを使用して、 [!DNL Adobe Campaign] データベース。 手順は次のとおりです。
 
-1. テストを送信する前に、配信のターゲットオーディエンスを定義する必要があります。[詳細情報](../audience/about-recipients.md)
 
-1. メールまたは SMS 配信のコンテンツを編集画面を参照し、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
-
-1. 「**[!UICONTROL テスト]**」ボタンをクリックします。
+1. 配信のコンテンツを編集し、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。 次に、 **[!UICONTROL テスト]** 」ボタンをクリックします。
 
    ![](assets/simulate-test-button-email.png)
 
@@ -119,13 +127,11 @@ ht-degree: 84%
 
 1. 代用プロファイルを選択したら、[テスト配信を送信](#send-test)できます。
 
-### サブスクライバー {#subscribers}
+## 購読者へのテストの送信 {#subscribers}
 
 プッシュ通知を扱う場合、テスト配信はアプリの購読者にのみ送信できます。 選択するには、次の手順に従います。
 
-1. 配信のコンテンツを編集画面を参照し、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
-
-1. 「**[!UICONTROL テスト]**」ボタンをクリックします。
+1. 配信のコンテンツを編集し、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。 次に、 **[!UICONTROL テスト]** 」ボタンをクリックします。
 
    ![](assets/simulate-test-button-push.png)
 
