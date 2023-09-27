@@ -3,7 +3,7 @@ audience: end-user
 title: コンテンツアシスタントの基本を学ぶ
 description: コンテンツアシスタントの基本を学ぶ
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 1%
@@ -32,7 +32,7 @@ E メールの生成にコンテンツアシスタントを使用する際の一
 * 生成されるコンテンツの品質は、定義したマーケティングの目的やプロンプトの影響を強く受けます。 GenAI モデルを正確に解釈するために、適切に定義されたプロンプトを使用します。 
 * ブランドコンテンツに正確なブランドアセットをアップロードする。 それ以外の場合、コンテンツは公開されている情報に基づいています。 アップロードされるコンテンツは、PDFファイル、Microsoft Word ドキュメント、JPEG、PNG または ZIP ファイル（サポートされているファイル形式を含む）です。
 * アップロードされたブランドアセットの推奨サイズは 10MB 未満です。 大きなファイルや画像の数が多い場合でも動作しますが、処理時間は長くなります。
-* 作成したAdobe Campaignを使用 [電子メールテンプレート](../content/email-sample-templates.md)好ましくは [組み込みの電子メールテンプレート](../content/email-sample-templates.md) 電子メールコンテンツを作成します。 最大 8 ～ 10 個の画像を含む E メールテンプレートをお勧めします。
+* Adobe Campaignで作成した電子メールテンプレートを使用するか、できれば [組み込みの電子メールテンプレート](../content/email-sample-templates.md) 電子メールコンテンツを作成します。 最大 8 ～ 10 個の画像を含む E メールテンプレートをお勧めします。
 
 
 Campaign コンテンツアシスタントには次の制限が適用されます。
