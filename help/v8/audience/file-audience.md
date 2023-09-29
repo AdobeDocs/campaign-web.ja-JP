@@ -4,10 +4,10 @@ title: ファイルから受信者をターゲット設定する
 description: 外部ファイルの受信者を使用してメールオーディエンスを作成する方法を学ぶ
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,14 @@ ht-degree: 100%
 >id="acw_audience_fromfile_formatting"
 >title="書式設定パラメーター"
 >abstract="ファイルの書式設定パラメーターを確認します。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="ファイルをプレビュー"
+>abstract="ファイルのプレビューを確認します。 この画面には最大 30 個のレコードのみが表示されます。"
+
+
 
 インターフェイスから Campaign に直接プロファイルをアップロードすることはできませんが、外部ファイルに保存されたプロファイルをターゲット設定できます。プロファイルはデータベースに追加されませんが、入力ファイル内のすべてのフィールドを[パーソナライゼーション](../personalization/gs-personalization.md)に使用できます。サポートされるファイル形式は、テキスト（TXT）とコンマ区切り値（CSV）です。
 
