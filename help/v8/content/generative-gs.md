@@ -2,10 +2,10 @@
 audience: end-user
 title: コンテンツアシスタントの基本を学ぶ
 description: コンテンツアシスタントの基本を学ぶ
-badge: label="Beta"
-source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
+badge: label="アルファ"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,12 @@ Content Assistant は、生成 AI を活用した、E メールコンテンツ�
 
 この機能により、完全な E メールコンテンツが自動的に生成され、時間を節約し、品質の一貫性を保ちます。 Generative AI を使用すると、魅力的なメールを簡単に作成し、コミュニケーションの効果と効率を高めることができます。
 
-メール内の Campaign コンテンツアシスタントは次の目的で使用できます。 [画像を生成](generative-image.md), [テキストコンテンツを生成](generative-content.md), [完全なHTMLコンテンツを生成](generative-email.md).
+<!--
+You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).-->
 
+>[!NOTE]
+>
+>この機能は、Alphaバージョンで使用でき、予告なく変更される場合があります。 10 月初旬に有効化されます。
 
 ## ガードレールと制限 {#generative-guardrails}
 
@@ -48,31 +52,34 @@ Campaign コンテンツアシスタントには次の制限が適用されま�
 * GenAI のコンテンツが正確でない場合があります。エンジニアがモデルを改善できるよう、フィードバックを共有してください。
 * 複数のブランドアセットをアップロードできますが、特定の世代に利用できるのは 1 つだけです
 
+
+<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
-<img alt="テキストの生成" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="Text generation" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>コンテンツアシスタントを使用したテキスト生成</strong></a>
+<a href="generative-content.md"><strong>Text generation with the Content Assistant</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="画像の生成" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="Image generation" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>コンテンツアシスタントを使用した画像の生成</strong>
+<div><a href="generative-image.md"><strong>Image generation with the Content Assistant</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-email.md">
-<img alt="E メールの生成" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="Email generation" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>コンテンツアシスタントを使用した E メールの生成</strong></a>
+<a href="generative-email.md"><strong>Email generation with the Content Assistant</strong></a>
 </div>
 <p></td>
 </tr></table>
+-->
 

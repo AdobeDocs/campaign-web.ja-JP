@@ -2,8 +2,10 @@
 audience: end-user
 title: コンテンツアシスタントを含むテキスト
 description: コンテンツアシスタントの基本を学ぶ
-badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+badge: label="アルファ"
+hide: true
+hidefromtoc: true
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 5%
@@ -12,6 +14,8 @@ ht-degree: 5%
 
 
 # コンテンツアシスタントを使用したテキスト生成 {#generative-content}
+
+
 
 E メールを作成し、パーソナライズしたら、生成 AI を利用した Content Assistant を使用して、コンテンツを次のレベルに引き上げます。
 
