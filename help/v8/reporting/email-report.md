@@ -3,10 +3,10 @@ audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
+source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
 workflow-type: tm+mt
-source-wordcount: '2205'
-ht-degree: 70%
+source-wordcount: '2257'
+ht-degree: 68%
 
 ---
 
@@ -202,10 +202,6 @@ The **[!UICONTROL ドメインごとのエラーの分類]** テーブルおよ�
 >title="追跡のレポート"
 >abstract="レポート内の「**トラッキング**」タブには、受信者のリンクごとの行動、開封数およびクリック数の分類、配信中に最も頻繁にクリックされた URL に関する詳細情報など、有用なデータが表示されます。"
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="開封率およびクリックスルー率ウィジェット"
->abstract="**開封率およびクリックスルー率**&#x200B;テーブルには、配信に対する受信者のエンゲージメントに関するデータが表示されます。"
 
 ### 配信統計  {#email-tracking-delivery-stats}
 
@@ -237,6 +233,13 @@ The **[!UICONTROL 配信統計]** レポートには、送信された E メー�
 
 ### 開封率およびクリックスルー率 {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="開封率およびクリックスルー率ウィジェット"
+>abstract="**開封率およびクリックスルー率**&#x200B;テーブルには、配信に対する受信者のエンゲージメントに関するデータが表示されます。"
+
+
+
 The **[!UICONTROL 開封率およびクリックスルー率]** テーブルには、受信者に関連するデータが表示されます。 以下に、指標について詳しく説明します。
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -258,40 +261,59 @@ The **[!UICONTROL 開封率およびクリックスルー率]** テーブルに�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="URL とクリックストリームウィジェット"
+>title="URL とクリックストリーム"
 >abstract="The **URL とクリックストリーム** レポートには、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) が表示されます。"
 
-* The **[!UICONTROL URL とクリックストリーム]** レポートには、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) が表示されます。
 
-  ![](assets/reporting_email_7.png){align="center"}
+The **[!UICONTROL URL とクリックストリーム]** レポートには、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) が表示されます。
 
-  +++詳しくは、メール配信レポート指標を参照してください。
+![](assets/reporting_email_7.png){align="center"}
 
-   * **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。
++++詳しくは、メール配信レポート指標を参照してください。
 
-   * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
+* **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。
 
-   * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
+* **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 
-   * **[!UICONTROL プラットフォームの平均]**：この平均率は、それぞれの率（反応度、ユニーククリック数および累積クリック数）の下に表示され、過去 6 ヶ月間に送信された配信に対して計算されます。同じタイポロジを持つ、同じチャネルでの配信のみが考慮されます。配達確認は除外されます。
+* **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 
-+++
-
-* **[!UICONTROL 最も訪問されたリンク上位 10 位]**&#x200B;グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれます。
-
-  ![](assets/reporting_email_8.png){align="center"}
-
-  +++詳しくは、メール配信レポート指標を参照してください。
-
-   * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
-
-   * **[!UICONTROL 割合]**：配信で操作したユーザーの割合。
+* **[!UICONTROL プラットフォームの平均]**：この平均率は、それぞれの率（反応度、ユニーククリック数および累積クリック数）の下に表示され、過去 6 ヶ月間に送信された配信に対して計算されます。同じタイポロジを持つ、同じチャネルでの配信のみが考慮されます。配達確認は除外されます。
 
 +++
 
-* **[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動に使用できるデータが含まれます。
+### 最も訪問されたリンク上位 10 件 {#email-tracking-top10}
 
-  ![](assets/reporting_email_9.png){align="center"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="最も訪問されたリンク上位 10 件"
+>abstract="The **最も多く訪問された上位 10 件のリンク** グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれています。"
+
+
+The **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれています。
+
+![](assets/reporting_email_8.png){align="center"}
+
++++詳しくは、メール配信レポート指標を参照してください。
+
+* **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
+
+* **[!UICONTROL 割合]**：配信で操作したユーザーの割合。
+
++++
+
+### 時間の経過に伴うクリック数の分類 {#email-tracking-breakdown-over-time}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="時間の経過に伴うクリック数の分類"
+>abstract="The **時間の経過に伴うクリック数の分類** グラフには、リンクごとの受信者の行動に使用可能なデータが表示されます。"
+
+
+The **[!UICONTROL 時間の経過に伴うクリック数の分類]** グラフには、リンクごとの受信者の行動に使用できるデータが含まれます。
+
+![](assets/reporting_email_9.png){align="center"}
 
 ## ユーザーアクティビティ {#user-activities-email}
 
@@ -332,7 +354,6 @@ The **[!UICONTROL ユーザーアクティビティ]** レポートは、開封�
 +++
 
 ## 開封数の分類 {#breakdown-opens}
-
 
 ### 開封数のデバイス別分類 {#breakdown-opens-devices}
 
