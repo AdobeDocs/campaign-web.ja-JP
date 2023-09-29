@@ -6,7 +6,7 @@ badge: label="Beta"
 source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 14%
+ht-degree: 20%
 
 ---
 
@@ -26,11 +26,11 @@ Campaign Web で使用できるオーディエンスのリストには、 **[!UI
 
 * **[!UICONTROL Adobe Campaign]**：これらのオーディエンスはAdobe Campaign V8 コンソールで作成されます。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=ja){target="_blank"}を参照してください。
 
-* **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** これらのオーディエンスは、Adobe Experience Platform内で作成され、宛先ソースとAdobeの統合を使用して Campaign Web に統合されます。 でこの統合を設定する方法を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** これらのオーディエンスは、Adobe Experience Platform内で作成され、宛先ソースとAdobeの統合を使用して Campaign Web に統合されます。 でこの統合を設定する方法を説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}.
 
 >[!NOTE]
 >
->Campaign で Adobe Experience Platform オーディエンスを使用するには、アドビのソースおよび宛先との統合を設定する必要があります。[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}を参照してください。
+>Campaign で Adobe Experience Platform オーディエンスを使用するには、アドビのソースおよび宛先との統合を設定する必要があります。[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
 
 * **[!UICONTROL Adobe Campaign WebUI]**：これらのオーディエンスは、Campaign の Web オーディエンスワークフローを使用して作成されます。 [オーディエンスの作成方法を説明します](create-audience.md)
 

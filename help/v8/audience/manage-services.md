@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 購読サービスの使用
+title: 購読サービスの操作
 description: Adobe Campaign Web でサブスクリプションサービスにアクセス、作成、管理する方法について説明します
 badge: label="Beta"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
-# 購読サービスの使用 {#manage-services}
+# 購読サービスの操作 {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"

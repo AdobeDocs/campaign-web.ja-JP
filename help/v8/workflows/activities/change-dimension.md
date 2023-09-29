@@ -4,7 +4,7 @@ title: ディメンションを変更ワークフローアクティビティの�
 description: ディメンションを変更ワークフローアクティビティの使用方法について説明します
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 100%
 

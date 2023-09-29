@@ -4,7 +4,7 @@ title: リストを参照、検索、フィルタリング
 description: Campaign web v8 のリストを参照およびフィルタリングする方法の確認
 badge: label="Beta"
 source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 100%
 

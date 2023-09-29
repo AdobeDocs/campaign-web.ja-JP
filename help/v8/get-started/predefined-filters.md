@@ -9,21 +9,21 @@ badge: label="Beta"
 source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 4%
+ht-degree: 16%
 
 ---
 
-# 定義済みフィルターの使用 {#predefined-filters}
+# 定義済みフィルターの操作 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="定義済みフィルター管理"
->abstract="Campaign Web で、特定のニーズに合わせて定義済みフィルターを容易に管理およびカスタマイズできる、使いやすいインターフェイスが提供されるようになりました。 1 回作成し、後で使用するために保存します。"
+>abstract="Campaign web では、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供するようになりました。1 回作成し、後で使用するために保存します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="定義済みフィルター"
->abstract="Campaign Web で、特定のニーズに合わせて定義済みフィルターを容易に管理およびカスタマイズできる、使いやすいインターフェイスが提供されるようになりました。 1 回作成し、後で使用するために保存します。"
+>abstract="Campaign web では、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供するようになりました。1 回作成し、後で使用するために保存します。"
 
 定義済みフィルターは、後で使用できるように作成および保存されるカスタムフィルターです。 これらは、例えば、データのリストをフィルタリングしたり、配信のオーディエンスを作成したりする場合に、ルールビルダーでの任意のフィルタリング操作でショートカットとして使用できます。
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->製品のそのバージョンでは、ルールの作成、配信のオーディエンスの選択、ワークフローでのオーディエンスの作成の際に、一部の定義済みフィルターがユーザーインターフェイスで使用できない場合があります。 まだ使用できます。 [詳細情報](guardrails.md#predefined-filters-filters-guardrails-limitations)
+>製品のそのバージョンでは、ルールを作成、配信のオーディエンスを選択、またはワークフローでオーディエンスを作成する作成際に、ユーザーインターフェイスに一部の定義済みフィルターが表示されませんが、引き続きそれらを使用できます。[詳細情報](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## 定義済みフィルターの作成 {#create-predefined-filter}

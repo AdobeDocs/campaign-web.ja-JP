@@ -4,7 +4,7 @@ title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
 source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS）を追加する方法を学ぶ
 badge: label="Beta"
 source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 100%
 

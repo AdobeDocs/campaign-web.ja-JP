@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: 電子メールデザイナーでのプリヘッダーの追加
+title: E メールデザイナーでのプリヘッダーの追加
 description: メールコンテンツのデザイン方法
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Beta"
 source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 メールのプリヘッダーを定義するには、次の手順に従います。
 
-1. [メールデザイナー](create-email-content.md)から、少なくとも&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントを追加して、メールのデザインを開始します。
+1. [E メールデザイナー](create-email-content.md)から、少なくとも&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントを追加して、メールのデザインを開始します。
 
 1. 左側のパネルから&#x200B;**[!UICONTROL ナビゲーションツリー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 本文]**」を選択します。
 

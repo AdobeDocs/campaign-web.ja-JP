@@ -4,7 +4,7 @@ title: 分岐ワークフローアクティビティの使用
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
 source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 

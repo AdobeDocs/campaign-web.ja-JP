@@ -4,7 +4,7 @@ title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 badge: label="Beta"
 source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
 

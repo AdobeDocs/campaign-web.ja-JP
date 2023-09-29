@@ -4,7 +4,7 @@ title: 重複排除 - 重複ワークフローアクティビティを使用
 description: 重複排除 - 重複ワークフローアクティビティの使用方法について説明します
 badge: label="Beta"
 source-git-commit: 690e2a2d17f8201c8dbb070ba936c3db513b8329
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: プッシュ通知配信をデザイン
 description: Adobe Campaign Web を使用したプッシュ通知配信のデザイン方法を学ぶ
 badge: label="Beta"
 source-git-commit: b29d8601b69bfec9e4b153a13dadb590f1cee9a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1347'
 ht-degree: 100%
 
