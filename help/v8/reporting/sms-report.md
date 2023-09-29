@@ -3,7 +3,7 @@ audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 66%
@@ -13,11 +13,6 @@ ht-degree: 66%
 # SMS 配信レポート {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="SMS 配信の概要"
->abstract="**SMS 配信の概要**&#x200B;は、SMS 配信の包括的な概要を提供し、広範なインサイトと特定のデータを提供します。配信のパフォーマンス、効果、結果に関する包括的な情報を提供します。"
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="送信のレポート"
 >abstract="レポート内の「**送信**」タブでは、訪問者の配信とのやり取りや、訪問者が遭遇した可能性のある潜在的なエラーに関する詳細なインサイトを提供します。"
@@ -25,6 +20,11 @@ ht-degree: 66%
 **SMS 配信の概要**&#x200B;は、SMS 配信の包括的な概要を提供し、広範なインサイトと特定のデータを提供します。配信のパフォーマンス、効果、結果に関する包括的な情報を提供します。
 
 ## 配信の概要 {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="SMS 配信の概要"
+>abstract="**SMS 配信の概要**&#x200B;は、SMS 配信の包括的な概要を提供し、広範なインサイトと特定のデータを提供します。配信のパフォーマンス、効果、結果に関する包括的な情報を提供します。"
 
 ### 配信の概要 {#sms-delivery-overview}
 

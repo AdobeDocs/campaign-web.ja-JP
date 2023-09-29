@@ -3,7 +3,7 @@ audience: end-user
 title: E メールチャネルのキャンペーンレポート
 description: E メールチャネルのキャンペーンレポートの詳細を説明します
 badge: label="Beta"
-source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '1546'
 ht-degree: 64%
@@ -282,7 +282,7 @@ The **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラ
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_campaign_urls_clickstreams_breakdown"
+>id="acw_delivery_campaign_urls_click_breakdown"
 >title="時間の経過に伴うクリック数の分類"
 >abstract="The **時間の経過に伴うクリック数の分類** グラフには、リンクごとの受信者の行動に使用可能なデータが表示されます。"
 

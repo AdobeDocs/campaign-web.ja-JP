@@ -3,9 +3,9 @@ audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2254'
 ht-degree: 68%
 
 ---
@@ -106,7 +106,7 @@ The **[!UICONTROL 除外の理由]** グラフおよび表は、配信の準備�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="配信スループットウィジェット"
+>title="配信スループット"
 >abstract="**配信スループット**&#x200B;レポートには、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。"
 
 このレポートには、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
@@ -118,7 +118,7 @@ The **[!UICONTROL 除外の理由]** グラフおよび表は、配信の準備�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="ブロードキャスト統計ウィジェット"
+>title="ブロードキャスト統計情報"
 >abstract="The **ブロードキャスト統計** レポートには、各ドメインで発生した可能性のあるエラーに関する使用可能なデータが含まれます。"
 
 **[!UICONTROL ブロードキャスト統計]**&#x200B;テーブルには、各ドメインで発生する可能性のあるエラーに関する使用可能なデータが含まれます。以下に、指標について詳しく説明します。
@@ -235,7 +235,7 @@ The **[!UICONTROL 配信統計]** レポートには、送信された E メー�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="開封率およびクリックスルー率ウィジェット"
+>title="開封率およびクリックスルー率"
 >abstract="**開封率およびクリックスルー率**&#x200B;テーブルには、配信に対する受信者のエンゲージメントに関するデータが表示されます。"
 
 
@@ -306,7 +306,7 @@ The **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラ
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="時間の経過に伴うクリック数の分類"
 >abstract="The **時間の経過に伴うクリック数の分類** グラフには、リンクごとの受信者の行動に使用可能なデータが表示されます。"
 
