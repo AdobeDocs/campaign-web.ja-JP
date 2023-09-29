@@ -3,9 +3,9 @@ audience: end-user
 title: コンテンツアシスタントの基本を学ぶ
 description: コンテンツアシスタントの基本を学ぶ
 badge: label="Beta"
-source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
+source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 1%
 >id="acw_generation_settings"
 >title="コンテンツアシスタント"
 >abstract="配信を作成し、パーソナライズしたら、コンテンツアシスタントを使用してコンテンツを拡張できます。 この機能を使用すると、生成する内容を記述してコンテンツを微調整でき、パーソナライゼーションとコンテンツの改善のプロセスを簡素化できます。"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="コンテンツ生成のコンテキストを定義"
+>abstract="選択したコンテンツをコンテンツ生成の入力として使用するには、 **現在のコンテンツで拡張** 切り替え また、ブランドアセットをアップロードして、ソースとして使用することもできます。 選択したコンテンツを使用しない場合は、ブランドアセットのアップロードと選択が必須です。"
 
 Content Assistant は、生成 AI を活用した、E メールコンテンツを改善するための貴重なツールです。 パーソナライゼーションとコンテンツの強化を簡素化し、E メール配信を最適化してオーディエンスの共感を深めます。
 
