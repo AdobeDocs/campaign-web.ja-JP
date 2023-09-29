@@ -3,10 +3,10 @@ audience: end-user
 title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 9ade4045b34f93620694218a8ed4e53242c49aae
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 100%
+source-wordcount: '57'
+ht-degree: 77%
 
 ---
 
@@ -24,6 +24,9 @@ ht-degree: 100%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
+キャンペーンレポートにアクセスするには、 **レポート** 」ボタンをクリックします。
+
+![](assets/campaign_report_email_13.png)
 
 
 キャンペーンレポートは、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。
@@ -34,6 +37,3 @@ ht-degree: 100%
 * [SMS チャネル](campaign-reports-sms.md)
 * [プッシュチャネル](campaign-reports-push.md)
 
-キャンペーンレポートにアクセスするには、キャンペーンのダッシュボードで「レポート」をクリックします。
-
-![](assets/campaign_report_email_13.png)

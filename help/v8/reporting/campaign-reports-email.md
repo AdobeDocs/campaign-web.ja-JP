@@ -3,22 +3,24 @@ audience: end-user
 title: E メールチャネルのキャンペーンレポート
 description: E メールチャネルのキャンペーンレポートの詳細を説明します
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 67%
+source-wordcount: '1546'
+ht-degree: 64%
 
 ---
 
 
 # E メールチャネルのキャンペーンレポート {#campaign-reports-email-channel}
 
+各キャンペーンレポートは、キャンペーンの成功とエラーを示す様々なウィジェットに分割されます。 E メールチャネルの場合、レポートと指標については、以下で詳しく説明します。 キャンペーンレポートにアクセスする方法については、 [このページ](campaign-reports.md).
+
 ## 配信の概要 {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="配信の概要"
->abstract="配信の概要では、訪問者がメール配信にエンゲージする方法に関する詳細情報を提供する主要業績評価指標（KPI）について説明します。"
+>abstract="The **配信の概要** は、訪問者が E メール配信にどのように関与しているかに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。"
 
 ### 配信の概要 {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細�
 +++
 
 ### 反応統計 {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ The **[!UICONTROL ドメインごとのエラーの分類]** テーブルとグ�
 
 ### 配信統計 {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="配信統計"
+>abstract="The **配信統計** グラフには、配信の成功と発生したエラーの詳細が表示されます。"
+
 The **[!UICONTROL 配信統計]** 指標には、送信された E メールで使用できるデータの詳細情報を提供する主要業績評価指標 (KPI) が含まれます。 以下に、指標について詳しく説明します。
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ The **[!UICONTROL 配信統計]** 指標には、送信された E メールで�
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="開封率およびクリックスルー率ウィジェット"
+>title="開封率およびクリックスルー率"
 >abstract="**開封率およびクリックスルー率**&#x200B;テーブルには、配信に対する受信者のエンゲージメントに関するデータが表示されます。"
 
 
@@ -253,8 +260,6 @@ The **[!UICONTROL URL とクリックストリーム]** レポートには、配
 
 ### 最も訪問されたリンク上位 10 件 {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="最も訪問されたリンク上位 10 件"
@@ -286,13 +291,19 @@ The **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラ
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## ユーザーアクティビティ {#user-activities-email}
 
-The  **[!UICONTROL ユーザーアクティビティ]** レポートは、開封数とクリック数の分類をグラフの形式で表示します。 以下に、指標について詳しく説明します。
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="ユーザーアクティビティ"
+>abstract="**ユーザーアクティビティ**&#x200B;グラフでは、開封数とクリック数の分類をグラフ形式で表示します。"
 
-![](assets/campaign_report_email_12.png)
+The **[!UICONTROL ユーザーアクティビティ]** レポートは、開封数とクリック数の分類をグラフの形式で表示します。 このレポートの指標については、以下で詳しく説明します。
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
+![](assets/campaign_report_email_10.png){align="center"}
+
++++詳しくは、メール配信レポート指標を参照してください。
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 
