@@ -3,7 +3,7 @@ audience: end-user
 title: プッシュチャネル用のキャンペーンレポート
 description: プッシュチャネル用のキャンペーンレポートについて
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 58%
@@ -23,6 +23,9 @@ ht-degree: 58%
 >abstract="The **配信の概要** レポートは、訪問者がプッシュ通知配信にどのように関与しているかに関する詳細な情報を提供する主要業績評価指標 (KPI) を提供します。"
 
 The **[!UICONTROL 配信の概要]** レポートは、訪問者がプッシュ通知配信にどのように関与しているかに関する詳細な情報を提供する主要業績評価指標 (KPI) を提供します。 以下に、指標について詳しく説明します。
+
+![](assets/campaign-reporting-push-summary.png)
+
 
 +++詳しくは、プッシュキャンペーンレポート指標を参照してください。
 
@@ -46,6 +49,9 @@ The **[!UICONTROL 配信の概要]** レポートは、訪問者がプッシュ�
 
 The **[!UICONTROL 初期ターゲットオーディエンスの統計]** テーブルには、受信者に関連するデータが表示されます。 以下に、指標について詳しく説明します。
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++詳しくは、プッシュキャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
@@ -64,6 +70,9 @@ The **[!UICONTROL 初期ターゲットオーディエンスの統計]** テー�
 >abstract="The **実行統計** テーブルには、配信の成功の詳細が記載されています。配信するメッセージ、成功、エラーおよび新しい強制隔離です。"
 
 The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細が表示されます。 以下に、指標について詳しく説明します。
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++詳しくは、プッシュキャンペーンレポート指標を参照してください。
 
@@ -85,6 +94,8 @@ The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細�
 >abstract="The **クリックストリーム** テーブルには、受信者による配信との関わり方に関して使用可能なデータが表示されます。"
 
 The **[!UICONTROL クリックストリーム]** テーブルには、受信者による配信との関わり方に関するデータが表示されます。 以下に、指標について詳しく説明します。
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++詳しくは、プッシュキャンペーンレポート指標を参照してください。
 
