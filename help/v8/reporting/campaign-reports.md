@@ -3,10 +3,10 @@ audience: end-user
 title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 77%
+source-wordcount: '85'
+ht-degree: 22%
 
 ---
 
@@ -28,10 +28,13 @@ ht-degree: 77%
 
 ![](assets/campaign_report_email_13.png)
 
+また、3 つのドットを使用することもできます **その他のアクション** 次に示すように、キャンペーンリスト内のキャンペーン名の横にあるボタン。
 
-キャンペーンレポートは、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。
+![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
-次のタブを含むキャンペーンレポートページが表示されます。
+キャンペーンレポートは、キャンペーンの成功とエラーを示す様々なウィジェットに分かれています。
+
+各チャネルのレポートと関連指標の完全なリストは、次のページで参照できます。
 
 * [メールチャネル](campaign-reports-email.md)
 * [SMS チャネル](campaign-reports-sms.md)
