@@ -3,10 +3,10 @@ audience: end-user
 title: E メールチャネルのキャンペーンレポート
 description: E メールチャネルのキャンペーンレポートの詳細を説明します
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 64%
+source-wordcount: '1568'
+ht-degree: 63%
 
 ---
 
@@ -85,6 +85,9 @@ The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細�
 * **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
 
 * **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメイン）に、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
+
+  E メールのエラータイプは、 [Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+
 
 +++
 

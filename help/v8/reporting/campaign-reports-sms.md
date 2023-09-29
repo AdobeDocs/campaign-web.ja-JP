@@ -3,10 +3,10 @@ audience: end-user
 title: SMS チャネルのキャンペーンレポート
 description: SMS チャネルのキャンペーンレポートについて
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 58%
+source-wordcount: '499'
+ht-degree: 55%
 
 ---
 
@@ -86,6 +86,8 @@ The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細�
 * **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
 
 * **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメイン）に、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
+
+  SMS エラータイプは、 [Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 

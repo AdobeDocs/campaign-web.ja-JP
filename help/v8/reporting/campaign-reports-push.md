@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュチャネル用のキャンペーンレポート
 description: プッシュチャネル用のキャンペーンレポートについて
 badge: label="Beta"
-source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
+source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 58%
+source-wordcount: '507'
+ht-degree: 42%
 
 ---
 
@@ -35,7 +35,7 @@ The **[!UICONTROL 配信の概要]** レポートは、訪問者がプッシュ�
 
 * **[!UICONTROL エラー数]**：配信と自動返信処理の間に、送信されたメッセージの合計数に関して累積したエラーの合計数。
 
-* **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
+* **[!UICONTROL 合計クリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 
 +++
 
@@ -82,7 +82,9 @@ The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細�
 
 * **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
 
-* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメイン）に、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
+* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（無効な登録、メッセージ却下、ペイロードエラーなど）、強制隔離されたアドレスの合計数。 配信されるメッセージ数に対する値を指定します。
+
+  プッシュ通知のエラータイプは、 [Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -101,7 +103,7 @@ The **[!UICONTROL クリックストリーム]** テーブルには、受信者�
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 
-* **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
+* **[!UICONTROL 合計クリック数]**：配信におけるリンクの合計クリック数。
 
 * **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。
 
