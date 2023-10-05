@@ -4,10 +4,10 @@ title: 配信レポート
 description: 配信レポートへのアクセス方法と使用方法について説明します
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 65%
+source-wordcount: '204'
+ht-degree: 62%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 65%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="リロード"
->abstract="次をクリック： **リロード** ボタンをクリックして最新の指標を取得し、データを更新します。"
+>title="書き出し"
+>abstract="次をクリック： **書き出し** ボタンをクリックして、これらの指標をPDFまたは CSV 形式に書き出します。この形式では、指標を共有または印刷できます。 "
 
 Adobe Campaign には、配信ごとにアクセス可能な複数のタイプのレポートが用意されています。 これらのレポートを使用すると、メッセージの影響とパフォーマンスを組み込みダッシュボードで測定し視覚化できます。
 

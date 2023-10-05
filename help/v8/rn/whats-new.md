@@ -4,10 +4,10 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 98%
+source-wordcount: '1031'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 98%
 >id="acw_homepage_card1"
 >title="新機能"
 >abstract="アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された直感的な機能が組み込まれています。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/start/using-ai.html" text="新しい AI を利用したナレッジアシスタントでガイダンスを検索"
 
 ベータ版の Adobe Campaign web UI を導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された直感的な機能が組み込まれています。
 
