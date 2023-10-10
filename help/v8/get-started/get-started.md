@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Beta"
+badge: label="ベータ版"
 source-git-commit: db3d47830cb07f9e69200a68377e695641f7b057
 workflow-type: tm+mt
 source-wordcount: '478'
