@@ -6,9 +6,9 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
 source-git-commit: 8ddda0d230598a58e1b611bdf75e2322e64c529d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -49,8 +49,8 @@ ht-degree: 85%
          + コンテンツアシスタント {#content-assistant}
             + [コンテンツアシスタントの基本を学ぶ](content/generative-gs.md)
             + [コンテンツアシスタントを使用したテキスト生成](content/generative-content.md)
-            + [コンテンツアシスタントを使用した画像の生成](content/generative-image.md)
-            + [コンテンツアシスタントを使用した E メールの生成](content/generative-email.md)
+            + [コンテンツアシスタントを使用した画像生成](content/generative-image.md)
+            + [コンテンツアシスタントを使用したメール生成](content/generative-email.md)
          + コンテンツのスタイル設定 {#style}
             + [メールスタイルの基本を学ぶ](content/get-started-email-style.md)
             + [背景設定の編集](content/backgrounds.md)
@@ -76,8 +76,8 @@ ht-degree: 85%
       + [パーソナライゼーションを追加](personalization/personalize.md)
       + [条件付きコンテンツを追加](personalization/conditions.md)
       + [ビルトインコンテンツブロックを追加](personalization/content-blocks.md)
-   + [メッセージにオファーを追加する](content/offers.md)
-   + [購読者へのメッセージの送信](content/send-to-subscribers.md)
+   + [メッセージへのオファーの追加](content/offers.md)
+   + [サブスクライバーへのメッセージの送信](content/send-to-subscribers.md)
    + 配信のプレビューとテスト {#preview-test}
       + [プレビューとテストについて](preview-test/preview-test.md)
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
@@ -85,10 +85,10 @@ ht-degree: 85%
       + [メールのレンダリング](preview-test/email-rendering.md)
 + オーディエンスと受信者 {#audiences}
    + [受信者とオーディエンスの操作](audience/about-recipients.md)
-   + [オーディエンスの作成](audience/create-audience.md)
-   + 配信受信者を選択 {#target-audiences}
-      + [既存オーディエンスの選択](audience/add-audience.md)
-      + [1 回限りのオーディエンスの構築](audience/one-time-audience.md)
+   + [オーディエンスを作成](audience/create-audience.md)
+   + 配信受信者の選択 {#target-audiences}
+      + [既存オーディエンスを選択](audience/add-audience.md)
+      + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
       + [ファイルからオーディエンスを読み込み](audience/file-audience.md)
       + [コントロール母集団を設定](audience/control-group.md)
    + [ルールビルダーの使用](audience/segment-builder.md)
@@ -133,6 +133,6 @@ ht-degree: 85%
       + [SMS 配信レポート](reporting/sms-report.md)
    + キャンペーンレポート {#campaign-report}
       + [キャンペーンレポートへのアクセス](reporting/campaign-reports.md)
-      + [E メールキャンペーンレポート](reporting/campaign-reports-email.md)
-      + [キャンペーンレポートをプッシュ](reporting/campaign-reports-push.md)
-      + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
+      + [キャンペーンレポートのメール送信](reporting/campaign-reports-email.md)
+      + [キャンペーンレポートのプッシュ](reporting/campaign-reports-push.md)
+      + [キャンペーンレポートの SMS 送信](reporting/campaign-reports-sms.md)

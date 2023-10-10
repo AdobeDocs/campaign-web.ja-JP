@@ -2,11 +2,12 @@
 audience: end-user
 title: レポートの基本を学ぶ
 description: Campaign web でレポートにアクセスして管理する方法を学ぶ
-badge: label="Beta"
-source-git-commit: b7f43e5d3434da63a05c5c76d2edef960ee3a826
-workflow-type: tm+mt
+badge: label="ベータ版"
+exl-id: b353bc86-2228-4e02-879c-ae9425c48489
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +17,9 @@ ht-degree: 49%
 
 Adobe Campaign には 2 つの異なるレポートがあります。
 
-* **配信レポート**: **配信レポート** は、各チャネルに固有の包括的なインサイトとデータを提供します。 これらのレポートでは、個々の配信のパフォーマンス、効果、結果に関する詳細な情報が提供され、包括的な概要が提供されます。
+* **配信レポート**：**配信レポート**&#x200B;では、各チャネルに固有の包括的なインサイトとデータが提供されます。個々の配信のパフォーマンス、有効性、結果に関する詳細情報が提供され、包括的な概要が得られます。
 
-* **キャンペーンレポート**: **キャンペーンレポート** には、含まれる様々な配信に関するすべての関連情報を組み込んで、キャンペーンの包括的な概要が表示されます。 これらのレポートでは、成功率、オーディエンスのエンゲージメント、その他の重要な指標など、各配信のチャネルごとのパフォーマンスを完全に分析できます。 キャンペーンの全体的な有効性と影響を評価できます。
+* **キャンペーンレポート**：**キャンペーンレポート**&#x200B;では、キャンペーンの包括的な概要が提供され、含まれる様々な配信に関するすべての関連情報が組み込まれます。これらのレポートでは、成功率、オーディエンスのエンゲージメント、その他の重要な指標など、各配信のチャネルごとのパフォーマンスを完全に分析できます。キャンペーンの全体的な有効性と影響を評価できます。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -35,7 +36,7 @@ Adobe Campaign には 2 つの異なるレポートがあります。
 <img alt="低頻度" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="push-report.md"><strong> プッシュ配信レポート<strong></strong></a>
+<a href="push-report.md"><strong>プッシュ配信レポート<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -43,7 +44,7 @@ Adobe Campaign には 2 つの異なるレポートがあります。
 <img alt="検証" src="assets/do-not-localize/sms_report.png">
 </a>
 <div>
-<a href="sms-report.md"><strong> SMS 配信レポート</strong></a>
+<a href="sms-report.md"><strong>SMS 配信レポート</strong></a>
 </div>
 <p>
 </td>
