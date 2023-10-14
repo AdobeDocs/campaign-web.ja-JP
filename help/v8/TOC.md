@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '448'
 ht-degree: 97%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 97%
 + [ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
+   + [Campaign への接続](get-started/connect-to-campaign.md)
    + [インターフェイスを確認](get-started/user-interface.md)
    + [リストの参照、検索、フィルタリング](get-started/list-filters.md)
    + [定義済みフィルターの操作](get-started/predefined-filters.md)
