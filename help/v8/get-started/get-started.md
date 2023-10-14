@@ -4,10 +4,10 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="ベータ版"
-source-git-commit: db3d47830cb07f9e69200a68377e695641f7b057
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 97%
 
 ---
 
@@ -34,21 +34,7 @@ Web UI で使用できない Campaign v8 機能にアクセスする必要があ
 >
 >Campaign v8 web は現在ベータ版バージョンです。アクセス権は、一部のベータ版顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
-## Campaign への接続
-
-Adobe Campaign web に接続するには、次の手順に従います。
-
-1. [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"} を参照します。
-1. アドビの資格情報を使用してログインします。
-1. 「**クイックアクセス**」セクションで、「**Campaign**」をクリックします。
-
-   ![](assets/connect.png)
-
-1. 次のページで、Campaign インスタンスの「**ローンチ**」ボタンをクリックします。
-
-   Campaign に接続しました。ユーザーインターフェイスの使用を開始する方法については、[このページ](user-interface.md)を参照してください。
-
-既に別の Adobe Experience Cloud ソリューションに接続している場合は、画面右上のソリューション切り替えボタンから Campaign 環境を参照することもできます。
+でAdobe Campaign Web に接続する方法を説明します。 [このページ](connect-to-campaign.md).
 
 ## Campaign クライアントコンソールについて {#ac-client}
 

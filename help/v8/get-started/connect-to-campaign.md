@@ -2,10 +2,10 @@
 title: Adobe Campaign Web インターフェイスに接続
 description: Adobe Campaign v8 Web ユーザーインターフェイスへの接続方法を説明します
 badge: label="ベータ版"
-source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 32%
+source-wordcount: '510'
+ht-degree: 39%
 
 ---
 
@@ -36,15 +36,17 @@ Adobe Experience Cloudにログインするための基本的な手順は次の�
 
 ## Adobe Campaignへのアクセス {#access-to-campaign}
 
-Campaign 環境にアクセスするには、 **Campaign** Adobe Experience Cloudホームページから。
+Campaign 環境にアクセスするには、 **Campaign** から **クイックアクセス** 」セクションに表示されます。Adobe Experience Cloudホームページの
 
-また、ソリューション切り替えボタンを使用して、Adobe Experience Cloudソリューションとアプリを参照することもできます。
+既に別の Adobe Experience Cloud ソリューションに接続している場合は、画面右上のソリューション切り替えボタンから Campaign 環境を参照することもできます。
 
 ![](assets/solution-switcher.png)
 
 複数の環境（Campaign 環境を含む）にアクセスできる場合は、Campaign コントロールパネル **Launch** ボタンを使用して正しいインスタンスを確認します。
 
 ![](assets/launch-campaign.png)
+
+Campaign に接続しました。ユーザーインターフェイスの使用を開始する方法については、[このページ](user-interface.md)を参照してください。
 
 ## Adobe Experience Cloudの上部ナビゲーション {#top-bar}
 
