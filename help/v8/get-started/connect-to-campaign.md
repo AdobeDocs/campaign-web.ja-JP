@@ -2,10 +2,10 @@
 title: Adobe Campaign Web インターフェイスに接続
 description: Adobe Campaign v8 Web ユーザーインターフェイスへの接続方法を説明します
 badge: label="ベータ版"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 32%
 
 ---
 
@@ -31,35 +31,34 @@ Adobe Experience Cloudにログインするための基本的な手順は次の�
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   のAdobe Experience Cloudでの組織の詳細 [この記事](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){target="_blank"}.
+   Adobe Experience Cloudの組織の詳細 [この記事](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){target="_blank"}.
 
 
 ## Adobe Campaignへのアクセス {#access-to-campaign}
 
 Campaign 環境にアクセスするには、 **Campaign** Adobe Experience Cloudホームページから。
 
-複数の環境（Campaign 環境を含む）にアクセスできる場合は、Campaign コントロールパネル **Launch** 」ボタンをクリックします。
-
-![](assets/launch-campaign.png)
-
 また、ソリューション切り替えボタンを使用して、Adobe Experience Cloudソリューションとアプリを参照することもできます。
 
 ![](assets/solution-switcher.png)
+
+複数の環境（Campaign 環境を含む）にアクセスできる場合は、Campaign コントロールパネル **Launch** ボタンを使用して正しいインスタンスを確認します。
+
+![](assets/launch-campaign.png)
 
 ## Adobe Experience Cloudの上部ナビゲーション {#top-bar}
 
 インターフェイスの上部バーを使用して、次の操作を実行できます。
 
-* ベータ版テスターとしてのフィードバックの共有
-* 組織とインスタンス間の切り替え
-* Adobe Experience Cloud アプリケーションの切り替え
-* ヘルプページへのアクセス、サポートへの問い合わせ、フィードバックの共有検索フィールドからヘルプ記事およびビデオを検索できます。
+* ベータ版ユーザーとしてフィードバックを共有する
+* 組織を切り替える
+* Adobe Experience Cloudソリューションとアプリの切り替え
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
 ## サポートしているブラウザー {#browsers}
 
-Campaign v8 Web は、最新バージョンの Google Chrome、Safari および Microsoft Edge で最適に動作するように設計されています。古いバージョンや他のブラウザーでは、特定の機能を使用する際に問題が発生する可能性があります。
+Campaign v8 Web は、Google Chrome、Safari およびMicrosoft Edge の最新バージョンで最適に動作するように設計されています。 古いバージョンや他のブラウザーでは、特定の機能の使用に問題が生じる場合があります。
 
 ## 言語環境設定 {#language-pref}
 
@@ -83,7 +82,7 @@ Campaign web のデフォルト言語は、ユーザープロファイルで指�
 
 1. 右上のプロファイルアイコンをクリックし、 「**環境設定**」を選択します。
 1. 次に、メールアドレスの下に表示されている言語リンクをクリックします。
-1. 優先言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
+1. 優先言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが最初の言語にローカライズされていない場合に備えて、2 番目の言語を選択できます。
 
 ## ダークテーマ {#dark-theme}
 
