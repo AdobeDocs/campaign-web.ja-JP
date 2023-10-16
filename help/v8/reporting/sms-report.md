@@ -4,10 +4,10 @@ title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
 badge: label="ベータ版"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 93%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="プッシュの全体的な統計"
+>title="SMS の全体的な統計"
 >abstract="**全体的な統計**&#x200B;レポートには、送信された SMS のデータ（成功、エラーおよび強制隔離）が表示されます。"
 
 **全体的な統計**&#x200B;レポートには、送信された SMS メッセージのデータが表示されます。指標については、以下で詳しく説明します。
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="SMS の全体的な統計"
+>title="SMS の除外"
 >abstract="**除外**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。"
 
 
@@ -104,9 +104,9 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="配信スループットメニュー"
->abstract="配信スループットレポートには、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。"
+>title="SMS 配信スループット"
+>abstract="The **配信スループット** レポートには、指定した期間内の配信スループットに関する詳細情報が表示されます。  メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。"
 
-このレポートには、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
+このレポートは、指定した期間内の配信スループットに関する詳細情報を表示します。 メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
 
 ![](assets/reporting_sms_2.png)
