@@ -2,11 +2,12 @@
 audience: end-user
 title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
-badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
-workflow-type: tm+mt
+badge: label="ベータ版"
+exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '85'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
@@ -24,19 +25,18 @@ ht-degree: 22%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
-キャンペーンレポートにアクセスするには、 **レポート** 」ボタンをクリックします。
+キャンペーンレポートにアクセスするには、キャンペーンのダッシュボードから&#x200B;**レポート**&#x200B;ボタンをクリックします。
 
 ![](assets/campaign_report_email_13.png)
 
-また、3 つのドットを使用することもできます **その他のアクション** 次に示すように、キャンペーンリスト内のキャンペーン名の横にあるボタン。
+また、キャンペーンリスト内のキャンペーン名の横にある 3 つのドット（**その他のアクション**&#x200B;ボタン）を使用することができます。詳しくは以下を参照してください。
 
 ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
-キャンペーンレポートは、キャンペーンの成功とエラーを示す様々なウィジェットに分かれています。
+キャンペーンレポートは、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。
 
-各チャネルのレポートと関連指標の完全なリストは、次のページで参照できます。
+各チャネルのレポートと関連指標の完全なリストについては、下記のページを参照してください。
 
 * [メールチャネル](campaign-reports-email.md)
 * [SMS チャネル](campaign-reports-sms.md)
 * [プッシュチャネル](campaign-reports-push.md)
-

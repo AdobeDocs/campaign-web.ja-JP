@@ -1,30 +1,30 @@
 ---
 audience: end-user
-title: E メールチャネルのキャンペーンレポート
-description: E メールチャネルのキャンペーンレポートの詳細を説明します
-badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
-workflow-type: tm+mt
+title: メールチャネルのキャンペーンレポート
+description: メールチャネルのキャンペーンレポートについての詳細情報
+badge: label="ベータ版"
+exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '1568'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
+# メールチャネルのキャンペーンレポート {#campaign-reports-email-channel}
 
-# E メールチャネルのキャンペーンレポート {#campaign-reports-email-channel}
-
-各キャンペーンレポートは、キャンペーンの成功とエラーを示す様々なウィジェットに分割されます。 E メールチャネルの場合、レポートと指標については、以下で詳しく説明します。 キャンペーンレポートにアクセスする方法については、 [このページ](campaign-reports.md).
+各キャンペーンレポートは、キャンペーンの成功とエラーの詳細を表示する様々なウィジェットに分かれています。E メールチャネルの場合、レポートと指標については、以下で詳しく説明します。 キャンペーンレポートにアクセスする方法については、[このページ](campaign-reports.md)を参照してください。
 
 ## 配信の概要 {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="配信の概要"
->abstract="The **配信の概要** は、訪問者が E メール配信にどのように関与しているかに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。"
+>abstract="**配信の概要**&#x200B;では、訪問者がメール配信にどのようにエンゲージしたかに関する詳細情報を提供する、主要業績評価指標（KPI）について説明します。"
 
 ### 配信の概要 {#delivery-summary-email-ovv}
 
-The **[!UICONTROL 配信の概要]** レポートは、訪問者が E メール配信にどのように関与しているかに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。 以下に、指標について詳しく説明します。
+**[!UICONTROL 配信の概要]**&#x200B;では、訪問者がメール配信にどのようにエンゲージしたかに関する詳細情報を提供する、主要業績評価指標（KPI）について説明します。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_1.png)
 
@@ -50,7 +50,7 @@ The **[!UICONTROL 配信の概要]** レポートは、訪問者が E メール�
 >abstract="初期ターゲットオーディエンス統計テーブルには、受信者に関連するデータが表示されます。"
 
 
-The **[!UICONTROL 初期ターゲットオーディエンスの統計]** テーブルには、受信者に関連するデータが表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 初期ターゲットオーディエンス統計]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_2.png)
 
@@ -70,9 +70,9 @@ The **[!UICONTROL 初期ターゲットオーディエンスの統計]** テー�
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="実行統計"
->abstract="The **実行統計** テーブルには、配信の成功の詳細が記載されています。配信するメッセージ、成功、エラーおよび新しい強制隔離です。"
+>abstract="**実行統計**&#x200B;テーブルには、配信するメッセージ、成功、エラーおよび新しい強制隔離など、配信の成功の詳細が表示されます。"
 
-The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細が表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 実行統計]**&#x200B;テーブルには、配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_3.png)
 
@@ -86,20 +86,20 @@ The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細�
 
 * **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメイン）に、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
 
-  E メールのエラータイプは、 [Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+  メールのエラータイプは、[Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){target="_blank"}に記載されています。
 
 
 +++
 
-### 反応統計 {#delivery-summary-email-reaction-stats}
+### 反応の統計 {#delivery-summary-email-reaction-stats}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
->title="反応統計"
->abstract="The **反応統計** テーブルには、配信で受信者アクティビティに使用可能なデータ（開封数、購読、購読解除、ミラーページへのクリックリンク）が表示されます。"
+>title="反応の統計"
+>abstract="**反応の統計**&#x200B;テーブルには、配信で受信者のアクティビティに使用可能なデータ（開封数、購入数、登録解除数、ミラーページへのクリックリンク）が表示されます。"
 
 
-The **[!UICONTROL 反応統計]** テーブルには、配信で受信者のアクティビティに使用できるデータが含まれます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 反応の統計]**&#x200B;テーブルには、配信で受信者のアクティビティに使用できるデータが含まれます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_4.png)
 
@@ -121,9 +121,9 @@ The **[!UICONTROL 反応統計]** テーブルには、配信で受信者のア�
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="クリックストリーム"
->abstract="The **クリックストリーム** テーブルには、受信者による配信との関わり方に関して使用可能なデータが表示されます。"
+>abstract="**生成されたクリックストリーム**&#x200B;テーブルには、受信者による配信の操作に関するデータが表示されます。"
 
-The **[!UICONTROL クリックストリーム]** テーブルには、受信者による配信との関わり方に関するデータが表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 生成されたクリックストリーム]**&#x200B;テーブルには、受信者による配信の操作に関するデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_5.png)
 
@@ -139,15 +139,15 @@ The **[!UICONTROL クリックストリーム]** テーブルには、受信者�
 
 ## 配信不能件数 {#non-deliverables-email}
 
-### タイプごとのエラーの分類 {#delivery-summary-email-breakdown-per-type}
+### タイプ別のエラー分類 {#delivery-summary-email-breakdown-per-type}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_type"
->title="タイプごとのエラーの分類"
->abstract="The **タイプごとのエラーの分類** テーブルとグラフには、不明なユーザー、メールボックス容量超過、無効なドメインなど、発生した各エラータイプに対して使用可能なデータが含まれています。"
+>title="タイプ別のエラー分類"
+>abstract="**タイプ別のエラー分類**&#x200B;テーブルとグラフには、不明なユーザー、メールボックス容量超過、無効なドメインなど、発生した各エラータイプに対して使用可能なデータが含まれています。"
 
-The **[!UICONTROL タイプごとのエラーの分類]** テーブルとグラフには、各タイプのドメインで発生した可能性のあるエラーに関して使用可能なデータが含まれています。 以下に、指標について詳しく説明します。
+**[!UICONTROL タイプ別のエラー分類]**&#x200B;テーブルとグラフには、各タイプのドメインで発生する可能性のあるエラーに関する使用可能なデータが含まれます。指標については、以下で詳しく説明します。
 
 このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}を参照してください。
 
@@ -172,15 +172,15 @@ The **[!UICONTROL タイプごとのエラーの分類]** テーブルとグラ�
 +++
 
 
-### ドメインごとのエラーの分類 {#delivery-summary-email-breakdown-per-domain}
+### ドメイン別のエラー分類 {#delivery-summary-email-breakdown-per-domain}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
->title="ドメインごとのエラーの分類"
->abstract="The **ドメインごとのエラーの分類** テーブルおよびグラフには、各ドメインに応じて発生した各エラータイプで使用可能なデータが表示されます。"
+>title="ドメイン別のエラー分類"
+>abstract="**ドメイン別のエラー分類**&#x200B;テーブルとグラフには、各ドメインで発生した各エラータイプに関する使用可能なデータが含まれます。"
 
 
-The **[!UICONTROL ドメインごとのエラーの分類]** テーブルとグラフには、各ドメインで発生した可能性のあるエラーに関して使用可能なデータが含まれています。 指標は、 **[!UICONTROL タイプごとのエラーの分類]** 上記の表とグラフについて詳しく説明します。
+**[!UICONTROL ドメイン別のエラー分類]**&#x200B;テーブルとグラフには、各ドメインで発生する可能性のある各エラータイプに関する使用可能なデータが含まれます。指標は、上記の&#x200B;**[!UICONTROL タイプ別のエラー分類]**&#x200B;テーブルとグラフと共通です。
 
 
 ## トラッキング指標 {#tracking-indicators-email}
@@ -191,9 +191,9 @@ The **[!UICONTROL ドメインごとのエラーの分類]** テーブルとグ�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_delivery_statistics_summary"
 >title="配信統計"
->abstract="The **配信統計** グラフには、配信の成功と発生したエラーの詳細が表示されます。"
+>abstract="**配信統計**&#x200B;グラフには、配信の成功と発生したエラーの詳細が表示されます。"
 
-The **[!UICONTROL 配信統計]** 指標には、送信された E メールで使用できるデータの詳細情報を提供する主要業績評価指標 (KPI) が含まれます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 配信統計]**&#x200B;指標では、送信されたメールで使用可能なデータに関する詳細情報を提供する主要業績評価指標（KPI）が提供されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_7.png)
 
@@ -217,12 +217,12 @@ The **[!UICONTROL 配信統計]** 指標には、送信された E メールで�
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="開封率およびクリックスルー率"
+>title="開封率とクリックスルー率"
 >abstract="**開封率およびクリックスルー率**&#x200B;テーブルには、配信に対する受信者のエンゲージメントに関するデータが表示されます。"
 
 
 
-The **[!UICONTROL 開封率およびクリックスルー率]** テーブルには、受信者に関連するデータが表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 開封率およびクリックスルー率]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_8.png)
 
@@ -244,9 +244,9 @@ The **[!UICONTROL 開封率およびクリックスルー率]** テーブルに�
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL とクリックストリーム"
->abstract="The **URL とクリックストリーム** レポートには、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) が表示されます。"
+>abstract="**URL とクリックストリーム**&#x200B;では、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標（KPI）が提供されます。"
 
-The **[!UICONTROL URL とクリックストリーム]** レポートには、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) が表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL URL とクリックストリーム]**&#x200B;では、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標（KPI）が提供されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_9.png)
 
@@ -266,10 +266,10 @@ The **[!UICONTROL URL とクリックストリーム]** レポートには、配
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="最も訪問されたリンク上位 10 件"
->abstract="The **最も多く訪問された上位 10 件のリンク** グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれています。"
+>abstract="**最も訪問されたリンク上位 10 位**&#x200B;グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれます。"
 
 
-The **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれています。 以下に、指標について詳しく説明します。
+**[!UICONTROL 最も訪問されたリンク上位 10 件]**&#x200B;グラフおよびテーブルには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_10.png)
 
@@ -287,10 +287,10 @@ The **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラ
 >[!CONTEXTUALHELP]
 >id="acw_delivery_campaign_urls_click_breakdown"
 >title="時間の経過に伴うクリック数の分類"
->abstract="The **時間の経過に伴うクリック数の分類** グラフには、リンクごとの受信者の行動に使用可能なデータが表示されます。"
+>abstract="**時間の経過に伴うクリック数の分類**&#x200B;グラフには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。"
 
 
-の **[!UICONTROL 時間の経過に伴うクリック数の分類]** グラフには、リンクごとの受信者の行動に使用できるデータが含まれます。
+**[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。
 
 ![](assets/campaign_report_email_11.png)
 
@@ -302,7 +302,7 @@ The **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラ
 >title="ユーザーアクティビティ"
 >abstract="**ユーザーアクティビティ**&#x200B;グラフでは、開封数とクリック数の分類をグラフ形式で表示します。"
 
-The **[!UICONTROL ユーザーアクティビティ]** レポートは、開封数とクリック数の分類をグラフの形式で表示します。 このレポートの指標については、以下で詳しく説明します。
+**[!UICONTROL ユーザーアクティビティ]**&#x200B;レポートには、開封数とクリック数の分類がチャート形式で表示されます。このレポートの指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_10.png){align="center"}
 

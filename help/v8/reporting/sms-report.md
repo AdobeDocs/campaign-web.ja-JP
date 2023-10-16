@@ -2,11 +2,12 @@
 audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
-badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
-workflow-type: tm+mt
+badge: label="ベータ版"
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +29,11 @@ ht-degree: 66%
 
 ### 配信の概要 {#sms-delivery-overview}
 
-The **[!UICONTROL 配信の概要]** レポートは、成功率とエラー率、訪問者が SMS メッセージにどのように関わっているかに関する詳細情報を提供する主要業績評価指標 (KPI) を提供します。
+**[!UICONTROL 配信の概要]**&#x200B;レポートは、成功率とエラー率および SMS メッセージに対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。
 
 ![](assets/reporting_sms_3.png)
 
-+++SMS 配信レポート指標の詳細を説明します。
++++SMS 配信レポート指標の詳細情報。
 
 * **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの割合と合計数。
 
@@ -51,13 +52,13 @@ The **[!UICONTROL 配信の概要]** レポートは、成功率とエラー率�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
 >title="SMS のターゲット母集団"
->abstract="The **ターゲット母集団** SMS オーディエンスに関連するデータ（配信メッセージと除外メッセージ）のグラフとテーブル。"
+>abstract="**ターゲット母集団**&#x200B;グラフおよびテーブルには、SMS オーディエンスに関連するデータ（配信メッセージ数と除外件数）が表示されます。"
 
-The **ターゲット母集団** グラフおよびテーブルには、オーディエンスに関連したデータが表示されます。 以下に、指標について詳しく説明します。
+**ターゲット母集団**&#x200B;グラフおよびテーブルには、オーディエンスに関連するデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/reporting_sms_4.png)
 
-+++SMS 配信レポート指標の詳細を説明します。
++++SMS 配信レポート指標の詳細情報。
 
 * **[!UICONTROL 配信]**：配信の準備中に処理されたメッセージの合計数と割合。
 
@@ -65,19 +66,19 @@ The **ターゲット母集団** グラフおよびテーブルには、オー�
 +++
 
 
-### 全般的な統計 {#sms-delivery-overall}
+### 全体的な統計 {#sms-delivery-overall}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="全体的な統計のプッシュ"
->abstract="The **全体的な統計** レポートには、送信した SMS のデータ（成功、エラー、強制隔離）が表示されます。"
+>title="プッシュの全体的な統計"
+>abstract="**全体的な統計**&#x200B;レポートには、送信された SMS のデータ（成功、エラーおよび強制隔離）が表示されます。"
 
-The **全体的な統計** レポートには、送信した SMS メッセージのデータが表示されます。 以下に、指標について詳しく説明します。
+**全体的な統計**&#x200B;レポートには、送信された SMS メッセージのデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/reporting_sms_5.png)
 
-+++SMS 配信レポート指標の詳細を説明します。
++++SMS 配信レポート指標の詳細情報。
 
 * **[!UICONTROL 成功]**：正常に処理されたメッセージの数と割合。
 
@@ -92,10 +93,10 @@ The **全体的な統計** レポートには、送信した SMS メッセージ
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS の全体的な統計"
->abstract="The **除外** グラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。"
+>abstract="**除外**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。"
 
 
-The **[!UICONTROL 除外]** グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。 除外ルールについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
+**[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#sms-quarantines){_blank}を参照してください。
 
 ![](assets/reporting_sms_6.png)
 
@@ -109,4 +110,3 @@ The **[!UICONTROL 除外]** グラフおよびテーブルには、ターゲッ�
 このレポートには、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
 
 ![](assets/reporting_sms_2.png)
-

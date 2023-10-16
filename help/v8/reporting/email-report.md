@@ -2,11 +2,12 @@
 audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
-badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
-workflow-type: tm+mt
+badge: label="ベータ版"
+exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '2254'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -21,18 +22,18 @@ ht-degree: 68%
 >title="送信のレポート"
 >abstract="レポート内の「**送信**」タブでは、訪問者の配信とのやり取りや、訪問者が遭遇した可能性のある潜在的なエラーに関する詳細なインサイトを提供します。"
 
-### 初期のターゲット母集団 {#email-delivery-targeted-population}
+### 初期ターゲット母集団 {#email-delivery-targeted-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
->title="初期のターゲット母集団"
->abstract="The **初期ターゲット母集団** グラフには、配信準備の結果に基づいて、受信者とメッセージに関するデータが表示されます。"
+>title="初期ターゲット母集団"
+>abstract="**初期ターゲット母集団**&#x200B;グラフには、配信準備の結果に基づいて、受信者とメッセージに関するデータが表示されます。"
 
-The **[!UICONTROL 初期ターゲット母集団]** グラフには、受信者に関連するデータが表示されます。 配信の準備および表示中に指標が計算されます。初期オーディエンス、送信するメッセージ数、除外された受信者数が表示されます。
+**[!UICONTROL 初期ターゲット母集団]**&#x200B;グラフには、受信者に関するデータが表示されます。指標は配信の準備中に計算され、初期オーディエンス、送信するメッセージの数、除外された受信者の数を示します。
 
 ![](assets/reporting_email_1.png){width="50%" align="left" zoomable="yes"}
 
-グラフの一部にマウスポインターを置くと、正確な数が表示されます。
+グラフの一部にマウスを合わせると、正確な数が表示されます。
 
 ![](assets/reporting_email_1.1.png){width="50%" align="left" zoomable="yes"}
 
@@ -52,10 +53,10 @@ The **[!UICONTROL 初期ターゲット母集団]** グラフには、受信者�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="配信統計"
->abstract="The **配信統計** グラフには、配信の成功と発生したエラーの詳細が表示されます。"
+>abstract="**配信統計**&#x200B;グラフには、配信の成功と発生したエラーの詳細が表示されます。"
 
 
-The **[!UICONTROL 配信統計]** グラフには、配信の成功の詳細が表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 配信統計]**&#x200B;グラフには、配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/reporting_email_2.png){width="50%" align="left" zoomable="yes"}
 
@@ -77,10 +78,10 @@ The **[!UICONTROL 配信統計]** グラフには、配信の成功の詳細が�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="配信統計"
->abstract="The **除外の理由** グラフおよび表は、配信の準備中に却下されたメッセージのルールごとの分類を示します。"
+>abstract="**除外の理由**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。"
 
 
-The **[!UICONTROL 除外の理由]** グラフおよび表は、配信の準備中に却下されたメッセージのルールごとの分類を示します。 除外ルールについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+**[!UICONTROL 除外の理由]**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。除外ルールについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){_blank}を参照してください。
 
 ![](assets/reporting_email_3.png){align="center" zoomable="yes"}
 
@@ -114,14 +115,14 @@ The **[!UICONTROL 除外の理由]** グラフおよび表は、配信の準備�
 ![](assets/reporting_email_3.1.png){align="center" zoomable="yes"}
 
 
-## ブロードキャスト統計情報 {#broadcast-statistics}
+## ブロードキャスト統計 {#broadcast-statistics}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="ブロードキャスト統計情報"
->abstract="The **ブロードキャスト統計** レポートには、各ドメインで発生した可能性のあるエラーに関する使用可能なデータが含まれます。"
+>title="ブロードキャスト統計"
+>abstract="**ブロードキャスト統計**&#x200B;レポートには、各ドメインで発生する可能性のあるエラーに関する入手可能なデータが表示されます。"
 
-**[!UICONTROL ブロードキャスト統計]**&#x200B;テーブルには、各ドメインで発生する可能性のあるエラーに関する使用可能なデータが含まれます。以下に、指標について詳しく説明します。
+**[!UICONTROL ブロードキャスト統計]**&#x200B;テーブルには、各ドメインで発生する可能性のあるエラーに関する入手可能なデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/reporting_email_4.png){align="center" zoomable="yes"}
 
@@ -144,14 +145,14 @@ The **[!UICONTROL 除外の理由]** グラフおよび表は、配信の準備�
 
 ## 配信不能件数 {#non-deliverables-email}
 
-### タイプごとのエラーの分類 {#email-delivery-breakdown-type}
+### タイプ別のエラー分類 {#email-delivery-breakdown-type}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
->title="タイプごとのエラーの分類"
->abstract="The **タイプごとのエラーの分類** テーブルとグラフには、不明なユーザー、メールボックス容量超過、無効なドメインなど、発生した各エラータイプに対して使用可能なデータが含まれています。"
+>title="タイプ別のエラー分類"
+>abstract="**タイプごとのエラーの分類**&#x200B;テーブルおよびグラフには、不明なユーザー、メールボックス容量超過、無効なドメインなど、発生したエラーのタイプごとに入手可能なデータが表示されます。"
 
-The **[!UICONTROL タイプごとのエラーの分類]** テーブルとグラフには、エラータイプに使用できるデータが含まれています。 以下に、指標について詳しく説明します。
+**[!UICONTROL タイプごとのエラーの分類]**&#x200B;テーブルおよびグラフには、エラーのタイプごとに入手可能なデータが表示されます。指標については、以下で詳しく説明します。
 
 このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}を参照してください。
 
@@ -176,16 +177,16 @@ The **[!UICONTROL タイプごとのエラーの分類]** テーブルとグラ�
 +++
 
 
-### ドメインごとのエラーの分類 {#email-delivery-breakdown-domain}
+### ドメイン別のエラー分類 {#email-delivery-breakdown-domain}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
->title="ドメインごとのエラーの分類"
->abstract="The **ドメインごとのエラーの分類** テーブルおよびグラフには、各ドメインに応じて発生した各エラータイプで使用可能なデータが表示されます。"
+>title="ドメイン別のエラー分類"
+>abstract="**ドメインごとのエラーの分類**&#x200B;テーブルおよびグラフには、各ドメインで発生したエラーのタイプごとに入手可能なデータが表示されます。"
 
 
-The **[!UICONTROL ドメインごとのエラーの分類]** テーブルおよびグラフには、各ドメインで発生した可能性のあるエラーに関して使用可能なデータが表示されます。
+**[!UICONTROL ドメインごとのエラーの分類]**&#x200B;テーブルおよびグラフには、各ドメインで発生する可能性のあるエラーに関する入手可能なデータが表示されます。
 
 ![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
@@ -193,7 +194,7 @@ The **[!UICONTROL ドメインごとのエラーの分類]** テーブルおよ�
 
 ![](assets/campaign_report_email_6.1.png){align="left" zoomable="yes"}
 
-使用可能な指標は、 [タイプ別のエラーの分類](#email-delivery-breakdown-type) 上記の説明。
+使用可能な指標は、上記の[タイプごとのエラーの分類](#email-delivery-breakdown-type)の指標と同じです。
 
 ## トラッキング指標 {#tracking-indicators-email}
 
@@ -209,10 +210,10 @@ The **[!UICONTROL ドメインごとのエラーの分類]** テーブルおよ�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" 配信統計"
->abstract="The **配信統計** レポートには、送信された E メールで使用できるデータ（成功、開封、クリックなど）に関する詳細情報を提供する主要業績評価指標 (KPI) が表示されます。"
+>abstract="**配信統計**&#x200B;レポートは、送信されたメールに関して入手可能なデータの詳細（成功、開封数、クリック数など）を示す主要業績評価指標（KPI）を提供します。"
 
 
-The **[!UICONTROL 配信統計]** レポートには、送信された E メールで使用できるデータの詳細情報を提供する主要業績評価指標 (KPI) が表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 配信統計]**&#x200B;レポートは、送信されたメールに関して入手可能なデータの詳細を示す主要業績評価指標（KPI）を提供します。指標については、以下で詳しく説明します。
 
 ![](assets/reporting_email_5.png){align="center"}
 
@@ -231,16 +232,16 @@ The **[!UICONTROL 配信統計]** レポートには、送信された E メー�
 * **[!UICONTROL 推定転送数]**：ターゲット受信者によって転送されるメール数の推定値。
 +++
 
-### 開封率およびクリックスルー率 {#email-tracking-click-through}
+### 開封率とクリックスルー率 {#email-tracking-click-through}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="開封率およびクリックスルー率"
->abstract="**開封率およびクリックスルー率**&#x200B;テーブルには、配信に対する受信者のエンゲージメントに関するデータが表示されます。"
+>title="開封率とクリックスルー率"
+>abstract="**開封率とクリックスルー率**&#x200B;テーブルには、配信に対する受信者のエンゲージメントに関連するデータが表示されます。"
 
 
 
-The **[!UICONTROL 開封率およびクリックスルー率]** テーブルには、受信者に関連するデータが表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 開封率とクリックスルー率]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/reporting_email_6.png){align="center"}
 
@@ -262,10 +263,10 @@ The **[!UICONTROL 開封率およびクリックスルー率]** テーブルに�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL とクリックストリーム"
->abstract="The **URL とクリックストリーム** レポートには、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) が表示されます。"
+>abstract="**URL とクリックストリーム**&#x200B;レポートは、配信中に最もクリックされた URL の詳細を示す主要業績評価指標（KPI）を提供します。"
 
 
-The **[!UICONTROL URL とクリックストリーム]** レポートには、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標 (KPI) が表示されます。
+**[!UICONTROL URL とクリックストリーム]**&#x200B;レポートは、配信中に最もクリックされた URL の詳細を示す主要業績評価指標（KPI）を提供します。
 
 ![](assets/reporting_email_7.png){align="center"}
 
@@ -287,10 +288,10 @@ The **[!UICONTROL URL とクリックストリーム]** レポートには、配
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="最も訪問されたリンク上位 10 件"
->abstract="The **最も多く訪問された上位 10 件のリンク** グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれています。"
+>abstract="**最も訪問されたリンク上位 10 件**&#x200B;グラフおよびテーブルには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。"
 
 
-The **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラフとテーブルには、リンクごとの受信者の行動に使用できるデータが含まれています。
+**[!UICONTROL 最も訪問されたリンク上位 10 件]**&#x200B;グラフおよびテーブルには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。
 
 ![](assets/reporting_email_8.png){align="center"}
 
@@ -308,10 +309,10 @@ The **[!UICONTROL 最も多く訪問された上位 10 件のリンク]** グラ
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="時間の経過に伴うクリック数の分類"
->abstract="The **時間の経過に伴うクリック数の分類** グラフには、リンクごとの受信者の行動に使用可能なデータが表示されます。"
+>abstract="**時間の経過に伴うクリック数の分類**&#x200B;グラフには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。"
 
 
-The **[!UICONTROL 時間の経過に伴うクリック数の分類]** グラフには、リンクごとの受信者の行動に使用できるデータが含まれます。
+**[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。
 
 ![](assets/reporting_email_9.png){align="center"}
 
@@ -322,7 +323,7 @@ The **[!UICONTROL 時間の経過に伴うクリック数の分類]** グラフ�
 >title="ユーザーアクティビティウィジェット"
 >abstract="**ユーザーアクティビティ**&#x200B;グラフでは、開封数とクリック数の分類をグラフ形式で表示します。データをターゲットにする期間を、最終日、時間、または 30 分から選択できます。"
 
-The **[!UICONTROL ユーザーアクティビティ]** レポートは、開封数とクリック数の分類をグラフの形式で表示します。 データをターゲットにする期間を、最終日、時間、または 30 分から選択できます。
+**[!UICONTROL ユーザーアクティビティ]**&#x200B;レポートには、開封数とクリック数の分類がチャート形式で表示されます。データをターゲットにする期間を、最終日、時間、または 30 分から選択できます。
 
 ![](assets/reporting_email_10.png){align="center"}
 
@@ -359,12 +360,12 @@ The **[!UICONTROL ユーザーアクティビティ]** レポートは、開封�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
->title="デバイスごとの分類"
->abstract="The **デバイス別の分類** レポートは、その期間の開封数のデバイス別分類を表示します。 それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目の「 」には、各デバイスタイプの正確な数と割合が表示されます。"
+>title="デバイス別分類"
+>abstract="**デバイス別分類**&#x200B;には、期間中の開封数のデバイス別分類が表示されます。それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフは、デバイスタイプごとの正確な数と割合を示しています。"
 
-The **デバイス別の分類** レポートは、パソコン、Android デバイス、Appleデバイスなど、期間中のデバイス別の開封数の分類を表示します。
+**デバイス別分類**&#x200B;レポートには、パソコン、Android デバイス、Apple デバイスなどのデバイス別に、期間中の開封数が表示されます。
 
-それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目の「 」には、各デバイスタイプの正確な数と割合が表示されます。
+それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフは、デバイスタイプごとの正確な数と割合を示しています。
 
 ![](assets/reporting_email_13.png){align="center"}
 
@@ -373,12 +374,12 @@ The **デバイス別の分類** レポートは、パソコン、Android デバ
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="オペレーティングシステムによる分類"
->abstract="The **OS で分類** レポートは、該当する期間の、オペレーティングシステムごとの開封数の分類を表示します。 最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目は、各 OS の正確な数と割合を示しています。"
+>title="オペレーティングシステム別分類"
+>abstract="**OS 別分類**&#x200B;レポートには、対象期間中の開封数がオペレーティングシステム別に表示されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフは、OS ごとの正確な数と割合を示しています。"
 
-The **OS で分類** レポートは、期間中の開封数の分類をオペレーティングシステム別に表示します (Windows システム、Android システム、iOSシステムなど )。
+**OS 別分類**&#x200B;レポートには、Windows システム、Android システム、iOS システムなどのオペレーティングシステム別に、期間中の開封数が表示されます。
 
-それぞれのカテゴリで、2 つのグラフが使用されます。1 つ目のグラフには、コンピューターおよびモバイルオペレーティングシステムでの開封数に関する統計が表示されます。 2 つ目は、各オペレーティングシステムの正確な数と割合を示しています。
+それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルのオペレーティングシステムでの開封数に関する統計を示しています。2 つ目のグラフは、オペレーティングシステムごとの正確な数と割合を示しています。
 
 ![](assets/reporting_email_13.1.png){align="center"}
 
@@ -386,12 +387,12 @@ The **OS で分類** レポートは、期間中の開封数の分類をオペ�
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
->title="ブラウザーによる分類"
->abstract="The **ブラウザーによる分類** は、その期間の開封数のブラウザー別分類を表示します。 最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目の「 」には、各ブラウザーの正確な数と割合が表示されます。"
+>title="ブラウザー別分類"
+>abstract="**ブラウザー別分類**&#x200B;では、期間中の開封数がブラウザー別に表示されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフは、ブラウザーごとの正確な数と割合を示しています。"
 
-The **ブラウザーによる分類** レポートは、開封の分類をブラウザー別に表示します（Chrome、Safari、Internet Explorer など）。
+**ブラウザー別分類**&#x200B;レポートには、Chrome、Safari、Internet Explorer などのブラウザー別に、開封数が表示されます。
 
-それぞれのカテゴリで、2 つのグラフが使用されます。1 つ目のグラフには、コンピューターおよびモバイルオペレーティングシステムでの開封数に関する統計が表示されます。 2 つ目の「 」には、各ブラウザーの正確な数と割合が表示されます。
+それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルのオペレーティングシステムでの開封数に関する統計を示しています。2 つ目のグラフは、ブラウザーごとの正確な数と割合を示しています。
 
 ![](assets/reporting_email_13.2.png){align="center"}
 

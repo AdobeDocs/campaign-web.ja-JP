@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: メッセージにオファーを追加
-description: オファーを追加して送信する方法を説明します
+description: オファーを追加して送信する方法を学ぶ
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Beta"
+badge: label="ベータ版"
 source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

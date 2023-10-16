@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: プッシュチャネル用のキャンペーンレポート
-description: プッシュチャネル用のキャンペーンレポートについて
-badge: label="Beta"
-source-git-commit: 72a7cb2577512b9b3dbf239ca664aa8410918ba2
-workflow-type: tm+mt
+title: プッシュチャネルのキャンペーンレポート
+description: プッシュチャネルのキャンペーンレポートについて
+badge: label="ベータ版"
+exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+workflow-type: ht
 source-wordcount: '507'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
+# プッシュチャネルのキャンペーンレポート {#campaign-reports-push-channel}
 
-# プッシュチャネル用のキャンペーンレポート {#campaign-reports-push-channel}
-
-各キャンペーンレポートは、キャンペーンの成功とエラーを示す様々なウィジェットに分割されます。 プッシュチャネルの場合、レポートと指標については、以下で詳しく説明します。 キャンペーンレポートにアクセスする方法については、 [このページ](campaign-reports.md).
+各キャンペーンレポートは、キャンペーンの成功とエラーの詳細を表示する様々なウィジェットに分かれています。プッシュチャネルのレポートと指標について、以下で詳しく説明します。キャンペーンレポートにアクセスする方法については、[このページ](campaign-reports.md)を参照してください。
 
 ## 配信の概要 {#delivery-summary-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="配信の概要"
->abstract="The **配信の概要** レポートは、訪問者がプッシュ通知配信にどのように関与しているかに関する詳細な情報を提供する主要業績評価指標 (KPI) を提供します。"
+>abstract="**配信の概要**&#x200B;レポートは、プッシュ通知配信に対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。"
 
-The **[!UICONTROL 配信の概要]** レポートは、訪問者がプッシュ通知配信にどのように関与しているかに関する詳細な情報を提供する主要業績評価指標 (KPI) を提供します。 以下に、指標について詳しく説明します。
+**[!UICONTROL 配信の概要]**&#x200B;レポートは、プッシュ通知配信に対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。指標については、以下で詳しく説明します。
 
 ![](assets/campaign-reporting-push-summary.png)
 
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -45,14 +45,14 @@ The **[!UICONTROL 配信の概要]** レポートは、訪問者がプッシュ�
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="初期ターゲットオーディエンス統計"
->abstract="The **初期ターゲットオーディエンスの統計** テーブルには、受信者に関連するデータが表示されます"
+>abstract="**初期ターゲットオーディエンス統計**&#x200B;テーブルには、受信者に関連するデータが表示されます。"
 
-The **[!UICONTROL 初期ターゲットオーディエンスの統計]** テーブルには、受信者に関連するデータが表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 初期ターゲットオーディエンス統計]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign-reporting-push-target.png)
 
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
 
@@ -67,14 +67,14 @@ The **[!UICONTROL 初期ターゲットオーディエンスの統計]** テー�
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_exec_stats"
 >title="実行統計"
->abstract="The **実行統計** テーブルには、配信の成功の詳細が記載されています。配信するメッセージ、成功、エラーおよび新しい強制隔離です。"
+>abstract="**実行統計**&#x200B;テーブルには、配信するメッセージ、成功、エラーおよび新しい強制隔離など、配信の成功の詳細が表示されます。"
 
-The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細が表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL 実行統計]**&#x200B;テーブルには、配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign-reporting-push-exec.png)
 
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -82,9 +82,9 @@ The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細�
 
 * **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
 
-* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（無効な登録、メッセージ却下、ペイロードエラーなど）、強制隔離されたアドレスの合計数。 配信されるメッセージ数に対する値を指定します。
+* **[!UICONTROL 新しい強制隔離]**：配信の失敗（無効な登録、メッセージ却下、ペイロードエラーなど）の後で強制隔離されたアドレスの合計数（割合は、配信されるメッセージの数に対する比率です）。
 
-  プッシュ通知のエラータイプは、 [Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
+  プッシュ通知のエラータイプについては、[Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"}を参照してください。
 
 +++
 
@@ -93,13 +93,13 @@ The **[!UICONTROL 実行統計]** テーブルには、配信の成功の詳細�
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_click_streams"
 >title="クリックストリーム"
->abstract="The **クリックストリーム** テーブルには、受信者による配信との関わり方に関して使用可能なデータが表示されます。"
+>abstract="**クリックストリーム**&#x200B;テーブルには、受信者による配信の操作に関する入手可能なデータが表示されます。"
 
-The **[!UICONTROL クリックストリーム]** テーブルには、受信者による配信との関わり方に関するデータが表示されます。 以下に、指標について詳しく説明します。
+**[!UICONTROL クリックストリーム]**&#x200B;テーブルには、受信者による配信の操作に関するデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign-reporting-push-clicks.png)
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 
