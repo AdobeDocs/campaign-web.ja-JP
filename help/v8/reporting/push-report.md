@@ -4,10 +4,10 @@ title: プッシュ配信レポート
 description: プッシュ配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="ベータ版"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
->title="プッシュ配信レポートの概要"
+>title="プッシュ配信の概要"
 >abstract="**プッシュ配信の概要**&#x200B;は、広範なインサイトと特定のデータを提供する、プッシュ配信の包括的な概要を示します。配信のパフォーマンス、効果、結果に関する包括的な情報を確認できます。"
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートは、プッシュメッセージに対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。
@@ -91,7 +91,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
->title="プッシュの全体的な統計"
+>title="除外をプッシュ"
 >abstract="**除外**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。"
 
 **[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){_blank}を参照してください。
