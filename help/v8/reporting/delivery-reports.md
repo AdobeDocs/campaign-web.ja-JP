@@ -3,11 +3,11 @@ audience: end-user
 title: 配信レポート
 description: 配信レポートへのアクセス方法と使用方法について説明します
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta"
+badge: label="ベータ版"
 source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 62%
+ht-degree: 89%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign には、配信ごとにアクセス可能な複数のタイプ�
 
    ![](assets/reporting2.png)
 
-   また、3 つのドットを使用することもできます **その他のアクション** 次に示すように、キャンペーンリスト内の配信名の横にあるボタン。
+   また、次に示すように、キャンペーンリスト内の配信名の横にある&#x200B;**その他のアクション**（3 つのドット）ボタンを使用することもできます。
 
    ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
@@ -42,13 +42,13 @@ Adobe Campaign には、配信ごとにアクセス可能な複数のタイプ�
 
    ![](assets/reporting.png)
 
-1. 配信が繰り返し配信の場合、「 **[!UICONTROL 配信を選択]**.
+1. 配信を繰り返し行う場合は、「**[!UICONTROL 配信を選択]**」をクリックして、レポートする特定の配信を選択します。
 
    また、「**[!UICONTROL コンタクト日]**」を選択して、レポートに期間を適用することもできます。
 
    ![](assets/delivery-recurring.png)
 
-各チャネルのレポートと関連指標の完全なリストは、次のページで参照できます。
+各チャネルのレポートと関連指標の完全なリストについては、下記のページを参照してください。
 
 * [メール配信レポート](email-report.md)
 * [SMS 配信レポート](sms-report.md)
