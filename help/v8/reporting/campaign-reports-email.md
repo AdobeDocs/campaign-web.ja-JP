@@ -5,7 +5,7 @@ description: メールチャネルのキャンペーンレポートについて�
 badge: label="ベータ版"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1568'
 ht-degree: 100%
 
@@ -121,9 +121,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_click_streams"
 >title="クリックストリーム"
->abstract="**生成されたクリックストリーム**&#x200B;テーブルには、受信者による配信の操作に関するデータが表示されます。"
+>abstract="**クリックストリーム**&#x200B;テーブルには、受信者による配信の操作に関する入手可能なデータが表示されます。"
 
-**[!UICONTROL 生成されたクリックストリーム]**&#x200B;テーブルには、受信者による配信の操作に関するデータが表示されます。指標については、以下で詳しく説明します。
+**[!UICONTROL クリックストリーム]**&#x200B;テーブルには、受信者による配信の操作に関するデータが表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign_report_email_5.png)
 
