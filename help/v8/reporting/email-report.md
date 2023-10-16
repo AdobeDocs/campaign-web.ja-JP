@@ -4,10 +4,10 @@ title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="ベータ版"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+workflow-type: tm+mt
 source-wordcount: '2254'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="配信統計"
+>title="配信の除外の原因"
 >abstract="**除外の理由**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。"
 
 
@@ -320,7 +320,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="ユーザーアクティビティウィジェット"
+>title="ユーザーアクティビティ"
 >abstract="**ユーザーアクティビティ**&#x200B;グラフでは、開封数とクリック数の分類をグラフ形式で表示します。データをターゲットにする期間を、最終日、時間、または 30 分から選択できます。"
 
 **[!UICONTROL ユーザーアクティビティ]**&#x200B;レポートには、開封数とクリック数の分類がチャート形式で表示されます。データをターゲットにする期間を、最終日、時間、または 30 分から選択できます。
@@ -339,7 +339,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="トラッキング統計ウィジェット"
+>title="トラッキング統計"
 >abstract="**トラッキング統計**&#x200B;グラフでは、開封数とクリック数の統計を表示します。データをターゲットにする特定の時間枠を選択することもできます。"
 
 **[!UICONTROL トラッキング統計]**&#x200B;グラフでは、開封数とクリック数の統計を表示します。データをターゲットにする特定の時間枠を選択することもできます。
