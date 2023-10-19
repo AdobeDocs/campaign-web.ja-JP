@@ -3,10 +3,10 @@ title: Campaign web UI のガードレールと制限
 description: Campaign web UI のガードレールと制限
 badge: label="ベータ版"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+workflow-type: tm+mt
+source-wordcount: '657'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,12 @@ Web UI で新しいワークフローを作成する場合、キャンバスは 
 
 ## 定義済みフィルター {#filters-guardrails-limitations}
 
-配信のオーディエンスを選択する場合やワークフローでオーディエンスを作成する場合、製品のそのバージョンでは、一部の定義済みフィルターをユーザーインターフェイスで使用できません。
+>[!CONTEXTUALHELP]
+>id="acw_predefined_filter_read_only"
+>title="このフィルターは読み取り専用です"
+>abstract="一部の定義済みフィルターは、そのバージョンの製品のユーザーインターフェイスでは使用できません。 これらのフィルターは読み取り専用としてマークされます。 ルールビルダーでクエリのグラフィック表現を表示できず、フィルターを編集できない場合でも、フィルターを使用でき、画面の「**属性**」セクションにフィルター条件が表示されます。"
+
+配信のオーディエンスを選択する場合やワークフローでオーディエンスを作成する場合、製品のそのバージョンでは、一部の定義済みフィルターをユーザーインターフェイスで使用できません。これらのフィルターは読み取り専用としてマークされます。
 
 特定のエラーメッセージが表示されます。
 
