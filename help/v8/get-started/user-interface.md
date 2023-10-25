@@ -4,7 +4,7 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
+source-git-commit: 233f5b045256bf22df4debef8b2bfe375880fa3e
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 90%
@@ -284,7 +284,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_query_enrichment_noneditable"
+>id="acw_orchestration_query_enrichment_noneditable"
 >title="編集不可のアクティビティ"
 >abstract="TBC"
 
@@ -355,7 +355,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_loadfile"
+>id="acw_orchestration_loadfile"
 >title="ファイルを読み込みアクティビティ"
 >abstract="TBC"
 
@@ -365,42 +365,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation"
+>id="acw_orchestration_reconciliation"
 >title="紐付けアクティビティ"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_targeting"
+>id="acw_orchestration_reconciliation_targeting"
 >title="紐付けのターゲティング"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_rules"
+>id="acw_orchestration_reconciliation_rules"
 >title="紐付けルール"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_targeting_selection"
+>id="acw_orchestration_reconciliation_targeting_selection"
 >title="紐付けターゲティングディメンション"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_field"
+>id="acw_orchestration_reconciliation_field"
 >title="紐付け選択フィールド"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_attribute"
+>id="acw_orchestration_reconciliation_attribute"
 >title="紐付け選択属性"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_condition"
+>id="acw_orchestration_reconciliation_condition"
 >title="紐付け作成条件"
 >abstract="TBC"
 
 >[!CONTEXTUALHELP]
->id="acw_workflow_reconciliation_complement"
+>id="acw_orchestration_reconciliation_complement"
 >title="紐付けで補集合が生成されました"
 >abstract="TBC"
 
