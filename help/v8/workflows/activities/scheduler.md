@@ -3,13 +3,13 @@ audience: end-user
 title: スケジューラーワークフローアクティビティの使用
 description: スケジューラーワークフローアクティビティの使用方法について説明します
 badge: label="Beta"
-source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
+exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 100%
 
 ---
-
 
 # スケジューラー {#scheduler}
 
@@ -78,6 +78,3 @@ ht-degree: 100%
 次の例では、2023年10月1日から 2024年1月1日まで毎日、ワークフローが 1 日に数回（午前 9 時と午前 12 時に）実行されるようにアクティビティが設定されています。
 
 ![](../assets/workflow-scheduler2.png)
-
-
-

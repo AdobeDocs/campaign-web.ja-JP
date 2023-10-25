@@ -3,13 +3,13 @@ audience: end-user
 title: 分岐ワークフローアクティビティの使用
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # 分岐 {#fork}
 
@@ -44,4 +44,3 @@ ht-degree: 100%
 * 積集合の後の 1 つは、ターゲット母集団にメールと SMS を同時に送信します。
 
 ![](../assets/workflow-fork-example.png)
-

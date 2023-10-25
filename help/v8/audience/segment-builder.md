@@ -5,7 +5,7 @@ description: ルールビルダーの操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="ベータ版"
 source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
 

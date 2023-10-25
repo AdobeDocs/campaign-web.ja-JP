@@ -2,7 +2,8 @@
 title: 主要業績評価指標
 description: 主要業績評価指標を理解する方法について説明します
 badge: label="Beta"
-source-git-commit: e784f9aeb0805269561065c10ccbbf6756e62e44
+exl-id: 4b182219-100b-4101-919b-b0b770dd8515
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
@@ -24,7 +25,7 @@ ht-degree: 100%
 
 ![](assets/kpi.png)
 
-## メッセージ配信済み {#ui-delivered-kpi}
+## 配信済みメッセージ {#ui-delivered-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
@@ -113,4 +114,3 @@ Adobe Campaign プラットフォームから送信された一部のメッセ�
 * 配信されるメッセージの合計数に対する、エラー数の割合。
 
 * 配信と自動リバウンド処理の間に累積したエラーの合計数。
-

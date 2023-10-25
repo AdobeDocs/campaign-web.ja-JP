@@ -3,7 +3,8 @@ audience: end-user
 title: SMS 配信の送信
 description: Adobe Campaign web で SMS を送信する方法を学ぶ
 badge: label="Beta"
-source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
+exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
@@ -72,7 +73,3 @@ SMS 配信をプレビューする主な手順は次のとおりです。配信�
 配信が送信されると、配信ページから KPI（主要業績評価指標）データをトラックし、**[!UICONTROL ログ]**&#x200B;メニューからデータをトラックできます。
 
 これで、組み込みレポートを使用して、メッセージの影響の測定を開始できます。[詳細情報](../reporting/sms-report.md)
-
-
-
-

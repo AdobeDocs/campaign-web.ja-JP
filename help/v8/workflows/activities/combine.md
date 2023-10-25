@@ -3,13 +3,13 @@ audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
-source-git-commit: 4ef1ac4c8af16c3b83a2df8f903dccc1629339e3
+exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 100%
 
 ---
-
 
 # 結合 {#combine}
 
@@ -118,5 +118,3 @@ The **Combine** activity can be placed after any other activity, but not at the 
 次の&#x200B;**除外**&#x200B;例は、アドビのメールドメインを持つ 18～27 歳のプロファイルをフィルタリングするように設定された 2 つのクエリを示しています。以降、アドビのメールドメインを持つプロファイルが、最初のセットから除外されます。
 
 ![](../assets/workflow-exclusion-example.png)
-
-

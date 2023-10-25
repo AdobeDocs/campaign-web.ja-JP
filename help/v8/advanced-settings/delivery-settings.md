@@ -5,7 +5,7 @@ description: Campaign Web での配信設定の詳細情報
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="ベータ版"
 source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2112'
 ht-degree: 100%
 
