@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 233f5b045256bf22df4debef8b2bfe375880fa3e
+source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 90%
+source-wordcount: '1241'
+ht-degree: 88%
 
 ---
 
@@ -428,3 +428,52 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="条件付きコンテンツ件名条件"
 >abstract="TBC"
 
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="オーディエンスのプロパティ"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="オーディエンス数"
+>abstract="TBC"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_testprofiles"
+>title="テストプロファイルをシミュレート"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_profiles_selection"
+>title="テストプロファイルの選択をシミュレート"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_send_testprofiles"
+>title="送信するテストプロファイルをシミュレート"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_email_log"
+>title="電子メールログをシミュレート"
+>abstract="TBC"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers"
+>title="購読の合計数"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overtheperiod_subscribers"
+>title="期間中の購読"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overallevolution_subscribers"
+>title="購読の全体的な変化"
+>abstract="TBC"
