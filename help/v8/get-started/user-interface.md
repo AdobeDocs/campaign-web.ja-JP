@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: a875ba89417e5c50f7a1e767bf3430147fa7c4c0
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 88%
+source-wordcount: '1343'
+ht-degree: 79%
 
 ---
 
@@ -170,62 +170,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_list"
 >title="受信者の作成"
->abstract="TBC"
+>abstract="受信者の作成"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="受信者の詳細"
->abstract="TBC"
+>abstract="受信者の詳細"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="受信者の連絡先情報"
->abstract="TBC"
+>abstract="受信者の連絡先情報"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="受信者のアドレス"
->abstract="TBC"
+>abstract="受信者のアドレス"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="受信者アカウント"
->abstract="TBC"
+>abstract="受信者アカウント"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="受信者のカスタムフィールド"
->abstract="TBC"
+>abstract="受信者のカスタムフィールド"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="受信者カードの概要"
->abstract="TBC"
+>abstract="受信者カードの概要"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
 >title="受信者タッチポイント"
->abstract="TBC"
+>abstract="受信者タッチポイント"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="受信者購読リスト"
->abstract="TBC"
+>abstract="受信者購読リスト"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
 >title="受信者購読の選択"
->abstract="TBC"
+>abstract="受信者購読の選択"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
 >title="受信者は適格なリストをオファーします"
->abstract="TBC"
+>abstract="受信者は適格なリストをオファーします"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
 >title="受信者オファーのプレビュー"
->abstract="TBC"
+>abstract="受信者オファーのプレビュー"
 
 
 
@@ -234,7 +234,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="購読配信テンプレート"
->abstract="TBC"
+>abstract="購読配信テンプレート"
 
 
 
@@ -243,42 +243,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="ランディングページ"
->abstract="TBC"
+>abstract="ランディングページ"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="ランディングページのプロパティ"
->abstract="TBC"
+>abstract="ランディングページのプロパティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="ランディングページページ"
->abstract="TBC"
+>abstract="ランディングページページ"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="ランディングページのスケジュール"
->abstract="TBC"
+>abstract="ランディングページのスケジュール"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="ランディングページのプライマリページ"
->abstract="TBC"
+>abstract="ランディングページのプライマリページ"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="ランディングページの購読"
->abstract="TBC"
+>abstract="ランディングページの購読"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
 >title="ランディングページのコールトゥアクション"
->abstract="TBC"
+>abstract="ランディングページのコールトゥアクション"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="ランディングページはシミュレートします"
->abstract="TBC"
+>abstract="ランディングページはシミュレートします"
 
 
 
@@ -286,7 +286,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="編集不可のアクティビティ"
->abstract="TBC"
+>abstract="編集不可のアクティビティ"
 
 
 
@@ -294,37 +294,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="フラグメント"
->abstract="TBC"
+>abstract="フラグメント"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="フラグメントは保存されます"
->abstract="TBC"
+>abstract="フラグメントは保存されます"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="フラグメントの作成"
->abstract="TBC"
+>abstract="フラグメントの作成"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="フラグメントのプロパティ"
->abstract="TBC"
+>abstract="フラグメントのプロパティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="フラグメントの種類"
->abstract="TBC"
+>abstract="フラグメントの種類"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="フラグメントリスト"
->abstract="TBC"
+>abstract="フラグメントリスト"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="フラグメントの詳細"
->abstract="TBC"
+>abstract="フラグメントの詳細"
 
 
 
@@ -332,22 +332,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="コンテンツテンプレート"
->abstract="TBC"
+>abstract="コンテンツテンプレート"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="コンテンツテンプレートのプロパティ"
->abstract="TBC"
+>abstract="コンテンツテンプレートのプロパティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="コンテンツテンプレートデザイン"
->abstract="TBC"
+>abstract="コンテンツテンプレートデザイン"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="コンテンツテンプレートの選択"
->abstract="TBC"
+>abstract="コンテンツテンプレートの選択"
 
 
 
@@ -357,7 +357,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="ファイルを読み込みアクティビティ"
->abstract="TBC"
+>abstract="ファイルを読み込みアクティビティ"
 
 
 
@@ -367,42 +367,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="紐付けアクティビティ"
->abstract="TBC"
+>abstract="紐付けアクティビティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="紐付けのターゲティング"
->abstract="TBC"
+>abstract="紐付けのターゲティング"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="紐付けルール"
->abstract="TBC"
+>abstract="紐付けルール"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="紐付けターゲティングディメンション"
->abstract="TBC"
+>abstract="紐付けターゲティングディメンション"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="紐付け選択フィールド"
->abstract="TBC"
+>abstract="紐付け選択フィールド"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="紐付け選択属性"
->abstract="TBC"
+>abstract="紐付け選択属性"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
 >title="紐付け作成条件"
->abstract="TBC"
+>abstract="紐付け作成条件"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
 >title="紐付けで補集合が生成されました"
->abstract="TBC"
+>abstract="紐付けで補集合が生成されました"
 
 
 
@@ -411,22 +411,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="条件付きコンテンツ保存フィルター"
->abstract="TBC"
+>abstract="条件付きコンテンツ保存フィルター"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
 >title="条件付きコンテンツ選択フィルター"
->abstract="TBC"
+>abstract="条件付きコンテンツ選択フィルター"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
 >title="件名行の条件付きコンテンツ"
->abstract="TBC"
+>abstract="件名行の条件付きコンテンツ"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="条件付きコンテンツ件名条件"
->abstract="TBC"
+>abstract="条件付きコンテンツ件名条件"
 
 
 
@@ -434,46 +434,46 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="オーディエンスのプロパティ"
->abstract="TBC"
+>abstract="オーディエンスのプロパティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="オーディエンス数"
->abstract="TBC"
+>abstract="オーディエンス数"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="テストプロファイルをシミュレート"
->abstract="TBC"
+>abstract="テストプロファイルをシミュレート"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="テストプロファイルの選択をシミュレート"
->abstract="TBC"
+>abstract="テストプロファイルの選択をシミュレート"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="送信するテストプロファイルをシミュレート"
->abstract="TBC"
+>abstract="送信するテストプロファイルをシミュレート"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="電子メールログをシミュレート"
->abstract="TBC"
+>abstract="電子メールログをシミュレート"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="購読の合計数"
->abstract="TBC"
+>abstract="購読の合計数"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
 >title="期間中の購読"
->abstract="TBC"
+>abstract="期間中の購読"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="購読の全体的な変化"
->abstract="TBC"
+>abstract="購読の全体的な変化"
