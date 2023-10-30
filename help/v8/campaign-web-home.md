@@ -4,8 +4,8 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
-workflow-type: ht
+source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
+workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Adobe Campaign v8 web ドキュメント {#campaign-documentation}
 
-![](assets/do-not-localize/banner-documentationv8.png)
+<!--![](assets/do-not-localize/banner-documentationv8.png)-->
 
 Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。[詳細情報](get-started/get-started.md)
 
