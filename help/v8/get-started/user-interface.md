@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 78%
+source-wordcount: '1376'
+ht-degree: 79%
 
 ---
 
@@ -32,24 +32,14 @@ ht-degree: 78%
 この画面には、主な Campaign v8 web 機能にすばやくアクセスするための主要なリンクやリソースが含まれています。
 
 >[!CONTEXTUALHELP]
->id="acw_home_recent"
+>id="acw_homepage_recent"
 >title="最近使用したもの"
 >abstract="**最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、チャネル、ステータス、所有者、作成日、変更日が表示されます。"
 
-#### 最近の配信にアクセス {#user-interface-recent}
-
 **最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、チャネル、ステータス、所有者、作成日、変更日が表示されます。次をクリック： **詳細を表示** リンクをクリックして、さらに配信を読み込みます。
-
-#### 主要指標の確認 {#user-interface-kpi}
 
 **主要業績評価指標**&#x200B;では、一般的な KPI を通じてプラットフォームの有効性を確認できます。KPI について詳しくは、[このページ](../reporting/kpis.md)を参照してください。
 
-#### ドキュメントにアクセス {#user-interface-learn}
-
->[!CONTEXTUALHELP]
->id="acw_home_learn"
->title="学習"
->abstract="から Campaign v8 Web キーヘルプページにアクセスする **ラーニング** ボックスを下に配置します。"
 
 ホームページの「**ラーニング**」セクションから、Campaign v8 web の主要ヘルプページにアクセスします。
 

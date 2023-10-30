@@ -3,7 +3,7 @@ title: 主要業績評価指標
 description: 主要業績評価指標を理解する方法について説明します
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 98%
@@ -13,7 +13,7 @@ ht-degree: 98%
 # 主要業績評価指標 {#kpis}
 
 >[!CONTEXTUALHELP]
->id="acw_home_kpi"
+>id="acw_homepage_kpi"
 >title="主要業績評価指標"
 >abstract="The **主要業績評価指標** 「 」セクションでは、一般的な KPI を使用して、プラットフォームの効果を確認できます。"
 
