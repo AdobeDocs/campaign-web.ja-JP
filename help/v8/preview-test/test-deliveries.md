@@ -4,10 +4,10 @@ title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="ベータ版"
-source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
+source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 100%
+source-wordcount: '1146'
+ht-degree: 97%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 100%
    ![](assets/simulate-profile-mode.png)
 
 1. コンテンツシミュレーション画面で[メッセージのプレビュー](preview-content.md)用のプロファイルを既に選択している場合、それらのプロファイルがテスト受信者として事前に選択されています。「**[!UICONTROL テストプロファイルを追加]**」ボタンを使用して、選択を解除したり、追加の受信者を追加したりできます。
+
+   >[!NOTE]
+   >
+   >テストプロファイルは、 [!DNL Campaign] クライアントコンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 でシードアドレスを作成および管理する方法について説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}.
 
 1. テスト配信の受信者に最終的なメッセージを送信するには、「**[!UICONTROL メインターゲットにテスト母集団を含める]**」オプションを有効にします。
 
