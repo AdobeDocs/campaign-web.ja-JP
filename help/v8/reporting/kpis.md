@@ -3,10 +3,10 @@ title: 主要業績評価指標
 description: 主要業績評価指標を理解する方法について説明します
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 98%
+source-wordcount: '936'
+ht-degree: 93%
 
 ---
 
@@ -93,6 +93,10 @@ Adobe Campaign は、受信者がメール内の画像をダウンロードし�
 >id="acw_keyindicators_unsubscriptions"
 >title="購読解除"
 >abstract="この指標は、選択したチャネルについて、サービスからのすべての購読解除の合計と、正常に配信されたメッセージの合計数に対する、購読解除の割合を示します。"
+
+>[!NOTE]
+>
+> 購読 KPI と購読解除 KPI は、サービスタイプに基づいて異なります。 例えば、電子メールの購読と購読解除は、手動のアクションか Web フォームかに関わらず、電子メール関連のすべてのサービスを含みます。 この方法を配信レベルの購読解除指標と区別することが重要です。配信レベルの購読解除指標は、実際に購読解除されたユーザーではなく、購読解除のリンククリック数を追跡します。
 
 受信者は、メールコンテンツにある専用の購読解除リンクを使用するか、SMS に停止と返信することによって、メールと SMS からオプトアウトする必要があります。
 
