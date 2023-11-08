@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: c5f57d85a65a4f17189586f7b83df5d45eed0781
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 79%
+source-wordcount: '1396'
+ht-degree: 78%
 
 ---
 
@@ -410,6 +410,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="紐付けで補集合が生成されました"
 >abstract="紐付けで補集合が生成されました"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="分割で補集合を生成"
+>abstract="分割で補集合を生成"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="結合で補集合を生成"
+>abstract="結合で補集合を生成"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="分割アクティビティのセグメント"
+>abstract="分割アクティビティのセグメント"
+
 
 
 
@@ -483,3 +498,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="購読の全体的な変化"
 >abstract="購読の全体的な変化"
+
+
