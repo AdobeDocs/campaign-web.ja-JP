@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 2b0ca0f8f76c53752738078cbdbb1df3710cd931
+source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
-source-wordcount: '1396'
-ht-degree: 78%
+source-wordcount: '1405'
+ht-degree: 77%
 
 ---
 
@@ -367,13 +367,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="紐付けアクティビティ"
->abstract="紐付けアクティビティ"
+>abstract="以下を使用します。 **紐づけ** 「 」アクティビティを使用して、識別されていないデータを既存のリソースにリンクします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"

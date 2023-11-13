@@ -4,21 +4,21 @@ title: オーディエンスを保存ワークフローアクティビティの�
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '425'
+ht-degree: 91%
 
 ---
 
 # オーディエンスを保存 {#save-audience}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Save an audience"
->abstract="Use this activity to save the workflow audience."
--->
+>id="acw_orchestration_saveaudience"
+>title="オーディエンスの保存"
+>abstract="このアクティビティを使用して、既存のオーディエンスを更新するか、ワークフローの上流で計算された母集団から新しいオーディエンスを作成します。 作成したオーディエンスはオーディエンスのリストに追加され、 **オーディエンス** メニュー。"
+
 
 **オーディエンスを保存**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、既存のオーディエンスを更新したり、ワークフローの上流で計算された母集団から新しいオーディエンスを作成することができます。作成したオーディエンスはアプリケーションオーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューから使用できるようになります。
 
