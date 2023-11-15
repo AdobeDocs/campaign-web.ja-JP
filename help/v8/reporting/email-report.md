@@ -5,9 +5,9 @@ description: メール配信レポートへのアクセス方法と使用方法�
 badge: label="ベータ版"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2254'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="配信の除外の原因"
+>title="配信の除外の理由"
 >abstract="**除外の理由**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。"
 
 

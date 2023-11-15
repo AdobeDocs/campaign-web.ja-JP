@@ -5,9 +5,9 @@ description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="ベータ版"
 source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >テストプロファイルは、 [!DNL Campaign] クライアントコンソールを **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** フォルダー。 でシードアドレスを作成および管理する方法について説明します。 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}.
+   >テストプロファイルは、[!DNL Campaign] クライアントコンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。シードアドレスを作成および管理する方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください。
 
 1. テスト配信の受信者に最終的なメッセージを送信するには、「**[!UICONTROL メインターゲットにテスト母集団を含める]**」オプションを有効にします。
 

@@ -5,9 +5,9 @@ description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="ベータ版"
 source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Web UI で使用できない Campaign v8 機能にアクセスする必要があ
 >
 >Campaign v8 web は現在ベータ版バージョンです。アクセス権は、一部のベータ版顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
-でAdobe Campaign Web に接続する方法を説明します。 [このページ](connect-to-campaign.md).
+Adobe Campaign web に接続する方法については、[このページ](connect-to-campaign.md)を参照してください。
 
 ## Campaign クライアントコンソールについて {#ac-client}
 

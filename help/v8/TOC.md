@@ -6,9 +6,9 @@ description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
 source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
             + [ミラーページへのリンクの追加](content/mirror-page.md)
             + [プリヘッダーを追加](content/preheader.md)
             + [テキストバージョンを生成](content/text-version-email.md)
-            + [Adobe Experience Manager Assets でのアセットの管理as a Cloud Service](content/aem-assets.md)
+            + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](content/aem-assets.md)
          + コンテンツアシスタント {#content-assistant}
             + [コンテンツアシスタントの基本を学ぶ](content/generative-gs.md)
             + [コンテンツアシスタントを使用したテキスト生成](content/generative-content.md)
