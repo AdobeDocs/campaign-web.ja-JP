@@ -7,7 +7,7 @@ badge: label="ベータ版"
 source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
 workflow-type: tm+mt
 source-wordcount: '1405'
-ht-degree: 77%
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 77%
 >title="最近使用したもの"
 >abstract="**最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、チャネル、ステータス、所有者、作成日、変更日が表示されます。"
 
-**最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、チャネル、ステータス、所有者、作成日、変更日が表示されます。次をクリック： **詳細を表示** リンクをクリックして、さらに配信を読み込みます。
+**最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、チャネル、ステータス、所有者、作成日、変更日が表示されます。さらに配信を読み込むには、**詳細を表示**&#x200B;リンクをクリックします。
 
 **主要業績評価指標**&#x200B;では、一般的な KPI を通じてプラットフォームの有効性を確認できます。KPI について詳しくは、[このページ](../reporting/kpis.md)を参照してください。
 
@@ -195,8 +195,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
->title="受信者アカウント"
->abstract="受信者アカウント"
+>title="受信者のアカウント"
+>abstract="受信者のアカウント"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
@@ -205,33 +205,33 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
->title="受信者カードの概要"
->abstract="受信者カードの概要"
+>title="受信者のカードの概要"
+>abstract="受信者のカードの概要"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
->title="受信者タッチポイント"
->abstract="受信者タッチポイント"
+>title="受信者のタッチポイント"
+>abstract="受信者のタッチポイント"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
->title="受信者購読リスト"
->abstract="受信者購読リスト"
+>title="受信者の購読リスト"
+>abstract="受信者の購読リスト"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
->title="受信者購読の選択"
->abstract="受信者購読の選択"
+>title="受信者の購読の選択"
+>abstract="受信者の購読の選択"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
->title="受信者は適格なリストをオファーします"
->abstract="受信者は適格なリストをオファーします"
+>title="受信者の実施要件を満たすオファーのリスト"
+>abstract="受信者の実施要件を満たすオファーのリスト"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
->title="受信者オファーのプレビュー"
->abstract="受信者オファーのプレビュー"
+>title="受信者のオファーのプレビュー"
+>abstract="受信者のオファーのプレビュー"
 
 
 
@@ -239,8 +239,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
->title="購読配信テンプレート"
->abstract="購読配信テンプレート"
+>title="購読の配信テンプレート"
+>abstract="購読の配信テンプレート"
 
 
 
@@ -258,8 +258,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
->title="ランディングページページ"
->abstract="ランディングページページ"
+>title="ランディングページのページ"
+>abstract="ランディングページのページ"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
@@ -283,8 +283,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="ランディングページはシミュレートします"
->abstract="ランディングページはシミュレートします"
+>title="ランディングページのシミュレート"
+>abstract="ランディングページのシミュレート"
 
 
 
@@ -304,8 +304,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
->title="フラグメントは保存されます"
->abstract="フラグメントは保存されます"
+>title="フラグメントの保存"
+>abstract="フラグメントの保存"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
@@ -347,8 +347,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
->title="コンテンツテンプレートデザイン"
->abstract="コンテンツテンプレートデザイン"
+>title="コンテンツテンプレートのデザイン"
+>abstract="コンテンツテンプレートのデザイン"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
@@ -374,8 +374,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
->title="紐付けのターゲティング"
->abstract="紐付けのターゲティング"
+>title="紐付けターゲティング"
+>abstract="紐付けターゲティング"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
@@ -404,8 +404,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
->title="紐付けで補集合が生成されました"
->abstract="紐付けで補集合が生成されました"
+>title="紐付けで補集合を生成"
+>abstract="紐付けで補集合を生成"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
@@ -442,8 +442,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
->title="条件付きコンテンツ件名条件"
->abstract="条件付きコンテンツ件名条件"
+>title="条件付きコンテンツの件名条件"
+>abstract="条件付きコンテンツの件名条件"
 
 
 
@@ -471,13 +471,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
->title="送信するテストプロファイルをシミュレート"
->abstract="送信するテストプロファイルをシミュレート"
+>title="テストプロファイルの送信をシミュレート"
+>abstract="テストプロファイルの送信をシミュレート"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
->title="電子メールログをシミュレート"
->abstract="電子メールログをシミュレート"
+>title="メールログをシミュレート"
+>abstract="メールログをシミュレート"
 
 
 >[!CONTEXTUALHELP]
