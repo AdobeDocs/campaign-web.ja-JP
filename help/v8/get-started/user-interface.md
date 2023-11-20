@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 08aaceb5a5c8747e92b9ff6fe4bd69049c178f0c
+source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
 workflow-type: tm+mt
-source-wordcount: '1405'
-ht-degree: 99%
+source-wordcount: '1415'
+ht-degree: 98%
 
 ---
 
@@ -406,6 +406,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_reconciliation_complement"
 >title="紐付けで補集合を生成"
 >abstract="紐付けで補集合を生成"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_keep_unreconciled_data"
+>title="紐付け「紐付けなしのデータを保持」オプション"
+>abstract="紐付け「紐付けなしのデータを保持」オプション"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_complement"
