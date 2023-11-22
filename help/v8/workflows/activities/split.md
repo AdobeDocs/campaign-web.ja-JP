@@ -4,9 +4,9 @@ title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '694'
 ht-degree: 100%
 
 ---
@@ -39,6 +39,10 @@ ht-degree: 100%
 >title="分割アクティビティの並べ替え"
 >abstract="サブセットの母集団制限を設定する場合、特定のプロファイル属性に基づいて、選択したプロファイルを昇順または降順にランク付けできます。これを行うには、「**並べ替えを有効にする**」オプションの切替スイッチをオンにします。例えば、購入金額が最も高い上位 50 のプロファイルのみを含むようにサブセットを制限できます。"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="分割で補集合を生成"
+>abstract="すべてのサブセットを設定したら、どのサブセットにも一致しなかった残りの母集団を選択し、追加のアウトバウンドトランジションに含めることができます。これを行うには、「**補集合を生成**」オプションの切替スイッチをオンにします。"
 
 **分割**&#x200B;アクティビティを設定するには、次の手順に従います。
 
