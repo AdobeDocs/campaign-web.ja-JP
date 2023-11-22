@@ -4,10 +4,10 @@ title: 配信設定
 description: Campaign Web での配信設定の詳細情報
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="ベータ版"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 100%
+source-wordcount: '2159'
+ht-degree: 97%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="タイポロジ"
->abstract="タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
+>abstract="タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。タイポロジとタイポロジルールは、Campaign クライアントコンソールで作成されます。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="配信のタイポロジ設定"
->abstract="タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。"
+>abstract="タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジルール内の条件に一致するプロファイルは、準備段階で配信オーディエンスから除外されます。タイポロジとタイポロジルールは、Campaign クライアントコンソールで作成されます。"
 
 
 タイポロジとは、準備段階で実行される一連の&#x200B;**タイポロジルール**&#x200B;です。タイポロジルールを使用すると、マーケターはすべての配信にわたってビジネスプラクティスを標準化できます。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジルール内の条件に一致するプロファイルは、配信の準備段階で配信オーディエンスから除外されます。メールに常に必要な特定の要素（登録解除リンクや件名行など）が含まれていることを確かめたり、ターゲットグループから特定グループ（非購読者、競合他社、非顧客など）を除外するフィルタールールを設定したりできます。
@@ -48,7 +48,9 @@ ht-degree: 100%
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>タイポロジとタイポロジルールは、Campaign クライアントコンソールで作成されます。 頻度ルールと疲労管理の設定方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=ja){target="_blank"}を参照してください。
 
 ### 頻度パラメーター {#pressure-parameters}
 
@@ -84,7 +86,9 @@ ht-degree: 100%
 * **暫定ターゲットの推定と承認**
 * **ターゲットの評価**
 
-疲労管理については、**キャンペーンの最適化**&#x200B;アドオンが付属しています。頻度ルールと疲労管理の設定方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。
+>[!NOTE]
+>
+>疲労管理は、Campaign クライアントコンソールで設定します。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。
 
 ### 処理能力設定 {#capacity-settings}
 
@@ -104,7 +108,9 @@ ht-degree: 100%
 
 「**受信者の重要度**」フィールドは、処理能力タイポロジルールを超過した場合に維持する受信者を決定するために使用される式です。
 
-一貫性ルールと処理能力ルール、その設定方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"}を参照してください。
+>[!NOTE]
+>
+>タイポロジルールは、Campaign クライアントコンソールで設定します。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"}を参照してください。
 
 
 ## オーディエンス設定 {#audience}
@@ -140,13 +146,15 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="配信用の web 分析設定"
->abstract="Web 分析アカウントを選択します。このアカウントは、Campaign クライアントコンソールで設定されます。使用している分析ツールと共有するタグを定義することもできます。"
+>abstract="Web 分析アカウントを選択します。このアカウントは、Campaign クライアントコンソールで設定されます。 使用している分析ツールと共有するタグを定義することもできます。"
 
 このセクションでは、web 分析アカウントを選択できます。このアカウントは、Campaign クライアントコンソールで設定されます。
 
 使用している分析ツールと共有するタグを定義することもできます。
 
-Web 分析と Campaign について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
+>[!NOTE]
+>
+>Web 分析機能は、Campaign クライアントコンソールで設定されます。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
 
 
 ### 再試行 {#retries}
