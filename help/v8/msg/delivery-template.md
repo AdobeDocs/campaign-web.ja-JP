@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '1047'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 100%
 
 テンプレートには、次の項目を含めることができます。
 
+* The **フォルダー** および **実行フォルダー** 」と入力します。 「 」フォルダーは、配信テンプレートが保存される場所です。 実行フォルダーは、このテンプレートに基づいて作成された配信が保存されるフォルダーです。
 * [タイポロジ](../advanced-settings/delivery-settings.md#typology),
 * 送信者のアドレス、
 * [オーディエンス](../audience/about-recipients.md)（[コントロール母集団](../audience/control-group.md)を含む）
@@ -47,9 +48,8 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="配信テンプレートを操作"
->abstract="配信テンプレートを使用すると、後で使用できるように既存の配信を簡単に作成して保存できます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ja#copy-an-existing-template" text="既存のテンプレートを複製"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ja#convert-an-existing-delivery" text="配信をテンプレートに変換"
+>abstract="配信テンプレートを使用して、キャンペーン全体で将来使用するための配信設定を作成および保存します。 配信テンプレートは、ゼロから作成したり、既存のテンプレートを複製したり、配信をテンプレートに変換したりできます。"
+
 
 コンテンツテンプレートリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;を選択し、「**テンプレート**」タブを参照します。
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 配信をテンプレートとして保存するには、次の手順に従います。
 
-1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;メニューに移動します。
+1. 次を参照： **[!UICONTROL キャンペーン管理]** > **[!UICONTROL 配信]** メニュー。
 1. 「**[!UICONTROL 参照]**」タブで、目的の配信名の右側にある「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL テンプレートとしてコピー]**」を選択します。
 
    ![](assets/templates-convert-delivery.png)
