@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
+source-git-commit: bc0659ba0577eb16500eb339a75a8362a2f3ec41
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 98%
+source-wordcount: '1443'
+ht-degree: 96%
 
 ---
 
@@ -501,3 +501,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="購読の全体的な変化"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_directmail_content"
+>title="ダイレクトメールのコンテンツ"
+>abstract="ダイレクトメールのコンテンツ"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_file"
+>title="ダイレクトメールのファイルプロパティ"
+>abstract="ダイレクトメールのファイルプロパティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_content"
+>title="ダイレクトメールのコンテンツプロパティ"
+>abstract="ダイレクトメールのコンテンツプロパティ"
