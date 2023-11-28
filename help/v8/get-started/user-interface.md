@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 96%
+source-wordcount: '1501'
+ht-degree: 93%
 
 ---
 
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="ダイレクトメールのコンテンツプロパティ"
 >abstract="ダイレクトメールのコンテンツプロパティ"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="ファイルを読み込みアクティビティ"
+>abstract="ファイルを読み込みアクティビティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="サンプルファイル"
+>abstract="サンプルファイル"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="ファイルの名前"
+>abstract="ファイルの名前"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="ターゲットデータベース"
+>abstract="ターゲットデータベース"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="「ファイル読み込み」アクティビティの管理を却下"
+>abstract="「ファイル読み込み」アクティビティの管理を却下"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="管理の却下のアウトバウンドトランジション"
+>abstract="管理の却下のアウトバウンドトランジション"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="却下の管理アウトバウンドトランジションを却下"
+>abstract="却下の管理アウトバウンドトランジションを却下"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="ファイル読み込みアクティビティの形式設定"
+>abstract="ファイル読み込みアクティビティの形式設定"
+
