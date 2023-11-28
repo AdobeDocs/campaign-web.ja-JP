@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
+source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1495'
 ht-degree: 93%
 
 ---
@@ -356,14 +356,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="コンテンツテンプレートの選択"
 
 
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="ファイルを読み込みアクティビティ"
->abstract="ファイルを読み込みアクティビティ"
 
 
 
