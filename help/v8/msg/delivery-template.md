@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: 配信テンプレートを操作
-description: Campaign で配信テンプレートを作成および使用する方法を学ぶWeb
+title: 配信テンプレートの使用
+description: Campaign Web で配信テンプレートを作成して使用する方法を説明します。
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 92%
+source-wordcount: '1045'
+ht-degree: 91%
 
 ---
 
-# 配信テンプレートを操作 {#work-with-delivery-templates}
+# 配信テンプレートの使用 {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"

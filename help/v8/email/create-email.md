@@ -4,10 +4,10 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 100%
+source-wordcount: '1328'
+ht-degree: 99%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 >title="メールプロパティの定義"
 >abstract="プロパティは、配信の名前付けや分類に役立つ一般的な配信パラメーターです。追加の設定はオプションです。配信が Adobe Campaign v8 コンソールで定義された拡張スキーマに基づいている場合は、いくつかの特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。"
 
-スタンドアロンのメール配信を作成することも、キャンペーンワークフローのコンテキストでメールを作成することもできます。以下の手順では、スタンドアロン（1 回限りの）メール配信の手順について説明します。キャンペーンワークフローのコンテキストで作業している場合、作成手順について詳しくは[この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)で説明します。
+スタンドアロンのメール配信を作成することも、キャンペーンワークフローのコンテキストでメールを作成することもできます。以下の手順では、スタンドアロン（1 回限りの）メール配信の手順について説明します。配信作成手順について詳しくは、Adobe Campaign( [このページ](../msg/gs-deliveries.md).
 
 新しいスタンドアロンのメール配信を作成するには、次の手順に従います。
 
