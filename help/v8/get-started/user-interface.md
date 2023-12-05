@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
+source-git-commit: 24d62bab783e8a00b71d01e5bf44b206d52d6a4e
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 93%
+source-wordcount: '1503'
+ht-degree: 91%
 
 ---
 
@@ -204,6 +204,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="受信者のカスタムフィールド"
 
 >[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="今後の連絡は不要な受信者"
+>abstract="今後の連絡は不要な受信者"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="受信者その他"
+>abstract="受信者その他"
+
+>[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="受信者のカードの概要"
 >abstract="受信者のカードの概要"
@@ -233,6 +243,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="受信者のオファーのプレビュー"
 >abstract="受信者のオファーのプレビュー"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="受信者読み取り専用プロファイル"
+>abstract="受信者読み取り専用プロファイル"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_additionaldata"
+>title="追加データのテストプロファイル"
+>abstract="追加データのテストプロファイル"
 
 
 
