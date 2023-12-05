@@ -4,10 +4,10 @@ title: 購読サービスの操作
 description: Adobe Campaign web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
 badge: label="ベータ版"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 2524756d888fa62149beda92ead898a9130dfb66
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 100%
+source-wordcount: '760'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 
    ![](assets/service-create-properties.png)
 
-1. デフォルトでは、購読は無制限です。「**[!UICONTROL 無制限の有効期間]**」オプションを無効にして、サービスの有効期間を定義できます。
+1. デフォルトでは、購読は無制限です。次の項目を無効にすることができます。 **[!UICONTROL 無制限の有効期間]** オプションを使用して、サービスの有効期間を定義します。
 
    次の例では、20 日後には次のようになります。
    * このサービスを購読できる受信者はいなくなります。
