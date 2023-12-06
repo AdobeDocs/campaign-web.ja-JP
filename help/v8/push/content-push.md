@@ -4,10 +4,10 @@ title: プッシュ通知配信をデザイン
 description: Adobe Campaign Web を使用したプッシュ通知配信のデザイン方法を学ぶ
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 98%
 
 ---
 
@@ -45,8 +45,8 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 * **[!UICONTROL データメッセージ]**&#x200B;は、クライアントアプリで処理されます。これらのメッセージは、モバイルアプリケーションに直接送信され、デバイス上で Android 通知を生成して表示されます。データメッセージには、カスタムアプリケーション変数のみが含まれます。
 
-  コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行うには、「**[!UICONTROL メッセージ]**」フィールドをクリックし、式エディターを使用します。このエディターにアクセスしてメッセージをカスタマイズできます。
-**[!UICONTROL アプリケーション変数]**&#x200B;メニューに追加される変数は、自動的に追加されます。これらの変数を使用して、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに表示される、特定のアプリケーション画面を設定できます。
+  コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行うには、「**[!UICONTROL メッセージ]**」フィールドをクリックし、式エディターを使用します。このエディターにアクセスして、メッセージをカスタマイズできます。
+Adobe Analytics の **[!UICONTROL アプリケーション変数]** メニューに追加される変数は、自動的に追加されます。 これらの変数を使用して、通知の動作を定義できます。例えば、ユーザーが通知を有効化したときに表示される、特定のアプリケーション画面を設定できます。
 
   ![](assets/push_content_4.png)
 
@@ -81,36 +81,36 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="iOS の重要なアラートモード"
+>title="重大な通知モード"
 >abstract="ユーザーの電話がフォーカスモードに設定されている場合や、デバイスがミュートになっている場合でも、通知にサウンドを追加するには、このオプションを有効にします。これにより、どのような場合でもユーザーに重要なアラートが通知されます。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="iOS のバッジ番号"
+>title="バッジ番号"
 >abstract="アプリアイコンに直接表示する新しい未読情報の数を設定するには、このオプションを使用します。これにより、ユーザーは保留中の通知数をすばやく確認できます。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="iOS の可変コンテンツ"
+>title="可変コンテンツ"
 >abstract="モバイルアプリケーションが通知に関連付けられたメディアコンテンツをダウンロードできるようにするには、このオプションを有効にします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="iOS の関連度スコア"
+>title="関連度スコア"
 >abstract="通知概要内の通知の順序に優先順位を付けるには、関連度スコアを 0 ～ 100 に設定します。スコアが高いほど、より重要な通知を示します。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="iOS のアプリケーション変数"
+>title="アプリケーション変数"
 >abstract="通知の動作を定義するには、アプリケーション変数を使用します。これらの変数は完全にカスタマイズ可能で、モバイルデバイスに送信されるメッセージペイロードの一部に含まれます。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="iOS のカテゴリ ID"
+>title="カテゴリ ID"
 >abstract="通知に関連付けるカテゴリ ID の名前を指定します。これにより、アクションボタンの表示が有効になり、ユーザーはアプリケーションを開かずに通知から直接様々なタスクを実行できるようになります。"
 
 
