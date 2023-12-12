@@ -2,10 +2,10 @@
 audience: end-user
 title: クエリモデラーを使用して最初のクエリを作成する
 description: Adobe Campaign Web Query Modeler で最初のクエリを作成する方法を説明します。
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 22%
+source-wordcount: '1354'
+ht-degree: 23%
 
 ---
 
@@ -35,7 +35,12 @@ ht-degree: 22%
 * **オーディエンス**：既存のオーディエンスを使用してクエリをフィルタリングします。
 * **定義済みフィルター**：既存の定義済みフィルターを使用してクエリをフィルタリングします。
 
-### カスタム条件の作成
+### カスタム条件の設定
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="カスタム条件"
+>abstract="カスタム条件"
 
 カスタム条件を使用してクエリをフィルタリングするには、次の手順に従います。
 
@@ -96,6 +101,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### オーディエンスの選択
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="オーディエンスを選択"
+>abstract="オーディエンスを選択"
+
 既存のオーディエンスを使用してクエリをフィルタリングするには、次の手順に従います。
 
 1. 目的のノードの「+」ボタンをクリックし、「 」を選択します。 **[!UICONTROL オーディエンスを選択]**.
@@ -108,6 +118,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### 定義済みフィルターを使用
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="定義済みフィルター"
+>abstract="定義済みフィルター"
+
 定義済みフィルターを使用してクエリをフィルターするには、次の手順に従います。
 
 1. 目的のノードの「+」ボタンをクリックし、「 」を選択します。 **[!UICONTROL 定義済みフィルター]**.
@@ -119,6 +134,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
    ![](assets/query-predefined-filter.png)
 
 ## フィルターコンポーネントと演算子の組み合わせ
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="グループ"
+>abstract="グループ"
 
 フィルタリングコンポーネントをクエリに追加する場合、クエリキャンバスに新しいトランジションが自動的に作成され、新しいフィルタリングコンポーネントは AND 演算子で最初のトランジションにリンクされます。 つまり、両方のフィルタリングコンポーネントの結果が、クエリ結果に組み合わされます。
 
@@ -137,6 +157,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 * 例外（除外）：アウトバウンドトランジションのすべてのフィルタリングコンポーネントから結果を除外します。
 
 ## クエリの確認と検証
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="ルールプロパティ"
+>abstract="ルールプロパティ"
 
 キャンバスでクエリを作成したら、右側の「ルールプロパティ」ウィンドウを使用してクエリを確認できます。 使用可能な操作は次のとおりです。
 
