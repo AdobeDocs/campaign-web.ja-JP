@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="ベータ版"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 100%
 
 ---
@@ -68,9 +68,7 @@ ht-degree: 100%
 
 これで、カスタムフィルターが&#x200B;**定義済みフィルター**&#x200B;リストに表示され、すべての Campaign ユーザーがアクセスできます。
 
-
 ### フィルターリストからフィルターの作成 {#create-filter-from-list}
-
 
 左側のメニューの&#x200B;**定義済みフィルター**&#x200B;エントリからフィルターを作成できます。手順は次のとおりです。
 
@@ -86,7 +84,6 @@ ht-degree: 100%
 
 1. 変更内容を保存します。フィルターが定義済みフィルターに追加されます。
 
-
 ## フィルターをお気に入りとして保存 {#fav-filter}
 
 定義済みフィルターを作成する際に、この定義済みフィルターをお気に入りに表示する場合は「**お気に入りに保存**」オプションを有効にします。
@@ -95,7 +92,6 @@ ht-degree: 100%
 フィルターをお気に入りに保存すると、以下に示すように、フィルター作成リストの「**お気に入りのフィルター**」セクションですべてのユーザーが使用できます。
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## 定義済みフィルターを使用 {#use-predefined-filter}
 

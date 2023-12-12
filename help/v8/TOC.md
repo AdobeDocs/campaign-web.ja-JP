@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 98%
+source-wordcount: '464'
+ht-degree: 96%
 
 ---
 
@@ -126,6 +126,10 @@ ht-degree: 98%
       + [スケジューラー](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
       + [待機](workflows/activities/wait.md)
+   + データベースに対するクエリ {#query-database}
+      + [クエリモデラーの操作](query/query-modeler-overview.md)
+      + [最初のクエリを作成](query/build-query.md)
+      + [クエリのサンプル](query/query-samples.md)
 + レポート {#reports}
    + [レポートの基本を学ぶ](reporting/gs-reports.md)
    + [主要業績評価指標](reporting/kpis.md)
