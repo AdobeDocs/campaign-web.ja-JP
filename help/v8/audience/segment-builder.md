@@ -1,54 +1,94 @@
 ---
 audience: end-user
-title: Adobe Experience Platform オーディエンスの使用
-description: Adobe Experience Platform のオーディエンスの使用方法
-badge: label="Beta"
-exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: cbf1021c722aeff5f7ce384a29467576d5f83ab2
+title: Campaign のルールビルダーを使用してオーディエンスを作成
+description: ルールビルダーの操作方法を学ぶ
+exl-id: 167ad4ce-3760-413c-9949-9649245766e3
+badge: label="ベータ版"
+source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform オーディエンスの使用{#aep-audience}
+# ルールビルダーの操作 {#segment-builder}
 
-Adobe Campaign Managed Cloud Service の宛先とソースコネクタを使用すると、Adobe Campaign と Adobe Experience Platform をシームレスに統合できます。
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="ターゲットオーディエンス"
+>abstract="配信ターゲットの作成がこれまで以上に簡単になりました。最新のルールビルダーでは、データベースから受信者やその他のターゲティングディメンションのフィルタリング条件を定義できるようになりました。Adobe Experience Platform オーディエンスを活用して、ターゲットオーディエンスをさらに絞り込んで、キャンペーンの効果を最大化します。"
 
-Adobe Experience Platform オーディエンスを作成し、クライアントコンソールで使用できるようになったら、ユーザーは Campaign オーディエンスと同じようにこれを使用し、メッセージをパーソナライズして送信できます。
+ルールビルダーを使用すると、データベースに含まれているデータをフィルタリングして、配信のターゲットとなる母集団を定義できます。ルールビルダーを使用して、**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用するワークフローからオーディエンスを作成することもできますし、配信の作成時に直接、1 回限りのオーディエンスを作成することもできます。
 
->[!NOTE]
->
->Campaign で Adobe Experience Platform オーディエンスを使用するには、アドビのソースおよび宛先との統合を設定する必要があります。[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
+* [オーディエンスの作成方法を説明します](create-audience.md)
+* [配信用に 1 回限りのオーディエンスを作成する方法を説明します](one-time-audience.md)
 
-配信のオーディエンスを選択するには、次の手順で実行することもできます。
+## パレット
 
-* 新しいオーディエンスを作成します。[詳細情報](segment-builder.md)
-* 外部ファイルのオーディエンスを読み込みます。[詳細情報](file-audience.md)
-* 既存のオーディエンスを使用します。[詳細情報](add-audience.md)
+左側のパレットには、オーディエンスを作成するためにフィルタリングできるすべての要素が含まれています。検索バーを使用して、要素をすばやく見つけることができます。パレットに含まれているタイルを設定し考慮するには、中央のキャンバスに移動する必要があります。
 
-配信用の Adobe Experience Platform オーディエンスを選択するには、次の手順に従います。
+![](assets/segment-builder2.png){width="70%" align="left"}
 
-1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
+パレットは次の 2 つのタブに分かれています。
 
-   ![](assets/create-audience.png)
+* **属性**：このタブでは、スキーマから使用可能なすべてのフィールドにアクセスできます。フィールドのリストは、メールテンプレートで定義されているターゲティングスキーマによって異なります。
 
-1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。このメールで使用する新しいオーディエンスを作成するには、「**独自に作成**」を選択します。[こちら](segment-builder.md)を参照してください。
+* **オーディエンス**：このタブでは、Campaign Classic コンソールまたは Adobe Experience Platform で定義された既存のオーディエンスの 1 つを使用してフィルタリングできます。[オーディエンスを監視および管理する方法の詳細情報](manage-audience.md)
 
-   この画面には、現在のフォルダーに対して、Adobe Campaign クライアントコンソールで定義されたすべての既存のオーディエンスが表示されます。Adobe Experience Platform からオーディエンスを選択するには、画面のフィルターセクションから `AEP Audiences folder` を参照します。
+  >[!NOTE]
+  >
+  >Adobe Experience Platform オーディエンスを活用するには、宛先との統合を設定する必要があります。詳しくは、[Adobe Experience Platform の宛先に関するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ja){target="_blank"}を参照してください。
 
-   ![](assets/select-audience-folder.png)
+## キャンバス
 
-   次のように、オーディエンスの接触チャネルに基づいてフィルタリングするルールを定義することもできます。
+キャンバスは、パレットから追加された要素を基に、ルールを設定したり組み合わせたりできる中央ゾーンです。新しいルールを追加するには、パレットからタイルをドラッグし、キャンバスにドロップします。 追加するデータのタイプに応じて、コンテキスト固有のオプションが表示されることがあります。
 
-   ![](assets/filter-on-aep-audience.png)
+![](assets/segment-builder4.png){width="70%" align="left"}
 
-1. オーディエンスを選択し、「**選択**」をクリックします。
+## ルールのプロパティパネル
 
-1. オーディエンスを絞り込む必要がある場合は、「**ルールを編集**」をクリックします。
+右側にある&#x200B;**ルールのプロパティ**&#x200B;パネルでは、次のアクションを実行できます。
 
-   ![](assets/refine-audience.png)
+![](assets/segment-builder5.png){width="70%" align="left"}
 
-1. ルールビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](segment-builder.md)を参照してください。
+* **結果を表示：**&#x200B;オーディエンスのターゲットとなる受信者のリストを表示します。
+* **コードビュー**：オーディエンスのコードベースのバージョンを SQL で表示します。
+* **詳細属性の表示**：左側のパレットに属性の完全なリスト（ノード、グループ、1 対 1 のリンク、1 対多のリンク）を表示する場合は、このオプションを選択します。
+* **計算**：クエリのターゲットとなるプロファイルの数を更新および表示します。
+* **フィルターを選択または保存**：定義済みフィルターを使用してクエリをフィルタリングするか、後で再利用できるように、クエリを新しいフィルターとして保存します。[定義済みフィルターの操作方法の詳細情報](../get-started/predefined-filters.md)
 
-1. 「**保存**」をクリックします。
+  >[!IMPORTANT]
+  >
+  >製品のそのバージョンでは、一部の定義済みフィルターがユーザーインターフェイスで使用できません。引き続きそれらを使用できます。[詳細情報](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
+* **属性**：作成したオーディエンスの説明が表示されます。
+
+## 例
+
+この例では、アトランタまたはシアトルに住み、1980 年以降に生まれたすべての顧客をターゲットにするオーディエンスを作成しています。
+
+1. パレットの「**属性**」タブで、「**生年月日**」フィールドを検索します。タイルをドラッグし、キャンバスにドロップします。
+
+   ![](assets/segment-builder6.png)
+
+1. キャンバスで、「**これ以降**」演算子を使用して、目的の日付を入力します。
+
+   ![](assets/segment-builder7.png)
+
+1. パレットで、「**市区町村**」フィールドを検索し、キャンバスの最初のルールの下に追加します。
+
+   ![](assets/segment-builder8.png)
+
+1. テキストフィールドに最初の都市名を入力し、Enter キーを押します。
+
+   ![](assets/segment-builder9.png)
+
+1. 2 つ目の都市名に対して、同じ操作を繰り返します。
+
+   ![](assets/segment-builder10.png)
+
+1. 「**結果を表示**」をクリックすると、クエリに一致する受信者のリストと数が表示されます。また、列を追加し、データを視覚化して確認することもできます。 この例では、**市区町村**&#x200B;列を追加すると、アトランタとシアトルが表示されます。
+
+   ![](assets/segment-builder11.png)
+
+1. 「**確認**」をクリックします。
