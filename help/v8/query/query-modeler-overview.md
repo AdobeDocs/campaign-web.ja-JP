@@ -2,19 +2,14 @@
 audience: end-user
 title: クエリモデラーの操作
 description: Adobe Campaign Web クエリモデラーの操作方法を説明します。
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 7%
+source-wordcount: '339'
+ht-degree: 0%
 
 ---
 
 # クエリモデラーの操作 {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="ターゲットオーディエンス"
->abstract="配信ターゲットの作成がこれまで以上に簡単になりました。最新のクエリモデラーを使用すると、受信者またはその他のターゲティングディメンションのフィルタリング条件をデータベースから定義できます。 Adobe Experience Platform オーディエンスを活用して、ターゲットオーディエンスをさらに絞り込んで、キャンペーンの効果を最大化します。"
 
 ## クエリモデラーの概要 {#overview}
 
