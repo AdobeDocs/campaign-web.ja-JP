@@ -2,14 +2,16 @@
 audience: end-user
 title: クエリモデラーを使用して最初のクエリを作成する
 description: Adobe Campaign Web Query Modeler で最初のクエリを作成する方法を説明します。
-source-git-commit: e620df0ff9af0d32fc353a904e3dde37501495d0
+source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 79%
+source-wordcount: '1797'
+ht-degree: 90%
 
 ---
 
 # 式を編集 {#expression}
+
+## 式の編集 {#edit}
 
 式を編集する場合は、条件を手動で入力してルールを作成します。 このモードでは、高度な関数を使用できます。これらの関数を使用すると、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作できます。
 
@@ -25,152 +27,666 @@ ht-degree: 79%
 
 入力フィールドに式を直接入力するか、使用可能なフィールドや関数のリストを使用して、式を編集します。 これをおこなうには、要素を追加する内側の式にカーソルを置き、目的のフィールドまたは式をダブルクリックします。
 
-ワークフローのイベント変数を使用して式を作成できます。詳しくは、xxxx を参照してください。
+## ヘルパー関数
 
-## 式の構文 {#expression-syntax}
+クエリ編集ツールを使用すると、高度な関数を使用して、目的の結果と操作対象のデータのタイプに応じて複雑なフィルタリングを実行できます。 次の関数を使用できます。
 
-### 標準構文 {#standard-syntax}
+### 集計
 
-標準の式は、次の構文要素に従った 1 つまたは複数の条件で構成されます。
-
-* それぞれの条件は、**&lt;値 1>&lt;比較演算子> &lt;値 2>**&#x200B;の形式で記述します。
-
-   * **&lt;値 1>** はフィールドまたは関数です。例えば、プロファイルの作成日を表す **@created**、またはプロファイルの作成年を表す **Year(@created)**。
-   * **&lt;comparison operator=&quot;&quot;>** は、比較演算子の節に記載されている演算子の 1 つです。 **&lt;値 1>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
-   * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
-
-  >[!NOTE]
-  >
-  >**&lt;値 1>** と **&lt;値 2>** は同じデータ型でなければなりません。例えば、**&lt;値 1>** が日付の場合は、**&lt;値 2>** も日付である必要があります。
-
-* 複数の条件を使用する場合は、論理演算子を使用して組み合わせることができます。
-
-   * **[!UICONTROL および]**:2 つの条件の積集合を取ります。
-   * **[!UICONTROL または]**:2 つの条件の和集合を取ります。
-
-例：
-
-```
-Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
-```
-
-この例では、作成日が現在の月と年に該当するプロファイルがターゲットになります。
-
-### JavaScript 構文 {#javascript-syntax}
-
-HTML コンテンツエディターでテキストタイプのブロックの表示条件を定義する場合は、JavaScript タイプ構文に従った式を使用する必要があります。
-
-JavaScript 式は 1 つ以上の条件で構成され、次の構文要素を使用します。
-
-* それぞれの条件は、**&lt;コンテキスト> &lt;比較演算子> &lt;値 2**> の形式で記述します。
-
-   * ここで、**&lt;コンテキスト>** はコンテキストを指定できるフィールドまたは関数です。例えば、プロファイルの E メールアドレスを表す **context.profile.プロファイルのメールアドレスを表す @email** や、プロファイルの名の文字数を表す **context.profile.firstName.length()** を指定します。
-   * **&lt;comparison operator=&quot;&quot;>** は、比較演算子の節に記載されている演算子の 1 つです。 **&lt;コンテキスト>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
-   * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
-
-  >[!NOTE]
-  >
-  **&lt;コンテキスト>** と **&lt;値 2>** は同じデータ型でなければなりません。例えば、**&lt;コンテキスト>** が日付の場合は、**&lt;値 2>** も日付である必要があります。
-
-* 複数の条件を使用する場合は、論理演算子を使用して組み合わせることができます。
-
-   * **[!UICONTROL &amp;&amp;]**:2 つの条件の積集合を取ります。
-   * **[!UICONTROL ||]**:2 つの条件の和集合を取ります。
-
-例：
-
-```
-context.profile.age > 21 && context.profile.firstName.length() > 0
-```
-
-この例では、年齢が 21 歳より上で、かつ名が指定されている（**firstName** フィールドに 1 文字以上記入されている）プロファイルを条件としています。
-
-## 比較演算子 {#comparison-operators}
-
-ルールによっては、クエリエディターで値を選択して条件を定義できるものがあります。
-
-条件は、次のいずれかの演算子を使用して値にリンクする必要があります。
+集計関数は、一連の値に対して計算を実行する場合に使用します。
 
 <table> 
- <thead> 
-  <tr> 
-   <th> 演算子<br /> </th> 
-   <th> 標準構文<br /> </th> 
-   <th> JavaScript 構文<br /> </th> 
-   <th> 説明<br /> </th> 
-   <th> 例<br /> </th> 
-  </tr> 
- </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">次と等しい</span> <br /> </td> 
-   <td> =<br /> </td> 
-   <td> ==<br /> </td> 
-   <td> 1 つ目の値と 2 つ目の値は完全に同一でなければなりません。<br /> </td> 
-   <td> <strong>@lastName = Martin</strong> は、姓が「Martin」と同一の文字列のプロファイルを検索します。<br /> </td> 
+   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>説明</strong><br /> </td> 
+   <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">より大きい</span> <br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> &gt;<br /> </td> 
-   <td> 最初の値は、2 番目の値より大きくなければなりません。<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> は、年齢が「50」より上、つまり「51」、「52」などのプロファイルを検索します。<br /> </td> 
+   <td> <strong>Avg</strong><br /> </td> 
+   <td> 数値タイプの列の平均を返します<br /> </td> 
+   <td> Avg(&lt;値&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">より小さい</span> <br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
-   <td> 最初の値は、2 番目の値より小さくなければなりません。<br /> </td> 
-   <td> <strong>@created &lt; DaysAgo(100)</strong> は、過去 100 日以内にデータベースに作成されたすべてのプロファイルを検索します。<br /> </td> 
+   <td> <strong>Count</strong><br /> </td> 
+   <td> 列の null でない値をカウントします<br /> </td> 
+   <td> Count(&lt;値&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">次よりも大きいか等しい</span> <br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> &gt;=<br /> </td> 
-   <td> 最初の値は、2 番目の値より大きいか等しくなければなりません。<br /> </td> 
-   <td> <strong>@age &gt;= 30</strong> は、年齢が 30 歳以上のプロファイルを検索します。<br /> </td> 
+   <td> <strong>CountAll</strong><br /> </td> 
+   <td> 返される値をカウントします（すべてのフィールド）<br /> </td> 
+   <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">次よりも小さいか等しい</span> <br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
-   <td> 最初の値は、2 番目の値より小さいか等しくなければなりません。<br /> </td> 
-   <td> <strong>@age &lt;= 60</strong> は、年齢が 60 歳以下のプロファイルを検索します。<br /> </td> 
+   <td> <strong>Countdistinct</strong><br /> </td> 
+   <td> 列の null でないユニーク値をカウントします<br /> </td> 
+   <td> Countdistinct(&lt;値&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">異なる</span><br /> </td> 
-   <td> !=<br /> </td> 
-   <td> !=<br /> </td> 
-   <td> 最初の値は、2 番目の値と異なっていなければなりません。<br /> </td> 
-   <td> <strong>@language ! = English</strong> は、英語を母語とする人として定義されていないプロファイルを検索します。<br /> </td> 
+   <td> <strong>Max</strong><br /> </td> 
+   <td> 数値、文字列または日付タイプの列の最大値を返します<br /> </td> 
+   <td> Max(&lt;値&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">次を含む</span><br /> </td> 
-   <td> IN<br /> </td> 
-   <td> 該当なし<br /> </td> 
-   <td> 最初の値に、2 番目の値が含まれていなければなりません。<br /> </td> 
-   <td> <strong>@domain IN mail</strong>。この場合、「mail」の値を含むすべてのドメイン名が結果として返されます。したがって、返される結果の一部には、「gmail.com」というドメイン名が含まれます。<br /> </td> 
+   <td> <strong>Min</strong><br /> </td> 
+   <td> 数値、文字列または日付タイプの列の最小値を返します<br /> </td> 
+   <td> Min(&lt;値&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">次に類似</span> <br /> </td> 
-   <td> LIKE<br /> </td> 
-   <td> 該当なし<br /> </td> 
-   <td> 「<span class="uicontrol">次に類似</span>」は、「<span class="uicontrol">次を含む</span>」演算子とよく似ています。検索対象の値にワイルドカード文字 <span class="uicontrol">%</span> を挿入することができます。<br /> </td> 
-   <td> <strong>@lastName LIKE Mart%n</strong>。この場合、置換文字 <strong>%</strong> は「ジョーカー」として機能するので、仮にスペルが間違っていても「Martin」という名前を検索できます。<br /> </td> 
+   <td> <strong>StdDev</strong><br /> </td> 
+   <td> 数値、文字列または日付タイプの列の標準偏差を返します<br /> </td> 
+   <td> StdDev(&lt;値&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">次に類似しない</span> <br /> </td> 
-   <td> NOT<br /> </td> 
-   <td> 該当なし<br /> </td> 
-   <td> 「<span class="uicontrol">次に類似</span>」と似ています。入力した値を除外することができます。この演算子でも、入力した値にワイルドカード文字 <span class="uicontrol">%</span> が含まれている必要があります。<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>。この場合、「Smi%h」に該当する名前（Smith など）の受信者は、結果として返されません。<br /> </td> 
+   <td> <strong>Sum</strong><br /> </td> 
+   <td> 数値、文字列または日付タイプの列の値の合計を返します<br /> </td> 
+   <td> Sum(&lt;値&gt;)<br /></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### 日付
+
+日付関数は、日付や時刻の値を操作する場合に使用します。
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>説明</strong><br /> </td> 
+   <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">空である</span><br /> </td> 
-   <td> IS NULL<br /> </td> 
-   <td> 該当なし<br /> </td> 
-   <td> 最初の値は、空の値に対応している必要があります。<br /> </td> 
-   <td> <strong>@mobilePhone IS NULL</strong> は、携帯電話番号が入力されていないすべてのプロファイルを検索します。<br /> </td> 
+   <td> <strong>AddDays</strong><br /> </td> 
+   <td> 日付に日数を追加します<br /> </td> 
+   <td> AddDays(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddHours</strong><br /> </td> 
+   <td> 日付に時間数を追加します<br /> </td> 
+   <td> AddHours(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddMinutes</strong><br /> </td> 
+   <td> 日付に分数を追加します<br /> </td> 
+   <td> AddMinutes(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddMonths</strong><br /> </td> 
+   <td> 日付に月数を追加します<br /> </td> 
+   <td> AddMonths(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddSeconds</strong><br /> </td> 
+   <td> 日付に秒数を追加します<br /> </td> 
+   <td> AddSeconds(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>AddYears</strong><br /> </td> 
+   <td> 日付に年数を追加します<br /> </td> 
+   <td> AddYears(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>DateOnly</strong><br /> </td> 
+   <td> 日付のみを返します（時刻は 0:00）*<br /> </td> 
+   <td> DateOnly(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Day</strong><br /> </td> 
+   <td> 日付の日を表す数を返します<br /> </td> 
+   <td> Day(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DayOfYear</strong><br /> </td> 
+   <td> 日付の年の日数を返します<br /> </td> 
+   <td> DayOfYear(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysAgo</strong><br /> </td> 
+   <td> 現在の日付 - n 日に対応する日付を返します<br /> </td> 
+   <td> DaysAgo(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysAgoInt</strong><br /> </td> 
+   <td> 現在の日付 - n 日に対応する日付（整数 yyyymmdd）を返します<br /> </td> 
+   <td> DaysAgoInt(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysDiff</strong><br /> </td> 
+   <td> 2 つの日付の間の日数を返します<br /> </td> 
+   <td> DaysDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>DaysOld</strong><br /> </td> 
+   <td> 年齢（日数）を返します<br /> </td> 
+   <td> DaysOld(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetDate</strong><br /> </td> 
+   <td> サーバーの現在のシステム日付を返します<br /> </td> 
+   <td> GetDate()<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Hour</strong><br /> </td> 
+   <td> 日付の時間を返します<br /> </td> 
+   <td> Hour(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>HoursDiff</strong><br /> </td> 
+   <td> 2 つの日付の間の時間数を返します<br /> </td> 
+   <td> HoursDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Minute</strong><br /> </td> 
+   <td> 日付の分を返します<br /> </td> 
+   <td> Minute(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MinutesDiff</strong><br /> </td> 
+   <td> 2 つの日付の間の分数を返します<br /> </td> 
+   <td> MinutesDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Month</strong><br /> </td> 
+   <td> 日付の月を表す数を返します<br /> </td> 
+   <td> Month(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsAgo</strong><br /> </td> 
+   <td> 現在の日付 - n ヶ月に対応する日付を返します<br /> </td> 
+   <td> MonthsAgo(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsDiff</strong><br /> </td> 
+   <td> 2 つの日付の間の月数を返します<br /> </td> 
+   <td> MonthsDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>MonthsOld</strong><br /> </td> 
+   <td> 年齢（月数）を返します<br /> </td> 
+   <td> MonthsOld(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Second</strong><br /> </td> 
+   <td> 日付の秒を返します<br /> </td> 
+   <td> Second(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SecondsDiff</strong><br /> </td> 
+   <td> 2 つの日付の間の秒数を返します<br /> </td> 
+   <td> SecondsDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubDays</strong><br /> </td> 
+   <td> 日付から日数を引きます<br /> </td> 
+   <td> SubDays(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubHours</strong><br /> </td> 
+   <td> 日付から時間数を引きます<br /> </td> 
+   <td> SubHours(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubMinutes</strong><br /> </td> 
+   <td> 日付から分数を引きます<br /> </td> 
+   <td> SubMinutes(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubMonths</strong><br /> </td> 
+   <td> 日付から月数を引きます<br /> </td> 
+   <td> SubMonths(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubSeconds</strong><br /> </td> 
+   <td> 日付から秒数を引きます<br /> </td> 
+   <td> SubSeconds(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>SubYears</strong><br /> </td> 
+   <td> 日付から年数を引きます<br /> </td> 
+   <td> SubYears(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDate</strong><br /> </td> 
+   <td> 日付 + 時間を日付に変換します<br /> </td> 
+   <td> ToDate(&lt;日付 + 時刻&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDateTime</strong><br /> </td> 
+   <td> 文字列を日付 + 時刻に変換します<br /> </td> 
+   <td> ToDateTime(&lt;文字列&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncDate</strong><br /> </td> 
+   <td> 日付 + 時刻を最も近い秒に丸めます<br /> </td> 
+   <td> TruncDate(@lastModified, &lt;秒数&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>TruncDateTZ</strong><br /> </td> 
+   <td> 日付と時刻を指定された精度（秒）に丸めます<br /> </td> 
+   <td> TruncDateTZ(&lt;日付&gt;, &lt;秒数&gt;, &lt;タイムゾーン&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>TruncQuarter</strong><br /> </td> 
+   <td> 日付を四半期に丸めます<br /> </td> 
+   <td> TruncQuarter(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncTime</strong><br /> </td> 
+   <td> 時刻部分を最も近い秒に丸めます<br /> </td> 
+   <td> TruncTime(&lt;日付&gt;, &lt;秒数&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> 日付を週に丸めます<br /> </td> 
+   <td> TruncWeek(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncYear</strong><br /> </td> 
+   <td> 日付 + 時刻をその年の 1 月 1 日に丸めます<br /> </td> 
+   <td> TruncYear(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>TruncWeek</strong><br /> </td> 
+   <td> 日付の週の日を表す数を返します<br /> </td> 
+   <td> WeekDay(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Year</strong><br /> </td> 
+   <td> 日付の年を表す数を返します<br /> </td> 
+   <td> Year(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearAnd Month</strong><br /> </td> 
+   <td> 日付の年と月を表す数を返します<br /> </td> 
+   <td> YearAndMonth(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearsDiff</strong><br /> </td> 
+   <td> 2 つの日付の間の年数を返します<br /> </td> 
+   <td> YearsDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>YearsOld</strong><br /> </td> 
+   <td> 満年齢を返します<br /> </td> 
+   <td> YearsOld(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>**Dateonly** 関数はオペレーターのタイムゾーンではなく、サーバーのタイムゾーンを考慮することに注意してください。
+
+### ジオマーケティング
+
+ジオマーケティング関数は、地理に関する値を操作する場合に使用します。
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>説明</strong><br /> </td> 
+   <td> <strong>構文</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Distance</strong><br /> </td> 
+   <td> 経度と緯度で定義された 2 つのポイントの距離を返します。<br /> </td> 
+   <td> Distance(&lt;経度 A&gt;, &lt;緯度 A&gt;, &lt;経度 B&gt;, &lt;緯度 B&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### 数値
+
+数値関数は、テキストを数値に変換するために使用します。
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>説明</strong><br /> </td> 
+   <td> <strong>構文</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Abs</strong><br /> </td> 
+   <td> 数値の絶対値を返します<br /> </td> 
+   <td> Abs(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Ceil</strong><br /> </td> 
+   <td> ある特定の数値以上の最小の整数を返します<br /> </td> 
+   <td> Ceil(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Floor</strong><br /> </td> 
+   <td> ある特定の数値以上の最大の整数を返します<br /> </td> 
+   <td> Floor(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Greatest</strong><br /> </td> 
+   <td> 2 つの数のうち大きい方を返します<br /> </td> 
+   <td> Greatest(&lt;数値 1&gt;, &lt;数値 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Least</strong><br /> </td> 
+   <td> 2 つの数のうち小さい方を返します<br /> </td> 
+   <td> Least(&lt;数値 1&gt;, &lt;数値 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Mod</strong><br /> </td> 
+   <td> 整数の割り算 n1 ÷ n2 の余りを返します<br /> </td> 
+   <td> Mod(&lt;数値 1&gt;, &lt;数値 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Percent</strong><br /> </td> 
+   <td> 割合で表される 2 つの数の比率を返します<br /> </td> 
+   <td> Percent(&lt;数値 1&gt;, &lt;数値 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Random</strong><br /> </td> 
+   <td> ランダムな値を返します<br /> </td> 
+   <td> Random()<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Round</strong><br /> </td> 
+   <td> 数値を n 桁に丸めます<br /> </td> 
+   <td> Round(&lt;数値&gt;, &lt;小数点以下の桁数&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Sign</strong><br /> </td> 
+   <td> 数値の符号を返します<br /> </td> 
+   <td> Sign(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToDouble</strong><br /> </td> 
+   <td> 整数を浮動小数に変換します<br /> </td> 
+   <td> ToDouble(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInt64</strong><br /> </td> 
+   <td> 浮動小数を 64 ビットの整数に変換します<br /> </td> 
+   <td> ToInt64(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToInteger</strong><br /> </td> 
+   <td> 浮動小数を整数に変換します<br /> </td> 
+   <td> ToInteger(&lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Trunc</strong><br /> </td> 
+   <td> n1 を n2 の桁数に切り捨てます<br /> </td> 
+   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### その他
+
+この表には、残りの使用可能な関数が表示されます。
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>説明</strong><br /> </td> 
+   <td> <strong>構文</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Case</strong><br /> </td> 
+   <td> 条件が true の場合は値 1 を返します。そうでない場合は値 2 を返します<br /> </td> 
+   <td> (When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>ClearBit</strong><br /> </td> 
+   <td> 値のフラグを削除します<br /> </td> 
+   <td> ClearBit(&lt;識別子&gt;, &lt;フラグ&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Coalesce</strong><br /> </td> 
+   <td> 値 1 がゼロまたは null の場合は値 2 を返し、それ以外の場合は値 1 を返します<br /> </td> 
+   <td> Coalesce(&lt;値 1&gt;, &lt;値 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Decode</strong><br /> </td> 
+   <td> 値 1 = 値 2 の場合は値 3 を返します。そうでない場合は値 4 を返します<br /> </td> 
+   <td> Decode(&lt;値 1&gt;, &lt;値 2&gt;, &lt;値 3&gt;, &lt;値 4&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Else</strong><br /> </td> 
+   <td> 値 1 を返します（case 関数のパラメーターとしてのみ使用できます）<br /> </td> 
+   <td> Else(&lt;値 1&gt;, &lt;値 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetEmailDomain</strong><br /> </td> 
+   <td> メールアドレスからドメインを抽出します<br /> </td> 
+   <td> GetEmailDomain(&lt;値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>GetMirrorURL</strong><br /> </td> 
+   <td> ミラーページサーバーの URL を取得します<br /> </td> 
+   <td> GetMirrorURL(&lt;値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Iif</strong><br /> </td> 
+   <td> 式が true の場合は値 1 を返します。そうでない場合は値 2 を返します<br /> </td> 
+   <td> Iif(&lt;条件&gt;, &lt;値 1&gt;, &lt;値 2&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsBitSet</strong><br /> </td> 
+   <td> 値にフラグが含まれているかどうかを示します<br /> </td> 
+   <td> IsBitSet(&lt;識別子&gt;, &lt;フラグ&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>IsEmptyString</strong><br /> </td> 
+   <td> 文字列 1 が空の場合は値 2 を返し、それ以外の場合は値 3 を返します<br /> </td> 
+   <td> IsEmptyString(&lt;値 1&gt;, &lt;値 2&gt;, &lt;値 3&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>NoNull</strong><br /> </td> 
+   <td> 引数が NULL の場合は、空の文字列を返します<br /> </td> 
+   <td> NoNull(&lt;値&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>RowId</strong><br /> </td> 
+   <td> ライン番号を返します<br /> </td> 
+   <td> RowId<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>SetBit</strong><br /> </td> 
+   <td> 値に強制的にフラグを指定します<br /> </td> 
+   <td> SetBit(&lt;識別子&gt;, &lt;フラグ&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToBoolean</strong><br /> </td> 
+   <td> 数値をブール値に変換します<br /> </td> 
+   <td> ToBoolean(&lt;数値&gt;)<br /> </td>   
+  </tr> 
+  <tr> 
+   <td> <strong>When</strong><br /> </td> 
+   <td> 式が true の場合は値 1 を返します。そうでない場合は値 2 を返します（case 関数のパラメーターとしてのみ使用できます）<br /> </td> 
+   <td> When(&lt;条件&gt;, &lt;値 1&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### 文字列
+
+文字列関数は、一連の文字列を操作する場合に使用します。
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>説明</strong><br /> </td> 
+   <td> <strong>構文</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull2</strong><br /> </td> 
+   <td> すべてのパラメーターが null でなく空でもないかどうかを示します<br /> </td> 
+   <td> AllNonNull2(&lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>AllNonNull3</strong><br /> </td> 
+   <td> すべてのパラメーターが null でなく空でもないかどうかを示します<br /> </td> 
+   <td> AllNonNull3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ascii</strong><br /> </td> 
+   <td> 文字列の最初の文字の ASCII 値を返します<br /> </td> 
+   <td> Ascii(&lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Char</strong><br /> </td> 
+   <td> ASCII コード「n」に対応する文字を返します<br /> </td> 
+   <td> Char(&lt;数値&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Charindex</strong><br /> </td> 
+   <td> 文字列 1 における文字列 2 の位置を返します<br /> </td> 
+   <td> Charindex(&lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>GetLine</strong><br /> </td> 
+   <td> 文字列の n 番目（1 から n）のラインを返します<br /> </td> 
+   <td> GetLine(&lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IfEquals</strong><br /> </td> 
+   <td> 最初の 2 つのパラメーターが等しい場合に、3 番目のパラメーターを返します。等しくない場合は、最後のパラメーターを返します<br /> </td> 
+   <td> IfEquals(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>IsMemoNull</strong><br /> </td> 
+   <td> パラメーターとして渡されたメモが null かどうかを示します<br /> </td> 
+   <td> IsMemoNull(&lt;メモ&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords</strong><br /> </td> 
+   <td> パラメーターとして渡された文字列を連結します。必要に応じて、文字列間にスペースを追加します.<br /> </td> 
+   <td> JuxtWords(&lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>JuxtWords3</strong><br /> </td> 
+   <td> パラメーターとして渡された文字列を連結します。必要に応じて、文字列間にスペースを追加します<br /> </td> 
+   <td> JuxtWords3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /></td>  
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> 左側の完成した文字列を返します<br /> </td> 
+   <td> LPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Left</strong><br /> </td> 
+   <td> 文字列の最初の n 文字を返します<br /> </td> 
+   <td> Left(&lt;文字列&gt;, &lt;数値&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Length</strong><br /> </td> 
+   <td> 文字列の長さを返します<br /> </td> 
+   <td> Length(&lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Lower</strong><br /> </td> 
+   <td> 文字列を小文字で返します<br /> </td> 
+   <td> Lower(&lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Ltrim</strong><br /> </td> 
+   <td> 文字列の左側の空白を削除します<br /> </td> 
+   <td> Ltrim(&lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Md5Digest</strong><br /> </td> 
+   <td> 文字列の MD5 キーの 16 進数表現を返します<br /> </td> 
+   <td> Md5Digest(&lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>MemoContains</strong><br /> </td> 
+   <td> パラメーターとして渡す文字列をメモに含めるかどうかを指定します<br /> </td> 
+   <td> MemoContains(&lt;メモ&gt;、&lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> 右側の完成した文字列を返します<br /> </td> 
+   <td> RPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Right</strong><br /> </td> 
+   <td> 文字列の最後の n 文字を返します<br /> </td> 
+   <td> Right(&lt;文字列&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Rtrim</strong><br /> </td> 
+   <td> 文字列の右側の空白を削除します<br /> </td> 
+   <td> Rtrim(&lt;文字列&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Smart</strong><br /> </td> 
+   <td> 各単語の最初の文字を大文字にして文字列を返します<br /> </td> 
+   <td> Smart(&lt;文字列&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Substring</strong><br /> </td> 
+   <td> 文字列の n1 文字目から始まる長さ n2 文字の部分文字列を抽出します<br /> </td> 
+   <td> Substring(&lt;文字列&gt;, &lt;オフセット&gt;, &lt;長さ&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToString</strong><br /> </td> 
+   <td> 数値を文字列に変換します<br /> </td> 
+   <td> ToString(&lt;数値&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Upper</strong><br /> </td> 
+   <td> 文字列を大文字で返します<br /> </td> 
+   <td> Upper(&lt;文字列&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLink</strong><br /> </td> 
+   <td> 他の 2 つのパラメーターが等しい場合に、パラメーターとして渡されたリンクの外部キーを返します<br /> </td> 
+   <td> VirtualLink(&lt;数値&gt;, &lt;数値&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>VirtualLinkStr</strong><br /> </td> 
+   <td> 他の 2 つのパラメーターが等しい場合に、パラメーターとして渡されたリンクの外部（テキスト）キーを返します<br /> </td> 
+   <td> VirtualLinkStr(&lt;文字列&gt;, &lt;数値&gt;, &lt;数値&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> 文字列のサイズを返します<br /> </td> 
+   <td> dataLength(&lt;文字列&gt;)<br /> </td>  
+  </tr> 
+ </tbody> 
+</table>
+
+### ウィンドウ
+
+<table> 
+ <tbody> 
+  <tr> 
+   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>説明</strong><br /> </td> 
+   <td> <strong>構文</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Desc</strong><br /> </td> 
+   <td> 降順ソートを適用します<br /> </td> 
+   <td> Desc(&lt;値 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>OrderBy</strong><br /> </td> 
+   <td> パーティション内の結果を並べ替えます<br /> </td> 
+   <td> OrderBy(&lt;値 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>PartitionBy</strong><br /> </td> 
+   <td> テーブルのクエリの結果を区分します<br /> </td> 
+   <td> PartitionBy(&lt;値 1&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>RowNum</strong><br /> </td> 
+   <td> テーブルのパーティションと並べ替えシーケンスに基づいてライン番号を生成します<br /> </td> 
+   <td> RowNum(PartitionBy(&lt;値 1&gt;), OrderBy(&lt;値 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
 </table>
