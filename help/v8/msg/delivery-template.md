@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 91%
+source-wordcount: '1068'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="配信テンプレート"
->abstract="キャンペーンの実行と開始を迅速に行うには、クリエイティブなルックアンドフィールを標準化する配信テンプレートを使用します"
+>abstract="設計プロセスを加速し改善するために、配信テンプレートを作成すると、キャンペーン全体でカスタムコンテンツと設定を簡単に再利用できます。この機能を使用すると、クリエイティブなルックアンドフィールを標準化して、キャンペーンの実行と開始をより迅速に行うことができます。"
 
 設計プロセスを加速し改善するために、配信テンプレートを作成すると、キャンペーン全体でカスタムコンテンツと設定を簡単に再利用できます。この機能を使用すると、クリエイティブなルックアンドフィールを標準化して、キャンペーンの実行と開始をより迅速に行うことができます。
 
@@ -79,6 +79,7 @@ ht-degree: 91%
 ## 配信テンプレートの作成 {#create-a-delivery-template}
 
 配信テンプレートを作成するには、次の操作を実行します。
+
 * 既存のテンプレートを複製 - [詳細情報](#copy-an-existing-template)
 * 既存の配信をテンプレートに変換 - [詳細情報](#convert-an-existing-delivery)
 * 配信テンプレートをゼロから作成 - [詳細情報](#create-a-new-template)
