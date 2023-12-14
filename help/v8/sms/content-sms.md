@@ -4,10 +4,10 @@ title: SMS 配信のデザイン
 description: SMS 配信のデザイン方法を学ぶ
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 84%
+source-wordcount: '244'
+ht-degree: 64%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 84%
 >title="SMS コンテンツ"
 >abstract="SMS 配信のコンテンツを作成し、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを使用してパーソナライズします。 メッセージの作成を開始するには、 **コンテンツを編集** 」ボタンをクリックします。"
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_msg"
+>title="SMS メッセージコンテンツ"
+>abstract="SMS のコンテンツを定義します。 メッセージを作成するには、 **メッセージ** フィールドに入力し、メッセージの内容を入力します。 式エディターを使用して、パーソナライズされたデータと動的コンテンツを追加します。 また、送信者名をカスタマイズすることもできます。 デフォルトでは、すべての SMS 配信に対してトラッキングが有効になっており、受信者がリンクをクリックした際に測定できます。"
 
 
 SMS 配信のコンテンツをデザインするには、次の手順に従います。
