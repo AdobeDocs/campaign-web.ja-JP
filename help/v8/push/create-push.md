@@ -4,10 +4,10 @@ title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 40%
+source-wordcount: '638'
+ht-degree: 39%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 40%
 
 以下に示すように、配信設定を指定します。
 
-1. を入力します。 **[!UICONTROL ラベル]** 配信用
+1. を入力します。 **[!UICONTROL ラベル]** 配信に使用します。 デフォルトでは、ラベルは選択したテンプレートのラベルで設定されます。 更新する必要があります。
 
 1. 次を参照： **[!UICONTROL その他のオプション]** ドロップダウンを使用して、必要に応じてオプションをカスタマイズします。
 
