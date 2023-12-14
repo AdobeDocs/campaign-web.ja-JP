@@ -4,10 +4,10 @@ title: プッシュ通知配信をデザイン
 description: Adobe Campaign Web を使用したプッシュ通知配信のデザイン方法を学ぶ
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1534'
+ht-degree: 83%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Android コンテンツのプッシュ"
->abstract="Android デバイスのプッシュ通知のコンテンツを定義します。 メッセージを作成するには、「**タイトル**」フィールドと「**メッセージ**」フィールドをクリックします。式エディターを使用して、データをパーソナライズし、動的コンテンツを追加します。 プッシュ通知をさらにパーソナライズするには、プッシュ通知に追加する画像、プロファイルのデバイスに表示する通知のアイコン、色を選択します。 その他のカスタム設定については、 **詳細設定** 」セクションに入力します。"
+>abstract="Android デバイスのプッシュ通知のコンテンツを定義します。 メッセージの作成を開始するには、 **コンテンツを編集** 」ボタンをクリックします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="iOS コンテンツのプッシュ"
->abstract="iOSデバイスのプッシュ通知のコンテンツを定義します。 メッセージを作成するには、「**タイトル**」フィールドと「**メッセージ**」フィールドをクリックします。式エディターを使用して、データをパーソナライズし、動的コンテンツを追加します。 その他のカスタム設定については、 **詳細設定** 」セクションに入力します。"
+>abstract="iOSデバイスのプッシュ通知のコンテンツを定義します。 メッセージの作成を開始するには、 **コンテンツを編集** 」ボタンをクリックします。"
 
 ## 通知のコンテンツの定義 {#push-message}
 

@@ -4,10 +4,10 @@ title: SMS 配信のデザイン
 description: SMS 配信のデザイン方法を学ぶ
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS コンテンツ"
->abstract="SMS 配信のコンテンツを作成し、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを使用してパーソナライズします。"
+>abstract="SMS 配信のコンテンツを作成し、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを使用してパーソナライズします。 メッセージの作成を開始するには、 **コンテンツを編集** 」ボタンをクリックします。"
 
 
 
