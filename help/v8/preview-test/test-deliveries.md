@@ -6,7 +6,7 @@ exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="ベータ版"
 source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1169'
 ht-degree: 94%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 94%
 
 メッセージのコンテンツやパーソナライゼーション設定でエラーが発生する可能性を検出するには、メッセージをターゲットオーディエンスに送信する前に、テストメッセージをテストプロファイルに送信します。変更を加えるたびにテストメッセージを送信して、最新のコンテンツを検証します。テスト配信（旧称「配達確認」）の送信は、キャンペーンを検証し潜在的な問題を特定するための重要なステップとなります。テストメッセージの受信者は、リンク、オプトアウトリンク、画像、ミラーページなどの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定および配信設定のエラーを検出できます。
 
-## テスト受信者を使用したコンテンツのシミュレーション {#simulate-content-test-deliveries}
+## テスト受信者を使用したコンテンツのシミュレート {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
