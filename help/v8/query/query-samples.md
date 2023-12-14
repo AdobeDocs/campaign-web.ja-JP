@@ -2,19 +2,32 @@
 audience: end-user
 title: クエリのサンプル
 description: ルールビルダーの操作方法を学ぶ
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '16'
-ht-degree: 75%
+source-wordcount: '177'
+ht-degree: 46%
 
 ---
 
 # クエリのサンプル {#query-samples}
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-delivery-info.html?lang=en
+## 受信者に対するクエリ {#querying-recipient-table}
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/compute-aggregates.html?lang=en
+* e メールドメインが「orange.co.uk」で、横浜市に住んでいない受信者の名前と e メールを復元します。
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management.html?lang=en
+* 過去 7 日間に連絡されていない受信者。
 
-https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-grouping-management.html?lang=en
+* 以前の配信で 30 回以上ターゲットにされた E メールドメイン。
+
+## 配信に関するクエリ {#number-of-clicks-for-a-specific-delivery}
+
+* 特定の配信のクリック数。
+
+* 過去 7 日間、E メールを開封していない受信者。
+
+* 過去 2 週間以内に配信を開封したプロファイル：
+
+* 前の配信の後にフォローアップします。
+
+  「サマースポーツキャンペーン」配信が送信されます。配信の 4 日後、他の 2 つの配信が送信されます。1 つは「ウォータースポーツキャンペーン」、もう 1 つは最初の「サマースポーツキャンペーン」配信のフォローアップです。 「ウォータースポーツキャンペーン」配信は、最初の配信の「ウォータースポーツ」リンクをクリックした受信者に送信されます。このクリックは、受信者がトピックに関心があることを示しています。これらの受信者を類似のオファーに導くことは理にかなっています。
+ただし、「サマースポーツキャンペーン」をクリックしなかった受信者には同じ内容を再度送信します。
