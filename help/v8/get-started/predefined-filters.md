@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# 定義済みフィルターの操作 {#predefined-filters}
+# 定義済みフィルターを操作 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"

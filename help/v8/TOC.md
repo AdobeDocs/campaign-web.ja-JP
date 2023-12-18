@@ -23,7 +23,7 @@ ht-degree: 96%
    + [Campaign への接続](get-started/connect-to-campaign.md)
    + [インターフェイスを確認](get-started/user-interface.md)
    + [リストの参照、検索、フィルタリング](get-started/list-filters.md)
-   + [定義済みフィルターの操作](get-started/predefined-filters.md)
+   + [定義済みフィルターを操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
    + [ガードレールと制限](get-started/guardrails.md)
    + [サポートされていない機能](get-started/unsupported.md)
