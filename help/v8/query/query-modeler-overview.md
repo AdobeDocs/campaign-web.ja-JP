@@ -2,10 +2,10 @@
 audience: end-user
 title: クエリモデラーを操作
 description: Adobe Campaign Web クエリモデラーの操作方法を説明します。
-source-git-commit: 35b5901c65bde0ca58de7849b5fad374abb28b83
+source-git-commit: 94350335df08ae9c24d88843c77554db1890ab4d
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 12%
+source-wordcount: '270'
+ht-degree: 17%
 
 ---
 
@@ -25,31 +25,13 @@ Adobe Campaign Web には、クエリモデラーが備わっており、様々�
 
 | 使用状況 | 例 |
 |  ---  |  ---  |
-| **オーディエンスの定義**：メッセージまたはワークフローのターゲットにする母集団を指定し、必要に応じて容易に新しいオーディエンスを作成します。 <!--(LINK TBD)--> | ![](assets/access-audience.png){width="50" align="center" zoomable="yes"} |
-| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、分割や紐付けなどのワークフローアクティビティ内にルールを適用します。 | ![](assets/access-workflow.png){width="50" align="center" zoomable="yes"} |
-| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作でのショートカットとして機能する定義済みフィルターを作成します。 | ![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"} |
-| **レポートデータをフィルタリング**：レポートに表示されるデータをフィルターするルールを追加します。 | ![](assets/access-reports.png){width="50" align="center" zoomable="yes"} |
-| **リストのカスタマイズ**：リストに表示されるデータ（受信者、配信リストなど）をフィルターするカスタムルールを作成します。 | ![](assets/access-lists.png){width="50" align="center" zoomable="yes"} |
+| **オーディエンスの定義**：メッセージまたはワークフローのターゲットにする母集団を指定し、必要に応じて容易に新しいオーディエンスを作成します。 | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、分割や紐付けなどのワークフローアクティビティ内にルールを適用します。 | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作でのショートカットとして機能する定義済みフィルターを作成します。 | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **レポートデータをフィルタリング**：レポートに表示されるデータをフィルターするルールを追加します。 | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **リストのカスタマイズ**：リストに表示されるデータ（受信者、配信リストなど）をフィルターするカスタムルールを作成します。 | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-## クエリモデラーにアクセスする {#access}
 
-クエリモデラーは、データをフィルタリングするルールを定義する必要があるすべてのコンテキストで使用できます。
-
-**オーディエンスの定義**：メッセージまたはワークフローのターゲットにする母集団を指定し、必要に応じて容易に新しいオーディエンスを作成します。 <!--(LINK TBD)-->
-
-+++例
-
-![](assets/access-audience.png)
-
-+++
-
-**ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、分割や紐付けなどのワークフローアクティビティ内にルールを適用します。 <!--(LINK TBD)-->
-
-+++例
-
-![](assets/access-workflow.png)
-
-+++
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
@@ -60,29 +42,6 @@ Adobe Campaign Web には、クエリモデラーが備わっており、様々�
  +++
 -->
 
-**定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作でのショートカットとして機能する定義済みフィルターを作成します。 <!--(LINK TBD)-->
-
-+++例
-
-![](assets/access-predefined-filter.png)
-
-+++
-
-**レポートデータをフィルタリング**：レポートに表示されるデータをフィルターするルールを追加します。 <!--(LINK TBD)-->
-
-+++例
-
-![](assets/access-reports.png)
-
-+++
-
-**リストのカスタマイズ**：リストに表示されるデータ（受信者、配信リストなど）をフィルターするカスタムルールを作成します。 <!--(LINK TBD)-->
-
-+++例
-
-![](assets/access-lists.png)
-
-+++
 
 ## クエリモデラーインターフェイス {#interface}
 
