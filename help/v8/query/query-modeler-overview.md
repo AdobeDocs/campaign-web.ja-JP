@@ -2,10 +2,10 @@
 audience: end-user
 title: クエリモデラーを操作
 description: Adobe Campaign Web クエリモデラーの操作方法を説明します。
-source-git-commit: 3ee80257ded04bce0333396916df71ff296f3eca
+source-git-commit: 35b5901c65bde0ca58de7849b5fad374abb28b83
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 16%
+source-wordcount: '394'
+ht-degree: 12%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 16%
 >abstract="データベースから受信者やその他のターゲティングディメンションのフィルタリング条件を定義します。Adobe Experience Platform オーディエンスを活用して、ターゲットオーディエンスをさらに絞り込んで、キャンペーンの効果を最大化します。"
 
 Adobe Campaign Web には、クエリモデラーが備わっており、様々な条件に基づいて特定のターゲットを選択するためのデータベースのフィルタリングプロセスが簡単になります。 これには、高度な式や演算子の使用も含まれます。
+
+## クエリモデラーにアクセスする
+
+クエリモデラーは、データをフィルタリングするルールを定義する必要があるすべてのコンテキストで使用できます。
+
+| 使用状況 | 例 |
+|  ---  |  ---  |
+| **オーディエンスの定義**：メッセージまたはワークフローのターゲットにする母集団を指定し、必要に応じて容易に新しいオーディエンスを作成します。 <!--(LINK TBD)--> | ![](assets/access-audience.png){width="50" align="center" zoomable="yes"} |
+| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、分割や紐付けなどのワークフローアクティビティ内にルールを適用します。 | ![](assets/access-workflow.png){width="50" align="center" zoomable="yes"} |
+| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作でのショートカットとして機能する定義済みフィルターを作成します。 | ![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"} |
+| **レポートデータをフィルタリング**：レポートに表示されるデータをフィルターするルールを追加します。 | ![](assets/access-reports.png){width="50" align="center" zoomable="yes"} |
+| **リストのカスタマイズ**：リストに表示されるデータ（受信者、配信リストなど）をフィルターするカスタムルールを作成します。 | ![](assets/access-lists.png){width="50" align="center" zoomable="yes"} |
 
 ## クエリモデラーにアクセスする {#access}
 
