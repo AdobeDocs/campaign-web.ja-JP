@@ -4,9 +4,9 @@ title: メールコンテンツの編集
 description: Campaign web UI でメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '624'
 ht-degree: 100%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 100%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html?lang=ja" text="リンクの追加とメッセージのトラッキング"
 
 メールの&#x200B;**[!UICONTROL コンテンツを編集]**&#x200B;画面では、次の操作を実行できます。
+
 * 送信者のアドレスや件名など、メッセージの基本要素を定義する
 * 添付ファイルの追加やオファーの設定など、追加のアクションを実行する
 * [E メールデザイナー](get-started-email-designer.md#start-authoring)にアクセスして、適切なメールのコンテンツの作成を開始する
@@ -87,7 +88,7 @@ ht-degree: 100%
 
    その後、パーソナライゼーションフィールドを使用してメールに挿入できます。[オファーの送信方法を学ぶ](offers.md)
 
-1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックし、[E メールデザイナー](#start-authoring)を使用して、メールのコンテンツを構成およびデザインします。メールコンテンツのデザイン方法に関する追加情報については、次の節を参照してください。
+1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックし、[E メールデザイナー](get-started-email-designer.md#start-authoring)を使用して、メールのコンテンツを構成およびデザインします。メールコンテンツのデザイン方法に関する追加情報については、次の節を参照してください。
 
    * [新規でのメールの作成](create-email-content.md)
    * [コンテンツのスタイル設定](get-started-email-style.md)

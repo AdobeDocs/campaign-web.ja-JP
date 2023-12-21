@@ -3,14 +3,20 @@ audience: end-user
 title: メールコンテンツを編集
 description: Campaign web UI の E メールデザイナーを使用してコンテンツの作成を開始する方法を学ぶ
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
 # E メールデザイナーの基本を学ぶ {#get-started-email-designer}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn3"
+>title="新しいメールデザイナー"
+>abstract="Campaign E メールデザイナーを使用すると、個々にカスタマイズされた魅力的な E メールを、直感的なドラッグ&amp;ドロップインターフェイスで作成できます。 空白のスレートから始める場合でも、既存のコンテンツを読み込む場合でも、既存のテンプレートを活用する場合でも、すべての E メールのすべてのコンテンツをデザインし、調整します。"
 
 Adobe Campaign でメールを作成したら、そのコンテンツを定義する必要があります。
 
@@ -45,4 +51,3 @@ The Email Designer allows you to create email content and email content template
 * **既存のコンテンツを選択** - 組み込みテンプレートまたはカスタムテンプレートのリストから行います。メールテンプレートの操作方法については、[この節](email-sample-templates.md)を参照してください。
 
   ![](assets/email_designer_create_options.png)
-

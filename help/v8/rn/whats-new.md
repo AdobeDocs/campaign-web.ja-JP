@@ -4,8 +4,8 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="ベータ版"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
-workflow-type: ht
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 100%
 
@@ -15,9 +15,10 @@ ht-degree: 100%
 # 新機能 {#new}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="新機能"
+>id="acw_homepage_card2"
+>title="リリースノート"
 >abstract="アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された直感的な機能が組み込まれています。"
+
 
 ベータ版の Adobe Campaign web UI を導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された直感的な機能が組み込まれています。
 

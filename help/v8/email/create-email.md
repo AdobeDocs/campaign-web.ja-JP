@@ -4,20 +4,23 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 99%
+source-wordcount: '1314'
+ht-degree: 98%
 
 ---
 
 
 # 最初のメールを送信 {#first-email}
 
+
+
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="メールコンテンツ用生成 AI"
->abstract="アドビの生成 AI テクノロジーは、高度なアルゴリズムを利用して、非常に魅力的でパーソナライズされたコンテンツを生成します。生成 AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。競合他社に先んじて、メールコンテンツに対する生成 AI を使用してメールマーケティングゲームを向上させます。"
+>id="acw_homepage_card3"
+>title="メールの基本を学ぶ"
+>abstract="スタンドアロンのメール配信を作成することも、キャンペーンワークフローのコンテキストでメールを作成することもできます。配信の作成、オーディエンスの選択、E メールコンテンツのデザインの方法について説明します。"
+
 
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 

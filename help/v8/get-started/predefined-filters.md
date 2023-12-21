@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="ベータ版"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 # 定義済みフィルターを操作 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card4"
 >title="定義済みフィルター管理"
 >abstract="Campaign web では、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供するようになりました。1 回作成し、後で使用するために保存します。"
 

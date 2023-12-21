@@ -3,21 +3,25 @@ keywords: Campaign web;ホーム;人気のトピック
 description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Beta"
-source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
-workflow-type: ht
-source-wordcount: '481'
-ht-degree: 100%
+badge: label="左（心）室"
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 92%
 
 ---
 
 # Adobe Campaign v8 web ドキュメント {#campaign-documentation}
 
-<!--![](assets/do-not-localize/banner-documentationv8.png)-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="ヘルプとドキュメント"
+>abstract="Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい最新の UI は、マーケティングキャンペーンのデザインと配信を簡素化し、他のAdobeソリューションと共に一貫性を保ちます。"
 
 Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。[詳細情報](get-started/get-started.md)
 
->Campaign v8 web は現在ベータ版バージョンです。アクセス権は、一部のベータ版顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/whats-new.md)
+>[!AVAILABILITY]
+> Campaign v8 Web は現在、Limited Availability(LA) バージョンです。 アクセスは、少数の LA 顧客のセットに制限されています。 製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/whats-new.md)
 
 ## Campaign web の新機能
 

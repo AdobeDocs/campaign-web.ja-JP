@@ -4,14 +4,21 @@ title: オーディエンスの作成
 description: Adobe Campaign web でオーディエンスを作成する方法について説明します
 badge: label="ベータ版"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 94%
 
 ---
 
 # オーディエンスの作成 {#create-audiences}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn1"
+>title="オーディエンスの構成"
+>abstract="ビジュアルワークフローキャンバスに新しいオーディエンスを作成します。 ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。複数のオーディエンスを 1 つのオーディエンスに組み合わせたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つを複数のオーディエンスに分割したりします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

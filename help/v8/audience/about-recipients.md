@@ -3,10 +3,10 @@ title: 受信者とオーディエンスの操作
 description: 受信者 Campaign Web の使用方法を学ぶ
 badge: label="ベータ版"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 98%
+source-wordcount: '1049'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 98%
 Adobe Campaign では、配信のターゲット母集団はオーディエンスです。オーディエンスとは、類似した行動や特性を共有する一連のユーザーです。このユーザーのコレクションは、[以下のように](#audiences)、生成、選択、または読み込みが可能です。最も一般的なケースでは、オーディエンスはプロファイルで構成され、Adobe Campaign で[受信者](#recipients)として保存されます。また、[このセクションの](#targeting-dimensions)説明に従ってディメンションを変更することで、他のターゲットマッピングを操作することもできます。
 
 ## 受信者とは {#recipients}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn4"
+>title="受信者"
+>abstract="新しい受信者を作成し、強力なレポートやツールを使用して監視します。 受信者のプロファイルにアクセスし、フィルターオプションを使用して、受信者リストを参照し、属性を編集および更新します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -80,7 +86,7 @@ Adobe Campaign では、配信のターゲット母集団はオーディエン�
 
 また、以下に表示されているワークフローと配信で、他のビルトインターゲットマッピングを使用することもできます。
 
-| 名前 | 用途から | スキーマ |
+| 名前 | 用途 | スキーマ |
 |---|---|---|
 | 受信者 | 受信者への配信（組み込みの受信者テーブル） | nms:recipient |
 | 訪問者 | 紹介（バイラルマーケティング）などの方法でプロファイルを収集した訪問者への配信 | mns:visitor |
