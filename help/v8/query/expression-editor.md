@@ -2,10 +2,10 @@
 audience: end-user
 title: クエリモデラーを使用して最初のクエリを作成する
 description: Adobe Campaign Web Query Modeler で最初のクエリを作成する方法を説明します。
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 90%
+source-wordcount: '1846'
+ht-degree: 87%
 
 ---
 
@@ -127,6 +127,11 @@ ht-degree: 90%
    <td> AddYears(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> 定義されたセッション TZ を適用して、タイムスタンプ NTZ（タイムゾーンのないタイムスタンプ）を TZ（タイムゾーンを持つタイムスタンプ）に変換します<br/> </td> 
+   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> 日付のみを返します（時刻は 0:00）*<br /> </td> 
    <td> DateOnly(&lt;日付&gt;)<br /> </td>  
@@ -205,6 +210,11 @@ ht-degree: 90%
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> 年齢（月数）を返します<br /> </td> 
    <td> MonthsOld(&lt;日付&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> 範囲内で最も古い日付を返します<br /> </td> 
+   <td> 最古 (&lt;date date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -287,8 +297,8 @@ ht-degree: 90%
    <td> TruncYear(&lt;日付&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> 日付の週の日を表す数を返します<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> 日付の週の日を表す数を返します（0=月曜日、6=日曜日）<br /> </td> 
    <td> WeekDay(&lt;日付&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ ht-degree: 90%
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> 日付の年と月を表す数を返します<br /> </td> 
    <td> YearAndMonth(&lt;日付&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>YearsAgo</strong><br /> </td> 
+   <td> 指定された 2 つの日付の間の年数を返します<br /> </td> 
+   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
