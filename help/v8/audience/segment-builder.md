@@ -4,19 +4,15 @@ title: Campaign のルールビルダーを使用してオーディエンスを�
 description: ルールビルダーの操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="ベータ版"
-source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
 
 # ルールビルダーの操作 {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="ターゲットオーディエンス"
->abstract="配信ターゲットの作成がこれまで以上に簡単になりました。最新のルールビルダーでは、データベースから受信者やその他のターゲティングディメンションのフィルタリング条件を定義できるようになりました。Adobe Experience Platform オーディエンスを活用して、ターゲットオーディエンスをさらに絞り込んで、キャンペーンの効果を最大化します。"
 
 ルールビルダーを使用すると、データベースに含まれているデータをフィルタリングして、配信のターゲットとなる母集団を定義できます。ルールビルダーを使用して、**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用するワークフローからオーディエンスを作成することもできますし、配信の作成時に直接、1 回限りのオーディエンスを作成することもできます。
 

@@ -2,15 +2,20 @@
 audience: end-user
 title: クエリモデラーを操作
 description: Adobe Campaign Web クエリモデラーの操作方法を説明します。
-source-git-commit: 94350335df08ae9c24d88843c77554db1890ab4d
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 17%
+source-wordcount: '321'
+ht-degree: 14%
 
 ---
 
 # クエリモデラーを操作 {#segment-builder}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="新しいクエリモデラー"
+>abstract="Adobe Campaign Web には、クエリモデラーが備わっており、様々な条件に基づいて特定のターゲットを選択するためのデータベースのフィルタリングプロセスが簡単になります。 これには、高度な式や演算子の使用も含まれます。 クエリモデラーは、データをフィルタリングするルールを定義する必要があるすべてのコンテキストで使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
