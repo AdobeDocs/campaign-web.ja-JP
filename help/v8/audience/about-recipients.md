@@ -3,9 +3,9 @@ title: 受信者とオーディエンスの操作
 description: 受信者 Campaign Web の使用方法を学ぶ
 badge: label="ベータ版"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1053'
 ht-degree: 95%
 
 ---
@@ -21,6 +21,8 @@ Adobe Campaign では、配信のターゲット母集団はオーディエン�
 >id="acw_homepage_rn4"
 >title="受信者"
 >abstract="新しい受信者を作成し、強力なレポートやツールを使用して監視します。 受信者のプロファイルにアクセスし、フィルターオプションを使用して、受信者リストを参照し、属性を編集および更新します。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"

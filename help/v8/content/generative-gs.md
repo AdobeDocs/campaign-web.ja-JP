@@ -4,10 +4,10 @@ title: コンテンツアシスタントの基本を学ぶ
 description: コンテンツアシスタントの基本を学ぶ
 badge: label="アルファ版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '479'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 100%
 >id="acw_homepage_rn5"
 >title="メールコンテンツ用生成 AI"
 >abstract="アドビの生成 AI テクノロジーは、高度なアルゴリズムを利用して、非常に魅力的でパーソナライズされたコンテンツを生成します。生成 AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。競合他社に先んじて、メールコンテンツに対する生成 AI を使用してメールマーケティングゲームを向上させます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
+
 
 
 >[!CONTEXTUALHELP]
