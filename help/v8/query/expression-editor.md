@@ -2,10 +2,10 @@
 audience: end-user
 title: クエリモデラーを使用して最初のクエリを作成する
 description: Adobe Campaign Web Query Modeler で最初のクエリを作成する方法を説明します。
-source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
+source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 87%
+source-wordcount: '1917'
+ht-degree: 83%
 
 ---
 
@@ -313,8 +313,8 @@ ht-degree: 87%
   </tr>
   <tr> 
    <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> 指定された 2 つの日付の間の年数を返します<br /> </td> 
-   <td> YearsAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
+   <td> 指定された日付から現在の日付までの年数を返します<br /> </td> 
+   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -447,6 +447,11 @@ ht-degree: 87%
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
+  <!--MISSING INFO<tr> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+  </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> 条件が true の場合は値 1 を返します。そうでない場合は値 2 を返します<br /> </td> 
@@ -467,6 +472,11 @@ ht-degree: 87%
    <td> 値 1 = 値 2 の場合は値 3 を返します。そうでない場合は値 4 を返します<br /> </td> 
    <td> Decode(&lt;値 1&gt;, &lt;値 2&gt;, &lt;値 3&gt;, &lt;値 4&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>DefaultFolder</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 値 1 を返します（case 関数のパラメーターとしてのみ使用できます）<br /> </td> 
@@ -497,6 +507,11 @@ ht-degree: 87%
    <td> 文字列 1 が空の場合は値 2 を返し、それ以外の場合は値 3 を返します<br /> </td> 
    <td> IsEmptyString(&lt;値 1&gt;, &lt;値 2&gt;, &lt;値 3&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 引数が NULL の場合は、空の文字列を返します<br /> </td> 
@@ -562,6 +577,11 @@ ht-degree: 87%
    <td> Charindex(&lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> 文字列のサイズ（バイト単位）を返します<br /> </td> 
+   <td> dataLength(&lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> 文字列の n 番目（1 から n）のラインを返します<br /> </td> 
    <td> GetLine(&lt;文字列&gt;)<br /></td> 
@@ -587,11 +607,6 @@ ht-degree: 87%
    <td> JuxtWords3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> 左側の完成した文字列を返します<br /> </td> 
-   <td> LPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /></td> 
-  </tr> 
-  <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 文字列の最初の n 文字を返します<br /> </td> 
    <td> Left(&lt;文字列&gt;, &lt;数値&gt;)<br /></td> 
@@ -601,10 +616,20 @@ ht-degree: 87%
    <td> 文字列の長さを返します<br /> </td> 
    <td> Length(&lt;文字列&gt;)<br /></td> 
   </tr> 
+  <!--<tr> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> -->
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 文字列を小文字で返します<br /> </td> 
    <td> Lower(&lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> 左側の完成した文字列を返します<br /> </td> 
+   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -622,9 +647,9 @@ ht-degree: 87%
    <td> MemoContains(&lt;メモ&gt;、&lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> 右側の完成した文字列を返します<br /> </td> 
-   <td> RPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /></td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> XPath とフィールドデータから XML フィールドの値を抽出します<br /> </td> 
+   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -632,9 +657,24 @@ ht-degree: 87%
    <td> Right(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> 右側の完成した文字列を返します<br /> </td> 
+   <td> RPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> 文字列の右側の空白を削除します<br /> </td> 
    <td> Rtrim(&lt;文字列&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha256Digest</strong><br /> </td> 
+   <td> 文字列の SHA256 キーの 16 進数表現。<br /> </td> 
+   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha512Digest</strong><br /> </td> 
+   <td> 文字列の SHA512 キーの 16 進数表現。<br /> </td> 
+   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -666,11 +706,6 @@ ht-degree: 87%
    <td> 他の 2 つのパラメーターが等しい場合に、パラメーターとして渡されたリンクの外部（テキスト）キーを返します<br /> </td> 
    <td> VirtualLinkStr(&lt;文字列&gt;, &lt;数値&gt;, &lt;数値&gt;)<br /> </td>  
   </tr> 
-  <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> 文字列のサイズを返します<br /> </td> 
-   <td> dataLength(&lt;文字列&gt;)<br /> </td>  
-  </tr> 
  </tbody> 
 </table>
 
@@ -682,6 +717,11 @@ ht-degree: 87%
    <td> <strong>名前</strong><br /> </td> 
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> 第 1 パラメーターとして入力された SQL 関数呼び出しを、第 2 パラメーターとして入力されたフィールドの「パーティション」または「並べ替え」に対して実行します。<br /> </td> 
+   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
