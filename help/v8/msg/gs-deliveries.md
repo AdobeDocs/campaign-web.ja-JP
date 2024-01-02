@@ -1,14 +1,15 @@
 ---
 product: campaign
 title: 配信の操作
-description: Campaign Web での最初の配信の作成方法を説明します
+description: Campaign web で最初の配信を作成する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
-workflow-type: tm+mt
+exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
+source-git-commit: 62887b8ba24163885ad0a42c790f3d4dc8f9499e
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +78,7 @@ ht-degree: 98%
 
 ## パーソナライゼーションを追加 {#personalization}
 
-Adobe Campaign が配信するメッセージは、様々な方法でパーソナライズすることができます。[パーソナライゼーション機能の詳細を説明します](../personalization/gs-personalization.md).
+Adobe Campaign が配信するメッセージは、様々な方法でパーソナライズすることができます。[詳しくは、パーソナライゼーション機能を参照してください](../personalization/gs-personalization.md)。
 
 Campaign を使用して動的コンテンツを作成し、パーソナライズされたメッセージを送信します。パーソナライゼーション機能を組み合わせて、メッセージを改善し、カスタムなユーザーエクスペリエンスを実現することができます。
 

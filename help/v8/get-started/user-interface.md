@@ -5,9 +5,9 @@ description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -205,13 +205,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="今後の連絡は不要な受信者"
->abstract="今後の連絡は不要な受信者"
+>title="受信者の今後の連絡は不要"
+>abstract="受信者の今後の連絡は不要"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
->title="受信者その他"
->abstract="受信者その他"
+>title="受信者のその他"
+>abstract="受信者のその他"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
@@ -245,8 +245,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
->title="受信者読み取り専用プロファイル"
->abstract="受信者読み取り専用プロファイル"
+>title="受信者の読み取り専用プロファイル"
+>abstract="受信者の読み取り専用プロファイル"
 
 
 
@@ -254,8 +254,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_additionaldata"
->title="追加データのテストプロファイル"
->abstract="追加データのテストプロファイル"
+>title="テストプロファイルの追加データ"
+>abstract="テストプロファイルの追加データ"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
@@ -391,7 +391,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="紐付けアクティビティ"
->abstract="以下を使用します。 **紐づけ** 「 」アクティビティを使用して、識別されていないデータを既存のリソースにリンクします。"
+>abstract="「**紐付け**」アクティビティを使用すると、識別されていないデータを既存のリソースにリンクできます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -430,8 +430,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
->title="紐付け「紐付けなしのデータを保持」オプション"
->abstract="紐付け「紐付けなしのデータを保持」オプション"
+>title="紐付けの「紐付けられていないデータを保持」オプション"
+>abstract="紐付けの「紐付けられていないデータを保持」オプション"
 
 
 
@@ -559,20 +559,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="「ファイル読み込み」アクティビティの管理を却下"
->abstract="「ファイル読み込み」アクティビティの管理を却下"
+>title="「ファイルを読み込み」アクティビティの管理を却下"
+>abstract="「ファイルを読み込み」アクティビティの管理を却下"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
->title="管理の却下のアウトバウンドトランジション"
->abstract="管理の却下のアウトバウンドトランジション"
+>title="管理のアウトバウンドトランジションを却下"
+>abstract="管理のアウトバウンドトランジションを却下"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition_reject"
->title="却下の管理アウトバウンドトランジションを却下"
->abstract="却下の管理アウトバウンドトランジションを却下"
+>title="却下に対する管理のアウトバウンドトランジションを却下"
+>abstract="却下に対する管理のアウトバウンドトランジションを却下"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_formatting"
->title="ファイル読み込みアクティビティの形式設定"
->abstract="ファイル読み込みアクティビティの形式設定"
+>title="「ファイルを読み込み」アクティビティの書式設定"
+>abstract="「ファイルを読み込み」アクティビティの書式設定"

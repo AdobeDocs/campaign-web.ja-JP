@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: 配信テンプレートの使用
-description: Campaign Web で配信テンプレートを作成して使用する方法を説明します。
+description: Campaign web で配信テンプレートを作成および使用する方法について説明します
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 テンプレートには、次の項目を含めることができます。
 
-* The **フォルダー** および **実行フォルダー** 」と入力します。 「 」フォルダーは、配信テンプレートが保存される場所です。 実行フォルダーは、このテンプレートに基づいて作成された配信が保存されるフォルダーです。
+* テンプレートの&#x200B;**フォルダー**&#x200B;と&#x200B;**実行フォルダー**。フォルダーは、配信テンプレートが保存される場所です。実行フォルダーは、このテンプレートに基づいて作成された配信が保存されるフォルダーです。
 * [タイポロジ](../advanced-settings/delivery-settings.md#typology),
 * 送信者のアドレス、
 * [オーディエンス](../audience/about-recipients.md)（[コントロール母集団](../audience/control-group.md)を含む）
@@ -48,7 +48,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="配信テンプレートを操作"
->abstract="配信テンプレートを使用して、キャンペーン全体で将来使用するための配信設定を作成および保存します。 配信テンプレートは、ゼロから作成したり、既存のテンプレートを複製したり、配信をテンプレートに変換したりできます。"
+>abstract="配信テンプレートを使用して、キャンペーン全体で今後使用するための配信設定を作成および保存します。配信テンプレートは、ゼロから作成したり、既存のテンプレートを複製したり、配信をテンプレートに変換したりできます。"
 
 
 コンテンツテンプレートリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;を選択し、「**テンプレート**」タブを参照します。
@@ -121,7 +121,7 @@ ht-degree: 92%
 
 配信をテンプレートとして保存するには、次の手順に従います。
 
-1. 次を参照： **[!UICONTROL キャンペーン管理]** > **[!UICONTROL 配信]** メニュー。
+1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;メニューを参照します。
 1. 「**[!UICONTROL 参照]**」タブで、目的の配信名の右側にある「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL テンプレートとしてコピー]**」を選択します。
 
    ![](assets/templates-convert-delivery.png)

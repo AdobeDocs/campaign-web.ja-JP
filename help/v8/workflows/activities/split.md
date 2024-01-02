@@ -5,8 +5,8 @@ description: 分割ワークフローアクティビティの使用方法を説�
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
-workflow-type: tm+mt
-source-wordcount: '694'
+workflow-type: ht
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
