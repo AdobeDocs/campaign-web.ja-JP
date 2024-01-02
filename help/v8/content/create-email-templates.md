@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="左（心）室"
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 12%
@@ -140,7 +140,7 @@ ht-degree: 12%
 
 これで、内で E メールを作成する際に、このテンプレートを使用する準備が整いました。 [!DNL Adobe Campaign]. [詳細情報](use-email-templates.md)
 
-## メールコンテンツをテンプレートとして保存 {#save-as-template}
+### メールコンテンツをテンプレートとして保存 {#save-as-template}
 
 [メールをデザイン](create-email-content.md)したら、後で再利用できるように、このコンテンツをテンプレートとして保存できます。保存済みのテンプレートは、Adobe Campaign 環境のすべてのユーザーが使用できます。
 
