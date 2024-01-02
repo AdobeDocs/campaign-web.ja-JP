@@ -4,10 +4,10 @@ title: ファイルから受信者をターゲット設定する
 description: 外部ファイルの受信者を使用してメールオーディエンスを作成する方法を学ぶ
 badge: label="ベータ版"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 86%
 
 ---
 
@@ -21,26 +21,25 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="列の定義"
->abstract="ローカルファイルから挿入する列の形式を確認します。"
+>abstract="外部ファイルの列の形式を確認します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="書式設定パラメーター"
->abstract="ファイルの書式設定パラメーターを確認します。"
+>abstract="外部ファイルの形式設定パラメーターを確認します。"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="ファイルをプレビュー"
->abstract="ファイルのプレビューを確認します。この画面には最大 30 個のレコードのみが表示されます。"
+>abstract="外部ファイルの列のプレビューを確認します。 この画面には最大 30 個のレコードのみが表示されます。"
 
 
-
-インターフェイスから Campaign に直接プロファイルをアップロードすることはできませんが、外部ファイルに保存されたプロファイルをターゲット設定できます。プロファイルはデータベースに追加されませんが、入力ファイル内のすべてのフィールドを[パーソナライゼーション](../personalization/gs-personalization.md)に使用できます。サポートされるファイル形式は、テキスト（TXT）とコンマ区切り値（CSV）です。
+外部ファイルに保存されたプロファイルをターゲットに設定することができます。 プロファイルはデータベースに追加されませんが、入力ファイル内のすべてのフィールドを[パーソナライゼーション](../personalization/gs-personalization.md)に使用できます。サポートされるファイル形式は、テキスト（TXT）とコンマ区切り値（CSV）です。この記事では、スタンドアロンの E メール配信を作成する際に外部プロファイルを読み込む方法について説明します。 ワークフロー内のファイルからデータを読み込むには、 [このページ](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* この機能は、**スタンドアロンメール配信**&#x200B;でのみ使用できます。ワークフローや SMS またはプッシュ配信では使用できません。
+>* この機能は、次の場合にのみ使用できます。 **電子メール配信**. SMS またはプッシュ配信では使用できません。
 >
 >* 外部ファイルからターゲット母集団を読み込む場合は、[コントロール母集団](control-group.md)を使用できません。
 >

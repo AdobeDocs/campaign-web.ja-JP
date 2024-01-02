@@ -4,10 +4,10 @@ title: スケジューラーワークフローアクティビティの使用
 description: スケジューラーワークフローアクティビティの使用方法について説明します
 badge: label="Beta"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '526'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 * ワークフローで 1 回限りの配信を送信する場合は、スケジューラーアクティビティを追加して、**1 回**&#x200B;だけ実行するように設定できます。また、配信の設定で&#x200B;**スケジュール**&#x200B;を定義することもできます。
 * ワークフローで繰り返し配信を送信する場合は、**スケジューラー**&#x200B;アクティビティを使用して実行頻度を設定する必要があります。繰り返し配信アクティビティでは、スケジュールを定義できません。
 
-## 設定{#scheduler-configuration}
+## スケジューラーアクティビティの設定 {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"

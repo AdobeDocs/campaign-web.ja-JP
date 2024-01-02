@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
-workflow-type: ht
-source-wordcount: '1513'
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+workflow-type: tm+mt
+source-wordcount: '1388'
 ht-degree: 100%
 
 ---
@@ -388,52 +388,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="紐付けアクティビティ"
->abstract="「**紐付け**」アクティビティを使用すると、識別されていないデータを既存のリソースにリンクできます。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="紐付けターゲティング"
->abstract="紐付けターゲティング"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="紐付けルール"
->abstract="紐付けルール"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="紐付けターゲティングディメンション"
->abstract="紐付けターゲティングディメンション"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="紐付け選択フィールド"
->abstract="紐付け選択フィールド"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="紐付け選択属性"
->abstract="紐付け選択属性"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="紐付け作成条件"
->abstract="紐付け作成条件"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="紐付けで補集合を生成"
->abstract="紐付けで補集合を生成"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="紐付けの「紐付けられていないデータを保持」オプション"
->abstract="紐付けの「紐付けられていないデータを保持」オプション"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -537,42 +491,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="ファイルを読み込みアクティビティ"
->abstract="ファイルを読み込みアクティビティ"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="サンプルファイル"
->abstract="サンプルファイル"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="ファイルの名前"
->abstract="ファイルの名前"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="ターゲットデータベース"
->abstract="ターゲットデータベース"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="「ファイルを読み込み」アクティビティの管理を却下"
->abstract="「ファイルを読み込み」アクティビティの管理を却下"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="管理のアウトバウンドトランジションを却下"
->abstract="管理のアウトバウンドトランジションを却下"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="却下に対する管理のアウトバウンドトランジションを却下"
->abstract="却下に対する管理のアウトバウンドトランジションを却下"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="「ファイルを読み込み」アクティビティの書式設定"
->abstract="「ファイルを読み込み」アクティビティの書式設定"

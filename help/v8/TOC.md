@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 96%
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -122,14 +122,16 @@ ht-degree: 96%
       + [メール、SMS、プッシュ](workflows/activities/channels.md)
       + [エンリッチメント](workflows/activities/enrichment.md)
       + [分岐](workflows/activities/fork.md)
+      + [ファイルを読み込み](workflows/activities/load-file.md)
+      + [紐付け](workflows/activities/reconciliation.md)
       + [オーディエンスを保存](workflows/activities/save-audience.md)
       + [スケジューラー](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
       + [待機](workflows/activities/wait.md)
 + データベースに対するクエリ {#query-database}
    + [クエリモデラーを操作](query/query-modeler-overview.md)
-   + [最初のクエリを作成](query/build-query.md)
-   + [式を編集](query/expression-editor.md)
+   + [最初のクエリの作成](query/build-query.md)
+   + [式の編集](query/expression-editor.md)
    + [クエリのサンプル](query/query-samples.md)
 + レポート {#reports}
    + [レポートの基本を学ぶ](reporting/gs-reports.md)
