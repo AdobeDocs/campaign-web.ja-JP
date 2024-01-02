@@ -4,8 +4,8 @@ title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
-workflow-type: ht
+source-git-commit: 225585f572580bc724c0a955cc1c01da87f37ee2
+workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 
-事前定義された[デザインテンプレート](../content/email-sample-templates.md)に基づき、メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
+事前定義された[デザインテンプレート](../content/create-email-templates.md)に基づき、メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
 
 ## メール配信の作成 {#create-email}
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 1. メールのコンテンツをデザインするには、「**[!UICONTROL メール本文を編集]**」ボタンをクリックします。
 
-   メールコンテンツの作成に使用する方法を選択します。この例では、[事前定義済みのコンテンツテンプレートを使用します](../content/email-sample-templates.md)。
+   メールコンテンツの作成に使用する方法を選択します。この例では、[事前定義済みのコンテンツテンプレートを使用します](../content/create-email-templates.md)。
 
    ![](assets/select-template.png)
 

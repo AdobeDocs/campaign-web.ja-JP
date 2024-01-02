@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1360'
 ht-degree: 100%
 
 ---
@@ -357,36 +357,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="フラグメントの詳細"
 >abstract="フラグメントの詳細"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="コンテンツテンプレート"
->abstract="コンテンツテンプレート"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="コンテンツテンプレートのプロパティ"
->abstract="コンテンツテンプレートのプロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="コンテンツテンプレートのデザイン"
->abstract="コンテンツテンプレートのデザイン"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="コンテンツテンプレートの選択"
->abstract="コンテンツテンプレートの選択"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="コンテンツテンプレートの編集"
->abstract="コンテンツテンプレートの編集"
-
-
 
 
 >[!CONTEXTUALHELP]

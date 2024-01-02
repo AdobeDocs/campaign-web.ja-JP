@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 98%
 
 ---
@@ -36,12 +36,13 @@ ht-degree: 98%
       + [最初のメールを作成](email/create-email.md)
       + メールコンテンツを定義 {#content}
          + [メールコンテンツを設定](content/edit-content.md)
+         + [コンテンツテンプレートの使用](content/create-email-templates.md)
          + メールの作成を開始 {#start-design}
             + [E メールデザイナーの基本を学ぶ](content/get-started-email-designer.md)
             + [ゼロから開始](content/create-email-content.md)
             + [メールコンテンツの読み込み](content/existing-content.md)
             + [独自コンテンツのコーディング](content/code-content.md)
-            + [メールコンテンツテンプレートの使用](content/email-sample-templates.md)
+            + [メールコンテンツテンプレートの使用](content/use-email-templates.md)
          + コンテンツをデザイン {#design-content}
             + [コンテンツコンポーネントの使用](content/content-components.md)
             + [リンクの追加とメッセージのトラッキング](content/message-tracking.md)
