@@ -3,7 +3,7 @@ audience: end-user
 title: 紐付けワークフローアクティビティの使用
 description: 紐付けワークフローアクティビティの使用方法を説明します
 badge: label="限定提供（LA）"
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 19%
@@ -64,7 +64,7 @@ The **紐づけ** アクティビティは **ターゲット設定** 「 」ア�
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="ターゲティングディメンションの選択"
 >abstract="紐付けするインバウンドデータのターゲティングディメンションを選択します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/about-recipients.html?lang=en#targeting-dimensions" text="ターゲティングディメンション"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/gs-audiences-recipients.html#targeting-dimensions" text="ターゲティングディメンション"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
