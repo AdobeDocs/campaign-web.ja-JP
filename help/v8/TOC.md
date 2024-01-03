@@ -98,7 +98,7 @@ ht-degree: 95%
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
       + [ファイルからオーディエンスを読み込み](audience/file-audience.md)
       + [コントロール母集団を設定](audience/control-group.md)
-   + [ルールビルダーの使用](audience/segment-builder.md)
+   + [ルールビルダーを操作](audience/segment-builder.md)
    + 購読サービスの操作 {#work-with-services}
       + [サービスの管理](audience/manage-services.md)
       + [購読者の管理](audience/manage-subscribers.md)
