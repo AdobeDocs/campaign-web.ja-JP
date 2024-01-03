@@ -2,10 +2,10 @@
 title: プロファイルの監視と管理
 description: Campaign Web でプロファイルを監視および管理する方法について説明します。
 badge: label="限定提供（LA）"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 11%
+source-wordcount: '662'
+ht-degree: 9%
 
 ---
 
@@ -38,12 +38,52 @@ Adobe Campaign Web のプロファイルは、データベースに格納され�
 
 ## プロファイルの属性へのアクセスと編集 {#access}
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_details"
+>title="基本の詳細"
+>abstract="この節では、プロファイルの基本的な詳細に関するインサイトを提供します。 情報を変更するには、各フィールド内で直接変更をおこない、 **保存** ボタンをクリックします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_contactinformation"
+>title="連絡先情報"
+>abstract="この節では、プロファイルの連絡先情報に関するインサイトを提供します。 情報を変更するには、各フィールド内で直接変更をおこない、 **保存** ボタンをクリックします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_address"
+>title= "Address"
+>abstract="このセクションでは、プロファイルの住所と住所の質に関するインサイトを提供します。 情報を変更するには、各フィールド内で直接変更をおこない、 **保存** ボタンをクリックします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_account"
+>title="アカウントの詳細"
+>abstract="この節では、プロファイルのアカウント詳細に関するインサイトを提供します。 情報を変更するには、各フィールド内で直接変更をおこない、 **保存** ボタンをクリックします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="受信者の今後の連絡は不要"
+>abstract="この節では、プロファイルの連絡先設定に関するインサイトを提供します。 情報を変更するには、各フィールド内で直接変更をおこない、 **保存** ボタンをクリックします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_customfields"
+>title="カスタムフィールド"
+>abstract="カスタムフィールドは、お使いのインスタンスに合わせて設定された、ニーズに合わせた特定の属性です。 情報を変更するには、各フィールド内で直接変更をおこない、 **保存** ボタンをクリックします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="その他"
+>abstract="この節では、追加の組み込み属性を提供します。 情報を変更するには、各フィールド内で直接変更をおこない、 **保存** ボタンをクリックします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_subscription_list"
+>title="受信者の購読リスト"
+>abstract="このタブには、プロファイルが購読しているすべてのサービスが表示されます。"
+
 プロファイルの詳細にアクセスするには、プロファイルリストでプロファイルの名前をクリックします。
 
 ![](assets/profiles-details.png)
 
 この画面から、プロファイルの詳細情報にアクセスできます。
 
-* The **[!UICONTROL 詳細]** 「 」タブでは、プロファイルの属性を参照できます。 属性を編集するには、目的のフィールドに変更を加え、 **[!UICONTROL 保存]** 」ボタンをクリックします。
+* The **[!UICONTROL 詳細]** 「 」タブを使用すると、プロファイルの組み込み属性とカスタム属性を参照できます。 属性を編集するには、目的のフィールドに変更を加え、 **[!UICONTROL 保存]** 」ボタンをクリックします。
 * The **[!UICONTROL 購読]** 「 」タブには、プロファイルが購読しているサービスに関する情報が表示されます。 [サブスクリプションサービスの使用方法を学ぶ](manage-services.md)
 * The **[!UICONTROL ログ]** 画面の右上隅にあるボタンを使用すると、送信、除外、トラッキングのログや、プロファイルに提示された提案を通じて、プロファイルのインタラクションの履歴を表示できます。
