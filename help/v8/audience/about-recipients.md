@@ -2,9 +2,9 @@
 title: プロファイルの監視と管理
 description: Campaign Web でプロファイルを監視および管理する方法について説明します。
 badge: label="限定提供（LA）"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 9%
 
 ---
@@ -50,7 +50,7 @@ Adobe Campaign Web のプロファイルは、データベースに格納され�
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="住所"
 >abstract="このセクションでは、プロファイルの住所と住所の質に関するインサイトを提供します。 情報を変更するには、各フィールド内で直接変更をおこない、 **保存** ボタンをクリックします。"
 
 >[!CONTEXTUALHELP]
