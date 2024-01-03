@@ -2,9 +2,10 @@
 audience: end-user
 title: フィルターリスト
 description: 組み込みフィルターとカスタムフィルターを使用してAdobe Campaign Web リストをフィルターする方法について説明します。
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+badge: label="限定提供（LA）"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '308'
 ht-degree: 6%
 
 ---

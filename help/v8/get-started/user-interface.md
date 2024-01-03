@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1452'
 ht-degree: 90%
 
 ---
@@ -179,41 +179,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="受信者の作成"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="受信者の詳細"
->abstract="受信者の詳細"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="受信者の連絡先情報"
->abstract="受信者の連絡先情報"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="受信者のアドレス"
->abstract="受信者のアドレス"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="受信者のアカウント"
->abstract="受信者のアカウント"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="受信者のカスタムフィールド"
->abstract="受信者のカスタムフィールド"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="受信者の今後の連絡は不要"
->abstract="受信者の今後の連絡は不要"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="受信者のその他"
->abstract="受信者のその他"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="受信者のカードの概要"
 >abstract="受信者のカードの概要"
@@ -222,11 +187,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="受信者のタッチポイント"
 >abstract="受信者のタッチポイント"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="受信者の購読リスト"
->abstract="受信者の購読リスト"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
