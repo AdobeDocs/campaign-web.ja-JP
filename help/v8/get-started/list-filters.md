@@ -4,10 +4,10 @@ title: リストを参照、検索、フィルタリング
 description: Campaign web v8 のリストを参照およびフィルタリングする方法の確認
 badge: label="限られた可用性"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 60%
+source-wordcount: '303'
+ht-degree: 89%
 
 ---
 
@@ -33,8 +33,6 @@ ht-degree: 60%
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-現在のリストですべての属性を表示するには、**詳細属性を表示**&#x200B;切替スイッチを使用します。[詳細情報](#adv-attributes)
-
 ## データを並べ替え {#sort-lists}
 
 また、任意の列見出しをクリックすると、リスト内の項目を並べ替えることができます。リストがその列で並べ替えられていることを示す（上または下）矢印が表示されます。
@@ -59,27 +57,29 @@ ht-degree: 60%
 
 カスタムフィルターは、Campaign クエリモデラーを使用して設計されます。 使用方法の詳細については、 [この節](../query/query-modeler-overview.md).
 
-## 詳細属性を使用 {#adv-attributes}
+<!--
+## Use advanced attributes {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="詳細属性を表示"
->abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。 をアクティブにする **詳細属性の表示** 切り替えて、ルールビルダーの左側のパレットで、現在のリストで使用可能なすべての属性（ノード、グループ、1 対 1 のリンク、1 対多のリンクなど）を表示します。"
+>title="Display advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="ルールビルダーの詳細フィールド"
->abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。 をアクティブにする **詳細属性の表示** 切り替えて、ルールビルダーの左側のパレットで、現在のリストで使用可能なすべての属性（ノード、グループ、1 対 1 のリンク、1 対多のリンクなど）を表示します。"
+>title="Rule builder advanced fields"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="ルールビルダーの詳細属性"
->abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。 をアクティブにする **詳細属性の表示** 切り替えて、ルールビルダーの左側のパレットで、現在のリストで使用可能なすべての属性（ノード、グループ、1 対 1 のリンク、1 対多のリンクなど）を表示します。"
+>title="Rule builder advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 
-デフォルトでは、属性リストおよびフィルター設定画面には、最も一般的な属性のみが表示されます。データスキーマで `advanced` 属性として設定した属性は、設定画面では非表示になります。
+Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens. 
 
-をアクティブにする **詳細属性の表示** 切り替えて、ルールビルダーの左側のパレットで、現在のリストで使用可能なすべての属性（ノード、グループ、1 対 1 のリンク、1 対多のリンクなど）を表示します。 属性リストは即座に更新されます。
+Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+-->

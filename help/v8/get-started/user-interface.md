@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="ベータ版"
-source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 100%
+source-wordcount: '1506'
+ht-degree: 90%
 
 ---
 
@@ -461,4 +461,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
+<!--
+Deprecated IDs - to remove in GA: -->
 
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="詳細属性を表示"
+>abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。 をアクティブにする **詳細属性の表示** 切り替えて、ルールビルダーの左側のパレットで、現在のリストで使用可能なすべての属性（ノード、グループ、1 対 1 のリンク、1 対多のリンクなど）を表示します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="ルールビルダーの詳細フィールド"
+>abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。 をアクティブにする **詳細属性の表示** 切り替えて、ルールビルダーの左側のパレットで、現在のリストで使用可能なすべての属性（ノード、グループ、1 対 1 のリンク、1 対多のリンクなど）を表示します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="ルールビルダーの詳細属性"
+>abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。 をアクティブにする **詳細属性の表示** 切り替えて、ルールビルダーの左側のパレットで、現在のリストで使用可能なすべての属性（ノード、グループ、1 対 1 のリンク、1 対多のリンクなど）を表示します。"
