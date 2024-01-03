@@ -3,11 +3,11 @@ audience: end-user
 title: 配信のプレビューとテストについて
 description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="Beta"
-source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
+badge: label="限定提供（LA）"
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 86%
 
 ---
 
@@ -30,9 +30,7 @@ ht-degree: 100%
 * テストと検証のために、特定の受信者またはサブスクライバーに対する[テスト配信](test-deliveries.md)（配達確認）の送信
 * 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](email-rendering.md)します。
 
-これらのアクションは、配信のコンテンツを編集画面からアクセスできる「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。
-
-<!-- from the [Edit content](../content/edit-content.md) screen or from the [Email Designer](../content/get-started-email-designer.md).-->
+これらのアクションは、 **[!UICONTROL コンテンツをシミュレート]** ボタン ( 配信のコンテンツを編集画面、または [E メールデザイナー](../content/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 
