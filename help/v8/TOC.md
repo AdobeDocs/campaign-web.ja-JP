@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '502'
+ht-degree: 90%
 
 ---
 
@@ -89,7 +89,9 @@ ht-degree: 95%
       + [メールのレンダリング](preview-test/email-rendering.md)
 + オーディエンスと受信者 {#audiences}
    + [受信者とオーディエンスの概要](audience/gs-audiences-recipients.md)
-   + [受信者の操作](audience/about-recipients.md)
+   + 受信者の操作 {#work-with-recipients}
+      + [プロファイルの管理](audience/about-recipients.md)
+      + [テストプロファイルの作成と管理](audience/test-profiles.md)
    + オーディエンスの操作 {#audiences}
       + [オーディエンスの作成](audience/create-audience.md)
       + [オーディエンスの監視と管理](audience/manage-audience.md)
@@ -147,6 +149,11 @@ ht-degree: 95%
       + [SMS 配信レポート](reporting/sms-report.md)
    + キャンペーンレポート {#campaign-report}
       + [キャンペーンレポートへのアクセス](reporting/campaign-reports.md)
-      + [キャンペーンレポートのメール送信](reporting/campaign-reports-email.md)
-      + [キャンペーンレポートのプッシュ](reporting/campaign-reports-push.md)
-      + [キャンペーンレポートの SMS 送信](reporting/campaign-reports-sms.md)
+      + [E メールキャンペーンレポート](reporting/campaign-reports-email.md)
+      + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
+      + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
+   + グローバルレポート {#global-report}
+      + [グローバルレポートへのアクセス](reporting/global-reports.md)
+      + [E メールのグローバルレポート](reporting/global-report-email.md)
+      + [プッシュグローバルレポート](reporting/global-report-push.md)
+      + [SMS グローバルレポート](reporting/global-report-sms.md)
