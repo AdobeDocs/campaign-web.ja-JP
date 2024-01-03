@@ -2,12 +2,12 @@
 audience: end-user
 title: リストを参照、検索、フィルタリング
 description: Campaign web v8 のリストを参照およびフィルタリングする方法の確認
-badge: label="Beta"
+badge: label="限られた可用性"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 69%
+source-wordcount: '538'
+ht-degree: 60%
 
 ---
 
@@ -53,13 +53,11 @@ ht-degree: 69%
 
 データにカスタムフィルターを作成するには、フィルターの下部まで参照し、「**ルールを追加**」ボタンをクリックしてルールビルダーにアクセスします。
 
-属性をドラッグ＆ドロップして、**詳細フィルター**&#x200B;画面でフィルター条件を作成します。
+でフィルター条件を定義し、組み合わせます。 **詳細フィルター** 画面。
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-現在のリストですべての属性を表示するには、**詳細属性を表示**&#x200B;切替スイッチを使用します。[詳細情報](#adv-attributes)
-
-カスタムフィルターのルールビルダーの動作原則は、オーディエンスの作成に使用されるルールビルダーに似ています。使用方法について詳しくは、[オーディエンスのドキュメント](../audience/segment-builder.md)を参照してください。
+カスタムフィルターは、Campaign クエリモデラーを使用して設計されます。 使用方法の詳細については、 [この節](../query/query-modeler-overview.md).
 
 ## 詳細属性を使用 {#adv-attributes}
 
