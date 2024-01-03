@@ -2,11 +2,11 @@
 audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2245'
 ht-degree: 100%
 
 ---

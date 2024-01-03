@@ -2,11 +2,11 @@
 audience: end-user
 title: プッシュ配信レポート
 description: プッシュ配信レポートへのアクセス方法と使用方法を学ぶ
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: dcd8dfe76a69305bb2aca4d2e94d447bea2668db
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '478'
 ht-degree: 100%
 
 ---

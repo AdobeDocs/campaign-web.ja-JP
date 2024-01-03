@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 90%
+source-wordcount: '508'
+ht-degree: 88%
 
 ---
 
@@ -143,17 +143,17 @@ ht-degree: 90%
    + [レポートの基本を学ぶ](reporting/gs-reports.md)
    + [主要業績評価指標](reporting/kpis.md)
    + 配信レポート {#delivery-report}
-      + [配信レポートへのアクセス](reporting/delivery-reports.md)
+      + [配信レポートの概要](reporting/delivery-reports.md)
       + [メール配信レポート](reporting/email-report.md)
       + [プッシュ配信レポート](reporting/push-report.md)
       + [SMS 配信レポート](reporting/sms-report.md)
    + キャンペーンレポート {#campaign-report}
-      + [キャンペーンレポートへのアクセス](reporting/campaign-reports.md)
+      + [キャンペーンレポートの概要](reporting/campaign-reports.md)
       + [E メールキャンペーンレポート](reporting/campaign-reports-email.md)
       + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
       + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
    + グローバルレポート {#global-report}
-      + [グローバルレポートへのアクセス](reporting/global-reports.md)
+      + [グローバルレポートの概要](reporting/global-reports.md)
       + [E メールのグローバルレポート](reporting/global-report-email.md)
       + [プッシュグローバルレポート](reporting/global-report-push.md)
       + [SMS グローバルレポート](reporting/global-report-sms.md)

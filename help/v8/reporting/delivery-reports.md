@@ -3,21 +3,20 @@ audience: end-user
 title: 配信レポート
 description: 配信レポートへのアクセス方法と使用方法について説明します
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="ベータ版"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+badge: label="限定提供（LA）"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 97%
 
 ---
 
-# 配信レポートへのアクセス {#reports}
+# 配信レポートの概要 {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="配信の集計レポート"
 >abstract="集計データレポートを表示する配信を 2 つ以上選択します。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"

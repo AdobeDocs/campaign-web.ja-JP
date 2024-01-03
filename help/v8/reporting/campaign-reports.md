@@ -2,16 +2,16 @@
 audience: end-user
 title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 94%
 
 ---
 
-# キャンペーンレポート {#campaign-reports}
+# キャンペーンレポートの概要 {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]
