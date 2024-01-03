@@ -3,11 +3,11 @@ audience: end-user
 title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="ベータ版"
-source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
-workflow-type: ht
-source-wordcount: '1157'
-ht-degree: 100%
+badge: label="左（心）室"
+source-git-commit: 9ff8b19507f34afcaca95d5eed0ce45c71710463
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 93%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
    メッセージチャネルに応じて、配達確認を次のタイプの受信者に送信できます。
 
-   * SMS やメールの場合は、[テストプロファイル](#test-profiles)を使用できます。これは、データベース内の特定の追加受信者です。これらの受信者は、[!DNL Campaign] クライアントコンソールで作成します。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください
+   * SMS やメールの場合は、[テストプロファイル](#test-profiles)を使用できます。これは、データベース内の特定の追加受信者です。[詳細情報](../audience/test-profiles.md)
 
    * SMS やメールの場合は、[メインターゲットからの代用](#substitution-profiles)モードを使用したり、既存プロファイルのパーソナライゼーションデータを使用したりすることもできます。この代用モードでは、配達確認をメールのテストアドレスまたは電話番号に送信します。これにより、プロファイルが受け取るコンテンツが正確に表示され、メッセージ受信者と同じエクスペリエンスが得られます。
 
@@ -73,7 +73,9 @@ ht-degree: 100%
 >title="メインオーディエンスにテストプロファイルを含める"
 >abstract="テスト配信の受信者にも最終メッセージを送信するには、このオプションを有効にします。"
 
-テストプロファイルはシードアドレス（データベース内の追加の受信者）です。[!DNL Adobe Campaign] クライアントコンソールで作成できます。シードアドレスに配達確認を送信する手順については、以下で詳しく説明します。
+テストプロファイルはシードアドレス（データベース内の追加の受信者）です。これらは、 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]** メニュー。 [詳細情報](../audience/test-profiles.md#create-test-profiles)
+
+シードアドレスに配達確認を送信する手順については、以下で説明します。
 
 1. 配信のコンテンツから、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックし、続いて「**[!UICONTROL テスト]**」ボタンをクリックします。
 
@@ -81,13 +83,23 @@ ht-degree: 100%
 
    ![](assets/simulate-profile-mode.png)
 
-1. コンテンツシミュレーション画面で[メッセージのプレビュー](preview-content.md)用のプロファイルを既に選択している場合、それらのプロファイルがテスト受信者として事前に選択されています。「**[!UICONTROL テストプロファイルを追加]**」ボタンを使用して、選択を解除したり、追加の受信者を追加したりできます。
-
    >[!NOTE]
    >
-   >テストプロファイルは、[!DNL Campaign] クライアントコンソールの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;フォルダーに作成されます。シードアドレスを作成および管理する方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}を参照してください。
+   >テストプロファイルは、 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]** メニュー。 で作成および管理する方法を学ぶ [この節](../audience/test-profiles.md#create-test-profiles).
+
+1. コンテンツシミュレーション画面で[メッセージのプレビュー](preview-content.md)用のプロファイルを既に選択している場合、それらのプロファイルがテスト受信者として事前に選択されています。「**[!UICONTROL テストプロファイルを追加]**」ボタンを使用して、選択を解除したり、追加の受信者を追加したりできます。
+
+1. テストプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   例えば、 **[!UICONTROL 見込み客]** ステータス。 [詳細フィルターの詳細を説明します](../get-started/list-filters.md#adv-attributes)
+
+   ![](assets/simulate-test-profile-filter-ex.png)
 
 1. テスト配信の受信者に最終的なメッセージを送信するには、「**[!UICONTROL メインターゲットにテスト母集団を含める]**」オプションを有効にします。
+
+   ![](assets/simulate-include-test.png)
 
 1. テストプロファイルを選択したら、[テスト配信を送信](#send-test)できます。
 
