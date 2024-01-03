@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="限定提供（LA）"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 14%
 
 ---
@@ -31,13 +31,19 @@ ht-degree: 14%
 
 ## テストプロファイルへのアクセスと管理 {#access-test-profiles}
 
-コンテンツテンプレートリストにアクセスするには、 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]** 左側のメニューから、 **[!UICONTROL テストプロファイル]** タブをクリックします。
+テストプロファイルのリストにアクセスするには、「 」を選択します。 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]** 左側のメニューから、 **[!UICONTROL テストプロファイル]** タブをクリックします。
+
+![](assets/test-profile-list.png)
 
 特定の [フォルダー](../get-started/permissions.md#folders) ドロップダウンリストを使用するか、 [クエリモデラー](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 テストプロファイルを編集するには、リストから目的の項目をクリックします。
 
 テストプロファイルを削除するには、 **[!UICONTROL その他のアクション]** メニュー。
+
+![](assets/test-profile-list-delete.png)
 
 ## テストプロファイルの作成 {#create-test-profile}
 
@@ -48,11 +54,7 @@ ht-degree: 14%
 
 テストプロファイルを作成するには、次の手順に従います。
 
-1. 参照先 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]**.
-
-1. を選択します。 **[!UICONTROL テストプロファイル]** タブをクリックします。
-
-   ![](assets/test-profile-list.png)
+1. 参照先 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]** をクリックし、 **[!UICONTROL テストプロファイル]** タブをクリックします。
 
 1. 次をクリック： **[!UICONTROL テストプロファイルを作成]** 」ボタンをクリックします。
 
@@ -62,7 +64,7 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >アドレスのラベルには、定義した姓と名が自動的に入力されます。
+   >The **[!UICONTROL ラベル]** フィールドには、定義した姓と名が自動的に入力されます。
 
 1. デフォルトでは、テストプロファイルは、 **[!UICONTROL シードアドレス]** フォルダー。 目的の場所を参照して変更できます。 [詳細情報](#seed-addresses-folders)
 
