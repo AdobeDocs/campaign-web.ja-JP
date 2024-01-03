@@ -4,16 +4,16 @@ title: コンテンツアシスタントを使用したテキスト
 description: コンテンツアシスタントの基本を学ぶ
 badge: label="アルファ版"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
+workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
 
 ---
 
 # コンテンツアシスタントを使用したテキストの生成 {#generative-content}
-
-
 
 メールを作成してパーソナライズしたら、生成 AI を利用したコンテンツアシスタントを使用して、コンテンツを次のレベルに引き上げます。
 
