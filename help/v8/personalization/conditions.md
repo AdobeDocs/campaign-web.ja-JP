@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d3afb758e11faf9c39fb14f0b30f1b9edc913ec3
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 99%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 100%
 >title="条件付きコンテンツを追加"
 >abstract="条件付きコンテンツフィールドを設定して、受信者のプロファイルデータに基づいて高度な動的パーソナライゼーションを作成します。特定の条件が満たされた場合に、メッセージコンテンツ内のテキストブロック、リンク、件名、画像を置き換えることができます。"
 
+## 条件付きコンテンツの概要 {#gs}
+
 条件付きコンテンツは、受信者のプロファイルに基づいて動的パーソナライゼーションを作成できる強力な機能で、特定の条件が満たされた場合にテキストブロックと画像を自動的に置き換えます。この機能により、キャンペーンを新たな高みに引き上げて、高度にターゲティングされ、パーソナライズされたエクスペリエンスをオーディエンスに提供できます。
 
 条件付きコンテンツフィールドを設定することで、例えば受信者のプロファイルに基づいて高度な動的パーソナライゼーションを作成できます。特定の条件が満たされた場合に、メッセージコンテンツ内のテキストブロック、リンク、件名、画像を置き換えることができます。例えば、Adobe Campaign データベースの「性別」フィールドの値に従って「Mr」または「Mrs」を表示したり、受信者の優先言語に基づいて別のリンクを含めたりできます。
 
-## 条件付きコンテンツの作成方法
-
 条件付きコンテンツを作成するには、**式エディター**&#x200B;で特定のヘルパー関数を使用して条件を作成する必要があります。この方法は、すべての配信チャネルで、件名、メールリンク、テキスト／ボタンコンテンツコンポーネントなど、式エディターにアクセスできる任意のフィールドで使用できます。[式エディターにアクセスする方法を学ぶ](gs-personalization.md/#access)
 
-式エディターに加えて、メールをデザインする際に専用の&#x200B;**条件付きコンテンツビルダー**&#x200B;を活用して、プロファイル属性のみを使用して条件を作成できます。[詳しくは、メールでの条件付きコンテンツの作成方法を参照してください](#condition-condition-builder)
+<!--In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only. [Learn how to create conditional content in emails](#condition-condition-builder)-->
 
 ## 式エディターでの条件を作成 {#condition-perso-editor}
 
@@ -79,35 +79,38 @@ ht-degree: 100%
 
 1. 条件の準備が整ったら、コンテンツを保存し、コンテンツをシミュレートしてそのレンダリングを確認できます。
 
-## メールでの条件付きコンテンツを作成 {#condition-condition-builder}
+<!--SECTION REMOVED FOR LA > CONDITIONAL CONTENT NOT AVAILABLE ANYMORE FROM THE DEDICATED MENU IN THE EMAIL DESIGNER. ONLY THE EXPRESSION EDITOR IS AVAILABLE FOR NOW
 
-条件付きコンテンツをメールで作成するには、次の 2 つの方法があります。
-* 式エディターで、ヘルパー関数を使用して条件を作成する。
-* メールのデザイン時にアクセスできる、専用の条件付きコンテンツビルダーで行う。
+## Create conditional content in emails {#condition-condition-builder}
 
-式エディターを使用して条件を作成する方法について詳しくは、[こちら](#condition-perso-editor)を参照してください。次の節では、E メールデザイナーの条件付きコンテンツ機能を使用して条件を作成する方法を順を追って説明します。この例では、受信者の言語に基づく複数のバリアントを含むメールメッセージを作成します。次の手順に従います。
+Conditional content in emails can be created in two ways:
+* In the expression editor by building a condition with helper functions,
+* In a dedicated conditional content builder that is accessible when designing an email.
 
-1. メール配信を作成または開き、コンテンツを編集し、「**[!UICONTROL メール本文を編集]**」ボタンをクリックして、メールデザインワークスペースを開きます。
+Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor). The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
 
-1. コンテンツコンポーネントを選択し、「**[!UICONTROL 条件付きコンテンツを有効にする]**」アイコンをクリックします。
+1. Create or open an email delivery, edit its content, and click the **[!UICONTROL Edit email body]** button to open the email designing workspace.
 
-   ![](assets/condition-email-enable.png){width="800" align="center"}
+1. Select a content component and click the **[!UICONTROL Enable conditional content]** icon.
 
-1. 画面の左側に&#x200B;**[!UICONTROL 条件付きコンテンツ]**&#x200B;パネルが開きます。 このパネルでは、条件を使用して、選択したコンテンツコンポーネントの複数のバリエーションを作成できます。
+    ![](assets/condition-email-enable.png){width="800" align="center"}
 
-1. 最初のバリアントを設定します。**[!UICONTROL 条件付きコンテンツ]**&#x200B;パネルの&#x200B;**[!UICONTROL バリアント - 1]** 上にマウスポインターを合わせて、「**[!UICONTROL 条件を追加]**」アイコンをクリックします。
+1. The **[!UICONTROL Conditional Content]** pane opens on the left-hand side of the screen. In this pane, you can create multiple variants of the selected content component using conditions.
 
-1. ルールビルダーが表示されます。プロファイル属性を使用してメッセージの最初のバリアントの条件を作成し、「**[!UICONTROL 確認]**」をクリックします。この例では、言語が「フランス語」の受信者をターゲティングとするルールを作成します。
+1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** icon.
 
-   ![](assets/condition-email-rule.png){width="800" align="center"}
+1. A rule builder appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
 
-1. このルールがバリアントに関連付けられました。読みやすくするために、省略記号メニューをクリックしてバリアントの名前を変更することをお勧めします。
+    ![](assets/condition-email-rule.png){width="800" align="center"}
 
-1. メッセージの送信時にルールが満たされた場合の、コンポーネントの表示方法を設定します。この例では、受信者の優先言語がフランス語の場合、テキストをフランス語で表示します。
+1. The rule is now associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipsis menu.
 
-   ![](assets/condition-email-variant1.png){width="800" align="center"}
+1. Configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
 
-1. コンテンツコンポーネントに必要な数だけバリアントを追加します。いつでもバリアントを切り替え、条件ルールに基づいてコンテンツコンポーネントの表示方法を確認できます。
+    ![](assets/condition-email-variant1.png){width="800" align="center"}
 
-   >[!NOTE]
-   >メッセージの送信時にバリアントで定義されたルールのいずれも満たされない場合、コンテンツコンポーネントには、**[!UICONTROL 条件付きコンテンツ]**&#x200B;パネルの&#x200B;**[!UICONTROL デフォルトバリアント]**&#x200B;で定義されたコンテンツが表示されます。
+1. Add as many variants as needed for the content component. You can switch between the variants at any time to check how the content component will display based on their conditional rules.
+
+    >[!NOTE]
+    >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]** from the **[!UICONTROL Conditional Content]** pane.
+-->
