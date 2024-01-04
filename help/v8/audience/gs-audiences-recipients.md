@@ -3,7 +3,7 @@ title: プロファイルとオーディエンスの概要
 description: Campaign Web でのプロファイルとオーディエンスの使用方法について説明します。
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="限定提供（LA）"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 17%
@@ -26,15 +26,15 @@ Adobe Campaign Web で、 **profile** はデータベースに格納された個
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>プロファイルの監視と管理</strong></a>
+<a href="about-recipients.md"><strong>プロファイルの監視と管理</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="リード" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>オーディエンスの作成</strong>
+<div><a href="create-audience.md"><strong>オーディエンスの作成</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Adobe Campaign Web で、 **profile** はデータベースに格納された個
 <img alt="低頻度" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>サービスの管理</strong></a>
+<a href="manage-services.md"><strong>サービスの管理</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Adobe Campaign Web で、 **profile** はデータベースに格納された個
 <img alt="低頻度" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>配信受信者を選択</strong></a>
+<a href="add-audience.md"><strong>配信受信者を選択</strong></a>
 </div>
 <p></td>
 </tr></table>
