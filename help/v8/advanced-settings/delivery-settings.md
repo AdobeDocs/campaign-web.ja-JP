@@ -4,10 +4,10 @@ title: 配信設定
 description: Campaign Web での配信設定の詳細情報
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="ベータ版"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 100%
+source-wordcount: '2110'
+ht-degree: 99%
 
 ---
 
@@ -120,10 +120,9 @@ ht-degree: 100%
 >title="配信用のオーディエンス設定"
 >abstract="利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択します。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。また、配信用の除外パラメーターを設定することもできます。 "
 
-このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。ターゲティングディメンション（ターゲットマッピング）は、操作で処理されるデータのタイプです。ターゲット母集団（受信者、契約の受取人、オペレーター、サブスクライバーなど）を定義できます。
+このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。ターゲットマッピングは、操作が処理するデータのタイプです。 ターゲット母集団（受信者、契約の受取人、オペレーター、サブスクライバーなど）を定義できます。
 
-
-ターゲットマッピングについて詳しくは、[この節](../audience/about-recipients.md#targeting-dimensions)を参照してください。
+ターゲットマッピングについて詳しくは、[この節](../audience/targeting-dimensions.md)を参照してください。
 
 ## 配信 {#delivery}
 
