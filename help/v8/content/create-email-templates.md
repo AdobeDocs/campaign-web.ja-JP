@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="左（心）室"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '741'
 ht-degree: 12%
 
 ---
@@ -106,15 +106,13 @@ ht-degree: 12%
 
    ![](assets/content-template-create.png)
 
-1. テンプレートの詳細を入力します。
+1. テンプレートの詳細を入力します。 テンプレートを保存するフォルダーを選択できます。 デフォルトでは、コンテンツテンプレートは、Adobe Campaign階層の専用のノードに格納されます。 **[!UICONTROL エクスプローラ]** > **[!UICONTROL リソース]** > **[!UICONTROL テンプレート]** > **[!UICONTROL コンテンツテンプレート]**. [フォルダーの作成方法を説明します](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >現在、 **電子メール** チャネルと **HTML** タイプがサポートされています。
-
-1. テンプレートを保存するフォルダーを選択します。 デフォルトでは、コンテンツテンプレートは、Adobe Campaign階層の専用のノードに格納されます。 **[!UICONTROL エクスプローラ]** > **[!UICONTROL リソース]** > **[!UICONTROL テンプレート]** > **[!UICONTROL コンテンツテンプレート]**. [フォルダーの作成方法を説明します](../get-started/permissions.md#folders)
 
 1. クリック **[!UICONTROL 作成]** を選択し、様々なオプションからテンプレートのデザイン方法を選択します。
 
