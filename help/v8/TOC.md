@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 88%
+source-wordcount: '504'
+ht-degree: 87%
 
 ---
 
@@ -87,10 +87,10 @@ ht-degree: 88%
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
       + [テスト配信の送信](preview-test/test-deliveries.md)
       + [メールのレンダリング](preview-test/email-rendering.md)
-+ オーディエンスと受信者 {#audiences}
-   + [受信者とオーディエンスの概要](audience/gs-audiences-recipients.md)
-   + 受信者の操作 {#work-with-recipients}
-      + [プロファイルの管理](audience/about-recipients.md)
++ プロファイルおよびオーディエンス {#audiences}
+   + [プロファイルとオーディエンスの概要](audience/gs-audiences-recipients.md)
+   + プロファイルの操作 {#work-with-profiles}
+      + [プロファイルの監視と管理](audience/about-recipients.md)
       + [テストプロファイルの作成と管理](audience/test-profiles.md)
    + オーディエンスの操作 {#audiences}
       + [オーディエンスの作成](audience/create-audience.md)
@@ -100,7 +100,6 @@ ht-degree: 88%
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
       + [ファイルからオーディエンスを読み込み](audience/file-audience.md)
       + [コントロール母集団を設定](audience/control-group.md)
-   + [ルールビルダーを操作](audience/segment-builder.md)
    + 購読サービスの操作 {#work-with-services}
       + [サービスの管理](audience/manage-services.md)
       + [購読者の管理](audience/manage-subscribers.md)

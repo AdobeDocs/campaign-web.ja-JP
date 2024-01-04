@@ -3,39 +3,55 @@ title: プロファイルとオーディエンスの概要
 description: Campaign Web でのプロファイルとオーディエンスの使用方法について説明します。
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="限定提供（LA）"
-source-git-commit: 9e6f0a5894ae0b31d275f978553d7fc73ba9c2eb
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 64%
+source-wordcount: '203'
+ht-degree: 17%
 
 ---
 
 # プロファイルとオーディエンスの概要 {#about-profiles}
 
-## プロファイルとオーディエンス {#about}
+Adobe Campaign Web で、 **profile** はデータベースに格納された個人で、配信のオーディエンスを作成し、コンテンツにパーソナライゼーションデータを追加するための重要なコンポーネントとして機能します。 データベースには、次のような様々なタイプのプロファイルが格納されます。 **テストプロファイル**：配信を最終的なオーディエンスに送信する前にテストするように設計されています。
 
-Adobe Campaign では、配信のターゲット母集団はオーディエンスです。オーディエンスとは、類似した行動や特性を共有する一連のプロファイルです。 この担当者のコレクションは、生成、選択または読み込みが可能です [以下に詳述する](#audiences).
+**オーディエンス** は、類似した動作や特性を共有する一連のプロファイルです。 この担当者のコレクションは、生成、選択または読み込みが可能です。  作成したオーディエンスは、配信のターゲット母集団として利用できます。
 
-## ターゲティングディメンション {#targeting-dimensions}
+さらに、Adobe Campaign Web を使用して、 **services** 例えば、ニュースレターや、これらのサービスの購読または購読解除を確認するために使用します。 完了したら、購読者を追加したり、プロファイルを購読解除したり、サービスの購読者にメッセージを送信したりできます。
 
-ターゲティングディメンション、別名ターゲットマッピングは、操作で処理されるデータのタイプです。プロファイル、契約を受け取る人、オペレーター、購読者など、ターゲット母集団を定義できます。
+これで、Adobe Campaign web で実行できる操作を理解できたので、ドキュメントの節で詳しく説明し、この機能の使用を開始します。
 
-ワークフローのターゲティングディメンションは、最初の&#x200B;**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティで定義され、ワークフローの最後まで、他のすべてのアクティビティで使用されます。例えば、データベースからプロファイルに対してクエリを実行する場合、アウトバウンドトランジションには「recipient」タイプのデータが含まれ、次のアクティビティに送信されます。
-
-なお、ワークフロー内のターゲティングディメンションは、[ディメンションアクティビティを変更](../workflows/activities/change-dimension.md)を使用して切り替えることができます。これにより、例えば、購入や購読などの特定のテーブルに対してデータベースに対してクエリを実行し、ターゲティングディメンションを受信者に変更して、対応するプロファイルに配信を送信できます。
-
-デフォルトでは、E メールおよび SMS 配信テンプレートは、プロファイルをターゲットにします。 したがって、ターゲットマッピングには **nms:recipient** テーブルのフィールドが使用されます。プッシュ通知の場合、デフォルトのターゲットマッピングは&#x200B;**サブスクライバーのアプリケーション（nms:appSubscriptionRcp）**&#x200B;であり、受信者のテーブルにリンクされています。
-
-また、以下に表示されているワークフローと配信で、他のビルトインターゲットマッピングを使用することもできます。
-
-| 名前 | 用途 | スキーマ |
-|---|---|---|
-| 受信者 | 受信者への配信（組み込みの受信者テーブル） | nms:recipient |
-| 訪問者 | 紹介（バイラルマーケティング）などの方法でプロファイルを収集した訪問者への配信 | mns:visitor |
-| 購読 | ニュースレターなどの情報サービスを購読している受信者に対する配信 | nms:subscription |
-| 訪問者の購読 | 情報サービスを購読している訪問者に対する配信 | nms:visitorSub |
-| オペレーター | Adobe Campaign オペレーターに対する配信 | nms:operator |
-| 外部ファイル | 配信に必要な情報をすべて含んだファイルを経由しての配信 | リンクされるスキーマなし、入力されるターゲットなし |
-| サブスクライバーのアプリケーション | アプリケーションを購入している受信者に対する配信 | nms:appSubscriptionRcp |
-
-また、必要に応じて、新しいターゲットマッピングを作成できます。これは、クライアントコンソールから実行されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja#new-mapping){target="_blank"}を参照してください。
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="about-recipients.md">
+<img src="../assets/do-not-localize/profiles-audiences-profile.png">
+</a>
+<div>
+<a href="manage-audience.md"><strong>プロファイルの監視と管理</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="test-profiles.md">
+<img alt="リード" src="../assets/do-not-localize/profiles-audiences-audience.png">
+</a>
+<div><a href="conditions.md"><strong>オーディエンスの作成</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="manage-services.md">
+<img alt="低頻度" src="../assets/do-not-localize/profiles-audiences-service.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>サービスの管理</strong></a>
+</div>
+<p></td>
+<td>
+<a href="add-audience.md">
+<img alt="低頻度" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
+</a>
+<div>
+<a href="content-blocks.md"><strong>配信受信者を選択</strong></a>
+</div>
+<p></td>
+</tr></table>
