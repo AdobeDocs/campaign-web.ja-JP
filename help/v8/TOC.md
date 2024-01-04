@@ -5,9 +5,9 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: 2685e1eb73adc72f468985aaf80e439ae3f46d34
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 87%
 
 ---
@@ -35,32 +35,32 @@ ht-degree: 87%
    + メール {#email}
       + [最初のメールを作成](email/create-email.md)
       + メールコンテンツを定義 {#content}
-         + [メールコンテンツを設定](content/edit-content.md)
-         + [コンテンツテンプレートの使用](content/create-email-templates.md)
+         + [メールコンテンツを設定](email/edit-content.md)
+         + [コンテンツテンプレートの使用](email/create-email-templates.md)
          + メールの作成を開始 {#start-design}
-            + [E メールデザイナーの基本を学ぶ](content/get-started-email-designer.md)
-            + [ゼロから開始](content/create-email-content.md)
-            + [メールコンテンツの読み込み](content/existing-content.md)
-            + [独自コンテンツのコーディング](content/code-content.md)
-            + [メールコンテンツテンプレートの使用](content/use-email-templates.md)
+            + [E メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
+            + [ゼロから開始](email/create-email-content.md)
+            + [メールコンテンツの読み込み](email/existing-content.md)
+            + [独自コンテンツのコーディング](email/code-content.md)
+            + [メールコンテンツテンプレートの使用](email/use-email-templates.md)
          + コンテンツをデザイン {#design-content}
-            + [コンテンツコンポーネントの使用](content/content-components.md)
-            + [リンクの追加とメッセージのトラッキング](content/message-tracking.md)
-            + [ミラーページへのリンクの追加](content/mirror-page.md)
-            + [プリヘッダーを追加](content/preheader.md)
-            + [テキストバージョンを生成](content/text-version-email.md)
-            + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](content/aem-assets.md)
+            + [コンテンツコンポーネントの使用](email/content-components.md)
+            + [リンクの追加とメッセージのトラッキング](email/message-tracking.md)
+            + [ミラーページへのリンクの追加](email/mirror-page.md)
+            + [プリヘッダーを追加](email/preheader.md)
+            + [テキストバージョンを生成](email/text-version-email.md)
+            + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](email/aem-assets.md)
          + コンテンツアシスタント {#content-assistant}
-            + [コンテンツアシスタントの基本を学ぶ](content/generative-gs.md)
-            + [コンテンツアシスタントを使用したテキスト生成](content/generative-content.md)
-            + [コンテンツアシスタントを使用した画像生成](content/generative-image.md)
-            + [コンテンツアシスタントを使用したメール生成](content/generative-email.md)
+            + [コンテンツアシスタントの基本を学ぶ](email/generative-gs.md)
+            + [コンテンツアシスタントを使用したテキスト生成](email/generative-content.md)
+            + [コンテンツアシスタントを使用した画像生成](email/generative-image.md)
+            + [コンテンツアシスタントを使用したメール生成](email/generative-email.md)
          + コンテンツのスタイル設定 {#style}
-            + [メールスタイルの基本を学ぶ](content/get-started-email-style.md)
-            + [背景設定の編集](content/backgrounds.md)
-            + [垂直方向の整列とパディングを調整](content/alignment-and-padding.md)
-            + [リンクのスタイルの定義](content/styling-links.md)
-            + [インラインスタイル属性を追加する](content/inline-styling.md)
+            + [メールスタイルの基本を学ぶ](email/get-started-email-style.md)
+            + [背景設定の編集](email/backgrounds.md)
+            + [垂直方向の整列とパディングを調整](email/alignment-and-padding.md)
+            + [リンクのスタイルの定義](email/styling-links.md)
+            + [インラインスタイル属性を追加する](email/inline-styling.md)
       + メールの送信と監視 {#monitor}
          + [メールの準備と送信](monitor/prepare-send.md)
          + [配信ログの監視](monitor/delivery-logs.md)
@@ -80,8 +80,8 @@ ht-degree: 87%
       + [パーソナライゼーションを追加](personalization/personalize.md)
       + [条件付きコンテンツを追加](personalization/conditions.md)
       + [ビルトインコンテンツブロックを追加](personalization/content-blocks.md)
-   + [メッセージへのオファーの追加](content/offers.md)
-   + [サブスクライバーへのメッセージの送信](content/send-to-subscribers.md)
+   + [メッセージへのオファーの追加](msg/offers.md)
+   + [サブスクライバーへのメッセージの送信](msg/send-to-subscribers.md)
    + 配信のプレビューとテスト {#preview-test}
       + [プレビューとテストについて](preview-test/preview-test.md)
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
@@ -89,6 +89,7 @@ ht-degree: 87%
       + [メールのレンダリング](preview-test/email-rendering.md)
 + プロファイルおよびオーディエンス {#audiences}
    + [プロファイルとオーディエンスの概要](audience/gs-audiences-recipients.md)
+   + [ターゲティングディメンション](audience/targeting-dimensions.md)
    + プロファイルの操作 {#work-with-profiles}
       + [プロファイルの監視と管理](audience/about-recipients.md)
       + [テストプロファイルの作成と管理](audience/test-profiles.md)
