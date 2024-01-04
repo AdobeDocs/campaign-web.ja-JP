@@ -5,7 +5,7 @@ description: Adobe Campaign Web を使用してプッシュ通知配信を作成
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
 
