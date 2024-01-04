@@ -3,17 +3,23 @@ audience: end-user
 title: グローバルレポートの概要
 description: グローバルレポートについて
 badge: label="限定提供（LA）"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 2%
+source-wordcount: '258'
+ht-degree: 8%
 
 ---
 
 
 # グローバルレポートの概要 {#global-report-gs}
 
-グローバルレポートは、すべてのチャネルにわたるトラフィックとエンゲージメントの包括的な概要を提供し、キャンペーンと配信のパフォーマンスに関する独自のインサイトを提供する様々なウィジェットを提供します。
+The **グローバルレポート** は、Campaign インスタンス内の各チャネルのトラフィックとエンゲージメント指標の統合された全体的な概要を提供する効果的なツールとして機能します。 これらのレポートは様々なウィジェットで構成され、それぞれがキャンペーンや配信のパフォーマンスに関する明確な視点を提供します。
+
+各チャネルのレポートと関連指標の完全なリストについては、下記のページを参照してください。
+
+* [E メールのグローバルレポート](global-report-email.md)
+* [SMS グローバルレポート](global-report-sms.md)
+* [グローバルレポートをプッシュ](global-report-push.md)
 
 ## レポートダッシュボードを管理 {#manage-reports}
 
@@ -29,7 +35,7 @@ ht-degree: 2%
 
    ![](assets/global_report_manage_2.png)
 
-1. クリック **[!UICONTROL ルールを追加]** をクリックして、レポートデータをより適切にフィルタリングするクエリの作成を開始します。
+1. クリック **[!UICONTROL ルールを追加]** をクリックして、レポートデータをより適切にフィルタリングするクエリの作成を開始します。 [クエリモデラーの使用方法を説明します](../query/query-modeler-overview.md)
 
 1. 次から： **[!UICONTROL URL とクリックストリーム]**&#x200B;を使用する場合は、 **[!UICONTROL 上位の訪問済みリンク]** または **[!UICONTROL 期間]**.
 
