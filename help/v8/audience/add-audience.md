@@ -4,7 +4,7 @@ title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="ベータ版"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
@@ -40,7 +40,7 @@ ht-degree: 100%
 
    ![](assets/select-audience-folder.png)
 
-1. 「フィルター」セクションでは、フィルターオプションにアクセスしてオーディエンスリストを絞り込むことができます。これを行うには、「**ルールを追加**」をクリックして、ルールビルダーにアクセスし、オーディエンスのリスト用の詳細フィルターを作成します。[ルールビルダーの使用方法を学ぶ](segment-builder.md)
+1. 「フィルター」セクションでは、フィルターオプションにアクセスしてオーディエンスリストを絞り込むことができます。これを行うには、「**ルールを追加**」をクリックして、ルールビルダーにアクセスし、オーディエンスのリスト用の詳細フィルターを作成します。[ルールビルダーの使用方法を学ぶ](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
