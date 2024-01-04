@@ -4,9 +4,9 @@ title: Adobe Experience Platform オーディエンスの使用
 description: Adobe Experience Platform のオーディエンスの使用方法
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
-workflow-type: ht
-source-wordcount: '290'
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+workflow-type: tm+mt
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ Adobe Experience Platform オーディエンスを作成し、クライアント
 
 配信のオーディエンスを選択するには、次の手順で実行することもできます。
 
-* 新しいオーディエンスを作成します。[詳細情報](segment-builder.md)
+* 新しいオーディエンスを作成します。[詳細情報](../query/query-modeler-overview.md)
 * 外部ファイルのオーディエンスを読み込みます。[詳細情報](file-audience.md)
 * 既存のオーディエンスを使用します。[詳細情報](add-audience.md)
 
@@ -33,7 +33,7 @@ Adobe Experience Platform オーディエンスを作成し、クライアント
 
    ![](assets/create-audience.png)
 
-1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。このメールで使用する新しいオーディエンスを作成するには、「**独自に作成**」を選択します。[こちら](segment-builder.md)を参照してください。
+1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。このメールで使用する新しいオーディエンスを作成するには、「**独自に作成**」を選択します。[こちら](../query/query-modeler-overview.md)を参照してください。
 
    この画面には、現在のフォルダーに対して、Adobe Campaign クライアントコンソールで定義されたすべての既存のオーディエンスが表示されます。Adobe Experience Platform からオーディエンスを選択するには、画面のフィルターセクションから `AEP Audiences folder` を参照します。
 
@@ -49,6 +49,6 @@ Adobe Experience Platform オーディエンスを作成し、クライアント
 
    ![](assets/refine-audience.png)
 
-1. ルールビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](segment-builder.md)を参照してください。
+1. ルールビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](../query/query-modeler-overview.md)を参照してください。
 
 1. 「**保存**」をクリックします。

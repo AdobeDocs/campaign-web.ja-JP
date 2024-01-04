@@ -4,7 +4,7 @@ title: オーディエンスを作成ワークフローアクティビティの�
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="ベータ版"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
@@ -56,7 +56,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 「**独自のクエリを作成**」を選択します。
 1. 「**ターゲティングディメンション**」を選択します。ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。ターゲティングディメンションについて詳しくは、[この節](../../audience/about-recipients.md#targeting-dimensions)を参照してください。
 1. 「**続行**」をクリックします。
-1. 新しいメールをデザインする際にオーディエンスを作成するのと同じ方法で、ルールビルダーを使用してクエリを定義します。[こちら](../../audience/segment-builder.md)を参照してください。
+1. 新しいメールをデザインする際にオーディエンスを作成するのと同じ方法で、ルールビルダーを使用してクエリを定義します。[こちら](../../audience/../query/query-modeler-overview.md)を参照してください。
 
 既存のオーディエンスを選択するには、次の手順に従います。
 

@@ -4,8 +4,8 @@ title: 配信に使用する 1 回限りのオーディエンスの作成
 description: 配信用の 1 回限りのオーディエンスを作成する方法を説明します。
 badge: label="ベータ版"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
-workflow-type: ht
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
    ![](assets/segment-builder0.png)
 
-1. 「**独自に作成**」を選択します。ルールビルダーが表示されます。ルールビルダーを使用すると、データベースに含まれているデータをフィルタリングすることにより、配信のターゲットとなる母集団を定義できます。[ルールビルダーの使用方法についてはこちらを参照](segment-builder.md)
+1. 「**独自に作成**」を選択します。ルールビルダーが表示されます。ルールビルダーを使用すると、データベースに含まれているデータをフィルタリングすることにより、配信のターゲットとなる母集団を定義できます。[ルールビルダーの使用方法についてはこちらを参照](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

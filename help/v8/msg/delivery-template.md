@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 96%
@@ -52,7 +52,7 @@ ht-degree: 96%
 
 現在の環境で[作成](#create-a-delivery-template)されたすべてのテンプレートが表示されます。
 
-チャネルおよびフォルダーのコンテンツテンプレートをフィルターできます。配信属性を使用してルールを作成すると、高度なフィルターを設定することもできます。[ルールビルダーの詳細情報](../audience/segment-builder.md)
+チャネルおよびフォルダーのコンテンツテンプレートをフィルターできます。配信属性を使用してルールを作成すると、高度なフィルターを設定することもできます。[ルールビルダーの詳細情報](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 
