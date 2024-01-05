@@ -2,12 +2,12 @@
 audience: end-user
 title: SMS 配信のデザイン
 description: SMS 配信のデザイン方法を学ぶ
-badge: label="Beta"
+badge: label="限定提供（LA）"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 100%
+source-wordcount: '258'
+ht-degree: 95%
 
 ---
 
@@ -18,13 +18,10 @@ ht-degree: 100%
 >title="SMS コンテンツ"
 >abstract="SMS 配信のコンテンツを作成し、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを使用してパーソナライズします。メッセージの作成を開始するには、「**コンテンツを編集**」ボタンをクリックします。"
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
 >title="SMS メッセージコンテンツ"
 >abstract="SMS のコンテンツの定義メッセージを作成するには、「**メッセージ**」フィールドをクリックしてメッセージコンテンツを入力します。式エディターを使用すると、パーソナライズされたデータと動的コンテンツを追加できます。また、送信者名をカスタマイズすることもできます。デフォルトでは、すべての SMS 配信に対してトラッキングが有効になっているので、受信者がリンクをクリックした際に測定できます。"
-
 
 SMS 配信のコンテンツをデザインするには、次の手順に従います。
 
@@ -41,6 +38,8 @@ SMS 配信のコンテンツをデザインするには、次の手順に従い�
    ![](assets/sms_content_2.png)
 
 1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。
+
+1. クリック **[!UICONTROL 設定]** をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。 [詳細情報](../advanced-settings/delivery-settings.md)
 
 1. **[!UICONTROL コンテンツをシミュレート]**&#x200B;メニューにアクセスすると、パーソナライズされたコンテンツをプレビューできます。[詳細情報](send-sms.md#preview-sms)
 

@@ -2,11 +2,11 @@
 audience: end-user
 title: SMS 配信の基本を学ぶ
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
-badge: label="Beta"
+badge: label="限定提供（LA）"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
-workflow-type: ht
-source-wordcount: '157'
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+workflow-type: tm+mt
+source-wordcount: '151'
 ht-degree: 100%
 
 ---

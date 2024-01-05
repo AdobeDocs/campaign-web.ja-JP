@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールを送信
 description: Campaign web UI での最初のメールの送信方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Beta"
-source-git-commit: 337f2f063e54e8b50446780a0ce89c529c8d743a
+badge: label="限定提供（LA）"
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1315'
 ht-degree: 100%
 
 ---
@@ -14,13 +14,10 @@ ht-degree: 100%
 
 # 最初のメールを送信 {#first-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
 >title="メールの基本を学ぶ"
 >abstract="スタンドアロンのメール配信を作成することも、キャンペーンワークフローのコンテキストでメールを作成することもできます。配信の作成、オーディエンスの選択、メールコンテンツのデザインの方法について説明します。"
-
 
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 
