@@ -3,7 +3,7 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign web クエリモデラーで最初のクエリを作成する方法を学びます。
 badge: label="限定提供（LA）"
-source-git-commit: 1f66982391c7979bb6e4f09d442513ed46667d9a
+source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
 workflow-type: tm+mt
 source-wordcount: '1887'
 ht-degree: 65%
@@ -118,7 +118,7 @@ ht-degree: 65%
 
 1. を選択します。 **購入** テーブルを開き、確定します。
 
-   ![](assets/1-n-collection.png)
+   ![](assets/1-N-collection.png)
 
 1. アウトバウンドトランジションが追加され、下位条件を作成できます。
 
