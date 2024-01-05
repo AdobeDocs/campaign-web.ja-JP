@@ -4,7 +4,7 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="限定提供（LA）"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 66%
@@ -69,7 +69,7 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知など�
 新しい Campaign Web UI を使用すると、次の操作を実行できます。
 
 * E メール、SMS、プッシュ通知の作成、設計、パーソナライズ、スケジュール設定、送信を行います。 [詳細情報](../msg/gs-messages.md)
-* パーソナライズされたメールコンテンツを E メールデザイナーでデザイン - [詳細情報](../content/edit-content.md)
+* パーソナライズされたメールコンテンツを E メールデザイナーでデザイン - [詳細情報](../email/edit-content.md)
 * SMS やプッシュ通知を含むクロスチャネルキャンペーンを送信 - [詳細情報](../workflows/activities/channels.md)
 * ルールビルダーでターゲットオーディエンスを定義 - [詳細情報](../audience/about-recipients.md)
 * メッセージをプレビュー、テスト、送信 - [詳細情報](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ Campaign Web の限定提供リリースで提供される主な機能を以下�
 
   手動でのコンテンツ作成に別れを告げ、Gen AI の機能を活用した効率的なデータ駆動型キャンペーンを始めましょう。アドビの Gen AI テクノロジーは、高度なアルゴリズムを利用して、**非常に魅力的でパーソナライズされたコンテンツを生成**&#x200B;します。生成 AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。競合他社に先んじて、メールコンテンツに対する生成 AI を使用してメールマーケティングゲームを向上させます。
 
-  詳しくは、[こちら](../content/generative-gs.md)を参照してください。
+  詳しくは、[こちら](../email/generative-gs.md)を参照してください。
 
 
 * **AI を利用したコンテキストヘルプ**
@@ -132,14 +132,14 @@ Campaign Web の限定提供リリースで提供される主な機能を以下�
 
   Campaign のメールエディターで **HTML コンテンツの読み込みと変換**&#x200B;ができるようになりました。コンテンツブロックは自動的に識別され、メールデザイナーで使用できます。その強力なデザイン機能を使用して更新し、パーソナライズします。
 
-  詳しくは、[こちら](../content/existing-content.md)を参照してください。
+  詳しくは、[こちら](../email/existing-content.md)を参照してください。
 
 
 * **オファー付きの SMS**
 
   新しい web UI では、メールに加えて **SMS とオファーを統合**&#x200B;できるようになりました。モバイルデバイスでオーディエンスにリーチし、プロモーションやタイムリーな通知を配信します。アドビの高度な web プラットフォーム上の SMS を通じて統合オファーの機能を活用し、マーケティング活動を強化します。
 
-  詳しくは、[こちら](../content/offers.md)を参照してください。
+  詳しくは、[こちら](../msg/offers.md)を参照してください。
 
 ## Campaign web UI への移行
 

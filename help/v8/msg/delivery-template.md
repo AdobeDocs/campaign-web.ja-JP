@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 96%
@@ -28,14 +28,14 @@ ht-degree: 96%
 * [タイポロジ](../advanced-settings/delivery-settings.md#typology),
 * 送信者のアドレス、
 * [オーディエンス](../audience/about-recipients.md)（[コントロール母集団](../audience/control-group.md)を含む）
-* カスタム[コンテンツ](../content/edit-content.md)、
+* カスタム[コンテンツ](../email/edit-content.md)、
 * [パーソナライズされたフィールド](../personalization/personalize.md)と[条件付きコンテンツ](../personalization/conditions.md)、
-* [ミラーページ](../content/mirror-page.md)へのリンクと購読解除[リンク](../content/message-tracking.md)、
+* [ミラーページ](../email/mirror-page.md)へのリンクと購読解除[リンク](../email/message-tracking.md)、
 * リソースの有効性、再試行パラメーター、強制隔離設定など、その他の配信プロパティ。
 
 >[!NOTE]
 >
->配信テンプレートは、 [コンテンツテンプレート](../content/create-email-templates.md):E メールのコンテンツのみを再利用し、標準で用意されているサンプルの E メールテンプレートの 1 つを使用してコンテンツの作成を開始できます。
+>配信テンプレートは、 [コンテンツテンプレート](../email/create-email-templates.md):E メールのコンテンツのみを再利用し、標準で用意されているサンプルの E メールテンプレートの 1 つを使用してコンテンツの作成を開始できます。
 
 
 ## 配信テンプレートへのアクセスと管理 {#access-manage-templates}

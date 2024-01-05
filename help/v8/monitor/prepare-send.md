@@ -4,7 +4,7 @@ title: メールの準備と送信
 description: Campaign web UI でのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 99%
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 ## 送信の準備 {#prepare}
 
-[コンテンツ](../content/edit-content.md)、[オーディエンス](../audience/add-audience.md)および[スケジュール](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)を定義したら、メール配信の準備が整います。
+[コンテンツ](../email/edit-content.md)、[オーディエンス](../audience/add-audience.md)および[スケジュール](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule)を定義したら、メール配信の準備が整います。
 
 配信の準備中に、ターゲット母集団が計算され、ターゲットに含まれるプロファイルごとのメッセージコンテンツが生成されます。準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。
 

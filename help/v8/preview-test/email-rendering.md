@@ -4,7 +4,7 @@ title: メールのレンダリングのテスト
 description: Campaign web UI でメールのレンダリングをテストする方法について説明します
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="限定提供（LA）"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 次に、以下の手順に従います。
 
-1. [コンテンツを編集](../content/edit-content.md)画面または [E メールデザイナー](../content/get-started-email-designer.md)で、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
+1. [コンテンツを編集](../email/edit-content.md)画面または [E メールデザイナー](../email/get-started-email-designer.md)で、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
 1. 「**[!UICONTROL メールをレンダリング]**」ボタンを選択します。
 

@@ -4,7 +4,7 @@ title: 配信コンテンツのプレビュー
 description: Campaign web UI で配信コンテンツをプレビューする方法を学ぶ
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="限定提供（LA）"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 88%
@@ -18,7 +18,7 @@ ht-degree: 88%
 
 配信のコンテンツをプレビューするには、次の手順に従います。
 
-1. 配信のコンテンツ編集画面または [E メールデザイナー](../content/get-started-email-designer.md).
+1. 配信のコンテンツ編集画面または [E メールデザイナー](../email/get-started-email-designer.md).
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
