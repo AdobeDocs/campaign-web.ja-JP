@@ -4,7 +4,7 @@ title: メールコンテンツの編集
 description: Campaign web UI でメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 888fc53c85d0a3f1c28e7d4130cf94d48dea40c1
+source-git-commit: f3bb9f98a9f4c3e1b113b07aa868cd77b06588cb
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 1. メールでオファーを送信する場合は、「**[!UICONTROL オファーを設定]**」ボタンを使用して選択します。
 
-   その後、パーソナライゼーションフィールドを使用してメールに挿入できます。[オファーの送信方法を学ぶ](offers.md)
+   その後、パーソナライゼーションフィールドを使用してメールに挿入できます。[オファーの送信方法を学ぶ](../msg/offers.md)
 
 1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックし、[E メールデザイナー](get-started-email-designer.md#start-authoring)を使用して、メールのコンテンツを構成およびデザインします。メールコンテンツのデザイン方法に関する追加情報については、次の節を参照してください。
 

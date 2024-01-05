@@ -4,10 +4,10 @@ title: Adobe Experience Manager Assets as a Cloud Service でのアセットの�
 description: Adobe Experience Manager Assets as a Cloud Service を使用してアセットを管理する方法を学ぶ
 badge: label="ベータ版"
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 98%
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service] は、クリエイティブワークフローを合理化し、デジタルアセットを一元管理してシームレスなエクスペリエンス配信を実現する、統合された共同プラットフォームです。これにより、承認された実稼動アセットの整理、タグ付け、取得が簡単になり、チーム間でのブランドの一貫性が確保されます。使いやすいインターフェイスを備えた [!DNL Assets as Cloud Service] を使用すると、アドビのクリエイティブアプリケーションと Experience Cloud アプリケーション内のアセットに即座にアクセスして共有できます。
 
-詳しくは、[Adobe Experience Manager Assets as a Cloud Serviceドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/home.html){target="_blank"}を参照してください。
+詳しくは、[Adobe Experience Manager Assets as a Cloud Serviceドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=ja){target="_blank"}を参照してください。
 
 ## アセットのアップロードと挿入{#add-asset}
 
 ファイルを [!DNL Assets as Cloud Service] に読み込むには、まず保存先のフォルダーを参照または作成する必要があります。その後、メールコンテンツに挿入できます。
 
-アセットのアップロード方法について詳しくは、[Adobe Experience Manager Assets as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/add-delete-assets-view.html){target="_blank"}を参照してください。
+アセットのアップロード方法について詳しくは、[Adobe Experience Manager Assets as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html?lang=ja){target="_blank"}を参照してください。
 
 1. ホームページから、詳細設定メニューにアクセスし、「[!DNL Experience Manager Assets]」を選択します。
 
@@ -47,11 +47,11 @@ ht-degree: 98%
 
 1. アセット管理詳細設定メニューにアクセスするには、アップロードしたアセットを選択します。
 
-   アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/manage-organize-assets-view.html)を参照してください。
+   アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=ja)を参照してください。
 
    ![](assets/assets_4.png)
 
-1. Adobe Photoshop Express を使用してアセットをさらに編集するには、アセットをダブルクリックします。次に、右側のメニューから、**[!UICONTROL 編集モード]**&#x200B;アイコンを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
+1. Adobe Photoshop Express を使用してアセットをさらに編集するには、アセットをダブルクリックします。次に、右側のメニューから、**[!UICONTROL 編集モード]**&#x200B;アイコンを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=ja#edit-using-express){target="_blank"}.
 
 1. [!DNL Adobe Campaign] から、メールデザイナーの左側のペインから&#x200B;**[!UICONTROL アセットピッカー]**&#x200B;メニューを選択します。
 

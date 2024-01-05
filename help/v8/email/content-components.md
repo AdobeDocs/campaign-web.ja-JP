@@ -4,10 +4,10 @@ title: E メールデザイナーのコンテンツコンポーネントの使�
 description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="ベータ版"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: f3295f2151c6c7d8a24bc2d7bc8bd48ebf071378
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ ht-degree: 99%
 
 1. 「**[!UICONTROL 参照]**」をクリックして、アセットから画像ファイルを選択します。また、「**[!UICONTROL メディアを読み込み]**」を選択することもできます。
 
-   Adobe Experience Manager でアセットをアップロードおよび追加する方法について詳しくは、[Adobe Experience Manager as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/email/assets/manage/add-assets.html)を参照してください。
+   Adobe Experience Manager でアセットをアップロードおよび追加する方法について詳しくは、[Adobe Experience Manager as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ja)を参照してください。
 
    ![](assets/email_designer_28.png)
 
