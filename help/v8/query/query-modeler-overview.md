@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを操作
 description: Adobe Campaign web クエリモデラーの操作方法について説明します。
 badge: label="限定提供（LA）"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 96%
+source-wordcount: '428'
+ht-degree: 59%
 
 ---
 
@@ -37,8 +37,6 @@ Adobe Campaign web には、データベースをフィルタリングして様�
 | **レポートデータのフィルタリング**：レポートに表示されるデータをフィルタリングするルールを追加します。 | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
 | **リストのカスタマイズ**：受信者、配信リストなどのリストに表示されるデータをフィルタリングするカスタムルールを作成します。 | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-
-
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
@@ -48,11 +46,24 @@ Adobe Campaign web には、データベースをフィルタリングして様�
  +++
 -->
 
-
 ## クエリモデラーインターフェイス {#interface}
 
-クエリモデラーは、クエリを作成する様々なコンポーネントを追加して組み合わせることができる中央のキャンバスを提供します。
-
-右側にあるルールのプロパティパネルには、クエリに関する情報が表示されます。これにより、様々な操作を実行してクエリを確認し、ニーズに合うことを確認できます。詳しくは、クエリを確認および検証する方法を参照してください
+クエリモデラーは、クエリを作成する中央キャンバスと、クエリに関する情報を提供する右側のウィンドウを提供します。
 
 ![](assets/query-interface.png)
+
+### 中央のキャンバス {#canvas}
+
+クエリモデラーの中央キャンバスでは、クエリを作成する様々なコンポーネントを追加および組み合わせることができます。
+
+キャンバスの右上隅にあるツールバーには、クエリコンポーネントを簡単に操作し、キャンバス内を移動するためのオプションが用意されています。
+
+* 複数選択モード：複数のフィルタリングコンポーネントを選択して、コピーし、選択した場所に貼り付けます。
+* 回転：キャンバスを垂直に切り替えます。
+* 画面に合わせる：キャンバスのズームレベルを画面に合わせます。
+* ズームアウト/ズームイン：ズームアウトするか、キャンバスでズームインします。
+* マップを表示：現在の位置を示すキャンバスのスナップショットを開きます。
+
+### [ ルールのプロパティ ] ウィンドウ {#rule-properties}
+
+右側には、 **[!UICONTROL ルールのプロパティ]** ウィンドウには、クエリに関する情報が表示されます。 様々な操作を実行して、クエリを確認し、ニーズに合っていることを確認できます。 [クエリを確認および検証する方法を説明します](build-query.md#check-and-validate-your-query)

@@ -3,7 +3,7 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign web クエリモデラーで最初のクエリを作成する方法を学びます。
 badge: label="限定提供（LA）"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 88%
@@ -26,9 +26,9 @@ ht-degree: 88%
 * 使用可能な **フィールド (2)** 式で使用でき、クエリのターゲティングディメンションに対応します。
 * **ヘルパー関数 (3)**（カテゴリで並べ替え）。
 
-![](assets/expression-editor.png)
-
 入力フィールドに式を直接入力して、式を編集します。 フィールドやヘルパー関数を追加するには、式を追加する場所にカーソルを置き、「+」ボタンをクリックします。
+
+![](assets/expression-editor.png)
 
 ## ヘルパー関数
 
