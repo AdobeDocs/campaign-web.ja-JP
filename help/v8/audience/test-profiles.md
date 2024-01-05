@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="限定提供（LA）"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '516'
 ht-degree: 14%
 
 ---
@@ -35,15 +35,25 @@ ht-degree: 14%
 
 ![](assets/test-profile-list.png)
 
-特定の [フォルダー](../get-started/permissions.md#folders) ドロップダウンリストを使用するか、 [クエリモデラー](../query/query-modeler-overview.md).
+* 特定の [フォルダー](../get-started/permissions.md#folders) ドロップダウンリストを使用するか、 [クエリモデラー](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-テストプロファイルを編集するには、リストから目的の項目をクリックします。
+* 任意のテストプロファイルを複製し、必要に応じて編集できます。
 
-テストプロファイルを削除するには、 **[!UICONTROL その他のアクション]** メニュー。
+* テストプロファイルを削除するには、 **[!UICONTROL その他のアクション]** メニュー。
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* テストプロファイルを編集するには、リストから目的の項目をクリックします。
+
+また、 **[!UICONTROL エクスプローラ]** ビュー、 **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** ノード。
+
+ここから、フォルダやサブフォルダを参照、作成、管理したり、関連する権限を確認したりできます。 [フォルダーの作成方法を説明します](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+次から： **[!UICONTROL エクスプローラ]** 表示では、フィルター、削除、編集および [作成](#create-test-profile) テストプロファイル。
 
 ## テストプロファイルの作成 {#create-test-profile}
 
@@ -66,7 +76,7 @@ ht-degree: 14%
    >
    >The **[!UICONTROL ラベル]** フィールドには、定義した姓と名が自動的に入力されます。
 
-1. デフォルトでは、テストプロファイルは、 **[!UICONTROL シードアドレス]** フォルダー。 目的の場所を参照して変更できます。 [詳細情報](#seed-addresses-folders)
+1. デフォルトでは、テストプロファイルは、 **[!UICONTROL シードアドレス]** フォルダー。 目的の場所を参照して変更できます。 [フォルダーの操作方法を説明します](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. 次を選択した場合、 **[!UICONTROL 今後の連絡は不要（すべてのチャネル）]** 「 」チェックボックスをオンにすると、プロファイルは「 」ブロックリストに加えるになります。 このような受信者は、どのチャネル（E メール、SMS など）のターゲットにもならなくなりました。
+1. 次を選択した場合、 **[!UICONTROL 今後の連絡は不要（すべてのチャネル）]** 「 」チェックボックスをオンにすると、テストプロファイルは「 」ブロックリストに加えるになります。 このような受信者は、どのチャネル（E メール、SMS など）のターゲットにもならなくなりました。
 
 1. Adobe Analytics の **[!UICONTROL 追加データ]** 「 」タブでは、データ管理ワークフローで作成される配信に使用されるパーソナライゼーションデータと、特定の値を割り当てるパーソナライゼーションデータを入力します。 [ワークフローの詳細を説明します](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## シードアドレスフォルダーの管理 {#seed-addresses-folders}
-
-シードアドレスは、Adobe Campaign階層の専用のノードに保存されます。 **[!UICONTROL エクスプローラ]** > **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]**.
-
-テストプロファイルを整理するには、その他のアクションドロップダウンリストからサブフォルダーを作成します。 [フォルダーの作成方法を説明します](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-また、任意の **[!UICONTROL シードアドレス]** フォルダーまたはサブフォルダー。 すべての詳細を、 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]** メニュー。 [詳細情報](#create-test-profile)
-
-テストプロファイルを編集するには、 **[!UICONTROL テストプロファイル]** タブ、または保存先のフォルダーのいずれかです。
 
 

@@ -4,7 +4,7 @@ title: プッシュ通知配信をデザイン
 description: Adobe Campaign Web を使用したプッシュ通知配信のデザイン方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
 source-wordcount: '1534'
 ht-degree: 98%
@@ -151,7 +151,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 | **[!UICONTROL クリーンバッジ]** | アプリケーションアイコンに表示されるバッジ値を更新するには、このオプションを有効にします。バッジに新しい未読情報の数が正確に反映されるようになります。 |
 | **[!UICONTROL 通知数]** | アプリケーションアイコンに直接表示される、新しい未読情報の数を示す数値を設定します。これにより、ユーザーは簡単かつ視覚的に参照できます。 |
 | **[!UICONTROL ボリューム]** | サウンドのボリューム（0～100）。 |
-| **[!UICONTROL 可変コンテンツ]** | このオプションを有効にすると、モバイルアプリケーションが通知に関連付けられたメディアコンテンツをダウンロードできるようになります。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/email/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)を参照してください。 |
+| **[!UICONTROL 可変コンテンツ]** | このオプションを有効にすると、モバイルアプリケーションが通知に関連付けられたメディアコンテンツをダウンロードできるようになります。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)を参照してください。 |
 | **[!UICONTROL 関連度スコア]** | 通知概要内の通知の順序に優先順位を付けるには、関連度スコアを 0 ～ 100 に設定します。スコアが高いほど、より重要な通知を示します。 |
 | **[!UICONTROL 割り込みレベル]** | <ul> <li>**[!UICONTROL アクティブ]**：デフォルトでは、通知が直ちに表示され、画面が点灯し、サウンドを再生できます。通知はフォーカスモードを妨げません。</li><li>**[!UICONTROL パッシブ]**：画面を点灯させたり、サウンドを再生したりせずに、システムは通知リストに通知を追加します。通知はフォーカスモードを妨げません。</li><li>**[!UICONTROL 時間依存]**：システムにより通知がすぐに表示され、画面が点灯し、サウンドを再生でき、フォーカスモードで通知することができます。このレベルでは、Apple からの特別な権限は必要ありません。</li> <li>**[!UICONTROL 重大]**：システムにより通知が直ちに表示され、画面が点灯し、ミュートスイッチまたはフォーカスモードがバイパスされます。このレベルには、Apple からの特別な権限が必要です。</ul> |
 | **[!UICONTROL スレッド ID]** | 関連する通知をグループ化するために使用される識別子。同じスレッド ID を持つ通知は、通知リスト内の単一の会話またはスレッドとして整理されます。 |
