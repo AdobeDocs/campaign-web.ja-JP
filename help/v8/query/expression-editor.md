@@ -3,22 +3,28 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign web クエリモデラーで最初のクエリを作成する方法を学びます。
 badge: label="限定提供（LA）"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 88%
+source-wordcount: '2008'
+ht-degree: 82%
 
 ---
 
 # 式の編集 {#expression}
 
-## 式の編集 {#edit}
+式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、高度な関数を使用できます。高度な関数を使用すると、日付、文字列、数値フィールド、並べ替えなど、特定のクエリの実行に使用する値を操作できます。
 
-式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、高度な関数を使用できます。これらの関数を使用すると、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作できます。
+>[!IMPORTANT]
+>
+>以下の節では、式エディターを使用してルールを作成する方法に関する情報を提供します。 ルールの作成に使用する構文は、パーソナライゼーションの追加に使用する構文とは異なることに注意してください。
 
-これらの操作は、クエリモデラーから使用できます **[!UICONTROL 式を編集]** ボタン ( **[!UICONTROL 属性]** および **[!UICONTROL 値]** フィールドを使用して、カスタム条件を設定できます。
+## 式エディターの操作 {#edit}
 
-![](assets/edit-expression.png)
+式エディターは、クエリモデラーから使用できます。 **[!UICONTROL 式を編集]** ボタン ( **[!UICONTROL 属性]** および **[!UICONTROL 値]** フィールドを使用して、カスタム条件を設定できます。
+
+| からのアクセス **属性** フィールド | からのアクセス **値** フィールド |
+|  ---  |  ---  |
+| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 式エディターには、次の内容があります。
 
@@ -29,6 +35,12 @@ ht-degree: 88%
 入力フィールドに式を直接入力して、式を編集します。 フィールドやヘルパー関数を追加するには、式を追加する場所にカーソルを置き、「+」ボタンをクリックします。
 
 ![](assets/expression-editor.png)
+
+式の準備が整ったら、 **[!UICONTROL 確認]** 」ボタンをクリックします。 式は、選択したフィールドに表示されます。 編集するには、式エディターを開き、必要な変更をおこないます。
+
+以下の例は、 **[!UICONTROL 値]** フィールドに入力します。 編集するには、式エディターを開き、 **[!UICONTROL 式を編集]** 」ボタンをクリックします。
+
+![](assets/edit-expression-value.png)
 
 ## ヘルパー関数
 
