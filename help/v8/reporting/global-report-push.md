@@ -3,7 +3,7 @@ audience: end-user
 title: プッシュチャネルのグローバルレポート
 description: プッシュチャネルのグローバルレポートについて
 badge: label="限定提供（LA）"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 44%
@@ -80,7 +80,7 @@ The **[!UICONTROL 除外の理由]** グラフおよびテーブルには、タ�
 
 ## 配信スループット {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 このレポートは、指定した期間内の配信スループットに関する包括的な詳細を提供します。
 

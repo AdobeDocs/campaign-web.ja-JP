@@ -4,7 +4,7 @@ title: メールチャネルのキャンペーンレポート
 description: メールチャネルのキャンペーンレポートについての詳細情報
 badge: label="限定提供（LA）"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 100%
@@ -290,7 +290,7 @@ ht-degree: 100%
 
 **[!UICONTROL ユーザーアクティビティ]**&#x200B;レポートには、開封数とクリック数の分類がチャート形式で表示されます。このレポートの指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_10.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){align="center"}
 
 +++詳しくは、メール配信レポート指標を参照してください。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: グローバルレポートの概要
 description: グローバルレポートについて
 badge: label="限定提供（LA）"
-source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 8%
+source-wordcount: '207'
+ht-degree: 9%
 
 ---
 
@@ -27,6 +27,10 @@ The **グローバルレポート** は、Campaign インスタンス内の各�
 
 1. 次に移動： **[!UICONTROL レポート]** メニュー内 **[!UICONTROL レポート]** 」セクションに入力します。
 
+1. 左側のメニューで、リストからレポートを選択し、「 」タブに移動して各チャネルのデータを表示します。
+
+   ![](assets/global_report_manage_3.png)
+
 1. ダッシュボードから、 **開始** および **[!UICONTROL 終了時間]** 特定のデータをターゲットに設定します。
 
    ![](assets/global_report_manage_1.png)
@@ -40,16 +44,3 @@ The **グローバルレポート** は、Campaign インスタンス内の各�
 1. 次から： **[!UICONTROL URL とクリックストリーム]**&#x200B;を使用する場合は、 **[!UICONTROL 上位の訪問済みリンク]** または **[!UICONTROL 期間]**.
 
    The **[!UICONTROL 表示基準]** オプションを使用すると、URL、ラベルまたはカテゴリに基づいてフィルタリングできます。
-
-## レポートをエクスポート {#export-reports}
-
-様々なレポートをPDFまたは CSV 形式で簡単に書き出し、それらを共有、操作または印刷できます。
-
-1. レポートで、 **[!UICONTROL 書き出し]** を選択し、 **[!UICONTROL 書き出しPDFファイル]** または **[!UICONTROL CSV ファイルとして書き出し]**.
-
-   ![](assets/global_report_export.png)
-
-1. ファイルを保存するフォルダを探し、必要に応じて名前を変更して、「 **[!UICONTROL 保存]**.
-
-これで、レポートをPDFまたは CSV ファイルで表示または共有できるようになりました。
-

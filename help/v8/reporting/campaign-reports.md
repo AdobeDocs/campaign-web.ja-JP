@@ -4,10 +4,10 @@ title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 19%
+source-wordcount: '269'
+ht-degree: 23%
 
 ---
 
@@ -64,16 +64,3 @@ The **キャンペーンレポート** の包括的な概要を提供する **ca
 1. 次から： **[!UICONTROL URL とクリックストリーム]**&#x200B;を使用する場合は、 **[!UICONTROL 上位の訪問済みリンク]** または **[!UICONTROL 期間]**.
 
    The **[!UICONTROL 表示基準]** オプションを使用すると、URL、ラベルまたはカテゴリに基づいてフィルタリングできます。
-
-## レポートをエクスポート {#export-reports}
-
-様々なレポートをPDFまたは CSV 形式で簡単に書き出し、それらを共有、操作または印刷できます。
-
-1. レポートで、 **[!UICONTROL 書き出し]** を選択し、 **[!UICONTROL 書き出しPDFファイル]** または **[!UICONTROL CSV ファイルとして書き出し]**.
-
-   ![](assets/export_campaign_report.png)
-
-1. ファイルを保存するフォルダを探し、必要に応じて名前を変更して、「 **[!UICONTROL 保存]**.
-
-これで、レポートをPDFまたは CSV ファイルで表示または共有できるようになりました。
-
