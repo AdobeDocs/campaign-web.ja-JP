@@ -3,7 +3,7 @@ audience: end-user
 title: クエリモデラーを操作
 description: Adobe Campaign web クエリモデラーの操作方法について説明します。
 badge: label="限定提供（LA）"
-source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
+source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 58%
@@ -50,7 +50,7 @@ Adobe Campaign web には、データベースをフィルタリングして様�
 
 クエリモデラーは、クエリを作成する中央キャンバスと、クエリに関する情報を提供する右側のウィンドウを提供します。
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){width="70%" align="center"}
 
 ### 中央のキャンバス {#canvas}
 
