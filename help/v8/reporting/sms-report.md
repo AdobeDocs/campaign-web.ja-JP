@@ -4,10 +4,10 @@ title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
 badge: label="限定提供（LA）"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '506'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 100%
 
 ## 配信の概要 {#delivery-summary}
 
+### 配信の概要 {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="SMS 配信の概要"
 >abstract="**SMS 配信の概要**&#x200B;は、SMS 配信の包括的な概要を提供し、広範なインサイトと特定のデータを提供します。配信のパフォーマンス、効果、結果に関する包括的な情報を提供します。"
-
-### 配信の概要 {#sms-delivery-overview}
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートは、成功率とエラー率および SMS メッセージに対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。
 
@@ -45,9 +45,7 @@ ht-degree: 100%
 
 +++
 
-
 ### ターゲット母集団 {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -67,7 +65,6 @@ ht-degree: 100%
 
 
 ### 全体的な統計 {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -89,12 +86,10 @@ ht-degree: 100%
 
 ### 除外 {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="SMS の除外"
 >abstract="**除外**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。"
-
 
 **[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#sms-quarantines){_blank}を参照してください。
 
@@ -105,7 +100,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="SMS の配信スループット"
->abstract="**配信スループット**&#x200B;レポートには、指定した期間内の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。"
+>abstract="The **配信スループット** レポートには、指定した期間内の配信スループットに関する詳細情報が表示されます。 メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。"
 
 このレポートには、指定した期間内の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
 

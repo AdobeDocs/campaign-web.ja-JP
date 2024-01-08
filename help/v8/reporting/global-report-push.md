@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュチャネルのグローバルレポート
 description: プッシュチャネルのグローバルレポートについて
 badge: label="限定提供（LA）"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 44%
+source-wordcount: '548'
+ht-degree: 34%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 44%
 ## 配信の概要 {#delivery-summary-push}
 
 ### 配信の概要 {#delivery-overview-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_global_report_overview"
+>title="プッシュ配信の概要"
+>abstract="プッシュ **配信の概要** KPI は、プッシュ配信を徹底的に調べ、詳細なインサイトと特定のデータを提供します。 配信のパフォーマンス、効果、結果に関する包括的な詳細を提供します。"
 
 The **[!UICONTROL 配信の概要]** レポートは、プッシュ通知配信ごとに訪問者がどのように関与しているかに関する詳細な情報を提供する主要業績評価指標 (KPI) を提供します。 指標については、以下で詳しく説明します。
 
@@ -38,6 +43,11 @@ The **[!UICONTROL 配信の概要]** レポートは、プッシュ通知配信�
 
 ### 対象オーディエンス {#delivery-summary-push-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_targeted_audience"
+>title="プッシュのターゲット母集団"
+>abstract="The **ターゲット母集団** グラフおよびテーブルでは、プッシュメッセージのオーディエンスに関連するデータを表示し、配信されるメッセージおよび除外に関する情報を示します。"
+
 The **[!UICONTROL ターゲットオーディエンス]** 送信されたプッシュ通知配信ごとに、受信者に関する表とグラフに関する提示データを示します。 指標については、以下で詳しく説明します。
 
 ![](assets/global_report_push_targeted_audience.png)
@@ -53,6 +63,11 @@ The **[!UICONTROL ターゲットオーディエンス]** 送信されたプッ�
 +++
 
 ### 配信統計 {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_delivery_stats"
+>title="プッシュ配信統計"
+>abstract="The **全体的な統計** レポートには、成功率、エラー、強制隔離など、送信済みのプッシュ通知に関する情報が表示されます。"
 
 The **[!UICONTROL 配信統計]** 表には、各プッシュ通知配信の成功の詳細が示されます。 指標については、以下で詳しく説明します。
 
@@ -74,13 +89,23 @@ The **[!UICONTROL 配信統計]** 表には、各プッシュ通知配信の成�
 
 ### 除外の理由 {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_exclusion"
+>title="除外のプッシュ原因"
+>abstract="The **除外の理由** グラフおよび表に、ユーザープロファイルがプッシュ通知を受信できなかった様々な理由を示します。"
+
 The **[!UICONTROL 除外の理由]** グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
 
 プッシュ通知のエラータイプについては、[Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"}を参照してください。
 
 ## 配信スループット {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_push"
+>title="配信スループットレポート"
+>abstract="The **配信スループット** レポートには、指定期間内のプラットフォーム全体のプッシュ通知配信スループットに関する詳細情報が表示されます。"
+
 ![](assets/global_report_push_delivery_throughput.png)
 
-このレポートは、指定した期間内の配信スループットに関する包括的な詳細を提供します。
+The **[!UICONTROL 配信スループット]** レポートは、プッシュ通知配信システムの効果に関する包括的なインサイトを提供し、特定の期間の成功率とエラー率の詳細な概要を提供します。
 

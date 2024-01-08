@@ -4,7 +4,7 @@ title: プッシュ配信レポート
 description: プッシュ配信レポートへのアクセス方法と使用方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
@@ -66,7 +66,6 @@ ht-degree: 100%
 
 ### 全体的な統計 {#push-delivery-overall}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_overall_stats"
 >title="プッシュの全体的な統計"
@@ -87,7 +86,6 @@ ht-degree: 100%
 +++
 
 ### 除外 {#push-delivery-exclusions}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"

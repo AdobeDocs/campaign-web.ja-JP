@@ -3,10 +3,10 @@ audience: end-user
 title: SMS チャネルのグローバルレポート
 description: SMS チャネルのグローバルレポートについて
 badge: label="限定提供（LA）"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 26%
+source-wordcount: '585'
+ht-degree: 19%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 26%
 ## 配信の概要 {#delivery-summary-sms}
 
 ### 配信の概要 {#delivery-overview-sms}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_global_report_overview"
+>title="SMS 配信の概要"
+>abstract="The **SMS 配信の概要** KPI は、SMS 配信の完全な概要を提供し、詳細なインサイトと特定のデータを提供します。 配信のパフォーマンス、効果、結果に関する包括的な情報を提供します。"
 
 The **[!UICONTROL 配信の概要]** レポートは、包括的な主要業績評価指標 (KPI) を提供し、各 SMS 配信に対する訪問者のインタラクションパターンに関する深いインサイトを提供します。 以下に、以下の指標の概要を示します。
 
@@ -38,6 +43,11 @@ The **[!UICONTROL 配信の概要]** レポートは、包括的な主要業績�
 
 ### 対象オーディエンス {#delivery-summary-sms-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_targeted_audience"
+>title="SMS のターゲット母集団"
+>abstract="のグラフとテーブル **ターゲット母集団** は、配信するメッセージや除外するメッセージに関する情報を含め、SMS オーディエンスに関連するデータを表示します。"
+
 The **[!UICONTROL ターゲットオーディエンス]** 各送信 SMS 配信の受信者に関する表およびグラフのデータを参照してください。 指標については、以下で詳しく説明します。
 
 ![](assets/global_report_sms_targeted_audience.png)
@@ -53,6 +63,11 @@ The **[!UICONTROL ターゲットオーディエンス]** 各送信 SMS 配信�
 +++
 
 ### 配信統計 {#delivery-summary-sms-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_delivery_stats"
+>title="SMS 配信統計"
+>abstract="The **配信統計** レポートは、送信された SMS に関する包括的なインサイトを提供し、成功率、エラーの発生件数、強制隔離されたオーディエンスなど、様々な指標の分類を提供します。 この詳細なプレゼンテーションでは、SMS 配信プロセスの全体的なパフォーマンスと結果を詳細に調べることができます。"
 
 The **[!UICONTROL 配信統計]** テーブルには、各 SMS 配信の成功の詳細が表示されます。 指標については、以下で詳しく説明します。
 
@@ -74,6 +89,11 @@ The **[!UICONTROL 配信統計]** テーブルには、各 SMS 配信の成功�
 
 ### 除外の理由 {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_exclusions"
+>title="SMS の除外の原因"
+>abstract="The **除外の理由** のグラフと表に、ユーザープロファイルが SMS メッセージを受信できなかった様々な理由を示します。"
+
 The **[!UICONTROL 除外の理由]** グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルが SMS 配信を受信できなかった理由が表示されます。
 
 エラータイプは、 [Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){target="_blank"}.
@@ -82,6 +102,11 @@ The **[!UICONTROL 除外の理由]** グラフおよびテーブルには、タ�
 
 ## 配信スループット {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_sms"
+>title="SMS の配信スループット"
+>abstract="The **配信スループット** レポートは、SMS メッセージ配信システムの効率性に関する広範なインサイトを提供し、指定期間内の成功率とエラー率の詳細な概要を示します。"
+
 ![](assets/global_report_sms_delivery_throughput.png)
 
-このレポートは、指定した期間内の配信スループットに関する包括的な詳細を提供します。
+The **[!UICONTROL 配信スループット]** レポートは、SMS メッセージ配信システムの効果に関する包括的なインサイトを提供し、指定した期間の成功率とエラー率の詳細な概要を提供します。
