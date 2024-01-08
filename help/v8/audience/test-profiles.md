@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="限定提供（LA）"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 14%
+source-wordcount: '554'
+ht-degree: 13%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->テストプロファイルは、次の配信統計に関するレポートから自動的に除外されます。 **[!UICONTROL クリック数]**, **[!UICONTROL 開封数]**, **[!UICONTROL 購読解除]**.
+>テストプロファイルは、次の配信統計に関するレポートから自動的に除外されます。 **[!UICONTROL クリック数]**, **[!UICONTROL 開封数]**, **[!UICONTROL 購読解除]**. [レポートの詳細を説明します]
 
 ## テストプロファイルへのアクセスと管理 {#access-test-profiles}
 
@@ -39,13 +39,13 @@ ht-degree: 14%
 
   ![](assets/test-profile-list-filters.png)
 
-* 任意のテストプロファイルを複製し、必要に応じて編集できます。
+* 任意のテストプロファイルを複製し、必要に応じて更新できます。 テストプロファイルを編集する手順は、 [テストプロファイルの作成](#create-test-profile).
 
 * テストプロファイルを削除するには、 **[!UICONTROL その他のアクション]** メニュー。
 
   ![](assets/test-profile-list-delete.png)
 
-* テストプロファイルを編集するには、リストから目的の項目をクリックします。
+* テストプロファイルを編集するには、リストから目的の項目をクリックします。 テストプロファイルを編集する手順は、 [テストプロファイルの作成](#create-test-profile).
 
 また、 **[!UICONTROL エクスプローラ]** ビュー、 **[!UICONTROL リソース]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL シードアドレス]** ノード。
 
@@ -68,7 +68,9 @@ ht-degree: 14%
 
 1. 次をクリック： **[!UICONTROL テストプロファイルを作成]** 」ボタンをクリックします。
 
-1. テストプロファイルの詳細を入力します。 <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+   ![](assets/test-profile-create.png)
+
+1. 必要に応じて、テストプロファイルの詳細を入力します。 <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
    ![](assets/test-profile-details.png)
 

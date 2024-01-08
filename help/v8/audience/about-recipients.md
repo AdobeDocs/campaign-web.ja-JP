@@ -2,10 +2,10 @@
 title: プロファイルの監視と管理
 description: Campaign Web でプロファイルを監視および管理する方法について説明します。
 badge: label="限定提供（LA）"
-source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 9%
+source-wordcount: '899'
+ht-degree: 6%
 
 ---
 
@@ -24,19 +24,19 @@ ht-degree: 9%
 
 ## プロファイルの基本を学ぶ {#gs}
 
-Adobe Campaign Web のプロファイルは、データベースに格納された個人で、配信のオーディエンスを作成し、コンテンツにパーソナライゼーションデータを追加するための主要なコンポーネントとして機能します。
+Adobe Campaign Web のプロファイルは、データベースに格納される個人で、 [オーディエンスを作成](create-audience.md) 配信および [パーソナライゼーションを追加](../personalization/personalize.md) データをコンテンツに追加します。
 
-その他のタイプのプロファイルは、データベースに格納されます。例： **[!UICONTROL テストプロファイル]**：配信を最終的なオーディエンスに送信する前にテストするように設計されています。 [テストプロファイルの操作方法を説明します。](test-profiles.md)
+その他のタイプのプロファイルは、データベースに格納されます。例： **[!UICONTROL テストプロファイル]**：配信を最終的なオーディエンスに送信する前にテストするように設計されています。 [詳細情報](test-profiles.md)
 
 プロファイルは、Adobe Campaignクライアントコンソールからのみ作成できます。 [詳細を学ぶ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. ただし、Adobe Campaign Web では、 **[!UICONTROL 顧客管理]** > **プロファイル** エントリをクリックします。
 
 >[!NOTE]
 >
->権限によっては、データベースに保存されているプロファイルの完全なリストへのアクセス権がない場合があります。 権限について詳しくは、[この節](../get-started/permissions.md)を参照してください。
+>権限によっては、データベースに保存されているプロファイルの完全なリストへのアクセス権がない場合があります。 [権限の詳細を表示](../get-started/permissions.md).
 
 * 次の項目をフィルターできます。 **[!UICONTROL プロファイル]** 次の場所から使用できる検索フィールドまたはフィルターを使用したリスト **フィルターを表示** 」ボタンをクリックします。 結果を特定の [フォルダー](../get-started/permissions.md#folders) ドロップダウンリストを使用するか、 [クエリモデラー](../query/query-modeler-overview.md).
 
-  ![](assets/profiles-list.png)
+  ![](assets/profiles-list-filters.png)
 
 * プロファイルを削除するには、「 **[!UICONTROL その他のアクション]** メニュー。
 
@@ -94,13 +94,15 @@ Adobe Campaign Web のプロファイルは、データベースに格納され�
 
 プロファイルの詳細にアクセスして編集するには、次の手順に従います。
 
-1. 参照先 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]**.
+1. 参照先 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]** をクリックし、 **[!UICONTROL プロファイル]** リスト。
 
-1. 次の場所から目的の項目をクリックします。 **[!UICONTROL プロファイル]** リスト。 プロファイルの詳細情報が表示されます。
+   ![](assets/profiles-list-select.png)
+
+1. プロファイルの詳細情報が表示されます。
+
+   The **[!UICONTROL 詳細]** 「 」タブを使用すると、プロファイルの組み込み属性とカスタム属性を参照できます。 属性を編集するには、目的のフィールドに変更を加え、 **[!UICONTROL 保存]** 」ボタンをクリックします。
 
    ![](assets/profile-details.png)
-
-1. The **[!UICONTROL 詳細]** 「 」タブを使用すると、プロファイルの組み込み属性とカスタム属性を参照できます。 属性を編集するには、目的のフィールドに変更を加え、 **[!UICONTROL 保存]** 」ボタンをクリックします。
 
    1. デフォルトでは、プロファイルは **[!UICONTROL 受信者]** フォルダー。 目的の場所を参照して変更できます。 [フォルダーの操作方法を説明します](../get-started/permissions.md#folders)
 
@@ -110,7 +112,7 @@ Adobe Campaign Web のプロファイルは、データベースに格納され�
 
       ![](assets/profile-address.png)
 
-   1. 次を確認します。 **[!UICONTROL 今後の連絡は不要]** オプションを選択し、必要に応じて更新します。 これらのオプションのいずれかを選択すると、プロファイルはオンになブロックリストに加えるります。 例えば、受信者がニュースレターの購読解除リンクをクリックした場合、この情報が連絡先データに追加されます。その受信者は、選択したチャネルのターゲットになっていません。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+   1. 次を確認します。 **[!UICONTROL 今後の連絡は不要]** オプションを選択し、必要に応じて更新します。 これらのオプションのいずれかを選択すると、プロファイルはオンになブロックリストに加えるります。 例えば、受信者がニュースレターの購読解除リンクをクリックした場合、この情報が連絡先データに追加されます。 その受信者は、選択したチャネルのターゲットになっていません。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
       ![](assets/profile-no-longer-contact.png)
 
@@ -118,8 +120,12 @@ Adobe Campaign Web のプロファイルは、データベースに格納され�
 
       ![](assets/profile-custom-fields.png)
 
-1. 次をクリック： **[!UICONTROL 購読]** 「 」タブをクリックして、プロファイルが購読されているサービスに関する情報にアクセスします。 [サブスクリプションサービスの使用方法を学ぶ](manage-services.md)
+1. 次をクリック： **[!UICONTROL 購読]** 「 」タブをクリックして、プロファイルが購読されているサービスに関する情報にアクセスします。 [購読サービスの詳細を表示](manage-services.md)
 
-1. 次をクリック： **[!UICONTROL ログ]** ボタンは、送信ログ、除外ログ、トラッキングログ、およびプロファイルに提示されたオファーを通じて、プロファイルのインタラクション履歴を表示するために、画面の右上隅にあります。 [配信ログの詳細を説明します](../monitor/delivery-logs.md)
+   ![](assets/profile-subscriptions.png)
+
+1. 次をクリック： **[!UICONTROL ログ]** ボタンをクリックすると、送信ログ、除外ログ、トラッキングログを通じたプロファイルのインタラクション履歴が表示されます。 [配信ログの詳細を説明します](../monitor/delivery-logs.md)
+
+   また、 **[!UICONTROL 提案]** タブをクリックします。 [オファーの詳細を表示](../msg/offers.md)
 
    ![](assets/profile-logs.png)
