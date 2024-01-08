@@ -5,7 +5,7 @@ description: 配信ワークフローアクティビティ（メール、プッ�
 badge: label="Beta"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
 ht-degree: 100%
 
