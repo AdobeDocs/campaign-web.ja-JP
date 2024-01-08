@@ -3,7 +3,7 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign web クエリモデラーで最初のクエリを作成する方法を学びます。
 badge: label="限定提供（LA）"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 82%
@@ -34,13 +34,13 @@ ht-degree: 82%
 
 入力フィールドに式を直接入力して、式を編集します。 フィールドやヘルパー関数を追加するには、式を追加する場所にカーソルを置き、「+」ボタンをクリックします。
 
-![](assets/expression-editor.png){width="70%" align="center"}
+![](assets/expression-editor.png)
 
 式の準備が整ったら、 **[!UICONTROL 確認]** 」ボタンをクリックします。 式は、選択したフィールドに表示されます。 編集するには、式エディターを開き、必要な変更をおこないます。
 
 以下の例は、 **[!UICONTROL 値]** フィールドに入力します。 編集するには、式エディターを開き、 **[!UICONTROL 式を編集]** 」ボタンをクリックします。
 
-![](assets/edit-expression-value.png){width="70%" align="center"}
+![](assets/edit-expression-value.png)
 
 ## ヘルパー関数
 
