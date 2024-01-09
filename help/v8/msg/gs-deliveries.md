@@ -2,14 +2,15 @@
 product: campaign
 title: 配信の操作
 description: Campaign web で最初の配信を作成する方法について学ぶ
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="限定提供（LA）"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
+workflow-type: tm+mt
+source-wordcount: '1203'
+ht-degree: 96%
 
 ---
 
@@ -36,14 +37,17 @@ ht-degree: 100%
 
    ![](assets/create-a-delivery.png)
 
-1. 配信用チャネルを選択します。配信チャネルと配信コンテンツの定義方法について詳しくは、次の節を参照してください。
+1. 配信のチャネルを選択します。
+1. メインターゲットとコントロール母集団に対する配信オーディエンスを定義します。オーディエンスについて詳しくは、[この節](../audience/about-recipients.md)を参照してください。
+
+   ![](assets/select-audience.png){width="70%" align="left"}
+
+1. メッセージの内容を定義します。 配信チャネルと配信コンテンツの定義方法について詳しくは、次の節を参照してください。
 
    * [メールチャネル](../email/create-email.md)
    * [プッシュ通知チャネル](../push/gs-push.md)
    * [SMS チャネル](../sms/create-sms.md)
 
-1. メインターゲットとコントロール母集団に対する配信オーディエンスを定義します。オーディエンスについて詳しくは、[この節](../audience/about-recipients.md)を参照してください。
-1. メッセージコンテンツを定義します。
 1. （オプション）配信[スケジュール](#gs-schedule)を定義します。スケジュールが定義されていない場合、「**[!UICONTROL 送信]**」ボタンをクリックするとメッセージが即座に送信されます。
 1. 設定を確認するには、「**[!UICONTROL 確認して送信]**」ボタンをクリックします。
 1. 配信やパーソナライゼーションの設定をテストするには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用します。メッセージのシミュレーションについて詳しくは、[この節](../preview-test/preview-test.md)を参照してください。
@@ -56,13 +60,11 @@ ht-degree: 100%
 ワークフローで配信を作成するには、次の手順に従います。
 
 1. ワークフローを作成するか、既存のワークフローを開きます。ワークフローについて詳しくは、[このページ](../workflows/gs-workflow-creation.md#gs-workflow-steps)を参照してください。
-1. **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを追加して設定し、`+` ボタンをクリックします。
+1. の追加と設定 **[!UICONTROL オーディエンスの構築]** アクティビティ。 詳しくは、 **[!UICONTROL オーディエンスの構築]** アクティビティ [この節](../workflows/activities/build-audience.md).
+1. 次をクリック： `+` アイコンをクリックし、配信アクティビティを選択します。 **[!UICONTROL 電子メール]**, **[!UICONTROL SMS]**, **[!UICONTROL プッシュ通知 (Android)]** または **[!UICONTROL プッシュ通知 (iOS)]**. ワークフローの配信チャネルアクティビティと、配信コンテンツの定義方法について詳しくは、この[節](../workflows/activities/channels.md)を参照してください。
 
    ![](assets/add-delivery-in-wf.png)
 
-   **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティについて詳しくは、[この節](../workflows/activities/build-audience.md)を参照してください。
-
-1. 配信アクティビティ（**[!UICONTROL メール]**、**[!UICONTROL SMS]**、**[!UICONTROL プッシュ通知（Android）]**&#x200B;または&#x200B;**[!UICONTROL プッシュ通知（iOS）]**）を選択します。ワークフローの配信チャネルアクティビティと、配信コンテンツの定義方法について詳しくは、この[節](../workflows/activities/channels.md)を参照してください。
 1. ワークフローを開始し、ログを確認します。
 
 ワークフローを作成せずに、キャンペーンに配信を追加することもできます。これを行うには、キャンペーンの「**[!UICONTROL 配信]**」タブを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
