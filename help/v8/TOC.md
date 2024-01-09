@@ -1,13 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 web
+user-guide-description: Campaign v8 web ドキュメント
 title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
-breadcrumb-title: Campaign の概要
+breadcrumb-title: Campaign v8 web
 hide: true
-source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
+source-git-commit: 7498c1c398caa5ac8dfbe82045f37985a0727274
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '514'
 ht-degree: 88%
 
 ---
