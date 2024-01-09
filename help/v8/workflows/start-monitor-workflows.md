@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
-badge: label="Beta"
-exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+badge: label="限定提供（LA）"
+exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 96%
 
 ---
 
@@ -27,9 +27,7 @@ ht-degree: 100%
 
 ## ワークフローのトランジション {#transitions}
 
-ワークフローでは、トランジションを通じて 1 つのアクティビティから別のアクティビティへ移されたデータは、一時的な作業用テーブルに保存されます。
-
-このデータは、トランジションごとに表示できます。これを行うには、トランジションを選択して、画面の右側でそのプロパティを開きます。
+ワークフローでは、トランジションを通じて 1 つのアクティビティから別のアクティビティに転送されたデータは、一時的な作業用テーブルに保存されます。 このデータは、トランジションごとに表示できます。これを行うには、トランジションを選択して、画面の右側でそのプロパティを開きます。
 
 * 「**[!UICONTROL スキーマをプレビュー]**」をクリックして、作業用テーブルのスキーマを表示します。
 * 「**[!UICONTROL 結果をプレビュー]**」をクリックして、選択したトランジションで転送されたデータを視覚化します。

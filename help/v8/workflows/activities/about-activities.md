@@ -4,9 +4,9 @@ title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの操作方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 39%
 
 ---
@@ -41,9 +41,7 @@ ht-degree: 39%
 
 ## チャネルアクティビティ {#channel}
 
-Adobe Campaign Web を使用すると、複数のチャネルをまたいでマーケティングキャンペーンを自動化および実行できます。 チャネルアクティビティをキャンバスに組み合わせて、顧客の行動に基づいてアクションをトリガー化できるクロスチャネルワークフローを作成できます。 次の **チャネル** アクティビティを使用できるのは、E メール、SMS、Android およびiOSのプッシュ通知です。
-
-ワークフローのコンテキストで配信を設定する方法を説明します [セクション](channels.md).
+Adobe Campaign Web を使用すると、複数のチャネルをまたいでマーケティングキャンペーンを自動化および実行できます。 チャネルアクティビティをキャンバスに組み合わせて、顧客の行動に基づいてアクションをトリガー化できるクロスチャネルワークフローを作成できます。 次の **チャネル** アクティビティを使用できるのは、E メール、SMS、Android およびiOSのプッシュ通知です。 [ワークフローのコンテキストで配信を設定する方法を説明します](channels.md).
 
 ## フロー制御アクティビティ {#flow-control}
 
