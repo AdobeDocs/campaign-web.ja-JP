@@ -5,10 +5,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign の概要
 hide: true
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -149,7 +149,7 @@ ht-degree: 87%
       + [プッシュ配信レポート](reporting/push-report.md)
       + [SMS 配信レポート](reporting/sms-report.md)
    + キャンペーンレポート {#campaign-report}
-      + [キャンペーンレポートの概要](reporting/campaign-reports.md)
+      + [Campaign レポートの概要](reporting/campaign-reports.md)
       + [E メールキャンペーンレポート](reporting/campaign-reports-email.md)
       + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
       + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
