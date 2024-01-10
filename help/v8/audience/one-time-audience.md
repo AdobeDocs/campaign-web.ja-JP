@@ -5,7 +5,7 @@ description: 配信用の 1 回限りのオーディエンスを作成する方�
 badge: label="ベータ版"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

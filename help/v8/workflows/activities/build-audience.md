@@ -5,7 +5,7 @@ description: オーディエンスを作成ワークフローアクティビテ�
 badge: label="ベータ版"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 100%
 
