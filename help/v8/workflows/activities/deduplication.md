@@ -2,12 +2,12 @@
 audience: end-user
 title: 重複排除 - 重複ワークフローアクティビティを使用
 description: 重複排除 - 重複ワークフローアクティビティの使用方法について説明します
-badge: label="Beta"
+badge: label="限定提供（LA）"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '597'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 100%
 >id="acw_orchestration_deduplication"
 >title="重複排除 - 重複アクティビティ"
 >abstract="**重複排除 - 重複**&#x200B;アクティビティでは、インバウンドアクティビティの結果から重複を削除できます。主に、ターゲティングアクティビティの後と、ターゲティングデータを使用できるアクティビティの前に使用されます。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -46,7 +45,7 @@ ht-degree: 100%
 
 1. 「**重複を識別するためのフィールド**」セクションで、「**属性を追加**」ボタンをクリックして、メールアドレス、名、姓など、同一の値によって重複を識別できるフィールドを指定します。フィールドの順序によって、最初に処理するフィールドを指定できます。
 
-1. 一意の&#x200B;**保持する重複**&#x200B;の数を選択します。このフィールドのデフォルト値は 1 です。値 0 を指定すると、すべての重複を保持できます。
+1. Adobe Analytics の **重複排除設定** セクションで、一意の **保持する重複**. このフィールドのデフォルト値は 1 です。値 0 を指定すると、すべての重複を保持できます。
 
    例えば、レコード A と B がレコード Y の重複と見なされ、レコード C がレコード Z の重複と見なされる場合：
 

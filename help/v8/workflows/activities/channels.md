@@ -2,12 +2,12 @@
 audience: end-user
 title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS）を追加する方法を学ぶ
-badge: label="Beta"
+badge: label="限定提供（LA）"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
-workflow-type: ht
-source-wordcount: '879'
-ht-degree: 100%
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+workflow-type: tm+mt
+source-wordcount: '876'
+ht-degree: 96%
 
 ---
 
@@ -38,24 +38,20 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 
 ## チャネルアクティビティを設定 {#create-a-delivery-in-a-workflow}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="メールアクティビティ"
 >abstract="「メール」アクティビティでは、ワークフロー内でのメール送信を促進し、1 回限りのメッセージと繰り返しメッセージの両方を送信できます。これは、同じワークフロー内で計算されたターゲットにメールを送信するプロセスを自動化する役割を果たします。チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS アクティビティ"
 >abstract="「SMS」アクティビティでは、ワークフロー内で SMS 送信を促進し、1 回限りのメッセージと繰り返しメッセージの両方を送信できます。これは、同じワークフロー内で計算されたターゲットに SMS を送信するプロセスを自動化する役割を果たします。チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="iOS アクティビティをプッシュ"
 >abstract="「iOS をプッシュ」アクティビティでは、ワークフローの一部として iOS プッシュ通知を送信するプロセスを効率化します。これにより、1 回限りのメッセージと繰り返しメッセージの両方の配信が可能になり、同じワークフロー内の定義済みターゲットへの iOS プッシュ通知の送信が自動化されます。チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
@@ -75,11 +71,11 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   チャネルアクティビティ設定の左側のパネルから別のテンプレートを選択できます。以前に選択したオーディエンスがチャネルに対応していない場合は、テンプレートを選択できません。これを解決するには、**オーディエンスを作成**&#x200B;アクティビティを更新して、ターゲットマッピングが正しいオーディエンスを選択します。ターゲットマッピングについて詳しくは、[Adobe Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
+   チャネルアクティビティ設定の左側のパネルから別のテンプレートを選択できます。以前に選択したオーディエンスがチャネルに対応していない場合は、テンプレートを選択できません。これを解決するには、**オーディエンスを作成**&#x200B;アクティビティを更新して、ターゲットマッピングが正しいオーディエンスを選択します。ターゲットマッピングの詳細については、 [Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}
 
 1. 「**配信を作成**」をクリックします。スタンドアロン配信の作成時と同様に、メッセージの設定とコンテンツを定義します。また、コンテンツをスケジュールおよびシミュレートすることもできます。[詳細情報](../../msg/gs-messages.md)
 
-1. ワークフローに戻ります。ワークフローを続行する際に、チャネルアクティビティの後にトランジションを追加する場合は「**アウトバウンドトランジションを生成**」を選択します。
+1. ワークフローに戻ります。ワークフローを続行する場合は、 **アウトバウンドトランジションを生成** ：チャネルアクティビティの後にトランジションを追加します。
 
 1. 「**開始**」をクリックして、ワークフローを開始します。
 
