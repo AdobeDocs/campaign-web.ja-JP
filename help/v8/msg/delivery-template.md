@@ -5,12 +5,12 @@ description: Campaign web で配信テンプレートを作成および使用す
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 95%
+source-wordcount: '1087'
+ht-degree: 92%
 
 ---
 
@@ -122,6 +122,8 @@ ht-degree: 95%
 
    ![](assets/templates-convert-delivery.png)
 
+   リストからテンプレートを選択し、テンプレート編集画面からこのオプションを選択することもできます。
+
 1. 複製を確定します。
 
 1. 中央の画面に新しいテンプレートダッシュボードが開きます。必要に応じて、テンプレート設定を編集します。
@@ -180,13 +182,11 @@ ht-degree: 95%
 
    ![](assets/templates-simulate-button.png)
 
-1. 1 つ以上のテストプロファイルを選択して、メールのレンダリングを確認します。また、データベースから実際のプロファイルを選択することもできます。
+1. 1 つ以上のテストプロファイルを選択して、メールのレンダリングを確認します。また、データベースから実際のプロファイルを選択することもできます。 [テストプロファイルの詳細を説明します](../audience/test-profiles.md)
 
-1. 様々なプロファイルを切り替えて、選択したプロファイルに従ってメッセージをパーソナライズして表示します。
+1. 様々なプロファイルを切り替えて、選択したプロファイルに応じてメッセージのパーソナライズされた表現を取得します。 また、ズームレベルを調整し、デスクトップビューまたはモバイルビューを選択することもできます。
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   また、ズームレベルを調整し、デスクトップビューまたはモバイルビューを選択することもできます。
+[コンテンツのプレビューの詳細を説明します](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ ht-degree: 95%
 >
 >E メールのレンダリングを使用したり、配信テンプレートでテストを送信したりすることはできません。
 
-* [メールコンテンツのプレビューの詳細情報](../preview-test/preview-content.md)
 
-* [SMS コンテンツのプレビューの詳細情報](../sms/content-sms.md)
-
-* [プッシュコンテンツのプレビューの詳細情報](../push/gs-push.md)
