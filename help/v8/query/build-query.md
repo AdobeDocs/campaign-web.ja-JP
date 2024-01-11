@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign web クエリモデラーで最初のクエリを作成する方法を学びます。
 badge: label="限定提供（LA）"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 64%
+source-wordcount: '1920'
+ht-degree: 62%
 
 ---
 
@@ -90,6 +90,8 @@ ht-degree: 64%
 
 の **1-1 リンク**」で、リンクされたテーブルに移動し、目的の属性を選択して、期待される値を定義します。
 
+また、 **値** 選択して確定します。 その場合、選択したテーブルで使用可能な値は、次の例に示すように、専用のピッカーを使用して選択する必要があります。
+
 +++クエリの例
 
 ここでは、クエリは、ラベルが「実行中」のブランドをターゲティングしています。
@@ -101,6 +103,10 @@ ht-degree: 64%
 1. 属性の期待値を定義します。
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+次に、テーブルリンクが直接選択されたクエリのサンプルを示します。 このテーブルで使用可能な値は、専用のピッカーから選択する必要があります。
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
