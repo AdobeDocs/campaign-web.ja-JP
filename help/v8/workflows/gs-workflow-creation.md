@@ -2,15 +2,14 @@
 audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
-badge: label="Beta"
-exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+badge: label="限定提供（LA）"
+exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 96%
 
 ---
-
 
 # ワークフロー作成の主な原則 {#gs-workflow-creation}
 
@@ -21,11 +20,11 @@ Campaign v8 Web を使用すると、ワークフローを視覚的なキャン�
 
 ワークフローダイアグラムは、実行される処理を表したものです。これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 各ワークフローには次が含まれます。
 
-* **アクティビティ**：アクティビティとは、実行されるタスクです。各種アクティビティは、ダイアグラム内にアイコンで示されます。各アクティビティには、特定のプロパティと、すべてのアクティビティに共通のその他のプロパティがあります。
+* **アクティビティ**:「アクティビティ」は、実行されるタスクです。 各種アクティビティは、ダイアグラム内にアイコンで示されます。各アクティビティには、特定のプロパティと、すべてのアクティビティに共通のその他のプロパティがあります。
 
   ワークフローのダイアグラムでは、指定されたアクティビティが、特にループまたは繰り返しアクションがある場合に複数のタスクを生成できます。
 
@@ -57,4 +56,3 @@ Campaign v8 Web を使用すると、ワークフローを視覚的なキャン�
 1. [アクティビティを調整および設定](orchestrate-activities.md)
 1. [ワークフローの詳細設定を指定](workflow-settings.md)
 1. [ワークフローを開始し、その実行を監視](start-monitor-workflows.md)
-

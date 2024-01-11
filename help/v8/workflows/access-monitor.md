@@ -4,7 +4,7 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 badge: label="限定提供（LA）"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 90%
@@ -52,4 +52,4 @@ ht-degree: 90%
 
 ワークフローテンプレートには、事前に設定されたアクティビティと、新しいワークフローの作成に再利用できる全体的なプロパティ設定が含まれています。
 
-ワークフローテンプレートは、既存のワークフローから作成することも、ゼロから作成することもできます。 [ワークフローテンプレートの作成方法を説明します](create-workflow.md#work-with-workflow-templates-workflow-templates)
+ワークフローテンプレートは、既存のワークフローから作成することも、ゼロから作成することもできます。 [ワークフローテンプレートの作成方法を説明します](create-workflow.md#workflow-templates)
