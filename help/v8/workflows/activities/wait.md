@@ -2,12 +2,12 @@
 audience: end-user
 title: 待機ワークフローアクティビティの使用
 description: 待機ワークフローアクティビティの使用方法を学ぶ
-badge: label="Beta"
+badge: label="限定提供（LA）"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 1. インバウンドトランジションとアウトバウンドトランジションの間の待機の&#x200B;**期間**&#x200B;を指定します。
 
-1. 「**期間**」フィールドで、秒、分、時間などの時間単位を選択します。
+1. 時間の単位を **期間** フィールド：秒、分、時間、日。
 
 ## 例{#wait-example}
 
