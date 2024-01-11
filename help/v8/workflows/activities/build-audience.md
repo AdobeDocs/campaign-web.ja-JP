@@ -4,10 +4,10 @@ title: オーディエンスを作成ワークフローアクティビティの�
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 82%
+source-wordcount: '410'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->このコンテキストでは、ファイルからオーディエンスを読み込むことはできません。この場合、スタンドアロンのメール配信を作成する必要があります。[詳細情報](../../audience/about-recipients.md)
+>ファイルから読み込まれたオーディエンスは、「オーディエンスを作成」アクティビティを使用してターゲット設定できません。 これをおこなうには、 **ファイルを読み込み** アクティビティの後に **紐づけ** アクティビティ。 [詳細情報](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -69,10 +69,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. 「**続行**」をクリックします。
 1. 新しい配信をデザインする際にオーディエンスを使用する場合と同じ方法で、オーディエンスを選択します。 [こちら](../../audience/add-audience.md)を参照してください。
 
->[!IMPORTANT]
->
->Experience Platform オーディエンスをターゲットとする&#x200B;**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用する場合は、その後に&#x200B;**[!UICONTROL ディメンションを変更]**&#x200B;アクティビティを追加して、オーディエンスのターゲティングディメンションが「受信者」に設定されていることを確認する必要があります。ワークフローの例は、このページの下部にあります。
-
 >[!ENDTABS]
 
 ## 例{#build-audience-examples}
@@ -80,7 +76,3 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 2 つの&#x200B;**オーディエンスを作成**&#x200B;アクティビティを使用したワークフローの例を次に示します。最初のアクティビティは、ポーカープレーヤーのオーディエンスをターゲットにし、次にメール配信が続きます。2 番目のアクティビティは VIP クライアントオーディエンスをターゲットにし、次に SMS 配信が続きます。
 
 ![](../assets/workflow-audience-example.png)
-
-Adobe Experience Platform オーディエンスと Adobe Campaign オーディエンスを組み合わせた別のワークフローの例を以下に示します。これらのオーディエンスを組み合わせるには、「受信者」ターゲティングディメンションを含む&#x200B;**[!UICONTROL ディメンションを変更]**&#x200B;アクティビティを Adobe Experience Platform オーディエンスの後に追加します。[詳しくは、ディメンションを変更アクティビティの設定方法を参照してください](change-dimension.md)
-
-![](../assets/workflow-audience-aep.png)

@@ -4,10 +4,10 @@ title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS）を追加する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 96%
+source-wordcount: '901'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 >* [スタンドアロン SMS 配信を作成](../../sms/create-sms.md)
 >* [スタンドアロンプッシュ配信を作成](../../push/create-push.md)
 
-## ワークフローを作成{#build-your-workflow}
+## ワークフローを作成 {#build-your-workflow}
 
 配信を配置する前に、関連するアクティビティを使用してワークフローの作成を開始します。
 
@@ -35,6 +35,10 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 * **オーディエンスを作成**&#x200B;アクティビティを追加します。オーディエンスは配信のメインターゲットであり、メッセージを受信する受信者となります。キャンペーンワークフローのコンテキストでメッセージを送信する場合、メッセージオーディエンスはチャネルアクティビティではなく、**オーディエンスを作成**&#x200B;アクティビティで定義されます。詳しくは、[この節](build-audience.md)を参照してください。
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >また、ファイルから読み込まれたオーディエンスをターゲットにすることもできます。 これをおこなうには、 **ファイルを読み込み** アクティビティの後に **紐づけ** アクティビティ。 [詳細情報](../../audience/about-recipients.md)
 
 ## チャネルアクティビティを設定 {#create-a-delivery-in-a-workflow}
 

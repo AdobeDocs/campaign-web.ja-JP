@@ -3,9 +3,9 @@ audience: end-user
 title: 紐付けワークフローアクティビティの使用
 description: 紐付けワークフローアクティビティの使用方法を説明します
 badge: label="限定提供（LA）"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '828'
 ht-degree: 19%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="紐付けアクティビティ"
->abstract="The **紐づけ** アクティビティは **ターゲット設定** 「 」アクティビティ：Adobe Campaignデータベースのデータと作業用テーブルのデータ（外部ファイルから読み込まれたデータなど）との間のリンクを定義できます。 例えば、 **紐づけ** アクティビティは、 **オーディエンスを読み込み** 「 」アクティビティを使用して、標準以外のデータをデータベースにインポートします。 この場合、 **紐づけ** 「 」アクティビティを使用すると、Adobe Campaignデータベース内のデータと外部テーブル内のデータとの間のリンクを定義できます。"
+>abstract="The **紐づけ** アクティビティは **ターゲット設定** 「 」アクティビティを使用すると、Adobe Campaignデータベースのデータと作業用テーブルのデータとの間のリンクを定義できます。 例えば、 **紐づけ** アクティビティは、 **ファイルを読み込み** 「 」アクティビティを使用して、標準以外のデータをデータベースにインポートします。 この場合、 **紐づけ** 「 」アクティビティを使用すると、Adobe Campaignデータベース内のデータと外部テーブル内のデータとの間のリンクを定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
