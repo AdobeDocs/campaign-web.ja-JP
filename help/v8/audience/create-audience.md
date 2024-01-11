@@ -4,10 +4,10 @@ title: オーディエンスの作成
 description: Adobe Campaign web でオーディエンスを作成する方法について説明します
 badge: label="ベータ版"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '616'
-ht-degree: 93%
+ht-degree: 89%
 
 ---
 
@@ -54,7 +54,7 @@ Campaign web を使用すると、ビジュアルワークフローキャンバ�
 
    * **[!UICONTROL オーディエンスを保存]**：これはワークフローの最後のステップを表すもので、ここではワークフローの結果を新しいオーディエンスとして保存できます。
 
-1. **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを開き、ルールビルダーを使用して、データベースに含まれているデータをフィルタリングすることでオーディエンスに含める母集団を定義します。[「オーディエンスを作成」アクティビティの設定方法の詳細情報](../workflows/activities/build-audience.md)
+1. を開きます。 **[!UICONTROL オーディエンスの構築]** アクティビティを作成し、クエリモデラーを使用して、データベースに含まれるデータをフィルタリングすることで、オーディエンスに含める母集団を定義します。 [「オーディエンスを作成」アクティビティの設定方法の詳細情報](../workflows/activities/build-audience.md)
 
 1. ワークフローのターゲットとなる母集団に対して追加の操作を実行する場合は、必要なだけのアクティビティを追加し、それらを接続します。ワークフローアクティビティの設定方法について詳しくは、[ワークフロードキュメント](../workflows/activities/about-activities.md)を参照してください。
 

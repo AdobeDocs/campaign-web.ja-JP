@@ -4,10 +4,10 @@ title: オーディエンスの監視と管理
 description: Adobe Campaign web でオーディエンスを監視および管理する方法を説明します
 badge: label="ベータ版"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * **[!UICONTROL オーディエンス]**&#x200B;メニューから、[新しいオーディエンスを作成](create-audience.md)し、
 * クライアントコンソールまたは Adobe Experience Platform でリスト化された[既存のオーディエンスを選択](add-audience.md)
-* フィルタリング基準を定義し組み合わせ、ルールビルダーを使用して、[新しいオーディエンスを作成](../query/query-modeler-overview.md)し、
+* [新しいオーディエンスの作成](../query/query-modeler-overview.md) をクエリモデラーと共に使用する。
 * [外部ファイルからオーディエンスを使用](file-audience.md)します。このオプションは、スタンドアロンのメール配信にのみ使用でき、キャンペーン配信では使用できません。
 
 また、オーディエンスをターゲティングする際に、**コントロール母集団**&#x200B;を定義すると、オーディエンスの一部にメッセージを送信しないようにして、キャンペーンの影響を測定することもできます。[コントロール母集団の設定方法を学ぶ](control-group.md)

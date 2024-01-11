@@ -4,10 +4,10 @@ title: コントロール母集団を設定
 description: Campaign web UI でメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 
 * 既存のオーディエンスを使用するには、「**オーディエンスを選択**」をクリックします。詳しくは、[こちら](add-audience.md)を参照してください。
 
-* 新しいクエリを定義するには、「**独自に作成**」を選択し、ルールビルダーを使用して除外条件を定義します。詳しくは、[こちら](../query/query-modeler-overview.md)を参照してください。
+* 新しいクエリを定義するには、「 **独自のを作成** をクリックし、クエリモデラーを使用して除外条件を定義します。 詳しくは、[こちら](../query/query-modeler-overview.md)を参照してください。
 
 オーディエンスに含まれるプロファイル、またはクエリの結果と一致するプロファイルは配信ターゲットから&#x200B;**除外**&#x200B;され、メッセージを受信しません。
 

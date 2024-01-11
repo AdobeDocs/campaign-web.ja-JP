@@ -4,10 +4,10 @@ title: Adobe Experience Platform オーディエンスの使用
 description: Adobe Experience Platform のオーディエンスの使用方法
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
-workflow-type: ht
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -49,6 +49,6 @@ Adobe Experience Platform オーディエンスを作成し、クライアント
 
    ![](assets/refine-audience.png)
 
-1. ルールビルダーでは、追加のフィルターを使用したり、様々なオーディエンスを組み合わせたりして、オーディエンスをエンリッチメントできます。[こちら](../query/query-modeler-overview.md)を参照してください。
+1. クエリモデラーを使用すると、追加のフィルターでオーディエンスをエンリッチメントしたり、異なるオーディエンスを組み合わせたりできます。 [こちら](../query/query-modeler-overview.md)を参照してください。
 
 1. 「**保存**」をクリックします。

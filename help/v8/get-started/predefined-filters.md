@@ -3,10 +3,10 @@ title: 定義済みフィルターの作成と使用
 description: Adobe Campaign web UI での定義済みフィルターの作成および管理方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 86%
 
 ## 定義済みフィルターを使用 {#use-predefined-filter}
 
-定義済みフィルターは、ルールプロパティを定義する際に使用できます。定義済みフィルターにアクセスするには、ルールビルダーのドロップダウンの「**カスタムフィルターを選択**」オプションを選択します。
+定義済みフィルターは、ルールプロパティを定義する際に使用できます。定義済みフィルターにアクセスするには、「 **カスタムフィルターを選択** オプションが表示されます。
 
 その後、現在のコンテキストで使用できる定義済みフィルターの完全なリストにアクセスできます。
 
