@@ -3,10 +3,10 @@ title: Adobe Campaign web インターフェイスに接続
 description: Adobe Campaign v8 web ユーザーインターフェイスに接続する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 84%
+source-wordcount: '557'
+ht-degree: 81%
 
 ---
 
@@ -88,6 +88,12 @@ Campaign web のデフォルト言語は、ユーザープロファイルで指�
 1. 右上のプロファイルアイコンをクリックし、 「**環境設定**」を選択します。
 1. 次に、メールアドレスの下に表示されている言語リンクをクリックします。
 1. 優先言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
+
+>[!CAUTION]
+>
+>AI を利用したコンテキストヘルプ機能を使用する予定がある場合は、優先言語を英語に設定する必要があります。 その他の言語はサポートされていません。
+>
+
 
 ## 暗いテーマと明るいテーマ {#dark-theme}
 
