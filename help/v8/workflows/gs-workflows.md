@@ -4,21 +4,30 @@ title: ワークフローの基本を学ぶ
 description: ワークフローの開始方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 98%
+source-wordcount: '437'
+ht-degree: 97%
 
 ---
 
 # ワークフローの基本を学ぶ {#workflows}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="クロスチャネルのワークフロー"
+>abstract="自動化と最適化の新しい可能性を解放し、より動的でパーソナライズされたカスタマージャーニーを作成できるようにします。高度なセグメント化から条件付きトリガーに至るまで、追加のワークフローアクティビティにより、ターゲットメッセージを配信し、キャンペーンのパフォーマンスを向上させることができます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_rn2"
 >title="クロスチャネルのワークフロー"
 >abstract="自動化と最適化の新しい可能性を解放し、より動的でパーソナライズされたカスタマージャーニーを作成できるようにします。高度なセグメント化から条件付きトリガーに至るまで、追加のワークフローアクティビティにより、ターゲットメッセージを配信し、キャンペーンのパフォーマンスを向上させることができます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
 
+<!--TO REMOVE ABOVE-->
 
 ## ワークフローとは何ですか？
 

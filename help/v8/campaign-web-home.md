@@ -4,19 +4,85 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="限定提供（LA）"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 92%
+source-wordcount: '668'
+ht-degree: 86%
 
 ---
 
 # Adobe Campaign v8 web ドキュメント {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card1"
+>title="ヘルプとドキュメント"
+>abstract="Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい最新の UI は、マーケティングキャンペーンのデザインと配信を簡素化し、他のAdobeソリューションと共に一貫性を保ちます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_title"
+>title="新しい Adobe Campaign ユーザーインターフェイスを体験する"
+>abstract="よりモダンで直感的で動的です。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list1"
+>title="項目 1"
+>abstract="新しいメール、SMS、プッシュ通知のデザインエクスペリエンス"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list2"
+>title="項目 2"
+>abstract="簡素化されたワークフローキャンバスインターフェイス"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list3"
+>title="項目 3"
+>abstract="オーディエンス、購読およびサービス、AEM Assets 向けに再考された UX"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list4"
+>title="項目 4"
+>abstract="メール生成 AI : プロンプトベースのメール生成"
+
+<!--
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list5"
+>title="Item 5"
+>abstract="Additional Item"-->
+
+<!-- TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="ヘルプとドキュメント"
 >abstract="Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい最新の UI は、マーケティングキャンペーンのデザインと配信を簡素化し、他のAdobeソリューションと共に一貫性を保ちます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_title"
+>title="新しい Adobe Campaign ユーザーインターフェイスを体験する"
+>abstract="よりモダンで直感的で動的です。"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list1"
+>title="項目 1"
+>abstract="新しいメール、SMS、プッシュ通知のデザインエクスペリエンス"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list2"
+>title="項目 2"
+>abstract="簡素化されたワークフローキャンバスインターフェイス"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list3"
+>title="項目 3"
+>abstract="オーディエンス、購読およびサービス、AEM Assets 向けに再考された UX"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list4"
+>title="項目 4"
+>abstract="メール生成 AI : プロンプトベースのメール生成"
+
+<!--TO REMOVE ABOVE-->
+
 
 Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。[詳細情報](get-started/get-started.md)
 
