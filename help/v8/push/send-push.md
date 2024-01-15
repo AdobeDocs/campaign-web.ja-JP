@@ -4,14 +4,14 @@ title: プッシュ通知配信を送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 98%
 
 ---
 
-# プッシュ通知配信のプレビューと送信 {#send-push-delivery}
+# プッシュ配信のプレビューと送信 {#send-push-delivery}
 
 ## プッシュ通知配信をプレビュー {#preview-push}
 

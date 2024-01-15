@@ -3,7 +3,7 @@ audience: end-user
 title: E メールチャネルのグローバルレポート
 description: E メールチャネルのグローバルレポートの詳細を説明します
 badge: label="限定提供（LA）"
-source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 52%
@@ -12,7 +12,7 @@ ht-degree: 52%
 
 # E メールチャネルのグローバルレポート {#global-report-direct}
 
-グローバルレポートでは、トラフィック指標とエンゲージメント指標の包括的な概要をチャネルレベルでユーザーに提供します。
+グローバルレポートでは、トラフィック指標とエンゲージメント指標の包括的な概要をチャネルレベルで提供します。
 
 次に移動： **[!UICONTROL レポート]** メニュー内 **[!UICONTROL レポート]** 」セクションに入力します。 レポートの日付、フォルダーまたはルールに応じて、データをフィルタリングできます。 [詳細情報](global-reports.md)
 

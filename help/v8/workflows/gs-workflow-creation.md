@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Adobe Campaign Web でのワークフローの作成
-description: Adobe Campaign Web を使用してワークフローを作成する方法
+title: ワークフロー作成の主な原則
+description: Adobe Campaign Web を使用したワークフローの主要な原則について説明します。
 badge: label="限定提供（LA）"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 96%
+source-wordcount: '283'
+ht-degree: 92%
 
 ---
+
 
 # ワークフロー作成の主な原則 {#gs-workflow-creation}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: SMS チャネルのグローバルレポート
 description: SMS チャネルのグローバルレポートについて
 badge: label="限定提供（LA）"
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 19%
@@ -12,7 +12,7 @@ ht-degree: 19%
 
 # SMS チャネルのグローバルレポート {#campaign-reports-sms}
 
-グローバルレポートでは、トラフィック指標とエンゲージメント指標の包括的な概要をチャネルレベルでユーザーに提供します。
+グローバルレポートでは、トラフィック指標とエンゲージメント指標の包括的な概要をチャネルレベルで提供します。
 
 次に移動： **[!UICONTROL レポート]** メニュー内 **[!UICONTROL レポート]** 」セクションに入力します。 レポートの日付、フォルダーまたはルールに応じて、データをフィルタリングできます。 [詳細情報](global-reports.md)
 

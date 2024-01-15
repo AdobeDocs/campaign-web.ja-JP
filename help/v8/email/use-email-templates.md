@@ -1,22 +1,22 @@
 ---
 audience: end-user
 product: campaign
-title: 電子メールテンプレートを使用
-description: Adobe Campaignでの電子メールテンプレートの使用方法を説明します
+title: メールコンテンツテンプレートの使用
+description: Adobe Campaignで E メールコンテンツテンプレートを使用する方法を説明します。
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="限定提供（LA）"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 94%
+source-wordcount: '254'
+ht-degree: 96%
 
 ---
 
-# 電子メールテンプレートを使用 {#use-email-templates}
+# メールコンテンツテンプレートの使用 {#use-email-templates}
 
 [メールを作成する](../email/create-email.md)際には、**[!UICONTROL メールを作成]**&#x200B;インターフェイスの「**[!UICONTROL デザインテンプレートを選択]**」セクションを使用して、テンプレートからコンテンツの作成を開始できます。
 

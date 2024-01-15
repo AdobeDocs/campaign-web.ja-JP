@@ -4,14 +4,14 @@ title: 配信に使用する 1 回限りのオーディエンスの作成
 description: 配信用の 1 回限りのオーディエンスを作成する方法を説明します。
 badge: label="ベータ版"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '227'
 ht-degree: 85%
 
 ---
 
-# 配信に使用する 1 回限りのオーディエンスの作成 {#sone-time}
+# 1 回限りのオーディエンスの作成 {#one-time}
 
 この節では、新しい配信を作成する際にオーディエンスを作成する方法について説明します。この場合、配信オーディエンスに含める受信者は、クエリモデラーでデータベースに対するクエリを実行することでターゲットになります。
 

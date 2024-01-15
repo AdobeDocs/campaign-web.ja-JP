@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: サービスのサブスクライバーを管理
+title: 購読者の管理
 description: Adobe Campaign Web で、サービスのサブスクライバーに対して管理および配信する方法を学ぶ
 badge: label="ベータ版"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
-workflow-type: ht
-source-wordcount: '292'
-ht-degree: 100%
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 97%
 
 ---
 
-# サービスのサブスクライバーを管理 {#manage-subscribers}
+# 購読者の管理 {#manage-subscribers}
 
 「[サービスを作成](manage-services.md#create-service)」したら、サブスクライバーを追加したり、受信者を登録解除したり、そのサービスのサブスクライバーにメッセージを送信したりできます。
 
