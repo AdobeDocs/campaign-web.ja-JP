@@ -6,10 +6,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign v8 web
 hide: true
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 87%
+source-wordcount: '531'
+ht-degree: 81%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
    + [基本を学ぶ](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
    + [インターフェイスを確認](get-started/user-interface.md)
-   + [リストの参照、検索、フィルタリング](get-started/list-filters.md)
+   + [リストの参照とフィルター](get-started/list-filters.md)
    + [定義済みフィルターを操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
    + [ガードレールと制限](get-started/guardrails.md)
@@ -70,7 +70,7 @@ ht-degree: 87%
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
       + [プッシュ通知配信を作成](push/create-push.md)
       + [プッシュ配信をデザイン](push/content-push.md)
-      + [プッシュ通知配信のプレビューと送信](push/send-push.md)
+      + [プッシュ配信のプレビューと送信](push/send-push.md)
    + SMS {#sms}
       + [SMS 配信の基本を学ぶ](sms/gs-sms.md)
       + [SMS 配信を作成](sms/create-sms.md)
@@ -79,7 +79,7 @@ ht-degree: 87%
    + コンテンツを動的にする {#dynamic-content}
       + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
       + [パーソナライゼーションを追加](personalization/personalize.md)
-      + [条件付きコンテンツを追加](personalization/conditions.md)
+      + [条件付きコンテンツをビルド](personalization/conditions.md)
       + [ビルトインコンテンツブロックを追加](personalization/content-blocks.md)
    + [メッセージへのオファーの追加](msg/offers.md)
    + [サブスクライバーへのメッセージの送信](msg/send-to-subscribers.md)
@@ -87,9 +87,9 @@ ht-degree: 87%
       + [プレビューとテストについて](preview-test/preview-test.md)
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
       + [テスト配信の送信](preview-test/test-deliveries.md)
-      + [メールのレンダリング](preview-test/email-rendering.md)
-+ プロファイルおよびオーディエンス {#audiences}
-   + [プロファイルとオーディエンスの概要](audience/gs-audiences-recipients.md)
+      + [メールのレンダリングのテスト](preview-test/email-rendering.md)
++ プロファイルとオーディエンス {#audiences}
+   + [プロファイルとオーディエンスの基本を学ぶ](audience/gs-audiences-recipients.md)
    + [ターゲティングディメンション](audience/targeting-dimensions.md)
    + プロファイルの操作 {#work-with-profiles}
       + [プロファイルの監視と管理](audience/about-recipients.md)
@@ -100,10 +100,10 @@ ht-degree: 87%
    + 配信受信者の選択 {#target-audiences}
       + [既存オーディエンスを選択](audience/add-audience.md)
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
-      + [ファイルからオーディエンスを読み込み](audience/file-audience.md)
+      + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
       + [コントロール母集団を設定](audience/control-group.md)
    + 購読サービスの操作 {#work-with-services}
-      + [サービスの管理](audience/manage-services.md)
+      + [購読サービスの作成と管理](audience/manage-services.md)
       + [購読者の管理](audience/manage-subscribers.md)
 + クロスチャネルキャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
@@ -112,7 +112,7 @@ ht-degree: 87%
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
    + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
-   + 最初のワークフローの作成と実行 {#create-workflow}
+   + 最初のワークフローを作成して実行する {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
       + [アクティビティをオーケストレーション](workflows/orchestrate-activities.md)
@@ -150,7 +150,7 @@ ht-degree: 87%
       + [プッシュ配信レポート](reporting/push-report.md)
       + [SMS 配信レポート](reporting/sms-report.md)
    + キャンペーンレポート {#campaign-report}
-      + [Campaign レポートの概要](reporting/campaign-reports.md)
+      + [キャンペーンレポートの概要](reporting/campaign-reports.md)
       + [E メールキャンペーンレポート](reporting/campaign-reports-email.md)
       + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
       + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)

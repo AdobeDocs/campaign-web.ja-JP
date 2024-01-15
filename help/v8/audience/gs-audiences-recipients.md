@@ -3,14 +3,14 @@ title: プロファイルとオーディエンスの概要
 description: Campaign Web でのプロファイルとオーディエンスの使用方法について説明します。
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="限定提供（LA）"
-source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 17%
+source-wordcount: '204'
+ht-degree: 20%
 
 ---
 
-# プロファイルとオーディエンスの概要 {#about-profiles}
+# プロファイルとオーディエンスの基本を学ぶ {#about-profiles}
 
 Adobe Campaign Web で、 **profile** はデータベースに格納された個人で、配信のオーディエンスを作成し、コンテンツにパーソナライゼーションデータを追加するための重要なコンポーネントとして機能します。 データベースには、次のような様々なタイプのプロファイルが格納されます。 **テストプロファイル**：配信を最終的なオーディエンスに送信する前にテストするように設計されています。
 

@@ -4,9 +4,9 @@ title: ファイルから受信者をターゲット設定する
 description: 外部ファイルの受信者を使用してメールオーディエンスを作成する方法を学ぶ
 badge: label="ベータ版"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '619'
 ht-degree: 82%
 
 ---
