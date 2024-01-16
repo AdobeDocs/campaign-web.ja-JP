@@ -4,9 +4,9 @@ title: Campaign v8 web の基本を学ぶ
 description: Campaign v8 web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="限定提供（LA）"
-source-git-commit: f12aebe0a87a15cf9560de61e28d68601e40bd2f
+source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '428'
 ht-degree: 95%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 95%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
->title="基本を学ぶ"
->abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
 >title="基本を学ぶ"
 >abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
