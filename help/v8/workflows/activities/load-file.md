@@ -3,7 +3,7 @@ audience: end-user
 title: ファイル読み込みワークフローアクティビティの使用
 description: ファイル読み込みワークフローアクティビティの使用方法を説明します
 badge: label="限定提供（LA）"
-source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
+source-git-commit: f88c3cd200aa92f4db7a2ab36c85d778a07a4dc3
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 31%
