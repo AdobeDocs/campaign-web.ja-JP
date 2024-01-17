@@ -4,10 +4,10 @@ title: 配信コンテンツのプレビュー
 description: Campaign web UI で配信コンテンツをプレビューする方法を学ぶ
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="限定提供（LA）"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 88%
+source-wordcount: '384'
+ht-degree: 78%
 
 ---
 
@@ -45,6 +45,12 @@ ht-degree: 88%
      >[!NOTE]
      >
      >また、Campaign Web UI の対応するタブで、プロファイルの表示や管理をおこなうこともできます。 [詳細情報](../audience/about-recipients.md)
+
+1. テストプロファイルまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   例えば、 **[!UICONTROL 見込み客]** ステータス。 を使用してルールを追加する方法を説明します。 [クエリモデラー](../query/query-modeler-overview.md).
 
 1. 「**[!UICONTROL 選択]**」をクリックして選択内容を確定します。
 
