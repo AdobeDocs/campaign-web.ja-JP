@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 92%
 >id="acw_homepage_welcome_rn5"
 >title="メールコンテンツ用生成 AI"
 >abstract="アドビの生成 AI テクノロジーは、高度なアルゴリズムを利用して、非常に魅力的でパーソナライズされたコンテンツを生成します。Gen AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn5"
 >title="メールコンテンツ用生成 AI"
 >abstract="アドビの生成 AI テクノロジーは、高度なアルゴリズムを利用して、非常に魅力的でパーソナライズされたコンテンツを生成します。Gen AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 <!--TO REMOVE ABOVE-->
 
