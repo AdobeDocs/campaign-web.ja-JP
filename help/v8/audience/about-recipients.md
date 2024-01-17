@@ -2,7 +2,7 @@
 title: プロファイルの監視と管理
 description: Campaign Web でプロファイルを監視および管理する方法について説明します。
 badge: label="限定提供（LA）"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 5%
@@ -15,14 +15,14 @@ ht-degree: 5%
 >id="acw_homepage_welcome_rn4"
 >title="プロファイルの 360 ビュー"
 >abstract="新しいプロファイルを作成し、強力なレポートやツールを使用してそれらを監視します。 プロファイルの属性、インタラクションおよびログにアクセスします。 フィルターオプションを使用して、プロファイルのリストを参照し、プロファイルを編集および更新します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="プロファイルの 360 ビュー"
 >abstract="新しいプロファイルを作成し、強力なレポートやツールを使用してそれらを監視します。 プロファイルの属性、インタラクションおよびログにアクセスします。 フィルターオプションを使用して、プロファイルのリストを参照し、プロファイルを編集および更新します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 <!--TO REMOVE ABOVE-->
 
@@ -30,7 +30,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="プロファイル"
->abstract="プロファイルとは、Adobe Campaign から送信されるメッセージの受信対象となる個人です。このリストから、権限に基づいてプロファイルの詳細を表示できます。 フィルターオプションを使用して、このリストを参照します。プロファイルの属性の一部を編集および更新できます。"
+>abstract="プロファイルとは、Adobe Campaignから送信されるメッセージの受信をターゲットとしている個人です。 このリストから、権限に基づいてプロファイルの詳細を表示できます。 フィルターオプションを使用して、このリストを参照します。プロファイルの属性の一部を編集および更新できます。"
 
 ## プロファイルの基本を学ぶ {#gs}
 

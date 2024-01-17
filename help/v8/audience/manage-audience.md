@@ -4,14 +4,24 @@ title: オーディエンスの監視と管理
 description: Adobe Campaign web でオーディエンスを監視および管理する方法を説明します
 badge: label="ベータ版"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 95%
+source-wordcount: '538'
+ht-degree: 84%
 
 ---
 
 # オーディエンスの監視と管理 {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="プロパティ"
+>abstract="ここでは、オリジン、ストレージフォルダー、ステータスなど、オーディエンスのプロパティの概要を確認できます。 リンクをクリックします。 **最後のワークフロー** 「 」セクションを開いて、オーディエンスの作成に使用したワークフローを開きます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="オーディエンスサイズ"
+>abstract="ここでは、オーディエンス内のプロファイルの合計数を確認できます。 「計算」ボタンをクリックして、オーディエンスの結果を更新および再計算します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"

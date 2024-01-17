@@ -4,10 +4,10 @@ title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
 badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 100%
+source-wordcount: '912'
+ht-degree: 98%
 
 ---
 
@@ -97,7 +97,10 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="除外ルール"
 >abstract="必要に応じて、インバウンドテーブルを操作できます。別のディメンションからターゲットを除外するには、このターゲットが同じターゲティングディメンションをメインターゲットとして返します。それには、「除外ルール」セクションの「ルールを追加」をクリックし、ディメンションの変更条件を指定します。データの紐付けは、属性または結合を使用して実行されます。"
 
-
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="結合で補集合を生成"
+>abstract="「補集合を生成」オプションを切り替えて、追加のトランジションで残りの母集団を処理します。"
 
 **結合**&#x200B;アクティビティでは、「**除外**」を設定できます。このためには、以下の追加の手順に従う必要があります。
 

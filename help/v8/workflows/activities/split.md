@@ -4,10 +4,10 @@ title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 badge: label="限定提供（LA）"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 92%
+source-wordcount: '777'
+ht-degree: 85%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 92%
 ## 分割アクティビティの設定 {#split-configuration}
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="分割アクティビティのセグメント"
+>abstract="必要な数のサブセットを追加して、入力母集団をセグメント化します。<br/></br>次の場合に **分割** アクティビティが実行されると、母集団はアクティビティに追加された順序で異なるサブセット全体にセグメント化されます。 ワークフローを開始する前に、必ず矢印ボタンを使用して、必要に応じてサブセットを順番に並べ替えておきます。"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="分割アクティビティのフィルター"
 >abstract="サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、目的のフィルタールールを設定します。例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。"
@@ -31,7 +36,6 @@ ht-degree: 92%
 >id="acw_orchestration_split_limit"
 >title="分割アクティビティの制限"
 >abstract="サブセットで選択するプロファイル数を制限するには、「**[!UICONTROL 制限を有効にする]**」オプションの切替スイッチをオンにし、含める母集団の数または割合を指定します。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_sorting"

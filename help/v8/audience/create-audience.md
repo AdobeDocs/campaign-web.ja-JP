@@ -4,34 +4,30 @@ title: オーディエンスの作成
 description: Adobe Campaign web でオーディエンスを作成する方法について説明します
 badge: label="ベータ版"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: e968d63133adf5d5cc52124ce684047039f7232f
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 83%
+ht-degree: 84%
 
 ---
 
 # オーディエンスの作成 {#create-audiences}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="オーディエンスの構成"
 >abstract="ビジュアルワークフローキャンバスに新しいオーディエンスを作成します。 ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。複数のオーディエンスを 1 つのオーディエンスに組み合わせたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つを複数のオーディエンスに分割したりします。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 <!--TO REMOVE BELOW-->
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn1"
->title="オーディエンスの構成"
+>title="オーディエンス構成"
 >abstract="ビジュアルワークフローキャンバスに新しいオーディエンスを作成します。 ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。複数のオーディエンスを 1 つのオーディエンスに組み合わせたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つを複数のオーディエンスに分割したりします。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="リリースノートを参照"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 <!--TO REMOVE ABOVE-->
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
