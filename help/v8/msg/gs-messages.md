@@ -5,15 +5,15 @@ description: Campaign Web での配信の操作方法とメッセージの送信
 badge: label="限定提供（LA）"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 51cde630b5867662c40f79109f40f78a08eb758f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # メッセージの基本を学ぶ{#gs-messages}
 
-Adobe Campaignでは、E メール、SMS、プッシュ通知を含むクロスチャネルキャンペーンを送信し、様々な専用レポートを使用してその影響を測定できます。
+Adobe Campaign を使用すると、メール、SMS、プッシュ通知などのクロスチャネルキャンペーンを送信し、各種の専用レポートを使用してキャンペーンの影響を評価できます。
 
 これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。これらの配信は、スタンドアロンで行うことも、マーケティングキャンペーンのコンテキストでワークフローに含めることもできます。Adobe Campaign で配信を作成および管理する方法について詳しくは、[この節](gs-deliveries.md)を参照してください。
 

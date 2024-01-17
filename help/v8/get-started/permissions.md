@@ -5,7 +5,7 @@ description: Campaign web v8 の権限について説明します
 badge: label="限定提供（LA）"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
 ht-degree: 100%
 
