@@ -2,12 +2,12 @@
 audience: end-user
 title: リストの参照とフィルター
 description: Campaign web v8 のリストを参照およびフィルタリングする方法の確認
-badge: label="限られた可用性"
+badge: label="限定提供（LA）"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 78%
+ht-degree: 96%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 78%
 
 ## フィルター {#list-built-in-filters}
 
-項目をすばやく見つけるには、検索バーを使用するか、組み込みのフィルターとカスタムフィルターを使用して、コンテキスト条件に基づいてリストを適応させます。
+項目をすばやく見つけるには、検索バーを使用するか、組み込みフィルターやカスタムフィルターを使用して、コンテキスト条件に基づいてリストを調整します。
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-フィルターの使用方法と独自のカスタムフィルターの作成方法に関する詳細は、 [この節](../query/filter.md).
+フィルターの使用方法と独自のカスタムフィルターの作成方法について詳しくは、[この節](../query/filter.md)を参照してください。
 
 <!--
 ## Use advanced attributes {#adv-attributes}

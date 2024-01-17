@@ -7,7 +7,7 @@ badge: label="限定提供（LA）"
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 86%
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="ヘルプとドキュメント"
->abstract="Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい最新の UI は、マーケティングキャンペーンのデザインと配信を簡素化し、他のAdobeソリューションと共に一貫性を保ちます。"
+>abstract="Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、他のアドビソリューションとの一貫性を保ちます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
@@ -54,7 +54,7 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="ヘルプとドキュメント"
->abstract="Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい最新の UI は、マーケティングキャンペーンのデザインと配信を簡素化し、他のAdobeソリューションと共に一貫性を保ちます。"
+>abstract="Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、他のアドビソリューションとの一貫性を保ちます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
@@ -87,7 +87,7 @@ ht-degree: 86%
 Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。[詳細情報](get-started/get-started.md)
 
 >[!AVAILABILITY]
-> Campaign v8 Web は現在、Limited Availability(LA) バージョンです。 アクセスは、少数の LA 顧客のセットに制限されています。 製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/whats-new.md)
+> Campaign v8 web は現在限定提供（LA）バージョンです。アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。[詳細情報](rn/whats-new.md)
 
 ## Campaign web の新機能
 
