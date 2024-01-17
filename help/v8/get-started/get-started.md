@@ -7,7 +7,7 @@ badge: label="限定提供（LA）"
 source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Web UI で使用できない Campaign v8 機能にアクセスする必要があ
 
 >[!NOTE]
 >
->Campaign v8 Web は現在、Limited Availability(LA) バージョンです。 アクセスは、少数の LA 顧客のセットに制限されています。 製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
+>Campaign v8 web は現在限定提供（LA）バージョンです。アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
 Adobe Campaign web に接続する方法については、[このページ](connect-to-campaign.md)を参照してください。
 
