@@ -2,12 +2,12 @@
 audience: end-user
 title: 購読サービスの操作
 description: Adobe Campaign web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 97%
+source-wordcount: '883'
+ht-degree: 70%
 
 ---
 
@@ -36,13 +36,13 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 
    ![](assets/service-list.png)
 
-1. 既存のすべての購読サービスのリストが表示されます。サービスを検索してチャネルやフォルダーでフィルタリングすることも、詳細フィルターを使用することもできます。
+1. 既存のすべての購読サービスのリストが表示されます。サービスを検索し、チャネル、フォルダーに対してフィルターを適用するか、 [クエリモデラー](../query/query-modeler-overview.md).
 
    ![](assets/service-filters.png)
 
 1. 既存のサービスを編集するには、サービス名をクリックします。
 
-1. このサービス名の横にある 3 つのドットのアイコンを使用して、サービスを削除したり複製したりできます。<!--so all subscribers are unsuibscribed - need to mention?-->
+1. サービス名の横にある 3 つのドットのアイコンを使用して、任意のサービスを削除または複製できます。<!--so all subscribers are unsubscribed - need to mention?-->
 
 ## 最初の購読サービスの作成 {#create-service}
 
@@ -64,9 +64,11 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 
 1. **[!UICONTROL E メール]**&#x200B;か **[!UICONTROL SMS]** のどちらかのチャネルを選択します。
 
-1. サービスプロパティで、ラベルを入力し、必要に応じて追加オプションを定義します。
+1. サービスプロパティで、ラベルを入力し、 **[!UICONTROL その他のオプション]** 望み通りに
 
    ![](assets/service-create-properties.png)
+
+1. デフォルトでは、サービスは **[!UICONTROL サービスと購読]** フォルダー。 目的の場所を参照して変更できます。 [フォルダーの操作方法を説明します](../get-started/permissions.md#folders)
 
 1. デフォルトでは、購読は無制限です。次の項目を無効にすることができます。 **[!UICONTROL 無制限の有効期間]** オプションを使用して、サービスの有効期間を定義します。
 
@@ -82,19 +84,25 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 
 1. 「**[!UICONTROL 保存してレビュー]**」をクリックします。新しいサービスが&#x200B;**[!UICONTROL 購読サービス]**&#x200B;リストに追加されました。
 
+次が可能になりました。
+
+* このサービスの購読者を追加し、受信者を購読解除します。 [詳細情報](../msg/send-to-subscribers.md)
+
+* このサービスの購読者にメッセージを送信します。 [詳細情報](../msg/send-to-subscribers.md)
+
 ## 確認メッセージの作成 {#create-confirmation-message}
 
 サービスを登録または登録解除するユーザーに確認メッセージを送信するには、**[!UICONTROL 購読]**&#x200B;ターゲットマッピング（定義済みのターゲットなし）を使用して配信テンプレートを作成する必要があります。それには、次の手順に従います。
 
-1. 購読確認用の配信テンプレートを作成します。[詳細情報](../msg/delivery-template.md)
+1. 購読確認用の配信テンプレートを作成します。[テンプレートの作成方法を説明します](../msg/delivery-template.md)
 
-1. この配信のオーディエンスを選択しないでください。代わりに、**[!UICONTROL 配信設定]**&#x200B;にアクセスし、「[オーディエンス](../advanced-settings/delivery-settings.md#audience)」タブに移動して、**[!UICONTROL 購読]**&#x200B;ターゲットマッピングをリストから選択します。
+1. この配信のオーディエンスを選択しないでください。代わりに、配信にアクセスします **[!UICONTROL 設定]**、に移動します。 [対象ユーザ](../advanced-settings/delivery-settings.md#audience) 」タブで「 **[!UICONTROL 購読]** ターゲットマッピングをリストから取得します。
 
    ![](assets/service-confirmation-template-mapping.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL 購読]**&#x200B;ターゲットマッピングを選択しない場合、サブスクライバーには確認メッセージが届きません。ターゲットマッピングは、Campaign v8 コンソールで定義されます。詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
+   >**[!UICONTROL 購読]**&#x200B;ターゲットマッピングを選択しない場合、サブスクライバーには確認メッセージが届きません。ターゲットマッピングは、Campaign v8 コンソールで定義されます。詳しくは、 [Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}.
 
 1. 配信テンプレートのコンテンツを編集し、保存して閉じます。
 
@@ -110,13 +118,30 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 
 ## サブスクリプションサービスをモニター {#logs-and-reports}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers"
+>title="サブスクライバーの合計数"
+>abstract="クリック **計算** は、このサービスの購読者の合計数を取得します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overtheperiod_subscribers"
+>title="その期間の購読数"
+>abstract="ドロップダウンリストを使用して、期間を変更し、選択した期間の購読数と購読解除数を表示します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overallevolution_subscribers"
+>title="購読の全体的な変化"
+>abstract="このグラフは、購読、購読解除、数値の変化、ロイヤルティの割合を含む、期間別の分類を表示します。"
+
 SMS チャンネルおよびメールチャネルに関するサブスクリプションサービスの効果を測定するには、特定のサービスのログとレポートにアクセスします。
 
-1. **[!UICONTROL サブスクリプションサービス]**&#x200B;リストから既存のサービスを選択します。「**[!UICONTROL 計算]**」をクリックして、合計サブスクライバー数を取得します。
+1. **[!UICONTROL サブスクリプションサービス]**&#x200B;リストから既存のサービスを選択します。クリック **[!UICONTROL 計算]** は、購読者の合計数を取得します。
 
-   ![](assets/service-logs-reports-buttons.png)
+   ![](assets/service-logs-subscribers-count.png)
 
-1. サービスダッシュボードで、「**[!UICONTROL ログ]**」をクリックして、このサービスのサブスクライバーのリストを表示します。サブスクライバーの合計数、各受信者の名前およびアドレス、購入または登録解除のタイミングを確認できます。また、フィルタリングすることもできます。
+1. サービスダッシュボードで、「 」を選択します。 **[!UICONTROL ログ]** をクリックして、このサービスの購読者のリストを表示します。
+
+   購読者の合計数、各受信者の名前とアドレス、および購読または購読解除を確認できます。 また、フィルタリングすることもできます。
 
    ![](assets/service-logs.png)
 
