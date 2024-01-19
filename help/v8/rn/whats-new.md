@@ -4,9 +4,9 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="限定提供（LA）"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1295'
 ht-degree: 99%
 
 ---
@@ -116,13 +116,13 @@ Campaign web 限定提供（LA）に付属する主な機能を以下に示し�
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+<!--
+* **Gen AI for Email content**
 
-* **メールコンテンツ用 Gen AI**
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
-  手動でのコンテンツ作成に別れを告げ、Gen AI の機能を活用した効率的なデータ駆動型キャンペーンを始めましょう。アドビの Gen AI テクノロジーは、高度なアルゴリズムを利用して、**非常に魅力的でパーソナライズされたコンテンツを生成**&#x200B;します。生成 AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。競合他社に先んじて、メールコンテンツに対する生成 AI を使用してメールマーケティングゲームを向上させます。
-
-  詳しくは、[こちら](../email/generative-gs.md)を参照してください。
-
+    Learn more in [this section](../email/generative-gs.md).
+-->
 
 * **AI を活用したコンテキストヘルプ**
 

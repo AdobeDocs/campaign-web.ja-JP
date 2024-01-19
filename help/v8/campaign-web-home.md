@@ -4,10 +4,10 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="限定提供（LA）"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 96%
+source-wordcount: '669'
+ht-degree: 93%
 
 ---
 
@@ -36,12 +36,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="項目 3"
->abstract="オーディエンス、購読およびサービス、AEM Assets 向けに再考された UX"
+>abstract="オーディエンス、購読、AEM Assets、ランディングページ向けの UX の再設計"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="項目 4"
->abstract="メール生成 AI : プロンプトベースのメール生成"
+>abstract="次世代クエリモデラーおよび E メールデザイナー"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -50,7 +50,7 @@ ht-degree: 96%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-
+L
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="ヘルプとドキュメント"
