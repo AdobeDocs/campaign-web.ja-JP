@@ -3,10 +3,10 @@ title: Adobe Campaign web インターフェイスに接続
 description: Adobe Campaign v8 web ユーザーインターフェイスに接続する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: a93e6e5e651935271badad51109ca57bb9232703
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 81%
+source-wordcount: '563'
+ht-degree: 95%
 
 ---
 
@@ -51,15 +51,16 @@ Campaign に接続しました。ユーザーインターフェイスの使用�
 
 ## Adobe Experience Cloud の上部ナビゲーション {#top-bar}
 
-インターフェイスの上部バーを参照して、次の操作を実行します。
+インターフェイスの上部バーを参照して、次の操作を実行できます。
 
+* Campaign Web UI に関するフィードバックを共有する
 * 組織を切り替え
 * Adobe Experience Cloud ソリューションとアプリを切り替え
-* ヘルプを検索： [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
-* 製品通知を確認する
-* Adobeプロファイルの編集や、 [お気に入りの言語を更新](#language-pref) または [明暗のテーマに切り替える](#dark-theme)
+* [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=ja){target="_blank"} でヘルプを検索
+* 製品通知を確認
+* アドビのプロファイルを編集し、[お気に入りの言語を更新](#language-pref)や[ライト／ダークテーマに切り替え](#dark-theme)などの設定を管理
 
-![](assets/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
 
 ## サポートしているブラウザー {#browsers}
 
@@ -95,9 +96,9 @@ Campaign web のデフォルト言語は、ユーザープロファイルで指�
 >
 
 
-## 暗いテーマと明るいテーマ {#dark-theme}
+## ダークテーマとライトテーマ {#dark-theme}
 
-Adobe Campaignは明暗のテーマで利用できます。 デフォルトでは、ユーザインターフェイスはライトテーマで有効になっています。 ダークテーマに切り替えるには、プロファイルアイコンをクリックし、 **ダークテーマ** 有効/無効を切り替えます。
+Adobe Campaign は、ライトテーマとダークテーマで使用できます。デフォルトでは、ユーザーインターフェイスはライトテーマで有効になっています。ダークテーマに切り替えるには、プロファイルアイコンをクリックし、「**ダークテーマ**」切替スイッチを使用して有効／無効にします。
 
 ユーザープロファイルの設定とアカウントの環境設定について詳しくは、[この節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ja#preferences){target="_blank"}を参照してください。
 
