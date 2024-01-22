@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="限定提供（LA）"
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1640'
 ht-degree: 81%
 
 ---
@@ -31,7 +31,7 @@ Adobe Campaignに接続する方法とExperience Cloudナビゲーションの�
 
 Campaign ホームページを使用すると、主要リソース、指標およびコンポーネントをすばやく簡単に参照できます。
 
-ホームページの上部のセクションには、製品で利用可能な最新の更新と新機能の詳細、リリースノートへのリンク、および関連ドキュメントが表示されます。
+ホームページの上部のセクションには、製品で利用可能な最新の更新と新機能の詳細、リリースノートへのリンク、詳細なドキュメントが記載されています。 フィーチャカードをスクロールするには、左向き矢印を使用します。
 
 ![](assets/home.png)
 

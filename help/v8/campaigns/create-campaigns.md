@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Campaign Web でのキャンペーンの作成
 description: Adobe Campaign Web を使用してクロスチャネルキャンペーンを作成する方法を学ぶ
-badge: label="Beta"
+badge: label="限定提供（LA）"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 92%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 100%
 >title="キャンペーンプロパティ"
 >abstract="この画面では、ラベル、内部名、フォルダー、説明などのキャンペーン設定を確認および更新できます。また、割り当て先のユーザーを表示することもできます。"
 
-新しいキャンペーンを作成するには、そのプロパティを定義し、ワークフローと配信をスケジュールして含める必要があります。
+新しいキャンペーンを作成するには、キャンペーンの設定、スケジュールを定義し、ワークフローと配信を含める必要があります。
 
-## キャンペーンの作成{#campaign-create}
+## キャンペーンの作成 {#campaign-create}
 
 新しいキャンペーンを作成するには、次の手順に従います。
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューをクリックし、「**[!UICONTROL キャンペーンを作成]**」ボタンをクリックします。
+
+   ![新しいキャンペーンを作成](assets/create-campaign-button.png)
+
 1. 使用する&#x200B;**テンプレート**&#x200B;を選択し、キャンペーンのラベルを入力します。[詳細情報](manage-campaigns.md#manage-campaign-templates)。
 1. 必要に応じて、内部名、フォルダー、担当者、説明、特性などの&#x200B;**追加オプション**&#x200B;を変更できます。
 1. キャンペーンの&#x200B;**スケジュール**&#x200B;を定義します。キャンペーンスケジュールを設定する方法については、[この節](#campaign-schedule)を参照してください
 1. 「**作成**」をクリックします。
+
+   ![キャンペーンプロパティの作成](assets/create-a-campaign-properties.png)
+
 1. キャンペーンにワークフローと配信を追加します。
 
-   * 「**ワークフロー**」タブで、「**ワークフローを作成**」をクリックします。キャンペーンの作成時に、デフォルトのワークフローが自動的に追加されます。詳しくは、[ワークフローの作成](../workflows/create-workflow.md)方法を参照してください。
-   * 「**配信**」タブで、「**配信を作成**」をクリックします。[詳細情報](../msg/gs-messages.md)
+   * 「**ワークフロー**」タブで、「**ワークフローを作成**」をクリックします。キャンペーンの作成時に、デフォルトのワークフローが自動的に追加されます。以下の方法の詳細を説明します。 [ワークフローの作成](../workflows/create-workflow.md).
 
-1. 「**ログ**」ボタンと「**レポート**」ボタンを使用して、キャンペーンのパフォーマンスを分析します。
+   * 「**配信**」タブで、「**配信を作成**」をクリックします。[詳細情報](../msg/gs-messages.md)
 
 ## キャンペーンの監視とトラック{#campaign-monitoring}
 
@@ -50,7 +55,6 @@ ht-degree: 100%
 
 
 ## キャンペーンスケジュールの定義 {#campaign-schedule}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
@@ -62,11 +66,9 @@ ht-degree: 100%
 
 開始日と終了日は、キャンペーンリストに表示され、フィルターとして使用できます。[こちら](manage-campaigns.md#access-campaigns)を参照してください。
 
-![キャンペーンプロパティを定義](assets/campaign-properties.png)
-
 >[!NOTE]
 >
->これらのプロパティは、キャンペーンラベルの横にある「**キャンペーン設定を指定**」アイコンからいつでも変更できます。この[節](gs-campaigns.md#campaign-dashboard)を参照してください。
+>これらのプロパティは、キャンペーンラベルの横にある「**キャンペーン設定を指定**」アイコンからいつでも変更できます。[こちら](gs-campaigns.md#campaign-dashboard)を参照してください。
 
 日付に達すると、ワークフローのコンテキストでは、そのキャンペーンで作成され、送信準備が整った配信が実際に送信されます。このためには、ワークフローを開始しておく必要があります。
 

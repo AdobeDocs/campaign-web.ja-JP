@@ -2,12 +2,12 @@
 audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
-badge: label="Beta"
+badge: label="限定提供（LA）"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 92%
 
 ---
 
@@ -28,23 +28,10 @@ Adobe Campaign では、組み込みのキャンペーン管理機能を使用�
 
 ![キャンペーンフロー](assets/campaign-flow.png)
 
-キャンペーンを作成および管理する方法については、次の節を参照してください。
+キャンペーンを作成、管理、監視する方法については、次の節を参照してください。
 
 * [キャンペーンへのアクセスと管理](manage-campaigns.md)
 * [最初のキャンペーンを作成](create-campaigns.md)
+* [キャンペーンレポートを参照](../reporting/campaign-reports.md).
 
 
-
-<!--
-Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
-
-Design and execute high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
-Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns.
--->
-
-<!--
-Get Started with campaigns
-Adobe Campaign offers a set of solutions that help you personalize and deliver campaigns across all of your online and offline channels. You can create, configure, execute and analyze marketing campaigns. All marketing campaigns can be managed from a unified control center. Discover how to browse and create marketing campaigns in this section.
-
-Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
--->

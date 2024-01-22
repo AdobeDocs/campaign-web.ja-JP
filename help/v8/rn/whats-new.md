@@ -4,10 +4,10 @@ title: Campaign web v8 の新機能
 description: Campaign web v8 に含まれている新機能の確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="限定提供（LA）"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign web には、データベースをフィルタリングし、様�
 * メッセージやワークフローでターゲットにするオーディエンスを定義し、ニーズに合わせて新しいオーディエンスを簡単に作成する
 * 特定の要件に合わせて、ワークフローアクティビティ内に分割や紐付けなどのルールを適用する
 * データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作中にショートカットとして機能する、定義済みフィルターを作成する
-* レポートに表示されるデータをフィルタリングするルールを追加する
+* レポートに表示するデータをフィルターするルールを追加します
 * 受信者や配信リストなど、リストに表示されるデータをフィルタリングするカスタムルールを作成する
 
 詳しくは、[こちら](../query/query-modeler-overview.md)を参照してください。
