@@ -5,7 +5,7 @@ description: メール配信レポートへのアクセス方法と使用方法�
 badge: label="限定提供（LA）"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2245'
 ht-degree: 100%
 
@@ -286,7 +286,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="最も訪問されたリンク上位 10 件"
->abstract="**最も訪問されたリンク上位 10 件**&#x200B;グラフおよびテーブルには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。"
+>abstract="**最も訪問されたリンク上位 10 件**&#x200B;のグラフとテーブルには、リンクごとの受信者の行動に関する利用可能なデータが表示されます。"
 
 
 **[!UICONTROL 最も訪問されたリンク上位 10 件]**&#x200B;グラフおよびテーブルには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。

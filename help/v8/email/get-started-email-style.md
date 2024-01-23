@@ -5,7 +5,7 @@ description: メールコンテンツのスタイルを調整する様々な方�
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 badge: label="限定提供（LA）"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
 ht-degree: 100%
 

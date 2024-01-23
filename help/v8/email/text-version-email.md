@@ -5,7 +5,7 @@ description: メールのテキストバージョンを作成する方法を学�
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 badge: label="限定提供（LA）"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
 ht-degree: 100%
 

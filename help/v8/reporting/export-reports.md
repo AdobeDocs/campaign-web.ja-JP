@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: レポートをエクスポート
-description: レポートのエクスポート方法を理解します。
+description: レポートのエクスポート方法について
 badge: label="限定提供（LA）"
 source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 29%
 >title="レポートをエクスポート"
 >abstract="「**書き出し**」ボタンをクリックして、これらの指標を PDF または CSV 形式に書き出します。この形式では、指標を共有または印刷できます。"
 
-様々なレポートをPDFまたは CSV 形式で簡単に書き出し、それらを共有、操作または印刷できます。
+様々なレポートを PDF または CSV 形式に簡単にエクスポートできるので、共有、操作、印刷が可能になります。
 
-1. レポートで、 **[!UICONTROL 書き出し]** を選択し、 **[!UICONTROL 書き出しPDFファイル]** または **[!UICONTROL CSV ファイルとして書き出し]**.
+1. レポートから「**[!UICONTROL エクスポート]**」をクリックし、「**[!UICONTROL PDF ファイルとしてエクスポート]**」または「**[!UICONTROL CSV ファイルとしてエクスポート]**」を選択します。
 
    ![](assets/global_report_export.png)
 
-1. ファイルを保存するフォルダを探し、必要に応じて名前を変更して、「 **[!UICONTROL 保存]**.
+1. ファイルを保存するフォルダーを見つけて、必要に応じて名前を変更し、「**[!UICONTROL 保存]**」をクリックします。
 
-これで、レポートをPDFまたは CSV ファイルで表示または共有できるようになりました。
+レポートを PDF ファイルや CSV ファイルで表示または共有できるようになりました。
 

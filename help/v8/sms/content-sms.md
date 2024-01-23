@@ -5,9 +5,9 @@ description: SMS 配信のデザイン方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ SMS 配信のコンテンツをデザインするには、次の手順に従い�
 
 1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。
 
-1. クリック **[!UICONTROL 設定]** をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。 [詳細情報](../advanced-settings/delivery-settings.md)
+1. 「**[!UICONTROL 設定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 
 1. **[!UICONTROL コンテンツをシミュレート]**&#x200B;メニューにアクセスすると、パーソナライズされたコンテンツをプレビューできます。[詳細情報](send-sms.md#preview-sms)
 

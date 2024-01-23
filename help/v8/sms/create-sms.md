@@ -5,9 +5,9 @@ description: Adobe Campaign Web で SMS を作成して送信する方法を学�
 badge: label="限定提供（LA）"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,6 +72,6 @@ ht-degree: 97%
 
 1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#gs-schedule)を参照してください。
 
-1. クリック **[!UICONTROL 設定]** をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。 [詳細情報](../advanced-settings/delivery-settings.md)
+1. 「**[!UICONTROL 設定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 
    ![](assets/sms_create_3.png)

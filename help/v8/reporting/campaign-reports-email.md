@@ -5,9 +5,9 @@ description: メールチャネルのキャンペーンレポートについて�
 badge: label="限定提供（LA）"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="初期ターゲットオーディエンス統計"
->abstract="「初期ターゲットオーディエンス統計」テーブルには、受信者に関するデータが表示されます。"
+>abstract="初期ターゲットオーディエンス統計テーブルには、受信者に関連するデータが表示されます。"
 
 **[!UICONTROL 初期ターゲットオーディエンス統計]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 

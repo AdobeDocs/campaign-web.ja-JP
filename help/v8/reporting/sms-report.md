@@ -5,9 +5,9 @@ description: SMS 配信レポートへのアクセス方法と使用方法を説
 badge: label="限定提供（LA）"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="SMS の配信スループット"
->abstract="The **配信スループット** レポートには、指定した期間内の配信スループットに関する詳細情報が表示されます。 メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。"
+>abstract="**配信スループット**&#x200B;レポートには、指定した期間内の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。"
 
 このレポートには、指定した期間内の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
 

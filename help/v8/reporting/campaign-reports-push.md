@@ -5,7 +5,7 @@ description: プッシュチャネルのキャンペーンレポートについ�
 badge: label="限定提供（LA）"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '500'
 ht-degree: 100%
 
