@@ -2,12 +2,12 @@
 audience: end-user
 title: Adobe Experience Platform オーディエンスの使用
 description: Adobe Experience Platform のオーディエンスの使用方法
-badge: label="Beta"
+badge: label="限定提供（LA）"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 93%
+source-wordcount: '327'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,8 @@ Adobe Experience Platform オーディエンスを作成し、クライアント
    ![](assets/select-audience-folder.png)
 
    次のように、オーディエンスの接触チャネルに基づいてフィルタリングするルールを定義することもできます。
+
+   「フィルター」セクションでは、フィルターオプションにアクセスしてオーディエンスリストを絞り込むことができます。これをおこなうには、 **ルールを追加** ：クエリモデラーにアクセスします。このモデラーを使用して、オーディエンスのリストの詳細フィルターを作成できます。 [クエリモデラーの使用方法を説明します](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 

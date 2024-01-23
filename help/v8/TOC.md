@@ -1,15 +1,15 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8 web
-user-guide-description: Campaign v8 Web に関する製品ドキュメント。
+user-guide-description: Campaign v8 web に関する製品ドキュメント。
 title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign v8 web
 hide: true
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 81%
+source-wordcount: '537'
+ht-degree: 89%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 81%
       + [最初のメールを作成](email/create-email.md)
       + メールコンテンツを定義 {#content}
          + [メールコンテンツを設定](email/edit-content.md)
-         + [コンテンツテンプレートの使用](email/create-email-templates.md)
+         + [コンテンツテンプレートの操作](email/create-email-templates.md)
          + メールの作成を開始 {#start-design}
             + [E メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
             + [ゼロから開始](email/create-email-content.md)
@@ -101,6 +101,7 @@ ht-degree: 81%
       + [既存オーディエンスを選択](audience/add-audience.md)
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
       + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
+      + [Adobe Experience Platform オーディエンスの使用](audience/aep-audience.md)
       + [コントロール母集団を設定](audience/control-group.md)
    + 購読サービスの操作 {#work-with-services}
       + [購読サービスの作成と管理](audience/manage-services.md)
@@ -134,8 +135,8 @@ ht-degree: 81%
       + [スケジューラー](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
       + [待機](workflows/activities/wait.md)
-+ データベースに対するクエリ {#query-database}
-   + [クエリモデラーを操作](query/query-modeler-overview.md)
++ データベースのクエリ {#query-database}
+   + [クエリモデラーの操作](query/query-modeler-overview.md)
    + [最初のクエリの作成](query/build-query.md)
    + [式の編集](query/expression-editor.md)
    + [クエリのサンプル](query/query-samples.md)
@@ -151,11 +152,11 @@ ht-degree: 81%
       + [SMS 配信レポート](reporting/sms-report.md)
    + キャンペーンレポート {#campaign-report}
       + [キャンペーンレポートの概要](reporting/campaign-reports.md)
-      + [E メールキャンペーンレポート](reporting/campaign-reports-email.md)
+      + [メールキャンペーンレポート](reporting/campaign-reports-email.md)
       + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
       + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートの概要](reporting/global-reports.md)
-      + [E メールのグローバルレポート](reporting/global-report-email.md)
+      + [メールグローバルレポート](reporting/global-report-email.md)
       + [プッシュグローバルレポート](reporting/global-report-push.md)
       + [SMS グローバルレポート](reporting/global-report-sms.md)

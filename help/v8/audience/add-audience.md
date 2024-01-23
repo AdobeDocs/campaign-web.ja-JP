@@ -3,11 +3,11 @@ audience: end-user
 title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="ベータ版"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="限定提供（LA）"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 82%
+source-wordcount: '317'
+ht-degree: 66%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 82%
 
 メッセージの既存のオーディエンスを選択するには、次の手順に従います。
 
-1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックし、選びます。
+1. 次から： **対象ユーザ** 配信作成アシスタントの「 」セクションで、 **[!UICONTROL オーディエンスを選択]** ボタンを選択し、 **[!UICONTROL オーディエンスを選択]** 既存のオーディエンスを使用する場合。
 
    ![](assets/create-audience.png)
 
-1. 既存のオーディエンスを使用するには、「**[!UICONTROL オーディエンスを選択]**」を選択します。この画面には、現在のフォルダーの既存のすべてのオーディエンスが表示されます。
+1. この画面には、現在のフォルダーの既存のすべてのオーディエンスが表示されます。
 
    ![](assets/create-audience2.png)
 
-   Adobe Experience Platform からオーディエンスを選択するには、画面のフィルターセクションから `AEP Audiences folder` を参照します。
+   Adobe Experience Platformからオーディエンスを選択するには、 `AEP Audiences folder` 画面の「フィルター」セクションから。 [Adobe Experience Platformオーディエンスの使用方法を学ぶ](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 
