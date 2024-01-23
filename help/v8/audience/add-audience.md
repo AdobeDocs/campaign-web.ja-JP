@@ -4,7 +4,7 @@ title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="ベータ版"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 82%
@@ -41,8 +41,6 @@ ht-degree: 82%
    ![](assets/select-audience-folder.png)
 
 1. 「フィルター」セクションでは、フィルターオプションにアクセスしてオーディエンスリストを絞り込むことができます。これをおこなうには、 **ルールを追加** ：クエリモデラーにアクセスします。このモデラーを使用して、オーディエンスのリストの詳細フィルターを作成できます。 [クエリモデラーの使用方法を説明します](../query/query-modeler-overview.md)
-
-   ![](assets/create-audience4.png)
 
 1. 「**確認**」をクリックして、オーディエンスを配信のメインターゲットとして追加します。その後も、クエリモデラーを使用してオーディエンスを絞り込むには、 **ルールを編集** 」ボタンをクリックします。
 
