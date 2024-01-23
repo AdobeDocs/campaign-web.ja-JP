@@ -4,9 +4,9 @@ title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS）を追加する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '898'
 ht-degree: 70%
 
 ---
@@ -26,7 +26,7 @@ Adobe Campaign web を使用すると、メール、SMS、プッシュチャネ�
 >* [スタンドアロン SMS 配信を作成](../../sms/create-sms.md)
 >* [スタンドアロンプッシュ配信を作成](../../push/create-push.md)
 
-## ワークフローを作成 {#build-your-workflow}
+## 前提条件 {#channel-activity-prereq}
 
 次の関連するアクティビティを使用して、ワークフローの作成を開始します。
 
