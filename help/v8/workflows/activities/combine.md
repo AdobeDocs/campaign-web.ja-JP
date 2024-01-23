@@ -2,11 +2,11 @@
 audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
-badge: label="Beta"
+badge: label="限定提供（LA）"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '913'
 ht-degree: 98%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 98%
 >id="acw_orchestration_combine"
 >title="アクティビティを結合"
 >abstract="**結合**&#x200B;アクティビティでは、インバウンド母集団に対してセグメント化を実行できます。したがって、いくつもの母集団を組み合わせて、一部を除外したり、複数のターゲットに共通するデータのみを保持したりできます。"
-
 
 **エンリッチメント**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、インバウンド母集団に対してセグメント化を実行できます。したがって、いくつもの母集団を組み合わせて、一部を除外したり、複数のターゲットに共通するデータのみを保持したりできます。使用可能なセグメント化のタイプを次に示します。
 

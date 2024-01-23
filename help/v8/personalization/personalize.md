@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
-workflow-type: ht
-source-wordcount: '430'
+badge: label="限定提供（LA）"
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+workflow-type: tm+mt
+source-wordcount: '431'
 ht-degree: 100%
 
 ---

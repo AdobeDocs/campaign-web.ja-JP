@@ -2,11 +2,11 @@
 audience: end-user
 title: 配信に使用する 1 回限りのオーディエンスの作成
 description: 配信用の 1 回限りのオーディエンスを作成する方法を説明します。
-badge: label="ベータ版"
+badge: label="限定提供（LA）"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '228'
 ht-degree: 85%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 85%
 
 1. 「**独自に作成**」を選択します。クエリモデラーが表示されます。 ルールビルダーを使用すると、データベースに含まれているデータをフィルタリングすることにより、配信のターゲットとなる母集団を定義できます。[クエリモデラーの使用方法を説明します](../query/query-modeler-overview.md)
 
-   ![](assets/segment-builder.png)
+   ![](assets/query-modeler.png)
 
 1. クエリの準備が整ったら、「**確認**」をクリックして、オーディエンスを配信のメインターゲットとして使用します。
 
