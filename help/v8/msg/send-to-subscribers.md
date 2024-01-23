@@ -4,28 +4,33 @@ title: メッセージをサービスのサブスクライバーに送信
 description: サービスのサブスクライバーにメッセージを送信する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '231'
+ht-degree: 61%
 
 ---
 
 # メッセージをサービスのサブスクライバーに送信 {#send-to-subscribers}
 
-Adobe Campaign でサブスクリプションサービスを作成し、メッセージをサブスクライバーに送信できます。サブスクライバーサービスの作成方法については[このページ](../audience//manage-services.md#create-service)を参照してください。
+Adobe Campaign でサブスクリプションサービスを作成し、メッセージをサブスクライバーに送信できます。で購読サービスを作成する方法を説明します。 [このページ](../audience//manage-services.md#create-service).
 
 サブスクライバーにメッセージを送信するには、サブスクライバーを識別する特定のオーディエンスを作成し、以下に説明する方法で配信を作成します。
 
-1. オーディエンスを作成します。オーディエンスについて詳しくは[このページ](../audience/create-audience.md)を参照してください。
+1. オーディエンスを作成します。新しいワークフローが自動的に作成されます。 [オーディエンスの詳細を表示](../audience/create-audience.md)
 
-1. **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティで、詳細属性を表示し、**[!UICONTROL 受信者]**／**[!UICONTROL サブスクリプション]**／**[!UICONTROL サービス]**&#x200B;を選択します。
+1. わかりやすくするために、ワークフロー設定でワークフローの名前を変更します。 **ラベル** フィールドに入力します。 [ワークフロー設定の設定方法を説明します](../workflows/workflow-settings.md)
 
-   この例では、**Luma ニュースレター**&#x200B;ラベルの付いたサービスに登録しているユーザーを選択します。
+1. を開きます。 **[!UICONTROL オーディエンスの構築]** 「 」アクティビティと「 」アクティビティを選択します。 **[!UICONTROL オーディエンスを作成]**. [「オーディエンスを作成」アクティビティの設定方法の詳細情報](../workflows/activities/build-audience.md)
+
+   ![](assets/service-create-audience.png)
+
+1. オーディエンス作成フローで、次のカスタム条件を選択します。 **[!UICONTROL 購読]** 次のように存在する **[!UICONTROL サービス]** が、定義したサービスと等しい。 この例では、 **Luma ヨガニュースレター**.
 
    ![](assets/service-audience-subscribers.png)
 
-1. オーディエンスを保存します。
+1. 選択 **[!UICONTROL 確認]** をクリックします。 **[!UICONTROL 開始]** をクリックして、ワークフローを実行します。
+
 1. 配信を作成します。配信の作成手順について詳しくは、[このページ](../msg/gs-messages.md#create-delivery)を参照してください。
 1. 配信設定を参照し、デフォルトのターゲットマッピングを&#x200B;**サブスクリプション（nms:subscriptions）**&#x200B;に変更します。
 
