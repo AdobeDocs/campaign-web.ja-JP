@@ -5,7 +5,7 @@ description: メールチャネルのキャンペーンレポートについて�
 badge: label="限定提供（LA）"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1573'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
-* **[!UICONTROL 成功]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
+* **[!UICONTROL 成功]**：配信されるメッセージ数に関して、正常に処理されたメッセージ数。
 
 * **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
 

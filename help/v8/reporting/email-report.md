@@ -5,7 +5,7 @@ description: メール配信レポートへのアクセス方法と使用方法�
 badge: label="限定提供（LA）"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2245'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 * **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
 
-* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメイン）に、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
+* **[!UICONTROL 新しい強制隔離]**：配信されるメッセージ数に関して、配信の失敗後（不明なユーザー、無効なドメイン）に強制隔離されたアドレスの合計数。
 
 +++
 

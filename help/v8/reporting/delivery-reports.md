@@ -5,7 +5,7 @@ description: 配信レポートへのアクセス方法と使用方法につい�
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="限定提供（LA）"
 source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 

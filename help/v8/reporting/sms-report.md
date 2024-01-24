@@ -5,7 +5,7 @@ description: SMS 配信レポートへのアクセス方法と使用方法を説
 badge: label="限定提供（LA）"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 
