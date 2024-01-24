@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="限定提供（LA）"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 59929983859687081859e007b4e3b48a6279edee
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 81%
+source-wordcount: '1646'
+ht-degree: 80%
 
 ---
 
@@ -397,3 +397,12 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="ルールビルダーの詳細属性"
 >abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。ルールビルダーの左側のパレットにある現在のリストで使用可能なすべての属性（ノード、グループ、1-1 リンク、1-N リンクなど）を表示するには、「**詳細属性を表示**」切替スイッチをアクティブ化します。"
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_readonlymode"
+>title="このテンプレートは準備ができているので、"
+>abstract="TBC"
+
+
