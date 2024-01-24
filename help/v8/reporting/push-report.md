@@ -5,7 +5,7 @@ description: プッシュ配信レポートへのアクセス方法と使用方�
 badge: label="限定提供（LA）"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
