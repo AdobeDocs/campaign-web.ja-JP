@@ -7,7 +7,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 82%
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="ファイルをプレビュー"
->abstract="外部ファイルの列のプレビューを確認します。 この画面には最大 30 個のレコードのみが表示されます。"
+>abstract="外部ファイルの列のプレビューを確認します。この画面には、最大 30 個のレコードのみが表示されます。"
 
-外部ファイルに保存されたプロファイルをターゲットに設定することができます。 プロファイルはデータベースに追加されませんが、入力ファイル内のすべてのフィールドを[パーソナライゼーション](../personalization/gs-personalization.md)に使用できます。サポートされるファイル形式は、テキスト（TXT）とコンマ区切り値（CSV）です。この記事では、スタンドアロンの E メール配信を作成する際に外部プロファイルを読み込む方法について説明します。 ワークフロー内のファイルからデータを読み込むには、 [このページ](../workflows/activities/load-file.md).
+外部ファイルに保存されているプロファイルをターゲットにすることができます。プロファイルはデータベースに追加されませんが、入力ファイル内のすべてのフィールドを[パーソナライゼーション](../personalization/gs-personalization.md)に使用できます。サポートされるファイル形式は、テキスト（TXT）とコンマ区切り値（CSV）です。この記事では、スタンドアロンのメール配信を作成する際に外部プロファイルを読み込む方法について説明します。ワークフロー内のファイルからデータを読み込むには、[このページ](../workflows/activities/load-file.md)を参照してください。
 
 >[!CAUTION]
 >
->* この機能は、次の場合にのみ使用できます。 **電子メール配信**. SMS またはプッシュ配信では使用できません。
+>* この機能は、**メール配信**&#x200B;でのみ使用できます。SMS またはプッシュ配信では使用できません。
 >
 >* 外部ファイルからターゲット母集団を読み込む場合は、[コントロール母集団](control-group.md)を使用できません。
 >
@@ -107,4 +107,4 @@ Campaign Web では、ファイルからアップロードされたオーディ�
 
    ![](assets/file-upload-test.png)
 
-1. テスト E メールの送信を監視するには、 **[!UICONTROL テストメールログを表示]** ボタンをいつでも使用できます。 [テストメールの監視の詳細情報](../preview-test/test-deliveries.md#access-test-deliveries)
+1. 「**[!UICONTROL テストメールログを表示]**」ボタンを使用して、いつでもテストメールの送信を監視できます。[テストメールの監視の詳細情報](../preview-test/test-deliveries.md#access-test-deliveries)

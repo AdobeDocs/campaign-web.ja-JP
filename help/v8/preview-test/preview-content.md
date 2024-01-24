@@ -7,7 +7,7 @@ badge: label="限定提供（LA）"
 source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 
 配信のコンテンツをプレビューするには、次の手順に従います。
 
-1. 配信のコンテンツ編集画面または [E メールデザイナー](../email/get-started-email-designer.md).
+1. 配信のコンテンツを編集画面または[メールデザイナー](../email/get-started-email-designer.md)を参照します。
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
@@ -38,19 +38,19 @@ ht-degree: 78%
 
      >[!NOTE]
      >
-     >テストプロファイルは、 **[!UICONTROL 顧客管理]** > **[!UICONTROL プロファイル]** メニュー。 [詳細情報](../audience/test-profiles.md#create-test-profiles)
+     >テストプロファイルは、**[!UICONTROL 顧客管理]**／**[!UICONTROL プロファイル]**&#x200B;メニューから作成できます。[詳細情報](../audience/test-profiles.md#create-test-profiles)
 
    * 「**[!UICONTROL プロファイル]**」タブには、コンソールから&#x200B;**[!UICONTROL プロファイルとターゲット]**&#x200B;フォルダーに保存されたすべての受信者がリストされます。[!DNL Campaign]詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=ja){target="_blank"}を参照してください。
 
      >[!NOTE]
      >
-     >また、Campaign Web UI の対応するタブで、プロファイルの表示や管理をおこなうこともできます。 [詳細情報](../audience/about-recipients.md)
+     >また、Campaign web UI の対応するタブから、プロファイルを表示および管理することもできます。[詳細情報](../audience/about-recipients.md)
 
 1. テストプロファイルまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
 
    ![](assets/simulate-test-profile-filter.png)
 
-   例えば、 **[!UICONTROL 見込み客]** ステータス。 を使用してルールを追加する方法を説明します。 [クエリモデラー](../query/query-modeler-overview.md).
+   例えば、**[!UICONTROL 見込み客]**&#x200B;ステータスとなっている、すべてのテストプロファイルを検索するルールを定義できます。ルールの追加方法については、[クエリモデラー](../query/query-modeler-overview.md)を参照してください。
 
 1. 「**[!UICONTROL 選択]**」をクリックして選択内容を確定します。
 

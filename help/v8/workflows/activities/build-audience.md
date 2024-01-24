@@ -7,7 +7,7 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 71%
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 * クライアントコンソールでリストとして作成した既存のオーディエンスを選択します。
 * Adobe Experience Platform オーディエンスを選択します。
-* フィルタリング条件を定義および組み合わせて、Query Modeler Builder を使用して新しいオーディエンスを作成します。
+* クエリモデラービルダーを使用してフィルタリング条件を定義および組み合わせて、新しいオーディエンスを作成します。
 
 >[!NOTE]
 >
@@ -52,14 +52,14 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 >[!BEGINTABS]
 
->[!TAB 独自の（クエリ）を作成]
+>[!TAB 独自のクエリを作成]
 
 独自のクエリを作成するには、次の手順に従います。
 
 1. 「**独自のクエリを作成**」を選択します。
-1. 「**ターゲティングディメンション**」を選択します。ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。[ターゲティングディメンションの詳細を説明します](../../audience/about-recipients.md#targeting-dimensions)
+1. 「**ターゲティングディメンション**」を選択します。ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。[ターゲティングディメンションについての詳細を学ぶ](../../audience/about-recipients.md#targeting-dimensions)
 1. 「**続行**」をクリックします。
-1. クエリモデラーを使用してクエリを定義します。新しい E メールをデザインする際に、オーディエンスを作成するのと同じ方法です。 [クエリモデラーの操作方法を説明します。](../../audience/../query/query-modeler-overview.md)
+1. 新しいメールをデザインする際にオーディエンスを作成するのと同じ方法で、クエリモデラーを使用してクエリを定義します。[クエリモデラーの操作方法の詳細を学ぶ](../../audience/../query/query-modeler-overview.md)
 
 >[!TAB オーディエンスの閲覧]
 
@@ -67,7 +67,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 1. 「**オーディエンスを読み取り**」を選択します。
 1. 「**続行**」をクリックします。
-1. 新しい配信をデザインする際にオーディエンスを使用する場合と同じ方法で、オーディエンスを選択します。 [こちら](../../audience/add-audience.md)を参照してください。
+1. 新しい配信をデザインする際にオーディエンスを使用するのと同じ方法で、オーディエンスを選択します。[こちら](../../audience/add-audience.md)を参照してください。
 
 >[!ENDTABS]
 

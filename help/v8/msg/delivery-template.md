@@ -10,7 +10,7 @@ exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->配信テンプレートは、 [コンテンツテンプレート](../email/create-email-templates.md):E メールのコンテンツのみを再利用し、標準で用意されているサンプルの E メールテンプレートの 1 つを使用してコンテンツの作成を開始できます。
+>配信テンプレートは、メールのコンテンツのみを再利用し、標準で用意されているサンプルメールテンプレートのいずれかを使用してコンテンツの作成を開始できる[コンテンツテンプレート](../email/create-email-templates.md)とは異なります。
 
 
 ## 配信テンプレートへのアクセスと管理 {#access-manage-templates}
@@ -194,6 +194,6 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->E メールのレンダリングを使用したり、配信テンプレートでテストを送信したりすることはできません。
+>メールのレンダリングを使用したり、配信テンプレートでテストを送信したりすることはできません。
 
 

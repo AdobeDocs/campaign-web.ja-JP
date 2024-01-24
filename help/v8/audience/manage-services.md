@@ -7,7 +7,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 70%
+ht-degree: 74%
 
 ---
 
@@ -68,9 +68,9 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 
    ![](assets/service-create-properties.png)
 
-1. デフォルトでは、サービスは **[!UICONTROL サービスと購読]** フォルダー。 目的の場所を参照して変更できます。 [フォルダーの操作方法を説明します](../get-started/permissions.md#folders)
+1. デフォルトでは、サービスは **[!UICONTROL サービスと購読]** フォルダー。 目的の場所を参照して変更できます。[詳しくは、フォルダーの操作方法を参照してください](../get-started/permissions.md#folders)
 
-1. デフォルトでは、購読は無制限です。次の項目を無効にすることができます。 **[!UICONTROL 無制限の有効期間]** オプションを使用して、サービスの有効期間を定義します。
+1. デフォルトでは、購読は無制限です。「**[!UICONTROL 無制限の有効期間]**」オプションを無効にして、サービスの有効期間を定義できます。
 
    次の例では、20 日後には次のようになります。
    * このサービスを購読できる受信者はいなくなります。

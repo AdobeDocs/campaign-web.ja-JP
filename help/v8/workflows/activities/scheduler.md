@@ -7,7 +7,7 @@ exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
 source-wordcount: '527'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="スケジューラーアクティビティ"
+>title="「スケジューラー」アクティビティ"
 >abstract="**スケジューラー**&#x200B;アクティビティを使用すると、ワークフローの開始日時をスケジュールできます。このアクティビティは、予約済みの開始とみなされます。ワークフローの最初のアクティビティとしてのみ使用できます。"
 
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 * ワークフローで 1 回限りの配信を送信する場合は、スケジューラーアクティビティを追加して、**1 回**&#x200B;だけ実行するように設定できます。また、配信の設定で&#x200B;**スケジュール**&#x200B;を定義することもできます。
 * ワークフローで繰り返し配信を送信する場合は、**スケジューラー**&#x200B;アクティビティを使用して実行頻度を設定する必要があります。繰り返し配信アクティビティでは、スケジュールを定義できません。
 
-## スケジューラーアクティビティの設定 {#scheduler-configuration}
+## 「スケジューラー」アクティビティの設定 {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"

@@ -7,7 +7,7 @@ badge: label="限定提供（LA）"
 source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
 workflow-type: tm+mt
 source-wordcount: '2260'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -115,11 +115,11 @@ The **[!UICONTROL 受信者の重要度]** 「 」フィールドは、処理能
 >title="配信用のオーディエンス設定"
 >abstract="利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択します。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。また、配信用の除外パラメーターを設定することもできます。 "
 
-このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。ターゲットマッピングは、操作が処理するデータのタイプです。 ターゲット母集団（受信者、契約の受取人、オペレーター、サブスクライバーなど）を定義できます。
+このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。ターゲットマッピングは、操作で処理されるデータのタイプです。ターゲット母集団（受信者、契約の受取人、オペレーター、サブスクライバーなど）を定義できます。
 
 ターゲットマッピングについて詳しくは、[この節](../audience/targeting-dimensions.md)を参照してください。
 
-Adobe Analytics の **[!UICONTROL 除外]** 「 」フィールドで、今後連絡を希望しない受信者や強制隔離された受信者を除外するよう選択できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+Adobe Analytics の **[!UICONTROL 除外]** 「 」フィールドで、今後連絡を希望しない受信者や強制隔離された受信者を除外するよう選択できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ja){target="_blank"}
 
 ## 配信 {#delivery}
 

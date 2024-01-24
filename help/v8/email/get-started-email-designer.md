@@ -7,16 +7,16 @@ exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# E メールデザイナーの基本を学ぶ {#get-started-email-designer}
+# メールデザイナーの基本を学ぶ {#get-started-email-designer}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="新しいメールデザイナー"
->abstract="Campaign E メールデザイナーを使用すると、個々にカスタマイズされた魅力的な E メールを、直感的なドラッグ&amp;ドロップインターフェイスで作成できます。 空白のスレートから始める場合でも、既存のコンテンツを読み込む場合でも、既存のテンプレートを活用する場合でも、すべての E メールのすべてのコンテンツをデザインし、調整します。"
+>abstract="Campaign メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個別にカスタマイズされた魅力的なメールを作成できます。空白の状態から開始する場合でも、既存のコンテンツを読み込む場合でも、既存のテンプレートを活用する場合でも、あらゆるメールコンテンツのデザインと強化に対応します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 
@@ -24,7 +24,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
 >title="新しいメールデザイナー"
->abstract="Campaign E メールデザイナーを使用すると、個々にカスタマイズされた魅力的な E メールを、直感的なドラッグ&amp;ドロップインターフェイスで作成できます。 空白のスレートから始める場合でも、既存のコンテンツを読み込む場合でも、既存のテンプレートを活用する場合でも、すべての E メールのすべてのコンテンツをデザインし、調整します。"
+>abstract="Campaign メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個別にカスタマイズされた魅力的なメールを作成できます。空白の状態から開始する場合でも、既存のコンテンツを読み込む場合でも、既存のテンプレートを活用する場合でも、あらゆるメールコンテンツのデザインと強化に対応します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 <!--TO REMOVE ABOVE-->
