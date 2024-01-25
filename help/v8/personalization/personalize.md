@@ -1,16 +1,16 @@
 ---
 title: Campaign でのコンテンツのパーソナライズ
-description: Adobe Campaign web UI でのコンテンツのパーソナライズ方法について説明します
+description: Adobe Campaign Web でコンテンツをパーソナライズする方法を説明します
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="限定提供（LA）"
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 97%
 
 ---
 

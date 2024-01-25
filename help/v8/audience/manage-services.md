@@ -4,10 +4,10 @@ title: 購読サービスの操作
 description: Adobe Campaign web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
 badge: label="限定提供（LA）"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '883'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 74%
 >title="サービスの作成と管理"
 >abstract="Adobe Campaign を使用すると、ニュースレターなどのサービスの作成と監視を行ったり、これらのサービスの購読または購読解除を確認したりできます。購読はメールおよび SMS 配信にのみ当てはまります。"
 
-Adobe Campaign web を使用すると、ニュースレターなどのサービスの管理と作成を行ったり、それらのサービスの購読または購読解除を確認したりできます。
+Adobe Campaign Web を使用して、ニュースレターなどのサービスを管理および作成し、それらのサービスの購読または購読解除を確認します。
 
 >[!NOTE]
 >
