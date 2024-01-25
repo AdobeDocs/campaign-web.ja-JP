@@ -4,10 +4,10 @@ title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="限定提供（LA）"
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 66%
+source-wordcount: '326'
+ht-degree: 72%
 
 ---
 
@@ -36,11 +36,15 @@ ht-degree: 66%
 
    ![](assets/create-audience2.png)
 
-   Adobe Experience Platformからオーディエンスを選択するには、 `AEP Audiences folder` 画面の「フィルター」セクションから。 [Adobe Experience Platformオーディエンスの使用方法を学ぶ](aep-audience.md)
+   Adobe Experience Platform からオーディエンスを選択するには、画面のフィルターセクションから `AEP Audiences folder` を参照します。
 
    ![](assets/select-audience-folder.png)
 
-1. 「フィルター」セクションでは、フィルターオプションにアクセスしてオーディエンスリストを絞り込むことができます。これをおこなうには、 **ルールを追加** ：クエリモデラーにアクセスします。このモデラーを使用して、オーディエンスのリストの詳細フィルターを作成できます。 [クエリモデラーの使用方法を説明します](../query/query-modeler-overview.md)
+1. 「フィルター」セクションでは、フィルターオプションにアクセスしてオーディエンスリストを絞り込むことができます。これをおこなうには、 **ルールを追加** ：クエリモデラーにアクセスします。このモデラーを使用して、オーディエンスのリストの詳細フィルターを作成できます。 [詳しくは、クエリモデラーの使用方法を参照してください](../query/query-modeler-overview.md)
+
+   例えば、次に示すように、オーディエンスの起源に基づいてフィルタリングするルールを定義できます。
+
+   ![](assets/filter-on-aep-audience.png)
 
 1. 「**確認**」をクリックして、オーディエンスを配信のメインターゲットとして追加します。その後も、クエリモデラーを使用してオーディエンスを絞り込むには、 **ルールを編集** 」ボタンをクリックします。
 

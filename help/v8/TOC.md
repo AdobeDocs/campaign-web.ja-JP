@@ -6,10 +6,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign v8 web
 hide: true
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 92%
+source-wordcount: '536'
+ht-degree: 91%
 
 ---
 
@@ -103,7 +103,6 @@ ht-degree: 92%
       + [既存オーディエンスを選択](audience/add-audience.md)
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
       + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
-      + [Adobe Experience Platform オーディエンスの使用](audience/aep-audience.md)
       + [コントロール母集団を設定](audience/control-group.md)
    + 購読サービスの操作 {#work-with-services}
       + [購読サービスの作成と管理](audience/manage-services.md)
