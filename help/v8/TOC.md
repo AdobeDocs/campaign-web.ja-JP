@@ -6,10 +6,10 @@ title: Adobe Campaign v8 web ドキュメント
 description: Campaign v8 web ドキュメント
 breadcrumb-title: Campaign v8 web
 hide: true
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 89%
+source-wordcount: '542'
+ht-degree: 92%
 
 ---
 
@@ -92,8 +92,10 @@ ht-degree: 89%
    + [プロファイルとオーディエンスの基本を学ぶ](audience/gs-audiences-recipients.md)
    + [ターゲティングディメンション](audience/targeting-dimensions.md)
    + プロファイルの操作 {#work-with-profiles}
-      + [プロファイルの監視と管理](audience/about-recipients.md)
-      + [テストプロファイルの作成と管理](audience/test-profiles.md)
+      + [プロファイルの基本を学ぶ](audience/about-recipients.md)
+      + [プロファイルの詳細を調べる](audience/profile-view.md)
+      + [プロファイルの作成](audience/create-profile.md)
+      + [テストプロファイルの操作](audience/test-profiles.md)
    + オーディエンスの操作 {#audiences}
       + [オーディエンスの作成](audience/create-audience.md)
       + [オーディエンスの監視と管理](audience/manage-audience.md)
@@ -146,17 +148,17 @@ ht-degree: 89%
    + [レポートをエクスポート](reporting/export-reports.md)
    + [主要業績評価指標](reporting/kpis.md)
    + 配信レポート {#delivery-report}
-      + [配信レポートの概要](reporting/delivery-reports.md)
+      + [配信レポートの基本を学ぶ](reporting/delivery-reports.md)
       + [メール配信レポート](reporting/email-report.md)
       + [プッシュ配信レポート](reporting/push-report.md)
       + [SMS 配信レポート](reporting/sms-report.md)
    + キャンペーンレポート {#campaign-report}
-      + [キャンペーンレポートの概要](reporting/campaign-reports.md)
+      + [キャンペーンレポートの基本を学ぶ](reporting/campaign-reports.md)
       + [メールキャンペーンレポート](reporting/campaign-reports-email.md)
       + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
       + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
    + グローバルレポート {#global-report}
-      + [グローバルレポートの概要](reporting/global-reports.md)
+      + [グローバルレポートの基本を学ぶ](reporting/global-reports.md)
       + [メールグローバルレポート](reporting/global-report-email.md)
       + [プッシュグローバルレポート](reporting/global-report-push.md)
       + [SMS グローバルレポート](reporting/global-report-sms.md)
