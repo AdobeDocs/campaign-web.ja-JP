@@ -4,9 +4,9 @@ title: インターフェイスを確認
 description: Campaign v8 Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="限定提供（LA）"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1697'
 ht-degree: 78%
 
 ---
@@ -242,10 +242,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="受信者の読み取り専用プロファイル"
 >abstract="受信者の読み取り専用プロファイル"
 
->[!CONTEXTUALHELP]
->id="acw_subscriptions_delivery_template"
->title="購読の配信テンプレート"
->abstract="購読の配信テンプレート"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"

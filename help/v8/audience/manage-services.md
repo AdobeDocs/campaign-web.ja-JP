@@ -4,10 +4,10 @@ title: 購読サービスの操作
 description: Adobe Campaign web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
 badge: label="限定提供（LA）"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 71%
+source-wordcount: '951'
+ht-degree: 66%
 
 ---
 
@@ -91,6 +91,17 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 * このサービスの購読者にメッセージを送信します。 [詳細情報](../msg/send-to-subscribers.md)
 
 ## 確認メッセージの作成 {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="購読配信テンプレートを選択"
+>abstract="サービスを購読するユーザーに確認メッセージを送信するには、 **[!UICONTROL 購読]** ターゲットマッピング（定義済みのターゲットなし）"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="購読解除配信テンプレートを選択"
+>abstract="サービスを購読解除したユーザーに確認メッセージを送信するには、 **[!UICONTROL 購読]** ターゲットマッピング（定義済みのターゲットなし）"
 
 サービスを登録または登録解除するユーザーに確認メッセージを送信するには、**[!UICONTROL 購読]**&#x200B;ターゲットマッピング（定義済みのターゲットなし）を使用して配信テンプレートを作成する必要があります。それには、次の手順に従います。
 
