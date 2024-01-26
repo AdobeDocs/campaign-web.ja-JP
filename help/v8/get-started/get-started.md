@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Campaign v8 web の基本を学ぶ
-description: Campaign v8 web の基本を学ぶ
+title: Adobe Campaign Web の基本を学ぶ
+description: Adobe Campaign Web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="限定提供（LA）"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 80%
+ht-degree: 68%
 
 ---
 
-# Campaign v8 web の基本を学ぶ {#get-started}
+# Adobe Campaign Web の基本を学ぶ {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="基本を学ぶ"
->abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
+>abstract="新しいAdobe Campaign Web インターフェイスは、統合され、直感的で一貫性のあるユーザーエクスペリエンスを提供します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="基本を学ぶ"
->abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
+>abstract="新しいAdobe Campaign Web インターフェイスは、統合され、直感的で一貫性のあるユーザーエクスペリエンスを提供します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="基本を学ぶ"
->abstract="新しい Campaign v8 web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
+>abstract="新しいAdobe Campaign Web インターフェイスは、統合され、直感的で一貫性のあるユーザーエクスペリエンスを提供します。"
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。
 
@@ -50,7 +50,7 @@ Campaign を使用すると、次のことを行えます。
 
 >[!NOTE]
 >
->Campaign v8 web は現在限定提供（LA）バージョンです。アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
+>Adobe Campaign Web は現在、Limited Availability(LA) バージョンです。 アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
 Adobe Campaign web に接続する方法については、[このページ](connect-to-campaign.md)を参照してください。
 

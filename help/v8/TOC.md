@@ -1,22 +1,22 @@
 ---
 audience: end-user
-user-guide-title: Campaign v8 web
-user-guide-description: Campaign v8 web に関する製品ドキュメント。
-title: Adobe Campaign v8 web ドキュメント
-description: Campaign v8 web ドキュメント
-breadcrumb-title: Campaign v8 web
+user-guide-title: Adobe Campaign Web
+user-guide-description: Adobe Campaign Web の製品ドキュメント。
+title: Adobe Campaign Web ドキュメント
+description: Campaign Web ドキュメント
+breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 91%
+source-wordcount: '532'
+ht-degree: 87%
 
 ---
 
 
-# Adobe Campaign v8 web ドキュメント {#v8}
+# Adobe Campaign Web ドキュメント {#v8}
 
-+ [Campaign v8 web ドキュメント](campaign-web-home.md)
++ [Adobe Campaign Web ドキュメント](campaign-web-home.md)
 + [新機能](rn/whats-new.md)
 + [ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の基本を学ぶ {#start}

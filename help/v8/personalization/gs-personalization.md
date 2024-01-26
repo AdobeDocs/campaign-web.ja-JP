@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 96%
+source-wordcount: '659'
+ht-degree: 92%
 
 ---
 
@@ -45,7 +45,7 @@ Campaign web 式エディターに JavaScript 構造を挿入することで、�
 
 ## 式エディターへのアクセス {#access}
 
-Adobe Campaign V8 web では、式エディターを使用すると、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツ用にカスタマイズされたエクスペリエンスを作成できます。式エディターは、すべてのチャネルで、件名フィールド、メールリンク、テキスト／ボタンコンテンツコンポーネントなど、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンのあるすべてのフィールドで使用できます。
+Adobe Campaign Web には式エディターが用意されており、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツに合わせてカスタマイズされたエクスペリエンスを作成できます。 式エディターは、すべてのチャネルで、件名フィールド、メールリンク、テキスト／ボタンコンテンツコンポーネントなど、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンのあるすべてのフィールドで使用できます。
 
 動的にするコンテンツに応じて式エディターにアクセスする方法の例を次に示します。
 
