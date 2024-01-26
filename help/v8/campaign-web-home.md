@@ -4,10 +4,10 @@ description: Campaign web v8 ヘルプセンター
 title: Adobe Campaign web v8 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="限定提供（LA）"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 44%
+ht-degree: 58%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="項目 1"
->abstract="新しいメール、SMS、プッシュ通知のデザインエクスペリエンス"
+>abstract="新しい E メール、SMS、プッシュ通知のデザインエクスペリエンス"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -41,7 +41,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="項目 4"
->abstract="次世代クエリモデラーおよび E メールデザイナー"
+>abstract="次世代のクエリモデラーおよび E メールデザイナー"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -102,19 +102,19 @@ Adobe Campaign v8 Web 製品およびドキュメントの最新の機能強化�
 
 >[!TAB オーディエンスの構成]
 
-ビジュアルワークフローキャンバスに新しいオーディエンスを作成します。 ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。複数のオーディエンスを 1 つのオーディエンスに組み合わせたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つを複数のオーディエンスに分割したりします。
+ビジュアルワークフローキャンバスに、新しいオーディエンスを作成します。ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりします。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
 >[!TAB E メールデザイナー]
 
-Campaign E メールデザイナーを使用すると、個々にカスタマイズされた魅力的な E メールを、直感的なドラッグ&amp;ドロップインターフェイスで作成できます。 空白のスレートから始める場合でも、既存のコンテンツを読み込む場合でも、既存のテンプレートを活用する場合でも、すべての E メールのすべてのコンテンツをデザインし、調整します。
+Campaign メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個別にカスタマイズされた魅力的なメールを作成できます。空白の状態から開始する場合でも、既存のコンテンツを読み込む場合でも、既存のテンプレートを活用する場合でも、あらゆるメールコンテンツのデザインと強化に対応します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
 >[!TAB プロファイル 360]
 
-新しいプロファイルを作成し、強力なレポートやツールを使用してそれらを監視します。 プロファイルの属性、インタラクションおよびログにアクセスします。 フィルターオプションを使用して、プロファイルのリストを参照し、プロファイルを編集および更新します。
+新しいプロファイルを作成し、強力なレポートとツールを通じて監視します。プロファイルの属性、インタラクションおよびログにアクセスします。フィルタリングオプションを使用して、プロファイルリストを参照し、プロファイルを編集および更新します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
