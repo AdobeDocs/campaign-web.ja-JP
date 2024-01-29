@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="限定提供（LA）"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 78%
+source-wordcount: '1596'
+ht-degree: 77%
 
 ---
 
@@ -178,14 +178,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
-
-
-
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
-
-
 
 
 <!-- FOR GA -->
@@ -227,55 +221,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="受信者の読み取り専用プロファイル"
 
 
->[!CONTEXTUALHELP]
->id="acw_landingpages_menu"
->title="ランディングページ"
->abstract="ランディングページ"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_properties"
->title="ランディングページのプロパティ"
->abstract="ランディングページのプロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_pages_list"
->title="ランディングページのページ"
->abstract="ランディングページのページ"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_schedule"
->title="ランディングページのスケジュール"
->abstract="ランディングページのスケジュール"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="ランディングページのプライマリページ"
->abstract="ランディングページのプライマリページ"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="ランディングページの購読"
->abstract="ランディングページの購読"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_calltoaction"
->title="ランディングページのコールトゥアクション"
->abstract="ランディングページのコールトゥアクション"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_simulate"
->title="ランディングページのシミュレート"
->abstract="ランディングページのシミュレート"
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="編集不可のアクティビティ"
 >abstract="編集不可のアクティビティ"
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -312,8 +262,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="フラグメントの詳細"
 >abstract="フラグメントの詳細"
-
-
 
 
 

@@ -6,10 +6,10 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign Web ドキュメント
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 86%
+source-wordcount: '558'
+ht-degree: 83%
 
 ---
 
@@ -89,6 +89,11 @@ ht-degree: 86%
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
       + [テスト配信の送信](preview-test/test-deliveries.md)
       + [メールのレンダリングのテスト](preview-test/email-rendering.md)
++ ランディングページ {#landing-pages}
+   + [ランディングページの概要](landing-pages/get-started-lp.md)
+   + [ランディングページの作成と公開](landing-pages/create-lp.md)
+   + [ランディングページコンテンツのデザイン](landing-pages/lp-content.md)
+   + [ランディングページテンプレートの使用](landing-pages/lp-templates.md)
 + プロファイルとオーディエンス {#audiences}
    + [プロファイルとオーディエンスの基本を学ぶ](audience/gs-audiences-recipients.md)
    + [ターゲティングディメンション](audience/targeting-dimensions.md)
