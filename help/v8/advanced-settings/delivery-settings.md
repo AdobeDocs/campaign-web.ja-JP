@@ -4,9 +4,9 @@ title: 配信設定
 description: Campaign Web での配信設定の詳細情報
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="限定提供（LA）"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2260'
+source-wordcount: '2316'
 ht-degree: 69%
 
 ---
@@ -137,6 +137,8 @@ Adobe Analytics の **[!UICONTROL 除外]** 「 」フィールドで、今後�
 * **[!UICONTROL SMTP 配信をテスト]**：このオプションは、SMTP を介した送信をテストするために使用されます。 配信は SMTP サーバーへの接続まで処理されますが、送信はされません。配信の受信者ごとに、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
 * **[!UICONTROL BCC で E メールを送信]**：このオプションは、BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由で E メールを外部システムに保存するために使用します。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
+
+* **[!UICONTROL 複数のウェーブを使用して送信]**：ウェーブを使用して、送信するボリュームを徐々に増やすことができます。 これにより、メッセージがスパムとしてマークされず、また 1 日あたりのメッセージ数を制限できます。ウェーブを使用すると、一度に大量のメッセージを送信するのではなく、配信をいくつかのバッチに分割できます。[詳細情報](send-using-waves.md)
 
 送信される E メールメッセージのフォーマットを変更することもできます。
 

@@ -4,10 +4,10 @@ title: インターフェイスを確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="限定提供（LA）"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 76%
+source-wordcount: '1648'
+ht-degree: 78%
 
 ---
 
@@ -153,22 +153,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="権限が必要です"
 >abstract="セグメントを作成するには、管理者から権限が付与されている必要があります。"
-
-
-<!-- Waves-->
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_definition"
->title="ウェーブの定義"
->abstract="ウェーブを定義して、一度に大量のメッセージを送信するのではなく、配信を複数のバッチに分割します。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_size"
->title="ウェーブのサイズ"
->abstract="ウェーブのサイズが必要です。 数値（メッセージ数）または割合 (0 ～ 100%) を「サイズ」フィールドに入力します。"
-
-
 
 <!-- Workflows-->
 

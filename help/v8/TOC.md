@@ -6,10 +6,10 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign Web ドキュメント
 breadcrumb-title: Campaign Web
 hide: true
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 87%
+source-wordcount: '536'
+ht-degree: 86%
 
 ---
 
@@ -64,8 +64,9 @@ ht-degree: 87%
             + [インラインスタイル属性を追加する](email/inline-styling.md)
       + メールの送信と監視 {#monitor}
          + [メールの準備と送信](monitor/prepare-send.md)
-         + [配信ログの監視](monitor/delivery-logs.md)
          + [メール配信設定](advanced-settings/delivery-settings.md)
+         + [複数のウェーブを使用して送信](advanced-settings/send-using-waves.md)
+         + [配信ログの監視](monitor/delivery-logs.md)
    + プッシュ通知 {#push}
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
       + [プッシュ通知配信を作成](push/create-push.md)
