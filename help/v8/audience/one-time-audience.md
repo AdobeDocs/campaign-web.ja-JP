@@ -7,7 +7,7 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
 
    ![](assets/segment-builder0.png)
 
-1. 「**独自に作成**」を選択します。クエリモデラーが表示されます。 ルールビルダーを使用すると、データベースに含まれているデータをフィルタリングすることにより、配信のターゲットとなる母集団を定義できます。[クエリモデラーの使用方法を説明します](../query/query-modeler-overview.md)
+1. 「**独自に作成**」を選択します。クエリモデラーが表示されます。 ルールビルダーを使用すると、データベースに含まれているデータをフィルタリングすることにより、配信のターゲットとなる母集団を定義できます。[詳しくは、クエリモデラーの使用方法を参照してください](../query/query-modeler-overview.md)
 
    ![](assets/query-modeler.png)
 

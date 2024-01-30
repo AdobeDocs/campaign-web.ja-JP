@@ -3,13 +3,13 @@ audience: end-user
 title: グローバルレポートの基本を学ぶ
 description: グローバルレポートについて
 badge: label="限定提供（LA）"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
-workflow-type: ht
+exl-id: e64d9765-f602-4fee-9923-a3665130c63a
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # グローバルレポートの基本を学ぶ {#global-report-gs}
 

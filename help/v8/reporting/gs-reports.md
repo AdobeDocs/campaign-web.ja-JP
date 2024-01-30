@@ -5,7 +5,7 @@ description: Campaign web でレポートにアクセスして管理する方法
 badge: label="限定提供（LA）"
 exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
 

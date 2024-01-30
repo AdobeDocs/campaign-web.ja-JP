@@ -5,7 +5,7 @@ description: メールコンテンツのデザイン方法
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="限定提供（LA）"
 source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 

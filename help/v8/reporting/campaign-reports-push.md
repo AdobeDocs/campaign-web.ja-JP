@@ -5,7 +5,7 @@ description: プッシュチャネルのキャンペーンレポートについ�
 badge: label="限定提供（LA）"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
-* **[!UICONTROL 成功]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
+* **[!UICONTROL 成功]**：配信されるメッセージ数に関して、正常に処理されたメッセージ数。
 
 * **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
 

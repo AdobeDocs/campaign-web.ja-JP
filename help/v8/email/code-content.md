@@ -5,7 +5,7 @@ description: 独自のメールコンテンツのコーディング方法を説�
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 badge: label="限定提供（LA）"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 

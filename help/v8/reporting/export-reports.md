@@ -3,13 +3,13 @@ audience: end-user
 title: レポートをエクスポート
 description: レポートのエクスポート方法について
 badge: label="限定提供（LA）"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
-workflow-type: ht
+exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
+source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 
 ---
-
 
 # レポートをエクスポート {#export-reports}
 
@@ -27,4 +27,3 @@ ht-degree: 100%
 1. ファイルを保存するフォルダーを見つけて、必要に応じて名前を変更し、「**[!UICONTROL 保存]**」をクリックします。
 
 レポートを PDF ファイルや CSV ファイルで表示または共有できるようになりました。
-

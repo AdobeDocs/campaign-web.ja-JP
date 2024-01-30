@@ -5,7 +5,7 @@ description: Campaign web UI でメールコンテンツを編集する方法を
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="限定提供（LA）"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: SMS 配信のデザイン方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 

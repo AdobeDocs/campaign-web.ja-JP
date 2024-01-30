@@ -5,7 +5,7 @@ description: インラインスタイル属性を追加する方法を説明し�
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="限定提供（LA）"
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
 

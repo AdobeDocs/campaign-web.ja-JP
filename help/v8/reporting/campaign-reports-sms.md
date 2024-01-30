@@ -5,7 +5,7 @@ description: SMS チャネルのキャンペーンレポートについて
 badge: label="限定提供（LA）"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
-* **[!UICONTROL 成功]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
+* **[!UICONTROL 成功]**：配信されるメッセージ数に関して、正常に処理されたメッセージ数。
 
 * **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
 

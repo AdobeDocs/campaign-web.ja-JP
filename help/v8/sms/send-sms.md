@@ -5,7 +5,7 @@ description: Adobe Campaign web で SMS を送信する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
 
