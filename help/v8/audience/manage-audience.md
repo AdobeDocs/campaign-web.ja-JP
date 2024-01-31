@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: オーディエンスの監視と管理
-description: Adobe Campaign web でオーディエンスを監視および管理する方法を説明します
+description: Adobe Campaign Web でオーディエンスを監視および管理する方法を説明します
 badge: label="限定提供（LA）"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="プロパティ"
->abstract="ここでは、オリジン、ストレージフォルダー、ステータスなど、オーディエンスのプロパティの概要を確認できます。 リンクをクリックします。 **最後のワークフロー** 「 」セクションを開いて、オーディエンスの作成に使用したワークフローを開きます。"
+>abstract="ここでは、接触チャネル、ストレージフォルダー、ステータスなどのオーディエンスプロパティの概要を確認できます。「**前回のワークフロー**」セクションのリンクをクリックして、オーディエンスの作成に使用したワークフローを開きます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="オーディエンスサイズ"
->abstract="ここでは、オーディエンス内のプロファイルの合計数を確認できます。 「計算」ボタンをクリックして、オーディエンスの結果を更新および再計算します。"
+>abstract="ここでは、オーディエンス内のプロファイルの合計数を確認できます。「計算」ボタンをクリックして、オーディエンスの結果を更新および再計算します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
@@ -34,7 +34,7 @@ ht-degree: 84%
 
 * **[!UICONTROL オーディエンス]**&#x200B;メニューから、[新しいオーディエンスを作成](create-audience.md)し、
 * クライアントコンソールまたは Adobe Experience Platform でリスト化された[既存のオーディエンスを選択](add-audience.md)
-* [新しいオーディエンスの作成](../query/query-modeler-overview.md) をクエリモデラーと共に使用する。
+* フィルタリング基準を定義し組み合わせ、クエリモデラーを使用して、[新しいオーディエンスを作成](../query/query-modeler-overview.md)し、
 * [外部ファイルからオーディエンスを使用](file-audience.md)します。このオプションは、スタンドアロンのメール配信にのみ使用でき、キャンペーン配信では使用できません。
 
 また、オーディエンスをターゲティングする際に、**コントロール母集団**&#x200B;を定義すると、オーディエンスの一部にメッセージを送信しないようにして、キャンペーンの影響を測定することもできます。[コントロール母集団の設定方法を学ぶ](control-group.md)

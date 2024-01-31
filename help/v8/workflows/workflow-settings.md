@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: ワークフロー設定を行う
-description: Adobe Campaign Web でワークフローを設定する方法を説明します
+title: ワークフロー設定の指定
+description: Adobe Campaign Web でのワークフロー設定方法について説明します
 badge: label="限定提供（LA）"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# ワークフロー設定を行う {#workflow-settings}
+# ワークフロー設定の指定 {#workflow-settings}
 
 キャンバスでワークフローアクティビティを調整する際に、ワークフローに関連する詳細設定にアクセスできます。例えば、ワークフローの特定のタイムゾーンを設定したり、エラーが発生した場合のワークフローの動作を管理したり、ワークフローの履歴をパージする遅延時間を管理したりできます。
 

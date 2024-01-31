@@ -5,9 +5,9 @@ description: 分岐ワークフローアクティビティの使用方法を学�
 badge: label="限定提供（LA）"
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork"
->title="分岐アクティビティ"
+>title="「分岐」アクティビティ"
 >abstract="**分岐**&#x200B;アクティビティを使用すると、アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。"
 
 

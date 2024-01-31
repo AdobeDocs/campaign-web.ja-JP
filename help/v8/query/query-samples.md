@@ -1,15 +1,15 @@
 ---
 audience: end-user
 title: クエリのサンプル
-description: クエリモデラーの操作方法を説明します。
+description: クエリモデラーの操作方法について説明します。
 hide: true
 hidefromtoc: true
 badge: label="限定提供（LA）"
 exl-id: 6f8154ea-5d64-4950-9da3-427070ec7bf0
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

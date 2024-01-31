@@ -5,9 +5,9 @@ description: Campaign web UI でメッセージのコントロール母集団を
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="限定提供（LA）"
 source-git-commit: 3a5c4a02f6d3d46696e4db0f2e97d7981e2d68b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 97%
 
 * 既存のオーディエンスを使用するには、「**オーディエンスを選択**」をクリックします。詳しくは、[こちら](add-audience.md)を参照してください。
 
-* 新しいクエリを定義するには、「 **独自のを作成** をクリックし、クエリモデラーを使用して除外条件を定義します。 詳しくは、[こちら](../query/query-modeler-overview.md)を参照してください。
+* 新しいクエリを定義するには、「**独自に作成**」を選択し、クエリモデラ―を使用して除外条件を定義します。詳しくは、[こちら](../query/query-modeler-overview.md)を参照してください。
 
 オーディエンスに含まれるプロファイル、またはクエリの結果と一致するプロファイルは配信ターゲットから&#x200B;**除外**&#x200B;され、メッセージを受信しません。
 

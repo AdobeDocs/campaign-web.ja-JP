@@ -5,9 +5,9 @@ description: ワークフローアクティビティの操作方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

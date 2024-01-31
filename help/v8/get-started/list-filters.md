@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: リストの参照とフィルター
-description: Campaign web v8 のリストを参照およびフィルタリングする方法の確認
+title: リストの参照とフィルタリング
+description: Campaign Web v8 のリストを参照およびフィルタリングする方法の確認
 badge: label="限定提供（LA）"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# リストの参照とフィルター {#list-screens}
+# リストの参照とフィルタリング {#list-screens}
 
 左側のナビゲーションメニューからのリンクのほとんどには、**配信**&#x200B;や&#x200B;**キャンペーン**&#x200B;のリストなど、オブジェクトのリストが表示されます。これらのリスト画面の一部は読み取り専用です。以下で説明するように、リスト表示をカスタマイズし、これらのリストをフィルタリングすることができます。
 

@@ -5,9 +5,9 @@ description: Adobe Campaign Web でプッシュ通知配信を送信する方法
 badge: label="限定提供（LA）"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '386'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

@@ -5,9 +5,9 @@ description: 結合ワークフローアクティビティの使用方法を学�
 badge: label="限定提供（LA）"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="結合で補集合を生成"
->abstract="「補集合を生成」オプションを切り替えて、追加のトランジションで残りの母集団を処理します。"
+>abstract="「補集合を生成」オプションの切替スイッチをオンにして、追加のトランジションで残りの母集団を処理します。"
 
 **結合**&#x200B;アクティビティでは、「**除外**」を設定できます。このためには、以下の追加の手順に従う必要があります。
 

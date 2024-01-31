@@ -5,7 +5,7 @@ description: メールでコンテンツコンポーネントを使用する方�
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="限定提供（LA）"
 source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1167'
 ht-degree: 100%
 

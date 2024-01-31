@@ -5,15 +5,15 @@ description: プッシュチャネルのグローバルレポートについて
 badge: label="限定提供（LA）"
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # プッシュチャネルのグローバルレポート {#campaign-reports-push}
 
-グローバルレポートでは、トラフィック指標とエンゲージメント指標の包括的な概要をチャネルレベルで提供します。
+グローバルレポートでは、チャネルレベルでのトラフィック指標とエンゲージメント指標の包括的な概要をユーザーに提供します。
 
 **[!UICONTROL レポート]**&#x200B;セクション内の「**[!UICONTROL レポート]**」メニューに移動します。レポートの日付、フォルダーまたはルールに応じて、データをフィルタリングできます。[詳細情報](global-reports.md)
 

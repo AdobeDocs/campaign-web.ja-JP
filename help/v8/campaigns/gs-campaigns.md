@@ -5,9 +5,9 @@ description: クロスチャネルキャンペーンを開始する方法を学�
 badge: label="限定提供（LA）"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ Adobe Campaign では、組み込みのキャンペーン管理機能を使用�
 
 ![キャンペーンフロー](assets/campaign-flow.png)
 
-キャンペーンを作成、管理、監視する方法については、次の節を参照してください。
+キャンペーンを作成、管理および監視する方法については、次の節を参照してください。
 
 * [キャンペーンへのアクセスと管理](manage-campaigns.md)
 * [最初のキャンペーンを作成](create-campaigns.md)
-* [キャンペーンレポートを参照](../reporting/campaign-reports.md).
+* [キャンペーンレポートを参照します](../reporting/campaign-reports.md)。
 
 

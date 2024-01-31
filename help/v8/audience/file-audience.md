@@ -5,9 +5,9 @@ description: 外部ファイルの受信者を使用してメールオーディ�
 badge: label="限定提供（LA）"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="書式設定パラメーター"
->abstract="データが正しく読み込まれるように外部ファイルの形式を指定します。"
+>abstract="データが正しくインポートされるように外部ファイルの書式設定を指定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"

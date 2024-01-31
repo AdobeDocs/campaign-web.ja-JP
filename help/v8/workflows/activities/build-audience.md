@@ -5,9 +5,9 @@ description: オーディエンスを作成ワークフローアクティビテ�
 badge: label="限定提供（LA）"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->ファイルから読み込まれたオーディエンスは、「オーディエンスを作成」アクティビティを使用してターゲット設定できません。 これをおこなうには、 **ファイルを読み込み** アクティビティの後に **紐づけ** アクティビティ。 [詳細情報](../../audience/about-recipients.md)
+>ファイルから読み込まれたオーディエンスは、「オーディエンスを作成」アクティビティを使用してターゲット設定できません。これを行うには、「**ファイルを読み込み**」アクティビティの後に、「**紐付け**」アクティビティを使用する必要があります。[詳細情報](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

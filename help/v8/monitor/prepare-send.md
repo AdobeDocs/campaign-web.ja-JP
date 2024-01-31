@@ -5,9 +5,9 @@ description: Campaign web UI でのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="限定提供（LA）"
 source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 97%
 
 ## 送信を一時停止または停止 {#pause-stop-sending}
 
-配信がスケジュールされているかどうか<!--TBC-->に設定すると、送信プロセス中はいつでも 2 つのアクションを実行できます。
+配信がスケジュールされているかどうかに関係なく<!--TBC-->、送信プロセス中にいつでも 2 つのアクションを実行できます。
 
 * メッセージの送信を中断するには、「**[!UICONTROL 送信を一時停止]**」をクリックします。送信はいつでも再開できます。
 

@@ -5,9 +5,9 @@ description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="限定提供（LA）"
 source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1189'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 98%
 
 1. コンテンツシミュレーション画面で[メッセージのプレビュー](preview-content.md)用のプロファイルを既に選択している場合、それらのプロファイルがテスト受信者として事前に選択されています。「**[!UICONTROL テストプロファイルを追加]**」ボタンを使用して、選択を解除したり、追加の受信者を追加したりできます。
 
-1. テストプロファイルまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
+1. テストプロファイルリストまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
 
    ![](assets/simulate-test-profile-filter.png)
 

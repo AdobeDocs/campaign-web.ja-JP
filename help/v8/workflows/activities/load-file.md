@@ -5,9 +5,9 @@ description: 「ファイルを読み込み」ワークフローアクティビ�
 badge: label="限定提供（LA）"
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '323'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -72,12 +72,12 @@ ht-degree: 82%
 
    ![](../assets/load-file.png)
 
-1. 以下を使用します。 **列** 」セクションを使用して、各列のデータタイプと幅を調整します。
+1. 左パネルの「**列**」セクションを使用して、各列のデータタイプと幅を調整します。
 
-1. Adobe Analytics の **書式設定** 「列」設定の下の「 」セクションで、データが正しくインポートされるように外部ファイルのフォーマット方法を指定します。
+1. 列設定の下にある「**書式設定**」セクションで、データが正しくインポートされるように外部ファイルを書式設定する方法を指定します。
 
 1. 設定が正しければ、「**確認**」をクリックします。
 
 ## 例{#load-example}
 
-外部ファイルの読み込みで **紐づけ** アクティビティは、 [この節](reconciliation.md#reconciliation-example).
+「**紐付け**」アクティビティで使用する外部ファイルの読み込みのサンプルについては、[このセクション](reconciliation.md#reconciliation-example)を参照してください。

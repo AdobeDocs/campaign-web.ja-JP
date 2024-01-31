@@ -10,9 +10,9 @@ level: Beginner
 badge: label="限定提供（LA）"
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 89%
 
    ![](assets/content-template-create.png)
 
-1. テンプレートの詳細を入力します。テンプレートを保存するフォルダーを選択できます。デフォルトでは、コンテンツテンプレートはAdobe Campaign階層の専用フォルダーに保存されます。 **[!UICONTROL エクスプローラ]** > **[!UICONTROL リソース]** > **[!UICONTROL テンプレート]** > **[!UICONTROL コンテンツテンプレート]**. [詳しくは、フォルダーの作成方法を参照してください](../get-started/permissions.md#folders)
+1. テンプレートの詳細を入力します。テンプレートを保存するフォルダーを選択できます。デフォルトでは、コンテンツテンプレートは、Adobe Campaign 階層の専用フォルダー（**[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**）に保存されます。[詳しくは、フォルダーの作成方法を参照してください](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -137,9 +137,9 @@ ht-degree: 89%
 
    ![](assets/content-template-save-back.png)
 
-このテンプレートは、Adobe Campaign階層のデフォルトのフォルダー (**[!UICONTROL エクスプローラ]** > **[!UICONTROL リソース]** > **[!UICONTROL テンプレート]** > **[!UICONTROL コンテンツテンプレート]**) をクリックします。 [フォルダーの詳細を表示](../get-started/permissions.md#folders)
+テンプレートは、Adobe Campaign 階層のデフォルトのフォルダー（**[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**）に保存されます。[フォルダーの詳細について説明します](../get-started/permissions.md#folders)
 
-また、 **[!UICONTROL コンテンツテンプレート]** リスト。 [詳細情報](#access-manage-templates)
+また、**[!UICONTROL コンテンツテンプレート]**&#x200B;リストにも表示されます。[詳細情報](#access-manage-templates)
 
 このテンプレートを使用して新しいコンテンツを作成できるようになりました。メールデザイナーの「**[!UICONTROL 保存済みのテンプレート]**」タブで利用できます。[詳細情報](use-email-templates.md)
 
@@ -159,9 +159,9 @@ ht-degree: 89%
 
    ![](assets/email_designer-template-name.png)
 
-このテンプレートは、Adobe Campaign階層のデフォルトのフォルダー (**[!UICONTROL エクスプローラ]** > **[!UICONTROL リソース]** > **[!UICONTROL テンプレート]** > **[!UICONTROL コンテンツテンプレート]**) をクリックします。 [フォルダーの詳細を表示](../get-started/permissions.md#folders)
+テンプレートは、Adobe Campaign 階層のデフォルトのフォルダー（**[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**）に保存されます。[フォルダーの詳細について説明します](../get-started/permissions.md#folders)
 
-また、 **[!UICONTROL コンテンツテンプレート]** リスト。 このテンプレートは、リスト上の他の項目と同様にアクセス、編集、削除できるスタンドアロンのコンテンツテンプレートになります。[詳細情報](#access-manage-templates)
+また、**[!UICONTROL コンテンツテンプレート]**&#x200B;リストにも表示されます。このテンプレートは、リスト上の他の項目と同様にアクセス、編集、削除できるスタンドアロンのコンテンツテンプレートになります。[詳細情報](#access-manage-templates)
 
 このテンプレートを使用して新しいコンテンツを作成できるようになりました。メールデザイナーの「**[!UICONTROL 保存済みのテンプレート]**」タブで利用できます。[詳細情報](use-email-templates.md)
 

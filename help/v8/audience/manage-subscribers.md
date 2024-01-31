@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: 購読者の管理
+title: サブスクライバーの管理
 description: Adobe Campaign Web で、サービスのサブスクライバーに対して管理および配信する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# 購読者の管理 {#manage-subscribers}
+# サブスクライバーの管理 {#manage-subscribers}
 
 「[サービスを作成](manage-services.md#create-service)」したら、サブスクライバーを追加したり、受信者を登録解除したり、そのサービスのサブスクライバーにメッセージを送信したりできます。
 
@@ -23,7 +23,7 @@ ht-degree: 68%
 
 1. **[!UICONTROL サブスクライバーサービス]**&#x200B;リストから既存のサービスを選択します。
 
-1. 次に移動： **[!UICONTROL 購読者]** タブをクリックし、 **[!UICONTROL 購読者を追加]**.
+1. 「**[!UICONTROL サブスクライバー]**」タブに移動し、「**[!UICONTROL サブスクライバーを追加]**」をクリックします。
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,15 +31,15 @@ ht-degree: 68%
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. クリック **[!UICONTROL 送信]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> 選択した受信者に購読を受け取らせる [確認メッセージ](manage-services.md#create-confirmation-message) 次の時に定義した [サービスの作成](manage-services.md#create-service).
+1. 「**[!UICONTROL 送信]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->」をクリックすると、[サービスを作成](manage-services.md#create-service)の際に定義したサブスクリプション[確認メッセージ](manage-services.md#create-confirmation-message)を、選択した受信者が受信します。
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
    >[!NOTE]
    >
-   >次を選択した場合、 **[!UICONTROL キャンセル]**&#x200B;に設定すると、選択したプロファイルに確認メッセージは送信されませんが、購読されています。
+   >「**[!UICONTROL キャンセル]**」を選択した場合、選択したプロファイルに確認メッセージは送信されませんが、購読されます。
 
-追加されたプロファイルは、「 **[!UICONTROL 購読者]** タブをクリックします。 このプロファイルをサービスに登録しました。
+追加したプロファイルは、「**[!UICONTROL サブスクライバー]**」タブに表示されます。このプロファイルをサービスに登録しました。
 
 ## サービスからサブスクライバーを削除 {#remove-subscribers}
 
@@ -55,11 +55,11 @@ ht-degree: 68%
 
 1. 削除を確認します。
 
-1. クリック **[!UICONTROL 送信]** 選択した受信者に購読解除を受け取らせる [確認メッセージ](manage-services.md#create-confirmation-message) 次の時に定義した [サービスの作成](manage-services.md#create-service).
+1. 「**[!UICONTROL 送信]**」をクリックすると、[サービスを作成](manage-services.md#create-service)の際に選んだ登録解除[確認メッセージ](manage-services.md#create-confirmation-message)を、選択した受信者が受信します。
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
-受信者が **[!UICONTROL 購読者]** 」タブに追加され、サービスの購読登録が解除されます。
+受信者が「**[!UICONTROL サブスクライバー]**」タブから削除され、サービスの登録が解除されました。
 
 ### 受信者を自動的に登録解除 {#automatic-unsubscription}
 

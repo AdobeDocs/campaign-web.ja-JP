@@ -8,9 +8,9 @@ level: Beginner
 badge: label="限定提供（LA）"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1087'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 96%
 
 現在の環境で[作成](#create-a-delivery-template)されたすべてのテンプレートが表示されます。
 
-チャネルおよびフォルダーのコンテンツテンプレートをフィルターできます。配信属性を使用してルールを作成すると、高度なフィルターを設定することもできます。[クエリモデラーの詳細を説明します](../audience/../query/query-modeler-overview.md)
+チャネルおよびフォルダーのコンテンツテンプレートをフィルターできます。配信属性を使用してルールを作成すると、高度なフィルターを設定することもできます。[詳しくは、クエリモデラーを参照してください](../audience/../query/query-modeler-overview.md)
 
 ![](assets/templates-filters.png)
 
@@ -182,11 +182,11 @@ ht-degree: 96%
 
    ![](assets/templates-simulate-button.png)
 
-1. 1 つ以上のテストプロファイルを選択して、メールのレンダリングを確認します。また、データベースから実際のプロファイルを選択することもできます。 [テストプロファイルの詳細を説明します](../audience/test-profiles.md)
+1. 1 つ以上のテストプロファイルを選択して、メールのレンダリングを確認します。また、データベースから実際のプロファイルを選択することもできます。[詳しくは、テストプロファイルを参照してください](../audience/test-profiles.md)
 
-1. 様々なプロファイルを切り替えて、選択したプロファイルに応じてメッセージのパーソナライズされた表現を取得します。 また、ズームレベルを調整し、デスクトップビューまたはモバイルビューを選択することもできます。
+1. 様々なプロファイルを切り替えて、選択したプロファイルに従ってメッセージをパーソナライズして表示します。また、ズームレベルを調整し、デスクトップビューまたはモバイルビューを選択することもできます。
 
-[コンテンツのプレビューの詳細を説明します](../preview-test/preview-content.md)
+[詳しくは、コンテンツのプレビューを参照してください](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 

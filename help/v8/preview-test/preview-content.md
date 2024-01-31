@@ -5,9 +5,9 @@ description: Campaign web UI で配信コンテンツをプレビューする方
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="限定提供（LA）"
 source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 95%
      >
      >また、Campaign web UI の対応するタブから、プロファイルを表示および管理することもできます。[詳細情報](../audience/about-recipients.md)
 
-1. テストプロファイルまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
+1. テストプロファイルリストまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
 
    ![](assets/simulate-test-profile-filter.png)
 
