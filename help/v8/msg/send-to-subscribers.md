@@ -7,29 +7,29 @@ exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 # メッセージをサービスのサブスクライバーに送信 {#send-to-subscribers}
 
-Adobe Campaign でサブスクリプションサービスを作成し、メッセージをサブスクライバーに送信できます。で購読サービスを作成する方法を説明します。 [このページ](../audience//manage-services.md#create-service).
+Adobe Campaign でサブスクリプションサービスを作成し、メッセージをサブスクライバーに送信できます。購読サービスの作成方法については[このページ](../audience//manage-services.md#create-service)を参照してください。
 
 サブスクライバーにメッセージを送信するには、サブスクライバーを識別する特定のオーディエンスを作成し、以下に説明する方法で配信を作成します。
 
-1. オーディエンスを作成します。新しいワークフローが自動的に作成されます。 [オーディエンスの詳細を表示](../audience/create-audience.md)
+1. オーディエンスを作成します。新しいワークフローが自動的に作成されます。[詳しくは、オーディエンスを参照してください](../audience/create-audience.md)
 
-1. わかりやすくするために、ワークフロー設定でワークフローの名前を変更します。 **ラベル** フィールドに入力します。 [ワークフロー設定の設定方法を説明します](../workflows/workflow-settings.md)
+1. 読みやすくするために、ワークフロー設定の「**ラベル**」フィールドでワークフローの名前を変更します。[詳しくは、ワークフローの設定方法を参照してください](../workflows/workflow-settings.md)
 
-1. を開きます。 **[!UICONTROL オーディエンスの構築]** 「 」アクティビティと「 」アクティビティを選択します。 **[!UICONTROL オーディエンスを作成]**. [「オーディエンスを作成」アクティビティの設定方法の詳細情報](../workflows/activities/build-audience.md)
+1. 「**[!UICONTROL オーディエンスを作成]**」アクティビティを開き、「**[!UICONTROL オーディエンスを作成]**」を選択します。[「オーディエンスを作成」アクティビティの設定方法を説明します](../workflows/activities/build-audience.md)
 
    ![](assets/service-create-audience.png)
 
-1. オーディエンス作成フローで、次のカスタム条件を選択します。 **[!UICONTROL 購読]** 次のように存在する **[!UICONTROL サービス]** が、定義したサービスと等しい。 この例では、 **Luma ヨガニュースレター**.
+1. オーディエンス作成フローで、**[!UICONTROL サービス]**&#x200B;が定義したサービスと等しいなどの&#x200B;**[!UICONTROL 購読]**&#x200B;が存在するというカスタム条件を選択します。この例では、「**Luma ヨガニュースレター**」を選択します。
 
    ![](assets/service-audience-subscribers.png)
 
-1. 選択 **[!UICONTROL 確認]** をクリックします。 **[!UICONTROL 開始]** をクリックして、ワークフローを実行します。
+1. 「**[!UICONTROL 確認]**」を選択し、「**[!UICONTROL 開始]**」をクリックしてワークフローを実行します。
 
 1. 配信を作成します。配信の作成手順について詳しくは、[このページ](../msg/gs-messages.md#create-delivery)を参照してください。
 1. 配信設定を参照し、デフォルトのターゲットマッピングを&#x200B;**サブスクリプション（nms:subscriptions）**&#x200B;に変更します。

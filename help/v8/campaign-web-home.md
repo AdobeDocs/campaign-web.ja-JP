@@ -7,7 +7,7 @@ badge: label="限定提供（LA）"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 55%
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
 >title="新しい Adobe Campaign ユーザーインターフェイスを体験する"
->abstract="よりモダンで直感的で動的です。"
+>abstract="より現代的、直感的、動的"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
@@ -59,7 +59,7 @@ ht-degree: 55%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_title"
 >title="新しい Adobe Campaign ユーザーインターフェイスを体験する"
->abstract="よりモダンで直感的で動的です。"
+>abstract="より現代的、直感的、動的"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_list1"
@@ -83,24 +83,24 @@ ht-degree: 55%
 
 <!--TO REMOVE ABOVE-->
 
-新しいバージョンの Adobe Campaign web ユーザーインターフェイスを導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネルで競争優位に立つための直感的な機能が組み込まれています。 この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性を保ちます。
+新しいバージョンの Adobe Campaign Web ユーザーインターフェイスを導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された、直感的な機能が組み込まれています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性をもたらします。
 
 >[!AVAILABILITY]
 > Adobe Campaign Web は現在、Limited Availability(LA) バージョンです。 アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
 ## 新機能
 
-Adobe Campaign Web 製品およびドキュメントの最新の機能強化の概要を説明します。 主な機能とリリースの更新機能の包括的なリストについては、 [このページ](rn/whats-new.md).
+Adobe Campaign Web 製品およびドキュメントの最新の機能強化の概要を説明します。 主な機能とリリースの更新機能の包括的なリストについては、[このページ](rn/whats-new.md)を参照してください。
 
 >[!BEGINTABS]
 
->[!TAB クロスチャネルのワークフロー]
+>[!TAB クロスチャネルワークフロー]
 
 自動化と最適化の新しい可能性を解放し、より動的でパーソナライズされたカスタマージャーニーを作成できるようにします。高度なセグメント化から条件付きトリガーに至るまで、追加のワークフローアクティビティにより、ターゲットメッセージを配信し、キャンペーンのパフォーマンスを向上させることができます。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
->[!TAB オーディエンスの構成]
+>[!TAB オーディエンスコンポジション]
 
 ビジュアルワークフローキャンバスに、新しいオーディエンスを作成します。ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりします。
 
@@ -130,7 +130,7 @@ Campaign メールデザイナーを使用すると、直感的なドラッグ�
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div><strong>再設計されたワークフローキャンバス</strong><br/>様々なプロセスやタスクを調整し、マーケティングキャンペーンのあらゆる側面の速度とスケールを向上させるワークフローを作成する方法を説明します。</div><br/>
+    <div><strong>再考されたワークフローキャンバス</strong><br/>様々なプロセスとタスクを調整し、マーケティングキャンペーンのあらゆる側面の速度と規模を向上させるワークフローを作成する方法について説明します。</div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
@@ -138,7 +138,7 @@ Campaign メールデザイナーを使用すると、直感的なドラッグ�
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>コンテンツを動的にする</strong><br/>収集した受信者に関する情報に基づいてコンテンツをカスタマイズし、コンテンツをより魅力的にして、コンテンツが読まれる可能性を高める方法を説明します。</div>
+    <div><strong>コンテンツを動的にする</strong><br/>受信者について収集した情報に基づいてコンテンツをカスタマイズし、コンテンツをより魅力的にし、読まれる可能性を高める方法について説明します。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -156,27 +156,27 @@ Campaign メールデザイナーを使用すると、直感的なドラッグ�
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>基本を学ぶ</strong><br/><a href="get-started/user-interface.md">ユーザーインターフェイス</a> - <a href="get-started/connect-to-campaign.md">Campaign に接続</a> - <a href="get-started/using-ai.md">AI を利用したコンテキストヘルプ</a> - <a href="get-started/permissions.md">アクセスと権限</a>
+      <strong>基本を学ぶ</strong><br/><a href="get-started/user-interface.md">ユーザーインターフェイス</a> - <a href="get-started/connect-to-campaign.md">Campaign への接続</a> - <a href="get-started/using-ai.md">AI を活用したコンテキストヘルプ</a> - <a href="get-started/permissions.md">アクセスと権限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>顧客のエクスペリエンス</strong><br/><a href="workflows/gs-workflows.md" target="_blank">ワークフローを使用した自動化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">キャンペーンオーケストレーション</a> - <a href="personalization/gs-personalization.md">動的コンテンツ</a> - <a href="reporting/gs-reports.md">Reporting &amp; Analytics</a>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="workflows/gs-workflows.md" target="_blank">ワークフローを使用した自動化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">キャンペーンオーケストレーション</a> - <a href="personalization/gs-personalization.md">動的コンテンツ</a> - <a href="reporting/gs-reports.md">レポートと分析</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
-    <br/>
-      <strong>メッセージの送信</strong><br/><a href="msg/gs-deliveries.md">配信の作成</a> - <a href="email/create-email.md">電子メール</a> -  <a href="push/gs-push.md">プッシュ通知</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">配信テンプレート</a> - <a href="preview-test/preview-test.md">プレビューとテスト</a> 
+    <br/>
+      <strong>メッセージの送信</strong><br/><a href="msg/gs-deliveries.md">配信の作成</a> - <a href="email/create-email.md">メール</a> - <a href="push/gs-push.md">プッシュ通知</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">配信テンプレート</a> - <a href="preview-test/preview-test.md">プレビューとテスト</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
-    <br/>
-      <strong>プロファイルとオーディエンス</strong><br/><a href="audience/gs-audiences-recipients.md">基本を学ぶ</a> - <a href="audience/create-audience.md">オーディエンスの作成</a> - <a href="audience/test-profiles.md">テストプロファイル</a> - <a href="audience/manage-services.md">購読サービス</a> - <a href="query/query-modeler-overview.md">クエリモデラー</a>
+    <br/>
+      <strong>プロファイルとオーディエンス</strong><br/><a href="audience/gs-audiences-recipients.md">基本を学ぶ</a> - <a href="audience/create-audience.md">オーディエンスの作成</a> - <a href="audience/test-profiles.md">テストプロファイル</a> - <a href="audience/manage-services.md">購読サービス</a> - <a href="query/query-modeler-overview.md">クエリモデラー</a>
     </td>
   </tr>
 </table>
 
 ## その他のリソース
 
-* [Adobe Campaign Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign V8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja){target="_blank"}
+* [Adobe Campaign 製品ドキュメント](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja){target="_blank"}

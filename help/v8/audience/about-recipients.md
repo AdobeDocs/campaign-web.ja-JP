@@ -5,7 +5,7 @@ badge: label="限定提供（LA）"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 68%
+ht-degree: 71%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 68%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="プロファイル"
->abstract="プロファイルとは、Adobe Campaignから送信されるメッセージの受信をターゲットとしている個人です。 このリストから、権限に基づいてプロファイルの詳細を表示できます。フィルターオプションを使用して、このリストを参照します。プロファイルの属性の一部を編集および更新できます。"
+>abstract="プロファイルとは、Adobe Campaign から送信されるメッセージの受信対象となる個人です。このリストから、権限に基づいてプロファイルの詳細を表示できます。フィルターオプションを使用して、このリストを参照します。プロファイルの属性の一部を編集および更新できます。"
 
 ## プロファイルとは {#what}
 

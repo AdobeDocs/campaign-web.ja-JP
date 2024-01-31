@@ -9,7 +9,7 @@ hide: true
 source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 83%
    + [基本を学ぶ](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
    + [インターフェイスを確認](get-started/user-interface.md)
-   + [リストの参照とフィルター](get-started/list-filters.md)
-   + [定義済みフィルターを操作](get-started/predefined-filters.md)
+   + [リストの参照とフィルタリング](get-started/list-filters.md)
+   + [定義済みフィルターの操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
    + [ガードレールと制限](get-started/guardrails.md)
    + [サポートされていない機能](get-started/unsupported.md)
-   + [AI を利用したコンテキストヘルプ](get-started/using-ai.md)
+   + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
    + [配信の操作](msg/gs-deliveries.md)
@@ -106,7 +106,7 @@ ht-degree: 83%
       + [オーディエンスの作成](audience/create-audience.md)
       + [オーディエンスの監視と管理](audience/manage-audience.md)
    + 配信受信者の選択 {#target-audiences}
-      + [既存オーディエンスを選択](audience/add-audience.md)
+      + [既存オーディエンスの選択](audience/add-audience.md)
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
       + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
       + [コントロール母集団を設定](audience/control-group.md)
@@ -120,11 +120,11 @@ ht-degree: 83%
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
    + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
-   + 最初のワークフローを作成して実行する {#create-workflow}
+   + 最初のワークフローの作成と実行 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
       + [アクティビティをオーケストレーション](workflows/orchestrate-activities.md)
-      + [ワークフロー設定を行う](workflows/workflow-settings.md)
+      + [ワークフロー設定の指定](workflows/workflow-settings.md)
       + [ワークフローの開始と監視](workflows/start-monitor-workflows.md)
    + ワークフローアクティビティの操作 {#design-workflows}
       + [ワークフローアクティビティについて](workflows/activities/about-activities.md)

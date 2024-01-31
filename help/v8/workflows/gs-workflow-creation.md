@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: ワークフロー作成の主な原則
-description: Adobe Campaign Web を使用したワークフローの主要な原則について説明します。
+description: Adobe Campaign Web でのワークフローの主な原則について説明します
 badge: label="限定提供（LA）"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -21,11 +21,11 @@ Adobe Campaign Web を使用すると、ワークフローを視覚的なキャ�
 
 ワークフローダイアグラムは、実行される処理を表したものです。これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
-![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 各ワークフローには次が含まれます。
 
-* **アクティビティ**:「アクティビティ」は、実行されるタスクです。 各種アクティビティは、ダイアグラム内にアイコンで示されます。各アクティビティには、特定のプロパティと、すべてのアクティビティに共通のその他のプロパティがあります。
+* **アクティビティ**：アクティビティとは、実行されるタスクです。各種アクティビティは、ダイアグラム内にアイコンで示されます。各アクティビティには、特定のプロパティと、すべてのアクティビティに共通のその他のプロパティがあります。
 
   ワークフローのダイアグラムでは、指定されたアクティビティが、特にループまたは繰り返しアクションがある場合に複数のタスクを生成できます。
 
