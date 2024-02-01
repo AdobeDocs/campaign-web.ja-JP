@@ -6,20 +6,16 @@ badge: label="アルファ版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
-workflow-type: ht
-source-wordcount: '499'
+source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
+workflow-type: tm+mt
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
 
 # コンテンツアシスタントの基本を学ぶ {#generative-gs}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="メールコンテンツ用生成 AI"
->abstract="アドビの生成 AI テクノロジーは、高度なアルゴリズムを利用して、非常に魅力的でパーソナライズされたコンテンツを生成します。生成 AI のインテリジェントなコンテンツ生成により、開封率、クリックスルー率、コンバージョン率の向上を推進します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
+
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

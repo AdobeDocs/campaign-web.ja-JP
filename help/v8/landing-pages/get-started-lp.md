@@ -3,14 +3,22 @@ audience: end-user
 title: ランディングページの概要
 description: Campaign Web のランディングページについて説明します
 badge: label="限定提供（LA）"
-source-git-commit: cfd648013a8ae16be30603f982d122d09781cd51
+source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 5%
+source-wordcount: '195'
+ht-degree: 7%
 
 ---
 
 # ランディングページの概要 {#get-sarted-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="ランディングページ"
+>abstract="新しいランディングページエクスペリエンスを確認します。 ランディングページを即座に作成、設計および共有して、プロファイルデータの取得や、オプトイン/オプトアウトフローをすばやくシームレスに管理できるオンライン Web ページにユーザーを誘導します。
+."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
+
 
 ランディングページは、電子メール、Web サイト、広告、またはその他のデジタル的な場所からユーザーがクリックスルーした後に表示されるスタンドアロン Web ページです。
 
