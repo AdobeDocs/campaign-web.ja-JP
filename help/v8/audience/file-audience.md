@@ -5,7 +5,7 @@ description: 外部ファイルの受信者を使用してメールオーディ�
 badge: label="限定提供（LA）"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 100%
 
