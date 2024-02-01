@@ -3,7 +3,7 @@ audience: end-user
 title: ランディングページの概要
 description: Campaign Web のランディングページについて説明します
 badge: label="限定提供（LA）"
-source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
+source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 7%
@@ -15,8 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="ランディングページ"
->abstract="新しいランディングページエクスペリエンスを確認します。 ランディングページを即座に作成、設計および共有して、プロファイルデータの取得や、オプトイン/オプトアウトフローをすばやくシームレスに管理できるオンライン Web ページにユーザーを誘導します。
-."
+>abstract="新しいランディングページエクスペリエンスを確認します。 ランディングページを即座に作成、設計および共有して、プロファイルデータの取得や、オプトイン/オプトアウトフローをすばやくシームレスに管理できるオンライン Web ページにユーザーを誘導します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 
