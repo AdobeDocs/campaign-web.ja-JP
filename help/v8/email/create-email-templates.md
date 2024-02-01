@@ -9,10 +9,10 @@ role: User
 level: Beginner
 badge: label="限定提供（LA）"
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+workflow-type: tm+mt
+source-wordcount: '946'
+ht-degree: 49%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
->title="独自のコンテンツの定義"
->abstract="スタンドアロンのカスタムテンプレートをゼロから作成して、複数のメール全体でコンテンツを再利用できるようにします。"
+>title="コンテンツテンプレート"
+>abstract="高速で改善されたデザインプロセスを実現するために、スタンドアロンの E メールテンプレートを作成して、Adobe Campaign全体でカスタムコンテンツを簡単に再利用できます。 これらのコンテンツテンプレートは、組み込みまたはカスタムのテンプレートに基づいて、既存のコンテンツから作成したり、コンテンツテンプレートエディターで読み込んで、ゼロからデザインすることができます。"
 
-設計プロセスを加速し改善するために、スタンドアロンのテンプレートを作成すると、[!DNL Adobe Campaign] 全体でカスタムコンテンツを簡単に再利用できます。
+高速で改善された設計プロセスを実現するために、スタンドアロンテンプレートを作成して、カスタムコンテンツを簡単に再利用できます。 [!DNL Adobe Campaign]. これらのコンテンツテンプレートは、組み込みまたはカスタムのテンプレートに基づいて、既存のコンテンツから作成したり、コンテンツテンプレートエディターで読み込んで、ゼロからデザインすることができます。
 
 この機能により、コンテンツ指向のユーザーがスタンドアロンのテンプレートで操作できるようになり、マーケティングユーザーが独自のメールキャンペーン内でテンプレートを再利用して調整できます。
 
@@ -31,40 +31,23 @@ ht-degree: 100%
 >
 >現在、**メール**&#x200B;コンテンツテンプレートのみがサポートされています。
 
-## テンプレートへのアクセスと管理 {#access-manage-templates}
+## コンテンツテンプレートへのアクセス {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="テンプレートコンテンツの編集"
 >abstract="「**コンテンツを編集**」ボタンをクリックして、メールデザイナーでコンテンツを更新します。"
 
-コンテンツテンプレートリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL コンテンツテンプレート]**&#x200B;を選択します。
+コンテンツテンプレートリストにアクセスするには、 **[!UICONTROL コンテンツ管理]** > **[!UICONTROL コンテンツテンプレート]** メニューをクリックします。
 
 ![](assets/content-template-list.png)
 
-「[テンプレートとして保存](#save-as-template)」オプションを使用したメールから作成した、または、**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューから作成したすべてのテンプレートが表示されます。
-
-<!--You can sort content templates by creation or modification date. You can also choose to display only the items that you created or modified.-->
-
-ドロップダウンリストを使用して特定の[フォルダー](../get-started/permissions.md#folders)をフィルタリングしたり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
+このダッシュボードには、使用可能なすべてのコンテンツテンプレートがリストとして表示されます。 ドロップダウンリストを使用して特定の[フォルダー](../get-started/permissions.md#folders)をフィルタリングしたり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
 
 ![](assets/content-template-list-filters.png)
 
-テンプレートコンテンツを編集するには、リストから目的の項目をクリックします。以下を行うことができます。
+リストから、既存のコンテンツテンプレートを編集、複製、削除できます。 コンテンツテンプレートを作成するには、上部のセクションにあるボタンを使用します。
 
-* プロパティを編集します。
-
-* 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、[メールデザイナー](get-started-email-designer.md)でコンテンツを更新します。
-
-![](assets/content-template-edition.png)
-
-テンプレートを削除するには、**[!UICONTROL その他のアクション]**&#x200B;メニューから対応するオプションを選択します。
-
-![](assets/content-template-list-delete.png)
-
->[!NOTE]
->
->テンプレートを削除しても、このテンプレートを使用して作成した配信は影響を受けません。
 
 ## コンテンツテンプレートの作成 {#create-content-templates}
 
@@ -78,13 +61,9 @@ ht-degree: 100%
 >title="コンテンツテンプレートの選択"
 >abstract="コンテンツテンプレートの選択"
 
-コンテンツテンプレートを作成する方法は 2 つあります。
+コンテンツテンプレートは、 [既存の電子メールをテンプレートとして保存中](#save-as-template)または電子メールテンプレートのリストから、 **コンテンツテンプレートを作成** ボタン [以下に詳述する](#create-template-from-scratch).
 
-* 左側のパネルの&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューを使用して、コンテンツテンプレートをゼロから作成します。[詳細情報](#create-template-from-scratch)
-
-* メールをデザインする際は、メールのコンテンツをテンプレートとして保存します。[詳細情報](#save-as-template)
-
-保存すると、ゼロから作成した場合でも、以前のメールから作成した場合でも、[!DNL Adobe Campaign] 内で[メール](../email/create-email.md)を作成する際にこのテンプレートを使用できるようになります。[詳細情報](use-email-templates.md)
+保存すると、このテンプレートを使用して、 [電子メール](../email/create-email.md) 範囲 [!DNL Adobe Campaign]. [詳細情報](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -92,32 +71,28 @@ ht-degree: 100%
 >
 >* 同様に、メールでテンプレートを使用している場合、メールのコンテンツに対して行った編集は、以前に使用したコンテンツテンプレートには影響しません。
 
-### ゼロからのテンプレートの作成 {#create-template-from-scratch}
+### 新しいコンテンツテンプレートを作成します {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="テンプレートプロパティの定義"
->abstract="テンプレートをゼロから作成する際は、必要に応じて簡単に取得できるようにそのプロパティを定義します。"
+>abstract="必要に応じて、取得する E メールコンテンツテンプレートプロパティを簡単に定義します。"
 
-コンテンツテンプレートをゼロから作成するには、次の手順に従います。
+コンテンツテンプレートダッシュボードから新しいコンテンツテンプレートを作成するには、次の手順に従います。
 
-1. **[!UICONTROL コンテンツ管理]**／**[!UICONTROL コンテンツテンプレート]**&#x200B;の左側のメニューからコンテンツテンプレートリストにアクセスします。
+1. 次の場所からコンテンツテンプレートリストを参照します。 **[!UICONTROL コンテンツ管理]** > **[!UICONTROL コンテンツテンプレート]** 左側のレール。
 
 1. 「**[!UICONTROL テンプレートを作成]**」を選択します。
 
    ![](assets/content-template-create.png)
 
-1. テンプレートの詳細を入力します。テンプレートを保存するフォルダーを選択できます。デフォルトでは、コンテンツテンプレートは、Adobe Campaign 階層の専用フォルダー（**[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**）に保存されます。[詳しくは、フォルダーの作成方法を参照してください](../get-started/permissions.md#folders)
+1. テンプレートのラベルとプロパティを入力します。 テンプレートを保存するフォルダーを選択できます。デフォルトでは、コンテンツテンプレートは、Adobe Campaign 階層の専用フォルダー（**[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**）に保存されます。のフォルダーの詳細を説明します [このページ](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
-   >[!NOTE]
-   >
-   >現在、**メール**&#x200B;チャネルと **HTML** タイプのみがサポートされています。
-
 1. 「**[!UICONTROL 作成]**」をクリックし、次の様々なオプションからテンプレートのデザイン方法を選択します。
 
-   * [メールをゼロからデザイン](create-email-content.md) - メールデザイナーのインターフェイスを使用します。
+   * [コンテンツをゼロから設計する](create-email-content.md) 電子メールデザイナーのインターフェイスを使用する。
 
    * [Raw HTML をコーディングまたはコピー＆ペースト](code-content.md) - メールデザイナーで直接行います。
 
@@ -127,7 +102,7 @@ ht-degree: 100%
 
    ![](assets/email_designer-templates.png)
 
-1. [メールデザイナー](get-started-email-designer.md)が表示されます。選択したオプションに従って、他のメールの場合と同じ方法で、必要に応じてコンテンツを編集します。
+1. E メールデザイナーが表示されます。 選択したオプションに従って、E メールと同じ方法で、必要に応じてコンテンツを編集します。 電子メールデザイナーの使用方法については、 [この節](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -137,9 +112,7 @@ ht-degree: 100%
 
    ![](assets/content-template-save-back.png)
 
-テンプレートは、Adobe Campaign 階層のデフォルトのフォルダー（**[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**）に保存されます。[フォルダーの詳細について説明します](../get-started/permissions.md#folders)
-
-また、**[!UICONTROL コンテンツテンプレート]**&#x200B;リストにも表示されます。[詳細情報](#access-manage-templates)
+このテンプレートは、 **[!UICONTROL コンテンツテンプレート]** リスト。 [詳細情報](#access-templates)
 
 このテンプレートを使用して新しいコンテンツを作成できるようになりました。メールデザイナーの「**[!UICONTROL 保存済みのテンプレート]**」タブで利用できます。[詳細情報](use-email-templates.md)
 
@@ -159,13 +132,12 @@ ht-degree: 100%
 
    ![](assets/email_designer-template-name.png)
 
-テンプレートは、Adobe Campaign 階層のデフォルトのフォルダー（**[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**）に保存されます。[フォルダーの詳細について説明します](../get-started/permissions.md#folders)
-
-また、**[!UICONTROL コンテンツテンプレート]**&#x200B;リストにも表示されます。このテンプレートは、リスト上の他の項目と同様にアクセス、編集、削除できるスタンドアロンのコンテンツテンプレートになります。[詳細情報](#access-manage-templates)
+テンプレートが保存され、 **[!UICONTROL コンテンツテンプレート]** リスト。 このテンプレートは、リスト上の他の項目と同様にアクセス、編集、削除できるスタンドアロンのコンテンツテンプレートになります。[詳細情報](#access-manage-templates)
 
 このテンプレートを使用して新しいコンテンツを作成できるようになりました。メールデザイナーの「**[!UICONTROL 保存済みのテンプレート]**」タブで利用できます。[詳細情報](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
+
 
 >[!NOTE]
 >
@@ -186,3 +158,45 @@ You can test the rendering of any email content template, whether created from s
 1. You can send a proof to test your content and have it approved by some internal users before using it. To do so, click the **[!UICONTROL Send proof]** button and follow the steps described in .
 
 -->
+
+
+## コンテンツテンプレートの変更 {#modify-delete}
+
+既存のコンテンツテンプレートを更新するには、次の手順に従います。
+
+1. コンテンツテンプレートのリストで、変更するテンプレートのラベルをクリックして、編集します。
+
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、[メールデザイナー](get-started-email-designer.md)でコンテンツを更新します。
+
+![](assets/content-template-edition.png)
+
+>[!NOTE]
+>
+>コンテンツテンプレートに対して行われた変更は、このコンテンツテンプレートを使用する E メールには反映されません。
+
+## コンテンツテンプレートの削除 {#content-delete}
+
+コンテンツテンプレートを削除する方法は 2 つあります。
+
+* コンテンツテンプレートのリストで、省略記号ボタンをクリックし、「 **削除**
+
+  ![ダッシュボードからのコンテンツテンプレートの削除](assets/content-template-list-delete.png)
+
+* コンテンツテンプレート自体で、 **その他** ボタンをクリックし、 **削除**
+
+
+>[!NOTE]
+>
+>コンテンツテンプレートを削除しても、このテンプレートを使用して作成された配信には影響しません。
+
+
+## コンテンツテンプレートの複製 {#content-duplicate}
+
+コンテンツテンプレートを複製する方法は 2 つあります。
+
+* コンテンツテンプレートのリストで、省略記号ボタンをクリックし、「 **複製**
+
+* コンテンツテンプレート自体で、 **その他** ボタンをクリックし、 **複製**
+
+どちらの場合も、複製を確認して新しいコンテンツテンプレートを作成します。 新しいコンテンツテンプレートのラベルは次のとおりです。 **のコピー`<label of the initial campaign`**. テンプレート設定を参照して、このラベルを更新します。
+
