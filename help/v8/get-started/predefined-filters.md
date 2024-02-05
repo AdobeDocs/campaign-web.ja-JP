@@ -3,9 +3,9 @@ title: 定義済みフィルターの操作
 description: Adobe Campaign Web で定義済みフィルターを作成および管理する方法について説明します
 badge: label="限定提供（LA）"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '824'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 93%
 
 既存の組み込みフィルターを使用して、データの特定のサブセットにアクセスしたり、独自の定義済みフィルターを作成して保存したりできます。
 
-![](assets/predefined-filters-menu.png)
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >
