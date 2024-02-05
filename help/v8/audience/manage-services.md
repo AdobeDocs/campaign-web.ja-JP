@@ -4,10 +4,10 @@ title: 購読サービスの操作
 description: Adobe Campaign web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
 badge: label="限定提供（LA）"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 90%
+source-wordcount: '940'
+ht-degree: 86%
 
 ---
 
@@ -70,11 +70,11 @@ Adobe Campaign Web を使用して、ニュースレターなどのサービス�
 
 1. デフォルトでは、サービスは&#x200B;**[!UICONTROL サービスと購読]**&#x200B;フォルダーに保存されます。目的の場所を参照して変更できます。[詳しくは、フォルダーの操作方法を参照してください](../get-started/permissions.md#folders)
 
-1. デフォルトでは、購読は無制限です。「**[!UICONTROL 無制限の有効期間]**」オプションを無効にして、サービスの有効期間を定義できます。
+1. デフォルトでは、購読は無制限です。
 
-   次の例では、20 日後には次のようになります。
-   * このサービスを購読できる受信者はいなくなります。
-   * このサービスのすべてのサブスクライバーは、20 日後に自動的に登録解除されます。[詳細情報](#automatic-unsubscription)
+   次の項目を無効にすることができます。 **[!UICONTROL 無制限の有効期間]** オプションを使用して、サービスの有効期間を定義します。 有効期間が終了したら、次の手順に従います。
+   * このサービスを購読できる受信者はいません
+   * このサービスのすべての購読者は、自動的に購読解除されます
 
    ![](assets/service-create-validity-period.png)
 
