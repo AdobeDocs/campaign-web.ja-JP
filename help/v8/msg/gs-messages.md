@@ -4,10 +4,10 @@ title: Adobe Campaign Web でのメッセージと配信の概要
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 92%
+source-wordcount: '149'
+ht-degree: 71%
 
 ---
 
@@ -17,7 +17,9 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知など�
 
 これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズすることができます。これらの配信は、スタンドアロンで行うことも、マーケティングキャンペーンのコンテキストでワークフローに含めることもできます。Adobe Campaign で配信を作成および管理する方法について詳しくは、[この節](gs-deliveries.md)を参照してください。
 
-Adobe Campaign v8 には、メール、SMS、およびモバイルアプリの配信チャネルが付属しています。メッセージの作成および送信方法については、以下の節を参照してください。
+Adobe Campaign v8 には、E メール、SMS、プッシュ通知の各配信チャネルが付属しています。 アプリ内メッセージ、ダイレクトメール、X を使用したソーシャルマーケティング (Twitter) などの他のチャネルは、まだサポートされていません。
+
+メッセージの作成および送信方法については、以下の節を参照してください。
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
