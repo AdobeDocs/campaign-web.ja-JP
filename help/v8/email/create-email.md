@@ -4,10 +4,10 @@ title: 最初のメールを送信
 description: Campaign Web ユーザーインターフェイスでの最初の E メールの送信方法を説明します
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="限定提供（LA）"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 99%
+source-wordcount: '1367'
+ht-degree: 95%
 
 ---
 
@@ -144,11 +144,9 @@ ht-degree: 99%
 
 ## 送信のスケジュール設定 {#schedule}
 
-メールの送信をスケジュール設定するには、次の手順に従います。
+ワークフローのコンテキストで配信が送信された場合、 **スケジューラ** アクティビティ。 詳しくは、[このページ](../workflows/activities/scheduler.md)を参照してください。以下の手順は、スタンドアロン配信にのみ適用されます。
 
-配信の送信をスケジュール設定する方法に関する追加手順については、[この節](../msg/gs-messages.md#gs-schedule)を参照してください。
-
-1. 「**[!UICONTROL スケジュール]**」セクションを参照します。
+1. 次を参照： **[!UICONTROL スケジュール]** 」セクションに表示されます。
 
 1. **[!UICONTROL スケジュールを有効にする]**&#x200B;切替スイッチをオンにしてアクティブ化します。
 
@@ -156,7 +154,9 @@ ht-degree: 99%
 
    ![](assets/schedule.png)
 
-配信を送信すると、実際の送信は、定義した連絡日に開始されます。
+配信を送信すると、実際の送信は、定義したコンタクト日に開始されます。
+
+配信スケジュールについて詳しくは、[この節](../msg/gs-deliveries.md#schedule-the-delivery-sending)を参照してください。
 
 ## メールのプレビューとテスト {#preview-test}
 

@@ -4,10 +4,10 @@ title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 badge: label="限定提供（LA）"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 100%
+source-wordcount: '706'
+ht-degree: 89%
 
 ---
 
@@ -89,10 +89,21 @@ ht-degree: 100%
 
 ## 配信送信のスケジュール設定 {#schedule-push}
 
-特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#gs-schedule)を参照してください
+ワークフローのコンテキストで配信が送信された場合、 **スケジューラ** アクティビティ。 詳しくは、[このページ](../workflows/activities/scheduler.md)を参照してください。以下の手順は、スタンドアロン配信にのみ適用されます。
+
+スタンドアロンのプッシュ配信を特定の日時にスケジュールするには、次の手順に従います。
+
+1. 次を参照： **[!UICONTROL スケジュール]** 」セクションに表示されます。
+
+1. **[!UICONTROL スケジュールを有効にする]**&#x200B;切替スイッチをオンにしてアクティブ化します。
+
+1. 送信する日時を設定します。
+
+配信を開始すると、メッセージは、受信者に対して定義した正確な日時に自動的に送信されます。
 
 ![](assets/push_create_3.png)
 
+配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#gs-schedule)を参照してください
 
 ## 配信の詳細設定 {#adv-push}
 
