@@ -4,7 +4,7 @@ title: ワークフロー設定の指定
 description: Adobe Campaign Web でのワークフロー設定方法について説明します
 badge: label="限定提供（LA）"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 76%
@@ -46,7 +46,7 @@ ht-degree: 76%
    * **データベースのタイムゾーン**：データベースサーバーのタイムゾーンを使用します
    * 特定のタイムゾーン
 * ワークフローが失敗した場合、 **[!UICONTROL スーパーバイザー]** フィールドに電子メールで通知されます。
-* *また、 **[!UICONTROL 説明]** 」で指定します。
+* また、 **[!UICONTROL 説明]** 」で指定します。
 
 ワークフローが [キャンペーンに関連付けられている](create-workflow.md)に値を指定しない場合、 **[!UICONTROL リンクされたキャンペーン]** フィールドに入力します。 関連するキャンペーンは、このフィールドから開くことができます。
 
