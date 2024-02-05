@@ -4,10 +4,10 @@ title: 配信設定
 description: Campaign Web での配信設定の詳細情報
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="限定提供（LA）"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 99%
+source-wordcount: '2326'
+ht-degree: 98%
 
 ---
 
@@ -126,9 +126,11 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="配信用の配信設定"
->abstract="配信パラメーターは、配信に適用する技術的な設定です。配信用に BCC を有効にし、配信モードとルーチンモードを変更できます。これらのオプションは、エキスパートユーザーのみに制限されます。"
+>abstract="配信パラメーターは、配信に適用する技術的な設定です。配信およびルーチンモードの変更、E メールの BCC の有効化、ウェーブを使用した送信、および送信される E メールメッセージの形式の選択をおこなうことができます。 これらのオプションは、エキスパートユーザーのみに制限されます。"
 
 **[!UICONTROL 配信]**&#x200B;パラメーターは、配信に適用する技術的な設定です。
+
+![](assets/delivery-settings-delivery.png)
 
 統合されたメール&#x200B;**[!UICONTROL ルーティング]**&#x200B;用外部アカウントがデフォルトで提供されます。アプリケーションからメールを送信するための技術的なパラメーターが含まれています。
 

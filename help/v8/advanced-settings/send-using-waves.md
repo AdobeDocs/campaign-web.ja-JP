@@ -3,7 +3,7 @@ audience: end-user
 title: ウェーブを使用した送信
 description: Campaign Web での配信設定の詳細情報
 badge: label="限定提供（LA）"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 75%
@@ -34,7 +34,11 @@ ht-degree: 75%
 
 1. ウェーブを設定するには、次のいずれかをおこないます。
 
-   * **[!UICONTROL 同じサイズの複数のウェーブのスケジュール]**. 例えば、対応するフィールドに **[!UICONTROL 30％]**&#x200B;と入力した場合、各ウェーブは、配信に含まれるメッセージの 30％を表します（ただし、最後のウェーブは除きます。最後のウェーブは、メッセージの 10％を表します）。
+   * **[!UICONTROL 同じサイズの複数のウェーブのスケジュール]**.
+
+     例えば、対応するフィールドに **[!UICONTROL 30％]**&#x200B;と入力した場合、各ウェーブは、配信に含まれるメッセージの 30％を表します（ただし、最後のウェーブは除きます。最後のウェーブは、メッセージの 10％を表します）。
+
+     ![](assets/waves-same-size.png)
 
      Adobe Analytics の **[!UICONTROL 間隔]** 「 」セクションで、2 つの連続するウェーブの開始間隔を指定します。 例えば、**[!UICONTROL 2d]** と入力した場合、最初のウェーブは直ちに開始され、2 番目のウェーブは 2 日後に、3 番目のウェーブは 4 日後にといった具合に開始されます。
 
@@ -44,7 +48,9 @@ ht-degree: 75%
 
      以下の例では、最初のウェーブは、配信に含まれるメッセージ総数の 25％を表しており、直ちに開始されます。次の 2 つのウェーブで配信が完了しますが、これらのウェーブは、6 時間間隔で開始するように設定されています。
 
-     特定のタイポロジ制御ルール **[!UICONTROL ウェーブスケジュールの確認]**&#x200B;を使用すると、最後のウェーブが配信の有効期限の前に計画されていることが確認されます。 キャンペーンタイポロジとそのルールは、 **[!UICONTROL タイポロジ]** 」タブに表示されます。 詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     特定のタイポロジ制御ルール **[!UICONTROL ウェーブスケジュールの確認]**&#x200B;を使用すると、最後のウェーブが配信の有効期限の前に計画されていることが確認されます。 キャンペーンタイポロジとそのルールは、 **[!UICONTROL タイポロジ]** 」タブに表示されます。 詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ ht-degree: 75%
 
   そのためには、「**[!UICONTROL カレンダーに従ってウェーブをスケジュール]**」オプションを選択します。例えば、最初のウェーブを 10％に、2 番目のウェーブを 15％にといった具合に設定します。
 
+  ![](assets/waves-ramp-up.png)
+
 * **コールセンターが関与するキャンペーン**
 
   電話によるロイヤルティキャンペーンを管理する場合、組織が処理できるサブスクライバーへの電話の本数には限界があります。
@@ -74,3 +82,5 @@ ht-degree: 75%
   ウェーブを使用して、1 日あたりのメッセージ数を 20 に制限できます（コールセンターの 1 日あたりの処理能力）。
 
   これをおこなうには、「**[!UICONTROL 同じサイズの複数のウェーブをスケジュール]**」オプションを選択します。ウェーブのサイズとして **[!UICONTROL 20]** を入力し、「**[!UICONTROL 期間]**」フィールドに **[!UICONTROL 1d]** と入力します。
+
+  ![](assets/waves-call-center.png)
