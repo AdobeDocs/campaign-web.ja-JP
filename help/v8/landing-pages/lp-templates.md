@@ -3,7 +3,7 @@ audience: end-user
 title: ランディングページコンテンツテンプレートの使用
 description: ランディングページコンテンツをデザインテンプレートとして保存し、Campaign Web で再利用する方法を説明します。
 badge: label="限定提供（LA）"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 29%
@@ -56,4 +56,4 @@ ht-degree: 29%
 
 1. ランディングページデザイナーを使用して、必要に応じてコンテンツを編集します。
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

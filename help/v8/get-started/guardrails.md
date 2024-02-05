@@ -1,56 +1,56 @@
 ---
-title: Campaign web UI のガードレールと制限
-description: Campaign web UI のガードレールと制限
+title: Campaign Web ユーザーインターフェイスのガードレールと制限
+description: Campaign Web ユーザーインターフェイスのガードレールと制限
 badge: label="ベータ版"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 65%
 
 ---
 
 # ガードレールと制限 {#guardrails-limitations}
 
-Campaign クライアントコンソールで作成または変更されたコンポーネントを Campaign web UI で使用する場合、以下に示すガードレールと制限が適用されます。
+Campaign クライアントコンソールで作成または変更されたコンポーネントを Campaign Web ユーザーインターフェイスで操作する場合、以下に示すガードレールと制限が適用されます。
 
 ## ワークフロー {#wf-guardrails-limitations}
 
 ### アクティビティ
 
-Web UI でまだサポートされていないワークフローアクティビティは読み取り専用で、互換性のないアクティビティとして表示されます。ワークフローの実行、メッセージの送信、ログの確認などは引き続き実行できます。Web UI とクライアントコンソールの両方で使用できるワークフローアクティビティは編集可能です。
+Campaign Web ユーザーインターフェイスでまだサポートされていないワークフローアクティビティは、読み取り専用で、互換性のないアクティビティとして表示されます。 ワークフローの実行、メッセージの送信、ログの確認などは引き続き実行できます。Campaign Web ユーザーインターフェイスと Campaign クライアントコンソールの両方で使用できるワークフローアクティビティは編集可能です。
 
-| コンソール | Web UI |
+| コンソール | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-Web UI でまだサポートされていないワークフローアクティビティ設定は表示されません。ただし、ワークフローを実行する際には、これらの設定も適用されます。
+Web ユーザーインターフェイスでまだサポートされていないワークフローアクティビティ設定は表示されません。 ただし、ワークフローを実行する際には、これらの設定も適用されます。
 
-| コンソール | Web UI |
+| コンソール | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-コンソールで、**エンリッチメント**&#x200B;アクティビティは、紐付けとエンリッチメントの両方を実行できます。Web UI では、紐付け機能はまだ使用できません。コンソールで&#x200B;**エンリッチメント**&#x200B;アクティビティの紐付け設定を定義した場合は、互換性のない読み取り専用アクティビティとして web UI に表示されます。
+コンソールで、**エンリッチメント**&#x200B;アクティビティは、紐付けとエンリッチメントの両方を実行できます。Campaign Web ユーザーインターフェイスでは、紐付け機能はまだ使用できません。 を定義済みの場合、クライアントコンソールで、紐付け設定を **エンリッチメント** アクティビティの場合、Campaign Web ユーザーインターフェイスに互換性のない読み取り専用アクティビティとして表示されます。
 
-| コンソール | Web UI |
+| コンソール | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### キャンバス
 
-Web UI で新しいワークフローを作成する場合、キャンバスは 1 つのエントリポイントのみをサポートします。ただし、複数のエントリポイントを持つワークフローをコンソールで作成した場合は、それを web UI で開いて編集できます。
+Campaign Web ユーザーインターフェイスで新しいワークフローを作成する場合、キャンバスは 1 つのエントリポイントのみをサポートします。 ただし、複数のエントリポイントを持つワークフローをコンソールで作成した場合は、Campaign Web ユーザーインターフェイスで開いて編集できます。
 
-| コンソール | Web UI |
+| コンソール | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-ループは、web UI ではまだ使用できません。ループを含むワークフローをコンソールで作成した場合は、web UI からアクセスできません。エラーメッセージが表示されます。
+ループは、Campaign Web ユーザーインターフェイスではまだ使用できません。 コンソールを使用してループを含むワークフローを作成した場合、Campaign Web ユーザーインターフェイスからはワークフローにアクセスできません。 エラーメッセージが表示されます。
 
-| コンソール | Web UI |
+| コンソール | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-ノードの配置は、アクティビティが追加または削除されるたびに更新されます。コンソールでワークフローを作成し、web UI を使用して変更し、コンソールで再度開くと、配置に関する軽度の問題が発生する場合があります。これは、ワークフローのプロセスとタスクには影響しません。
+ノードの配置は、アクティビティが追加または削除されるたびに更新されます。コンソールでワークフローを作成し、Campaign Web ユーザーインターフェイスを使用して変更し、コンソールで再度開くと、小さな配置に問題が生じる場合があります。 これは、ワークフローのプロセスとタスクには影響しません。
 
 | 最初のワークフロー | 位置の変更 |
 | --- | --- |

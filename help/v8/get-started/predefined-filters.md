@@ -3,10 +3,10 @@ title: 定義済みフィルターの操作
 description: Adobe Campaign Web で定義済みフィルターを作成および管理する方法について説明します
 badge: label="限定提供（LA）"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '822'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="定義済みフィルター管理"
->abstract="Campaign web では、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供するようになりました。1 回作成し、後で使用するために保存します。"
+>abstract="Campaign Web ユーザーインターフェイスは、特定のニーズに合わせて定義済みフィルターを容易に管理およびカスタマイズできる、ユーザーにとって使いやすいインターフェイスを備えています。 1 回作成し、後で使用するために保存します。"
 
 
 <!--TO REMOVE BELOW-->
@@ -30,7 +30,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="定義済みフィルター"
->abstract="Campaign web では、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供するようになりました。1 回作成し、後で使用するために保存します。"
+>abstract="Campaign Web ユーザーインターフェイスは、特定のニーズに合わせて定義済みフィルターを容易に管理およびカスタマイズできる、ユーザーにとって使いやすいインターフェイスを提供します。 1 回作成し、後で使用するために保存します。"
 
 定義済みフィルターは、後で使用できるように作成および保存されるカスタムフィルターです。これらは、例えば、データのリストをフィルタリングしたり、配信のオーディエンスを作成したりする場合に、クエリモデラーでの任意のフィルタリング操作でショートカットとして使用できます。
 

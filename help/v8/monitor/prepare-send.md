@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: メールの準備と送信
-description: Campaign web UI でのメールの準備と送信方法を学ぶ
+description: Campaign Web ユーザーインターフェイスで E メールを準備して送信する方法を説明します
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="限定提供（LA）"
-source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+workflow-type: tm+mt
+source-wordcount: '893'
+ht-degree: 98%
 
 ---
 

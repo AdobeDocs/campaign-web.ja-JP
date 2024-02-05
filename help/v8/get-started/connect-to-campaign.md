@@ -3,10 +3,10 @@ title: Adobe Campaign web インターフェイスに接続
 description: Adobe Campaign Web ユーザーインターフェイスへの接続方法を説明します
 badge: label="限定提供（LA）"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 90%
+source-wordcount: '562'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,7 @@ Campaign に接続しました。ユーザーインターフェイスの使用�
 
 インターフェイスの上部バーを参照して、次の操作を実行できます。
 
-* Campaign web UI に関するフィードバックを共有
+* Campaign の Web ユーザーインターフェイスに関するフィードバックを共有
 * 組織を切り替え
 * Adobe Experience Cloud ソリューションとアプリを切り替え
 * [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=ja){target="_blank"} でヘルプを検索

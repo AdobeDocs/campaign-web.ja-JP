@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Campaign web での権限管理
-description: Campaign web v8 の権限について説明します
+title: Campaign Web ユーザーインターフェイスの権限管理
+description: Campaign Web ユーザーインターフェイスの権限の詳細を説明します
 badge: label="限定提供（LA）"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 
