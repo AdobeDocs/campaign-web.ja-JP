@@ -4,10 +4,10 @@ title: ワークフロー設定の指定
 description: Adobe Campaign Web でのワークフロー設定方法について説明します
 badge: label="限定提供（LA）"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 80%
 
 これを行うには、ワークフローキャンバス上のアクションバーにある「**[!UICONTROL 設定]**」ボタンをクリックします。
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## ワークフローのプロパティ {#properties}
 
@@ -29,10 +29,15 @@ ht-degree: 80%
 >title="ワークフローのプロパティ"
 >abstract="このセクションでは、ワークフローの作成時にもアクセスできる一般的なワークフロープロパティを提供します。ワークフローの作成に使用するテンプレートを選択し、ラベルを指定できます。「その他のオプション」セクションを展開して、ワークフロー保存フォルダーやタイムゾーンなどの特定の設定を指定します。"
 
-The **[!UICONTROL プロパティ]** 「 」セクションには、ワークフローの作成時に利用できる一般的な設定が用意されています。 次のプロパティがあります。
+「**[!UICONTROL プロパティ]**」セクションには、ワークフローの作成時に利用できる一般的な設定が用意されています。
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+次のプロパティがあります。
 
 * The **[!UICONTROL ラベル]** 」で指定します。
-* 内部 **[!UICONTROL 名前]** 」で指定します。
+* The **[!UICONTROL 内部名]** 」で指定します。
 * The **[!UICONTROL フォルダー]** ワークフローの保存先。
 * デフォルト **[!UICONTROL タイムゾーン]** を使用して、ワークフローのすべてのアクティビティで使用できます。 デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
 次のような値を選択できます。
