@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
 >title="主要業績評価指標"
->abstract="**主要業績評価指標**&#x200B;の節では、一般的な KPI を通じてプラットフォームの有効性を確認できます。"
+>abstract="**主要業績評価指標**&#x200B;のセクションでは、一般的な KPI を通じてプラットフォームの有効性を確認できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
