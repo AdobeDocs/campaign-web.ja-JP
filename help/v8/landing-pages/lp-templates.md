@@ -2,8 +2,9 @@
 audience: end-user
 title: ランディングページコンテンツテンプレートの使用
 description: ランディングページコンテンツをデザインテンプレートとして保存し、Campaign Web で再利用する方法を説明します。
+feature: Landing Pages
 badge: label="限定提供（LA）"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 29%

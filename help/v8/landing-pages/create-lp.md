@@ -1,8 +1,9 @@
 ---
 title: ランディングページの作成
 description: Campaign Web でランディングページを設定して公開する方法を説明します
+feature: Landing Pages
 badge: label="限定提供（LA）"
-source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 8%
