@@ -2,9 +2,9 @@
 title: ランディングページの作成
 description: Campaign Web でランディングページを設定して公開する方法を説明します
 badge: label="限定提供（LA）"
-source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1031'
 ht-degree: 8%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="ランディングページの作成と管理"
->abstract="Adobe Campaignでは、ランディングページを作成、デザインおよび共有して、組み込みのテンプレートに基づいて、獲得、購読/購読解除およびブロックリストの使用例を管理できる、オンライン Web ページにユーザーを誘導できます。"
+>abstract="Adobe Campaignでは、ランディングページを作成、デザインおよび共有して、組み込みのテンプレートに基づいて、獲得、購読/購読解除および使用例の管理をおこなえるオンライン Web ページにユーザーを誘導できまブロックリストに加えるす。"
 
-Adobe Campaignでは、ランディングページを作成、デザインおよび共有して、組み込みのテンプレートに基づいて、獲得、購読/購読解除およびブロックリストの使用例を管理できる、オンライン Web ページにユーザーを誘導できます。
+Adobe Campaignでは、ランディングページを作成、デザイン、共有できます。 マーケティングキャンペーンのコンテキストでは、ランディングページは、訪問者が E メール、SMS、プッシュ配信または Web サイト内のリンクをクリックした後に導かれる、スタンドアロン Web ページです。 Adobe Campaignには 4 つのテンプレートが用意されており、 **獲得**, **購読**, **購読解除**、および **ブロックリストに加える** の使用例です。
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
