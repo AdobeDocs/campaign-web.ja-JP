@@ -3,9 +3,9 @@ audience: end-user
 title: ランディングページの概要
 description: Campaign Web のランディングページについて説明します
 badge: label="限定提供（LA）"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="ランディングページ"
->abstract="新しいランディングページエクスペリエンスを確認します。 ランディングページを即座に作成、デザインおよび共有して、組み込みのテンプレートに基づいて、ブロックリスト、獲得、購読/購読解除および管理の使用例を示すオンライン Web ページにユーザーを誘導します。"
+>abstract="新しいランディングページエクスペリエンスを確認します。 ランディングページを即座に作成、デザインおよび共有して、組み込みのテンプレートに基づいて、獲得、購読/購読解除およびブロックリストの使用例を管理できる、オンライン Web ページにユーザーを誘導します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 
@@ -27,7 +27,7 @@ ht-degree: 7%
 * 設定 **オプトインおよびオプトアウトフロー** 迅速かつシームレスに。
 * 購読サービスを作成してユーザーが以下を実行できるようにします。 **サービスを購読する**. [詳細情報](../audience/manage-services.md)
 * 受信者に **配信停止機能** 通信を受信した時点から
-* を送信します。 **確認メール** オプトインまたはオプトアウト時。
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -2,9 +2,9 @@
 title: ランディングページの作成
 description: Campaign Web でランディングページを設定して公開する方法を説明します
 badge: label="限定提供（LA）"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1006'
 ht-degree: 8%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="ランディングページの作成と管理"
->abstract="Adobe Campaignでは、ランディングページを作成、デザインおよび共有して、組み込みのテンプレートに基づいて、ブロックリストの管理、獲得、購読/購読解除および購読の使用例を示すオンライン Web ページにユーザーを誘導できます。"
+>abstract="Adobe Campaignでは、ランディングページを作成、デザインおよび共有して、組み込みのテンプレートに基づいて、獲得、購読/購読解除およびブロックリストの使用例を管理できる、オンライン Web ページにユーザーを誘導できます。"
 
-Adobe Campaignでは、ランディングページを作成、デザインおよび共有して、組み込みのテンプレートに基づいて、ブロックリストの管理、獲得、購読/購読解除および購読の使用例を示すオンライン Web ページにユーザーを誘導できます。
+Adobe Campaignでは、ランディングページを作成、デザインおよび共有して、組み込みのテンプレートに基づいて、獲得、購読/購読解除およびブロックリストの使用例を管理できる、オンライン Web ページにユーザーを誘導できます。
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
@@ -30,9 +30,9 @@ The **[!UICONTROL ランディングページ]** 在庫には、作成された�
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->Campaign Web のクライアントコンソールから作成したランディングページを表示することはできません。 詳しくは、 [Campaign コンソールのドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Campaign Web のクライアントコンソールから作成したランディングページは、表示または編集できません。 詳しくは、 [Campaign コンソールのドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -98,7 +98,7 @@ The **[!UICONTROL ランディングページ]** 在庫には、作成された�
 
    ![](assets/lp-pages.png)
 
-1. The **[!UICONTROL プリロードされたレコードを更新]** はデフォルトで選択されています。 ランディングページを使用してデータベースに格納されたプロファイルを更新する場合、プリロードボックスを使用できます。 プリロードボックスを使用すると、データベース内で更新されるレコードの検索方法を指定できます。 また、ランディングページの現在のコンテキストのフィールドから選択し、データベースで対応するプロファイルを見つけるために使用するフィールドも選択できます。
+1. The **[!UICONTROL プリロードされたレコードを更新]** オプションはデフォルトで選択されています。 ランディングページを使用してデータベースに格納されたプロファイルを更新する場合、プリロードボックスを使用できます。 プリロードボックスを使用すると、データベース内で更新されるレコードの検索方法を指定できます。 また、ランディングページの現在のコンテキストのフィールドから選択し、データベースで対応するプロファイルを見つけるために使用するフィールドも選択できます。
 
    ![](assets/lp-storage-schedule.png)
 
