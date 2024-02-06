@@ -6,7 +6,7 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign Web ドキュメント
 breadcrumb-title: Campaign Web ユーザーインターフェイス
 hide: true
-source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 88%
@@ -27,7 +27,7 @@ ht-degree: 88%
    + [定義済みフィルターの操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
    + [ガードレールと制限](get-started/guardrails.md)
-   + [サポートされていない機能](get-started/unsupported.md)
+   + [サポートされていない機能](get-started/capability-matrix.md)
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
