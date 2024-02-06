@@ -7,7 +7,7 @@ badge: label="ベータ版"
 source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 
 * **属性**：このタブでは、スキーマから使用可能なすべてのフィールドにアクセスできます。フィールドのリストは、メールテンプレートで定義されているターゲティングスキーマによって異なります。
 
-* **オーディエンス**：このタブでは、Campaign Classic コンソールまたは Adobe Experience Platform で定義された既存のオーディエンスの 1 つを使用してフィルタリングできます。でオーディエンスを監視および管理する方法について説明します。 [この節](manage-audience.md)
+* **オーディエンス**：このタブでは、Campaign Classic コンソールまたは Adobe Experience Platform で定義された既存のオーディエンスの 1 つを使用してフィルタリングできます。オーディエンスの監視と管理の方法については、[このセクション](manage-audience.md)を参照してください
 
   >[!NOTE]
   >

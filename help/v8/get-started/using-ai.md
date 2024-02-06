@@ -4,7 +4,7 @@ description: Campaign web ヘルプのポップオーバーで質問する
 badge: label="アルファ版"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
 

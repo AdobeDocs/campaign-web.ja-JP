@@ -5,7 +5,7 @@ description: スケジューラーワークフローアクティビティの使�
 badge: label="限定提供（LA）"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: 配信ワークフローアクティビティ（メール、プッ�
 badge: label="限定提供（LA）"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 100%
 

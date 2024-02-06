@@ -5,7 +5,7 @@ description: Adobe Campaign web でオーディエンスを作成する方法に
 badge: label="限定提供（LA）"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 1206da29f9987b55b957b6845e3dbf1e71ef03ed
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 100%
 

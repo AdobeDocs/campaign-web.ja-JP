@@ -5,7 +5,7 @@ description: 分岐ワークフローアクティビティの使用方法を学�
 badge: label="限定提供（LA）"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
 
