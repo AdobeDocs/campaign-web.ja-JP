@@ -5,9 +5,9 @@ description: Campaign の Web ユーザーインターフェイスでサポー�
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1281'
 ht-degree: 15%
 
 ---
@@ -35,7 +35,7 @@ Campaign Web ユーザーインターフェイスを使用すると、詳細な�
 * マーケティングリソース管理 (MRM)、目標、シミュレーション、コスト管理。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * タスク管理[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## 通信チャネル { #channels-capabilities}
+## 通信チャネル {#channels-capabilities}
 
 Campaign Web ユーザーインターフェイスを使用すると、E メール、SMS、プッシュ通知を作成、設計、送信し、様々な専用レポートを使用して影響を測定できます。詳細はこちらを参照してください [この節](../msg/gs-messages.md). ただし、このバージョンでは次のチャネルは使用できません。
 
