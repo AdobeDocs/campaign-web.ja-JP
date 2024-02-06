@@ -4,10 +4,10 @@ title: ウェーブを使用した送信
 description: Campaign Web での配信設定の詳細情報
 feature: Email
 badge: label="限定提供（LA）"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 34%
+source-wordcount: '790'
+ht-degree: 33%
 
 ---
 
@@ -82,7 +82,11 @@ ht-degree: 34%
 
 * 「**[!UICONTROL サイズ]**」列では、固定の数値または割合を入力します。
 
-必要な数のウェーブを追加します。
+必要な数のウェーブを追加します。 必要に応じて並べ替えることができます。
+
+>[!NOTE]
+>
+>割合を使用している場合は、すべてのウェーブの合計が 100%を超えないようにする必要があります。
 
 次の例では、最初のウェーブは、配信に含まれるメッセージの合計数の 25%を表し、直ちに開始します。 次の 2 つのウェーブで配信が完了しますが、これらのウェーブは、6 時間間隔で開始するように設定されています。
 
