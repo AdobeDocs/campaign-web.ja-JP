@@ -4,7 +4,7 @@ title: インターフェイスを確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="限定提供（LA）"
-source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 92%
@@ -126,7 +126,6 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 Campaign 生成 AI の機能により、このアシスタントでユーザーのエクスペリエンスが変革され、情報の検索と問題解決を簡単に行うことができます。複雑なタスクでガイダンスを求めている場合でも、膨大なドキュメントから必要な情報を探している場合でも、AI を活用したアドビのナレッジアシスタントは究極のコンパニオンとなり、あらゆるインタラクションにおいて比類のない効率性と正確さを提供します。
 
 詳しくは、[こちら](using-ai.md)を参照してください。
-
 
 
 ## 詳細情報 {#learn-more}
