@@ -5,7 +5,7 @@ description: Campaign の Web ユーザーインターフェイスでサポー�
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
+source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 11%
@@ -114,7 +114,7 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい 
 
 ## ワークフロー {#wf-capabilities}
 
-新しい Campaign Web ユーザーインターフェイスでは、新しいワークフローキャンバスインターフェイスが導入され、プロセスの設計と管理が可能になります。 主要なワークフローアクティビティは、新しいデザインで既に使用可能です。一部のワークフローアクティビティは、将来のバージョンで提供される予定です。 ガードレールや制限を含むワークフロー機能の詳細を説明します [この節](../workflows/gs-workflows.md)
+新しい Campaign Web ユーザーインターフェイスでは、新しいワークフローキャンバスインターフェイスが導入され、プロセスの設計と管理が可能になります。 主要なワークフローアクティビティは、新しいデザインで既に使用可能です。一部のワークフローアクティビティは、将来のバージョンで提供される予定です。 ガードレールや制限を含むワークフロー機能の詳細を説明します [この節](../get-started/guardrails.md).
 
 以下の機能は、Campaign クライアントコンソールでのみ使用できます。
 
