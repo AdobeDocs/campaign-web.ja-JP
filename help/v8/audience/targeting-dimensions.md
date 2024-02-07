@@ -3,9 +3,9 @@ title: ターゲティングディメンション
 description: Adob Campaign web でのターゲティングディメンションについて説明します
 badge: label="限定提供（LA）"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
+source-git-commit: a7c640c39e04443c5925f36ce966e7b5125e9a33
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '457'
 ht-degree: 100%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 100%
 >id="acw_orchestration_build_audience_dimension"
 >title="ターゲティングディメンションの選択"
 >abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_targeting"
+>title="ターゲティングディメンション"
+>abstract="新しいターゲティングディメンションを選択します。ディメンションを使用すると、ターゲット母集団（受信者、アプリのサブスクライバー、オペレーター、サブスクライバーなど）を定義できます。デフォルトでは、現在のターゲティングディメンションが選択されています。"
 
 ターゲティングディメンション、別名ターゲットマッピングは、操作で処理されるデータのタイプです。ターゲット母集団（プロファイル、契約の受取人、オペレーター、サブスクライバーなど）を定義できます。
 
