@@ -5,16 +5,16 @@ description: Campaign の Web ユーザーインターフェイスでサポー�
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1485'
 ht-degree: 13%
 
 ---
 
 # Campaign Web ユーザーインターフェイス/クライアントコンソール機能マトリックス {#capabilities-matrix}
 
-次の機能は、Campaign クライアントコンソールからのみアクセスできます。 一部の製品は、新しいバージョンの Campaign Web ユーザーインターフェイスで使用できるようになります。
+主要な Campaign 機能は、Campaign Web ユーザーインターフェイスで使用できます。 ただし、一部の設定や機能は Campaign クライアントコンソールからのみアクセス、作成または管理できます。 一部の製品は、新しいバージョンの Campaign Web ユーザーインターフェイスで使用できるようになります。
 
 <!--
 **Homepage**
@@ -59,7 +59,7 @@ Adobe Campaignでは、ランディングページを作成、デザイン、共
 
 ## プロファイル、テストプロファイル、オーディエンス {#profiles-audiences-capabilities}
 
-Campaign クライアントコンソールと Campaign Web ユーザーインターフェイスの両方で、プロファイルおよびテストプロファイルを作成、管理および更新できます。 一方の UI で実行した変更はすべて他方の UI に表示されます。 ただし、新しい Campaign Web ユーザーインターフェイスでは、一部の特定の受信者設定や詳細設定パラメーターが欠落する場合があります。  新しい Web ユーザーインターフェイスでは、「受信者」という用語が「プロファイル」に変更されました。
+Campaign クライアントコンソールと Campaign Web ユーザーインターフェイスの両方で、プロファイルおよびテストプロファイルを作成、管理および更新できます。 一方の UI で実行した変更はすべて他方の UI に表示されます。 ただし、新しい Campaign Web ユーザーインターフェイスでは、一部の特定の受信者設定や詳細設定パラメーターが欠落する場合があります。 新しい Web ユーザーインターフェイスでは、「受信者」という用語が「プロファイル」に変更されました。
 
 オーディエンス構成は、Campaign の Web ユーザーインターフェイスに加わる新しい機能です。 その結果、Campaign クライアントコンソールでは、 [オーディエンスがクエリモデラーで作成されました](../query/query-modeler-overview.md).
 
@@ -86,10 +86,10 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい 
 
 このバージョンの製品では、次の機能を使用できません。 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらの機能 ( `*` は、Campaign クライアントコンソールでもサポートされていません )。
 
-* E メール用の AMP。  [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * パブリックリソースからのコンテンツ — スコープ（確認する）
 * カスタムパーソナライゼーションブロックの作成。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * カスタムフォーム（コンテンツ管理モジュール）のコンテンツ。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* E メール用の AMP。 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * URL からのコンテンツ`*`
 * テンプレートとしての HTML コンテンツの保存`*`
 * メールのフラグメント`*`
@@ -125,7 +125,7 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい 
 
 Adobe Campaign Web を使用すると、 **[!UICONTROL インタラクション]** モジュール。 オファーのデザイン、実施要件ルール、オファー管理は、Campaign クライアントコンソールでのみ使用できます。 [詳細情報](../msg/offers.md)
 
-オファーカタログの管理方法については、  [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}.
+オファーカタログの管理方法については、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}.
 
 ## Adobe Experience Cloud ソリューションとの統合 {#exc-capabilities}
 
@@ -166,13 +166,13 @@ Campaign Web ユーザーインターフェイスは、次の機能を表示し�
 
 Campaign Web ユーザーインターフェイスでは、コンテンツ、配信、ワークフロー、キャンペーンおよびターゲットの承認管理は表示されません。 これらは、クライアントコンソールでのみ使用できます。
 
-ワークフローで承認を管理する方法については、  [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+ワークフローで承認を管理する方法については、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
 
 
 キャンペーンで配信、コンテンツ、ターゲットの承認を管理する方法については、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=ja){target="_blank"}.
 
 
-## 権限  {#permissions-capabilities}
+## 権限 {#permissions-capabilities}
 
 Campaign ユーザーは、AdobeIdentity Management System(IMS) を通じて、Adobe ID Web ユーザーインターフェイスにのみアクセスできます。
 
