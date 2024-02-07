@@ -4,10 +4,10 @@ title: 配信のプレビューとテストについて
 description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="限定提供（LA）"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 84%
 
 ---
 
@@ -15,10 +15,11 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="メッセージのプレビューとテスト"
->abstract="メッセージコンテンツを定義したら、テストプロファイルを使用してプレビューとテストを行うことができます。"
+>title="コンテンツのプレビューとテスト"
+>abstract="コンテンツを定義したら、テストプロファイルを使用してプレビューおよびテストできます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=ja" text="メッセージコンテンツのプレビュー"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ja" text="テスト配信の送信"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="ランディングページのテスト"
 
 配信コンテンツを定義したら、メッセージを送信する前に、テストプロファイルを使用してプレビューとテストを行うことができます。
 
@@ -29,6 +30,7 @@ ht-degree: 100%
 * [メッセージのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)
 * テストと検証のために、特定の受信者またはサブスクライバーに対する[テスト配信](test-deliveries.md)（配達確認）の送信
 * 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](email-rendering.md)します。
+* [ランディングページのプレビューとテスト](../landing-pages/create-lp.md#test-landing-page)
 
 これらのアクションは、配信のコンテンツを編集画面または[メールデザイナー](../email/get-started-email-designer.md)からアクセスできる「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。
 
