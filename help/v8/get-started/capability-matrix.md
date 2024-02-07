@@ -5,9 +5,9 @@ description: Campaign の Web ユーザーインターフェイスでサポー�
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: bef5e0c93b32d5138df313dfd6c3051ec9303578
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1469'
 ht-degree: 13%
 
 ---
@@ -174,7 +174,7 @@ Campaign Web ユーザーインターフェイスでは、コンテンツ、配�
 
 ## 権限  {#permissions-capabilities}
 
-Campaign ユーザーは、Campaign Identity Management System(IMS) に基づく、Adobe IDを使用した Campaign Web ユーザーインターフェイスにのみアクセスできます。
+Campaign ユーザーは、AdobeIdentity Management System(IMS) を通じて、Adobe ID Web ユーザーインターフェイスにのみアクセスできます。
 
 権限の詳細は、Adobe Admin ConsoleおよびAdobe Campaignクライアントコンソールで定義されます [この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja). Adobe Campaign Web ユーザーインターフェイスでは、権限に対するアクションは実行できません。
 
