@@ -6,7 +6,7 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign Web ドキュメント
 breadcrumb-title: Campaign Web ユーザーインターフェイス
 hide: true
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 88%
@@ -26,7 +26,6 @@ ht-degree: 88%
    + [リストの参照とフィルタリング](get-started/list-filters.md)
    + [定義済みフィルターの操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
-   + [ガードレールと制限](get-started/guardrails.md)
    + [サポートされていない機能](get-started/capability-matrix.md)
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
 + メッセージと配信 {#msg}
@@ -119,6 +118,7 @@ ht-degree: 88%
    + [最初のキャンペーンを作成](campaigns/create-campaigns.md)
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
+   + [ガードレールと制限](get-started/guardrails.md)
    + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
    + 最初のワークフローの作成と実行 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
