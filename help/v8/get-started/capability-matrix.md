@@ -5,16 +5,18 @@ description: Campaign の Web ユーザーインターフェイスでサポー�
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
+source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 13%
+source-wordcount: '1503'
+ht-degree: 12%
 
 ---
 
 # Campaign Web ユーザーインターフェイス/クライアントコンソール機能マトリックス {#capabilities-matrix}
 
-主要な Campaign 機能は、Campaign Web ユーザーインターフェイスで使用できます。 ただし、一部の設定や機能は Campaign クライアントコンソールからのみアクセス、作成または管理できます。 一部の製品は、新しいバージョンの Campaign Web ユーザーインターフェイスで使用できるようになります。
+主要な Campaign 機能は、Campaign Web ユーザーインターフェイスで使用できます。 このインターフェイスは、マーケターがマーケティングキャンペーンを計画、開始、測定できるように主に設計されていました。 すべての機能が一覧表示されます [このページの](../rn/whats-new.md).
+
+ビジネスやデータのニーズに基づく Campaign プラットフォームのカスタマイズと、他のシステムへの接続は、Campaign クライアントコンソールで管理されます。 その結果、一部の設定や機能は、Campaign クライアントコンソールからのみアクセス、作成または管理できます。 一部の製品は、新しいバージョンの Campaign Web ユーザーインターフェイスで使用できるようになります。
 
 <!--
 **Homepage**
@@ -61,7 +63,7 @@ Adobe Campaignでは、ランディングページを作成、デザイン、共
 
 Campaign クライアントコンソールと Campaign Web ユーザーインターフェイスの両方で、プロファイルおよびテストプロファイルを作成、管理および更新できます。 一方の UI で実行した変更はすべて他方の UI に表示されます。 ただし、新しい Campaign Web ユーザーインターフェイスでは、一部の特定の受信者設定や詳細設定パラメーターが欠落する場合があります。 新しい Web ユーザーインターフェイスでは、「受信者」という用語が「プロファイル」に変更されました。
 
-オーディエンス構成は、Campaign の Web ユーザーインターフェイスに加わる新しい機能です。 その結果、Campaign クライアントコンソールでは、 [オーディエンスがクエリモデラーで作成されました](../query/query-modeler-overview.md).
+<!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
 Campaign のクライアントコンソールまたはAdobe Experience Platformで作成されたすべてのオーディエンスは、Campaign Web ユーザーインターフェイスで使用できます。
 
@@ -82,18 +84,18 @@ Message Center 製品パッケージに付属するトランザクションメ�
 
 Adobe Campaign Web ユーザーインターフェイスに付属する新しい E メールデザイナーを使用すると、直感的なドラッグ&amp;ドロップインターフェイスで、個別にカスタマイズした魅力的な E メールを簡単に作成できます。 空白のスレートから始める場合でも、既存のコンテンツを読み込む場合でも、既存のテンプレートを活用する場合でも、すべての E メール用にすべてのコンテンツをデザインおよび調整できます。 [詳細情報](../email/edit-content.md)
 
-この新しいユーザーインターフェイスを使用すると、E メールコンテンツでAdobe Experience Manager 6.5 のアセットを使用したり、Adobe Experience Managerからの E メールテンプレート同期を管理したり、Adobe Experience Manager as a Cloud Serviceと統合したりできます。
+この新しいユーザーインターフェイスを使用すると、Adobe Experience Managerから電子メールテンプレートの同期を管理し、Adobe Experience Manager as a Cloud Serviceと統合できます。
 
-このバージョンの製品では、次の機能を使用できません。 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらの機能 ( `*` は、Campaign クライアントコンソールでもサポートされていません )。
+このバージョンの製品では、次の機能を使用できません。 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらの機能の詳細を確認します。
 
 * パブリックリソースからのコンテンツ — スコープ（確認する）
 * カスタムパーソナライゼーションブロックの作成。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * カスタムフォーム（コンテンツ管理モジュール）のコンテンツ。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * E メール用の AMP。 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
-* URL からのコンテンツ`*`
-* テンプレートとしての HTML コンテンツの保存`*`
-* メールのフラグメント`*`
-* 多変量／多言語ユースケース`*`
+<!--
+* Content from a URL`*`
+* Email fragments`*`
+* Multivariant / Multilingual use case`*`-->
 
 ## タイポロジとタイポロジルール {#rules-capabilities}
 
@@ -149,13 +151,12 @@ Adobe Campaign Web を使用すると、 **[!UICONTROL インタラクション]
 * 記述的分析。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}
 * キャンペーン分析/キューブレポート。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=ja){target="_blank"}
 * スケジュールに従って、PDF、CSV、またはリンクとしてレポートを共有します。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=ja){target="_blank"}
-* レポートを CSV またはPDFファイルとして書き出す/ダウンロードする。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports.html?lang=ja){target="_blank"}
 
 ## データモデリングとデータ取り込み {#data-capabilities}
 
 Campaign Web ユーザーインターフェイスは、次の機能を表示しません。 これらは、クライアントコンソールでのみ使用できます。
 
-提供されたリンクを参照して、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"} 詳細情報
+指定したリンクを [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"} 詳細情報
 
 * 外部アカウント。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * スキーマの作成と拡張。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
@@ -174,9 +175,17 @@ Campaign Web ユーザーインターフェイスでは、コンテンツ、配�
 
 ## 権限 {#permissions-capabilities}
 
-Campaign ユーザーは、AdobeIdentity Management System(IMS) を通じて、Adobe ID Web ユーザーインターフェイスにのみアクセスできます。
+Campaign ユーザーは、AdobeIdentity Management System(IMS) を通じて、Adobe ID Web ユーザーインターフェイスにのみアクセスできます。 ユーザーに付与される権限は、Campaign Web ユーザーインターフェイスにも適用されます。
 
 権限の詳細は、Adobe Admin ConsoleおよびAdobe Campaignクライアントコンソールで定義されます [この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja). Adobe Campaign Web ユーザーインターフェイスでは、権限に対するアクションは実行できません。
 
 
+## 監視 {#monitoring-capabilities}
+
+Campaign プラットフォームの監視機能は、クライアントコンソールと Campaign コントロールパネルでのみ使用できます。 Campaign の Web ユーザーインターフェイスに表示されません。
+
+提供されたリンクを [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"} を参照してください。
+
+* [ワークフロー監視](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
+* [ワークフローヒートマップ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
 
