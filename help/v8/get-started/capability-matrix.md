@@ -5,10 +5,10 @@ description: Campaign の Web ユーザーインターフェイスでサポー�
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
+source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 11%
+source-wordcount: '1495'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 主要な Campaign 機能は、Campaign Web ユーザーインターフェイスで使用できます。 このインターフェイスは、マーケターがマーケティングキャンペーンを計画、開始、測定できるように主に設計されていました。 すべての機能が一覧表示されます [このページの](../rn/whats-new.md).
 
-ビジネスやデータのニーズに基づく Campaign プラットフォームのカスタマイズと、他のシステムへの接続は、Campaign クライアントコンソールで管理されます。 その結果、一部の設定や機能は、Campaign クライアントコンソールからのみアクセス、作成または管理できます。 一部の製品は、新しいバージョンの Campaign Web ユーザーインターフェイスで使用できるようになります。
+ビジネスやデータのニーズに基づく Campaign プラットフォームのカスタマイズと、他のシステムへの接続は、Campaign クライアントコンソールで管理されます。 その結果、一部の設定や機能は、Campaign クライアントコンソールからのみアクセス、作成または管理できます。 一部の機能は、今後の Campaign Web ユーザーインターフェイスのアップデートで利用できるようになります。
 
 <!--
 **Homepage**
@@ -26,7 +26,7 @@ ht-degree: 11%
 
 ## キャンペーン管理 {#campaign-mgt-capabilities}
 
-Campaign Web ユーザーインターフェイスを使用すると、詳細な手順でクロスチャネルキャンペーンを作成できます [この節](../campaigns/gs-campaigns.md). 現在のバージョンでは、Campaign クライアントコンソールでのみ次の機能を使用できます。 Campaign Web ユーザーインターフェイスでアクセスできませんが、一部は [エクスプローラーメニュー](user-interface.md#user-interface-explorer).
+Campaign Web ユーザーインターフェイスを使用すると、詳細な手順でクロスチャネルキャンペーンを作成できます [この節](../campaigns/gs-campaigns.md). 以下の機能は、Campaign クライアントコンソールでのみ使用できます。 Campaign Web ユーザーインターフェイスでアクセスできませんが、一部は [エクスプローラーメニュー](user-interface.md#user-interface-explorer).
 
 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらの機能の使用方法を学びます。
 
@@ -39,7 +39,7 @@ Campaign Web ユーザーインターフェイスを使用すると、詳細な�
 
 ## 通信チャネル {#channels-capabilities}
 
-Campaign Web ユーザーインターフェイスを使用すると、E メール、SMS、プッシュ通知を作成、設計、送信し、様々な専用レポートを使用して影響を測定できます。詳細はこちらを参照してください [この節](../msg/gs-messages.md). ただし、このバージョンでは次のチャネルは使用できません。
+Campaign Web ユーザーインターフェイスを使用すると、E メール、SMS、プッシュ通知を作成、設計、送信し、様々な専用レポートを使用して影響を測定できます。詳細はこちらを参照してください [この節](../msg/gs-messages.md). ただし、次のチャネルは現在使用できません。
 
 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらのチャネルの詳細を確認します。
 
@@ -71,7 +71,7 @@ Campaign のクライアントコンソールまたはAdobe Experience Platform�
 
 ## トランザクションメッセージ {#mc-capabilities}
 
-Message Center 製品パッケージに付属するトランザクションメッセージ機能は、このバージョンの新しい Campaign Web ユーザーインターフェイスでは使用できません。
+現在、Message Center 製品パッケージに付属するトランザクションメッセージ機能は、新しい Campaign Web ユーザーインターフェイスでは使用できません。
 
 次を参照： [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} 次のようなリアルタイムメッセージング機能の詳細を説明します。
 
@@ -86,9 +86,8 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい 
 
 この新しいユーザーインターフェイスを使用すると、Adobe Experience Managerから電子メールテンプレートの同期を管理し、Adobe Experience Manager as a Cloud Serviceと統合できます。
 
-このバージョンの製品では、次の機能を使用できません。 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらの機能の詳細を確認します。
+以下の機能は、Campaign Web ユーザーインターフェイスでは現時点では使用できません。 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらの機能の詳細を確認します。
 
-* パブリックリソースからのコンテンツ — スコープ（確認する）
 * カスタムパーソナライゼーションブロックの作成。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * カスタムフォーム（コンテンツ管理モジュール）のコンテンツ。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * E メール用の AMP。 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
@@ -114,7 +113,7 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい 
 
 ## ワークフロー {#wf-capabilities}
 
-新しい Campaign Web ユーザーインターフェイスでは、新しいワークフローキャンバスインターフェイスが導入され、プロセスの設計と管理が可能になります。 主要なワークフローアクティビティは、新しいデザインで既に使用可能です。一部のワークフローアクティビティは、将来のバージョンで提供される予定です。 ガードレールや制限を含むワークフロー機能の詳細を説明します [この節](../get-started/guardrails.md).
+新しい Campaign Web ユーザーインターフェイスでは、新しいワークフローキャンバスインターフェイスが導入され、プロセスの設計と管理が可能になります。 主要なワークフローアクティビティは、新しいデザインで既に使用可能です。一部のワークフローアクティビティは、将来のアップデートで提供される予定です。 ガードレールや制限を含むワークフロー機能の詳細を説明します [この節](../get-started/guardrails.md).
 
 以下の機能は、Campaign クライアントコンソールでのみ使用できます。
 
@@ -133,7 +132,7 @@ Adobe Campaign Web を使用すると、 **[!UICONTROL インタラクション]
 
 新しい Campaign の最新の UI は、マーケティングキャンペーンの設計と配信を簡素化し、Adobe Experience PlatformやAdobe Experience Managerなどの他のAdobeソリューションと共に一貫性を保ちます。
 
-次の統合は、Adobe Campaignクライアントコンソールから使用できますが、このバージョンの Campaign Web ユーザーインターフェイスではまだ使用できません。 提供されたリンクを使用して Campaign v8（クライアントコンソール）ドキュメントを参照し、これらの統合の詳細を確認します。
+次の統合は、Adobe Campaignクライアントコンソールから使用でき、Campaign Web ユーザーインターフェイスではまだ使用できません。 提供されたリンクを使用して Campaign v8（クライアントコンソール）ドキュメントを参照し、これらの統合の詳細を確認します。
 
 * Adobe Analyticsのデータ使用と KPI の共有。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Adobe Experience Cloud(Adobe Audience Manager) とオーディエンスを共有する。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
