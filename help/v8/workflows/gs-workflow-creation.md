@@ -5,16 +5,16 @@ description: Adobe Campaign Web でのワークフローの主な原則につい
 badge: label="限定提供（LA）"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # ワークフロー作成の主な原則 {#gs-workflow-creation}
 
-Adobe Campaign Web を使用すると、ワークフローを視覚的なキャンバスに組み込んで、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
+Adobe Campaign web を使用すると、ワークフローを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
 
 
 ## ワークフローの内部とは {#gs-workflow-inside}

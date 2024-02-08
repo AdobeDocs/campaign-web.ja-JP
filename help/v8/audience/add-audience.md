@@ -5,9 +5,9 @@ description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="限定提供（LA）"
 source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 94%
 
 1. 「フィルター」セクションでは、フィルターオプションにアクセスしてオーディエンスリストを絞り込むことができます。これを行うには、「**ルールを追加**」をクリックして、クエリモデラーにアクセスし、オーディエンスのリスト用の詳細フィルターを作成します。[クエリモデラーの使用方法を説明します](../query/query-modeler-overview.md)
 
-   例えば、次に示すように、オーディエンスの起源に基づいてフィルタリングするルールを定義できます。
+   例えば、次のように、オーディエンスの接触チャネルに基づいてフィルタリングするルールを定義できます。
 
    ![](assets/filter-on-aep-audience.png)
 

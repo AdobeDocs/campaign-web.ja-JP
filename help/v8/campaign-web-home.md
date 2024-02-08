@@ -1,13 +1,13 @@
 ---
-keywords: Campaign web;ホーム;人気のトピック
+keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="限定提供（LA）"
 source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="項目 1"
->abstract="新しい E メール、SMS、プッシュ通知のデザインエクスペリエンス"
+>abstract="新しいメール、SMS、プッシュ通知のデザインエクスペリエンス"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,12 +36,12 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="項目 3"
->abstract="オーディエンス、購読、AEM Assets、ランディングページ向けの UX の再設計"
+>abstract="オーディエンス、購読、AEM Assets、ランディングページ向けに再考された UX"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="項目 4"
->abstract="次世代のクエリモデラーおよび E メールデザイナー"
+>abstract="次世代クエリモデラーおよびメールデザイナー"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -86,11 +86,11 @@ ht-degree: 84%
 新しいバージョンの Adobe Campaign Web ユーザーインターフェイスを導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された、直感的な機能が組み込まれています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性をもたらします。
 
 >[!AVAILABILITY]
-> Adobe Campaign Web は現在、Limited Availability(LA) バージョンです。 アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
+> Adobe Campaign Web は現在限定提供（LA）バージョンです。アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
 ## 新機能
 
-Adobe Campaign Web 製品およびドキュメントの最新の機能強化の概要を説明します。 主な機能とリリースの更新機能の包括的なリストについては、[このページ](rn/whats-new.md)を参照してください。
+Adobe Campaign Web 製品とドキュメントの最新の機能強化について少し説明します。主な機能とリリースの更新機能の包括的なリストについては、[このページ](rn/whats-new.md)を参照してください。
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Campaign メールデザイナーを使用すると、直感的なドラッグ�
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>新しいユーザーインターフェイスの確認</strong><br/>Adobe Experience Platformと統合されたAdobe Campaign Web の新しいインターフェイスとナビゲーションエクスペリエンスを確認します。</div>
+    <div><strong>新しいユーザーインターフェイスを確認</strong><br/>Adobe Experience Platform と統合された Adobe Campaign web の、新しいインターフェイスとナビゲーションエクスペリエンスを確認します。</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
@@ -134,7 +134,7 @@ Campaign メールデザイナーを使用すると、直感的なドラッグ�
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>E メールデザイナーの紹介</strong><br/>テンプレートから開始する方法、またはAdobe Campaignの新しい電子メールデザイナーを使用して、1 行のコードを記述することなく電子メールを作成する方法について説明します。
+    <div><strong>メールデザイナーへの対応</strong><br/>テンプレートから開始するか、Adobe Campaign の新しいメールデザイナーを使用して、コードを 1 行も記述しなくてもメールを作成する方法について説明します。
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
