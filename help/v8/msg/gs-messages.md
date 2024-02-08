@@ -1,13 +1,13 @@
 ---
 audience: end-user
-title: Adobe Campaign Web でのメッセージと配信の概要
+title: Adobe Campaign web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: 配信設定
-description: Campaign Web での配信設定の詳細情報
+description: Campaign web での配信設定についての詳細情報
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="限定提供（LA）"

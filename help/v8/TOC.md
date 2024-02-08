@@ -3,18 +3,18 @@ audience: end-user
 user-guide-title: Adobe Campaign Web ユーザーインターフェイス
 user-guide-description: Adobe Campaign Web ユーザーインターフェイスの製品ドキュメント。
 title: Adobe Campaign Web ドキュメント
-description: Campaign Web ドキュメント
+description: Campaign web ドキュメント
 breadcrumb-title: Campaign Web ユーザーインターフェイス
 hide: true
 source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 87%
+ht-degree: 94%
 
 ---
 
 
-# Adobe Campaign Web ドキュメント {#v8}
+# Adobe Campaign web ドキュメント {#v8}
 
 + [Adobe Campaign Web ユーザーインターフェイスドキュメント](campaign-web-home.md)
 + [新機能](rn/whats-new.md)
@@ -22,7 +22,7 @@ ht-degree: 87%
 + Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
-   + [インターフェイスを確認](get-started/user-interface.md)
+   + [インターフェイスの確認](get-started/user-interface.md)
    + [リストの参照とフィルタリング](get-started/list-filters.md)
    + [定義済みフィルターの操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
@@ -89,16 +89,16 @@ ht-degree: 87%
       + [テスト配信の送信](preview-test/test-deliveries.md)
       + [メールのレンダリングのテスト](preview-test/email-rendering.md)
 + ランディングページ {#landing-pages}
-   + [ランディングページの概要](landing-pages/get-started-lp.md)
+   + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
    + [ランディングページの作成と公開](landing-pages/create-lp.md)
-   + [ランディングページコンテンツのデザイン](landing-pages/lp-content.md)
-   + [ランディングページテンプレートの使用](landing-pages/lp-templates.md)
+   + [ランディングページのコンテンツのデザイン](landing-pages/lp-content.md)
+   + [ランディングページテンプレートの操作](landing-pages/lp-templates.md)
 + プロファイルとオーディエンス {#audiences}
    + [プロファイルとオーディエンスの基本を学ぶ](audience/gs-audiences-recipients.md)
    + [ターゲティングディメンション](audience/targeting-dimensions.md)
    + プロファイルの操作 {#work-with-profiles}
       + [プロファイルの基本を学ぶ](audience/about-recipients.md)
-      + [プロファイルの詳細を調べる](audience/profile-view.md)
+      + [プロファイルの詳細の探索](audience/profile-view.md)
       + [プロファイルの作成](audience/create-profile.md)
       + [テストプロファイルの操作](audience/test-profiles.md)
    + オーディエンスの操作 {#audiences}

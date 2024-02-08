@@ -1,18 +1,18 @@
 ---
 title: Adobe Campaign web インターフェイスに接続
-description: Adobe Campaign Web ユーザーインターフェイスへの接続方法を説明します
+description: Adobe Campaign Web ユーザーインターフェイスに接続する方法について説明します
 badge: label="限定提供（LA）"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
 # Adobe Campaign への接続 {#connect-to-campaign}
 
-Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。Adobe Experience Cloudに接続し、Adobe Campaign Web インターフェイスにアクセスする方法については、このページを参照してください。
+Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。Adobe Experience Cloud に接続し、Adobe Campaign Web インターフェイスにアクセスする方法については、このページを参照してください。
 
 ## Adobe Experience Cloud にログイン {#sign-in-to-exc}
 
@@ -64,7 +64,7 @@ Campaign に接続しました。ユーザーインターフェイスの使用�
 
 ## サポートしているブラウザー {#browsers}
 
-Adobe Campaign Web は、Google Chrome、Safari およびMicrosoft Edge の最新バージョンで最適に動作するように設計されています。 古いバージョンや他のブラウザーでは、特定の機能を使用する際に問題が発生する可能性があります。
+Adobe Campaign Web は、最新バージョンの Google Chrome、Safari および Microsoft Edge で最適に動作するように設計されています。古いバージョンや他のブラウザーでは、特定の機能を使用する際に問題が発生する可能性があります。
 
 ## 言語環境設定 {#language-pref}
 

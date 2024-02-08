@@ -1,12 +1,12 @@
 ---
 title: 定義済みフィルターの操作
-description: Adobe Campaign Web で定義済みフィルターを作成および管理する方法について説明します
+description: Adobe Campaign web での定義済みフィルターの作成および管理方法について説明します
 badge: label="限定提供（LA）"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
