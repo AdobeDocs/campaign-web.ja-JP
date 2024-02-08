@@ -4,10 +4,10 @@ title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign Web ユーザーインターフェイスに加わる新機能を紹介します。
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="限定提供（LA）"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 79%
+source-wordcount: '1290'
+ht-degree: 75%
 
 ---
 
@@ -158,20 +158,20 @@ Campaign Web ユーザーインターフェイスでは、ユーザーインタ�
 
 既存の Campaign ユーザーとして、一部の概念は最新の用語標準に合わせて名前が変更されています。これらの変更は Campaign の Web ユーザーインターフェイスにのみ適用され、クライアントコンソールには反映されません。 以下を参照してください。
 
-* 配達確認は、**テストメール**&#x200B;になりました。配達確認を送信するには、メール配信 UI の「**テスト**」ボタンを使用します。配達確認のターゲットは、**テストプロファイル**&#x200B;と呼ばれるようになりました。[詳細情報](../preview-test/test-deliveries.md)
-* シードアドレスが&#x200B;**テストプロファイル**&#x200B;として使用されるようになりました。シードアドレス（データベースに追加されている受信者）にテストメールを送信します。[詳細情報](../preview-test/test-deliveries.md)
+* 受信者は現在 **プロファイル**. [詳細情報](../audience/gs-audiences-recipients.md)。
+* シードアドレスは現在 **テストプロファイル**. [詳細情報](../preview-test/test-deliveries.md)
 * 配信分析は、**配信準備**&#x200B;になりました。メッセージの準備を開始する必要がある場合は、「**準備**」ボタンをクリックします。[詳細情報](../monitor/prepare-send.md)
 * メールのプレビューが、「**コンテンツをシミュレート**」ボタンから使用できるようになりました。[詳細情報](../preview-test/preview-test.md)
-* リストは、**オーディエンス**&#x200B;になりました。[詳細情報](../audience/about-recipients.md)
+* リストは、**オーディエンス**&#x200B;になりました。[詳細情報](../audience/gs-audiences-recipients.md)
 
 ## 制限事項{#limitations-beta}
 
 このバージョンには、以下の制限が適用されます。
 
 * 編集可能なオブジェクトは、受信者、配信、キャンペーン、ワークフロー、オーディエンス、購読サービス、定義済みフィルター、テンプレートです。その他は読み取り専用です。フィルターを使用してルールを作成し、すべてを参照します。
-* 管理ユーザーインターフェイスは使用できません。
+* 管理および高度な設定機能は、Campaign Web ユーザーインターフェイスでは使用できません。
 * レポート指標（開封数やトラッキングデータなど）は、1 時間ごとに更新されます。
 * 配信ダッシュボードの KPI は 5 分ごとに更新されます。- ただし、配信の準備はリアルタイムです。
 * 上部のバーにある Adobe Experience Cloud 通知と統合ヘルプは、まだ統合されていません。
 
-ガードレールと制限について詳しくは、[このページ](../get-started/guardrails.md)を参照してください。
+Campaign Web ユーザーインターフェイスと Campaign クライアントコンソール間のサポート/サポートされない機能と相互運用性の詳細 [このページの](../get-started/capability-matrix.md).

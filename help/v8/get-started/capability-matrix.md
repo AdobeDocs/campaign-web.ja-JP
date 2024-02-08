@@ -2,17 +2,15 @@
 audience: end-user
 title: Campaign Web ユーザーインターフェイス/クライアントコンソール機能マトリックス
 description: Campaign の Web ユーザーインターフェイスでサポートされる機能のリスト
-hide: true
-hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 12%
 
 ---
 
-# Campaign Web ユーザーインターフェイス/クライアントコンソール機能マトリックス {#capabilities-matrix}
+# Campaign Web および Campaign クライアントコンソール {#capabilities-matrix}
 
 主要な Campaign 機能は、Campaign Web ユーザーインターフェイスで使用できます。 このインターフェイスは、マーケターがマーケティングキャンペーンを計画、開始、測定できるように主に設計されていました。 すべての機能が一覧表示されます [このページの](../rn/whats-new.md).
 
@@ -61,7 +59,9 @@ Adobe Campaignでは、ランディングページを作成、デザイン、共
 
 ## プロファイル、テストプロファイル、オーディエンス {#profiles-audiences-capabilities}
 
-Campaign クライアントコンソールと Campaign Web ユーザーインターフェイスの両方で、プロファイルおよびテストプロファイルを作成、管理および更新できます。 一方の UI で実行した変更はすべて他方の UI に表示されます。 ただし、新しい Campaign Web ユーザーインターフェイスでは、一部の特定の受信者設定や詳細設定パラメーターが欠落する場合があります。 新しい Web ユーザーインターフェイスでは、「受信者」という用語が「プロファイル」に変更されました。
+Campaign クライアントコンソールと Campaign Web ユーザーインターフェイスの両方で、プロファイルおよびテストプロファイルを作成、管理および更新できます。 一方の UI で実行した変更はすべて他方の UI に表示されます。 ただし、新しい Campaign Web ユーザーインターフェイスでは、一部の特定の受信者設定や詳細設定パラメーターが欠落する場合があります。
+
+新しい Web ユーザーインターフェイスでは、「受信者」という用語が「プロファイル」に変更され、「シードアドレス」が「テストプロファイル」に変更されました。
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -155,7 +155,7 @@ Adobe Campaign Web を使用すると、 **[!UICONTROL インタラクション]
 
 Campaign Web ユーザーインターフェイスは、次の機能を表示しません。 これらは、クライアントコンソールでのみ使用できます。
 
-指定したリンクを [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"} 詳細情報
+指定したリンクを [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"} を参照してください。
 
 * 外部アカウント。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * スキーマの作成と拡張。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
