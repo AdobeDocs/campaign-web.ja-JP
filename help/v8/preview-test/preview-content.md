@@ -4,10 +4,10 @@ title: 配信コンテンツのプレビュー
 description: Campaign Web ユーザーインターフェイスを使用して配信コンテンツをプレビューする方法を説明します。
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="限定提供（LA）"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 85%
+source-wordcount: '352'
+ht-degree: 80%
 
 ---
 
@@ -32,22 +32,17 @@ ht-degree: 85%
 
 1. プロファイルとテストプロファイルを組み合わせて、E メールまたは SMS メッセージをプレビューできます。
 
-   * 「**[!UICONTROL テストプロファイル]**」タブには、データベース内の架空の追加受信者であるすべてのシードアドレスが一覧表示されます。
-     ![](assets/simulate-select-profiles.png)
+   * The **[!UICONTROL テストプロファイル]** 「 」タブには、すべてのテストプロファイルが一覧表示されます。これらは、データベース内の追加の受信者と架空の受信者です。 [詳しくは、テストプロファイルの操作方法を参照してください](../audience/test-profiles.md)
 
-     テストプロファイルは、**[!UICONTROL 顧客管理]**／**[!UICONTROL プロファイル]**&#x200B;メニューから作成できます。[詳細情報](../audience/test-profiles.md#create-test-profiles)
+   * The **[!UICONTROL プロファイル]** 「 」タブには、データベースに保存されているすべてのプロファイルが一覧表示されます。 [プロファイルの操作方法を説明します](../audience/about-recipients.md)
 
-
-   * The **[!UICONTROL プロファイル]** 「 」タブには、 **[!UICONTROL プロファイルとターゲット]** フォルダーを [!DNL Campaign] クライアントコンソール。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html?lang=ja){target="_blank"}を参照してください。
-
-     プロファイルは、 **[!UICONTROL プロファイル]** タブをクリックします。 [詳細情報](../audience/about-recipients.md)
-
+   ![](assets/simulate-select-profiles.png)
 
 1. テストプロファイルリストまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
 
    ![](assets/simulate-test-profile-filter.png)
 
-   例えば、**[!UICONTROL 見込み客]**&#x200B;ステータスとなっている、すべてのテストプロファイルを検索するルールを定義できます。ルールの追加方法については、[クエリモデラー](../query/query-modeler-overview.md)を参照してください。
+   例えば、**[!UICONTROL 見込み客]**&#x200B;ステータスとなっている、すべてのテストプロファイルを検索するルールを定義できます。[クエリモデラーを使用してルールを追加する方法を説明します](../query/query-modeler-overview.md).
 
 1. 「**[!UICONTROL 選択]**」をクリックして選択内容を確定します。
 

@@ -4,10 +4,10 @@ title: メールのレンダリングのテスト
 description: Campaign の Web ユーザーインターフェイスで E メールのレンダリングをテストする方法を説明します。
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="限定提供（LA）"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 94%
+source-wordcount: '231'
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 94%
 メールのレンダリング機能にアクセスするには、次が必要です。
 
 * Litmus アカウントを持っていること
-* テストプロファイルの選択 - [この節](preview-content.md)で説明します。
+* プロファイルやテストプロファイルの選択 — [この節](preview-content.md)
 
 次に、以下の手順に従います。
 
