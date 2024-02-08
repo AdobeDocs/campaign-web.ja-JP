@@ -4,9 +4,9 @@ title: 配信のプレビューとテストについて
 description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="限定提供（LA）"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '197'
 ht-degree: 84%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 84%
 >id="acw_deliveries_simulate"
 >title="コンテンツのプレビューとテスト"
 >abstract="コンテンツを定義したら、テストプロファイルを使用してプレビューおよびテストできます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html?lang=ja" text="メッセージコンテンツのプレビュー"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ja" text="テスト配信の送信"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="ランディングページのテスト"
 
