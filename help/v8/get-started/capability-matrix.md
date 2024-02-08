@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイス/クライアントコンソール機能マトリックス
 description: Campaign の Web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
+source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1779'
 ht-degree: 12%
 
 ---
@@ -42,7 +42,7 @@ Campaign Web ユーザーインターフェイスを使用すると、E メー�
 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらのチャネルの詳細を確認します。
 
 * **ダイレクトメール**. ダイレクトメールチャネルを使用すると、顧客、クライアント、サプライヤーまたはその他に、通知、請求書、明細書、マーケティングオファーなどの物理的な通信を送信できます。 このチャネルは、クライアントコンソールでのみ使用できます。  [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=ja){target="_blank"}
-* **LINE メッセージ**. LINE は、無料のインスタントメッセージ、音声、ビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。Adobe Campaignでは、クライアントコンソールからのみ LINE メッセージを送信できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **LINE メッセージ**. LINE は、無料のインスタントメッセージ、音声、ビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。Adobe Campaignでは、クライアントコンソールからのみ LINE メッセージを送信できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * コールセンターチャネルとカスタムチャネル。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * X(Twitter) を使用したソーシャルマーケティング。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target="_blank"}
 
@@ -124,7 +124,7 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい 
 
 ## オファー管理 {#offer-capabilities}
 
-Adobe Campaign Web を使用すると、 **[!UICONTROL インタラクション]** モジュール。 オファーのデザイン、実施要件ルール、オファー管理は、Campaign クライアントコンソールでのみ使用できます。 [詳細情報](../msg/offers.md)
+オファーは、Adobe Campaign Web ユーザーインターフェイスで作成された配信で送信できます。 これらのオファーは、 **[!UICONTROL インタラクション]** モジュール。 オファーのデザイン、実施要件ルール、オファー管理は、Campaign クライアントコンソールでのみ使用できます。 [詳細情報](../msg/offers.md)
 
 オファーカタログの管理方法については、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}.
 
