@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 28%
@@ -170,8 +169,6 @@ Adobe Analytics の [!DNL Adobe Campaign Web] inferface では、標準の 4 つ
 ユーザーがすべての配信をオプトアウトできるようにするには、 **[!UICONTROL ブロックリストに加える]** ランディングページ。
 
 ユーザーがランディングページのリンクをクリックすると、 **[!UICONTROL 今後の連絡は不要（すべてのチャネル）]** 」オプションが自動的に選択されます。
-
-![](assets/blocklisting_allchannels.png)
 
 を定義する **[!UICONTROL オプトアウト]** チェックボックスをオンにして更新を選択 **[!UICONTROL チャネル（E メール）]**：ランディングページのオプトアウトボックスをチェックするプロファイルは、すべてのコミュニケーションからオプトアウトされます。
 
