@@ -3,10 +3,10 @@ title: ランディングページの作成
 description: Campaign web でランディングページを設定して公開する方法について説明します
 feature: Landing Pages
 badge: label="限定提供（LA）"
-source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
+source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 53%
+source-wordcount: '1237'
+ht-degree: 51%
 
 ---
 
@@ -176,7 +176,11 @@ Campaign Web ユーザーインターフェイスを使用すると、ランデ�
 
 * ランディングページが、 **[!UICONTROL 公開済み]** ステータス。 これで、ライブ状態になり、コンテンツで参照できる状態になります。
 
-* 次の項目をコピー&amp;ペーストできます。 **[!UICONTROL ランディングページの URL]** Web ブラウザー内で、ページの上部に表示される。
+* 次の項目をコピー&amp;ペーストできます。 **[!UICONTROL ランディングページの URL]** ページの上部に表示されるので、Web ブラウザーでランディングページをプレビューできます。
+
+>[!CAUTION]
+>
+>ランディングページを完全にテストまたは活用するには、このリンクを Web ブラウザーや配信に直接コピー&amp;ペーストすることはできません。 代わりに、 [コンテンツをシミュレート](#test-landing-page) 関数を使用してテストし、 [この節](lp-use-cases.md) を使用して、ランディングページを適切に使用します。
 
 ![](assets/lp-published.png)
 

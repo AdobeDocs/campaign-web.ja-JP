@@ -3,10 +3,10 @@ title: ランディングページ固有のコンテンツの定義
 description: Campaign web でランディングページ固有のコンテンツを設計する方法について説明します
 feature: Landing Pages
 badge: label="限定提供（LA）"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '750'
+ht-degree: 85%
 
 ---
 
@@ -19,22 +19,11 @@ ht-degree: 100%
 
 ランディングページの任意のページのコンテンツを編集する際、それらのコンテンツは既に事前入力されています。
 
-プライマリページは、メールや web サイトなど、ユーザーがランディングページへのリンクをクリックした際、直ちに表示されるページです。プライマリページには、ユーザーが選択肢を選択して送信できるように、[ランディングページ固有のフォームコンポーネント](#use-form-component)が既に事前入力されています。また、[ランディングページ固有のスタイル](#lp-form-styles)を定義することもできます。
+最初のページは、ユーザーがランディングページへのリンクをクリックした後すぐに表示され、既に [ランディングページ固有のフォームコンポーネント](#use-form-component) 選択したテンプレートに対して、ユーザーが選択を選択して送信できるようにします。 また、[ランディングページ固有のスタイル](#lp-form-styles)を定義することもできます。
 
 ランディングページのコンテンツをさらに設計するには、メールと同じコンポーネントを使用できます。[詳細情報](../email/content-components.md#add-content-components)
 
-<!--
-The content of the **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** and **[!UICONTROL Expiration]** pages is also pre-filled. Edit them as needed.
-
-Set the subscription form to the appropriate fields from the database to make sure it will work correctly.
-
-The landing page default fields are already there for the selected template.
-
->[!NOTE]
->
->You can also create a click-through landing page without a **[!UICONTROL Form]** component. In that case, the landing page will be displayed to users, but they will not be required to submit any form. This can be useful if you only want to showcase a landing page without requiring any action from your recipients such as opt-in or opt out, or want to provide information that doesn't require user input.
-
-Using the landing page content designer, you can also leverage contextual data coming from the primary page in a subpage. [Learn more](#use-primary-page-context)-->
+のコンテンツ **[!UICONTROL 確認]**, **[!UICONTROL エラー]** および **[!UICONTROL 有効期限]** ページも事前入力されます。 必要に応じて編集します。
 
 ## フォームコンポーネントの使用 {#use-form-component}
 
@@ -80,7 +69,7 @@ Using the landing page content designer, you can also leverage contextual data c
 
    このチェックボックスでユーザーをオプトインするかオプトアウトするかを定義します。次の 2 つのオプションの中から選択します。
 
-   * **[!UICONTROL オンにすると購読]**：ユーザーは、同意するには、チェックボックスをオンにする必要があります（オプトイン）。
+   * **[!UICONTROL オンにした場合は購読]**：ユーザーは、同意するには、チェックボックスをオンにする必要があります（オプトイン）。
    * **[!UICONTROL オンにすると登録解除]**：ユーザーは、チェックボックスをオンにして同意を削除する必要があります（オプトアウト）。
 
 1. 必要に応じて、テキストフィールドやチェックボックスを削除して追加できます。
@@ -95,7 +84,7 @@ Using the landing page content designer, you can also leverage contextual data c
 
    * **[!UICONTROL リダイレクト URL]**：ユーザーがリダイレクトされるページの URL を入力します。
 
-1. フォームの送信時に追加の更新を行う場合は、「**[!UICONTROL 追加の更新]**」を選択して、「**[!UICONTROL オプトイン]**」または「**[!UICONTROL オプトアウト]**」を選択し、購読リスト、チャネル、または使用するメールアドレスのみを更新するかどうかを定義します。
+1. フォームの送信時に追加の更新を行う場合は、 **[!UICONTROL その他の更新]**&#x200B;を選択します。 **[!UICONTROL オプトイン]** または **[!UICONTROL オプトアウト]**&#x200B;をクリックし、使用する E メールアドレスのみ、またはチャネルのサブスクリプションリストを更新するかを定義します。
 
    ![](assets/lp-form-additionnal-updates.png)
 
