@@ -3,7 +3,7 @@ title: ランディングページの作成
 description: Campaign Web でランディングページを設定して公開する方法を説明します
 feature: Landing Pages
 badge: label="限定提供（LA）"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1185'
 ht-degree: 9%
@@ -78,8 +78,8 @@ The **[!UICONTROL ランディングページ]** 在庫には、作成された�
 
 1. テンプレートを選択：
    * **[!UICONTROL 獲得]**：ランディングページのデフォルトテンプレートで、プロファイルデータを取得および更新できます。
-   * **[!UICONTROL 購読]**：ユーザーが特定のに購読登録できるようにするには、このテンプレートを使用します [サービス](manage-services.md).
-   * **[!UICONTROL 購読解除]**：このテンプレートは、サービスの購読者に送信される配信で使用して、購読者がこの配信から登録解除できるようにします [サービス](manage-services.md).
+   * **[!UICONTROL 購読]**：ユーザーが特定のに購読登録できるようにするには、このテンプレートを使用します [サービス](../audience/manage-services.md).
+   * **[!UICONTROL 購読解除]**：このテンプレートは、サービスの購読者に送信される配信で使用して、購読者がこの配信から登録解除できるようにします [サービス](../audience/manage-services.md).
    * **[!UICONTROL ブロックリストに加える]**：プロファイルが Campaign からの連絡を受けたくない場合に使用するテンプレートです。 管理の詳細をブロックリストに加える説明します
 
    ![](assets/lp-templates.png)
