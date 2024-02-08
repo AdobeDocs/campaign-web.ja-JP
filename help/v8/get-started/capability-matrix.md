@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイス/クライアントコンソール機能マトリックス
 description: Campaign の Web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 12%
+source-wordcount: '2143'
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ Campaign Web ユーザーインターフェイスを使用すると、詳細な�
 
 * **マーケティングカレンダー**. キャンペーンカレンダーには、すべてのプログラム、プラン、キャンペーンおよび配信がグローバルタイムラインで表示されます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
 * **プログラムとプラン**. 各キャンペーンは 1 つのプログラムに属し、プログラムはプランに属します。Campaign Web ユーザーインターフェイスでは、すべてのキャンペーンがデフォルトの組み込みプランおよびプログラムに関連付けられます。 クライアントコンソールで作成および管理できるのは、プランとプログラムのみです。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
-* **プロバイダー、予算、コスト管理**. キャンペーン内で実行されるジョブに関係するサービスプロバイダーを設定し（コスト構造を含む）、各プログラムおよび Campaign 内で予算を管理できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* **プロバイダー、予算、コスト管理**. キャンペーン内で実行されるジョブに関係するサービスプロバイダーを設定し（コスト構造を含む）、各プログラムおよびキャンペーン内で予算を管理できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
 * **分散型マーケティング** （セントラル/ローカルマーケティング）。 Adobe Campaignは、中央企業（本社、マーケティング部門など）間で協調的なキャンペーンを実装するための分散型マーケティングアプリを提供しています。 およびローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}
 * **マーケティングリソース管理** (MRM)、目標、シミュレーション、コスト管理。 Adobe Campaignにはマーケティングリソース管理 (MRM) アプリが用意されており、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * **タスク管理** MRM アプリの一部として、キャンペーンタスクは、キャンペーンダッシュボードから作成、割り当て、トラッキングおよび監視できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
@@ -43,8 +43,8 @@ Campaign Web ユーザーインターフェイスを使用すると、E メー�
 
 * **ダイレクトメール**. ダイレクトメールチャネルを使用すると、顧客、クライアント、サプライヤーまたはその他に、通知、請求書、明細書、マーケティングオファーなどの物理的な通信を送信できます。 このチャネルは、クライアントコンソールでのみ使用できます。  [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=ja){target="_blank"}
 * **LINE メッセージ**. LINE は、無料のインスタントメッセージ、音声、ビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。Adobe Campaignでは、クライアントコンソールからのみ LINE メッセージを送信できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
-* コールセンターチャネルとカスタムチャネル。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
-* X(Twitter) を使用したソーシャルマーケティング。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target="_blank"}
+* **コールセンターとカスタムチャネル**. コールセンターやその他のカスタムチャネルは、Campaign 環境に実装できます。 これらのチャネルは、クライアントコンソールでのみ使用できます。 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
+* **ソーシャルマーケティング** を X(Twitter) に置き換えます。 メッセージを投稿し、ダイレクトメッセージを送信することで、X(Twitter) を介して顧客とやり取りします。 Social Marketing アドオンに付属するこの機能は、クライアントコンソールからのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target="_blank"}
 
 ## ランディングページと Web アプリケーション {#Webapps-capabilities}
 
@@ -52,9 +52,9 @@ Adobe Campaignでは、ランディングページを作成、デザイン、共
 
 その結果、Campaign クライアントコンソールでは、Web インターフェイスで作成したランディングページを編集、更新、変更することはできません。また、逆も同様です。 次の種類の Web アプリケーションは、Campaign Web ユーザーインターフェイスでは使用できません。 ただし、ランディングページのリストには表示されます。 提供されたリンクを使用してCampaign Classicv7 ドキュメントを参照し、これらの Web アプリの詳細を確認します。
 
-* Web アプリケーション。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
-* Web フォーム。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}
-* オンライン調査。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
+* **Web アプリケーション**. Adobe Campaignを使用すると、データベースのプリロードされたデータと、接続ユーザーの権限に応じたコンテンツを使用して、動的でインタラクティブな Web アプリケーションを作成および公開できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html){target="_blank"}
+* **Web フォーム**. クライアントコンソールで設計された Web ページとランディングページは、Campaign Web ユーザーインターフェイスに表示されますが、編集や変更はできません。 一部のオプションは、クライアントコンソールの Web ページデザイナーと、Campaign Web ユーザーインターフェイスに付属するランディングページデザイナーで異なる場合があります。 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}
+* **オンライン調査**. オンライン調査を作成し、回答を収集できるのはクライアントコンソールからのみです。 この機能は、Campaign Web ユーザーインターフェイスでは使用できません。  [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html){target="_blank"}
 
 
 ## プロファイル、テストプロファイル、オーディエンス {#profiles-audiences-capabilities}
@@ -88,9 +88,9 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい 
 
 以下の機能は、Campaign Web ユーザーインターフェイスでは現時点では使用できません。 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらの機能の詳細を確認します。
 
-* カスタムパーソナライゼーションブロックの作成。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
-* カスタムフォーム（コンテンツ管理モジュール）のコンテンツ。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
-* E メール用の AMP。 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
+* **カスタムパーソナライゼーションブロックの作成**. デフォルトのパーソナライゼーションブロックに加えて、クライアントコンソールからカスタムブロックを作成できます。 この機能は、Campaign Web ユーザーインターフェイスでは使用できません。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
+* **カスタムフォームのコンテンツ**. コンテンツ管理モジュールを使用すると、Campaign でコンテンツを作成する際にユーザーを支援するフォームを作成および管理できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* **E メール用の AMP**. AMP for Email は、新しいフォーマットで、メッセージに AMP コンポーネントを含め、アクションにつながる豊富なコンテンツで E メールのエクスペリエンスを向上させることができます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 <!--
 * Content from a URL`*`
 * Email fragments`*`
@@ -157,10 +157,10 @@ Campaign Web ユーザーインターフェイスは、次の機能を表示し�
 
 指定したリンクを [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"} を参照してください。
 
-* 外部アカウント。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
-* スキーマの作成と拡張。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
-* データ管理ワークフローアクティビティ：データの読み込み、抽出（ファイル）、データの更新、スキーマの編集、インポート/エクスポートテクニカルワークフロー。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
-* Campaign の設定と外部システムへの接続。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"}
+* **外部アカウント**. Adobe Campaignには、外部システムと接続するための事前定義済みの外部アカウントのセットが付属しています。 Campaign システム管理者は、外部アカウントの作成と管理をクライアントコンソールからのみおこなえます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+* **スキーマの作成と拡張**. スキーマの作成、変更および拡張は、上級ユーザーに制限されます。 これらの機能は、クライアントコンソールからのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+* **データ管理** ワークフローアクティビティ。 データ管理は、より効率的で柔軟なツールを提供することで複雑なターゲティングの問題を解決するために、一連のアクティビティを組み合わせます。 これらのアクティビティには、データの読み込み、抽出（ファイル）、データの更新、スキーマの編集、インポート/エクスポートのテクニカルワークフローが含まれます。 これらは、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+* **Federated Data Access**. Campaign の設定と外部システムへの接続は、上級ユーザーに制限され、クライアントコンソールからのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"}
 
 ## 承認 {#approvals-capabilities}
 
