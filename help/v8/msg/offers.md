@@ -4,17 +4,18 @@ title: メッセージにオファーを追加
 description: オファーを追加して送信する方法を学ぶ
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="限定提供（LA）"
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 96%
+source-wordcount: '762'
+ht-degree: 93%
 
 ---
 
 
 # メッセージへのオファーの追加 {#offers-content}
 
-Adobe Campaign Web ユーザーインターフェイスで配信にオファーを追加できます。 これらのオファーは、Campaign クライアントコンソールで、 **[!UICONTROL インタラクション]** モジュール。 インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
+Adobe Campaign Web ユーザーインターフェイスで配信にオファーを追加できます。 これらのオファーは、 **オファー** 左側のメニューからオファーのリストにアクセスできます。 これらのオファーはすべて読み取り専用で、 **[!UICONTROL インタラクション]** モジュール。 インタラクションの詳細と、コンソールでオファーカタログを管理する方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
+
 
 配信でオファーを送信する手順は、次のとおりです。
 
