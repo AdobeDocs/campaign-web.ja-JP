@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1279'
 ht-degree: 10%
 
 ---
@@ -145,6 +145,8 @@ E メールの受信後、受信者がランディングページへのリンク
 
 ## 購読解除 {#lp-unsubscription}
 
+顧客がランディングページを使用してサービスを購読解除できるようにします。
+
 1. サービスの作成時に簡単に選択できるように、サービスから購読解除するユーザー用の確認テンプレートを作成したことを確認します。 [詳細情報](../audience/manage-services.md#create-confirmation-message)
 
 1. を [購読サービス](../audience/manage-services.md)「 」で、ユーザーが購読解除時に受け取る確認 E メールとして作成したテンプレートを選択します。
@@ -167,11 +169,11 @@ E メールの受信後、受信者がランディングページへのリンク
 
 1. レビューと [公開](create-lp.md#publish-landing-page) ランディングページを作成します。
 
-1. の作成 [電子メール](../email/create-email.md) および [リンクを追加](../email/message-tracking.md#insert-links) をクリックして、登録ランディングページにトラフィックを誘導します。
+1. の作成 [電子メール](../email/create-email.md) および [リンクを追加](../email/message-tracking.md#insert-links) をランディングページに追加します。
 
-受信者が電子メールを受け取ったら、受信者がランディングページへのリンクをクリックしてフォームを送信すると、購読解除の確認ページに移動し、購読リストから削除されます。
+受信者が E メールを受け取ったら、受信者がランディングページへのリンクをクリックしてフォームを送信すると、購読解除の確認ページに移動し、対応する購読サービスから削除されます。
 
-## オプトアウトランディングページの設定 {#lp-denylist}
+## ブロックリスト {#lp-denylist}
 
 受信者がブランドからのコミュニケーションを登録解除する機能を提供することは、法的要件で定められています。したがって、常に **配信停止リンク** 受信者に送信されるすべての e メール内。 受信者がこのリンクをクリックすると、オプトアウトを確認するボタンを含むランディングページが表示されます。
 
