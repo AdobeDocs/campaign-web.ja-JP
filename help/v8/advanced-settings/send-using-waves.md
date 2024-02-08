@@ -1,18 +1,18 @@
 ---
 audience: end-user
 title: ウェーブを使用した送信
-description: Campaign Web での配信設定の詳細情報
+description: Campaign web での配信設定についての詳細情報
 feature: Email
 badge: label="限定提供（LA）"
 source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 33%
+ht-degree: 38%
 
 ---
 
 
-# ウェーブを使用して送信 {#send-using-waves}
+# ウェーブを使用した送信 {#send-using-waves}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_waves_definition"
@@ -47,7 +47,7 @@ ht-degree: 33%
 
    >[!CAUTION]
    >
-   >最後の 2 つのウェーブが、配信期限を過ぎないようにします。配信期限は、 [有効性](delivery-settings.md#validity) タブに表示されます。表示されない場合、一部のメッセージが送信されない可能性があります。 特定のタイポロジ制御ルール **[!UICONTROL ウェーブスケジュールの確認]**&#x200B;を使用すると、最後のウェーブが配信の有効期限の前に計画されていることが確認されます。 詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >最後の 2 つのウェーブが、配信期限を過ぎないようにします。配信期限は、 [有効性](delivery-settings.md#validity) タブに表示されます。表示されない場合、一部のメッセージが送信されない可能性があります。 特別なタイポロジコントロールルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。詳しくは、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ja).
    >
    >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。[詳細情報](delivery-settings.md#retries)
 
@@ -63,7 +63,7 @@ ht-degree: 33%
 
   例えば、 **[!UICONTROL 30%]** （内） **[!UICONTROL ウェーブサイズ]** 「 」フィールドで、最初の 3 つのウェーブが配信に含まれるすべてのメッセージの 30%を表し、4 つ目のウェーブが残りの 10%を表します。
 
-* Adobe Analytics の **[!UICONTROL 間隔]** 「 」セクションで、2 つの連続するウェーブの開始間隔を指定します。 例えば、 **[!UICONTROL 2 日]**&#x200B;が指定されている場合、最初のウェーブは直ちに開始され、2 番目のウェーブは 2 日後に、3 番目のウェーブは 4 日後にといった具合に開始されます。
+* 「**[!UICONTROL 間隔]**」セクションで、2 つの連続するウェーブの開始間隔を指定します。例えば、 **[!UICONTROL 2 日]**&#x200B;が指定されている場合、最初のウェーブは直ちに開始され、2 番目のウェーブは 2 日後に、3 番目のウェーブは 4 日後にといった具合に開始されます。
 
 同じサイズの複数のウェーブを使用する一般的な使用例の 1 つは、コールセンターが関わる場合です。 電話によるロイヤルティキャンペーンを管理する場合、組織が処理できるサブスクライバーへの電話の本数には限界があります。
 

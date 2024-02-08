@@ -7,7 +7,7 @@ badge: label="限定提供（LA）"
 source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 64%
+ht-degree: 76%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 64%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="基本を学ぶ"
->abstract="新しいAdobe Campaign Web インターフェイスは、統合され、直感的で一貫性のあるユーザーエクスペリエンスを提供します。"
+>abstract="新しい Adobe Campaign Web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="基本を学ぶ"
->abstract="新しいAdobe Campaign Web インターフェイスは、統合され、直感的で一貫性のあるユーザーエクスペリエンスを提供します。"
+>abstract="新しい Adobe Campaign Web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="基本を学ぶ"
->abstract="新しいAdobe Campaign Web インターフェイスは、統合され、直感的で一貫性のあるユーザーエクスペリエンスを提供します。"
+>abstract="新しい Adobe Campaign Web インターフェイスは、直感的で一貫性のある統合されたユーザーエクスペリエンスを提供します。"
 
 Adobe Campaign は、クロスチャネルのカスタマーエクスペリエンスを設計するためのプラットフォームと、視覚的なキャンペーンオーケストレーション、リアルタイムのインタラクション管理およびクロスチャネル実行のための環境を提供します。
 
@@ -50,7 +50,7 @@ Campaign を使用すると、次のことを行えます。
 
 >[!NOTE]
 >
->Adobe Campaign Web は現在、Limited Availability(LA) バージョンです。 アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
+>Adobe Campaign Web は現在限定提供（LA）バージョンです。アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
 Adobe Campaign web に接続する方法については、[このページ](connect-to-campaign.md)を参照してください。
 

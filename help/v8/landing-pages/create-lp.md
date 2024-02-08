@@ -1,12 +1,12 @@
 ---
 title: ランディングページの作成
-description: Campaign Web でランディングページを設定して公開する方法を説明します
+description: Campaign web でランディングページを設定して公開する方法について説明します
 feature: Landing Pages
 badge: label="限定提供（LA）"
 source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1185'
-ht-degree: 9%
+ht-degree: 53%
 
 ---
 
@@ -23,11 +23,11 @@ Campaign Web ユーザーインターフェイスを使用すると、ランデ�
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
-ランディングページのリストにアクセスするには、「 **[!UICONTROL キャンペーン管理]** > **[!UICONTROL ランディングページ]** を選択します。
+ランディングページリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
 
 ![](assets/lp-inventory.png)
 
-The **[!UICONTROL ランディングページ]** 在庫には、作成されたすべての品目が表示されます。 フィルタリングするには、 **フィルターを表示** 」ボタンをクリックします。 ドロップダウンリストを使用して結果を特定の[フォルダー](../get-started/permissions.md#folders)に制限したり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
+**[!UICONTROL ランディングページ]**&#x200B;インベントリには、作成したすべての項目が表示されます。「**フィルターを表示**」ボタンを使用してフィルタリングできます。ドロップダウンリストを使用して結果を特定の[フォルダー](../get-started/permissions.md#folders)に制限したり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
 
 ![](assets/lp-inventory-filter.png)
 
@@ -35,18 +35,18 @@ The **[!UICONTROL ランディングページ]** 在庫には、作成された�
 
 >[!CAUTION]
 >
->Campaign Web ユーザーインターフェイスのクライアントコンソール（Web フォーム）から作成したランディングページは、表示または編集できません。 詳しくは、 [Campaign コンソールのドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Campaign Web ユーザーインターフェイスのクライアントコンソール（Web フォーム）から作成したランディングページは、表示または編集できません。 詳しくは、[Campaign コンソールドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"}を参照してください。
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
-ランディングページは複製または削除できます。 ランディングページの横にある省略記号をクリックして、目的のアクションを選択します。
+ランディングページを複製または削除できます。ランディングページの横にある省略記号をクリックして、目的のアクションを選択します。
 
 ## ランディングページの作成 {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
->title="ランディングページのプロパティを定義する"
->abstract="ラベルなどのプロパティフィールドに入力し、必要に応じてスキーマを変更します。 また、内部名の編集、ランディングページの保存先フォルダーの変更、説明の入力をおこなうこともできます。"
+>title="ランディングページのプロパティの定義"
+>abstract="ラベルなどのプロパティフィールドに入力し、必要に応じてスキーマを変更します。また、内部名の編集、ランディングページの保存先フォルダーの変更、説明の入力を行うこともできます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
@@ -55,32 +55,32 @@ The **[!UICONTROL ランディングページ]** 在庫には、作成された�
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
->title="ランディングページのスケジュール設定"
->abstract="ランディングページの開始日と終了日を定義できます。 ページが有効期間の終わりに達すると、フォームは使用できなくなります。 The **有効期限** ページが表示されます。"
+>title="ランディングページのスケジュール"
+>abstract="ランディングページの開始日と終了日を定義できます。ページが有効期間の終わりに達すると、フォームは使用できなくなります。 The **有効期限** ページが表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
->title="プライマリページの設定を定義する"
->abstract="プライマリページは、E メールや Web サイトなど、ランディングページへのリンクをクリックした後、ユーザーに対して直ちに表示されます。"
+>title="プライマリページ設定の定義"
+>abstract="プライマリページは、メールや web サイトなど、ユーザーがランディングページへのリンクをクリックした際、直ちに表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
->title="サブスクリプションランディングページを設定"
+>title="購読ランディングページの設定"
 >abstract="購読ページを使用すると、顧客はサービスを購読できます。"
 
 <!--The main steps to create landing pages are as follows:
 
 ![](assets/lp-creation-process.png)-->
 
-1. 次から： **[!UICONTROL ランディングページ]** 在庫、クリック **[!UICONTROL ランディングページを作成]**.
+1. **[!UICONTROL ランディングページ]**&#x200B;の在庫から、「**[!UICONTROL ランディングページを作成]**」をクリックします。
 
    ![](assets/lp-create-button.png)
 
-1. テンプレートを選択：
+1. 次のテンプレートを選択します。
    * **[!UICONTROL 獲得]**：ランディングページのデフォルトテンプレートで、プロファイルデータを取得および更新できます。
    * **[!UICONTROL 購読]**：ユーザーが特定のに購読登録できるようにするには、このテンプレートを使用します [サービス](../audience/manage-services.md).
    * **[!UICONTROL 購読解除]**：このテンプレートは、サービスの購読者に送信される配信で使用して、購読者がこの配信から登録解除できるようにします [サービス](../audience/manage-services.md).
-   * **[!UICONTROL ブロックリストに加える]**：プロファイルが Campaign からの連絡を受けたくない場合に使用するテンプレートです。 管理の詳細をブロックリストに加える説明します
+   * **[!UICONTROL ブロックリスト]**：プロファイルが Campagin からの配信の受信を中止する場合に使用するテンプレートです。詳しくは、ブロックリストの管理を参照してください
 
    ![](assets/lp-templates.png)
 
@@ -88,17 +88,17 @@ The **[!UICONTROL ランディングページ]** 在庫には、作成された�
 
 1. 次の項目に入力： **[!UICONTROL プロパティ]** ラベルなどのフィールド。
 
-   デフォルトでは、ランディングページは **[!UICONTROL Web アプリケーション]** フォルダー。 変更するには、 **[!UICONTROL その他のオプション]**. [詳しくは、フォルダーの操作方法を参照してください](../get-started/permissions.md#folders)
+   デフォルトでは、ランディングページは **[!UICONTROL web アプリケーション]**&#x200B;フォルダーに保存されます。**[!UICONTROL その他のオプション]**&#x200B;で目的の場所を参照して変更できます。[詳しくは、フォルダーの操作方法を参照してください](../get-started/permissions.md#folders)
 
    ![](assets/lp-properties.png)
 
-1. Adobe Analytics の **[!UICONTROL データのプリロード]** 「 」セクションでは、次の 2 つのオプションがデフォルトで選択されています。
+1. 「**[!UICONTROL データの事前ロード]**」セクションでは、次の 2 つのオプションがデフォルトで選択されています。
 
-   * The **[!UICONTROL フォームで参照されるデータを事前入力]** 「 」オプションを使用すると、フォームの入力および結合フィールドに一致するデータを自動的にプリロードします。
+   * 「**[!UICONTROL フォームで参照されているデータを事前入力]**」オプションを使用すると、フォームの入力および結合フィールドに一致するデータを自動的にプリロードします。
 
    * プロファイルを更新しない場合、「**[!UICONTROL ID がない場合にプリロードをスキップ]**」オプションを選択する必要があります。この場合、入力した各プロファイルは、フォームの承認後にデータベースに追加されます。例えば、フォームが Web サイトに投稿される際に、このオプションが使用されます。
 
-1. Adobe Analytics の **[!UICONTROL ページ]** セクションで、 **[!UICONTROL コンテンツを編集]** ボタンをクリックします。 各ページのコンテンツは既に入力済みです。 必要に応じて編集します。 [詳細情報](lp-content.md)
+1. 「**[!UICONTROL ページ]**」セクションで、このランディングページ用にデザインする各ページの「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。各ページのコンテンツは既に事前入力済みです。必要に応じて編集します。[詳細情報](lp-content.md)
 
    ![](assets/lp-pages.png)
 
@@ -108,7 +108,7 @@ The **[!UICONTROL ランディングページ]** 在庫には、作成された�
 
    ![](assets/lp-storage.png)
 
-1. ランディングページの開始日と終了日を定義できます。 選択 **[!UICONTROL スケジュールを有効にする]** 日付を設定します。
+1. ランディングページの開始日と終了日を定義できます。選択 **[!UICONTROL スケジュールを有効にする]** 日付を設定します。
 
    ![](assets/lp-schedule.png)
 
@@ -124,7 +124,7 @@ The **[!UICONTROL ランディングページ]** 在庫には、作成された�
      >
      >セキュリティ上の理由とプラットフォームのパフォーマンス上の理由により、Adobeでは終了日を設定することをお勧めします。
 
-1. クリック **[!UICONTROL レビューと公開]**.
+1. 「**[!UICONTROL レビューして公開]**」をクリックします。
 
 すべての設定を定義し、 [設計済み](lp-content.md) すべてのページで、以下を実行できます。 [テスト](#test-landing-page) および [公開](#publish-landing-page) ランディングページを作成します。
 
@@ -132,39 +132,39 @@ The **[!UICONTROL ランディングページ]** 在庫には、作成された�
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="ランディングページをシミュレート"
->abstract="ランディングページのプレビューは、Campaign Web ユーザーインターフェイスで表示するか、新しい Web ブラウザータブで開くことができます。"
+>title="ランディングページのシミュレート"
+>abstract="ランディングページのプレビューは、Campaign web ユーザーインターフェイスで表示するか、新しい web ブラウザーのタブで開くことができます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"
 >title="ランディングページのプレビューとテスト"
 >abstract="ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。"
 
-ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。 以下を挿入した場合、 [パーソナライズされたコンテンツ](../personalization/gs-personalization.md)を使用すると、テストプロファイルデータを使用して、このコンテンツがランディングページにどのように表示されるかを確認できます。
+ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。[パーソナライズされたコンテンツ](../personalization/gs-personalization.md)を挿入した場合は、このコンテンツがランディングページにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
 
 >[!CAUTION]
 >
->メッセージをプレビューし、配達確認を送信するには、使用可能なテストプロファイルが必要です。 [詳しくは、テストプロファイルを参照してください](../audience/test-profiles.md)
+>メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[詳しくは、テストプロファイルを参照してください](../audience/test-profiles.md)
 
 1. 次をクリックした後： **[!UICONTROL レビューと公開]**&#x200B;を選択し、 **[!UICONTROL コンテンツをシミュレート]** ボタンをクリックして、テストプロファイルの選択にアクセスします。
 
    ![](assets/lp-simulate-content.png)
 
-1. 次から： **[!UICONTROL シミュレート]** 画面で、1 つ以上のテストプロファイルを選択します。
+1. **[!UICONTROL シミュレート]**&#x200B;画面から、1 つ以上のテストプロファイルを選択します。
 
-   テストプロファイルを選択する手順は、メッセージをテストする場合と同じです。 詳しくは、 [プレビューとテスト](../preview-test/preview-test.md) 」セクションに入力します。
+   テストプロファイルを選択する手順は、メッセージをテストする場合と同じです。詳しくは、[プレビューとテスト](../preview-test/preview-test.md)の節を参照してください。
 
-1. 選択 **[!UICONTROL プレビューを開く]** をクリックして、ランディングページをテストします。
+1. 「**[!UICONTROL プレビューを開く]**」を選択して、ランディングページをテストします。
 
    ![](assets/lp-open-preview.png)
 
-1. ランディングページのプレビューが新しいタブで開きます。 パーソナライズされた要素は、選択したテストプロファイルデータに置き換えられます。
+1. ランディングページのプレビューが新しいタブで開きます。パーソナライズされた要素が、選択したテストプロファイルデータに置き換えられます。
 
    次を選択した場合、 **[!UICONTROL フォームで参照されるデータを事前入力]** 「 」オプションを選択すると、フォームフィールドには、対応するテストプロファイルデータが自動的に事前入力されます。<!--TBC-->
 
    ![](assets/lp-preview.png)
 
-1. 他のテストプロファイルを選択して、ランディングページの各バリアントのレンダリングをプレビューします。
+1. 他のテストプロファイルを選択して、ランディングページの各バリアントに対するレンダリングをプレビューします。
 
 <!--Can you preview Confirmation/Error/Expiration pages?-->
 

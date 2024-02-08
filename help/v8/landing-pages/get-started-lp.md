@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: ランディングページの概要
-description: Campaign Web のランディングページについて説明します
+title: ランディングページの基本を学ぶ
+description: Campaign Web のランディングページについて学ぶ
 feature: Landing Pages
 badge: label="限定提供（LA）"
 source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 5%
+ht-degree: 37%
 
 ---
 
-# ランディングページの概要 {#get-sarted-lp}
+# ランディングページの基本を学ぶ {#get-sarted-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="ランディングページ"
->abstract="新しいランディングページエクスペリエンスを確認します。 ランディングページを即座に作成、デザインおよび共有して、組み込みのテンプレートに基づいて、獲得、購読/購読解除および使用例の管理を行えブロックリストに加えるる、オンライン Web ページにユーザーを誘導します。"
+>abstract="新しいランディングページエクスペリエンスについて説明します。ランディングページを即座に作成、デザインおよび共有して、組み込みのテンプレートに基づいて、獲得、購読/購読解除および使用例の管理を行えブロックリストに加えるる、オンライン Web ページにユーザーを誘導します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
 [!DNL Adobe Campaign] では、ランディングページを作成、デザイン、共有できます。
@@ -29,14 +29,14 @@ ht-degree: 5%
 >
 >Campaign Web ユーザーインターフェイスで作成するランディングページは、クライアントコンソールから作成する Web フォームとは異なります。 Campaign Web ユーザーインターフェイスで Web フォームを表示または編集することはできません。
 >
->Web フォームについて詳しくは、 [Campaign コンソールのドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Web フォームについて詳しくは、 [Campaign コンソールのドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"}.
 
 ランディングページの主な機能を次に示します。
 
-* 活用 [!DNL Adobe Campaign] 容易に構築できるコンテンツ設計機能 **レスポンシブランディングページ**.
-* 設定 **オプトインおよびオプトアウトフロー** 迅速かつシームレスに。
-* 購読サービスを作成してユーザーが以下を実行できるようにします。 **サービスを購読する**. [詳細情報](../audience/manage-services.md)
-* 受信者に **配信停止機能** 通信を受信した時点から
+* [!DNL Adobe Campaign] のコンテンツデザイン機能を活用して、**レスポンシブランディングページ**&#x200B;を簡単に作成します。
+* **オプトインとオプトアウトのフロー**&#x200B;を迅速かつシームレスに設定します。
+* 購読サービスを作成して、ユーザーが&#x200B;**サービスを購読**&#x200B;できるようにします。[詳細情報](../audience/manage-services.md)
+* 受信者に通信の受信を&#x200B;**登録解除できる機能**を提供します。
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -53,7 +53,7 @@ ht-degree: 5%
 <img alt="低頻度" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="../audience/manage-services.md"><strong>購読サービスを作成</strong></a>
+<a href="../audience/manage-services.md"><strong>購読サービスの作成</strong></a>
 </div>
 <p></td>
 <td>
@@ -61,7 +61,7 @@ ht-degree: 5%
 <img alt="検証" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="lp-content.md"><strong>ランディングページのデザイン</strong></a>
+<a href="lp-content.md"><strong>ランディングページの設計</strong></a>
 </div>
 <p>
 </td>
@@ -70,7 +70,7 @@ ht-degree: 5%
 <img alt="検証" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-templates.md"><strong>コンテンツテンプレートの使用</strong></a>
+<a href="lp-templates.md"><strong>コンテンツテンプレートの操作</strong></a>
 </div>
 <p>
 </td>

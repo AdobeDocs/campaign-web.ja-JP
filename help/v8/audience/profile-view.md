@@ -3,7 +3,7 @@ title: プロファイルの詳細の探索
 description: プロファイルの詳細の探索方法について説明します。
 badge: label="限定提供（LA）"
 source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
 
