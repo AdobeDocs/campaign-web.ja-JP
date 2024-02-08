@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイス/クライアントコンソール機能マトリックス
 description: Campaign の Web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 12%
+source-wordcount: '1704'
+ht-degree: 11%
 
 ---
 
@@ -28,12 +28,12 @@ Campaign Web ユーザーインターフェイスを使用すると、詳細な�
 
 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらの機能の使用方法を学びます。
 
-* マーケティングカレンダー。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
-* プログラムとプラン。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
-* プロバイダー、予算およびコスト管理。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
-* 分散型マーケティング（セントラル/ローカルマーケティング）。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}
-* マーケティングリソース管理 (MRM)、目標、シミュレーション、コスト管理。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
-* タスク管理[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
+* **マーケティングカレンダー**. キャンペーンカレンダーには、すべてのプログラム、プラン、キャンペーンおよび配信がグローバルタイムラインで表示されます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
+* **プログラムとプラン**. 各キャンペーンは 1 つのプログラムに属し、プログラムはプランに属します。Campaign Web ユーザーインターフェイスでは、すべてのキャンペーンがデフォルトの組み込みプランおよびプログラムに関連付けられます。 クライアントコンソールで作成および管理できるのは、プランとプログラムのみです。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
+* **プロバイダー、予算、コスト管理**. キャンペーン内で実行されるジョブに関係するサービスプロバイダーを設定し（コスト構造を含む）、各プログラムおよび Campaign 内で予算を管理できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* **分散型マーケティング** （セントラル/ローカルマーケティング）。 Adobe Campaignは、中央企業（本社、マーケティング部門など）間で協調的なキャンペーンを実装するための分散型マーケティングアプリを提供しています。 およびローカルエンティティ（販売店、地域代理店など）との共同作業によるキャンペーンを実装できます。この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}
+* **マーケティングリソース管理** (MRM)、目標、シミュレーション、コスト管理。 Adobe Campaignにはマーケティングリソース管理 (MRM) アプリが用意されており、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
+* **タスク管理** MRM アプリの一部として、キャンペーンタスクは、キャンペーンダッシュボードから作成、割り当て、トラッキングおよび監視できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
 ## 通信チャネル {#channels-capabilities}
 
