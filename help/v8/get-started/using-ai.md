@@ -3,10 +3,10 @@ title: Campaign web での AI を活用したコンテキストヘルプの使�
 description: Campaign web ヘルプのポップオーバーで質問する
 badge: label="ベータ版"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 84%
+source-wordcount: '541'
+ht-degree: 82%
 
 ---
 
@@ -48,11 +48,17 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 入力フィールドから、Adobe Campaign AI を利用したコンテキストヘルプに 3 つの推奨される質問が表示されます。 これらの質問は AI によって生成され、ヘルプボックスと現在の製品コンテキストに関連します。 回答を得る質問を選択します。
 
+![コンテキストヘルプに関する推奨質問](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+
+
 ## 回答 {#answers-ai}
 
 Adobe Campaign の AI を活用したコンテキストヘルプはサポートを提供しますが、ユーザーは事実を確認する必要があります。ナレッジアシスタントが、誤った情報や不正確な回答、誤解を招きかねない回答を返す可能性があります。すべてのヘルプボックスでリンクされている製品ドキュメントを必ず確認してください。
 
 回答をクリップボードにコピーするには、 **コピー** アイコンが表示されます。
+
+![コンテキストヘルプの回答のコピー](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+
 
 ## フィードバック {#feedback-ai}
 
