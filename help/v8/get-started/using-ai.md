@@ -3,7 +3,7 @@ title: Campaign web での AI を活用したコンテキストヘルプの使�
 description: Campaign web ヘルプのポップオーバーで質問する
 badge: label="ベータ版"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 82%
@@ -23,11 +23,11 @@ Campaign Gen AI の機能により、このコンポーネントではユーザ�
 
 >[!AVAILABILITY]
 >
->AI を利用したコンテキストヘルプは、ベータ版で利用でき、事前の通知なしに変更される場合があります。
+>* AI を利用したコンテキストヘルプは、ベータ版で利用でき、事前の通知なしに変更される場合があります。
 >
->この機能は、**英語**&#x200B;でのみ使用できます。このバージョンでは、他の言語はサポートされていません。そのため、この機能を使用する前に、[優先言語](connect-to-campaign.md#language-pref)が英語に設定されています。
+>* この機能は、**英語**&#x200B;でのみ使用できます。このバージョンでは、他の言語はサポートされていません。そのため、この機能を使用する前に、[優先言語](connect-to-campaign.md#language-pref)が英語に設定されています。
 >
->AI を利用したコンテキストヘルプは、Campaign E メールデザイナーでは現在、使用できません。
+>* AI を利用したコンテキストヘルプは、Campaign E メールデザイナーでは現在、使用できません。
 
 
 <!--
