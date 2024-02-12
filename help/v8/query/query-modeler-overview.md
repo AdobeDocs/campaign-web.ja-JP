@@ -2,12 +2,11 @@
 audience: end-user
 title: クエリモデラーの操作
 description: Adobe Campaign web クエリモデラーの操作方法について説明します。
-badge: label="限定提供（LA）"
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 4de9a8afea6a07971ebd23982a1a1ab98bc70045
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 82%
 
 ---
 
@@ -33,7 +32,9 @@ ht-degree: 100%
 >title="クエリモデラー"
 >abstract="データベースから受信者やその他のターゲティングディメンションのフィルタリング条件を定義します。Adobe Experience Platform オーディエンスを活用して、ターゲットオーディエンスをさらに絞り込んで、キャンペーンの効果を最大化します。"
 
-Adobe Campaign web にはクエリモデラーが備わっています。これにより、データベースをフィルタリングして様々な基準に基づいて特定のターゲットを選択するプロセスが簡素化されます。これには、高度な式と演算子の使用が含まれます。
+Adobe Campaign Web ユーザーインターフェイスには、クエリモデラーが備わっており、様々な条件に基づいてデータベースをフィルタリングするプロセスが簡単になります。 これにより、クライアントコンソールで作成されたクエリとの完全な互換性が確保され、Web ユーザーインターフェイスへのシームレスな切り替えが容易になります。
+
+さらに、クエリモデラーは、非常に複雑で長いクエリを効率的に管理でき、柔軟性と精度が向上しました。 さらに、条件内で定義済みフィルターをサポートし、高度な式や演算子を利用して包括的なオーディエンスのターゲティングとセグメント化戦略に利用しながら、簡単にクエリを絞り込むことができます。
 
 ## クエリモデラーへのアクセス
 
@@ -41,17 +42,17 @@ Adobe Campaign web にはクエリモデラーが備わっています。これ�
 
 | 使用状況 | 例 |
 |  ---  |  ---  |
-| **オーディエンスの定義**：メッセージやワークフローでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、分割や紐付けなどのワークフローアクティビティ内にルールを適用します。 | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
-| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作中にショートカットとして機能する定義済みフィルターを作成します。 | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
-| **レポートデータのフィルタリング**：レポートに表示されるデータをフィルタリングするルールを追加します。 | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
-| **リストのカスタマイズ**：受信者、配信リストなどのリストに表示されるデータをフィルタリングするカスタムルールを作成します。 | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
+| **オーディエンスの定義**：メッセージやワークフローでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、分割や紐付けなどのワークフローアクティビティ内にルールを適用します。 | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作中にショートカットとして機能する定義済みフィルターを作成します。 | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **レポートデータのフィルタリング**：レポートに表示されるデータをフィルタリングするルールを追加します。 | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **リストのカスタマイズ**：受信者、配信リストなどのリストに表示されるデータをフィルタリングするカスタムルールを作成します。 | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
 
-![](assets/access-audience.png)
+![](assets/access-audience.png){zoomable="yes"}
 
  +++
 -->
@@ -60,7 +61,7 @@ Adobe Campaign web にはクエリモデラーが備わっています。これ�
 
 クエリモデラーは、クエリを作成する中央のキャンバスと、クエリに関する情報を示す右側のパネルを提供します。
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){zoomable=&quot;yes&quot;}
 
 ### 中央のキャンバス {#canvas}
 
