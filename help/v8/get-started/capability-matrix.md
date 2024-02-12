@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイス/クライアントコンソール機能マトリックス
 description: Campaign の Web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2156'
+source-wordcount: '2151'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,6 @@ Campaign のクライアントコンソールまたはAdobe Experience Platform�
 
 * メール、SMS およびプッシュに関するリアルタイムメッセージオーサリングと実行
 * メッセージのエンリッチメントとパーソナライゼーション
-* トリガー（Adobe Analytics 買い物かごの放棄）
 * トランザクションメッセージングに関するレポートと監視
 
 ## コンテンツデザイン {#content-capabilities}
