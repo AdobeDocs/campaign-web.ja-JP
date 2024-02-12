@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイス/クライアントコンソール機能マトリックス
 description: Campaign の Web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2156'
 ht-degree: 11%
 
 ---
@@ -37,7 +37,7 @@ Campaign Web ユーザーインターフェイスを使用すると、詳細な�
 
 ## 通信チャネル {#channels-capabilities}
 
-Campaign Web ユーザーインターフェイスを使用すると、E メール、SMS、プッシュ通知を作成、設計、送信し、様々な専用レポートを使用して影響を測定できます。詳細はこちらを参照してください [この節](../msg/gs-messages.md). ただし、次のチャネルは現在使用できません。
+Campaign Web ユーザーインターフェイスを使用して、作成、デザインおよび送信できます **電子メール**, **SMS** および **プッシュ通知**&#x200B;を参照し、詳細に示すように、様々な専用レポートを使用して影響を測定します。 [この節](../msg/gs-messages.md). ただし、現在、次のチャネルが存在します **not** 利用可能：アプリ内、ダイレクトメール、LINE、コールセンター/カスタムチャネル、X でのソーシャルマーケティング (Twitter)。
 
 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、これらのチャネルの詳細を確認します。
 
@@ -104,7 +104,7 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい 
 
 提供されたリンクを使用して Campaign v8（クライアントコンソール）のドキュメントを参照し、タイポロジルールの詳細を確認します。
 
-* コントロールルールの作成。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
+* コントロールルールの作成。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ja){target="_blank"}
 * 疲労/頻度ルールの作成。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}
 * フィルタールールの作成。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
 * タイポロジルール管理。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
