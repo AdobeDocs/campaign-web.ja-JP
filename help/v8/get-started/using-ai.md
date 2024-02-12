@@ -3,10 +3,10 @@ title: Campaign web での AI を活用したコンテキストヘルプの使�
 description: Campaign web ヘルプのポップオーバーで質問する
 badge: label="ベータ版"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '532'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ Q&amp;A AI を活用したコンテキストヘルプを製品のコンテキス
 
 Campaign Gen AI の機能により、このコンポーネントではユーザーのエクスペリエンスを変革し、情報の検索と問題解決を簡単に行うことができます。複雑なタスクでガイダンスを求めている場合でも、膨大なドキュメントから必要な情報を探している場合でも、AI を活用したコンテキストヘルプは究極のコンパニオンとなり、あらゆるインタラクションにおいて比類のない効率性と正確さを提供します。
 
-<img src="assets/AI_CH.gif" width="80%"/>
+<img src="assets/do-not-localize/CH+AI-BETA.gif" width="80%"/>
 
 
 >[!AVAILABILITY]
@@ -44,19 +44,25 @@ The knowledge assistant AI capability does not use your data to train our models
 For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
 -->
 
+## 推奨される質問 {#questions-ai}
+
+入力フィールドから、Adobe Campaign AI を利用したコンテキストヘルプに 3 つの推奨される質問が表示されます。 これらの質問は AI によって生成され、ヘルプボックスと現在の製品コンテキストに関連します。 回答を得る質問を選択します。
+
 ## 回答 {#answers-ai}
 
 Adobe Campaign の AI を活用したコンテキストヘルプはサポートを提供しますが、ユーザーは事実を確認する必要があります。ナレッジアシスタントが、誤った情報や不正確な回答、誤解を招きかねない回答を返す可能性があります。すべてのヘルプボックスでリンクされている製品ドキュメントを必ず確認してください。
 
-時間が経つにつれて人工知能および機械学習モデルが改善され、特定のユースケースに適切に対応できるようになります。Campaign の AI を活用したコンテキストヘルプは、今後も改善を続けます。回答を読むたびに、不適切な回答であれば 「<img src="assets/do-not-localize/thumb.png" width="10%"/>」ボタンを使用してアドビのエンジニアに通知することを強くお勧めします。
+回答をクリップボードにコピーするには、 **コピー** アイコンが表示されます。
 
+## フィードバック {#feedback-ai}
+
+時間が経つにつれて人工知能および機械学習モデルが改善され、特定のユースケースに適切に対応できるようになります。Campaign の AI を活用したコンテキストヘルプは、今後も改善を続けます。回答を読むたびに、不適切な回答であれば 「<img src="assets/do-not-localize/thumb.png" width="10%"/>」ボタンを使用してアドビのエンジニアに通知することを強くお勧めします。
 
 ## 推奨事項  {#recommendations-ai}
 
 AI を活用したコンテキストヘルプで質問する場合、現在の製品のコンテキスト（現在の画面）と現在のヘルプボックスの内容が考慮されます。
 
 そのため、ユーザーインターフェイスのコンテキストに関連する質問をすることがベストプラクティスです。例えば、ワークフローでプッシュ配信を送信する方法についての情報が必要な場合は、**ワークフロー**&#x200B;の左のメニューエントリを選択し、その特定のコンテキストでコンテキストヘルプボックスを使用します。レポート指標について詳しくは、キャンペーンまたは配信レポートを参照して、そこから始めます。
-
 
 さらに、AI を活用したコンテキストヘルプを最大限に利用するために、質問する際には次の点に留意することをお勧めします。
 
