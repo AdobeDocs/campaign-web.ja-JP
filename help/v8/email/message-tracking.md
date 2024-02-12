@@ -3,10 +3,9 @@ audience: end-user
 title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="限定提供（LA）"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '375'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,7 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
 1. 要素を選択し、コンテキストツールバーから「**[!UICONTROL リンクを挿入]**」をクリックします。
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL リンク]**&#x200B;を追加します。
 
@@ -38,7 +37,7 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
    * リンクを編集して、**[!UICONTROL ターゲット]**&#x200B;を変更できます。
    * リンクに下線を引くかどうかは、対応するオプションをオンにすることで選択できます。
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
 1. リンクを編集するには、対応する鉛筆アイコンをクリックします。
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. 必要に応じて、**[!UICONTROL トラッキングタイプ]**&#x200B;を変更できます。
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    追跡する URL ごとに、トラッキングモードを次のいずれかの値に設定できます。
 
@@ -71,6 +70,6 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
 1. 「**[!UICONTROL カテゴリ]**」をリンクに追加して、トラッキングされたリンクをグループ化し、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. 配信を送信したら、配信レポートにアクセスします。 **[!UICONTROL トラッキング]**&#x200B;メニューの下の **[!UICONTROL URL とクリックストリーム]**&#x200B;レポートには、配信で最も訪問回数の多い URL が表示されます。 [詳細情報](../reporting/gs-reports.md)

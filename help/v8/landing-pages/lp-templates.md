@@ -3,10 +3,9 @@ audience: end-user
 title: ランディングページコンテンツテンプレートの操作
 description: ランディングページコンテンツをデザインテンプレートとして保存し、Campaign web で再利用する方法について説明します。
 feature: Landing Pages
-badge: label="限定提供（LA）"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 1. ドロップダウンメニューから「**[!UICONTROL コンテンツテンプレートとして保存]**」を選択します。
 
-   ![](assets/lp-save-as-template.png)
+   ![](assets/lp-save-as-template.png){zoomable=&quot;yes&quot;}
 
 1. このテンプレートに名前を追加します。
 
@@ -29,7 +28,7 @@ ht-degree: 100%
 
 次回ランディングページを作成する際には、このテンプレートを使用してコンテンツを作成できます。詳しくは、以下の[節](#use-saved-template)を参照してください。
 
-![](assets/lp-saved-template.png)
+![](assets/lp-saved-template.png){zoomable=&quot;yes&quot;}
 
 ## 保存済みテンプレートの使用 {#use-saved-template}
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 
 1. ランディングページのコンテンツを編集する際は、「**[!UICONTROL 詳細]**」ボタンをクリックし、「**[!UICONTROL デザインを変更]**」を選択します。
 
-   ![](assets/lp-change-your-design.png)
+   ![](assets/lp-change-your-design.png){zoomable=&quot;yes&quot;}
 
 1. 選択内容を確認します。
 
@@ -47,11 +46,11 @@ ht-degree: 100%
 
 1. 以前に保存したすべてのテンプレートのリストが「**[!UICONTROL 保存済みテンプレート]**」タブに表示されます。「**[!UICONTROL 名前別]**」、「**[!UICONTROL 最終変更日]**」および「**[!UICONTROL 最終作成日]**」で並べ替えることができます。
 
-   ![](assets/lp-saved-templates.png)
+   ![](assets/lp-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. リストから目的のテンプレートを選択します。選択したら、左右の矢印を使用して、保存済みのすべてのテンプレート間を移動できます。
 
-   ![](assets/lp-select-saved-template.png)
+   ![](assets/lp-select-saved-template.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL このテンプレートを使用]**」をクリックします。
 

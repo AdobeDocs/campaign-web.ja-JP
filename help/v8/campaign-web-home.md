@@ -3,10 +3,9 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="限定提供（LA）"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '686'
 ht-degree: 100%
 
 ---

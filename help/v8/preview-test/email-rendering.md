@@ -3,10 +3,9 @@ audience: end-user
 title: メールのレンダリングのテスト
 description: Campaign の Web ユーザーインターフェイスで E メールのレンダリングをテストする方法を説明します。
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="限定提供（LA）"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '237'
 ht-degree: 90%
 
 ---
@@ -33,21 +32,21 @@ ht-degree: 90%
 
 1. 「**[!UICONTROL メールをレンダリング]**」ボタンを選択します。
 
-   ![](assets/simulate-rendering-button.png)
+   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
 
 1. セクションの右上隅の「**Litmus アカウントを接続する**」をクリックします。
 
-   ![](assets/simulate-rendering-litmus.png)
+   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
 
 1. 資格情報を入力してログインします。
 
-   ![](assets/simulate-rendering-credentials.png)
+   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
 
 1. 「**テストを実行**」ボタンをクリックして、メールのプレビューを生成します。
 
 1. 一般的なデスクトップ、モバイルおよび web ベースのクライアントでメールコンテンツを確認します。
 
-   ![](assets/simulate-rendering-previews.png)
+   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.
@@ -64,7 +63,7 @@ To test the email rendering, follow these steps:
 
     The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
 
-    ![](assets/render-context.png)
+    ![](assets/render-context.png){zoomable="yes"}
 
     >[!NOTE]
     >

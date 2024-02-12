@@ -3,8 +3,7 @@ audience: end-user
 title: メールスタイルの基本を学ぶ
 description: メールコンテンツのスタイルを調整する様々な方法を説明します
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="限定提供（LA）"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 変更内容は、メールの本文、構造コンポーネント、コンテンツコンポーネントのいずれかに適用できます。
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
 
 メールのスタイル設定の一部を調整する方法については、以下のリンクを参照してください。
 

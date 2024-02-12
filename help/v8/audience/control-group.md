@@ -3,10 +3,9 @@ audience: end-user
 title: コントロール母集団を設定
 description: Campaign Web ユーザーインターフェイスでメッセージのコントロール母集団を設定する方法を説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="限定提供（LA）"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '797'
 ht-degree: 98%
 
 ---
@@ -67,7 +66,7 @@ ht-degree: 98%
 1. 「**作成日**」フィールドを追加します。**降順**&#x200B;並べ替えオプションに変更します。
 1. 「**サイズ制限**」セクションでしきい値に 100 を定義します。
 
-   ![](assets/control-group2.png)
+   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
 この 100 人の新しい最年少受信者がメインターゲットから除外されます。
 
@@ -75,27 +74,27 @@ ht-degree: 98%
 
 ログを表示して、除外されたプロファイルを確認および特定できます。5 つのプロファイルに対するランダムな除外の例を見てみましょう。
 
-![](assets/control-group4.png)
+![](assets/control-group4.png){zoomable=&quot;yes&quot;}
 
 配信準備が完了したら、除外がどのように適用されたかを確認できます。
 
 * 配信ダッシュボードで、送信前に&#x200B;**除外対象** KPI を確認します。
 
-  ![](assets/control-group5.png)
+  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
 
 * 配信ログの「ログ」タブには、除外手順が表示されます。
 
-  ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-    ![](assets/control-group6.png)
+    ![](assets/control-group6.png){zoomable="yes"}
 -->
 
 * **除外の原因**&#x200B;には、タイポロジルールごとに除外されたプロファイルの数が表示されます。
 
-  ![](assets/control-group7.png)
+  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 
 配信ログについて詳しくは、[こちら](../monitor/delivery-logs.md)を参照してください。
 
@@ -110,7 +109,7 @@ ht-degree: 98%
 
 **コントロール母集団**&#x200B;の定義画面で、「**追加の母集団**」セクションの「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
 
-![](assets/control-group3.png)
+![](assets/control-group3.png){zoomable=&quot;yes&quot;}
 
 * 既存のオーディエンスを使用するには、「**オーディエンスを選択**」をクリックします。詳しくは、[こちら](add-audience.md)を参照してください。
 

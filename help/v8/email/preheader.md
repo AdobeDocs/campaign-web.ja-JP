@@ -3,10 +3,9 @@ audience: end-user
 title: E メールデザイナーでのプリヘッダーの追加
 description: メールコンテンツのデザイン方法
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="限定提供（LA）"
-source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -32,17 +31,17 @@ ht-degree: 100%
 
 1. 左側のパネルから&#x200B;**[!UICONTROL ナビゲーションツリー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 本文]**」を選択します。
 
-   ![](assets/preheader_body.png)
+   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 設定]**」タブから、プリヘッダーのテキストを入力します。
 
 1. さらにパーソナライズするには、「**[!UICONTROL プリヘッダー]**」フィールドの左側にある「**[!UICONTROL パーソナライゼーションを追加]**」アイコンをクリックします。
 
-   ![](assets/preheader_body_settings.png)
+   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL パーソナライゼーションを編集]**&#x200B;ウィンドウから、左側の専用エントリを使用して、[パーソナライゼーションフィールド](../personalization/personalize.md)、[コンテンツブロック](../personalization/content-blocks.md)および[条件付きコンテンツ](../personalization/conditions.md)を追加できます。
 
-   ![](assets/preheader_body_personalization.png)
+   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 確認]**」をクリックします。
 

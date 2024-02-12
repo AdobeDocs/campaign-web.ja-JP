@@ -3,10 +3,9 @@ audience: end-user
 title: メールの準備と送信
 description: Campaign Web ユーザーインターフェイスで E メールを準備して送信する方法を説明します
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="限定提供（LA）"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '911'
 ht-degree: 98%
 
 ---
@@ -26,12 +25,12 @@ ht-degree: 98%
 
 1. 配信ダッシュボードで、「**[!UICONTROL 確認して送信]**」をクリックします。
 
-   ![](assets/email-review-and-send.png)
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. 右上隅の「**[!UICONTROL 準備]**」ボタンをクリックし、確定します。
 
-   ![](assets/email-prepare.png)
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -41,14 +40,14 @@ ht-degree: 98%
 
    「**[!UICONTROL 準備を停止]**」ボタンでいつでも準備を停止できます。
 
-   ![](assets/email-stop-preparation.png)
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >準備段階では、メッセージは送信されません。そのため、何かに影響を与えるリスクなく、準備を開始または停止できます。
 
 1. 準備が完了したら、KPI を確認します。送信するメッセージの数が期待値と異なる場合は、オーディエンスを変更し、準備をやり直します。
 
-   ![](assets/email-preparation-complete.png)
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    次に、様々な KPI を示します。
 
@@ -58,11 +57,11 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL ログ]**」ボタンをクリックし、エラーがないことを確認します。最後のログメッセージには、エラーメッセージとエラー件数が表示されます。[詳細情報](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png)
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. 準備中に配信の送信を妨げる重大なエラーが検出された場合、準備ステータスは配信ダッシュボードに失敗と表示されます。
 
-   ![](assets/email-prepare-error.png)
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. 準備が完了した後に配信に変更を加える場合は、変更を反映させるために準備をやり直す必要があります。
 
@@ -81,7 +80,7 @@ ht-degree: 98%
 
 1. 配信ダッシュボードで、右上隅の「**[!UICONTROL 送信]**」ボタンをクリックします。
 
-   ![](assets/email-send.png)
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. メッセージを直ちにメインターゲットに送信するには、このアクションを確定します。
 
@@ -95,7 +94,7 @@ ht-degree: 98%
 
 1. 配信ダッシュボードで、右上隅の「**[!UICONTROL スケジュールどおりに送信]**」ボタンをクリックします。
 
-   ![](assets/email-send-as-scheduled.png)
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 送信を確認]**」をクリックします。配信は、スケジュールされた日付にメインターゲットに送信されます。
 
@@ -111,7 +110,7 @@ ht-degree: 98%
 
 * 送信を直ちに中断するには、「**[!UICONTROL 送信を停止]**」をクリックします。停止した後は、準備も送信も再開できません。
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## KPI の確認 {#check-kpis}
 
@@ -151,7 +150,7 @@ ht-degree: 98%
 
 送信が完了したら、表示される KPI を確認できます。
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL 送信済み]**：配信されたメッセージの数。表示されるパーセンテージは、配信するメッセージの合計数に基づきます。
 

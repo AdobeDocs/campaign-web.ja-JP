@@ -3,10 +3,9 @@ audience: end-user
 title: 配信コンテンツのプレビュー
 description: Campaign Web ユーザーインターフェイスを使用して配信コンテンツをプレビューする方法を説明します。
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="限定提供（LA）"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '358'
 ht-degree: 80%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 80%
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. パーソナライズされたコンテンツのプレビューに使用するプロファイルを選択するには、次を使用します。
 
@@ -36,11 +35,11 @@ ht-degree: 80%
 
    * The **[!UICONTROL プロファイル]** 「 」タブには、データベースに保存されているすべてのプロファイルが一覧表示されます。 [プロファイルの操作方法を説明します](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. テストプロファイルリストまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    例えば、**[!UICONTROL 見込み客]**&#x200B;ステータスとなっている、すべてのテストプロファイルを検索するルールを定義できます。[クエリモデラーを使用してルールを追加する方法を説明します](../query/query-modeler-overview.md).
 
@@ -48,7 +47,7 @@ ht-degree: 80%
 
    配信コンテンツのプレビューが、**[!UICONTROL シミュレート]**&#x200B;画面の右側のパネルに表示されます。パーソナライズされた要素は、左側のパネルで選択したプロファイルのデータに置き換えられます。
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. 複数のプロファイルを追加した場合は、リスト内のプロファイルを切り替えて、対応する配信コンテンツをプレビューできます。また、左側のパネルの対応するボタンを使用して、さらにテストプロファイルを追加したり、選択をクリアしたりすることもできます。
 

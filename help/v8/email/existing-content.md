@@ -3,10 +3,9 @@ audience: end-user
 title: メールコンテンツの読み込み
 description: メールコンテンツの読み込み方法を学ぶ
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="限定提供（LA）"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -31,7 +30,7 @@ HTML コンテンツを含んだファイルを読み込むには、次の手順
 
 1. [E メールデザイナー](get-started-email-designer.md)のホームページで、「**[!UICONTROL HTML をインポート]**」を選択します。
 
-   ![](assets/html-import.png)
+   ![](assets/html-import.png){zoomable=&quot;yes&quot;}
 
 1. HTML コンテンツを含む HTML または .zip ファイルをドラッグ＆ドロップし、「**[!UICONTROL 読み込み]**」をクリックします。
 
@@ -39,11 +38,11 @@ HTML コンテンツを含んだファイルを読み込むには、次の手順
 
    このモードでは、テキストのパーソナライズ、リンクの追加、コンテンツへのアセットの組み込みのみが可能です。
 
-   ![](assets/html-imported.png)
+   ![](assets/html-imported.png){zoomable=&quot;yes&quot;}
 
 1. メールデザイナーのコンテンツコンポーネントを活用するには、「**[!UICONTROL HTML コンバーター]**」タブに移動し、「**[!UICONTROL 変換]**」をクリックします。
 
-   ![](assets/html-imported-2.png)
+   ![](assets/html-imported-2.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

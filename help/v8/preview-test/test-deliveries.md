@@ -3,10 +3,9 @@ audience: end-user
 title: テスト配信の送信
 description: テスト配信の定義および送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="限定提供（LA）"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1209'
 ht-degree: 100%
 
 ---
@@ -37,7 +36,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 1. **[!UICONTROL テスト]**&#x200B;ボタンをクリックして、テスト配信を送信します。
 
-   ![](assets/simulate-test-button-email.png)
+   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
 
 1. テスト受信者を選択します。
 
@@ -81,7 +80,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL モード]**&#x200B;ドロップダウンリストから「**[!UICONTROL テストプロファイル]**」を選択し、テストメールまたは SMS 配信を受信する架空の受信者をターゲットにします。
 
-   ![](assets/simulate-profile-mode.png)
+   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -91,13 +90,13 @@ ht-degree: 100%
 
 1. テストプロファイルリストまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    例えば、**[!UICONTROL 見込み客]**&#x200B;ステータスとなっている、すべてのテストプロファイルを検索するルールを定義できます。ルールの追加方法については、[クエリモデラー](../query/query-modeler-overview.md)を参照してください。
 
 1. テスト配信の受信者に最終的なメッセージを送信するには、「**[!UICONTROL メインターゲットにテスト母集団を含める]**」オプションを有効にします。
 
-   ![](assets/simulate-include-test.png)
+   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
 
 1. テストプロファイルを選択したら、[テスト配信を送信](#send-test)できます。
 
@@ -118,7 +117,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL アドレスを追加]**」ボタンをクリックし、テスト配信を受信するメールアドレスまたは電話番号を指定します。
 
-   ![](assets/simulate-add-substitution-address.png)
+   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -128,7 +127,7 @@ ht-degree: 100%
 
 1. 受信者を確認し、この操作を繰り返して必要な数のメールアドレスまたは電話番号を追加します。
 
-   ![](assets/simulate-profile-substitute.png)
+   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
 
 1. また、テスト配信の受信者にも最終的なメッセージを送信するには、「**[!UICONTROL メインターゲットにテスト母集団を含める]**」オプションを選択します。
 
@@ -140,13 +139,13 @@ ht-degree: 100%
 
 1. プッシュ配信のコンテンツから、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックし、続いて「**[!UICONTROL テスト]**」ボタンをクリックします。
 
-   ![](assets/simulate-test-button-push.png)
+   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
 
 1. コンテンツシミュレーション画面で[配信のプレビュー](preview-content.md)用のサブスクライバーを既に選択している場合、それらのプロファイルがテストサブスクライバーとして事前に選択されています。
 
    専用のボタンを使用して、選択を解除したり、サブスクライバーを追加したりできます。
 
-   ![](assets/simulate-test-subscribers.png)
+   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. また、テストサブスクライバーにも最終的なプッシュ通知を送信するには、「**[!UICONTROL メインターゲットにテスト母集団を含める]**」オプションを選択します。
 
@@ -160,7 +159,7 @@ ht-degree: 100%
 
 1. 送信を確定します。
 
-   ![](assets/simulate-send-test.png)
+   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
 
 1. 配信のコンテンツが完成するまで、必要な数のテストを送信します。
 
@@ -176,8 +175,8 @@ ht-degree: 100%
 
 これらのログでは、選択した配信のすべての送信済みテストにアクセスしたり、送信に関係する特定の統計情報を視覚化したりできます。[配信ログの監視方法の詳細](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png)
+![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
 
 また、他の任意の配信と同様に、[配信リスト](../msg/gs-messages.md)から送信済みテストにアクセスすることもできます。
 
-![](assets/simulate-deliveries-list.png)
+![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}

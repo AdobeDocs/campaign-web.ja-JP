@@ -3,10 +3,9 @@ audience: end-user
 title: リンクのスタイルの定義
 description: リンクのスタイルを定義する方法を学ぶ
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="限定提供（LA）"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '145'
 ht-degree: 100%
 
 ---
@@ -20,7 +19,7 @@ E メールデザイナーでは、リンクに下線を引き、その色とタ
 
 1. 「**[!UICONTROL 設定]**」タブで、**[!UICONTROL 下線リンク]**&#x200B;をチェックして、ラベルに下線を引きます。
 
-   ![](assets/link_1.png)
+   ![](assets/link_1.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL ターゲット]**」ドロップダウンで、オーディエンスのリダイレクト方法を選択します。
 
@@ -30,10 +29,10 @@ E メールデザイナーでは、リンクに下線を引き、その色とタ
    * **[!UICONTROL 親]**：親フレームでリンクを開きます。
    * **[!UICONTROL 上]**：ウィンドウの全体でリンクを開きます。
 
-   ![](assets/link_2.png)
+   ![](assets/link_2.png){zoomable=&quot;yes&quot;}
 
 1. リンクの色を変更するには、「**[!UICONTROL スタイル]**」タブから&#x200B;**[!UICONTROL リンクの色]**&#x200B;をクリックします。
 
-   ![](assets/link_3.png)
+   ![](assets/link_3.png){zoomable=&quot;yes&quot;}
 
 1. 変更内容を保存します。

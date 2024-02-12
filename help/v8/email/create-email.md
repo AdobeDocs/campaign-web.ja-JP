@@ -3,10 +3,9 @@ audience: end-user
 title: 最初のメールを送信
 description: Campaign Web ユーザーインターフェイスでの最初の E メールの送信方法を説明します
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="限定提供（LA）"
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1403'
 ht-degree: 95%
 
 ---
@@ -60,7 +59,7 @@ ht-degree: 95%
    >
    >テンプレートは、後で使用するために保存された、事前設定済みの配信設定です。[詳細情報](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png)
+   ![](assets/channel-template.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 配信を作成]**」ボタンをクリックして、確定します。
 1. 配信のラベルを入力し、必要に応じて追加のオプションを設定します。
@@ -75,7 +74,7 @@ ht-degree: 95%
    >
    >特定のカスタムフィールドを使用してスキーマを拡張した場合は、 「**[!UICONTROL カスタムオプション]**」セクションでそれらのフィールドにアクセスできます。
 
-   ![](assets/email-properties.png)
+   ![](assets/email-properties.png){zoomable=&quot;yes&quot;}
 
 1. また、画面右上にある「**[!UICONTROL 設定]**」ボタンから、タイポロジルールやターゲットマッピングなどの詳細設定にアクセスできます。これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。[詳細情報](../advanced-settings/delivery-settings.md)
 
@@ -96,7 +95,7 @@ ht-degree: 95%
 
    この例では、シルバーおよびゴールドのロイヤルティポイントレベルに属する顧客をターゲティングする既存のオーディエンスを使用します。
 
-   ![](assets/create-audience.png)
+   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -104,7 +103,7 @@ ht-degree: 95%
 
 1. オーディエンスを選択したら、追加のルールを適用してターゲットを絞り込むことができます。
 
-   ![](assets/audience-selected.png)
+   ![](assets/audience-selected.png){zoomable=&quot;yes&quot;}
 
 1. またコントロール母集団を設定して、ターゲットとならなかったユーザーと比較してメール受信者の行動を分析することもできます。[詳しくは、コントロール母集団の操作方法を参照してください](../audience/control-group.md)
 
@@ -116,31 +115,31 @@ ht-degree: 95%
 
 1. メール配信ダッシュボードで、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content.png){zoomable=&quot;yes&quot;}
 
    これにより、メールコンテンツを設定し、E メールデザイナーをアクセスできる専用のインターフェイスが表示されます。[詳細情報](edit-content.md)
 
-   ![](assets/edit-content.png)
+   ![](assets/edit-content.png){zoomable=&quot;yes&quot;}
 
 1. メールの件名を入力し、式エディターを使用してパーソナライズします。詳しくは、[コンテンツをパーソナライズする方法](../personalization/personalize.md)を参照してください。
 
-   ![](assets/subject-line.png)
+   ![](assets/subject-line.png){zoomable=&quot;yes&quot;}
 
 1. メールのコンテンツをデザインするには、「**[!UICONTROL メール本文を編集]**」ボタンをクリックします。
 
    メールコンテンツの作成に使用する方法を選択します。この例では、[事前定義済みのコンテンツテンプレートを使用します](create-email-templates.md)。
 
-   ![](assets/select-template.png)
+   ![](assets/select-template.png){zoomable=&quot;yes&quot;}
 
 1. テンプレートを選択すると、[E メールデザイナー](create-email-content.md)に表示され、必要な編集を加えたり、パーソナライゼーションを追加したりできます。
 
    例えば、パーソナライゼーションをメールタイトルに追加するには、コンポーネントブロックを選択し、「**[!UICONTROL パーソナライゼーションを追加]**」をクリックします。
 
-   ![](assets/add-perso.png)
+   ![](assets/add-perso.png){zoomable=&quot;yes&quot;}
 
 1. コンテンツの設定が完了したら、デザインを保存して閉じます。「**[!UICONTROL 保存]**」をクリックして、メール作成画面に戻ります。
 
-   ![](assets/save-content.png)
+   ![](assets/save-content.png){zoomable=&quot;yes&quot;}
 
 ## 送信のスケジュール設定 {#schedule}
 
@@ -152,7 +151,7 @@ ht-degree: 95%
 
 1. 送信する日時を設定します。
 
-   ![](assets/schedule.png)
+   ![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
 配信を送信すると、実際の送信は、定義したコンタクト日に開始されます。
 
@@ -170,13 +169,13 @@ ht-degree: 95%
 
 1. メールをプレビューしてテストバージョンを送信するには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
-   ![](assets/review-email.png)
+   ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
 1. 左側で、メールのプレビューに使用するプロファイルを選択します。
 
    右側のパネルに選択したプロファイルに基づくメールのプレビューが表示されます。 複数のプロファイルを追加した場合は、それぞれを切り替えて対応するメールをプレビューできます。
 
-   ![](assets/preview.png)
+   ![](assets/preview.png){zoomable=&quot;yes&quot;}
 
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
@@ -185,19 +184,19 @@ ht-degree: 95%
 
    この例では、**[!UICONTROL メインターゲットから代入]**&#x200B;モードを使用して、メールのターゲットとなる一部のプロファイルを別のユーザーとして実行し、特定のメールアドレスにテストバージョンを送信します。
 
-   ![](assets/proof-mode.png)
+   ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL アドレスを追加]**」をクリックして、テストバージョンを受け取るメールアドレスを指定します。
 
    メールアドレスごとに、別のユーザーとして実行するプロファイルを選択します。また、ターゲットからランダムなプロファイルを Adobe Campaign に選択させることもできます。
 
-   ![](assets/proof-test-profile.png)
+   ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL テストメールを送信]**」をクリックし、送信を確認します。
 
    テスト版は、選択したプロファイルに **[Proof x]** という接頭辞を付けて使用し、指定したメールアドレスに送信されます。
 
-   ![](assets/proof-sent.png)
+   ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
    コンテンツをシミュレート画面の「**[!UICONTROL テストメールログを表示]**」ボタンをクリックすると、送信ステータスの確認や送信済みのテストメールにいつでもアクセスできます。
 
@@ -207,19 +206,19 @@ ht-degree: 95%
 
 1. メールの準備を開始するには、「**[!UICONTROL 準備]**」をクリックします。[詳しくは、メールの準備方法を参照してください](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png)
+   ![](assets/preparation.png){zoomable=&quot;yes&quot;}
 
 1. メールを送信する準備が整ったら、「**[!UICONTROL 送信]**」ボタン（送信をスケジュールしている場合は「**[!UICONTROL スケジュールどおりに送信]**」）をクリックして、送信を確認します。
 
 1. 送信プロセス中に、この画面で進行状況をリアルタイムで追跡し、統計を直接表示できます。
 
-   ![](assets/sending-email.png)
+   ![](assets/sending-email.png){zoomable=&quot;yes&quot;}
 
    <!--
-    ![](assets/sent-email.png)-->
+    ![](assets/sent-email.png){zoomable="yes"}-->
 
    また、「**[!UICONTROL ログ]**」ボタンをクリックして、送信に関する詳細情報にアクセスできます。[詳しくは、配信ログの監視方法を参照してください](../monitor/delivery-logs.md)
 
 1. メール送信後、「**[!UICONTROL レポート]**」ボタンをクリックすると、専用のレポートにアクセスしてさらに詳しく分析できます。
 
-![](assets/reports.png)
+![](assets/reports.png){zoomable=&quot;yes&quot;}

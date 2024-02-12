@@ -2,11 +2,10 @@
 audience: end-user
 title: ダイレクトメールチャネルのグローバルレポート
 description: ダイレクトメールチャネルのグローバルレポートについての詳細情報
-badge: label="限定提供（LA）"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: '634'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;には、各メール配信における訪問者のインタラクションに関する詳細なインサイトを提供する主要業績評価指標（KPI）が表示されます。指標の概要を以下に示します。
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++配信の概要指標の詳細情報
 
@@ -39,7 +38,7 @@ ht-degree: 100%
 
 **[!UICONTROL ターゲットオーディエンス]**&#x200B;テーブルおよびグラフには、受信者に関連するデータが表示され、以下に詳細な指標が示されます。
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++ターゲットオーディエンス指標の詳細情報
 
@@ -55,7 +54,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信統計]**&#x200B;テーブルには、すべてのダイレクトメール配信の成功の分類と、以下に概要を示す詳細な指標が表示されます。
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++配信統計指標の詳細情報
 
@@ -71,7 +70,7 @@ ht-degree: 100%
 
 ### 除外の理由 {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 除外グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
 

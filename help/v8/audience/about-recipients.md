@@ -1,8 +1,7 @@
 ---
 title: プロファイルの基本を学ぶ
 description: Campaign web でプロファイルを監視および管理する方法について説明します。
-badge: label="限定提供（LA）"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 57%
@@ -49,7 +48,7 @@ A **profile**&#x200B;クライアントコンソールでは「受信者」と�
 
 検索フィールドを使用するか、「**フィルターを表示**」ボタンから使用できるフィルターを使用して、**[!UICONTROL プロファイル]**&#x200B;リストをフィルタリングできます。ドロップダウンリストを使用して結果を特定の[フォルダー](../get-started/permissions.md#folders)に制限したり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
 
-![](assets/profiles-list-filters.png)
+![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
 
 プロファイルの詳細にアクセスするには、リストからプロファイルの名前をクリックします。プロファイルの詳細ビューが開き、その属性とサブスクライブしているサービスを探索できます。[詳しくは、プロファイルの詳細の探索方法を参照してください](create-profile.md)
 

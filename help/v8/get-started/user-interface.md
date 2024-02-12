@@ -3,10 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="限定提供（LA）"
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1640'
 ht-degree: 95%
 
 ---
@@ -33,7 +32,7 @@ Campaign ホームページでは、主要リソース、指標、コンポー�
 
 ホームページの上部セクションには、製品で使用可能な最新の更新と新機能の詳細が、リリースノートと詳細なドキュメントへのリンクと共に表示されます。機能カードをスクロールするには、左向き矢印を使用します。
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 **主要業績評価指標**&#x200B;では、一般的な KPI を通じてプラットフォームの有効性を確認できます。KPI について詳しくは、[このページ](../reporting/kpis.md)を参照してください。
 
@@ -71,7 +70,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
   「**その他のアクション**」ボタンを使用すると、配信を削除または複製できます。
 
-  ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **ワークフロー** - この画面では、ワークフローとワークフローテンプレートの完全なリストにアクセスできます。ステータス、最後／次回の実行日を確認し、新しいワークフローまたは新しいワークフローテンプレートを作成できます。他のオブジェクトと同じ条件でリストをフィルタリングできます。さらに、キャンペーンに属するかどうかにかかわらず、ワークフローをフィルタリングできます。ワークフローについて詳しくは、[この節](../workflows/gs-workflows.md)を参照してください。
 
@@ -119,7 +118,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
 コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合は、「`?`」アイコンをクリックすると、ヘルプ情報や関連ドキュメントのリンクが表示されます。
 
-![](assets/do-not-localize/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
 現在、新しい Campaign Web ユーザーインターフェイスでベータ版としてリリースされています。 **AI を利用したナレッジアシスタント** コンテキストヘルプ内に組み込まれ、膨大なドキュメントリポジトリを簡単に切り替え、必要な正確な情報を即座に特定し、ドキュメントの検索とハウツー質問への回答に革新的に対応します。
 

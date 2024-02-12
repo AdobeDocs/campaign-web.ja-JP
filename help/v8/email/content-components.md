@@ -3,10 +3,9 @@ audience: end-user
 title: E メールデザイナーのコンテンツコンポーネントの使用
 description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="限定提供（LA）"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1201'
 ht-degree: 100%
 
 ---
@@ -45,7 +44,7 @@ ht-degree: 100%
 
 1. 選択した&#x200B;**[!UICONTROL コンテンツ]**&#x200B;を、関係のある構造内にドラッグ＆ドロップします。
 
-   ![](assets/email_designer_add_content_components.png)
+   ![](assets/email_designer_add_content_components.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -55,7 +54,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL スタイル]**」タブを使用して、各コンポーネントのスタイル属性を調整します。例えば、各コンポーネントのテキストスタイル、パディングまたは余白を変更できます。 [詳しくは、整列とパディングを参照してください](alignment-and-padding.md)
 
-   ![](assets/email_designer_content_components_settings.png)
+   ![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
 
 1. 右側のパネルにある&#x200B;**[!UICONTROL コンテンツ]**&#x200B;の詳細メニューで、必要に応じてコンテンツコンポーネントを簡単に削除または複製できます。
 
@@ -65,7 +64,7 @@ ht-degree: 100%
 
 例えば、**[!UICONTROL コンテナ]**&#x200B;コンポーネントを追加したあと、そのコンテナの内部に[ボタン](#button)コンポーネントを追加します。 コンテナには特定の背景を使用し、ボタンには別の背景を指定することができます。
 
-![](assets/email_designer_container_component.png)
+![](assets/email_designer_container_component.png){zoomable=&quot;yes&quot;}
 
 ## ボタン {#buttons}
 
@@ -73,11 +72,11 @@ ht-degree: 100%
 
 1. **[!UICONTROL コンテンツ]**&#x200B;リストから、**[!UICONTROL ボタン]**&#x200B;コンポーネントを&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントにドラッグ＆ドロップします。
 
-   ![](assets/email_designer_13.png)
+   ![](assets/email_designer_13.png){zoomable=&quot;yes&quot;}
 
 1. 新しく追加したボタンをクリックして、テキストをパーソナライズし、「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブにアクセスします。
 
-   ![](assets/email_designer_14.png)
+   ![](assets/email_designer_14.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 設定]**」タブの「**[!UICONTROL URL]**」フィールドに、ボタンをクリックしたときにリダイレクトする URL を追加します。
 
@@ -87,9 +86,9 @@ ht-degree: 100%
    * **[!UICONTROL 空白]**：リンクを新しいウィンドウまたはタブで開きます。
    * **[!UICONTROL セルフ]**：クリックされたのと同じフレームでリンクを開きます。
    * **[!UICONTROL 親]**：親フレームでリンクを開きます。
-   * **[!UICONTROL 上位]**：ウィンドウの全体でリンクを開きます。
+   * **[!UICONTROL 上]**：ウィンドウの全体でリンクを開きます。
 
-   ![](assets/email_designer_15.png)
+   ![](assets/email_designer_15.png){zoomable=&quot;yes&quot;}
 
 1. ボタンをさらにパーソナライズするには、「**[!UICONTROL 境界線]**」、「**[!UICONTROL サイズ]**」、「**[!UICONTROL 余白]**」などのスタイル属性を「**[!UICONTROL スタイル]**」タブから変更します。
 
@@ -99,13 +98,13 @@ ht-degree: 100%
 
 1. **[!UICONTROL コンテンツ]**&#x200B;メニューから、**[!UICONTROL テキスト]**&#x200B;を&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントにドラッグ＆ドロップします。
 
-   ![](assets/email_designer_11.png)
+   ![](assets/email_designer_11.png){zoomable=&quot;yes&quot;}
 
 1. 新しく追加したコンポーネントをクリックして、テキストをパーソナライズしたり、「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブにアクセスしたりします。
 
 1. コンテキストツールバーから使用できる次のオプションを使用して、テキストを変更します。
 
-   ![](assets/email_designer_27.png)
+   ![](assets/email_designer_27.png){zoomable=&quot;yes&quot;}
 
    * **[!UICONTROL テキストスタイルを変更]**：テキストに太字、斜体、下線または取り消し線を適用します。
    * **整列を変更**：テキストの配置を左揃え、右揃え、中央揃えまたは両端揃えにします。
@@ -121,7 +120,7 @@ ht-degree: 100%
 
 1. その他のスタイル属性（テキストの色、フォントファミリー、境界線、パディング、余白など）を「**[!UICONTROL スタイル]**」タブから調整します。
 
-   ![](assets/email_designer_12.png)
+   ![](assets/email_designer_12.png){zoomable=&quot;yes&quot;}
 
 ## ディバイダー {#divider}
 
@@ -129,7 +128,7 @@ ht-degree: 100%
 
 線の色、スタイル、高さなどのスタイル属性は、「**[!UICONTROL スタイル]**」タブから調整できます。
 
-![](assets/email_designer_16.png)
+![](assets/email_designer_16.png){zoomable=&quot;yes&quot;}
 
 ## HTML {#HTML}
 
@@ -137,11 +136,11 @@ ht-degree: 100%
 
 1. **[!UICONTROL コンポーネント]**&#x200B;から、**[!UICONTROL HTML]** コンポーネントを&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントにドラッグ＆ドロップします。
 
-   ![](assets/email_designer_22.png)
+   ![](assets/email_designer_22.png){zoomable=&quot;yes&quot;}
 
 1. 新しく追加したコンポーネントをクリックし、コンテキストツールバーから「**[!UICONTROL ソースコードを表示]**」選択して HTML を追加します。
 
-   ![](assets/email_designer_23.png)
+   ![](assets/email_designer_23.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -153,26 +152,26 @@ ht-degree: 100%
 
 1. **[!UICONTROL コンテンツ]**&#x200B;メニューで、**[!UICONTROL 画像]**&#x200B;コンポーネントを&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントにドラッグ＆ドロップします。
 
-   ![](assets/email_designer_9.png)
+   ![](assets/email_designer_9.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 参照]**」をクリックして、アセットから画像ファイルを選択します。また、「**[!UICONTROL メディアを読み込み]**」を選択することもできます。
 
    Adobe Experience Manager でアセットをアップロードおよび追加する方法について詳しくは、[Adobe Experience Manager as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ja)を参照してください。
 
-   ![](assets/email_designer_28.png)
+   ![](assets/email_designer_28.png){zoomable=&quot;yes&quot;}
 
 1. フォルダー内を移動して必要な特定のアセットを見つけるか、検索バーを使用して効率的に見つけます。
 
    検索しているアセットが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
-   ![](assets/email_designer_29.png)
+   ![](assets/email_designer_29.png){zoomable=&quot;yes&quot;}
 
 1. 新しく追加したコンポーネントをクリックし、「**[!UICONTROL 設定]**」タブを使用して画像プロパティを設定します。
 
    * **[!UICONTROL 画像タイトル]**&#x200B;を使用すると、画像のタイトルを指定できます。
    * **[!UICONTROL 代替テキスト]**&#x200B;を使用すると、画像にリンクされたキャプションを定義できます。これは、HTML の alt 属性に対応します。
 
-   ![](assets/email_designer_10.png)
+   ![](assets/email_designer_10.png){zoomable=&quot;yes&quot;}
 
 1. オーディエンスを別のコンテンツにリダイレクトするリンクを追加できます。[詳細情報](message-tracking.md)
 
@@ -188,13 +187,13 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 設定]**」タブの「**[!UICONTROL ソーシャル]**」フィールドで、追加または削除するソーシャルメディアを選択します。
 
-   ![](assets/email_designer_20.png)
+   ![](assets/email_designer_20.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 画像のサイズ]**」フィールドでアイコンのサイズを選択します。
 
 1. 各ソーシャルメディアアイコンをクリックして、オーディエンスのリダイレクト先の **[!UICONTROL URL]** を設定します。
 
-   ![](assets/email_designer_21.png)
+   ![](assets/email_designer_21.png){zoomable=&quot;yes&quot;}
 
 1. 必要に応じて、「**[!UICONTROL ソース]**」フィールドで各ソーシャルメディアのアイコンを変更することもできます。
 

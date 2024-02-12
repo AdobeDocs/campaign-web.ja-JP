@@ -3,10 +3,9 @@ audience: end-user
 title: 配信ログの監視
 description: 配信ログの監視方法について説明します
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="限定提供（LA）"
-source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '369'
 ht-degree: 100%
 
 ---
@@ -41,39 +40,39 @@ ht-degree: 100%
 * 黄色のアイコンは、重要でない処理エラーを示します。
 * 赤色のアイコンは、配信の送信を妨げる重大なエラーを示します。配信を送信するには、重大なエラーを修正する必要があります。
 
-![](assets/logs.png)
+![](assets/logs.png){zoomable=&quot;yes&quot;}
 
 
 ## 配信 {#deliveries-tab}
 
 「**送信ログ**」タブには、この配信のすべての発生履歴が表示されます。送信されたメッセージのリストとそのステータスがここに保存されます。各受信者の配信ステータスを表示できます。
 
-![](assets/logs2.png)
+![](assets/logs2.png){zoomable=&quot;yes&quot;}
 
 ## 除外 {#exclusion-tab}
 
 「**除外ログ**」タブには、ターゲットから除外されたすべてのメッセージが一覧表示され、送信が失敗した理由が示されます。
 
-![](assets/logs3.png)
+![](assets/logs3.png){zoomable=&quot;yes&quot;}
 
 ## 除外の原因 {#exclusion-causes-tab}
 
 「**除外の原因**」タブには、考えられる原因ごとに、ターゲットから除外されたメッセージ数が表示されます。
 
-![](assets/logs4.png)
+![](assets/logs4.png){zoomable=&quot;yes&quot;}
 
 ## トラッキングする URL {#tracked-urls-tab}
 
 「**トラッキングする URL**」タブは、送信されたメッセージに含まれている URL を、その URL タイプとソース URL を含めて再グループ化します。
 
-![](assets/logs5.png)
+![](assets/logs5.png){zoomable=&quot;yes&quot;}
 
 ## トラッキング {#tracking-tab}
 
 「**トラッキング**」タブには、この配信のトラッキング履歴が一覧表示されます。このタブには、送信されたメッセージのトラッキングデータ、つまり、Adobe Campaign によってトラッキングされたすべての URL が表示されます。
 
 
-![](assets/logs6.png)
+![](assets/logs6.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

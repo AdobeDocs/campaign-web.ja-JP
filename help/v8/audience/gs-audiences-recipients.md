@@ -2,10 +2,9 @@
 title: プロファイルとオーディエンスの基本を学ぶ
 description: Campaign web でのプロファイルとオーディエンスの操作について説明します
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-badge: label="限定提供（LA）"
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
-workflow-type: ht
-source-wordcount: '204'
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+workflow-type: tm+mt
+source-wordcount: '202'
 ht-degree: 100%
 
 ---

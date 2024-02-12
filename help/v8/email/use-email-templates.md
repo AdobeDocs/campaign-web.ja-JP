@@ -8,10 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="限定提供（LA）"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 100%
 
 [メールを作成する](../email/create-email.md)際には、**[!UICONTROL メールを作成]**&#x200B;インターフェイスの「**[!UICONTROL デザインテンプレートを選択]**」セクションを使用して、テンプレートからコンテンツの作成を開始できます。
 
-![](assets/email_designer-templates.png)
+![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 次から選択できます。
 
@@ -42,17 +41,17 @@ ht-degree: 100%
 
 1. 既存のカスタムテンプレートを使用するには、「**[!UICONTROL 保存済みのテンプレート]**」タブを参照します。
 
-   ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
 
 1. すべての[保存済みのテンプレート](#save-as-template)のリストが表示されます。「**[!UICONTROL 名前別]**」、「**[!UICONTROL 最終変更日]**」および「**[!UICONTROL 最終作成日]**」で並べ替えることができます。
 
-   ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. リストからテンプレートを選択して、そのコンテンツを表示します。
 
 1. 左右の矢印を使用して、（選択内容に応じてサンプルまたは保存済みの）テンプレート間を移動します。
 
-   ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
 
 1. 画面右上の「**[!UICONTROL このテンプレートを使用]**」をクリックします。
 

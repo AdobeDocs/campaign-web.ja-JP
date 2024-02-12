@@ -3,8 +3,7 @@ audience: end-user
 title: Adobe Campaign Web の基本を学ぶ
 description: Adobe Campaign Web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="限定提供（LA）"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 76%
@@ -41,7 +40,7 @@ Campaign を使用すると、次のことを行えます。
 
 当初は、機能豊富な[クライアントコンソール](#ac-client)でしか利用できませんでしたが、Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。これは、より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性をもたらします。
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 この新しい Web ユーザーインターフェイスは、最初に **事業を営む人**  — この最初のバージョンでは、一般的な管理タスクはすべて使用できませんが、以降のバージョンでは対処します。 なお、現在のところ、新しい UI では、クライアントコンソールで利用できる機能やオプションのすべてを使用できるわけではありません。 今後のリリースで、新しいユースケース、オプションおよび機能が利用できるようになります。
 

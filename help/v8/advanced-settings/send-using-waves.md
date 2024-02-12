@@ -3,11 +3,10 @@ audience: end-user
 title: ウェーブを使用した送信
 description: Campaign web での配信設定についての詳細情報
 feature: Email
-badge: label="限定提供（LA）"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 38%
+source-wordcount: '796'
+ht-degree: 39%
 
 ---
 
@@ -57,7 +56,7 @@ ht-degree: 38%
 
 このオプションを選択した場合、すべてのウェーブのサイズは同じになり（最後のウェーブを除く）、各ウェーブ間の遅延は常に同じになります。
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * 配信を分割するすべてのウェーブのサイズを指定します。 割合または数値を入力できます。 最後のウェーブのみサイズが変わる場合があります。これは、残りのメッセージ数を含める必要があるからです。
 
@@ -72,7 +71,7 @@ ht-degree: 38%
 
 これをおこなうには、「**[!UICONTROL 同じサイズの複数のウェーブをスケジュール]**」オプションを選択します。入力 **[!UICONTROL 20]** 波の大きさとして **[!UICONTROL 1 日]** （内） **[!UICONTROL 間隔]** フィールドに入力します。
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## カレンダーに従ってウェーブをスケジュール {#waves-calendar}
 
@@ -90,7 +89,7 @@ ht-degree: 38%
 
 次の例では、最初のウェーブは、配信に含まれるメッセージの合計数の 25%を表し、直ちに開始します。 次の 2 つのウェーブで配信が完了しますが、これらのウェーブは、6 時間間隔で開始するように設定されています。
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 カレンダーに従って複数のウェーブを使用する一般的な使用例の 1 つは、ランプアッププロセス中です。
 
@@ -100,7 +99,7 @@ ht-degree: 38%
 
 そのためには、「**[!UICONTROL カレンダーに従ってウェーブをスケジュール]**」オプションを選択します。例えば、最初のウェーブを 10%に、2 番目のウェーブを 15%に、3 番目のウェーブを 20%にといった具合に設定します。
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
 
 
 

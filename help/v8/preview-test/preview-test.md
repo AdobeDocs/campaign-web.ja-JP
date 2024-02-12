@@ -3,8 +3,7 @@ audience: end-user
 title: 配信のプレビューとテストについて
 description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-badge: label="限定提供（LA）"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 72%
@@ -33,7 +32,7 @@ ht-degree: 72%
 
 これらのアクションは、配信のコンテンツを編集画面または[メールデザイナー](../email/get-started-email-designer.md)からアクセスできる「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。
 
-![](assets/simulate-button.png)
+![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >

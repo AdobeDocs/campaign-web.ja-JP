@@ -3,10 +3,9 @@ audience: end-user
 title: 配信レポート
 description: 配信レポートへのアクセス方法と使用方法について説明します
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="限定提供（LA）"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '268'
 ht-degree: 100%
 
 ---
@@ -36,24 +35,24 @@ Adobe Campaign には、配信ごとにアクセス可能な複数のタイプ�
 
 1. **[!UICONTROL 配信]**&#x200B;ダッシュボードで、「**[!UICONTROL レポート]**」をクリックします。
 
-   ![](assets/manage_delivery_report_1.png)
+   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
 
    また、配信リストの配信名の横にある 3 つのドットの「**その他のアクション**」ボタンを使用し、「**[!UICONTROL レポートを表示]**」を選択することもできます。
 
-   ![](assets/manage_delivery_report_2.png)
+   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
 
 1. 左メニューで、リストからレポートを選択します。
 
-   ![](assets/manage_delivery_report_3.png)
+   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
 
 1. 配信を繰り返し行う場合は、「**[!UICONTROL 配信を選択]**」をクリックして、レポートする特定の配信を選択します。
 
    また、「**[!UICONTROL コンタクト日]**」を選択して、レポートに期間を適用することもできます。
 
-   ![](assets/delivery-recurring.png)
+   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
 
 1. また、**[!UICONTROL URL とクリックストリーム]**&#x200B;から、**[!UICONTROL 上位訪問リンク]**&#x200B;または&#x200B;**[!UICONTROL 期間]**&#x200B;を選択することもできます。
 
    「**[!UICONTROL 表示条件]**」オプションを使用すると、URL、ラベル、またはカテゴリでフィルタリングできます。
 
-   ![](assets/manage_delivery_report_5.png)
+   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}

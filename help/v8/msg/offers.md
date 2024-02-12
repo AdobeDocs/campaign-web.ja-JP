@@ -3,10 +3,9 @@ audience: end-user
 title: メッセージにオファーを追加
 description: オファーを追加して送信する方法を学ぶ
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="限定提供（LA）"
-source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '768'
 ht-degree: 93%
 
 ---
@@ -40,13 +39,13 @@ Adobe Campaign を利用すれば、特定の連絡先とのインタラクシ�
 
 1. 配信コンテンツ編集画面で「**[!UICONTROL オファーを設定]**」ボタンをクリックします。
 
-   ![](assets/offer-setup.png)
+   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
 
 1. 受信者に提案するオファーを設定します。
 
    まず、オファー環境に合致する&#x200B;**[!UICONTROL オファースペース]**&#x200B;を選択します。オファースペースを作成する方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=ja){target="_blank"}を参照してください。
 
-   ![](assets/offer-create-content.png)
+   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
 
 1. エンジンのオファー選択を調整するには、オファーを並べ替える特定の&#x200B;**[!UICONTROL オファーカテゴリ]**&#x200B;を選択します。
 
@@ -90,7 +89,7 @@ Adobe Campaign を利用すれば、特定の連絡先とのインタラクシ�
 
 1. オファーを挿入する場所にマウスのカーソルを置き、「パーソナライゼーション」アイコンを使用して式エディターを開きます。
 
-   ![](assets/offer-insert-perso-icon.png)
+   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL 提案]**&#x200B;メニューを選択します。使用可能な提案がリストに表示されます。
 
@@ -100,7 +99,7 @@ Adobe Campaign を利用すれば、特定の連絡先とのインタラクシ�
 
 1. 使用可能なパーソナライゼーションフィールド、レンダリング関数またはオファー属性を使用して、各提案を定義します。
 
-   ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

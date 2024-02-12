@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 10%
+source-wordcount: '1307'
+ht-degree: 12%
 
 ---
 
@@ -34,13 +34,13 @@ Adobe Analytics の [!DNL Adobe Campaign Web] inferface では、標準の 4 つ
 
 1. ランディングページのプロパティと設定を定義します。
 
-   ![](assets/lp-uc-properties.png)
+   ![](assets/lp-uc-properties.png){zoomable=&quot;yes&quot;}
 
 1. お使いの場合に応じて、 **[!UICONTROL 獲得]**, **[!UICONTROL 購読]**, **[!UICONTROL 購読解除]** または **[!UICONTROL ブロックリストに加える]** ページに貼り付けます。
 
 1. ページのコンテンツが表示されます。 ランディングページフォームに対応するパーツを選択します。
 
-   ![](assets/lp-uc-form.png)
+   ![](assets/lp-uc-form.png){zoomable=&quot;yes&quot;}
 
 1. 選択したテンプレートに従ってコンテンツを編集します。
 
@@ -53,7 +53,7 @@ Adobe Analytics の [!DNL Adobe Campaign Web] inferface では、標準の 4 つ
 
 1. を編集します。 **[!UICONTROL 確認]** 必要に応じてページを作成し、 **[!UICONTROL エラー]** および **[!UICONTROL 有効期限]** ページ。 The **[!UICONTROL 確認]** ページは、受信者がフォームを送信すると表示されます。
 
-   ![](assets/lp-uc-confirmation-page.png)
+   ![](assets/lp-uc-confirmation-page.png){zoomable=&quot;yes&quot;}
 
 1. [テスト](create-lp.md#test-landing-page) および [公開](create-lp.md#publish-landing-page) ランディングページを作成します。
 
@@ -61,7 +61,7 @@ Adobe Analytics の [!DNL Adobe Campaign Web] inferface では、標準の 4 つ
 
 1. メッセージコンテンツに[リンクを挿入](../email/message-tracking.md#insert-links)します。選択 **[!UICONTROL ランディングページ]** として **[!UICONTROL リンクタイプ]** 作成したランディングページを選択します。
 
-   ![](assets/lp-uc-email-link.png)
+   ![](assets/lp-uc-email-link.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ Adobe Analytics の [!DNL Adobe Campaign Web] inferface では、標準の 4 つ
 
 1. さらに、顧客がニュースレターサービスを購読するよう促すチェックボックスを追加できます。 [サービスの作成方法を説明します](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png)
+   ![](assets/lp-uc-acquisition-page.png){zoomable=&quot;yes&quot;}
 
 1. 必要に応じてコンテンツを調整し、変更を保存します。
 
@@ -99,11 +99,11 @@ Adobe Analytics の [!DNL Adobe Campaign Web] inferface では、標準の 4 つ
 
 E メールの受信後、受信者がランディングページへのリンクをクリックしてフォームを送信すると、受信者のプロファイルは Campaign データベースに追加されるか、提供された情報で更新されます。
 
-![](assets/lp-uc-profile-updated.png)
+![](assets/lp-uc-profile-updated.png){zoomable=&quot;yes&quot;}
 
 ニュースレターの受信をオプトインした場合、対応するサービスが購読されます。
 
-![](assets/lp-uc-newsletter-subscriber.png)
+![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## サービスの購読 {#lp-subscription}
 
@@ -113,13 +113,13 @@ E メールの受信後、受信者がランディングページへのリンク
 
 1. まず、サービスの作成時に簡単に選択できるように、イベントを購読しているユーザー用の確認テンプレートを作成します。 [詳細情報](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png)
+   ![](assets/lp-uc-confirmation-email.png){zoomable=&quot;yes&quot;}
 
 1. 登録済みユーザーをイベントに保存する購読サービスを作成します。 [サービスの作成方法を説明します](../audience/manage-services.md)
 
 1. ユーザーが購読時に受け取る確認 E メールとして作成したテンプレートを選択します。
 
-   ![](assets/lp-uc-subscription-service.png)
+   ![](assets/lp-uc-subscription-service.png){zoomable=&quot;yes&quot;}
 
 1. [ランディングページの作成](create-lp.md#create-landing-page) をクリックして、受信者がイベントに登録できるようにします。 を選択します。 **[!UICONTROL 購読]** テンプレート。
 
@@ -129,7 +129,7 @@ E メールの受信後、受信者がランディングページへのリンク
 
 1. Adobe Analytics の **[!UICONTROL 購読とサービス]** 「 」フィールドで、イベント用に作成したサービスを選択します。 を残します。 **[!UICONTROL オンにした場合は購読]** オプションが有効です。
 
-   ![](assets/lp-uc-subscription-checkbox-1.png)
+   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -159,11 +159,11 @@ E メールの受信後、受信者がランディングページへのリンク
 
 1. 次の項目を追加できます： **[!UICONTROL チェックボックス]** セクションで、サービスを選択し、 **[!UICONTROL オンにすると購読解除]** オプション。
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png)
+   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable=&quot;yes&quot;}
 
 1. また、 **[!UICONTROL コールトゥアクション]** 」セクションで、 **[!UICONTROL その他の更新]** オプション。 サービスを選択し、 **[!UICONTROL オプトアウト]** オプション。
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png)
+   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable=&quot;yes&quot;}
 
 1. 必要に応じてコンテンツを調整し、変更を保存します。
 
@@ -187,7 +187,7 @@ E メールの受信後、受信者がランディングページへのリンク
 
 1. 対応するドロップダウンリストで、「 」を選択します。 **[!UICONTROL チャネル（E メール）]** ：受信者が e メール通信のみからオプトアウトできるようにします。 また、 **[!UICONTROL すべてのチャネル別]** すべてのチャネルのすべての通信からすべての通信をオプトする場合。
 
-   ![](assets/lp-uc-denylist.png)
+   ![](assets/lp-uc-denylist.png){zoomable=&quot;yes&quot;}
 
 1. 必要に応じてコンテンツを調整し、変更を保存します。
 
@@ -201,7 +201,7 @@ E メールの受信後、受信者がランディングページへのリンク
 
 例えば、 **[!UICONTROL チャネル（E メール）]** オプションを選択して、 **[!UICONTROL 今後の E メールによる連絡は不要]** オプションがオンになります。
 
-![](assets/lp-uc-denylist-profile.png)
+![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 このプロファイルは、再度購読しない限り、ブランドからの電子メール通信を受け取りません。
 

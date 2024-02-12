@@ -2,12 +2,11 @@
 audience: end-user
 title: リストの参照とフィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法の確認
-badge: label="限定提供（LA）"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 96%
 
 ---
 
@@ -19,17 +18,17 @@ ht-degree: 100%
 
 リストは複数の列で表示されます。列の設定を変更すると、追加情報を表示できます。これを行うには、リストの右上隅にある「**カスタムレイアウトの列を設定**」アイコンをクリックします。
 
-![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 **列を設定**&#x200B;画面で、列の追加または削除や表示順序の変更を行うことができます。
 
 例えば、次の設定の場合：
 
-![](assets/columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 リストには、次の列が表示されます。
 
-![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 ## データを並べ替え {#sort-lists}
 
@@ -41,7 +40,7 @@ ht-degree: 100%
 
 項目をすばやく見つけるには、検索バーを使用するか、組み込みフィルターやカスタムフィルターを使用して、コンテキスト条件に基づいてリストを調整します。
 
-![](assets/filter.png){width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 フィルターの使用方法と独自のカスタムフィルターの作成方法について詳しくは、[この節](../query/filter.md)を参照してください。
 
@@ -69,5 +68,5 @@ Only most common attributes are displayed by default in the attribute list and f
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
-![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+![](assets/adv-toggle.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 -->

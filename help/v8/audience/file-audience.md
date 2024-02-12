@@ -2,11 +2,10 @@
 audience: end-user
 title: ファイルから受信者をターゲット設定する
 description: 外部ファイルの受信者を使用してメールオーディエンスを作成する方法を学ぶ
-badge: label="限定提供（LA）"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '626'
 ht-degree: 100%
 
 ---
@@ -50,7 +49,7 @@ ht-degree: 100%
 1. 既存のメール配信を開くか、[新しいメール配信を作成](../email/create-email.md)します。
 1. メール配信作成ウィンドウの「**オーディエンス**」セクションで、「**オーディエンスを選択**」ボタンをクリックし、「**ファイルから選択**」オプションを選択します。
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. 使用するローカルファイルを選択します。形式は、[サンプルファイル](#sample-file)と一致する必要があります。
 1. 画面の中央のセクションで、データがどのようにマッピングされるかをプレビューして確認します。
@@ -60,7 +59,7 @@ ht-degree: 100%
 
 メッセージコンテンツを作成およびパーソナライズする際に、[パーソナライゼーションエディター](../personalization/gs-personalization.md)で入力ファイルからフィールドを選択できます。
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## サンプルファイル {#sample-file}
 
@@ -93,7 +92,7 @@ Campaign Web では、ファイルからアップロードされたオーディ�
 
 1. 配信コンテンツのプレビューが、画面の右側のパネルに表示されます。パーソナライズされた要素は、左側のパネルで選択したプロファイルのデータに置き換えられます。[配信コンテンツのプレビューの詳細情報](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. テストメールを送信するには、「**[!UICONTROL テスト]**」ボタンをクリックします。
 
@@ -105,6 +104,6 @@ Campaign Web では、ファイルからアップロードされたオーディ�
 
 1. 配達確認の受信者を追加し、配達確認を送信する準備が整ったら、「**[!UICONTROL テストメールを送信]**」ボタンをクリックし、送信を確定します。
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL テストメールログを表示]**」ボタンを使用して、いつでもテストメールの送信を監視できます。[テストメールの監視の詳細情報](../preview-test/test-deliveries.md#access-test-deliveries)

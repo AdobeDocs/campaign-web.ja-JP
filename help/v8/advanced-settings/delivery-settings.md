@@ -4,10 +4,9 @@ title: 配信設定
 description: Campaign web での配信設定についての詳細情報
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="限定提供（LA）"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2429'
 ht-degree: 93%
 
 ---
@@ -44,7 +43,7 @@ ht-degree: 93%
 
 タイポロジを使用すると、特定の要素（登録解除リンクや件名行など）や、対象とするターゲット (登録解除者、競合他社、非ロイヤルティ顧客など）からグループを除外するフィルタリングルールがメールに常に含まれていることを確認できます。
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -131,7 +130,7 @@ ht-degree: 93%
 
 **[!UICONTROL 配信]**&#x200B;パラメーターは、配信に適用する技術的な設定です。
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 統合されたメール&#x200B;**[!UICONTROL ルーティング]**&#x200B;用外部アカウントがデフォルトで提供されます。アプリケーションからメールを送信するための技術的なパラメーターが含まれています。
 
@@ -251,7 +250,7 @@ Adobe Analytics の **[!UICONTROL ウェーブ定義]** セクションで、 **
 
 「**[!UICONTROL リソースの有効期限]**」フィールドは、主にミラーページや画像のアップロードされたリソースに使用されます。ディスク容量を節約するために、このページ上のリソースは限られた時間のみ有効です。この制限を超えると、これらのリソースは使用できなくなります。
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

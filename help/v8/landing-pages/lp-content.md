@@ -2,11 +2,10 @@
 title: ランディングページ固有のコンテンツの定義
 description: Campaign web でランディングページ固有のコンテンツを設計する方法について説明します
 feature: Landing Pages
-badge: label="限定提供（LA）"
-source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 48%
+source-wordcount: '875'
+ht-degree: 49%
 
 ---
 
@@ -47,7 +46,7 @@ ht-degree: 48%
 
 1. これを選択します。「**[!UICONTROL フォームコンテンツ]**」タブが右側のパレットに表示され、フォームの様々なフィールドを編集できます。
 
-   ![](assets/lp-form-component.png)
+   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -55,7 +54,7 @@ ht-degree: 48%
 
 1. 1 つ目のテキストフィールドがある場合は展開します。または、 **[!UICONTROL 追加]** 」ボタンをクリックします。 次から： **[!UICONTROL テキストフィールド 1]** 「 」セクションでは、フィールドタイプ、更新するデータベースフィールド、ラベル、ユーザーが値を入力する前にフィールド内に表示されるテキストを編集できます。
 
-   ![](assets/lp-form-text-field.png)
+   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
 
 1. 必要に応じて、「**[!UICONTROL フォームフィールドを必須にする]**」オプションをオンにします。その場合、ランディングページは、ユーザーがこのフィールドに入力した場合にのみ送信できます。
 
@@ -65,7 +64,7 @@ ht-degree: 48%
 
 1. チェックボックスがある場合は展開するか、 **[!UICONTROL 追加]** 」ボタンをクリックします。 そのチェックボックスでデータベースのサービスまたはフィールドを更新するかどうかを選択します。
 
-   ![](assets/lp-form-checkbox.png)
+   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
 
    次を選択した場合、 **[!UICONTROL 購読とサービス]**、リストからサービスを選択し、次の 2 つのオプションのいずれかを選択します。
 
@@ -82,7 +81,7 @@ ht-degree: 48%
 
 1. すべてのフィールドを追加または更新したら、 **[!UICONTROL コールトゥアクション]** をクリックして、対応するセクションを展開します。 これにより、**[!UICONTROL フォーム]**&#x200B;コンポーネントのボタンの動作を定義できます。
 
-   ![](assets/lp-call-to-action.png)
+   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
 
 1. 次のボタンをクリックした場合の動作を定義します。
 
@@ -96,7 +95,7 @@ ht-degree: 48%
    * すべてのチャネル — フォームの送信時に、ユーザーは（選択したテンプレートに応じて）すべてのチャネルのブランドからのすべてのコミュニケーションに対して、オプトインまたはオプトアウトされます
    * データベースのフィールド — 属性リストからフィールドを選択し、フォームの送信時に True または False に設定する必要があるかどうかを定義します。
 
-   ![](assets/lp-form-additionnal-updates.png)
+   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
 
 1. コンテンツを保存して、[ランディングページのプロパティ](create-lp.md#create-landing-page)に戻ります。
 
@@ -106,17 +105,17 @@ ht-degree: 48%
 
 1. The **[!UICONTROL テキストフィールド]** セクションはデフォルトで展開されます。 ラベルのフォント、ラベルの位置、フィールドの背景色、フィールドの境界線など、テキストフィールドの外観を編集できます。
 
-   ![](assets/lp-text-styles.png)
+   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
 
 1. を展開します。 **[!UICONTROL チェックボックス]** 「 」セクションに追加し、チェックボックスと対応するテキストの外観を定義します。 例えば、フォントファミリとサイズ、またはチェックボックスの境界線の色を調整できます。
 
-   ![](assets/lp-checkbox-style.png)
+   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
 
 1. 追加した他のフィールド（ラジオボタン、ドロップダウンリスト、日時など）に対応する他のセクションを展開して編集します。 をフォームに追加します。
 
 1. を展開します。 **[!UICONTROL コールトゥアクション]** 「 」セクションを使用して、コンポーネントフォーム内のボタンの外観を変更します。 例えば、フォントを変更したり、境界線を追加したり、マウスポインターを置いたときのラベルの色を編集したり、ボタンの配置を調整したりできます。
 
-   ![](assets/lp-call-to-action-style.png)
+   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
 
    「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用すると、ポインタを合わせたときのボタンのラベルの色など、一部の設定をプレビューできます。[詳細情報](create-lp.md#test-landing-page)
 
