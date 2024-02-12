@@ -3,10 +3,10 @@ audience: end-user
 title: ランディングページの基本を学ぶ
 description: Campaign Web のランディングページについて学ぶ
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 25%
+source-wordcount: '275'
+ht-degree: 24%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 25%
 
 >[!CAUTION]
 >
->Campaign Web ユーザーインターフェイスで作成するランディングページは、クライアントコンソールから作成する Web フォームとは異なります。 Campaign Web ユーザーインターフェイスで Web フォームを表示または編集することはできません。
+>Campaign Web ユーザーインターフェイスで作成するランディングページは、クライアントコンソールから作成する Web フォームとは異なります。 クライアントコンソールで作成した Web フォームは、Campaign Web ユーザーインターフェイスで表示または編集できません。
 >
->Web フォームについて詳しくは、 [Campaign コンソールのドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"}.
+>Web フォームについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"}.
 
 ランディングページの主な機能を次に示します。
 

@@ -2,10 +2,10 @@
 title: ランディングページ固有のコンテンツの定義
 description: Campaign web でランディングページ固有のコンテンツを設計する方法について説明します
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 49%
+source-wordcount: '872'
+ht-degree: 45%
 
 ---
 
@@ -16,13 +16,16 @@ ht-degree: 49%
 >title="コンテンツコンポーネントの使用"
 >abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。ユーザーが選択肢を選択して送信できるようにする特定のコンテンツを定義するには、フォームコンポーネントを使用します。"
 
-ランディングページの任意のページのコンテンツを編集する際、それらのコンテンツは既に事前入力されています。
+ランディングページの任意のページのコンテンツを編集できます。
 
-最初のページは、ユーザーがランディングページへのリンクをクリックした後すぐに表示され、既に [ランディングページ固有のフォームコンポーネント](#use-form-component) 選択したテンプレート用<!-- to enable users to select and submit their choices-->. また、 [ランディングページのスタイル](#lp-form-styles).
 
-ランディングページのコンテンツをさらに設計するには、メールと同じコンポーネントを使用できます。[詳細情報](../email/content-components.md#add-content-components)
+最初のページは、ユーザーがランディングページへのリンクをクリックした後すぐに表示され、既に [ランディングページ固有のフォームコンポーネント](#use-form-component) 選択したテンプレート用<!-- to enable users to select and submit their choices-->.
 
 のコンテンツ **[!UICONTROL 確認]**, **[!UICONTROL エラー]** および **[!UICONTROL 有効期限]** ページも事前入力されます。 必要に応じて編集します。
+
+また、 [ランディングページのスタイル](#lp-form-styles).
+
+ランディングページのコンテンツをさらに設計するには、メールと同じコンポーネントを使用できます。[詳細情報](../email/content-components.md#add-content-components)
 
 ## フォームコンポーネントの使用 {#use-form-component}
 
@@ -36,7 +39,7 @@ ht-degree: 49%
 >title="ボタンをクリックした際の動作"
 >abstract="ユーザーがランディングページフォームを送信した際の動作を定義します。"
 
-ユーザーがランディングページから選択肢を選択して送信できるようにする特定のコンテンツを定義するには、**[!UICONTROL フォーム]**&#x200B;コンポーネントを使用します。それには、次の手順に従います。
+ユーザーが選択して送信できるランディングページの特定のコンテンツを定義するには、 **[!UICONTROL フォーム]** コンポーネント。 それには、次の手順に従います。
 
 1. ランディングページ固有の&#x200B;**[!UICONTROL フォーム]**&#x200B;コンポーネントは、選択したテンプレートのキャンバスに既に表示されています。
 
