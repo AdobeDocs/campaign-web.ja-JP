@@ -2,12 +2,11 @@
 audience: end-user
 title: 購読サービスの操作
 description: Adobe Campaign web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
-badge: label="限定提供（LA）"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
+source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 96%
+source-wordcount: '933'
+ht-degree: 95%
 
 ---
 
@@ -20,13 +19,11 @@ ht-degree: 96%
 
 Adobe Campaign web を使用すると、ニュースレターなどのサービスの管理と作成を行ったり、それらのサービスの購読または登録解除を確認したりできます。
 
+複数のサービスを並行して定義できます。例えば、web サイトの特定の商品カテゴリ、テーマまたは分野に関するニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。
+
 >[!NOTE]
 >
 >購読はメールおよび SMS 配信にのみ当てはまります。
-
-複数のサービスを並行して定義できます。例えば、web サイトの特定の商品カテゴリ、テーマまたは分野に関するニュースレター、様々なタイプのアラートメッセージやリアルタイム通知の購読などです。
-
-購読と購読解除の管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html?lang=ja){target="_blank"}を参照してください。
 
 ## 購読サービスへのアクセス {#access-services}
 
@@ -34,11 +31,11 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 
 1. 左側のナビゲーションパネルの&#x200B;**[!UICONTROL 購読サービス]**&#x200B;メニューを参照します。
 
-   ![](assets/service-list.png)
+   ![](assets/service-list.png){zoomable=&quot;yes&quot;}
 
 1. 既存のすべての購読サービスのリストが表示されます。サービスを検索してチャネルやフォルダーでフィルタリングすることも、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加することもできます。
 
-   ![](assets/service-filters.png)
+   ![](assets/service-filters.png){zoomable=&quot;yes&quot;}
 
 1. 既存のサービスを編集するには、サービス名をクリックします。
 
@@ -60,13 +57,13 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 
 1. 「**[!UICONTROL 購読サービスを作成]**」ボタンをクリックします。
 
-   ![](assets/service-create-button.png)
+   ![](assets/service-create-button.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL E メール]**&#x200B;か **[!UICONTROL SMS]** のどちらかのチャネルを選択します。
 
 1. サービスプロパティで、ラベルを入力し、必要に応じて&#x200B;**[!UICONTROL 追加オプション]**&#x200B;を定義します。
 
-   ![](assets/service-create-properties.png)
+   ![](assets/service-create-properties.png){zoomable=&quot;yes&quot;}
 
 1. デフォルトでは、サービスは&#x200B;**[!UICONTROL サービスと購読]**&#x200B;フォルダーに保存されます。目的の場所を参照して変更できます。[詳しくは、フォルダーの操作方法を参照してください](../get-started/permissions.md#folders)
 
@@ -76,11 +73,11 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
    * このサービスを購読できる受信者はいません
    * このサービスのすべての購読者は、自動的に購読解除されます
 
-   ![](assets/service-create-validity-period.png)
+   ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
 1. ユーザーがサービスを登録または登録解除する際に、確認メッセージを送信できます。ユースケースに従って、そのメッセージに使用するテンプレートを選択します。これらのテンプレートは、**[!UICONTROL 購読]**&#x200B;ターゲットマッピングを使用して設定する必要があります。[詳細情報](#create-confirmation-message)
 
-   ![](assets/service-create-confirmation-msg.png)
+   ![](assets/service-create-confirmation-msg.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 保存してレビュー]**」をクリックします。新しいサービスが&#x200B;**[!UICONTROL 購読サービス]**&#x200B;リストに追加されました。
 
@@ -103,21 +100,21 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 >title="登録解除の配信テンプレートの選択"
 >abstract="サービスを登録解除るユーザーに確認メッセージを送信するには、**[!UICONTROL 購読]**&#x200B;ターゲットマッピング（定義済みのターゲットなし）に基づいて特定の配信テンプレートを選択する必要があります。"
 
-サービスを登録または登録解除するユーザーに確認メッセージを送信するには、**[!UICONTROL 購読]**&#x200B;ターゲットマッピング（定義済みのターゲットなし）を使用して配信テンプレートを作成する必要があります。それには、次の手順に従います。
+サービスを登録または登録解除するユーザーに確認メッセージを送信するには、**[!UICONTROL 購読]**&#x200B;ターゲットマッピング（定義済みのターゲットなし）を使用して配信テンプレートを作成する必要があります。これをおこなうには、以下の手順に従います。
 
 1. 購読確認用の配信テンプレートを作成します。[詳しくは、テンプレートの作成方法を参照してください](../msg/delivery-template.md)
 
 1. この配信のオーディエンスを選択しないでください。代わりに、配信&#x200B;**[!UICONTROL 設定]**&#x200B;にアクセスし、「[オーディエンス](../advanced-settings/delivery-settings.md#audience)」タブに移動して、**[!UICONTROL 購読]**&#x200B;ターゲットマッピングをリストから選択します。
 
-   ![](assets/service-confirmation-template-mapping.png)
+   ![](assets/service-confirmation-template-mapping.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >**[!UICONTROL 購読]**&#x200B;ターゲットマッピングを選択しない場合、サブスクライバーには確認メッセージが届きません。ターゲットマッピングは、Campaign v8 コンソールで定義されます。詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
+   >**[!UICONTROL 購読]**&#x200B;ターゲットマッピングを選択しない場合、サブスクライバーには確認メッセージが届きません。ターゲットマッピングの詳細については、 [この節](../audience/targeting-dimensions.md) .
 
 1. 配信テンプレートのコンテンツを編集し、保存して閉じます。
 
-   ![](assets/service-confirmation-template.png)
+   ![](assets/service-confirmation-template.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -148,13 +145,13 @@ SMS チャンネルおよびメールチャネルに関するサブスクリプ�
 
 1. **[!UICONTROL サブスクリプションサービス]**&#x200B;リストから既存のサービスを選択します。「**[!UICONTROL 計算]**」をクリックして、サブスクライバーの合計数を取得します。
 
-   ![](assets/service-logs-subscribers-count.png)
+   ![](assets/service-logs-subscribers-count.png){zoomable=&quot;yes&quot;}
 
 1. サービスダッシュボードで、「**[!UICONTROL ログ]**」を選択して、このサービスのサブスクライバーのリストを表示します。
 
    サブスクライバーの合計数、各受信者の名前およびアドレス、購読または登録解除のタイミングを確認できます。また、フィルタリングすることもできます。
 
-   ![](assets/service-logs.png)
+   ![](assets/service-logs.png){zoomable=&quot;yes&quot;}
 
 1. サービスダッシュボードで、「**[!UICONTROL レポート]**」を選択します。次の指標を確認します。
 
@@ -162,7 +159,7 @@ SMS チャンネルおよびメールチャネルに関するサブスクリプ�
 
    * 選択した期間の購入および登録解除の数を表示できます。ドロップダウンリストを使用して、時間範囲を変更します。
 
-     ![](assets/service-reports.png)
+     ![](assets/service-reports.png){zoomable=&quot;yes&quot;}
 
    * **[!UICONTROL サブスクリプションの全体的な変化]**&#x200B;グラフは、購入、登録解除、数値の変化、ロイヤルティの割合を含む、期間別の分類を表示します。<!--what is Registered?-->
 
