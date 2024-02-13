@@ -3,9 +3,9 @@ audience: end-user
 title: Adobe Experience Manager as a Cloud Service でのアセットの管理
 description: Adobe Experience Manager as a Cloud Service でコンテンツを管理する方法を説明します
 badge: label="限定提供（LA）"
-source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '503'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,7 @@ Adobe Campaign Web インターフェイスがAdobe Experience Managerと統合�
 
 1. 次の場所に移動： [!DNL Adobe Experience Manager] オーサーインスタンスを作成し、ページの左上隅にある「Adobeエクスペリエンス」をクリックします。 選択 **[!UICONTROL Sites]** を選択します。
 
-1. アクセス **[!UICONTROL キャンペーン/ブランド名/メイン領域/電子メール]**.
+1. アクセス **[!UICONTROL キャンペーン/ブランド名/メイン領域/ページ名]**.
 
 1. クリック **[!UICONTROL 作成]** を選択し、 **[!UICONTROL ページ]** をドロップダウンメニューから選択します。
 
