@@ -6,10 +6,10 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign Web ユーザーインターフェイス
 hide: true
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 94%
+source-wordcount: '585'
+ht-degree: 92%
 
 ---
 
@@ -49,7 +49,6 @@ ht-degree: 94%
             + [ミラーページへのリンクの追加](email/mirror-page.md)
             + [プリヘッダーを追加](email/preheader.md)
             + [テキストバージョンを生成](email/text-version-email.md)
-            + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](email/aem-assets.md)
          + コンテンツアシスタント {#content-assistant}
             + [コンテンツアシスタントの基本を学ぶ](email/generative-gs.md)
             + [コンテンツアシスタントを使用したテキスト生成](email/generative-content.md)
@@ -168,3 +167,7 @@ ht-degree: 94%
       + [メールグローバルレポート](reporting/global-report-email.md)
       + [プッシュグローバルレポート](reporting/global-report-push.md)
       + [SMS グローバルレポート](reporting/global-report-sms.md)
++ 統合 {#integrations}
+   + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
+   + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
+
