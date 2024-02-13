@@ -2,10 +2,9 @@
 audience: end-user
 title: Adobe Experience Manager as a Cloud Service でのアセットの管理
 description: Adobe Experience Manager as a Cloud Service でコンテンツを管理する方法を説明します
-badge: label="限定提供（LA）"
-source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
+source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 11%
 
 ---
