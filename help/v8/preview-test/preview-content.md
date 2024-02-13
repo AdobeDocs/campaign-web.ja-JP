@@ -3,10 +3,10 @@ audience: end-user
 title: 配信コンテンツのプレビュー
 description: Campaign Web ユーザーインターフェイスを使用して配信コンテンツをプレビューする方法を説明します。
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 80%
+source-wordcount: '359'
+ht-degree: 67%
 
 ---
 
@@ -23,11 +23,7 @@ ht-degree: 80%
 
    ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. パーソナライズされたコンテンツのプレビューに使用するプロファイルを選択するには、次を使用します。
-
-   * **[!UICONTROL テストプロファイルを追加]**：メールと SMS 配信のプレビュー用
-
-   * **[!UICONTROL サブスクライバーを追加]**：プッシュ通知のプレビュー用
+1. コンテンツのプレビューに使用するプロファイルを選択します。 これをおこなうには、 **[!UICONTROL テストプロファイルを追加]** ボタン（E メールと SMS の場合）または **[!UICONTROL 購読者を追加]** ボタン（プッシュ通知用）
 
 1. プロファイルとテストプロファイルを組み合わせて、E メールまたは SMS メッセージをプレビューできます。
 
@@ -37,11 +33,9 @@ ht-degree: 80%
 
    ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. テストプロファイルリストまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。
+1. テストプロファイルまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。 例えば、**[!UICONTROL 見込み客]**&#x200B;ステータスとなっている、すべてのテストプロファイルを検索するルールを定義できます。[クエリモデラーを使用してルールを追加する方法を説明します](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
-
-   例えば、**[!UICONTROL 見込み客]**&#x200B;ステータスとなっている、すべてのテストプロファイルを検索するルールを定義できます。[クエリモデラーを使用してルールを追加する方法を説明します](../query/query-modeler-overview.md).
 
 1. 「**[!UICONTROL 選択]**」をクリックして選択内容を確定します。
 
