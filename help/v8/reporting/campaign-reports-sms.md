@@ -2,11 +2,10 @@
 audience: end-user
 title: SMS チャネルのキャンペーンレポート
 description: SMS チャネルのキャンペーンレポートについて
-badge: label="限定提供（LA）"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '498'
 ht-degree: 100%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートは、SMS 配信に対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_sms_1.png)
+![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
 
 +++SMS キャンペーンレポート指標の詳細情報。
 
@@ -50,7 +49,7 @@ ht-degree: 100%
 **[!UICONTROL 初期ターゲットオーディエンス統計]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
 
-![](assets/campaign_report_sms_2.png)
+![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
 
 +++SMS キャンペーンレポート指標の詳細情報。
 
@@ -75,7 +74,7 @@ ht-degree: 100%
 **[!UICONTROL 実行統計]**&#x200B;テーブルには、配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
 
-![](assets/campaign_report_sms_3.png)
+![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++SMS キャンペーンレポート指標の詳細情報。
 
@@ -101,7 +100,7 @@ ht-degree: 100%
 
 **[!UICONTROL クリックストリーム]**&#x200B;テーブルには、受信者による配信の操作に関するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_sms_4.png)
+![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++SMS キャンペーンレポート指標の詳細情報。
 

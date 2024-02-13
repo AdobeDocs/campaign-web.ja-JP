@@ -6,9 +6,9 @@ badge: label="アルファ版"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 1. 右側のメニューから、「**[!UICONTROL エクスペリエンス生成]**」を選択します。
 
-   ![](assets/email-genai-1.png)
+   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. 生成する内容を記述して、コンテンツを微調整します。
 
@@ -46,7 +46,7 @@ ht-degree: 100%
    * フィードバックと調査の場合：最近のソフトウェアエクスペリエンスに関するフィードバックを提供したり、製品の改善を目的とした調査に参加したりするよう顧客に勧めるを招待するメールを作成します。
    * 記念日または誕生日のメール：顧客の特別な日を祝い、誕生日の割引を提供する誕生日メールを生成します。
 
-   ![](assets/email-genai-2.png)
+   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. コンテンツアシスタントに追加のコンテキストを提供できるコンテンツを含んだブランドアセットを追加する場合は、「**[!UICONTROL ファイルをアップロード]**」を選択します。
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 1. 生成されるテキストの「**[!UICONTROL 言語]**」と「**[!UICONTROL トーン]**」を選びます。これにより、テキストがオーディエンスと目的に適したものになります。
 
-   ![](assets/email-genai-3.png)
+   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL コンテンツタイプ]**」アセット設定を、目的のアセット特性に合わせてカスタマイズします。
 
@@ -64,16 +64,16 @@ ht-degree: 100%
 
 1. **[!UICONTROL バリエーションの提案]**&#x200B;を参照して、目的のメールを見つけます。「**[!UICONTROL プレビュー]**」をクリックして、選択したバリエーションのフルスクリーンバージョンを表示します。
 
-   ![](assets/email-genai-4.png)
+   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
-   ![](assets/email-genai-5.png)
+   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. パーソナライゼーションフィールドを挿入して、プロファイルデータに基づいてメールコンテンツをカスタマイズするか、必要に応じてコンテンツをさらにパーソナライズします。[コンテンツのパーソナライゼーションの詳細情報](../personalization/personalize.md)
 
 1. メールコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして、レンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。[詳細情報](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png)
+   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. コンテンツ、オーディエンスおよびスケジュールを定義したら、メール配信の準備が整いました。[詳細情報](../monitor/prepare-send.md)

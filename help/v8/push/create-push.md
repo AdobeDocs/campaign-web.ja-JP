@@ -2,12 +2,11 @@
 audience: end-user
 title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
-badge: label="限定提供（LA）"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 89%
+source-wordcount: '714'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +36,7 @@ ht-degree: 89%
 
 1. 「**[!UICONTROL 配信を作成]**」ボタンをクリックして、確定します。
 
-   ![](assets/push_create_1.png)
+   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
 
 ## 配信設定の指定 {#configure-push-settings}
 
@@ -69,7 +68,7 @@ ht-degree: 89%
 
 1. 「**[!UICONTROL オーディエンス]**」セクションで、この配信に使用するアプリケーションを選択します。デフォルトでは、プッシュ通知はアプリケーションのすべてのサブスクライバーに送信されます。「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックすると、特定のオーディエンスに絞り込むことができます。
 
-   ![](assets/push_create_2.png)
+   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
 
 1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。プッシュ通知の場合、デフォルトの[ターゲットディメンション](../audience/about-recipients.md#targeting-dimensions)は&#x200B;**サブスクライバーのアプリケーション**（nms:appSubscriptionRcp）であり、受信者のテーブルにリンクされています。
 
@@ -83,7 +82,7 @@ ht-degree: 89%
 
 通知のコンテンツを定義するには、「**[!UICONTROL コンテンツを編集]**」をクリックします。[詳細情報](content-push.md)
 
-![](assets/push_create_5.png)
+![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
 
 この画面から、[コンテンツをシミュレート](../preview-test/preview-test.md)したり、[オファーを設定](../msg/offers.md)したりすることもできます。
 
@@ -101,7 +100,7 @@ ht-degree: 89%
 
 配信を開始すると、メッセージは、受信者に対して定義した正確な日時に自動的に送信されます。
 
-![](assets/push_create_3.png)
+![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 
 配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#gs-schedule)を参照してください
 
@@ -109,4 +108,4 @@ ht-degree: 89%
 
 「**[!UICONTROL 配信設定を指定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png)
+![](assets/push_create_4.png){zoomable=&quot;yes&quot;}

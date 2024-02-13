@@ -2,11 +2,10 @@
 audience: end-user
 title: プッシュ通知配信を送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を学ぶ
-badge: label="限定提供（LA）"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -21,17 +20,17 @@ ht-degree: 100%
 
 1. 配信コンテンツページから、「**[!UICONTROL コンテンツをシミュレート]**」を使用して、パーソナライズされたコンテンツをプレビューします。
 
-   ![](assets/push_send_1.png)
+   ![](assets/push_send_1.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL サブスクライバーを追加]**」をクリックし、1 つまたは複数のプロファイルを選択して、プッシュ通知コンテンツ内のデータをプレビューします。
 
 
    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png)-->
+    ![](assets/push_send_5.png){zoomable="yes"}-->
 
 1. 右側のパネルにはプッシュ通知のプレビューが表示され、パーソナライズされた要素が選択したプロファイルのデータに動的に置き換えられます。
 
-   ![](assets/push_send_7.png)
+   ![](assets/push_send_7.png){zoomable=&quot;yes&quot;}
 
 これで、プッシュ通知を確認してオーディエンスに送信できるようになりました。
 
@@ -42,19 +41,19 @@ ht-degree: 100%
 
 ![](../assets/do-not-localize/book.png) テストプッシュ通知を送信する方法については、[この節](../preview-test/test-deliveries.md#subscribers)を参照してください。
 
-![](assets/push_send_6.png)
+![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 
 ## プッシュ通知配信を送信 {#send-push}
 
 1. プッシュ通知コンテンツをパーソナライズした後、**[!UICONTROL 配信]**&#x200B;ページから「**[!UICONTROL 確認して送信]**」をクリックします。
 
-   ![](assets/push_send_2.png)
+   ![](assets/push_send_2.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 準備]**」をクリックし、表示される進行状況と統計を監視します。
 
    エラーが発生した場合は、ログメニューでエラーに関する詳細情報を参照してください。
 
-   ![](assets/push_send_3.png)
+   ![](assets/push_send_3.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 送信]**」をクリックしてメッセージを送信し、最終的な送信プロセスに進みます。
 
@@ -62,7 +61,7 @@ ht-degree: 100%
 
    プッシュ配信がスケジュールされている場合は、「**[!UICONTROL スケジュールどおりに送信]**」ボタンをクリックします。配信について詳しくは、[この節](../msg/gs-messages.md#schedule-the-delivery-sending)を参照してください。
 
-   ![](assets/push_send_4.png)
+   ![](assets/push_send_4.png){zoomable=&quot;yes&quot;}
 
 配信が送信されると、配信ページから KPI（主要業績評価指標）データをトラックし、**[!UICONTROL ログ]**&#x200B;メニューからデータをトラックできます。
 

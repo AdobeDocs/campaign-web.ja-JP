@@ -51,7 +51,7 @@ Campaign を使用すると、次のことを行えます。
 >
 >Adobe Campaign Web は現在限定提供（LA）バージョンです。アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
-Adobe Campaign web に接続する方法については、[このページ](connect-to-campaign.md)を参照してください。
+Adobe Campaign Web に接続する方法については、[このページ](connect-to-campaign.md)を参照してください。
 
 ## Campaign クライアントコンソールについて {#ac-client}
 

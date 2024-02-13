@@ -1,12 +1,11 @@
 ---
 title: Campaign Web ユーザーインターフェイスのガードレールと制限
 description: Campaign Web ユーザーインターフェイスのガードレールと制限
-badge: label="限定提供（LA）"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 22%
+source-wordcount: '374'
+ht-degree: 20%
 
 ---
 
@@ -24,19 +23,19 @@ Campaign Web ユーザーインターフェイスでまだサポートされて�
 
 | コンソール | Web |
 | --- | --- |
-| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 When a **クエリ** または **エンリッチメント** 「 」アクティビティに追加のデータが設定されている場合、コンソールではエンリッチメントデータが Campaign Web で考慮され、アウトバウンドトランジションに渡されますが、編集はできません。
 
 | コンソール | Web |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-options-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 コンソールで、**エンリッチメント**&#x200B;アクティビティは、紐付けとエンリッチメントの両方を実行できます。を定義済みの場合、クライアントコンソールで、紐付け設定を **エンリッチメント** アクティビティの場合は、 **紐づけ** アクティビティを参照してください。
 
 | コンソール | Web |
 | --- | --- |
-| ![](assets/limitations-enrichment-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-enrichment-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 ## ワークフローキャンバス {#wkf-canvas}
 
@@ -44,10 +43,10 @@ Campaign Web ユーザーインターフェイスで新しいワークフロー�
 
 | コンソール | Web |
 | --- | --- |
-| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-multiple-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
 
 ノードの配置は、アクティビティが追加または削除されるたびに更新されます。コンソールでワークフローを作成し、Campaign Web ユーザーインターフェイスを使用して変更し、コンソールで再度開くと、小さな配置に問題が生じる場合があります。 これは、ワークフローのプロセスとタスクには影響しません。
 
 | 最初のワークフロー | 位置の変更 |
 | --- | --- |
-| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-positioning1.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |

@@ -1,19 +1,18 @@
 ---
 audience: end-user
 title: フィルターリスト
-description: 組み込みフィルターとカスタムフィルターを使用して、Adobe Campaign web リストをフィルタリングする方法について説明します。
-badge: label="限定提供（LA）"
+description: 組み込みフィルターとカスタムフィルターを使用して、Adobe Campaign Web リストをフィルタリングする方法について説明します。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '310'
+ht-degree: 98%
 
 ---
 
 # フィルターリスト {#filter-lists}
 
-Adobe Campaign web では、オブジェクトの各リスト内にフィルターを提供し、特定のコンテキスト条件に基づいて情報をフィルタリングできます。例えば、ステータス、チャネル、連絡日またはフォルダーに基づいて配信をフィルタリングできます。また、テストを非表示にすることもできます。
+Adobe Campaign Web では、オブジェクトの各リスト内にフィルターを提供し、特定のコンテキスト条件に基づいて情報をフィルタリングできます。例えば、ステータス、チャネル、連絡日またはフォルダーに基づいて配信をフィルタリングできます。また、テストを非表示にすることもできます。
 
 ## フィルターの適用{#apply}
 
@@ -21,7 +20,7 @@ Adobe Campaign web では、オブジェクトの各リスト内にフィルタ�
 
 フィルターパネルが開き、選択したリストで使用可能なフィルターが表示されます。例えば、キャンペーンをステータス、開始日と終了日またはストレージフォルダーでフィルタリングでき、サブスクリプションサービスのリストをチャネルとストレージフォルダーでフィルタリングできます。
 
-![](assets/filters-pane.png){width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 独自の条件に基づいてリストをフィルタリングするには、カスタムフィルターを作成します。これを行うには、フィルターパネルの下部を参照し、「**ルールを追加**」ボタンをクリックします。[カスタムフィルターの作成方法を学ぶ](#custom)
 
@@ -36,6 +35,6 @@ Adobe Campaign web では、オブジェクトの各リスト内にフィルタ�
 
    次の例は、ランニング部門またはヨガ部門のオペレーターによって実行された SMS キャンペーンを、キャンペーンリストに表示するように設計されたカスタムフィルターを示しています。
 
-   ![](assets/filters-sample.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. カスタムフィルターを設定したら、「**[!UICONTROL 確認]**」をクリックしてリストに適用します。

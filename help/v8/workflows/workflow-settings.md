@@ -2,12 +2,11 @@
 audience: end-user
 title: ワークフロー設定の指定
 description: Adobe Campaign Web でのワークフロー設定方法について説明します
-badge: label="限定提供（LA）"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 76%
+source-wordcount: '959'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 76%
 
 これを行うには、ワークフローキャンバス上のアクションバーにある「**[!UICONTROL 設定]**」ボタンをクリックします。
 
-![](assets/workflow-settings-button.png){width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## ワークフローのプロパティ {#properties}
 
@@ -31,7 +30,7 @@ ht-degree: 76%
 
 「**[!UICONTROL プロパティ]**」セクションには、ワークフローの作成時に利用できる一般的な設定が用意されています。
 
-![](assets/workflow-settings.png){width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 
 次のプロパティがあります。

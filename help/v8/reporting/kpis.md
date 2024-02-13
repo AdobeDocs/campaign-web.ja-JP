@@ -1,9 +1,8 @@
 ---
 title: 主要業績評価指標
 description: 主要業績評価指標を理解する方法について説明します
-badge: label="限定提供（LA）"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 100%
@@ -28,7 +27,7 @@ ht-degree: 100%
 
 表示するチャネルを選択できます。デフォルトでは、これらの指標はメールチャネルの指標を反映します。
 
-![](assets/kpi.png)
+![](assets/kpi.png){zoomable=&quot;yes&quot;}
 
 ## 配信済みメッセージ {#ui-delivered-kpi}
 

@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: Adobe Campaign web でのメッセージと配信の基本を学ぶ
+title: Adobe Campaign Web でのメッセージと配信の基本を学ぶ
 description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40

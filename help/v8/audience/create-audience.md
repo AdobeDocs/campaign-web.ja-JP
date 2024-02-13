@@ -1,12 +1,11 @@
 ---
 audience: end-user
 title: オーディエンスの作成
-description: Adobe Campaign web でオーディエンスを作成する方法について説明します
-badge: label="限定提供（LA）"
+description: Adobe Campaign Web でオーディエンスを作成する方法について説明します
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '902'
 ht-degree: 100%
 
 ---
@@ -55,7 +54,7 @@ Campaign web を使用すると、ビジュアルワークフローキャンバ�
 
    * 「新しいオーディエンス」の「**[!UICONTROL オーディエンスを保存]**」アクティビティはワークフローの最後のステップを表すもので、ここでは結果を新しいオーディエンスとして保存できます。
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Campaign web を使用すると、ビジュアルワークフローキャンバ�
    >
    >チャネルアクティビティは、オーディエンスワークフローでは使用できません。
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティを設定して、ワークフローの上流で計算された母集団を保存する方法を指定します。[「オーディエンスを保存」アクティビティの設定方法の詳細情報](../workflows/activities/save-audience.md)
 
@@ -85,7 +84,7 @@ Campaign web を使用すると、ビジュアルワークフローキャンバ�
 
 次の例は、ニューヨークに住む女性の顧客をターゲットにし、最新の購入（ヨガまたはランニングギア）に応じて 2 つの新しいオーディエンスを作成するように設定されたオーディエンスワークフローを示しています。
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティでは、ニューヨークに住むすべての女性プロファイルをターゲットにします。
 1. **[!UICONTROL エンリッチメント]**&#x200B;アクティビティでは、顧客が購入した商品のタイプを識別するために、「購入品」テーブルの情報でオーディエンスをエンリッチメントします。
@@ -104,4 +103,4 @@ Campaign web を使用すると、ビジュアルワークフローキャンバ�
 
 既存のオーディエンス結果を置き換えない場合は、要件に合わせて「**オーディエンスを保存**」アクティビティを設定します。例えば、「**オーディエンスラベル**」フィールドを変更して、新しい結果を新しいオーディエンスに保存したり、以前のデータを消去せずに新しい結果を既存のオーディエンスコンテンツに追加したりできます。[「オーディエンスを保存」アクティビティの設定方法について説明します](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}

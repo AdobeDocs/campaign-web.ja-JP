@@ -2,11 +2,10 @@
 audience: end-user
 title: 「ファイルを読み込み」ワークフローアクティビティの使用
 description: 「ファイルを読み込み」ワークフローアクティビティの使用方法について説明します
-badge: label="限定提供（LA）"
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---

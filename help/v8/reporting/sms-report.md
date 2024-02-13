@@ -2,11 +2,10 @@
 audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
-badge: label="限定提供（LA）"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '514'
 ht-degree: 100%
 
 ---
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートは、成功率とエラー率および SMS メッセージに対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。
 
-![](assets/reporting_sms_3.png)
+![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++SMS 配信レポート指標の詳細情報。
 
@@ -54,7 +53,7 @@ ht-degree: 100%
 
 **ターゲット母集団**&#x200B;グラフおよびテーブルには、オーディエンスに関連するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/reporting_sms_4.png)
+![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++SMS 配信レポート指標の詳細情報。
 
@@ -73,7 +72,7 @@ ht-degree: 100%
 
 **全体的な統計**&#x200B;レポートには、送信された SMS メッセージのデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/reporting_sms_5.png)
+![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
 
 +++SMS 配信レポート指標の詳細情報。
 
@@ -93,7 +92,7 @@ ht-degree: 100%
 
 **[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#sms-quarantines){_blank}を参照してください。
 
-![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
 
 ## 配信スループット {#delivery-throughput}
 
@@ -104,4 +103,4 @@ ht-degree: 100%
 
 このレポートには、指定した期間内の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
 
-![](assets/reporting_sms_2.png)
+![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}

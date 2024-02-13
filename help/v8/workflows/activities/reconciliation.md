@@ -2,11 +2,10 @@
 audience: end-user
 title: 紐付けワークフローアクティビティの使用
 description: 紐付けワークフローアクティビティの使用方法を学ぶ
-badge: label="限定提供（LA）"
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '827'
 ht-degree: 97%
 
 ---

@@ -1,13 +1,12 @@
 ---
 audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
-description: Adobe Campaign web クエリモデラーで最初のクエリを作成する方法を学びます。
-badge: label="限定提供（LA）"
+description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 100%
+source-wordcount: '1960'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 
   *「スポーツ」ニュースレターを購読した受信者&#x200B;**および**ニューヨーク&#x200B;**または**サンフランシスコに住む受信者*。
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
 ## フィルタリングコンポーネントの追加 {#filtering}
 
@@ -48,7 +47,7 @@ ht-degree: 100%
 
 1. 「**属性**」フィールドで、条件の作成に活用するデータベースから属性を選択します。属性リストには、リンクされたテーブルの属性を含む、Campaign データベースのすべての属性が含まれます。
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -83,7 +82,7 @@ ht-degree: 100%
 
    *21 歳以上のすべてのプロファイルを返すクエリの例：*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
 #### リンクされたテーブルのカスタム条件（1 対 1 および 1 対多リンク）{#links}
 
@@ -99,15 +98,15 @@ ht-degree: 100%
 
 1. **ブランド**&#x200B;テーブル内に移動し、**ラベル**&#x200B;属性を選択します。
 
-   ![](assets/1-1-attribute.png){width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. 属性の期待値を定義します。
 
-   ![](assets/1-1-table.png){width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 テーブルリンクを直接選択したクエリのサンプルを以下に示します。このテーブルで使用可能な値は、専用のピッカーから選択する必要があります。
 
-![](assets/1-1-table-direct.png){width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -119,19 +118,19 @@ ht-degree: 100%
 
 1. **購入**&#x200B;テーブルを選択し、確定します。
 
-   ![](assets/1-N-collection.png){width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
 
 1. アウトバウンドトランジションが追加され、サブ条件を作成できます。
 
-   ![](assets/1-n-subcondition.png){width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. **価格**&#x200B;属性を選択し、1,000 ドル以上の購入をターゲットにします
 
-   ![](assets/1-n-price.png){width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. ニーズに合わせてサブ条件を追加します。ここでは、BrewMaster 製品を購入したプロファイルをターゲットにする条件を追加しました。
 
-   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -141,11 +140,11 @@ ht-degree: 100%
 
 1. 目的のコレクションテーブル内に移動し、集計操作を実行する属性を選択します。
 
-   ![](assets/aggregate-attribute.png){width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. プロパティパネルで、「**データを集計**」オプションの切替スイッチをオンにして、目的の集計関数を選択します。
 
-   ![](assets/aggregate.png){width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 ### オーディエンスを選択 {#audiences}
 
@@ -162,7 +161,7 @@ ht-degree: 100%
 
    *「フェスティバル来場者」オーディエンスに属するすべてのプロファイルを返すクエリの例：*
 
-   ![](assets/query-audience.png)
+   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
 
 ### 定義済みフィルターを使用 {#predefined-filters}
 
@@ -179,7 +178,7 @@ ht-degree: 100%
 
    *「非アクティブな顧客」定義済みフィルターに対応するすべてのプロファイルを返すクエリの例：*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
 
 ### コンポーネントのコピー＆ペースト {#copy}
 
@@ -197,11 +196,11 @@ ht-degree: 100%
 
    | 単一のコンポーネントのコピー | 複数のコンポーネントのコピー |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 1. コンポーネントをペーストするには、目的のトランジションの最後にある「+」ボタンをクリックし、「**n 個の項目をペースト**」を選択します。
 
-   ![](assets/copy-paste.png)
+   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
 
 ## フィルタリングコンポーネントと演算子を結合 {#operators}
 
@@ -214,7 +213,7 @@ ht-degree: 100%
 
 この例では、2 つ目のトランジションに新しいオーディエンスタイプのフィルタリングコンポーネントを追加しました。このコンポーネントは、**AND** 演算子を使用して定義済みフィルタータイプの条件にリンクされています。つまり、クエリ結果には、「マドリード在住」の定義済みフィルターのターゲットであり、かつ「ディスカウントハンター」オーディエンスに属する受信者が含まれます。
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 
 フィルタリング条件を相互にリンクするために使用する演算子を変更するには、この演算子をクリックし、右側に開く&#x200B;**グループ**&#x200B;パネルで目的の演算子を選択します。
 
@@ -224,13 +223,13 @@ ht-degree: 100%
 * **OR（和集合）**：アウトバウンドトランジション内のフィルタリングコンポーネントの 1 つ以上と一致する結果が含まれます。
 * **EXCEPT（除外）**：アウトバウンドトランジションのすべてのフィルタリングコンポーネントと一致する結果を除外します。
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
 
 また、トランジションで「**+**」ボタンをクリックすると、コンポーネントの中間グループを作成できます。これにより、この特定の場所に演算子を追加して、複数のコンポーネントをグループ化し、クエリを絞り込むことができます。
 
 次の例では、「報酬を受ける VIP」または「超 VIP」オーディエンスのいずれかからの結果を含める中間グループを作成しました。
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
 
 ## クエリを確認および検証
 
@@ -254,4 +253,4 @@ ht-degree: 100%
 
 クエリは、いつでも開いて変更できます。既存のクエリを開くと、「**+**」ボタンが表示されずに簡素化されたビューで表示されます。新しい要素をクエリに追加するには、キャンバス上でコンポーネントまたは演算子を選択して、「**+**」 ボタンを表示します。
 
-![](assets/edit-audience.png)
+![](assets/edit-audience.png){zoomable=&quot;yes&quot;}

@@ -2,11 +2,10 @@
 audience: end-user
 title: SMS 配信のデザイン
 description: SMS 配信のデザイン方法を学ぶ
-badge: label="限定提供（LA）"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
@@ -31,11 +30,11 @@ SMS 配信のコンテンツをデザインするには、次の手順に従い�
 
    さらに、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」をクリックすると、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツをメッセージに含めることができます。
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL メッセージ]**」フィールドにテキストメッセージを入力するか、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」オプションをクリックしてコンテンツを定義し、動的コンテンツを追加します。[詳細情報](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
 
 1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。
 

@@ -2,11 +2,10 @@
 audience: end-user
 title: SMS チャネルのグローバルレポート
 description: SMS チャネルのグローバルレポートについて
-badge: label="限定提供（LA）"
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '593'
 ht-degree: 100%
 
 ---
@@ -28,7 +27,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートには、包括的な主要業績評価指標（KPI）が表示され、各 SMS 配信における訪問者のインタラクションパターンについての深い洞察が得られます。指標の概要を以下に示します。
 
-![](assets/global_report_sms_delivery_overview.png)
+![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++配信の概要指標の詳細情報
 
@@ -51,7 +50,7 @@ ht-degree: 100%
 
 **[!UICONTROL ターゲットオーディエンス]**&#x200B;のテーブルとグラフには、送信した各 SMS 配信の受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/global_report_sms_targeted_audience.png)
+![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++ターゲットオーディエンス指標の詳細情報
 
@@ -72,7 +71,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信統計]**&#x200B;テーブルには、すべての SMS 配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
-![](assets/global_report_sms_delivery_statistics.png)
+![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++配信統計指標の詳細情報
 
@@ -99,7 +98,7 @@ ht-degree: 100%
 
 エラータイプについては、[Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){target="_blank"}を参照してください。
 
-![](assets/global_report_sms_causes_exclusion.png)
+![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
 
 ## 配信スループット {#delivery-throughput-sms}
 
@@ -108,6 +107,6 @@ ht-degree: 100%
 >title="SMS の配信スループット"
 >abstract="**配信スループット**&#x200B;レポートには、SMS メッセージ配信システムの効率に関する広範なインサイトが表示され、指定した期間内の成功率とエラー率の詳細な概要が示されます。"
 
-![](assets/global_report_sms_delivery_throughput.png)
+![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 **[!UICONTROL 配信スループット]**&#x200B;レポートには、SMS メッセージ配信システムの効果に関する包括的なインサイトが表示され、指定した期間における成功率とエラー率の詳細な概要が示されます。

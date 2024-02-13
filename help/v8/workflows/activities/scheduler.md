@@ -2,11 +2,10 @@
 audience: end-user
 title: スケジューラーワークフローアクティビティの使用
 description: スケジューラーワークフローアクティビティの使用方法について説明します
-badge: label="限定提供（LA）"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '525'
 ht-degree: 100%
 
 ---

@@ -2,12 +2,11 @@
 audience: end-user
 title: メールチャネルのキャンペーンレポート
 description: メールチャネルのキャンペーンレポートについての詳細情報
-badge: label="限定提供（LA）"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 100%
+source-wordcount: '1595'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;では、訪問者がメール配信にどのようにエンゲージしたかに関する詳細情報を提供する、主要業績評価指標（KPI）について説明します。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_1.png)
+![](assets/campaign_report_email_1.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -51,7 +50,7 @@ ht-degree: 100%
 
 **[!UICONTROL 初期ターゲットオーディエンス統計]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_2.png)
+![](assets/campaign_report_email_2.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -72,7 +71,7 @@ ht-degree: 100%
 
 **[!UICONTROL 実行統計]**&#x200B;テーブルには、配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_3.png)
+![](assets/campaign_report_email_3.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -97,7 +96,7 @@ ht-degree: 100%
 
 **[!UICONTROL 反応の統計]**&#x200B;テーブルには、配信で受信者のアクティビティに使用できるデータが含まれます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_4.png)
+![](assets/campaign_report_email_4.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -121,7 +120,7 @@ ht-degree: 100%
 
 **[!UICONTROL クリックストリーム]**&#x200B;テーブルには、受信者による配信の操作に関するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_5.png)
+![](assets/campaign_report_email_5.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -146,7 +145,7 @@ ht-degree: 100%
 
 このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}を参照してください。
 
-![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -186,7 +185,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信統計]**&#x200B;指標では、送信されたメールで使用可能なデータに関する詳細情報を提供する主要業績評価指標（KPI）が提供されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_7.png)
+![](assets/campaign_report_email_7.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -212,7 +211,7 @@ ht-degree: 100%
 
 **[!UICONTROL 開封率およびクリックスルー率]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_8.png)
+![](assets/campaign_report_email_8.png){zoomable=&quot;yes&quot;}
 
 +++ 詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -237,7 +236,7 @@ ht-degree: 100%
 
 **[!UICONTROL URL とクリックストリーム]**&#x200B;では、配信中に最もクリックされた URL に関する詳細情報を提供する主要業績評価指標（KPI）が提供されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_9.png)
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}
 
 +++ 詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -260,7 +259,7 @@ ht-degree: 100%
 
 **[!UICONTROL 最も訪問されたリンク上位 10 件]**&#x200B;グラフおよびテーブルには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_10.png)
+![](assets/campaign_report_email_10.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -279,7 +278,7 @@ ht-degree: 100%
 
 **[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。
 
-![](assets/campaign_report_email_11.png)
+![](assets/campaign_report_email_11.png){zoomable=&quot;yes&quot;}
 
 ## ユーザーアクティビティ {#user-activities-email}
 
@@ -290,7 +289,7 @@ ht-degree: 100%
 
 **[!UICONTROL ユーザーアクティビティ]**&#x200B;レポートには、開封数とクリック数の分類がチャート形式で表示されます。このレポートの指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_user_activities.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++詳しくは、メール配信レポート指標を参照してください。
 

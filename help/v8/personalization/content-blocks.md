@@ -1,6 +1,6 @@
 ---
 title: Campaign でのコンテンツのパーソナライズ
-description: Adobe Campaign web でのコンテンツのパーソナライズ方法について説明します
+description: Adobe Campaign Web でのコンテンツのパーソナライズ方法について説明します
 feature: Personalization
 topic: Personalization
 role: Data Engineer

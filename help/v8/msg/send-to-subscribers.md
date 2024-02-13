@@ -2,11 +2,10 @@
 audience: end-user
 title: メッセージをサービスのサブスクライバーに送信
 description: サービスのサブスクライバーにメッセージを送信する方法を学ぶ
-badge: label="限定提供（LA）"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
-workflow-type: ht
-source-wordcount: '231'
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '239'
 ht-degree: 100%
 
 ---
@@ -23,25 +22,25 @@ Adobe Campaign でサブスクリプションサービスを作成し、メッ�
 
 1. 「**[!UICONTROL オーディエンスを作成]**」アクティビティを開き、「**[!UICONTROL オーディエンスを作成]**」を選択します。[「オーディエンスを作成」アクティビティの設定方法を説明します](../workflows/activities/build-audience.md)
 
-   ![](assets/service-create-audience.png)
+   ![](assets/service-create-audience.png){zoomable=&quot;yes&quot;}
 
 1. オーディエンス作成フローで、**[!UICONTROL サービス]**&#x200B;が定義したサービスと等しいなどの&#x200B;**[!UICONTROL 購読]**&#x200B;が存在するというカスタム条件を選択します。この例では、「**Luma ヨガニュースレター**」を選択します。
 
-   ![](assets/service-audience-subscribers.png)
+   ![](assets/service-audience-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 確認]**」を選択し、「**[!UICONTROL 開始]**」をクリックしてワークフローを実行します。
 
 1. 配信を作成します。配信の作成手順について詳しくは、[このページ](../msg/gs-messages.md#create-delivery)を参照してください。
 1. 配信設定を参照し、デフォルトのターゲットマッピングを&#x200B;**サブスクリプション（nms:subscriptions）**&#x200B;に変更します。
 
-   ![](assets/service-delivery-change-mapping.png)
+   ![](assets/service-delivery-change-mapping.png){zoomable=&quot;yes&quot;}
 
 1. 配信のメインターゲットセクションで、先ほど作成したオーディエンスを選択します。
 
-   ![](assets/service-delivery-targeting-subscribers.png)
+   ![](assets/service-delivery-targeting-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. メッセージコンテンツを作成し、配信をテストおよび送信します。詳しくは、[この節](../preview-test/preview-test.md)を参照してください。
 
-   ![](assets/service-delivery-ready.png)
+   ![](assets/service-delivery-ready.png){zoomable=&quot;yes&quot;}
 
 配信は、このサービスのサブスクライバーにのみ送信されます。

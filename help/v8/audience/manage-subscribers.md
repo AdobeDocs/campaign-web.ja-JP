@@ -2,11 +2,10 @@
 audience: end-user
 title: サブスクライバーの管理
 description: Adobe Campaign Web で、サービスのサブスクライバーに対して管理および配信する方法を学ぶ
-badge: label="限定提供（LA）"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '316'
 ht-degree: 100%
 
 ---
@@ -25,15 +24,15 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL サブスクライバー]**」タブに移動し、「**[!UICONTROL サブスクライバーを追加]**」をクリックします。
 
-   ![](assets/service-subscribers-tab.png)
+   ![](assets/service-subscribers-tab.png){zoomable=&quot;yes&quot;}
 
 1. リストから追加するプロファイルを選択し、「**[!UICONTROL 確認]**」をクリックします。
 
-   ![](assets/service-subscribers-select-profiles.png)
+   ![](assets/service-subscribers-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL 送信]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->」をクリックすると、[サービスを作成](manage-services.md#create-service)の際に定義したサブスクリプション[確認メッセージ](manage-services.md#create-confirmation-message)を、選択した受信者が受信します。
 
-   ![](assets/service-subscribers-confirmation-msg.png)
+   ![](assets/service-subscribers-confirmation-msg.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -51,13 +50,13 @@ ht-degree: 100%
 
 1. 目的の受信者名の横にある 3 つのドットのアイコンをクリックし、「**[!UICONTROL 削除]**」を選択します。
 
-   ![](assets/service-subscribers-delete.png)
+   ![](assets/service-subscribers-delete.png){zoomable=&quot;yes&quot;}
 
 1. 削除を確認します。
 
 1. 「**[!UICONTROL 送信]**」をクリックすると、[サービスを作成](manage-services.md#create-service)の際に選んだ登録解除[確認メッセージ](manage-services.md#create-confirmation-message)を、選択した受信者が受信します。
 
-   ![](assets/service-subscribers-delete-confirmation.png)
+   ![](assets/service-subscribers-delete-confirmation.png){zoomable=&quot;yes&quot;}
 
 受信者が「**[!UICONTROL サブスクライバー]**」タブから削除され、サービスの登録が解除されました。
 
@@ -67,6 +66,6 @@ ht-degree: 100%
 
 この期間は、[サービスの作成](manage-services.md#create-service)時に指定されます。「**[!UICONTROL その他のオプション]**」から、「**[!UICONTROL 無制限の有効期間]**」オプションを選択し、サービスの有効期間を定義します。
 
-![](assets/service-create-validity-period.png)
+![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
 指定された期間が終了すると、すべてのサブスクライバーがそのサービスから自動的に登録解除されます。

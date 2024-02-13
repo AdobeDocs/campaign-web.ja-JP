@@ -2,26 +2,25 @@
 audience: end-user
 title: ワークフロー作成の主な原則
 description: Adobe Campaign Web でのワークフローの主な原則について説明します
-badge: label="限定提供（LA）"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 98%
 
 ---
 
 
 # ワークフロー作成の主な原則 {#gs-workflow-creation}
 
-Adobe Campaign web を使用すると、ワークフローを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
+Adobe Campaign Web を使用すると、ワークフローを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
 
 
 ## ワークフローの内部とは {#gs-workflow-inside}
 
 ワークフローダイアグラムは、実行される処理を表したものです。これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
-![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;} {zoomable=&quot;yes&quot;}
 
 各ワークフローには次が含まれます。
 
@@ -40,16 +39,16 @@ Adobe Campaign web を使用すると、ワークフローを視覚的なキャ�
 
 1. ワークフローは、**ワークフロー**&#x200B;メニューからスタンドアロンワークフローとして作成できます。
 
-   ![](assets/create-a-standalone-wf.png)
+   ![](assets/create-a-standalone-wf.png){zoomable=&quot;yes&quot;}
 
 1. ワークフローは、キャンペーンの「**ワークフロー**」タブからキャンペーン内で直接作成できます。キャンペーンに含めると、ワークフローは他のすべてのキャンペーンのワークフローと共に実行され、レポート指標はすべてキャンペーンレベルでグループ化されます。
 
-   ![](assets/create-a-wf-from-a-campaign.png)
+   ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
 
 
 ワークフローを作成する主な手順は次のとおりです。
 
-![](assets/workflow-creation-process.png)
+![](assets/workflow-creation-process.png){zoomable=&quot;yes&quot;}
 
 以下の手順については、次の節で詳しく説明します。
 

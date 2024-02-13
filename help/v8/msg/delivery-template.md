@@ -5,11 +5,10 @@ description: Campaign web で配信テンプレートを作成および使用す
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="限定提供（LA）"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1109'
 ht-degree: 100%
 
 ---
@@ -49,24 +48,24 @@ ht-degree: 100%
 
 コンテンツテンプレートリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;を選択し、「**テンプレート**」タブを参照します。
 
-![](assets/templates-tab.png)
+![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
 
 現在の環境で[作成](#create-a-delivery-template)されたすべてのテンプレートが表示されます。
 
 チャネルおよびフォルダーのコンテンツテンプレートをフィルターできます。配信属性を使用してルールを作成すると、高度なフィルターを設定することもできます。[詳しくは、クエリモデラーを参照してください](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png)
+![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
 
 テンプレートを編集するには、リストから目的の項目をクリックします。そこから
 
 * そのコンテンツ、プロパティ、オーディエンス、およびそれに添付されているオファーを変更できます。
 * また、テンプレートをテストすることもできます。[詳細情報](#test-template)
 
-![](assets/templates-edition.png)
+![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
 
 テンプレートを削除または[複製](#copy-an-existing-template)するには、**[!UICONTROL その他のアクション]**&#x200B;メニュー（**[!UICONTROL テンプレート]**&#x200B;リストまたはテンプレート編集画面）から対応するアクションを選択します。
 
-![](assets/templates-more-actions.png)
+![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -97,15 +96,15 @@ ht-degree: 100%
 
 1. 複製を確定します。
 
-   ![](assets/templates-duplicate-confirm.png)
+   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
 
 1. 中央の画面に新しいテンプレートダッシュボードが開きます。必要に応じて、テンプレート設定を編集します。
 
-   ![](assets/templates-duplicated-item.png)
+   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
 
-1. 「**[!UICONTROL レビュー]**」ボタンをクリックして、テンプレートを保存して確認します。すべての設定を編集、削除および複製できます。
+1. 「**[!UICONTROL レビュー]**」ボタンをクリックしてテンプレートを保存およびレビューします。すべての設定を編集、削除および複製できます。
 
-   ![](assets/templates-review-screen.png)
+   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
 
 1. 必要に応じて、テンプレートのレンダリングをテストします。[詳細情報](#test-template)
 
@@ -120,7 +119,7 @@ ht-degree: 100%
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;メニューを参照します。
 1. 「**[!UICONTROL 参照]**」タブで、目的の配信名の右側にある「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL テンプレートとしてコピー]**」を選択します。
 
-   ![](assets/templates-convert-delivery.png)
+   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
 
    リストからテンプレートを選択し、テンプレート編集画面からこのオプションを選択することもできます。
 
@@ -145,12 +144,12 @@ ht-degree: 100%
 1. **配信**&#x200B;の左側のメニューから、「**テンプレート**」タブを参照します。[詳細情報](#access-manage-templates)
 1. 「**[!UICONTROL テンプレートを作成]**」ボタンをクリックします。
 
-   ![](assets/templates-create-button.png)
+   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
 
 1. テンプレートに使用するチャネルを選択します。
 1. そのチャネルの組み込み配信テンプレートは、独自のテンプレートの作成に役立つようにデフォルトで使用されます。 必要に応じて、選択したチャネルの右側にある専用ボタンを使用して別のテンプレートを選択します。
 
-   ![](assets/templates-channel-browse.png)
+   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL テンプレートを作成]**」ボタンをもう一度クリックします。
 
@@ -180,7 +179,7 @@ ht-degree: 100%
 
 1. 画面右上の「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
-   ![](assets/templates-simulate-button.png)
+   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. 1 つ以上のテストプロファイルを選択して、メールのレンダリングを確認します。また、データベースから実際のプロファイルを選択することもできます。[詳しくは、テストプロファイルを参照してください](../audience/test-profiles.md)
 
@@ -188,7 +187,7 @@ ht-degree: 100%
 
 [詳しくは、コンテンツのプレビューを参照してください](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png)
+   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
 
 1. ウィンドウを閉じて、テンプレート編集画面に戻ります。
 

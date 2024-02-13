@@ -2,11 +2,10 @@
 audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
-badge: label="限定提供（LA）"
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '643'
 ht-degree: 74%
 
 ---
@@ -21,11 +20,11 @@ ht-degree: 74%
 
 ダイアグラムに追加できるアクティビティのリストが表示されます。使用可能なアクティビティは、ワークフローダイアグラム内の位置によって異なります。例えば、最初のアクティビティを追加する際に、オーディエンスのターゲティング、ワークフローパスの分割、 **待機** 「 」アクティビティを使用して、ワークフローの実行を遅らせます。 一方、 **オーディエンスの構築** アクティビティを使用すると、ターゲティングアクティビティでターゲットを絞り込んだり、チャネルアクティビティでオーディエンスに配信を送信したり、フロー制御アクティビティでワークフロープロセスを整理したりできます。
 
-![](assets/workflow-start.png)
+![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
 
 アクティビティがダイアグラムに追加されると、右側のパネルが表示され、新しく追加されたアクティビティを特定の設定で設定できます。各アクティビティの設定方法について詳しくは、[この節](activities/about-activities.md)を参照してください。
 
-![](assets/workflow-configure-activities.png)
+![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
 
 この手順を繰り返し、ワークフローで実行するタスクに応じて、必要な数のアクティビティを追加します。 また、2 つのアクティビティの間に新しいアクティビティを挿入することもできます。これをおこなうには、 **+** ボタンをクリックして、目的のアクティビティを選択し、右側のウィンドウで設定します。
 
@@ -45,13 +44,13 @@ ht-degree: 74%
 * アクティビティの「**ログとタスク**」にアクセスします。
 * アクティビティを「**一時停止／再開**」します。ワークフローを実行すると、一時停止したアクティビティで一時停止します。対応するタスクと、同じパス内でそのタスクに続くすべてのタスクが実行されません。
 
-![](assets/activity-action.png){width="50%"}
+![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
 
 ## 例 {#example}
 
 次に、コーヒーマシンに関心のあるすべての顧客（VIP 顧客を除く）にメールを送信するように設計されたワークフローの例を示します。
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 これを実現するために、以下のアクティビティが追加されました。
 

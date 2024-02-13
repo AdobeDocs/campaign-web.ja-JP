@@ -122,7 +122,7 @@ Campaign メールデザイナーを使用すると、直感的なドラッグ�
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>新しいユーザーインターフェイスを確認</strong><br/>Adobe Experience Platform と統合された Adobe Campaign web の、新しいインターフェイスとナビゲーションエクスペリエンスを確認します。</div>
+    <div><strong>新しいユーザーインターフェイスを確認</strong><br/>Adobe Experience Platform と統合された Adobe Campaign Web の、新しいインターフェイスとナビゲーションエクスペリエンスを確認します。</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>

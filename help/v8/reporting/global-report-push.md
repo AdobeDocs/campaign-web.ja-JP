@@ -2,11 +2,10 @@
 audience: end-user
 title: プッシュチャネルのグローバルレポート
 description: プッシュチャネルのグローバルレポートについて
-badge: label="限定提供（LA）"
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 72899742daf04a0da6e2fb3d802b7841753b8c6c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '554'
 ht-degree: 100%
 
 ---
@@ -28,7 +27,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートは、すべてのプッシュ通知配信に対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。指標については、以下で詳しく説明します。
 
-![](assets/global_report_push_delivery_overview.png)
+![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++配信の概要指標の詳細情報
 
@@ -51,7 +50,7 @@ ht-degree: 100%
 
 **[!UICONTROL ターゲットオーディエンス]**&#x200B;テーブルおよびグラフには、送信済みの各プッシュ通知配信の受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/global_report_push_targeted_audience.png)
+![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++ターゲットオーディエンス指標の詳細情報
 
@@ -72,7 +71,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信統計]**&#x200B;グラフには、すべてのプッシュ配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++配信統計指標の詳細情報
 
@@ -106,6 +105,6 @@ ht-degree: 100%
 >title="配信スループットレポート"
 >abstract="**配信スループット**&#x200B;レポートには、指定した期間内のプラットフォーム全体のプッシュ通知配信スループットに関する詳細情報が表示されます。"
 
-![](assets/global_report_push_delivery_throughput.png)
+![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 **[!UICONTROL 配信スループット]**&#x200B;レポートには、プッシュ通知配信システムの効果に関する包括的なインサイトが表示され、指定された期間における成功率とエラー率の詳細な概要が示されます。

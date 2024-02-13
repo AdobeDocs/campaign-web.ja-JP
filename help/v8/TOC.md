@@ -14,7 +14,7 @@ ht-degree: 92%
 ---
 
 
-# Adobe Campaign web ドキュメント {#v8}
+# Adobe Campaign Web ドキュメント {#v8}
 
 + [Adobe Campaign Web ユーザーインターフェイスドキュメント](campaign-web-home.md)
 + [新機能](rn/whats-new.md)

@@ -1,16 +1,15 @@
 ---
 title: 条件付きコンテンツを作成
-description: Adobe Campaign web でコンテンツをパーソナライズするための条件を定義する方法について説明します
+description: Adobe Campaign Web でコンテンツをパーソナライズするための条件を定義する方法について説明します
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="限定提供（LA）"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 9f5d3d8ea7441641e037545d5bf22dda09a1f881
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 85%
+source-wordcount: '994'
+ht-degree: 84%
 
 ---
 
@@ -41,7 +40,7 @@ ht-degree: 85%
 
 1. フィールドの横にある「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンをクリックして、式エディターを開きます。
 
-   ![](assets/open-perso-editor-sms.png)
+   ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
 1. パーソナライゼーションエディターで、左側にある&#x200B;**[!UICONTROL ヘルパー関数]**&#x200B;メニューを開きます。
 
@@ -51,7 +50,7 @@ ht-degree: 85%
    * `<VALUE>` を満たす値に置き換えます。例：`'French'`
    * `Ìnsert content here` を、指定した条件を満たすプロファイルに表示するコンテンツに置き換えます。
 
-     ![](assets/condition-sample1.png){width="800" align="center"}
+     ![](assets/condition-sample1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 受信者が条件を満たさない場合に表示するコンテンツを指定します。これを行うには、**else** ヘルパー関数を使用します。
 
@@ -59,11 +58,11 @@ ht-degree: 85%
 
    1. `Ìnsert content here` を、if 関数の条件を満たさないプロファイルに表示するコンテンツに置き換えます。
 
-   ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    また、**else if** ヘルパー関数を使用して、複数のコンテンツバリアントを含む条件を作成することもできます。例えば、次の式では、受信者の言語に応じてメッセージの 3 つのバリアントが表示されます。
 
-   ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    >[!NOTE]
    >
@@ -93,29 +92,29 @@ ht-degree: 85%
 
 1. コンテンツコンポーネントを選択し、「**[!UICONTROL 条件付きコンテンツを有効にする]**」アイコンをクリックします。
 
-   ![](assets/condition-email-enable.png){width="800" align="center"}
+   ![](assets/condition-email-enable.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. 画面の左側に&#x200B;**[!UICONTROL 条件付きコンテンツ]**&#x200B;パネルが開きます。 このパネルでは、条件を使用して、選択したコンテンツコンポーネントの複数のバリエーションを作成できます。
 
 1. 最初のバリアントを設定します。カーソルを合わせる **[!UICONTROL バリアント — 1]** （内） **[!UICONTROL 条件付きコンテンツ]** ウィンドウを開き、 **[!UICONTROL 条件を追加]** 」ボタンをクリックします。
 
-   ![](assets/condition-add-condition.png){width="800" align="center"}
+   ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. ルールビルダーが表示されます。以下を提供します。 **プロファイル**, **メッセージ**、および **配信** 属性を使用して、条件を作成できます。
 
    また、 **条件** メニューには、キャンバスに追加できる事前定義済みの条件が用意されており、バリアントを簡単に作成できます。 これらを使用するには、 **追加** ボタンをクリックし、次の間の要素を置き換えます。 `<` および `>`記号を目的の要素で指定します。 に指定した値が `<value>` オブジェクトは引用符で囲みます。
 
-   ![](assets/condition-syntax.png){width="800" align="center"}
+   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. メッセージの最初のバリアントの条件が整ったら、「 **[!UICONTROL 確認]**. この例では、言語が「フランス語」の受信者をターゲティングとするルールを作成します。
 
-   ![](assets/condition-example.png){width="800" align="center"}
+   ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. このルールがバリアントに関連付けられました。読みやすくするために、省略記号メニューをクリックしてバリアントの名前を変更することをお勧めします。
 
 1. メッセージの送信時にルールが満たされた場合の、コンポーネントの表示方法を設定します。この例では、受信者の優先言語がフランス語の場合、テキストをフランス語で表示します。
 
-   ![](assets/condition-email-variant1.png){width="800" align="center"}
+   ![](assets/condition-email-variant1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. コンテンツコンポーネントに必要な数だけバリアントを追加します。いつでもバリアントを切り替え、条件ルールに基づいてコンテンツコンポーネントの表示方法を確認できます。
 
