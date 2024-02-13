@@ -2,12 +2,11 @@
 audience: end-user
 title: Campaign Web ユーザーインターフェイスの権限管理
 description: Campaign Web ユーザーインターフェイスの権限の詳細を説明します
-badge: label="限定提供（LA）"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 97%
+source-wordcount: '601'
+ht-degree: 91%
 
 ---
 
@@ -67,11 +66,11 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 1. **エクスプローラー**&#x200B;の左側のナビゲーションメニューからフォルダーを選択します。
 1. 右上隅にある「...」をクリックし、「**フォルダー権限**」を選択します。
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. 次のように、画面で詳細を確認します。
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    グループまたはオペレーターは、選択したフォルダーに保存されているデータに対する読み取り、書き込み、削除の権限を持つことができます。
 
@@ -96,8 +95,8 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 1. 右上隅にある「...」をクリックし、「**新しいサブフォルダーを作成**」を選択します。
 1. フォルダーの名前を入力して保存します。
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   フォルダーは、現在のフォルダーのサブフォルダーとして追加されます。その新しいフォルダーを参照して、そのフォルダーに直接コンポーネントを作成します。また、配信の場合で以下に示すように、プロパティの「**その他のオプション**」セクションで、任意のフォルダーからコンポーネントを作成し、その新しいフォルダーに保存することもできます。
+   フォルダーは、現在のフォルダーのサブフォルダーとして追加されます。その新しいフォルダーを参照して、そのフォルダーに直接コンポーネントを作成します。任意のフォルダーからコンポーネントを作成し、その新しいフォルダーに、 **その他のオプション** 」セクションに表示されます。
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

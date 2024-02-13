@@ -1,12 +1,11 @@
 ---
 title: 定義済みフィルターの操作
 description: Adobe Campaign web での定義済みフィルターの作成および管理方法について説明します
-badge: label="限定提供（LA）"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 95%
+source-wordcount: '816'
+ht-degree: 76%
 
 ---
 
@@ -36,12 +35,7 @@ ht-degree: 95%
 
 既存の組み込みフィルターを使用して、データの特定のサブセットにアクセスしたり、独自の定義済みフィルターを作成して保存したりできます。
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
-
->[!IMPORTANT]
->
->製品のそのバージョンでは、ルールを作成、配信のオーディエンスを選択、またはワークフローでオーディエンスを作成する作成際に、ユーザーインターフェイスに一部の定義済みフィルターが表示されませんが、引き続きそれらを使用できます。[詳細情報](guardrails.md#predefined-filters-filters-guardrails-limitations)
-
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 ## 定義済みフィルターの作成 {#create-predefined-filter}
 
@@ -62,11 +56,11 @@ ht-degree: 95%
 1. クエリモデラーを開き、フィルター条件を定義します。次の例では、マドリードに住み、ニュースレターを購読している受信者をフィルタリングします。
 1. 「**フィルターを選択または保存**」ボタンをクリックし、「**フィルターとして保存**」を選択します。
 
-   ![](assets/predefined-filters-save.png)
+   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
 
 1. 「**新規フィルターを作成**」を選択して、そのフィルターの名前と説明を入力します。
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
 
    必要に応じて、フィルターをお気に入りに保存できます。詳しくは、[こちら](#fav-filter)を参照してください。
 
@@ -86,12 +80,12 @@ ht-degree: 95%
 
 1. フィルターのルールを定義します。例えば、30 歳以上のプロファイルなどです。
 
-   ![](assets/filter-30+.png)
+   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
 
 
 1. 変更内容を保存します。
 
-   ![](assets/new-filter.png)
+   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
 
 
 フィルターが定義済みフィルターに追加されます。必要に応じて、フィルターをお気に入りに保存できます。詳しくは、[こちら](#fav-filter)を参照してください。
@@ -104,54 +98,51 @@ ht-degree: 95%
 
 フィルターをお気に入りに保存すると、以下に示すように、フィルター作成リストの「**お気に入りのフィルター**」セクションですべてのユーザーが使用できます。
 
-![](assets/predefined-filters-favorite.png){width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
 
 ## 定義済みフィルターを使用 {#use-predefined-filter}
 
 定義済みフィルターは、ルールプロパティを定義する際に使用できます。定義済みフィルターにアクセスするには、クエリモデラ―のドロップダウンで「**カスタムフィルターを選択**」オプションを選択します。
 
-その後、現在のコンテキストで使用できる定義済みフィルターの完全なリストにアクセスできます。
-
-また、ドロップダウンの「**お気に入りのフィルター**」セクションに表示されるフィルターのショートカットも使用できます。お気に入りについて詳しくは、[こちらの節](#fav-filter)を参照してください。
+その後、現在のコンテキストで使用できる定義済みフィルターの完全なリストにアクセスし、 **お気に入りのフィルター** 」セクションに表示されます。 お気に入りについて詳しくは、[こちらの節](#fav-filter)を参照してください。
 
 例えば、定義済みフィルターからオーディエンスを作成するには、次の手順に従います。
 
-1. 左側のメニューで&#x200B;**オーディエンス**&#x200B;エントリを参照します。
-1. 「**オーディエンスを作成**」ボタンをクリックします。
+1. 次を参照： **オーディエンス** 左側のメニューにエントリを追加し、 **オーディエンスを作成** 」ボタンをクリックします。
 1. オーディエンス名を入力し、「**オーディエンスを作成**」ボタンをクリックします。
-1. **クエリ**&#x200B;アクティビティを選択して、右側のウィンドウで「**オーディエンスを作成**」ボタンをクリックします。
+1. を選択します。 **クエリ** 「 」アクティビティを開き、右側のウィンドウで「 」 **オーディエンスを作成** 」ボタンをクリックします。
 
-   ![](assets/build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. 「**フィルターボタンを選択または保存**」から、「**カスタムフィルターを選択**」オプションを選択します。
+1. 次から： **フィルターを選択または保存** ボタンをクリックし、 **カスタムフィルターを選択** オプション。
 
-   ![](assets/build-audience-select-custom-filter.png)
+   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
 1. オーディエンスの作成、選択、確認に使用する定義済みフィルターを参照します。
 
-   ![](assets/build-audience-filter-list.png)
+   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
 
 1. このフィルターのルールのプロパティを確認し、確定します。
 
    フィルターが&#x200B;**クエリ**&#x200B;アクティビティでクエリとして使用されるようになります。
 
-   ![](assets/build-audience-confirm.png)
+   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
 
 1. 変更を保存し、「**開始**」ボタンをクリックしてオーディエンスを作成し、オーディエンスリストで使用できるようにします。
 
 ## 定義済みフィルターの管理 {#manage-predefined-filter}
 
-定義済みフィルターはすべて、左側のナビゲーションメニューの専用のエントリにグループ化されます。
+すべての定義済みフィルターは、左側のナビゲーションメニューの専用のエントリにまとめられます。
 
-![](assets/list-of-filters.png)
+![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-このリストから、上記のとおりに新規フィルターを作成できます。さらに、以下の操作が可能です。
+このリストから、上記の詳細に従って新しいフィルターを作成し、次の操作を実行できます。
 
-* 既存のフィルターを編集しルールとプロパティを変更
-* 定義済みフィルターを複製
-* 定義済みフィルターを削除
+* 既存のフィルターを編集し、ルールおよびプロパティを変更します。
+* 定義済みフィルターを複製します。
+* 定義済みフィルターを削除します。
 
-オーディエンスの作成時にすばやくアクセスできるよう、定義済みフィルターをお気に入りに追加できます。詳しくは、[こちら](#fav-filter)を参照してください。
+また、オーディエンスを作成する際にすばやくアクセスできるように、定義済みフィルターをお気に入りに追加することもできます。 詳しくは、[こちら](#fav-filter)を参照してください。
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
