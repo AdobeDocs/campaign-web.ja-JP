@@ -5,8 +5,7 @@ user-guide-description: Adobe Campaign Web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign Web ユーザーインターフェイス
-hide: true
-source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 92%
