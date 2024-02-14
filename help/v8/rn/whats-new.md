@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign Web ユーザーインターフェイスに加わる新機能を紹介します。
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 65%
+source-wordcount: '1308'
+ht-degree: 62%
 
 ---
 
@@ -130,11 +130,13 @@ Campaign のメールエディターで **HTML コンテンツの読み込みと
 
 ## Campaign Web ユーザーインターフェイスへの移行
 
-Campaign ユーザーは、引き続きクライアントコンソールにアクセスして、Campaign のリソースとコンポーネントを作成および管理できます。データと設定は、環境間で同期されます。詳しくは、[こちら](../get-started/get-started.md#about-campaign-client-consoleac-client)を参照してください。
+Campaign ユーザーは、引き続きクライアントコンソールにアクセスして、Campaign のリソースとコンポーネントを作成および管理できます。データと設定は、環境間で同期されます。詳しくは、[こちら](../get-started/get-started.md#ac-client)を参照してください。
 
-さらに、クライアントコンソールで既に使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから、Campaign Web ユーザーインターフェイスに表示されます。 エクスプローラービューについて詳しくは、[この節](../get-started/user-interface.md#explorer-user-interface-explorer)を参照してください。
+さらに、クライアントコンソールで既に使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから、Campaign Web ユーザーインターフェイスに表示されます。 エクスプローラービューについて詳しくは、[この節](../get-started/user-interface.md#user-interface-explorer)を参照してください。
 
-Campaign Web ユーザーインターフェイスでは、ユーザーインターフェイスにユーザーの権限が反映されます。 権限について詳しくは、[このページ](../get-started/permissions.md)を参照してください。
+Campaign Web ユーザーインターフェイスでは、ユーザーインターフェイスにユーザーの権限が反映されます。 での権限の詳細を説明します。 [このページ](../get-started/permissions.md).
+
+Campaign Web ユーザーインターフェイスと Campaign クライアントコンソール間のサポート対象およびサポート対象外の機能と相互運用性 [このページの](../get-started/capability-matrix.md).
 
 ## 用語の更新 {#terminology-updates}
 
@@ -155,5 +157,7 @@ Campaign Web ユーザーインターフェイスでは、ユーザーインタ�
 * レポート指標（開封数やトラッキングデータなど）は、1 時間ごとに更新されます。
 * 配信ダッシュボードの KPI は 5 分ごとに更新されます。- ただし、配信の準備はリアルタイムです。
 * 上部のバーにある Adobe Experience Cloud 通知と統合ヘルプは、まだ統合されていません。
+
+Campaign クライアントコンソールで作成または変更されたワークフローを使用して Campaign Web ユーザーインターフェイスで作業する場合は、特定のガードレールと制限が適用されます。 リストに表示されます。 [この節](../get-started/guardrails.md).
 
 Campaign Web ユーザーインターフェイスと Campaign クライアントコンソール間のサポート/サポートされない機能と相互運用性の詳細 [このページの](../get-started/capability-matrix.md).

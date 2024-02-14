@@ -1,15 +1,15 @@
 ---
-title: Campaign Web ユーザーインターフェイスのガードレールと制限
-description: Campaign Web ユーザーインターフェイスのガードレールと制限
+title: Campaign Web ユーザーインターフェイスワークフローのガードレールと制限
+description: Campaign Web ユーザーインターフェイスでワークフローを操作する際のガードレールと制限
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 20%
+source-wordcount: '381'
+ht-degree: 19%
 
 ---
 
-# ガードレールと制限 {#guardrails-limitations}
+# ワークフローのガードレールと制限 {#guardrails-limitations}
 
 Campaign クライアントコンソールで作成または変更されたワークフローを使用して Campaign Web ユーザーインターフェイスで作業する場合、以下に示すガードレールと制限が適用されます。
 
