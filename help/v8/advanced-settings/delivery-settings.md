@@ -4,9 +4,9 @@ title: 配信設定
 description: Campaign web での配信設定についての詳細情報
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2417'
 ht-degree: 93%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 93%
 
 * **[!UICONTROL SMTP 配信をテスト]**：このオプションを使用して、SMTP 経由での送信をテストします。配信は、SMTP サーバーに接続するまで処理されますが、送信されません。配信の受信者ごとに、SMTP プロバイダーサーバーに接続し、SMTP RCPT TO コマンドを実行して、SMTP DATA コマンドの前に接続を閉じます。
 
-* **[!UICONTROL BCC でメールを送信]**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL BCC でメールを送信]**：BCC アドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}を参照してください。
 
 Adobe Analytics の **[!UICONTROL ウェーブ定義]** セクションで、 **[!UICONTROL 複数のウェーブを使用して送信]** ウェーブを使用して、送信されるボリュームを徐々に増やすオプション。 これにより、メッセージがスパムとしてマークされず、また 1 日あたりのメッセージ数を制限できます。ウェーブを使用すると、一度に大量のメッセージを送信するのではなく、配信をいくつかのバッチに分割できます。[詳細情報](send-using-waves.md)
 
@@ -193,8 +193,6 @@ Adobe Analytics の **[!UICONTROL ウェーブ定義]** セクションで、 **
 <!--Currently not visible in UI > ??-->
 
 ソフトまたは無視のエラーによって一時的に配信できなかったメッセージは、自動再試行の対象となります。デフォルトでは、配信の初日に最低 1 時間の間隔をおいて 24 時間に 5 回の再試行がスケジュールされます。
-
-再試行管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html?lang=ja){target="_blank"}を参照してください。
 
 ## 承認 {#approval}
 

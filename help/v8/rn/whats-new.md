@@ -3,9 +3,9 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign Web ユーザーインターフェイスに加わる新機能を紹介します。
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1291'
 ht-degree: 74%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 74%
 
 >[!AVAILABILITY]
 >
->このバージョンは、Campaign v8.6 リリースを開始するすべてのユーザーが利用できます。 でのAdobe Campaignリリースの詳細 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>このバージョンは、開始するすべてのユーザーが利用できます [Campaign v8.6 リリース](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). でのAdobe Campaignリリースの詳細 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 
 ## 主な機能 {#key-features}
