@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web の基本を学ぶ
 description: Adobe Campaign Web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 76%
+source-wordcount: '543'
+ht-degree: 74%
 
 ---
 
@@ -46,10 +46,6 @@ Campaign を使用すると、次のことを行えます。
 
 管理者またはエキスパートユーザーは、Campaign Web ユーザーインターフェイスで使用できない Campaign v8 機能にアクセスする必要がある場合、 [クライアントコンソール](#ac-client).
 
-
->[!NOTE]
->
->Adobe Campaign Web は現在限定提供（LA）バージョンです。アクセス権は、一部の LA 顧客に制限されています。製品インターフェイス、機能および使用フローは予告なく変更される場合があることに注意してください。
 
 Adobe Campaign Web に接続する方法については、[このページ](connect-to-campaign.md)を参照してください。
 
