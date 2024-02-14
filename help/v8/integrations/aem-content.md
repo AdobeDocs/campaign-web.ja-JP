@@ -2,9 +2,9 @@
 audience: end-user
 title: Adobe Experience Manager as a Cloud Service でのアセットの管理
 description: Adobe Experience Manager as a Cloud Service でコンテンツを管理する方法を説明します
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '508'
 ht-degree: 11%
 
 ---
@@ -81,7 +81,7 @@ Experience ManagerテンプレートをAdobe Campaign Web でコンテンツテ�
 
    ![](assets/aem_8.png)
 
-1. テンプレートに直接Adobe Experience Managerで変更が加えられた場合は、 **[!UICONTROL AEMコンテンツを更新]** を追加して、テンプレートの最新バージョンを取得します。
+1. コンテンツは自動的には同期されません。 テンプレートに直接Adobe Experience Managerで変更が加えられた場合は、 **[!UICONTROL AEMコンテンツを更新]** を追加して、テンプレートの最新バージョンを取得します。
 
 1. Experience Managerと Campaign 間のリンケージを削除したり、E メールデザイナーでExperience Managerテンプレートをさらにパーソナライズするには、 **[!UICONTROL AEMコンテンツのリンク解除]**.
 
