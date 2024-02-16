@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="基本の詳細"
->abstract="この節では、プロファイルの基本的な詳細に関するインサイトを提供します。情報を変更するには、各フィールド内で直接変更を行い、画面の右上隅にある「**保存**」ボタンをクリックします。"
+>abstract="このセクションでは、プロファイルの基本的な詳細に関するインサイトを提供します。情報を変更するには、各フィールド内で直接変更を行い、画面の右上隅にある「**保存**」ボタンをクリックします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
