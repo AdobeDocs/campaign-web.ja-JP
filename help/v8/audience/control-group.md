@@ -3,16 +3,18 @@ audience: end-user
 title: コントロール母集団を設定
 description: Campaign Web ユーザーインターフェイスでメッセージのコントロール母集団を設定する方法を説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 98%
+source-wordcount: '803'
+ht-degree: 97%
 
 ---
 
 # コントロール母集団を設定 {#control-group}
 
 コントロール母集団は、配信から除外されるサブ母集団です。コントロール母集団を定義して、オーディエンスの一部にメッセージを送信しないようにし、配信後の動作をメインターゲットと比較できます。このオプションは、キャンペーンの影響を測定するのに役立ちます。
+
+➡️ [ビデオでこの機能を確認する](create-audience.md#video)
 
 ## コントロール母集団を有効にする{#add-a-control-group}
 
@@ -122,5 +124,3 @@ ht-degree: 98%
 配信が送信されたら、送信ログを抽出して、通信を受信しなかったプロファイルと有効なターゲット間の動作を比較できます。また、配信ログを使用して別のターゲティングを作成することもできます。
 
 ターゲットから削除されたプロファイルを確認するには、**配信ログ**&#x200B;を確認します。詳しくは、[この節](#check-control-group)を参照してください。
-
-
