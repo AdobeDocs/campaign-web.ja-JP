@@ -1,6 +1,6 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Web ユーザーインターフェイス
+user-guide-title: Adobe Campaign web ユーザーインターフェイス
 user-guide-description: Adobe Campaign Web ユーザーインターフェイスの製品ドキュメント。
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
@@ -8,7 +8,7 @@ breadcrumb-title: Campaign Web ユーザーインターフェイス
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
