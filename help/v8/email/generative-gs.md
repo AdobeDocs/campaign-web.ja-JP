@@ -6,16 +6,19 @@ badge: label="アルファ版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
-workflow-type: ht
-source-wordcount: '462'
-ht-degree: 100%
+source-git-commit: 153632e87a6622fb135a59ed9a1f413c03b3752c
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 95%
 
 ---
 
 # コンテンツアシスタントの基本を学ぶ {#generative-gs}
 
-
+>[!CONTEXTUALHELP]
+>id="acw_emagica_generate"
+>title="「生成」ボタン"
+>abstract="「生成」ボタンを使用すると、元のプロンプトに基づいて、テキスト、E メールまたは画像の複数のバリエーションを作成できます。"
 
 <!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]

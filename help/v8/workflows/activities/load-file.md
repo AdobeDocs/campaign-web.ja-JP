@@ -3,10 +3,10 @@ audience: end-user
 title: 「ファイルを読み込み」ワークフローアクティビティの使用
 description: 「ファイルを読み込み」ワークフローアクティビティの使用方法について説明します
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '321'
-ht-degree: 100%
+source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 93%
 
 ---
 
@@ -51,6 +51,17 @@ ht-degree: 100%
 >id="acw_orchestration_loadfile_formatting"
 >title="「ファイルを読み込み」アクティビティの書式設定"
 >abstract="「ファイルを読み込み」アクティビティの書式設定"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetfile"
+>title="「ファイル読み込み」アクティビティのターゲットファイル"
+>abstract="「ファイル読み込み」アクティビティのターゲットファイル"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_valueremapping"
+>title="「ファイル読み込み」アクティビティの値の再マッピング"
+>abstract="「ファイル読み込み」アクティビティの値の再マッピング"
+
 
 「**ファイルを読み込み**」アクティビティは、「**データ管理**」アクティビティです。このアクティビティを使用して、外部ファイルに保存されるプロファイルとデータを操作します。プロファイルとデータはデータベースに追加されませんが、入力ファイル内のすべてのフィールドを[パーソナライゼーション](../../personalization/gs-personalization.md)や、プロファイルまたは他のテーブルの更新に使用できます。
 

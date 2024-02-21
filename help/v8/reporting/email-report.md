@@ -3,10 +3,10 @@ audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2283'
-ht-degree: 98%
+source-wordcount: '2329'
+ht-degree: 95%
 
 ---
 
@@ -30,12 +30,11 @@ ht-degree: 98%
 
 **[!UICONTROL 初期ターゲット母集団]**&#x200B;グラフには、受信者に関するデータが表示されます。指標は配信の準備中に計算され、初期オーディエンス、送信するメッセージの数、除外された受信者の数を示します。
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
 グラフの一部にマウスを合わせると、正確な数が表示されます。
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メール配信レポート指標を参照してください。
 
@@ -48,16 +47,14 @@ ht-degree: 98%
 
 ### 配信統計 {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="配信統計"
 >abstract="**配信統計**&#x200B;グラフには、配信の成功と発生したエラーの詳細が表示されます。"
 
-
 **[!UICONTROL 配信統計]**&#x200B;グラフには、配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
 +++詳しくは、メールキャンペーンレポート指標を参照してください。
 
@@ -147,7 +144,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="タイプ別のエラー分類"
->abstract="**タイプごとのエラーの分類**&#x200B;テーブルおよびグラフには、不明なユーザー、メールボックス容量超過、無効なドメインなど、発生したエラーのタイプごとに入手可能なデータが表示されます。"
+>abstract="The **タイプごとのエラーの分類** グラフには、不明なユーザー、メールボックス容量超過、無効なドメインなど、発生した各エラータイプに対して使用可能なデータが含まれます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="タイプ別のエラー分類"
+>abstract="The **タイプごとのエラーの分類** 各エラータイプの発生の包括的な分類を表に示します。"
 
 **[!UICONTROL タイプごとのエラーの分類]**&#x200B;テーブルおよびグラフには、エラーのタイプごとに入手可能なデータが表示されます。指標については、以下で詳しく説明します。
 
@@ -173,15 +175,17 @@ ht-degree: 98%
 
 +++
 
-
 ### ドメイン別のエラー分類 {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="ドメイン別のエラー分類"
->abstract="**ドメインごとのエラーの分類**&#x200B;テーブルおよびグラフには、各ドメインで発生したエラーのタイプごとに入手可能なデータが表示されます。"
+>abstract="The **ドメインごとのエラーの分類** グラフには、各ドメインに応じて発生した各エラータイプで使用可能なデータが表示されます。"
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="ドメイン別のエラー分類"
+>abstract="The **ドメインごとのエラーの分類** この表は、使用するドメインに応じて、各エラーの発生を包括的に分類したものです。"
 
 **[!UICONTROL ドメインごとのエラーの分類]**&#x200B;テーブルおよびグラフには、各ドメインで発生する可能性のあるエラーに関する入手可能なデータが表示されます。
 
