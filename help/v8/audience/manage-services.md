@@ -3,10 +3,10 @@ audience: end-user
 title: 購読サービスの操作
 description: Adobe Campaign Web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 95%
+source-wordcount: '960'
+ht-degree: 92%
 
 ---
 
@@ -128,8 +128,13 @@ Adobe Campaign Web を使用すると、ニュースレターなどのサービ�
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="サブスクライバーの合計数"
+>title="サブスクライバー数"
 >abstract="「**計算**」をクリックして、このサービスのサブスクライバーの合計数を取得します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="サブスクライバーの合計数"
+>abstract="主要業績評価指標 (KPI) は、購読者のベースを包括的に表示し、このサービスを購読した個人の総数を示します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
