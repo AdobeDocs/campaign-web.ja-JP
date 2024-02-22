@@ -3,9 +3,9 @@ audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web でワークフローを作成する方法について説明します。
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '745'
 ht-degree: 100%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 100%
 
 # ワークフローの作成 {#create-first-workflow}
 
->[!CONTEXTUALHELP]
->id="acw_workflow_creation_properties"
->title="ワークフローのプロパティ"
->abstract="この画面で、ワークフローの作成に使用するテンプレートを選択し、ラベルを指定します。 「その他のオプション」セクションを展開して、ワークフローの内部名、フォルダー、タイムゾーン、スーパーバイザーグループなどの詳細設定を行います。エラーが発生した場合にオペレーターに警告できるように、スーパーバイザーグループを選択することを強くお勧めします。"
 
 
 >[!CONTEXTUALHELP]
