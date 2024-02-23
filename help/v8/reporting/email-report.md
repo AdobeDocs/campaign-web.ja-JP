@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 95%
 
 ![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
++++メールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 送信済みメッセージ]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -313,7 +313,7 @@ ht-degree: 95%
 >abstract="**時間の経過に伴うクリック数の分類**&#x200B;グラフには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。"
 
 
-**[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。
+**[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動について入手可能なデータが表示されます。
 
 ![](assets/reporting_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
 

@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: コントロール母集団を設定
-description: Campaign Web ユーザーインターフェイスでメッセージのコントロール母集団を設定する方法を説明します
+title: コントロール母集団の設定
+description: Campaign web ユーザーインターフェイスでメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
-# コントロール母集団を設定 {#control-group}
+# コントロール母集団の設定 {#control-group}
 
 コントロール母集団は、配信から除外されるサブ母集団です。コントロール母集団を定義して、オーディエンスの一部にメッセージを送信しないようにし、配信後の動作をメインターゲットと比較できます。このオプションは、キャンペーンの影響を測定するのに役立ちます。
 

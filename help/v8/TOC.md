@@ -1,21 +1,21 @@
 ---
 audience: end-user
 user-guide-title: Adobe Campaign web ユーザーインターフェイス
-user-guide-description: Adobe Campaign Web ユーザーインターフェイスの製品ドキュメント。
+user-guide-description: Adobe Campaign web ユーザーインターフェイスの製品ドキュメント。
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
-breadcrumb-title: Campaign Web ユーザーインターフェイス
+breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Campaign Web ドキュメント {#v8}
 
-+ [Adobe Campaign Web ユーザーインターフェイスドキュメント](campaign-web-home.md)
++ [Adobe Campaign web ユーザーインターフェイスドキュメント](campaign-web-home.md)
 + [新機能](rn/whats-new.md)
 + [ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の基本を学ぶ {#start}
@@ -25,7 +25,7 @@ ht-degree: 93%
    + [リストの参照とフィルタリング](get-started/list-filters.md)
    + [定義済みフィルターの操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
-   + [Campaign Web および Campaign クライアントコンソール](get-started/capability-matrix.md)
+   + [Campaign web および Campaign クライアントコンソール](get-started/capability-matrix.md)
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
@@ -37,7 +37,7 @@ ht-degree: 93%
          + [メールコンテンツを設定](email/edit-content.md)
          + [コンテンツテンプレートの操作](email/create-email-templates.md)
          + メールの作成を開始 {#start-design}
-            + [E メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
+            + [メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
             + [ゼロから開始](email/create-email-content.md)
             + [メールコンテンツの読み込み](email/existing-content.md)
             + [独自コンテンツのコーディング](email/code-content.md)
@@ -91,7 +91,7 @@ ht-degree: 93%
    + [ランディングページの作成と公開](landing-pages/create-lp.md)
    + [ランディングページのコンテンツのデザイン](landing-pages/lp-content.md)
    + [ランディングページテンプレートの操作](landing-pages/lp-templates.md)
-   + [使用例を通じて学ぶ](landing-pages/lp-use-cases.md)
+   + [ユースケースを通じて学ぶ](landing-pages/lp-use-cases.md)
 + プロファイルとオーディエンス {#audiences}
    + [プロファイルとオーディエンスの基本を学ぶ](audience/gs-audiences-recipients.md)
    + [ターゲティングディメンション](audience/targeting-dimensions.md)
@@ -107,7 +107,7 @@ ht-degree: 93%
       + [既存オーディエンスの選択](audience/add-audience.md)
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
       + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
-      + [コントロール母集団を設定](audience/control-group.md)
+      + [コントロール母集団の設定](audience/control-group.md)
    + 購読サービスの操作 {#work-with-services}
       + [購読サービスの作成と管理](audience/manage-services.md)
       + [購読者の管理](audience/manage-subscribers.md)

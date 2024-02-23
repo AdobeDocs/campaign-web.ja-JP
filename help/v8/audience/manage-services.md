@@ -6,7 +6,7 @@ exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
 >title="サービスの作成と管理"
->abstract="Adobe Campaign を使用すると、ニュースレターなどのサービスの作成と監視を行ったり、これらのサービスの購読または購読解除を確認したりできます。購読はメールおよび SMS 配信にのみ当てはまります。"
+>abstract="Adobe Campaign を使用すると、ニュースレターなどのサービスの作成と監視を行ったり、これらのサービスの購読または購読解除を確認したりできます。購読はメールおよび SMS 配信のみが対象となります。"
 
 Adobe Campaign Web を使用すると、ニュースレターなどのサービスの管理と作成を行ったり、それらのサービスの購読または登録解除を確認したりできます。
 
@@ -23,7 +23,7 @@ Adobe Campaign Web を使用すると、ニュースレターなどのサービ�
 
 >[!NOTE]
 >
->購読はメールおよび SMS 配信にのみ当てはまります。
+>購読はメールおよび SMS 配信のみが対象となります。
 
 ## 購読サービスへのアクセス {#access-services}
 
@@ -33,7 +33,7 @@ Adobe Campaign Web を使用すると、ニュースレターなどのサービ�
 
    ![](assets/service-list.png){zoomable=&quot;yes&quot;}
 
-1. 既存のすべての購読サービスのリストが表示されます。サービスを検索してチャネルやフォルダーでフィルタリングすることも、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加することもできます。
+1. 既存の全購読サービスのリストが表示されます。サービスを検索してチャネルやフォルダーでフィルタリングすることも、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加することもできます。
 
    ![](assets/service-filters.png){zoomable=&quot;yes&quot;}
 
@@ -69,9 +69,9 @@ Adobe Campaign Web を使用すると、ニュースレターなどのサービ�
 
 1. デフォルトでは、購読は無制限です。
 
-   次の項目を無効にすることができます。 **[!UICONTROL 無制限の有効期間]** オプションを使用して、サービスの有効期間を定義します。 有効期間が終了したら、次の手順に従います。
+   「**[!UICONTROL 無制限の有効期間]**」オプションを無効にして、サービスの有効期間を定義できます。有効期間が終了した場合：
    * このサービスを購読できる受信者はいません
-   * このサービスのすべての購読者は、自動的に購読解除されます
+   * このサービスのすべての購読者は、自動的に登録解除されます
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
 
@@ -110,7 +110,7 @@ Adobe Campaign Web を使用すると、ニュースレターなどのサービ�
 
    >[!NOTE]
    >
-   >**[!UICONTROL 購読]**&#x200B;ターゲットマッピングを選択しない場合、サブスクライバーには確認メッセージが届きません。ターゲットマッピングの詳細については、 [この節](../audience/targeting-dimensions.md) .
+   >**[!UICONTROL 購読]**&#x200B;ターゲットマッピングを選択しない場合、サブスクライバーには確認メッセージが届きません。ターゲットマッピングについて詳しくは、[この節](../audience/targeting-dimensions.md)を参照してください。
 
 1. 配信テンプレートのコンテンツを編集し、保存して閉じます。
 
