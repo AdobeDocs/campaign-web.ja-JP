@@ -4,7 +4,7 @@ title: オーディエンスの監視と管理
 description: Adobe Campaign Web でオーディエンスを監視および管理する方法を説明します
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 >
 >キャンペーンワークフローのコンテキストでメッセージを送信する際に、オーディエンスは特定の&#x200B;**オーディエンスを作成**&#x200B;ワークフローアクティビティで定義されます。このコンテキストでは、メール配信用のオーディエンスをファイルから読み込むことはできず、オーディエンスはこの専用アクティビティでのみ定義されます。キャンペーンワークフローで配信のオーディエンスを定義する方法について詳しくは、[この節](../workflows/activities/build-audience.md)を参照してください
 
-Campaign web で使用できるオーディエンスのリストには、**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
+Campaign Web で使用できるオーディエンスのリストには、**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
 
 ![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
 

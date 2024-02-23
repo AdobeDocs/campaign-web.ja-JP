@@ -4,9 +4,9 @@ title: ワークフロー作成の主な原則
 description: Adobe Campaign Web でのワークフローの主な原則について説明します
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

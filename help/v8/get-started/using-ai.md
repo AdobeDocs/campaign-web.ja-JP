@@ -4,9 +4,9 @@ description: Campaign web ヘルプのポップオーバーで質問する
 badge: label="ベータ版"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
 source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Campaign Gen AI の機能により、このコンポーネントではユーザ�
 
 >[!AVAILABILITY]
 >
->* AI を利用したコンテキストヘルプは、ベータ版で利用でき、事前の通知なしに変更される場合があります。
+>* AI を活用したコンテキストヘルプは、ベータ版で使用でき、予告なく変更される場合があります。
 >
 >* この機能は、**英語**&#x200B;でのみ使用できます。このバージョンでは、他の言語はサポートされていません。そのため、この機能を使用する前に、[優先言語](connect-to-campaign.md#language-pref)が英語に設定されています。
 >
->* AI を利用したコンテキストヘルプは、Campaign E メールデザイナーでは現在、使用できません。
+>* AI を活用したコンテキストヘルプは、現時点では Campaign メールデザイナーでは使用できません。
 
 
 <!--
@@ -46,16 +46,16 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## 推奨される質問 {#questions-ai}
 
-入力フィールドから、Adobe Campaign AI を利用したコンテキストヘルプに 3 つの推奨される質問が表示されます。 これらの質問は AI によって生成され、ヘルプボックスと現在の製品コンテキストに関連します。 回答を得る質問を選択します。
+入力フィールドから、Adobe Campaign AI を活用したコンテキストヘルプにより、3 つの質問候補が表示されます。これらの質問は AI によって生成され、ヘルプボックスと現在の製品コンテキストに関連します。質問を選択すると回答が得られます。
 
-![コンテキストヘルプに関する推奨質問](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+![コンテキストヘルプの推奨される質問](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 
 ## 回答 {#answers-ai}
 
 Adobe Campaign の AI を活用したコンテキストヘルプはサポートを提供しますが、ユーザーは事実を確認する必要があります。ナレッジアシスタントが、誤った情報や不正確な回答、誤解を招きかねない回答を返す可能性があります。すべてのヘルプボックスでリンクされている製品ドキュメントを必ず確認してください。
 
-回答をクリップボードにコピーするには、 **コピー** アイコンが表示されます。
+ヘルプポップオーバーの下部にある&#x200B;**コピー**&#x200B;アイコンを使用して、回答をクリップボードにコピーできます。
 
 ![コンテキストヘルプの回答のコピー](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 

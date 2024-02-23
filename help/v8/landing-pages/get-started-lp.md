@@ -4,9 +4,9 @@ title: ランディングページの基本を学ぶ
 description: Campaign Web のランディングページについて学ぶ
 feature: Landing Pages
 source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 24%
+ht-degree: 100%
 
 ---
 
@@ -15,28 +15,28 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="ランディングページ"
->abstract="新しいランディングページエクスペリエンスについて説明します。ランディングページを即座に作成、デザインおよび共有して、組み込みのテンプレートに基づいて、獲得、購読/購読解除および使用例の管理を行えブロックリストに加えるる、オンライン Web ページにユーザーを誘導します。"
+>abstract="新しいランディングページエクスペリエンスについて説明します。ランディングページを即座に作成、設計および共有して、組み込みテンプレートに基づいて、取得、購読／購読解除、ブロックリストのユースケースを管理できるオンライン web ページにユーザーを誘導します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
 
-[!DNL Adobe Campaign] では、ランディングページを作成、デザイン、共有できます。
+[!DNL Adobe Campaign] では、ランディングページを作成、設計および共有できます。
 
-マーケティングキャンペーンのコンテキストでは、ランディングページは、配信または Web サイト上のリンクを訪問者がクリックした後に導かれる、スタンドアロン Web ページです。
+マーケティングキャンペーンのコンテキストでは、ランディングページは、訪問者が配信または web サイト上のリンクをクリックした後に誘導されるスタンドアロン web ページです。
 
-ランディングページを使用すると、ユーザーはオンラインフォームにアクセスし、データの更新、通信のオプトイン/オプトアウト、ニュースレターなどの特定のサービスの購読をおこなうことができます。
+ランディングページでは、ユーザーをオンラインフォームに誘導して、データを更新したり、通信の受信をオプトイン／オプトアウトしたり、ニュースレターなどの特定のサービスを購読したりできます。
 
 >[!CAUTION]
 >
->Campaign Web ユーザーインターフェイスで作成するランディングページは、クライアントコンソールから作成する Web フォームとは異なります。 クライアントコンソールで作成した Web フォームは、Campaign Web ユーザーインターフェイスで表示または編集できません。
+>Campaign Web ユーザーインターフェイスで作成するランディングページは、クライアントコンソールから作成した web フォームとは異なります。クライアントコンソールで作成した web フォームを、Campaign Web ユーザーインターフェイスで表示または編集できません。
 >
->Web フォームについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"}.
+>Web フォームについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"}を参照してください。
 
-ランディングページの主な機能を次に示します。
+ランディングページの主な機能を以下に示します。
 
-* すぐに使用できるを使用して、ランディングページを即座に作成、デザイン、共有 **事前入力済みのテンプレート** 様々なユースケースとの一致 [詳細情報](create-lp.md)
-* 活用 [!DNL Adobe Campaign] 容易に構築できるコンテンツ設計機能 **レスポンシブランディングページ**. [詳細情報](lp-content.md)
-* 設定 **オプトインおよびオプトアウトフロー** 迅速かつシームレスに。 [詳細情報](lp-use-cases.md)
+* 様々なユースケースに対応する、すぐに使える&#x200B;**事前入力済みテンプレート**&#x200B;を使用して、ランディングページを即座に作成、設計および共有します。[詳細情報](create-lp.md)
+* [!DNL Adobe Campaign] のコンテンツデザイン機能を活用して、**レスポンシブランディングページ**&#x200B;を簡単に作成します。[詳細情報](lp-content.md)
+* **オプトインとオプトアウトのフロー**&#x200B;を迅速かつシームレスに設定します。[詳細情報](lp-use-cases.md)
 * 購読サービスを作成して、ユーザーが&#x200B;**サービスを購読**&#x200B;できるようにします。[詳細情報](lp-use-cases.md#lp-subscription)
-* 受信者に **配信停止機能** 通信を受信した時点から [詳細情報](lp-use-cases.md#lp-unsubscription)
+* 受信者に通信の受信を&#x200B;**登録解除できる機能**&#x200B;を提供します。[詳細情報](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">

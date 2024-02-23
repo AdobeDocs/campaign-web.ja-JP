@@ -4,7 +4,7 @@ title: Adobe Experience Manager Assets as a Cloud Service でのアセットの�
 description: Adobe Experience Manager Assets as a Cloud Service を使用してアセットを管理する方法を学ぶ
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
 ht-degree: 100%
 

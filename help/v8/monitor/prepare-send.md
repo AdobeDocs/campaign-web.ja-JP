@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: メールの準備と送信
-description: Campaign Web ユーザーインターフェイスで E メールを準備して送信する方法を説明します
+description: Campaign web ユーザーインターフェイスでのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 98%
 
 ![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
-## KPI の確認 {#check-kpis}
+## KPI を確認する {#check-kpis}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"

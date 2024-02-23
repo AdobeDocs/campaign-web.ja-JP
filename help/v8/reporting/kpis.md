@@ -3,7 +3,7 @@ title: 主要業績評価指標
 description: 主要業績評価指標を理解する方法について説明します
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
 ht-degree: 100%
 

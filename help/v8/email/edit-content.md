@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: メールコンテンツを編集
-description: Campaign Web ユーザーインターフェイスで E メールコンテンツを編集する方法を説明します
+title: メールコンテンツを編集する
+description: Campaign Web ユーザーインターフェイスでメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

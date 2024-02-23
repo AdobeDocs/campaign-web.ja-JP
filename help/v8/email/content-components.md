@@ -4,7 +4,7 @@ title: E メールデザイナーのコンテンツコンポーネントの使�
 description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
    ![](assets/email_designer_15.png){zoomable=&quot;yes&quot;}
 
-1. ボタンをさらにパーソナライズするには、「**[!UICONTROL 境界線]**」、「**[!UICONTROL サイズ]**」、「**[!UICONTROL 余白]**」などのスタイル属性を「**[!UICONTROL スタイル]**」タブから変更します。
+1. **[!UICONTROL 境界線]**、**[!UICONTROL サイズ]**、**[!UICONTROL 余白]**&#x200B;などのスタイル属性を変更することで、ボタンをさらにカスタマイズできます。「**[!UICONTROL スタイル]**」タブから変更します。
 
 ## テキスト {#text}
 

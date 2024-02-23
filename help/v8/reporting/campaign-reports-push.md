@@ -4,7 +4,7 @@ title: プッシュチャネルのキャンペーンレポート
 description: プッシュチャネルのキャンペーンレポートについて
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
 ht-degree: 100%
 

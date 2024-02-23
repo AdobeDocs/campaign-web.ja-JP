@@ -4,17 +4,17 @@ title: Campaign のルールビルダーを使用してオーディエンスを�
 description: ルールビルダーを操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# ルールビルダーを操作 {#segment-builder}
+# ルールビルダーの操作 {#segment-builder}
 
 ルールビルダーを使用すると、データベースに含まれているデータをフィルタリングして、配信のターゲットとなる母集団を定義できます。ルールビルダーを使用して、**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用するワークフローからオーディエンスを作成することもできますし、配信の作成時に直接、1 回限りのオーディエンスを作成することもできます。
 
-* [オーディエンスを作成して保存する方法を説明します](create-audience.md)
+* [オーディエンスを作成および保存する方法を学ぶ](create-audience.md)
 * [配信用に 1 回限りのオーディエンスを作成する方法を説明します](one-time-audience.md)
 
 ## パレット
@@ -65,7 +65,7 @@ ht-degree: 97%
 
    ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
 
-1. キャンバスで、「**これ以降**」演算子を使用して、目的の日付を入力します。
+1. キャンバスで、**After** 演算子を使用して、目的の日付を入力します。
 
    ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
 

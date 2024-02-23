@@ -4,7 +4,7 @@ title: メッセージをサービスのサブスクライバーに送信
 description: サービスのサブスクライバーにメッセージを送信する方法を学ぶ
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Adobe Campaign でサブスクリプションサービスを作成し、メッ�
 
    ![](assets/service-delivery-change-mapping.png){zoomable=&quot;yes&quot;}
 
-1. 配信のメインターゲットセクションで、先ほど作成したオーディエンスを選択します。
+1. 配信の「メインターゲット」セクションで、先ほど作成したオーディエンスを選択します。
 
    ![](assets/service-delivery-targeting-subscribers.png){zoomable=&quot;yes&quot;}
 

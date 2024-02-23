@@ -4,9 +4,9 @@ title: メールチャネルのキャンペーンレポート
 description: メールチャネルのキャンペーンレポートについての詳細情報
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1595'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 ![](assets/campaign_report_email_1.png){zoomable=&quot;yes&quot;}
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
++++メールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -52,7 +52,7 @@ ht-degree: 99%
 
 ![](assets/campaign_report_email_2.png){zoomable=&quot;yes&quot;}
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
++++メールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
 
@@ -73,7 +73,7 @@ ht-degree: 99%
 
 ![](assets/campaign_report_email_3.png){zoomable=&quot;yes&quot;}
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
++++メールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -98,7 +98,7 @@ ht-degree: 99%
 
 ![](assets/campaign_report_email_4.png){zoomable=&quot;yes&quot;}
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
++++メールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL ユニーク開封数]**：メッセージを 1 回以上開封したターゲット受信者の合計数。
 
@@ -122,7 +122,7 @@ ht-degree: 99%
 
 ![](assets/campaign_report_email_5.png){zoomable=&quot;yes&quot;}
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
++++メールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL ユニーククリック数]**：配信で 1 回以上クリックしたユニーク受信者の合計数。
 
@@ -147,7 +147,7 @@ ht-degree: 99%
 
 ![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
++++メールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 不明なユーザー]**：メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
 
@@ -187,7 +187,7 @@ ht-degree: 99%
 
 ![](assets/campaign_report_email_7.png){zoomable=&quot;yes&quot;}
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
++++メールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 配信メッセージ数]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
 
@@ -261,7 +261,7 @@ ht-degree: 99%
 
 ![](assets/campaign_report_email_10.png){zoomable=&quot;yes&quot;}
 
-+++詳しくは、メールキャンペーンレポート指標を参照してください。
++++メールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 

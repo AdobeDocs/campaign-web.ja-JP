@@ -4,9 +4,9 @@ title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 90%
 >id="acw_deliveries_push_audience"
 >title="プッシュ通知オーディエンスの定義"
 >abstract="メッセージのオーディエンスを定義するには、まずプッシュ配信に関連付けられたアプリを選択する必要があります。デフォルトでは、プッシュ通知はアプリケーションのすべてのサブスクライバーに送信されます。「**オーディエンスを選択**」ボタンをクリックすると、特定のオーディエンスに絞り込むことができます。必要に応じて、コントロール母集団を追加して、配信の影響を測定します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ja" text="コントロール母集団を設定"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ja" text="コントロール母集団の設定"
 
 
 まずアプリを選択する必要があります。次に、以下の説明に従って、プッシュ通知オーディエンスを絞り込むことができます。
@@ -88,17 +88,17 @@ ht-degree: 90%
 
 ## 配信送信のスケジュール設定 {#schedule-push}
 
-ワークフローのコンテキストで配信が送信された場合、 **スケジューラ** アクティビティ。 詳しくは、[このページ](../workflows/activities/scheduler.md)を参照してください。以下の手順は、スタンドアロン配信にのみ適用されます。
+ワークフローのコンテキストで配信を送信する際は、「**スケジューラー**」アクティビティを使用する必要があります。詳しくは、[このページ](../workflows/activities/scheduler.md)を参照してください。以下の手順は、スタンドアロン配信にのみ適用されます。
 
 スタンドアロンのプッシュ配信を特定の日時にスケジュールするには、次の手順に従います。
 
-1. 次を参照： **[!UICONTROL スケジュール]** 」セクションに表示されます。
+1. 配信プロパティの「**[!UICONTROL スケジュール]**」セクションを参照します。
 
 1. **[!UICONTROL スケジュールを有効にする]**&#x200B;切替スイッチをオンにしてアクティブ化します。
 
 1. 送信する日時を設定します。
 
-配信を開始すると、メッセージは、受信者に対して定義した正確な日時に自動的に送信されます。
+配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。
 
 ![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
 

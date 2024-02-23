@@ -4,9 +4,9 @@ title: フィルターリスト
 description: 組み込みフィルターとカスタムフィルターを使用して、Adobe Campaign Web リストをフィルタリングする方法について説明します。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '310'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

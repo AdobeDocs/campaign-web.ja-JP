@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Campaign Web ユーザーインターフェイスの権限管理
-description: Campaign Web ユーザーインターフェイスの権限の詳細を説明します
+title: Campaign web ユーザーインターフェイスでの権限管理
+description: Campaign web ユーザーインターフェイスの権限について説明します
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -97,6 +97,6 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 
    ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   フォルダーは、現在のフォルダーのサブフォルダーとして追加されます。その新しいフォルダーを参照して、そのフォルダーに直接コンポーネントを作成します。任意のフォルダーからコンポーネントを作成し、その新しいフォルダーに、 **その他のオプション** 」セクションに表示されます。
+   フォルダーは、現在のフォルダーのサブフォルダーとして追加されます。その新しいフォルダーを参照して、そのフォルダーに直接コンポーネントを作成します。また、プロパティの「**その他のオプション**」セクションで、任意のフォルダーからコンポーネントを作成し、その新しいフォルダーに保存することもできます。配信の場合は次のようになります。
 
    ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

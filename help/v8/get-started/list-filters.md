@@ -4,9 +4,9 @@ title: リストの参照とフィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法の確認
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

@@ -4,7 +4,7 @@ title: E メールデザイナーでのプリヘッダーの追加
 description: メールコンテンツのデザイン方法
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: メールコンテンツを編集
-description: Campaign Web ユーザーインターフェイスの E メールデザイナーを使用してコンテンツの作成を開始する方法を説明します。
+title: メールコンテンツを編集する
+description: Campaign Web ユーザーインターフェイスのメールデザイナーを使用して、コンテンツ作成を開始する方法を学ぶ
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

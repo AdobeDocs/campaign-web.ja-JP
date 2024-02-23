@@ -4,7 +4,7 @@ title: リンクのスタイルの定義
 description: リンクのスタイルを定義する方法を学ぶ
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ E メールデザイナーでは、リンクに下線を引き、その色とタ
 
    ![](assets/link_2.png){zoomable=&quot;yes&quot;}
 
-1. リンクの色を変更するには、「**[!UICONTROL スタイル]**」タブから&#x200B;**[!UICONTROL リンクの色]**&#x200B;をクリックします。
+1. リンクの色を変更するには、「**[!UICONTROL スタイル]**」タブから&#x200B;**[!UICONTROL リンクカラー]**&#x200B;をクリックします。
 
    ![](assets/link_3.png){zoomable=&quot;yes&quot;}
 

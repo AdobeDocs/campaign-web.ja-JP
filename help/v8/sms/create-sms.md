@@ -4,9 +4,9 @@ title: SMS 配信を作成
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 >id="acw_deliveries_sms_audience"
 >title="SMS オーディエンスの定義"
 >abstract="新しいオーディエンスを作成するか、「**オーディエンスを選択**」ボタンをクリックして既存のオーディエンスを選択できます。必要に応じて、コントロール母集団を追加して、配信の影響を測定します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ja" text="コントロール母集団を設定"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ja" text="コントロール母集団の設定"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
@@ -73,7 +73,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >ワークフローのコンテキストで配信が送信された場合、 **スケジューラ** アクティビティ。 詳しくは、[このページ](../workflows/activities/scheduler.md)を参照してください。
+   >ワークフローのコンテキストで配信を送信する場合は、「**スケジューラー**」アクティビティを使用する必要があります。詳しくは、[このページ](../workflows/activities/scheduler.md)を参照してください。
 
 1. 「**[!UICONTROL 設定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 

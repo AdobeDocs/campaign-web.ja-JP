@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 最初のメールを送信
-description: Campaign Web ユーザーインターフェイスでの最初の E メールの送信方法を説明します
+description: Campaign web UI で最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1403'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 95%
 >title="配信用のオーディエンスを選択"
 >abstract="マーケティングメッセージに最適なオーディエンスを選択します。既存のオーディエンス（Campaign v8 インスタンスまたは Adobe Experience Platform で既に定義されている）を選択するか、クエリモデラーを使用して新しいオーディエンスを作成するか、オーディエンスを含むファイルをアップロードすることができます。「**ファイルから選択**」オプションに対してはコントロール母集団が有効になっていません。逆も同様です。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=ja" text="メインオーディエンスを選択"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ja" text="コントロール母集団を設定"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=ja" text="コントロール母集団の設定"
 
 このユースケースでは、既存のオーディエンスにメールを送信します。
 
@@ -143,9 +143,9 @@ ht-degree: 95%
 
 ## 送信のスケジュール設定 {#schedule}
 
-ワークフローのコンテキストで配信が送信された場合、 **スケジューラ** アクティビティ。 詳しくは、[このページ](../workflows/activities/scheduler.md)を参照してください。以下の手順は、スタンドアロン配信にのみ適用されます。
+ワークフローのコンテキストで配信が送信された場合、「**スケジューラー**」アクティビティを使用する必要があります。詳しくは、[このページ](../workflows/activities/scheduler.md)を参照してください。以下の手順は、スタンドアロン配信にのみ適用されます。
 
-1. 次を参照： **[!UICONTROL スケジュール]** 」セクションに表示されます。
+1. 配信プロパティの「**[!UICONTROL スケジュール]**」セクションを参照します。
 
 1. **[!UICONTROL スケジュールを有効にする]**&#x200B;切替スイッチをオンにしてアクティブ化します。
 
@@ -153,7 +153,7 @@ ht-degree: 95%
 
    ![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
-配信を送信すると、実際の送信は、定義したコンタクト日に開始されます。
+配信を送信すると、実際の送信は、定義した連絡日に開始されます。
 
 配信スケジュールについて詳しくは、[この節](../msg/gs-deliveries.md#schedule-the-delivery-sending)を参照してください。
 

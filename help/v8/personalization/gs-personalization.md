@@ -10,9 +10,9 @@ role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Campaign web 式エディターに JavaScript 構造を挿入することで、�
 
   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-## 式エディターへのアクセス {#access}
+## 式エディターにアクセスする {#access}
 
 Adobe Campaign Web では、式エディターを使用すると、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツ用にカスタマイズされたエクスペリエンスを作成できます。式エディターは、すべてのチャネルで、件名フィールド、メールリンク、テキスト／ボタンコンテンツコンポーネントなど、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンのあるすべてのフィールドで使用できます。
 
@@ -53,11 +53,11 @@ Adobe Campaign Web では、式エディターを使用すると、すべての�
 
   ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-* *メールテキストコンポーネントから式エディターにアクセスする*
+* *メールテキストコンポーネントから式エディターへのアクセス*
 
   ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-* *メール内のリンクから式エディターにアクセスする*
+* *メール内のリンクから式エディターへのアクセス*
 
   ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

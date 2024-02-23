@@ -4,9 +4,9 @@ title: メールチャネルのグローバルレポート
 description: メールチャネルのグローバルレポートについて学ぶ
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1618'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -268,7 +268,7 @@ ht-degree: 98%
 >title="時間の経過に伴うクリック数の分類"
 >abstract="**時間の経過に伴うクリック数の分類**&#x200B;グラフには、指定した期間中に受信者がリンクにエンゲージした方法についての包括的なビューが表示されます。"
 
-**[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。
+**[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動について入手可能なデータが表示されます。
 
 ![](assets/global_report_email_breakdown_clicks.png){zoomable=&quot;yes&quot;}{align="center"}
 
