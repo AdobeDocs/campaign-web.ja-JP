@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 3f47e23a40030ce11ae2389134f42f56ddf4f019
+source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1692'
 ht-degree: 97%
 
 ---
@@ -376,6 +376,11 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_loadfile_command"
 >title="[ ファイルをロード ] コマンド"
 >abstract="前処理に任意のコマンドを許可することはセキュリティ上の問題となります。セキュリティオプション XtkSecurity_Disable_Preproc を無効にして、コマンドの定義済みリストを強制的に使用します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="インポート後にファイルを削除"
+>abstract="TBC"
 
 
 
