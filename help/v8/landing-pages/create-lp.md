@@ -2,10 +2,10 @@
 title: ランディングページの作成
 description: Campaign web でランディングページを設定して公開する方法について説明します
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
-workflow-type: ht
-source-wordcount: '1340'
-ht-degree: 100%
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Campaign web ユーザーインターフェイスを使用すると、ランディングページの作成、デザインおよび公開することができます。公開されたら、配信でフォームへのリンクを挿入できます。受信者がそのリンクをクリックすると、対応するランディングページに移動します。
 
-[!DNL Adobe Campaign] には、**獲得**、**購読**、**購読解除**、**ブロックリスト**&#x200B;のユースケースを管理するための、4 つのテンプレートが付属しています。
+[!DNL Adobe Campaign] には、次の使用例を管理するための 4 つのテンプレートが付属しています。 **獲得**, **購読**, **購読解除**、および **ブロックリストに加える**. [詳細情報](lp-use-cases.md)
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
@@ -58,14 +58,14 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 >abstract="ランディングページの開始日と終了日を定義できます。ページが有効期間の終わりに達すると、フォームは使用できなくなります。その代わりに、**有効期限**&#x200B;のページが表示されます。"
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="プライマリページ設定の定義"
->abstract="プライマリページは、メールや web サイトなど、ユーザーがランディングページへのリンクをクリックした際、直ちに表示されます。"
+>id="acw_landingpages_preload"
+>title="プリロードオプションの定義"
+>abstract="「**フォームで参照されるデータを事前入力**」のオプションを選択したときに、ランディングページの訪問者がデータベースのプロファイルと一致する場合、プロファイルの情報がフォームに自動的に事前ロードされます。を使用 **ID がない場合にプリロードをスキップ** 「 」オプションを選択した場合、入力した各プロファイルは、フォームの承認後にデータベースに追加されます。"
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="購読ランディングページの設定"
->abstract="購読ページを使用すると、顧客はサービスを購読できます。"
+>id="acw_landingpages_storage"
+>title="ストレージオプションの定義"
+>abstract="プリロードセクションでは、データベース内で更新されるレコードの検索方法を指定できます。"
 
 <!--The main steps to create landing pages are as follows:
 

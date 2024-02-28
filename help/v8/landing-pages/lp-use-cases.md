@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 98%
+source-wordcount: '1381'
+ht-degree: 93%
 
 ---
 
@@ -21,11 +21,17 @@ ht-degree: 98%
 >title="慎重に URL をコピーする"
 >abstract="ランディングページを完全にテストまたは活用する場合は、このリンクを web ブラウザーまたは配信に直接コピー＆ペーストできません。代わりに、**コンテンツをシミュレート**&#x200B;関数を使用してテストし、ドキュメントに記載されている手順に従ってランディングページを適切に使用します。"
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="慎重に URL をコピーする"
+>abstract="ランディングページを作成する場合、標準の 4 つのテンプレートを使用すると、Campaign データベースへのプロファイルの追加または更新、サービスへの顧客の購読登録、サービスからの購読解除、ユーザーのオプトアウトなど、様々な使用例を実装できます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="ランディングページの作成"
+
 ランディングページを適切に使用するには、専用のオプションを使用して、配信でリンクとして参照する必要があります。
 
 >[!CAUTION]
 >
->ランディングページを最大限に活用するには、公開された配信ダッシュボードに表示されるリンクを、直接配信または web ページにコピー＆ペーストすることはできません。
+>ランディングページを最大限に活用するには、公開された配信ダッシュボードに表示されるリンクを、直接配信または Web ページにコピー&amp;ペーストすることはできません。 この節では、適切に実行する方法を説明します。
 
 [!DNL Adobe Campaign Web] インターフェイスでは、標準の 4 つのテンプレートを使用して、様々なユースケースを実装できます。ただし、主な手順は変わりません。次に詳しく説明します。
 
@@ -105,6 +111,11 @@ ht-degree: 98%
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## サービスの購読 {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="購読ランディングページの設定"
+>abstract="購読ページを使用すると、顧客はサービスを購読できます。"
 
 最も一般的なユースケースの 1 つでは、ランディングページを通じて[サービスを購読](../audience/manage-services.md)するよう（ニュースレターやイベントなど）顧客を招待します。以下の手順に従います。
 
