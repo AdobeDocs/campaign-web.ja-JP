@@ -3,10 +3,10 @@ audience: end-user
 title: 「ファイルを読み込み」ワークフローアクティビティの使用
 description: 「ファイルを読み込み」ワークフローアクティビティの使用方法について説明します
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 93%
+source-wordcount: '376'
+ht-degree: 85%
 
 ---
 
@@ -62,6 +62,15 @@ ht-degree: 93%
 >title="「ファイル読み込み」アクティビティの値の再マッピング"
 >abstract="「ファイル読み込み」アクティビティの値の再マッピング"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="[ ファイルをロード ] コマンド"
+>abstract="前処理に任意のコマンドを許可することはセキュリティ上の問題となります。セキュリティオプション XtkSecurity_Disable_Preproc を無効にして、コマンドの定義済みリストを強制的に使用します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="インポート後にファイルを削除"
+>abstract="TBC"
 
 「**ファイルを読み込み**」アクティビティは、「**データ管理**」アクティビティです。このアクティビティを使用して、外部ファイルに保存されるプロファイルとデータを操作します。プロファイルとデータはデータベースに追加されませんが、入力ファイル内のすべてのフィールドを[パーソナライゼーション](../../personalization/gs-personalization.md)や、プロファイルまたは他のテーブルの更新に使用できます。
 

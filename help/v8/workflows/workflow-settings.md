@@ -3,7 +3,7 @@ audience: end-user
 title: ワークフロー設定の指定
 description: Adobe Campaign Web でのワークフロー設定方法について説明します
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 92%
@@ -13,7 +13,6 @@ ht-degree: 92%
 
 # ワークフロー設定の指定 {#workflow-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="ワークフローのプロパティ"
@@ -22,7 +21,6 @@ ht-degree: 92%
 ワークフローを作成したり、キャンバスでワークフローアクティビティを統合する際に、ワークフローに関連する詳細設定にアクセスできます。 例えば、ワークフローの特定のタイムゾーンを設定したり、エラーが発生した場合のワークフローの動作を管理したり、ワークフローの履歴をパージする遅延時間を管理したりできます。
 
 これらの設定は、ワークフローの作成時に選択したテンプレートで事前に設定されていますが、この特定のワークフローで必要に応じて編集できます。
-
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 

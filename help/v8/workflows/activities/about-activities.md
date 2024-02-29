@@ -3,8 +3,8 @@ audience: end-user
 title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの操作方法を学ぶ
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -36,7 +36,6 @@ ht-degree: 100%
 * [重複排除 - 重複](deduplication.md)アクティビティを使用すると、インバウンドアクティビティの結果から重複を削除できます。
 * [ディメンションを変更](change-dimension.md)アクティビティを使用すると、ワークフローの作成時にターゲティングディメンションを変更できます。
 * [ファイルを読み込み](load-file.md)アクティビティを使用すると、外部ファイルに保存されたプロファイルとデータを操作できます。
-
 
 ## チャネルアクティビティ {#channel}
 

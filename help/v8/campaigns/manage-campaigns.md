@@ -3,9 +3,9 @@ audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '709'
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
+source-wordcount: '719'
 ht-degree: 100%
 
 ---
@@ -45,6 +45,11 @@ ht-degree: 100%
 >id="acw_campaign_delivery_list"
 >title="キャンペーンの配信リスト"
 >abstract="「**配信**」タブには、現在のキャンペーンにリンクされているすべての配信がリストされます。編集する配信の名前をクリックします。「配信を作成」ボタンを使用して、このキャンペーンに新しい配信を追加します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="キャンペーンのワークフローリスト"
+>abstract="キャンペーンのワークフローリスト"
 
 キャンペーンリストの「**参照**」タブで、キャンペーン名をクリックして詳細を表示します。
 

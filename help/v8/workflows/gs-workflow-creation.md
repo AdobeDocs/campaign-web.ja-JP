@@ -3,8 +3,8 @@ audience: end-user
 title: ワークフロー作成の主な原則
 description: Adobe Campaign Web でのワークフローの主な原則について説明します
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -14,7 +14,6 @@ ht-degree: 100%
 # ワークフロー作成の主な原則 {#gs-workflow-creation}
 
 Adobe Campaign Web を使用すると、ワークフローを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
-
 
 ## ワークフローの内部とは {#gs-workflow-inside}
 
@@ -44,7 +43,6 @@ Adobe Campaign Web を使用すると、ワークフローを視覚的なキャ�
 1. ワークフローは、キャンペーンの「**ワークフロー**」タブからキャンペーン内で直接作成できます。キャンペーンに含めると、ワークフローは他のすべてのキャンペーンのワークフローと共に実行され、レポート指標はすべてキャンペーンレベルでグループ化されます。
 
    ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
-
 
 ワークフローを作成する主な手順は次のとおりです。
 

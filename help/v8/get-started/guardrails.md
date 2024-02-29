@@ -2,9 +2,9 @@
 title: Campaign Web ユーザーインターフェイスワークフローのガードレールと制限
 description: Campaign Web ユーザーインターフェイスでワークフローを操作する際のガードレールと制限
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '374'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,10 @@ Campaign クライアントコンソールで作成または変更されたワ�
 
 ## ワークフローアクティビティ {#wkf-activities}
 
-Campaign web でまだサポートされていない「ワークフロー」アクティビティは読み取り専用で、互換性のないアクティビティとして表示されます。ワークフローの実行、メッセージの送信、ログの確認などは引き続き実行できます。Campaign web とクライアントコンソールの両方で使用できる「ワークフロー」アクティビティは編集可能です。
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_query_enrichment_noneditable"
+>title="編集不可のアクティビティ"
+>abstract="コンソールで追加のデータを使用して「**クエリ**」アクティビティまたは「**エンリッチメント**」アクティビティを設定する際、エンリッチメントデータは Campaign web で考慮され、アウトバウンドトランジションに渡されますが、編集できません。"
 
 Campaign web ユーザーインターフェイスでまだサポートされていない「ワークフロー」アクティビティは読み取り専用で、互換性のないアクティビティとして表示されます。ワークフローの実行、メッセージの送信、ログの確認などは引き続き実行できます。Campaign web ユーザーインターフェイスと Campaign クライアントコンソールの両方で使用できる「ワークフロー」アクティビティは編集可能です。
 

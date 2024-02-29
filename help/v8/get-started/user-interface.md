@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 97%
+source-wordcount: '1637'
+ht-degree: 99%
 
 ---
 
@@ -163,11 +163,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="グローバルレポートのトラッキング"
 >abstract="トラッキングレポート指標は、この画面に表示されます"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_workflow_list"
->title="キャンペーンのワークフローリスト"
->abstract="キャンペーンのワークフローリスト"
-
 
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
@@ -205,19 +200,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="受信者のオファーのプレビュー"
 >abstract="受信者のオファーのプレビュー"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="受信者の読み取り専用プロファイル"
->abstract="受信者の読み取り専用プロファイル"
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_query_enrichment_noneditable"
->title="編集不可のアクティビティ"
->abstract="編集不可のアクティビティ"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -283,21 +265,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="テストプロファイルをシミュレート"
 >abstract="テストプロファイルをシミュレート"
 
+<!--ML: not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="テストプロファイルの選択をシミュレート"
 >abstract="テストプロファイルの選択をシミュレート"
+
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="テストプロファイルの送信をシミュレート"
 >abstract="テストプロファイルの送信をシミュレート"
 
+<!-- ML: beta wiki page - not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="メールログをシミュレート"
 >abstract="メールログをシミュレート"
 
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
@@ -352,6 +341,11 @@ Deprecated IDs - to remove in GA: -->
 >title="同じテーブルにすべてのサブセットを生成"
 >abstract="TBC"
 
+<!-- ML: not found in wiki pages-->
+
+
+<!-- Subscription activity-->
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="デフォルトのランディングページ"
@@ -371,18 +365,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="購読サービスのアウトバウンドトランジション"
 >abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_command"
->title="[ ファイルをロード ] コマンド"
->abstract="前処理に任意のコマンドを許可することはセキュリティ上の問題となります。セキュリティオプション XtkSecurity_Disable_Preproc を無効にして、コマンドの定義済みリストを強制的に使用します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_delete"
->title="インポート後にファイルを削除"
->abstract="TBC"
-
-
 
 
 <!--Update file-->

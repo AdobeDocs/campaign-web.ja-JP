@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign web ユーザーインターフェイスでの権限管理
 description: Campaign web ユーザーインターフェイスの権限について説明します
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
-workflow-type: ht
-source-wordcount: '601'
-ht-degree: 100%
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 98%
 
 ---
 
@@ -17,18 +17,20 @@ ht-degree: 100%
 >title="権限が必要です"
 >abstract="このオブジェクトを作成するには、管理者から権限が付与されている必要があります。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="このオーディエンスは読み取り専用です"
 >abstract="このオーディエンスを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="このサービスは読み取り専用です"
 >abstract="このサービスを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="受信者の読み取り専用プロファイル"
+>abstract="このプロファイルを編集する権限がありません。 必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
