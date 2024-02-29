@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '1960'
-ht-degree: 100%
+source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
+workflow-type: tm+mt
+source-wordcount: '2030'
+ht-degree: 96%
 
 ---
 
@@ -236,7 +236,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="ルールプロパティ"
->abstract="ルールプロパティ"
+>abstract="キャンバスでクエリを作成したら、 **ルールのプロパティ** 右側のパネル。<br/>このウィンドウでは、結果のデータを表示し、クエリの SQL コードバージョンを取得し、ターゲットレコードの数を確認できます。<br/>以下を使用します。 **フィルターを選択または保存** ボタンを使用して、クエリを定義済みフィルターとして保存するか、キャンバスコンテンツを既存のフィルターに置き換えます。"
 
 キャンバスでクエリを作成したら、右側にある&#x200B;**ルールのプロパティ**&#x200B;パネルを使用してクエリを確認できます。使用可能な操作を以下に示します。
 
