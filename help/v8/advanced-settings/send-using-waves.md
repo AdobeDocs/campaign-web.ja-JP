@@ -4,7 +4,7 @@ title: ウェーブを使用した送信
 description: Campaign web での配信設定についての詳細情報
 feature: Email
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 100%
 
