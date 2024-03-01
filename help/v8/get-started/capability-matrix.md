@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign web ユーザーインターフェイス／クライアントコンソール機能マトリックス
 description: Campaign web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
-workflow-type: ht
-source-wordcount: '2151'
-ht-degree: 100%
+source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
+workflow-type: tm+mt
+source-wordcount: '2179'
+ht-degree: 95%
 
 ---
 
@@ -154,12 +154,25 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい�
 
 Campaign web ユーザーインターフェイスは、次の機能を表示しません。これらは、クライアントコンソールでのみ使用できます。
 
-詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}の提供されたリンクを参照してください。
+### 外部アカウント {#external}
 
-* **外部アカウント**。Adobe Campaign には、外部システムと接続する事前定義済みの外部アカウントのセットが付属します。Campaign システム管理者は、クライアントコンソールからのみ外部アカウントを作成および管理できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=ja){target="_blank"}
-* **スキーマの作成と拡張**。スキーマの作成、変更および拡張は、上級ユーザーに制限されます。これらの機能は、クライアントコンソールからのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=ja){target="_blank"}
-* 「**データ管理**」ワークフローアクティビティ。より効率的で柔軟なツールを提供することで複雑なターゲティングの課題を解決できるように、データ管理によってアクティビティセットを組み合わせます。これらのアクティビティには、データ読み込み、抽出（ファイル）、データ更新、スキーマ編集、テクニカルワークフローのインポート／エクスポートが含まれます。これらは、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja#data-management){target="_blank"}
-* **Federated Data Access**。Campaign の設定と外部システムへの接続は、上級ユーザーに制限され、クライアントコンソールからのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"}
+Adobe Campaign には、外部システムと接続する事前定義済みの外部アカウントのセットが付属します。Campaign システム管理者は、クライアントコンソールからのみ外部アカウントを作成および管理できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=ja){target="_blank"}
+
+### スキーマの作成と拡張 {#schema}
+
+スキーマの作成、変更および拡張は、上級ユーザーに制限されます。これらの機能は、クライアントコンソールからのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html?lang=ja){target="_blank"}
+
+### ワークフローのデータ管理機能 {#data}
+
+データ管理は、複雑なターゲティングの問題を解決するために、一連のアクティビティを組み合わせ、データの読み込み、抽出（ファイル）、データを更新、スキーマを編集、インポート/エクスポートの各テクニカルワークフローなど、より効率的で柔軟なツールを提供します。 [クライアントコンソールでのワークフローデータ管理機能の確認](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja#data-management){target="_blank"}
+
+>[!NOTE]
+>
+>これらのアクティビティの一部はクライアントコンソールでのみ使用できますが、一部は Campaign Web ユーザーインターフェイス ( **エンリッチメント**, **ファイルを読み込み** または **ディメンションを変更** アクティビティ。 [Campaign Web ユーザーインターフェイスでのターゲティングとデータ管理のアクティビティの詳細を説明します](../workflows/activities/about-activities.md#targeting)
+
+### Federated Data Access 設定 {#fda}
+
+Campaign の設定と外部システムへの接続は、上級ユーザーに制限され、クライアントコンソールからのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"}
 
 ## 承認 {#approvals-capabilities}
 
