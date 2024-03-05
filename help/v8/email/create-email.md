@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールを送信
 description: Campaign web UI で最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 100%
+source-wordcount: '1393'
+ht-degree: 88%
 
 ---
 
@@ -157,17 +157,17 @@ ht-degree: 100%
 
 配信スケジュールについて詳しくは、[この節](../msg/gs-deliveries.md#schedule-the-delivery-sending)を参照してください。
 
-## メールのプレビューとテスト {#preview-test}
+## E メールのプレビューと配達確認の送信 {#preview-test}
 
 メールを送信する前に、プレビューおよびテストを行って、期待どおりに動作するかどうかを確認できます。
 
-このユースケースでは、ターゲットプロファイルの一部を偽装して、メールをプレビューし、特定のメールアドレスにテストバージョンを送信します。
+この使用例では、ターゲットプロファイルの一部を偽装しているときに、E メールをプレビューし、特定の E メールアドレスに配達確認を送信します。
 
-メールのプレビューおよびテスト方法に関する追加情報については、 [この節](../preview-test/preview-test.md)を参照してください。
+E メールのプレビューおよび配達確認の送信方法に関する追加情報については、 [この節](../preview-test/preview-test.md).
 
 1. メールを確認するには、「**[!UICONTROL 確認して送信]**」をクリックします。これによりメールのプレビューが、設定済みのすべてのプロパティ、オーディエンス、スケジュールと共に表示されます。「変更」ボタンをクリックして、これらの要素を編集できます。
 
-1. メールをプレビューしてテストバージョンを送信するには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
+1. E メールをプレビューして配達確認を送信するには、 **[!UICONTROL コンテンツをシミュレート]** 」ボタンをクリックします。
 
    ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
@@ -180,25 +180,25 @@ ht-degree: 100%
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. テストバージョンのメールを送信するには、「**[!UICONTROL テスト]**」ボタンをクリックして、使用するモードを選択します。
+1. 配達確認を送信するには、 **[!UICONTROL 配達確認を送信]** ボタンをクリックして、使用するモードを選択します。
 
-   この例では、**[!UICONTROL メインターゲットから代入]**&#x200B;モードを使用して、メールのターゲットとなる一部のプロファイルを別のユーザーとして実行し、特定のメールアドレスにテストバージョンを送信します。
+   この例では、 **[!UICONTROL メインターゲットから置換]** モード：特定の e メールアドレスに対して、e メールのターゲットとなる一部のプロファイルを偽装して配達確認を送信します。
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. 「**[!UICONTROL アドレスを追加]**」をクリックして、テストバージョンを受け取るメールアドレスを指定します。
+1. クリック **[!UICONTROL アドレスを追加]** 配達確認を受け取る電子メールアドレスを指定します。
 
    メールアドレスごとに、別のユーザーとして実行するプロファイルを選択します。また、ターゲットからランダムなプロファイルを Adobe Campaign に選択させることもできます。
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. 「**[!UICONTROL テストメールを送信]**」をクリックし、送信を確認します。
+1. クリック **[!UICONTROL 配達確認を送信]** 送信を確認します。
 
-   テスト版は、選択したプロファイルに **[Proof x]** という接頭辞を付けて使用し、指定したメールアドレスに送信されます。
+   配達確認は、選択したプロファイルで **[配達確認 x]** プレフィックス。
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   コンテンツをシミュレート画面の「**[!UICONTROL テストメールログを表示]**」ボタンをクリックすると、送信ステータスの確認や送信済みのテストメールにいつでもアクセスできます。
+   送信のステータスを確認し、送信済みの配達確認にいつでもアクセスするには、 **[!UICONTROL 配達確認を表示]** 「コンテンツをシミュレート」画面の「 」ボタン
 
 ## メールの送信と監視 {#prepare-send}
 

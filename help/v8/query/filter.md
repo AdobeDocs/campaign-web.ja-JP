@@ -3,16 +3,16 @@ audience: end-user
 title: フィルターリスト
 description: 組み込みフィルターとカスタムフィルターを使用して、Adobe Campaign Web リストをフィルタリングする方法について説明します。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # フィルターリスト {#filter-lists}
 
-Adobe Campaign Web では、オブジェクトの各リスト内にフィルターを提供し、特定のコンテキスト条件に基づいて情報をフィルタリングできます。例えば、ステータス、チャネル、連絡日またはフォルダーに基づいて配信をフィルタリングできます。また、テストを非表示にすることもできます。
+Adobe Campaign Web では、オブジェクトの各リスト内にフィルターを提供し、特定のコンテキスト条件に基づいて情報をフィルタリングできます。例えば、ステータス、チャネル、連絡日またはフォルダーに基づいて配信をフィルタリングできます。また、配達確認を非表示にすることもできます。
 
 ## フィルターの適用{#apply}
 

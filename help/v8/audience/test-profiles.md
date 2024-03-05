@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '568'
-ht-degree: 100%
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-シードアドレスにテストメッセージを送信する手順については、[この節](../preview-test/test-deliveries.md#test-profiles)を参照してください。
+シードアドレスに配達確認を送信する手順について詳しくは、 [この節](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
@@ -100,6 +100,6 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. 「**[!UICONTROL 保存]**」ボタンをクリックします。
 
-作成したテストプロファイルを使用してテストを送信する準備が整いました。[詳細情報](../preview-test/test-deliveries.md#test-profiles)
+これで、作成したテストプロファイルを、配達確認の送信に使用する準備が整いました。 [詳細情報](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->

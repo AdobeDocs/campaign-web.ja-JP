@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
-workflow-type: ht
-source-wordcount: '585'
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
@@ -82,9 +82,9 @@ ht-degree: 100%
    + [メッセージへのオファーの追加](msg/offers.md)
    + [サブスクライバーへのメッセージの送信](msg/send-to-subscribers.md)
    + 配信のプレビューとテスト {#preview-test}
-      + [プレビューとテストについて](preview-test/preview-test.md)
+      + [プレビューと配達確認について](preview-test/preview-test.md)
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
-      + [テスト配信の送信](preview-test/test-deliveries.md)
+      + [配達確認の送信](preview-test/test-deliveries.md)
       + [メールのレンダリングのテスト](preview-test/email-rendering.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)

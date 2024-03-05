@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 配信の送信
 description: Adobe Campaign Web で SMS を送信する方法を学ぶ
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 88%
 
 ---
 
@@ -44,9 +44,9 @@ SMS 配信をプレビューする主な手順は次のとおりです。配信�
 
 **Adobe Campaign** を使用すると、メインオーディエンスに送信する前にメッセージをテストできます。これは、メールキャンペーンを検証し、潜在的な問題を特定する際に重要な手順です。
 
-テスト SMS の送信は、配信の品質と有効性を保証するための重要な手順です。テスト受信者は、リンク、オプトアウトリンク、画像などの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定、SMS 設定のエラーを特定できます。このプロセスは、メインオーディエンスに到達する前に SMS を徹底的に評価して最適化するのに役立ちます。
+配達確認の送信は、配信の品質と効果を確保するための重要な手順です。 配達確認の受信者は、リンク、オプトアウトリンクおよび画像などの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定および SMS 設定でエラーが発生した場合にそれらの要素を特定できます。 このプロセスは、メインオーディエンスに到達する前に SMS を徹底的に評価して最適化するのに役立ちます。
 
-![](../assets/do-not-localize/book.png) テスト SMS の送信方法については、[この節](../preview-test/test-deliveries.md)を参照してください。
+![](../assets/do-not-localize/book.png) で配達確認を送信する方法を説明します。 [この節](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 

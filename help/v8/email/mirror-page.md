@@ -3,9 +3,9 @@ audience: end-user
 title: ミラーページへのリンクの追加
 description: ミラーページへのリンクを追加および管理する方法を学ぶ
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '446'
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ Adobe Campaign では、専用の&#x200B;**パーソナライゼーションブ�
 
 >[!NOTE]
 >
->テストプロファイルに送信されるテストメールでは、ミラーページへのリンクはアクティブになっていません。最終メッセージでのみ有効になります。
+>テストプロファイルに送信される配達確認では、ミラーページへのリンクはアクティブになっていません。最終メッセージでのみ有効になります。
 
 デフォルトでは、ミラーページの保持期間は 60 日です。その後は、ミラーページを使用できなくなります。
 

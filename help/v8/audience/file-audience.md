@@ -3,10 +3,10 @@ audience: end-user
 title: ファイルから受信者をターゲット設定する
 description: 外部ファイルの受信者を使用してメールオーディエンスを作成する方法を学ぶ
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '626'
-ht-degree: 100%
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 88%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## メールのプレビューとテスト {#test}
 
-Campaign Web では、ファイルからアップロードされたオーディエンスを使用する際に、テストメールをプレビューして送信できます。これを行うには、次の手順に従います。
+Campaign Web では、ファイルからアップロードされたオーディエンスを使用する際に、配達確認をプレビューおよび送信できます。 これを行うには、次の手順に従います。
 
 1. 配信コンテンツ編集画面で「**[!UICONTROL コンテンツをシミュレートボタン]**」をクリックし、「**[!UICONTROL テストプロファイルを追加]**」ボタンをクリックします。
 
@@ -94,7 +94,7 @@ Campaign Web では、ファイルからアップロードされたオーディ�
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. テストメールを送信するには、「**[!UICONTROL テスト]**」ボタンをクリックします。
+1. 配達確認を送信するには、 **[!UICONTROL 配達確認を送信]** 」ボタンをクリックします。
 
 1. 「**[!UICONTROL 配達確認プロファイルをアップロード]**」ボタンをクリックし、プルーフの受信者を含む .txt ファイルまたは .csv ファイルを選択します。 
 
@@ -102,8 +102,8 @@ Campaign Web では、ファイルからアップロードされたオーディ�
    >
    >ファイル形式がオーディエンスのアップロードに使用した形式と一致していることを確認してください。形式エラーがあると警告が表示されます。
 
-1. 配達確認の受信者を追加し、配達確認を送信する準備が整ったら、「**[!UICONTROL テストメールを送信]**」ボタンをクリックし、送信を確定します。
+1. 配達確認の受信者を追加し、配達確認を送信する準備が整ったら、 **[!UICONTROL 配達確認を送信]** ボタンをクリックし、送信を確定します。
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. 「**[!UICONTROL テストメールログを表示]**」ボタンを使用して、いつでもテストメールの送信を監視できます。[テストメールの監視の詳細情報](../preview-test/test-deliveries.md#access-test-deliveries)
+1. 配達確認の送信を監視するには、 **[!UICONTROL 配達確認を表示]** ボタンをいつでも使用できます。 [配達確認の監視の詳細を説明します](../preview-test/test-deliveries.md#access-test-deliveries)
