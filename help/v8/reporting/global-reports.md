@@ -3,14 +3,19 @@ audience: end-user
 title: グローバルレポートの基本を学ぶ
 description: グローバルレポートについて
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
+source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 86%
+source-wordcount: '277'
+ht-degree: 76%
 
 ---
 
 # グローバルレポートの基本を学ぶ {#global-report-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="グローバルレポート"
+>abstract="グローバルレポートは、キャンペーンの効果を分析する強力で効率的な方法を提供します。 これらのレポートでは、キャンペーン内の各チャネルの主要トラフィックとエンゲージメント指標の統合された表示が提供されます。"
 
 「**グローバルレポート**」は効果的なツールとして機能し、Campaign インスタンス内の各チャネルのトラフィックとエンゲージメント指標の統合された全体的な概要を提供します。これらのレポートは様々なウィジェットで構成され、それぞれがキャンペーンや配信パフォーマンスに関する明確な観点を提供します。
 
