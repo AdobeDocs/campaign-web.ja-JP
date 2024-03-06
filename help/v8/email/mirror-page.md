@@ -4,7 +4,7 @@ title: ミラーページへのリンクの追加
 description: ミラーページへのリンクを追加および管理する方法を学ぶ
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
 ht-degree: 100%
 
