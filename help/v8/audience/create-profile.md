@@ -3,7 +3,7 @@ title: プロファイルの作成
 description: Campaign Web でプロファイルを作成する方法について説明します。
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="基本の詳細"
->abstract="この節では、プロファイルの基本的な詳細に関するインサイトを提供します。情報を変更するには、各フィールド内で直接変更を行い、画面の右上隅にある「**保存**」ボタンをクリックします。"
+>abstract="このセクションでは、プロファイルの基本的な詳細に関するインサイトを提供します。情報を変更するには、各フィールド内で直接変更を行い、画面の右上隅にある「**保存**」ボタンをクリックします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"

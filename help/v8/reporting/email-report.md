@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
 source-wordcount: '2329'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -144,12 +144,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="タイプ別のエラー分類"
->abstract="The **タイプごとのエラーの分類** グラフには、不明なユーザー、メールボックス容量超過、無効なドメインなど、発生した各エラータイプに対して使用可能なデータが含まれます。"
+>abstract="**タイプ別のエラー分類**&#x200B;グラフには、不明なユーザー、メールボックス容量超過、無効なドメインなど、発生した各エラータイプに関する入手可能なデータが表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="タイプ別のエラー分類"
->abstract="The **タイプごとのエラーの分類** 各エラータイプの発生の包括的な分類を表に示します。"
+>abstract="**タイプ別のエラーの分類**&#x200B;テーブルには、各エラータイプの発生の包括的な分類が表示されます。"
 
 **[!UICONTROL タイプごとのエラーの分類]**&#x200B;テーブルおよびグラフには、エラーのタイプごとに入手可能なデータが表示されます。指標については、以下で詳しく説明します。
 
@@ -180,12 +180,12 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="ドメイン別のエラー分類"
->abstract="The **ドメインごとのエラーの分類** グラフには、各ドメインに応じて発生した各エラータイプで使用可能なデータが表示されます。"
+>abstract="**ドメイン別のエラー分類**&#x200B;グラフには、各ドメインに応じて発生した各エラータイプに関する入手可能なデータが表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="ドメイン別のエラー分類"
->abstract="The **ドメインごとのエラーの分類** この表は、使用するドメインに応じて、各エラーの発生を包括的に分類したものです。"
+>abstract="**ドメイン別のエラー分類**&#x200B;テーブルには、使用するドメインに応じて各エラーの発生の包括的な分類が表示されます。"
 
 **[!UICONTROL ドメインごとのエラーの分類]**&#x200B;テーブルおよびグラフには、各ドメインで発生する可能性のあるエラーに関する入手可能なデータが表示されます。
 

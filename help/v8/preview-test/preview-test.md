@@ -3,10 +3,10 @@ audience: end-user
 title: 配信のプレビューとテストについて
 description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 >id="acw_deliveries_simulate"
 >title="配信のプレビューとテスト"
 >abstract="コンテンツを定義したら、プロファイルとテストプロファイルを使用してプレビューとテストを行うことができます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ja" text="テスト配信の送信"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ja" text="配達確認の送信"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ja#test-landing-page" text="ランディングページのテスト"
 
 配信コンテンツを定義したら、メッセージを送信する前に、プロファイルとテストプロファイルを使用してプレビューとテストを行うことができます。これは、コンテンツが正確であると同時に、コンテンツとパーソナライゼーション設定の両方にエラーがないことを確認するための重要な手順です。
@@ -24,7 +24,7 @@ ht-degree: 100%
 [!DNL Adobe Campaign Web user interface] では、次の操作を実行できます。
 
 * [メッセージのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)
-* テストと検証のために、特定の受信者またはサブスクライバーに対する[テスト配信](test-deliveries.md)（配達確認）の送信
+* [配達確認を送信](test-deliveries.md) （配達確認）特定の受信者または購読者に対して、テストおよび検証をおこなう
 * 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](email-rendering.md)します。
 * [ランディングページのプレビューとテスト](../landing-pages/create-lp.md#test-landing-page)
 

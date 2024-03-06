@@ -6,7 +6,7 @@ exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -54,22 +54,22 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_targetfile"
->title="「ファイル読み込み」アクティビティのターゲットファイル"
->abstract="「ファイル読み込み」アクティビティのターゲットファイル"
+>title="「ファイルを読み込み」アクティビティのターゲットファイル"
+>abstract="「ファイルを読み込み」アクティビティのターゲットファイル"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
->title="「ファイル読み込み」アクティビティの値の再マッピング"
->abstract="「ファイル読み込み」アクティビティの値の再マッピング"
+>title="「ファイルを読み込み」アクティビティの値の再マッピング"
+>abstract="「ファイルを読み込み」アクティビティの値の再マッピング"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
->title="[ ファイルをロード ] コマンド"
->abstract="前処理に任意のコマンドを許可することはセキュリティ上の問題となります。セキュリティオプション XtkSecurity_Disable_Preproc を無効にして、コマンドの定義済みリストを強制的に使用します。"
+>title="「ファイルを読み込み」コマンド"
+>abstract="前処理に任意のコマンドを許可するとセキュリティ上の問題があるので、セキュリティオプション XtkSecurity_Disable_Preproc を無効にして、コマンドの定義済みリストの使用を適用します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
->title="インポート後にファイルを削除"
+>title="読み込み後にファイルを削除"
 >abstract="TBC"
 
 「**ファイルを読み込み**」アクティビティは、「**データ管理**」アクティビティです。このアクティビティを使用して、外部ファイルに保存されるプロファイルとデータを操作します。プロファイルとデータはデータベースに追加されませんが、入力ファイル内のすべてのフィールドを[パーソナライゼーション](../../personalization/gs-personalization.md)や、プロファイルまたは他のテーブルの更新に使用できます。
