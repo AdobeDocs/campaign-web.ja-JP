@@ -3,10 +3,10 @@ audience: end-user
 title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 40447a2fec245b0c4a6d55f28a8b622b17e9dd9b
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,11 @@ ht-degree: 100%
 >id="acw_orchestration_split"
 >title="分割アクティビティ"
 >abstract="**分割**&#x200B;アクティビティを使用すると、フィルタリングルールや母集団サイズなどの様々な選択条件に基づいて、流入母集団を複数のサブセットにセグメント化できます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="同じテーブルにすべてのサブセットを生成"
+>abstract="すべてのサブセットを 1 つの出力トランジションにグループ化するには、このオプションをオンに切り替えます。"
 
 **分割**&#x200B;アクティビティは、フィルタリングルールや母集団サイズなどの様々な選択条件に基づいて、流入母集団を複数のサブセットにセグメント化できる&#x200B;**ターゲティング**&#x200B;アクティビティです。
 
