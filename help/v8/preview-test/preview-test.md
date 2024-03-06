@@ -3,10 +3,10 @@ audience: end-user
 title: 配信のプレビューとテストについて
 description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '195'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 93%
 [!DNL Adobe Campaign Web user interface] では、次の操作を実行できます。
 
 * [メッセージのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)
-* [配達確認を送信](test-deliveries.md) （配達確認）特定の受信者または購読者に対して、テストおよび検証をおこなう
+* [配達確認を送信](test-deliveries.md) テストおよび検証の対象となる特定の受信者または購読者
 * 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](email-rendering.md)します。
 * [ランディングページのプレビューとテスト](../landing-pages/create-lp.md#test-landing-page)
 
