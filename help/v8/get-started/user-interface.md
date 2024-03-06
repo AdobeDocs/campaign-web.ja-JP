@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1629'
 ht-degree: 100%
 
 ---
@@ -335,13 +335,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_contenttemplate_readonlymode"
 >title="このテンプレートは読み取り専用です"
 >abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_split_generatesubsets"
->title="同じテーブルにすべてのサブセットを生成"
->abstract="TBC"
-
-<!-- ML: not found in wiki pages-->
 
 
 <!-- Subscription activity-->
