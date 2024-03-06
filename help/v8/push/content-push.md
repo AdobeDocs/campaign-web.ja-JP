@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ通知配信をデザイン
 description: Adobe Campaign Web を使用したプッシュ通知配信のデザイン方法を学ぶ
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '1541'
-ht-degree: 100%
+source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
+workflow-type: tm+mt
+source-wordcount: '1545'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,12 @@ ht-degree: 100%
 >id="acw_deliveries_push_ios_content"
 >title="iOS コンテンツのプッシュ"
 >abstract="iOS デバイス用のプッシュ通知のコンテンツを定義します。メッセージの作成を開始するには、「**コンテンツを編集**」ボタンをクリックします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="後で通知ボタン"
+>abstract="未定"
+
 
 ## 通知のコンテンツの定義 {#push-message}
 
