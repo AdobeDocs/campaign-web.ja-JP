@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 100%
@@ -61,7 +61,6 @@ ht-degree: 100%
             + [インラインスタイル属性を追加する](email/inline-styling.md)
       + メールの送信と監視 {#monitor}
          + [メールの準備と送信](monitor/prepare-send.md)
-         + [メール配信設定](advanced-settings/delivery-settings.md)
          + [複数のウェーブを使用して送信](advanced-settings/send-using-waves.md)
          + [配信ログの監視](monitor/delivery-logs.md)
    + プッシュ通知 {#push}
@@ -81,6 +80,7 @@ ht-degree: 100%
       + [ビルトインコンテンツブロックを追加](personalization/content-blocks.md)
    + [メッセージへのオファーの追加](msg/offers.md)
    + [サブスクライバーへのメッセージの送信](msg/send-to-subscribers.md)
+   + [配信設定の指定](advanced-settings/delivery-settings.md)
    + 配信のプレビューとテスト {#preview-test}
       + [プレビューと配達確認について](preview-test/preview-test.md)
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
