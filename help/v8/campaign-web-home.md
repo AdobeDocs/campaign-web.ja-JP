@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 87%
+source-wordcount: '580'
+ht-degree: 85%
 
 ---
 
@@ -42,45 +42,6 @@ ht-degree: 87%
 >title="項目 4"
 >abstract="次世代クエリモデラーおよびメールデザイナー"
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_list5"
->title="Item 5"
->abstract="Additional Item"-->
-
-<!-- TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="ヘルプとドキュメント"
->abstract="Campaign で新しい web ユーザーインターフェイス（UI）が提供されるようになりました。より使いやすくなり、アクセシビリティに優れ、デザインが刷新された結果、ユーザーエクスペリエンスが大幅に向上しています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、他のアドビソリューションとの一貫性を保ちます。"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_title"
->title="新しい Adobe Campaign ユーザーインターフェイスを体験する"
->abstract="より現代的、直感的、動的"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list1"
->title="項目 1"
->abstract="新しいメール、SMS、プッシュ通知のデザインエクスペリエンス"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list2"
->title="項目 2"
->abstract="簡素化されたワークフローキャンバスインターフェイス"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list3"
->title="項目 3"
->abstract="オーディエンス、購読およびサービス、AEM Assets 向けに再考された UX"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list4"
->title="項目 4"
->abstract="メール生成 AI : プロンプトベースのメール生成"
-
-<!--TO REMOVE ABOVE-->
 
 新しいバージョンの Adobe Campaign Web ユーザーインターフェイスを導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された、直感的な機能が組み込まれています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性をもたらします。
 

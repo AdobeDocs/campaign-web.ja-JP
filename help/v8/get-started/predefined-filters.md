@@ -2,9 +2,9 @@
 title: 定義済みフィルターの操作
 description: Adobe Campaign Web での定義済みフィルターの作成および管理方法について説明します
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '786'
 ht-degree: 100%
 
 ---
@@ -15,15 +15,6 @@ ht-degree: 100%
 >id="acw_homepage_learning_card4"
 >title="定義済みフィルター管理"
 >abstract="Campaign Web ユーザーインターフェイスでは、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供します。1 回作成し、後で使用するために保存します。"
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="定義済みフィルター管理"
->abstract="Campaign web では、特定のニーズに合わせて定義済みフィルターを簡単に管理およびカスタマイズできる、使いやすいインターフェイスを提供するようになりました。1 回作成し、後で使用するために保存します。"
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]

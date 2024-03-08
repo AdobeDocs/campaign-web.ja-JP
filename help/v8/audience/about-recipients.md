@@ -2,10 +2,10 @@
 title: プロファイルの基本を学ぶ
 description: Campaign web でプロファイルを監視および管理する方法について説明します。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 86%
+source-wordcount: '497'
+ht-degree: 85%
 
 ---
 
@@ -16,15 +16,6 @@ ht-degree: 86%
 >title="プロファイルの包括的なビュー"
 >abstract="新しいプロファイルを作成し、強力なレポートとツールを通じて監視します。プロファイルの属性、インタラクションおよびログにアクセスします。フィルタリングオプションを使用して、プロファイルリストを参照し、プロファイルを編集および更新します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn4"
->title="プロファイルの包括的なビュー"
->abstract="新しいプロファイルを作成し、強力なレポートとツールを通じて監視します。プロファイルの属性、インタラクションおよびログにアクセスします。フィルタリングオプションを使用して、プロファイルリストを参照し、プロファイルを編集および更新します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
-
-<!--TO REMOVE ABOVE-->
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
