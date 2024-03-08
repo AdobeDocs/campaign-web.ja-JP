@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 94%
+source-wordcount: '608'
+ht-degree: 72%
 
 ---
 
@@ -17,17 +17,19 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="テストプロファイルを作成"
->abstract="テストプロファイルは、シードアドレスとして作成されます。シードアドレスは、定義されたターゲット条件に一致しない架空のプロファイルをターゲットにするために使用されるデータベース内の追加の受信者です。"
+>abstract="テストプロファイルは、メッセージを送信する前にパーソナライゼーションとレンダリングをプレビューおよびテストできる、追加の受信者です。 メッセージコンテンツのプレビュー時にテストプロファイルを選択し、配達確認をテストプロファイルに送信して、メッセージのコンテンツと設定を制御および検証できます。"
 
-テストプロファイルは、シードアドレスとして作成されます。シードアドレスは、定義されたターゲット条件に一致しない架空のプロファイルをターゲットにするために使用されるデータベース内の追加の受信者です。シードアドレスでは、配達確認を送信することで、配信を送信する前にパーソナライゼーションとレンダリングをプレビューおよびテストできます。
+テストプロファイルは、配達確認の送信、メッセージの内容と設定の検証に使用されます。 これらのプロファイルは、メッセージを送信する前に、パーソナライゼーションとレンダリングをプレビューおよびテストできる追加の受信者です。 メッセージコンテンツのプレビュー時にテストプロファイルを選択し、配達確認をテストプロファイルに送信して、メッセージのコンテンツと設定を制御および検証できます。
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-シードアドレスに配達確認を送信する手順について詳しくは、 [この節](../preview-test/test-deliveries.md#test-profiles).
+テストプロファイルに配達確認を送信する手順について詳しくは、 [この節](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->テストプロファイルは、**[!UICONTROL クリック数]**、**[!UICONTROL 開封数]**、**[!UICONTROL 購読解除]**&#x200B;の配信統計に関するレポートからは自動的に除外されます。[詳しくは、レポートを参照してください]
+>* テストプロファイルは、クライアントコンソールでシードアドレスとして作成されます。
+>
+>* テストプロファイルは、次の配信統計に関するレポートから自動的に除外されます。 **[!UICONTROL クリック数]**, **[!UICONTROL 開封数]**, **[!UICONTROL 購読解除]**.
 
 ## テストプロファイルのアクセスと管理 {#access-test-profiles}
 

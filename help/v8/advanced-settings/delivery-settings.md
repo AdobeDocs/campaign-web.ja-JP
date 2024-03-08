@@ -4,10 +4,10 @@ title: 配信設定の指定
 description: Campaign Web で配信設定を行う方法を説明します
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 80%
+source-wordcount: '2420'
+ht-degree: 76%
 
 ---
 
@@ -71,7 +71,9 @@ ht-degree: 80%
 「**[!UICONTROL 配信の重み付け]**」フィールドでは、配信の優先順位を定義できます。各配信には、優先度を表す重みが付けられます。
 デフォルトでは、配信の重みは 5 に設定されています。頻度ルールでは、適用先となる配信の重み付けを定義できます。重みの値は、定数を指定するか、受信者ごとに数式で算出します。例えば、受信者の興味に基づいて配信の重みを定義することができます。
 
-「**[!UICONTROL 配信モード]**」フィールドでは、ターゲットの評価モードを選択できます。次の 3 つのモードを選択できます。
+以下を使用します。 **[!UICONTROL 配信モード]** 「 」フィールドで、ターゲット評価モードを選択します。
+
+次の 3 つのモードを選択できます。
 
 * **[!UICONTROL ターゲットの推定とメッセージのパーソナライゼーション]**
 * **[!UICONTROL 暫定ターゲットの推定と承認]**
@@ -79,7 +81,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->疲労管理は、Campaign クライアントコンソールで設定されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。
+>疲労管理と頻度ルールは、Campaign クライアントコンソールで設定します。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。
 
 ### 処理能力設定 {#capacity-settings}
 
@@ -91,11 +93,11 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="受信者の重要度"
->abstract="受信者の重要度は、処理能力タイポロジルールを超過した場合に維持する受信者を決定するために使用される式です。"
+>abstract="受信者の重要度とは、処理能力タイポロジルールが超過した場合に保持するプロファイルを決定するための数式です。"
 
 このセクションでは、Adobe Campaign v8 コンソールで定義した処理能力ルールを選択できます。このルールはチャネルに関連付けられています。
 
-「**[!UICONTROL 受信者の重要度]**」フィールドは、処理能力タイポロジルールを超過した場合に維持する受信者を決定するために使用される式です。
+The **[!UICONTROL 受信者の重要度]** 「 」フィールドは、処理能力タイポロジルールが超過した場合に保持するプロファイルを決定するために使用される数式です。
 
 >[!NOTE]
 >
@@ -110,7 +112,7 @@ ht-degree: 80%
 
 このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。ターゲットマッピングは、操作で処理されるデータのタイプです。ターゲット母集団（受信者、契約の受取人、オペレーター、購読者など）を定義できます。 [ターゲットマッピングの詳細を説明します](../audience/targeting-dimensions.md).
 
-「**[!UICONTROL 除外]**」フィールドでは、今後連絡を希望しない受信者や強制隔離されている受信者を除外することを選択できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ja){target="_blank"}
+Adobe Analytics の **[!UICONTROL 除外]** 「 」フィールドで、今後連絡を希望しないプロファイルや強制隔離されたプロファイルを除外するよう選択できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ja){target="_blank"}
 
 ## 配信 {#delivery}
 
@@ -277,7 +279,7 @@ E メール配信の準備中に警告が生成された場合は、配信を設
 
 このセクションでは、除外パラメーターを設定できます。次のオプションを使用できます。
 
-* **[!UICONTROL 重複を保持]**：複数のターゲティング条件を満たす受信者に対して複数の配信を許可できます。
+* **[!UICONTROL 重複を保持]** を使用すると、複数のターゲット条件を満たすプロファイルに対して、複数の配信を許可できます。
 * **[!UICONTROL ブロックリスト登録済みアドレスを保持]**：購読解除（オプトアウト）後など、配信のターゲットでなくなったプロファイルをターゲットから除外できます。
 * **[!UICONTROL 強制隔離されたアドレスを保持]**：プロファイルで指定されているアドレスからの応答がないターゲットを除外できます。
 

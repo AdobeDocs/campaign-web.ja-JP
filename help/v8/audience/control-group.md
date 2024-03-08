@@ -3,10 +3,10 @@ audience: end-user
 title: コントロール母集団の設定
 description: Campaign web ユーザーインターフェイスでメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
 
 ### コントロール母集団の例{#control-group-sample}
 
-例えば、100 人の新しい最年少受信者を含むコントロール母集団を作成するには、次の手順に従います。
+例えば、年齢の低い順に 100 人の新しいプロファイルを含むコントロール母集団を作成するには、次の手順に従います。
 
 1. 「**年齢**」フィールドを並べ替え条件として選択します。**昇順**&#x200B;並べ替えオプションはそのままにしておきます。
 1. 「**作成日**」フィールドを追加します。**降順**&#x200B;並べ替えオプションに変更します。
@@ -70,7 +70,7 @@ ht-degree: 99%
 
    ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-この 100 人の新しい最年少受信者がメインターゲットから除外されます。
+その後、これら 100 人の新しい最年少のプロファイルがメインターゲットから除外されます。
 
 ### コントロール母集団を確認 {#check-control-group}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: オーディエンスの監視と管理
 description: Adobe Campaign Web でオーディエンスを監視および管理する方法を説明します
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 0f83fa69847bbabbf725f95ff29ed9b09db915b6
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 91%
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 ## オーディエンスとは {#what}
 
-オーディエンスは配信のメインターゲットであり、メッセージを受信する受信者となります。オーディエンスのタイプは、配信テンプレートで定義されたターゲットマッピングによって異なります。配信テンプレートについて詳しくは、[このページ](../msg/delivery-template.md)を参照してください。
+オーディエンスは配信のメインターゲットであり、メッセージを受信するプロファイルとなります。オーディエンスのタイプは、配信テンプレートで定義されたターゲットマッピングによって異なります。配信テンプレートについて詳しくは、[このページ](../msg/delivery-template.md)を参照してください。
 
 オーディエンスの母集団を定義するには、次の操作を実行します。
 

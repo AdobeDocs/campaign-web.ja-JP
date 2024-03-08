@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign のルールビルダーを使用してオーディエンスを作成
 description: ルールビルダーを操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **結果を表示：**&#x200B;オーディエンスのターゲットとなる受信者のリストを表示します。
+* **結果を表示：** オーディエンスのターゲットとなるプロファイルのリストを表示します。
 * **コードビュー**：オーディエンスのコードベースのバージョンを SQL で表示します。
 * **詳細属性の表示**：左側のパレットに属性の完全なリスト（ノード、グループ、1 対 1 のリンク、1 対多のリンク）を表示する場合は、このオプションを選択します。
 * **計算**：クエリのターゲットとなるプロファイルの数を更新および表示します。

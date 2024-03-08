@@ -1,10 +1,11 @@
 ---
 title: プロファイルの詳細の探索
 description: プロファイルの詳細の探索方法について説明します。
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 98%
 
 ---
 
@@ -12,7 +13,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
->title="受信者の購読リスト"
+>title="購読リスト"
 >abstract="このタブには、プロファイルがサブスクライブしているすべてのサービスがリストされます。"
 
 プロファイルの詳細にアクセスするには、**[!UICONTROL 顧客管理]**／**[!UICONTROL プロファイル]**&#x200B;を参照し、アクセスするプロファイルをクリックします。

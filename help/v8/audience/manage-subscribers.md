@@ -3,10 +3,10 @@ audience: end-user
 title: サブスクライバーの管理
 description: Adobe Campaign Web で、サービスのサブスクライバーに対して管理および配信する方法を学ぶ
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+workflow-type: tm+mt
 source-wordcount: '316'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## サービスからサブスクライバーを削除 {#remove-subscribers}
 
-### 手動で受信者を登録解除 {#manual-unsubscription}
+### プロファイルの手動購読解除 {#manual-unsubscription}
 
 サービスに[サブスクライバーを追加](#add-subscribers)したら、それ各サブスクライバーを手動で登録解除できます。以下の手順に従います。
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
 ### 受信者を自動的に登録解除 {#automatic-unsubscription}
 
-サブスクリプションサービスの期間を限定することができます。有効期間が終了すると、受信者は自動的に登録解除されます。
+サブスクリプションサービスの期間を限定することができます。有効期間が終了すると、プロファイルは自動的に購読解除されます。
 
 この期間は、[サービスの作成](manage-services.md#create-service)時に指定されます。「**[!UICONTROL その他のオプション]**」から、「**[!UICONTROL 無制限の有効期間]**」オプションを選択し、サービスの有効期間を定義します。
 

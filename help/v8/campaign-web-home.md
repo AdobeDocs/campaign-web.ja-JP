@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
@@ -134,7 +134,7 @@ Campaign メールデザイナーを使用すると、直感的なドラッグ�
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>コンテンツを動的にする</strong><br/>受信者について収集した情報に基づいてコンテンツをカスタマイズし、コンテンツをより魅力的にし、読まれる可能性を高める方法について説明します。</div>
+    <div><strong>コンテンツを動的にする</strong><br/>プロファイルに関して収集した情報に基づいてコンテンツをカスタマイズし、コンテンツをより魅力的にし、読まれる可能性を高める方法を説明します。</div>
     </td>
   </tr>
   <tr style="border: 0;">

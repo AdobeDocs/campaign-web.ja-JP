@@ -2,10 +2,10 @@
 title: ターゲティングディメンション
 description: Adob Campaign Web でのターゲティングディメンションについて説明します
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="ターゲティングディメンションの選択"
->abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。"
+>abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、E メールと SMS の場合、ターゲットは受信者組み込みテーブルから選択されます。 プッシュ通知の場合、デフォルトのターゲットディメンションは「購読者のアプリケーション」です。"
 
 ターゲティングディメンション、別名ターゲットマッピングは、操作で処理されるデータのタイプです。ターゲット母集団（プロファイル、契約の受取人、オペレーター、サブスクライバーなど）を定義できます。
 
@@ -36,12 +36,12 @@ ht-degree: 100%
 
 | 名前 | 用途 | スキーマ |
 |---|---|---|
-| 受信者 | 受信者への配信（組み込みの受信者テーブル） | nms:recipient |
+| 受信者 | プロファイル/受信者への配信（組み込みの受信者テーブル） | nms:recipient |
 | 訪問者 | 紹介（バイラルマーケティング）などの方法でプロファイルを収集した訪問者への配信 | mns:visitor |
-| 購読 | ニュースレターなどの情報サービスを購読している受信者に対する配信 | nms:subscription |
+| 購読 | ニュースレターなどの情報サービスを購読しているプロファイルへの配信 | nms:subscription |
 | 訪問者の購読 | 情報サービスを購読している訪問者に対する配信 | nms:visitorSub |
 | オペレーター | Adobe Campaign オペレーターに対する配信 | nms:operator |
 | 外部ファイル | 配信に必要な情報をすべて含んだファイルを経由しての配信 | リンクされるスキーマなし、入力されるターゲットなし |
-| サブスクライバーのアプリケーション | アプリケーションを購入している受信者に対する配信 | nms:appSubscriptionRcp |
+| サブスクライバーのアプリケーション | アプリケーションを購読しているプロファイルへの配信 | nms:appSubscriptionRcp |
 
-また、必要に応じて、新しいターゲットマッピングを作成できます。これは、クライアントコンソールから実行されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja#new-mapping){target="_blank"}を参照してください。
+また、必要に応じて、新しいターゲットマッピングを作成できます。この操作は、クライアントコンソールからのみ実行されます。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja#new-mapping){target="_blank"}を参照してください。

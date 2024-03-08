@@ -3,10 +3,10 @@ audience: end-user
 title: 配達確認の送信
 description: 配達確認の定義と送信方法を説明します
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 メッセージのコンテンツやパーソナライゼーション設定でエラーが発生する可能性を検出するには、メッセージをターゲットオーディエンスに送信する前に、配達確認をテストプロファイルに送信します。変更を加えるたびに配達確認を送信して、最新のコンテンツを確認します。配達確認の送信は、キャンペーンを検証し、潜在的な問題を特定するための重要な手順です。 配達確認の受信者は、リンク、オプトアウトリンク、画像、ミラーページなどの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定、配信設定のエラーを検出できます。
 
-## テスト受信者を使用したコンテンツのシミュレート {#simulate-content-test-deliveries}
+## テストプロファイルを使用してコンテンツをシミュレート {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
