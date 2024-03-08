@@ -1,23 +1,24 @@
 ---
 audience: end-user
-title: Adobe Experience Manager as a Cloud Service でアセットを管理する
-description: Adobe Experience Manager as a Cloud Service を使用してコンテンツを管理する方法について説明します
-source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
+title: Adobe Experience Manager as a Cloud Serviceでのアセットの管理
+description: Adobe Experience Manager as a Cloud Serviceでコンテンツを管理する方法を学ぶ
+exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
-# [!DNL Adobe Experience Manager as a Cloud service] でのテンプレートを管理する{#aem-assets}
+# [!DNL Adobe Experience Manager as a Cloud Service] でのテンプレートを管理する{#aem-assets}
 
-## [!DNL Adobe Experience Manager as a Cloud service] の基本を学ぶ{#create-aem}
+## [!DNL Adobe Experience Manager as a Cloud Service] の基本を学ぶ{#create-aem}
 
 Adobe Campaign Web インターフェイスと Adobe Experience Manager の統合により、Adobe Experience Manager プラットフォーム内で直接メール配信コンテンツとフォームを効率的に管理できます。
 
-![](assets/do-not-localize/book.png)[詳しくは、Adobe Experience Manager as a Cloud Service を参照してください](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
+![](assets/do-not-localize/book.png)[Adobe Experience Manager as a Cloud Serviceの詳細](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
 
-## [!DNL Adobe Experience Manager as a Cloud service] でテンプレートを作成する{#create-aem-template}
+## [!DNL Adobe Experience Manager as a Cloud Service] でテンプレートを作成する{#create-aem-template}
 
 1. [!DNL Adobe Experience Manager] オーサーインスタンスに移動し、ページの左上隅にある「Adobe Experience」をクリックします。メニューから「**[!UICONTROL Sites]**」を選択します。
 
@@ -47,7 +48,7 @@ Adobe Campaign Web インターフェイスと Adobe Experience Manager の統�
 
 これでニュースレターが準備でき、Adobe Campaign で同期されました。
 
-## Adobe Experience Manager as a Cloud Service テンプレートを読み込む{#aem-templates-perso}
+## Adobe Experience Manager as a Cloud Serviceテンプレートのインポート{#aem-templates-perso}
 
 Experience Manager テンプレートが Adobe Campaign Web でコンテンツテンプレートとして使用可能になると、パーソナライゼーションを含むメールに必要なコンテンツを特定して組み込むことができます。
 

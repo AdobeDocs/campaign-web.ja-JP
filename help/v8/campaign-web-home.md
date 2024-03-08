@@ -3,7 +3,7 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 87%
@@ -90,7 +90,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager as a Cloud Service の統合]
+>[!TAB Adobe Experience Manager as a Cloud Service統合]
 
 Adobe Campaign Web インターフェイスとAdobe Experience Manager as a Cloud Serviceの統合により、E メールコンテンツ管理が効率化されます。 E メールコンテンツをAdobe Experience Managerで直接作成および編集でき、完成したテンプレートをAdobe Campaignにシームレスに読み込んで配信できるようになりました。
 

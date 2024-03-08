@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -167,6 +167,7 @@ ht-degree: 100%
       + [プッシュグローバルレポート](reporting/global-report-push.md)
       + [SMS グローバルレポート](reporting/global-report-sms.md)
 + 統合 {#integrations}
+   + [他のAdobe](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
-   + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
+   + [Adobe Experience Manager as a Cloud Serviceでのテンプレートの管理](integrations/aem-content.md)
 
