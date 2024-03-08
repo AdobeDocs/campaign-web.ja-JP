@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign Web ユーザーインターフェイスに含まれている新機能を確認する
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 06b529083e1ff8a4378aa938960b9edd7a422b32
+source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知など�
 
 * メール、SMS、プッシュ通知を作成、デザイン、パーソナライズ、スケジュールおよび送信 - [詳細情報](../msg/gs-messages.md)
 * パーソナライズされたメールコンテンツをメールデザイナーでデザイン - [詳細情報](../email/edit-content.md)
-* SMS やプッシュ通知を含むクロスチャネルキャンペーンを送信 - [詳細情報](../workflows/activities/channels.md)
+* SMS やプッシュ通知を含むクロスチャネルキャンペーンの送信 — [詳細情報](../workflows/activities/channels.md)
 * クエリモデラーでターゲットオーディエンスを定義 - [詳細情報](../audience/about-recipients.md)
 * メッセージをプレビュー、テスト、送信 - [詳細情報](../monitor/prepare-send.md)
 * ビルトインレポートを使用した送信の監視および結果の測定 - [詳細情報](../reporting/delivery-reports.md)
