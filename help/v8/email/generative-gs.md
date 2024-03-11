@@ -6,7 +6,7 @@ badge: label="アルファ版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 3804b1a518d1f1699abeaf6de36ce9e56123e14d
+source-git-commit: 80af4bda06dbeda2c9123d21384771b9458c8b51
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 88%
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 
 >[!CONTEXTUALHELP]
->id="acw_emagica_generate"
+>id="acw_emagica_generate_test"
 >title="Adobe 生成 AI の用語"
 >abstract="この機能へのアクセスは、Adobe Experience Cloud Generative AI のユーザーガイドラインに同意された場合に限られます。 この機能に対して提供するプロンプト、コンテキスト、補足情報、またはその他の入力は、特定のコンテキストに関連付ける必要があります。特定のコンテキストには、ブランディング資料、Web サイトコンテンツ、データ、そのデータ、テンプレート、その他の信頼できるドキュメントが含まれます"
 
