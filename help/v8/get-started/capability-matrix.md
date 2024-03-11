@@ -4,9 +4,9 @@ title: Campaign web ユーザーインターフェイス／クライアントコ
 description: Campaign web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2179'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -164,13 +164,13 @@ Adobe Campaign には、外部システムと接続する事前定義済みの�
 
 ### ワークフローのデータ管理機能 {#data}
 
-データ管理は、複雑なターゲティングの問題を解決するために、一連のアクティビティを組み合わせ、データの読み込み、抽出（ファイル）、データを更新、スキーマを編集、インポート/エクスポートの各テクニカルワークフローなど、より効率的で柔軟なツールを提供します。 [クライアントコンソールでのワークフローデータ管理機能の確認](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja#data-management){target="_blank"}
+データ管理は、データの読み込み、抽出（ファイル）、データの更新、スキーマの編集、テクニカルワークフローのインポート／エクスポートなど、より効率的で柔軟なツールを提供することで、複雑なターゲティングの問題を解決するための一連のアクティビティを組み合わせます。[詳しくは、クライアントコンソールでのワークフローのデータ管理機能の確認を参照してください](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html?lang=ja#data-management){target="_blank"}
 
 >[!NOTE]
 >
->これらのアクティビティの一部はクライアントコンソールでのみ使用できますが、一部は Campaign Web ユーザーインターフェイス ( **エンリッチメント**, **ファイルを読み込み** または **ディメンションを変更** アクティビティ。 [Campaign Web ユーザーインターフェイスでのターゲティングとデータ管理のアクティビティの詳細を説明します](../workflows/activities/about-activities.md#targeting)
+>これらのアクティビティの一部はクライアントコンソールでのみ使用できますが、「**エンリッチメント**」アクティビティ、「**ファイルを読み込み**」アクティビティ、「**ディメンションを変更**」アクティビティなどの一部は、Campaign web ユーザーインターフェイスで使用できます。[詳しくは、Campaign web ユーザーインターフェイスでのターゲティングとデータ管理のアクティビティを参照してください](../workflows/activities/about-activities.md#targeting)
 
-### Federated Data Access 設定 {#fda}
+### Federated Data Access の設定 {#fda}
 
 Campaign の設定と外部システムへの接続は、上級ユーザーに制限され、クライアントコンソールからのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"}
 

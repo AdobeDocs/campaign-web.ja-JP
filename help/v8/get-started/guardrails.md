@@ -1,11 +1,11 @@
 ---
-title: Campaign Web ユーザーインターフェイスワークフローのガードレールと制限
-description: Campaign Web ユーザーインターフェイスでワークフローを操作する際のガードレールと制限
+title: Campaign web ユーザーインターフェイスワークフローのガードレールと制限
+description: Campaign web ユーザーインターフェイスのワークフローを操作する際のガードレールと制限
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 

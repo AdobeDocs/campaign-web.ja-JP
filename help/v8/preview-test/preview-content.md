@@ -4,9 +4,9 @@ title: 配信コンテンツのプレビュー
 description: Campaign web ユーザーインターフェイスで配信コンテンツをプレビューする方法について説明します
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 94%
 1. メール配信の場合、右上隅の専用アイコンを使用して、**[!UICONTROL ズームレベル]**&#x200B;を調整し、デスクトップまたはモバイルデバイスでコンテンツをプレビューできます。
 
 1. **[!UICONTROL シミュレート]**&#x200B;画面では、次の操作も実行できます。
-   * 特定の受信者に検証用に配達確認を送信 — [詳細情報](test-deliveries.md)
-   * 送信した配達確認のログにアクセス — [詳細情報](test-deliveries.md#access-test-deliveries)
+   * 検証用の特定の受信者への本配信前確認の送信 - [詳細情報](test-deliveries.md)
+   * 送信済み本配信前確認のログへのアクセス - [詳細情報](test-deliveries.md#access-test-deliveries)
    * メールのみの場合、一般的なメールクライアントでのメッセージコンテンツのレンダリングの確認 - [詳細情報](email-rendering.md)
 
 
