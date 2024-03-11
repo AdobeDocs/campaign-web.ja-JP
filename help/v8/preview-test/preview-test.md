@@ -16,7 +16,7 @@ ht-degree: 94%
 >id="acw_deliveries_simulate"
 >title="配信のプレビューとテスト"
 >abstract="コンテンツを定義したら、プロファイルとテストプロファイルを使用してプレビューとテストを行うことができます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ja" text="配達確認の送信"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html?lang=ja" text="本配信前確認の送信"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ja#test-landing-page" text="ランディングページのテスト"
 
 配信コンテンツを定義したら、メッセージを送信する前に、プロファイルとテストプロファイルを使用してプレビューとテストを行うことができます。これは、コンテンツが正確であると同時に、コンテンツとパーソナライゼーション設定の両方にエラーがないことを確認するための重要な手順です。
@@ -25,7 +25,7 @@ ht-degree: 94%
 
 * [メッセージのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)
 * [配達確認を送信](test-deliveries.md) テストおよび検証の対象となる特定の受信者または購読者
-* 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](email-rendering.md)します。
+* 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認する](email-rendering.md)
 * [ランディングページのプレビューとテスト](../landing-pages/create-lp.md#test-landing-page)
 
 これらのアクションは、配信のコンテンツを編集画面または[メールデザイナー](../email/get-started-email-designer.md)からアクセスできる「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。

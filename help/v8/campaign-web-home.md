@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!TAB Adobe Experience Manager as a Cloud Service統合]
 
-Adobe Campaign Web インターフェイスとAdobe Experience Manager as a Cloud Serviceの統合により、E メールコンテンツ管理が効率化されます。 E メールコンテンツをAdobe Experience Managerで直接作成および編集でき、完成したテンプレートをAdobe Campaignにシームレスに読み込んで配信できるようになりました。
+Adobe Campaign web インターフェイスと Adobe Experience Manager as a Cloud Service の統合により、メールコンテンツ管理が効率化されます。Adobe Experience Manager でメールコンテンツを直接作成および編集し、完成したテンプレートを Adobe Campaign にシームレスにインポートして配信できるようになりました。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
 

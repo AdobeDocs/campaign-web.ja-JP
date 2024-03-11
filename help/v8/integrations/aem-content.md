@@ -6,7 +6,7 @@ exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
@@ -82,7 +82,7 @@ Experience Manager テンプレートが Adobe Campaign Web でコンテンツ�
 
    ![](assets/aem_8.png)
 
-1. コンテンツは自動的には同期されません。 Adobe Experience Manager でテンプレートに直接変更を行った場合は、「**[!UICONTROL AEM コンテンツを更新]**」を選択するだけでテンプレートが最新バージョンになります。
+1. コンテンツは自動的には同期されません。Adobe Experience Manager でテンプレートに直接変更を行った場合は、「**[!UICONTROL AEM コンテンツを更新]**」を選択するだけでテンプレートが最新バージョンになります。
 
 1. Experience Manager と Campaign の間のリンクを削除するか、メールデザイナーで Experience Manager テンプレートをさらにカスタマイズするには、「**[!UICONTROL AEM コンテンツをリンク解除]**」をクリックします。
 

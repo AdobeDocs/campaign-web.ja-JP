@@ -6,7 +6,7 @@ exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 86%
+ht-degree: 94%
 
 ---
 
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## メールのプレビューとテスト {#test}
 
-Campaign Web では、ファイルからアップロードされたオーディエンスを使用する際に、配達確認をプレビューおよび送信できます。 これを行うには、次の手順に従います。
+Campaign web では、ファイルからアップロードされたオーディエンスを使用する際に、本配信前確認をプレビューして送信できます。これを行うには、次の手順に従います。
 
 1. 配信コンテンツ編集画面で「**[!UICONTROL コンテンツをシミュレートボタン]**」をクリックし、「**[!UICONTROL テストプロファイルを追加]**」ボタンをクリックします。
 
@@ -94,7 +94,7 @@ Campaign Web では、ファイルからアップロードされたオーディ�
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. 配達確認を送信するには、 **[!UICONTROL 配達確認を送信]** 」ボタンをクリックします。
+1. 本配信前確認を送信するには、「**[!UICONTROL 本配信前確認を送信]**」ボタンをクリックします。
 
 1. 「**[!UICONTROL 配達確認プロファイルをアップロード]**」ボタンをクリックし、プルーフの受信者を含む .txt ファイルまたは .csv ファイルを選択します。 
 
@@ -106,4 +106,4 @@ Campaign Web では、ファイルからアップロードされたオーディ�
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. 配達確認の送信を監視するには、 **[!UICONTROL 配達確認を表示]** ボタンをいつでも使用できます。 [配達確認の監視の詳細を説明します](../preview-test/test-deliveries.md#access-test-deliveries)
+1. 「**[!UICONTROL 本配信前確認を表示]**」ボタンを使用して、いつでも本配信前確認の送信を監視できます。[詳しくは、本配信前確認の監視を参照してください](../preview-test/test-deliveries.md#access-test-deliveries)

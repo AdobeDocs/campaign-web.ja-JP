@@ -8,7 +8,7 @@ exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 72%
+ht-degree: 74%
 
 ---
 
@@ -102,6 +102,6 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. 「**[!UICONTROL 保存]**」ボタンをクリックします。
 
-これで、作成したテストプロファイルを、配達確認の送信に使用する準備が整いました。 [詳細情報](../preview-test/test-deliveries.md#test-profiles)
+作成したテストプロファイルを使用して本配信前確認を送信する準備が整いました。[詳細情報](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->

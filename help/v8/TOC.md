@@ -84,7 +84,7 @@ ht-degree: 97%
    + 配信のプレビューとテスト {#preview-test}
       + [プレビューと配達確認について](preview-test/preview-test.md)
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
-      + [配達確認の送信](preview-test/test-deliveries.md)
+      + [本配信前確認の送信](preview-test/test-deliveries.md)
       + [メールのレンダリングのテスト](preview-test/email-rendering.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)

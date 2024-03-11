@@ -6,7 +6,7 @@ exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Campaign Web で使用できるオーディエンスのリストには、**[!UIC
 
 * **[!UICONTROL Adobe Experience Platform：]**&#x200B;これらのオーディエンスは、Adobe Experience Platform 内で作成され、アドビのソースおよび宛先との統合を使用して Campaign web に統合されます。この統合を設定する方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
 
-  ➡️ [ビデオでこの機能を確認する](#video)
+  ➡️ [この機能をビデオで確認](#video)
 
 * **[!UICONTROL Adobe Campaign Web UI]**：これらのオーディエンスは、Campaign web オーディエンスワークフローを使用して作成されます。[オーディエンスの作成方法の詳細情報](create-audience.md)
 
@@ -70,8 +70,8 @@ Campaign Web で使用できるオーディエンスのリストには、**[!UIC
 
 ## チュートリアルビデオ {#video}
 
-Adobe Campaign Web ユーザーインターフェイスでExperience Platformオーディエンスを使用する宛先を作成する方法について説明します。
+Adobe Campaign web ユーザーインターフェイスで Experience Platform オーディエンスを使用する宛先を作成する方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-Adobeソースと宛先の統合を設定する方法に関する詳細は、 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}.
+アドビのソースと宛先の統合を設定する方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
