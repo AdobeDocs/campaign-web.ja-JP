@@ -6,10 +6,10 @@ badge: label="アルファ版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 80af4bda06dbeda2c9123d21384771b9458c8b51
+source-git-commit: f87c1e9521bf78be9d1a95ea60d81a1aef06bc90
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 88%
+source-wordcount: '531'
+ht-degree: 80%
 
 ---
 
@@ -17,14 +17,11 @@ ht-degree: 88%
 
 
 >[!CONTEXTUALHELP]
->id="acw_emagica_generate_test"
+>id="acw_emagica_generate_test_test"
 >title="Adobe 生成 AI の用語"
->abstract="この機能へのアクセスは、Adobe Experience Cloud Generative AI のユーザーガイドラインに同意された場合に限られます。 この機能に対して提供するプロンプト、コンテキスト、補足情報、またはその他の入力は、特定のコンテキストに関連付ける必要があります。特定のコンテキストには、ブランディング資料、Web サイトコンテンツ、データ、そのデータ、テンプレート、その他の信頼できるドキュメントが含まれます"
+>abstract="この機能へのアクセスは、Adobe Experience Cloud Generative AI のユーザーガイドラインに同意された場合に限られます。 この機能に対して提供するプロンプト、コンテキスト、補足情報、またはその他の入力は、特定のコンテキストに関連付ける必要があります。特定のコンテキストには、ブランディング資料、Web サイトコンテンツ、データ、そのようなデータ、テンプレート、その他の信頼できる文書が含まれます。 この機能の出力を正確に確認し、使用事例に適していることを確認する必要があります。"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe生成 AI のユーザーガイドライン"
 
-<!--
-", and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case.
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
--->
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
