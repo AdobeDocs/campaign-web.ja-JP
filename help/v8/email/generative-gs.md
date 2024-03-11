@@ -6,10 +6,10 @@ badge: label="アルファ版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 6d3a891bee77ebe8e1e78d816bbec7d9bf4efc1f
+source-git-commit: 1bce844800ad82559bdefebddc96dcec58177f09
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 80%
+source-wordcount: '489'
+ht-degree: 87%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成 AI の用語"
->abstract="この機能へのアクセスは、Adobe Experience Cloud Generative AI User Guidelines と以下の内容に従います。特定の招待 )。 この機能の出力を正確に確認し、使用事例に適していることを確認する必要があります。"
+>abstract="この機能へのアクセスは、Adobe Experience Cloud Generative AI ユーザーガイドラインと以下の内容に従います。"
 
 <!--
-"
+", and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case.
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI User Guidelines"
 -->
 
