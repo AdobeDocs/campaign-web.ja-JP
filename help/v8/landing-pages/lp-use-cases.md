@@ -7,8 +7,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
-workflow-type: ht
+exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 100%
 
@@ -214,14 +215,3 @@ ht-degree: 100%
 ![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
 
 このプロファイルは、再度購読しない限りブランドからのメール通信は受信されません。
-
-
-
-
-
-
-
-
-
-
-
