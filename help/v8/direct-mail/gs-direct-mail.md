@@ -2,7 +2,7 @@
 audience: end-user
 title: ダイレクトメール配信の概要
 description: Adobe Campaign Web でダイレクトメール配信を作成して送信する方法を説明します
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
