@@ -3,10 +3,10 @@ audience: end-user
 title: グローバルレポートの基本を学ぶ
 description: グローバルレポートについて
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
 * [メールグローバルレポート](global-report-email.md)
 * [SMS グローバルレポート](global-report-sms.md)
 * [プッシュグローバルレポート](global-report-push.md)
+* [ダイレクトメールのグローバルレポート](global-report-direct.md)
 
 ## レポートダッシュボードの管理 {#manage-reports}
 

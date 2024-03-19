@@ -3,10 +3,10 @@ audience: end-user
 title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 * [メールキャンペーンチャネル](campaign-reports-email.md)
 * [SMS キャンペーンチャネル](campaign-reports-sms.md)
 * [プッシュキャンペーンチャネル](campaign-reports-push.md)
+* [ダイレクトメールキャンペーンチャネル](campaign-reports-direct-mail.md)
 
 ## レポートダッシュボードの管理 {#manage-reports}
 

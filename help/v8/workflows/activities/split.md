@@ -3,10 +3,10 @@ audience: end-user
 title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 100%
+source-wordcount: '839'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,8 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="分割アクティビティのフィルター"
->abstract="サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、目的のフィルタールールを設定します。例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。"
+>abstract="サブセットにフィルター条件を適用するには、 **[!UICONTROL フィルターを作成]** をクリックし、クエリモデラーを使用して目的のフィルタールールを設定します。 例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="クエリモデラーの操作"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -71,7 +72,7 @@ ht-degree: 100%
 
    1. サブセットを開いて、そのプロパティを表示します。
 
-   1. サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、目的のフィルタールールを設定します。例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。
+   1. サブセットにフィルター条件を適用するには、 **[!UICONTROL フィルターを作成]** をクリックし、クエリモデラーを使用して目的のフィルタールールを設定します。 例えば、データベースに E メールアドレスが存在する受信母集団のプロファイルを含めます。 [詳しくは、クエリモデラーの操作方法を参照してください](../../query/query-modeler-overview.md)
 
    1. サブセットで選択するプロファイル数を制限するには、「**[!UICONTROL 制限を有効にする]**」オプションの切替スイッチをオンにし、含める母集団の数または割合を指定します。
 
@@ -85,6 +86,10 @@ ht-degree: 100%
 1. すべてのサブセットを設定したら、どのサブセットにも一致しなかった残りの母集団を選択し、追加のアウトバウンドトランジションに含めることができます。これを行うには、「**[!UICONTROL 補集合を生成]**」オプションの切替スイッチをオンにします。
 
    ![](../assets/workflow-split-complement.png)
+
+   >[!NOTE]
+   >
+   >The **[!UICONTROL 同じテーブルにすべてのサブセットを生成]** 「 」オプションを使用すると、すべてのサブセットを 1 つの出力トランジションにグループ化できます。
 
 これでアクティビティが設定され、ワークフローの実行時に、母集団はアクティビティに追加された順序で、様々なサブセットにセグメント化されます。
 

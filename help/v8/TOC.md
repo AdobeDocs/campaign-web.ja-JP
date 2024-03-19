@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 97%
+source-wordcount: '632'
+ht-degree: 93%
 
 ---
 
@@ -16,8 +16,10 @@ ht-degree: 97%
 # Adobe Campaign Web ドキュメント {#v8}
 
 + [Adobe Campaign web ユーザーインターフェイスドキュメント](campaign-web-home.md)
-+ [新機能](rn/whats-new.md)
-+ [ドキュメントの更新](rn/documentation-updates.md)
++ リリースノート {#release-notes}
+   + [新機能](rn/whats-new.md)
+   + [最新リリース](rn/release-notes.md)
+   + [ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
@@ -73,6 +75,11 @@ ht-degree: 97%
       + [SMS 配信を作成](sms/create-sms.md)
       + [SMS 配信をデザイン](sms/content-sms.md)
       + [SMS 配信のプレビューと送信](sms/send-sms.md)
+   + ダイレクトメール {#direct-mail}
+      + [ダイレクトメール配信の概要](direct-mail/gs-direct-mail.md)
+      + [ダイレクトメール配信の作成](direct-mail/create-direct-mail.md)
+      + [抽出ファイルのデザイン](direct-mail/content-direct-mail.md)
+      + [ダイレクトメール配信のプレビューと送信](direct-mail/send-direct-mail.md)
    + コンテンツを動的にする {#dynamic-content}
       + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
       + [パーソナライゼーションを追加](personalization/personalize.md)
@@ -129,6 +136,7 @@ ht-degree: 97%
       + [ワークフローアクティビティについて](workflows/activities/about-activities.md)
       + [AND 結合](workflows/activities/and-join.md)
       + [オーディエンスを作成](workflows/activities/build-audience.md)
+      + [データソースを変更](workflows/activities/change-data-source.md)
       + [ディメンションを変更](workflows/activities/change-dimension.md)
       + [結合](workflows/activities/combine.md)
       + [重複の除外](workflows/activities/deduplication.md)
@@ -156,16 +164,19 @@ ht-degree: 97%
       + [メール配信レポート](reporting/email-report.md)
       + [プッシュ配信レポート](reporting/push-report.md)
       + [SMS 配信レポート](reporting/sms-report.md)
+      + [ダイレクトメール配信レポート](reporting/direct-mail.md)
    + キャンペーンレポート {#campaign-report}
       + [キャンペーンレポートの基本を学ぶ](reporting/campaign-reports.md)
       + [メールキャンペーンレポート](reporting/campaign-reports-email.md)
       + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
       + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
+      + [ダイレクトメールキャンペーンレポート](reporting/campaign-reports-direct-mail.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートの基本を学ぶ](reporting/global-reports.md)
       + [メールグローバルレポート](reporting/global-report-email.md)
       + [プッシュグローバルレポート](reporting/global-report-push.md)
       + [SMS グローバルレポート](reporting/global-report-sms.md)
+      + [ダイレクトメールのグローバルレポート](reporting/global-report-direct.md)
 + 統合 {#integrations}
    + [他のAdobe](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)

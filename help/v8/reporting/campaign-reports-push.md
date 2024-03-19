@@ -3,9 +3,9 @@ audience: end-user
 title: プッシュチャネルのキャンペーンレポート
 description: プッシュチャネルのキャンペーンレポートについて
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '506'
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '507'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 +++プッシュキャンペーンレポート指標の詳細情報。
 
-* **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの合計数。
+* **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
 * **[!UICONTROL 配信済み数]**：送信されたメッセージの合計数に対して、正常に送信できたメッセージの数。
 
@@ -71,7 +71,6 @@ ht-degree: 100%
 **[!UICONTROL 実行統計]**&#x200B;テーブルには、配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
 ![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
-
 
 +++プッシュキャンペーンレポート指標の詳細情報。
 

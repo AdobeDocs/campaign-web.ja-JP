@@ -3,10 +3,10 @@ audience: end-user
 title: 紐付けワークフローアクティビティの使用
 description: 紐付けワークフローアクティビティの使用方法を学ぶ
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,8 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="紐付けルール"
->abstract="重複排除 - 重複に使用する紐付けフィールドを選択します。1 つまたは複数の紐付け条件を使用できます。"
+>abstract="重複排除に使用する紐付けルールを選択します。 属性を使用するには、 **単純な属性** 」オプションを選択し、ソースフィールドと宛先フィールドを選択します。 クエリモデラーを使用して独自の紐付け条件を作成するには、 **詳細な紐付け条件** オプション。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="クエリモデラーの操作"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -85,9 +86,9 @@ ht-degree: 100%
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. 他の属性を使用してデータを紐付けするには、「**高度な紐付け条件**」オプションを選択します。その後、クエリモデラーを使用して独自の紐付け条件を作成できます。クエリモデラーの使用方法については、[この節](../../query/query-modeler-overview.md)を参照してください。
+   1. 他の属性を使用してデータを紐付けするには、「**高度な紐付け条件**」オプションを選択します。その後、クエリモデラーを使用して独自の紐付け条件を作成できます。[クエリモデラーの操作方法を説明します。](../../query/query-modeler-overview.md).
 
-1. 「**フィルターを作成**」ボタンを使用して、データをフィルタリングして紐付けできます。これにより、「[クエリモデラー](../../query/query-modeler-overview.md)」を使用してカスタム条件を作成できます。
+1. 「**フィルターを作成**」ボタンを使用して、データをフィルタリングして紐付けできます。クエリモデラーを使用して、カスタム条件を作成できます。 [詳しくは、クエリモデラーの操作方法を参照してください](../../query/query-modeler-overview.md)
 
 デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。
 

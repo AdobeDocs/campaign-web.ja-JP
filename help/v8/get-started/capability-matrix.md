@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign web ユーザーインターフェイス／クライアントコンソール機能マトリックス
 description: Campaign web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
-workflow-type: ht
-source-wordcount: '2179'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '2141'
+ht-degree: 96%
 
 ---
 
@@ -37,11 +37,10 @@ Campaign web ユーザーインターフェイスを使用すれば、[この節
 
 ## 通信チャネル {#channels-capabilities}
 
-Campaign web ユーザーインターフェイスを使用すると、[この節](../msg/gs-messages.md)で詳しく説明するように、**メール**、**SMS**、**プッシュ通知**&#x200B;を作成、設計、送信し、様々な専用レポートを使用してその影響を測定できます。ただし、アプリ内、ダイレクトメール、LINE、コールセンター／カスタムチャネル、X によるソーシャルマーケティング（Twitter）などのチャネルは現在利用でき&#x200B;**ません**。
+Campaign Web ユーザーインターフェイスを使用して、作成、デザインおよび送信できます **電子メール**, **SMS**, **プッシュ通知**, **ダイレクトメール** 詳細に従って、様々な専用レポートを使用して影響を測定します。 [この節](../msg/gs-messages.md). ただし、現在、次のチャネルが存在します **not** 利用可能：アプリ内、LINE、コールセンター/カスタムチャネル、X でのソーシャルマーケティング (Twitter)。
 
 提供されたリンクを使用して、Campaign v8（クライアントコンソール）ドキュメントを参照し、これらのチャネルの詳細を確認してください。
 
-* **ダイレクトメール**。ダイレクトメールチャネルを使用すると、通知、請求書、ステートメント、マーケティングオファーなどの物理的な通信をお客様、クライアント、サプライヤーなどに送信できます。このチャネルは、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html?lang=ja){target="_blank"}
 * **LINE メッセージ**。LINE は、無料のインスタントメッセージ、音声およびビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。Adobe Campaign では、クライアントコンソールからのみ LINE メッセージを送信できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=ja){target="_blank"}
 * **コールセンターとカスタムチャネル**。コールセンターやその他のカスタムチャネルは、Campaign 環境に実装できます。これらのチャネルは、クライアントコンソールでのみ使用できます。[詳細については、Campaign Classic v7 ドキュメントを参照してください](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=ja#other-channels){target="_blank"}
 * X（Twitter）を使用した&#x200B;**ソーシャルマーケティング**。X（Twitter）を通じてメッセージを投稿したり、ダイレクトメッセージを送信したりしてお客様とやり取りします。この機能は、ソーシャルマーケティングアドオンに付属し、クライアントコンソールからのみ使用できます - [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target="_blank"}
@@ -168,7 +167,7 @@ Adobe Campaign には、外部システムと接続する事前定義済みの�
 
 >[!NOTE]
 >
->これらのアクティビティの一部はクライアントコンソールでのみ使用できますが、「**エンリッチメント**」アクティビティ、「**ファイルを読み込み**」アクティビティ、「**ディメンションを変更**」アクティビティなどの一部は、Campaign web ユーザーインターフェイスで使用できます。[詳しくは、Campaign web ユーザーインターフェイスでのターゲティングとデータ管理のアクティビティを参照してください](../workflows/activities/about-activities.md#targeting)
+>これらのアクティビティの一部はクライアントコンソールでのみ使用できますが、一部は Campaign Web ユーザーインターフェイス ( **エンリッチメント**, **ファイルを読み込み**, **データソースを変更** または **ディメンションを変更** アクティビティ。 [詳しくは、Campaign web ユーザーインターフェイスでのターゲティングとデータ管理のアクティビティを参照してください](../workflows/activities/about-activities.md#targeting)
 
 ### Federated Data Access の設定 {#fda}
 

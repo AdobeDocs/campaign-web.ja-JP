@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
-source-wordcount: '643'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 100%
 * アクティビティを「**一時停止／再開**」します。ワークフローを実行すると、一時停止したアクティビティで一時停止します。対応するタスクと、同じパス内でそのタスクに続くすべてのタスクが実行されません。
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+複数 **ターゲット設定** アクティビティ： **結合** または **重複排除**&#x200B;を使用すると、残りの母集団を処理し、追加のアウトバウンドトランジションに含めることができます。 例えば、 **分割** アクティビティの場合、補集合は、以前に定義されたサブセットのいずれにも一致しない母集団で構成されます。 この機能を使用するには、 **補集合を生成** オプション。
+
+![](assets/workflow-split-complement.png)
 
 ## 例 {#example}
 

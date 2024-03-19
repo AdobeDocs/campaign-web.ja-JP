@@ -2,16 +2,16 @@
 audience: end-user
 title: ダイレクトメールチャネルのグローバルレポート
 description: ダイレクトメールチャネルのグローバルレポートについての詳細情報
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '634'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '627'
+ht-degree: 50%
 
 ---
 
 # ダイレクトメールチャネルのグローバルレポート {#global-report-direct}
 
-グローバルレポートでは、チャネルレベルでのトラフィック指標とエンゲージメント指標の包括的な概要をユーザーに提供します。
+ダイレクトメールのグローバルレポートでは、チャネルレベルで、トラフィック指標とエンゲージメント指標の包括的な概要をユーザーに提供します。
 
 **[!UICONTROL レポート]**&#x200B;セクション内の「**[!UICONTROL レポート]**」メニューに移動します。レポートの日付、フォルダーまたはルールに応じて、データをフィルタリングできます。[詳細情報](global-reports.md)
 
@@ -19,9 +19,14 @@ ht-degree: 100%
 
 ### 配信の概要 {#delivery-overview-direct}
 
-**[!UICONTROL 配信の概要]**&#x200B;には、各メール配信における訪問者のインタラクションに関する詳細なインサイトを提供する主要業績評価指標（KPI）が表示されます。指標の概要を以下に示します。
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_overview_direct_mail"
+>title="配信の概要"
+>abstract="The **配信の概要** は、各ダイレクトメール配信と訪問者のインタラクションに関する深いインサイトを提供する主要業績評価指標 (KPI) を示します。 指標の概要を以下に示します。"
 
-![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+The **[!UICONTROL 配信の概要]** は、各ダイレクトメール配信と訪問者のインタラクションに関する深いインサイトを提供する主要業績評価指標 (KPI) を示します。 指標の概要を以下に示します。
+
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++配信の概要指標の詳細情報
 
@@ -36,9 +41,19 @@ ht-degree: 100%
 
 ### 対象オーディエンス {#delivery-summary-direct-initial-target}
 
-**[!UICONTROL ターゲットオーディエンス]**&#x200B;テーブルおよびグラフには、受信者に関連するデータが表示され、以下に詳細な指標が示されます。
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_graph"
+>title="対象オーディエンス"
+>abstract="受信者データとメッセージ情報が、 **ターゲットオーディエンス** グラフ（配信準備分析を反映）"
 
-![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_table"
+>title="対象オーディエンス"
+>abstract="The **ターゲットオーディエンス** この表は、配信準備プロセスの結果に基づく、受信者と対応するメッセージの詳細な分類を示しています。"
+
+**[!UICONTROL ターゲットオーディエンス]**&#x200B;のテーブルおよびグラフには、受信者に関連するデータが表示され、下に詳細な指標が示されます。
+
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++ターゲットオーディエンス指標の詳細情報
 
@@ -52,9 +67,17 @@ ht-degree: 100%
 
 ### 配信統計 {#delivery-summary-direct-exec-stats}
 
-**[!UICONTROL 配信統計]**&#x200B;テーブルには、すべてのダイレクトメール配信の成功の分類と、以下に概要を示す詳細な指標が表示されます。
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
+>title="配信統計"
+>abstract="The **配信統計** グラフには、成功した配信や発生したエラーなど、ダイレクトメール配信の効果に関するインサイトが表示されます。"
 
-![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
+>title="配信統計"
+>abstract="The **配信統計** このテーブルには、ダイレクトメール配信の成功と発生したエラーの詳細が表示されます。"
+
+The **[!UICONTROL 配信統計]** グラフと表は、すべてのダイレクトメール配信の成功の分類と、以下に説明する詳細な指標を示しています。
 
 +++配信統計指標の詳細情報
 
@@ -70,41 +93,35 @@ ht-degree: 100%
 
 ### 除外の理由 {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusions_direct_mail_table"
+>title="除外"
+>abstract="The **除外の理由** この表は、配信の準備プロセス中に却下されたメッセージの詳細な分類をルール別に示しています。"
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_causes_exclusion_direct_mail_graph"
+>title="配信の除外の理由"
+>abstract="The **除外の理由** グラフは、配信の準備中に却下されたメッセージの配分を各ルール別に分類したものです。"
+
+![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 除外グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
 
-## 配信スループット {#delivery-throughput}
++++除外指標の原因について詳しく説明します。
 
-このレポートには、指定した期間内の配信スループットに関する包括的な詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
+* **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離に置かれたときに生成されるエラータイプ。
 
-## 配信不能件数 {#non-deliverables-direct}
+* **[!UICONTROL アドレスが指定されていません]**：アドレスが存在しないことを示すエラータイプで、配信の送信中に生成される。
 
-### タイプ別のエラー分類 {#delivery-summary-direct-breakdown-per-type}
+* **[!UICONTROL 低品質のアドレス]**：郵送先住所の品質評価が低すぎる場合に生成されるエラータイプ。
 
-**[!UICONTROL タイプ別のエラー分類]**&#x200B;テーブルおよびグラフには、様々なドメインで発生する潜在的なエラーに関連するデータが表示され、以下に特定の指標が示されます。
+* **[!UICONTROL ブロックリストに加える住所]**：配信の実行時に受信者が送信されブロックリストに加えるた際に生成されるエラータイプ。
 
-このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL ダブル]**：受信者のキー値が一意でなかったので、受信者を除外した際に生成されたエラータイプ。
 
-+++タイプ別のエラー分類指標の詳細情報
+* **[!UICONTROL コントロール母集団]**：受信者のアドレスはコントロール母集団に含まれています。
 
-* **[!UICONTROL 不明なユーザー]**：アドレスが無効であることを示すエラータイプで、配信中に生成される。
-
-* **[!UICONTROL 無効なドメイン]**：アドレスが正しくないか存在しないことを示すエラータイプで、配信の送信中に生成される。
-
-* **[!UICONTROL メールボックス容量超過]**：受信者の受信ボックスにあるメッセージの数が多すぎることを示すエラータイプで、5 回の配信の試行後に生成される。
-
-* **[!UICONTROL 無効なアカウント]**：アドレスが存在しないことを示すエラータイプ。配信の送信中に生成される。
-
-* **[!UICONTROL 拒否]**：アドレスが IAP（インターネットアクセスプロバイダー）によって却下される場合に生成されるエラータイプ。例えば、セキュリティルールのアプリケーション（スパム対策ソフトウェア）によって却下された場合に生成される。
-
-* **[!UICONTROL 未到達]**：SMTP リレーでのインシデント、ドメインへの一時的な未到達など、メッセージ配分文字列で発生するエラータイプ。
-
-* **[!UICONTROL 未接続]**：受信者の携帯電話の電源が入っていない、または送信時にネットワーク接続が切断されていることを示すエラータイプ。
+* **[!UICONTROL サイズが制限されたターゲット]**：受信者に対する最大配信サイズに達しました。
 
 +++
-
-### ドメイン別のエラー分類 {#delivery-summary-email-breakdown-per-domain}
-
-**[!UICONTROL ドメイン別のエラー分類]**&#x200B;テーブルおよびグラフには、各ドメイン内の潜在的なエラーに関連するデータが表示されます。指標は、上記の&#x200B;**[!UICONTROL タイプ別のエラー分類]**&#x200B;テーブルとグラフと共通です。
 

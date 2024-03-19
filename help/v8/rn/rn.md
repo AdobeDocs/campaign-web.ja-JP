@@ -5,8 +5,8 @@ description: Campaign Web ユーザーインターフェイスに含まれてい
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 98%
+source-wordcount: '1308'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,10 @@ ht-degree: 98%
 
 新しいバージョンの **Adobe Campaign Web ユーザーインターフェイス**&#x200B;を導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された、直感的な機能が組み込まれています。Campaign Web ユーザーインターフェイス（UI）を使用すると、Adobe Experience Platform と接続されたキャンバスが提供され、統合されたエクスペリエンスを実現できます。
 
-変更、新機能および改善点については、 [月別リリースノート](release-notes.md).
+
+>[!AVAILABILITY]
+>
+>このバージョンは、[Campaign v8.6 リリース](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja)以降のすべてのユーザーが利用できます。Adobe Campaign のリリースについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ja){target="_blank"}を参照してください。
 
 
 ## 主な機能 {#key-features}

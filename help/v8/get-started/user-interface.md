@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1578'
 ht-degree: 100%
 
 ---
@@ -288,27 +288,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- ML: beta wiki page - not visible in UI-->
 
->[!CONTEXTUALHELP]
->id="acw_directmail_content"
->title="ダイレクトメールのコンテンツ"
->abstract="ダイレクトメールのコンテンツ"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_file"
->title="ダイレクトメールのファイルプロパティ"
->abstract="ダイレクトメールのファイルプロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_content"
->title="ダイレクトメールのコンテンツプロパティ"
->abstract="ダイレクトメールのコンテンツプロパティ"
-
 <!-- FOR POST-GA -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_change_data_source"
->title="データソースを変更"
->abstract="「**データソースを変更**」アクティビティでは、ワークフローの作業用テーブルに別のデータソースを選択できます。"
 
 
 <!--
@@ -328,8 +309,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="ルールビルダーの詳細属性"
 >abstract="デフォルトでは、最も一般的な属性のみが属性リストに表示されます。ルールビルダーの左側のパレットにある現在のリストで使用可能なすべての属性（ノード、グループ、1-1 リンク、1-N リンクなど）を表示するには、「**詳細属性を表示**」切替スイッチをアクティブ化します。"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"

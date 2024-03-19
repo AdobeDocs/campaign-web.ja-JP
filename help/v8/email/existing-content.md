@@ -3,10 +3,10 @@ audience: end-user
 title: メールコンテンツの読み込み
 description: メールコンテンツの読み込み方法を学ぶ
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,9 @@ ht-degree: 100%
   >
   >.zip ファイル構造に制約はありません。 ただし、.zip フォルダーのツリー構造内に合わせて、相対参照を指定する必要があります。
 
-HTML コンテンツを含んだファイルを読み込むには、次の手順に従います。
+➡️ [この機能をビデオで確認](#video)
+
+HTMLコンテンツを含むファイルを読み込むには、次の手順に従います。
 
 1. [E メールデザイナー](get-started-email-designer.md)のホームページで、「**[!UICONTROL HTML をインポート]**」を選択します。
 
@@ -50,3 +52,8 @@ HTML コンテンツを含んだファイルを読み込むには、次の手順
 
 1. メールデザイナーの機能を使用して、必要に応じて読み込んだファイルをカスタマイズできるようになりました（[詳細情報](content-components.md)）。
 
+## チュートリアルビデオ {#video}
+
+HTMLをアップロードして E メールを作成する方法、E メールデザイナーとの互換性を持たせる方法、テンプレートに変換する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

@@ -3,7 +3,7 @@ audience: end-user
 title: プッシュ通知配信をデザイン
 description: Adobe Campaign Web を使用したプッシュ通知配信のデザイン方法を学ぶ
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 100%
@@ -40,8 +40,6 @@ ht-degree: 100%
 >id="acw_deliveries_push_android_msg"
 >title="プッシュ Android メッセージ"
 >abstract="Android デバイス用のプッシュ通知のコンテンツを定義します。メッセージを作成するには、「**タイトル**」フィールドと「**メッセージ**」フィールドをクリックします。式エディターを使用して、データのパーソナライズ、動的コンテンツの追加を行います。プッシュ通知をさらにパーソナライズするには、プッシュ通知に追加する画像、プロファイルのデバイスおよびそのカラーに表示する通知のアイコンを選択します。その他のカスタム設定については、**詳細設定**&#x200B;の節を参照してください。"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"

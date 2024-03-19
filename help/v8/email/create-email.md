@@ -3,9 +3,9 @@ audience: end-user
 title: 最初のメールを送信
 description: Campaign web UI で最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1386'
 ht-degree: 100%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 100%
 最初のターゲットメールを作成する方法について説明します。このユースケースでは、特定の日にシルバーおよびゴールドのロイヤルティメンバーにメールを送信するようにスケジュールします。
 
 事前定義された[デザインテンプレート](../email/create-email-templates.md)に基づき、メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
+
+➡️ [この機能をビデオで確認](#video)
 
 ## メール配信の作成 {#create-email}
 
@@ -211,3 +213,9 @@ ht-degree: 100%
 1. メール送信後、「**[!UICONTROL レポート]**」ボタンをクリックすると、専用のレポートにアクセスしてさらに詳しく分析できます。
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## チュートリアルビデオ {#video}
+
+メール配信をゼロから作成し、オーディエンスの定義、コンテンツの設計、プレビューのシミュレートを行い、配達確認を送信する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
