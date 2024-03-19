@@ -3,21 +3,14 @@ audience: end-user
 title: ワークフローの基本を学ぶ
 description: ワークフローの開始方法を学ぶ
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
 
 # ワークフローの基本を学ぶ {#workflows}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="クロスチャネルワークフロー"
->abstract="自動化と最適化の新しい可能性を解放し、より動的でパーソナライズされたカスタマージャーニーを作成できるようにします。高度なセグメント化から条件付きトリガーに至るまで、追加のワークフローアクティビティにより、ターゲットメッセージを配信し、キャンペーンのパフォーマンスを向上させることができます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html?lang=ja" text="リリースノートを参照してください"
-
 
 ## ワークフローとは何ですか？
 
