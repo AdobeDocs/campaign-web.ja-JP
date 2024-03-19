@@ -6,7 +6,7 @@ exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
 source-wordcount: '2053'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="カスタム条件"
->abstract="カスタム条件とは、データベースの属性と高度な式を使用して独自の条件を作成することで、クエリをフィルタリングできるフィルタリングコンポーネントです。"
+>abstract="カスタム条件は、データベースの属性と高度な式を使用して独自の条件を作成し、クエリをフィルタリングできるフィルタリングコンポーネントです。"
 
 カスタム条件を使用してクエリをフィルタリングするには、次の手順に従います。
 

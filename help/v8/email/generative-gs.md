@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: 832f3da044810e81f3c46f7e3dfaba835c1fabb4
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成 AI の用語"
->abstract="この機能へのアクセスは、Adobe Experience Cloud Generative AI のユーザーガイドラインに同意された場合に限られます。 この機能に対して提供するプロンプト、コンテキスト、補足情報、またはその他の入力は、特定のコンテキストに関連付ける必要があります。特定のコンテキストには、ブランディング資料、Web サイトコンテンツ、データ、そのようなデータ、テンプレート、その他の信頼できる文書が含まれます。 この機能の出力を正確に確認し、使用事例に適していることを確認する必要があります。"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe生成 AI のユーザーガイドライン"
+>abstract="この機能へアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインへの同意が必要です。この機能に対して提供するプロンプト、コンテキスト、補足情報、その他の入力は、特定のコンテキストに関連付ける必要があります。これには、ブランディング資料、web サイトのコンテンツ、データ、データのスキーマ、テンプレート、その他の信頼できるドキュメントを含めることができますが、個人情報は含めないでください（個人情報には、特定の個人に関連付けることができるあらゆる情報が含まれます）。この機能からの出力が正確であるかどうかを確認し、ユースケースに適切であることを確認する必要があります。"
+>additional-url="https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html?lang=ja" text="Adobe 生成 AI ユーザーガイドライン"
 
 
 コンテンツアシスタントは、生成 AI を活用したツールで、メールコンテンツの改善に役立ちます。パーソナライゼーションとコンテンツ強化が簡素化され、メール配信を最適化してオーディエンスの共感を深めることができます。

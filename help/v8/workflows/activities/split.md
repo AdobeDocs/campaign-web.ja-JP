@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_generatesubsets"
 >title="同じテーブルにすべてのサブセットを生成"
->abstract="すべてのサブセットを 1 つの出力トランジションにグループ化するには、このオプションをオンに切り替えます。"
+>abstract="このオプションをオンに切り替えると、すべてのサブセットが 1 つの出力トランジションにグループ化されます。"
 
 **分割**&#x200B;アクティビティを設定するには、次の手順に従います。
 
