@@ -3,20 +3,15 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign Web ユーザーインターフェイスに含まれている新機能を確認する
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1265'
 ht-degree: 98%
 
 ---
 
 
 # 新機能 {#new}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learning_card2"
->title="リリースノート"
->abstract="アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された、直感的な機能が組み込まれています。"
 
 新しいバージョンの **Adobe Campaign Web ユーザーインターフェイス**&#x200B;を導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された、直感的な機能が組み込まれています。Campaign Web ユーザーインターフェイス（UI）を使用すると、Adobe Experience Platform と接続されたキャンバスが提供され、統合されたエクスペリエンスを実現できます。
 
