@@ -1,9 +1,9 @@
 ---
 title: 最新のリリースノート
 description: Campaign Web ユーザーインターフェイスに含まれている新機能を確認する
-source-git-commit: 21d856f9651f3a392ba9d927bc26082ce9759396
+source-git-commit: 737a2ea3f3c5ecc41c692ada7927f5e60ecb256a
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '341'
 ht-degree: 9%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
 >title="新機能"
->abstract="Adobe Campaignの Web ユーザーインターフェイスリリースは、機能のデプロイメントに向けて、よりスケーラブルで段階的なアプローチを可能にする、継続的な配信モデルで動作します。 リリースノートは月に数回更新されます。"
->
->"**March release is now live**, including Direct mail channel, the new Change data source workflow activity, and other improvements."
+>abstract="Adobe Campaignの Web ユーザーインターフェイスリリースは、機能のデプロイメントに向けて、よりスケーラブルで段階的なアプローチを可能にする、継続的な配信モデルで動作します。 リリースノートは月に数回更新されます。 **3 月のリリースがリリースされました**（ダイレクトメールチャネル、新しいデータソースの変更ワークフローアクティビティ、その他の機能強化を含む）。"
 
 
 <!--Last update: **March 19, 2024**-->
