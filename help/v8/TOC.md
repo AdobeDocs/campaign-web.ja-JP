@@ -8,7 +8,7 @@ breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 93%
       + [SMS グローバルレポート](reporting/global-report-sms.md)
       + [ダイレクトメールのグローバルレポート](reporting/global-report-direct.md)
 + 統合 {#integrations}
-   + [他のAdobe](integrations/integration.md)
+   + [他のアドビソリューションの操作](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
-   + [Adobe Experience Manager as a Cloud Serviceでのテンプレートの管理](integrations/aem-content.md)
+   + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
 

@@ -24,7 +24,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
->title="「後で通知」ボタン"
+>title="後で通知ボタン"
 >abstract="未定"
 
 

@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 72%
+ht-degree: 78%
 
 ---
 
@@ -93,7 +93,7 @@ The **データソースを変更** ターゲティングアクティビティ�
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>コンテンツを動的にする</strong><br/>プロファイルに関して収集した情報に基づいてコンテンツをカスタマイズし、コンテンツをより魅力的にし、読まれる可能性を高める方法を説明します。</div>
+    <div><strong>コンテンツを動的にする</strong><br/>プロファイルについて収集した情報に基づいてコンテンツをカスタマイズし、コンテンツの魅力と読まれる可能性を高める方法について説明します。</div>
     </td>
   </tr>
   <tr style="border: 0;">
