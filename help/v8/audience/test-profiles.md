@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -17,19 +17,19 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="テストプロファイルを作成"
->abstract="テストプロファイルは、メッセージを送信する前にパーソナライゼーションとレンダリングをプレビューおよびテストできる、追加の受信者です。 メッセージコンテンツのプレビュー時にテストプロファイルを選択し、配達確認をテストプロファイルに送信して、メッセージのコンテンツと設定を制御および検証できます。"
+>abstract="テストプロファイルは、メッセージを送信する前にパーソナライゼーションとレンダリングをプレビューおよびテストできる追加の受信者です。メッセージコンテンツのプレビュー時にテストプロファイルを選択し、本配信前確認をテストプロファイルに送信して、メッセージのコンテンツと設定を制御および検証できます。"
 
-テストプロファイルは、配達確認の送信、メッセージの内容と設定の検証に使用されます。 これらのプロファイルは、メッセージを送信する前に、パーソナライゼーションとレンダリングをプレビューおよびテストできる追加の受信者です。 メッセージコンテンツのプレビュー時にテストプロファイルを選択し、配達確認をテストプロファイルに送信して、メッセージのコンテンツと設定を制御および検証できます。
+テストプロファイルは、本配信前確認の送信、メッセージのコンテンツと設定の検証に使用されます。これらのプロファイルは、メッセージを送信する前にパーソナライゼーションとレンダリングをプレビューおよびテストできる追加の受信者です。メッセージコンテンツのプレビュー時にテストプロファイルを選択し、本配信前確認をテストプロファイルに送信して、メッセージのコンテンツと設定を制御および検証できます。
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-テストプロファイルに配達確認を送信する手順について詳しくは、 [この節](../preview-test/test-deliveries.md#test-profiles).
+テストプロファイルに本配信前確認を送信する手順については、[この節](../preview-test/test-deliveries.md#test-profiles)を参照してください。
 
 >[!NOTE]
 >
 >* テストプロファイルは、クライアントコンソールでシードアドレスとして作成されます。
 >
->* テストプロファイルは、次の配信統計に関するレポートから自動的に除外されます。 **[!UICONTROL クリック数]**, **[!UICONTROL 開封数]**, **[!UICONTROL 購読解除]**.
+>* テストプロファイルは、**[!UICONTROL クリック数]**、**[!UICONTROL 開封数]**、**[!UICONTROL 購読解除]**&#x200B;の配信統計に関するレポートからは自動的に除外されます。
 
 ## テストプロファイルのアクセスと管理 {#access-test-profiles}
 

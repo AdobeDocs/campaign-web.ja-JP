@@ -4,9 +4,9 @@ title: プッシュ通知配信を送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を学ぶ
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 90%
 
 ## プッシュ通知配信をテスト {#test-push}
 
-**Adobe Campaign** を使用すると、メインオーディエンスに送信する前に本配信前確認を送信できます。この手順は、配信を検証し、問題を特定する際に重要です。
+**Adobe Campaign** を使用すると、メインオーディエンスに送信する前に本配信前確認を送信できます。この手順は、配信を検証し、問題を特定する上で重要です。
 
-テストプロファイルは、配達確認の受信者です。 リンク、画像、パーソナライゼーションなどのコンポーネントや設定を確認および検証でき、最適なパフォーマンスを確保し、エラーを検出できます。 このプロセスは、メインオーディエンスに届ける前にプッシュ通知を調整し、最適化するのに役立ちます。[本配信前確認の送信方法を学ぶ](../preview-test/test-deliveries.md#subscribers)
+テストプロファイルは、本配信前確認の受信者です。リンク、画像、パーソナライゼーションなどのコンポーネントと設定をレビューおよび検証し、最適なパフォーマンスの確保やエラー検出を行うことができます。このプロセスは、メインオーディエンスに届ける前にプッシュ通知を調整し、最適化するのに役立ちます。[本配信前確認の送信方法を学ぶ](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

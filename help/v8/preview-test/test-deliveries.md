@@ -4,9 +4,9 @@ title: 本配信前確認の送信
 description: 本配信前確認の送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 メッセージのコンテンツやパーソナライゼーション設定でエラーが発生する可能性を検出するには、メッセージをターゲットオーディエンスに送信する前に、配達確認をテストプロファイルに送信します。変更を加えるたびに配達確認を送信して、最新のコンテンツを確認します。本配信前確認の送信は、キャンペーンを検証し、潜在的な問題を特定するための重要な手順です。配達確認の受信者は、リンク、オプトアウトリンク、画像、ミラーページなどの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定、配信設定のエラーを検出できます。
 
-## テストプロファイルを使用してコンテンツをシミュレート {#simulate-content-test-deliveries}
+## テストプロファイルを使用したコンテンツのシミュレート {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

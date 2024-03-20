@@ -7,7 +7,7 @@ exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
 source-git-commit: 832f3da044810e81f3c46f7e3dfaba835c1fabb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -30,8 +30,8 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Adobe 生成 AI の用語"
->abstract="この機能へアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインへの同意が必要です。この機能に対して提供するプロンプト、コンテキスト、補足情報、その他の入力は、特定のコンテキストに関連付ける必要があります。これには、ブランディング資料、web サイトのコンテンツ、データ、データのスキーマ、テンプレート、その他の信頼できるドキュメントを含めることができますが、個人情報は含めないでください（個人情報には、特定の個人に関連付けることができるあらゆる情報が含まれます）。この機能からの出力が正確であるかどうかを確認し、ユースケースに適切であることを確認する必要があります。"
->additional-url="https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html?lang=ja" text="Adobe 生成 AI ユーザーガイドライン"
+>abstract="この機能へアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインへの同意が必要です。この機能に対して提供するプロンプト、コンテキスト、補足情報、またはその他の入力は、特定のコンテキストに関連付ける必要があります。特定のコンテキストには、ブランディング資料、web サイトコンテンツ、データ、そのようなデータのスキーマ、テンプレート、その他の信頼できるドキュメントが含まれますが、個人情報を含めることはできません (個人情報には、特定の個人に関連付けられる可能性のあるすべての情報が含まれます)。この機能からの出力が正確であるかどうかを確認し、ユースケースに適していることを確認する必要があります。"
+>additional-url="https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe 生成 AI ユーザーガイドライン"
 
 
 コンテンツアシスタントは、生成 AI を活用したツールで、メールコンテンツの改善に役立ちます。パーソナライゼーションとコンテンツ強化が簡素化され、メール配信を最適化してオーディエンスの共感を深めることができます。

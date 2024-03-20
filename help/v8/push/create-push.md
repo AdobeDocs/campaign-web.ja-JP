@@ -4,9 +4,9 @@ title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 98%
    * **[!UICONTROL フォルダー]**：配信を特定のフォルダーに保存します。
    * **[!UICONTROL 配信コード]**：独自の命名規則を使用して配信を整理します。
    * **[!UICONTROL 説明]**：配信の説明を指定します。
-   * **[!UICONTROL 特性]**：分類目的で配信の特性を指定します。
+   * **[!UICONTROL 特性]** : 分類目的で配信の特性を指定します。
 +++
 
 

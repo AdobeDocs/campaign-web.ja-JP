@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: ファイルからメールオーディエンスを読み込み
-description: 外部ファイルからプロファイルを読み込んで電子メールオーディエンスを構築する方法を説明します
+description: 外部ファイルからプロファイルを読み込んでメールオーディエンスを作成する方法を学ぶ
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ Campaign web では、ファイルからアップロードされたオーディ�
    >
    >ファイル形式がオーディエンスのアップロードに使用した形式と一致していることを確認してください。形式エラーがあると警告が表示されます。
 
-1. 配達確認プロファイルを追加し、配達確認を送信する準備が整ったら、 **[!UICONTROL 配達確認を送信]** ボタンをクリックし、送信を確定します。
+1. 本配信前確認プロファイルを追加し、本配信前確認を送信する準備が整ったら、「**[!UICONTROL 本配信前確認を送信]**」ボタンをクリックし、送信を確定します。
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

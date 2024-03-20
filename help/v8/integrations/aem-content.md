@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Adobe Experience Manager as a Cloud Serviceでのアセットの管理
-description: Adobe Experience Manager as a Cloud Serviceでコンテンツを管理する方法を学ぶ
+title: Adobe Experience Manager as a Cloud Service でのアセットの管理
+description: Adobe Experience Manager as a Cloud Service でのコンテンツの管理方法について説明します
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 Adobe Campaign Web インターフェイスと Adobe Experience Manager の統合により、Adobe Experience Manager プラットフォーム内で直接メール配信コンテンツとフォームを効率的に管理できます。
 
-![](assets/do-not-localize/book.png)[Adobe Experience Manager as a Cloud Serviceの詳細](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
+![](assets/do-not-localize/book.png)[詳しくは、Adobe Experience Manager as a Cloud Service を参照してください](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
 
 ## [!DNL Adobe Experience Manager as a Cloud Service] でテンプレートを作成する{#create-aem-template}
 
@@ -48,7 +48,7 @@ Adobe Campaign Web インターフェイスと Adobe Experience Manager の統�
 
 これでニュースレターが準備でき、Adobe Campaign で同期されました。
 
-## Adobe Experience Manager as a Cloud Serviceテンプレートのインポート{#aem-templates-perso}
+## Adobe Experience Manager as a Cloud Service テンプレートの読み込み{#aem-templates-perso}
 
 Experience Manager テンプレートが Adobe Campaign Web でコンテンツテンプレートとして使用可能になると、パーソナライゼーションを含むメールに必要なコンテンツを特定して組み込むことができます。
 

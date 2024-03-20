@@ -3,9 +3,9 @@ title: ターゲティングディメンション
 description: Adob Campaign Web でのターゲティングディメンションについて説明します
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="ターゲティングディメンションの選択"
->abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、E メールと SMS の場合、ターゲットは受信者組み込みテーブルから選択されます。 プッシュ通知の場合、デフォルトのターゲットディメンションは「購読者のアプリケーション」です。"
+>abstract="ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、メールと SMS の場合、ターゲットは受信者ビルトインテーブルから選択されます。プッシュ通知の場合、デフォルトのターゲットディメンションはサブスクライバーのアプリケーションです。"
 
 ターゲティングディメンション、別名ターゲットマッピングは、操作で処理されるデータのタイプです。ターゲット母集団（プロファイル、契約の受取人、オペレーター、サブスクライバーなど）を定義できます。
 
@@ -36,7 +36,7 @@ ht-degree: 85%
 
 | 名前 | 用途 | スキーマ |
 |---|---|---|
-| 受信者 | プロファイル/受信者への配信（組み込みの受信者テーブル） | nms:recipient |
+| 受信者 | プロファイル / 受信者への配信 (ビルトイン受信者テーブル) | nms:recipient |
 | 訪問者 | 紹介（バイラルマーケティング）などの方法でプロファイルを収集した訪問者への配信 | mns:visitor |
 | 購読 | ニュースレターなどの情報サービスを購読しているプロファイルへの配信 | nms:subscription |
 | 訪問者の購読 | 情報サービスを購読している訪問者に対する配信 | nms:visitorSub |
@@ -44,4 +44,4 @@ ht-degree: 85%
 | 外部ファイル | 配信に必要な情報をすべて含んだファイルを経由しての配信 | リンクされるスキーマなし、入力されるターゲットなし |
 | サブスクライバーのアプリケーション | アプリケーションを購読しているプロファイルへの配信 | nms:appSubscriptionRcp |
 
-また、必要に応じて、新しいターゲットマッピングを作成できます。この操作は、クライアントコンソールからのみ実行されます。 詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja#new-mapping){target="_blank"}を参照してください。
+また、必要に応じて、新しいターゲットマッピングを作成できます。この操作は、クライアントコンソールからのみ実行されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja#new-mapping){target="_blank"}を参照してください。
