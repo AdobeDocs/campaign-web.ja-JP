@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 70%
+source-wordcount: '502'
+ht-degree: 72%
 
 ---
 
@@ -51,6 +51,12 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
+>[!TAB 3 月のリリースが公開されました。]
+
+Adobe Campaign Web ユーザーインターフェイス 24.3 リリースの新機能と改善点について説明します。
+
+[![画像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB ダイレクトメールチャネル]
 
 **ダイレクトメール** チャネルは、ワークフローで、またはスタンドアロン配信として使用できるようになりました。 ダイレクトメールは、抽出ファイルの作成、パーソナライズ、生成、ダイレクトメールプロバイダーとの間での共有、顧客へのメール送信を可能にするオフラインチャネルです。
@@ -58,12 +64,6 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 ![画像](assets/do-not-localize/direct-mail.gif)
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB E メールデザイナーのクエリモデラー]
-
-クエリモデラーを E メールデザイナーで使用できるようになりました。 条件付きコンテンツを作成する際に、条件を作成できます。
-
-[![画像](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB 新しい「データソースを変更」ワークフローアクティビティ]
 
