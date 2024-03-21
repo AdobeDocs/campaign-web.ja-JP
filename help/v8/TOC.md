@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 95%
+source-wordcount: '634'
+ht-degree: 94%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 95%
       + [ディメンションを変更](workflows/activities/change-dimension.md)
       + [結合](workflows/activities/combine.md)
       + [重複の除外](workflows/activities/deduplication.md)
-      + [メール、SMS、プッシュ](workflows/activities/channels.md)
+      + [E メール、SMS、プッシュ、ダイレクトメール](workflows/activities/channels.md)
       + [エンリッチメント](workflows/activities/enrichment.md)
       + [分岐](workflows/activities/fork.md)
       + [ファイルを読み込み](workflows/activities/load-file.md)
