@@ -4,7 +4,7 @@ title: ランディングページの基本を学ぶ
 description: Campaign Web のランディングページについて学ぶ
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 99%
@@ -17,7 +17,7 @@ ht-degree: 99%
 >id="acw_homepage_welcome_rn5"
 >title="ランディングページ"
 >abstract="新しいランディングページエクスペリエンスについて説明します。ランディングページを即座に作成、設計および共有して、組み込みテンプレートに基づいて、取得、購読／購読解除、ブロックリストのユースケースを管理できるオンライン web ページにユーザーを誘導します。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="リリースノートを参照してください"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="リリースノートを参照してください"
 
 [!DNL Adobe Campaign] では、ランディングページを作成、設計および共有できます。
 

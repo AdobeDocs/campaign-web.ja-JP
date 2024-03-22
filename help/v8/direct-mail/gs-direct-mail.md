@@ -2,9 +2,9 @@
 audience: end-user
 title: ダイレクトメール配信の概要
 description: Adobe Campaign Web でダイレクトメール配信を作成して送信する方法を説明します
-source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '261'
 ht-degree: 11%
 
 ---
@@ -12,6 +12,11 @@ ht-degree: 11%
 
 # ダイレクトメール配信の概要 {#gs-direct-mail}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="ダイレクトメール"
+>abstract="ダイレクトメールチャネルをワークフローとスタンドアロン配信で使用できるようになりました。 ダイレクトメールオフラインチャネルを使用して、抽出ファイルの作成、パーソナライズ、生成を行い、ダイレクトメールプロバイダーと共有して、顧客にメールを送信します。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="リリースノートを参照してください"
 
 
 ダイレクトメールは、ファイルを作成して、はがき、チラシ、カタログなどのパーソナライズされたレターを顧客に大量配信できるオフラインチャネルです。
