@@ -2,21 +2,16 @@
 audience: end-user
 title: ダイレクトメール配信の概要
 description: Adobe Campaign Web でダイレクトメール配信を作成して送信する方法を説明します
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 1%
+source-wordcount: '213'
+ht-degree: 11%
 
 ---
 
 
 # ダイレクトメール配信の概要 {#gs-direct-mail}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="ダイレクトメール"
->abstract="ダイレクトメールチャネルは、ワークフローで、またはスタンドアロン配信として使用できるようになりました。 ダイレクトメールは、抽出ファイルの作成、パーソナライズ、生成、ダイレクトメールプロバイダーとの間での共有、顧客へのメール送信を可能にするオフラインチャネルです。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="リリースノートを参照してください"
 
 
 ダイレクトメールは、ファイルを作成して、はがき、チラシ、カタログなどのパーソナライズされたレターを顧客に大量配信できるオフラインチャネルです。
@@ -25,8 +20,8 @@ ht-degree: 1%
 
 ダイレクトメール配信を作成するには、次の 3 つのオプションがあります。
 
-* **ワークフロー**：ワークフローに「ダイレクトメールチャネル」アクティビティを追加し、基本設定を指定した後、右側のウィンドウメニューからダイレクトメール配信のコンテンツを作成できます。 ワークフローの設定方法について詳しくは、 [このページ](../workflows/gs-workflow-creation.md).
-* **キャンペーン**：キャンペーンを作成したら、ダイレクトメール配信を作成できます。 キャンペーンの設定について詳しくは、 [このページ](../campaigns/gs-campaigns.md).
+* **ワークフロー**：ワークフローに「ダイレクトメールチャネル」アクティビティを追加し、基本設定を指定した後、右側のウィンドウメニューからダイレクトメール配信のコンテンツを作成できます。 ワークフローの設定方法について詳しくは、[このページ](../workflows/gs-workflow-creation.md)を参照してください。
+* **キャンペーン**：キャンペーンを作成したら、ダイレクトメール配信を作成できます。 キャンペーンの設定について詳しくは、[このページ](../campaigns/gs-campaigns.md)を参照してください。
 * **スタンドアロン配信**：ワークフローやキャンペーンを使用せずに、個々のダイレクトメール配信で顧客を直接、即座にエンゲージメントします。 [配信の作成方法を説明します](../msg/gs-deliveries.md)
 
 <!--

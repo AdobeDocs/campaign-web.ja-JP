@@ -2,21 +2,15 @@
 audience: end-user
 title: データソースを変更ワークフローアクティビティの使用
 description: データソースを変更ワークフローアクティビティの使用方法を説明します
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 11%
+source-wordcount: '297'
+ht-degree: 12%
 
 ---
 
 # データソースを変更 {#change-data-source}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="ワークフローでのデータソースの変更"
->abstract="「データソースのターゲティングを変更」アクティビティを使用すると、ワークフローの作業用テーブルで使用されるデータソースを変更できます。 このアクティビティでは、様々なデータベース間でデータを管理し、パフォーマンスを向上させることで、より柔軟にデータを管理できます。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
