@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: リッチプッシュ通知配信のデザイン
-description: Adobe Campaign Web を使用してリッチプッシュ通知配信をデザインする方法を説明します
+description: Adobe Campaign Web を使用して Android のリッチプッシュ通知配信をデザインする方法を説明します。
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 32%
+source-wordcount: '1394'
+ht-degree: 33%
 
 ---
 
-# Android のリッチプッシュ配信のデザイン {#content-push}
+# Android のリッチプッシュ配信のデザイン {#rich-push}
 
 Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
 
@@ -23,9 +23,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 ## 通知のコンテンツの定義 {#push-message}
 
-プッシュ配信を作成したら、そのコンテンツを定義できます。以下のタブを参照して、各テンプレートのメッセージを作成する方法を確認します。
-
-次の 3 つのテンプレートを使用できます。
+プッシュ配信を作成したら、そのコンテンツを定義できます。次の 3 つのテンプレートを使用できます。
 
 * **デフォルトのテンプレート** では、シンプルなアイコンと付属の画像を使用して通知を送信できます。
 
