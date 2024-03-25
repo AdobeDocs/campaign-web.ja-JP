@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 94%
+source-wordcount: '635'
+ht-degree: 90%
 
 ---
 
@@ -50,11 +50,6 @@ ht-degree: 94%
             + [ミラーページへのリンクの追加](email/mirror-page.md)
             + [プリヘッダーを追加](email/preheader.md)
             + [テキストバージョンを生成](email/text-version-email.md)
-         + コンテンツアシスタント {#content-assistant}
-            + [コンテンツアシスタントの基本を学ぶ](email/generative-gs.md)
-            + [コンテンツアシスタントを使用したテキスト生成](email/generative-content.md)
-            + [コンテンツアシスタントを使用した画像生成](email/generative-image.md)
-            + [コンテンツアシスタントを使用したメール生成](email/generative-email.md)
          + コンテンツのスタイル設定 {#style}
             + [メールスタイルの基本を学ぶ](email/get-started-email-style.md)
             + [背景設定の編集](email/backgrounds.md)
@@ -80,6 +75,11 @@ ht-degree: 94%
       + [ダイレクトメール配信の作成](direct-mail/create-direct-mail.md)
       + [抽出ファイルのデザイン](direct-mail/content-direct-mail.md)
       + [ダイレクトメール配信のプレビューと送信](direct-mail/send-direct-mail.md)
+   + AI アシスタント {#ai-assistant}
+      + [AI アシスタントの概要](email/generative-gs.md)
+      + [AI アシスタントを使用した E メールの生成](email/generative-content.md)
+      + [AI アシスタントを使用した SMS の生成](email/generative-sms.md)
+      + [AI アシスタントを使用したプッシュ通知の生成](email/generative-push.md)
    + コンテンツを動的にする {#dynamic-content}
       + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
       + [パーソナライゼーションを追加](personalization/personalize.md)
