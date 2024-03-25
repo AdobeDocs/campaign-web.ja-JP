@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 90%
+source-wordcount: '641'
+ht-degree: 89%
 
 ---
 
@@ -63,6 +63,7 @@ ht-degree: 90%
    + プッシュ通知 {#push}
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
       + [プッシュ通知配信を作成](push/create-push.md)
+      + [Android のリッチプッシュ配信のデザイン](push/rich-push.md)
       + [プッシュ配信をデザイン](push/content-push.md)
       + [プッシュ配信のプレビューと送信](push/send-push.md)
    + SMS {#sms}
