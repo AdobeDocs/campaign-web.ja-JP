@@ -6,7 +6,7 @@ badge: label="ベータ版"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 45%
@@ -36,9 +36,9 @@ AI Assistant は、オーディエンスの共感を呼ぶ可能性の高い様�
 
 ## AI アシスタントを使用したコンテンツの生成 {#generative-text}
 
-1. メール配信を作成および設定した後、「**[!UICONTROL コンテンツを編集]**」をクリックします。
+1. メール配信を作成および設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
-   メール配信の設定方法について詳しくは、[こちら](../email/create-email-content.md)を参照してください。
+   メール配信の設定方法について詳しくは、[こちらのページ](../email/create-email-content.md)を参照してください。
 
 1. 配信の&#x200B;**[!UICONTROL 基本的な詳細]**&#x200B;を入力します。完了したら、「 **[!UICONTROL コンテンツを編集]**.
 

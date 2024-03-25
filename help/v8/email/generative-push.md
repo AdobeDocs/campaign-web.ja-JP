@@ -5,10 +5,10 @@ description: Campaign での AI アシスタントの概要
 badge: label="ベータ版"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 39%
+ht-degree: 33%
 
 ---
 
@@ -77,7 +77,7 @@ AI Assistant は、オーディエンスの共感を呼ぶ可能性の高い様�
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. パーソナライゼーションフィールドを挿入して、プロファイルデータに基づいてメールコンテンツをカスタマイズします。[詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
+1. パーソナライゼーションフィールドを挿入して、プロファイルデータに基づいてプッシュコンテンツをカスタマイズします。 [コンテンツのパーソナライゼーションの詳細情報](../personalization/personalize.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
@@ -85,4 +85,4 @@ AI Assistant は、オーディエンスの共感を呼ぶ可能性の高い様�
 
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. コンテンツ、オーディエンスおよびスケジュールを定義したら、メール配信の準備が整いました。[詳細情報](../monitor/prepare-send.md)
+1. コンテンツ、オーディエンス、スケジュールを定義したら、プッシュ配信を準備する準備が整いました。 [詳細情報](../monitor/prepare-send.md)
