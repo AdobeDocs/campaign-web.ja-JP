@@ -2,13 +2,13 @@
 audience: end-user
 title: ダイレクトメール配信のプレビューと送信
 description: Adobe Campaign Web を使用したダイレクトメール配信のプレビューと送信の方法について説明します
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 18%
 
 ---
-
 
 # ダイレクトメール配信のプレビューと送信 {#send-direct-mail}
 

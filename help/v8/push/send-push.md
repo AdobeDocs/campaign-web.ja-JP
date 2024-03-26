@@ -4,7 +4,7 @@ title: プッシュ通知配信を送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を学ぶ
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
 

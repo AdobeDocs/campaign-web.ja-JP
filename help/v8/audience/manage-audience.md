@@ -4,7 +4,7 @@ title: オーディエンスの監視と管理
 description: Adobe Campaign Web でオーディエンスを監視および管理する方法を説明します
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 

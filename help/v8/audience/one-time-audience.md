@@ -4,7 +4,7 @@ title: 配信に使用する 1 回限りのオーディエンスの作成
 description: 配信用の 1 回限りのオーディエンスを作成する方法を説明します。
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 

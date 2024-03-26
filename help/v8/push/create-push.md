@@ -4,7 +4,7 @@ title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 100%
 

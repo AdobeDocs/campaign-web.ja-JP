@@ -3,7 +3,7 @@ title: プロファイルの作成
 description: Campaign Web でプロファイルを作成する方法について説明します。
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 

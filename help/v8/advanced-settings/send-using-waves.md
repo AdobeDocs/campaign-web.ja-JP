@@ -3,13 +3,13 @@ audience: end-user
 title: ウェーブを使用した送信
 description: Campaign web での配信設定についての詳細情報
 feature: Email
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
+source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 100%
 
 ---
-
 
 # ウェーブを使用した送信 {#send-using-waves}
 
@@ -100,6 +100,3 @@ ht-degree: 100%
 そのためには、「**[!UICONTROL カレンダーに従ってウェーブをスケジュール]**」オプションを選択します。例えば、最初のウェーブを 10％に、2 番目のウェーブを 15％に、3 番目のウェーブを 20％にといった具合に設定します。
 
 ![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
-
-
-

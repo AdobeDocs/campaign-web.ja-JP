@@ -4,7 +4,7 @@ title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
 

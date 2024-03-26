@@ -4,7 +4,7 @@ title: 重複排除 - 重複ワークフローアクティビティを使用
 description: 重複排除 - 重複ワークフローアクティビティの使用方法について説明します
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 

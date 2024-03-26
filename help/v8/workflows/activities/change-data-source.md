@@ -2,7 +2,8 @@
 audience: end-user
 title: データソースを変更ワークフローアクティビティの使用
 description: データソースを変更ワークフローアクティビティの使用方法を説明します
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 12%

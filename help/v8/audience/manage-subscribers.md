@@ -4,7 +4,7 @@ title: サブスクライバーの管理
 description: Adobe Campaign Web で、サービスのサブスクライバーに対して管理および配信する方法を学ぶ
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: 本配信前確認の送信
 description: 本配信前確認の送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 100%
 
