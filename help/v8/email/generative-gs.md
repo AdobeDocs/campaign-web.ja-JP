@@ -1,6 +1,6 @@
 ---
 audience: end-user
-title: AI アシスタントの概要
+title: AI アシスタントの基本を学ぶ
 description: AI アシスタントの概要
 badge: label="ベータ版"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
@@ -9,11 +9,11 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 63%
+ht-degree: 65%
 
 ---
 
-# AI アシスタントの概要 {#generative-gs}
+# AI アシスタントの基本を学ぶ {#generative-gs}
 
 >[!BEGINSHADEBOX]
 

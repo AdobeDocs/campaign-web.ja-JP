@@ -6,7 +6,7 @@ exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="分割アクティビティのフィルター"
->abstract="サブセットにフィルター条件を適用するには、 **[!UICONTROL フィルターを作成]** をクリックし、クエリモデラーを使用して目的のフィルタールールを設定します。 例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="クエリモデラーの操作"
+>abstract="サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、クエリモデラーを使用して目的のフィルタリングルールを設定します。例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/query-database/query-modeler-overview" text="クエリモデラーの操作"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -72,7 +72,7 @@ ht-degree: 90%
 
    1. サブセットを開いて、そのプロパティを表示します。
 
-   1. サブセットにフィルター条件を適用するには、 **[!UICONTROL フィルターを作成]** をクリックし、クエリモデラーを使用して目的のフィルタールールを設定します。 例えば、データベースに E メールアドレスが存在する受信母集団のプロファイルを含めます。 [詳しくは、クエリモデラーの操作方法を参照してください](../../query/query-modeler-overview.md)
+   1. サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、クエリモデラーを使用して目的のフィルタリングルールを設定します。例えば、データベースに E メールアドレスが存在する受信母集団のプロファイルを含めます。 [詳しくは、クエリモデラーの操作方法を参照してください](../../query/query-modeler-overview.md)
 
    1. サブセットで選択するプロファイル数を制限するには、「**[!UICONTROL 制限を有効にする]**」オプションの切替スイッチをオンにし、含める母集団の数または割合を指定します。
 

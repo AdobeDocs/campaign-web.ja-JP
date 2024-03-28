@@ -6,7 +6,7 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 12%
+ht-degree: 23%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="データソースを変更"
->abstract="新しい「データソースの変更」ワークフローのターゲティングアクティビティを使用して、ワークフローの作業用テーブルで使用されるデータソースを変更します。 このアクティビティでは、様々なデータベース間でデータを管理し、パフォーマンスを向上させることで、より柔軟にデータを管理できます。"
+>abstract="新しい「データソースの変更」ワークフローのターゲティングアクティビティを使用して、ワークフローの作業用テーブルで使用されるデータソースを変更します。 このアクティビティでは、様々なデータベース間でデータを管理し、パフォーマンスを向上させるので、柔軟性が高まります。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="データソースを変更"
->abstract="The **データソースを変更** 「 」アクティビティを使用すると、ワークフローの作業用テーブルに別のデータソースを選択できます。"
+>abstract="「**データソースを変更**」アクティビティでは、ワークフローの作業用テーブルに別のデータソースを選択できます。"
 
 The **データソースを変更** アクティビティは **ターゲティング** アクティビティ。 このアクティビティを使用すると、ワークフローの作業用テーブルで使用されるデータソースを変更できます。 これにより、様々なデータベースをまたいでデータを管理し、パフォーマンスを向上させることで、より柔軟性を実現します。
 

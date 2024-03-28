@@ -6,7 +6,7 @@ exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 67%
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 67%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="配信の概要"
->abstract="The **配信の概要** は、各ダイレクトメール配信と訪問者のインタラクションに関する深いインサイトを提供する主要業績評価指標 (KPI) を示します。 指標の概要を以下に示します。"
+>abstract="**配信の概要**&#x200B;には、各ダイレクトメール配信と訪問者のインタラクションに関する詳細なインサイトを提供する主要業績評価指標（KPI）が表示されます。指標の概要を以下に示します。"
 
 The **[!UICONTROL 配信の概要]** は、訪問者と各ダイレクトメール配信とのインタラクションに関する深いインサイトを提供する主要業績評価指標 (KPI) を示します。 指標の概要を以下に示します。
 
@@ -44,7 +44,7 @@ The **[!UICONTROL 配信の概要]** は、訪問者と各ダイレクトメー�
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="初期ターゲットオーディエンス統計"
->abstract="受信者データとメッセージ情報が、 **初期ターゲットオーディエンスの統計** テーブルに、配信準備の分析を反映します。"
+>abstract="受信者のデータとメッセージ情報は、配信準備の分析を反映して、**初期ターゲットオーディエンス統計**&#x200B;テーブルに表示されます。"
 
 **[!UICONTROL 初期ターゲットオーディエンス統計]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標は配信の準備中に計算され、初期オーディエンス、送信するメッセージの数、除外された受信者の数を示します。
 
@@ -65,7 +65,7 @@ The **[!UICONTROL 配信の概要]** は、訪問者と各ダイレクトメー�
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="配信統計"
->abstract="The **実行統計** このテーブルには、ダイレクトメール配信の成功と発生したエラーの詳細が表示されます。"
+>abstract="**実行統計**&#x200B;テーブルには、ダイレクトメール配信の成功と発生したエラーの詳細が表示されます。"
 
 ![](assets/direct-mail-campaign-exec.png)
 

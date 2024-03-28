@@ -6,7 +6,7 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 39%
+ht-degree: 51%
 
 ---
 
@@ -21,7 +21,7 @@ The **ダイレクトメール配信レポート** は、ダイレクトメー�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_overview_direct_mail"
 >title="配信の概要"
->abstract="The **配信の概要** は、各ダイレクトメール配信と訪問者のインタラクションに関する深いインサイトを提供する主要業績評価指標 (KPI) を示します。 指標の概要を以下に示します。"
+>abstract="**配信の概要**&#x200B;には、各ダイレクトメール配信と訪問者のインタラクションに関する詳細なインサイトを提供する主要業績評価指標（KPI）が表示されます。指標の概要を以下に示します。"
 
 The **[!UICONTROL 配信の概要]** では、訪問者が各ダイレクトメール配信とどのようにやり取りするかに関する詳細なインサイトを提供し、重要な主要業績評価指標 (KPI) を示します。  指標の概要を以下に示します。
 
@@ -65,7 +65,7 @@ The **[!UICONTROL 配信の概要]** では、訪問者が各ダイレクトメ�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary_direct_mail"
 >title="配信統計"
->abstract="The **配信統計** グラフには、ダイレクトメール配信の成功と発生したエラーの詳細が表示されます。"
+>abstract="**配信統計**&#x200B;グラフには、ダイレクトメール配信の成功と発生したエラーの詳細が表示されます。"
 
 The **[!UICONTROL 配信統計]** グラフは、配信パフォーマンスの包括的な概要と、成功度と効果度を測定するための詳細な指標を提供します。
 
@@ -88,7 +88,7 @@ The **[!UICONTROL 配信統計]** グラフは、配信パフォーマンスの�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="配信の除外の理由"
->abstract="The **除外の理由** グラフは、配信の準備中に却下されたメッセージの配分を各ルール別に分類したものです。"
+>abstract="**除外の理由**&#x200B;グラフには、配信の準備中に却下されたメッセージの配分がルールごとに分類されて表示されます。"
 
 The **[!UICONTROL 除外の理由]** グラフでは、配信の準備中に却下されたメッセージの理由の詳細な分類が表示されます。 この分類は、様々なルールに従って整理され、メッセージの除外に貢献する要因を包括的に把握できます。 除外ルールについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){_blank}を参照してください。
 
@@ -117,7 +117,7 @@ The **[!UICONTROL 除外の理由]** グラフでは、配信の準備中に却�
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusions_direct_mail"
 >title="除外"
->abstract="The **[!UICONTROL 除外]** この表は、配信の準備プロセス中に却下されたメッセージの詳細な分類をルール別に示しています。"
+>abstract="**[!UICONTROL 除外]**&#x200B;テーブルには、配信準備プロセス中に却下されたメッセージの詳細な分類がルールごとに表示されます。"
 
 The **[!UICONTROL 除外]** この表は、配信の準備段階で拒否されたメッセージの詳細な分類を特定のルール別に分類したものです。 この包括的な分類により、配信プロセスからこれらのメッセージが除外される理由を明確に把握できます。
 
