@@ -17,7 +17,7 @@ ht-degree: 99%
 >id="acw_homepage_welcome_rn5"
 >title="ランディングページ"
 >abstract="新しいランディングページエクスペリエンスについて説明します。ランディングページを即座に作成、設計および共有して、組み込みテンプレートに基づいて、取得、購読／購読解除、ブロックリストのユースケースを管理できるオンライン web ページにユーザーを誘導します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="リリースノートを参照してください"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="詳しくは、リリースノートを参照してください。"
 
 [!DNL Adobe Campaign] では、ランディングページを作成、設計および共有できます。
 

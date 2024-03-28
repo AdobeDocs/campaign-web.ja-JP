@@ -16,7 +16,7 @@ ht-degree: 99%
 >id="acw_homepage_welcome_rn3"
 >title="オーディエンスコンポジション"
 >abstract="ビジュアルワークフローキャンバスに、新しいオーディエンスを作成します。ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりします。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="リリースノートを参照してください"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="詳しくは、リリースノートを参照してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"

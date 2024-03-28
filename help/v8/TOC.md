@@ -8,7 +8,7 @@ breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
 workflow-type: tm+mt
 source-wordcount: '641'
-ht-degree: 89%
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 89%
    + プッシュ通知 {#push}
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
       + [プッシュ通知配信を作成](push/create-push.md)
-      + [Android のリッチプッシュ配信のデザイン](push/rich-push.md)
+      + [Android のリッチプッシュ配信の設計](push/rich-push.md)
       + [プッシュ配信をデザイン](push/content-push.md)
       + [プッシュ配信のプレビューと送信](push/send-push.md)
    + SMS {#sms}
@@ -72,12 +72,12 @@ ht-degree: 89%
       + [SMS 配信をデザイン](sms/content-sms.md)
       + [SMS 配信のプレビューと送信](sms/send-sms.md)
    + ダイレクトメール {#direct-mail}
-      + [ダイレクトメール配信の概要](direct-mail/gs-direct-mail.md)
+      + [ダイレクトメール配信の基本を学ぶ](direct-mail/gs-direct-mail.md)
       + [ダイレクトメール配信の作成](direct-mail/create-direct-mail.md)
-      + [抽出ファイルのデザイン](direct-mail/content-direct-mail.md)
+      + [抽出ファイルの設計](direct-mail/content-direct-mail.md)
       + [ダイレクトメール配信のプレビューと送信](direct-mail/send-direct-mail.md)
    + AI アシスタント {#ai-assistant}
-      + [AI アシスタントの概要](email/generative-gs.md)
+      + [AI アシスタントの基本を学ぶ](email/generative-gs.md)
       + [AI アシスタントを使用した E メールの生成](email/generative-content.md)
       + [AI アシスタントを使用した SMS の生成](email/generative-sms.md)
       + [AI アシスタントを使用したプッシュ通知の生成](email/generative-push.md)
@@ -137,7 +137,7 @@ ht-degree: 89%
       + [ワークフローアクティビティについて](workflows/activities/about-activities.md)
       + [AND 結合](workflows/activities/and-join.md)
       + [オーディエンスを作成](workflows/activities/build-audience.md)
-      + [データソースを変更](workflows/activities/change-data-source.md)
+      + [データソースの変更](workflows/activities/change-data-source.md)
       + [ディメンションを変更](workflows/activities/change-dimension.md)
       + [結合](workflows/activities/combine.md)
       + [重複の除外](workflows/activities/deduplication.md)
@@ -177,7 +177,7 @@ ht-degree: 89%
       + [メールグローバルレポート](reporting/global-report-email.md)
       + [プッシュグローバルレポート](reporting/global-report-push.md)
       + [SMS グローバルレポート](reporting/global-report-sms.md)
-      + [ダイレクトメールのグローバルレポート](reporting/global-report-direct.md)
+      + [ダイレクトメールグローバルレポート](reporting/global-report-direct.md)
 + 統合 {#integrations}
    + [他のアドビソリューションの操作](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
