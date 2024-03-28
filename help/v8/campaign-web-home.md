@@ -4,13 +4,13 @@ description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign Web ユーザーインターフェイスのドキュメント {#campaign-documentation}
+# Adobe Campaign web ユーザーインターフェイスドキュメント {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -51,15 +51,15 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
->[!TAB 3 月のリリースが公開されました。]
+>[!TAB 3月リリースが公開されました。]
 
-Adobe Campaign Web ユーザーインターフェイス 24.3 リリースの新機能と改善点について説明します。
+Adobe Campaign web ユーザーインターフェイス 24.3 リリースの新機能と改善点について説明します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
 >[!TAB ダイレクトメールチャネル]
 
-**ダイレクトメール** チャネルは、ワークフローで、またはスタンドアロン配信として使用できるようになりました。 ダイレクトメールは、抽出ファイルの作成、パーソナライズ、生成、ダイレクトメールプロバイダーとの間での共有、顧客へのメール送信を可能にするオフラインチャネルです。
+**ダイレクトメール**&#x200B;チャネルがワークフロー内およびスタンドアロン配信として使用できるようになりました。ダイレクトメールは、抽出ファイルを作成、カスタマイズ、生成し、ダイレクトメールプロバイダーと共有して顧客にメールを送信できるオフラインチャネルです。
 
 ![画像](assets/do-not-localize/direct-mail.gif)
 
@@ -67,7 +67,7 @@ Adobe Campaign Web ユーザーインターフェイス 24.3 リリースの新�
 
 >[!TAB 新しい「データソースを変更」ワークフローアクティビティ]
 
-The **データソースを変更** ターゲティングアクティビティを使用すると、ワークフローの作業用テーブルで使用されるデータソースを変更できます。 このアクティビティでは、様々なデータベース間でデータを管理し、パフォーマンスを向上させることで、より柔軟にデータを管理できます。
+「**データソースを変更**」ターゲティングアクティビティを使用すると、ワークフローの作業用テーブルで使用するデータソースを変更できます。このアクティビティによって、様々なデータベース間でデータを管理できるようになり、パフォーマンスが向上するため、柔軟性が高まります。
 
 ![画像](assets/do-not-localize/change-data-source.gif)
 

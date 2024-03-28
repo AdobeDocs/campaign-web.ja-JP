@@ -4,7 +4,7 @@ title: プッシュチャネルのキャンペーンレポート
 description: プッシュチャネルのキャンペーンレポートについて
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '507'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 ![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
 
 
-+++プッシュキャンペーンレポート指標の詳細情報。
++++詳しくは、プッシュキャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 ![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
 
 
-+++プッシュキャンペーンレポート指標の詳細情報。
++++詳しくは、プッシュキャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 ![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
 
-+++プッシュキャンペーンレポート指標の詳細情報。
++++詳しくは、プッシュキャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 ![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
 
-+++プッシュキャンペーンレポート指標の詳細情報。
++++詳しくは、プッシュキャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 

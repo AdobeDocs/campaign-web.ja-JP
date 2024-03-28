@@ -3,7 +3,7 @@ title: プロファイルの基本を学ぶ
 description: Campaign web でプロファイルを監視および管理する方法について説明します。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: 5a4bf85a1f70a0282405aededfb31038f9db17a8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
 ht-degree: 100%
 
