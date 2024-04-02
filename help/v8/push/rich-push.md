@@ -5,14 +5,19 @@ description: Adobe Campaign Web を使用して Android のリッチプッシュ
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 98%
+source-wordcount: '1417'
+ht-degree: 96%
 
 ---
 
 # Android のリッチプッシュ配信の設計 {#rich-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="後で通知ボタン"
+>abstract="The **後で通知** ボタンをクリックすると、リマインダーをスケジュールできます。 「タイムスタンプ」フィールドには、エポック（秒）を表す値が必要です。"
 
 Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
 
@@ -100,7 +105,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. 「**[!UICONTROL 後で通知を追加]**」ボタンをクリックして、プッシュ通知に後で通知するオプションを追加します。**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL タイムスタンプ]**&#x200B;を入力します。
 
-   「タイムスタンプ」フィールドには、エポックを表す値（秒単位）が必要です。
+   「タイムスタンプ」フィールドには、エポックを表す値（秒）が必要です。
 
    ![](assets/rich_push_basic_5.png)
 
