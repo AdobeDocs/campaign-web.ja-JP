@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
+source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 99%
+source-wordcount: '1619'
+ht-degree: 98%
 
 ---
 
@@ -416,4 +416,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript の切り替え"
+>abstract="TBC"
+
+
+<!--ExtractFile-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile"
+>title="ファイルを抽出"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_file"
+>title="抽出するファイル"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_destinationformat"
+>title="宛先のフォーマット"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_postprocessing"
+>title="後処理"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_outbound"
+>title="アウトバウンドトランジション"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_extractfile_error"
+>title="処理エラー"
 >abstract="TBC"
