@@ -9,7 +9,7 @@ hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 65%
+ht-degree: 70%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI アシスタント"
->abstract="配信を作成し、パーソナライズしたら、AI Assistant を使用してコンテンツを強化できます。 この機能を使用すると、生成する内容を記述してコンテンツを微調整できるので、パーソナライゼーションとコンテンツ改善のプロセスが簡素化されます。"
+>abstract="配信を作成しパーソナライズしたら、AI アシスタントを使用してコンテンツを強化できます。この機能を使用すると、生成する内容を記述してコンテンツを微調整できるので、パーソナライゼーションとコンテンツ改善のプロセスが簡素化されます。"
 
 
 >[!CONTEXTUALHELP]

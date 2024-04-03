@@ -6,7 +6,7 @@ exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="ダイレクトメール"
->abstract="ダイレクトメールチャネルをワークフローとスタンドアロン配信で使用できるようになりました。 ダイレクトメールオフラインチャネルを使用して、抽出ファイルの作成、パーソナライズ、生成を行い、ダイレクトメールプロバイダーと共有して、顧客にメールを送信します。"
+>abstract="ダイレクトメールチャネルは、ワークフロー内およびスタンドアロン配信内で使用できるようになりました。ダイレクトメールオフラインチャネルを使用すると、抽出ファイルを作成、パーソナライズ、生成し、ダイレクトメールプロバイダーと共有してお客様にメールを送信できます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="詳しくは、リリースノートを参照してください。"
 
 

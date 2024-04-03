@@ -6,7 +6,7 @@ exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '342'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="データソースの変更"
->abstract="新しい「データソースの変更」ワークフローのターゲティングアクティビティを使用して、ワークフローの作業用テーブルで使用されるデータソースを変更します。 このアクティビティによって、様々なデータベース間でデータを管理できるようになり、パフォーマンスが向上するため、柔軟性が高まります。"
+>abstract="新しい「データソースを変更」ワークフローターゲティングアクティビティを使用すると、ワークフローの作業用テーブルで使用されるデータソースを変更できます。このアクティビティによって、様々なデータベース間でデータを管理できるようになり、パフォーマンスが向上するため、柔軟性が高まります。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="詳しくは、リリースノートを参照してください。"
 
 >[!CONTEXTUALHELP]
