@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 99%
+source-wordcount: '1970'
+ht-degree: 85%
 
 ---
 
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="このテンプレートは読み取り専用です"
->abstract="TBC"
-
+>abstract="このテンプレートを編集する権限がありません。 必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="デフォルトのランディングページ"
->abstract="TBC"
+>abstract="このサブスクリプションサービスに関連付けられているデフォルトのランディングページを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="購読サービス"
->abstract="TBC"
+>title="購読サービスアクティビティ"
+>abstract="Adobe Campaign を使用すると、ニュースレターなどのサービスの作成と監視を行ったり、これらのサービスの購読または購読解除を確認したりできます。購読はメールおよび SMS 配信のみが対象となります。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
 >title="購読サービスのパラメーター"
->abstract="TBC"
+>abstract="購読サービスの設定を選択して確定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="購読サービスのアウトバウンドトランジション"
->abstract="TBC"
+>abstract="切り替え **アウトバウンドトランジションを生成** 「 」オプションを使用して、「 」アクティビティの後にトランジションを追加します。"
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="データを更新"
->abstract="TBC"
+>abstract="**データを更新**&#x200B;アクティビティでは、データベースのフィールドを一括で更新します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="データを更新"
->abstract="TBC"
+>title="データの更新方法を選択"
+>abstract="The **操作のタイプ** 「 」フィールドでは、データベース内のデータに対して実行するプロセスを選択できます。 データを追加または更新する最初のオプションを選択します（既に追加されている場合）。 また、データの追加、データの更新、データの削除のみを行うこともできます。 を選択します。 **コレクションの更新と結合** 重複をリンクするプライマリレコードを選択し、それらの重複を安全に削除します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="データを更新"
->abstract="TBC"
+>title="レコード識別"
+>abstract="データベース内のレコードを識別する方法を指定します。データが既存のターゲティングディメンションに関連する場合は、 **ターゲティングディメンションの使用** オプションを選択し、更新するターゲティングディメンションとフィールドを選択します。 または、1 つ以上のカスタムリンクを指定して、データベース内のデータを識別するか、紐付けキーを直接使用します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="データを更新"
->abstract="TBC"
+>title="更新するフィールドを選択"
+>abstract="更新および紐付け設定するフィールドを選択します。 以下を使用すると、 **自動マッピング** 更新するフィールドを自動的に識別するオプション。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="データを更新"
->abstract="TBC"
+>title="データを更新するための高度なオプション"
+>abstract="The **詳細オプション** 「 」セクションでは、データと重複を管理するための追加設定を指定できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="データを更新"
->abstract="TBC"
+>title="アウトバウンドトランジションを生成"
+>abstract="切り替え **アウトバウンドトランジションを生成** オプションを使用して、 **データを更新** アクティビティ。 通常は、更新によってターゲティングワークフローの終了が示されるので、このオプションはデフォルトでは有効化されません。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="データを更新"
->abstract="TBC"
+>title="却下に対するアウトバウンドトランジションを生成します。"
+>abstract="切り替え **却下に対するアウトバウンドトランジションを生成** 更新後に正しく処理されなかったレコードを含むアウトバウンドトランジションを追加するオプション（例：重複レコードがある場合）。 通常は、更新によってターゲティングワークフローの終了が示されるので、このオプションはデフォルトでは有効化されません。"
 
 
 

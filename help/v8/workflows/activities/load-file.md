@@ -3,10 +3,10 @@ audience: end-user
 title: 「ファイルを読み込み」ワークフローアクティビティの使用
 description: 「ファイルを読み込み」ワークフローアクティビティの使用方法について説明します
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 95%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_delete"
 >title="読み込み後にファイルを削除"
->abstract="TBC"
+>abstract="切り替え **インポート後にファイルを削除** ：ファイルのインポート後に、元のファイルをサーバーから削除します。"
 
 「**ファイルを読み込み**」アクティビティは、「**データ管理**」アクティビティです。このアクティビティを使用して、外部ファイルに保存されるプロファイルとデータを操作します。プロファイルとデータはデータベースに追加されませんが、入力ファイル内のすべてのフィールドを[パーソナライゼーション](../../personalization/gs-personalization.md)や、プロファイルまたは他のテーブルの更新に使用できます。
 
