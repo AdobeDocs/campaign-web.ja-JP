@@ -3,9 +3,9 @@ audience: end-user
 title: オーディエンスの作成
 description: Adobe Campaign Web でオーディエンスを作成する方法について説明します
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '938'
 ht-degree: 90%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="オーディエンス"
->abstract="この画面から、ワークフローまたはスタンドアロン配信でターゲットに設定できるすべてのオーディエンスのリストにアクセスできます。 クリック **作成** 次のような様々なワークフローアクティビティを使用して、新しいオーディエンスをビジュアルキャンバスに作成するには： **分割** または **除外**.<br/><br/>The **[!UICONTROL Origin]** 列は、オーディエンスの起源を示します。 **[!UICONTROL Adobe Campaign]** オーディエンスは、Adobe Campaign v8 コンソールまたは Web ユーザーインターフェイスで **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** オーディエンスは、Adobe Experience Platform内で作成され、Adobeソースと宛先の統合を使用して Campaign に統合されています。"
+>abstract="この画面から、ワークフローまたはスタンドアロン配信でターゲットに設定できるすべてのオーディエンスのリストにアクセスできます。 クリック **作成** を使用して、新しいオーディエンスをビジュアルキャンバスに作成します。<br/><br/>最初から始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。 例えば、複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりできます。"
 
 <!--
 [!CONTEXTUALHELP]
@@ -32,6 +32,8 @@ ht-degree: 90%
 Campaign web を使用すると、ビジュアルワークフローキャンバスに新しいオーディエンスを作成できます。ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。例えば、複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりできます。
 
 ワークフローを作成したら、結果のオーディエンスは、既存のオーディエンスと共に Campaign データベースに自動的に保存されます。その後、これらのオーディエンスを、ワークフローやスタンドアロン配信のターゲットにすることができます。
+
+The **[!UICONTROL Origin]** 列は、オーディエンスの起源を示します。 **[!UICONTROL Adobe Campaign]** オーディエンスは、Adobe Campaign v8 コンソールまたは Web ユーザーインターフェイスで **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** オーディエンスは、Adobe Experience Platform内で作成され、Adobeソースと宛先の統合を使用して Campaign に統合されています。
 
 ➡️ [この機能をビデオで確認](#video)
 
