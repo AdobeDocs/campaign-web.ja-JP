@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスの作成
 description: Adobe Campaign Web でオーディエンスを作成する方法について説明します
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,12 +21,13 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="オーディエンス"
->abstract="この画面から、配信のターゲットにできるすべてのオーディエンスのリストにアクセスできます。「**作成**」をクリックすると、**分割**&#x200B;や&#x200B;**除外**&#x200B;などの様々なワークフローアクティビティを使用して、新しいオーディエンスをビジュアルキャンバスに作成できます。"
+>abstract="この画面から、ワークフローまたはスタンドアロン配信でターゲットに設定できるすべてのオーディエンスのリストにアクセスできます。 クリック **作成** 次のような様々なワークフローアクティビティを使用して、新しいオーディエンスをビジュアルキャンバスに作成するには： **分割** または **除外**.<br/><br/>The **[!UICONTROL Origin]** 列は、オーディエンスの起源を示します。 **[!UICONTROL Adobe Campaign]** オーディエンスは、Adobe Campaign v8 コンソールまたは Web ユーザーインターフェイスで **[!UICONTROL ADOBE EXPERIENCE PLATFORM:]** オーディエンスは、Adobe Experience Platform内で作成され、Adobeソースと宛先の統合を使用して Campaign に統合されています。"
 
->[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
->title="オーディエンス設定"
->abstract="オーディエンスの名前と追加のオプションを入力したあと、「**オーディエンスを作成**」ボタンをクリックします。"
+>title="Audience settings"
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
 Campaign web を使用すると、ビジュアルワークフローキャンバスに新しいオーディエンスを作成できます。ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。例えば、複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりできます。
 
