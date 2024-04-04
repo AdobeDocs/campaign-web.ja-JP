@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 6f47779bf0bf39de5481063851a4c2c13731d33f
+source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '646'
 ht-degree: 95%
 
 ---
@@ -109,9 +109,10 @@ ht-degree: 95%
       + [プロファイルの作成](audience/create-profile.md)
       + [テストプロファイルの操作](audience/test-profiles.md)
    + オーディエンスの操作 {#audiences}
-      + [オーディエンスの作成](audience/create-audience.md)
-      + [オーディエンスの監視と管理](audience/manage-audience.md)
+      + [オーディエンスの基本を学ぶ](audience/manage-audience.md)
+      + [オーディエンスを作成](audience/create-audience.md)
    + 配信受信者の選択 {#target-audiences}
+      + [オーディエンス選択の基本を学ぶ](audience/delivery-recipients.md)
       + [既存オーディエンスの選択](audience/add-audience.md)
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
       + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
