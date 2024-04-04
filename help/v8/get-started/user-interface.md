@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 85%
+source-wordcount: '2108'
+ht-degree: 79%
 
 ---
 
@@ -382,12 +382,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部シグナル"
->abstract="TBC"
+>abstract="The **外部シグナル** 「 」アクティビティを使用すると、トリガー内の一連のタスクを API または別のワークフローから実行できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="外部信号パラメーター"
 >abstract="TBC"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -395,27 +396,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="TBC"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript コード"
->abstract="TBC"
+>abstract="The **JavaScript コード** 「 」アクティビティは、ワークフローのコンテキスト内で JavaScript コードを実行します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript スニペット"
->abstract="TBC"
+>abstract="実行するコードを設定します。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="詳しくは、 Campaign v8 （コンソール）ドキュメントを参照してください。"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript の実行"
->abstract="TBC"
+>abstract="デフォルトでは、実行フェーズは 1 時間を超えることはできません。 この遅延の後、エラーメッセージが表示されてプロセスが中止され、アクティビティの実行が失敗します。 切り替え **次の時間後に実行を停止** オプションを使用してカスタムの遅延を定義します。 この制限を無視するには、値を 0 に設定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript のトランジション"
->abstract="TBC"
+>title="エラーを処理"
+>abstract="切り替え **エラーを処理** エラーを含むアウトバウンドトランジションを追加するオプション。"
 
 
 <!--ExtractFile-->
@@ -423,29 +426,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="ファイルを抽出"
->abstract="TBC"
+>abstract="ファイルを抽出アクティビティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="抽出するファイル"
->abstract="TBC"
+>abstract="抽出するファイルを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="宛先のフォーマット"
->abstract="TBC"
+>abstract="形式を選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="後処理"
->abstract="TBC"
+>abstract="後処理ステップの定義"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="アウトバウンドトランジション"
->abstract="TBC"
+>abstract="切り替え **アウトバウンドトランジションを生成** 現在のアクティビティの後にアウトバウンドトランジションを追加するオプション。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="プロセスエラー"
->abstract="TBC"
+>title="エラーを処理"
+>abstract="切り替え **エラーを処理** エラーを含むアウトバウンドトランジションを追加するオプション。"
