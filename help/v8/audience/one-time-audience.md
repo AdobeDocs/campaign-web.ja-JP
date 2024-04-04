@@ -3,10 +3,10 @@ audience: end-user
 title: 配信に使用する 1 回限りのオーディエンスの作成
 description: 配信用の 1 回限りのオーディエンスを作成する方法を説明します。
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '228'
+ht-degree: 66%
 
 ---
 

@@ -2,13 +2,13 @@
 audience: end-user
 title: 配信受信者を選択
 description: 配信の受信者を選択する方法を説明します
-source-git-commit: e0a5a5d8d24df05e3bdb98ecb57eb89d26c8bf3d
+exl-id: 33366af1-17b5-4ef7-8e0c-b7a8ae6e1e82
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 28%
 
 ---
-
 
 # 配信受信者を選択 {#add-audience}
 
@@ -19,3 +19,4 @@ ht-degree: 28%
 * [外部ファイルからオーディエンスを読み込む](file-audience.md). このオプションは、スタンドアロンの E メール配信でのみ使用できます。
 
 また、オーディエンスをターゲティングする際に、**コントロール母集団**&#x200B;を定義すると、オーディエンスの一部にメッセージを送信しないようにして、キャンペーンの影響を測定することもできます。[コントロール母集団の設定方法を学ぶ](control-group.md)
+
