@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2129'
 ht-degree: 79%
 
 ---
@@ -452,3 +452,25 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_extractfile_error"
 >title="エラーを処理"
 >abstract="切り替え **エラーを処理** エラーを含むアウトバウンドトランジションを追加するオプション。"
+
+<!-- Workflow settings -->
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initscript"
+>title="初期化スクリプト"
+>abstract="初期化スクリプト"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_properties"
+>title="実行プロパティ"
+>abstract="実行プロパティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_error"
+>title="実行エラー"
+>abstract="実行エラー"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_initscript"
+>title="実行初期化スクリプト"
+>abstract="実行初期化スクリプト"

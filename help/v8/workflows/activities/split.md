@@ -3,10 +3,10 @@ audience: end-user
 title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
-source-wordcount: '839'
-ht-degree: 100%
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 99%
 
 ---
 
@@ -51,6 +51,11 @@ ht-degree: 100%
 >id="acw_orchestration_split_generatesubsets"
 >title="同じテーブルにすべてのサブセットを生成"
 >abstract="このオプションの切替スイッチをオンにすると、すべてのサブセットが 1 つの出力トランジションにグループ化されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="空のトランジションをスキップ"
+>abstract="空のトランジションをスキップ"
 
 **分割**&#x200B;アクティビティを設定するには、次の手順に従います。
 
