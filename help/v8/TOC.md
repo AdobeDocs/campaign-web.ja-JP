@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
       + [プッシュ通知配信を作成](push/create-push.md)
       + [Android のリッチプッシュ配信の設計](push/rich-push.md)
-      + [プッシュ配信をデザイン](push/content-push.md)
+      + [プッシュ配信の設計](push/content-push.md)
       + [プッシュ配信のプレビューと送信](push/send-push.md)
    + SMS {#sms}
       + [SMS 配信の基本を学ぶ](sms/gs-sms.md)
@@ -78,9 +78,9 @@ ht-degree: 95%
       + [ダイレクトメール配信のプレビューと送信](direct-mail/send-direct-mail.md)
    + AI アシスタント {#ai-assistant}
       + [AI アシスタントの基本を学ぶ](email/generative-gs.md)
-      + [AI アシスタントによるメール生成](email/generative-content.md)
-      + [AI アシスタントによる SMS 生成](email/generative-sms.md)
-      + [AI アシスタントによるプッシュ通知の生成](email/generative-push.md)
+      + [AI アシスタントを使用したメールの生成](email/generative-content.md)
+      + [AI アシスタントを使用した SMS の生成](email/generative-sms.md)
+      + [AI アシスタントを使用したプッシュ通知の生成](email/generative-push.md)
    + コンテンツを動的にする {#dynamic-content}
       + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
       + [パーソナライゼーションを追加](personalization/personalize.md)
@@ -138,11 +138,11 @@ ht-degree: 95%
       + [ワークフローアクティビティについて](workflows/activities/about-activities.md)
       + [AND 結合](workflows/activities/and-join.md)
       + [オーディエンスを作成](workflows/activities/build-audience.md)
-      + [データソースの変更](workflows/activities/change-data-source.md)
+      + [データソースを変更](workflows/activities/change-data-source.md)
       + [ディメンションを変更](workflows/activities/change-dimension.md)
       + [結合](workflows/activities/combine.md)
       + [重複の除外](workflows/activities/deduplication.md)
-      + [メール，SMS, プッシュ，ダイレクトメール](workflows/activities/channels.md)
+      + [メール, SMS, プッシュ, ダイレクトメール](workflows/activities/channels.md)
       + [エンリッチメント](workflows/activities/enrichment.md)
       + [分岐](workflows/activities/fork.md)
       + [ファイルを読み込み](workflows/activities/load-file.md)

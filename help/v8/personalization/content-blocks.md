@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign は、事前設定済みのコンテンツブロックのリス�
 
 * **[!UICONTROL デフォルトのオプトアウトバナー]**
 * **[!UICONTROL Adobe Campaign で有効化]**：「Adobe Campaign で有効化」ロゴを挿入します。
-* **[!UICONTROL 固有名詞の書式設定関数]**：を生成します **[!UICONTROL toSmartCase]** 各単語の最初の文字を大文字に変更する JavaScript 関数。
+* **[!UICONTROL 固有名詞の書式設定関数]**：JavaScript の **[!UICONTROL toSmartCase]** 関数を生成します。この関数は各単語の最初の文字をすべて大文字に変更します。
 * **[!UICONTROL 挨拶]**：受信者の姓名の後にコンマを付けた挨拶文を挿入します。例：「こんにちは、John Doe。」
 * **[!UICONTROL ロゴの挿入]**：インスタンス設定で定義されているロゴを挿入します。
 * **[!UICONTROL ミラーページへのリンク]**：[ミラーページ](../email/mirror-page.md)へのリンクを挿入します。デフォルトの形式は、「このメッセージが正しく表示されない場合は、ここをクリックしてください」です。

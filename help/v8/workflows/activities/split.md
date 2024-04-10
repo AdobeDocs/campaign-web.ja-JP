@@ -4,9 +4,9 @@ title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '845'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="空のトランジションをスキップ"
->abstract="空のトランジションをスキップ。"
+>abstract="空のトランジションをスキップします。"
 
 **分割**&#x200B;アクティビティを設定するには、次の手順に従います。
 

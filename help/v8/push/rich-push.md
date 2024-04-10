@@ -1,14 +1,14 @@
 ---
 audience: end-user
 title: リッチプッシュ通知配信の設計
-description: Adobe Campaign Web を使用して、Android リッチなプッシュ通知配信をデザインする方法を説明します
+description: Adobe Campaign web を使用した Android のリッチプッシュ通知配信の設計方法について説明します。
 hide: true
 hidefromtoc: true
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1417'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 96%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
->title="後で通知ボタン"
->abstract="この **後で通知** ボタンは、リマインダーをスケジュールするためのオプションを提供します。 タイムスタンプ フィールドには秒でエポックを表す値が必要です。"
+>title="「後で通知」ボタン"
+>abstract="「**後で通知**」ボタンを使用すると、リマインダーをスケジュールするオプションが提供されます。「タイムスタンプ」フィールドには、エポックを表す値（秒単位）が必要です。"
 
 Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
 
@@ -105,7 +105,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 1. 「**[!UICONTROL 後で通知を追加]**」ボタンをクリックして、プッシュ通知に後で通知するオプションを追加します。**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL タイムスタンプ]**&#x200B;を入力します。
 
-   タイムスタンプフィールドには、秒でエポックを表す値を想定します。
+   「タイムスタンプ」フィールドには、エポックを表す値（秒単位）が必要です。
 
    ![](assets/rich_push_basic_5.png)
 

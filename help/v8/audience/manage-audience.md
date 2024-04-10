@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: オーディエンスの基本を学ぶ
-description: Adobe Campaign Web でオーディエンスを操作する方法を学ぶ
+description: Adobe Campaign web でオーディエンスを操作する方法を説明します。
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 76%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="プロパティ"
->abstract="ここでは、オリジンやストレージフォルダーなどのオーディエンスプロパティの概要を確認できます。 「**前回のワークフロー**」セクションのリンクをクリックして、オーディエンスの作成に使用したワークフローを開きます。"
+>abstract="ここでは、接触チャネル、ストレージフォルダーなどのオーディエンスプロパティの概要を確認できます。「**前回のワークフロー**」セクションのリンクをクリックして、オーディエンスの作成に使用したワークフローを開きます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="オーディエンスサイズ"
->abstract="ここでは、オーディエンス内のプロファイルの合計数を確認できます。「」をクリックします **Calculate** オーディエンス結果を更新および再計算するボタン。"
+>abstract="ここでは、オーディエンス内のプロファイルの合計数を確認できます。「**計算**」ボタンをクリックして、オーディエンスの結果を更新および再計算します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
@@ -33,9 +33,9 @@ ht-degree: 76%
 
 オーディエンスは複数のソースから作成できます。**[!UICONTROL 接触チャネル]**&#x200B;列は、特定のオーディエンスが作成された場所を示します。
 
-* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスはで作成されました。 [Adobe Campaign Web ユーザーインターフェイス](create-audience.md) または [Adobe Campaign v8 クライアントコンソール](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=ja){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスは、[Adobe Campaign web ユーザーインターフェイス](create-audience.md)または [Adobe Campaign v8 クライアントコンソール](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=ja){target="_blank"}で作成されています。
 
-* **[!UICONTROL Adobe Experience Platform:]** これらのオーディエンスは、Adobe Experience Platform内で作成され、Adobeのソースと宛先の統合を使用して Campaign Web に統合されています。 この統合を設定する方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL Adobe Experience Platform：]**&#x200B;これらのオーディエンスは、Adobe Experience Platform 内で作成され、アドビのソースおよび宛先との統合を使用して Campaign web に統合されます。この統合を設定する方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
 
   ➡️ [この機能をビデオで確認](#video)
 

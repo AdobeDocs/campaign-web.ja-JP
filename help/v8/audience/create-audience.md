@@ -4,9 +4,9 @@ title: オーディエンスの作成
 description: Adobe Campaign Web でオーディエンスを作成する方法について説明します
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 90%
 >id="acw_homepage_welcome_rn3"
 >title="オーディエンスコンポジション"
 >abstract="ビジュアルワークフローキャンバスに、新しいオーディエンスを作成します。ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりします。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="詳しくは、リリースノートを参照してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="オーディエンス"
->abstract="この画面から、ワークフローまたはスタンドアロン配信でターゲットとできるすべてのオーディエンスのリストにアクセスできます。 クリック **作成** ビジュアルキャンバスに新しいオーディエンスを作成します。<br/><br/>ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。 例えば、複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりできます。"
+>abstract="この画面から、ワークフローまたはスタンドアロン配信でターゲットにできるすべてのオーディエンスのリストにアクセスできます。「**作成**」をクリックして、視覚的なキャンバスに新しいオーディエンスを作成します。<br/><br/>ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。例えば、複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりできます。"
 
 <!--
 [!CONTEXTUALHELP]
@@ -33,7 +33,7 @@ Campaign web を使用すると、ビジュアルワークフローキャンバ�
 
 ワークフローを作成したら、結果のオーディエンスは、既存のオーディエンスと共に Campaign データベースに自動的に保存されます。その後、これらのオーディエンスを、ワークフローやスタンドアロン配信のターゲットにすることができます。
 
-この **[!UICONTROL 複製元]** 列は、オーディエンスの接触チャネルを示します。 **[!UICONTROL Adobe Campaign]** オーディエンスは、次の場合にAdobe Campaign v8 コンソールまたは web ユーザーインターフェイスで作成されています **[!UICONTROL Adobe Experience Platform:]** オーディエンスは、Adobe Experience Platform内で作成され、Adobeのソースと宛先の統合を使用して Campaign に統合されています。
+**[!UICONTROL 接触チャネル]**&#x200B;列は、オーディエンスの接触チャネルを示します。**[!UICONTROL Adobe Campaign]** オーディエンスは Adobe Campaign v8 コンソールまたは web ユーザーインターフェイスで作成されます。**[!UICONTROL Adobe Experience Platform：]**&#x200B;オーディエンスは Adobe Experience Platform 内で作成され、アドビのソースと宛先の統合を使用して Campaign に統合されています。
 
 ➡️ [この機能をビデオで確認](#video)
 

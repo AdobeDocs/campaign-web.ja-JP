@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 98%
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. パーソナライゼーションエディターで、 **[!UICONTROL 条件]** 左側にメニューがあります。
+1. パーソナライゼーションエディターで、左側にある&#x200B;**[!UICONTROL 条件]**&#x200B;メニューを参照します。
 
 1. 条件の作成を開始するには、**If** 関数の横にある「+」アイコンをクリックします。中央の画面に次の行が追加されます：`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 

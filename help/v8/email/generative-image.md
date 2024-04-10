@@ -7,13 +7,13 @@ exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
 source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# コンテンツアシスタントによるメール画像の生成 {#generative-image}
+# コンテンツアシスタントを使用したメール画像の生成 {#generative-image}
 
 メールを作成しパーソナライズしたら、生成 AI を活用したコンテンツアシスタントを使用してコンテンツを強化できます。この機能により、パーソナライゼーションとコンテンツ改善のプロセスが簡単になります。
 

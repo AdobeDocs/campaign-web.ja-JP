@@ -4,9 +4,9 @@ title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 93%
 * クエリモデラーを使用して、[1 回限りのオーディエンスを作成します](one-time-audience.md)。
 * [外部ファイルのオーディエンスを読み込みます](file-audience.md)（メールの場合のみ）。
 
-配信のターゲットに設定できるオーディエンスには、**オーディエンス**&#x200B;の左メニューからアクセスできます。オーディエンスは、クライアントコンソール、Campaign Web オーディエンスワークフロー、Adobe Experience Platformなど、複数のソースから選びます。[オーディエンスの詳細情報](manage-audience.md)
+配信のターゲットに設定できるオーディエンスには、**オーディエンス**&#x200B;の左メニューからアクセスできます。オーディエンスは、クライアントコンソール、Campaign Web オーディエンスワークフロー、Adobe Experience Platformなど、複数のソースから選びます。[詳しくは、オーディエンスを参照してください](manage-audience.md)
 
 メッセージの既存のオーディエンスを選択するには、次の手順に従います。
 
-1. から **対象読者** 「配信作成アシスタント」セクションで、 **[!UICONTROL オーディエンスを選択]** ボタンをクリックしてから、を選択 **[!UICONTROL オーディエンスを選択]**.
+1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックし、「**[!UICONTROL オーディエンスを選択]**」を選択します。
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

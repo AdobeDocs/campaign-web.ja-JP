@@ -3,9 +3,9 @@ title: 最新のリリースノート
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 >
 >このバージョンは、[Campaign（コンソール）v8.6 リリース](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja)以降のすべてのユーザーが利用できます。Adobe Campaign クライアントコンソールのリリースとアップグレードについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ja){target="_blank"}を参照してください。
 
-## 3 月のリリースノート {#24-3-release}
+## 3月リリースノート {#24-3-release}
 
 **リリース日**：2024年3月19～20日（PT）
 
