@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
-source-wordcount: '2129'
-ht-degree: 79%
+source-wordcount: '2209'
+ht-degree: 78%
 
 ---
 
@@ -320,7 +320,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="デフォルトのランディングページ"
->abstract="このサブスクリプションサービスに関連付けられているデフォルトのランディングページを選択します。"
+>abstract="このサブスクリプションサービスに関連付けられたデフォルトのランディングページを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -329,13 +329,13 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="購読サービスのパラメーター"
->abstract="購読サービスの設定を選択して確定します。"
+>title="購読サービスパラメーター"
+>abstract="購読サービスの設定を選択して確認します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="購読サービスのアウトバウンドトランジション"
->abstract="切り替え **アウトバウンドトランジションを生成** 「 」オプションを使用して、「 」アクティビティの後にトランジションを追加します。"
+>abstract="を切り替え **アウトバウンドトランジションを生成** アクティビティの後にトランジションを追加するオプション。"
 
 
 <!--Update file-->
@@ -348,32 +348,32 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="データの更新方法を選択"
->abstract="The **操作のタイプ** 「 」フィールドでは、データベース内のデータに対して実行するプロセスを選択できます。 データを追加または更新する最初のオプションを選択します（既に追加されている場合）。 また、データの追加、データの更新、データの削除のみを行うこともできます。 を選択します。 **コレクションの更新と結合** 重複をリンクするプライマリレコードを選択し、それらの重複を安全に削除します。"
+>abstract="この **操作タイプ** フィールドでは、データベース内のデータに対して実行するプロセスを選択できます。 データを追加または更新する最初のオプションを選択します（既に追加されている場合）。 また、データの追加、データの更新または削除のみを行うこともできます。 「」を選択します **コレクションの更新と結合** 重複をリンクするプライマリ レコードを選択し、それらの重複を安全に削除します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="レコード識別"
->abstract="データベース内のレコードを識別する方法を指定します。データが既存のターゲティングディメンションに関連する場合は、 **ターゲティングディメンションの使用** オプションを選択し、更新するターゲティングディメンションとフィールドを選択します。 または、1 つ以上のカスタムリンクを指定して、データベース内のデータを識別するか、紐付けキーを直接使用します。"
+>abstract="データベース内のレコードを識別する方法を指定：データが既存のターゲティングディメンションに関連する場合は、 **ターゲティングディメンションの使用** オプションを選択し、更新するターゲティングディメンションとフィールドを選択します。 それ以外の場合は、1 つ以上のカスタムリンクを指定して、データベース内のデータを識別するか、紐付けキーを直接使用します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="更新するフィールドを選択"
->abstract="更新および紐付け設定するフィールドを選択します。 以下を使用すると、 **自動マッピング** 更新するフィールドを自動的に識別するオプション。"
+>abstract="更新するフィールドと紐付け設定を選択します。 を使用できます **自動マッピング** 更新するフィールドを自動的に識別するオプション。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="データを更新するための高度なオプション"
->abstract="The **詳細オプション** 「 」セクションでは、データと重複を管理するための追加設定を指定できます。"
+>abstract="この **詳細オプション** セクションでは、データと重複を管理するための追加設定を指定できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="アウトバウンドトランジションを生成"
->abstract="切り替え **アウトバウンドトランジションを生成** オプションを使用して、 **データを更新** アクティビティ。 通常は、更新によってターゲティングワークフローの終了が示されるので、このオプションはデフォルトでは有効化されません。"
+>abstract="を切り替え **アウトバウンドトランジションを生成** の実行の終了時に有効化されるアウトバウンドトランジションを追加するオプション **データを更新** アクティビティ。 通常は、更新によってターゲティングワークフローの終了が示されるので、このオプションはデフォルトでは有効化されません。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="却下に対するアウトバウンドトランジションを生成します。"
->abstract="切り替え **却下に対するアウトバウンドトランジションを生成** 更新後に正しく処理されなかったレコードを含むアウトバウンドトランジションを追加するオプション（例：重複レコードがある場合）。 通常は、更新によってターゲティングワークフローの終了が示されるので、このオプションはデフォルトでは有効化されません。"
+>title="却下された項目のアウトバウンドトランジションを生成します。"
+>abstract="を切り替え **却下された項目のアウトバウンドトランジションを生成** 更新後に正しく処理されなかったレコードを含むアウトバウンドトランジションを追加するオプション （重複がある場合など）。 通常は、更新によってターゲティングワークフローの終了が示されるので、このオプションはデフォルトでは有効化されません。"
 
 
 
@@ -382,7 +382,7 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部シグナル"
->abstract="The **外部シグナル** 「 」アクティビティを使用すると、トリガー内の一連のタスクを API または別のワークフローから実行できます。"
+>abstract="この **外部シグナル** アクティビティを使用すると、API または別のワークフローから、ワークフロー内の一連のタスクをトリガーに実行できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -401,24 +401,25 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
 >title="JavaScript コード"
->abstract="The **JavaScript コード** 「 」アクティビティは、ワークフローのコンテキスト内で JavaScript コードを実行します。"
+>abstract="この **JavaScript コード** アクティビティは、ワークフローのコンテキストで JavaScript コードを実行します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript スニペット"
 >abstract="実行するコードを設定します。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="詳しくは、 Campaign v8 （コンソール）ドキュメントを参照してください。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="詳しくは、Campaign v8 （コンソール）ドキュメントを参照してください"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
 >title="JavaScript の実行"
->abstract="デフォルトでは、実行フェーズは 1 時間を超えることはできません。 この遅延の後、エラーメッセージが表示されてプロセスが中止され、アクティビティの実行が失敗します。 切り替え **次の時間後に実行を停止** オプションを使用してカスタムの遅延を定義します。 この制限を無視するには、値を 0 に設定します。"
+>abstract="デフォルトでは、実行フェーズは 1 時間を超えることはできません。 この遅延の後、エラーメッセージが表示されてプロセスが中止され、アクティビティの実行が失敗します。 を切り替え **後で実行を停止** カスタムの遅延を定義するオプション。 この制限を無視するには、値を 0 に設定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="エラーを処理"
->abstract="切り替え **エラーを処理** エラーを含むアウトバウンドトランジションを追加するオプション。"
+>abstract="を切り替え **エラーを処理** エラーを含むアウトバウンドトランジションを追加するオプション。"
+
 
 
 <!--ExtractFile-->
@@ -446,12 +447,12 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="アウトバウンドトランジション"
->abstract="切り替え **アウトバウンドトランジションを生成** 現在のアクティビティの後にアウトバウンドトランジションを追加するオプション。"
+>abstract="を切り替え **アウトバウンドトランジションを生成** 現在のアクティビティの後にアウトバウンドトランジションを追加するオプション。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="エラーを処理"
->abstract="切り替え **エラーを処理** エラーを含むアウトバウンドトランジションを追加するオプション。"
+>abstract="を切り替え **エラーを処理** エラーを含むアウトバウンドトランジションを追加するオプション。"
 
 <!-- Workflow settings -->
 
@@ -472,5 +473,76 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution_initscript"
->title="実行初期化スクリプト"
->abstract="実行初期化スクリプト"
+>title="実行の初期化スクリプト"
+>abstract="実行の初期化スクリプト"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="増分処理クエリ"
+>abstract="増分処理クエリ"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="増分処理クエリ履歴"
+>abstract="増分処理クエリ履歴"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="ファイルを転送"
+>abstract="ファイルを転送"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="ファイル転送オプション"
+>abstract="ファイル転送オプション"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="ファイル転送アクティビティ"
+>abstract="ファイル転送アクティビティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="ファイル リモート サーバーの転送"
+>abstract="ファイル リモート サーバーの転送"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="ファイルソースを転送"
+>abstract="ファイルソースを転送"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="転送後にソースファイルを削除"
+>abstract="転送後にソースファイルを削除"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="セッションログを表示"
+>abstract="セッションログを表示"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="すべてのファイルを表示"
+>abstract="すべてのファイルを表示"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="ファイルの履歴化"
+>abstract="ファイルの履歴化"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="見つからないファイルの処理"
+>abstract="見つからないファイルの処理"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="エラーを処理"
+>abstract="エラーを処理"
