@@ -38,7 +38,7 @@ ht-degree: 100%
 
 +++詳しくは、メール配信レポート指標を参照してください。
 
-* **[!UICONTROL 初期オーディエンス]**：ターゲット受信者の合計数。
+* **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
 
 * **[!UICONTROL 配信]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 >title="配信の除外の理由"
 >abstract="**除外の理由**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。"
 
-**[!UICONTROL 除外の理由]**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。除外ルールについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){_blank}を参照してください。
+**[!UICONTROL 除外の理由]**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types)を参照してください。
 
 ![](assets/reporting_email_3.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
 

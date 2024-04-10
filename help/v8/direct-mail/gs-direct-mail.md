@@ -16,7 +16,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn1"
 >title="ダイレクトメール"
 >abstract="ダイレクトメールチャネルは、ワークフロー内およびスタンドアロン配信内で使用できるようになりました。ダイレクトメールオフラインチャネルを使用すると、抽出ファイルを作成、パーソナライズ、生成し、ダイレクトメールプロバイダーと共有してお客様にメールを送信できます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="詳しくは、リリースノートを参照してください。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
 
 
 ダイレクトメールは、はがき、チラシ、カタログなどのパーソナライズされたレターを顧客に大量に配信するファイルを作成できるオフラインチャネルです。

@@ -1,33 +1,34 @@
 ---
 audience: end-user
-title: Campaign の AI アシスタント付き SMS
-description: Campaign での AI アシスタントの概要
+title: Campaign の AI アシスタントを使用した SMS
+description: Campaign での AI アシスタントの基本を学ぶ
 badge: label="ベータ版"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: db0459e5-8759-42d9-8945-8c9667450527
+source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
-# AI アシスタントを使用した SMS の生成 {#generative-sms}
+# AI アシスタントによる SMS 生成 {#generative-sms}
 
 >[!BEGINSHADEBOX]
 
-**目次**
+**Table of content**
 
-* [AI アシスタントの概要](generative-gs.md)
-* [AI アシスタントを使用した E メールの生成](generative-content.md)
-* **[AI アシスタントを使用した SMS の生成](generative-sms.md)**
-* [AI アシスタントを使用したプッシュ通知の生成](generative-push.md)
+* [AI アシスタントの基本を学ぶ](generative-gs.md)
+* [AI アシスタントによるメール生成](generative-content.md)
+* **[AI アシスタントによる SMS 生成](generative-sms.md)**
+* [AI アシスタントによるプッシュ通知の生成](generative-push.md)
 
 >[!ENDSHADEBOX]
 
-オーディエンスに合わせて SMS メッセージを作成し、パーソナライズしたら、Campaign の AI アシスタントの支援を得て、革新的な AI テクノロジーを活用し、次のレベルにコミュニケーションを取ります。
+オーディエンスに合わせて SMS メッセージを作成しパーソナライズしたら、革新的な AI テクノロジーを活用した Campaign の AI アシスタントを活用して、コミュニケーションを次のレベルに引き上げます。
 
-この便利なツールは、コンテンツを絞り込むためのインテリジェントな提案を提供し、メッセージの共鳴を効果的にし、エンゲージメントを最大化します。
+この便利なツールは、コンテンツを調整するためのインテリジェントな提案を提供し、メッセージが効果的に共鳴し、エンゲージメントを最大化できるようにします。
 
 >[!NOTE]
 >
@@ -35,29 +36,29 @@ ht-degree: 35%
 
 1. SMS 配信を作成および設定したら、 **[!UICONTROL コンテンツを編集]**.
 
-   SMS 配信の設定方法について詳しくは、 [このページ](../sms/create-sms.md).
+   SMS 配信の設定方法について詳しくは、以下を参照してください。 [このページ](../sms/create-sms.md).
 
-1. 配信の&#x200B;**[!UICONTROL 基本的な詳細]**&#x200B;を入力します。完了したら、「 **[!UICONTROL コンテンツを編集]**.
+1. 配信の&#x200B;**[!UICONTROL 基本的な詳細]**&#x200B;を入力します。完了したら、 **[!UICONTROL コンテンツを編集]**.
 
 1. 必要に応じて SMS メッセージをパーソナライズします。 [詳細情報](../sms/content-sms.md)
 
-1. 次にアクセス： **[!UICONTROL AI アシスタントを表示]** メニュー。
+1. へのアクセス **[!UICONTROL AI アシスタントを表示]** メニュー。
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. コンテンツを微調整するには、 **[!UICONTROL プロンプト]** フィールドに入力します。
+1. で生成する内容を記述して、コンテンツを微調整します **[!UICONTROL プロンプト]** フィールド。
 
-   プロンプトの作成に関するサポートを探している場合は、 **[!UICONTROL プロンプトライブラリ]** 配信を改善するための迅速なアイデアの多様な範囲を提供します。
+   プロンプトの作成に関する支援を探している場合は、 **[!UICONTROL プロンプトライブラリ]** を使用すると、配信を改善するための様々な迅速なアイデアを利用できます。
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. を有効にします。 **[!UICONTROL 現在のコンテキストで拡張]** 」オプションを使用します。
+1. を有効にする **[!UICONTROL 現在のコンテキストで拡張]** 配信、配信名、選択したオーディエンスに基づいて新しいコンテンツをパーソナライズするための AI アシスタントのオプション。
 
    >[!IMPORTANT]
    >
-   > プロンプトは、ブランドアセットをアップロードするか、 **[!UICONTROL 現在のコンテンツを拡張]** オプション。
+   > プロンプトは、ブランドアセットをアップロードするか、を有効にすることで、常に特定のコンテキストに結び付ける必要があります。 **[!UICONTROL 現在のコンテンツの拡張]** オプション。
 
-1. 選択 **[!UICONTROL ブランドアセットをアップロード]** :AI Assistant に追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加します。
+1. を選択 **[!UICONTROL ブランドアセットのアップロード]** AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加します。
 
 1. ニーズに最も合う&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を選択します。これは、生成されるテキストのトーンとスタイルに影響を与えます。
 
@@ -83,4 +84,4 @@ ht-degree: 35%
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. コンテンツ、オーディエンス、スケジュールを定義したら、SMS 配信を準備します。 [詳細情報](../monitor/prepare-send.md)
+1. コンテンツ、オーディエンスおよびスケジュールを定義したら、SMS 配信の準備を始めます。 [詳細情報](../monitor/prepare-send.md)

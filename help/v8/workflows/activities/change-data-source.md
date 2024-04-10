@@ -16,7 +16,7 @@ ht-degree: 100%
 >id="acw_homepage_welcome_rn2"
 >title="データソースの変更"
 >abstract="新しい「データソースを変更」ワークフローターゲティングアクティビティを使用すると、ワークフローの作業用テーブルで使用されるデータソースを変更できます。このアクティビティによって、様々なデータベース間でデータを管理できるようになり、パフォーマンスが向上するため、柔軟性が高まります。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="詳しくは、リリースノートを参照してください。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

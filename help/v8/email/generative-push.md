@@ -1,67 +1,68 @@
 ---
 audience: end-user
 title: Campaign の AI アシスタントを使用したプッシュ通知
-description: Campaign での AI アシスタントの概要
+description: Campaign での AI アシスタントの基本を学ぶ
 badge: label="ベータ版"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
+source-git-commit: 886fd47b52d08b0a1bfcbeca03929d48b5bc2a3f
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
-# AI アシスタントを使用したプッシュ通知の生成 {#generative-push}
+# AI アシスタントによるプッシュ通知の生成 {#generative-push}
 
 >[!BEGINSHADEBOX]
 
-**目次**
+**Table of content**
 
-* [AI アシスタントの概要](generative-gs.md)
-* [AI アシスタントを使用した E メールの生成](generative-content.md)
-* [AI アシスタントを使用した SMS の生成](generative-sms.md)
-* **[AI アシスタントを使用したプッシュ通知の生成](generative-push.md)**
+* [AI アシスタントの基本を学ぶ](generative-gs.md)
+* [AI アシスタントによるメール生成](generative-content.md)
+* [AI アシスタントによる SMS 生成](generative-sms.md)
+* **[AI アシスタントによるプッシュ通知の生成](generative-push.md)**
 
 >[!ENDSHADEBOX]
 
-E メールを作成し、パーソナライズしたら、生成 AI を利用した Campaign の AI Assistant を使用して、コンテンツを次のレベルに引き上げます。
+メールを作成してパーソナライズしたら、生成 AI を活用した Campaign の AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。
 
-AI Assistant は、オーディエンスの共感を呼ぶ可能性の高い様々なコンテンツを提案することで、配信の影響を最適化するのに役立ちます。
+AI アシスタントは、オーディエンスの共感を得られる可能性の高い様々なコンテンツを提案することで、配信の影響を最適化するのに役立ちます。
 
 >[!NOTE]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#guardrails-and-limitations)のトピックに目を通してください。
 
-1. プッシュ通知配信を作成および設定した後、 **[!UICONTROL コンテンツを編集]**.
+1. プッシュ通知配信を作成して設定したら、 **[!UICONTROL コンテンツを編集]**.
 
-   プッシュ配信の設定方法について詳しくは、 [このページ](../push/create-push.md).
+   プッシュ配信の設定方法について詳しくは、以下を参照してください。 [このページ](../push/create-push.md).
 
-1. 配信の&#x200B;**[!UICONTROL 基本的な詳細]**&#x200B;を入力します。完了したら、「 **[!UICONTROL コンテンツを編集]**.
+1. 配信の&#x200B;**[!UICONTROL 基本的な詳細]**&#x200B;を入力します。完了したら、 **[!UICONTROL コンテンツを編集]**.
 
-1. 必要に応じて、プッシュ通知をパーソナライズします。 [詳細情報](../push/content-push.md)
+1. 必要に応じてプッシュ通知をパーソナライズします。 [詳細情報](../push/content-push.md)
 
-1. 次にアクセス： **[!UICONTROL AI アシスタントを表示]** メニュー。
+1. へのアクセス **[!UICONTROL AI アシスタントを表示]** メニュー。
 
    ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. コンテンツを微調整するには、 **[!UICONTROL プロンプト]** フィールドに入力します。
+1. で生成する内容を記述して、コンテンツを微調整します **[!UICONTROL プロンプト]** フィールド。
 
-   プロンプトの作成に関するサポートを探している場合は、 **[!UICONTROL プロンプトライブラリ]** 配信を改善するための迅速なアイデアの多様な範囲を提供します。
+   プロンプトの作成に関する支援を探している場合は、 **[!UICONTROL プロンプトライブラリ]** を使用すると、配信を改善するための様々な迅速なアイデアを利用できます。
 
    ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. を有効にします。 **[!UICONTROL 現在のコンテキストで拡張]** 」オプションを使用します。
+1. を有効にする **[!UICONTROL 現在のコンテキストで拡張]** 配信、配信名、選択したオーディエンスに基づいて新しいコンテンツをパーソナライズするための AI アシスタントのオプション。
 
    >[!IMPORTANT]
    >
-   > プロンプトは、ブランドアセットをアップロードするか、 **[!UICONTROL 現在のコンテンツを拡張]** オプション。
+   > プロンプトは、ブランドアセットをアップロードするか、を有効にすることで、常に特定のコンテキストに結び付ける必要があります。 **[!UICONTROL 現在のコンテンツの拡張]** オプション。
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. 選択 **[!UICONTROL ブランドアセットをアップロード]** :AI Assistant に追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加します。
+1. を選択 **[!UICONTROL ブランドアセットのアップロード]** AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加します。
 
-1. 生成するフィールドを選択してください： **[!UICONTROL タイトル]**, **[!UICONTROL 字幕]** または **[!UICONTROL メッセージ]**.
+1. 生成するフィールドを選択： **[!UICONTROL タイトル]**, **[!UICONTROL サブタイトル]** または **[!UICONTROL メッセージ]**.
 
 1. ニーズに最も合う&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を選択します。これは、生成されるテキストのトーンとスタイルに影響を与えます。
 
@@ -85,4 +86,4 @@ AI Assistant は、オーディエンスの共感を呼ぶ可能性の高い様�
 
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. コンテンツ、オーディエンス、スケジュールを定義したら、プッシュ配信を準備する準備が整いました。 [詳細情報](../monitor/prepare-send.md)
+1. コンテンツ、オーディエンスおよびスケジュールを定義したら、プッシュ配信の準備を始めます。 [詳細情報](../monitor/prepare-send.md)

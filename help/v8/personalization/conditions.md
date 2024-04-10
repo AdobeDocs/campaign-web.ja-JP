@@ -42,7 +42,7 @@ ht-degree: 98%
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. パーソナライゼーションエディターで、 **[!UICONTROL 条件]** 」メニューを開きます。
+1. パーソナライゼーションエディターで、 **[!UICONTROL 条件]** 左側にメニューがあります。
 
 1. 条件の作成を開始するには、**If** 関数の横にある「+」アイコンをクリックします。中央の画面に次の行が追加されます：`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 

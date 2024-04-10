@@ -55,7 +55,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="空のトランジションをスキップ"
->abstract="空のトランジションをスキップ"
+>abstract="空のトランジションをスキップ。"
 
 **分割**&#x200B;アクティビティを設定するには、次の手順に従います。
 

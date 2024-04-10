@@ -35,7 +35,7 @@ Adobe Campaign は、事前設定済みのコンテンツブロックのリス�
 
 * **[!UICONTROL デフォルトのオプトアウトバナー]**
 * **[!UICONTROL Adobe Campaign で有効化]**：「Adobe Campaign で有効化」ロゴを挿入します。
-* **[!UICONTROL 固有名詞の書式設定関数]**：を生成します **[!UICONTROL toSmartCase]** JavaScript 関数。各単語の最初の文字を大文字に変更します。
+* **[!UICONTROL 固有名詞の書式設定関数]**：を生成します **[!UICONTROL toSmartCase]** 各単語の最初の文字を大文字に変更する JavaScript 関数。
 * **[!UICONTROL 挨拶]**：受信者の姓名の後にコンマを付けた挨拶文を挿入します。例：「こんにちは、John Doe。」
 * **[!UICONTROL ロゴの挿入]**：インスタンス設定で定義されているロゴを挿入します。
 * **[!UICONTROL ミラーページへのリンク]**：[ミラーページ](../email/mirror-page.md)へのリンクを挿入します。デフォルトの形式は、「このメッセージが正しく表示されない場合は、ここをクリックしてください」です。

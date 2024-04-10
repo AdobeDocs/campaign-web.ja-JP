@@ -2,8 +2,9 @@
 audience: end-user
 title: ダイレクトメールレポート
 description: ダイレクトメールレポートへのアクセス方法と使用方法について説明します。
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 100%
 
@@ -95,9 +96,9 @@ ht-degree: 100%
 
 +++詳しくは、除外の理由指標を参照してください。
 
-* **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離に置かれたときに生成されるエラータイプ。
+* **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離に置かれた場合に生成されるエラータイプ。
 
-* **[!UICONTROL アドレスが未指定]**：配信の送信中に生成され、アドレスが存在しないことを示すエラータイプ。
+* **[!UICONTROL アドレスが未指定]**：配信の送信時に生成され、アドレスが存在しないことを示すエラータイプ。
 
 * **[!UICONTROL 低品質のアドレス]**：郵送先住所の品質評価が低すぎる場合に生成されるエラータイプ。
 

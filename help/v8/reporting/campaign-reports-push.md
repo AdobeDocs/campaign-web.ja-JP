@@ -4,7 +4,7 @@ title: プッシュチャネルのキャンペーンレポート
 description: プッシュチャネルのキャンペーンレポートについて
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 +++詳しくは、プッシュキャンペーンレポート指標を参照してください。
 
-* **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
+* **[!UICONTROL 初期オーディエンス]**：ターゲット受信者の合計数。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 

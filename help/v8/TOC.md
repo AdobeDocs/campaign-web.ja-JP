@@ -78,9 +78,9 @@ ht-degree: 95%
       + [ダイレクトメール配信のプレビューと送信](direct-mail/send-direct-mail.md)
    + AI アシスタント {#ai-assistant}
       + [AI アシスタントの基本を学ぶ](email/generative-gs.md)
-      + [AI アシスタントを使用した E メールの生成](email/generative-content.md)
-      + [AI アシスタントを使用した SMS の生成](email/generative-sms.md)
-      + [AI アシスタントを使用したプッシュ通知の生成](email/generative-push.md)
+      + [AI アシスタントによるメール生成](email/generative-content.md)
+      + [AI アシスタントによる SMS 生成](email/generative-sms.md)
+      + [AI アシスタントによるプッシュ通知の生成](email/generative-push.md)
    + コンテンツを動的にする {#dynamic-content}
       + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
       + [パーソナライゼーションを追加](personalization/personalize.md)
@@ -142,7 +142,7 @@ ht-degree: 95%
       + [ディメンションを変更](workflows/activities/change-dimension.md)
       + [結合](workflows/activities/combine.md)
       + [重複の除外](workflows/activities/deduplication.md)
-      + [E メール、SMS、プッシュ、ダイレクトメール](workflows/activities/channels.md)
+      + [メール，SMS, プッシュ，ダイレクトメール](workflows/activities/channels.md)
       + [エンリッチメント](workflows/activities/enrichment.md)
       + [分岐](workflows/activities/fork.md)
       + [ファイルを読み込み](workflows/activities/load-file.md)
