@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 70%
@@ -65,7 +65,7 @@ SMS メッセージをオーディエンスに合わせて作成してパーソ�
    * **[!UICONTROL コミュニケーション戦略]**：生成テキストに適した通信方法を選択します。
    * **[!UICONTROL 言語]**：バリアントのコンテンツの言語を選択します。
    * **[!UICONTROL トーン]**：テキストがオーディエンスと目的に適していることを確認します。
-   * **[!UICONTROL 明るい]**：範囲スライダーを使用して、コンテンツの長さを選択します。
+   * **[!UICONTROL 長さ]**：範囲スライダーを使用して、コンテンツの長さを選択します。
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
