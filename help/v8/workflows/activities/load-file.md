@@ -3,10 +3,10 @@ audience: end-user
 title: 「ファイルを読み込み」ワークフローアクティビティの使用
 description: 「ファイルを読み込み」ワークフローアクティビティの使用方法について説明します
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 「**ファイルを読み込み**」アクティビティを設定するには、次の手順に従います。
 
-1. ワークフローに「**ファイルを読み込み**」アクティビティをドラッグ＆ドロップします。「**ファイルから選択**」ボタンをクリックします。
+1. を追加 **ファイルをロード** ワークフローへのアクティビティ。 「**ファイルから選択**」ボタンをクリックします。
 
 1. 使用するローカルファイルを選択します。形式は、[サンプルファイル](../../audience/file-audience.md#sample-file)と一致させる必要があります。
 
