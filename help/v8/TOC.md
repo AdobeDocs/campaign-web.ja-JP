@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 2573cacff81ab4dfab1c685ac2f532252eedca63
-workflow-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 99%
 
 ---
 
@@ -127,6 +127,7 @@ ht-degree: 100%
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
    + [ガードレールと制限](get-started/guardrails.md)
+   + [ワークフローイベント変数](workflows/event-variables.md)
    + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
    + 最初のワークフローの作成と実行 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
