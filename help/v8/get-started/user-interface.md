@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -499,23 +499,23 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_options"
->title="ファイル転送オプション"
->abstract="ファイル転送オプション"
+>title="「ファイルを転送」オプション"
+>abstract="「ファイルを転送」オプション"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_activity"
->title="ファイル転送アクティビティ"
->abstract="ファイル転送アクティビティ"
+>title="ファイルを転送アクティビティ"
+>abstract="ファイルを転送アクティビティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
->title="ファイル リモート サーバーの転送"
->abstract="ファイル リモート サーバーの転送"
+>title="リモートサーバーにファイルを転送"
+>abstract="リモートサーバーにファイルを転送"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
->title="ファイルソースを転送"
->abstract="ファイルソースを転送"
+>title="ファイルのソースを転送"
+>abstract="ファイルのソースを転送"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -529,8 +529,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="すべてのファイルを表示"
->abstract="すべてのファイルを表示"
+>title="すべてのファイルをリスト"
+>abstract="すべてのファイルをリスト"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -539,8 +539,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
->title="見つからないファイルの処理"
->abstract="見つからないファイルの処理"
+>title="不明なファイルを処理"
+>abstract="不明なファイルを処理"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
