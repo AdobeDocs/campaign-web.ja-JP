@@ -3,16 +3,16 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
-source-wordcount: '2014'
-ht-degree: 100%
+source-wordcount: '2015'
+ht-degree: 98%
 
 ---
 
 # 式の編集 {#expression}
 
-式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
+式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値フィールド、並べ替えなどの特定のクエリを実行するために使用する値を操作できる高度な関数を使用できます。
 
 >[!IMPORTANT]
 >
