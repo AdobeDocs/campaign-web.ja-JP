@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
+source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 100%
+source-wordcount: '2279'
+ht-degree: 98%
 
 ---
 
@@ -547,7 +547,59 @@ Deprecated IDs - to remove in GA: -->
 >title="エラーを処理"
 >abstract="エラーを処理"
 
+<!-- Delivery alerting -->
+
 >[!CONTEXTUALHELP]
->id="acw_deliveries_alerting"
->title="配信アラート"
+>id="acw_delivery_alerting_criteria"
+>title="配信アラート条件ダッシュボード"
+>abstract="配信アラート条件ダッシュボード"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="配信アラートダッシュボード"
+>abstract="配信アラートダッシュボード"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="配信アラート条件の作成"
+>abstract="配信アラート条件の作成"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="アラートに追加するインジケーター"
+>abstract="アラートに追加するインジケーター"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_alert"
+>title="アラートタイプ"
+>abstract="アラートタイプ"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_frequency"
+>title="基準頻度"
+>abstract="基準頻度"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="配信アラート基準"
+>abstract="配信アラート基準"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="配信アラートの一般パラメーター"
 >abstract="配信アラート"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="配信アラート条件のパラメーター"
+>abstract="配信アラート"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="送信された配信アラート"
+>abstract="送信された配信アラート"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="配信アラート履歴"
+>abstract="配信アラート履歴"
