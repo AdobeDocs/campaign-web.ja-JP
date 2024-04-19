@@ -34,8 +34,8 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_rejectmgt"
->title="「ファイルを読み込み」アクティビティの管理を却下"
->abstract="「ファイルを読み込み」アクティビティの管理を却下"
+>title="「ファイルを読み込み」アクティビティの却下管理"
+>abstract="「ファイルを読み込み」アクティビティの却下管理"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
