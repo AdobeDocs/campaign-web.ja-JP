@@ -6,10 +6,10 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 67%
+source-wordcount: '479'
+ht-degree: 65%
 
 ---
 
@@ -75,9 +75,11 @@ SMS メッセージをオーディエンスに合わせて作成してパーソ�
 
 1. に移動します。 **[!UICONTROL 調整]** 内のオプション **[!UICONTROL プレビュー]** 追加のカスタマイズ機能にアクセスし、バリエーションを環境設定に合わせて微調整するためのウィンドウ。
 
-   * **言語の簡略化**:AI アシスタントは、誰でも理解できる明確で簡潔なメッセージを記述するのに役立ちます。
+   * **[!UICONTROL を参照コンテンツとして使用]**：選択したバリアントは、他の結果を生成するための参照コンテンツとして機能します。
 
-   * **Rephrase**:AI アシスタントは、メッセージのフレーズを変更して、様々なオーディエンスに魅力的なコンテンツを提供し続けます。
+   * **[!UICONTROL よりシンプルな言語の使用]**:AI アシスタントは、誰でも理解できる明確で簡潔なメッセージを記述するのに役立ちます。
+
+   * **[!UICONTROL Rephrase]**:AI アシスタントは、メッセージのフレーズを変更して、様々なオーディエンスに魅力的なコンテンツを提供し続けます。
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
