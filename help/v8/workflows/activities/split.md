@@ -3,9 +3,9 @@ audience: end-user
 title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '855'
 ht-degree: 100%
 
 ---
@@ -56,6 +56,11 @@ ht-degree: 100%
 >id="acw_orchestration_split_emptytransition"
 >title="空のトランジションをスキップ"
 >abstract="空のトランジションをスキップします。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_enable_overlapping"
+>title="出力母集団の重複を有効にする"
+>abstract="出力母集団の重複を有効にする"
 
 **分割**&#x200B;アクティビティを設定するには、次の手順に従います。
 
