@@ -4,9 +4,9 @@ title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2279'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -551,8 +551,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
->title="配信アラート条件ダッシュボード"
->abstract="配信アラート条件ダッシュボード"
+>title="配信アラート基準ダッシュボード"
+>abstract="配信アラート基準ダッシュボード"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboards"
@@ -561,8 +561,8 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
->title="配信アラート条件の作成"
->abstract="配信アラート条件の作成"
+>title="配信アラート基準を作成"
+>abstract="配信アラート基準を作成"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
@@ -586,12 +586,12 @@ Deprecated IDs - to remove in GA: -->
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_general"
->title="配信アラートの一般パラメーター"
+>title="配信アラート一般パラメーター"
 >abstract="配信アラート"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
->title="配信アラート条件のパラメーター"
+>title="配信アラート基準パラメーター"
 >abstract="配信アラート"
 
 >[!CONTEXTUALHELP]
