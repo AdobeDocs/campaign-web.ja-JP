@@ -5,8 +5,8 @@ description: 分割ワークフローアクティビティの使用方法を説�
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
