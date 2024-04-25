@@ -3,10 +3,10 @@ audience: end-user
 title: ワークフローイベント変数
 description: ワークフローでイベント変数を活用する方法を説明します。
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
-source-git-commit: b33c3c2424c1cd07c7bb6fd4c2ffcab9592354c7
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
