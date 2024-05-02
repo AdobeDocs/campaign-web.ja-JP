@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
+source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 100%
+source-wordcount: '1206'
+ht-degree: 98%
 
 ---
 
@@ -100,10 +100,10 @@ Adobe Campaign Web には、データベースをフィルタリングして様�
 
     Learn more in [this section](../email/generative-gs.md).
 -->
+<!--
+**AI-powered Contextual Help**
 
-**AI を活用したコンテキストヘルプ**
-
-製品のユーザーインターフェイスから直接質問したり、ガイダンスを見つけたりできます。新しい **AI を活用したコンテキストヘルプ**&#x200B;は、Campaign の新機能に関する専門知識を学び、成長させるのに役立ちます。最新の製品ドキュメントに基づいて、ユースケースを作成する際に、ヘルプを見つけてステップバイステップのガイダンスを即座に得ることができます。この機能は現在、限定されたユーザー向けにベータ版で使用できます。詳しくは、[こちら](../get-started/using-ai.md)を参照してください。
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
 
 **定義済みフィルター**
 
@@ -129,6 +129,8 @@ Campaign ユーザーは、引き続きクライアントコンソールにア�
 Campaign Web ユーザーインターフェイスでは、ユーザーインターフェイスにユーザーの権限が反映されます。権限について詳しくは、[このページ](../get-started/permissions.md)を参照してください。
 
 サポートされている機能とサポートされていない機能や、Campaign web ユーザーインターフェイスと Campaign クライアントコンソール間の相互運用性について詳しくは、[このページ](../get-started/capability-matrix.md)を参照してください。
+
+Campaign v8 に移行するCampaign Standardユーザーの場合、 [このページを参照してください。](../rn/acs-migration.md).
 
 ## 用語の更新 {#terminology-updates}
 
