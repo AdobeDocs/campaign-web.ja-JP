@@ -4,7 +4,7 @@ title: オーディエンスを作成ワークフローアクティビティの�
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 

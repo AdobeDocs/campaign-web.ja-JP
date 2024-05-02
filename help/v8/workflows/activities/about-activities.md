@@ -4,7 +4,7 @@ title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの操作方法を学ぶ
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
 
