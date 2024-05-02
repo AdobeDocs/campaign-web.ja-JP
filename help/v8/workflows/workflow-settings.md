@@ -3,10 +3,10 @@ audience: end-user
 title: ワークフロー設定の指定
 description: Adobe Campaign Web でのワークフロー設定方法について説明します
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 100%
+source-wordcount: '1067'
+ht-degree: 96%
 
 ---
 
@@ -103,3 +103,8 @@ ht-degree: 100%
    * **[!UICONTROL プロセスを中止]**：ワークフローは自動的に停止し、ステータスは「**[!UICONTROL 失敗]**」に変わります。問題が解決したら、「**[!UICONTROL 開始]**」ボタンを使用してワークフローを再開します。
 
 * **[!UICONTROL 連続エラー]**：このフィールドは、「**[!UICONTROL エラーの場合]**」フィールドで「**[!UICONTROL 無視]**」の値が選択されたときに有効になります。プロセスを停止するまでに無視するエラーの数を指定できます。この数に達すると、ワークフローのステータスが「**[!UICONTROL 失敗]**」に変わります。このフィールドの値が 0 の場合、エラーの数にかかわらず、ワークフローが停止することはありません。
+
+## 初期化スクリプト {#initialization-script}
+
+この **初期化スクリプト** 変数を初期化したり、アクティビティのプロパティを変更したりできます。 「」をクリックします **コードを編集** ボタンをクリックし、実行するコードのスニペットを入力します。 スクリプトは、ワークフローの実行時に呼び出されます。 関連する節を参照してください。 [イベント変数](../workflows/event-variables.md).
+

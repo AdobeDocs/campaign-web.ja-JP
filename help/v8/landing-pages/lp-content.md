@@ -3,10 +3,10 @@ title: ランディングページ固有のコンテンツの定義
 description: Campaign web でランディングページ固有のコンテンツを設計する方法について説明します
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '1153'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 100%
 
 また、[ランディングページのスタイル](#lp-form-styles)を定義できます。
 
-ランディングページのコンテンツをさらに設計するには、メールと同じコンポーネントを使用できます。[詳細情報](../email/content-components.md#add-content-components)
+ランディングページのコンテンツをさらに詳しくデザインするには：
+
+* メールのデザインに使用するのと同じコンポーネントを使用できます。 [詳細情報](../email/content-components.md#add-content-components)
+
+* メールと同じ方法で、ランディングページに条件付きコンテンツを追加できます。 [詳細情報](../personalization/conditions.md#condition-condition-builder)
+
+  >[!AVAILABILITY]
+  >
+  >この機能は、限定提供（LA）で提供されています。 移行するお客様に限定されます。 **Adobe Campaign StandardからAdobe Campaign v8 へ**、および他の環境にデプロイすることはできません。
 
 ## フォームコンポーネントの使用 {#use-form-component}
 
@@ -54,7 +62,7 @@ ht-degree: 100%
 
 1. これを選択します。「**[!UICONTROL フォームコンテンツ]**」タブが右側のパレットに表示され、フォームの様々なフィールドを編集できます。
 
-   ![](assets/lp-form-component.png)
+   ![](assets/lp-form-component.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -62,7 +70,7 @@ ht-degree: 100%
 
 1. 1 つ目のテキストフィールドがある場合は展開するか、「**[!UICONTROL 追加]**」ボタンを使用してテキストフィールドを追加します。「**[!UICONTROL テキストフィールド 1]**」セクションから、ユーザーが値を入力する前にフィールド内に表示されるフィールドタイプ、更新するデータベースフィールド、ラベル、テキストを編集できます。
 
-   ![](assets/lp-form-text-field.png)
+   ![](assets/lp-form-text-field.png){zoomable=&quot;yes&quot;}
 
 1. 必要に応じて、「**[!UICONTROL フォームフィールドを必須にする]**」オプションをオンにします。その場合、ランディングページは、ユーザーがこのフィールドに入力した場合にのみ送信できます。
 
@@ -72,9 +80,9 @@ ht-degree: 100%
 
 1. チェックボックスがある場合は、展開するか、「**[!UICONTROL 追加]**」ボタンを使用してテキストフィールドを追加します。そのチェックボックスでデータベースのサービスまたはフィールドを更新するかどうかを選択します。
 
-   ![](assets/lp-form-checkbox.png)
+   ![](assets/lp-form-checkbox.png){zoomable=&quot;yes&quot;}
 
-   「**[!UICONTROL 購読とサービス]**」を選択した場合、リストからサービスを選択し、次の 2 つのオプションのいずれかを選択します。
+   を選択する場合 **[!UICONTROL 購読とサービス]**&#x200B;を選択します [サービス](../audience/manage-services.md) リストから、次の 2 つのオプションのいずれかを選択します。
 
    * **[!UICONTROL オンにすると購読]**：ユーザーは、同意するには、チェックボックスをオンにする必要があります（オプトイン）。
    * **[!UICONTROL オンにすると登録解除]**：ユーザーは、チェックボックスをオンにして同意を削除する必要があります（オプトアウト）。
@@ -87,25 +95,46 @@ ht-degree: 100%
 
 1. フィールドの数は、テキストフィールド、ラジオボタン、チェックボックス、ドロップダウンリストなど、必要な数だけ、削除したり、追加したりできます。
 
-1. すべてのフィールドを追加または更新したら、「**[!UICONTROL コールトゥアクション]**」をクリックして、対応するセクションを展開します。これにより、**[!UICONTROL フォーム]**&#x200B;コンポーネントのボタンの動作を定義できます。
+1. すべてのフィールドを追加または更新したら、「**[!UICONTROL コールトゥアクション]**」をクリックして、対応するセクションを展開します。このダイアログでは、 **[!UICONTROL フォーム]** コンポーネント。 [詳細情報](#define-actions-on-form-submission)
 
-   ![](assets/lp-call-to-action.png)
+   ![](assets/lp-call-to-action.png){zoomable=&quot;yes&quot;}
+
+1. コンテンツを保存して、[ランディングページのプロパティ](create-lp.md#create-landing-page)に戻ります。
+
+### フォーム送信時のアクションの定義 {#define-actions-on-form-submission}
 
 1. 次のボタンをクリックした場合の動作を定義します。
 
-   * **[!UICONTROL 確認ページ]**：ユーザーは、現在のランディングページに設定されている&#x200B;**[!UICONTROL 確認]**&#x200B;ページにリダイレクトされます。
+   * **[!UICONTROL 確認ページ]**：デフォルトでは、ユーザーはにリダイレクトされます **[!UICONTROL 確認]** 現在のランディングページに設定されます。
 
    * **[!UICONTROL リダイレクト URL]**：ユーザーがリダイレクトされるページの URL を入力します。
 
+   * **[!UICONTROL ランディングページ]**：ユーザーのリダイレクト先となる別のランディングページを選択できます。 選択したランディングページを適宜設定してください。
+
 1. フォームの送信時に追加の更新を行う場合は、「**[!UICONTROL 追加の更新]**」を選択し、更新する項目を選択します。
-   * 購読サービス - この場合、フォームの送信時にユーザーをオプトインまたはオプトアウトするかを定義します。
-   * フォームの入力時に使用するメールアドレス。
+   * 定期購読 [サービス](../audience/manage-services.md)  – この場合、フォームの送信時にユーザーをオプトインまたはオプトアウトするかどうかを定義します。 メールをデザインする際に、 **[!UICONTROL ランディングページ]** – このランディングページへのリンクを入力します。選択したサービスが自動的に使用されます。 [詳しくは、リンクの挿入を参照してください。](../email/message-tracking.md)
+
+     >[!NOTE]
+     >
+     >このランディングページで複数のサービスを使用する場合は、 **[!UICONTROL URL からのサービス]** 以下に説明するオプションです。
+
+   * チャネル – フォームの入力時に使用されるメールアドレス。
    * すべてのチャネル - フォームの送信時に、ユーザーは、すべてのチャネル上のブランドからのすべての通信に対して（選択したテンプレートに応じて）オプトインまたはオプトアウトされます。
    * データベースのフィールド - 属性リストからフィールドを選択し、フォームの送信時にフィールドを True または False に設定する必要があるかどうかを定義します。
 
-   ![](assets/lp-form-additionnal-updates.png)
+   ![](assets/lp-form-additionnal-updates.png){zoomable=&quot;yes&quot;}
 
-1. コンテンツを保存して、[ランディングページのプロパティ](create-lp.md#create-landing-page)に戻ります。
+1. 「」を選択します **[!UICONTROL URL からのサービス]** ランディングページを複数のサービスで使用して、動的にするオプションです。 フォームの送信時にユーザーをオプトインまたはオプトアウトするかどうかを定義します。
+
+   >[!AVAILABILITY]
+   >
+   >この機能は、限定提供（LA）で提供されています。 移行するお客様に限定されます。 **Adobe Campaign StandardからAdobe Campaign v8 へ**、および他の環境にデプロイすることはできません。
+
+   ![](assets/lp-form-service-from-url.png){zoomable=&quot;yes&quot;}
+
+   メールをデザインする際に、 **[!UICONTROL ランディングページ]** – このランディングページへのリンクを入力します。リストから任意のサービスを選択できます。 その後、このランディングページへの他のリンクを定義する際に、他のサービスを選択できます。 [詳しくは、リンクの挿入を参照してください。](../email/message-tracking.md)
+
+   ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
 
 ## ランディングページフォームスタイルの定義 {#lp-form-styles}
 
@@ -113,17 +142,17 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL テキストフィールド]**」セクションはデフォルトで展開されます。これにより、ラベルのフォント、ラベルの位置、フィールドの背景色、フィールドの境界線など、テキストフィールドの外観を編集できます。
 
-   ![](assets/lp-text-styles.png)
+   ![](assets/lp-text-styles.png){zoomable=&quot;yes&quot;}
 
 1. 「**[!UICONTROL チェックボックス]**」セクションを展開して、チェックボックスと対応するテキストの外観を定義します。例えば、フォントファミリとサイズ、チェックボックスの境界線の色を調整できます。
 
-   ![](assets/lp-checkbox-style.png)
+   ![](assets/lp-checkbox-style.png){zoomable=&quot;yes&quot;}
 
 1. フォームに追加した他のフィールド（ラジオボタン、ドロップダウンリスト、日付と時刻など）に対応する他のセクションを展開して編集します。
 
 1. 「**[!UICONTROL コールトゥアクション]**」セクションを展開して、コンポーネントフォームのボタンの外観を変更します。例えば、フォントの変更や境界線の追加、マウスポインターを置いたときのラベルの色を編集したり、ボタンの配置を調整したりできます。
 
-   ![](assets/lp-call-to-action-style.png)
+   ![](assets/lp-call-to-action-style.png){zoomable=&quot;yes&quot;}
 
    「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用すると、ポインターを合わせたときのボタンのラベルの色など、一部の設定をプレビューできます。[詳細情報](create-lp.md#test-landing-page)
 

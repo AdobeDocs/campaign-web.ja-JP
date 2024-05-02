@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
+source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '1789'
 ht-degree: 99%
 
 ---
@@ -285,29 +285,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="デフォルトのランディングページ"
->abstract="この購読サービスに関連付けられたデフォルトのランディングページを選択します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="「購読サービス」アクティビティ"
->abstract="Adobe Campaign を使用すると、ニュースレターなどのサービスの作成と監視を行ったり、これらのサービスの購読または購読解除を確認したりできます。購読はメールおよび SMS 配信のみが対象となります。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="購読サービスのパラメーター"
->abstract="購読サービスの設定を選択して確認します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="購読サービスのアウトバウンドトランジション"
->abstract="「**アウトバウンドトランジションを生成**」オプションを切り替えて、アクティビティの後にトランジションを追加します。"
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
@@ -345,85 +322,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="却下に対するアウトバウンドトランジションを生成します。"
 >abstract="「**却下に対するアウトバウンドトランジションを生成**」オプションを切り替えて、更新後に（例えば、重複レコードが存在するなどで）正しく処理されなかったレコードを含むアウトバウンドトランジションを追加します。通常は、更新によってターゲティングワークフローの終了が示されるので、このオプションはデフォルトでは有効化されません。"
 
-
-
-<!--External Signal End-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal"
->title="外部シグナル"
->abstract="**外部シグナル**&#x200B;アクティビティを使用して、API または別のワークフローから、ワークフロー内のタスクセットの実行をトリガーできます。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal_parameters"
->title="外部信号パラメーター"
->abstract="外部信号パラメーター"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end_trigger"
->title="トリガーを終了"
->abstract="トリガーを終了"
-
-
-<!--JavaScript-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript"
->title="JavaScript コード"
->abstract="**JavaScript コード**&#x200B;アクティビティは、ワークフローのコンテキスト内で JavaScript コードを実行します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_snippet"
->title="JavaScript スニペット"
->abstract="実行するコードを設定します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/api" text="詳しくは、Campaign v8（コンソール）ドキュメントを参照してください。"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_execution"
->title="JavaScript の実行"
->abstract="デフォルトでは、実行フェーズは 1 時間を超えることはできません。この遅延の後、エラーメッセージが表示されてプロセスが中止され、アクティビティの実行が失敗します。「**次の時間後に実行を停止**」オプションを切り替えて、カスタム遅延を定義します。この制限を無視するには、値を 0 に設定します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="エラーを処理"
->abstract="「**エラーを処理**」オプションを切り替えて、エラーを含むアウトバウンドトランジションを追加します。"
-
-
-
-<!--ExtractFile-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile"
->title="ファイルを抽出"
->abstract="ファイルを抽出アクティビティ"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="抽出するファイル"
->abstract="抽出するファイルを選択します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="宛先のフォーマット"
->abstract="形式を選択します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="後処理"
->abstract="後処理ステップを定義"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="アウトバウンドトランジション"
->abstract="「**アウトバウンドトランジションを生成**」オプションを切り替えて、現在のアクティビティの後にアウトバウンドトランジションを追加します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="エラーを処理"
->abstract="「**エラーを処理**」オプションを切り替えて、エラーを含むアウトバウンドトランジションを追加します。"
-
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
@@ -445,82 +343,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="実行初期化スクリプト"
 >abstract="実行初期化スクリプト"
-
-
-<!--incremental querry -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery"
->title="増分処理クエリ"
->abstract="増分処理クエリ"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_history"
->title="増分処理クエリ履歴"
->abstract="増分処理クエリ履歴"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_processeddata"
->title="増分処理クエリのデータ"
->abstract="増分処理クエリのデータ"
-
-
-<!-- Transfer file activity -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile"
->title="ファイルを転送"
->abstract="ファイルを転送"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_options"
->title="「ファイルを転送」オプション"
->abstract="「ファイルを転送」オプション"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_activity"
->title="ファイルを転送アクティビティ"
->abstract="ファイルを転送アクティビティ"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_remoteserver"
->title="リモートサーバーにファイルを転送"
->abstract="リモートサーバーにファイルを転送"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_source"
->title="ファイルのソースを転送"
->abstract="ファイルのソースを転送"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="転送後にソースファイルを削除"
->abstract="転送後にソースファイルを削除"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="セッションログを表示"
->abstract="セッションログを表示"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="すべてのファイルをリスト"
->abstract="すべてのファイルをリスト"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="ファイルの履歴化"
->abstract="ファイルの履歴化"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="不明なファイルを処理"
->abstract="不明なファイルを処理"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="エラーを処理"
->abstract="エラーを処理"
 
 <!-- Delivery alerting -->
 
@@ -565,6 +387,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="配信アラート"
 
 >[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="デフォルトのランディングページ"
+>abstract="この購読サービスに関連付けられたデフォルトのランディングページを選択します。"
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="配信アラート基準パラメーター"
 >abstract="配信アラート"

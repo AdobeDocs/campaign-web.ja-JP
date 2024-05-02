@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 100%
    + [新機能](rn/whats-new.md)
    + [最新リリース](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
+   + [Campaign v8 へのCampaign Standardの移行](rn/acs-migration.md)
 + Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
@@ -145,12 +146,20 @@ ht-degree: 100%
       + [重複の除外](workflows/activities/deduplication.md)
       + [メール, SMS, プッシュ, ダイレクトメール](workflows/activities/channels.md)
       + [エンリッチメント](workflows/activities/enrichment.md)
+      + [外部シグナル](workflows/activities/external-signal.md)
+      + [ファイルを抽出](workflows/activities/extract-file.md)
       + [分岐](workflows/activities/fork.md)
+      + [増分クエリ](workflows/activities/incremental-query.md)
+      + [JavaScript コード](workflows/activities/javascript-code.md)
       + [ファイルを読み込み](workflows/activities/load-file.md)
       + [紐付け](workflows/activities/reconciliation.md)
       + [オーディエンスを保存](workflows/activities/save-audience.md)
       + [スケジューラー](workflows/activities/scheduler.md)
       + [分割](workflows/activities/split.md)
+      + [購読サービス](workflows/activities/subscription-services.md)
+      + [テスト](workflows/activities/test.md)
+      + [ファイルを転送](workflows/activities/transfer-file.md)
+      + [データの更新](workflows/activities/update-data.md)
       + [待機](workflows/activities/wait.md)
 + データベースのクエリ {#query-database}
    + [クエリモデラーの操作](query/query-modeler-overview.md)
@@ -184,4 +193,6 @@ ht-degree: 100%
    + [他のアドビソリューションの操作](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
++ 管理 {#administration}
+   + [カスタムフィールドの設定](administration/custom-fields.md)
 

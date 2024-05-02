@@ -3,10 +3,10 @@ audience: end-user
 title: 購読サービスの操作
 description: Adobe Campaign Web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
-workflow-type: ht
-source-wordcount: '960'
-ht-degree: 100%
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+workflow-type: tm+mt
+source-wordcount: '1074'
+ht-degree: 89%
 
 ---
 
@@ -53,6 +53,11 @@ Adobe Campaign Web を使用すると、ニュースレターなどのサービ�
 >title="確認メッセージの選択"
 >abstract="ユーザーがサービスを登録または登録解除する際に、確認メッセージを送信できます。そのメッセージに使用するテンプレートを選択します。"
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="デフォルトのランディングページ"
+>abstract="このサービスに関連付けられているデフォルトのランディングページを選択します。"
+
 購読サービスを作成するには、次の手順に従います。
 
 1. 「**[!UICONTROL 購読サービスを作成]**」ボタンをクリックします。
@@ -81,9 +86,25 @@ Adobe Campaign Web を使用すると、ニュースレターなどのサービ�
 
 1. 「**[!UICONTROL 保存してレビュー]**」をクリックします。新しいサービスが&#x200B;**[!UICONTROL 購読サービス]**&#x200B;リストに追加されました。
 
+1. また、このサービスに関連付けられたデフォルトの購読ページと購読解除ランディングページを選択することもできます。
+
+   >[!AVAILABILITY]
+   >
+   >この機能は、限定提供（LA）で提供されています。 移行するお客様に限定されます。 **Adobe Campaign StandardからAdobe Campaign v8 へ**、および他の環境にデプロイすることはできません。
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   完了した後、 [リンクの挿入](../email/message-tracking.md) メールで、次を選択します **[!UICONTROL 購読リンク]** または **[!UICONTROL 購読解除リンク]**. そのリンクをクリックすると、サービスで参照される購読または購読解除ランディングページにユーザーが移動します。 <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. 変更を保存してレビューします。
+
 次が可能になりました。
 
-* このサービスにサブスクライバーを追加し、プロファイルを登録解除します。[詳細情報](../msg/send-to-subscribers.md)
+* このサービスへのサブスクライバーの手動追加と、プロファイルの登録解除。 [詳細情報](../audience/manage-subscribers.md)
+
+* ランディングページからこのサービスを購読するように顧客を招待します。 [詳細情報](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * このサービスのサブスクライバーにメッセージを送信します。[詳細情報](../msg/send-to-subscribers.md)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
-workflow-type: ht
-source-wordcount: '855'
-ht-degree: 100%
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="空のトランジションをスキップ"
->abstract="空のトランジションをスキップします。"
+>abstract="を切り替え **[!UICONTROL 空のトランジションをスキップ]** オプション オンを選択すると、入力母集団が空の場合に、このサブセットの出力トランジションが無効になります。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -85,6 +85,8 @@ ht-degree: 100%
    1. サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、クエリモデラーを使用して目的のフィルタリングルールを設定します。例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。[詳しくは、クエリモデラーの操作方法を参照してください。](../../query/query-modeler-overview.md)
 
    1. サブセットで選択するプロファイル数を制限するには、「**[!UICONTROL 制限を有効にする]**」オプションの切替スイッチをオンにし、含める母集団の数または割合を指定します。
+
+   1. 入力母集団が空の場合にトランジションを無効にするには、 **[!UICONTROL 空のトランジションをスキップ]** オプションをオンにします。 サブセットに一致するプロファイルがない場合、ワークフローは次のアクティビティに移行しません。
 
       ![](../assets/workflow-split-subset.png)
 
