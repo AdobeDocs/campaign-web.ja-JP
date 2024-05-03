@@ -2,18 +2,25 @@
 audience: end-user
 title: 「増分処理クエリ」ワークフローアクティビティを使用
 description: 「増分処理クエリ」ワークフローアクティビティの使用方法を説明します
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 25%
+source-wordcount: '786'
+ht-degree: 26%
 
 ---
 
-# 増分処理クエリ {#incremental-query}
+# 増分クエリ {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="「増分処理クエリ」アクティビティ"
+>abstract="新しい「増分処理クエリ」アクティビティを使用すると、スケジュールに従ってデータベースに対してクエリを実行できます。 このアクティビティが実行されるたびに、以前の実行結果が除外されます。これにより、新しい要素だけをターゲットにすることができます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
->title="増分処理クエリ"
+>title="増分クエリ"
 >abstract="この **増分クエリ** アクティビティはです **ターゲティング** クエリモデラーを使用してデータベースに対してクエリを実行できるアクティビティ。 このアクティビティが実行されるたびに、以前の実行結果が除外されます。これにより、新しい要素だけをターゲットにすることができます。"
 
 >[!CONTEXTUALHELP]
