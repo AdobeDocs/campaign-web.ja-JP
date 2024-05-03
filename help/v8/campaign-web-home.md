@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 82%
 
 ---
 
@@ -51,27 +51,23 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
->[!TAB 3月リリースが公開されました。]
+>[!TAB 4 月リリースが公開されました。]
 
-Adobe Campaign web ユーザーインターフェイス 24.3 リリースの新機能と改善点について説明します。
+Adobe Campaign web ユーザーインターフェイス 24.4 リリースの新機能と改善点について説明します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB ダイレクトメールチャネル]
+>[!TAB 新しいワークフローアクティビティ]
 
-**ダイレクトメール**&#x200B;チャネルがワークフロー内およびスタンドアロン配信として使用できるようになりました。ダイレクトメールは、抽出ファイルを作成、カスタマイズ、生成し、ダイレクトメールプロバイダーと共有して顧客にメールを送信できるオフラインチャネルです。
+このリリースには、次のワークフローアクティビティが付属しています：更新データ、購読サービス、ファイルを抽出、ファイルを転送、テスト、JavaScript コード、外部シグナル、増分クエリ。
 
-![画像](assets/do-not-localize/direct-mail.gif)
+[![画像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![画像](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB リッチなプッシュ通知]
 
->[!TAB 新しい「データソースを変更」ワークフローアクティビティ]
+Android を介してリッチなプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。
 
-「**データソースを変更**」ターゲティングアクティビティを使用すると、ワークフローの作業用テーブルで使用するデータソースを変更できます。このアクティビティによって、様々なデータベース間でデータを管理できるようになり、パフォーマンスが向上するため、柔軟性が高まります。
-
-![画像](assets/do-not-localize/change-data-source.gif)
-
-[![画像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![画像](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
@@ -111,7 +107,7 @@ Adobe Campaign web ユーザーインターフェイス 24.3 リリースの新�
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>基本を学ぶ</strong><br/><a href="get-started/user-interface.md">ユーザーインターフェイス</a> - <a href="get-started/connect-to-campaign.md">Campaign への接続</a> - <a href="get-started/using-ai.md">AI を活用したコンテキストヘルプ</a> - <a href="get-started/permissions.md">アクセスと権限</a>
+      <strong>基本を学ぶ</strong><br/><a href="get-started/user-interface.md">ユーザーインターフェイス</a> - <a href="get-started/connect-to-campaign.md">Campaign への接続</a> - <a href="get-started/permissions.md">アクセスと権限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
