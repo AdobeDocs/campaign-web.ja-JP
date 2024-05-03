@@ -3,9 +3,9 @@ audience: end-user
 title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの操作方法を学ぶ
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '685'
 ht-degree: 38%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 38%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="ファイルを抽出およびファイルを読み込みアクティビティ"
+>title="ファイルの抽出と読み込みアクティビティ"
 >abstract="新しいデータ管理アクティビティは、ワークフローで使用できます。 ファイルを抽出アクティビティを使用すると、Adobe Campaignから別のシステムに外部ファイルとしてデータをエクスポートできます。 ファイルを読み込みアクティビティを使用すると、外部ファイルに保存されたプロファイルとデータを操作できます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
 
