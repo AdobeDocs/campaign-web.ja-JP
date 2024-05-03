@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 98%
+source-wordcount: '684'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 98%
       + [最初のメールを作成](email/create-email.md)
       + メールコンテンツを定義 {#content}
          + [メールコンテンツを設定](email/edit-content.md)
-         + [コンテンツテンプレートの操作](email/create-email-templates.md)
+         + 再利用可能なコンテンツの管理 {#manage-reusable-content}
+            + [コンテンツテンプレートの操作](email/create-email-templates.md)
+            + [フラグメントの操作](email/fragments.md)
+            + [メールへのビジュアルフラグメントの追加](email/use-visual-fragments.md)
          + メールの作成を開始 {#start-design}
             + [メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
             + [ゼロから開始](email/create-email-content.md)

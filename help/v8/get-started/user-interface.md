@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1644'
 ht-degree: 99%
 
 ---
@@ -197,40 +197,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="受信者のオファーのプレビュー"
 >abstract="受信者のオファーのプレビュー"
 
->[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="フラグメント"
->abstract="フラグメント"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_save"
->title="フラグメントの保存"
->abstract="フラグメントの保存"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_create"
->title="フラグメントの作成"
->abstract="フラグメントの作成"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_properties"
->title="フラグメントのプロパティ"
->abstract="フラグメントのプロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_type"
->title="フラグメントの種類"
->abstract="フラグメントの種類"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_list"
->title="フラグメントリスト"
->abstract="フラグメントリスト"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_details"
->title="フラグメントの詳細"
->abstract="フラグメントの詳細"
 
 
 
