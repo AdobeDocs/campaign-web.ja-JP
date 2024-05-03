@@ -1,16 +1,17 @@
 ---
 audience: end-user
-title: フラグメントの操作
-description: フラグメントの使用方法を学ぶ
+title: コンテンツフラグメントの作成
+description: コンテンツフラグメントを使用してを作成する方法を学ぶ
 hidefromtoc: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hide: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '843'
 ht-degree: 4%
 
 ---
 
-# フラグメントの操作 {#fragments}
+# コンテンツフラグメントの作成 {#fragments}
 
 
 >[!CONTEXTUALHELP]

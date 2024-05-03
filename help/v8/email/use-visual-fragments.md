@@ -3,7 +3,8 @@ audience: end-user
 title: メールへのビジュアルフラグメントの追加
 description: ビジュアルフラグメントをメールに追加する方法を学ぶ
 hide: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hidefromtoc: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 1%
