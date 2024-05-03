@@ -3,9 +3,9 @@ audience: end-user
 title: フラグメントの操作
 description: フラグメントの使用方法を学ぶ
 hidefromtoc: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '842'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 4%
 フラグメントを最大限に活用するには：
 
 * 以下に説明するように、独自のビジュアルフラグメントを作成します。
-* 電子メールデザイナーを使用して、コンテンツで必要な回数だけ使用します。 参照： [ビジュアルフラグメントを追加](../email/use-visual-fragments.md)
+* 電子メールデザイナーを使用して、コンテンツで必要な回数だけ使用します。 参照： [メールへのビジュアルフラグメントの追加](../email/use-visual-fragments.md).
 
 ## ビジュアルフラグメントの作成 {#create-fragments}
 
@@ -102,8 +102,6 @@ ht-degree: 4%
    ![](assets/fragment-designer.png)
 
 1. フラグメントの準備が整ったら、 **[!UICONTROL 保存して閉じる]**. 「」に追加されます [フラグメントリスト](#access-manage-fragments).
-
-1. 必要に応じて、フラグメント名の横にある矢印をクリックして、 **[!UICONTROL 詳細]** 画面を表示して編集します。
 
 このフラグメントは、を作成するときに使用できるようになりました [電子メール](../email/get-started-email-designer.md) または [コンテンツテンプレート](use-email-templates.md) キャンペーン内。 [詳細情報](../email/use-visual-fragments.md)
 

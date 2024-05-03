@@ -3,17 +3,16 @@ audience: end-user
 title: メールへのビジュアルフラグメントの追加
 description: ビジュアルフラグメントをメールに追加する方法を学ぶ
 hide: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
 
 # メールへのビジュアルフラグメントの追加 {#use-visual-fragments}
 
-ビジュアルフラグメントは、 [メール配信](get-started-email-designer.md)、またはに含まれる [コンテンツテンプレート](use-email-templates.md).
-
+ビジュアルフラグメントは、 [メール配信](get-started-email-designer.md)、またはに含まれる [コンテンツテンプレート](use-email-templates.md). 手順は以下で説明します。
 
 
 >[!NOTE]
