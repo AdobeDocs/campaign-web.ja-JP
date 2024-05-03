@@ -2,9 +2,9 @@
 title: 最新のリリースノート
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1137'
 ht-degree: 25%
 
 ---
@@ -17,7 +17,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 ## 4 月のリリースノート {#april-24-4-release}
 
-**リリース日**:2024 年 4 月 30 日（Pt）
+**リリース日**: 2024 年 5 月 2 日（PT）
 
 ### 新機能 {#new-24-4}
 
@@ -31,7 +31,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 * **ファイルを転送**  – このアクティビティを使用して、ファイルの送受信、ファイルの有無の確認、サーバー上のファイルの一覧表示を行います。 使用されるプロトコルは、サーバー間プロトコルまたは HTTP プロトコルのいずれかです。 [詳細情報](../workflows/activities/transfer-file.md)
 * **テスト**  – このアクティビティを使用すると、指定した条件に基づいたトランジションを有効にできます。 [詳細情報](../workflows/activities/test.md)
 * **JavaScript コード**  – このアクティビティを使用すると、ワークフローのコンテキストで JavaScript コードスニペットを実行できます。 [詳細情報](../workflows/activities/javascript-code.md)
-* **外部シグナル**  – このアクティビティを使用すると、別のワークフロー、または API 呼び出しからのワークフローの実行をトリガーできます。 [詳細情報](../workflows/activities/external-signal.md)
+* **外部シグナル**  – このアクティビティを使用すると、別のワークフローからのワークフローの実行や、API 呼び出しをトリガーできます。 [詳細情報](../workflows/activities/external-signal.md)
 * **増分クエリ**  – このアクティビティを使用して、スケジュールに従ってデータベースに対してクエリを実行します。 このアクティビティが実行されるたびに、以前の実行結果が除外されます。これにより、新しい要素のみをターゲットにすることができます。 [詳細情報](../workflows/activities/incremental-query.md)
 
 **リッチなプッシュ通知テンプレート**
@@ -60,8 +60,6 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **動的レポート** -Campaign Standardが移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。 プロファイルデータへのアクセスを追加し、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別の人口統計学的分析を可能にします。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **ファイル読み込みアクティビティの改善**  – が **ファイルをロード** アクティビティが強化され、いくつかの節が追加されました。これにより、サンプルファイルのアップロード、エラーと却下の管理、アクティビティの実行後にアップロードしたファイルの削除をおこなえるようになりました。 [詳細情報](../workflows/activities/load-file.md)
-
 * **ランディングページ** - ランディングページの次の機能強化は、Campaign Standardから移行するユーザーのみが使用できます：
 
    * サービスの設定時に、デフォルトの購読/購読解除ランディングページを参照できるようになりました。 メールをデザインする際に、そのランディングページへのリンクを定義すると、ランディングページフォームを送信したユーザーは、このサービスに自動的に登録または登録解除されます。 [詳細情報](../audience/manage-services.md#create-service)
@@ -75,11 +73,14 @@ The Audit trail feature constantly records a detailed log of actions and events 
 以下の機能強化は、4 月のリリース以降、すべてのお客様が利用できます。
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* 異なるブラウザータブから、ワークフロー間でアクティビティをコピー/貼り付けできるようになりました。 [詳細情報](../workflows/orchestrate-activities.md#copy-activities-copy)
+* この **ファイルをロード** アクティビティが強化され、いくつかの節が追加されました。これにより、サンプルファイルのアップロード、エラーと却下の管理、アクティビティの実行後にアップロードしたファイルの削除をおこなえるようになりました。 [詳細情報](../workflows/activities/load-file.md)
+
+
+* これで、 **アクティビティのコピー/貼り付け** 異なるブラウザータブから別のワークフローに。 [詳細情報](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* すべてのワークフローアクティビティで、実行オプションを管理できるようになりました。 これにより、アクティビティの実行モードと、エラーが発生した場合の動作を定義できます。 [詳細情報](../workflows/orchestrate-activities.md#execution-options-execution)
+* すべてのワークフローアクティビティで、ワークフローの **実行オプション**. これにより、アクティビティの実行モードと、エラーが発生した場合の動作を定義できます。 [詳細情報](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -87,7 +88,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 <!--* **Support of custom fields**-->
 
-* カスタムフィールドは、Adobe Campaign コンソールを通じて標準スキーマに追加される追加の属性です。 Campaign web ユーザーインターフェイスでは、これらのカスタムフィールドは、プロファイルやテストプロファイルの詳細など、様々な画面に表示されるようになりました。 Web ユーザーインターフェイスではカスタムフィールドを作成できませんが、表示方法を変更できるようになりました。 [詳細情報](../administration/custom-fields.md)
+* **カスタムフィールド** は、Adobe Campaign コンソールを使用して標準のスキーマに追加された追加の属性です。 Campaign web ユーザーインターフェイスでは、これらのカスタムフィールドは、プロファイルやテストプロファイルの詳細など、様々な画面に表示されるようになりました。 Web ユーザーインターフェイスではカスタムフィールドを作成できませんが、表示方法を変更できるようになりました。 [詳細情報](../administration/custom-fields.md)
 
 
 ## 3月リリースノート {#24-3-release}
