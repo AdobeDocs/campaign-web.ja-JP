@@ -2,9 +2,9 @@
 audience: end-user
 title: Campaign StandardからAdobe Campaign Web への移行
 description: Campaign web ユーザーインターフェイスの確認
-source-git-commit: 4c1f68f0e89b2b84b8845b2759ef3b0dc9b12033
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '588'
 ht-degree: 7%
 
 ---
@@ -40,7 +40,6 @@ Campaign v8 が提供する主な機能を詳しく見てみましょう。
 * 新しいデザインのキャンペーンワークフローアクティビティ。 [詳細情報](../workflows/gs-workflows.md)
 * クエリモデラーを使用したターゲットオーディエンス。 [詳細情報](../query/query-modeler-overview.md)
 * プロファイルの作成と管理が容易です。 [詳細情報](../audience/about-recipients.md)
-* AI を活用したコンテキストヘルプ。 [詳細情報](../get-started/using-ai.md)
 * 定義済みフィルター。 [詳細情報](../get-started/predefined-filters.md)
 * メールデザイン用のHTMLコンバーター。 [詳細情報](../email/existing-content.md)
 * オファー付き SMS。 [詳細情報](../msg/offers.md)

@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1670'
 ht-degree: 99%
 
 ---
@@ -113,19 +113,20 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
 * **レポート** - **レポート**&#x200B;エントリでは、Campaign 環境内の各チャネルのトラフィックとエンゲージメント指標の統合された全体的な概要が提供されます。これらのレポートは様々なウィジェットで構成され、それぞれがキャンペーンや配信パフォーマンスに関する明確な観点を提供します。詳しくは、[こちら](../reporting/global-reports.md)を参照してください。
 
+<!--
+## Contextual Help {#user-interface-help} 
 
-## コンテキストヘルプ {#user-interface-help}
+A contextual help is available in the interface. When available, click on the `?` icon to display help information and related documentation links. 
 
-コンテキストヘルプは、インターフェイスで利用できます。使用可能な場合は、「`?`」アイコンをクリックすると、ヘルプ情報や関連ドキュメントのリンクが表示されます。
+![](assets/do-not-localize/context-help.png){zoomable="yes"}{width="40%" align="left"}
 
-![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
+Currently released as a Beta version within the new Campaign Web user interface, the **AI-powered Knowledge Assistant** embedded within contextual help revolutionizes documentation searching and answering how-to questions with effortlessly sifting through vast documentation repositories, instantly pinpointing the precise information you need.
 
-現在、新しい Campaign web ユーザーインターフェイス内のベータ版としてリリースされている、コンテキストヘルプに組み込まれた **AI を活用したナレッジアシスタント**&#x200B;は、膨大なドキュメントリポジトリを簡単に検索して、必要な正確な情報を即座に特定できるので、ドキュメントの検索と操作方法に関する質問への回答に大変革をもたらします。
+Thanks to Campaign Gen AI's capabilities, this assistant transforms your experience, making information retrieval and problem-solving a breeze. Whether you're seeking guidance in a complex task or navigating extensive documents, our AI-powered Knowledge Assistant is your ultimate companion, providing unmatched efficiency and accuracy in every interaction.
 
-Campaign 生成 AI の機能により、このアシスタントでユーザーのエクスペリエンスが変革され、情報の検索と問題解決を簡単に行うことができます。複雑なタスクでガイダンスを求めている場合でも、膨大なドキュメントから必要な情報を探している場合でも、AI を活用したアドビのナレッジアシスタントは究極のコンパニオンとなり、あらゆるインタラクションにおいて比類のない効率性と正確さを提供します。
+Learn more in [this section](using-ai.md).
 
-詳しくは、[こちら](using-ai.md)を参照してください。
-
+-->
 
 ## 詳細情報 {#learn-more}
 

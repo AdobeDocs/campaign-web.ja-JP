@@ -2,9 +2,9 @@
 title: Adobe Campaign Web インターフェイスに接続
 description: Adobe Campaign Web ユーザーインターフェイスに接続する方法について説明します
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
@@ -89,11 +89,12 @@ Campaign web のデフォルト言語は、ユーザープロファイルで指�
 1. 次に、メールアドレスの下に表示されている言語リンクをクリックします。
 1. 優先言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
 
+<!--
 >[!CAUTION]
 >
->[AI を活用したコンテキストヘルプ](using-ai.md)機能を使用する場合は、優先言語を英語に設定する必要があります。他の言語はサポートされていません。
+>If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
 >
-
+-->
 
 ## ダークテーマとライトテーマ {#dark-theme}
 

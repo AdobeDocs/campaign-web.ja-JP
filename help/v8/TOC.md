@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
    + [新機能](rn/whats-new.md)
    + [最新リリース](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
-   + [Campaign v8 へのCampaign Standardの移行](rn/acs-migration.md)
+   + [Campaign Standardから v8 へ](rn/acs-migration.md)
 + Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
@@ -28,7 +28,7 @@ ht-degree: 98%
    + [リストの参照とフィルタリング](get-started/list-filters.md)
    + [定義済みフィルターの操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
-   + [Campaign web および Campaign クライアントコンソール](get-started/capability-matrix.md)
+   + [Campaign web およびクライアントコンソール](get-started/capability-matrix.md)
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
