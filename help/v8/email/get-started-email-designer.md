@@ -3,20 +3,15 @@ audience: end-user
 title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスのメールデザイナーを使用して、コンテンツ作成を開始する方法を学ぶ
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
-workflow-type: ht
-source-wordcount: '427'
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+workflow-type: tm+mt
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
 
-# メールデザイナーの基本を学ぶ {#get-started-email-designer}
+# E メールデザイナーの基本を学ぶ {#get-started-email-designer}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="新しいメールデザイナー"
->abstract="Campaign メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個別にカスタマイズされた魅力的なメールを作成できます。空白の状態から開始する場合でも、既存のコンテンツを読み込む場合でも、既存のテンプレートを活用する場合でも、あらゆるメールコンテンツのデザインと強化に対応します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="詳しくは、リリースノートを参照してください。"
 
 Adobe Campaign でメールを作成したら、そのコンテンツを定義する必要があります。
 

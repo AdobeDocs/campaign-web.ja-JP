@@ -3,20 +3,14 @@ audience: end-user
 title: オーディエンスの作成
 description: Adobe Campaign Web でオーディエンスを作成する方法について説明します
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '879'
 ht-degree: 100%
 
 ---
 
 # オーディエンスの作成 {#create-audiences}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="オーディエンスコンポジション"
->abstract="ビジュアルワークフローキャンバスに、新しいオーディエンスを作成します。ゼロから始めてシンプルなオーディエンスを作成する以外に、ワークフローアクティビティを活用してオーディエンスを絞り込むこともできます。複数のオーディエンスを組み合わせて 1 つのオーディエンスにしたり、オーディエンスを外部属性でエンリッチメントしたり、選択したルールに基づいて 1 つのオーディエンスを複数のオーディエンスに分割したりします。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
