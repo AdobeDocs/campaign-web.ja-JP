@@ -4,9 +4,10 @@ title: コンテンツフラグメントの作成
 description: コンテンツフラグメントを使用してを作成する方法を学ぶ
 hidefromtoc: true
 hide: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
+source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '870'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="独自のフラグメントの定義"
->abstract="フラグメントは、キャンペーン全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。"
+>abstract="フラグメントは、キャンペーン全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。 この機能を使用すると、マーケティングユーザーが改善されたデザインプロセスでメールコンテンツを迅速に組み立てるために使用できる複数のカスタムコンテンツブロックを事前に作成できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
