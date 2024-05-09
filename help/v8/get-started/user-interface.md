@@ -373,8 +373,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_dashboard_create"
->title="配信アラートダッシュボードの作成"
->abstract="配信アラートダッシュボードの作成"
+>title="配信アラートダッシュボードを作成"
+>abstract="配信アラートダッシュボードを作成"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
