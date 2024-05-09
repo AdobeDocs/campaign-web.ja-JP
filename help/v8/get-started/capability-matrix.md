@@ -4,9 +4,9 @@ title: Campaign web ユーザーインターフェイス／クライアントコ
 description: Campaign web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2141'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -167,7 +167,7 @@ Adobe Campaign には、外部システムと接続する事前定義済みの�
 
 >[!NOTE]
 >
->これらのアクティビティの一部はクライアントコンソールでのみ使用できますが、「**エンリッチメント**」アクティビティ、「**ファイルを読み込み**」アクティビティ、「**データソースを変更**」アクティビティ、「**ディメンションを変更**」アクティビティなどの一部は、Campaign web ユーザーインターフェイスで使用できます。[Campaign web ユーザーインターフェイスでのターゲティングとデータ管理のアクティビティについて詳しく説明します](../workflows/activities/about-activities.md#targeting)
+>これらのアクティビティの一部はクライアントコンソールでのみ使用できますが、「**エンリッチメント**」アクティビティ、「**ファイルを読み込み**」アクティビティ、「**データソースを変更**」アクティビティ、「**ディメンションを変更**」アクティビティなどの一部は、Campaign web ユーザーインターフェイスで使用できます。[詳しくは、Campaign web ユーザーインターフェイスでのターゲティングとデータ管理のアクティビティを参照してください](../workflows/activities/about-activities.md#targeting)
 
 ### Federated Data Access の設定 {#fda}
 

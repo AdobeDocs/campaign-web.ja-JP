@@ -4,9 +4,9 @@ title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ Campaign Web ユーザーインターフェイスでは、ユーザーインタ�
 
 サポートされている機能とサポートされていない機能や、Campaign web ユーザーインターフェイスと Campaign クライアントコンソール間の相互運用性について詳しくは、[このページ](../get-started/capability-matrix.md)を参照してください。
 
-Campaign v8 に移行するCampaign Standardユーザーの場合、 [このページを参照してください。](../rn/acs-migration.md).
+Campaign Standard ユーザーが Campaign v8 に移行する場合は、[このページを参照してください](../rn/acs-migration.md)。
 
 ## 用語の更新 {#terminology-updates}
 

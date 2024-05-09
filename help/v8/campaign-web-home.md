@@ -4,9 +4,9 @@ description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
->[!TAB 4 月リリースが公開されました。]
+>[!TAB 4月リリースが公開されました。]
 
 Adobe Campaign web ユーザーインターフェイス 24.4 リリースの新機能と改善点について説明します。
 
@@ -59,13 +59,13 @@ Adobe Campaign web ユーザーインターフェイス 24.4 リリースの新�
 
 >[!TAB 新しいワークフローアクティビティ]
 
-このリリースには、次のワークフローアクティビティが付属しています：更新データ、購読サービス、ファイルを抽出、ファイルを転送、テスト、JavaScript コード、外部シグナル、増分クエリ。
+このリリースには、データを更新、購読サービス、ファイルを抽出、ファイルを転送、テスト、JavaScript コード、外部シグナル、増分クエリなどのワークフローアクティビティが含まれています。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB リッチなプッシュ通知]
+>[!TAB リッチプッシュ通知]
 
-Android を介してリッチなプッシュ通知を送信できるようになりました。 リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。
+Android 経由でリッチプッシュ通知を送信できるようになりました。リッチプッシュ通知は、画像、インタラクティブボタンまたはその他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージを超えたモバイル通知の拡張形式です。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
@@ -106,8 +106,8 @@ Android を介してリッチなプッシュ通知を送信できるようにな
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
-    <br/>
-      <strong>基本を学ぶ</strong><br/><a href="get-started/user-interface.md">ユーザーインターフェイス</a> - <a href="get-started/connect-to-campaign.md">Campaign への接続</a> - <a href="get-started/permissions.md">アクセスと権限</a>
+    <br/>
+      <strong>基本を学ぶ</strong><br/><a href="get-started/user-interface.md">ユーザーインターフェイス</a> - <a href="get-started/connect-to-campaign.md">Campaign への接続</a> - <a href="get-started/permissions.md">アクセスと権限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
