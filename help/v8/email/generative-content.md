@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 94%
@@ -28,7 +28,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#guardrails-and-limitations)のトピックに目を通してください。
+>この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 
 メールを作成してパーソナライズしたら、生成 AI を利用した Campaign の AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。
 

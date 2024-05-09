@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 94%
@@ -30,7 +30,7 @@ AI アシスタントを使用すると、オーディエンスの共感を呼�
 
 >[!NOTE]
 >
->この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#guardrails-and-limitations)のトピックに目を通してください。
+>この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 
 次の例では、AI アシスタントを活用して説得力のあるメッセージを作成し、魅力的な顧客体験を作成します。
 
