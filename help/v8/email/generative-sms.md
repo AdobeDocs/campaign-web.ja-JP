@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 94%
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 * [AI アシスタントの基本を学ぶ](generative-gs.md)
 * [AI アシスタントを使用したメールの生成](generative-content.md)
-* **[AI アシスタントを使用した SMS の生成](generative-sms.md)**
+* AI アシスタントを使用した SMS の生成
 * [AI アシスタントを使用したプッシュ通知の生成](generative-push.md)
 
 >[!ENDSHADEBOX]

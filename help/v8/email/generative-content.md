@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: e94f76ef9a90c98c67de29ce8f6b428f18bfc44b
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 95%
+source-wordcount: '1369'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 **目次**
 
 * [AI アシスタントの基本を学ぶ](generative-gs.md)
-* **[AI アシスタントを使用したメールの生成](generative-content.md)**
+* AI アシスタントを使用したメールの生成
 * [AI アシスタントを使用した SMS の生成](generative-sms.md)
 * [AI アシスタントを使用したプッシュ通知の生成](generative-push.md)
 
@@ -216,10 +216,10 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
 
 >[!ENDTABS]
 
-<!--
-## How-to video {#video}
 
-Learn how to use the AI assistant to generate full email, text or images.
+## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
--->
+AI アシスタントを使用して、完全なメールコンテンツ、テキスト、画像を生成する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428984)
+

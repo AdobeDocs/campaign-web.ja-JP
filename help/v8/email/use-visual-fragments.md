@@ -4,7 +4,8 @@ title: メールへのビジュアルフラグメントの追加
 description: ビジュアルフラグメントをメールに追加する方法を学ぶ
 hide: true
 hidefromtoc: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 1%
@@ -52,9 +53,10 @@ ht-degree: 1%
    から **[!UICONTROL 設定]** タブでは、次の操作を実行できます。
 
    * フラグメントを表示するデバイスを選択します。
-   * 必要に応じて、新しいタブでフラグメントを開いて編集します。 [詳細情報](../email/fragments.md#edit-fragments)
+   * 
+      1. 「」をクリックします **コンテンツを編集** ボタンをクリックして、このフラグメントのコンテンツを開きます。 [詳細情報](../email/fragments.md#edit-fragments)
 
-   次を使用して、フラグメントをさらにカスタマイズできます **[!UICONTROL スタイル]** タブ。
+     次を使用して、フラグメントをさらにカスタマイズできます **[!UICONTROL スタイル]** タブ。
 
 1. 必要に応じて、元のフラグメントの継承を解除できます。 [詳細情報](#break-inheritance)
 また、コンテンツからフラグメントを削除したり、複製したりすることもできます。 これらのアクションは、フラグメントの上部に表示されるコンテキストメニューから直接実行できます。

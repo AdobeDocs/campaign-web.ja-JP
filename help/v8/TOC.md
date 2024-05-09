@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 96%
+source-wordcount: '685'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
    + [新機能](rn/whats-new.md)
    + [最新リリース](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
-   + [Campaign Standardから v8 へ](rn/acs-migration.md)
+   + [Campaign Standard から v8 へ](rn/acs-migration.md)
 + Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
@@ -40,7 +40,7 @@ ht-degree: 96%
          + [メールコンテンツを設定](email/edit-content.md)
          + 再利用可能なコンテンツの管理 {#manage-reusable-content}
             + [コンテンツテンプレートの操作](email/create-email-templates.md)
-            + [フラグメントの操作](email/fragments.md)
+            + [ビジュアルフラグメントの操作](email/fragments.md)
             + [メールへのビジュアルフラグメントの追加](email/use-visual-fragments.md)
          + メールの作成を開始 {#start-design}
             + [メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
