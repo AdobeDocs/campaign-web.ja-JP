@@ -4,9 +4,9 @@ title: リッチプッシュ通知配信の設計
 description: Adobe Campaign web を使用した Android のリッチプッシュ通知配信の設計方法について説明します。
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1424'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 >[!AVAILABILITY]
 >
->これは、 **限定提供（LA）** （LA）
+>この機能は、**限定提供**（LA）です。
 
 Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
 

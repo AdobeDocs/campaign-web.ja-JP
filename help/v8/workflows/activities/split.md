@@ -4,9 +4,9 @@ title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: 575219c7bcef303e211f504d13227183933924cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="空のトランジションをスキップ"
->abstract="を切り替え **[!UICONTROL 空のトランジションをスキップ]** オプション オンを選択すると、入力母集団が空の場合に、このサブセットの出力トランジションが無効になります。"
+>abstract="「**[!UICONTROL 空のトランジションをスキップ]**」オプションをオンに切り替えて、入力母集団が空の場合にこのサブセットの出力トランジションを無効にします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -86,7 +86,7 @@ ht-degree: 94%
 
    1. サブセットで選択するプロファイル数を制限するには、「**[!UICONTROL 制限を有効にする]**」オプションの切替スイッチをオンにし、含める母集団の数または割合を指定します。
 
-   1. 入力母集団が空の場合にトランジションを無効にするには、 **[!UICONTROL 空のトランジションをスキップ]** オプションをオンにします。 サブセットに一致するプロファイルがない場合、ワークフローは次のアクティビティに移行しません。
+   1. 入力母集団が空の場合にトランジションを無効にするには、「**[!UICONTROL 空のトランジションをスキップ]**」オプションをオンに切り替えます。サブセットに一致するプロファイルがない場合、ワークフローは次のアクティビティに移行しません。
 
       ![](../assets/workflow-split-subset.png)
 

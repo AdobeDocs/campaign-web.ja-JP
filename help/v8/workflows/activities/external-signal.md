@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: 外部シグナル アクティビティの使用
-description: 外部シグナル ワークフローアクティビティの使用方法を学ぶ
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
-workflow-type: tm+mt
+description: 外部シグナルワークフローアクティビティの使用方法を学ぶ
+exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+workflow-type: ht
 source-wordcount: '354'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="外部シグナル"
->abstract="この **外部シグナル** アクティビティを使用すると、別のワークフローまたは API 呼び出しからワークフローの実行をトリガーできます。"
+>abstract="**外部シグナル** アクティビティでは、別のワークフローまたは API 呼び出しからワークフローの実行をトリガーできます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -28,43 +29,43 @@ ht-degree: 5%
 >title="トリガーを終了"
 >abstract="トリガーを終了"
 
-この **外部シグナル** アクティビティはです **フロー制御** アクティビティ。 別のワークフローまたは API 呼び出しからワークフローの実行をトリガーできます。
+**外部シグナル**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティであり、別のワークフローまたは API 呼び出しからワークフローの実行をトリガーできます。
 
 >[!NOTE]
 >
->ここでは、を設定するための主な手順を示します **[!UICONTROL 外部シグナル]** campaign web ユーザーインターフェイスのアクティビティと、別のワークフローまたは API 呼び出しからトリガーします。 ワークフローとそのベストプラクティスをトリガーする方法、および Campaign API を使用する方法について詳しくは、を参照してください。 [Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
+>ここでは、Campaign Web ユーザーインターフェイスで&#x200B;**[!UICONTROL 外部シグナル]**&#x200B;を設定し、別のワークフローまたは API 呼び出しからトリガーするための主な手順を見ていきます。ワークフローをトリガーする方法とそのベストプラクティス、および Campaign API で使用する方法について詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)を参照してください。
 
-次の手順に従って、 **外部シグナル** アクティビティと、その実行をトリガーします。
+次の手順に従って、**外部シグナル**&#x200B;アクティビティを設定し、その実行をトリガーします。
 
-1. を追加 **外部シグナル** ワークフローへのアクティビティ。
+1. ワークフローに&#x200B;**外部シグナル**&#x200B;アクティビティを追加します。
 
-1. ワークフローの設定を完了し、実行を開始します。 この **[!UICONTROL 外部シグナル]** アクティビティは「保留中」と表示され、トリガーされるのを待っています。
+1. ワークフローの設定を完了し、実行を開始します。トリガーされるのを待機している&#x200B;**[!UICONTROL 外部シグナル]**&#x200B;アクティビティには「保留中」と表示されます。
 
    ![](../assets/external-signal-pending.png)
 
 1. 以下の情報を取得します。
 
-   * この **ワークフローの内部名**。ラベルの横に表示されます。
+   * ラベルの横に表示される&#x200B;**ワークフローの内部名**。
 
-     +++例を表示
+     +++例の表示
 
      ![](../assets/external-signal-workflow-name.png)
 
 +++
 
-   * この **外部シグナルアクティビティの名前**。ワークフローのに表示されます。 **[!UICONTROL 実行オプション]**.
+   * ワークフローの&#x200B;**[!UICONTROL 実行オプション]**&#x200B;に表示される&#x200B;**外部シグナルアクティビティの名前**。
 
-     +++例を表示
+     +++例の表示
 
      ![](../assets/external-signal-name.png)
 
 +++
 
-1. ワークフローをトリガーするには、 `PostEvent` JavaScript 関数 この関数を使用すると、選択した値で変数を渡し、それらをトリガーワークフローで活用できます。
+1. ワークフローをトリガーするには、`PostEvent` JavaScript 関数を実行する必要があります。この関数を使用すると、選択した値で変数を渡し、それらをトリガーされたワークフローで活用できます。
 
-   この `PostEvent` 関数は、別のワークフローまたは API 呼び出しから実行できます。
+   `PostEvent` 関数は、別のワークフローまたは API 呼び出しから実行できます。
 
-   * をトリガーにするには **[!UICONTROL 外部シグナル]** ワークフローからのアクティビティで、から PostEvent 関数を実行する **[!UICONTROL 初期化スクリプト]** アクティビティのからアクセスできるパネル **[!UICONTROL 実行オプション]**. の場合 **[!UICONTROL JavaScript コード]** アクティビティの場合は、アクティビティのスクリプトから関数を実行します。
+   * **[!UICONTROL 外部シグナル]**&#x200B;アクティビティをワークフローからトリガーにするには、アクティビティの&#x200B;**[!UICONTROL 実行オプション]**&#x200B;からアクセスできる&#x200B;**[!UICONTROL 初期化スクリプト]**&#x200B;ペインで PostEvent 関数を実行します。**[!UICONTROL JavaScript コード]**&#x200B;アクティビティの場合は、アクティビティのスクリプトから関数を実行します。
 
      構文は以下のようになります。
 
@@ -72,12 +73,12 @@ ht-degree: 5%
      xtk.workflow.PostEvent("<workflow-internal-name>","<signal-activity-name>","",<variables <variable-name>="<value>"/>, false);
      ```
 
-   +++例を表示
+   +++例の表示
 
-   この例では、内部名が「WKF12345」のワークフローに追加された「signal1」外部シグナルアクティビティをトリガーしています。 また、「customID」という名前の変数を、値「123456」とともに渡します。
+   この例では、内部名が「WKF12345」のワークフローに追加された「signal1」外部シグナルアクティビティをトリガーします。また、「customID」という名前の変数を、値「123456」とともに渡します。
 
    ![](../assets/external-signal-sample.png)
 
 +++
 
-   * をトリガーにするには **[!UICONTROL 外部シグナル]** api 呼び出しからのアクティビティについては、Campaign API ドキュメントで説明されている手順に従ってください。 [静的なの使用方法を学ぶ `PostEvent` メソッド](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja)
+   * **[!UICONTROL 外部シグナル]**&#x200B;アクティビティを API 呼び出しからトリガーにするには、Campaign API ドキュメントで説明されている手順に従ってください。[静的な `PostEvent` メソッドの使用方法を学ぶ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja)

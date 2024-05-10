@@ -4,9 +4,9 @@ title: ワークフロー設定の指定
 description: Adobe Campaign Web でのワークフロー設定方法について説明します
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1067'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -106,5 +106,5 @@ ht-degree: 96%
 
 ## 初期化スクリプト {#initialization-script}
 
-この **初期化スクリプト** 変数を初期化したり、アクティビティのプロパティを変更したりできます。 「」をクリックします **コードを編集** ボタンをクリックし、実行するコードのスニペットを入力します。 スクリプトは、ワークフローの実行時に呼び出されます。 関連する節を参照してください。 [イベント変数](../workflows/event-variables.md).
+**初期化スクリプト**&#x200B;では、変数を初期化したり、アクティビティのプロパティを変更したりできます。「**コードを編集**」ボタンをクリックし、実行するコードのスニペットを入力します。スクリプトは、ワークフローの実行時に呼び出されます。詳しくは、[イベント変数](../workflows/event-variables.md)に関連する節を参照してください。
 

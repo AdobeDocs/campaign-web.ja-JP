@@ -4,9 +4,9 @@ title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '549'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -34,21 +34,21 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
      >[!AVAILABILITY]
      >
-     >次の機能（リンク先： **[!UICONTROL ランディングページ]**, **[!UICONTROL 購読リンク]** および **[!UICONTROL 購読解除リンク]**）は限定提供（LA）中です。 移行するお客様に限定されています **Adobe Campaign StandardからAdobe Campaign v8 へ**、および他の環境にデプロイすることはできません。
+     >次の機能（**[!UICONTROL ランディングページ]**、**[!UICONTROL 購読リンク]**&#x200B;および&#x200B;**[!UICONTROL 購読解除リンク]**）は限定提供（LA）中です。これらは、**Adobe Campaign Standard から Adobe Campaign v8** に移行する顧客に限定されており、他の環境にデプロイすることはできません。
 
-   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。 動的ランディングページを選択した場合（ **[!UICONTROL URL からのサービス]** オプション選択済み）。リストから任意のサービスを選択できます。 [詳細情報](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。動的ランディングページを選択した場合（**[!UICONTROL URL からのサービス]**&#x200B;オプションが選択されている場合）、リストから任意のサービスを選択できます。[詳細情報](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
      ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
 
-   * **[!UICONTROL 購読リンク]**：購読サービスへのリンクを挿入します。 ユーザーがリンクをクリックすると、選択したサービスで参照される購読ランディングページに移動します。 [詳細情報](../audience/manage-services.md#create-service)
+   * **[!UICONTROL 購読リンク]**：購読サービスへのリンクを挿入します。ユーザーがリンクをクリックすると、選択したサービスで参照される購読ランディングページに移動します。[詳細情報](../audience/manage-services.md#create-service)
 
      ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
 
-   * **[!UICONTROL 購読解除リンク]**：購読解除サービスへのリンクを挿入します。 購読者がリンクをクリックすると、選択したサービスで参照される購読解除ランディングページに移動します。 [詳細情報](../audience/manage-services.md#create-service)
+   * **[!UICONTROL 購読解除リンク]**：購読解除サービスへのリンクを挿入します。サブスクライバーがリンクをクリックすると、選択したサービスで参照される購読解除ランディングページに移動します。[詳細情報](../audience/manage-services.md#create-service)
 
    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
-1. 対応するフィールドに目的の URL を入力するか、ランディングページまたはサービスを選択して、リンク設定とスタイルを定義します。
+1. 対応するフィールドに目的の URL を入力するか、ランディングページまたはサービスを選択して、リンクの設定とスタイルを定義します。
 
 1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL リンク]**&#x200B;を追加します。
 
@@ -63,7 +63,7 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
 >[!NOTE]
 >
->マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL Marketing]** または **[!UICONTROL トランザクション]**）は、チャネルサーフェスレベルで、メッセージの作成時に定義されます。
+>マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）はチャネルサーフェスレベルでメッセージの作成時に定義されます。
 
 すべてのメールメッセージに、ミラーページへの特定のリンクを追加する必要があります。ミラーページについて詳しくは、[この節](mirror-page.md)を参照してください。
 

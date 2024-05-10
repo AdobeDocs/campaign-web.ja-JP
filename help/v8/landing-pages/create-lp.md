@@ -4,9 +4,9 @@ description: Campaign web でランディングページを設定して公開す
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1504'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="プリロードオプションの定義"
->abstract="「**フォームで参照されるデータを事前入力**」のオプションを選択したときに、ランディングページの訪問者がデータベースのプロファイルと一致する場合、プロファイルの情報がフォームに自動的に事前ロードされます。（を使用） **ID の欠落を許可** オプションを選択すると、匿名ユーザーを含むすべての訪問者がランディングページにアクセスできます。"
+>abstract="「**フォームで参照されるデータを事前入力**」のオプションを選択したときに、ランディングページの訪問者がデータベースのプロファイルと一致する場合、プロファイルの情報がフォームに自動的に事前ロードされます。「**ID が存在しないことを承認**」オプションを選択すると、匿名ユーザーを含むすべての訪問者がランディングページにアクセスできます。"
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -100,39 +100,39 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. が含まれる **[!UICONTROL データのプリロード]** セクションでは、次の 2 つのオプションを使用できます。
+1. 「**[!UICONTROL データの事前ロード]**」セクションでは、次の 2 つのオプションを使用できます。
 
    * 「**[!UICONTROL フォームで参照されるデータを事前入力]**」のオプションを選択したときに、ランディングページの訪問者がデータベースのプロファイルと一致する場合、プロファイルの情報がフォームに自動的に事前ロードされます。ユーザーは、未入力のフィールドに入力し、必要に応じて既存の値を更新するだけです。これにより、重複を作成する代わりに、既存のプロファイルのデータを結合できます。
 
      >[!NOTE]
      >
-     >このオプションは、すべてのランディングページテンプレートに対してデフォルトで選択されています。
+     >このオプションは、すべてのランディングページテンプレートに対してデフォルトで選択されます。
 
    <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
 
-   * この **[!UICONTROL ID の欠落を許可]** オプションを使用すると、すべての訪問者がランディングページにアクセスできます。 このオプションの選択を解除すると、匿名訪問者はフォームを使用できなくなります。つまり、識別されたユーザーのみがフォームにアクセスして送信できます。
+   * 「**[!UICONTROL ID が存在しないことを承認]**」オプションを使用すると、すべての訪問者がランディングページにアクセスできます。このオプションを選択解除すると、匿名訪問者はこのオプションを使用できなくなります。つまり、識別されたユーザーのみがフォームにアクセスして送信できます。
 
      >[!AVAILABILITY]
      >
-     >この機能は、限定提供（LA）で提供されています。 移行するお客様に限定されます。 **Adobe Campaign StandardからAdobe Campaign v8 へ**、および他の環境にデプロイすることはできません。
+     >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
-     の場合 **[!UICONTROL 獲得]** および **[!UICONTROL 登録]** テンプレート：このオプションはデフォルトで選択されています。 の場合 **[!UICONTROL 購読解除]** および **[!UICONTROL ブロックリスト]** テンプレート：このオプションはデフォルトで選択されておらず、変更できません<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+     **[!UICONTROL 獲得]**&#x200B;と&#x200B;**[!UICONTROL 購読]**&#x200B;のテンプレートの場合、このオプションはデフォルトで選択されます。**[!UICONTROL 購読解除]**&#x200B;と&#x200B;**[!UICONTROL ブロックリスト]**&#x200B;のテンプレートの場合、このオプションはデフォルトで選択されず、変更できません<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->。
 
-1. ランディングページの後続のページを作成できます。ページを追加するには、 **[!UICONTROL ページ]** セクションを選択し、 **[!UICONTROL コンテンツを編集]** このランディングページ用にデザインする各ページのボタン。 各ページのコンテンツは既に事前入力済みです。必要に応じて編集します。[詳細情報](lp-content.md)
+1. ランディングページの後続のページを作成できます。ページを追加するには、「**[!UICONTROL ページ]**」セクションで、このランディングページ用にデザインする各ページの「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。各ページのコンテンツは既に事前入力済みです。必要に応じて編集します。[詳細情報](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. が含まれる **[!UICONTROL ストレージ]** セクション、 **[!UICONTROL プリロードされたレコードの更新]** オプションはデフォルトで選択されています。 ランディングページを使用して、データベースに保存されているプロファイルを更新できます。事前ロードボックスを使用すると、データベースで更新されるレコードの検索方法を示すことができます。
+1. 「**[!UICONTROL ストレージ]**」セクションでは、「**[!UICONTROL 事前ロードされたレコードを更新]**」オプションがデフォルトで選択されます。ランディングページを使用して、データベースに保存されているプロファイルを更新できます。事前ロードボックスを使用すると、データベースで更新されるレコードの検索方法を示すことができます。
 
    また、ランディングページの現在のコンテキストフィールドから選択することもでき、データベースで対応するプロファイルを検索するために使用されます。これを行うには、「**[!UICONTROL 事前ロードされたレコードを更新]**」オプションを選択し、「**[!UICONTROL 紐付けオプション]**」にある目的のフィールドを確認します。
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
 
-1. 作成 **[!UICONTROL 追加データ]** ランディングページの送信時に内部データを保存する このデータは、ページにアクセスしたユーザーには表示されません。 定数値のみが使用できます。
+1. ランディングページの送信時に内部データを保存する&#x200B;**[!UICONTROL 追加のデータ]**&#x200B;を作成します。このデータは、ページを訪問するユーザーには表示されません。定数値のみが使用できます。
 
    >[!AVAILABILITY]
    >
-   >この機能は、限定提供（LA）で提供されています。 移行するお客様に限定されます。 **Adobe Campaign StandardからAdobe Campaign v8 へ**、および他の環境にデプロイすることはできません。
+   >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
    ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
@@ -184,7 +184,7 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
    テストプロファイルを選択する手順は、メッセージをテストする場合と同じです。詳しくは、[プレビューとテスト](../preview-test/preview-test.md)の節を参照してください。
 
-1. 動的ランディングページのテスト時（ **[!UICONTROL URL からのサービス]** 選択したオプション - [詳細を表示する](../landing-pages/create-lp.md#define-actions-on-form-submission)
+1. 「**[!UICONTROL URL からのサービス]**」オプションを選択して動的ランディングページをテストする場合 - [詳細情報](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. 「**[!UICONTROL プレビューを開く]**」を選択して、ランディングページをテストします。
 
