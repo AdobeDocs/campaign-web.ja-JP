@@ -3,10 +3,10 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 2f39b200df146762fdff6e6a76aecb039d1fab6b
-workflow-type: ht
-source-wordcount: '726'
-ht-degree: 100%
+source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 99%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 100%
 >id="acw_orchestration_enrichment_data"
 >title="エンリッチメントアクティビティ"
 >abstract="エンリッチメントデータをワークフローに追加すると、エンリッチメントアクティビティ後に追加されたアクティビティで使用して、行動、好み、ニーズに基づいて顧客を個別のグループにセグメント化したり、ターゲットオーディエンスの共感を呼ぶ可能性が高いパーソナライズされたマーケティングメッセージとキャンペーンを作成したりできます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_reconciliation"
+>title="エンリッチメントの調整"
+>abstract="エンリッチメント調整"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
