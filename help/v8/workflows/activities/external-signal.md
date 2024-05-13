@@ -4,7 +4,7 @@ title: 外部シグナル アクティビティの使用
 description: 外部シグナルワークフローアクティビティの使用方法を学ぶ
 exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
 source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%
 
