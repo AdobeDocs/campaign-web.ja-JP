@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '2015'
-ht-degree: 100%
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+workflow-type: tm+mt
+source-wordcount: '2106'
+ht-degree: 95%
 
 ---
 
@@ -91,6 +91,11 @@ ht-degree: 100%
    <td> <strong>StdDev</strong><br /> </td> 
    <td> 数値、文字列または日付タイプの列の標準偏差を返します<br /> </td> 
    <td> StdDev(&lt;値&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringG</strong><br /> </td> 
+   <td> 2 番目の引数の文字で区切られた、文字列型の列の値の連結を返します<br /> </td> 
+   <td> StringAgg （&lt;value&gt;, &lt;string&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -145,6 +150,16 @@ ht-degree: 100%
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> 定義されたセッション TZ を適用して、タイムスタンプ NTZ（タイムゾーンなしのタイムスタンプ）を TZ（タイムゾーンありのタイムスタンプ）に変換します<br/> </td> 
    <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> 2 つの日付の比較<br/> </td> 
+   <td> DateCmp （&lt;date&gt;,&lt;date&gt;）<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -280,6 +295,16 @@ ht-degree: 100%
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> 文字列を日付 + 時刻に変換します<br /> </td> 
    <td> ToDateTime(&lt;文字列&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToStamp</strong><br /> </td> 
+   <td> 文字列をタイムスタンプに変換します<br /> </td> 
+   <td> ToTimestamp （&lt;string&gt;）<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimezone</strong><br /> </td> 
+   <td> 日付+時刻をタイムゾーンに変換<br /> </td> 
+   <td> ToTimezone （&lt;date&gt;,&lt;time zone=""&gt;）<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ ht-degree: 100%
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> 引数に指定された文字列を暗号化<br /> </td> 
+   <td> AESEncrypt （&lt;value&gt;）<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> 条件が true の場合は値 1 を返します。そうでない場合は値 2 を返します<br /> </td> 
@@ -522,11 +547,11 @@ ht-degree: 100%
    <td> 文字列 1 が空の場合は値 2 を返し、それ以外の場合は値 3 を返します<br /> </td> 
    <td> IsEmptyString(&lt;値 1&gt;, &lt;値 2&gt;, &lt;値 3&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+   <td> 一意の ID を返します<br /> </td> 
+   <td> NewUUID （）<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> 引数が NULL の場合は、空の文字列を返します<br /> </td> 
@@ -631,11 +656,11 @@ ht-degree: 100%
    <td> 文字列の長さを返します<br /> </td> 
    <td> Length(&lt;文字列&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>ライン</strong><br /> </td> 
+   <td> 文字列から行 n を抽出します。<br /> </td> 
+   <td> Line （&lt;string&gt;,&lt;number&gt;）<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 文字列を小文字で返します<br /> </td> 
@@ -665,6 +690,11 @@ ht-degree: 100%
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> XPath とフィールドデータから XML フィールドの値を抽出します<br /> </td> 
    <td> NodeValue (&lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>置換</strong><br /> </td> 
+   <td> 指定した文字列値のすべての出現箇所を別の文字列値で置き換えます。<br /> </td> 
+   <td> Replace （&lt;string&gt;,&lt;string&gt;,&lt;string&gt;）<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
