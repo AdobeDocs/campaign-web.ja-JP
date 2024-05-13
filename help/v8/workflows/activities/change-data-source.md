@@ -3,10 +3,10 @@ audience: end-user
 title: 「データソースを変更」ワークフローアクティビティの使用
 description: 「データソースを変更」ワークフローアクティビティの使用方法について説明します。
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '343'
+ht-degree: 86%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
 場合によっては、データが現在のデータベースで使用できないか、単一操作を実行するのに十分に効率的でないことがあります。したがって、「**[!UICONTROL データソースを変更]**」アクティビティを追加して、ワークフローに別のデータベースを使用してこのような操作を実行させる必要が生じる場合があります。
 
 Campaign のアーキテクチャについて詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ja)を参照してください
+
+>[!IMPORTANT]
+>
+>に注意してください **[!UICONTROL ディメンションの変更]** および **[!UICONTROL データソースを変更]** アクティビティは 1 行に追加しないでください。 両方のアクティビティを連続して使用する必要がある場合は、必ず次を含めてください **[!UICONTROOL 充実]** それらの間のアクティビティ。 これにより、適切な実行が保証され、潜在的な競合やエラーが回避されます。
 
 <!--
 
