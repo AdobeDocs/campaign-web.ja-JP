@@ -3,7 +3,7 @@ audience: end-user
 title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
@@ -11,18 +11,6 @@ ht-degree: 100%
 ---
 
 # キャンペーンレポートの基本を学ぶ {#campaign-reports}
-
-<!-- CAN BE REMOVED___
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Reporting Sending"
->abstract="The Sending tab within your report provides in-depth insights into your visitors' interactions with your deliveries and any potential errors they may have encountered."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Reporting tracking"
->abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
--->
 
 **キャンペーンレポート**&#x200B;では、**キャンペーン**&#x200B;の包括的な概要が提供され、含まれる様々な配信に関するすべての関連情報が組み込まれます。これらのレポートでは、成功率、オーディエンスのエンゲージメント、その他の重要な指標など、各配信のチャネルごとのパフォーマンスを完全に分析できます。キャンペーンの全体的な有効性と影響を評価できます。
 
@@ -57,7 +45,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL フォルダーを選択]**」フィールドで、特定のフォルダーから配信またはキャンペーンをターゲットにするかどうかを選択します。
 
-   また、 「**[!UICONTROL ルールを追加]**」を選択してクエリの作成を開始し、レポートデータをより適切にフィルタリングすることもできます。[詳しくは、クエリモデラーの使用方法を参照してください](../query/query-modeler-overview.md)
+   また、 「**[!UICONTROL ルールを追加]**」を選択してクエリの作成を開始し、レポートデータをより適切にフィルタリングすることもできます。[クエリモデラーの使用方法を説明します。](../query/query-modeler-overview.md)
 
    ![](assets/manage_campaign_report_4.png){zoomable=&quot;yes&quot;}
 

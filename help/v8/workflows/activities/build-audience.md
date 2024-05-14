@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスを作成ワークフローアクティビティの使用
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: a98203e983fec6e55f8c60e254f965f20ffe7dea
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 96%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 100%
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## オーディエンスを作成アクティビティの設定{#build-audience-configuration}
+## オーディエンスを作成アクティビティの設定 {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_audienceselector"
 >title="オーディエンス"
->abstract="オーディエンス"
+>abstract="新しい配信をデザインする際にオーディエンスを使用するのと同じ方法で、オーディエンスを選択します。"
 
 **オーディエンスを作成**&#x200B;アクティビティを設定するには、次の手順に従います。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 98%
 
 ---
 
@@ -53,12 +53,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="コンテンツテンプレートのデザイン"
->abstract="コンテンツテンプレートのデザイン"
+>abstract="メールコンテンツテンプレートをデザインします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="コンテンツテンプレートの選択"
->abstract="コンテンツテンプレートの選択"
+>abstract="メールコンテンツテンプレートを選択します。"
 
 コンテンツテンプレートは、[以下の説明に従って](#create-template-from-scratch)、[既存のメールをテンプレートとして保存](#save-as-template)するか、メールテンプレートのリストから「**コンテンツテンプレートを作成**」ボタンを使用して作成できます。
 

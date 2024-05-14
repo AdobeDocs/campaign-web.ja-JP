@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 100%
+source-wordcount: '2138'
+ht-degree: 97%
 
 ---
 
@@ -157,7 +157,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="オーディエンスを選択"
->abstract="オーディエンスを選択"
+>abstract="を使用する **オーディエンスを選択** オプションを使用すると、クエリのフィルタリングに使用するオーディエンスを選択できます。"
 
 既存のオーディエンスを使用してクエリをフィルタリングするには、次の手順に従います。
 
@@ -174,7 +174,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="定義済みフィルター"
->abstract="定義済みフィルター"
+>abstract="を使用する **定義済みフィルター** オプションで、カスタムフィルターのリストまたはお気に入りから定義済みフィルターを選択できます。"
 
 定義済みフィルターを使用してクエリをフィルタリングするには、次の手順に従います。
 
@@ -213,7 +213,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="グループ"
->abstract="グループ"
+>abstract="このウィンドウでは、フィルター条件をリンクするために使用する演算子を変更できます。"
 
 新しいフィルターコンポーネントをクエリに追加するたびに、**AND** 演算子によって他のコンポーネントに自動的にリンクされます。つまり、2 つのフィルタリングコンポーネントの結果が結合されます。
 

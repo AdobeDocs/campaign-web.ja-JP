@@ -3,10 +3,10 @@ audience: end-user
 title: ファイルを抽出ワークフローアクティビティの使用
 description: ファイルを抽出ワークフローアクティビティの使用方法について説明します
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 100%
+source-wordcount: '875'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="宛先のフォーマット"
->abstract="形式を選択します。"
+>abstract="様々なオプションを選択して、抽出したファイルの形式を設定します。"
 
 「**[!UICONTROL 宛先]**&#x200B;形式」セクションでは、抽出したファイルの形式を設定できます。
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="後処理"
->abstract="後処理ステップを定義"
+>abstract="郵便番号や暗号化など、適用する後処理ステップを定義します。"
 
 **[!UICONTROL 変更スクリプトを書き出す]**&#x200B;では、圧縮や暗号化など、データ抽出中に実行する処理ステージを適用できます。それには、「**[!UICONTROL スクリプトを編集]**」ボタンをクリックします。
 
