@@ -6,7 +6,7 @@ exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -14,8 +14,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
->title="「増分処理クエリ」アクティビティ"
->abstract="新しい「増分処理クエリ」アクティビティを使用すると、スケジュールに従ってデータベースに対してクエリを実行できます。 このアクティビティが実行されるたびに、以前の実行結果が除外されます。これにより、新しい要素だけをターゲットにすることができます。"
+>title="増分クエリアクティビティ"
+>abstract="新しい増分クエリアクティビティを使用して、スケジュールに基づいてデータベースにクエリを実行します。このアクティビティが実行されるたびに、以前の実行結果が除外されます。これにより、新しい要素だけをターゲットにすることができます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
 
 >[!CONTEXTUALHELP]

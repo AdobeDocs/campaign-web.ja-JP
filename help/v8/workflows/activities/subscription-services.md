@@ -6,7 +6,7 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="購読サービスアクティビティ"
->abstract="新しい購読サービスワークフローアクティビティを使用して、サービスの購読を管理します。 母集団を購読または購読解除でき、外部ファイルから複数の購読を更新することもできます。 オプションとして、確認メッセージを送信して購読者に通知することもできます。"
+>abstract="新しい購読サービスワークフローアクティビティを使用して、サービスの購読を管理します。母集団を購読または購読解除し、外部ファイルから複数の購読を更新できます。オプションとして、確認メッセージを送信して購読者に通知することもできます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
 
 

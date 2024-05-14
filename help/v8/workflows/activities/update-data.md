@@ -6,7 +6,7 @@ exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title=" 「データを更新」アクティビティ"
->abstract="データを更新アクティビティをワークフローで使用できるようになりました。 データを更新アクティビティを使用すると、データベース内のフィールドを一括更新できます。 更新のタイプをパーソナライズするために、いくつかのオプションが提案されています。"
+>abstract="データを更新アクティビティをワークフローで使用できるようになりました。データを更新アクティビティを使用すると、データベース内のフィールドに対して一括更新を実行できます。更新のタイプをパーソナライズする、いくつかのオプションが用意されています。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
 
 
