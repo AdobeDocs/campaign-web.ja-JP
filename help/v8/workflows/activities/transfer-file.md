@@ -3,10 +3,10 @@ audience: end-user
 title: ファイルを転送アクティビティの使用
 description: ファイル転送ワークフローアクティビティの使用方法について学ぶ
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 100%
+source-wordcount: '1175'
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="リモートサーバーにファイルを転送"
->abstract="リモートサーバーにファイルを転送"
+>abstract="接続するサーバーを指定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -40,17 +40,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="転送後にソースファイルを削除"
->abstract="転送後にソースファイルを削除"
+>abstract="転送が正常に完了したら、ソースファイルを消去します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="セッションログを表示"
->abstract="セッションログを表示"
+>abstract="転送操作に関連する情報は、ワークフローログに表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="すべてのファイルをリスト"
->abstract="すべてのファイルをリスト"
+>abstract="このオプションは、サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -60,12 +60,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="不明なファイルを処理"
->abstract="不明なファイルを処理"
+>abstract="このオプションを使用すると、アクティビティの後で「ファイルなし」のアウトバウンドトランジションを有効化できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="エラーを処理"
->abstract="エラーを処理"
+>abstract="このオプションを使用すると、アクティビティの後に「エラー」アウトバウンドトランジションを有効化できます。"
 
 **ファイル転送**&#x200B;アクティビティは&#x200B;**データ管理**&#x200B;アクティビティで、ファイルの送受信、ファイルの有無のテスト、サーバー上のファイルのリストアップを行うことができます。使用されるプロトコルは、サーバー間プロトコルまたは HTTP プロトコルのいずれかです。
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 
 ## 転送先の定義 {#destination}
 
-1. 「**[!UICONTROL リモートサーバー]**」セクションで、次のいずれかの方法を使用して接続するサーバーを指定します。
+1. が含まれる **[!UICONTROL リモートサーバー]** セクションで、次のいずれかの方法を使用して接続するサーバーを指定します：
 
    * **[!UICONTROL 外部アカウントで定義された接続パラメーターを使用]**：外部アカウントの接続パラメーターを使用してサーバーに接続します。「**[!UICONTROL サーバーフォルダー]**」フィールドで、ファイル（またはファイルリストのアクションを表示するフォルダー）へのパスを指定します。
    * **[!UICONTROL クイック設定]**：ファイル（またはファイルリストのアクションを表示するフォルダー）の URL を入力します。
@@ -126,7 +126,7 @@ ht-degree: 100%
 
 ![](../assets/workflow-transfer-file-historization.png)
 
-サーバー上の物理領域を確保するために、このフォルダーのサイズを制限できるようにすることが重要です。これを行うには、アクティビティのフォルダーのファイルの最大数または合計サイズを定義します。デフォルトで許可されている値はそれぞれ 100 個と 50 MB です。
+サーバー上の物理領域を確保するために、このフォルダーのサイズを制限できるようにすることが重要です。それには、アクティビティのフォルダーに対する最大ファイル数または合計サイズを定義できます。 デフォルトで許可されている値はそれぞれ 100 個と 50 MB です。
 
 このアクティビティを実行するたびに、次のようにフォルダーがチェックされます。
 
@@ -145,7 +145,7 @@ ht-degree: 100%
    +++**[!UICONTROL ファイル転送]**&#x200B;タイプのアクティビティの追加オプション
 
    * **[!UICONTROL 転送後にソースファイルを削除]**：転送が正常に完了したら、ソースファイルを消去します。
-   * **[!UICONTROL セッションログを表示]**：このオプションをアクティブ化すると、ワークフローの実行後に、転送操作に関連する情報がワークフローログに表示されます。
+   * **[!UICONTROL セッションログの表示]**：このオプションを有効にすると、ワークフローが実行された後、転送操作に関連する情報がワークフローログに表示されます。
    * **[!UICONTROL すべてのファイルを表示]**（ファイルリストのアクション）：このオプションでは、`vars.filenames` イベント変数内のサーバー上に存在するすべてのファイルのインデックス作成を行います。ファイル名は、`n` 文字で区切られます。[詳しくは、イベント変数の操作方法を参照してください](../event-variables.md)
 
 +++
