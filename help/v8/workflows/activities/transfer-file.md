@@ -3,10 +3,10 @@ audience: end-user
 title: ファイルを転送アクティビティの使用
 description: ファイル転送ワークフローアクティビティの使用方法について学ぶ
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 89%
+source-wordcount: '1177'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="ファイルのソースを転送"
->abstract="ファイルのソースを転送"
+>abstract="目的のファイル名を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="不明なファイルを処理"
->abstract="このオプションを使用すると、アクティビティの後で「ファイルなし」のアウトバウンドトランジションを有効化できます。"
+>abstract="このオプションを使用すると、 **ファイルなし** アクティビティ後のアウトバウンドトランジション。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="エラーを処理"
->abstract="このオプションを使用すると、アクティビティの後に「エラー」アウトバウンドトランジションを有効化できます。"
+>abstract="このオプションを使用すると、 **エラー** アクティビティ後のアウトバウンドトランジション。"
 
 **ファイル転送**&#x200B;アクティビティは&#x200B;**データ管理**&#x200B;アクティビティで、ファイルの送受信、ファイルの有無のテスト、サーバー上のファイルのリストアップを行うことができます。使用されるプロトコルは、サーバー間プロトコルまたは HTTP プロトコルのいずれかです。
 
