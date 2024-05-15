@@ -4,7 +4,7 @@ title: ダイレクトメール配信の基本を学ぶ
 description: Adobe Campaign web でダイレクトメール配信を作成して送信する方法について説明します。
 exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 

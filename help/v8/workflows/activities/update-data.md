@@ -4,7 +4,7 @@ title: データ更新ワークフローアクティビティの使用
 description: データ更新ワークフローアクティビティの使用方法について学ぶ
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title=" 「データを更新」アクティビティ"
+>title="データを更新アクティビティ"
 >abstract="データを更新アクティビティをワークフローで使用できるようになりました。データを更新アクティビティを使用すると、データベース内のフィールドに対して一括更新を実行できます。更新のタイプをパーソナライズする、いくつかのオプションが用意されています。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 
 

@@ -4,9 +4,9 @@ title: Campaign Standard から Adobe Campaign web への移行
 description: Campaign web ユーザーインターフェイスの確認
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,10 +64,10 @@ Campaign v8 ユーザーには、新しい Campaign web インターフェイス
 * カスタムリソースは、Campaign web ユーザーインターフェイスの&#x200B;**スキーマ**&#x200B;です。
 * マーケティングアクティビティは存在しなくなりました。
 * メッセージは&#x200B;**配信**&#x200B;です。
-* ユーザーは **演算子**.
-* 役割： **ネームド権限**.
-* セキュリティグループは次のとおりです **オペレーターグループ**.
-* 組織単位 **フォルダー権限**
+* ユーザーは&#x200B;**オペレーター**&#x200B;です。
+* 役割は&#x200B;**ネームド権限**&#x200B;です。
+* セキュリティグループは&#x200B;**オペレーターグループ**&#x200B;です。
+* 組織単位は&#x200B;**フォルダー権限**&#x200B;です。
 
 ## 新機能 {#new-features}
 

@@ -4,9 +4,9 @@ title: 増分クエリワークフローアクティビティの使用
 description: 増分クエリワークフローアクティビティの使用方法を学ぶ
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 >id="acw_homepage_welcome_rn5"
 >title="増分クエリアクティビティ"
 >abstract="新しい増分クエリアクティビティを使用して、スケジュールに基づいてデータベースにクエリを実行します。このアクティビティが実行されるたびに、以前の実行結果が除外されます。これにより、新しい要素だけをターゲットにすることができます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="詳しくは、リリースノートを参照してください。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
@@ -46,7 +46,7 @@ ht-degree: 96%
 
 以前の実行で既にターゲットになっている母集団は、ワークフローに保存されます。つまり、同じテンプレートから開始された 2 つのワークフローは同じログを共有しません。一方、同じワークフローの同じ増分クエリに基づく 2 つのタスクは、同じログを使用します。
 
-増分処理クエリの実行中にその結果が 0 になった場合、クエリの次にプログラムされた実行までワークフローは一時停止します。 このため、増分処理クエリに続くトランザクションとアクティビティが、次回の実行前に処理されることはありません。
+実行中のいずれかの増分クエリの結果が 0 と等しい場合、プログラムされた次回のクエリの実行まで、ワークフローは一時停止されます。このため、増分処理クエリに続くトランザクションとアクティビティが、次回の実行前に処理されることはありません。
 
 ## 増分クエリアクティビティの設定 {#incremental-query-configuration}
 

@@ -4,9 +4,9 @@ title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
->title="エンリッチメントの調整"
->abstract="エンリッチメント調整"
+>title="エンリッチメントの紐付け"
+>abstract="エンリッチメントの紐付け"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
