@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
-workflow-type: ht
-source-wordcount: '685'
-ht-degree: 100%
+source-git-commit: e8fba3b935e572dd81d1ce3b434585a82bdc82bb
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 99%
 
 ---
 
@@ -198,4 +198,4 @@ ht-degree: 100%
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
 + 管理 {#administration}
    + [カスタムフィールドの設定](administration/custom-fields.md)
-
++ [Campaign v8 クライアントコンソールドキュメント >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
