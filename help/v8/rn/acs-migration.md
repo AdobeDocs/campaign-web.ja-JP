@@ -3,14 +3,14 @@ audience: end-user
 title: Campaign Standard から Adobe Campaign web への移行
 description: Campaign web ユーザーインターフェイスの確認
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 80%
 
 ---
 
-# Campaign v8 への Campaign Standard の移行{#welcome}
+# Campaign v8 への Campaign Standard の移行 {#welcome}
 
 <!--
 We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
@@ -46,13 +46,13 @@ Campaign v8 が提供する主な機能を詳しく見てみましょう。
 
 ## コンソールおよび web インターフェイス {#console}
 
-Campaign v8 ユーザーには、新しい Campaign web インターフェイスと v8 コンソールの両方へのアクセス権があります。データと設定は、環境間で同期されます。クライアントコンソールで使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web ユーザーインターフェイスに表示されます。[詳細情報](../get-started/user-interface.md#user-interface-explorer)
+Campaign v8 ユーザーは、新しい Campaign web インターフェイスと v8 コンソールの両方にアクセスできます。 データと設定は、環境間で同期されます。クライアントコンソールで使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web ユーザーインターフェイスに表示されます。[詳細情報](../get-started/user-interface.md#user-interface-explorer)
 
 サポートされている機能とサポートされていない機能や、Campaign web ユーザーインターフェイスと Campaign クライアントコンソール間の相互運用性について詳しくは、[このページ](../get-started/capability-matrix.md)を参照してください。
 
 ## 用語 {#terminology}
 
-ほとんどの概念は、Campaign web インターフェイスと Campaign Standard で類似しています。ただし、いくつかの違いがあります。Campaign Standard と Campaign web インターフェイスの用語の違いの例を以下に示します。
+ほとんどの概念は、Campaign v8 とCampaign Standardの間では似ています。 ただし、いくつかの違いがあります。次に、Campaign Standardと Campaign v8 の用語の違いの例を示します。
 
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
@@ -61,25 +61,24 @@ Campaign v8 ユーザーには、新しい Campaign web インターフェイス
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* カスタムリソースは、Campaign web ユーザーインターフェイスの&#x200B;**スキーマ**&#x200B;です。
-* マーケティングアクティビティは存在しなくなりました。
-* メッセージは&#x200B;**配信**&#x200B;です。
-* ユーザーは&#x200B;**オペレーター**&#x200B;です。
-* 役割は&#x200B;**ネームド権限**&#x200B;です。
-* セキュリティグループは&#x200B;**オペレーターグループ**&#x200B;です。
-* 組織単位は&#x200B;**フォルダー権限**&#x200B;です。
+* カスタムリソースは **スキーマ**
+* メッセージは、次のように参照されます **配信**
+* 製品ユーザー： **演算子**
+* 役割の設定に使用するコマンド **ネームド権限**
+* セキュリティグループは次のとおりです **オペレーターグループ**
+* 組織単位は、を通じて管理されます **フォルダー権限**
 
 ## 新機能 {#new-features}
 
-移行できるように、Campaign Standard から v8 に[主な機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja)を追加しました。
+Campaign v8 への移行をスムーズに行うために、Campaign v8 に主なCampaign Standard機能が追加されました。 詳しくは、以下を参照してください [このドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"}.
 
-* **動的レポート**：動的レポートでは、マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供します。プロファイルデータへのアクセスを可能にし、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja)
+* **動的レポート**：動的レポートでは、マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供します。プロファイルデータへのアクセスを可能にし、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja){target="_blank"}。
 
 * **一元化されたブランディング**：どの会社にも、ブランドの視覚的ガイドラインと技術的ガイドラインがあります。Adobe Campaign を使用すれば、ロゴからメール送信者、URL、ドメインなどの技術的側面に至るまで、一貫したブランドを顧客に提供する一連の仕様を定義できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ja)
 
-* **Rest API** - Campaign Stardard で移行したユーザーは、Rest API を使用して Adobe Campaign の統合を作成し、使用するテクノロジーのパネルと Adobe Campaign をインターフェイスで接続することで独自のエコシステムを作成できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja)
+* **Rest API** - Campaign Stardard で移行したユーザーは、Rest API を使用して Adobe Campaign の統合を作成し、使用するテクノロジーのパネルと Adobe Campaign をインターフェイスで接続することで独自のエコシステムを作成できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja){target="_blank"}。
 
-* **ランディングページ** - Campaign v8 には、機能が失われないように多くの改善が行われました。詳しくは、[リリースノート](../rn/release-notes.md#new-24-4)とランディングページ[ドキュメント](../landing-pages/get-started-lp.md)を参照してください。
+* **ランディングページ** - Campaign v8 ランディングページが改善され、Campaign Standardと同等の機能が確保されました。 詳しくは、[リリースノート](../rn/release-notes.md#new-24-4)とランディングページ[ドキュメント](../landing-pages/get-started-lp.md)を参照してください。
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 
