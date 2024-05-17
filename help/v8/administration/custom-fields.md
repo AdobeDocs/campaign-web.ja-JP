@@ -1,10 +1,12 @@
 ---
 title: カスタムフィールド
 description: カスタムフィールドの設定方法について説明します
+hide: true
+hidefromtoc: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
-workflow-type: ht
-source-wordcount: '235'
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+workflow-type: tm+mt
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
@@ -32,19 +34,19 @@ Web ユーザーインターフェイスでは、カスタムフィールドは�
 
 1. **管理**&#x200B;の下の「**スキーマ**」をクリックします。
 
-   ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields.png){zoomable="yes"}
 
 1. 目的のスキーマを見つけます（例：**受信者（nms）**&#x200B;スキーマ）。
 
-   ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields2.png){zoomable="yes"}
 
 1. 「**その他のアクション**」ボタンをクリックし、「**カスタム詳細を編集**」を選択します。
 
-   ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields3.png){zoomable="yes"}
 
    「**カスタム詳細を編集**」画面には、すべてのカスタムフィールドとそのタイプが表示されます。
 
-   ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields4.png){zoomable="yes"}
 
    この画面では、次のアクションを実行できます。
 
@@ -55,4 +57,4 @@ Web ユーザーインターフェイスでは、カスタムフィールドは�
 
 1. カスタムフィールドを表示する画面に移動します。この例では、プロファイルの詳細画面を使用します。
 
-   ![](assets/custom-fields5.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields5.png){zoomable="yes"}

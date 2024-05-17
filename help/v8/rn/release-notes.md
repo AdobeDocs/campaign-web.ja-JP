@@ -2,9 +2,9 @@
 title: 最新のリリースノート
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d50dfc4ea433fa48301707b40164e2fdf9fa64fd
-workflow-type: ht
-source-wordcount: '1185'
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+workflow-type: tm+mt
+source-wordcount: '1124'
 ht-degree: 100%
 
 ---
@@ -91,10 +91,9 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **「分割」アクティビティ**&#x200B;の「母集団が空の場合はトランジションをアクティブ化しない」オプションを使用すると、セグメント結果が空の場合にワークフローを次のアクティビティに移行するかどうかを選択できます。[詳細情報](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**-->
-
-* **カスタムフィールド**&#x200B;は、Adobe Campaign コンソールを通じて標準スキーマに追加される追加属性です。Campaign web ユーザーインターフェイスでは、これらのカスタムフィールドが、プロファイルやテストプロファイルの詳細など、様々な画面に表示されるようになりました。Web ユーザーインターフェイスでは、カスタムフィールドを作成できませんが、表示方法を変更できるようになりました。[詳細情報](../administration/custom-fields.md)
-
+<!--* **Support of custom fields**
+* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
+-->
 
 ## 3月リリースノート {#24-3-release}
 
