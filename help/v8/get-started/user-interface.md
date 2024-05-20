@@ -4,8 +4,8 @@ title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
-workflow-type: ht
-source-wordcount: '1650'
+workflow-type: tm+mt
+source-wordcount: '1646'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Campaign ホームページでは、主要リソース、指標、コンポー�
 
 ホームページの上部セクションには、製品で使用可能な最新の更新と新機能の詳細が、リリースノートと詳細なドキュメントへのリンクと共に表示されます。機能カードをスクロールするには、左向き矢印を使用します。
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 **主要業績評価指標**&#x200B;では、一般的な KPI を通じてプラットフォームの有効性を確認できます。KPI について詳しくは、[このページ](../reporting/kpis.md)を参照してください。
 
@@ -70,7 +70,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
   「**その他のアクション**」ボタンを使用すると、配信を削除または複製できます。
 
-  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
 * **ワークフロー** - この画面では、ワークフローとワークフローテンプレートの完全なリストにアクセスできます。ステータス、最後／次回の実行日を確認し、新しいワークフローまたは新しいワークフローテンプレートを作成できます。他のオブジェクトと同じ条件でリストをフィルタリングできます。さらに、キャンペーンに属するかどうかにかかわらず、ワークフローをフィルタリングできます。ワークフローについて詳しくは、[この節](../workflows/gs-workflows.md)を参照してください。
 

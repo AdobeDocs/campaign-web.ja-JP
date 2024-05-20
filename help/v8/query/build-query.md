@@ -5,8 +5,8 @@ description: Adobe Campaign Web クエリモデラーで最初のクエリを作
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 97%
+source-wordcount: '2092'
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 97%
 
   例：*「スポーツ」ニュースレターを購読した受信者*。*ニューヨークに住む受信者*、*サンフランシスコに住む受信者*
 
-  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  ![](assets/query-add-component.png){zoomable="yes"}
 
 * **グループ演算子**（AND、OR、EXCEPT）を使用すると、ダイアグラム内のフィルタリングコンポーネントをグループ化できます。フィルタリングコンポーネントの前の既存のトランジションに追加されます。[詳しくは、演算子の操作方法を参照してください。](#filtering)
 
   例：*「スポーツ」ニュースレターを購読した受信者&#x200B;**AND**ニューヨーク&#x200B;**OR**サンフランシスコに住む受信者*。
 
-  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
+  ![](assets/query-add-operator.png){zoomable="yes"}
 
 ## フィルタリングコンポーネントの追加 {#filtering}
 
@@ -49,7 +49,7 @@ ht-degree: 97%
 
 1. 「**属性**」フィールドで、条件の作成に活用するデータベースから属性を選択します。属性リストには、リンクされたテーブルの属性を含む、Campaign データベースのすべての属性が含まれます。
 
-   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -84,11 +84,11 @@ ht-degree: 97%
 
    *21 歳以上のすべてのプロファイルを返すクエリの例：*
 
-   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-custom-condition.png){zoomable="yes"}
 
    日付タイプの属性の場合、「**[!UICONTROL プリセット]**」オプションを使用して定義済みの値を使用できます。
 
-   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
+   ![](assets/date-presets.png){zoomable="yes"}
 
 #### リンクされたテーブルのカスタム条件（1 対 1 および 1 対多リンク）{#links}
 
@@ -104,15 +104,15 @@ ht-degree: 97%
 
 1. **ブランド**&#x200B;テーブル内に移動し、**ラベル**&#x200B;属性を選択します。
 
-   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 属性の期待値を定義します。
 
-   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
 
 テーブルリンクを直接選択したクエリのサンプルを以下に示します。このテーブルで使用可能な値は、専用のピッカーから選択する必要があります。
 
-![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -124,19 +124,19 @@ ht-degree: 97%
 
 1. **購入**&#x200B;テーブルを選択し、確定します。
 
-   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
 1. アウトバウンドトランジションが追加され、サブ条件を作成できます。
 
-   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
 1. **価格**&#x200B;属性を選択し、1,000 ドル以上の購入をターゲットにします
 
-   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
 1. ニーズに合わせてサブ条件を追加します。ここでは、BrewMaster 製品を購入したプロファイルをターゲットにする条件を追加しました。
 
-   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -146,18 +146,18 @@ ht-degree: 97%
 
 1. 目的のコレクションテーブル内に移動し、集計操作を実行する属性を選択します。
 
-   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. プロパティパネルで、「**データを集計**」オプションの切替スイッチをオンにして、目的の集計関数を選択します。
 
-   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
 ### オーディエンスを選択 {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="オーディエンスを選択"
->abstract="を使用する **オーディエンスを選択** オプションを使用すると、クエリのフィルタリングに使用するオーディエンスを選択できます。"
+>abstract="「**オーディエンスを選択**」オプションを使用すると、クエリのフィルタリングに使用するオーディエンスを選択できます。"
 
 既存のオーディエンスを使用してクエリをフィルタリングするには、次の手順に従います。
 
@@ -167,14 +167,14 @@ ht-degree: 97%
 
    *「フェスティバル来場者」オーディエンスに属するすべてのプロファイルを返すクエリの例：*
 
-   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-audience.png){zoomable="yes"}
 
 ### 定義済みフィルターを使用 {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="定義済みフィルター"
->abstract="を使用する **定義済みフィルター** オプションで、カスタムフィルターのリストまたはお気に入りから定義済みフィルターを選択できます。"
+>abstract="「**定義済みフィルター**」オプションを使用すると、カスタムフィルターのリストまたはお気に入りから定義済みフィルターを選択できます。"
 
 定義済みフィルターを使用してクエリをフィルタリングするには、次の手順に従います。
 
@@ -184,7 +184,7 @@ ht-degree: 97%
 
    *「非アクティブな顧客」定義済みフィルターに対応するすべてのプロファイルを返すクエリの例：*
 
-   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-predefined-filter.png){zoomable="yes"}
 
 ### コンポーネントのコピー＆ペースト {#copy}
 
@@ -202,24 +202,24 @@ ht-degree: 97%
 
    | 単一のコンポーネントのコピー | 複数のコンポーネントのコピー |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 1. コンポーネントをペーストするには、目的のトランジションの最後にある「+」ボタンをクリックし、「**n 個の項目をペースト**」を選択します。
 
-   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
+   ![](assets/copy-paste.png){zoomable="yes"}
 
 ## フィルタリングコンポーネントと演算子を結合 {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="グループ"
->abstract="このウィンドウでは、フィルター条件をリンクするために使用する演算子を変更できます。"
+>abstract="このパネルでは、フィルター条件をリンクするために使用する演算子を変更できます。"
 
 新しいフィルターコンポーネントをクエリに追加するたびに、**AND** 演算子によって他のコンポーネントに自動的にリンクされます。つまり、2 つのフィルタリングコンポーネントの結果が結合されます。
 
 この例では、2 つ目のトランジションに新しいオーディエンスタイプのフィルタリングコンポーネントを追加しました。このコンポーネントは、**AND** 演算子を使用して定義済みフィルターの条件にリンクされています。つまり、クエリ結果には、「マドリード在住」の定義済みフィルターのターゲットであり、かつ「ディスカウントハンター」オーディエンスに属する受信者が含まれます。
 
-![](assets/query-operator.png){zoomable=&quot;yes&quot;}
+![](assets/query-operator.png){zoomable="yes"}
 
 フィルタリング条件を相互にリンクするために使用する演算子を変更するには、この演算子をクリックし、右側に開く&#x200B;**グループ**&#x200B;パネルで目的の演算子を選択します。
 
@@ -229,13 +229,13 @@ ht-degree: 97%
 * **OR（和集合）**：アウトバウンドトランジション内のフィルタリングコンポーネントの 1 つ以上と一致する結果が含まれます。
 * **EXCEPT（除外）**：アウトバウンドトランジションのすべてのフィルタリングコンポーネントと一致する結果を除外します。
 
-![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
+![](assets/query-operator-change.png){zoomable="yes"}
 
 また、トランジションで「**+**」ボタンをクリックすると、コンポーネントの中間グループを作成できます。これにより、この特定の場所に演算子を追加して、複数のコンポーネントをグループ化し、クエリを絞り込むことができます。
 
 次の例では、「報酬を受ける VIP」または「超 VIP」オーディエンスのいずれかからの結果を含める中間グループを作成しました。
 
-![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
+![](assets/query-intermediate-group.png){zoomable="yes"}
 
 ## クエリを確認および検証
 
@@ -259,4 +259,4 @@ ht-degree: 97%
 
 クエリは、いつでも開いて変更できます。既存のクエリを開くと、「**+**」ボタンが表示されずに簡素化されたビューで表示されます。新しい要素をクエリに追加するには、キャンバス上でコンポーネントまたは演算子を選択して、「**+**」 ボタンを表示します。
 
-![](assets/edit-audience.png){zoomable=&quot;yes&quot;}
+![](assets/edit-audience.png){zoomable="yes"}
