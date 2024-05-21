@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
-workflow-type: ht
-source-wordcount: '690'
-ht-degree: 100%
+source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 100%
    + [新機能](rn/whats-new.md)
    + [最新リリース](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
-   + [Campaign Standard から v8 へ](rn/acs-migration.md)
 + Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
@@ -29,6 +28,7 @@ ht-degree: 100%
    + [定義済みフィルターの操作](get-started/predefined-filters.md)
    + [アクセスと権限](get-started/permissions.md)
    + [Campaign web およびクライアントコンソール](get-started/capability-matrix.md)
+   + [Campaign Standard から v8 へ](rn/acs-migration.md)
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
@@ -133,6 +133,7 @@ ht-degree: 100%
    + [ガードレールと制限](get-started/guardrails.md)
    + [ワークフローイベント変数](workflows/event-variables.md)
    + [ワークフローへのアクセスと管理](workflows/access-monitor.md)
+   + [読み取り専用ワークフローについて](workflows/readonly-workflows.md)
    + 最初のワークフローの作成と実行 {#create-workflow}
       + [ワークフロー作成の主な原則](workflows/gs-workflow-creation.md)
       + [ワークフローの作成](workflows/create-workflow.md)
@@ -172,6 +173,7 @@ ht-degree: 100%
    + [フィルターリスト](query/filter.md)
 + レポート {#reports}
    + [レポートの基本を学ぶ](reporting/gs-reports.md)
+   + [監査記録](reporting/audit-trail.md)
    + [レポートをエクスポート](reporting/export-reports.md)
    + [主要業績評価指標](reporting/kpis.md)
    + 配信レポート {#delivery-report}
