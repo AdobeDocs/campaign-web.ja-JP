@@ -3,9 +3,9 @@ audience: end-user
 title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの操作方法を学ぶ
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
-workflow-type: ht
-source-wordcount: '685'
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+workflow-type: tm+mt
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
@@ -40,12 +40,6 @@ ht-degree: 100%
 
 ## データ管理アクティビティ {#data}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="ファイルを抽出アクティビティおよびファイルを読み込みアクティビティ"
->abstract="新しいデータ管理アクティビティは、ワークフローで使用できます。ファイルを抽出アクティビティを使用すると、Adobe Campaign から別のシステムに外部ファイルとしてデータを書き出すことができます。ファイルを読み込みアクティビティを使用すると、外部ファイルに保存されたプロファイルとデータを操作できます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
-
 これらのアクティビティは、母集団データの操作およびエンリッチメントに固有です。
 
 * [ファイルを抽出](extract-file.md)：Adobe Campaign から別のシステムにデータを外部ファイルとしてエクスポートします。
@@ -60,15 +54,6 @@ ht-degree: 100%
 Adobe Campaign Web を使用すると、複数のチャネル間でマーケティングキャンペーンを自動化および実行できます。チャネルアクティビティをキャンバスに組み合わせて、顧客の行動に基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。メール、SMS、Android および iOS プッシュ通知の&#x200B;**チャネル**&#x200B;アクティビティが使用可能です。[詳しくは、ワークフローのコンテキストでの配信の設定方法を参照してください](channels.md)。
 
 ## フロー制御アクティビティ {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="高度なワークフローアクティビティ"
->abstract="ワークフローでテストアクティビティ、JavaScript コードアクティビティ、外部シグナルアクティビティを設定できるようになりました。テストアクティビティを使用すると、条件に基づいてワークフローの移行が有効になります。JavaScript コードアクティビティを追加すると、ワークフローのコンテキストで JS コードスニペットを実行できます。外部シグナルアクティビティを設定して、API または別のワークフローからワークフローの実行をトリガーします。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

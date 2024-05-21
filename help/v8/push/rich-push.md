@@ -3,14 +3,22 @@ audience: end-user
 title: リッチプッシュ通知配信の設計
 description: Adobe Campaign web を使用した Android のリッチプッシュ通知配信の設計方法について説明します。
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
-workflow-type: ht
-source-wordcount: '1424'
-ht-degree: 100%
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 99%
 
 ---
 
 # Android のリッチプッシュ配信の設計 {#rich-push}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="リッチプッシュ配信"
+>abstract="Android 経由でリッチプッシュ通知を送信できるようになりました。現時点では、この機能は限定提供です。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
@@ -27,7 +35,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 * **[!UICONTROL 通知メッセージ]**&#x200B;は、FCM SDK によって自動的に処理されます。 FCM は、クライアントアプリに代わって、ユーザーのデバイスにメッセージを自動的に表示します。通知メッセージには、事前に定義された一連のパラメーターとオプションが含まれていますが、カスタムアプリケーション変数を使用してさらにパーソナライズすることもできます。
 
-![](assets/rich_push.png){zoomable=&quot;yes&quot;}
+![](assets/rich_push.png){zoomable="yes"}
 
 ## 通知のコンテンツの定義 {#push-message}
 
@@ -168,7 +176,7 @@ Firebase Cloud Messaging では、次の 2 種類のメッセージの中から�
 
 ## プッシュ通知の詳細設定 {#push-advanced}
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | パラメーター | 説明 |
 |---------|---------|

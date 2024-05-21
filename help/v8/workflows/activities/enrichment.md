@@ -3,10 +3,10 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: fa2d596a36652f504112c7a8543453d845462021
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 58%
+source-wordcount: '1251'
+ht-degree: 57%
 
 ---
 
@@ -76,6 +76,12 @@ ht-degree: 58%
    ![](../assets/workflow-enrichment1.png)
 
 ## テーブル間のリンクの作成 {#create-links}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="テーブル間のリンク"
+>abstract="エンリッチメントワークフローアクティビティで、ワークテーブルデータとAdobe Campaign データベースの間にリンクを作成できるようになりました。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 この **[!UICONTROL リンク定義]** セクションを使用すると、ワークテーブルデータとAdobe Campaign データベースの間にリンクを作成できます。 例えば、受信者のアカウント番号、国、メールを含むファイルからデータを読み込む場合、プロファイルでこの情報を更新するには、国テーブルへのリンクを作成する必要があります。
 

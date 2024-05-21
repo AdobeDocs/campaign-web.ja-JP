@@ -3,21 +3,28 @@ product: campaign
 title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 4f7dd30f02f83624a00b3d0e6ac7ba74c1c242e0
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 41%
+source-wordcount: '615'
+ht-degree: 40%
 
 ---
 
 # 監査記録{#audit-trail}
 
->[!IMPORTANT]
->
->Adobe Campaign web ユーザーインターフェイスは、ユーザー権限、テンプレート、パーソナライゼーションまたはキャンペーン内で行われた変更を監査しません。\
->監査記録は、インスタンスの管理者のみが管理できます。
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="監査記録"
+>abstract="新しい監査記録機能は、Adobe Campaign インスタンスに対して実行されたすべてのアクションとイベントの詳細な時系列の記録をリアルタイムで提供します。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
+
 
 Adobe Campaign Web ユーザーインターフェイスで、 **[!UICONTROL 監査記録]** この機能により、インスタンス内の重要なエンティティ（通常、インスタンスのスムーズな操作に大きな影響を与えるエンティティ）に加えられたすべての変更を完全に可視化できます。
+
+>[!IMPORTANT]
+>
+>* Adobe Campaign web ユーザーインターフェイスは、ユーザー権限、テンプレート、パーソナライゼーションまたはキャンペーン内で行われた変更を監査しません。
+>* 監査記録は、インスタンスの管理者のみが管理できます。
 
 **[!UICONTROL 監査記録]** この機能は、Adobe Campaign インスタンス内で発生するアクションとイベントの詳細なログを常にリアルタイムで記録します。 データの時系列の記録にアクセスする便利な方法を提供し、ワークフローのステータス、変更する最新の個人、インスタンス内のユーザーが実行したアクティビティなどのクエリに対処します。
 
