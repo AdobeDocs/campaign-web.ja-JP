@@ -3,10 +3,10 @@ audience: end-user
 title: ダイレクトメール配信のデザイン
 description: Adobe Campaign web を使用したダイレクトメール配信のデザイン方法について説明します。
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 96%
 
 ---
 
@@ -52,14 +52,18 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL リクエストされた数量]**」オプションをオンに切り替えて、配信の受信者数を制限します。
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## 抽出ファイル列の設定 {#content}
 
 「**[!UICONTROL コンテンツ]**」セクションで、抽出ファイルに表示する列を指定します。これを行うには、次の手順に従います。
 
 1. 「**[!UICONTROL 属性を追加]**」ボタンをクリックして、新しい列を作成します。
-1. 列に表示する属性を選択し、確定します。列を追加したら、編集アイコンを使用して、その列のラベルを変更し、関連する属性を変更できます。
+1. 列に表示する属性を選択し、確定します。式エディターを利用して、をクリックすることで使用する属性を選択できます。 **[!UICONTROL 式を編集]** ボタン。
+
+   ![](assets/dm-add-attribute.png)
+
+1. 列を追加したら、編集アイコンを使用して、その列のラベルを変更し、関連する属性を変更できます。
 1. これらの手順を繰り返して、抽出ファイルに必要な数の列を追加します。
 1. いずれかの列を使用して抽出ファイルを並べ替えるには、「**[!UICONTROL 並べ替え]**」列のアイコンをクリックし、目的の並べ替え方法を選択します。
 1. 列の位置を変更するには、上下の矢印を使用します。

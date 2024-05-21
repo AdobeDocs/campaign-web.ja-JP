@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
-workflow-type: ht
-source-wordcount: '1088'
-ht-degree: 100%
+source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 98%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 ダイアグラムに追加できるアクティビティのリストが表示されます。使用可能なアクティビティは、ワークフローダイアグラム内の位置によって異なります。例えば、最初のアクティビティを追加する際に、オーディエンスをターゲティング、ワークフローパスを分割、またはワークフローの実行を遅らせる「**待機**」アクティビティを設定して、ワークフローを開始できます。一方、**オーディエンスを作成**&#x200B;アクティビティの後に、ターゲティングアクティビティでターゲットを絞り込んだり、チャネルアクティビティでオーディエンスに配信を送信したり、フロー制御アクティビティでワークフロープロセスを整理したりできます。
 
-![](assets/workflow-start.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-start.png){zoomable="yes"}
 
 アクティビティがダイアグラムに追加されると、右側のパネルが表示され、新しく追加されたアクティビティを特定の設定で設定できます。各アクティビティの設定方法について詳しくは、[この節](activities/about-activities.md)を参照してください。
 
-![](assets/workflow-configure-activities.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-configure-activities.png){zoomable="yes"}
 
 この手順を繰り返し、ワークフローで実行するタスクに応じて、必要なだけアクティビティを追加します。また、2 つのアクティビティの間に新しいアクティビティを挿入することもできます。これを行うには、アクティビティ間のトランジションで「**+**」ボタンをクリックし、目的のアクティビティを選択して、右側のパネルで設定します。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 * **ズームアウト**／**ズームイン**：キャンバスをズームアウトまたはズームインします。
 * **マップを表示**：現在の位置を示すキャンバスのスナップショットを開きます。
 
-![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## アクティビティを管理 {#manage}
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 * アクティビティの「**ログとタスク**」にアクセスします。
 * アクティビティを「**一時停止／再開**」します。ワークフローを実行すると、一時停止したアクティビティで一時停止します。対応するタスクと、同じパス内でそのタスクに続くすべてのタスクが実行されません。
 
-![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/activity-action.png){zoomable="yes"}{width="50%"}
 
 「**結合**」や「**重複排除**」などの&#x200B;**ターゲティング**&#x200B;アクティビティを使用すると、残りの母集団を処理し、追加のアウトバウンドトランジションに含めることができます。例えば、**分割**&#x200B;アクティビティを使用している場合、補集合は、以前に定義されたサブセットのいずれにも一致しなかった母集団で構成されます。この機能を使用するには、「**補集合を生成**」オプションを有効化します。
 
@@ -70,21 +70,21 @@ ht-degree: 100%
 
 * アクションボタンを使用して 1 個のアクティビティをする。
 
-  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
 * ツールバーボタンを使用して複数のアクティビティをコピーする。
 
-  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 コピーしたアクティビティをペーストするには、トランジションの「**+**」ボタンをクリックし、「X 個のアクティビティをペースト」を選択します。
 
-![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ## 実行オプション {#execution}
 
 すべてのアクティビティで、実行オプションを管理できます。アクティビティを選択し、「**実行オプション**」ボタンをクリックします。これにより、アクティビティの実行モードと、エラーが発生した場合の動作を定義できます。
 
-![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
 ### プロパティ
 
@@ -104,13 +104,13 @@ ht-degree: 100%
 
 ### 初期化スクリプト
 
-「**初期化スクリプト**」フィールドでは、変数を初期化したり、アクティビティのプロパティを変更したりできます。「**コードを編集**」ボタンをクリックし、実行するコードのスニペットを入力します。スクリプトは、アクティビティの実行時に呼び出されます。[イベント変数](../workflows/event-variables.md)に関連する節を参照してください。
+**初期化スクリプト**&#x200B;では、変数を初期化したり、アクティビティのプロパティを変更したりできます。「**コードを編集**」ボタンをクリックし、実行するコードのスニペットを入力します。スクリプトは、アクティビティの実行時に呼び出されます。[イベント変数](../workflows/event-variables.md)に関連する節を参照してください。
 
 ## 例 {#example}
 
 次に、コーヒーマシンに関心のあるすべての顧客（VIP 顧客を除く）にメールを送信するように設計されたワークフローの例を示します。
 
-![](assets/workflow-example.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
 これを実現するために、以下のアクティビティが追加されました。
 
