@@ -4,9 +4,9 @@ title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
-workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '2098'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 | 「**属性**」フィールドからのアクセス | 「**値**」フィールドからのアクセス |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 式エディターには、次の内容があります。
 
@@ -34,13 +34,13 @@ ht-degree: 95%
 
 式を編集するには、入力フィールドに式を直接入力します。フィールドまたはヘルパー関数を追加するには、式内の追加する場所にカーソルを置き、「+」ボタンをクリックします。
 
-![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
+![](assets/expression-editor.png){zoomable="yes"}
 
 式の準備が整ったら、「**[!UICONTROL 確認]**」ボタンをクリックします。式は、選択したフィールドに表示されます。編集するには、式エディターを開き、目的の変更を行います。
 
 次の例は、「**[!UICONTROL 値]**」フィールドに設定された式を示しています。編集するには、「**[!UICONTROL 式を編集]**」ボタンを使用して式エディターを開く必要があります。
 
-![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
+![](assets/edit-expression-value.png){zoomable="yes"}
 
 ## ヘルパー関数
 
@@ -93,9 +93,9 @@ ht-degree: 95%
    <td> StdDev(&lt;値&gt;)<br /></td> 
   </tr>
   <tr> 
-   <td> <strong>StringG</strong><br /> </td> 
-   <td> 2 番目の引数の文字で区切られた、文字列型の列の値の連結を返します<br /> </td> 
-   <td> StringAgg （&lt;value&gt;, &lt;string&gt;）<br /></td> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> 文字列タイプの列の値を 2 番目の引数の文字で区切って連結したものを返します<br /> </td> 
+   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -159,7 +159,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>DateCmp</strong><br /> </td> 
    <td> 2 つの日付の比較<br/> </td> 
-   <td> DateCmp （&lt;date&gt;,&lt;date&gt;）<br /> </td>  
+   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -297,14 +297,14 @@ ht-degree: 95%
    <td> ToDateTime(&lt;文字列&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>ToStamp</strong><br /> </td> 
-   <td> 文字列をタイムスタンプに変換します<br /> </td> 
-   <td> ToTimestamp （&lt;string&gt;）<br /> </td>  
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> 文字列をタイムスタンプに変換<br /> </td> 
+   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>ToTimezone</strong><br /> </td> 
-   <td> 日付+時刻をタイムゾーンに変換<br /> </td> 
-   <td> ToTimezone （&lt;date&gt;,&lt;time zone=""&gt;）<br /> </td>  
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> 日付と時刻をタイムゾーンに変換<br /> </td> 
+   <td> ToTimeZone(&lt;date&gt;,&lt;time zone&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -489,8 +489,8 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> 引数に指定された文字列を暗号化<br /> </td> 
-   <td> AESEncrypt （&lt;value&gt;）<br /> </td> 
+   <td> 引数で指定された文字列を暗号化<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -550,7 +550,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>NewUUID</strong><br /> </td> 
    <td> 一意の ID を返します<br /> </td> 
-   <td> NewUUID （）<br /> </td>  
+   <td> NewUUID()<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
@@ -657,9 +657,9 @@ ht-degree: 95%
    <td> Length(&lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>ライン</strong><br /> </td> 
-   <td> 文字列から行 n を抽出します。<br /> </td> 
-   <td> Line （&lt;string&gt;,&lt;number&gt;）<br /></td> 
+   <td> <strong>行</strong><br /> </td> 
+   <td> 文字列から n 行目を抽出<br /> </td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -693,8 +693,8 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>置換</strong><br /> </td> 
-   <td> 指定した文字列値のすべての出現箇所を別の文字列値で置き換えます。<br /> </td> 
-   <td> Replace （&lt;string&gt;,&lt;string&gt;,&lt;string&gt;）<br /></td> 
+   <td> 指定された文字列値のすべての発生を別の文字列値に置き換えます。<br /> </td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 

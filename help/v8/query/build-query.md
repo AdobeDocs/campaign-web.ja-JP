@@ -4,7 +4,7 @@ title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2092'
 ht-degree: 100%
 

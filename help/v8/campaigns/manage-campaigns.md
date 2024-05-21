@@ -4,7 +4,7 @@ title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="キャンペーンのワークフローリスト"
->abstract="「**ワークフロー**」タブには、現在のキャンペーンにリンクされているすべてのワークフローがリストされます。"
+>abstract="「**ワークフロー**」タブには、現在のキャンペーンにリンクされているすべてのワークフローが表示されます。"
 
 キャンペーンリストの「**参照**」タブで、キャンペーン名をクリックして詳細を表示します。
 

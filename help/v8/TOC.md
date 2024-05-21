@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -198,4 +198,4 @@ ht-degree: 99%
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
 + 設定 {#conf}
    + [カスタムフィールドの設定](administration/custom-fields.md)
-+ [Campaign v8 （コンソール）ドキュメント >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
-workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '948'
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 98%
 
 コンテンツテンプレートリストにアクセスするには、左側のパネルから&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューを参照します。
 
-![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list.png){zoomable="yes"}
 
 このダッシュボードには、使用可能なすべてのコンテンツテンプレートがリストとして表示されます。ドロップダウンリストを使用して特定の[フォルダー](../get-started/permissions.md#folders)をフィルタリングしたり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
 
-![](assets/content-template-list-filters.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list-filters.png){zoomable="yes"}
 
 リストから、既存のコンテンツテンプレートを編集、複製または削除できます。コンテンツテンプレートを作成するには、上部のセクションにあるボタンを使用します。
 
@@ -83,11 +83,11 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL テンプレートを作成]**」を選択します。
 
-   ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-create.png){zoomable="yes"}
 
 1. テンプレートのラベルとプロパティを入力します。テンプレートを保存するフォルダーを選択できます。デフォルトでは、コンテンツテンプレートは、Adobe Campaign 階層の専用フォルダー（**[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL テンプレート]**／**[!UICONTROL コンテンツテンプレート]**）に保存されます。フォルダーについて詳しくは、[このページ](../get-started/permissions.md#folders)を参照してください。
 
-   ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-details.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 作成]**」をクリックし、次の様々なオプションからテンプレートのデザイン方法を選択します。
 
@@ -99,7 +99,7 @@ ht-degree: 98%
 
    * 組み込みまたはカスタムテンプレートのリストから既存のコンテンツを使用します。メールでコンテンツテンプレートを使用する手順については、[この節](use-email-templates.md)を参照してください。
 
-   ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-templates.png){zoomable="yes"}
 
 1. E メールデザイナーが表示されます。選択したオプションに従って、他のメールの場合と同じ方法で、必要に応じてコンテンツを編集します。メールデザイナーの使用方法については、[この節](get-started-email-designer.md)をご覧ください。
 
@@ -109,7 +109,7 @@ ht-degree: 98%
 
    必要に応じて、テンプレート名の横にある矢印をクリックして&#x200B;**[!UICONTROL 詳細]**&#x200B;画面に戻り、テンプレートを編集します。
 
-   ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-save-back.png){zoomable="yes"}
 
 このテンプレートは、**[!UICONTROL コンテンツテンプレート]**&#x200B;リストで利用できます。[詳細情報](#access-templates)
 
@@ -125,17 +125,17 @@ ht-degree: 98%
 
 1. ドロップダウンメニューから「**[!UICONTROL コンテンツテンプレートとして保存]**」を選択します。
 
-   ![](assets/email_designer-save-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-save-template.png){zoomable="yes"}
 
 1. このテンプレートの名前を入力して保存します.
 
-   ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-template-name.png){zoomable="yes"}
 
 **[!UICONTROL コンテンツテンプレート]**&#x200B;リストにテンプレートが保存され、表示されます。このテンプレートは、リスト上の他の項目と同様にアクセス、編集、削除できるスタンドアロンのコンテンツテンプレートになります。[詳細情報](#access-manage-templates)
 
 このテンプレートを使用して新しいコンテンツを作成できるようになりました。メールデザイナーの「**[!UICONTROL 保存済みのテンプレート]**」タブで利用できます。[詳細情報](use-email-templates.md)
 
-![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer-saved-template.png){zoomable="yes"}
 
 
 >[!NOTE]
@@ -167,7 +167,7 @@ You can test the rendering of any email content template, whether created from s
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、[メールデザイナー](get-started-email-designer.md)でコンテンツを更新します。
 
-![](assets/content-template-edition.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-edition.png){zoomable="yes"}
 
 >[!NOTE]
 >
