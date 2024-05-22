@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign web ユーザーインターフェイスでの権限管理
 description: Campaign web ユーザーインターフェイスの権限について説明します
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 92%
 
 ---
 
@@ -48,10 +48,7 @@ ht-degree: 100%
 >title="このワークフローは読み取り専用です"
 >abstract="このワークフローを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="このワークフローは読み取り専用です"
->abstract="キャンバスがサポートされていないか、キャンバスに互換性がないので、このワークフローを編集できません。"
+
 
 アクセス制御では、配信、受信者、ワークフローなどのメインリストからのオブジェクトやデータへのアクセスを制限できます。また、これらの制限は、**エクスプローラー**&#x200B;のナビゲーションツリーにも適用されます。さらに、ユーザーインターフェイスからオブジェクトを作成、削除、複製、編集する権限が必要です。
 
@@ -68,11 +65,11 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 1. **エクスプローラー**&#x200B;の左側のナビゲーションメニューからフォルダーを選択します。
 1. 右上隅にある「...」をクリックし、「**フォルダー権限**」を選択します。
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. 次のように、画面で詳細を確認します。
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    グループまたはオペレーターは、選択したフォルダーに保存されているデータに対する読み取り、書き込み、削除の権限を持つことができます。
 
@@ -94,11 +91,17 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 フォルダーを作成するには、次の手順に従います。
 
 1. **エクスプローラー**&#x200B;の左側のナビゲーションメニューからフォルダーを選択します。
-1. 右上隅にある「...」をクリックし、「**新しいサブフォルダーを作成**」を選択します。
-1. フォルダーの名前を入力して保存します。
+1. 右上隅の 3 つのドットをクリックして選択します **新規フォルダーを作成**.
+1. フォルダーの名前を入力します。
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. フォルダータイプを選択します。 デフォルトでは、親フォルダータイプは「配信」が選択されています（この例では）。 フォルダータイプを変更するには、フォルダーアイコンをクリックし、他のタイプを選択します。
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. 「**作成**」をクリックします。
 
    フォルダーは、現在のフォルダーのサブフォルダーとして追加されます。その新しいフォルダーを参照して、そのフォルダーに直接コンポーネントを作成します。また、プロパティの「**その他のオプション**」セクションで、任意のフォルダーからコンポーネントを作成し、その新しいフォルダーに保存することもできます。配信の場合は次のようになります。
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
