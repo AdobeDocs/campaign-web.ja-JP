@@ -1,11 +1,11 @@
 ---
-title: 最新のリリースノート
-description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
+title: Campaign v8 Web ユーザーインターフェイスのリリースノート
+description: 最新の Campaign web ユーザーインターフェイス リリースに含まれる新機能の確認
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
+workflow-type: tm+mt
+source-wordcount: '1461'
+ht-degree: 81%
 
 ---
 
@@ -16,9 +16,45 @@ ht-degree: 100%
 >title="リリースノート"
 >abstract="Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。これにより、Campaign リリースノートは月に数回更新され、最新の機能、改善点、修正が含まれます。定期的に確認することをお勧めします。"
 
-<!--Last update: **March 19, 2024**-->
-
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
+
+## 5 月のリリースノート {#24-5-release}
+
+**リリース日**：2024年5月21日（PT）
+
+5 月のリリース以降、すべてのユーザーが次の機能および改善点を利用できます。
+
+### 監査記録  {#24-5-1}
+
+新しい **監査記録** 機能は、Adobe Campaign インスタンスに対して実行されたすべてのアクションとイベントの詳細な時系列の記録をリアルタイムで提供します。 これは、Campaign データへのすべての変更をトレースできる便利な方法で、ワークフローのステータス、変更する最新の個人、インスタンス内のユーザーが実行したアクティビティなどのクエリに対処します。 [詳細情報](../reporting/audit-trail.md)
+
+### カスタムフィールド {#24-5-2}
+
+**カスタムフィールド**&#x200B;は、Adobe Campaign コンソールを通じて標準スキーマに追加される追加属性です。Campaign web ユーザーインターフェイスでは、これらのカスタムフィールドが、プロファイルやテストプロファイルの詳細など、様々な画面に表示されるようになりました。Web ユーザーインターフェイスでは、カスタムフィールドを作成できませんが、表示方法を変更できるようになりました。[詳細情報](../administration/custom-fields.md)
+
+### テーブル間のリンクの作成 {#24-5-3}
+
+で別のテーブルとのリンクを作成できるようになりました **エンリッチメント** ワークフローアクティビティ。 新しいを使用 **リンク定義** ワークテーブルデータとAdobe Campaign データベースの間のリンクを作成するには、アクティビティのパラメーターの「」セクションを使用します。 例えば、アカウント番号、国、受信者のメールを含むファイルからデータを読み込む場合、国テーブルへのリンクを作成して、プロファイルのこの情報を更新できるようになりました。 [詳細情報](../workflows/activities/enrichment.md#create-links)
+
+<!--
+### Content fragments {#24-5-4}
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
+
+
+### 一般的な改善点 {#improvements-24-5}
+
+* **ダイレクトメール**  – 式エディターを利用して、ダイレクトメール抽出ファイルに表示する属性を選択できるようになりました。 [詳細情報](../direct-mail/content-direct-mail.md)
+
+* **フォルダー管理**  – 親フォルダーとは異なるタイプのサブフォルダーを作成できるようになりました。 [詳細情報](../get-started/permissions.md#folders)
+
+
+<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
+
+* **グローバル化**  – 統一されたユーザーエクスペリエンスを提供するための継続的な取り組みの一環として、Adobe Experience Cloudの製品およびアプリで使用する用語を統一します。 これは、オブジェクトの名前に関連する「Titel」が「Label」に変更されるドイツ語の用語に影響します。 変更は、UI とドキュメントで段階的にロールアウトされます。
+
 
 ## 4月リリースノート {#april-24-4-release}
 
@@ -45,11 +81,6 @@ Android 経由でリッチプッシュ通知を送信できるようになりま
 
 この機能は、**限定提供**（LA）です。
 
-<!--
-* **Audit Trail**
-
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
--->
 
 ### 限定提供の新機能 {#acs-24-4}
 
@@ -91,9 +122,7 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **「分割」アクティビティ**&#x200B;の「母集団が空の場合はトランジションをアクティブ化しない」オプションを使用すると、セグメント結果が空の場合にワークフローを次のアクティビティに移行するかどうかを選択できます。[詳細情報](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**
-* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
--->
+
 
 ## 3月リリースノート {#24-3-release}
 
