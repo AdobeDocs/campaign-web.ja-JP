@@ -3,10 +3,10 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 57%
+source-wordcount: '1300'
+ht-degree: 55%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 57%
 >abstract="エンリッチメントデータをワークフローに追加すると、エンリッチメントアクティビティ後に追加されたアクティビティで使用して、行動、好み、ニーズに基づいて顧客を個別のグループにセグメント化したり、ターゲットオーディエンスの共感を呼ぶ可能性が高いパーソナライズされたマーケティングメッセージとキャンペーンを作成したりできます。"
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="ワークテーブルデータとAdobe Campaign データベースの間にリンクを作成します。 例えば、受信者のアカウント番号、国、メールを含むファイルからデータを読み込む場合、プロファイルでこの情報を更新するには、国テーブルへのリンクを作成する必要があります。"
+>abstract="リンクの定義"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
 >title="エンリッチメントの紐付け"
 >abstract="エンリッチメントの紐付け"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="リンクの定義"
->abstract="単純結合"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
