@@ -3,9 +3,9 @@ audience: end-user
 title: ダイレクトメール配信の作成
 description: Adobe Campaign web を使用してダイレクトメール配信を作成する方法について説明します。
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '460'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 配信を作成]**」ボタンをクリックして、確定します。
 
-   ![](assets/dm-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-create.png){zoomable="yes"}
 
 1. 配信の&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力し、**[!UICONTROL その他のオプション]**&#x200B;ドロップダウンにアクセスします。配信が拡張スキーマに基づいている場合は、特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。
 
-   ![](assets/dm-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-properties.png){zoomable="yes"}
 
    +++要件に基づいて次の設定を行います。
    * **[!UICONTROL 内部名]**：配信に一意の ID を割り当てます。
@@ -41,7 +41,7 @@ ht-degree: 100%
    * [既存のオーディエンスの選択方法について説明します。](../audience/add-audience.md)
    * [新規のオーディエンスの作成方法について説明します。](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、抽出ファイルに書き出す情報（列）を定義します。[詳細情報](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content.png){zoomable="yes"}
 
-1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、抽出ファイルが定義した正確な日時に自動的に生成されます。[詳しくは、配信をスケジュールする方法を参照してください](../msg/gs-messages.md#gs-schedule)。
+1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、抽出ファイルが定義した正確な日時に自動的に生成されます。[詳しくは、配信をスケジュールする方法を参照してください](../msg/gs-deliveries.md#gs-schedule)。
 
    >[!NOTE]
    >
@@ -61,6 +61,6 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 設定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-settings.png){zoomable="yes"}
 
 1. ダイレクトメール配信の準備が整ったら、「**[!UICONTROL 確認して送信]**」ボタンをクリックして、配信を検証して送信し、抽出ファイルを生成します。[詳しくは、ダイレクトメール配信をプレビューおよび送信する方法を参照してください。](send-direct-mail.md)

@@ -3,9 +3,9 @@ audience: end-user
 title: SMS 配信を作成
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '498'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 配信を作成]**」ボタンをクリックして、確定します。
 
-   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_1.png){zoomable="yes"}
 
 1. 配信の&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力し、**[!UICONTROL その他のオプション]**&#x200B;ドロップダウンにアクセスします。配信が拡張スキーマに基づいている場合は、特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、既存のオーディエンスをターゲットにするか、独自のユーザーを作成します。[詳しくは、オーディエンスを参照してください](../audience/about-recipients.md)。
 
-   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_2.png){zoomable="yes"}
 
    既存のオーディエンスを選択する方法については、[このページ](../audience/add-audience.md)を参照してください
 
@@ -65,11 +65,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL コンテンツの編集]**」をクリックして、SMS メッセージのコンテンツのデザインを開始します。[詳細情報](content-sms.md)
 
-   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_4.png){zoomable="yes"}
 
    この画面から、[コンテンツをシミュレート](../preview-test/preview-test.md)したり、[オファーを設定](../msg/offers.md)したりすることもできます。
 
-1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#gs-schedule)を参照してください。
+1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。配信スケジュールについて詳しくは、[この節](../msg/gs-deliveries.md#gs-schedule)を参照してください。
 
    >[!NOTE]
    >
@@ -77,4 +77,4 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 設定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_create_3.png){zoomable="yes"}

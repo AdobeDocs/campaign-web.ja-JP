@@ -3,9 +3,9 @@ audience: end-user
 title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 配信を作成]**」ボタンをクリックして、確定します。
 
-   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_1.png){zoomable="yes"}
 
 ## 配信設定の指定 {#configure-push-settings}
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL オーディエンス]**」セクションで、この配信に使用するアプリケーションを選択します。デフォルトでは、プッシュ通知はアプリケーションのすべてのサブスクライバーに送信されます。「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックすると、特定のオーディエンスに絞り込むことができます。
 
-   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_2.png){zoomable="yes"}
 
 1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。プッシュ通知の場合、デフォルトの[ターゲットディメンション](../audience/about-recipients.md#targeting-dimensions)は&#x200B;**サブスクライバーのアプリケーション**（nms:appSubscriptionRcp）であり、受信者のテーブルにリンクされています。
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 通知のコンテンツを定義するには、「**[!UICONTROL コンテンツを編集]**」をクリックします。[詳細情報](content-push.md)
 
-![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_5.png){zoomable="yes"}
 
 この画面から、[コンテンツをシミュレート](../preview-test/preview-test.md)したり、[オファーを設定](../msg/offers.md)したりすることもできます。
 
@@ -100,12 +100,12 @@ ht-degree: 100%
 
 配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。
 
-![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_3.png){zoomable="yes"}
 
-配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#gs-schedule)を参照してください
+配信スケジュールについて詳しくは、[この節](../msg/gs-deliveries.md#gs-schedule)を参照してください
 
 ## 配信の詳細設定 {#adv-push}
 
 「**[!UICONTROL 配信設定を指定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_4.png){zoomable="yes"}

@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '701'
 ht-degree: 99%
 
 ---
@@ -64,6 +64,7 @@ ht-degree: 99%
          + [メールの準備と送信](monitor/prepare-send.md)
          + [複数のウェーブを使用して送信](advanced-settings/send-using-waves.md)
          + [配信ログの監視](monitor/delivery-logs.md)
+         + [配信の送信スケジュール設定](monitor/schedule-sending.md)
    + プッシュ通知 {#push}
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
       + [プッシュ通知配信を作成](push/create-push.md)
