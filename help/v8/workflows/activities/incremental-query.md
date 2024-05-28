@@ -4,7 +4,7 @@ title: 増分クエリワークフローアクティビティの使用
 description: 増分クエリワークフローアクティビティの使用方法を学ぶ
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
 ht-degree: 100%
 

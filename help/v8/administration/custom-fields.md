@@ -3,9 +3,9 @@ title: カスタムフィールド
 description: カスタムフィールドの設定方法について説明します
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="カスタムフィールド"
->abstract="カスタムフィールドは、Adobe Campaign コンソールからすぐに使えるスキーマに追加されている属性です。Web ユーザーインターフェイスで使用できるようになりました。"
+>abstract="カスタムフィールドは、Adobe Campaign コンソールからすぐに使えるスキーマに追加されている属性です。これらは、web ユーザーインターフェイスで利用できるようになりました。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 

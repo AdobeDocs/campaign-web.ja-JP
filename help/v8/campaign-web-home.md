@@ -4,9 +4,9 @@ description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
->[!TAB 5 月リリースが公開されました。]
+>[!TAB 5月リリースが公開されました。]
 
 Adobe Campaign web ユーザーインターフェイス 24.4 リリースの新機能と改善点について説明します。
 
@@ -59,19 +59,19 @@ Adobe Campaign web ユーザーインターフェイス 24.4 リリースの新�
 
 >[!TAB 監査記録]
 
-新しい監査記録機能は、Adobe Campaign インスタンスに対して実行されたすべてのアクションとイベントの詳細な時系列の記録をリアルタイムで提供します。
+新しい監査証跡機能では、Adobe Campaign インスタンスに対して行われたすべてのアクションとイベントの詳細かつ時系列の記録がリアルタイムで提供されます。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
 >[!TAB カスタムフィールド]
 
-カスタムフィールドは、Adobe Campaign コンソールからすぐに使えるスキーマに追加されている属性です。Web ユーザーインターフェイスで使用できるようになりました。
+カスタムフィールドは、Adobe Campaign コンソールからすぐに使えるスキーマに追加されている属性です。これらは、web ユーザーインターフェイスで利用できるようになりました。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
 
->[!TAB テーブルをリンク]
+>[!TAB テーブルをリンクする]
 
-エンリッチメントワークフローアクティビティで、ワークテーブルデータとAdobe Campaign データベースの間にリンクを作成できるようになりました。
+エンリッチメントワークフローアクティビティで、作業テーブルデータと Adobe Campaign データベース間のリンクを作成できるようになりました。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 

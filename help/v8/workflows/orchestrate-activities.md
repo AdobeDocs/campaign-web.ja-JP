@@ -4,9 +4,9 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 98%
 
 ## 実行オプション {#execution}
 
-すべてのアクティビティで、実行オプションを管理できます。アクティビティを選択し、「**実行オプション**」ボタンをクリックします。これにより、アクティビティの実行モードと、エラーが発生した場合の動作を定義できます。
+すべてのアクティビティで、実行オプションを管理できます。アクティビティを選択し、「**実行オプション**」ボタンをクリックします。これにより、アクティビティの実行モードとエラー時の動作を定義できます。
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 

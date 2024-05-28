@@ -4,9 +4,9 @@ title: ダイレクトメール配信のデザイン
 description: Adobe Campaign web を使用したダイレクトメール配信のデザイン方法について説明します。
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 96%
 「**[!UICONTROL コンテンツ]**」セクションで、抽出ファイルに表示する列を指定します。これを行うには、次の手順に従います。
 
 1. 「**[!UICONTROL 属性を追加]**」ボタンをクリックして、新しい列を作成します。
-1. 列に表示する属性を選択し、確定します。式エディターを利用して、をクリックすることで使用する属性を選択できます。 **[!UICONTROL 式を編集]** ボタン。
+1. 列に表示する属性を選択し、確定します。「**[!UICONTROL 式を編集]**」ボタンをクリックすると、式エディターを活用して、使用する属性を選択できます。
 
    ![](assets/dm-add-attribute.png)
 
