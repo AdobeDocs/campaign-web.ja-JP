@@ -4,7 +4,7 @@ title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
 
