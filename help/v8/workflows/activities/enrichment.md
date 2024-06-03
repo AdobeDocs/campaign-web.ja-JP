@@ -3,7 +3,7 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
+source-git-commit: 26c51246755ee409b586fcfe2ced61fd0ed536a0
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 99%
@@ -24,8 +24,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="ワークテーブルデータとAdobe Campaign データベースの間にリンクを作成します。 例えば、受信者のアカウント番号、国および メールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。"
->abstract="リンクの定義"
+>title="リンクの定義"
+>abstract="ワークテーブルデータとAdobe Campaign データベースの間にリンクを作成します。 例えば、受信者のアカウント番号、国および メールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
