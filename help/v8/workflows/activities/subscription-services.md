@@ -3,9 +3,9 @@ audience: end-user
 title: 購読サービスアクティビティの使用
 description: 購読サービスのワークフローアクティビティの使用方法について説明します
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
+source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 100%
 >id="acw_orchestration_subscription_outboundtransition"
 >title="アウトバウンドトランジションを生成"
 >abstract="「**アウトバウンドトランジションを生成**」オプションを切り替えて、アクティビティの後にトランジションを追加します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="追加情報"
+>abstract="追加情報"
 
 **購読サービス**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティです。このアクティビティでは、トランジションで指定された母集団の情報サービスを購読または購読解除できます。
 
