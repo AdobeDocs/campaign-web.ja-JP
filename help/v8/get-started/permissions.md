@@ -6,7 +6,7 @@ exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -84,8 +84,8 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_properties"
->title="フォルダーのプロパティ"
->abstract="フォルダーのプロパティ"
+>title="フォルダープロパティ"
+>abstract="フォルダープロパティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_security"
@@ -94,8 +94,8 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
->title="フォルダーの制限"
->abstract="フォルダーの制限"
+>title="フォルダー制限"
+>abstract="フォルダー制限"
 
 >[!CONTEXTUALHELP]
 >id="acw_folder_schedule"

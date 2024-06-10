@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="リンクの定義"
->abstract="ワークテーブルデータとAdobe Campaign データベースの間にリンクを作成します。 例えば、受信者のアカウント番号、国および メールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。"
+>abstract="作業テーブルデータと Adobe Campaign データベースの間にリンクを作成します。例えば、受信者のアカウント番号、国および メールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
