@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
+source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
 workflow-type: tm+mt
-source-wordcount: '1646'
-ht-degree: 100%
+source-wordcount: '1673'
+ht-degree: 98%
 
 ---
 
@@ -357,6 +357,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_defaultlp"
 >title="デフォルトのランディングページ"
 >abstract="この購読サービスに関連付けられたデフォルトのランディングページを選択します。"
+
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="配信アラート基準パラメーター"
 >abstract="配信アラート"
@@ -375,6 +377,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="配信アラートダッシュボードを作成"
 >abstract="配信アラートダッシュボードを作成"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="アラート条件の作成"
+>abstract="独自の配信フィルターを作成するには、Campaign v8 コンソールで以下から新しい定義済みフィルターを作成します。 **管理** > **設定** > **定義済みフィルター** ノード。"
 
 <!-- IDs -->
 
