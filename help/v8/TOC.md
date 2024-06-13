@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
-workflow-type: ht
-source-wordcount: '701'
+source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+workflow-type: tm+mt
+source-wordcount: '704'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 100%
 + [Adobe Campaign web ユーザーインターフェイスドキュメント](campaign-web-home.md)
 + リリースノート {#release-notes}
    + [新機能](rn/whats-new.md)
+   + [早期リリースノート](rn/e-release-notes.md)
    + [最新リリース](rn/release-notes.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の基本を学ぶ {#start}
