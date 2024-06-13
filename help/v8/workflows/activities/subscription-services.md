@@ -4,7 +4,7 @@ title: 購読サービスアクティビティの使用
 description: 購読サービスのワークフローアクティビティの使用方法について説明します
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '598'
 ht-degree: 100%
 

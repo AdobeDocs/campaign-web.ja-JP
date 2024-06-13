@@ -4,7 +4,7 @@ title: メールの準備と送信
 description: Campaign web ユーザーインターフェイスでのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '891'
 ht-degree: 100%
 

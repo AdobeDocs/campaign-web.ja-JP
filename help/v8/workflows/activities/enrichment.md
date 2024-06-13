@@ -4,7 +4,7 @@ title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1300'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="リンクの定義"
->abstract="作業テーブルデータと Adobe Campaign データベースの間にリンクを作成します。例えば、受信者のアカウント番号、国および メールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。"
+>abstract="作業用テーブルデータと Adobe Campaign データベース間のリンクを作成します。例えば、受信者のアカウント番号、国およびメールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
@@ -83,7 +83,7 @@ ht-degree: 100%
 >abstract="エンリッチメントワークフローアクティビティで、作業テーブルデータと Adobe Campaign データベース間のリンクを作成できるようになりました。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
-「**[!UICONTROL リンクの定義]**」セクションでは、作業用テーブルデータと Adobe Campaign データベース間のリンクを作成できます。例えば、受信者のアカウント番号、国および メールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。
+「**[!UICONTROL リンクの定義]**」セクションでは、作業用テーブルデータと Adobe Campaign データベース間のリンクを作成できます。例えば、受信者のアカウント番号、国およびメールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。
 
 使用可能なリンクには、次のいくつかのタイプがあります。
 
