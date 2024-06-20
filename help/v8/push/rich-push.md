@@ -3,22 +3,15 @@ audience: end-user
 title: リッチプッシュ通知配信の設計
 description: Adobe Campaign web を使用した Android のリッチプッシュ通知配信の設計方法について説明します。
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1420'
 ht-degree: 100%
 
 ---
 
 # Android のリッチプッシュ配信の設計 {#rich-push}
 
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="リッチプッシュ配信"
->abstract="Android 経由でリッチプッシュ通知を送信できるようになりました。現時点では、この機能は限定提供です。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"

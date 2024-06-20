@@ -3,7 +3,8 @@ product: campaign
 title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
@@ -13,7 +14,7 @@ ht-degree: 100%
 # 監査記録{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn5"
 >title="監査記録"
 >abstract="新しい監査証跡機能では、Adobe Campaign インスタンスに対して行われたすべてのアクションとイベントの詳細かつ時系列の記録がリアルタイムで提供されます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
@@ -100,4 +101,3 @@ Adobe Campaign web ユーザーインターフェイスで、**[!UICONTROL 監�
    コードブロックには、エンティティ内で正確に何が変更されたかについての詳細情報が表示されます。
 
    ![](assets/audit-trail-2.png)
-

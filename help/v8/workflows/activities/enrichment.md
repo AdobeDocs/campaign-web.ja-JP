@@ -3,10 +3,10 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 75%
+source-wordcount: '1681'
+ht-degree: 73%
 
 ---
 
@@ -77,12 +77,6 @@ ht-degree: 75%
 
 ## テーブル間のリンクの作成 {#create-links}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="テーブル間のリンク"
->abstract="エンリッチメントワークフローアクティビティで、作業テーブルデータと Adobe Campaign データベース間のリンクを作成できるようになりました。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
-
 「**[!UICONTROL リンクの定義]**」セクションでは、作業用テーブルデータと Adobe Campaign データベース間のリンクを作成できます。例えば、受信者のアカウント番号、国およびメールが含まれるファイルからデータを読み込む場合、プロファイル内の情報を更新するために国テーブルへのリンクを作成する必要があります。
 
 使用可能なリンクには、次のいくつかのタイプがあります。
@@ -112,6 +106,14 @@ ht-degree: 75%
 リンクを使用したワークフローの例は、[例](#link-example)の節にあります。
 
 ## データの紐付け {#reconciliation}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="データの紐付け"
+>abstract="ワークフローエンリッチメント アクティビティを使用して、Campaign データベーススキーマからのデータを別のスキーマからのデータや、一時スキーマからのデータ（ファイルを読み込みアクティビティを使用してアップロードされたデータなど）と紐付けることができるようになりました。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
+
 
 この **エンリッチメント** アクティビティを使用すると、Campaign データベーススキーマからのデータを別のスキーマからのデータや、一時スキーマからのデータ（ファイルの読み込みアクティビティを使用してアップロードされたデータなど）と紐付けることができます。 このタイプのリンクは、一意のレコードに対する紐付けを定義します。 Adobe Campaignは、一意のレコードへの参照を格納する外部キーをテーブルに追加することで、ターゲットテーブルへのリンクを作成します。
 
