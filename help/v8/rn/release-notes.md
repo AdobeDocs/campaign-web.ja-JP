@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
-workflow-type: ht
-source-wordcount: '1461'
-ht-degree: 100%
+source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
+workflow-type: tm+mt
+source-wordcount: '1623'
+ht-degree: 90%
 
 ---
 
@@ -17,6 +17,32 @@ ht-degree: 100%
 >abstract="Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。これにより、Campaign リリースノートは月に数回更新され、最新の機能、改善点、修正が含まれます。定期的に確認することをお勧めします。"
 
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
+
+## 6 月リリースノート {#24-6-release}
+
+**リリース日**:2024 年 6 月 18～19 日
+
+6 月リリース以降、すべてのユーザーが次の機能および機能強化を利用できるようになります。
+<!--
+### Visual fragments {#24-6-1}
+
+You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+
+### Seed lists {#24-6-2}
+
+A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
+
+### 配信アラート {#24-6-3}
+
+配信アラート機能は、ユーザーのグループが配信の実行に関する情報を含んだ通知を自動的に受信できるようにするアラート管理システムです。 [詳細情報](../msg/delivery-alerting.md)
+
+### プランとプログラム {#24-6-4}
+
+これで、キャンペーンを整理するプランとプログラムを作成できます。 フォルダー階層を定義すると、キャンペーンをプログラムに、プログラムをプランに整理できます。 [詳細情報](../administration/plans-programs.md)
+
+### 改善点 {#improvements-24-6}
+
+* **エンリッチメントアクティビティでの紐付け**: エンリッチメント アクティビティを使用して、Campaign データベーススキーマからのデータを別のスキーマからのデータや、一時スキーマからのデータ（ファイルを読み込みアクティビティを使用してアップロードされたデータなど）と紐付けることができるようになりました。 例えば、このオプションを使用して、アップロードされたファイルで指定されたプロファイルの国を、Campaign データベースの専用テーブルで使用できる国の 1 つと紐付けることができます。 [詳細情報](../workflows/activities/enrichment.md)
 
 ## 5月リリースノート {#24-5-release}
 
