@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 100%
+source-wordcount: '725'
+ht-degree: 97%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 100%
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
       + [本配信前確認の送信](preview-test/test-deliveries.md)
       + [メールのレンダリングのテスト](preview-test/email-rendering.md)
+   + 配信アラート {#delivery-alerting}
+      + [配信アラートの基本を学ぶ](msg/delivery-alerting.md)
+      + [配信アラートダッシュボード](msg/delivery-alerting-dashboards.md)
+      + [配信アラート基準](msg/delivery-alerting-criteria.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
    + [ランディングページの作成と公開](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 100%
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
    + [キャンペーンへのアクセスと管理](campaigns/manage-campaigns.md)
    + [最初のキャンペーンを作成](campaigns/create-campaigns.md)
+   + [プランとプログラム](administration/plans-programs.md)
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
    + [ガードレールと制限](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 100%
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
 + 設定 {#conf}
    + [カスタムフィールドの設定](administration/custom-fields.md)
+   + [フォルダーの作成と管理](administration/create-manage-folder.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

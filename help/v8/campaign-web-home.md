@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 89%
 
 ---
 
@@ -51,29 +51,24 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
->[!TAB 5月リリースが公開されました。]
+>[!TAB 6 月リリースを公開]
 
-Adobe Campaign web ユーザーインターフェイス 24.4 リリースの新機能と改善点について説明します。
+Adobe Campaign web ユーザーインターフェイス 24.6 リリースの新機能と改善点について説明します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 監査記録]
+>[!TAB 配信アラート]
 
-新しい監査証跡機能では、Adobe Campaign インスタンスに対して行われたすべてのアクションとイベントの詳細かつ時系列の記録がリアルタイムで提供されます。
+配信アラートは、ユーザーのグループが配信実行に関する情報を含んだメール通知を自動的に受信できるようにするアラート管理システムです。
 
-[![画像](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
+[![画像](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB カスタムフィールド]
+>[!TAB プランとプログラム]
 
-カスタムフィールドは、Adobe Campaign コンソールからすぐに使えるスキーマに追加されている属性です。これらは、web ユーザーインターフェイスで利用できるようになりました。
+Adobe Campaignでは、マーケティングプランおよびプログラムのフォルダー階層を設定できます。
 
-[![画像](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![画像](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
->[!TAB テーブルをリンクする]
-
-エンリッチメントワークフローアクティビティで、作業テーブルデータと Adobe Campaign データベース間のリンクを作成できるようになりました。
-
-[![画像](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 

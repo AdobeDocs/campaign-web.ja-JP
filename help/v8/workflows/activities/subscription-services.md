@@ -3,14 +3,14 @@ audience: end-user
 title: 購読サービスアクティビティの使用
 description: 購読サービスのワークフローアクティビティの使用方法について説明します
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
-workflow-type: ht
-source-wordcount: '598'
-ht-degree: 100%
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+workflow-type: tm+mt
+source-wordcount: '972'
+ht-degree: 86%
 
 ---
 
-# 購読サービス {#subscriptipon-services}
+# 購読サービス {#subscription-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -56,9 +56,11 @@ ht-degree: 100%
 
    * **インバウンドトランジションのパスから操作タイプを選択**：各レコードに対して実行する操作を指定するインバウンドデータの列を選択します。例えば、「操作」列の行ごとに実行する操作を指定したファイルを読み込むことができます。
 
-     >[!NOTE]
+     ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を含むデータが、この形式と一致することを確認します。例えば、ファイルを読み込みアクティビティからデータを読み込む場合は、**[!UICONTROL ファイルを読み込み]**&#x200B;アクティビティで操作を含む列の形式が正しく設定されていることを確認します。例について詳しくは、[この節](#uc2)を参照ください。
+
+     >[!CAUTION]
      >
-     >ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を含むデータが、この形式と一致することを確認します。例えば、ファイルを読み込みアクティビティからデータを読み込む場合は、**[!UICONTROL ファイルを読み込み]**&#x200B;アクティビティで操作を含む列の形式が正しく設定されていることを確認します。例について詳しくは、[この節](#uc2)を参照ください。
+     >デフォルトでは、このオプションを選択すると、 **購読サービス** アクティビティは、へのリンク定義があることを想定しています **サービス（nms）** ワークフローで設定されたテーブル。 それには、で紐付けリンクが設定されていることを確認してください。 **エンリッチメントアクティビティ** ワークフロー内で上方に移動します。 このオプションの使用方法を示す例を利用できます [こちら](#uc2).
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
@@ -86,14 +88,13 @@ ht-degree: 100%
 
 * **[!UICONTROL 購読サービス]**&#x200B;アクティビティでは、プロファイルを購読登録する必要があるサービスを選択できます。
 
-<!--
-### Updating multiple subscription statuses from a file {#uc2}
+### ファイルからの複数の購読ステータスの更新 {#uc2}
 
-The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
+以下のワークフローは、プロファイルを含むファイルを読み込んで、ファイルで指定されたいくつかのサービスにプロファイルの購読登録先を更新する方法を示します。
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Load file]** activity loads a CSV file containing the data and defines the structure of the imported columns. The "service" and "operation" columns specify the service to update and the operation to perform (subscription or unsubscription).
+* **[!UICONTROL ファイルを読み込み]**&#x200B;アクティビティでは、データを含む CSV ファイルを読み込んで、読み込んだ列の構造を定義します。「サービス」列と「操作」列では、更新するサービスと実行する操作（購読または購読解除）を指定します。
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -104,26 +105,24 @@ The workflow below shows how to import a file containing profiles and update the
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement, a remapping of values must be performed in the detail of the "operation" column in the sample file configuration screen.
+  この操作は、ファイル内で「sub」または「unsub」と指定されています。実行する操作を認識するために、**ブール値**&#x200B;または&#x200B;**整数**&#x200B;値が必要です。「0」が購読登録解除、「1」が購読登録です。この要件を満たすには、次の手順に従います。
+   * この **データタイプ** 「operation」列は integer に設定されます。
+   * A **値の再マッピング** 「sub」と「unsub」の値を「1」と「0」の値と一致させるために実行する必要があります。
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  If your file already uses "0" and "1" to identify the operation, you don't need to remap those values. Only make sure that the column is processed as a **Boolean** or **Integer** in the sample file columns.
+  「0」と「1」が既に操作の識別に使用されているファイルでは、再マッピングの必要はありません。サンプルファイル列で列が&#x200B;**ブール値**&#x200B;または&#x200B;**整数**&#x200B;として処理されていることを確認するだけです。
 
-* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. The **email** field of the file is matched to the **email** field of the profile resource.
+* **[!UICONTROL 紐付け]**&#x200B;アクティビティでは、Adobe Campaign データベースのプロファイルディメンションに属するものとして、ファイルのデータが識別されます。ファイルの「**メール**」フィールドは、プロファイルリソースの「**メール**」フィールドと照合されます。
+
+  ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
+
+* An **[!UICONTROL エンリッチメント]** アクティビティは、アップロードされたファイルの「サービス」列とデータベースの「サービスの内部名」フィールドを単純に結合して、「サービス （nms）」テーブルへの紐付けリンクを作成します。
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* An **[!UICONTROL Enrichment]** activity creates a link to the "Services (nms)" table and creates a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
+* A **[!UICONTROL 購読サービス]** トランジションから取得されたものとして更新するサービスを識別します。
 
-    ![](../assets/workflow-subscription-service-uc2-enrichment.png)
+  **[!UICONTROL 操作のタイプ]**&#x200B;は、ファイルの「**操作**」フィールドに由来するものとして識別されます。ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を含むファイル列がリストに表示されない場合は、前述のように、**[!UICONTROL ファイル読み込み]**&#x200B;アクティビティで列の形式が正しく設定されていることを確認してください。
 
-* A **[!UICONTROL Deduplication]** based on the **email** field identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
-
-  ![](../assets/workflow-subscription-service-uc2-dedup.png)
-  
-* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
-
-  The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
-
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)

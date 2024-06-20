@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 178d17b81db4ee3f3a445812ac1af6e5f9adbc57
+source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 98%
+source-wordcount: '1555'
+ht-degree: 100%
 
 ---
 
@@ -310,73 +310,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="実行初期化スクリプト"
 >abstract="実行初期化スクリプト"
-
-<!-- Delivery alerting -->
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria"
->title="配信アラート基準ダッシュボード"
->abstract="配信アラート基準ダッシュボード"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboards"
->title="配信アラートダッシュボード"
->abstract="配信アラートダッシュボード"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create"
->title="配信アラート基準を作成"
->abstract="配信アラート基準を作成"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_indicators"
->title="アラートに追加するインジケーター"
->abstract="アラートに追加するインジケーター"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_alert"
->title="アラートタイプ"
->abstract="アラートタイプ"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_criteria_create_frequency"
->title="基準頻度"
->abstract="基準頻度"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_add"
->title="配信アラート基準"
->abstract="配信アラート基準"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_general"
->title="配信アラート一般パラメーター"
->abstract="配信アラート"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_create_criteria_parameters"
->title="配信アラート基準パラメーター"
->abstract="配信アラート"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_alerts"
->title="送信された配信アラート"
->abstract="送信された配信アラート"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_history"
->title="配信アラート履歴"
->abstract="配信アラート履歴"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_dashboard_create"
->title="配信アラートダッシュボードを作成"
->abstract="配信アラートダッシュボードを作成"
-
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="アラート条件の作成"
->abstract="独自の配信フィルターを作成するには、Campaign v8 コンソールで以下から新しい定義済みフィルターを作成します。 **管理** > **設定** > **定義済みフィルター** ノード。"
 
 <!-- IDs -->
 
