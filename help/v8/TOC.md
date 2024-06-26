@@ -8,7 +8,7 @@ breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 97%
             + [ビジュアルフラグメントの操作](email/fragments.md)
             + [メールへのビジュアルフラグメントの追加](email/use-visual-fragments.md)
          + メールの作成を開始 {#start-design}
-            + [メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
+            + [E メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
             + [ゼロから開始](email/create-email-content.md)
             + [メールコンテンツの読み込み](email/existing-content.md)
             + [独自コンテンツのコーディング](email/code-content.md)
@@ -103,7 +103,7 @@ ht-degree: 97%
    + 配信アラート {#delivery-alerting}
       + [配信アラートの基本を学ぶ](msg/delivery-alerting.md)
       + [配信アラートダッシュボード](msg/delivery-alerting-dashboards.md)
-      + [配信アラート基準](msg/delivery-alerting-criteria.md)
+      + [配信アラート条件](msg/delivery-alerting-criteria.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
    + [ランディングページの作成と公開](landing-pages/create-lp.md)
