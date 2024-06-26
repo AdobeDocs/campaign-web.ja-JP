@@ -1,33 +1,34 @@
 ---
 audience: end-user
 title: フォルダーの作成と管理
-description: Adobe Campaignでフォルダーを作成および管理する方法について説明します
-source-git-commit: 2e3262393f6339fe3c6211c10116255ee614ec31
-workflow-type: tm+mt
+description: Adobe Campaign でフォルダーを作成および管理する方法について説明します
+exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
+source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # フォルダーの作成と管理
 
-Adobe Campaignでは、新しいフォルダーを作成してナビゲーションツリーを管理できます。 対象： **[!UICONTROL エクスプローラー]**&#x200B;新規フォルダーを作成するフォルダーに移動します。
+Adobe Campaign では、ナビゲーションツリーを管理するための新しいフォルダーを作成できます。**[!UICONTROL エクスプローラー]**&#x200B;で、新しいフォルダーを作成するフォルダーに移動します。
 
-の下 **[!UICONTROL ...]** ボタンが表示されます **[!UICONTROL 新規フォルダーを作成]**
+「**[!UICONTROL …]**」ボタンの下に、**[!UICONTROL 新しいフォルダーを作成]**&#x200B;があります。
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-新しいフォルダーを作成する場合、デフォルトでは、フォルダータイプはフォルダーの親のタイプになります。
-この例では、にフォルダーを作成します **[!UICONTROL 配信]** フォルダー。
+新しいフォルダーを作成すると、デフォルトでは、フォルダータイプはフォルダーの親のタイプになります。
+この例では、**[!UICONTROL 配信]**&#x200B;フォルダー内にフォルダーを作成します。
 
 ![](assets/folder_new.png){zoomable="yes"}
 
-フォルダータイプのアイコンをクリックして、フォルダーのタイプを変更し、表示されるリストで選択できます。
+フォルダータイプのアイコンをクリックすると、フォルダーのタイプを変更し、次に示すリストで選択できます。
 
 ![](assets/folder_type.png){zoomable="yes"}
 
-「」をクリックすると、フォルダータイプを設定できます。 **[!UICONTROL 確認]** ボタン。
+「**[!UICONTROL 確認]**」ボタンをクリックして、フォルダータイプを設定します。
 
-特定のタイプを持たないフォルダーを作成する場合は、 **[!UICONTROL 汎用フォルダー]** タイプ。
+特定のタイプのないフォルダーを作成する場合は、「**[!UICONTROL 汎用フォルダー]**」タイプを選択します。
 
-Adobe Campaign コンソールでは、フォルダーの作成と管理のプロセスについて説明します [こちら](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views)を選択して、フォルダーに対する権限を設定できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Adobe Campaign コンソールでは、[こちら](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views)で説明するフォルダーの作成と管理のプロセスがあり、フォルダーの権限を設定することができます。[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)

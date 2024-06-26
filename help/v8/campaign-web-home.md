@@ -4,9 +4,9 @@ description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="項目 4"
->abstract="次世代クエリモデラーおよびメールデザイナー"
+>abstract="次世代クエリモデラーおよび E メールデザイナー"
 
 
 新しいバージョンの Adobe Campaign Web ユーザーインターフェイスを導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された、直感的な機能が組み込まれています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性をもたらします。
@@ -51,7 +51,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
->[!TAB 6 月リリースを公開]
+>[!TAB 6月リリースを公開]
 
 Adobe Campaign web ユーザーインターフェイス 24.6 リリースの新機能と改善点について説明します。
 
@@ -59,13 +59,13 @@ Adobe Campaign web ユーザーインターフェイス 24.6 リリースの新�
 
 >[!TAB 配信アラート]
 
-配信アラートは、ユーザーのグループが配信実行に関する情報を含んだメール通知を自動的に受信できるようにするアラート管理システムです。
+配信アラートは、ユーザーのグループが配信実行に関する情報を含むメール通知を自動的に受信できるようにする、アラート管理システムです。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
 >[!TAB プランとプログラム]
 
-Adobe Campaignでは、マーケティングプランおよびプログラムのフォルダー階層を設定できます。
+Adobe Campaign では、マーケティングのプランとプログラムに関するフォルダー階層構造を設定できます。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
@@ -86,7 +86,7 @@ Adobe Campaignでは、マーケティングプランおよびプログラムの
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>メールデザイナーへの対応</strong><br/>テンプレートから開始するか、Adobe Campaign の新しいメールデザイナーを使用して、コードを 1 行も記述しなくてもメールを作成する方法について説明します。
+    <div><strong>E メールデザイナーへの対応</strong><br/>テンプレートから開始するか、Adobe Campaign の新しい E メールデザイナーを使用して、コードを 1 行も記述しなくてもメールを作成する方法について説明します。
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
