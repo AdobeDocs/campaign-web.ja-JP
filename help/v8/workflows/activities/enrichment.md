@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="データの紐付け"
->abstract="ワークフローエンリッチメント アクティビティを使用して、Campaign データベーススキーマからのデータを別のスキーマからのデータや、一時スキーマからのデータ（ファイルを読み込みアクティビティを使用してアップロードされたデータなど）と紐付けることができるようになりました。"
+>abstract="ワークフローエンリッチメントアクティビティを使用して、Campaign データベーススキーマのデータと別のスキーマのデータや、「ファイルを読み込み」アクティビティを使用してアップロードされたデータなどの一時スキーマのデータを紐付けることができるようになりました。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 
