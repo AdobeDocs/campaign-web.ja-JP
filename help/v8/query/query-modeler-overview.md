@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーの操作
 description: Adobe Campaign Web クエリモデラーの操作方法について説明します。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 100%
+source-wordcount: '558'
+ht-degree: 98%
 
 ---
 
@@ -32,18 +32,18 @@ Adobe Campaign Web ユーザーインターフェイスには、様々な基準�
 
 | 使用状況 | 例 |
 |  ---  |  ---  |
-| **オーディエンスの定義**：メッセージやワークフローでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。[詳しくは、オーディエンスの作成方法を参照してください。](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、**分割**&#x200B;や&#x200B;**紐付け**&#x200B;などのワークフローアクティビティ内にルールを適用します。[詳しくは、ワークフローアクティビティを参照してください。](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作中にショートカットとして機能する定義済みフィルターを作成します。[詳しくは、定義済みフィルターの操作方法を参照してください。](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **レポートデータのフィルタリング**：レポートに表示されるデータをフィルタリングするルールを追加します。[詳しくは、レポートの操作方法を参照してください。](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **リストのカスタマイズ**：受信者、配信リストなどのリストに表示されるデータをフィルタリングするカスタムルールを作成します。[詳しくは、リストをフィルターする方法を参照してください。](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **オーディエンスの定義**：メッセージやワークフローでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。[詳しくは、オーディエンスの作成方法を参照してください。](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、**分割**&#x200B;や&#x200B;**紐付け**&#x200B;などのワークフローアクティビティ内にルールを適用します。[詳しくは、ワークフローアクティビティを参照してください。](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作中にショートカットとして機能する定義済みフィルターを作成します。[詳しくは、定義済みフィルターの操作方法を参照してください。](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **レポートデータのフィルタリング**：レポートに表示されるデータをフィルタリングするルールを追加します。[詳しくは、レポートの操作方法を参照してください。](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **リストのカスタマイズ**：受信者、配信リストなどのリストに表示されるデータをフィルタリングするカスタムルールを作成します。[詳しくは、リストをフィルターする方法を参照してください。](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 | **条件付きコンテンツの作成**：様々な受信者に表示するコンテンツを定義する条件を作成することで、メールコンテンツを動的にします。これにより、パーソナライズされた、関連性の高いメッセージを確実に作成できます。[詳しくは、条件付きコンテンツの作成方法を参照してください。](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 ## クエリモデラーインターフェイス {#interface}
 
 クエリモデラーは、クエリを作成する中央のキャンバスと、クエリに関する情報を示す右側のパネルを提供します。
 
-![](assets/query-interface.png){zoomable=&quot;yes&quot;}
+![](assets/query-interface.png){zoomable="yes"}
 
 ### 中央のキャンバス {#canvas}
 
@@ -59,4 +59,4 @@ Adobe Campaign Web ユーザーインターフェイスには、様々な基準�
 
 ### ルールのプロパティパネル {#rule-properties}
 
-右側にある&#x200B;**[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、クエリに関する情報が表示されます。これにより、様々な操作を実行してクエリを確認し、ニーズに合うことを確認できます。[クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)
+右側にある&#x200B;**[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、クエリに関する情報が表示されます。これにより、様々な操作を実行してクエリを確認し、ニーズに合うことを確認できます。このペインは、オーディエンスを作成するクエリを作成する際に表示されます。 [クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)
