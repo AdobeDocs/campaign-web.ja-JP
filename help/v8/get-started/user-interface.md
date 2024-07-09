@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
-workflow-type: ht
-source-wordcount: '1555'
-ht-degree: 100%
+source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
+workflow-type: tm+mt
+source-wordcount: '1627'
+ht-degree: 95%
 
 ---
 
@@ -318,3 +318,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_editcustomfields"
 >title="カスタム属性を編集"
 >abstract="カスタム属性を編集"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="トランザクションメッセージ"
+>abstract="トランザクションメッセージ"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="トランザクションメッセージのプロパティ"
+>abstract="トランザクションメッセージのプロパティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="トランザクションメッセージイベント"
+>abstract="トランザクションメッセージイベント"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="トランザクションメッセージのコンテキスト"
+>abstract="トランザクションメッセージのコンテキスト"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="トランザクションメッセージのコンテンツ"
+>abstract="トランザクションメッセージのコンテンツ"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="トランザクションメッセージのパーソナライズ機能"
+>abstract="トランザクションメッセージのパーソナライズ機能"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="トランザクションメッセージのパーソナライズ機能"
+>abstract="トランザクションメッセージのパーソナライズ機能"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="トランザクションメッセージの除外ログ"
+>abstract="トランザクションメッセージの除外ログ"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="トランザクションメッセージのコンテキスト"
+>abstract="トランザクションメッセージのコンテキスト"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="トランザクションメッセージのイベント履歴"
+>abstract="トランザクションメッセージのイベント履歴"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="トランザクションメッセージのイベント履歴プレビュー"
+>abstract="トランザクションメッセージのイベント履歴プレビュー"
+
