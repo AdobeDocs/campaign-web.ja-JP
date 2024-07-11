@@ -5,7 +5,7 @@ description: AND 結合アクティビティワークフローの使用方法を
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '256'
 ht-degree: 100%
 
 ---
@@ -42,4 +42,4 @@ ht-degree: 100%
 
 次の例は、メールと SMS 配信を含む 2 つのワークフロー分岐を示しています。両方のインバウンドトランジションが有効な場合、AND 結合がトリガーします。プッシュ通知は、両方の配信が完了した後にのみ送信されます。
 
-![](../assets/workflow-andjoin-example.png){zoomable=&quot;yes&quot;}
+![](../assets/workflow-andjoin-example.png){zoomable="yes"}

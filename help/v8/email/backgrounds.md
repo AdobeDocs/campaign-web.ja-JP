@@ -5,7 +5,7 @@ description: メールの背景をパーソナライズする方法を学ぶ
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '300'
 ht-degree: 100%
 
 ---
@@ -27,15 +27,15 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
 
 * **[!UICONTROL 背景色]**&#x200B;をメール全体に対して設定します。左側のウィンドウからアクセス可能なナビゲーションツリーで、本文設定を選択していることを確認してください。
 
-  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_1.png){zoomable="yes"}
 
 * すべての構造コンポーネントに同じ背景色を設定するには、**[!UICONTROL ビューポートの背景色]**&#x200B;を選択します。 このオプションを使用すると、背景色から別の設定を選択できます。
 
-  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_2.png){zoomable="yes"}
 
 * 構造コンポーネントごとに異なる背景色を設定します。左側ウィンドウのナビゲーションツリーで構造を選択し、その構造にのみ特定の背景色を適用します。
 
-  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -43,7 +43,7 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
 
 * 構造コンポーネントのコンテンツに対して、**[!UICONTROL 背景画像]**&#x200B;を設定します。
 
-  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >
@@ -51,7 +51,7 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
 
 * 列レベルで背景色を設定します。
 
-  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
+  ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >
