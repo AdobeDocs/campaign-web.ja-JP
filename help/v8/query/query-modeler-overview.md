@@ -4,9 +4,9 @@ title: クエリモデラーの操作
 description: Adobe Campaign Web クエリモデラーの操作方法について説明します。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,4 +59,4 @@ Adobe Campaign Web ユーザーインターフェイスには、様々な基準�
 
 ### ルールのプロパティパネル {#rule-properties}
 
-右側にある&#x200B;**[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、クエリに関する情報が表示されます。これにより、様々な操作を実行してクエリを確認し、ニーズに合うことを確認できます。このペインは、オーディエンスを作成するクエリを作成する際に表示されます。 [クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)
+右側にある&#x200B;**[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、クエリに関する情報が表示されます。これにより、様々な操作を実行してクエリを確認し、ニーズに合うことを確認できます。このパネルは、オーディエンスを作成するクエリを作成する際に表示されます。[クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)

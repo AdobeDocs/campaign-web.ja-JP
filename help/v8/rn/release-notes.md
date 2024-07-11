@@ -3,9 +3,9 @@ title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1623'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ A seed list, aka. **Trap group**, is a list of seed addresses. It is used to inc
 
 ### 改善点 {#improvements-24-6}
 
-* **エンリッチメントアクティビティでの紐付け**：です **エンリッチメント** アクティビティを使用して、Campaign データベーススキーマからのデータを別のスキーマからのデータや、一時スキーマからのデータ（ファイルの読み込みアクティビティを使用してアップロードされたデータなど）と紐付けることができるようになりました。 例えば、このオプションを使用すると、アップロードされたファイルで指定したプロファイルの国を、Campaign データベースの専用テーブルで使用可能な国のいずれかと紐付けることができます。[詳細情報](../workflows/activities/enrichment.md)
+* **エンリッチメントアクティビティでの紐付け**：**エンリッチメント**&#x200B;アクティビティを使用して、Campaign データベーススキーマのデータを、別のスキーマのデータや、一時スキーマのデータ（ファイルを読み込みアクティビティを使用してアップロードされたデータなど）と紐付けられるようになりました。例えば、このオプションを使用すると、アップロードされたファイルで指定したプロファイルの国を、Campaign データベースの専用テーブルで使用可能な国のいずれかと紐付けることができます。[詳細情報](../workflows/activities/enrichment.md)
 
 ## 5月リリースノート {#24-5-release}
 
