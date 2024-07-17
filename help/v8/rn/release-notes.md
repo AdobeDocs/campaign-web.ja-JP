@@ -2,8 +2,8 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
-workflow-type: ht
+source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
 
@@ -23,14 +23,6 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 **リリース日**：2024年6月18～19日（PT）
 
 次の機能と改善点は、6月のリリース以降、すべてのユーザーが使用できます。
-<!--
-### Visual fragments {#24-6-1}
-
-You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
-
-### Seed lists {#24-6-2}
-
-A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
 
 ### 配信アラート {#24-6-3}
 
