@@ -7,8 +7,8 @@ role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
-workflow-type: ht
-source-wordcount: '946'
+workflow-type: tm+mt
+source-wordcount: '930'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 1. フィールドの横にある「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンをクリックして、式エディターを開きます。
 
-   ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
+   ![](assets/open-perso-editor-sms.png){zoomable="yes"}
 
 1. パーソナライゼーションエディターで、左側にある&#x200B;**[!UICONTROL 条件]**&#x200B;メニューを参照します。
 
@@ -50,7 +50,7 @@ ht-degree: 100%
    * `<VALUE>` を満たす値に置き換えます。例：`'French'`
    * `Ìnsert content here` を、指定した条件を満たすプロファイルに表示するコンテンツに置き換えます。
 
-     ![](assets/condition-sample1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+     ![](assets/condition-sample1.png){zoomable="yes"}{width="800" align="center"}
 
 1. 受信者が条件を満たさない場合に表示するコンテンツを指定します。これを行うには、**else** ヘルパー関数を使用します。
 
@@ -58,11 +58,11 @@ ht-degree: 100%
 
    1. `Ìnsert content here` を、if 関数の条件を満たさないプロファイルに表示するコンテンツに置き換えます。
 
-   ![](assets/condition-sample2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-sample2.png){zoomable="yes"}{width="800" align="center"}
 
    また、**else if** ヘルパー関数を使用して、複数のコンテンツバリアントを含む条件を作成することもできます。例えば、次の式では、受信者の言語に応じてメッセージの 3 つのバリアントが表示されます。
 
-   ![](assets/condition-sample3.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-sample3.png){zoomable="yes"}{width="800" align="center"}
 
    >[!NOTE]
    >
@@ -92,25 +92,25 @@ ht-degree: 100%
 
 1. コンテンツコンポーネントを選択し、「**[!UICONTROL 条件付きコンテンツを有効にする]**」アイコンをクリックします。
 
-   ![](assets/condition-email-enable.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-email-enable.png){zoomable="yes"}{width="800" align="center"}
 
 1. 画面の左側に&#x200B;**[!UICONTROL 条件付きコンテンツ]**&#x200B;パネルが開きます。 このパネルでは、条件を使用して、選択したコンテンツコンポーネントの複数のバリエーションを作成できます。
 
 1. 最初のバリアントを設定します。**[!UICONTROL 条件付きコンテンツ]**&#x200B;パネルの&#x200B;**[!UICONTROL バリアント - 1]** 上にポインタを合わせて、「**[!UICONTROL 条件を追加]**」ボタンをクリックします。
 
-   ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-add-condition.png){zoomable="yes"}{width="800" align="center"}
 
 1. クエリモデラーが開きます。受信者のプロファイルデータをフィルタリングして、条件を作成できます。[詳しくは、クエリモデラーの操作方法を参照してください](../query/query-modeler-overview.md)。
 
    メッセージの最初のバリアントの条件が整ったら、「**[!UICONTROL 確認]**」をクリックします。この例では、言語が「フランス語」の受信者をターゲティングとするルールを作成します。
 
-   ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-example.png){zoomable="yes"}{width="800" align="center"}
 
 1. このルールがバリアントに関連付けられました。読みやすくするために、省略記号メニューをクリックしてバリアントの名前を変更することをお勧めします。
 
 1. メッセージの送信時にルールが満たされた場合の、コンポーネントの表示方法を設定します。この例では、受信者の優先言語がフランス語の場合、テキストをフランス語で表示します。
 
-   ![](assets/condition-email-variant1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-email-variant1.png){zoomable="yes"}{width="800" align="center"}
 
 1. コンテンツコンポーネントに必要な数だけバリアントを追加します。いつでもバリアントを切り替え、条件ルールに基づいてコンテンツコンポーネントの表示方法を確認できます。
 

@@ -5,7 +5,7 @@ description: Adobe Campaign web でオーディエンスを操作する方法を
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '352'
 ht-degree: 100%
 
 ---
@@ -27,9 +27,9 @@ ht-degree: 100%
 >title="オーディエンスエラー"
 >abstract="オーディエンスデータは利用できません。ワークフローの実行が終了するまでお待ちください。"
 
-オーディエンスは配信のメインターゲット、つまりメッセージを受信するプロファイルです。Campaign Web で使用できるオーディエンスのリストには、**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
+オーディエンスは配信のメインターゲット、つまりメッセージを受信するプロファイルです。Campaign web で使用できるオーディエンスのリストには、**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
 
-![](assets/audiences-list.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-list.png){zoomable="yes"}
 
 オーディエンスは複数のソースから作成できます。**[!UICONTROL 接触チャネル]**&#x200B;列は、特定のオーディエンスが作成された場所を示します。
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 「**[!UICONTROL データ]**」タブでは、オーディエンスの一部であるプロファイルを視覚化できます。列をさらに追加することでこのビューをカスタマイズしたり、詳細フィルターを利用して表示対象データを絞り込んだりできます。
 
-![](assets/audiences-details.png){zoomable=&quot;yes&quot;}
+![](assets/audiences-details.png){zoomable="yes"}
 
 オーディエンスを複製または削除するには、オーディエンス名の横またはオーディエンス詳細画面内にあるオーディエンスリストに表示される「**[!UICONTROL その他のアクション]**」ボタンをクリックします。
 

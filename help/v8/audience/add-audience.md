@@ -4,8 +4,8 @@ title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: ht
-source-wordcount: '333'
+workflow-type: tm+mt
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -28,24 +28,24 @@ ht-degree: 100%
 
 1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックし、「**[!UICONTROL オーディエンスを選択]**」を選択します。
 
-   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-audience.png){zoomable="yes"}
 
 1. この画面には、現在のフォルダーの既存のすべてのオーディエンスが表示されます。
 
-   ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-audience2.png){zoomable="yes"}
 
    Adobe Experience Platform からオーディエンスを選ぶには、画面のフィルターセクションから `AEP Audiences folder` を参照します。[詳しくは、Adobe Experience Platform オーディエンスを参照してください](manage-audience.md#monitor)
 
-   ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-audience-folder.png){zoomable="yes"}
 
 1. 「フィルター」セクションでは、フィルターオプションにアクセスしてオーディエンスリストを絞り込むことができます。これを行うには、「**ルールを追加**」をクリックして、クエリモデラーにアクセスし、オーディエンスのリスト用の詳細フィルターを作成します。[クエリモデラーの使用方法を説明します](../query/query-modeler-overview.md)
 
    例えば、次のように、オーディエンスの接触チャネルに基づいてフィルタリングするルールを定義できます。
 
-   ![](assets/filter-on-aep-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/filter-on-aep-audience.png){zoomable="yes"}
 
 1. 「**確認**」をクリックして、オーディエンスを配信のメインターゲットとして追加します。その後も、「**ルールを編集**」ボタンをクリックすれば、クエリモデラーを使用して、オーディエンスを絞り込むことができます。
 
-   ![](assets/refine-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/refine-audience.png){zoomable="yes"}
 
    また、コントロール母集団を設定して、キャンペーンの影響を測定することもできます。コントロール母集団はメッセージを受信しません。これにより、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。[詳細情報](control-group.md)

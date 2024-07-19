@@ -10,7 +10,7 @@ keywords: ランディング, ランディングページ, ユースケース
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1353'
 ht-degree: 100%
 
 ---
@@ -40,13 +40,13 @@ ht-degree: 100%
 
 1. ランディングページのプロパティと設定
 
-   ![](assets/lp-uc-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-properties.png){zoomable="yes"}
 
 1. お使いの場合に応じて、**[!UICONTROL 獲得]**、**[!UICONTROL 購読]**、**[!UICONTROL 登録解除]**、**[!UICONTROL ブロックリスト]**&#x200B;のページを選択します。
 
 1. ページのコンテンツが表示されます。ランディングページフォームに対応するパーツを選択します。
 
-   ![](assets/lp-uc-form.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-form.png){zoomable="yes"}
 
 1. 選択したテンプレートに従ってコンテンツを編集します。
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
 1. 必要に応じて&#x200B;**[!UICONTROL 確認]**&#x200B;ページを編集し、**[!UICONTROL エラー]**、**[!UICONTROL 有効期限]**&#x200B;のページも同様に編集します。**[!UICONTROL 確認]** ページは、受信者がフォームを送信すると表示されます。
 
-   ![](assets/lp-uc-confirmation-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-page.png){zoomable="yes"}
 
 1. ランディングページの[テスト](create-lp.md#test-landing-page)と[公開](create-lp.md#publish-landing-page)
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 1. メッセージコンテンツに[リンクを挿入](../email/message-tracking.md#insert-links)します。**[!UICONTROL リンクタイプ]**&#x200B;として「**[!UICONTROL ランディングページ]**」を選択し、作成したランディングページを選択します。
 
-   ![](assets/lp-uc-email-link.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-email-link.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -95,7 +95,7 @@ ht-degree: 100%
 
 1. また、お客様にニュースレターサービスの購読を招待するチェックボックスを追加できます。[詳しくは、サービストの作成方法を参照してください](../audience/manage-services.md)
 
-   ![](assets/lp-uc-acquisition-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-acquisition-page.png){zoomable="yes"}
 
 1. 必要に応じて、コンテンツを調整し、変更を保存します。
 
@@ -105,11 +105,11 @@ ht-degree: 100%
 
 メールを受信した後、受信者がランディングページへのリンクをクリックしてフォームを送信すると、受信者のプロファイルが Campaign データベースに追加されるか、受信者が提供した情報で更新されます。
 
-![](assets/lp-uc-profile-updated.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-profile-updated.png){zoomable="yes"}
 
 ニュースレターの受信をオプトインした場合、対応するサービスが購読されます。
 
-![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
 
 ## サービスの購読 {#lp-subscription}
 
@@ -124,13 +124,13 @@ ht-degree: 100%
 
 1. まず、イベントを購読するユーザー用の確認テンプレートを作成します。これにより、サービスの作成時に選択しやすくなります。[詳細情報](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-confirmation-email.png){zoomable="yes"}
 
 1. 登録済みユーザーをイベントに保存する購読サービスを作成します。[詳しくは、サービスの作成方法を参照してください](../audience/manage-services.md)
 
 1. ユーザーが購読時に受信する確認メールとして作成したテンプレートを選択します。
 
-   ![](assets/lp-uc-subscription-service.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-service.png){zoomable="yes"}
 
 1. [ランディングページを作成](create-lp.md#create-landing-page)して、受信者がイベントに登録できるようにします。**[!UICONTROL 購読]**&#x200B;テンプレートを選択します。
 
@@ -140,7 +140,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 購読とサービス]**」フィールドで、イベント用に作成したサービスを選択します。「**[!UICONTROL オンにすると購読]**」オプションを有効のままにしておきます。
 
-   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -170,11 +170,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL チェックボックス]**」セクションを追加し、サービスを選択して、「**[!UICONTROL オンにすると登録解除]**」オプションを選択します。
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
 1. また、「**[!UICONTROL コールトゥアクション]**」セクションを展開し、「**[!UICONTROL 追加の更新]**」オプションを選択します。サービスを選択し、「**[!UICONTROL オプトアウト]**」オプションをオンにします。
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
 1. 必要に応じて、コンテンツを調整し、変更を保存します。
 
@@ -198,7 +198,7 @@ ht-degree: 100%
 
 1. 対応するドロップダウンリストから「**[!UICONTROL チャネル（メール）]**」を選択して、受信者がメール通信のみをオプトアウトできるようにします。また、「**[!UICONTROL すべてのチャネル別]**」をクリックして、すべてのチャネルのすべての通信からすべてを選択することもできます。
 
-   ![](assets/lp-uc-denylist.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-uc-denylist.png){zoomable="yes"}
 
 1. 必要に応じて、コンテンツを調整し、変更を保存します。
 
@@ -212,6 +212,6 @@ ht-degree: 100%
 
 例えば、ランディングページで「**[!UICONTROL チャネル（メール）]**」オプションの更新を選択した場合、「**[!UICONTROL 今後のメールによる連絡は不要]**」オプションがオンになります。
 
-![](assets/lp-uc-denylist-profile.png){zoomable=&quot;yes&quot;}
+![](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 
 このプロファイルは、再度購読しない限りブランドからのメール通信は受信されません。

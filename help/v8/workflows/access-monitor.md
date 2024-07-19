@@ -5,7 +5,7 @@ description: Adobe Campaign Web を使用してワークフローを作成する
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '359'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 **[!UICONTROL ワークフロー]**&#x200B;メニューから、ワークフローの完全なリストにアクセスできます。 このリストには、この画面から作成された&#x200B;**スタンドアロンワークフロー**&#x200B;と、キャンペーン内で作成された&#x200B;**キャンペーンワークフロー**&#x200B;の両方が含まれています。
 
-![](assets/workflow-list.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-list.png){zoomable="yes"}
 
 リスト内の各ワークフローには、現在の[ステータス](#status)、前回の実行または変更日時、および次にスケジュールされた実行日時に関する情報が表示されます。
 

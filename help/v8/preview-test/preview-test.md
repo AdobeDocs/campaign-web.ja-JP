@@ -5,7 +5,7 @@ description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 これらのアクションは、配信のコンテンツを編集画面または[メールデザイナー](../email/get-started-email-designer.md)からアクセスできる「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。
 
-![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >

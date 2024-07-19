@@ -6,7 +6,7 @@ feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '788'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 このオプションを選択した場合、すべてのウェーブ（最後のウェーブを除く）が同じサイズになり、各ウェーブ間の遅延は常に同じになります。
 
-![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
+![](assets/waves-same-size.png){zoomable="yes"}
 
 * 配信を分割するすべてのウェーブのサイズを指定します。割合または数値を入力できます。残りのメッセージ数を含める必要があるので、最後のウェーブのみサイズを変更できます。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 これをおこなうには、「**[!UICONTROL 同じサイズの複数のウェーブをスケジュール]**」オプションを選択します。ウェーブサイズとして「**[!UICONTROL 20]**」と入力し、「**[!UICONTROL 期間]**」フィールドに「**[!UICONTROL 1 日]**」と入力します。
 
-![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
+![](assets/waves-call-center.png){zoomable="yes"}
 
 ## カレンダーに従ってウェーブをスケジュール {#waves-calendar}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 以下の例では、最初のウェーブは、配信に含まれるメッセージ総数の 25％を表しており、ただちに開始されます。次の 2 つのウェーブで配信が完了しますが、これらのウェーブは、6 時間間隔で開始するように設定されています。
 
-![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
+![](assets/waves-calendar.png){zoomable="yes"}
 
 カレンダーに従って複数のウェーブを使用する一般的なユースケースの 1 つは、ランプアッププロセス中です。
 
@@ -99,4 +99,4 @@ ht-degree: 100%
 
 そのためには、「**[!UICONTROL カレンダーに従ってウェーブをスケジュール]**」オプションを選択します。例えば、最初のウェーブを 10％に、2 番目のウェーブを 15％に、3 番目のウェーブを 20％にといった具合に設定します。
 
-![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
+![](assets/waves-ramp-up.png){zoomable="yes"}

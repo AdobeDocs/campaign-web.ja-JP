@@ -4,7 +4,7 @@ description: Campaign web でプロファイルを監視および管理する方
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: 5a4bf85a1f70a0282405aededfb31038f9db17a8
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '454'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 検索フィールドを使用するか、「**フィルターを表示**」ボタンから使用できるフィルターを使用して、**[!UICONTROL プロファイル]**&#x200B;リストをフィルタリングできます。ドロップダウンリストを使用して結果を特定の[フォルダー](../get-started/permissions.md#folders)に制限したり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
 
-![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
+![](assets/profiles-list-filters.png){zoomable="yes"}
 
 プロファイルの詳細にアクセスするには、リストからプロファイルの名前をクリックします。プロファイルの詳細ビューが開き、その属性とサブスクライブしているサービスを探索できます。[詳しくは、プロファイルの詳細の探索方法を参照してください](create-profile.md)
 

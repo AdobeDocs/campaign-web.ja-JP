@@ -5,7 +5,7 @@ description: Campaign web ユーザーインターフェイスで配信コンテ
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '349'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
-   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-button.png){zoomable="yes"}
 
 1. コンテンツのプレビューに使用するプロファイルを選択します。これを行うには、「**[!UICONTROL テストプロファイルを追加]**」ボタン（メールと SMS の場合）または「**[!UICONTROL 購読者を追加]**」ボタン（プッシュ通知の場合）をクリックします。
 
@@ -31,17 +31,17 @@ ht-degree: 100%
 
    * 「**[!UICONTROL プロファイル]**」タブには、データベースに保存されているすべてのプロファイルが一覧表示されます。[詳しくは、プロファイルの操作方法を参照してください](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-select-profiles.png){zoomable="yes"}
 
 1. テストプロファイルリストまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。例えば、**[!UICONTROL 見込み客]**&#x200B;ステータスとなっている、すべてのテストプロファイルを検索するルールを定義できます。[ルールの追加方法については、クエリモデラーを参照してください](../query/query-modeler-overview.md)。
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 選択]**」をクリックして選択内容を確定します。
 
    配信コンテンツのプレビューが、**[!UICONTROL シミュレート]**&#x200B;画面の右側のパネルに表示されます。パーソナライズされた要素は、左側のパネルで選択したプロファイルのデータに置き換えられます。
 
-   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-preview.png){zoomable="yes"}
 
 1. 複数のプロファイルを追加した場合は、リスト内のプロファイルを切り替えて、対応する配信コンテンツをプレビューできます。また、左側のパネルの対応するボタンを使用して、さらにテストプロファイルを追加したり、選択をクリアしたりすることもできます。
 

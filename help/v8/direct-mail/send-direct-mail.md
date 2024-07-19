@@ -5,7 +5,7 @@ description: Adobe Campaign web でダイレクトメール配信をプレビュ
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 100%
 
 1. 配信コンテンツページから、「**[!UICONTROL コンテンツをシミュレート]**」を使用して、パーソナライズされたコンテンツをプレビューします。
 
-   ![](assets/dm-simulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-simulate.png){zoomable="yes"}
 
 1. 「**[!UICONTROL テストファイルを追加]**」をクリックし、1 つまたは複数のプロファイルを選択して、抽出ファイルコンテンツ内のデータをプレビューします。
 
 1. 右側のパネルには抽出ファイルのプレビューが表示され、パーソナライズされた要素が選択したプロファイルのデータに動的に置き換えられます。
 
-   ![](assets/dm-preview-right.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-preview-right.png){zoomable="yes"}
 
 ## 本配信前確認の送信 {#test-dm}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 1. 本配信前確認配信ダッシュボードで「**[!UICONTROL ファイルをプレビュー]**」ボタンをクリックして、抽出ファイルのプレビューにアクセスします。
 
-   ![](assets/dm-proof.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-proof.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -54,13 +54,13 @@ ht-degree: 100%
 
 1. 抽出ファイルのコンテンツを設計したら、**[!UICONTROL 配信]**&#x200B;ページで「**[!UICONTROL レビューして送信]**」をクリックします。
 
-   ![](assets/dm-review-send.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-review-send.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 準備]**」をクリックし、表示される進行状況と統計を監視します。
 
    エラーが発生した場合は、**[!UICONTROL ログ]**&#x200B;メニューでエラーに関する詳細情報を参照してください。
 
-   ![](assets/dm-prepare.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-prepare.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 送信]**」をクリックしてメッセージを送信し、最終的な送信プロセスに進みます。
 

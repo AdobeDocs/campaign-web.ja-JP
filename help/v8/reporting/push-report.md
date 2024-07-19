@@ -5,7 +5,7 @@ description: プッシュ配信レポートへのアクセス方法と使用方�
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '476'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートは、プッシュメッセージに対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。
 
-![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_3.png){zoomable="yes"}
 
 +++プッシュ配信レポート指標の詳細情報。
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 **ターゲット母集団**&#x200B;グラフおよびテーブルには、オーディエンスに関連するデータ（配信メッセージ数と除外件数）が表示されます。指標については、以下で詳しく説明します。
 
-![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_4.png){zoomable="yes"}
 
 +++プッシュ配信レポート指標の詳細情報。
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 **全体的な統計**&#x200B;レポートには、送信されたプッシュ通知のデータ（成功、エラーおよび強制隔離）が表示されます。指標については、以下で詳しく説明します。
 
-![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_5.png){zoomable="yes"}
 
 +++プッシュ配信レポート指標の詳細情報。
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 **[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){_blank}を参照してください。
 
 
-![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_6.png){zoomable="yes"}
 
 ## 配信スループット {#delivery-throughput}
 
@@ -105,4 +105,4 @@ ht-degree: 100%
 
 **配信スループット**&#x200B;レポートには、指定された期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
 
-![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_push_2.png){zoomable="yes"}

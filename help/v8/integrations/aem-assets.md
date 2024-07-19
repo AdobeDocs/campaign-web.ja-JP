@@ -5,7 +5,7 @@ description: Adobe Experience Manager Assets as a Cloud Service を使用して�
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '379'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 1. ホームページから、詳細設定メニューにアクセスし、「[!DNL Experience Manager Assets]」を選択します。
 
-   ![](assets/assets_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_1.png){zoomable="yes"}
 
 1. **アセット管理**&#x200B;で、「**Assets**」をクリックして、Adobe Campaign で Assets のリポジトリを選択します。
 
@@ -36,25 +36,25 @@ ht-degree: 100%
 
 1. 選択したフォルダーまたは作成したフォルダーで、「**[!UICONTROL アセットを追加]**」をクリックして、新しいアセットをフォルダーにアップロードします。
 
-   ![](assets/assets_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ファイルをアップロード]**」で、「**[!UICONTROL 参照]**」クリックし、「**[!UICONTROL ファイルを参照]**」または「**[!UICONTROL フォルダーを参照]**」するかを選択します。
 
 1. アップロードするファイルを選択します。完了したら、「**[!UICONTROL アップロード]**」をクリックします。
 
-   ![](assets/assets_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_3.png){zoomable="yes"}
 
 1. アセット管理詳細設定メニューにアクセスするには、アップロードしたアセットを選択します。
 
    アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=ja)を参照してください。
 
-   ![](assets/assets_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_4.png){zoomable="yes"}
 
 1. Adobe Photoshop Express を使用してアセットをさらに編集するには、アセットをダブルクリックします。次に、右側のメニューから、**[!UICONTROL 編集モード]**&#x200B;アイコンを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=ja#edit-using-express){target="_blank"}.
 
 1. [!DNL Adobe Campaign] から、メールデザイナーの左側のペインから&#x200B;**[!UICONTROL アセットピッカー]**&#x200B;メニューを選択します。
 
-   ![](assets/assets_6.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_6.png){zoomable="yes"}
 
 1. 以前に作成した&#x200B;**[!UICONTROL アセット]**&#x200B;フォルダーを選択します。検索バーで、アセットやフォルダーを検索することもできます。
 
@@ -62,8 +62,8 @@ ht-degree: 100%
 
 1. アセットをメールコンテンツにドラッグ＆ドロップします。
 
-   ![](assets/assets_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_5.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブを使用すると、外部リンクやテキストを追加するなど、アセットをさらにカスタマイズできます。[コンポーネント設定の詳細情報](../email/content-components.md)
 
-   ![](assets/assets_7.png){zoomable=&quot;yes&quot;}
+   ![](assets/assets_7.png){zoomable="yes"}

@@ -4,7 +4,7 @@ description: Adobe Campaign Web での定義済みフィルターの作成およ
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '762'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 既存の組み込みフィルターを使用して、データの特定のサブセットにアクセスしたり、独自の定義済みフィルターを作成して保存したりできます。
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable="yes"}{zoomable="yes"}
 
 ## 定義済みフィルターの作成 {#create-predefined-filter}
 
@@ -47,11 +47,11 @@ ht-degree: 100%
 1. クエリモデラーを開き、フィルター条件を定義します。次の例では、マドリードに住み、ニュースレターを購読している受信者をフィルタリングします。
 1. 「**フィルターを選択または保存**」ボタンをクリックし、「**フィルターとして保存**」を選択します。
 
-   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save.png){zoomable="yes"}
 
 1. 「**新規フィルターを作成**」を選択して、そのフィルターの名前と説明を入力します。
 
-   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
    必要に応じて、フィルターをお気に入りに保存できます。詳しくは、[こちら](#fav-filter)を参照してください。
 
@@ -71,12 +71,12 @@ ht-degree: 100%
 
 1. フィルターのルールを定義します。例えば、30 歳以上のプロファイルなどです。
 
-   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
+   ![](assets/filter-30+.png){zoomable="yes"}
 
 
 1. 変更内容を保存します。
 
-   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-filter.png){zoomable="yes"}
 
 
 フィルターが定義済みフィルターに追加されます。必要に応じて、フィルターをお気に入りに保存できます。詳しくは、[こちら](#fav-filter)を参照してください。
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 フィルターをお気に入りに保存すると、以下に示すように、フィルター作成リストの「**お気に入りのフィルター**」セクションですべてのユーザーが使用できます。
 
-![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
 
 ## 定義済みフィルターを使用 {#use-predefined-filter}
 
@@ -103,21 +103,21 @@ ht-degree: 100%
 1. オーディエンス名を入力し、「**オーディエンスを作成**」ボタンをクリックします。
 1. 「**クエリ**」アクティビティを選択して、右側のパネルで「**オーディエンスを作成**」ボタンをクリックします。
 
-   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-from-filter.png){zoomable="yes"}
 
 1. 「**フィルターボタンを選択または保存**」から、「**カスタムフィルターを選択**」オプションを選択します。
 
-   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-select-custom-filter.png){zoomable="yes"}
 
 1. オーディエンスの作成、選択、確認に使用する定義済みフィルターを参照します。
 
-   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-filter-list.png){zoomable="yes"}
 
 1. このフィルターのルールのプロパティを確認し、確定します。
 
    フィルターが&#x200B;**クエリ**&#x200B;アクティビティでクエリとして使用されるようになります。
 
-   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/build-audience-confirm.png){zoomable="yes"}
 
 1. 変更を保存し、「**開始**」ボタンをクリックしてオーディエンスを作成し、オーディエンスリストで使用できるようにします。
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 定義済みフィルターはすべて、左側のナビゲーションメニューの専用のエントリにグループ化されます。
 
-![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
+![](assets/list-of-filters.png){zoomable="yes"}
 
 このリストから、上記のとおりに新規フィルターを作成できます。さらに、以下のアクションを実行できます。
 

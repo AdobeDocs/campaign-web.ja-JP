@@ -4,7 +4,7 @@ title: 「データソースを変更」ワークフローアクティビティ�
 description: 「データソースを変更」ワークフローアクティビティの使用方法について説明します。
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
 source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 

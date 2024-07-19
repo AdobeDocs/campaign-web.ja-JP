@@ -4,7 +4,7 @@ title: ダイレクトメール配信のデザイン
 description: Adobe Campaign web を使用したダイレクトメール配信のデザイン方法について説明します。
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ description: インラインスタイル属性を追加する方法を説明し�
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 100%
 
 ---
@@ -19,13 +19,13 @@ E メールデザイナーインターフェイスで、要素を選択してそ
 
 1. 「**[!UICONTROL スタイル]**」タブで、**[!UICONTROL 詳細]**&#x200B;ドロップダウンをクリックします。
 
-   ![](assets/styles_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_1.png){zoomable="yes"}
 
 1. 既存の属性の値を変更します。
 
 1. 新しいプロパティを追加するには、「**+**」ボタンを使用します。CSS に準拠している任意の属性と値を追加できます。
 
-   ![](assets/styles_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/styles_2.png){zoomable="yes"}
 
 スタイルが選択した要素に適用されます。
 

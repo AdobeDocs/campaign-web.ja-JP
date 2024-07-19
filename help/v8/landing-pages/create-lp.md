@@ -4,8 +4,8 @@ description: Campaign web でランディングページを設定して公開す
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
-workflow-type: ht
-source-wordcount: '1504'
+workflow-type: tm+mt
+source-wordcount: '1478'
 ht-degree: 100%
 
 ---
@@ -25,11 +25,11 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 ランディングページリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
 
-![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
+![](assets/lp-inventory.png){zoomable="yes"}
 
 **[!UICONTROL ランディングページ]**&#x200B;インベントリには、作成したすべての項目が表示されます。「**[!UICONTROL フィルターを表示]**」ボタンを使用してフィルタリングできます。ドロップダウンリストを使用して結果を特定の[フォルダー](../get-started/permissions.md#folders)に制限したり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
 
-![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
+![](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -78,7 +78,7 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 1. **[!UICONTROL ランディングページ]**&#x200B;の在庫から、「**[!UICONTROL ランディングページを作成]**」をクリックします。
 
-   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-create-button.png){zoomable="yes"}
 
 1. 次からテンプレートを選択します。
    * **[!UICONTROL 獲得]**：ランディングページのデフォルトテンプレートで、これを使用すると、プロファイルデータを取得および更新できます。
@@ -86,7 +86,7 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
    * **[!UICONTROL 登録解除]**：サービスのサブスクライバー宛に配信されたメールで使用できるテンプレートで、これを使用してサブスクライバーは、その[サービス](../audience/manage-services.md)を登録解除できます。
    * **[!UICONTROL ブロックリスト]**：プロファイルが配信されたメールのオプトアウトリンクをクリックして、今後の連絡を希望しない場合に使用されるテンプレートです。
 
-   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-templates.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -98,7 +98,7 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
    デフォルトでは、ランディングページは **[!UICONTROL web アプリケーション]**&#x200B;フォルダーに保存されます。**[!UICONTROL その他のオプション]**&#x200B;で目的の場所を参照して変更できます。[詳しくは、フォルダーの操作方法を参照してください](../get-started/permissions.md#folders)
 
-   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-properties.png){zoomable="yes"}
 
 1. 「**[!UICONTROL データの事前ロード]**」セクションでは、次の 2 つのオプションを使用できます。
 
@@ -120,13 +120,13 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 1. ランディングページの後続のページを作成できます。ページを追加するには、「**[!UICONTROL ページ]**」セクションで、このランディングページ用にデザインする各ページの「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。各ページのコンテンツは既に事前入力済みです。必要に応じて編集します。[詳細情報](lp-content.md)
 
-   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-pages.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ストレージ]**」セクションでは、「**[!UICONTROL 事前ロードされたレコードを更新]**」オプションがデフォルトで選択されます。ランディングページを使用して、データベースに保存されているプロファイルを更新できます。事前ロードボックスを使用すると、データベースで更新されるレコードの検索方法を示すことができます。
 
    また、ランディングページの現在のコンテキストフィールドから選択することもでき、データベースで対応するプロファイルを検索するために使用されます。これを行うには、「**[!UICONTROL 事前ロードされたレコードを更新]**」オプションを選択し、「**[!UICONTROL 紐付けオプション]**」にある目的のフィールドを確認します。
 
-   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-storage.png){zoomable="yes"}
 
 1. ランディングページの送信時に内部データを保存する&#x200B;**[!UICONTROL 追加のデータ]**&#x200B;を作成します。このデータは、ページを訪問するユーザーには表示されません。定数値のみが使用できます。
 
@@ -134,11 +134,11 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
    >
    >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
-   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-additional-data.png){zoomable="yes"}
 
 1. ランディングページの開始日と終了日を定義できます。「**[!UICONTROL スケジュールを有効にする]**」を選択し、日付を設定します。
 
-   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-schedule.png){zoomable="yes"}
 
    * ランディングページは指定された開始日時に自動的に公開されます。
 
@@ -178,7 +178,7 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 1. 「**[!UICONTROL レビューと公開]**」をクリックした後、ランディングページの「**[!UICONTROL コンテンツをシミュレート]**」ボタンを選択して、テストプロファイルの選択にアクセスします。
 
-   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-simulate-content.png){zoomable="yes"}
 
 1. **[!UICONTROL シミュレート]**&#x200B;画面から、1 つ以上のテストプロファイルを選択します。
 
@@ -188,13 +188,13 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 1. 「**[!UICONTROL プレビューを開く]**」を選択して、ランディングページをテストします。
 
-   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-open-preview.png){zoomable="yes"}
 
 1. ランディングページのプレビューが新しいタブで開きます。パーソナライズされた要素が、選択したテストプロファイルデータに置き換えられます。
 
    ランディングページで「**[!UICONTROL フォームで参照されるデータを事前入力]**」オプションを選択すると、フォームフィールドには、対応するテストプロファイルデータが自動的に事前入力されます。<!--TBC-->
 
-   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-preview.png){zoomable="yes"}
 
 1. 他のテストプロファイルを選択して、ランディングページの各バリアントに対するレンダリングをプレビューします。
 
@@ -214,6 +214,6 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 >
 >ランディングページを完全にテストまたは活用する場合は、このリンクを web ブラウザーまたは配信に直接コピー＆ペーストできません。代わりに、[コンテンツをシミュレート](#test-landing-page)機能を使用してテストし、[この節](lp-use-cases.md)で説明する手順に従ってランディングページを適切に使用します。
 
-![](assets/lp-published.png){zoomable=&quot;yes&quot;}
+![](assets/lp-published.png){zoomable="yes"}
 
 ランディングページの影響は、ログ<!--and specific reports-->を通じて監視できます。「**[!UICONTROL ログ]**」ボタンをクリックします。

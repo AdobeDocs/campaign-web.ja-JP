@@ -4,7 +4,7 @@ description: Campaign Web でプロファイルを作成する方法について
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 100%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. プロファイル表示に使用できる属性のリストは、次の表で詳しく説明する様々なセクションに分類されます。
 
-   ![](assets/create-profile.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-profile.png){zoomable="yes"}
 
    | 「属性」セクション | 説明 |
    |  ---  |  ---  |

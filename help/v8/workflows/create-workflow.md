@@ -5,7 +5,7 @@ description: Adobe Campaign Web でワークフローを作成する方法につ
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '733'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 1. 画面の右上隅にある「**[!UICONTROL ワークフローを作成]**」ボタンをクリックします。
 
-   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-create.png){zoomable="yes"}
 
 1. ワークフローの&#x200B;**プロパティ**&#x200B;ダイアログで、ワークフローの作成に使用するテンプレートを選択します（また、デフォルトの組み込みテンプレートを使用することもできます）。[詳しくは、ワークフローテンプレートを参照してください](#workflow-templates)。
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL その他のオプション]**」セクションを展開して、ワークフローの詳細設定を行います。ワークフローのプロパティを設定する方法については、[このページ](workflow-settings.md#properties)を参照してください。
 
-   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-additional-options.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ワークフローを作成]**」ボタンをクリックして、ワークフローの作成を確定します。
 
@@ -65,14 +65,14 @@ ht-degree: 100%
 1. **ワークフロー**&#x200B;メニューを開き、テンプレートとして保存するワークフローを参照します。
 1. ワークフロー名の右側にある「...」をクリックし、「**テンプレートとしてコピー**」を選択します。
 
-   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-copy-as-template.png){zoomable="yes"}
 
 1. ポップアップウィンドウで、テンプレートの作成を確認します。
 1. ワークフローテンプレートキャンバスで、必要に応じて、アクティビティを確認、追加、設定します。
 1. 「**設定**」ボタンから設定を参照し、ワークフローテンプレートの名前を変更して、説明を入力します。
 1. テンプレートの&#x200B;**フォルダー**&#x200B;と&#x200B;**実行フォルダー**&#x200B;を選択します。フォルダーは、ワークフローテンプレートが保存される場所です。実行フォルダーは、このテンプレートに基づいて作成されたワークフローが保存されるフォルダーです。
 
-   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-settings-template.png){zoomable="yes"}
 
    その他のプロパティは、ワークフローに共通です。詳しくは、[このページ](workflow-settings.md#properties)を参照してください。
 
@@ -91,14 +91,14 @@ ht-degree: 100%
 1. ラベルを入力し、追加のオプションを開いて、ワークフローテンプレートの説明を入力します。
 1. テンプレートのフォルダーと実行フォルダーを選択します。フォルダーは、ワークフローテンプレートが保存される場所です。実行フォルダーは、このテンプレートに基づいて作成されたワークフローが保存されるフォルダーです。
 
-   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-wf-template.png){zoomable="yes"}
 
    その他のプロパティは、ワークフローに共通です。詳しくは、[このページ](workflow-settings.md#properties)を参照してください。
 
 1. 「**作成**」ボタンをクリックして設定を確認します。
 1. ワークフローテンプレートキャンバスで、必要に応じてアクティビティを追加し、設定します。
 
-   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-template-activities.png){zoomable="yes"}
 
 1. 変更内容を保存します。
 

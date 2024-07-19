@@ -4,8 +4,8 @@ title: 配信に使用する 1 回限りのオーディエンスの作成
 description: 配信用の 1 回限りのオーディエンスを作成する方法を説明します。
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: ht
-source-wordcount: '228'
+workflow-type: tm+mt
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
 
-   ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder0.png){zoomable="yes"}
 
 1. 「**独自に作成**」を選択してクエリモデラーを開くと、データベースに含まれるデータをフィルタリングしてターゲット母集団を定義できます。[クエリモデラーの使用方法を説明します。](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
+   ![](assets/query-modeler.png){zoomable="yes"}
 
 1. クエリの準備が整ったら、「**確認**」をクリックして、結果のオーディエンスを配信のメインターゲットとして使用します。
 

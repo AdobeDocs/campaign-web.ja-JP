@@ -5,7 +5,7 @@ description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '617'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 1. [E メールデザイナー](get-started-email-designer.md#start-authoring)のホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
 
-   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-from-scratch.png){zoomable="yes"}
 
 1. **[!UICONTROL 構造]**&#x200B;をキャンバスにドラッグ＆ドロップしてメールコンテンツのデザインを開始し、メールのレイアウトを定義します。
 
@@ -71,7 +71,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 1. 必要に応じて&#x200B;**[!UICONTROL 構造]**&#x200B;を追加し、右側の専用パネルで設定を編集します。
 
-   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_structure_components.png){zoomable="yes"}
 
 1. **[!UICONTROL n:n 列]**&#x200B;コンポーネントを選択して、選択する列の数（3～10）を定義できます。また、各列の下部にある矢印を移動して、各列の幅を定義することもできます。
 
@@ -83,7 +83,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 1. 各コンポーネントは、右側の「**[!UICONTROL 設定]**」タブまたは「**[!UICONTROL スタイル]**」タブを使用すると、さらにカスタマイズできます。例えば、各コンポーネントのテキストスタイル、パディングまたは余白を変更できます。 [詳しくは、整列とパディングを参照してください](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-styles.png){zoomable="yes"}
 
 1. パーソナライゼーションフィールドを挿入して、プロファイルデータに基づいてメールコンテンツをカスタマイズします。[詳しくは、コンテンツのパーソナライゼーションを参照してください](../personalization/personalize.md)
 
@@ -93,7 +93,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 [詳しくは、リンクとメッセージトラッキングを参照してください](message-tracking.md)
 
-   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-links.png){zoomable="yes"}
 
 1. 必要に応じて、詳細メニューの「**[!UICONTROL コードエディターに切り替え]**」をクリックして、メールをさらにパーソナライズできます。これにより、例えば、トラッキングタグやカスタム HTML タグを追加するために、メールソースコードを編集できます。[詳しくは、コードエディターを参照してください](code-content.md)
 
@@ -103,7 +103,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、メールのレンダリングを確認します。デスクトップ表示またはモバイル表示を選択できます。[詳しくは、メールのプレビューを参照してください](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-simulate.png){zoomable="yes"}
 
 1. メールの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 

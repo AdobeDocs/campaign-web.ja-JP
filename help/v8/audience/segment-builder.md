@@ -5,7 +5,7 @@ description: ルールビルダーを操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '564'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 左側のパレットには、オーディエンスを作成するためにフィルタリングできるすべての要素が含まれています。検索バーを使用して、要素をすばやく見つけることができます。パレットに含まれているタイルを設定し考慮するには、中央のキャンバスに移動する必要があります。
 
-![](assets/segment-builder2.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
 
 パレットは次の 2 つのタブに分かれています。
 
@@ -37,13 +37,13 @@ ht-degree: 100%
 
 キャンバスは、パレットから追加された要素を基に、ルールを設定したり組み合わせたりできる中央ゾーンです。新しいルールを追加するには、パレットからタイルをドラッグし、キャンバスにドロップします。 追加するデータのタイプに応じて、コンテキスト固有のオプションが表示されることがあります。
 
-![](assets/segment-builder4.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
 
 ## ルールのプロパティパネル
 
 右側にある&#x200B;**ルールのプロパティ**&#x200B;パネルでは、次のアクションを実行できます。
 
-![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
 
 * **結果を表示 :**&#x200B;オーディエンスのターゲットとなるプロファイルのリストを表示します。
 * **コードビュー**：オーディエンスのコードベースのバージョンを SQL で表示します。
@@ -63,26 +63,26 @@ ht-degree: 100%
 
 1. パレットの「**属性**」タブで、「**生年月日**」フィールドを検索します。タイルをドラッグし、キャンバスにドロップします。
 
-   ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder6.png){zoomable="yes"}
 
-1. キャンバスで、**After** 演算子を使用して、目的の日付を入力します。
+1. キャンバスで、「**これ以降**」演算子を使用して、目的の日付を入力します。
 
-   ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder7.png){zoomable="yes"}
 
 1. パレットで、「**市区町村**」フィールドを検索し、キャンバスの最初のルールの下に追加します。
 
-   ![](assets/segment-builder8.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder8.png){zoomable="yes"}
 
 1. テキストフィールドに最初の都市名を入力し、Enter キーを押します。
 
-   ![](assets/segment-builder9.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder9.png){zoomable="yes"}
 
 1. 2 つ目の都市名に対して、同じ操作を繰り返します。
 
-   ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder10.png){zoomable="yes"}
 
 1. 「**結果を表示**」をクリックすると、クエリに一致する受信者のリストと数が表示されます。また、列を追加し、データを視覚化して確認することもできます。 この例では、**市区町村**&#x200B;列を追加すると、アトランタとシアトルが表示されます。
 
-   ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
+   ![](assets/segment-builder11.png){zoomable="yes"}
 
 1. 「**確認**」をクリックします。

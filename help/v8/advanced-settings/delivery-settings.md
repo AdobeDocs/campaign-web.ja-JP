@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2420'
+source-wordcount: '2414'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 タイポロジを使用すると、特定の要素 (登録解除リンクや件名行など) や、対象とするターゲット (登録解除者、競合他社、非ロイヤルティ顧客など) からグループを除外するフィルタリングルールが配信に常に含まれていることを確認できます。
 
-![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-typology.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信]**&#x200B;パラメーターは、配信に適用する技術的な設定です。
 
-![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-delivery.png){zoomable="yes"}
 
 統合された&#x200B;**[!UICONTROL ルーティング]**&#x200B;用外部アカウントがデフォルトで提供されます。アプリケーションから配信を送信するための技術的なパラメーターが含まれます。
 
@@ -233,7 +233,7 @@ ht-degree: 100%
 
 「**[!UICONTROL リソースの有効期限]**」フィールドは、主にミラーページや画像のアップロードされたリソースに使用されます。ディスク容量を節約するために、このページ上のリソースは限られた時間のみ有効です。この制限を超えると、これらのリソースは使用できなくなります。
 
-![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
+![](assets/delivery-settings-validity.png){zoomable="yes"}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

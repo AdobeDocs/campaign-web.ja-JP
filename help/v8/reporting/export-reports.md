@@ -5,7 +5,7 @@ description: レポートのエクスポート方法について
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 1. レポートから「**[!UICONTROL エクスポート]**」をクリックし、「**[!UICONTROL PDF ファイルとしてエクスポート]**」または「**[!UICONTROL CSV ファイルとしてエクスポート]**」を選択します。
 
-   ![](assets/global_report_export.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_export.png){zoomable="yes"}
 
 1. ファイルを保存するフォルダーを見つけて、必要に応じて名前を変更し、「**[!UICONTROL 保存]**」をクリックします。
 

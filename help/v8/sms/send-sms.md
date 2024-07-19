@@ -5,7 +5,7 @@ description: Adobe Campaign Web で SMS を送信する方法を学ぶ
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ SMS 配信をプレビューする主な手順は次のとおりです。配信�
 
 1. 配信コンテンツページから、「**[!UICONTROL コンテンツをシミュレート]**」を使用して、パーソナライズされたコンテンツをプレビューします。
 
-   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL テストプロファイルを追加]**」をクリックして、1 つ以上のテストプロファイルを選択します。
 
@@ -36,7 +36,7 @@ SMS 配信をプレビューする主な手順は次のとおりです。配信�
 
 1. 右側のパネルには SMS 配信のプレビューが表示され、パーソナライズされた要素が選択したプロファイルのデータに動的に置き換えられます。
 
-   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_3.png){zoomable="yes"}
 
 これで、SMS メッセージを確認してオーディエンスに送信できるようになりました。
 
@@ -48,13 +48,13 @@ SMS 配信をプレビューする主な手順は次のとおりです。配信�
 
 ![](../assets/do-not-localize/book.png)本配信前確認の送信方法については、[この節](../preview-test/test-deliveries.md)を参照してください。
 
-![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
+![](assets/sms_send_6.png){zoomable="yes"}
 
 ## SMS 配信の送信 {#send-sms}
 
 1. SMS コンテンツをパーソナライズした後、**[!UICONTROL 配信]**&#x200B;ページで「**[!UICONTROL 確認して送信]**」をクリックします。
 
-   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_4.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 準備]**」をクリックし、表示される進行状況と統計を監視します。
 
@@ -62,7 +62,7 @@ SMS 配信をプレビューする主な手順は次のとおりです。配信�
 
 1. 「**[!UICONTROL 送信]**」をクリックしてメッセージを送信し、最終的な送信プロセスに進みます。
 
-   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms_send_5.png){zoomable="yes"}
 
    SMS 配信がスケジュールされている場合は、「**[!UICONTROL スケジュールどおりに送信]**」ボタンをクリックします。配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#schedule-the-delivery-sending)を参照してください。
 

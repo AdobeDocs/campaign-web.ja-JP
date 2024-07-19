@@ -3,8 +3,8 @@ title: ターゲティングディメンション
 description: Adob Campaign Web でのターゲティングディメンションについて説明します
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
-workflow-type: ht
-source-wordcount: '447'
+workflow-type: tm+mt
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ワークフロー設定やアクティビティ（**オーディエンス作成**、**紐付け**、**ディメンション変更**&#x200B;など）でターゲティングディメンションを選択すると、一般的に使用されるスキーマがデフォルトでリストに表示されます。使用可能なすべてのスキーマを表示するには、「**[!UICONTROL すべてのスキーマを表示]**」ボタンの切替スイッチをオンにします。オプションの選択は、各ユーザーに対して保存されます。
 
-![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
+![](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
 ## ターゲティングディメンション {#list}
 

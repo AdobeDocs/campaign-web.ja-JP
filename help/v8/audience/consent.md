@@ -4,7 +4,7 @@ title: 同意
 description: Adobe Campaign web での同意について説明します
 badge: label="限定提供（LA）"
 source-git-commit: 9a184d7558ca39be3afed4a7217a5e5687799c0d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 100%
 

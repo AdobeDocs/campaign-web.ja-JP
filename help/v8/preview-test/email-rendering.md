@@ -5,7 +5,7 @@ description: Campaign web ユーザーインターフェイスでメールのレ
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '227'
 ht-degree: 100%
 
 ---
@@ -32,21 +32,21 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL メールをレンダリング]**」ボタンを選択します。
 
-   ![](assets/simulate-rendering-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-button.png){zoomable="yes"}
 
 1. セクションの右上隅の「**Litmus アカウントを接続する**」をクリックします。
 
-   ![](assets/simulate-rendering-litmus.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-litmus.png){zoomable="yes"}
 
 1. 資格情報を入力してログインします。
 
-   ![](assets/simulate-rendering-credentials.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-credentials.png){zoomable="yes"}
 
 1. 「**テストを実行**」ボタンをクリックして、メールのプレビューを生成します。
 
 1. 一般的なデスクトップ、モバイルおよび web ベースのクライアントでメールコンテンツを確認します。
 
-   ![](assets/simulate-rendering-previews.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-rendering-previews.png){zoomable="yes"}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.

@@ -4,8 +4,8 @@ title: ファイルからメールオーディエンスを読み込み
 description: 外部ファイルからプロファイルを読み込んでメールオーディエンスを作成する方法を学ぶ
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: ht
-source-wordcount: '657'
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ Adobe Campaign web ユーザーインターフェイスを使用すると、外�
 1. 既存のメール配信を開くか、[新しいメール配信を作成](../email/create-email.md)します。
 1. 「**オーディエンス**」セクションで、「**オーディエンスを選択**」ボタンをクリックし、「**ファイルから選択**」を選択します。
 
-   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
+   ![](assets/select-from-file.png){zoomable="yes"}
 
 1. 読み込むローカルファイルを選択します。ファイル形式は、[サンプルファイル](#sample-file)と一致する必要があります。
 1. 画面の中央のセクションで、データがどのようにマッピングされるかをプレビューして確認します。
@@ -66,7 +66,7 @@ Adobe Campaign web ユーザーインターフェイスを使用すると、外�
 
 メッセージコンテンツを作成する際に、入力ファイルのフィールドを活用してパーソナライゼーションを追加できます。[コンテンツをパーソナライズする方法について説明します。](../personalization/personalize.md)
 
-![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
+![](assets/select-external-perso.png){zoomable="yes"}
 
 ## サンプルファイル {#sample-file}
 
@@ -101,7 +101,7 @@ Campaign web では、ファイルからアップロードされたオーディ�
 
 1. 配信コンテンツのプレビューが、画面の右側のパネルに表示されます。パーソナライズされた要素は、左側のパネルで選択したプロファイルのデータに置き換えられます。[配信コンテンツのプレビューの詳細情報](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-preview.png){zoomable="yes"}
 
 1. 本配信前確認を送信するには、「**[!UICONTROL 本配信前確認を送信]**」ボタンをクリックします。
 
@@ -113,6 +113,6 @@ Campaign web では、ファイルからアップロードされたオーディ�
 
 1. 本配信前確認プロファイルを追加し、本配信前確認を送信する準備が整ったら、「**[!UICONTROL 本配信前確認を送信]**」ボタンをクリックし、送信を確定します。
 
-   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/file-upload-test.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 本配信前確認を表示]**」ボタンを使用して、いつでも本配信前確認の送信を監視できます。[詳しくは、本配信前確認の監視を参照してください](../preview-test/test-deliveries.md#access-test-deliveries)

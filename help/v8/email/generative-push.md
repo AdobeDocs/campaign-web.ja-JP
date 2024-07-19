@@ -7,8 +7,8 @@ hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
-workflow-type: ht
-source-wordcount: '490'
+workflow-type: tm+mt
+source-wordcount: '478'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ AI アシスタントを使用すると、オーディエンスの共感を呼�
 
 1. **[!UICONTROL AI アシスタントを表示]**&#x200B;メニューにアクセスします。
 
-   ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、AI アシスタントで、配信、配信名、選択したオーディエンスに基づいて新しいコンテンツをパーソナライズします。
 
@@ -52,13 +52,13 @@ AI アシスタントを使用すると、オーディエンスの共感を呼�
    >
    > プロンプトは、常に現在のコンテンツに関連付けられている必要があります。
 
-   ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-3.png){zoomable="yes"}
 
 1. 「**[!UICONTROL プロンプト]**」フィールドに生成する内容を記述して、コンテンツを微調整します。
 
    プロンプトの作成に関するサポートが必要な場合は、配信を改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。
 
-   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランドアセットをアップロード]**」を選択し、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加します。
 
@@ -70,7 +70,7 @@ AI アシスタントを使用すると、オーディエンスの共感を呼�
    * **[!UICONTROL 言語]**：コンテンツを生成する言語を選択します。
    * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼びます。情報を提供する、遊び心がある、説得力がある、のいずれを求めているかに関わらず、AI アシスタントはメッセージを適切に適応させることができます。
 
-   ![](assets/push-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-4.png){zoomable="yes"}
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
@@ -84,13 +84,13 @@ AI アシスタントを使用すると、オーディエンスの共感を呼�
 
    * **[!UICONTROL よりシンプルな言葉を使用]**：AI アシスタントを活用して言語をわかりやすく簡素化し、幅広いオーディエンスがアクセスできるようにします。
 
-   ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-5.png){zoomable="yes"}
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
 1. パーソナライゼーションフィールドを挿入し、プロファイルデータに基づいてメールコンテンツをカスタマイズします。次に「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。[詳細情報](../preview-test/preview-content.md)
 
-   ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/push-genai-6.png){zoomable="yes"}
 
 コンテンツ、オーディエンスおよびスケジュールを定義したら、プッシュ配信の準備が整います。[詳細情報](../monitor/prepare-send.md)
 

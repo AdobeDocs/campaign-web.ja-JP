@@ -7,8 +7,8 @@ hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
-workflow-type: ht
-source-wordcount: '479'
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ SMS メッセージをオーディエンスに合わせて作成してパーソ�
 
 1. **[!UICONTROL AI アシスタントを表示]**&#x200B;メニューにアクセスします。
 
-   ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、AI アシスタントで、配信、配信名、選択したオーディエンスに基づいて新しいコンテンツをパーソナライズします。
 
@@ -56,7 +56,7 @@ SMS メッセージをオーディエンスに合わせて作成してパーソ�
 
    プロンプトの作成に関するサポートが必要な場合は、配信を改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。
 
-   ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランドアセットをアップロード]**」を選択し、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加します。
 
@@ -67,7 +67,7 @@ SMS メッセージをオーディエンスに合わせて作成してパーソ�
    * **[!UICONTROL トーン]**：テキストがオーディエンスと目的に適したものになります。
    * **[!UICONTROL 長さ]**：範囲スライダーを使用して、コンテンツの長さを選択します。
 
-   ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-3.png){zoomable="yes"}
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
@@ -81,16 +81,16 @@ SMS メッセージをオーディエンスに合わせて作成してパーソ�
 
    * **[!UICONTROL 言い換え]**：AI アシスタントは、メッセージを言い換えて、様々なオーディエンスに魅力的なコンテンツを提供し続けます。
 
-   ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-4.png){zoomable="yes"}
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
 1. パーソナライゼーションフィールドを挿入して、プロファイルデータに基づいて SMS コンテンツをカスタマイズします。[コンテンツのパーソナライゼーションの詳細情報](../personalization/personalize.md)
 
-   ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-5.png){zoomable="yes"}
 
 1. メッセージコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして、レンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。[詳細情報](../preview-test/preview-content.md)
 
-   ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/sms-genai-6.png){zoomable="yes"}
 
 コンテンツ、オーディエンスおよびスケジュールを定義したら、SMS 配信の準備が整います。[詳細情報](../monitor/prepare-send.md)

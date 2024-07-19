@@ -4,7 +4,7 @@ title: 配信受信者の選択
 description: 配信の受信者を選択する方法について説明します。
 exl-id: 33366af1-17b5-4ef7-8e0c-b7a8ae6e1e82
 source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%
 

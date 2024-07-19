@@ -5,7 +5,7 @@ description: プッシュチャネルのキャンペーンレポートについ�
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '499'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートは、プッシュ通知配信に対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。指標については、以下で詳しく説明します。
 
-![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 
 +++詳しくは、プッシュキャンペーンレポート指標を参照してください。
@@ -48,10 +48,10 @@ ht-degree: 100%
 
 **[!UICONTROL 初期ターゲットオーディエンス統計]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 初期オーディエンス]**：ターゲット受信者の合計数。
 
@@ -70,9 +70,9 @@ ht-degree: 100%
 
 **[!UICONTROL 実行統計]**&#x200B;テーブルには、配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -95,9 +95,9 @@ ht-degree: 100%
 
 **[!UICONTROL クリックストリーム]**&#x200B;テーブルには、受信者による配信の操作に関するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
+![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 

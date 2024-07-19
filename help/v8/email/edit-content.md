@@ -5,7 +5,7 @@ description: Campaign Web ユーザーインターフェイスでメールコン
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '624'
 ht-degree: 100%
 
 ---
@@ -47,11 +47,11 @@ ht-degree: 100%
 
 1. [メール配信ダッシュボード](../email/create-email.md)画面で「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
-   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. メールコンテンツ編集画面が開きます。
 
-   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 返信先フィールド]**」セクションを展開します。送信者の名前とアドレスは、デフォルトで返信に使用されます。カスタマーサポートの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
 
-   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
 1. メールの「**[!UICONTROL 件名]**」を定義します。件名を専用フィールドに直接入力するか、式エディターを開いて、様々な属性とコンテンツブロックまたはオファーを使用して[パーソナライゼーション](../personalization/personalize.md)を追加します。
 

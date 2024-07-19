@@ -5,7 +5,7 @@ description: Adobe Campaign Web を使用してワークフローを作成する
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 視覚的なフローを使用すると、ターゲットプロファイルの進行状況をリアルタイムで追跡できます。これにより、各アクティビティのステータスと、アクティビティ間で移行中のプロファイルの数をすばやく識別できます。
 
-![](assets/workflow-execution.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-execution.png){zoomable="yes"}
 
 ## ワークフローのトランジション {#transitions}
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 「**[!UICONTROL スキーマをプレビュー]**」をクリックして、作業用テーブルのスキーマを表示します。
 * 「**[!UICONTROL 結果をプレビュー]**」をクリックして、選択したトランジションで転送されたデータを視覚化します。
 
-![](assets/transition.png){zoomable=&quot;yes&quot;}
+![](assets/transition.png){zoomable="yes"}
 
 ## アクティビティ実行を監視 {#activities}
 
@@ -39,10 +39,10 @@ ht-degree: 100%
 
 | 視覚的な指標 | 説明 |
 |-----|------------|
-| ![](assets/activity-status-pending.png){zoomable=&quot;yes&quot;}{width="70%"} | このアクティビティは現在実行中です。 |
-| ![](assets/activity-status-orange.png){zoomable=&quot;yes&quot;}{width="70%"} | このアクティビティには注意が必要です。これには、配信の送信確認や、必要なアクションの実行が含まれる場合があります。 |
-| ![](assets/activity-status-red.png){zoomable=&quot;yes&quot;}{width="70%"} | アクティビティでエラーが発生しました。この問題を解決するには、ワークフローのログを開いて詳細を確認します。 |
-| ![](assets/activity-status-green.png){zoomable=&quot;yes&quot;}{width="70%"} | アクティビティが正常に実行されました。 |
+| ![](assets/activity-status-pending.png){zoomable="yes"}{width="70%"} | このアクティビティは現在実行中です。 |
+| ![](assets/activity-status-orange.png){zoomable="yes"}{width="70%"} | このアクティビティには注意が必要です。これには、配信の送信確認や、必要なアクションの実行が含まれる場合があります。 |
+| ![](assets/activity-status-red.png){zoomable="yes"}{width="70%"} | アクティビティでエラーが発生しました。この問題を解決するには、ワークフローのログを開いて詳細を確認します。 |
+| ![](assets/activity-status-green.png){zoomable="yes"}{width="70%"} | アクティビティが正常に実行されました。 |
 
 ## ログとタスクを監視 {#logs-tasks}
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 **[!UICONTROL ログとタスク]**&#x200B;メニューには、ワークフローの実行履歴が表示され、すべてのユーザーのアクションと発生したエラーが記録されます。この履歴は、ワークフロー[実行オプション](workflow-settings.md)で指定された期間保存されます。この期間中は、ワークフローが再開された後も、すべてのメッセージが保存されます。以前の実行したメッセージを保存しない場合は、「**[!UICONTROL 履歴をパージ]**」ボタンをクリックします。
 
-![](assets/workflow-logs.png){zoomable=&quot;yes&quot;}
+![](assets/workflow-logs.png){zoomable="yes"}
 
 次の 2 種類の情報を使用できます。
 

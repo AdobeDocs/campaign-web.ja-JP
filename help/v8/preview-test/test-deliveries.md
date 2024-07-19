@@ -5,7 +5,7 @@ description: 本配信前確認の送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1124'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 1. 「**[!UICONTROL 本配信前確認を送信]**」ボタンをクリックして、本配信前確認を送信します。
 
-   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. 本配信前確認の受信者を選択します。
 
@@ -78,17 +78,17 @@ ht-degree: 100%
 
 1. 本配信前確認または SMS 配信を受信する架空の受信者をターゲットにするには、**[!UICONTROL モード]**&#x200B;ドロップダウンリストから「**[!UICONTROL テストプロファイル]**」を選択します。
 
-   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
 1. コンテンツシミュレーション画面で[メッセージのプレビュー](preview-content.md)用のプロファイルを既に選択している場合、それらのプロファイルが本配信前確認の受信者として事前に選択されています。「**[!UICONTROL テストプロファイルを追加]**」ボタンを使用して、選択を解除したり、追加の受信者を追加したりできます。
 
 1. テストプロファイルリストまたはプロファイルリストを参照する際に、フィルターを使用して検索を絞り込むことができます。例えば、**[!UICONTROL 見込み客]**&#x200B;ステータスとなっている、すべてのテストプロファイルを検索するルールを定義できます。ルールの追加方法については、[クエリモデラー](../query/query-modeler-overview.md)を参照してください。
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
 1. 本配信前確認の受信者にも最終メッセージを送信するには、「**[!UICONTROL メインターゲットにテスト母集団を含める]**」オプションを選択します。
 
-   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-include-test.png){zoomable="yes"}
 
 1. テストプロファイルを選択したら、[本配信前確認を送信](#send-test)できます。
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL アドレスを追加]**」ボタンをクリックし、本配信前確認を受信するメールアドレスまたは電話番号を指定します。
 
-   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ ht-degree: 100%
 
 1. 受信者を確認し、この操作を繰り返して必要な数のメールアドレスまたは電話番号を追加します。
 
-   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
 
 1. 本配信前確認の受信者にも最終メッセージを送信するには、「**[!UICONTROL メインターゲットにテスト母集団を含める]**」オプションを選択します。
 
@@ -130,13 +130,13 @@ ht-degree: 100%
 
 1. プッシュ配信のコンテンツから、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックし、続いて「**[!UICONTROL 本配信前確認を送信]**」ボタンをクリックします。
 
-   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-push.png){zoomable="yes"}
 
 1. コンテンツシミュレーション画面で[配信のプレビュー](preview-content.md)用のサブスクライバーを既に選択している場合、それらのプロファイルがテストサブスクライバーとして事前に選択されています。
 
    専用のボタンを使用して、選択を解除したり、サブスクライバーを追加したりできます。
 
-   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
 
 1. また、テストサブスクライバーにも最終的なプッシュ通知を送信するには、「**[!UICONTROL メインターゲットにテスト母集団を含める]**」オプションを選択します。
 
@@ -150,7 +150,7 @@ ht-degree: 100%
 
 1. 送信を確定します。
 
-   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-send-test.png){zoomable="yes"}
 
 1. 配信のコンテンツが完成するまで、必要な数の本配信前確認を送信します。
 
@@ -166,8 +166,8 @@ ht-degree: 100%
 
 これらのログでは、選択した配信のすべての送信済み本配信前確認にアクセスしたり、送信に関する特定の統計情報を視覚化したりできます。[配信ログの監視方法の詳細](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-test-log.png){zoomable="yes"}
 
 また、他の任意の配信と同様に、[配信リスト](../msg/gs-messages.md)から送信済みの本配信前確認にアクセスすることもできます。
 
-![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-deliveries-list.png){zoomable="yes"}

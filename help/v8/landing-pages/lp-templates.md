@@ -6,7 +6,7 @@ feature: Landing Pages
 exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
 source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 1. ドロップダウンメニューから「**[!UICONTROL コンテンツテンプレートとして保存]**」を選択します。
 
-   ![](assets/lp-save-as-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-save-as-template.png){zoomable="yes"}
 
 1. このテンプレートに名前を追加します。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 次回ランディングページを作成する際には、このテンプレートを使用してコンテンツを作成できます。詳しくは、以下の[節](#use-saved-template)を参照してください。
 
-![](assets/lp-saved-template.png){zoomable=&quot;yes&quot;}
+![](assets/lp-saved-template.png){zoomable="yes"}
 
 ## 保存済みテンプレートの使用 {#use-saved-template}
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 1. ランディングページのコンテンツを編集する際は、「**[!UICONTROL 詳細]**」ボタンをクリックし、「**[!UICONTROL デザインを変更]**」を選択します。
 
-   ![](assets/lp-change-your-design.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-change-your-design.png){zoomable="yes"}
 
 1. 選択内容を確認します。
 
@@ -47,11 +47,11 @@ ht-degree: 100%
 
 1. 以前に保存したすべてのテンプレートのリストが「**[!UICONTROL 保存済みテンプレート]**」タブに表示されます。「**[!UICONTROL 名前別]**」、「**[!UICONTROL 最終変更日]**」および「**[!UICONTROL 最終作成日]**」で並べ替えることができます。
 
-   ![](assets/lp-saved-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-saved-templates.png){zoomable="yes"}
 
 1. リストから目的のテンプレートを選択します。選択したら、左右の矢印を使用して、保存済みのすべてのテンプレート間を移動できます。
 
-   ![](assets/lp-select-saved-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-select-saved-template.png){zoomable="yes"}
 
 1. 「**[!UICONTROL このテンプレートを使用]**」をクリックします。
 

@@ -5,7 +5,7 @@ hide: true
 hidefromtoc: true
 description: Campaign web ユーザーインターフェイスでの配信にトラップグループを使用する方法について説明します
 source-git-commit: 15d8ea478a234136dc654683798957d6c7026327
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
 

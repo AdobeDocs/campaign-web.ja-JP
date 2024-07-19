@@ -5,7 +5,7 @@ description: メールチャネルのグローバルレポートについて学�
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1592'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;には、各メール配信における訪問者のインタラクションに関する詳細なインサイトを提供する主要業績評価指標（KPI）が表示されます。指標の概要を以下に示します。
 
-![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++配信の概要指標の詳細情報
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 **[!UICONTROL ターゲットオーディエンス]**&#x200B;のテーブルおよびグラフには、受信者に関連するデータが表示され、下に詳細な指標が示されます。
 
-![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++ターゲットオーディエンス指標の詳細情報
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信統計]**&#x200B;テーブルには、すべてのメール配信の成功の分類が表示され、下に概要を示す詳細な指標が示されます。
 
-![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
 +++配信統計指標の詳細情報
 
@@ -95,7 +95,7 @@ ht-degree: 100%
 >title="除外の理由"
 >abstract="**除外の理由**&#x200B;グラフおよびテーブルには、配信準備中にメッセージが拒否される具体的な理由が表示され、ルール別の詳細な分類が示されます。"
 
-![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
 
 除外グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 >title="配信スループット"
 >abstract="この&#x200B;**配信スループット**&#x200B;には、配信スループットに関する包括的なインサイトが表示され、指定した期間内の成功率とエラー率がハイライト表示されます。"
 
-![](assets/global_report_email_delivery_throughput.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
 
 配信スループットレポートには、配信プロセスの効率に関する詳細なインサイトが表示され、指定した期間内の成功率とエラー率の詳細な概要が示されます。
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 >title="タイプ別のエラー分類"
 >abstract="**タイプ別のエラー分類**&#x200B;を詳細に示したテーブルおよびグラフには、不明なユーザー、メールボックス容量超過、無効なドメインなど、プロセス中に発生した様々なエラータイプに関する情報が含まれます。"
 
-![](assets/global_report_email_breakdown_type.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
 **[!UICONTROL タイプ別のエラー分類]**&#x200B;テーブルおよびグラフには、様々なドメインで発生する潜在的なエラーに関連するデータが表示され、下に特定の指標が示されます。
 
@@ -160,7 +160,7 @@ ht-degree: 100%
 >title="ドメイン別のエラー分類"
 >abstract="**ドメイン別のエラー分類**&#x200B;を示すテーブルおよびグラフには、発生した各エラータイプに対応するデータが特定のドメインごとに分類されて表示されます。"
 
-![](assets/global_report_email_breakdown_domain.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
 **[!UICONTROL ドメイン別のエラー分類]**&#x200B;テーブルおよびグラフには、各ドメイン内の潜在的なエラーに関連するデータが表示されます。指標は、上記の&#x200B;**[!UICONTROL タイプ別のエラー分類]**&#x200B;テーブルとグラフと共通です。
 
@@ -175,7 +175,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信統計]**&#x200B;指標には、すべてのメール配信に関連するデータについての詳細情報を提供する主要業績評価指標（KPI）が示されます。これらの指標について詳しくは、以下を参照してください。
 
-![](assets/global_report_email_delivery_statistics_tracking.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
 +++配信統計指標の詳細情報
 
@@ -203,7 +203,7 @@ ht-degree: 100%
 
 **[!UICONTROL 開封率およびクリックスルー率]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/global_report_email_opens.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
 +++開封率とクリックスルー率指標の詳細情報
 
@@ -229,7 +229,7 @@ ht-degree: 100%
 
 **[!UICONTROL URL とクリックストリーム]**&#x200B;レポートには、配信中に最も多くのクリック数を受信した URL に関する詳細なインサイトを提供する主要業績評価指標（KPI）が表示されます。指標については、以下で詳しく説明します。
 
-![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
 +++URL とクリックストリーム指標の詳細情報
 
@@ -251,7 +251,7 @@ ht-degree: 100%
 
 **[!UICONTROL 最も訪問されたリンク上位 10 件]**&#x200B;グラフおよびテーブルには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/global_report_email_top10.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
 +++最も訪問されたリンク上位 10 件指標の詳細情報
 
@@ -270,7 +270,7 @@ ht-degree: 100%
 
 **[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動について入手可能なデータが表示されます。
 
-![](assets/global_report_email_breakdown_clicks.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
 
 ## ユーザーアクティビティ {#user-activities-email}
 
@@ -281,7 +281,7 @@ ht-degree: 100%
 
 **[!UICONTROL ユーザーアクティビティ]**&#x200B;レポートには、開封数とクリック数の分類がチャート形式で表示されます。このレポートの指標については、以下で詳しく説明します。
 
-![](assets/global_report_email_user.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
 +++ユーザーアクティビティ指標の詳細情報
 

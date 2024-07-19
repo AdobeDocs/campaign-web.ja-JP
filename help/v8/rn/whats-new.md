@@ -4,7 +4,7 @@ title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 100%
 

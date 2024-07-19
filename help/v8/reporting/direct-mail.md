@@ -5,7 +5,7 @@ description: ダイレクトメールレポートへのアクセス方法と使�
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '658'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;では、訪問者が各ダイレクトメール配信とどのようにやり取りするかに関する詳細なインサイトが提供され、重要な主要業績評価指標（KPI）が表示されます。指標の概要を以下に示します。
 
-![](assets/direct-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
 +++配信の概要指標の詳細情報
 
@@ -45,11 +45,11 @@ ht-degree: 100%
 
 **[!UICONTROL 初期ターゲット母集団]**&#x200B;グラフには、受信者に関するデータが表示されます。指標は配信の準備中に計算され、初期オーディエンス、送信するメッセージの数、除外された受信者の数を示します。
 
-![](assets/direct-mail-delivery-targeted-population.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
 
 グラフの一部にマウスを合わせると、正確な数が表示されます。
 
-![](assets/direct-mail-delivery-targeted-population_2.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
 +++詳しくは、ダイレクトメール配信レポート指標を参照してください。
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信統計]**&#x200B;グラフは、配信パフォーマンスの包括的な概要と、成功度と有効性を評価するための詳細な指標を提供します。
 
-![](assets/direct-mail-delivery-stats.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
 +++詳しくは、ダイレクトメールキャンペーンレポート指標を参照してください。
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 **[!UICONTROL 除外の理由]**&#x200B;グラフでは、配信準備のプロセス中にメッセージが却下される背後にある理由の詳細な分類を表示します。この分類は、様々なルールに従って整理され、メッセージの除外につながる要因を包括的に把握できます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types)を参照してください。
 
-![](assets/direct-mail-delivery-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++詳しくは、除外の理由指標を参照してください。
 
@@ -121,6 +121,6 @@ ht-degree: 100%
 
 **[!UICONTROL 除外]**&#x200B;テーブルには、配信の準備フェーズで却下されたメッセージを特定のルールで分類した詳細を提供します。この包括的な分類により、これらのメッセージが配信プロセスから除外される理由を明確に理解できます。
 
-![](assets/direct-mail-exclusions.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 使用可能な指標は、上記の[除外の理由](#direct-mail-delivery-exclusions)の指標と同じです。

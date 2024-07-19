@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1185'
 ht-degree: 100%
 
 ---
@@ -34,12 +34,12 @@ ht-degree: 100%
 
 1. 左側のナビゲーションの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
 
-   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-delivery.png){zoomable="yes"}
 
 1. 配信用チャネルを選択します。
 1. メインターゲットとコントロール母集団に対する配信オーディエンスを定義します。[詳しくは、オーディエンスを参照してください](../audience/about-recipients.md)。
 
-   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
 1. メッセージコンテンツを定義します。配信チャネルと配信コンテンツの定義方法について詳しくは、次の節を参照してください。
 
@@ -62,13 +62,13 @@ ht-degree: 100%
 1. 「[**[!UICONTROL オーディエンスを作成]**](../workflows/activities/build-audience.md)」アクティビティを追加して設定します。
 1. `+` アイコンをクリックし、配信アクティビティ（**[!UICONTROL メール]**、**[!UICONTROL SMS]**、**[!UICONTROL プッシュ通知（Android）]**&#x200B;または&#x200B;**[!UICONTROL プッシュ通知（iOS）]**）を選択します。ワークフローの配信チャネルアクティビティと、配信コンテンツの定義方法について詳しくは、[この節](../workflows/activities/channels.md)をご覧ください。
 
-   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
+   ![](assets/add-delivery-in-wf.png){zoomable="yes"}
 
 1. ワークフローを開始し、ログを確認します。
 
 ワークフローを作成せずに、キャンペーンに配信を追加することもできます。これを行うには、キャンペーンの「**[!UICONTROL 配信]**」タブを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
 
-![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/new-campaign-delivery.png){zoomable="yes"}
 
 設定手順は、スタンドアロン配信の場合と同様です。
 
@@ -116,7 +116,7 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 配信の送信スケジュールを設定するには、配信を開き、「**[!UICONTROL スケジュール]**」セクションを参照します。「**[!UICONTROL スケジュールを有効にする]**」切替スイッチを使用してスケジュールをアクティベートし、送信する日時を設定します。配信を送信すると、実際の送信は、定義した連絡日に開始されます。
 
-![](assets/schedule.png){zoomable=&quot;yes&quot;}
+![](assets/schedule.png){zoomable="yes"}
 
 デフォルトでは、「**[!UICONTROL 送信前に確認を有効にする]**」オプションが有効になっています。このオプションでは、スケジュール設定した日時に配信を送信する前に送信を確定する必要があります。スケジュール設定した日時に配信を自動的に送信する必要がある場合は、このオプションを無効にします。
 

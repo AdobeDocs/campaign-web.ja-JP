@@ -7,8 +7,8 @@ exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
 source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
-workflow-type: ht
-source-wordcount: '1369'
+workflow-type: tm+mt
+source-wordcount: '1333'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
 
 1. 必要に応じてメールをパーソナライズし、**[!UICONTROL AI アシスタント]**&#x200B;メニューにアクセスします。
 
-   ![](assets/full-email-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、AI アシスタントで、配信、配信名、選択したオーディエンスに基づいて新しいコンテンツをパーソナライズします。
 
@@ -58,13 +58,13 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
 
    プロンプトの作成に関するサポートが必要な場合は、配信を改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。
 
-   ![](assets/full-email-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-2.png){zoomable="yes"}
 
 1. **[!UICONTROL 件名]**&#x200B;または&#x200B;**[!UICONTROL プリヘッダー]**&#x200B;を切り替えて、バリアントの生成に含めることができます。
 
 1. 「**[!UICONTROL ブランドアセットをアップロード]**」をクリックして、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたものを選択します。
 
-   ![](assets/full-email-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-3.png){zoomable="yes"}
 
 1. 様々なオプションを使用してプロンプトを調整します。
 
@@ -73,7 +73,7 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
    * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼びます。情報を提供する、遊び心がある、説得力がある、のいずれを求めているかに関わらず、AI アシスタントはメッセージを適切に適応させることができます。
    * **[!UICONTROL 長さ]**：範囲スライダーを使用して、コンテンツの目的の長さを選択します。
 
-   ![](assets/full-email-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-4.png){zoomable="yes"}
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
@@ -87,13 +87,13 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
 
    * **[!UICONTROL よりシンプルな言葉を使用]**：AI アシスタントを活用して言語をわかりやすく簡素化し、幅広いオーディエンスがアクセスできるようにします。
 
-   ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-5.png){zoomable="yes"}
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
 1. パーソナライゼーションフィールドを挿入し、プロファイルデータに基づいてメールコンテンツをカスタマイズします。次に「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。[詳細情報](../preview-test/preview-content.md)
 
-   ![](assets/full-email-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/full-email-6.png){zoomable="yes"}
 
 コンテンツ、オーディエンスおよびスケジュールを定義したら、メール配信の準備が整いました。[詳細情報](../monitor/prepare-send.md)
 
@@ -107,7 +107,7 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
 
 1. 「**[!UICONTROL テキストコンポーネント]**」を選択して、特定のコンテンツのみをターゲットにします。次に、**[!UICONTROL AI アシスタント]**&#x200B;メニューにアクセスします。
 
-   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 元のコンテンツを使用]**」オプションを有効にして、AI アシスタントで、配信、配信名、選択したオーディエンスに基づいて新しいコンテンツをパーソナライズします。
 
@@ -117,11 +117,11 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
 
    プロンプトの作成に関するサポートが必要な場合は、配信を改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。
 
-   ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランドアセットをアップロード]**」をクリックし、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加します。
 
-   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-3.png){zoomable="yes"}
 
 1. 様々なオプションを使用してプロンプトを調整します。
 
@@ -130,7 +130,7 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
    * **[!UICONTROL トーン]**：テキストがオーディエンスと目的に適したものになります。
    * **[!UICONTROL 長さ]**：範囲スライダーを使用して、コンテンツの長さを選択します。
 
-   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-4.png){zoomable="yes"}
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
@@ -148,13 +148,13 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
 
    * **[!UICONTROL よりシンプルな言葉を使用]**：AI アシスタントを活用して言語をわかりやすく簡素化し、幅広いオーディエンスがアクセスできるようにします。
 
-   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-5.png){zoomable="yes"}
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
 1. パーソナライゼーションフィールドを挿入し、プロファイルデータに基づいてメールコンテンツをカスタマイズします。次に「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。[詳細情報](../preview-test/preview-content.md)
 
-   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
+   ![](assets/text-genai-7.png){zoomable="yes"}
 
 コンテンツ、オーディエンスおよびスケジュールを定義したら、メール配信の準備が整いました。[詳細情報](../monitor/prepare-send.md)
 
@@ -172,13 +172,13 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
 
 1. 右側のメニューから、「**[!UICONTROL AI アシスタント]**」を選択します。
 
-   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL プロンプト]**」フィールドに生成する内容を記述して、コンテンツを微調整します。
 
    プロンプトの作成に関するサポートが必要な場合は、配信を改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。
 
-   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランドアセットをアップロード]**」をクリックし、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加します。
 
@@ -192,7 +192,7 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
    * **[!UICONTROL 照明]**：画像内の稲妻を指し、画像の雰囲気を形成し、特定の要素をハイライト表示します。
    * **[!UICONTROL 構成]**：画像のフレーム内の要素の配置を指します
 
-   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. プロンプトの設定が完了したら、「**[!UICONTROL 生成]**」をクリックします。
 
@@ -200,17 +200,17 @@ AI アシスタントは、メール全体、ターゲットテキストコン�
 
    「**[!UICONTROL プレビュー]**」をクリックして、選択したバリエーションのフルスクリーンバージョンを表示します。
 
-   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-5.png){zoomable="yes"}
 
 1. このバリアントに関連する画像を表示する場合は、「**[!UICONTROL 類似を表示]**」を選択します。
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
-   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-6.png){zoomable="yes"}
 
 1. メッセージコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。[詳細情報](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
+   ![](assets/image-genai-7.png){zoomable="yes"}
 
 1. コンテンツ、オーディエンスおよびスケジュールを定義したら、メール配信の準備が整いました。[詳細情報](../monitor/prepare-send.md)
 

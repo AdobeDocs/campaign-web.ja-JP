@@ -5,7 +5,7 @@ description: メールのテキストバージョンを作成する方法を学�
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -20,15 +20,15 @@ HTML コンテンツを表示できない場合に使用する、テキストバ
 
 1. メールから、「**[!UICONTROL プレーンテキスト]**」タブを選択します。
 
-   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/text_version_3.png){zoomable="yes"}
 
 1. 「**[!UICONTROL HTML と同期]**」切替スイッチを使用して、同期を無効にします。
 
-   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/text_version_1.png){zoomable="yes"}
 
 1. チェックマークをクリックして、選択内容を確定します。
 
-   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/text_version_2.png){zoomable="yes"}
 
 1. その後、必要に応じてプレーンテキストバージョンを編集できます。
 

@@ -5,7 +5,7 @@ description: メールコンテンツのスタイルを調整する様々な方�
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 変更内容は、メールの本文、構造コンポーネント、コンテンツコンポーネントのいずれかに適用できます。
 
-![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 メールのスタイル設定の一部を調整する方法については、以下のリンクを参照してください。
 

@@ -4,7 +4,7 @@ title: データ更新ワークフローアクティビティの使用
 description: データ更新ワークフローアクティビティの使用方法について学ぶ
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
 source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 100%
 

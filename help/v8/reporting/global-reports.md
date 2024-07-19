@@ -5,7 +5,7 @@ description: グローバルレポートについて
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -36,15 +36,15 @@ ht-degree: 100%
 
 1. 左側のメニューで、リストからレポートを選択し、タブ間を移動して各チャネルからのデータを表示します。
 
-   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_3.png){zoomable="yes"}
 
 1. ダッシュボードから、**開始時間**&#x200B;と&#x200B;**[!UICONTROL 終了時間]**&#x200B;を選択して、特定のデータをターゲットにします。
 
-   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL フォルダーを選択]**」フィールドで、特定のフォルダーから配信またはキャンペーンをターゲットにするかどうかを選択します。
 
-   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/global_report_manage_2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ルールを追加]**」をクリックしてクエリの作成を開始し、レポートデータをより適切にフィルタリングします。[詳しくは、クエリモデラーの使用方法を参照してください](../query/query-modeler-overview.md)
 

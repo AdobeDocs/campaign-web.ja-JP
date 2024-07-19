@@ -5,7 +5,7 @@ description: ミラーページへのリンクを追加および管理する方�
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -30,15 +30,15 @@ Adobe Campaign では、専用の&#x200B;**パーソナライゼーションブ�
 
 1. 要素を選択し、コンテキストツールバーから「**[!UICONTROL リンクを挿入]**」をクリックします。
 
-   ![](assets/message-tracking-mirror-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page.png){zoomable="yes"}
 
 1. 「**[!UICONTROL パーソナライゼーションを追加]**」アイコンを選択して、パーソナライゼーションメニューにアクセスします。
 
-   ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
 1. **[!UICONTROL コンテンツブロック]**&#x200B;メニューから、「**[!UICONTROL ミラーページ URL]**」を選択し、「**[!UICONTROL 追加]**」をクリックします。
 
-   ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
 
    カスタムコンテンツブロックの挿入について詳しくは、[この節](../personalization/personalize.md#personalize-emails)を参照してください。
 

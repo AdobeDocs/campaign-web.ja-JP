@@ -7,7 +7,7 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -35,25 +35,25 @@ ht-degree: 100%
 
 テストプロファイルリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL 顧客管理]**／**[!UICONTROL プロファイル]**&#x200B;を選択し、「**[!UICONTROL テストプロファイル]**」タブをクリックします。
 
-![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
+![](assets/test-profile-list.png){zoomable="yes"}
 
 * ドロップダウンリストを使用して特定の[フォルダー](../get-started/permissions.md#folders)をフィルタリングしたり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
 
-  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-filters.png){zoomable="yes"}
 
 * 必要に応じて、テストプロファイルを複製し、更新できます。テストプロファイルを編集する手順は、[テストプロファイルを作成](#create-test-profile)する場合と同じです。
 
 * テストプロファイルを削除するには、**[!UICONTROL その他のアクション]**&#x200B;メニューから対応するオプションを選択します。
 
-  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-delete.png){zoomable="yes"}
 
 * テストプロファイルを編集するには、リストから目的の項目をクリックします。テストプロファイルを編集する手順は、[テストプロファイルを作成](#create-test-profile)する場合と同じです。
 
 また、**[!UICONTROL エクスプローラー]**&#x200B;ビューの&#x200B;**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードアドレス]**&#x200B;ノードからテストプロファイルにアクセスすることもできます。
 
-そこから、フォルダーまたはサブフォルダーを参照、作成、管理したり、関連する権限を確認したりできます。[フォルダーの作成方法を学ぶ](../get-started/permissions.md#folders)
+そこから、フォルダーまたはサブフォルダーを参照、作成、管理したり、関連する権限を確認したりできます。[詳しくは、フォルダーの作成方法を参照してください](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
+![](assets/test-profiles-folders.png){zoomable="yes"}
 
 また、**[!UICONTROL エクスプローラー]**&#x200B;ビューから、テストプロファイルをフィルタリング、削除、編集、[作成](#create-test-profile)することもできます。
 
@@ -70,11 +70,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL テストプロファイルを作成]**」ボタンをクリックします。
 
-   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-create.png){zoomable="yes"}
 
 1. 必要に応じて、テストプロファイルの詳細を入力します。<!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-details.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -90,13 +90,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. 「**[!UICONTROL 連絡先情報]**」セクションに、メールアドレスと他の関連データを入力します。メールアドレスは、テストプロファイルラベルの後の括弧内に表示されます。
 
-   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-address.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 今後の連絡は不要（すべてのチャネル）]**」チェックボックスをオンにすると、テストプロファイルはブロックリストに登録されます。このような受信者は、いずれのチャネル（メール、SMS など）でもターゲットに設定されなくなりました。
 
 1. 「**[!UICONTROL 追加データ]**」タブでは、データ管理ワークフローで作成された配信に使用され、特定の値を割り当てたいパーソナライズデータを入力します。[詳しくは、ワークフローを参照してください](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-additional-data.png){zoomable="yes"}
 
    追加のターゲットデータが、「**[!UICONTROL エンリッチメント]**」ワークフローアクティビティで「@」で始まるエイリアスで定義されていることを確認してください。それ以外の場合は、配信アクティビティでシードアドレスと共に適切に使用できません。[詳しくは、「エンリッチメント」アクティビティを参照してください](../workflows/activities/enrichment.md)
 

@@ -7,8 +7,8 @@ role: Data Engineer
 level: Beginner
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
 source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
-workflow-type: ht
-source-wordcount: '431'
+workflow-type: tm+mt
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
@@ -23,13 +23,13 @@ Adobe Campaign は、事前設定済みのコンテンツブロックのリス�
 
 1. コンテンツブロックを追加するフィールドを見つけ、**[!UICONTROL パーソナライゼーションダイアログを開く]**&#x200B;アイコンをクリックして式エディターを開きます。
 
-   ![](assets/content-block-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-block-access.png){zoomable="yes"}{width="800" align="center"}
 
 1. 式エディターで、**[!UICONTROL コンテンツブロック]**&#x200B;の左側のメニューを参照します。
 
 1. コンテンツブロックを追加するには、コンテンツ内の目的の場所にカーソルを置き、「+」ボタンをクリックして挿入します。
 
-   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ビルトインコンテンツブロックは次のとおりです。
 

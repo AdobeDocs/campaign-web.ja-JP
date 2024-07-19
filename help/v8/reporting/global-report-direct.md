@@ -4,8 +4,8 @@ title: ダイレクトメールチャネルのグローバルレポート
 description: ダイレクトメールチャネルのグローバルレポートについての詳細情報
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
-workflow-type: ht
-source-wordcount: '626'
+workflow-type: tm+mt
+source-wordcount: '620'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 **[!UICONTROL 配信の概要]**&#x200B;には、各ダイレクトメール配信における訪問者のインタラクションに関する詳細なインサイトを提供する主要業績評価指標（KPI）が表示されます。指標の概要を以下に示します。
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++配信の概要指標の詳細情報
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 **[!UICONTROL ターゲットオーディエンス]**&#x200B;のテーブルおよびグラフには、受信者に関連するデータが表示され、下に詳細な指標が示されます。
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++ターゲットオーディエンス指標の詳細情報
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 >title="除外の理由"
 >abstract="**除外の理由**&#x200B;グラフには、配信の準備中に却下されたメッセージの配分がルールごとに分類されて表示されます。"
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 除外グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
 
