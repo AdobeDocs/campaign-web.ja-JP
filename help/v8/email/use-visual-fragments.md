@@ -2,25 +2,21 @@
 audience: end-user
 title: メールへのビジュアルフラグメントの追加
 description: ビジュアルフラグメントをメールに追加する方法を学ぶ
-hide: true
-hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 99%
 
 ---
 
 # メールへのビジュアルフラグメントの追加 {#use-visual-fragments}
 
-ビジュアルフラグメントは、[メール配信](get-started-email-designer.md)または[コンテンツテンプレート](use-email-templates.md)で使用できます。手順については、以下で詳しく説明します。
+ビジュアルフラグメントは、[メール配信](get-started-email-designer.md)または[コンテンツテンプレート](use-email-templates.md)で使用できます。手順は以下で説明します。 フラグメントの作成と管理の方法については、[この節](fragments.md)を参照してください。
 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->フラグメントの作成と管理の方法については、[この節](fragments.md)を参照してください。
-
+>この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
 ## フラグメントの使用 {#use-fragment}
 

@@ -2,18 +2,15 @@
 audience: end-user
 title: コンテンツフラグメントの作成
 description: コンテンツフラグメントの作成方法を学ぶ
-hide: true
-hidefromtoc: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '916'
 ht-degree: 100%
 
 ---
 
 # コンテンツフラグメントの作成 {#fragments}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -61,11 +58,14 @@ ht-degree: 100%
 
 ![](assets/fragments.gif)
 
-
 フラグメントを最大限に使用するには：
 
 * 以下に説明するように、独自のビジュアルフラグメントを作成します。
 * E メールデザイナーを通じて、コンテンツで必要な回数だけ使用します。[メールへのビジュアルフラグメントの追加](../email/use-visual-fragments.md)を参照してください。
+
+>[!AVAILABILITY]
+>
+>この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
 ## ビジュアルフラグメントの作成 {#create-fragments}
 
