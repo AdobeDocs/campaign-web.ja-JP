@@ -4,10 +4,10 @@ description: 次の Campaign web ユーザーインターフェイスリリー�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,10 +22,6 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 **リリース日**:2024 年 7 月 30～31 日
 
 次の機能および改善点は、7 月のリリース以降に利用可能になります。
-
-### 式フラグメント {#24-7-1}
-
-**式フラグメント** を作成、使用、管理して、パーソナライズされたコンテンツをすばやく作成できるようになりました。 フラグメントは、設計プロセスを改善および高速化するために、Adobe Campaign全体で複数のコンテンツで参照できる、事前に作成された再利用可能なコンポーネントです。
 
 ### シードリスト {#24-7-2}
 
@@ -42,4 +38,26 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 
 ### 改善点 {#improvements-24-7}
 
-* **フォルダー管理** - フォルダーに対する権限および制限を管理できるようになりました。
+**フォルダー管理** - フォルダーに対する権限および制限を管理できるようになりました。
+
+### 限定提供の新機能 {#acs-24-4}
+
+>[!AVAILABILITY]
+>
+>次の機能は、限定提供（LA）です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
+>
+>ドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)および [Campaign Standard ユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja)を参照してください。
+
+#### コンテンツフラグメント {#LA-24-7}
+
+フラグメントは、設計プロセスを改善および高速化するために、Adobe Campaign全体で複数のコンテンツで参照できる、事前に作成された再利用可能なコンポーネントです。
+
+* **式フラグメント** を作成、使用、管理して、パーソナライズされたコンテンツをすばやく作成できるようになりました。
+
+* **ビジュアルフラグメント** を作成、使用、保存して、メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。 [詳細情報](../email/fragments.md)
+
+
+
+
+
+
