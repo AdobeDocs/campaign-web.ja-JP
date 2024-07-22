@@ -2,7 +2,7 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 100%
@@ -54,22 +54,11 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 「**エンリッチメント**」ワークフローアクティビティで別のテーブルとのリンクを作成できるようになりました。アクティビティパラメーターの新しい「**リンクの定義**」セクションを使用して、作業用テーブルデータと Adobe Campaign データベース間のリンクを作成します。例えば、受信者のアカウント番号、国およびメールが含まれるファイルからデータを読み込む場合、プロファイル内のこの情報を更新するために国テーブルへのリンクを作成できるようになりました。[詳細情報](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### 一般的な改善点 {#improvements-24-5}
 
 * **ダイレクトメール** - 式エディターを活用して、ダイレクトメール抽出ファイルに表示する属性を選択できるようになりました。[詳細情報](../direct-mail/content-direct-mail.md)
 
 * **フォルダー管理** - 親フォルダーとは異なるタイプのサブフォルダーを作成できるようになりました。[詳細情報](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **グローバライゼーション** - 統一されたユーザーエクスペリエンスを提供するための継続的な取り組みの一環として、Adobe Experience Cloud 製品とアプリで使用される用語を統一します。これは、オブジェクトの名前に関連する場合に「ラベル」に変更されるドイツ語の用語「Titel」に影響します。変更は、UI とドキュメントに段階的にロールアウトされます。
 
@@ -125,22 +114,15 @@ Android 経由でリッチプッシュ通知を送信できるようになりま
 ### 一般的な改善点 {#improvements-24-4}
 
 以下の機能強化は、4月のリリース以降、すべてのお客様が利用できます。
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * 「**ファイルを読み込み**」アクティビティが強化され、いくつかのセクションが追加されました。これにより、サンプルファイルのアップロード、エラーや拒否の管理、アクティビティの実行後にアップロードされたファイルの削除を行うことができます。[詳細情報](../workflows/activities/load-file.md)
 
 
 * 別のブラウザータブで、ワークフローから別のワークフローに&#x200B;**アクティビティをコピー＆ペースト**&#x200B;できるようになりました。[詳細情報](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * すべてのワークフローアクティビティで、**実行オプション**&#x200B;を管理できるようになりました。これにより、アクティビティの実行モードとエラー時の動作を定義できます。[詳細情報](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * **「分割」アクティビティ**&#x200B;の「母集団が空の場合はトランジションをアクティブ化しない」オプションを使用すると、セグメント結果が空の場合にワークフローを次のアクティビティに移行するかどうかを選択できます。[詳細情報](../workflows/activities/split.md)
-
-
 
 ## 3月リリースノート {#24-3-release}
 
