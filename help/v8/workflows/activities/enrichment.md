@@ -3,9 +3,9 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1636'
 ht-degree: 100%
 
 ---
@@ -106,14 +106,6 @@ ht-degree: 100%
 リンクを使用したワークフローの例は、[例](#link-example)の節にあります。
 
 ## データの紐付け {#reconciliation}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="データの紐付け"
->abstract="ワークフローエンリッチメントアクティビティを使用して、Campaign データベーススキーマのデータと別のスキーマのデータや、「ファイルを読み込み」アクティビティを使用してアップロードされたデータなどの一時スキーマのデータを紐付けることができるようになりました。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
-
 
 **エンリッチメント**&#x200B;アクティビティを使用すると、Campaign データベーススキーマのデータを、別のスキーマのデータや、一時スキーマのデータ（ファイルの読み込みアクティビティを使用してアップロードされたデータなど）と紐付けることができます。このタイプのリンクは、一意のレコードに対する紐付けを定義します。Adobe Campaign は、一意のレコードへの参照を格納するターゲットテーブルに外部キーを追加する方法で、ターゲットテーブルへのリンクを作成します。
 

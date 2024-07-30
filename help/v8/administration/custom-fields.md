@@ -2,22 +2,14 @@
 title: カスタムフィールド
 description: カスタムフィールドの設定方法について説明します
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
 
 # カスタムフィールドの設定 {#custom-fields}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="カスタムフィールド"
->abstract="カスタムフィールドは、Adobe Campaign コンソールからすぐに使えるスキーマに追加されている属性です。これらは、web ユーザーインターフェイスで利用できるようになりました。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
-
-
 
 カスタムフィールドは、Adobe Campaign コンソールからすぐに使えるスキーマに追加されている属性です。詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=ja){target="_blank"}を参照してください。
 
