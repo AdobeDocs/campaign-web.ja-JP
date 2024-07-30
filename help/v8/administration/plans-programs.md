@@ -3,17 +3,17 @@ audience: end-user
 title: プランとプログラム
 description: Adobe Campaign でプランとプログラムを作成および設定する方法を学ぶ
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # プランとプログラム {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="プランとプログラム"
 >abstract="Campaign web ユーザーインターフェイスで、マーケティングプランおよびプログラムのフォルダー階層を設定できるようになりました。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
@@ -82,9 +82,9 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 キャンペーンをプログラムにリンクするには、次の 2 つの方法があります。
 
-### 方法 1：既にプログラムがあり、このプログラムにリンクされたキャンペーンを作成する場合
+### 方法#1：既にプログラムがあり、そのプログラムにリンクしたキャンペーンを作成したい
 
-新しいキャンペーンをプログラムにリンクするには、プログラムでキャンペーンを直接作成します。
+新しいキャンペーンをプログラムにリンクするには、プログラム内でキャンペーンを直接作成します。
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### 方法 2：既にキャンペーンがあり、このキャンペーンを既存のプログラムにリンクする場合
+### 方法#2：既にキャンペーンがあり、既存のプログラムにリンクしたい場合
 
 プログラムにリンクするキャンペーンの「**[!UICONTROL 設定]**」ボタンに移動します。
 

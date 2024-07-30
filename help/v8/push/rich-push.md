@@ -3,10 +3,10 @@ audience: end-user
 title: リッチプッシュ通知配信の設計
 description: Adobe Campaign web を使用した Android のリッチプッシュ通知配信の設計方法について説明します。
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '3354'
-ht-degree: 87%
+source-wordcount: '3372'
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,10 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->リッチ プッシュ通知をデザインする前に、まず V2 コネクタを設定する必要があります。 手順について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)を参照してください。
+>* この機能を使用するには、Campaign v8.6.3 <!--or v8.7.2--> へのアップデートが必要です。 詳しくは、Campaign v8 クライアントコンソール [ リリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} を参照してください。
+>
+>* リッチ プッシュ通知をデザインする前に、まず V2 コネクタを設定する必要があります。 詳しい手順は、[ このページ ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} を参照してください。
+
 
 Firebase Cloud Messaging では、次の 2 種類のメッセージの中から選択できます。
 

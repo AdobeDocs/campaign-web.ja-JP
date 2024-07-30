@@ -3,7 +3,7 @@ audience: end-user
 title: 配信アラート
 description: 配信アラートの操作方法について説明します。
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
+>id="acw_homepage_welcome_rn4"
 >title="配信アラート"
 >abstract="Campaign で配信アラートが使用できるようになりました。この機能は、ユーザーのグループが、配信の実行に関する情報が入ったメール通知を自動的に受信できるようにする、アラート管理システムです。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"

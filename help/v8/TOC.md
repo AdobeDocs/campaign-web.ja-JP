@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 94%
+source-wordcount: '745'
+ht-degree: 93%
 
 ---
 
@@ -134,6 +134,7 @@ ht-degree: 94%
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
       + [ファイルからメールオーディエンスを読み込み](audience/file-audience.md)
       + [コントロール母集団の設定](audience/control-group.md)
+      + [トラップグループの追加](audience/trap-group.md)
    + 購読サービスの操作 {#work-with-services}
       + [購読サービスの作成と管理](audience/manage-services.md)
       + [購読者の管理](audience/manage-subscribers.md)

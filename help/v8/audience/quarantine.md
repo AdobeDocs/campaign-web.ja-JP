@@ -3,10 +3,10 @@ audience: end-user
 title: 強制隔離について
 description: 強制隔離アドレスの管理について
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
-source-git-commit: 42e5f3b0ab5d31389b7a9d0544d3d265ec70fffc
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign でアドレスが強制隔離されると、配信の分析中�
 
 ## アドレスが強制隔離に送信される理由
 
-様々な理由により、アドレスが強制隔離に送信される場合があります。
+多くの理由から、アドレスが強制隔離される場合があります。
 
 - SMS の場合、誤った電話番号
 - SMS の場合、プロファイルが「STOP」などのキーワードを含む SMS メッセージに返信したとき
