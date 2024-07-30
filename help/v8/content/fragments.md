@@ -3,14 +3,20 @@ audience: end-user
 title: コンテンツフラグメントの基本を学ぶ
 description: コンテンツフラグメントの作成方法を学ぶ
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 37%
+source-wordcount: '380'
+ht-degree: 44%
 
 ---
 
 # コンテンツフラグメントの基本を学ぶ {#gs-fragments}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="コンテンツフラグメント"
+>abstract="コンテンツフラグメントを作成して使用できるようになりました。コンテンツフラグメントは、1 つ以上のメッセージで参照できる再利用可能なコンポーネントです。フラグメントを変更すると、そのフラグメントを使用するすべてのコンテンツが更新されます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
