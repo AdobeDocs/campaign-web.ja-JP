@@ -2,7 +2,7 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
 workflow-type: tm+mt
 source-wordcount: '1938'
 ht-degree: 99%
@@ -52,7 +52,6 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 ### 改善点 {#improvements-24-7}
 
 **フォルダー管理** - フォルダーに対する権限と制限を管理できるようになりました。
-
 
 ## 6月リリースノート {#24-6-release}
 
