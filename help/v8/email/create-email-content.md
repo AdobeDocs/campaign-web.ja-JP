@@ -3,10 +3,10 @@ audience: end-user
 title: E メールデザイナーでのメールの設計
 description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="構造を追加"
->abstract="構造は、フラグメントのレイアウトを定義します。**構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、フラグメントコンテンツのデザインを開始します。"
+>abstract="構造は、コンテンツフラグメントのレイアウトを定義します。 **構造**&#x200B;コンポーネントをキャンバスにドラッグ＆ドロップして、フラグメントコンテンツのデザインを開始します。"
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -45,8 +45,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="フラグメント列の定義"
->abstract="E メールデザイナーを使用すると、列構造を定義することで、フラグメントのレイアウトを簡単に定義できます。"
+>title="コンテンツフラグメント列の定義"
+>abstract="メールDesignerでは、列構造を定義することで、コンテンツフラグメントのレイアウトを簡単に定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

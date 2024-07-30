@@ -1,6 +1,6 @@
 ---
-title: 動的コンテンツの基本を学ぶ
-description: パーソナライゼーション、条件付きコンテンツ、組み込みコンテンツブロックを使用して、コンテンツを動的にする方法を説明します。
+title: コンテンツを動的にする方法
+description: パーソナライズ機能と条件付きコンテンツを使用して、コンテンツを動的にする方法を説明します。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 91%
 
 ---
 
-# 動的コンテンツの基本を学ぶ {#gs-dynamic-content}
+# コンテンツを動的にする方法 {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
 >title="パーソナライズ機能"
->abstract="式エディターでは、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツに合わせてカスタマイズされたエクスペリエンスを作成できます。プロファイルデータを活用して、各受信者に対するメッセージをパーソナライズし、条件付きコンテンツを作成して、各受信者にメッセージを適応させ、関連するコンテンツのみを表示できます。さらに、パーソナライゼーションブロックを使用して、事前に定義されたパーソナライズされたコンテンツを配信に追加できます。"
+>abstract="式エディターでは、すべてのデータを選択、整理、カスタマイズおよび検証して、コンテンツに合わせてカスタマイズされたエクスペリエンスを作成できます。プロファイルデータを活用して、各受信者に対するメッセージをパーソナライズし、条件付きコンテンツを作成して、各受信者にメッセージを適応させ、関連するコンテンツのみを表示できます。"
 
 マーケターは、お客様の製品に真に興味を持つ顧客をターゲットにし、効果的で関連性の高いコンテンツを提供して顧客を惹きつけることが重要です。発生する様々な受信者の範囲を考えると、異なる人物に訴える複数のマーケティングコンテンツを作成するのに時間がかかり、無駄が多くなる可能性があります。動的コンテンツは、ここで利用できます。
 
@@ -38,10 +38,6 @@ Campaign web 式エディターに JavaScript 構造を挿入することで、�
 * **条件付きコンテンツの作成**：各受信者に合わせて配信を調整し、特定の顧客に関する情報に基づいて、その顧客に関連するコンテンツのみを表示します。これにより、条件に基づいて特定のテキストブロックや画像を表示できます。例えば、特定のサービスに対する受信者の購読に基づいてメールバナーを調整します。
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
-
-* **パーソナライゼーションブロックの使用**：時間を節約し、簡単に再利用できるパーソナライズされたコンテンツをメッセージに活用します。Campaign には、配信に挿入できる特定のレンダリングを含んだ一連のパーソナライゼーションブロックが付属しています。例えば、ロゴ、挨拶メッセージまたはメールメッセージのミラーページへのリンクを追加できます。コンテンツブロックは、パーソナライゼーションエディターの専用のエントリから使用できます。
-
-  ![](assets/content-blocks.png){zoomable="yes"}{width="800" align="center"}
 
 ## 式エディターにアクセスする {#access}
 
@@ -64,35 +60,3 @@ Adobe Campaign Web では、式エディターを使用すると、すべての�
 >[!NOTE]
 >
 >式エディターに加えて、メールをデザインする際に、専用の条件付きコンテンツビルダーを活用することもできます。[詳しくは、メールでの条件付きコンテンツの作成方法を参照してください](conditions.md)
-
-## さらに深く掘り下げましょう {#dive-deeper}
-
-これで、コンテンツを動的にする方法を理解できたので、ドキュメントの節で詳しく説明し、この機能の使用を開始します。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="コンテンツのパーソナライズ" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>パーソナライゼーションの追加</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="リード" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>条件付きコンテンツを追加</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="低頻度" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>組み込みコンテンツブロックを追加</strong></a>
-</div>
-<p></td>
-</tr></table>

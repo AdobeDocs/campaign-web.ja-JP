@@ -2,10 +2,10 @@
 title: Adobe Campaign Web インターフェイスに接続
 description: Adobe Campaign Web ユーザーインターフェイスに接続する方法について説明します
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,51 @@ Campaign 環境にアクセスするには、Adobe Experience Cloud ホームペ
 ![](assets/launch-campaign.png){zoomable="yes"}
 
 Campaign に接続しました。ユーザーインターフェイスの使用を開始する方法については、[このページ](user-interface.md)を参照してください。
+
+### アクセス制御 {#access-control}
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="権限が必要です"
+>abstract="このオブジェクトを作成するには、管理者から権限が付与されている必要があります。"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="このオーディエンスは読み取り専用です"
+>abstract="このオーディエンスを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="このサービスは読み取り専用です"
+>abstract="このサービスを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="受信者の読み取り専用プロファイル"
+>abstract="このプロファイルを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="このキャンペーンは読み取り専用です"
+>abstract="このキャンペーンを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="この配信は読み取り専用です"
+>abstract="この配信を編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="このワークフローは読み取り専用です"
+>abstract="このワークフローを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+
+アクセス制御では、配信、受信者、ワークフローなどのメインリストからのオブジェクトやデータへのアクセスを制限できます。また、これらの制限は、エクスプローラーのナビゲーションツリーにも適用されます。さらに、ユーザーインターフェイスからオブジェクトを作成、削除、複製、編集する権限が必要です。
+
+Campaign web のすべての権限は、Campaign クライアントコンソールの権限と同期されます。 ユーザー権限を定義および変更できるのは、Campaign 管理者のみです。
+
+Campaign web ユーザーインターフェイスを参照すると、権限に応じてデータ、オブジェクト、機能にアクセスできます。例えば、フォルダーへのアクセス権限がない場合、そのフォルダーは表示されません。また、権限は、オブジェクトとデータの管理にも影響します。特定のフォルダーに対する書き込み権限がないと、ユーザーインターフェイスに配信が表示されていても、そのフォルダーに配信を作成することはできません。
+
+権限の表示と管理の方法については [ こちら ](permissions.md) を参照してください。
 
 ## Adobe Experience Cloud の上部ナビゲーション {#top-bar}
 

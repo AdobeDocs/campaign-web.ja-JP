@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 配信のデザイン
 description: SMS 配信のデザイン方法を学ぶ
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS コンテンツ"
->abstract="SMS 配信のコンテンツを作成し、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを使用してパーソナライズします。メッセージの作成を開始するには、「**コンテンツを編集**」ボタンをクリックします。"
+>abstract="SMS 配信のコンテンツを作成し、パーソナライゼーションフィールド、式フラグメント、動的コンテンツを使用してパーソナライズします。 メッセージの作成を開始するには、「**コンテンツを編集**」ボタンをクリックします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -28,7 +28,7 @@ SMS 配信のコンテンツをデザインするには、次の手順に従い�
 
 1. **[!UICONTROL コンテンツを編集]**&#x200B;ページで、**[!UICONTROL 送信者フィールド]**&#x200B;にアクセスし、優先名を入力することで送信者名をカスタマイズできます。
 
-   さらに、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」をクリックすると、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツをメッセージに含めることができます。
+   さらに、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」をクリックすると、パーソナライゼーションフィールド、式フラグメント、動的コンテンツをメッセージに含めることができます。
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 

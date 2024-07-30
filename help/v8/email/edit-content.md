@@ -3,10 +3,10 @@ audience: end-user
 title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスでメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. メールの「**[!UICONTROL 件名]**」を定義します。件名を専用フィールドに直接入力するか、式エディターを開いて、様々な属性とコンテンツブロックまたはオファーを使用して[パーソナライゼーション](../personalization/personalize.md)を追加します。
+1. メールの「**[!UICONTROL 件名]**」を定義します。件名を専用フィールドに直接入力するか、式エディターを開いて、様々な属性と式フラグメントまたはオファーを使用して [ パーソナライゼーション ](../personalization/personalize.md) を追加します。
 
 1. メールにファイルを添付する場合は、「**[!UICONTROL 添付ファイルを追加]**」ボタンをクリックして、1 つまたは複数のファイルを選択します。
 

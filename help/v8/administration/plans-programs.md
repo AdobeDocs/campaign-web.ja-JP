@@ -3,7 +3,7 @@ audience: end-user
 title: プランとプログラム
 description: Adobe Campaign でプランとプログラムを作成および設定する方法を学ぶ
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 ## プランの作成と設定 {#create-plan}
 
-プランを作成するには、フォルダータイプが&#x200B;**[!UICONTROL プラン]**&#x200B;のフォルダーを作成する必要があります。[詳しくは、フォルダーの作成を参照してください](create-manage-folder.md)。
+プランを作成するには、フォルダータイプが&#x200B;**[!UICONTROL プラン]**&#x200B;のフォルダーを作成する必要があります。[詳しくは、フォルダーの作成を参照してください](../get-started/work-with-folders.md)。
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 ## プログラムの作成と設定
 
-プランにプログラムを作成するには（[詳しくは、プランの作成を参照してください](#create-plan)）、プラン内で、フォルダータイプが&#x200B;**[!UICONTROL プログラム]**&#x200B;のフォルダーを作成する必要があります。[詳しくは、フォルダーの作成を参照してください](create-manage-folder.md)。
+プランにプログラムを作成するには（[詳しくは、プランの作成を参照してください](#create-plan)）、プラン内で、フォルダータイプが&#x200B;**[!UICONTROL プログラム]**&#x200B;のフォルダーを作成する必要があります。[詳しくは、フォルダーの作成を参照してください](../get-started/work-with-folders.md)。
 
 ![](assets/program_create.png){zoomable="yes"}
 

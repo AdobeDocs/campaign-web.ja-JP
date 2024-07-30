@@ -3,10 +3,10 @@ audience: end-user
 title: E メールデザイナーのコンテンツコンポーネントの使用
 description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 100%
+source-wordcount: '1166'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
 >title="コンテンツについて"
->abstract="コンテンツコンポーネントは、フラグメントのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
+>abstract="コンテンツコンポーネントは、コンテンツフラグメントのレイアウトの作成に使用できる空のコンテンツプレースホルダーです。"
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"

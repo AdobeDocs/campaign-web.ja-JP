@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 98%
+source-wordcount: '741'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,8 @@ ht-degree: 98%
    + [インターフェイスの確認](get-started/user-interface.md)
    + [リストの参照とフィルタリング](get-started/list-filters.md)
    + [定義済みフィルターの操作](get-started/predefined-filters.md)
-   + [アクセスと権限](get-started/permissions.md)
+   + [フォルダーの操作](get-started/work-with-folders.md)
+   + [権限](get-started/permissions.md)
    + [Campaign web およびクライアントコンソール](get-started/capability-matrix.md)
    + [Campaign Standard から v8 へ](rn/acs-migration.md)
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
@@ -37,30 +38,7 @@ ht-degree: 98%
    + [配信テンプレートの使用](msg/delivery-template.md)
    + メール {#email}
       + [最初のメールを作成](email/create-email.md)
-      + メールコンテンツを定義 {#content}
-         + [メールコンテンツを設定](email/edit-content.md)
-         + 再利用可能なコンテンツの管理 {#manage-reusable-content}
-            + [コンテンツテンプレートの操作](email/create-email-templates.md)
-            + [ビジュアルフラグメントの操作](email/fragments.md)
-            + [メールへのビジュアルフラグメントの追加](email/use-visual-fragments.md)
-         + メールの作成を開始 {#start-design}
-            + [E メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
-            + [ゼロから開始](email/create-email-content.md)
-            + [メールコンテンツの読み込み](email/existing-content.md)
-            + [独自コンテンツのコーディング](email/code-content.md)
-            + [メールコンテンツテンプレートの使用](email/use-email-templates.md)
-         + コンテンツをデザイン {#design-content}
-            + [コンテンツコンポーネントの使用](email/content-components.md)
-            + [リンクの追加とメッセージのトラッキング](email/message-tracking.md)
-            + [ミラーページへのリンクの追加](email/mirror-page.md)
-            + [プリヘッダーを追加](email/preheader.md)
-            + [テキストバージョンを生成](email/text-version-email.md)
-         + コンテンツのスタイル設定 {#style}
-            + [メールスタイルの基本を学ぶ](email/get-started-email-style.md)
-            + [背景設定の編集](email/backgrounds.md)
-            + [垂直方向の整列とパディングを調整](email/alignment-and-padding.md)
-            + [リンクのスタイルの定義](email/styling-links.md)
-            + [インラインスタイル属性を追加する](email/inline-styling.md)
+      + [メールコンテンツを設定](email/edit-content.md)
       + メールの送信と監視 {#monitor}
          + [メールの準備と送信](monitor/prepare-send.md)
          + [複数のウェーブを使用して送信](advanced-settings/send-using-waves.md)
@@ -89,11 +67,6 @@ ht-degree: 98%
       + [AI アシスタントを使用したメールの生成](email/generative-content.md)
       + [AI アシスタントを使用した SMS の生成](email/generative-sms.md)
       + [AI アシスタントを使用したプッシュ通知の生成](email/generative-push.md)
-   + コンテンツを動的にする {#dynamic-content}
-      + [動的コンテンツの基本を学ぶ](personalization/gs-personalization.md)
-      + [パーソナライゼーションを追加](personalization/personalize.md)
-      + [条件付きコンテンツをビルド](personalization/conditions.md)
-      + [ビルトインコンテンツブロックを追加](personalization/content-blocks.md)
    + [メッセージへのオファーの追加](msg/offers.md)
    + [サブスクライバーへのメッセージの送信](msg/send-to-subscribers.md)
    + [配信設定の指定](advanced-settings/delivery-settings.md)
@@ -106,6 +79,37 @@ ht-degree: 98%
       + [配信アラートの基本を学ぶ](msg/delivery-alerting.md)
       + [配信アラートダッシュボード](msg/delivery-alerting-dashboards.md)
       + [配信アラート条件](msg/delivery-alerting-criteria.md)
++ コンテンツ管理 {#content}
+   + 動的コンテンツ {#dynamic-content} ータの作成
+      + [コンテンツを動的にする方法](personalization/gs-personalization.md)
+      + [パーソナライゼーションを追加](personalization/personalize.md)
+      + [条件付きコンテンツをビルド](personalization/conditions.md)
+   + コンテンツ {#manage-reusable-content} ータを再利用
+      + [コンテンツテンプレートの操作](email/create-email-templates.md)
+      + コンテンツフラグメント {#fragments}
+         + [コンテンツフラグメントの基本を学ぶ](content/fragments.md)
+         + [コンテンツフラグメントの作成と編集](content/create-fragment.md)
+         + [メールでのビジュアルフラグメントの使用](content/use-visual-fragments.md)
+         + [式エディターで式フラグメントを使用する](content/use-expression-fragments.md)
+   + E メール {#email-design} デザイン
+      + [E メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
+      + メールの作成を開始 {#start-design}
+         + [ゼロから開始](email/create-email-content.md)
+         + [メールコンテンツの読み込み](email/existing-content.md)
+         + [独自コンテンツのコーディング](email/code-content.md)
+         + [メールコンテンツテンプレートの使用](email/use-email-templates.md)
+      + コンテンツをデザイン {#design-content}
+         + [コンテンツコンポーネントの使用](email/content-components.md)
+         + [リンクの追加とメッセージのトラッキング](email/message-tracking.md)
+         + [ミラーページへのリンクの追加](email/mirror-page.md)
+         + [プリヘッダーを追加](email/preheader.md)
+         + [テキストバージョンを生成](email/text-version-email.md)
+      + コンテンツのスタイル設定 {#style}
+         + [メールスタイルの基本を学ぶ](email/get-started-email-style.md)
+         + [背景設定の編集](email/backgrounds.md)
+         + [垂直方向の整列とパディングを調整](email/alignment-and-padding.md)
+         + [リンクのスタイルの定義](email/styling-links.md)
+         + [インラインスタイル属性を追加する](email/inline-styling.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
    + [ランディングページの作成と公開](landing-pages/create-lp.md)
@@ -210,5 +214,4 @@ ht-degree: 98%
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
 + 設定 {#conf}
    + [カスタムフィールドの設定](administration/custom-fields.md)
-   + [フォルダーの作成と管理](administration/create-manage-folder.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

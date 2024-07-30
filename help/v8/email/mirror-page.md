@@ -3,10 +3,10 @@ audience: end-user
 title: ミラーページへのリンクの追加
 description: ミラーページへのリンクを追加および管理する方法を学ぶ
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -36,11 +36,9 @@ Adobe Campaign では、専用の&#x200B;**パーソナライゼーションブ�
 
    ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. **[!UICONTROL コンテンツブロック]**&#x200B;メニューから、「**[!UICONTROL ミラーページ URL]**」を選択し、「**[!UICONTROL 追加]**」をクリックします。
+1. **[!UICONTROL フラグメント]** メニューから「**[!UICONTROL ミラーページ URL]**」を選択し、「**[!UICONTROL 追加]**」をクリックします。 [ 式フラグメントの使用方法を学ぶ ](../content/use-expression-fragments.md)
 
    ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
-
-   カスタムコンテンツブロックの挿入について詳しくは、[この節](../personalization/personalize.md#personalize-emails)を参照してください。
 
 ミラーページが自動的に作成されます。
 
