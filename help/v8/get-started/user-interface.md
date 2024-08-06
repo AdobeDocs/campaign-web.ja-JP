@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: b19976439b3cd4c5d89fed02d71830bc2d921562
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 98%
+source-wordcount: '1713'
+ht-degree: 97%
 
 ---
 
@@ -332,6 +332,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_properties"
 >title="トランザクションメッセージのプロパティ"
 >abstract="トランザクションメッセージのプロパティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_email_properties"
+>title="トランザクションメッセージのメールプロパティ"
+>abstract="トランザクションメッセージのメールプロパティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_sms_properties"
+>title="トランザクションメッセージ SMS プロパティ"
+>abstract="トランザクションメッセージ SMS プロパティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_push_properties"
+>title="トランザクションメッセージのプッシュプロパティ"
+>abstract="トランザクションメッセージのプッシュプロパティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_mobileapp"
