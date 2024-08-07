@@ -6,16 +6,16 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# メールコンテンツを設定 {#edit-content}
+# メールコンテンツの設定 {#edit-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="メールコンテンツを定義"
->abstract="**コンテンツを編集**&#x200B;画面では、送信者アドレスや件名などのメッセージの基本要素を定義し、添付ファイルやオファーの追加などの追加アクションを実行し、メールデザイナーにアクセスしてメッセージを洗練された外観にすることができます。"
+>abstract="**コンテンツを編集**&#x200B;画面では、送信者アドレスや件名などのメッセージの基本要素を定義し、添付ファイルやオファーの追加などの追加アクションを実行し、E メールデザイナーにアクセスしてメッセージを洗練された外観にすることができます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -31,7 +31,7 @@ ht-degree: 95%
 >id="acw_deliveries_email_options"
 >title="トラッキングの編集"
 >abstract="デフォルトでは、配信のトラッキングが有効になっています。つまり、メッセージコンテンツに含まれるすべてのリンクが追跡されます。ここからこのオプションを無効にできます。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="リンクの追加とメッセージのトラッキング"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="リンクの追加とメッセージのトラッキング"
 
 メールの&#x200B;**[!UICONTROL コンテンツを編集]**&#x200B;画面では、次の操作を実行できます。
 
@@ -73,7 +73,7 @@ ht-degree: 95%
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. メールの「**[!UICONTROL 件名]**」を定義します。件名を専用フィールドに直接入力するか、式エディターを開いて、様々な属性と式フラグメントまたはオファーを使用して [ パーソナライゼーション ](../personalization/personalize.md) を追加します。
+1. メールの「**[!UICONTROL 件名]**」を定義します。件名を専用フィールドに直接入力するか、式エディターを開いて、様々な属性と式フラグメントまたはオファーを使用して[パーソナライゼーション](../personalization/personalize.md)を追加します。
 
 1. メールにファイルを添付する場合は、「**[!UICONTROL 添付ファイルを追加]**」ボタンをクリックして、1 つまたは複数のファイルを選択します。
 

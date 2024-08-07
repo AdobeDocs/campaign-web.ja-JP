@@ -6,7 +6,7 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '256'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS コンテンツ"
->abstract="SMS 配信のコンテンツを作成し、パーソナライゼーションフィールド、式フラグメント、動的コンテンツを使用してパーソナライズします。 メッセージの作成を開始するには、「**コンテンツを編集**」ボタンをクリックします。"
+>abstract="SMS 配信のコンテンツを作成し、パーソナライゼーションフィールド、式フラグメント、動的コンテンツを使用してパーソナライズします。メッセージの作成を開始するには、「**コンテンツを編集**」ボタンをクリックします。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
