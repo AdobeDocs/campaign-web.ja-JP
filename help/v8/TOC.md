@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
    + [配信テンプレートの使用](msg/delivery-template.md)
    + メール {#email}
       + [最初のメールを作成](email/create-email.md)
-      + [メールコンテンツを設定](email/edit-content.md)
+      + [メールコンテンツの設定](email/edit-content.md)
       + メールの送信と監視 {#monitor}
          + [メールの準備と送信](monitor/prepare-send.md)
          + [複数のウェーブを使用して送信](advanced-settings/send-using-waves.md)
@@ -47,9 +47,9 @@ ht-degree: 93%
    + プッシュ通知 {#push}
       + [プッシュ通知の基本を学ぶ](push/gs-push.md)
       + [プッシュ通知配信を作成](push/create-push.md)
-      + リッチなプッシュ {#rich-push}
+      + リッチプッシュ {#rich-push}
          + [Android のリッチプッシュ配信の設計](push/rich-push.md)
-         + [iOSのリッチなプッシュ配信をデザイン](push/rich-push-ios.md)
+         + [iOS のリッチプッシュ配信の設計](push/rich-push-ios.md)
       + [プッシュ配信の設計](push/content-push.md)
       + [プッシュ配信のプレビューと送信](push/send-push.md)
    + SMS {#sms}
@@ -80,18 +80,18 @@ ht-degree: 93%
       + [配信アラートダッシュボード](msg/delivery-alerting-dashboards.md)
       + [配信アラート条件](msg/delivery-alerting-criteria.md)
 + コンテンツ管理 {#content}
-   + 動的コンテンツ {#dynamic-content} ータの作成
+   + 動的コンテンツの作成 {#dynamic-content}
       + [コンテンツを動的にする方法](personalization/gs-personalization.md)
-      + [パーソナライゼーションを追加](personalization/personalize.md)
+      + [パーソナライゼーションの追加](personalization/personalize.md)
       + [条件付きコンテンツをビルド](personalization/conditions.md)
-   + コンテンツ {#manage-reusable-content} ータを再利用
+   + コンテンツの再利用 {#manage-reusable-content}
       + [コンテンツテンプレートの操作](email/create-email-templates.md)
       + コンテンツフラグメント {#fragments}
          + [コンテンツフラグメントの基本を学ぶ](content/fragments.md)
          + [コンテンツフラグメントの作成と編集](content/create-fragment.md)
          + [メールでのビジュアルフラグメントの使用](content/use-visual-fragments.md)
-         + [式エディターで式フラグメントを使用する](content/use-expression-fragments.md)
-   + E メール {#email-design} デザイン
+         + [式エディターでの式フラグメントの使用](content/use-expression-fragments.md)
+   + メールのデザイン {#email-design}
       + [E メールデザイナーの基本を学ぶ](email/get-started-email-designer.md)
       + メールの作成を開始 {#start-design}
          + [ゼロから開始](email/create-email-content.md)

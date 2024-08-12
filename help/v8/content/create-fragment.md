@@ -3,7 +3,7 @@ audience: end-user
 title: コンテンツフラグメントの作成
 description: コンテンツフラグメントの作成方法について説明します
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
 ht-degree: 100%
 

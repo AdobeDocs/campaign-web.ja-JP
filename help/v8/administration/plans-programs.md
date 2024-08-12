@@ -4,9 +4,9 @@ title: プランとプログラム
 description: Adobe Campaign でプランとプログラムを作成および設定する方法を学ぶ
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -82,9 +82,9 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 キャンペーンをプログラムにリンクするには、次の 2 つの方法があります。
 
-### 方法#1：既にプログラムがあり、そのプログラムにリンクしたキャンペーンを作成したい
+### 方法 1：既にプログラムがあり、このプログラムにリンクされたキャンペーンを作成する場合
 
-新しいキャンペーンをプログラムにリンクするには、プログラム内でキャンペーンを直接作成します。
+新しいキャンペーンをプログラムにリンクするには、プログラムでキャンペーンを直接作成します。
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
@@ -92,7 +92,7 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
-### 方法#2：既にキャンペーンがあり、既存のプログラムにリンクしたい場合
+### 方法 2：既にキャンペーンがあり、このキャンペーンを既存のプログラムにリンクする場合
 
 プログラムにリンクするキャンペーンの「**[!UICONTROL 設定]**」ボタンに移動します。
 

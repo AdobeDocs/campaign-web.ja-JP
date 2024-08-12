@@ -3,7 +3,7 @@ audience: end-user
 title: トラップグループの使用
 description: Campaign web ユーザーインターフェイスでの配信にトラップグループを使用する方法について説明します
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
 ht-degree: 100%
 

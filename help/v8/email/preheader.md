@@ -4,9 +4,9 @@ title: E メールデザイナーでのプリヘッダーの追加
 description: メールコンテンツのデザイン方法
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 89%
 
    ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. **[!UICONTROL Personalizationを編集]** ウィンドウから、左側の専用エントリを使用して、[ パーソナライゼーションフィールド ](../personalization/personalize.md)、[ 式フラグメント ](../content/use-expression-fragments.md) および [ 条件付きコンテンツ ](../personalization/conditions.md) を追加できます。
+1. **[!UICONTROL パーソナライゼーションを編集]**&#x200B;ウィンドウから、左側の専用エントリを使用して、[パーソナライゼーションフィールド](../personalization/personalize.md)、[式フラグメント](../content/use-expression-fragments.md)および[条件付きコンテンツ](../personalization/conditions.md)を追加できます。
 
    ![](assets/preheader_body_personalization.png){zoomable="yes"}
 

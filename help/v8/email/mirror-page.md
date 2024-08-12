@@ -4,9 +4,9 @@ title: ミラーページへのリンクの追加
 description: ミラーページへのリンクを追加および管理する方法を学ぶ
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign では、専用の&#x200B;**パーソナライゼーションブ�
 
    ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. **[!UICONTROL フラグメント]** メニューから「**[!UICONTROL ミラーページ URL]**」を選択し、「**[!UICONTROL 追加]**」をクリックします。 [ 式フラグメントの使用方法を学ぶ ](../content/use-expression-fragments.md)
+1. **[!UICONTROL フラグメント]**&#x200B;メニューから、「**[!UICONTROL ミラーページ URL]**」を選択し、「**[!UICONTROL 追加]**」をクリックします。[詳しくは、式フラグメントの使用方法を参照してください](../content/use-expression-fragments.md)
 
    ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
 

@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: フォルダーの操作
-description: Adobe Campaignでフォルダーを管理する方法を学ぶ
+description: Adobe Campaign でフォルダーを管理する方法について説明します
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '258'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
@@ -34,21 +34,21 @@ ht-degree: 29%
 
 ## フォルダーについて
 
-フォルダーは、コンポーネントとデータを整理できるAdobe Campaign内のオブジェクトです。
+フォルダーは、コンポーネントとデータを整理できる Adobe Campaign のオブジェクトです。
 
-ナビゲーションツリーで、フォルダーの作成、名前変更、並べ替え、移動を行うことができます。 また、権利に応じて削除することもできます。
+ナビゲーションツリーで、フォルダーの作成、名前変更、並べ替え、移動を行うことができます。また、権限に応じて削除することもできます。
 
 ![](assets/folders.png){zoomable="yes"}
 
-フォルダータイプを設定できます。 例：配信のフォルダー。
+フォルダータイプを設定できます。例：配信のフォルダー。
 フォルダーのアイコンは、このタイプに応じて変わります。
 
-## 新しいフォルダーを作成
+## 新しいフォルダーの作成
 
 Adobe Campaign web UI で新しいフォルダーを作成するには、次の手順に従います。
 
-1. **[!UICONTROL エクスプローラー]** で、新しいフォルダーを作成するフォルダーに移動します。
-「**[!UICONTROL ...]**」メニューに、**[!UICONTROL 新規フォルダーを作成]** があります
+1. **[!UICONTROL エクスプローラー]**で、新しいフォルダーを作成するフォルダーに移動します。
+**[!UICONTROL …]** メニューの下に、**[!UICONTROL 新しいフォルダーを作成]**&#x200B;があります。
 
 ![](assets/folder_create.png){zoomable="yes"}
 
@@ -57,7 +57,7 @@ Adobe Campaign web UI で新しいフォルダーを作成するには、次の�
 
 ![](assets/folder_new.png){zoomable="yes"}
 
-1. 必要に応じてフォルダータイプのアイコンをクリックしてフォルダーのタイプを変更し、以下に示すリストで選択します。
+1. 必要に応じて、フォルダータイプのアイコンをクリックしてフォルダーのタイプを変更し、以下のように表示されるリストで選択します。
 
 ![](assets/folder_type.png){zoomable="yes"}
 
@@ -65,7 +65,7 @@ Adobe Campaign web UI で新しいフォルダーを作成するには、次の�
 
 特定のタイプのないフォルダーを作成する場合は、「**[!UICONTROL 汎用フォルダー]**」タイプを選択します。
 
-また、[Adobe Campaign コンソールでフォルダーを作成および管理 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views) することもできます。
+また、[Adobe Campaign コンソールでフォルダーを作成および管理](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views)することもできます。
 
 ## フォルダーの削除
 
@@ -73,7 +73,7 @@ Adobe Campaign web UI で新しいフォルダーを作成するには、次の�
 >
 >フォルダーを削除すると、そのフォルダーに保存されているすべてのデータも削除されます。
 
-フォルダーを削除するには、**[!UICONTROL エクスプローラー]** ツリーでそのフォルダーを選択し、「**[!UICONTROL ...]**」メニューをクリックします。
-**[!UICONTROL フォルダーを削除]** を選択します。
+フォルダーを削除するには、**[!UICONTROL エクスプローラー]**&#x200B;ツリーでそのフォルダーを選択し、**[!UICONTROL ...]** メニューをクリックします。
+「**[!UICONTROL フォルダーを削除]**」を選択します。
 
 ![](assets/folder_delete.png){zoomable="yes"}
