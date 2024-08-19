@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web の基本を学ぶ
 description: Adobe Campaign Web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a678175e34a633d5de258e64899ba4b10b6b674f
+source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign Web に接続する方法については、[このページ](conn
 
 ## Campaign クライアントコンソールについて {#ac-client}
 
-Campaign クライアントコンソールは、お使いのシステムにインストールされるブラウザーベースのアプリケーションです。 Web サービス API を使用して、Campaign アプリケーションサーバーに接続します。
+クライアントコンソールは、管理者と上級ユーザーがタスクを実行できるように設計されています。 Campaign クライアントコンソールは、お使いのシステムにインストールされるブラウザーベースのアプリケーションです。 Web サービス API を使用して、Campaign アプリケーションサーバーに接続します。
 
 Campaign データは、アプリケーションサーバーに保存されます。クライアントコンソールと Campaign web ユーザーインターフェイスの両方からデータを利用できます。例えば、クライアントコンソールを使用して配信テンプレートを作成した場合、Campaign web ユーザーインターフェイスでも使用できます。また、Campaign web ユーザーインターフェイスでメール配信を作成した場合、クライアントコンソールからもこの配信にアクセスできます。
 
