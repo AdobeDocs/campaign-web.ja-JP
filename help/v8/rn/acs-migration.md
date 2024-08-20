@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Standard から Adobe Campaign web への移行
 description: Campaign web ユーザーインターフェイスの確認
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 448b002a284b05000da80fd165b300bc24178c78
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 82%
 
 ---
 
@@ -25,30 +25,28 @@ Adobe Campaign Standard ユーザーは、Adobe Campaign Managed Cloud Services 
 * Adobe Experience Platform との統合：Managed Cloud Services v8 では、Adobe Experience Platform とシームレスに接続し、クライアントがデータの可能性を最大限に活用し、パーソナライズされた効果的なキャンペーンをチャネル全体で提供できるようにします。
 * 一貫性の高いユーザーインターフェイスとエクスペリエンス：Managed Cloud Services v8 に移行しても、ワークフローが中断されることはありません。使い慣れたユーザーインターフェイスとユーザーエクスペリエンスを引き続き利用して、チームの学習曲線を最小限に抑えることができます。
 
-<!--
-As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
--->
-
 ## 主な機能 {#key-features}
 
-Campaign v8 が提供する主な機能を詳しく見てみましょう。
+Campaign v8 ユーザーには、新しい Campaign web インターフェイスと v8 コンソールの両方へのアクセス権があります。データと設定は、環境間で同期されます。クライアントコンソールで使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web ユーザーインターフェイスに表示されます。[詳細情報](../get-started/user-interface.md#user-interface-explorer)
+
+Campaign web ユーザーインターフェイスは、マーケターがキャンペーンを簡単に作成および調整できるように設計されています。 Campaign v8 web ユーザーインターフェイスが提供する主な機能を詳しく説明します。
 
 * 最新、わかりやすい、統一されたエクスペリエンス。[詳細情報](../get-started/connect-to-campaign.md)。
 * 新しい強力な機能とシームレスなプロセス。[詳細情報](../get-started/user-interface.md)
 * 新しい簡素化された直感的なクエリモデラー。[詳細情報](../query/query-modeler-overview.md)
 * 組み込みのクロスチャネルキャンペーン管理機能。[詳細情報](../msg/gs-messages.md)
 * 新しくデザインを変更したキャンペーンワークフローアクティビティ。[詳細情報](../workflows/gs-workflows.md)
-* クエリモデラ―を使用したターゲットオーディエンス。[詳細情報](../query/query-modeler-overview.md)
 * 簡単なプロファイルの作成と管理。[詳細情報](../audience/about-recipients.md)
 * 定義済みフィルター。[詳細情報](../get-started/predefined-filters.md)
 * メールデザイン用の HTML コンバーター。[詳細情報](../email/existing-content.md)
 * オファー付きの SMS。[詳細情報](../msg/offers.md)
 
-## コンソールおよび web インターフェイス {#console}
+Campaign クライアントコンソールは、管理者と開発者が環境を設定およびカスタマイズできるように設計されています。 Campaign クライアントコンソールで使用できる主な機能について詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"} を参照してください。
 
-Campaign v8 ユーザーには、新しい Campaign web インターフェイスと v8 コンソールの両方へのアクセス権があります。データと設定は、環境間で同期されます。クライアントコンソールで使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web ユーザーインターフェイスに表示されます。[詳細情報](../get-started/user-interface.md#user-interface-explorer)
-
-サポートされている機能とサポートされていない機能や、Campaign web ユーザーインターフェイスと Campaign クライアントコンソール間の相互運用性について詳しくは、[このページ](../get-started/capability-matrix.md)を参照してください。
+>[!NOTE]
+>
+>サポートされる機能とサポートされない機能、および Campaign Web ユーザーインターフェイスと Campaign クライアントコンソールの相互運用性について詳しくは、このページを参照してください [ このページでは ](../get-started/capability-matrix.md)
+>
 
 ## 用語 {#terminology}
 
@@ -61,16 +59,17 @@ Campaign v8 ユーザーには、新しい Campaign web インターフェイス
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* カスタムリソースは&#x200B;**スキーマ**&#x200B;です
+* リソースとカスタムリソースは、**スキーマ** と **カスタムスキーマ** です
 * メッセージは&#x200B;**配信**&#x200B;と呼ばれます
-* 製品ユーザーは&#x200B;**オペレーター**&#x200B;です
 * 役割は&#x200B;**ネームド権限**&#x200B;で設定されます
 * セキュリティグループは&#x200B;**オペレーターグループ**&#x200B;です
 * 組織単位は&#x200B;**フォルダー権限**&#x200B;によって管理されます
+* 製品ユーザーは、クライアントコンソールでは **オペレーター** です
+* 配信準備は、クライアントコンソールの **配信分析** です
 
-## 新機能 {#new-features}
+## 特定の機能 {#new-features}
 
-Campaign v8 への移行をスムーズに行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"}を参照してください。
+Campaign v8 への移行をスムーズに行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。詳細については [ このドキュメント ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"} を参照してください。このドキュメントは、Campaign Standardから移行するユーザーのみが使用できます。
 
 * **動的レポート**：動的レポートでは、マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供します。プロファイルデータへのアクセスを可能にし、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja){target="_blank"}
 
