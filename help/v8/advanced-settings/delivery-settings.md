@@ -4,9 +4,9 @@ title: 配信設定の指定
 description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2416'
 ht-degree: 100%
 
 ---
@@ -287,3 +287,9 @@ ht-degree: 100%
 
 * **[!UICONTROL 配達確認の配信コードを保持]**&#x200B;を使用すると、関連する配信用に定義されたのと同じ配信コードを、配達確認に関連付けることができます。
 * デフォルトでは、配達確認の件名の先頭にプレフィックス「PROOF #」が付きます（「#」は配達確認の番号）。このプレフィックスは「**[!UICONTROL ラベルのプレフィックス]**」フィールドで変更できます。
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="変数"
+>abstract="変数"
