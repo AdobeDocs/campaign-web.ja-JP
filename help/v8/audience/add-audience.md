@@ -3,9 +3,9 @@ audience: end-user
 title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '347'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 100%
 >id="acw_deliveries_email_audience_select"
 >title="既存オーディエンスの選択"
 >abstract="リストを参照して、既存のオーディエンスを選択します。「フィルターを表示」アイコンを使用してリストをフィルターするか、特定のフォルダーを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_refine_target"
+>title="ターゲットを絞り込む"
+>abstract="これらのルールは、デスクトップコンソールでのみ変更できます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_target"
+>title="追加ターゲット"
+>abstract="これらのルールは、デスクトップコンソールでのみ変更できます。"
 
 この節では、配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。配信のメインターゲットを定義する際には、次の操作も可能です。
 * クエリモデラーを使用して、[1 回限りのオーディエンスを作成します](one-time-audience.md)。
