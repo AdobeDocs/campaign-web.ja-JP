@@ -4,9 +4,9 @@ title: Campaign Standard から Adobe Campaign web への移行
 description: Campaign web ユーザーインターフェイスの確認
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 448b002a284b05000da80fd165b300bc24178c78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Standard ユーザーは、Adobe Campaign Managed Cloud Services 
 
 Campaign v8 ユーザーには、新しい Campaign web インターフェイスと v8 コンソールの両方へのアクセス権があります。データと設定は、環境間で同期されます。クライアントコンソールで使用可能なすべてのデータと設定は、エクスプローラーの左側のナビゲーションから Campaign web ユーザーインターフェイスに表示されます。[詳細情報](../get-started/user-interface.md#user-interface-explorer)
 
-Campaign web ユーザーインターフェイスは、マーケターがキャンペーンを簡単に作成および調整できるように設計されています。 Campaign v8 web ユーザーインターフェイスが提供する主な機能を詳しく説明します。
+Campaign web ユーザーインターフェイスは、マーケターがキャンペーンを簡単に作成および調整できるように設計されています。Campaign v8 web ユーザーインターフェイスが提供する主な機能を詳しく見てみましょう。
 
 * 最新、わかりやすい、統一されたエクスペリエンス。[詳細情報](../get-started/connect-to-campaign.md)。
 * 新しい強力な機能とシームレスなプロセス。[詳細情報](../get-started/user-interface.md)
@@ -41,11 +41,11 @@ Campaign web ユーザーインターフェイスは、マーケターがキャ�
 * メールデザイン用の HTML コンバーター。[詳細情報](../email/existing-content.md)
 * オファー付きの SMS。[詳細情報](../msg/offers.md)
 
-Campaign クライアントコンソールは、管理者と開発者が環境を設定およびカスタマイズできるように設計されています。 Campaign クライアントコンソールで使用できる主な機能について詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"} を参照してください。
+Campaign クライアントコンソールは、管理者と開発者が環境を設定およびカスタマイズできるように設計されています。Campaign クライアントコンソールで使用できる主な機能について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/whats-new){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
->サポートされる機能とサポートされない機能、および Campaign Web ユーザーインターフェイスと Campaign クライアントコンソールの相互運用性について詳しくは、このページを参照してください [ このページでは ](../get-started/capability-matrix.md)
+>サポートされている機能とサポートされていない機能や、Campaign web ユーザーインターフェイスと Campaign クライアントコンソール間の相互運用性について詳しくは、[このページ](../get-started/capability-matrix.md)を参照してください。
 >
 
 ## 用語 {#terminology}
@@ -59,17 +59,17 @@ Campaign クライアントコンソールは、管理者と開発者が環境�
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* リソースとカスタムリソースは、**スキーマ** と **カスタムスキーマ** です
+* リソースとカスタムリソースは、**スキーマ**&#x200B;と&#x200B;**カスタムスキーマ**&#x200B;です
 * メッセージは&#x200B;**配信**&#x200B;と呼ばれます
 * 役割は&#x200B;**ネームド権限**&#x200B;で設定されます
 * セキュリティグループは&#x200B;**オペレーターグループ**&#x200B;です
 * 組織単位は&#x200B;**フォルダー権限**&#x200B;によって管理されます
-* 製品ユーザーは、クライアントコンソールでは **オペレーター** です
-* 配信準備は、クライアントコンソールの **配信分析** です
+* 製品ユーザーはクライアントコンソールの&#x200B;**オペレーター**&#x200B;です
+* 配信準備はクライアントコンソールの&#x200B;**配信分析**&#x200B;です
 
 ## 特定の機能 {#new-features}
 
-Campaign v8 への移行をスムーズに行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。詳細については [ このドキュメント ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"} を参照してください。このドキュメントは、Campaign Standardから移行するユーザーのみが使用できます。
+Campaign v8 への移行をスムーズに行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"}を参照してください。このドキュメントは、Campaign Standard から移行するユーザーのみが利用できます。
 
 * **動的レポート**：動的レポートでは、マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供します。プロファイルデータへのアクセスを可能にし、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja){target="_blank"}
 
