@@ -3,9 +3,9 @@ audience: end-user
 title: E メールデザイナーのコンテンツコンポーネントの使用
 description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
+source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1199'
 ht-degree: 97%
 
 ---
@@ -150,8 +150,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Assets メニューへのアクセスは、アクティブなAdobeExperience Essentials ライセンスを持つユーザーに制限されます。 このライセンスを保有していない場合、Assets メニューは使用できません。
-
+>Assets メニューへのアクセスは、有効なAdobe Experience Manager as a Cloud Service ライセンスを持つユーザーに制限されます。 このライセンスを保有していない場合、Assets メニューは使用できません。
 
 **[!UICONTROL 画像]**&#x200B;コンポーネントを使用して、コンピューターからメールに画像ファイルを挿入します。
 
