@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
-source-wordcount: '745'
-ht-degree: 100%
+source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
    + [新機能](rn/whats-new.md)
    + [早期リリースノート](rn/e-release-notes.md)
    + [最新リリース](rn/release-notes.md)
+   + 以前のリリース {#previous-release-notes}
+      + [2024 リリース](rn/release-notes-24.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の基本を学ぶ {#start}
    + [基本を学ぶ](get-started/get-started.md)
@@ -34,7 +36,8 @@ ht-degree: 100%
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
-   + [配信の操作](msg/gs-deliveries.md)
+   + [配信へのアクセス](msg/gs-deliveries.md)
+   + [配信を作成](msg/create-deliveries.md)
    + [配信テンプレートの使用](msg/delivery-template.md)
    + メール {#email}
       + [最初のメールを作成](email/create-email.md)

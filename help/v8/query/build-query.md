@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 66882fccf771cd6d3fa85f47d42b3ee53d1485f7
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2210'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,22 @@ ht-degree: 100%
   例：*「スポーツ」ニュースレターを購読した受信者&#x200B;**AND**ニューヨーク&#x200B;**OR**サンフランシスコに住む受信者*。
 
   ![](assets/query-add-operator.png){zoomable="yes"}
+
+## クエリ内の値の配分 {#distribution-values-query}
+
+値の配分は、テーブル内のフィールドの値の割合を知るのに役立ちます。 クエリ内の値の分布を把握しておくと、セグメント化を調整する際に役立ちます。
+
+この機能にアクセスするには、クエリで、属性選択ボタンをクリックします（下図を参照）。 次に、選択した属性の横にある **[!UICONTROL 情報]** アイコンをクリックします。 「**[!UICONTROL 値の配分]** ボタンにアクセスできます。
+
+![](assets/values_query.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> 多数の値を持つフィールドの場合、最初の 20 個の値のみが表示されます。 通知 **[!UICONTROL 部分読み込み]** が警告を表示します。
+
+>[!NOTE]
+>
+> **[!UICONTROL 値の配分]** 機能には、すべての属性ピッカーからアクセスできます。
 
 ## フィルタリングコンポーネントの追加 {#filtering}
 

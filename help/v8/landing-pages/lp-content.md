@@ -3,10 +3,10 @@ title: ランディングページ固有のコンテンツの定義
 description: Campaign web でランディングページ固有のコンテンツを設計する方法について説明します
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 4dee53676949282b7c0e7664405b7d5a35ef64d2
+source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 95%
 
 ---
 
@@ -135,6 +135,20 @@ ht-degree: 100%
    メールをデザインする際に、このランディングページに対する&#x200B;**[!UICONTROL ランディングページ]**&#x200B;タイプのリンクを定義すると、リストから任意のサービスを選択できます。その後、このランディングページに対する他のリンクを定義する際に、他のサービスを選択できます。[詳しくは、リンクの挿入を参照してください](../email/message-tracking.md)
 
    ![](assets/email-link-to-landing-page.png){zoomable="yes"}
+
+1. ランディングページの送信時にメッセージを送信できます。 [詳しくは、こちらを参照してください](#lp-message)
+
+### 送信後のメッセージの送信 {#lp-message}
+
+>[!AVAILABILITY]
+>
+>この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
+
+ランディングページの送信後に確認メッセージを自動的に送信するには、次の手順に従います。
+1. 「**[!UICONTROL コールトゥアクション]**」セクションで、「**[!UICONTROL 確認メールを送信]**」オプションをオンにします。
+1. 関連付けられたドロップダウンリストから、送信する必要があるトランザクションメッセージテンプレートを選択します。
+
+![](assets/lp-confirmation.png){zoomable="yes"}
 
 ## ランディングページフォームスタイルの定義 {#lp-form-styles}
 

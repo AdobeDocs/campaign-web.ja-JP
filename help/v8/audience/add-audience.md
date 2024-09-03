@@ -3,9 +3,9 @@ audience: end-user
 title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '323'
 ht-degree: 100%
 
 ---
@@ -17,16 +17,6 @@ ht-degree: 100%
 >id="acw_deliveries_email_audience_select"
 >title="既存オーディエンスの選択"
 >abstract="リストを参照して、既存のオーディエンスを選択します。「フィルターを表示」アイコンを使用してリストをフィルターするか、特定のフォルダーを選択します。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_refine_target"
->title="ターゲットを絞り込む"
->abstract="これらのルールは、デスクトップコンソールでのみ変更できます。"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_additional_target"
->title="追加ターゲット"
->abstract="これらのルールは、デスクトップコンソールでのみ変更できます。"
 
 この節では、配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。配信のメインターゲットを定義する際には、次の操作も可能です。
 * クエリモデラーを使用して、[1 回限りのオーディエンスを作成します](one-time-audience.md)。
@@ -58,4 +48,4 @@ ht-degree: 100%
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   また、コントロール母集団を設定して、キャンペーンの影響を測定することもできます。コントロール母集団はメッセージを受信しません。これにより、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。[詳細情報](control-group.md)
+1. また、コントロール母集団を設定して、キャンペーンの影響を測定することもできます。コントロール母集団はメッセージを受信しません。これにより、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。[詳細情報](control-group.md)

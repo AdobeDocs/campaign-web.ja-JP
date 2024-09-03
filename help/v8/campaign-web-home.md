@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 89%
 
 ---
 
@@ -51,23 +51,23 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
->[!TAB 7月リリースが公開されました。]
+>[!TAB 8 月リリースが公開されました。]
 
 Adobe Campaign web ユーザーインターフェイス 2024年7月リリースの新機能と改善点について説明します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB 配信アラート]
+>[!TAB 値の配分]
 
-配信アラートは、ユーザーのグループが配信実行に関する情報を含むメール通知を自動的に受信できるようにする、アラート管理システムです。
+パーソナライゼーションのフィールドのリストにアクセスする際に、各フィールドの値の配分方法を確認できるようになりました。
 
-[![画像](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![画像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB プランとプログラム]
+>[!TAB  ランディングページの Captcha]
 
-Adobe Campaign では、マーケティングのプランとプログラムに関するフォルダー階層構造を設定できます。
+Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。 この機能は限定提供（LA）です。
 
-[![画像](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![画像](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]
