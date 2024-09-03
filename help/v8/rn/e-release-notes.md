@@ -4,10 +4,10 @@ description: 次の Campaign web ユーザーインターフェイスリリー�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 802c4db04efdcac3b9251f3e40671272c79a3043
+source-git-commit: 3086ed78ee2fe5ca3dee70fbd1ae1b92486330ca
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 42%
+source-wordcount: '330'
+ht-degree: 44%
 
 ---
 
@@ -23,11 +23,8 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 
 8 月のリリース以降、次の機能および改善点が提供されます。
 
-* **外部配信** - Campaign web ユーザーインターフェイスで、外部配信と外部配信テンプレートを定義できるようになりました。 このモードでは、メッセージは入力ファイルに生成され、外部プロバイダーと共有できます。 外部配信モードは、ダイレクトメールチャネルのデフォルトのモードです。
+**値の配分** - パーソナライゼーションのフィールドのリストにアクセスする際に、各フィールドの値の配分方法を確認できるようになりました。 専用のポップアップウィンドウに、各値の数と割合が表示されます。
 
-* **ビジュアルフラグメント** - ビジュアルコンテンツフラグメントをアーカイブできるようになりました。
-
-* **値の配分** - パーソナライゼーションのフィールドのリストにアクセスする際に、各フィールドの値の配分方法を確認できるようになりました。 専用のポップアップウィンドウに、各値の数と割合が表示されます。
 
 ### 限定提供の新機能 {#acs-24-8}
 
@@ -35,13 +32,14 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 >
 >次の機能は、限定提供（LA）です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 >
->ドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)および [Campaign Standard ユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja)を参照してください。
+>[Campaign v8 へのCampaign Standardの移行 ](../rn/acs-migration.md) および [Campaign Standardユーザー向けの機能 ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"} のドキュメントページを参照してください。
 
 * **ダイレクトメールのブランディング** – 技術管理者は、1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。 ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成し、メッセージやランディングページにリンクできるようになりました。 こうした設定はテンプレートで管理されます。
 
-* **ランディングページの reCAPTCHA** - Googleの reCAPTCHA メカニズムを使用して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。 これは、顧客からのインタラクションを必要とせず、サイトとのインタラクションに基づいているので、顧客にとって邪魔になりません。
+* **ランディングページの購読** - ランディングページをサービスにリンクし、ユーザーが検証した際に確認メッセージを送信できるようになりました。
 
-* **ランディングページの購読** - ランディングページをサービスにリンクして、プロファイルが検証時に特定のサービスを購読できるようになりました。
+* **ビジュアルフラグメント** - ビジュアルコンテンツフラグメントをアーカイブできるようになりました。
 
+* **ランディングページの captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。 これは、顧客からのインタラクションを必要とせず、サイトとのインタラクションに基づいているので、顧客にとって邪魔になりません。
 
-
+* **Rest API** – 説明 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja){target="_blank"}。
