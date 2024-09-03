@@ -4,10 +4,10 @@ description: 次の Campaign web ユーザーインターフェイスリリー�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 3086ed78ee2fe5ca3dee70fbd1ae1b92486330ca
+source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 44%
+source-wordcount: '346'
+ht-degree: 42%
 
 ---
 
@@ -42,4 +42,4 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 
 * **ランディングページの captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。 これは、顧客からのインタラクションを必要とせず、サイトとのインタラクションに基づいているので、顧客にとって邪魔になりません。
 
-* **Rest API** – 説明 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja){target="_blank"}。
+* **Rest API** -Campaign Standard移行済みユーザーは、Rest API を使用してトランザクションメッセージを操作できるようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja){target="_blank"}。
