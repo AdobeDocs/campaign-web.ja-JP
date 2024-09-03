@@ -4,10 +4,10 @@ title: 配信設定の指定
 description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
-workflow-type: ht
-source-wordcount: '2416'
-ht-degree: 100%
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
+workflow-type: tm+mt
+source-wordcount: '2787'
+ht-degree: 89%
 
 ---
 
@@ -289,7 +289,68 @@ ht-degree: 100%
 * デフォルトでは、配達確認の件名の先頭にプレフィックス「PROOF #」が付きます（「#」は配達確認の番号）。このプレフィックスは「**[!UICONTROL ラベルのプレフィックス]**」フィールドで変更できます。
 
 
+
+
+## メール配信用の SMTP 設定 {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="SMTP パラメーター"
+>abstract="追加の SMTP パラメーターをメール配信に追加できます。"
+
+追加の SMTP パラメーターをメール配信に追加できます。 配信設定の「SMTP」タブで実行できます。
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### 文字エンコーディング {#character-encoding}
+
+「**[!UICONTROL 文字エンコーディング]**」セクションでは、特定のエンコーディングを設定できます。 デフォルトのエンコーディングは UTF-8 で、ほとんどの文字に対して機能します。 ただし、一部のメールプロバイダーでは、UTF-8 標準エンコーディングをサポートしていない場合、特殊文字が正しく表示されない場合があります。
+
+例えば、日本語の文字を含んだメールを送信する場合は、その文字をサポートするエンコーディングを使用することをお勧めします。これにより、日本のオーディエンスはすべてを正しく表示できます。
+
+これを行うには、「**[!UICONTROL メッセージに使用されるエンコーディングを強制]**」切替スイッチをアクティブにして、特殊文字をサポートする適切なエンコーディングをリストから選択します。
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### バウンスメール {#bounce-emails}
+
+配信設定の「**[!UICONTROL SMTP]**」タブでは、バウンスメール管理を設定することもできます。
+
+* **[!UICONTROL エラーアドレス]**:「**[!UICONTROL プラットフォームに定義されたデフォルトのエラーアドレスを使用]**」トグルをアクティブ化すると、バウンスメールがプラットフォームのデフォルトエラーボックスに受信されます。 有効化しない場合、配信の特定のエラーアドレスを定義できます。
+
+* **[!UICONTROL バウンスアドレス]**：未処理のバウンスメールの転送先となる別のアドレスを定義することもできます。バウンスメールの発生理由をアプリケーションで自動判定できない場合は、このアドレスを使用することで調査できます。
+
+これら 2 つのフィールドは、[ この節 ](../personalization/gs-personalization.md) で説明するようにパーソナライズできます。
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### 追加の SMTP ヘッダー {#smtp-headers}
+
+配信設定の「SMTP」タブで、メール配信に **[!UICONTROL SMTP ヘッダー]** を追加できます。
+
+このウィンドウで入力するスクリプトは、行ごとに 1 つのヘッダーを name:value の形式で参照する必要があります。
+
+値は必要に応じて自動的にエンコードされます。
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>スクリプトを追加すると、挿入する SMTP ヘッダーを追加できます。これは高度な知識を持つユーザー向けに用意されています。スクリプトの構文は、このコンテンツタイプの要件を満たしている必要があります（不要なスペースや空行を含まないなど）。
+
+## 変数の追加 {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="変数"
 >abstract="変数"
+
+配信に変数を追加すると、トラッキングに役立ちます。 これを行うには、
+「**[!UICONTROL 変数]**」タブに移動します（下図を参照）。
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+「**[!UICONTROL 変数を追加]**」ボタンをクリックして変数の詳細を入力し、「**[!UICONTROL 確認]**」をクリックして変更を保存します。
+
+![](assets/variables-add.png){zoomable="yes"}
