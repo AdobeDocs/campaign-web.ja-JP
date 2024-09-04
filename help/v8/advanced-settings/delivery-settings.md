@@ -4,7 +4,7 @@ title: 配信設定の指定
 description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
+source-git-commit: 78356629dc64702d81645b684350304f65b88597
 workflow-type: tm+mt
 source-wordcount: '2787'
 ht-degree: 89%
@@ -346,8 +346,7 @@ ht-degree: 89%
 >title="変数"
 >abstract="変数"
 
-配信に変数を追加すると、トラッキングに役立ちます。 これを行うには、
-「**[!UICONTROL 変数]**」タブに移動します（下図を参照）。
+配信に変数を追加すると、トラッキングに役立ちます。 これをおこなうには、以下に示すように、「**[!UICONTROL 変数]**」タブに移動します。
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
