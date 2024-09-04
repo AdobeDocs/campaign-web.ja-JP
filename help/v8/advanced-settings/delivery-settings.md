@@ -4,10 +4,10 @@ title: 配信設定の指定
 description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8c4e19504606ec02dd05eb4e3fbc4d21d9972860
+source-git-commit: 78b44670f2a9c9f7cf235e64dff7d286864813da
 workflow-type: tm+mt
-source-wordcount: '2826'
-ht-degree: 88%
+source-wordcount: '2801'
+ht-degree: 89%
 
 ---
 
@@ -344,9 +344,8 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="変数"
->abstract="配信に変数を追加すると、トラッキングやパーソナライゼーションに役立ちます。 これらの変数には、配信コンテンツおよびワークフローからアクセスできます。"
+>abstract="配信に変数を追加すると、トラッキングやパーソナライゼーションに役立ちます。 これらの変数には、配信コンテンツとワークフローの両方からアクセスできます。"
 
-配信に変数を追加すると、トラッキングやパーソナライゼーションに役立ちます。 これらの変数には、配信コンテンツおよびワークフローからアクセスできます。
 
 変数を追加するには、次に示すように、「**[!UICONTROL 変数]**」タブを参照します。
 
