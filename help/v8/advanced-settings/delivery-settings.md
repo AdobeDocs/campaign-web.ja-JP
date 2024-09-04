@@ -4,10 +4,10 @@ title: 配信設定の指定
 description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 78b44670f2a9c9f7cf235e64dff7d286864813da
+source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
 workflow-type: tm+mt
-source-wordcount: '2801'
-ht-degree: 89%
+source-wordcount: '2852'
+ht-degree: 87%
 
 ---
 
@@ -346,6 +346,7 @@ ht-degree: 89%
 >title="変数"
 >abstract="配信に変数を追加すると、トラッキングやパーソナライゼーションに役立ちます。 これらの変数には、配信コンテンツとワークフローの両方からアクセスできます。"
 
+配信に変数を追加すると、トラッキングやパーソナライゼーションに役立ちます。 これらの変数には、配信コンテンツとワークフローの両方からアクセスできます。 ストアド変数は、配信内のすべてのメッセージで一定の値を設定するために使用されます。 また、配信テンプレートで設定することもできます。
 
 変数を追加するには、次に示すように、「**[!UICONTROL 変数]**」タブを参照します。
 
