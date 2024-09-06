@@ -3,14 +3,24 @@ audience: end-user
 title: テストワークフローアクティビティの使用
 description: テストワークフローアクティビティの使用方法を学ぶ
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
+source-git-commit: 8478b7101d78904b0255b728fd814a8319aa2e56
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 83%
 
 ---
 
 # テスト {#test}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test"
+>title="テストアクティビティ"
+>abstract="**テスト** アクティビティでは、指定した条件に基づいたトランジションを有効にできます。 デフォルトでは、アクティビティは単純なブール値テストを表示します。 「True」トランジションで定義された条件が満たされると、このトランジションがアクティブになります。 それ以外の場合は、デフォルトの「False」トランジションがアクティブになります。 必要に応じて条件を設定できます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test_conditions"
+>title="条件"
+>abstract="「**[!UICONTROL 条件を追加]**」ボタンをクリックして、複数の出力トランジションをアクティビティに追加します。 ワークフローの実行中、各条件はいずれか 1 つが満たされるまで順番にテストされます。どの条件も満たされない場合、ワークフローは&#x200B;**[!UICONTROL デフォルト条件]**&#x200B;のパスに沿って続行されます。デフォルト条件がアクティブ化されていない場合、ワークフローはこの時点で停止します。"
 
 **テスト**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。指定した条件に基づいたトランジションを有効にできます。
 
