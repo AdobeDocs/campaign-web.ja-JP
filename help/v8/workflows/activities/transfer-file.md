@@ -3,9 +3,9 @@ audience: end-user
 title: ファイルを転送アクティビティの使用
 description: ファイル転送ワークフローアクティビティの使用方法について学ぶ
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1246'
 ht-degree: 100%
 
 ---
@@ -36,36 +36,6 @@ ht-degree: 100%
 >id="acw_orchestration_transferfile_source"
 >title="ファイルのソースを転送"
 >abstract="目的のファイル名を入力します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="転送後にソースファイルを削除"
->abstract="転送が正常に完了したら、ソースファイルを消去します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="セッションログを表示"
->abstract="転送操作に関連する情報は、ワークフローログに表示されます。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="すべてのファイルを表示"
->abstract="このオプションは、**vars.filenames** イベント変数でサーバー上に存在するすべてのファイルのインデックスを作成します。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="ファイルの履歴化"
->abstract="ファイルの履歴化"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="不明なファイルを処理"
->abstract="このオプションを使用すると、アクティビティの後に&#x200B;**ファイルなし**&#x200B;アウトバウンドトランジションを有効にできます。"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="エラーを処理"
->abstract="このオプションを使用すると、アクティビティの後に&#x200B;**エラー**&#x200B;アウトバウンドトランジションを有効にできます。"
 
 **ファイル転送**&#x200B;アクティビティは&#x200B;**データ管理**&#x200B;アクティビティで、ファイルの送受信、ファイルの有無のテスト、サーバー上のファイルのリストアップを行うことができます。使用されるプロトコルは、サーバー間プロトコルまたは HTTP プロトコルのいずれかです。
 
@@ -122,6 +92,11 @@ ht-degree: 100%
 
 ## 履歴化設定 {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="ファイルの履歴化"
+>abstract="「**[!UICONTROL ファイルを転送]**」アクティビティが実行されるたびに、アップロードされたファイルまたはダウンロードされたファイルが専用のフォルダーに保存されます。ワークフローの「ファイルを転送」アクティビティごとに 1 つのフォルダーが作成されます。デフォルトでは、ファイルは処理される前に、Adobe Campaign インストールフォルダー（`/vars`）のデフォルトストレージディレクトリに保存されます。特定のフォルダーを使用するには、「**[!UICONTROL デフォルトストレージディレクトリを使用]**」オプションをオフに切り替えて、ディレクトリのパスを入力します。"
+
 「**[!UICONTROL ファイルを転送]**」アクティビティが実行されるたびに、アップロードされたファイルまたはダウンロードされたファイルが専用のフォルダーに保存されます。ワークフローの「ファイルを転送」アクティビティごとに 1 つのフォルダーが作成されます。デフォルトでは、ファイルは処理される前に、Adobe Campaign インストールフォルダー（`/vars`）のデフォルトストレージディレクトリに保存されます。特定のフォルダーを使用するには、「**[!UICONTROL デフォルトストレージディレクトリを使用]**」オプションをオフに切り替えて、ディレクトリのパスを入力します。
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -139,6 +114,31 @@ ht-degree: 100%
 >アクティビティを再実行しない限り、フォルダーはチェックされず、消去もされません。そのため、大きなファイルを転送する場合は注意してください。
 
 ## 詳細オプションとエラー管理オプション {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="転送後にソースファイルを削除"
+>abstract="転送が正常に完了したら、ソースファイルを消去します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="セッションログを表示"
+>abstract="転送操作に関連する情報は、ワークフローログに表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="すべてのファイルを表示"
+>abstract="このオプションは、**vars.filenames** イベント変数でサーバー上に存在するすべてのファイルのインデックスを作成します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="不明なファイルを処理"
+>abstract="このオプションを使用すると、アクティビティの後に&#x200B;**ファイルなし**&#x200B;アウトバウンドトランジションを有効にできます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="エラーを処理"
+>abstract="このオプションを使用すると、アクティビティの後に&#x200B;**エラー**&#x200B;アウトバウンドトランジションを有効にできます。"
 
 1. **[!UICONTROL 詳細オプション]**&#x200B;では、設定しているアクティビティのタイプに基づいて追加のオプションを使用できます。詳しくは、以下のセクションを展開してください。
 

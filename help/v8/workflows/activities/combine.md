@@ -3,10 +3,10 @@ audience: end-user
 title: 結合ワークフローアクティビティの使用
 description: 結合ワークフローアクティビティの使用方法を学ぶ
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '1046'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="セグメント化タイプを選択"
->abstract="オーディエンスの結合方法として、和集合、積集合、除外のいずれかを選択します。"
+>abstract="オーディエンスを組み合わせる方法を選択します。 **和集合** では、複数のアクティビティの結果を 1 つのターゲットに再グループ化できます。 **積集合** では、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。 **除外**&#x200B;では、特定の条件に従って、ある母集団から要素を除外することができます。 "
 
 **結合**&#x200B;アクティビティの設定を開始するには、次の一般的な手順に従います。
 
@@ -57,14 +57,9 @@ The **Combine** activity can be placed after any other activity, but not at the 
 ## 和集合 {#combine-union}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_intersection_reconciliation_options"
->title="積集合の紐付けオプション"
->abstract="紐付けタイプを選択して、重複の処理方法を定義します。"
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="紐付けオプション"
->abstract="「**紐付けタイプ**」を選択して、重複の処理方法を定義します。"
+>abstract="**紐付けタイプ** を選択して、重複の処理方法を定義します。 デフォルトでは、「**キー**」オプションが有効になっています。つまり、異なるインバウンドトランジションの要素が同じキーを持つ場合、アクティビティは 1 つの要素のみを保持します。 「**列の選択**」オプションを使用して、データの紐付けが適用される列のリストを定義します。"
 
 **結合**&#x200B;アクティビティでは、「**和集合**」を設定できます。このためには、「**紐付けタイプ**」を選択して、重複の処理方法を定義する必要があります。
 
@@ -72,6 +67,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * **列の選択**：データの紐付けが適用される列のリストを定義する際に選択するオプションです。最初に（ソースデータを含む）プライマリセットを選択し、次に結合に使用する列を選択する必要があります。
 
 ## 積集合 {#combine-intersection}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="積集合の紐付けオプション"
+>abstract="**紐付けタイプ** を選択して、重複の処理方法を定義します。 デフォルトでは、「**キー**」オプションが有効になっています。つまり、異なるインバウンドトランジションの要素が同じキーを持つ場合、アクティビティは 1 つの要素のみを保持します。 「**列の選択**」オプションを使用して、データの紐付けが適用される列のリストを定義します。"
 
 **結合**&#x200B;アクティビティでは、「**積集合**」を設定できます。このためには、以下の追加の手順に従う必要があります。
 

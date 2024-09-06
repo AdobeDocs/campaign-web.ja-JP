@@ -3,9 +3,9 @@ audience: end-user
 title: AND 結合ワークフローアクティビティの使用
 description: AND 結合アクティビティワークフローの使用方法を学ぶ
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="AND 結合アクティビティの設定"
+>title="結合オプション"
 >abstract="結合するアクティビティを選択します。**プライマリセット**&#x200B;ドロップダウンで、保持するインバウンドトランジションの母集団を選択します。"
 
 **AND 結合**&#x200B;アクティビティを設定するには、次の手順に従います。
