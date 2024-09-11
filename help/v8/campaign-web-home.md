@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+source-git-commit: 1b31adb5de2e2fd9d2d6a835e899b4dfc6fe22f2
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 89%
+source-wordcount: '470'
+ht-degree: 83%
 
 ---
 
@@ -51,11 +51,11 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!BEGINTABS]
 
->[!TAB 8 月リリースが公開されました。]
+>[!TAB AI アシスタント – コンテンツアクセラレーター ]
 
-Adobe Campaign web ユーザーインターフェイス 2024年7月リリースの新機能と改善点について説明します。
+[AI アシスタント コンテンツ アクセラレータ ](../v8/email/generative-gs.md) のライブ機能プレビューでは、その機能を直接調べて、その機能を完全に理解できるように設計されており、実際の体験に浸ることができます。
 
-[![画像](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![画像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 値の配分]
 
