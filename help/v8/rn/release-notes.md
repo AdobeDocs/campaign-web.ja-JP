@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e9022e53ff8733ecdfcca1aec2ba31ca6c79c3ad
+source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 52%
+source-wordcount: '481'
+ht-degree: 59%
 
 ---
 
@@ -18,13 +18,33 @@ ht-degree: 52%
 
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
 
-## 8 月のリリースノート {#24-8-release}
+## 9 月の更新 {#9-2024}
 
-**リリース日**:2024 年 9 月 3 日（PT）
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Campaign Web の AI アシスタント – コンテンツアクセラレーター</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メッセージを作成してカスタマイズしたら、Adobe Campaign Web の AI アシスタントを使用してコンテンツを次のレベルに引き上げます。 この強力なツールを使用すると、魅力的なテキスト、メインタイトル、視覚的に魅力的な画像の範囲を生成することで、コンテンツの影響を最適化できます。</p>
+<p>機能を直接探索し、その機能を完全に理解できるように設計された <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> ライブ機能プレビュー </a> を使用して、実践的な体験に没頭してください。</a></p>
+<p>詳しくは、<a href="../email/generative-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/ai-content-webui.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
 
-8 月のリリース以降、次の機能および改善点が提供されます。
+## 8月リリースノート {#24-8-release}
 
-* **値の配分** - パーソナライゼーションのフィールドのリストにアクセスする際に、各フィールドの値の配分方法を確認できるようになりました。 専用のポップアップウィンドウに、各値の数と割合が表示されます。 [詳細情報](../query/build-query.md#distribution-values-query)
+**リリース日**：2024年9月3日（PT）
+
+次の機能と改善点は、8月のリリース以降使用できます。
+
+* **値の配分** - パーソナライゼーションのフィールド用のリストにアクセスすると、各フィールドに値がどのように配分されているかを確認できるようになりました。専用のポップアップウィンドウに、各値の数と割合が表示されます。 [詳細情報](../query/build-query.md#distribution-values-query)
 
 * **SMTP パラメーター** - メール配信設定で SMTP 設定が使用できるようになりました。 [詳細情報](../advanced-settings/delivery-settings.md#smtp)
 
@@ -38,7 +58,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 >
 >[Campaign v8 へのCampaign Standardの移行 ](../rn/acs-migration.md) および [Campaign Standardユーザー向けの機能 ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"} のドキュメントページを参照してください。
 
-* **ダイレクトメールのブランディング** – 技術管理者は、1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。 ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成し、メッセージやランディングページにリンクできるようになりました。 こうした設定はテンプレートで管理されます。[詳細情報](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+* **ダイレクトメールのブランディング** - 技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできるようになりました。こうした設定はテンプレートで管理されます。[詳細情報](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
 
 * **ランディングページの購読** - ランディングページをサービスにリンクし、ユーザーが検証した際に確認メッセージを送信できるようになりました。 [詳細情報](../landing-pages/lp-content.md#lp-message){target="_blank"}。
 

@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 99%
 
 ---
@@ -65,11 +65,6 @@ ht-degree: 99%
       + [ダイレクトメール配信の作成](direct-mail/create-direct-mail.md)
       + [抽出ファイルの設計](direct-mail/content-direct-mail.md)
       + [ダイレクトメール配信のプレビューと送信](direct-mail/send-direct-mail.md)
-   + AI アシスタント {#ai-assistant}
-      + [AI アシスタントの基本を学ぶ](email/generative-gs.md)
-      + [AI アシスタントを使用したメールの生成](email/generative-content.md)
-      + [AI アシスタントを使用した SMS の生成](email/generative-sms.md)
-      + [AI アシスタントを使用したプッシュ通知の生成](email/generative-push.md)
    + [メッセージへのオファーの追加](msg/offers.md)
    + [サブスクライバーへのメッセージの送信](msg/send-to-subscribers.md)
    + [配信設定の指定](advanced-settings/delivery-settings.md)
@@ -113,6 +108,11 @@ ht-degree: 99%
          + [垂直方向の整列とパディングを調整](email/alignment-and-padding.md)
          + [リンクのスタイルの定義](email/styling-links.md)
          + [インラインスタイル属性を追加する](email/inline-styling.md)
+   + コンテンツ アクセラレータ {#ai-assistant} 用 AI アシスタント
+      + [AI アシスタントの基本を学ぶ](email/generative-gs.md)
+      + [AI アシスタントを使用したメールの生成](email/generative-content.md)
+      + [AI アシスタントを使用した SMS の生成](email/generative-sms.md)
+      + [AI アシスタントを使用したプッシュ通知の生成](email/generative-push.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
    + [ランディングページの作成と公開](landing-pages/create-lp.md)
