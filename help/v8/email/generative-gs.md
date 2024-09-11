@@ -3,10 +3,10 @@ audience: end-user
 title: AI アシスタントの基本を学ぶ – コンテンツ アクセラレータ
 description: AI アシスタントの基本を学ぶ – コンテンツ アクセラレータ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
+source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 60%
+source-wordcount: '838'
+ht-degree: 57%
 
 ---
 
@@ -53,14 +53,18 @@ AI アシスタントを使用すると、メール、SMS、プッシュなど�
 
 ## AI アシスタントへのアクセス – コンテンツ アクセラレータ {#generative-access}
 
+AI アシスタント – メール、プッシュ通知、SMS 用のコンテンツアクセラレーターが一般提供（GA）になり、すべてのユーザーが使用できるようになりました。 ユーザーにアクセス権を付与するために必要な権限と手順について、以下で詳しく説明します。
+
 +++  コンテンツ生成関連の権限を割り当てる方法を学ぶ
 
-1. **製品プロファイルの作成** - [Admin Consoleで ](https://stage.adminconsole.adobe.com/) 次のパターンの製品プロファイルを作成します：`Campaign - <instance-name> - AIAssistant`
+1. **製品プロファイルの作成** - [Admin Consoleで ](https://stage.adminconsole.adobe.com/) 次のパターンの製品プロファイルを作成します。
+   `Campaign - <instance-name> - AIAssistant`
 
 1. **ユーザーを追加** – 必要なユーザーをその製品プロファイルに追加します。
 または
-
    **ユーザーグループを作成** し、そのユーザーグループを製品プロファイルに追加して、その製品プロファイルにユーザーを追加します。
+
+Campaign で権限を定義する方法については、[ この節 ](../get-started/permissions.md) を参照してください。
 
 +++
 
