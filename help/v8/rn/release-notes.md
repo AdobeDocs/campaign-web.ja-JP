@@ -2,9 +2,9 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
+source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '477'
 ht-degree: 59%
 
 ---
@@ -23,7 +23,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Campaign Web の AI アシスタント – コンテンツアクセラレーター</strong><br/></th>
+<th><strong>AI アシスタント – コンテンツアクセラレーター</strong><br/></th>
 </tr>
 </thead>
 <tbody>
