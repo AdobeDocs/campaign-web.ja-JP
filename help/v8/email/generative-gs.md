@@ -3,14 +3,14 @@ audience: end-user
 title: Adobe Campaign Web での AI アシスタントの基本を学ぶ – コンテンツアクセラレーター
 description: Adobe Campaign Web での AI アシスタントの基本を学ぶ – コンテンツアクセラレータ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 279450c78ba83ea9f914b57ff7ade450a6a9a5e5
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 57%
+source-wordcount: '765'
+ht-degree: 58%
 
 ---
 
-# Adobe Campaign Web での AI アシスタントの基本を学ぶ – コンテンツアクセラレーター  {#generative-gs}
+# AI アシスタントの基本を学ぶ – コンテンツ アクセラレータ  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

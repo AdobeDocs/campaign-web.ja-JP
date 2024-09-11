@@ -3,7 +3,7 @@ audience: end-user
 title: 生成コンテンツ
 description: コンテンツアクセラレーションのためのAdobe Campaign Web での AI アシスタントの基本を学ぶ
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
 source-wordcount: '1593'
 ht-degree: 65%
@@ -17,7 +17,7 @@ ht-degree: 65%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->コンテンツアクセラレーションのためにAdobe Campaign Web で AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>コンテンツアクセラレーションのためにAdobe Campaign Web で AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 
 メールを作成してパーソナライズしたら、Adobe Campaign Web の AI アシスタントを使用して、生成 AI を活用した Campaign のコンテンツアクセラレーションを行い、コンテンツを次のレベルに引き上げます。
