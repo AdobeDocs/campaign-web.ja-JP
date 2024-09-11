@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: コンテンツアクセラレーション用Journey Optimizerの AI アシスタントによるプッシュ通知
-description: Journey Optimizerの AI アシスタントの基本を学ぶ（コンテンツアクセラレーション向け）
+title: コンテンツアクセラレーション用 AI アシスタントによるプッシュ通知
+description: AI アシスタントの基本を学ぶ
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 60%
+source-wordcount: '580'
+ht-degree: 61%
 
 ---
 
-# Journey Optimizerの AI アシスタントによるプッシュ通知の生成 – コンテンツアクセラレーター  {#generative-push}
+# AI アシスタントによるプッシュ通知の生成 – コンテンツアクセラレーター {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 60%
 >
 >コンテンツアクセラレーションのためにAdobe Campaign Web で AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
-Journey Optimizerのコンテンツ促進用 AI アシスタントを使用すると、オーディエンスの共感を得られる可能性の高い様々なコンテンツを提案することで、配信の影響を最適化するのに役立ちます。
+コンテンツ促進用 AI アシスタントを使用すると、オーディエンスの共感を得られる可能性の高い様々なコンテンツを提案することで、配信の影響を最適化できます。
 
 次の例では、AI アシスタントを活用して説得力のあるメッセージを作成し、魅力的な顧客体験を作成します。
 

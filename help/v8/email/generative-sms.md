@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: コンテンツアクセラレーションのためのAdobe Campaign Web の AI アシスタントを使用した SMS
-description: コンテンツアクセラレーションのためのAdobe Campaign Web での AI アシスタントの基本を学ぶ
+title: コンテンツを高速化するための AI アシスタントを使用した SMS
+description: AI アシスタントの基本を学ぶ
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 64%
+source-wordcount: '901'
+ht-degree: 65%
 
 ---
 
-# Adobe Campaign Web の AI アシスタントを使用した SMS 生成 – コンテンツアクセラレーター {#generative-sms}
+# AI アシスタントによる SMS 生成 – コンテンツアクセラレーター {#generative-sms}
 
 >[!IMPORTANT]
 >
