@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: 5e722eee9858f0d0f943167fb26b2df4729dec83
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 98%
+source-wordcount: '750'
+ht-degree: 96%
 
 ---
 
@@ -110,9 +110,9 @@ ht-degree: 98%
          + [インラインスタイル属性を追加する](email/inline-styling.md)
    + コンテンツ アクセラレータ {#ai-assistant} 用 AI アシスタント
       + [AI アシスタントの基本を学ぶ – コンテンツ アクセラレータ](email/generative-gs.md)
-      + [AI アシスタントを使用したメールの生成](email/generative-content.md)
-      + [AI アシスタントを使用した SMS の生成](email/generative-sms.md)
-      + [AI アシスタントを使用したプッシュ通知の生成](email/generative-push.md)
+      + [AI を使用したメール生成](email/generative-content.md)
+      + [AI を使用した SMS 生成](email/generative-sms.md)
+      + [AI を使用したプッシュ通知の生成](email/generative-push.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
    + [ランディングページの作成と公開](landing-pages/create-lp.md)
