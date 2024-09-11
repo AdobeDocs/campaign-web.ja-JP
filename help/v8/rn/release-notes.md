@@ -2,9 +2,9 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
+source-git-commit: c08c18d9e97401459c0f6855a1fda47cf2a01111
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '481'
 ht-degree: 59%
 
 ---
@@ -33,6 +33,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <p>機能を直接探索し、その機能を完全に理解できるように設計された <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> ライブ機能プレビュー </a> を使用して、実践的な体験に没頭してください。</a></p>
 <p>詳しくは、<a href="../email/generative-gs.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>公開日：9 月 12 日（Pt）</p>
 </td>
 </tr>
 </tbody>
