@@ -2,8 +2,9 @@
 audience: end-user
 title: トラップグループの使用
 description: Campaign web ユーザーインターフェイスでの配信にトラップグループを使用する方法について説明します
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
-workflow-type: ht
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
@@ -12,7 +13,7 @@ ht-degree: 100%
 # トラップグループの使用 {#trap-group}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="トラップグループ"
 >abstract="トラップグループを使用すると、配信に特定のアドレスを含め、定義済みのターゲット条件に一致しないプロファイルをターゲットにすることで、配信プロセスを監視および検証できます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
