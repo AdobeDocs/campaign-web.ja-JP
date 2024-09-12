@@ -3,9 +3,9 @@ audience: end-user
 title: AI アシスタント コンテンツ アクセラレータの基本を学ぶ
 description: AI アシスタント コンテンツ アクセラレータの基本を学ぶ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 57%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 57%
 
 >[!INFO]
 >
->その機能を直接探索し、その機能を完全に理解できるように設計された [ インタラクティブなデモ ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) を使用して、実践的な体験に浸ってください。
+>機能を直接探索して機能を完全に理解できるように設計された [ ライブ機能プレビュー ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) を使用して、実践的な体験に浸ってください。
 
 
 マーケティング業界の競争が激化する中、ブランドは効果的なコンテンツを効率的かつ迅速に生成する効率的な方法を模索しています。Microsoft Azure OpenAI とAdobe Fireflyを活用した、Adobe Campaign Web のコンテンツアクセラレーション向け AI アシスタントは、マーケターがメール、SMS、プッシュなど、あらゆるチャネルで、プロフェッショナルでブランドに一貫したコンテンツを作成する方法に革命を起こす、Adobeの AI コンテンツ作成機能です。 高度な 生成 AI モデルとブランドガイドラインの深い理解により、AI アシスタントは、ブランドの概要を示したスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目的に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成します。
