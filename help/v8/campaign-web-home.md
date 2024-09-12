@@ -3,7 +3,7 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: f0f77a395ac7304a516766069ca81807eabfaab8
+source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 83%
@@ -55,7 +55,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 ✨ [AI アシスタント コンテンツ アクセラレータ ](../v8/email/generative-gs.md) の機能を直接調べて、その機能を完全に理解できるように設計されたライブ機能のプレビューで、実践的な体験に身を浸してください。
 
-[![画像](assets/do-not-localize/try-it-now-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![画像](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB 値の配分]
 
