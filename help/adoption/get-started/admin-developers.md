@@ -3,9 +3,9 @@ title: 管理者と開発者向けの Adobe Campaign v8 の基本を学びます
 description: このチュートリアルでは、Campaign v8 の主な管理機能とデータ管理機能の概要について説明します。Campaign Standard から Campaign v8 に移行する管理者とテクニカルマーケターを対象としています。
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
 workflow-type: tm+mt
-source-wordcount: '2667'
+source-wordcount: '2666'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 主な変更点は、Adobe Campaign アプリケーションサーバーと通信するネイティブアプリケーションであるクライアントコンソールの導入です。
 
-Campaign クライアントコンソールは、すべての機能と設定を一元化します。 Campaign web ユーザーインターフェイスと同期がとられており、両方の環境で一貫性が確保されます。
+Campaign クライアントコンソールは、すべての機能と設定を一元化します。 Campaign web ユーザーインターフェイスと同期されるので、両方の環境で一貫性を確保できます。
 
 ![](assets/client_console.png){zoomable="yes"}
 
