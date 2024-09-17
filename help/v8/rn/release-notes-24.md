@@ -1,16 +1,17 @@
 ---
-title: Campaign v8 Web ユーザーインターフェイスの以前のリリースノート
-description: 2024 年 Campaign Web ユーザーインターフェイスのリリース
-source-git-commit: 0cb44b82fa19f3960f3855947a9a6178a2bd71b7
-workflow-type: tm+mt
+title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
+description: 2024 Campaign web ユーザーインターフェイスリリース
+exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+workflow-type: ht
 source-wordcount: '1869'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 2024 リリースノート {#2024-release}
 
-このページには、**2024 リリース** で使用可能なすべての変更と改善点が一覧表示されています。 最新のリリースノートが [ このページ ](release-notes.md) に記載されています。
+このページには、**2024 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートについては、[このページ](release-notes.md)を参照してください。
 
 ## 7月リリースノート {#24-7-release}
 
