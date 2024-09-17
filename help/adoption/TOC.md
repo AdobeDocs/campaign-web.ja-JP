@@ -2,12 +2,13 @@
 audience: end-user
 user-guide-title: Campaign 導入ガイド
 title: Adobe Campaign導入ガイド
-description: Campaign v8 に移行するCampaign Standardユーザー向けに、開始方法を説明します。
+user-guide-description: Campaign v8 に移行するCampaign Standardユーザー向けに、開始方法を説明します。
+description: Campaign Standardユーザー向けに Campaign v8 の使用を開始する方法を説明します。
 breadcrumb-title: Campaign 導入ガイド
-source-git-commit: c635764e5a655d4a2f3e33f629e8d768a4d9089a
+source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 3%
+source-wordcount: '67'
+ht-degree: 2%
 
 ---
 
