@@ -5,8 +5,8 @@ description: 「ファイルを読み込み」ワークフローアクティビ�
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
 source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

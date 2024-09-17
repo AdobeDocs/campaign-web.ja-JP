@@ -4,7 +4,7 @@ title: E メールデザイナーでのメールの設計
 description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 100%
 

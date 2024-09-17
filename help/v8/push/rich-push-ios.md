@@ -2,10 +2,11 @@
 audience: end-user
 title: iOS のリッチプッシュ通知配信の設計
 description: Adobe Campaign web を使用した iOS のリッチプッシュ通知配信の設計方法について説明します。
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
-workflow-type: ht
-source-wordcount: '1546'
-ht-degree: 100%
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -210,4 +211,3 @@ ht-degree: 100%
 | **[!UICONTROL スレッド ID]** | 関連する通知をグループ化するために使用される識別子を設定します。 |
 | **[!UICONTROL カテゴリ]** | アクションボタンを表示するカテゴリ ID の名前を設定します。これらの通知により、ユーザーは、アプリケーションを開いたりアプリケーション内を移動したりせずに、通知に応じて様々なタスクをより迅速に実行できます。 |
 | **[!UICONTROL ターゲットコンテンツ ID]** | 通知が開かれたときに転送するアプリケーションウィンドウをターゲティングするために使用される識別子を設定します。 |
-

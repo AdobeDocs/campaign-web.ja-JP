@@ -6,7 +6,7 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 98%
 
    * **[!UICONTROL プロセスを中断]**：ワークフローは自動的に一時停止され、ワークフローのステータスは「**[!UICONTROL 失敗]**」に変わります。問題が解決したら、「**[!UICONTROL 再開]**」ボタンを使用してワークフローを再開します。
    * **[!UICONTROL 無視]**：エラーをトリガーしたタスクのステータスは「**[!UICONTROL 失敗]**」に変わりますが、ワークフローのステータスは「**[!UICONTROL 開始済み]**」のままです。<!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL プロセスを中止]**：ワークフローは自動的に停止し、ワークフローのステータスは **[!UICONTROL 失敗]** に変わります。 問題が解決したら、「**[!UICONTROL 開始]**」ボタンを使用してワークフローを再開します。
+   * **[!UICONTROL プロセスを中止]**：ワークフローは自動的に停止し、ステータスが「**[!UICONTROL 失敗]**」に変わります。問題が解決したら、「**[!UICONTROL 開始]**」ボタンを使用してワークフローを再開します。
 
 * **[!UICONTROL 連続エラー]**：このフィールドは、「**[!UICONTROL エラーの場合]**」フィールドで「**[!UICONTROL 無視]**」の値が選択されたときに有効になります。プロセスを停止するまでに無視するエラーの数を指定できます。この数に達すると、ワークフローのステータスが「**[!UICONTROL 失敗]**」に変わります。このフィールドの値が 0 の場合、エラーの数にかかわらず、ワークフローが停止することはありません。
 

@@ -4,7 +4,7 @@ title: リッチプッシュ通知配信の設計
 description: Adobe Campaign web を使用した Android のリッチプッシュ通知配信の設計方法について説明します。
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3372'
 ht-degree: 100%
 

@@ -5,8 +5,8 @@ description: Adobe Campaign Web を使用してクロスチャネルキャンペ
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

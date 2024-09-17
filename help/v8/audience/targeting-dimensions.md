@@ -1,6 +1,6 @@
 ---
 title: ターゲティングディメンション
-description: Adob Campaign Web でのターゲティングディメンションについて説明します
+description: Adobe Campaign Web でのターゲティングディメンションについて説明します
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt

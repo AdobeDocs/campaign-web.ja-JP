@@ -6,7 +6,7 @@ exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
 source-wordcount: '1619'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
    デフォルトでは、ランディングページは **[!UICONTROL web アプリケーション]**&#x200B;フォルダーに保存されます。**[!UICONTROL その他のオプション]**&#x200B;で目的の場所を参照して変更できます。[詳しくは、フォルダーの操作方法を参照してください](../get-started/permissions.md#folders)
 
-   また、ランディングページを保護するために Captcha を設定することもできます。 [ 詳細はこちら ](#captcha)。
+   また、ランディングページを保護するために Captcha を設定することもできます。[詳しくは、こちらを参照してください](#captcha)。
 
    ![](assets/lp-properties.png){zoomable="yes"}
 
@@ -162,22 +162,22 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供（LA）です。前回の修正バージョンでアップグレードされた **Adobe Campaign v8.7.2 を使用するお客様に制限されており** 他の環境にデプロイすることはできません。
+>この機能は、限定提供（LA）です。これは、**前回の修正バージョンでアップグレードされた Adobe Campaign v8.7.2** を使用しているお客様に制限され、他の環境にデプロイできません。
 
 Captcha の設定は、ランディングページをスパムや不正使用から保護するのに役立ちます。
 
-これを使用するには、ランディングページの **[!UICONTROL プロパティ]** に移動します。
-**[!UICONTROL その他のオプション]** でも。 **[!UICONTROL 追加の Captcha 有効化ソリューション]** トグルを有効化します。
+これを使用するには、ランディングページの&#x200B;**[!UICONTROL プロパティ]**に移動します。
+**[!UICONTROL その他のオプション]**&#x200B;でもかまいません。「**[!UICONTROL その他の Captcha ソリューションを有効にする]**」切替スイッチをアクティブ化します。
 
 ![](assets/lp-properties-captcha.png){zoomable="yes"}
 
-Captcha 設定を確認するには、「**[!UICONTROL レビューして公開]**」ボタン、「**[!UICONTROL コンテンツをシミュレート]** をクリックします。 フォームを送信すると、検証中に以下のように captcha ウィジェットが機能していることがわかります。
+Captcha 設定を確認するには、「**[!UICONTROL レビューして公開]**」ボタン、「**[!UICONTROL コンテンツをシミュレート]**」の順にクリックします。フォームを送信すると、以下のように、検証中に Captcha ウィジェットが機能していることがわかります。
 
 ![](assets/lp-captcha.png){zoomable="yes"}
 
 >[!NOTE]
 >
->Adobe Campaign v8 の captcha ウィジェットは、フローティングモードで動作する ALTCHA です。 この名前は検証中に表示され、プロセスが完了すると消えます。
+>Adobe Campaign v8 の Captcha ウィジェットは、フローティングモードで動作する ALTCHA です。このウィジェットは、検証中に表示され、プロセスが完了すると消えます。
 
 
 ## ランディングページのテスト {#test-landing-page}

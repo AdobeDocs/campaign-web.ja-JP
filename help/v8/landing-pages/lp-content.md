@@ -6,7 +6,7 @@ exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ ht-degree: 95%
 
    ![](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-1. ランディングページの送信時にメッセージを送信できます。 [詳しくは、こちらを参照してください](#lp-message)
+1. ランディングページの送信時にメッセージを送信できます。[詳しくは、こちらを参照してください](#lp-message)
 
 ### 送信後のメッセージの送信 {#lp-message}
 
@@ -146,7 +146,7 @@ ht-degree: 95%
 
 ランディングページの送信後に確認メッセージを自動的に送信するには、次の手順に従います。
 1. 「**[!UICONTROL コールトゥアクション]**」セクションで、「**[!UICONTROL 確認メールを送信]**」オプションをオンにします。
-1. 関連付けられたドロップダウンリストから、送信する必要があるトランザクションメッセージテンプレートを選択します。
+1. 関連するドロップダウンリストで、送信する必要があるトランザクションメッセージテンプレートを選択します。
 
 ![](assets/lp-confirmation.png){zoomable="yes"}
 

@@ -5,8 +5,8 @@ description: ファイルを抽出ワークフローアクティビティの使�
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

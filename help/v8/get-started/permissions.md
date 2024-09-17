@@ -4,7 +4,7 @@ title: Campaign web ユーザーインターフェイスでの権限管理
 description: Campaign web ユーザーインターフェイスの権限について説明します
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 source-git-commit: f352f4e726eff50527d0b9a04d0506600c12b822
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
 
