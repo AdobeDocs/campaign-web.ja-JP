@@ -6,7 +6,7 @@ exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1a6bf414e4e5390faf701baf34ad9b33bb0b6dd7
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
@@ -59,13 +59,13 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!TAB 値の配分]
 
-パーソナライゼーションのフィールドのリストにアクセスする際に、各フィールドの値の配分方法を確認できるようになりました。
+パーソナライゼーションのフィールド用のリストにアクセスすると、各フィールドに値がどのように配分されているかを確認できるようになりました。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
 >[!TAB  ランディングページの Captcha]
 
-Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。 この機能は限定提供（LA）です。
+Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。この機能は、限定提供です。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 

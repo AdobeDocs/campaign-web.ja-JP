@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 59%
+ht-degree: 82%
 
 ---
 
@@ -45,11 +45,11 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 次の機能と改善点は、8月のリリース以降使用できます。
 
-* **値の配分** - パーソナライゼーションのフィールド用のリストにアクセスすると、各フィールドに値がどのように配分されているかを確認できるようになりました。専用のポップアップウィンドウに、各値の数と割合が表示されます。 [詳細情報](../query/build-query.md#distribution-values-query)
+* **値の配分** - パーソナライゼーション用のフィールドリストにアクセスすると、各フィールドに値がどのように配分されているかを確認できるようになりました。専用のポップアップウィンドウに、各値の数と割合が表示されます。[詳細情報](../query/build-query.md#distribution-values-query)
 
-* **SMTP パラメーター** - メール配信設定で SMTP 設定が使用できるようになりました。 [詳細情報](../advanced-settings/delivery-settings.md#smtp)
+* **SMTP パラメーター** - メール配信設定で SMTP 設定が使用できるようになりました。[詳細情報](../advanced-settings/delivery-settings.md#smtp)
 
-* **グローバル変数** - グローバル変数を定義して、配信の値を定義できるようになりました。 [詳細情報](../advanced-settings/delivery-settings.md#variables-delivery)
+* **グローバル変数** - グローバル変数を定義して、配信の値を定義できるようになりました。[詳細情報](../advanced-settings/delivery-settings.md#variables-delivery)
 
 ### 限定提供の新機能 {#acs-24-8}
 
@@ -57,15 +57,15 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 >
 >次の機能は、限定提供（LA）です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 >
->[Campaign v8 へのCampaign Standardの移行 ](../rn/acs-migration.md) および [Campaign Standardユーザー向けの機能 ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"} のドキュメントページを参照してください。
+>ドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)および [Campaign Standard ユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"}を参照してください。
 
-* **ダイレクトメールのブランディング** - 技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできるようになりました。こうした設定はテンプレートで管理されます。[詳細情報](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+* **ダイレクトメールのブランディング** - 技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできるようになりました。こうした設定はテンプレートで管理されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/branding/branding-assign)
 
-* **ランディングページの購読** - ランディングページをサービスにリンクし、ユーザーが検証した際に確認メッセージを送信できるようになりました。 [詳細情報](../landing-pages/lp-content.md#lp-message){target="_blank"}。
+* **ランディングページによるサブスクリプション** - ランディングページをサービスにリンクして、ユーザーが検証する際に確認メッセージを送信できるようになりました。[詳細情報](../landing-pages/lp-content.md#lp-message){target="_blank"}。
 
-* **ビジュアルフラグメント** - ビジュアルコンテンツフラグメントをアーカイブできるようになりました。 [詳細情報](../content/create-fragment.md#archive)
+* **ビジュアルフラグメント** - ビジュアルコンテンツフラグメントをアーカイブできるようになりました。[詳細情報](../content/create-fragment.md#archive)
 
-* **ランディングページの Captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。 このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。[詳細情報](../landing-pages/create-lp.md#captcha)
+* **ランディングページの Captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。[詳細情報](../landing-pages/create-lp.md#captcha)
 
 <!--
 * **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
