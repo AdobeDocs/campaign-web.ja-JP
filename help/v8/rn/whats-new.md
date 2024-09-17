@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
+source-git-commit: 2918ad161ace7305e4bd3be1bcec0bb7b6f7d51a
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -114,9 +114,7 @@ Campaign のメールエディターで **HTML コンテンツの読み込みと
 
 **オファー付きの SMS**
 
-新しい Campaign Web ユーザーインターフェイスでは、メールに加えて **SMS とオファーを統合**&#x200B;できます。モバイルデバイスでオーディエンスにリーチし、プロモーションやタイムリーな通知を配信します。アドビの高度な web プラットフォーム上の SMS を通じて統合オファーの機能を活用し、マーケティング活動を強化します。
-
-詳しくは、[こちら](../msg/offers.md)を参照してください。
+新しい Campaign Web ユーザーインターフェイスでは、メールに加えて **SMS とオファーを統合**&#x200B;できます。モバイルデバイスでオーディエンスにリーチし、プロモーションやタイムリーな通知を配信します。アドビの高度な web プラットフォーム上の SMS を通じて統合オファーの機能を活用することで、マーケティング活動を強化します。 詳しくは、[こちら](../msg/offers.md)を参照してください。
 
 ## Campaign Web ユーザーインターフェイスに移行する
 
