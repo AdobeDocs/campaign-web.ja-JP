@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 581b5ae12d7e1ca2a68e51923b765e0366e84b66
+source-git-commit: dd265e446e2e65dc6393fb4b13b0477a701722c5
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 100%
+source-wordcount: '1727'
+ht-degree: 99%
 
 ---
 
@@ -392,4 +392,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_eventhistory_preview"
 >title="トランザクションメッセージのイベント履歴プレビュー"
 >abstract="トランザクションメッセージのイベント履歴プレビュー"
+
+<!--about-->
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="詳細"
+>abstract="詳細"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="インスタンスについて"
+>abstract="インスタンスについて"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="Web について"
+>abstract="Web について"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="パッケージについて"
+>abstract="パッケージについて"
+
 
