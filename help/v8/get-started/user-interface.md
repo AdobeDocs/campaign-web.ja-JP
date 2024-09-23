@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 99%
+source-wordcount: '1765'
+ht-degree: 98%
 
 ---
 
@@ -415,4 +415,59 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="パッケージについて"
 >abstract="パッケージについて"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="スキーマ"
+>abstract="スキーマ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="スキーマタイプ"
+>abstract="スキーマタイプ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="スキーマのプロパティ"
+>abstract="スキーマ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="既存のスキーマを選択"
+>abstract="スキーマ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="外部データベースを選択"
+>abstract="スキーマ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="テーブルを追加"
+>abstract="スキーマ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="ワークフローログとタスク"
+>abstract="スキーマ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="データベースの更新"
+>abstract="スキーマ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="スクリプトを更新"
+>abstract="スキーマ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="データベース更新を開始"
+>abstract="スキーマ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="テーブルを追加"
+>abstract="スキーマ"
