@@ -6,7 +6,7 @@ exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: 10f8768b244b0138d055330d8d23f42076c83c49
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,34 +118,34 @@ ht-degree: 99%
 >id="acw_deliveries_email_metrics_delivered"
 >title="配信済み"
 >abstract="正常に配信されたメッセージの数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、送信されたメッセージの合計数に基づきます。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/reports/kpis" text="KPI について"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="開封数"
 >abstract="開封されたメッセージの数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーク開封数の割合です。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/reports/kpis" text="KPI について"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="クリック数"
 >abstract="メール内で 1 回以上クリックした受信者の数。この指標は 5 分ごとに更新されます。表示されるパーセンテージは、配信されたメッセージ数に対する、ユニーククリック数の割合です。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/reports/kpis" text="KPI について"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="送信済み指標"
 >abstract="配信の分析中に処理されたメッセージの合計数。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/reports/kpis" text="KPI について"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="エラー指標"
 >abstract="送信されたメッセージの合計数に対して、配信と自動返信処理の間に累積したエラーの合計数。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI について"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/reports/kpis" text="KPI について"
 
 
 送信が完了したら、表示される KPI を確認できます。

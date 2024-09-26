@@ -1,20 +1,20 @@
 ---
 audience: end-user
-title: AI アシスタント コンテンツ アクセラレータの基本を学ぶ
+title: AI アシスタントコンテンツアクセラレータの基本を学ぶ
 description: AI アシスタント コンテンツ アクセラレータの基本を学ぶ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 57%
+ht-degree: 59%
 
 ---
 
-# AI アシスタント コンテンツ アクセラレータを使用する  {#generative-gs}
+# AI アシスタントコンテンツアクセラレータの操作  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="AI アシスタント コンテンツ アクセラレータ"
+>title="AI アシスタントコンテンツアクセラレータ"
 >abstract="AI アシスタントを使用すると、メール、SMS、プッシュなどすべてのチャネルでマーケティングキャンペーンを、直感的でシンプルかつ手間のかからない方法で作成および実行でき、時間を節約し、効率を向上させ、より良い結果を導き出すことができます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
