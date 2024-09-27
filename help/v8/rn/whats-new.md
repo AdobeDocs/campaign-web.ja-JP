@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 98%
+source-wordcount: '1317'
+ht-degree: 90%
 
 ---
 
@@ -72,6 +72,13 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知など�
 * ビルトインレポートを使用した送信の監視および結果の測定 - [詳細情報](../reporting/delivery-reports.md)
 
 
+**AI Assistant Content Accelerator によるコンテンツ生成**
+
+Microsoft Azure OpenAI とAdobe Fireflyを活用した革新的なコンテンツデザイナーで、手動でのコンテンツ作成の手間を省き、合理化されたキャンペーンの新しい時代を受け入れます。
+
+シンプルさと効率を追求して設計された、高度なWYSIWYG ドラッグ&amp;ドロップエディターでコンテンツ配信を再定義します。 シームレスなAEM統合、動的コンテンツ機能、画期的な AI アシスタント コンテンツ アクセラレータを備えたこのオールインワン ツールは、直感的で効率的な配信を実現し、高度にパーソナライズされます。
+
+AI アシスタント コンテンツ アクセラレータの高度なアルゴリズムの機能を活用して、結果を導く魅力的でカスタマイズされたコンテンツを作成します。 インテリジェントな AI 駆動のコンテンツ生成により、開封率、クリックスルー、コンバージョンを高めます。 詳しくは、[こちら](../email/generative-gs.md)を参照してください。
 
 **新しくデザインを変更したキャンペーンワークフローアクティビティ**
 
