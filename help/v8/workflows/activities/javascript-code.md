@@ -3,9 +3,9 @@ audience: end-user
 title: JavaScript コードワークフローアクティビティの使用
 description: JavaScript コードワークフローアクティビティの使用方法を学ぶ
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
+source-git-commit: 1f5bd502527d0ba285e82fdda7b3f8dc86ac2c76
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '969'
 ht-degree: 100%
 
 ---
@@ -30,12 +30,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript のトランジション"
->abstract="「**[!UICONTROL エラーを処理]**」オプションを有効にすると、スクリプトの実行中に発生したエラーを、追加の出力トランジションに保持できます。"
+>abstract="1 つまたは複数の出力トランジションを追加するには、**[!UICONTROL トランジションを追加]**&#x200B;ボタンをクリックし、トランジションごとにラベルと内部名を指定します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
 >title="エラーを処理"
->abstract="エラーを処理"
+>abstract="「**[!UICONTROL エラーを処理]**」オプションを有効にすると、スクリプトの実行中に発生したエラーを、追加の出力トランジションに保持できます。"
 
 **JavaScript コード**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティです。このアクティビティを使用して、ワークフローのコンテキストで JavaScript スクリプトを実行します。これにより、データベースから情報を収集したり、その他の複雑な操作を実行したりできます。
 
