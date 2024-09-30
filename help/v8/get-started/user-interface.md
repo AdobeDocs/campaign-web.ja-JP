@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
 workflow-type: tm+mt
 source-wordcount: '1762'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -397,8 +397,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_about"
->title="詳細"
->abstract="詳細"
+>title="概要"
+>abstract="概要"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
@@ -429,27 +429,27 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_properties"
->title="スキーマのプロパティ"
+>title="スキーマプロパティ"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_existing"
->title="既存のスキーマを選択"
+>title="既存のスキーマの選択"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_external"
->title="外部データベースを選択"
+>title="外部データベースの選択"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_add_tables"
->title="テーブルを追加"
+>title="テーブルの追加"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
->title="ワークフローログとタスク"
+>title="ワークフローのログとタスク"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
@@ -459,10 +459,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_update_script"
->title="スクリプトを更新"
+>title="スクリプトの更新"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_start_update"
->title="データベース更新を開始"
+>title="データベースの更新の開始"
 >abstract="スキーマ"
