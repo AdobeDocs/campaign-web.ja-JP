@@ -3,9 +3,9 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1709'
 ht-degree: 100%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 100%
 >id="acw_orchestration_enrichment"
 >title="エンリッチメントアクティビティ"
 >abstract="**エンリッチメント**&#x200B;アクティビティでは、データベースからの追加情報を使用してターゲットデータを強化できます。一般的に、セグメント化アクティビティ後のワークフローで使用されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="オファーの提案"
+>abstract="オファーの提案"
 
 **エンリッチメント**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。データベースからの追加情報を使用してターゲットデータを強化できます。一般的に、セグメント化アクティビティ後のワークフローで使用されます。
 
