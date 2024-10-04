@@ -3,9 +3,9 @@ title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 82%
 
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
 
-## 9 月の更新 {#9-2024}
+## 9月の更新 {#9-2024}
 
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタント コンテンツ アクセラレータ</strong><br/></th>
+<th><strong>AI アシスタントコンテンツアクセラレータ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成してカスタマイズしたら、Adobe Campaign Web の AI アシスタントを使用してコンテンツを次のレベルに引き上げます。 この強力なツールを使用すると、魅力的なテキスト、メインタイトル、視覚的に魅力的な画像の範囲を生成することで、コンテンツの影響を最適化できます。</p>
-<p>機能を直接探索し、その機能を完全に理解できるように設計された <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> ライブ機能プレビュー </a> を使用して、実践的な体験に没頭してください。</a></p>
+<p>メッセージを作成して調整したら、コンテンツ高速化用の Adobe Campaign web の AI アシスタントを使用して、メッセージを次のレベルに引き上げます。この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
+<p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>は、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../email/generative-gs.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
-<p>公開日：9 月 12 日（Pt）</p>
+<p>公開日：9月12日（PT）</p>
 </td>
 </tr>
 </tbody>

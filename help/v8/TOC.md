@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -108,8 +108,8 @@ ht-degree: 96%
          + [垂直方向の整列とパディングを調整](email/alignment-and-padding.md)
          + [リンクのスタイルの定義](email/styling-links.md)
          + [インラインスタイル属性を追加する](email/inline-styling.md)
-   + コンテンツ アクセラレータ {#ai-assistant} 用 AI アシスタント
-      + [AI アシスタント コンテンツ アクセラレータを使用する](email/generative-gs.md)
+   + コンテンツアクセラレータ用 AI アシスタント {#ai-assistant}
+      + [AI アシスタントコンテンツアクセラレータの操作](email/generative-gs.md)
       + [AI を使用したメール生成](email/generative-content.md)
       + [AI を使用した SMS 生成](email/generative-sms.md)
       + [AI を使用したプッシュ通知の生成](email/generative-push.md)

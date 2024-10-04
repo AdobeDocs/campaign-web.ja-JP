@@ -4,7 +4,7 @@ title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1762'
 ht-degree: 100%
 
@@ -397,8 +397,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_about"
->title="概要"
->abstract="概要"
+>title="詳細"
+>abstract="詳細"
 
 >[!CONTEXTUALHELP]
 >id="acw_about_instance"
@@ -429,40 +429,40 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_properties"
->title="スキーマプロパティ"
+>title="スキーマのプロパティ"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_existing"
->title="既存のスキーマの選択"
+>title="既存のスキーマを選択"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_external"
->title="外部データベースの選択"
+>title="外部データベースを選択"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_add_tables"
->title="テーブルの追加"
+>title="テーブルを追加"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
->title="ワークフローのログとタスク"
+>title="ワークフローログとタスク"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_update"
->title="データベースの更新"
+>title="データベースを更新"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_update_script"
->title="スクリプトの更新"
+>title="スクリプトを更新"
 >abstract="スキーマ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_start_update"
->title="データベースの更新の開始"
+>title="データベース更新を開始"
 >abstract="スキーマ"
