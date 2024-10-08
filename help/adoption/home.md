@@ -1,11 +1,11 @@
 ---
 keywords: Campaign Classic;ホーム;人気のトピック
-description: Campaign v8 に移行するCampaign Standardユーザー向けに、開始方法を説明します。
-title: Adobe Campaign導入ガイド
+description: Campaign Standard ユーザーが Campaign v8 に移行する場合の開始方法について説明します。
+title: Adobe Campaign 導入ガイド
 source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -19,32 +19,32 @@ Adobe Campaign Standard ユーザーは、Adobe Campaign Managed Cloud Services 
 * Adobe Experience Platform との統合：Managed Cloud Services v8 では、Adobe Experience Platform とシームレスに接続し、クライアントがデータの可能性を最大限に活用し、パーソナライズされた効果的なキャンペーンをチャネル全体で提供できるようにします。
 * 一貫性の高いユーザーインターフェイスとエクスペリエンス：Managed Cloud Services v8 に移行しても、ワークフローが中断されることはありません。使い慣れたユーザーインターフェイスとユーザーエクスペリエンスを引き続き利用して、チームの学習曲線を最小限に抑えることができます。
 
-Campaign v8 への移行Campaign Standardとして、このドキュメントは基本を学ぶのに役立ちます。
+Campaign Standard から Campaign v8 に移行する場合、このドキュメントは開始する際に役立ちます。
 
 >[!BEGINTABS]
 
->[!TAB  新機能 ]
+>[!TAB 新機能]
 
-Adobe Campaign v8 に伴う最新の機能強化を確認し、新しい Campaign web ユーザーインターフェイスについて理解します。
+Adobe Campaign v8 で提供される最新の機能強化の概要を確認し、新しい Campaign web ユーザーインターフェイスについて説明します。
 
 [![画像](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/overview.md)
 
 
->[!TAB  主な違い ]
+>[!TAB 主な違い]
 
-ほとんどの概念は、Adobe Campaign v8 とAdobe Campaign Standardの間では似ています。 以下の節に相違点をいくつか示します。
+ほとんどの概念は、Adobe Campaign v8 と Adobe Campaign Standard で類似しています。以下の節に相違点をいくつか示します。
 
 [![画像](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/overview.md#experiences)
 
->[!TAB  マーケター向けの基礎知識 ]
+>[!TAB マーケター向けの基本を学ぶ]
 
-マーケターのユーザー向けに、Adobe Campaign StandardとAdobe Campaign v8 のエクスペリエンスの違いを説明します。
+マーケターユーザー向けの Adobe Campaign Standard と Adobe Campaign v8 のエクスペリエンスの違いについて説明します。
 
 [![画像](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/marketers.md)
 
->[!TAB  管理者/開発者の基本を学ぶ ]
+>[!TAB 管理者／開発者向けの基本を学ぶ]
 
-管理者/開発者ユーザー向けの、Adobe Campaign StandardとAdobe Campaign v8 のエクスペリエンスの違いについて説明します。
+管理者／開発者ユーザー向けの Adobe Campaign Standard と Adobe Campaign v8 のエクスペリエンスの違いについて説明します。
 
 [![画像](../v8/assets/do-not-localize/learn-more-button.svg)](get-started/admin-developers.md)
 
@@ -92,5 +92,5 @@ Adobe Campaign v8 に伴う最新の機能強化を確認し、新しい Campaig
 
 ## その他のリソース
 
-[Adobe Campaign v8 製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} - [Adobe Campaign クライアントコンソールのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [ クライアントコンソールのTutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign]  自動処理ガイド ](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Campaign v8 のCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Adobe Campaign v8 の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} - [Adobe Campaign クライアントコンソールドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [クライアントコンソールチュートリアル](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign] 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Campaign v8 のコントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
 

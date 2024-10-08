@@ -4,9 +4,9 @@ title: フォルダーの作成と管理
 description: Adobe Campaign でフォルダーを作成および管理する方法について説明します
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 440fb6d303fc70b3fd0903c485cb6b5e6d3ba0c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign では、ナビゲーションツリーを管理するための�
 
 ![](assets/folder_new.png){zoomable="yes"}
 
-フォルダータイプのアイコンをクリックしてフォルダーのタイプを変更し、表示されるリストで選択できます。
+フォルダータイプのアイコンをクリックすると、フォルダーのタイプを変更し、次に示すリストで選択できます。
 
 ![](assets/folder_type.png){zoomable="yes"}
 
