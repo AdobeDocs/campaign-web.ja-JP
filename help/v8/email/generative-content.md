@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: 生成コンテンツ
-description: コンテンツ高速化用の AI アシスタントの基本を学ぶ
+description: AI アシスタントコンテンツアクセラレータの基本を学ぶ
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: ht
-source-wordcount: '1585'
-ht-degree: 100%
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+workflow-type: tm+mt
+source-wordcount: '1577'
+ht-degree: 91%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 100%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->コンテンツ高速化用の Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Campaign Web で AI Assistant コンテンツアクセラレーターを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 
-メールを作成してパーソナライズしたら、生成 AI を利用した Campaign のコンテンツ高速化用の Adobe Campaign web の AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。
+メールを作成してパーソナライズしたら、生成 AI を活用した Campaign のAdobe Campaign web の AI Assistant コンテンツアクセラレーターを使用して、コンテンツを次のレベルに引き上げます。
 
-コンテンツ高速化用の Adobe Campaign web の AI アシスタントは、メール全体、ターゲットテキストコンテンツおよびオーディエンスを共感させる特別に調整された画像を生成することで、配信の影響を最適化するのに役立たせることができます。これにより、メールキャンペーンが最適化され、エンゲージメントが向上します。
+Adobe Campaign Web の AI Assistant コンテンツアクセラレーターは、メール全体、ターゲットテキストコンテンツ、さらにはオーディエンスの共感を得るために特別にカスタマイズされた画像を生成することで、配信の影響を最適化するのに役立ちます。 これにより、メールキャンペーンが最適化され、エンゲージメントが向上します。
 
-メールキャンペーンでは、AI アシスタントを使用して、メール、テキストまたは画像を生成できます。Campaign のコンテンツ高速化用の Adobe Campaign web で AI アシスタントを使用する方法について詳しくは、以下のタブを参照してください。
+メールキャンペーンでは、AI アシスタントを使用して、メール、テキストまたは画像を生成できます。Adobe Campaign Web で AI Assistant コンテンツアクセラレーターを使用する方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
 >[!TAB 完全なメール生成]
 
-次の例では、コンテンツ高速化用の Adobe Campaign web の AI アシスタントを利用して既存のメールを改良し、特別なイベント用にカスタマイズします。
+次の例では、Adobe Campaign Web の AI Assistant コンテンツアクセラレーターを活用して、既存のメールを調整し、特別なイベント用にカスタマイズします。
 
 1. メール配信を作成および設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
    ![](assets/full-email-3.png){zoomable="yes"}
 
-1. **[!UICONTROL 画像設定]**&#x200B;を選択します。
+1. 次の&#x200B;**[!UICONTROL 画像設定]**&#x200B;を選択します。
 
    * **[!UICONTROL コンテンツタイプ]**：これにより、視覚要素の性質が分類され、写真、グラフィック、アートなど、様々な視覚的表現が区別されます。
    * **[!UICONTROL 視覚的な強度]**：画像の強度を調整することで、画像の影響を制御できます。低い値（2）を設定すると、より柔らかく、抑制された外観が作成され、高い値（10）を設定すると、画像はより鮮やかで視覚的に強力になります。

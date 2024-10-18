@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: コンテンツ高速化用の AI アシスタントを使用したプッシュ通知
-description: コンテンツ高速化用の AI アシスタントの基本を学ぶ
+title: AI Assistant コンテンツアクセラレーターを使用したプッシュ通知
+description: AI アシスタントコンテンツアクセラレータの基本を学ぶ
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
-workflow-type: ht
-source-wordcount: '580'
-ht-degree: 100%
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 90%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->コンテンツ高速化用の Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Campaign Web で AI Assistant コンテンツアクセラレーターを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
-コンテンツ高速化用の AI アシスタントを使用すると、オーディエンスの共感を呼ぶ可能性の高い異なるコンテンツを提案し、配信の影響を最適化できます。
+AI アシスタントコンテンツアクセラレーターを使用すると、オーディエンスの共感を得られる可能性の高い様々なコンテンツを提案することで、配信の影響を最適化できます。
 
 次の例では、AI アシスタントを活用して説得力のあるメッセージを作成し、魅力的な顧客体験を作成します。
 

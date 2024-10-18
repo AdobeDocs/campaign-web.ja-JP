@@ -3,10 +3,10 @@ audience: end-user
 title: AI アシスタントコンテンツアクセラレータの基本を学ぶ
 description: AI アシスタントコンテンツアクセラレータの基本を学ぶ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d32344b5ee378588cedb003b80daac04ac3a26c
-workflow-type: ht
-source-wordcount: '840'
-ht-degree: 100%
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 87%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >[ライブ機能プレビュー](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator)では、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 
-マーケティング業界の競争が激化する中、ブランドは効果的なコンテンツを効率的かつ迅速に生成する効率的な方法を模索しています。Microsoft Azure OpenAI と Adobe Firefly を活用したコンテンツ高速化用の Adobe Campaign web の AI アシスタントは、アドビの AI コンテンツ生成機能です。メール、SMS、プッシュなど、あらゆるチャネルで、マーケターがプロフェッショナルでブランド一貫性のあるコンテンツを作成する方法に革命をもたらします。高度な 生成 AI モデルとブランドガイドラインの深い理解により、AI アシスタントは、ブランドの概要を示したスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目的に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成します。
+マーケティング業界の競争が激化する中、ブランドは効果的なコンテンツを効率的かつ迅速に生成する効率的な方法を模索しています。Microsoft Azure OpenAI とAdobe Fireflyを活用したAdobe Campaign Web の AI Assistant Content Accelerator は、マーケターがメール、SMS、プッシュなど、あらゆるチャネルで、プロフェッショナルなコンテンツやブランドコンシステントなコンテンツを作成する方法に革命を起こす、Adobeの AI コンテンツ生成機能です。 高度な 生成 AI モデルとブランドガイドラインの深い理解により、AI アシスタントは、ブランドの概要を示したスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目的に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成します。
 
 AI アシスタントを使用すると、メール、SMS、プッシュなどすべてのチャネルでマーケティングキャンペーンを、直感的でシンプルかつ手間のかからない方法で作成および実行でき、時間を節約し、効率を向上させ、より良い結果を導き出すことができます。
 
@@ -49,7 +49,7 @@ AI アシスタントを使用すると、メール、SMS、プッシュなど�
 >
 >* この機能の使用を開始する前に、関連する[ガードレールと制限](#generative-guardrails)のトピックに目を通してください。
 >
->* コンテンツ高速化用の Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>* Adobe Campaign Web で AI Assistant コンテンツアクセラレーターを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 ## AI アシスタントコンテンツアクセラレータへのアクセス {#generative-access}
 
@@ -70,7 +70,7 @@ Campaign で権限を定義する方法について詳しくは、[この節](..
 
 ## ガードレールと制限 {#generative-guardrails}
 
-メールの生成にコンテンツ高速化用の Adobe Campaign web の AI アシスタントを使用する際の一般的なガイドラインは次のとおりです。
+メール生成にAdobe Campaign Web の AI Assistant コンテンツアクセラレーターを使用する際の一般的なガイドラインを以下に示します。
 
 * 生成されるコンテンツの品質は、定義したマーケティング目的やプロンプトに大きく左右されます。生成 AI モデルで正確に解釈できるように、適切に定義されたプロンプトを使用します。 
 * ブランドアセットをアップロードして、正確なオンブランドコンテンツを確保します。それ以外の場合は、公開されている情報に基づいたコンテンツになります。アップロードされるコンテンツは、PDF、JPEG、PNG または ZIP ファイル（サポートされているファイル形式のもの）の形式です。
@@ -80,9 +80,9 @@ Campaign で権限を定義する方法について詳しくは、[この節](..
 * AI アシスタントの使用は、Adobe Experience Cloud 生成 AI ユーザーガイドラインの対象となります。[詳細情報](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * メディア作成における生成 AI ツールの使用の透明性を促進するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、コンテンツ資格情報を適用します。[詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)
 
-コンテンツ高速化用の Adobe Campaign web の AI アシスタントには、次の制限が適用されます。
+Adobe Campaign Web の AI Assistant コンテンツアクセラレーターには、次の制限が適用されます。
 
-* コンテンツ高速化用の Adobe Campaign web の AI アシスタントは、現在、英語でのみサポートされています。英語以外の入力では、一貫性のない結果や誤った結果が生じる場合があります。英語以外の応答から生じる問題は、現時点では対処または改善されません。
+* Adobe Campaign Web の AI Assistant Content Accelerator は、現在、英語でのみサポートされています。 英語以外の入力では、一貫性のない結果や誤った結果が生じる場合があります。英語以外の応答から生じる問題は、現時点では対処または改善されません。
 * メール、プッシュ、SMS の各チャネルにのみ使用できます。
 * 生成 AI のコンテンツは必ずしも正確でない場合があります。エンジニアがモデルを改善できるように、フィードバックを共有してください。
 * 複数のブランドアセットをアップロードできますが、特定の生成に利用できるのは 1 つだけです。
