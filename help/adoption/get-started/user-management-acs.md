@@ -3,10 +3,10 @@ title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign Standardから Campaign V8 にユーザーアクセス管理を移行する方法を説明します
 feature: Technote
 role: Admin
-source-git-commit: 3e2fa429a57b967f156546ad6a4fedee8f871c25
+source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 3%
+source-wordcount: '845'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Standardと Campaign V8 では、ユーザーアクセスを管�
 
 >[!CAUTION]
 >
->これらの役割/ネームド権限の機能は、実装が異なる場合があり、権限の昇格や機能の中断などの承認の問題を引き起こす可能性があります。 適切なアクセス制御を確保するために、移行後にこれらのマッピングを確認することをお勧めします。 [ 権限の詳細 ](../../v8/start/manage-permissions.md)
+>これらの役割/ネームド権限の機能は、実装が異なる場合があり、権限の昇格や機能の中断などの承認の問題を引き起こす可能性があります。 適切なアクセス制御を確保するために、移行後にこれらのマッピングを確認することをお勧めします。 [ 権限の詳細 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 次の表に、Adobe Campaign Standardから Campaign V8 に移行する際のユーザーロールグループの移行アプローチの概要を示します。 Campaign Standard、Campaign V8 では **オペレーターグループ** と呼ばれる **セキュリティグループ** を使用して、一連のロールをユーザーに割り当てます。 一部のセキュリティグループやオペレーターグループはすぐに使用できますが、ユーザーは、必要に応じて新しいグループを作成したり、既存のグループを変更したりできます。
 
@@ -35,7 +35,7 @@ Adobe Campaign Standardと Campaign V8 では、ユーザーアクセスを管�
 |---------|----------|---------|
 | **用語**  | セキュリティグループ | オペレーターグループ |
 
-Adobe Campaign Standardと Campaign V8 の両方で、**セキュリティグループ** および **オペレーターグループ** が Admin Console の製品プロファイルにマッピングされます。 **セキュリティグループ** または **オペレーターグループ** をユーザーに割り当てる場合は、対応する **製品プロファイル** を Admin Console でリンクできます。 この関連付けは、ユーザーがログインしたときに同期されます。 [ 詳しくは、製品プロファイルを参照してください ](../../v8/start/manage-permissions.md)
+Adobe Campaign Standardと Campaign V8 の両方で、**セキュリティグループ** および **オペレーターグループ** が Admin Console の製品プロファイルにマッピングされます。 **セキュリティグループ** または **オペレーターグループ** をユーザーに割り当てる場合は、対応する **製品プロファイル** を Admin Console でリンクできます。 この関連付けは、ユーザーがログインしたときに同期されます。 [ 詳しくは、製品プロファイルを参照してください ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Campaign Standard セキュリティ グループ** | **Campaign V8 オペレーターグループ** |
 |----------|---------|
@@ -63,7 +63,7 @@ Adobe Campaign Standardでは、**ユーザーロール** という用語は、C
 
 ## 組織単位からの移行アプローチ
 
-Adobe Campaign Standardでは、同様のアクセス制御を維持するために、**Organization uni** t が Campaign V8 の既存の **フォルダー** 階層モデルにマッピングされます。 [ 詳しくは、フォルダー管理を参照してください ](../../v8/start/folder-permissions.md)
+Adobe Campaign Standardでは、同様のアクセス制御を維持するために、**Organization uni** t が Campaign V8 の既存の **フォルダー** 階層モデルにマッピングされます。 [ 詳しくは、フォルダー管理を参照してください ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
 |---------|----------|---------|
@@ -73,7 +73,7 @@ Adobe Campaign Standardでは、同様のアクセス制御を維持するため
 
 Campaign V8 では、**プログラム** は **フォルダー** として表されます。 Campaign V8 では、フォルダーを作成でき、フォルダーへのアクセスを制限できます。
 
-**グループ** および **ネームド権限** を使用すると、**オペレーター** にナビゲーション階層内の特定の **フォルダー** へのアクセス権を付与し、読み取り、書き込みおよび削除の権限を割り当てることができます。 [ 詳しくは、フォルダー管理を参照してください ](../../v8/start/folder-permissions.md)
+**グループ** および **ネームド権限** を使用すると、**オペレーター** にナビゲーション階層内の特定の **フォルダー** へのアクセス権を付与し、読み取り、書き込みおよび削除の権限を割り当てることができます。 [ 詳しくは、フォルダー管理を参照してください ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 **プログラム** は Campaign V8 では **フォルダー** として扱われるので、そのアクセスは他のフォルダーと同じように管理できます。 移行後、Campaign Standard管理者は次の手順に従うことができます。
 
