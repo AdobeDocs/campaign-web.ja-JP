@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
+source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
 workflow-type: tm+mt
-source-wordcount: '2212'
-ht-degree: 100%
+source-wordcount: '2227'
+ht-degree: 99%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 100%
 >* 多くの値を持つフィールドの場合、最初の 20 個の値のみが表示されます。このような場合、**[!UICONTROL 部分読み込み]**&#x200B;という警告通知が表示されます。
 >
 >* 「**[!UICONTROL 値の配分]**」オプションは、すべての属性ピッカーでアクセスできます。
+>* **[!A詳細フィルター]** を使用すると、結果に条件を追加できます。 [詳しくは、こちらを参照してください](../get-started/work-with-folders.md#filter-the-values)。
 
 ## フィルタリングコンポーネントの追加 {#filtering}
 

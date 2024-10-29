@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 99%
+source-wordcount: '769'
+ht-degree: 98%
 
 ---
 
@@ -65,6 +65,11 @@ ht-degree: 99%
       + [ダイレクトメール配信の作成](direct-mail/create-direct-mail.md)
       + [抽出ファイルの設計](direct-mail/content-direct-mail.md)
       + [ダイレクトメール配信のプレビューと送信](direct-mail/send-direct-mail.md)
+   + トランザクションメッセージ {#transactional-messages}
+      + [トランザクションメッセージの基本を学ぶ](transactional-messaging/transactional.md)
+      + [トランザクションメッセージの作成](transactional-messaging/create-transactional.md)
+      + [トランザクションメッセージの検証](transactional-messaging/validate-transactional.md)
+      + [トランザクションメッセージの監視](transactional-messaging/monitor-transactional.md)
    + [メッセージへのオファーの追加](msg/offers.md)
    + [サブスクライバーへのメッセージの送信](msg/send-to-subscribers.md)
    + [配信設定の指定](advanced-settings/delivery-settings.md)
@@ -218,4 +223,5 @@ ht-degree: 99%
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
 + 設定 {#conf}
    + [カスタムフィールドの設定](administration/custom-fields.md)
+   + [外部アカウントの設定](administration/external-account.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

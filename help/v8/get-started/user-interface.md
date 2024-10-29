@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
-workflow-type: ht
-source-wordcount: '1762'
-ht-degree: 100%
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+workflow-type: tm+mt
+source-wordcount: '1766'
+ht-degree: 94%
 
 ---
 
@@ -112,6 +112,17 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 ### レポート {#left-nav-reporting}
 
 * **レポート** - **レポート**&#x200B;エントリでは、Campaign 環境内の各チャネルのトラフィックとエンゲージメント指標の統合された全体的な概要が提供されます。これらのレポートは様々なウィジェットで構成され、それぞれがキャンペーンや配信パフォーマンスに関する明確な観点を提供します。詳しくは、[こちら](../reporting/global-reports.md)を参照してください。
+
+### 管理 {#left-nav-admin}
+
+
+* **監査記録** - **監査記録** エントリを使用すると、ユーザーは、インスタンス内の重要なエンティティ（通常はインスタンスのスムーズな操作に大きな影響を与えるエンティティ）に加えられたすべての変更を完全に可視化できます。 [詳細情報](../reporting/audit-trail.md)
+
+* **外部アカウント** - Web ユーザーインターフェイスを使用して新しい外部アカウントを作成し、特定のニーズを満たし、シームレスなデータ転送を確実に行います。 [詳細情報](../administration/external-account.md)
+
+* **スキーマ** - カスタムフィールドは、Adobe Campaign コンソールを通じて標準スキーマに追加される追加の属性です。 [詳細情報](../administration/custom-fields.md)
+
+* **配信アラート** – 配信アラートは、ユーザーのグループが配信実行に関する情報を含んだメール通知を自動的に受信できるアラート管理システムです。 [詳細情報](../msg/delivery-alerting.md)
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -321,77 +332,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
 
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="トランザクションメッセージ"
->abstract="トランザクションメッセージ"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="トランザクションメッセージのプロパティ"
->abstract="トランザクションメッセージのプロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="トランザクションメッセージのメールプロパティ"
->abstract="トランザクションメッセージのメールプロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="トランザクションメッセージの SMS プロパティ"
->abstract="トランザクションメッセージの SMS プロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="トランザクションメッセージのプッシュプロパティ"
->abstract="トランザクションメッセージのプッシュプロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="トランザクションメッセージのモバイルアプリ"
->abstract="トランザクションメッセージのモバイルアプリ"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="トランザクションメッセージのイベント"
->abstract="トランザクションメッセージのイベント"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="トランザクションメッセージのコンテキスト"
->abstract="トランザクションメッセージのコンテキスト"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="トランザクションメッセージのコンテンツ"
->abstract="トランザクションメッセージのコンテンツ"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="トランザクションメッセージのパーソナライズ機能"
->abstract="トランザクションメッセージのパーソナライズ機能"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="トランザクションメッセージの除外ログ"
->abstract="トランザクションメッセージの除外ログ"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="トランザクションメッセージのコンテキスト"
->abstract="トランザクションメッセージのコンテキスト"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="トランザクションメッセージのイベント履歴"
->abstract="トランザクションメッセージのイベント履歴"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="トランザクションメッセージのイベント履歴プレビュー"
->abstract="トランザクションメッセージのイベント履歴プレビュー"
 
 <!--about-->
 

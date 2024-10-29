@@ -3,10 +3,10 @@ audience: end-user
 title: フォルダーの操作
 description: Adobe Campaign でフォルダーを管理する方法について説明します
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >title="フォルダーのスケジュール"
 >abstract="フォルダーのスケジュール"
 
-## フォルダーについて
+## フォルダーについて {#about-folders}
 
 フォルダーは、コンポーネントとデータを整理できる Adobe Campaign のオブジェクトです。
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 フォルダータイプを設定できます。例：配信のフォルダー。
 フォルダーのアイコンは、このタイプに応じて変わります。
 
-## 新しいフォルダーの作成
+## 新しいフォルダーの作成 {#create-a-folder}
 
 Adobe Campaign web UI で新しいフォルダーを作成するには、次の手順に従います。
 
@@ -52,8 +52,7 @@ Adobe Campaign web UI で新しいフォルダーを作成するには、次の�
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-新しいフォルダーを作成すると、デフォルトでは、フォルダータイプはフォルダーの親のタイプになります。
-この例では、**[!UICONTROL 配信]**&#x200B;フォルダー内にフォルダーを作成します。
+新しいフォルダーを作成する場合、デフォルトでは、フォルダータイプはフォルダーの親のタイプになります。 この例では、**[!UICONTROL 配信]**&#x200B;フォルダー内にフォルダーを作成します。
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,7 @@ Adobe Campaign web UI で新しいフォルダーを作成するには、次の�
 
 また、[Adobe Campaign コンソールでフォルダーを作成および管理](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views)することもできます。
 
-## フォルダーの削除
+## フォルダーの削除 {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +106,11 @@ Adobe Campaign web UI で新しいフォルダーを作成するには、次の�
 ![](assets/values_link.png){zoomable="yes"}
 
 クエリモデラーで値の配分を表示することもできます。[詳しくは、こちらを参照してください](../query/build-query.md#distribution-of-values-in-a-query)。
+
+### 値のフィルタリング {#filter-values}
+
+「値の配分」ウィンドウで **[!UICONTROL 詳細フィルター]** を使用すると、指定した条件に基づいて結果をフィルタリングできます。
+
+上記の配信リストの例では、チャネルごとの配信数を表示していますが、例えば、これをフィルタリングして、ステータスが **完了** の配信のみを表示することができます。
+
+![](assets/values_filter.png){zoomable="yes"}
