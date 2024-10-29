@@ -3,10 +3,10 @@ title: ランディングページ固有のコンテンツの定義
 description: Campaign web でランディングページ固有のコンテンツを設計する方法について説明します
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -145,7 +145,9 @@ ht-degree: 100%
 >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
 ランディングページの送信後に確認メッセージを自動的に送信するには、次の手順に従います。
+
 1. 「**[!UICONTROL コールトゥアクション]**」セクションで、「**[!UICONTROL 確認メールを送信]**」オプションをオンにします。
+
 1. 関連するドロップダウンリストで、送信する必要があるトランザクションメッセージテンプレートを選択します。
 
 ![](assets/lp-confirmation.png){zoomable="yes"}

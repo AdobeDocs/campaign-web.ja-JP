@@ -3,10 +3,10 @@ title: 管理者と開発者向けの Adobe Campaign v8 の基本を学びます
 description: このチュートリアルでは、Campaign v8 の主な管理機能とデータ管理機能の概要について説明します。Campaign Standard から Campaign v8 に移行する管理者とテクニカルマーケターを対象としています。
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
-workflow-type: ht
-source-wordcount: '2666'
-ht-degree: 100%
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+workflow-type: tm+mt
+source-wordcount: '2657'
+ht-degree: 99%
 
 ---
 
@@ -229,9 +229,9 @@ Campaign Standard と同様に、Adobe Campaign v8 を使用すると、メー�
 
 管理者は、Campaign の外部アカウントの設定と維持を担当します。Campaign Standard と同様に、外部アカウントは、テクニカルワークフローやキャンペーンワークフローなどの技術プロセスで使用されます。
 
-Campaign v8 への移行プロセスでは、既存の Campaign Standard の外部アカウントが処理され、クライアントコンソールで使用できるようになります。
+Campaign v8 への移行プロセスでは、既存のCampaign Standard外部アカウントが処理されます。
 
-詳しくは、[外部アカウントの設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/external-accounts){target="_blank"}を参照してください。
+詳しくは、[ 外部アカウントドキュメント ](../../v8/administration/external-account.md) を参照してください。
 
 
 <!--

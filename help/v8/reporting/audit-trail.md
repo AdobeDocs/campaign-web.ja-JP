@@ -4,9 +4,9 @@ title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
-workflow-type: ht
-source-wordcount: '582'
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+workflow-type: tm+mt
+source-wordcount: '581'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Adobe Campaign web ユーザーインターフェイスで、**[!UICONTROL 監�
 
 * **外部アカウント**&#x200B;では、テクニカルワークフローやキャンペーンワークフローなどの技術的プロセスで使用される Campaign V8 の外部アカウントに対して行った変更を確認できます。
 
-  外部アカウントについて詳しくは、この[ページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/external-accounts)を参照してください。
+  外部アカウントについて詳しくは、この[ページ](../administration/external-account.md)を参照してください。
 
 * **配信マッピング**&#x200B;では、Campaign V8 内のアクティビティと配信マッピングに対して行った最新の変更とを監視できます。
 

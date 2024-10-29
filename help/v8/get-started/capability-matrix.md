@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign web ユーザーインターフェイス／クライアントコンソール機能マトリックス
 description: Campaign web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2141'
-ht-degree: 100%
+source-wordcount: '2075'
+ht-degree: 99%
 
 ---
 
@@ -68,15 +68,17 @@ Campaign クライアントコンソールまたは Adobe Experience Platform �
 
 [Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html?lang=ja#import-jobs){target="_blank"}で説明されている 1 回限りの読み込み／書き出しジョブは、Campaign Web ユーザーインターフェイスでは使用できません。<!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
-## トランザクションメッセージ {#mc-capabilities}
+<!--
+## Transactional messaging {#mc-capabilities}
 
-Message Center 製品パッケージに付属のトランザクションメッセージ機能は、現在、新しい Campaign Web ユーザーインターフェイスでは使用できません。
+Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=ja){target="_blank"}を参照し、次のようなリアルタイムメッセージ機能の詳細を確認してください。
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
-* メール、SMS およびプッシュに関するリアルタイムメッセージオーサリングと実行
-* メッセージのエンリッチメントとパーソナライゼーション
-* トランザクションメッセージングに関するレポートと監視
+* Realtime message authoring and execution on email, SMS and push
+* Message enrichment and personalization
+* Reporting and monitoring on transactional messaging
+-->
 
 ## コンテンツデザイン {#content-capabilities}
 
@@ -155,7 +157,7 @@ Campaign web ユーザーインターフェイスは、次の機能を表示し�
 
 ### 外部アカウント {#external}
 
-Adobe Campaign には、外部システムと接続する事前定義済みの外部アカウントのセットが付属します。Campaign システム管理者は、クライアントコンソールからのみ外部アカウントを作成および管理できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html?lang=ja){target="_blank"}
+Adobe Campaign には、外部システムと接続する事前定義済みの外部アカウントのセットが付属します。Campaign システム管理者は、外部アカウントを作成および管理できます。 [詳細情報](../administration/external-account.md)
 
 ### スキーマの作成と拡張 {#schema}
 
