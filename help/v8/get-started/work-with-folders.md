@@ -3,10 +3,10 @@ audience: end-user
 title: フォルダーの操作
 description: Adobe Campaign でフォルダーを管理する方法について説明します
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 04e1e4af70bc1d47ed1545459b73d72de5df4b8b
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 86%
+source-wordcount: '574'
+ht-degree: 79%
 
 ---
 
@@ -65,6 +65,20 @@ Adobe Campaign web UI で新しいフォルダーを作成するには、次の�
 特定のタイプのないフォルダーを作成する場合は、「**[!UICONTROL 汎用フォルダー]**」タイプを選択します。
 
 また、[Adobe Campaign コンソールでフォルダーを作成および管理](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/configuration/folders-and-views)することもできます。
+
+
+## フォルダーを並べ替え {#reorder-folders}
+
+必要に応じて、フォルダーを並べ替えることができます。 これを行うには、以下に示すように、**[!UICONTROL フォルダーの並べ替え]** をクリックします。
+
+この例では、フォルダー **配信** には 4 つのフォルダーが含まれています。
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+フォルダーの順序は、**ドラッグ&amp;ドロップ** または **上下の矢印** を使用して変更できます。
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
 
 ## フォルダーの削除 {#delete-a-folder}
 

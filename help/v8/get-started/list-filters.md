@@ -3,10 +3,10 @@ audience: end-user
 title: リストの参照とフィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法の確認
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '260'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 0%
 ![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 **列を設定**&#x200B;画面で、列の追加または削除や表示順序の変更を行うことができます。
+
+リストの順序は、次に示すように、**ドラッグ&amp;ドロップ** または **上下の矢印** を使用して変更できます。
+
+![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 例えば、次の設定の場合：
 
