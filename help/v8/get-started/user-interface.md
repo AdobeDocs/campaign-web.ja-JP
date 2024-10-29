@@ -3,10 +3,10 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
+source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 94%
+source-wordcount: '2011'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,6 @@ ht-degree: 94%
 新しい Adobe Campaign Web インターフェイスは、マーケティングキャンペーンのデザインと配信を簡素化する、最新の直感的なユーザーエクスペリエンスを提供します。この新しいインターフェイスは、Adobe Experience Cloud のアプリおよびソリューションと統合されています。
 
 Adobe Campaign に接続する方法と、Experience Cloud ナビゲーションの基本については、[この記事](connect-to-campaign.md)を参照してください。
-
 
 >[!NOTE]
 >
@@ -39,6 +38,46 @@ Campaign ホームページでは、主要リソース、指標、コンポー�
 **最近使用したもの**&#x200B;リストには、最近作成および変更した配信へのショートカットが一覧表示されます。このリストには、チャネル、ステータス、所有者、作成日、変更日が表示されます。さらに配信を読み込むには、**詳細を表示**&#x200B;リンクをクリックします。
 
 また、ホームページの「**ラーニング**」セクションから、Adobe Campaign Web の主要ヘルプページにアクセスすることができます。
+
+### リンクについて {#user-interface-about}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="ページについて"
+>abstract="「概要」ページには、Adobe Campaign インスタンスの詳細が表示されます"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="インスタンスについて"
+>abstract="「インスタンス」セクションには、バージョンと関連するビルド番号の両方を含む、コンソールクライアントに関する主要な情報が表示されます"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="Web について"
+>abstract="「Web」セクションには、Campaign web ユーザーインターフェイスのバージョンと、最終更新日（使用可能な場合）が表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="インストール済みパッケージについて"
+>abstract="「インストール済みパッケージ」セクションには、インスタンスに存在するすべてのモジュール、機能、統合が一覧表示されます。"
+
+ページ下部の **[!UICONTROL バージョン情報]** リンクには、Adobe Campaign インスタンスの詳細が表示されます。 これらの情報は読み取り専用モードです。
+
+![](assets/about-link.png){zoomable="yes"}
+
+「**インスタンス**」セクションには、**バージョン** および関連する **ビルド** 番号の両方を含む、コンソールクライアントに関する主要な情報が表示されます。
+
+* **バージョン** は、使用している公式リリースバージョンを指します。
+* **ビルド** は、そのバージョンの特定のイテレーションを参照します。
+
+バージョン番号とビルド番号はどちらも、環境に存在する機能と修正を正確に判断するのに役立つので、トラブルシューティングには重要です。
+
+「**Web**」セクションには、Campaign Web ユーザーインターフェイスのバージョンと、最終更新日（使用可能な場合）が表示されます。 これは、Campaign web ユーザーインターフェイスに対して行われた変更や改善を追跡するのに役立ちます。
+
+「**インストール済みパッケージ**」セクションには、インスタンスに存在するすべてのモジュール、機能、統合が一覧表示されます。 これらのパッケージはAdobe Campaignの機能を拡張し、他のワークフローソリューションとの統合や特定のAdobeの有効化など、特殊なタスクを実行できるようにします。 多数のパッケージがある場合は、このセクションを調べて、特定のモジュールがインスタンスにインストールされているかどうかを簡単に確認できます。
+
+![](assets/about.png){zoomable="yes"}
 
 ## 左側のナビゲーションメニュー {#user-interface-left-nav}
 
@@ -331,30 +370,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="カスタム属性を編集"
 
 
-
-
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="詳細"
->abstract="詳細"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="インスタンスについて"
->abstract="インスタンスについて"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="Web について"
->abstract="Web について"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="パッケージについて"
->abstract="パッケージについて"
 
 <!--Schema-->
 
