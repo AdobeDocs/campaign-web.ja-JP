@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
+source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 44%
+source-wordcount: '407'
+ht-degree: 42%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 44%
 
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
 
-## 10 月リリース {#24-10-release}
+以前のリリースで利用可能な変更および改善点は、[ このページ ](release-notes-24.md) に記載されています。
+
+## 2024 年 10 月リリース {#24-10-release}
 
 **リリース日**: 2024 年 10 月 29 日（PT）
 
