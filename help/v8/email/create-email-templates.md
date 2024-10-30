@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 93%
 
 ---
 
@@ -47,6 +47,17 @@ ht-degree: 100%
 
 リストから、既存のコンテンツテンプレートを編集、複製または削除できます。コンテンツテンプレートを作成するには、上部のセクションにあるボタンを使用します。
 
+### 読み取り専用モードのコンテンツテンプレート {#template-readonly}
+
+アクセス権限はコンテンツテンプレートに適用できます。
+
+特定のコンテンツテンプレートの編集権限がない場合、そのコンテンツテンプレートは **読み取り専用モード** で表示されます。 この場合、「**[!UICONTROL コンテンツを編集]**」ボタンは「**[!UICONTROL コンテンツを表示]**」ボタンに置き換えられ、変更を加えることなくテンプレートを表示できます。
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+以下に示すように、すべての機能アイコンが非アクティブ化され、インタラクションは表示のみに制限されます。
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## コンテンツテンプレートの作成 {#create-content-templates}
 

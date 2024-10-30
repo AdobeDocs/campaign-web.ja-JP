@@ -4,10 +4,10 @@ title: メールへのビジュアルフラグメントの追加
 description: ビジュアルフラグメントをメールに追加する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '577'
+ht-degree: 87%
 
 ---
 
@@ -68,6 +68,18 @@ ht-degree: 100%
    また、コンテンツからフラグメントを削除したり、複製したりすることもできます。これらのアクションは、フラグメントの上部に表示されるコンテキストメニューから直接実行できます。
 
 1. 必要な数のビジュアルフラグメントを追加し、変更を&#x200B;**[!UICONTROL 保存]**&#x200B;します。
+
+### 読み取り専用モードのビジュアルフラグメント {#fragment-readonly}
+
+アクセス権はビジュアルフラグメントに適用できます。
+
+特定のビジュアルフラグメントに対する編集権限がない場合、コンテンツテンプレートは **読み取り専用モード** で表示されます。 この場合、「**[!UICONTROL コンテンツを編集]** ボタンは「**[!UICONTROL コンテンツを表示]** ボタンに置き換えられ、変更を加えることなくフラグメントを表示できます。
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+以下に示すように、すべての機能アイコンが非アクティブ化され、インタラクションは表示のみに制限されます。
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## 継承を解除 {#break-inheritance}
 
