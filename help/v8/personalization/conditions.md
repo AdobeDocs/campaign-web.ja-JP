@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 100%
+source-wordcount: '1011'
+ht-degree: 91%
 
 ---
 
@@ -116,3 +116,20 @@ ht-degree: 100%
 
    >[!NOTE]
    >メッセージの送信時にバリアントで定義されたルールのいずれも満たされない場合、コンテンツコンポーネントには、**[!UICONTROL 条件付きコンテンツ]**&#x200B;パネルの&#x200B;**[!UICONTROL デフォルトバリアント]**&#x200B;で定義されたコンテンツが表示されます。
+
+## 条件付きコンテンツへの変数の使用 {#variables-conditional}
+
+変数は、配信の条件付きコンテンツに使用できます。
+
+詳しくは、[ 配信への変数の追加 ](../advanced-settings/delivery-settings.md#variables-delivery) を参照してください。
+
+条件付きコンテンツを配置する要素を選択します。
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+変数を使用するには、以下に示すように、「**[!UICONTROL 式を編集]** ボタンを使用して条件を設定します。
+この例では、変数の値が `launch` の場合に、この画像が表示されます。
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+別の画像が表示される場合など、値 `reminder` を使用して別のバリアントを作成することもできます。

@@ -6,19 +6,27 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '580'
+ht-degree: 68%
 
 ---
 
 
 # コンテンツのパーソナライズ {#add-personalization}
 
-式エディターを使用して、任意の配信をパーソナライズできます。式エディターには、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンのある各フィールド（件名行、メールリンク、テキスト/ボタンのコンテンツコンポーネントなど）からアクセスできます。[式エディターにアクセスする方法を学ぶ](gs-personalization.md/#access)
+配信コンテンツのPersonalizationは、個々の受信者に合わせてメッセージをカスタマイズして、コミュニケーションをより関連性の高い魅力的なものにするための主な機能です。
 
-## パーソナライゼーション構文 {#syntax}
+Adobe Campaignでは、プロファイルの名前、場所、過去のインタラクションなどの [ プロファイルデータ ](#data-personalization) や、特定の [ 配信の変数 ](#variables-personalization) を使用することで、コミュニケーションのテキスト、画像、オファーなどの要素を動的にカスタマイズできます。
+
+配信のパーソナライゼーションは、ユーザーエクスペリエンスを向上させるだけでなく、エンゲージメント率を向上させ、コンバージョン率と顧客満足度の向上につながります。
+
+## パーソナライゼーションへのプロファイルデータの使用 {#data-personalization}
+
+式エディターを使用して、プロファイルデータを使用して任意の配信をパーソナライズできます。式エディターには、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンのある各フィールド（件名行、メールリンク、テキスト/ボタンのコンテンツコンポーネントなど）からアクセスできます。 [式エディターにアクセスする方法を学ぶ](gs-personalization.md/#access)
+
+### パーソナライゼーション構文 {#syntax}
 
 パーソナライゼーションタグは、次の特定の構文 `<%= table.field %>` に従います。例えば、受信者テーブルから受信者の姓を挿入するには、`<%= recipient.lastName %>` 構文を使用します。
 
@@ -26,7 +34,7 @@ ht-degree: 100%
 
 スタンドアロンのメール配信用に外部ファイルから連絡先をアップロードする場合、入力ファイル内のすべてのフィールドをパーソナライズに使用できます。構文は次のようになります。`<%= dataSource.field %>`
 
-## パーソナライゼーションタグを追加 {#add}
+### パーソナライゼーションタグを追加 {#add}
 
 配信にパーソナライゼーションタグを追加するには、次の手順に従います。
 
@@ -56,3 +64,20 @@ ht-degree: 100%
    ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## パーソナライゼーションに対する変数の使用 {#variables-personalization}
+
+変数を使用して配信をパーソナライズすることもできます。
+詳しくは、[ 配信への変数の追加 ](../advanced-settings/delivery-settings.md#variables-delivery) を参照してください。
+
+例えば、変数 `deliveryType` を以下のように定義したとします。
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+この例に示すように、「**[!UICONTROL Personalizationを追加]**」アイコンと式 `<%= variables.deliveryType %>` を使用して、配信のコンテンツでこの変数を使用できます。
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+変数の使用状況は、「**[!UICONTROL コンテンツをシミュレート]**」ボタンで確認できます。
+
+![](assets/variables-simulate.png){zoomable="yes"}
