@@ -2,16 +2,68 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2024 Campaign web ユーザーインターフェイスリリース
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
 workflow-type: tm+mt
-source-wordcount: '1869'
-ht-degree: 100%
+source-wordcount: '2206'
+ht-degree: 98%
 
 ---
 
 # 2024 リリースノート {#2024-release}
 
 このページには、**2024 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートについては、[このページ](release-notes.md)を参照してください。
+
+
+## 9月の更新 {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>AI アシスタントコンテンツアクセラレータ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メッセージを作成してカスタマイズしたら、Adobe Campaign Web の AI アシスタントコンテンツアクセラレーターを使用して次のレベルに進めます。 この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
+<p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>は、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
+<p>詳しくは、<a href="../email/generative-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>公開日：9月12日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+## 8 月リリース {#24-8-release}
+
+**リリース日**：2024年9月3日（PT）
+
+次の機能と改善点は、8月のリリース以降使用できます。
+
+* **SMTP パラメーター** - メール配信設定で SMTP 設定が使用できるようになりました。[詳細情報](../advanced-settings/delivery-settings.md#smtp)
+
+* **グローバル変数** - グローバル変数を定義して、配信の値を定義できるようになりました。[詳細情報](../advanced-settings/delivery-settings.md#variables-delivery)
+
+### 限定提供の新機能 {#acs-24-8}
+
+>[!AVAILABILITY]
+>
+>次の機能は、限定提供（LA）です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
+>
+>ドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)および [Campaign Standard ユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"}を参照してください。
+
+* **ダイレクトメールのブランディング** - 技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできるようになりました。こうした設定はテンプレートで管理されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/branding/branding-assign)
+
+* **ランディングページによるサブスクリプション** - ランディングページをサービスにリンクして、ユーザーが検証する際に確認メッセージを送信できるようになりました。[詳細情報](../landing-pages/lp-content.md#lp-message){target="_blank"}。
+
+* **ビジュアルフラグメント** - ビジュアルコンテンツフラグメントをアーカイブできるようになりました。[詳細情報](../content/create-fragment.md#archive)
+
+* **ランディングページの Captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。[詳細情報](../landing-pages/create-lp.md#captcha)
+
+<!--
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
+
 
 ## 7月リリースノート {#24-7-release}
 
