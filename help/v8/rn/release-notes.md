@@ -2,9 +2,9 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a6713f451112fb5af7895f34ea4e938857c013ac
+source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 42%
 
 ---
@@ -91,3 +91,5 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 * **バージョンおよびシステム情報** - クライアントコンソールと web ユーザーインターフェイスの両方で、インスタンスバージョンに関する詳細にアクセスできるようになりました。 この新しい節では、環境にインストールされているすべてのビルトインパッケージも示します。 [詳細情報](../get-started/user-interface.md#user-interface-about)
 
 * **リスト** - リストの値を簡単に並べ替えることができるようになりました。 [詳細情報](../get-started/work-with-folders.md)
+
+* **配信** – 配信変数にパーソナライゼーションフィールドからアクセスできるようになりました。 [詳細情報](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
