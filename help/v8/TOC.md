@@ -113,7 +113,7 @@ ht-degree: 98%
          + [垂直方向の整列とパディングを調整](email/alignment-and-padding.md)
          + [リンクのスタイルの定義](email/styling-links.md)
          + [インラインスタイル属性を追加する](email/inline-styling.md)
-   + AI Assistant Content Accelerator {#ai-assistant}
+   + AI アシスタントコンテンツアクセラレータ {#ai-assistant}
       + [AI アシスタントコンテンツアクセラレータの操作](email/generative-gs.md)
       + [AI を使用したメール生成](email/generative-content.md)
       + [AI を使用した SMS 生成](email/generative-sms.md)
