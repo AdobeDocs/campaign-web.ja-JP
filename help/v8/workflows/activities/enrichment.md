@@ -6,7 +6,7 @@ exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
@@ -136,12 +136,12 @@ ht-degree: 82%
 
 ![](../assets/enrichment-reconciliation.png)
 
-## オファーを追加 {#add-offers}
+## オファーの追加 {#add-offers}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
 >title="オファーの提案"
->abstract="エンリッチメント アクティビティを使用すると、各プロファイルのオファーを追加できます。"
+>abstract="エンリッチメントアクティビティを使用すると、各プロファイルのオファーを追加できます。"
 
 **[!UICONTROL エンリッチメント]** アクティビティを使用すると、各プロファイルのオファーを追加できます。
 

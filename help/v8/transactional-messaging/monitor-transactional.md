@@ -5,7 +5,7 @@ description: Campaign web ユーザーインターフェイスでトランザク
 source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -41,12 +41,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="トランザクションメッセージのイベント履歴"
->abstract="トランザクションメッセージをトリガーするイベントに関するビューを作成できます。"
+>abstract="トランザクションメッセージをトリガーするイベントに関するビューを表示できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
 >title="トランザクションメッセージのイベント履歴プレビュー"
->abstract="トランザクションメッセージをトリガーするイベントに関するビューを作成できます。"
+>abstract="トランザクションメッセージをトリガーするイベントに関するビューを表示できます。"
 
 また、トランザクションメッセージをトリガーするイベントに関するビューも作成できます。
 それらを表示するには、**[!UICONTROL イベント履歴]** セクションに進みます。

@@ -5,7 +5,7 @@ description: Adobe Campaign Web でのトランザクションメッセージに
 source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages"
 >title="トランザクションメッセージ"
->abstract="トランザクションメッセージは、Adobe Campaignの特殊なモジュールで、トリガーメッセージを処理するために設計されています。"
+>abstract="トランザクションメッセージは、トリガー済みメッセージを処理するために設計された Adobe Campaign の特殊なモジュールです。"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
