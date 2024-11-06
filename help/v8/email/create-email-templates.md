@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 93%
 
 ### 読み取り専用モードのコンテンツテンプレート {#template-readonly}
 
-アクセス権限はコンテンツテンプレートに適用できます。
+アクセス権はコンテンツテンプレートに適用される場合があります。
 
-特定のコンテンツテンプレートの編集権限がない場合、そのコンテンツテンプレートは **読み取り専用モード** で表示されます。 この場合、「**[!UICONTROL コンテンツを編集]**」ボタンは「**[!UICONTROL コンテンツを表示]**」ボタンに置き換えられ、変更を加えることなくテンプレートを表示できます。
+特定のコンテンツテンプレートの編集権限がない場合、そのコンテンツテンプレートは&#x200B;**読み取り専用モード**&#x200B;で表示されます。この場合、「**[!UICONTROL コンテンツを編集]**」ボタンは「**[!UICONTROL コンテンツを表示]**」ボタンに置き換えられ、変更を加えずにテンプレートを表示できます。
 
 ![](assets/template-readonly.png){zoomable="yes"}
 

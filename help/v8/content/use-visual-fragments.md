@@ -5,9 +5,9 @@ description: ビジュアルフラグメントをメールに追加する方法�
 badge: label="限定提供（LA）"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -71,9 +71,9 @@ ht-degree: 87%
 
 ### 読み取り専用モードのビジュアルフラグメント {#fragment-readonly}
 
-アクセス権はビジュアルフラグメントに適用できます。
+アクセス権はビジュアルフラグメントに適用される場合があります。
 
-特定のビジュアルフラグメントに対する編集権限がない場合、コンテンツテンプレートは **読み取り専用モード** で表示されます。 この場合、「**[!UICONTROL コンテンツを編集]** ボタンは「**[!UICONTROL コンテンツを表示]** ボタンに置き換えられ、変更を加えることなくフラグメントを表示できます。
+特定のビジュアルフラグメントに対する編集権限がない場合、コンテンツテンプレートは&#x200B;**読み取り専用モード**&#x200B;で表示されます。この場合、「**[!UICONTROL コンテンツを編集]**」ボタンは「**[!UICONTROL コンテンツを表示]**」ボタンに置き換えられ、変更を加えずにフラグメントを表示できます。
 
 ![](assets/fragment-readonly.png){zoomable="yes"}
 

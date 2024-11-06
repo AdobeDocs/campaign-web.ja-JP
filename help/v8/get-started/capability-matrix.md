@@ -4,9 +4,9 @@ title: Campaign web ユーザーインターフェイス／クライアントコ
 description: Campaign web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2075'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Campaign web ユーザーインターフェイスは、次の機能を表示し�
 
 ### 外部アカウント {#external}
 
-Adobe Campaign には、外部システムと接続する事前定義済みの外部アカウントのセットが付属します。Campaign システム管理者は、外部アカウントを作成および管理できます。 [詳細情報](../administration/external-account.md)
+Adobe Campaign には、外部システムと接続する事前定義済みの外部アカウントのセットが付属します。Campaign システム管理者は、外部アカウントを作成および管理できます。[詳細情報](../administration/external-account.md)
 
 ### スキーマの作成と拡張 {#schema}
 

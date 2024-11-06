@@ -4,9 +4,9 @@ description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 >[!BEGINTABS]
 
 
->[!TAB 2024 年 10 月リリース ]
+>[!TAB 2024年10月リリース]
 
-10 月リリースがリリースされ、トランザクションメッセージ、外部アカウントなどの改善が含まれるようになりました。
+トランザクションメッセージ、外部アカウント、その他の機能強化を含む 10月リリースが公開されました。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

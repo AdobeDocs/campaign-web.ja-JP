@@ -4,9 +4,9 @@ description: Campaign web でランディングページ固有のコンテンツ
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1226'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

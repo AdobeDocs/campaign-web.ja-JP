@@ -5,9 +5,9 @@ description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2888'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -352,8 +352,8 @@ ht-degree: 98%
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-「**[!UICONTROL 変数を追加]**」ボタンをクリックして、変数の詳細を入力します。 その値を直接追加するか、チェックボックスをオンにして値に式を使用できます **[!UICONTROL 値は式の結果です]**。 次に、「**[!UICONTROL 確認]**」をクリックして変更を保存します。
+「**[!UICONTROL 変数を追加]**」ボタンをクリックして、変数の詳細を入力します。その値を直接追加することも、チェックボックスをオンにすることで値に式を使用することもできます。**[!UICONTROL 値は式の結果です]**。次に、「**[!UICONTROL 確認]**」をクリックして変更を保存します。
 
 ![](assets/variables-add.png){zoomable="yes"}
 
-[ パーソナライゼーションへの変数の使用 ](../personalization/personalize.md#variables-personalization) および [ 動的コンテンツへの変数の使用 ](../personalization/conditions.md#variables-conditional) について詳しく説明します。
+[パーソナライゼーションに変数を使用](../personalization/personalize.md#variables-personalization)と[動的コンテンツに変数を使用](../personalization/conditions.md#variables-conditional)について詳しく説明します。
