@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
-workflow-type: ht
-source-wordcount: '2011'
+source-git-commit: e0954fa620d336c2e450638780f1f2fe673249f2
+workflow-type: tm+mt
+source-wordcount: '2023'
 ht-degree: 100%
 
 ---
@@ -361,14 +361,34 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="実行初期化スクリプト"
 >abstract="実行初期化スクリプト"
 
-<!-- IDs -->
+<!-- Schema edit custom fields -->
 
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="カスタム属性を編集"
->abstract="カスタム属性を編集"
+>title="カスタム詳細を編集"
+>abstract="カスタム詳細を編集"
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="区切り記号のプロパティ"
+>abstract="区切り記号のプロパティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="属性設定"
+>abstract="属性設定"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="一般"
+>abstract="一般"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="レイアウト"
+>abstract="レイアウト"
 
 
 <!--Schema-->
