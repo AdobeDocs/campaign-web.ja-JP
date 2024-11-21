@@ -1,10 +1,11 @@
 ---
 title: 外部アカウント
 description: 外部アカウントの設定方法について説明します
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="外部アカウント"
->abstract="追加のプラットフォームに接続したり、ワークフローに合わせて接続をカスタマイズしたりできるようになりました。また、特定のニーズに合わせて新しい外部アカウントを簡単に作成し、シームレスなデータ転送を確実に行うことができます。"
+>abstract="追加のプラットフォームに接続することや、ワークフローに合わせる接続をカスタマイズすることができるようになりました。また、特定のニーズを満たす新しい外部アカウントを簡単に作成することと、シームレスなデータ転送を確実に行うことができるようになりました。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 
