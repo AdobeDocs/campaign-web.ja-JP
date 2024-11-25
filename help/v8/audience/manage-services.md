@@ -3,10 +3,10 @@ audience: end-user
 title: 購読サービスの操作
 description: Adobe Campaign Web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Web を使用すると、ニュースレターなどのサービ�
 
 お使いのプラットフォームで利用可能な購読サービスにアクセスするには、次の手順に従います。
 
-1. 左側のナビゲーションパネルの&#x200B;**[!UICONTROL 購読サービス]**&#x200B;メニューを参照します。
+1. 左側のナビゲーションレールの **[!UICONTROL 顧客管理]** の下にある **[!UICONTROL 購読サービス]** メニューを参照します。
 
    ![](assets/service-list.png){zoomable="yes"}
 

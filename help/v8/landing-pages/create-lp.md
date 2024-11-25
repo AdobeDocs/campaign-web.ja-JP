@@ -3,10 +3,10 @@ title: ランディングページの作成
 description: Campaign web でランディングページを設定して公開する方法について説明します
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 865978dd8083723187a90647060f8758d4d888be
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 100%
+source-wordcount: '1629'
+ht-degree: 97%
 
 ---
 
@@ -23,11 +23,15 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
-ランディングページリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
+ランディングページのリストにアクセスするには、左のメニューから **[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]** を選択します。
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-**[!UICONTROL ランディングページ]**&#x200B;インベントリには、作成したすべての項目が表示されます。「**[!UICONTROL フィルターを表示]**」ボタンを使用してフィルタリングできます。ドロップダウンリストを使用して結果を特定の[フォルダー](../get-started/permissions.md#folders)に制限したり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
+**[!UICONTROL ランディングページ]**&#x200B;インベントリには、作成したすべての項目が表示されます。「**[!UICONTROL フィルターを表示]** ボタンを使用してフィルタリングできます。
+
+* 自分が作成または変更した項目に基づいてフィルターを適用できます。
+
+* ドロップダウンリストを使用して結果を特定の[フォルダー](../get-started/permissions.md#folders)に制限したり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 
