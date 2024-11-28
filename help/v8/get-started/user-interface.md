@@ -6,7 +6,7 @@ exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
 workflow-type: tm+mt
 source-wordcount: '2027'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -366,18 +366,18 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="カスタム詳細を編集"
->abstract="カスタム詳細を編集"
+>title="カスタム詳細の編集"
+>abstract="カスタム詳細の編集"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_separatorproperties"
->title="区切り記号のプロパティ"
->abstract="区切り記号のプロパティ"
+>title="区切り記号プロパティ"
+>abstract="区切り記号プロパティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
->title="属性設定"
->abstract="属性設定"
+>title="属性の設定"
+>abstract="属性の設定"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_general"
@@ -387,7 +387,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_link"
 >title="リンクプロパティ"
->abstract="LaLink プロパティのログアウト"
+>abstract="リンクプロパティのレイアウト"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings_layout"
