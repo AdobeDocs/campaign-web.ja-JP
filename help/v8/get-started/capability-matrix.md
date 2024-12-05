@@ -4,9 +4,9 @@ title: Campaign web ユーザーインターフェイス／クライアントコ
 description: Campaign web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
 source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Campaign web ユーザーインターフェイスを使用すれば、[この節
 * **マーケティングカレンダー**。キャンペーンカレンダーには、すべてのプログラム、プラン、キャンペーンおよび配信がグローバルタイムラインで表示されます。この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#campaign-calendar){target="_blank"}
 * **プログラムとプラン**。各キャンペーンは 1 つのプログラムに属し、プログラムはプランに属します。Campaign web ユーザーインターフェイスでは、すべてのキャンペーンがデフォルトの組み込みプランおよびプログラムに関連付けられます。クライアントコンソールで作成および管理できるのは、プランとプログラムのみです。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#work-with-plan-and-program){target="_blank"}
 * **プロバイダー、予算およびコストの管理**。キャンペーン内で実行されるジョブに関係するサービスプロバイダー（コスト構造など）を設定し、各プログラムとキャンペーン内の予算を管理できます。この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=ja){target="_blank"}
-* **分散型マーケティング**（セントラル／ローカルマーケティング）Adobe Campaignが提供する分散型マーケティングアプリでは、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域代理店など）の間で協調キャンペーンを実施できます。 この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}
+* **分散型マーケティング**（セントラル／ローカルマーケティング）Adobe Campaign では、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域のエージェントなど）が協調キャンペーンを展開できる、分散型マーケティングアプリを活用できます。この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}
 * **マーケティングリソース管理**（MRM）、目標、シミュレーションおよびコスト管理また、Adobe Campaign では、マーケティングリソース管理（MRM）アプリを活用して、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ja){target="_blank"}
 * **タスク管理** MRM アプリの一部として、キャンペーンダッシュボードから Campaign タスクを作成、割り当て、トラッキングおよび監視できます。この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=ja){target="_blank"}
 

@@ -4,9 +4,9 @@ description: Campaign web でランディングページを設定して公開す
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1629'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 ## ランディングページへのアクセス {#access-landing-pages}
 
-ランディングページのリストにアクセスするには、左のメニューから **[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]** を選択します。
+ランディングページリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-**[!UICONTROL ランディングページ]**&#x200B;インベントリには、作成したすべての項目が表示されます。「**[!UICONTROL フィルターを表示]** ボタンを使用してフィルタリングできます。
+**[!UICONTROL ランディングページ]**&#x200B;インベントリには、作成したすべての項目が表示されます。「**[!UICONTROL フィルターを表示]**」ボタンを使用してフィルタリングできます。
 
-* 自分が作成または変更した項目に基づいてフィルターを適用できます。
+* 作成または変更した項目をフィルタリングできます。
 
 * ドロップダウンリストを使用して結果を特定の[フォルダー](../get-started/permissions.md#folders)に制限したり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
 
