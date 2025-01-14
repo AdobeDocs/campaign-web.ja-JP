@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 23930d4fb665db1b67dbb07d1b1cffb4e38bdaff
+source-git-commit: ef4b74d601431f7113d06f705c676930c59cb4d6
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2108'
 ht-degree: 98%
 
 ---
@@ -519,3 +519,35 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="定義済みリストの値のリスト"
 >abstract="定義済みリストの値のリスト"
+
+<!-- Typology rules -->
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules"
+>title="ビジネスルール"
+>abstract="ビジネスルール"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_properties"
+>title="ルールセットのプロパティ"
+>abstract="ルールセットのプロパティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_set_ip_affinity"
+>title="IP アフィニティ"
+>abstract="IP アフィニティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_properties"
+>title="ルールプロパティ"
+>abstract="ルールプロパティ"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_filtering"
+>title="フィルタリング"
+>abstract="フィルタリング"
+
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_rule_code"
+>title="コード"
+>abstract="コード"
