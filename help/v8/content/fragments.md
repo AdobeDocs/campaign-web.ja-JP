@@ -3,10 +3,10 @@ audience: end-user
 title: コンテンツフラグメントの基本を学ぶ
 description: コンテンツフラグメントの作成方法について説明します
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 100%
 >id="acw_fragments_menu"
 >title="独自のコンテンツフラグメントの定義"
 >abstract="コンテンツフラグメントは、キャンペーン全体で 1 つ以上のメッセージで参照できる再利用可能なコンポーネントです。この機能を使用すると、マーケティングユーザーが改善されたデザインプロセスでコンテンツを迅速に組み立てるために使用できる複数のカスタムコンテンツブロックを事前に作成できます。コンテンツフラグメントには、E メールデザイナーで使用できるビジュアルフラグメントと、式エディターで使用できる式フラグメントの 2 つのタイプがあります。"
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_fragments"
+>title="式フラグメントの追加"
+>abstract="式フラグメントは、配信に挿入できる特定のレンダリングを含んだ、事前定義済みのコンテンツブロックです。 例えば、ロゴ、挨拶メッセージまたはメッセージのミラーページへのリンクを追加できます。また、ニーズに合わせて独自の式フラグメントを作成することもできます。"
 
 ## コンテンツフラグメントとは {#what}
 

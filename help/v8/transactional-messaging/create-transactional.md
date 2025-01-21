@@ -2,10 +2,11 @@
 audience: end-user
 title: トランザクションメッセージの作成
 description: Campaign web ユーザーインターフェイスでトランザクションメッセージを作成する方法について説明します。
-source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
-workflow-type: ht
-source-wordcount: '1189'
-ht-degree: 100%
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 98%
 
 ---
 
@@ -116,6 +117,11 @@ Campaign web ユーザーインターフェイスでは、トランザクショ�
 >id="acw_transacmessages_personalization"
 >title="トランザクションメッセージのパーソナライゼーション"
 >abstract="トランザクションメッセージのコンテンツのパーソナライズ方法について説明します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_event_context"
+>title="イベントコンテキスト"
+>abstract="このメニューには、トランザクションメッセージのコンテンツをパーソナライズするために利用できる、トリガーイベントの変数が用意されています。"
 
 トランザクションメッセージのコンテンツの操作は、配信のコンテンツ作成に似ています。「**[!UICONTROL E メールデザイナーを開く]**」または「**[!UICONTROL メール本文を編集]**」をクリックし、テンプレートのコンテンツを選択するか、HTML コードをインポートします。
 
