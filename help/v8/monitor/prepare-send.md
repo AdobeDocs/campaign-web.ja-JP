@@ -3,10 +3,10 @@ audience: end-user
 title: メールの準備と送信
 description: Campaign web ユーザーインターフェイスでのメールの準備と送信方法を学ぶ
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 99%
+source-wordcount: '889'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 配信の準備中に、ターゲット母集団が計算され、ターゲットに含まれるプロファイルごとのメッセージコンテンツが生成されます。準備が完了したら、メッセージは、すぐに送信、またはスケジュールされた日時に送信できる状態になります。
 
-配信の準備時に使用される検証ルールについては、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}を参照してください。
+配信の準備時に使用される検証ルールについては、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=ja){target="_blank"}を参照してください。
 
 送信を準備する主な手順を以下に示します。
 
@@ -136,14 +136,14 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
->title="送信済み指標"
+>title="送信済み"
 >abstract="配信の分析中に処理されたメッセージの合計数。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/reports/kpis" text="KPI について"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
->title="エラー指標"
+>title="エラー"
 >abstract="送信されたメッセージの合計数に対して、配信と自動返信処理の間に累積したエラーの合計数。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/reports/kpis" text="KPI について"
 
