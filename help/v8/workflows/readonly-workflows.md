@@ -3,10 +3,10 @@ audience: end-user
 title: 読み取り専用ワークフローについて
 description: ワークフローが読み取り専用モードである理由について説明します
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 一部のワークフローは、読み取り専用モードになっている場合があります。次を使用して確認できます。
 
-- 「**[!UICONTROL 設定]**」ボタンの近くにある「**[!UICONTROL **&#x200B;読み取り専用&#x200B;**]**」という記載
+- 「**[!UICONTROL 設定]**」ボタンの近くにある「**[!UICONTROL 読み取り専用]**」という記載
 - アクセスできないアクションボタン
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
