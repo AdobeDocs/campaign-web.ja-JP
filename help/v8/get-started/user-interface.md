@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7c96605fc4a9fb21692f219ceaf9067c27a9902e
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2086'
 ht-degree: 98%
 
 ---
@@ -519,35 +519,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_enumerations_values"
 >title="定義済みリストの値のリスト"
 >abstract="定義済みリストの値のリスト"
-
-<!-- Typology rules -->
-
->[!CONTEXTUALHELP]
->id="acw_business_rules"
->title="ビジネスルール"
->abstract="ビジネスルール"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_properties"
->title="タイポロジプロパティ"
->abstract="ルールセットのプロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_ip_affinity"
->title="IP アフィニティ"
->abstract="IP アドレスを使用したアフィニティの管理では、配信アクションのタイポロジに応じてトラフィックのタイプごとに異なる IP アドレスを関連付けることで、送信 SMTP トラフィックをよりコントロールすることができます。"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_properties"
->title="タイポロジルールのプロパティ"
->abstract="ルールプロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_filtering"
->title="フィルタリング"
->abstract="フィルタリング"
-
->[!CONTEXTUALHELP]
->id="acw_business_rules_typology_rules_code"
->title="コード"
->abstract="コード"

@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
-workflow-type: ht
-source-wordcount: '773'
-ht-degree: 100%
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 99%
 
 ---
 
@@ -39,6 +39,7 @@ ht-degree: 100%
    + [配信へのアクセス](msg/gs-deliveries.md)
    + [配信を作成](msg/create-deliveries.md)
    + [配信テンプレートの使用](msg/delivery-template.md)
+   + [タイポロジの操作](msg/typologies.md)
    + メール {#email}
       + [最初のメールを作成](email/create-email.md)
       + [メールコンテンツの設定](email/edit-content.md)
