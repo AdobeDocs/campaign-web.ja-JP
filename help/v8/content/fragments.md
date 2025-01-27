@@ -4,9 +4,9 @@ title: コンテンツフラグメントの基本を学ぶ
 description: コンテンツフラグメントの作成方法について説明します
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="acw_personalization_editor_fragments"
 >title="式フラグメントの追加"
->abstract="式フラグメントは、配信に挿入できる特定のレンダリングを含んだ、事前定義済みのコンテンツブロックです。 例えば、ロゴ、挨拶メッセージまたはメッセージのミラーページへのリンクを追加できます。また、ニーズに合わせて独自の式フラグメントを作成することもできます。"
+>abstract="式フラグメントは、配信に挿入できる特定のレンダリングを含んだ定義済みのコンテンツブロックです。例えば、ロゴ、挨拶メッセージまたはメッセージのミラーページへのリンクを追加できます。また、ニーズに合わせて独自の式フラグメントを作成することもできます。"
 
 ## コンテンツフラグメントとは {#what}
 

@@ -1,18 +1,18 @@
 ---
 audience: end-user
 title: タイポロジの操作
-description: タイポロジとタイポロジルールを使用して、配信の送信を制御、フィルタリング、監視する方法を説明します。
+description: タイポロジとタイポロジルールを使用して、配信の送信を制御、フィルタリングおよび監視する方法について説明します。
 hidefromtoc: true
 hide: true
 robots: noindex
 googlebot: noindex
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: tm+mt
+exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
+source-git-commit: cd6424bb99ab150915889323b850273134d0d73e
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
-
 
 # タイポロジの操作 {#typologies}
 
@@ -24,7 +24,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_properties"
 >title="タイポロジプロパティ"
->abstract="ルールセットのプロパティ"
+>abstract="ルールセットプロパティ"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
@@ -33,7 +33,7 @@ ht-degree: 56%
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
->title="タイポロジルールのプロパティ"
+>title="タイポロジルールプロパティ"
 >abstract="ルールプロパティ"
 
 >[!CONTEXTUALHELP]

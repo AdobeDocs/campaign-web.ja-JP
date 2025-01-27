@@ -4,9 +4,9 @@ title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2086'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -459,8 +459,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
->title="ターゲットマッピング"
->abstract="ターゲットマッピング"
+>title="ターゲットマッピングマッピング"
+>abstract="ターゲットマッピングマッピング"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"
@@ -470,7 +470,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_storage"
 >title="ターゲットマッピングストレージ"
->abstract="ターゲットマッピングのストレージの拒否"
+>abstract="ターゲットマッピングブロックストレージ"
 
 <!-- Favorites & recents -->
 
