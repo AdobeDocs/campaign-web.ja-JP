@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 321fd5f5cb7940f8395f11cebb207548af6733d9
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 >abstract="テストプロファイルは、メッセージを送信する前にパーソナライゼーションとレンダリングをプレビューおよびテストできる追加の受信者です。メッセージコンテンツのプレビュー時にテストプロファイルを選択し、本配信前確認をテストプロファイルに送信して、メッセージのコンテンツと設定を制御および検証できます。"
 
 テストプロファイルは、本配信前確認の送信、メッセージのコンテンツと設定の検証に使用されます。これらのプロファイルは、メッセージを送信する前にパーソナライゼーションとレンダリングをプレビューおよびテストできる追加の受信者です。メッセージコンテンツのプレビュー時にテストプロファイルを選択し、本配信前確認をテストプロファイルに送信して、メッセージのコンテンツと設定を制御および検証できます。
+
+➡️ [この機能をビデオで確認](#video)
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
@@ -105,3 +107,9 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 作成したテストプロファイルを使用して本配信前確認を送信する準備が整いました。[詳細情報](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
+
+## チュートリアルビデオ {#video}
+
+Campaign web ユーザーインターフェイスを使用したテストプロファイルの作成および管理方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
