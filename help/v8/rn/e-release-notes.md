@@ -4,7 +4,7 @@ description: 次の Campaign web ユーザーインターフェイスリリー�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
+source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 31%
@@ -67,6 +67,7 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <tr>
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスでタイポロジとタイポロジルールを作成できるようになりました。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジは、配信が常に必須の要素（購読解除リンクや件名行など）を含んでいるか、または対象とするターゲットからグループ（非購読者、競合他社、非ロイヤルティ顧客など）を除外するフィルタリングルールを含んでいることを検証します。</p>
+<img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -83,6 +84,7 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <tr>
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスから直接列挙を作成できるようになりました。 列挙は、フィールドへの入力をシステムが推奨する値のリストです。 列挙を利用することでフィールドの値を統一することができ、データ入力時やクエリでの利用に便利です。</p>
+<img src="assets/do-not-localize/enumerations.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -99,6 +101,7 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <tr>
 <td>
 <p>Adobe Campaign web ユーザーインターフェイス内のテクニカルオプションにアクセスし、ニーズに合わせて独自のカスタムオプションを作成できるようになりました。 これは、JavaScript コードワークフローアクティビティを使用して中間データを保存する場合に特に便利です。</p>
+<img src="assets/do-not-localize/options.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -116,6 +119,7 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <tr>
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスでJavaScript コードを作成できるようになりました。 これにより、ライブラリと同様に、ワークフロー全体で利用できる再利用可能な関数を作成できます。</p>
+<img src="assets/do-not-localize/javascript.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
