@@ -4,10 +4,10 @@ description: 次の Campaign web ユーザーインターフェイスリリー�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 31%
+source-wordcount: '511'
+ht-degree: 21%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <tbody>
 <tr>
 <td>
-<p>Campaign web ユーザーインターフェイスで、外部配信と外部配信テンプレートを定義できるようになりました。 このモードでは、外部プロバイダーと共有できる入力ファイルにメッセージを生成できます。外部配信モードは、ダイレクトメールチャネルのデフォルトモードです。</p>
+<p>Campaign web インターフェイスで、外部配信と外部配信テンプレートを定義できるようになりました。 このモードでは、メッセージは入力ファイルにコンパイルされ、外部プロバイダーと共有できます。 デフォルトでは、ダイレクトメールチャネルに外部配信モードが使用されます。</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <table>
 <thead>
 <tr>
-<th><strong>タイポロジを使用した配信送信の制御とフィルタリング</strong><br/></th>
+<th><strong>ビジネスルールの作成（タイポロジルール）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Campaign web ユーザーインターフェイスでタイポロジとタイポロジルールを作成できるようになりました。 タイポロジとは、配信状況を制御、フィルター、および優先順位付けするタイポロジルールの集まりです。タイポロジは、配信が常に必須の要素（購読解除リンクや件名行など）を含んでいるか、または対象とするターゲットからグループ（非購読者、競合他社、非ロイヤルティ顧客など）を除外するフィルタリングルールを含んでいることを検証します。</p>
+<p>Adobe Campaign web インターフェイスでタイポロジとタイポロジルールを作成できるようになりました。 タイポロジは、配信の制御、フィルタリングおよび優先順位付けに役立つタイポロジルールのコレクションです。 タイポロジを使用すると、配信には必ず必要な要素（登録解除リンクや件名行など）が含まれ、フィルタリングルールを適用してターゲットオーディエンスから特定のグループ（非購読者、競合他社、非ロイヤルティ顧客など）を除外できます。</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
