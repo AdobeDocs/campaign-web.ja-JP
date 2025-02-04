@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
-workflow-type: ht
-source-wordcount: '776'
+source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+workflow-type: tm+mt
+source-wordcount: '777'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 100%
    + [Campaign web およびクライアントコンソール](get-started/capability-matrix.md)
    + [Campaign Standard から v8 へ](rn/acs-migration.md)
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
+   + [FAQ](get-started/faq.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
    + [配信へのアクセス](msg/gs-deliveries.md)
