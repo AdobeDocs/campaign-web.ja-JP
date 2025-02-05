@@ -2,9 +2,9 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '663'
 ht-degree: 85%
 
 ---
@@ -74,7 +74,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <td>
 <p>Adobe Campaign web インターフェイスでタイポロジとタイポロジルールを作成できるようになりました。タイポロジとは、配信の制御、フィルタリング、および優先順位付けに役立つタイポロジルールのコレクションです。タイポロジは、配信に常に必須の要素（登録解除リンクや件名行など）を含め、フィルタリングルールを適用し、ターゲットオーディエンスから特定のグループ（登録解除者、競合他社、非ロイヤルティ顧客など）を除外できるようにします。</p>
 <img src="assets/do-not-localize/typology.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../administration/typologies.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスから列挙を直接作成できるようになりました。 列挙とは、フィールドへの入力候補としてシステムによって表示される値のリストです。列挙を利用することでフィールドの値を統一することができ、データ入力時やクエリでの利用に便利です。</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../administration/enumerations.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <td>
 <p>Adobe Campaign web ユーザーインターフェイス内のテクニカルオプションにアクセスし、ニーズに合わせて独自のカスタムオプションを作成できるようになりました。これは、JavaScript コードワークフローアクティビティを使用して中間データを保存する際に特に便利です。</p>
 <img src="assets/do-not-localize/options.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../administration/options.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -126,7 +126,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスで JavaScript コードを作成できるようになりました。これにより、ライブラリと同様に、ワークフロー全体で利用できる再利用可能な関数を作成できます。</p>
 <img src="assets/do-not-localize/javascript.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../administration/javascript-codes.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
