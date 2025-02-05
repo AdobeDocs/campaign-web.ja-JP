@@ -1,16 +1,15 @@
 ---
-title: 外部アカウント
+title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
-workflow-type: ht
-source-wordcount: '565'
-ht-degree: 100%
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 51%
 
 ---
 
-# 外部アカウントの設定 {#external-accounts}
-
+# 外部アカウントの管理 {#external-accounts}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
@@ -18,17 +17,16 @@ ht-degree: 100%
 >abstract="追加のプラットフォームに接続することや、ワークフローに合わせる接続をカスタマイズすることができるようになりました。また、特定のニーズを満たす新しい外部アカウントを簡単に作成することと、シームレスなデータ転送を確実に行うことができるようになりました。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
-
 >[!AVAILABILITY]
 >
-> 外部アカウントは現在、バウンスメール（POP3）と実行インスタンスでのみ使用でき、今後は他のアカウントタイプも追加される予定です。
+> 外部アカウントは、現在、バウンスメール（POP3）、ルーティング、実行インスタンスでのみ使用でき、今後追加されるアカウントタイプを備えていることに注意してください。
 > Adobe Campaign コンソールで作成された、サポートされていない外部アカウントは、web ユーザーインターフェイスに表示されますが、編集やアクセスはできません。
 
 Adobe Campaign には、様々なシステムと簡単に統合できる事前定義済みの外部アカウントのセットが付属します。追加のプラットフォームに接続したり、ワークフローに合わせて接続をカスタマイズしたりする必要がある場合は、web ユーザーインターフェイスを使用して新しい外部アカウントを容易に作成して、固有のニーズを満たし、シームレスなデータ転送を確実に行えるようになりました。
 
 ## 外部アカウントの作成 {#create-ext-account}
 
-新しい外部アカウントを作成するには、次の手順に従います。詳細な設定は、外部アカウントのタイプによって異なります。
+新しい外部アカウントを作成するには、次の手順に従います。詳細な設定は、外部アカウントのタイプによって異なります。 [詳細情報](#campaign-specific)
 
 1. 左側のパネルメニューから、**[!UICONTROL 管理]**&#x200B;の下にある「**[!UICONTROL 外部アカウント]**」を選択します。
 
@@ -36,23 +34,29 @@ Adobe Campaign には、様々なシステムと簡単に統合できる事前�
 
    ![](assets/external_account_create_1.png)
 
-1. **[!UICONTROL ラベル]**&#x200B;を入力し、外部アカウントの&#x200B;**[!UICONTROL タイプ]**&#x200B;を選択します。
+1. **[!UICONTROL ラベル]** を入力し、外部アカウント **[!UICONTROL タイプ]** を選択します。
+
+   >[!NOTE]
+   >
+   >Campaign 固有のタイプの設定について詳しくは、[ この節 ](#campaign-specific) を参照してください。
 
    ![](assets/external_account_create_2.png)
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. **[!UICONTROL 詳細オプション]**&#x200B;ドロップダウンから、必要に応じて、**[!UICONTROL 内部名]**&#x200B;または&#x200B;**[!UICONTROL フォルダー]**&#x200B;のパスを変更できます。
+1. **[!UICONTROL その他のオプション]** ドロップダウンから、必要に応じて **[!UICONTROL 内部名]** または **[!UICONTROL フォルダー]** パスを変更できます。
 
    ![](assets/external_account_create_3.png)
 
-1. この外部アカウントによって管理されているデータを自動的にエクスポートする場合は、「**[!UICONTROL 自動的にエクスポート]**」を有効にします。
+1. この外部アカウントで管理されるデータを自動的に書き出す場合は、「**[!UICONTROL パッケージで自動的に書き出す]** オプションを有効にします。<!--Exported where??-->
 
-1. 選択した外部アカウントタイプに応じて資格情報を指定し、アカウントへのアクセスを設定します。
+   ![](assets/external_account_create_exported.png)
 
-1. 「**[!UICONTROL 接続をテスト]**」をクリックして、設定が正しいことを確認します。
+1. 「**[!UICONTROL 詳細]**」セクションでは、選択した外部アカウントタイプに応じて資格情報を指定して、アカウントへのアクセスを設定します。 [詳細情報](#bounce)
 
-1. **[!UICONTROL 詳細…]**&#x200B;メニューから、外部アカウントを複製または削除します。
+1. **[!UICONTROL 接続をテスト]** をクリックして、設定が正しいことを確認します。
+
+1. **[!UICONTROL その他…]** メニューから、外部アカウントの複製または削除を行うことができます。
 
    ![](assets/external_account_create_4.png)
 
@@ -60,48 +64,65 @@ Adobe Campaign には、様々なシステムと簡単に統合できる事前�
 
 ## Campaign 固有の外部アカウント {#campaign-specific}
 
+選択した外部アカウントタイプに応じて、次の手順に従ってアカウント設定を指定します。
+
 ### バウンスメール（POP3） {#bounce}
 
 >[!AVAILABILITY]
 >
 > OAuth 2.0 は現在サポートされていません。
 
-バウンスメール外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールを受信できます。
+バウンスメール外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。 POP3 アクセス用に設定されたすべてのサーバーは、返信メールを受信できます。
 
 ![](assets/external_account_bounce.png)
 
-**[!UICONTROL バウンスメール（POP3）]**&#x200B;外部アカウントを設定するには：
+**[!UICONTROL バウンスメール（POP3）]** 外部アカウントを設定するには、次のフィールドに入力します。
 
-* **[!UICONTROL サーバー]**
+* **[!UICONTROL Server]** - POP3 サーバーの URL
 
-  POP3 サーバーの URL
+* **[!UICONTROL ポート]** - POP3 接続のポート番号（デフォルトポートは 110）
 
-* **[!UICONTROL ポート]**
+* **[!UICONTROL アカウント]** - ユーザーの名前
 
-  POP3 接続ポート番号（デフォルトポートは 110）
+* **[!UICONTROL パスワード]** - ユーザーアカウントのパスワード
 
-* **[!UICONTROL アカウント]**
-
-  ユーザーの名前
-
-* **[!UICONTROL パスワード]**
-
-  ユーザーアカウントのパスワード
-
-* **[!UICONTROL 暗号化]**
-
-  次の間で選択した暗号化のタイプ：
+* **[!UICONTROL 暗号化]** – 選択した暗号化のタイプ。
 
    * デフォルト (ポート 110 の場合は POP3、ポート 995 の場合は POP3S)
    * STARTTLS の送信後に SSL に切り替える POP3
    * 非セキュアな POP3（デフォルトポート 110）
    * SSL による POP3 セキュア（デフォルトポート 995）
 
-* **[!UICONTROL 関数]**
+* **[!UICONTROL 関数]** – 受信メール、またはSOAP ルーターを受信するように外部アカウントが設定されている場合、SOAP リクエストを処理するための受信メール。
 
-  外部アカウントが受信メールを受信するように設定されている場合のインバウンドメール、または SOAP リクエストを処理するための SOAP ルーター。
+### ルーティング {#routing}
 
-### 実行インスタンス{#instance-exec}
+外部配信で使用する特定の外部アカウントを設定するには、次の手順に従います。
+
+1. 外部アカウントを作成します。 [詳細情報](../administration/external-account.md#create-ext-account)
+
+1. **[!UICONTROL ルーティング]** タイプを選択します。
+
+   ![](assets/external-account-routing.png){zoomable="yes"}
+
+1. 目的のチャネルを選択し、「**[!UICONTROL 作成]**」をクリックします。
+
+1. 外部アカウント **[!UICONTROL 詳細]** セクションでは、**[!UICONTROL 配信モード]** として **[!UICONTROL 外部]** がデフォルトで選択されています。
+
+   ![](assets/external-account-delivery-mode.png){zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >現在 **[!UICONTROL 外部]** は使用可能な唯一のモードです。
+
+1. 配信の実行後のプロセスを処理するために、これを後処理ワークフローに外部化できます。 これを行うには、「[ 外部シグナル ](../workflows/activities/external-signal.md)」アクティビティでワークフローを作成し、「**[!UICONTROL 後処理]**」フィールドから選択する必要があります。
+
+   ![](assets/external-account-post-processing.png){zoomable="yes"}
+
+1. 「**[!UICONTROL アクティビティ]**」フィールドで、ログに表示される後処理ワークフローアクティビティの名前を編集できます。<!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
+
+
+### 実行インスタンス {#instance-exec}
 
 セグメント化されたアーキテクチャを使用している場合は、コントロールインスタンスに関連付けられた実行インスタンスを識別し、それらの間の接続を確立する必要があります。トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
 
