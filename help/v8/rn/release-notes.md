@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 85%
 
 ---
 
@@ -20,25 +20,95 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 以前のリリースで利用可能な変更と改善点については、[このページ](release-notes-24.md)を参照してください。
 
-## 2024年10月リリース {#24-10-release}
+## 2025年1月リリース {#25-1-release}
 
-**リリース日**：2024年10月29日（PT）
+**リリース日**：2025年2月5日（PT）
 
-次の機能と改善点は、10月のリリース以降使用できます。
+次の機能と改善点は、1月のリリース以降使用できます。
 
-### 機能
+### 機能 {#25-1-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>外部アカウント</strong><br/></th>
+<th><strong>ビジュアルフラグメントの作成と使用</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Campaign web ユーザーインターフェイスを通じて外部アカウントを直接設定および管理できるようになりました。この新機能により、バウンスメール（POP3）や実行インスタンスなど、様々なタイプの外部アカウントを簡単に設定できます。</p>
-<p>詳しくは、<a href="../administration/external-account.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ビジュアルフラグメントは、複数のメール配信やコンテンツテンプレートをまたいで再利用できる、定義済みのビジュアルブロックです。この機能を、サーバービルド 8.6.4 以降を実行しているすべてのお客様が使用できるようになりました。</p>
+<img src="assets/do-not-localize/visual-fragment.gif">
+<p>詳しくは、<a href="../content/use-visual-fragments.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>サードパーティシステムを使用した配信の送信</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign web インターフェイスで外部配信と外部配信テンプレートを定義できるようになりました。このモードでは、メッセージは出力ファイルにコンパイルされ、外部プロバイダーと共有できます。 デフォルトでは、ダイレクトメールチャネルには外部配信モードが使用されます。</p>
+<img src="assets/do-not-localize/external-delivery.gif">
+<p>詳しくは、<a href="../msg/send-external-deliveries.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ビジネスルール（タイポロジルール）の作成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign web インターフェイスでタイポロジとタイポロジルールを作成できるようになりました。タイポロジとは、配信の制御、フィルタリング、および優先順位付けに役立つタイポロジルールのコレクションです。タイポロジは、配信に常に必須の要素（登録解除リンクや件名行など）を含め、フィルタリングルールを適用し、ターゲットオーディエンスから特定のグループ（登録解除者、競合他社、非ロイヤルティ顧客など）を除外できるようにします。</p>
+<img src="assets/do-not-localize/typology.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>列挙の管理</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign web ユーザーインターフェイスから列挙を直接作成できるようになりました。 列挙とは、フィールドへの入力候補としてシステムによって表示される値のリストです。列挙を利用することでフィールドの値を統一することができ、データ入力時やクエリでの利用に便利です。</p>
+<img src="assets/do-not-localize/enumerations.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>カスタムオプションの作成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign web ユーザーインターフェイス内のテクニカルオプションにアクセスし、ニーズに合わせて独自のカスタムオプションを作成できるようになりました。これは、JavaScript コードワークフローアクティビティを使用して中間データを保存する際に特に便利です。</p>
+<img src="assets/do-not-localize/options.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -48,48 +118,49 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <table>
 <thead>
 <tr>
-<th><strong>トランザクションメッセージ</strong><br/></th>
+<th><strong>Javascript コードの定義と呼び出し</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>トランザクションメッセージ（Message Center）が Campaign web ユーザーインターフェイスで使用できるようになりました。このアドオンは、情報システムからトリガーされたイベントから生成されるメッセージをトリガーする目的で設計され、請求書、注文確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などが含まれます。</p>
-<p>詳しくは、<a href="../transactional-messaging/transactional.md">詳細なドキュメント</a>を参照してください。</p>
+<p>Adobe Campaign web ユーザーインターフェイスで JavaScript コードを作成できるようになりました。これにより、ライブラリと同様に、ワークフロー全体で利用できる再利用可能な関数を作成できます。</p>
+<img src="assets/do-not-localize/javascript.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+
+<table>
 <thead>
 <tr>
-<th><strong>External deliveries</strong><br/></th>
+<th><strong>AI Assistant コンテンツアクセラレーターによるランディングページ生成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+<p>ランディングページ配信で AI アシスタントコンテンツアクセラレーターが使用できるようになり、テキストや画像を生成したり、完全なページレイアウトを作成できるようになりました。</p>
+<p>AI アシスタント コンテンツ アクセラレータの詳細については、<a href="../email/generative-gs.md"> 詳細ドキュメント </a> を参照してください。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-### 改善点
 
-* **ワークフローアクティビティ** - アクティビティとそのすべての子ノードをワークフロー内のトランジションから別のトランジションに移動できるようになりました。これを実行するには、アクティビティのプロパティパネルにある専用の「**移動**」ボタンを使用できます。[詳細情報](../workflows/orchestrate-activities.md#move)
 
-* **ワークフローエンリッチメントアクティビティ**
+### 改善点 {#25-1-improvements}
 
-   * **エンリッチメント**&#x200B;アクティビティで新しいフィールドを作成する際に、エイリアスとラベルを定義できるようになりました。[詳細情報](../workflows/activities/enrichment.md#collection-settings)
-   * **エンリッチメント**&#x200B;アクティビティで各プロファイルに対してオファーを追加できるようになりました。[詳細情報](../workflows/activities/enrichment.md##add-offers)
+* インターフェイスでのカスタムフィールドの表示のカスタマイズ：
 
-* **値の配分** - パーソナライゼーション用のフィールドリストにアクセスすると、各フィールドに値がどのように配分されているかを確認できるようになりました。専用のポップアップウィンドウに、各値の数と割合が表示されます。[詳細情報](../query/build-query.md#distribution-values-query)
+   * インターフェイスに表示する追加のカスタムフィールドを選択できるようになりました
+   * リンクタイプのカスタムフィールドを表示するためのルールを設定できるようになりました（他のフィールドの入力に基づいてリスト値を制限するなど）
+   * インターフェイスのフィールドをより柔軟に並べ替えられるようになりました（フィールドの幅を 1 つの列全体に広げる、より適切に整理するためにサブセクションにグループ化する）
+   * 特定のフィールドを読み取り専用として設定できるようになりました
 
-* **バージョンおよびシステム情報** - クライアントコンソールと web ユーザーインターフェイスの両方で、インスタンスバージョンに関する詳細にアクセスできるようになりました。この新しいセクションには、環境にインストールされているすべてのビルトインパッケージも一覧表示されます。[詳細情報](../get-started/user-interface.md#user-interface-about)
+* 最近使用したフィルターとお気に入りフィルター：頻繁に使用する属性をすばやく再利用するために、お気に入りに追加できるようになりました。これにより、以降のタスクではすばやくアクセスできます。お気に入りに加えて、最近選択した属性を表示したり使用したりすることもできます。
 
-* **リスト** - リストの値を簡単に並べ替えることができるようになりました。[詳細情報](../get-started/work-with-folders.md)
-
-* **配信** - 配信変数にパーソナライゼーションフィールドからアクセスできるようになりました。[詳細情報](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* 外部アカウント：新しい外部アカウントを作成する際に、新しい **[!UICONTROL ルーティング]** タイプを選択できます。 外部配信で使用する特定の外部アカウントを設定できます。 [詳細情報](../administration/external-account.md#routing)

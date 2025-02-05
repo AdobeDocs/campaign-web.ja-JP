@@ -4,9 +4,9 @@ description: 次の Campaign web ユーザーインターフェイスリリー�
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
-workflow-type: ht
-source-wordcount: '511'
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '543'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <td>
 <p>Adobe Campaign web インターフェイスでタイポロジとタイポロジルールを作成できるようになりました。タイポロジとは、配信の制御、フィルタリング、および優先順位付けに役立つタイポロジルールのコレクションです。タイポロジは、配信に常に必須の要素（登録解除リンクや件名行など）を含め、フィルタリングルールを適用し、ターゲットオーディエンスから特定のグループ（登録解除者、競合他社、非ロイヤルティ顧客など）を除外できるようにします。</p>
 <img src="assets/do-not-localize/typology.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../administration/typologies.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -85,7 +85,7 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスから列挙を直接作成できるようになりました。 列挙とは、フィールドへの入力候補としてシステムによって表示される値のリストです。列挙を利用することでフィールドの値を統一することができ、データ入力時やクエリでの利用に便利です。</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../administration/enumerations.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -102,7 +102,7 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <td>
 <p>Adobe Campaign web ユーザーインターフェイス内のテクニカルオプションにアクセスし、ニーズに合わせて独自のカスタムオプションを作成できるようになりました。これは、JavaScript コードワークフローアクティビティを使用して中間データを保存する際に特に便利です。</p>
 <img src="assets/do-not-localize/options.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../administration/options.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -120,7 +120,7 @@ Adobe Campaign web ユーザーインターフェイスでは、新機能、既�
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスで JavaScript コードを作成できるようになりました。これにより、ライブラリと同様に、ワークフロー全体で利用できる再利用可能な関数を作成できます。</p>
 <img src="assets/do-not-localize/javascript.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../administration/javascript-codes.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

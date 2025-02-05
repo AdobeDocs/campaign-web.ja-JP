@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 + [Adobe Campaign web ユーザーインターフェイスドキュメント](campaign-web-home.md)
 + リリースノート {#release-notes}
    + [新機能](rn/whats-new.md)
-   + [早期リリースノート](rn/e-release-notes.md)
+   + [早期リリース](rn/e-release-notes.md)
    + [最新リリース](rn/release-notes.md)
    + 以前のリリース {#previous-release-notes}
       + [2024 リリース](rn/release-notes-24.md)
@@ -30,6 +30,7 @@ ht-degree: 100%
    + [リストの参照とフィルタリング](get-started/list-filters.md)
    + [定義済みフィルターの操作](get-started/predefined-filters.md)
    + [フォルダーの操作](get-started/work-with-folders.md)
+   + [属性を選択してお気に入りに追加](get-started/attributes.md)
    + [権限](get-started/permissions.md)
    + [Campaign web およびクライアントコンソール](get-started/capability-matrix.md)
    + [Campaign Standard から v8 へ](rn/acs-migration.md)
@@ -40,7 +41,6 @@ ht-degree: 100%
    + [配信へのアクセス](msg/gs-deliveries.md)
    + [配信を作成](msg/create-deliveries.md)
    + [配信テンプレートの使用](msg/delivery-template.md)
-   + [タイポロジの操作](msg/typologies.md)
    + メール {#email}
       + [最初のメールを作成](email/create-email.md)
       + [メールコンテンツの設定](email/edit-content.md)
@@ -72,6 +72,7 @@ ht-degree: 100%
       + [トランザクションメッセージの作成](transactional-messaging/create-transactional.md)
       + [トランザクションメッセージの検証](transactional-messaging/validate-transactional.md)
       + [トランザクションメッセージの監視](transactional-messaging/monitor-transactional.md)
+   + [外部配信の送信](msg/send-external-deliveries.md)
    + [メッセージへのオファーの追加](msg/offers.md)
    + [サブスクライバーへのメッセージの送信](msg/send-to-subscribers.md)
    + [配信設定の指定](advanced-settings/delivery-settings.md)
@@ -227,4 +228,8 @@ ht-degree: 100%
 + 設定 {#conf}
    + [カスタムフィールドの設定](administration/custom-fields.md)
    + [外部アカウントの設定](administration/external-account.md)
+   + [タイポロジの操作](administration/typologies.md)
+   + [列挙の管理](administration/enumerations.md)
+   + [Configure [!DNL Campaign] options](administration/options.md)
+   + [JavaScript コードの操作](administration/javascript-codes.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

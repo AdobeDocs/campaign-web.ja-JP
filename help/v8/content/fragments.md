@@ -3,10 +3,10 @@ audience: end-user
 title: コンテンツフラグメントの基本を学ぶ
 description: コンテンツフラグメントの作成方法について説明します
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
   >[!AVAILABILITY]
   >
-  >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
+  >この機能を使用するには、Campaign v8.6.4 を更新する必要があります。詳しくは、[Campaign v8 クライアントコンソールのリリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes) を参照してください。
 
 ## さらに深く掘り下げましょう
 

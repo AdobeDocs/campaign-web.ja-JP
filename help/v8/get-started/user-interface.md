@@ -3,9 +3,9 @@ audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2032'
 ht-degree: 100%
 
 ---
@@ -361,40 +361,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="実行初期化スクリプト"
 >abstract="実行初期化スクリプト"
 
-<!-- Schema edit custom fields -->
-
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields"
->title="カスタム詳細の編集"
->abstract="カスタム詳細の編集"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_separatorproperties"
->title="区切り記号プロパティ"
->abstract="区切り記号プロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings"
->title="属性の設定"
->abstract="属性の設定"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_general"
->title="一般"
->abstract="一般"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_link"
->title="リンクプロパティ"
->abstract="リンクプロパティのレイアウト"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_layout"
->title="レイアウト"
->abstract="レイアウト"
-
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -471,51 +437,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="ターゲットマッピングストレージ"
 >abstract="ターゲットマッピングブロックストレージ"
-
-<!-- Favorites & recents -->
-
->[!CONTEXTUALHELP]
->id="acw_attribute_picker_favorites_recents"
->title="お気に入りと最近使用したもの"
->abstract="お気に入りと最近使用したもの"
-
-<!-- Options -->
-
->[!CONTEXTUALHELP]
->id="acw_options_list"
->title="オプション"
->abstract="オプション"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="オプションを作成"
->abstract="オプションを作成"
-
-<!-- JavaScript codes -->
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_list"
->title="JavaScript コード"
->abstract="JavaScript コード"
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_create"
->title="JavaScript コードを作成"
->abstract="JavaScript コードを作成"
-
-<!-- Enumerations -->
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_list"
->title="列挙"
->abstract="列挙"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_properties"
->title="プロパティ"
->abstract="プロパティ"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_values"
->title="定義済みリストの値のリスト"
->abstract="定義済みリストの値のリスト"

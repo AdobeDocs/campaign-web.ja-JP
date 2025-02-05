@@ -3,10 +3,10 @@ audience: end-user
 title: コンテンツフラグメントの作成
 description: コンテンツフラグメントの作成方法について説明します
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1003'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
    >[!AVAILABILITY]
    >
-   >ビジュアルフラグメントは、限定提供（LA）です。これらは、**Adobe Campaign Standard から Adobe Campaign v8** に移行する顧客に限定されており、他の環境にデプロイすることはできません。
+   >ビジュアルフラグメントを使用するには、Campaign v8.6.4 に対するアップデートが必要です。詳しくは、[Campaign v8 クライアントコンソールのリリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes) を参照してください。
 
 1. 「**作成**」ボタンをクリックします。
 

@@ -2,9 +2,9 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2024 Campaign web ユーザーインターフェイスリリース
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 5dc96beadbd5ea02540185634971cef44357aefa
-workflow-type: ht
-source-wordcount: '2206'
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '2506'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,66 @@ ht-degree: 100%
 # 2024 リリースノート {#2024-release}
 
 このページには、**2024 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートについては、[このページ](release-notes.md)を参照してください。
+
+
+## 2024年10月リリース {#24-10-release}
+
+**リリース日**：2024年10月29日（PT）
+
+次の機能と改善点は、10月のリリース以降使用できます。
+
+### 機能
+
+<table>
+<thead>
+<tr>
+<th><strong>外部アカウント</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign web ユーザーインターフェイスを通じて外部アカウントを直接設定および管理できるようになりました。この新機能により、バウンスメール（POP3）や実行インスタンスなど、様々なタイプの外部アカウントを簡単に設定できます。</p>
+<p>詳しくは、<a href="../administration/external-account.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>トランザクションメッセージ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>トランザクションメッセージ（Message Center）が Campaign web ユーザーインターフェイスで使用できるようになりました。このアドオンは、情報システムからトリガーされたイベントから生成されるメッセージをトリガーする目的で設計され、請求書、注文確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などが含まれます。</p>
+<p>詳しくは、<a href="../transactional-messaging/transactional.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+### 改善点
+
+* **ワークフローアクティビティ** - アクティビティとそのすべての子ノードをワークフロー内のトランジションから別のトランジションに移動できるようになりました。これを実行するには、アクティビティのプロパティパネルにある専用の「**移動**」ボタンを使用できます。[詳細情報](../workflows/orchestrate-activities.md#move)
+
+* **ワークフローエンリッチメントアクティビティ**
+
+   * **エンリッチメント**&#x200B;アクティビティで新しいフィールドを作成する際に、エイリアスとラベルを定義できるようになりました。[詳細情報](../workflows/activities/enrichment.md#collection-settings)
+   * **エンリッチメント**&#x200B;アクティビティで各プロファイルに対してオファーを追加できるようになりました。[詳細情報](../workflows/activities/enrichment.md##add-offers)
+
+* **値の配分** - パーソナライゼーション用のフィールドリストにアクセスすると、各フィールドに値がどのように配分されているかを確認できるようになりました。専用のポップアップウィンドウに、各値の数と割合が表示されます。[詳細情報](../query/build-query.md#distribution-values-query)
+
+* **バージョンおよびシステム情報** - クライアントコンソールと web ユーザーインターフェイスの両方で、インスタンスバージョンに関する詳細にアクセスできるようになりました。この新しいセクションには、環境にインストールされているすべてのビルトインパッケージも一覧表示されます。[詳細情報](../get-started/user-interface.md#user-interface-about)
+
+* **リスト** - リストの値を簡単に並べ替えることができるようになりました。[詳細情報](../get-started/work-with-folders.md)
+
+* **配信** - 配信変数にパーソナライゼーションフィールドからアクセスできるようになりました。[詳細情報](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
 
 
 ## 9月の更新 {#9-2024}
@@ -183,7 +243,7 @@ Android 経由でリッチプッシュ通知を送信できるようになりま
 
 * **ブランディング** - Campaign Standard で移行したユーザーは、技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできます。こうした設定はテンプレートで管理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ja)
 
-* **Rest API** - Campaign Standard に移行したユーザーは、Rest API を使用して Adobe Campaign との統合を作成し、Adobe Campaign と使用するテクノロジーのパネルを連携させて独自のエコシステムを構築できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja)
+* **Rest API** - Campaign Standard で移行したユーザーは、Rest API を使用して Adobe Campaign の統合を作成し、使用するテクノロジーのパネルと Adobe Campaign をインターフェイスで接続することで独自のエコシステムを作成できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja)
 
 * **動的レポート** - Campaign Standard に移行したユーザーは、完全にカスタマイズ可能なリアルタイムのレポートを提供する、動的レポートにアクセスして、マーケティングアクティビティの影響を測定できます。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja)
 

@@ -4,10 +4,10 @@ title: メールへのビジュアルフラグメントの追加
 description: ビジュアルフラグメントをメールに追加する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
+>この機能を使用するには、Campaign v8.6.4 を更新する必要があります。詳しくは、[Campaign v8 クライアントコンソールのリリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes) を参照してください。
 
-ビジュアルフラグメントは、[メール配信](../email/get-started-email-designer.md)または[コンテンツテンプレート](../email/use-email-templates.md)で使用できます。手順については、以下で詳しく説明します。[詳しくは、コンテンツフラグメントの作成と管理方法を参照してください](fragments.md)。
+ビジュアルフラグメントは、[メール配信](../email/get-started-email-designer.md)または[コンテンツテンプレート](../email/use-email-templates.md)で使用できます。手順については、以下で詳しく説明します。
 
-![](assets/fragments.gif)
+![](assets/do-not-localize/fragments.gif)
+
+>[!NOTE]
+>
+>コンテンツフラグメントの作成および管理方法については、[ この節 ](fragments.md) を参照してください。
 
 ## ビジュアルフラグメントの使用 {#use-fragment}
 
