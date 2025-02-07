@@ -6,7 +6,7 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: 5b984089ea36b190cde1046c0d96734e848b5f67
 workflow-type: tm+mt
 source-wordcount: '1199'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 ## テキスト {#text}
 
-**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用すると、メールにテキストを挿入し、スタイル（境界線、サイズ、パディングなど）を「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブの使用。
+**[!UICONTROL テキスト]** コンポーネントを使用してメールにテキストを挿入し、「設定」タブと「**[!UICONTROL スタイル]**」タブを使用してスタイル **[!UICONTROL 境界線、サイズ、パディングなど]** を調整します。
 
 1. **[!UICONTROL コンテンツ]**&#x200B;メニューから、**[!UICONTROL テキスト]**&#x200B;を&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントにドラッグ＆ドロップします。
 

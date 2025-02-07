@@ -5,8 +5,8 @@ description: Adobe Campaign web でダイレクトメール配信をプレビュ
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 

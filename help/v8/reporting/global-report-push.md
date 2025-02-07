@@ -6,7 +6,7 @@ exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -81,9 +81,9 @@ ht-degree: 100%
 
 * **[!UICONTROL エラー数／バウンス数]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
 
-* **[!UICONTROL 新しい強制隔離]**：配信の失敗（無効な登録、メッセージ却下、ペイロードエラーなど）の後で強制隔離されたアドレスの合計数（割合は、配信されるメッセージの数に対する比率です）。
+* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（無効な登録、メッセージの却下、ペイロードエラーなど）、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
 
-  プッシュ通知のエラータイプについては、[Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"}を参照してください。
+  プッシュ通知のエラータイプについては、[Adobe Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"}を参照してください。
 
 +++
 

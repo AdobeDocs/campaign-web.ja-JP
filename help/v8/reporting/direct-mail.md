@@ -5,8 +5,8 @@ description: ダイレクトメールレポートへのアクセス方法と使�
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '658'
+ht-degree: 100%
 
 ---
 

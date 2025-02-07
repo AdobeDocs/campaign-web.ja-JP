@@ -3,13 +3,13 @@ title: 管理者と開発者向けの Adobe Campaign v8 の基本を学びます
 description: このチュートリアルでは、Campaign v8 の主な管理機能とデータ管理機能の概要について説明します。Campaign Standard から Campaign v8 に移行する管理者とテクニカルマーケターを対象としています。
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 99%
 
 ---
-
 
 # 管理者と開発者向けの基本を学ぶ {#acs-gs-admin}
 
@@ -305,4 +305,3 @@ Campaign Standard ユーザーが Campaign v8 に移行する場合は、次の�
 また、Campaign では、Adobe Experience Manager 6.5 と統合することもできます。この統合を設定する方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}を参照してください。
 * Campaign Standard 環境が&#x200B;**トリガー**&#x200B;と統合されている場合は、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}の説明に従って、Campaign v8 でこの統合を設定する必要があります。
 * Campaign Standard 環境が **Adobe Target** と統合されている場合は、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}の説明に従って、Campaign v8 でこの統合を設定する必要があります。
-

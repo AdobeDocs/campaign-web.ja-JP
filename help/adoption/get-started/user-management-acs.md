@@ -3,7 +3,8 @@ title: Adobe Developer Console へのテクニカルユーザーの移行
 description: Campaign Standardから Campaign V8 にユーザーアクセス管理を移行する方法を説明します
 feature: Technote
 role: Admin
-source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 4%
@@ -108,11 +109,3 @@ Campaign Standardから移行したオペレーターは、Campaign V8 の特定
 * Adobe Experience Manager アプリケーションマネージャー
 
 * リレーアカウント
- 
-
-
- 
-
- 
-
-

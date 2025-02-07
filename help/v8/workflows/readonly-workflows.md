@@ -4,7 +4,7 @@ title: 読み取り専用ワークフローについて
 description: ワークフローが読み取り専用モードである理由について説明します
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 source-git-commit: 58f25a6b41c89e97c0f721f4437b5245d16b3757
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 

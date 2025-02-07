@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: AI Assistant コンテンツアクセラレーターを使用した SMS
+title: AI アシスタントコンテンツアクセラレータを使用した SMS
 description: AI アシスタントコンテンツアクセラレータの基本を学ぶ
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 90%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->Adobe Campaign Web で AI Assistant コンテンツアクセラレーターを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Campaign Web の AI アシスタントコンテンツアクセラレータを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
-オーディエンスに合わせて SMS メッセージを作成しパーソナライズしたら、革新的な AI テクノロジーを活用したAdobe Campaign Web の AI Assistant コンテンツアクセラレーターを使用して、コミュニケーションを次のレベルに引き上げます。
+SMS メッセージをオーディエンスに合わせて作成してパーソナライズしたら、革新的な AI テクノロジーを利用した Adobe Campaign web の AI アシスタントコンテンツアクセラレータを利用して、コミュニケーションを次のレベルに引き上げます。
 
 この便利なツールは、コンテンツを絞り込むインテリジェントな提案を提供し、メッセージが効果的に共感を呼び、エンゲージメントを最大化します。
 
@@ -99,7 +99,7 @@ ht-degree: 90%
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. AI Assistant コンテンツ アクセラレータの [**[!UICONTROL 参照コンテンツを使用]**] オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
+1. AI アシスタントコンテンツアクセラレータの「**[!UICONTROL 参照コンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
 1. 「**[!UICONTROL プロンプト]**」フィールドに生成する内容を記述して、コンテンツを微調整します。
 

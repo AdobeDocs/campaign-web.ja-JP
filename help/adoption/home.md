@@ -2,8 +2,9 @@
 keywords: Campaign Classic;ホーム;人気のトピック
 description: Campaign Standard ユーザーが Campaign v8 に移行する場合の開始方法について説明します。
 title: Adobe Campaign 導入ガイド
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
-workflow-type: ht
+exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
+source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 100%
 
@@ -93,4 +94,3 @@ Adobe Campaign v8 で提供される最新の機能強化の概要を確認し�
 ## その他のリソース
 
 [Adobe Campaign v8 の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} - [Adobe Campaign クライアントコンソールドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [クライアントコンソールチュートリアル](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign] 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Campaign v8 のコントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
-

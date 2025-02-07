@@ -5,8 +5,8 @@ description: Adobe Campaign web を使用した iOS のリッチプッシュ通�
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
 source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1546'
+ht-degree: 100%
 
 ---
 
