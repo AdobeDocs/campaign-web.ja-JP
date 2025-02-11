@@ -2,7 +2,7 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4ece6d0a766682d65fb4a3f9135b667f558cb51c
+source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 83%
@@ -145,6 +145,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <tr>
 <td>
 <p>ランディングページ配信で AI アシスタントコンテンツアクセラレーターが使用できるようになり、テキストや画像を生成したり、完全なページレイアウトを作成できるようになりました。</p>
+<img src="assets/do-not-localize/ai-lp.gif">
 <p>AI アシスタント コンテンツ アクセラレータの詳細については、<a href="../email/generative-lp.md"> 詳細ドキュメント </a> を参照してください。</p>
 </td>
 </tr>

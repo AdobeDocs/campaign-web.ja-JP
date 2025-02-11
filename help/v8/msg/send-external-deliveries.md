@@ -3,14 +3,21 @@ audience: end-user
 title: 外部配信の基本を学ぶ
 description: Adobe Campaign web を使用して外部配信を作成および送信する方法について説明します
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 10%
+source-wordcount: '518'
+ht-degree: 15%
 
 ---
 
 # 外部配信の送信 {#gs-direct-mail}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="外部配信の作成"
+>abstract="Campaign web インターフェイスで外部配信と外部配信テンプレートを定義できるようになりました。このモードでは、メッセージは出力ファイルにコンパイルされ、外部プロバイダーと共有できます。 デフォルトでは、ダイレクトメールチャネルには外部配信モードが使用されます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
+
 
 Adobe Campaignを使用すると、Campaign の外部で作成した配信を処理して、外部システムを通じてパーソナライズされたメール、SMS メッセージまたはプッシュ通知（iOs およびAndroid）を一括で配信できます。
 

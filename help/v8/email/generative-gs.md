@@ -3,20 +3,14 @@ audience: end-user
 title: AI アシスタントコンテンツアクセラレータの基本を学ぶ
 description: AI アシスタントコンテンツアクセラレータの基本を学ぶ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
 
 # AI アシスタントコンテンツアクセラレータの操作  {#generative-gs}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="AI アシスタントコンテンツアクセラレータ"
->abstract="AI アシスタントを使用すると、メール、SMS、プッシュなどすべてのチャネルでマーケティングキャンペーンを、直感的でシンプルかつ手間のかからない方法で作成および実行でき、時間を節約し、効率を向上させ、より良い結果を導き出すことができます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 
 >[!CONTEXTUALHELP]
@@ -78,7 +72,7 @@ Campaign で権限を定義する方法について詳しくは、[この節](..
 * [組み込みのメールテンプレート](../email/create-email-templates.md)、ブランド固有のテンプレートまたはカスタムテンプレートを使用して、コンテンツアクセラレータでメールコンテンツを作成します。最大 8～10 個の画像を含むメールテンプレートをお勧めします。
 * バリアントを選択する際は、サムアップ、サムダウンまたはフラグのアイコンを使用して、問題のある出力を報告してください。
 * AI アシスタントの使用は、Adobe Experience Cloud 生成 AI ユーザーガイドラインの対象となります。[詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* メディア作成における生成 AI ツールの使用の透明性を促進するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、コンテンツ資格情報を適用します。[詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)
+* メディア作成における生成 AI ツールの使用の透明性を促進するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、Content Credentials を適用します。[詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)
 
 Adobe Campaign web の AI アシスタントコンテンツアクセラレータには、次の制限が適用されます。
 

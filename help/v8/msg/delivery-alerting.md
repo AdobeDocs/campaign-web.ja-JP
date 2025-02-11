@@ -3,21 +3,15 @@ audience: end-user
 title: 配信アラート
 description: 配信アラートの操作方法について説明します。
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '306'
 ht-degree: 100%
 
 ---
 
 # 配信アラートの基本を学ぶ {#gs-delivery-alerting}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="配信アラート"
->abstract="Campaign で配信アラートが使用できるようになりました。この機能は、ユーザーのグループが、配信の実行に関する情報が入ったメール通知を自動的に受信できるようにする、アラート管理システムです。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 配信アラートは、ユーザーのグループが配信実行に関する情報を含むメール通知を自動的に受信できるようにする、アラート管理システムです。受信者は、Adobe Campaign によって処理される進行中の配信を監視し、問題が発生した場合に適切なアクションを実行できます。
 

@@ -3,14 +3,21 @@ audience: end-user
 title: AI アシスタント コンテンツ アクセラレータを使用したランディング ページ
 description: AI アシスタントコンテンツアクセラレータの基本を学ぶ
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: e7b93168c3827691049376ecd257d2c6df554007
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '1515'
-ht-degree: 68%
+source-wordcount: '1549'
+ht-degree: 66%
 
 ---
 
 # AI Assistant コンテンツアクセラレーターによるランディングページ生成 {#generative-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="AI を使用したランディングページの生成"
+>abstract="AI アシスタントコンテンツアクセラレーターを使用して、ランディングページ配信を作成し、テキスト、画像または完全なページレイアウトを生成できるようになりました。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
+
 
 >[!IMPORTANT]
 >

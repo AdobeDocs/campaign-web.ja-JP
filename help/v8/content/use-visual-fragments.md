@@ -4,26 +4,28 @@ title: メールへのビジュアルフラグメントの追加
 description: ビジュアルフラグメントをメールに追加する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 94%
+source-wordcount: '605'
+ht-degree: 86%
 
 ---
 
 # メールへのビジュアルフラグメントの追加 {#use-visual-fragments}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="メールビジュアルフラグメント"
+>abstract="ビジュアルフラグメントを作成して使用できるようになりました。 これらは、複数のメール配信やコンテンツテンプレートで再利用できる、事前定義されたビジュアルブロックです。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
+
 >[!AVAILABILITY]
 >
 >この機能を使用するには、Campaign v8.6.4 を更新する必要があります。詳しくは、[Campaign v8 クライアントコンソールのリリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes) を参照してください。
 
-ビジュアルフラグメントは、[メール配信](../email/get-started-email-designer.md)または[コンテンツテンプレート](../email/use-email-templates.md)で使用できます。手順については、以下で詳しく説明します。
+Campaign web インターフェイスでは、**ビジュアルフラグメント** は、複数の [ メール配信 ](../email/get-started-email-designer.md) または [ コンテンツテンプレート ](../email/use-email-templates.md) で再利用できる、事前定義済みのビジュアルブロックです。 コンテンツフラグメントの作成および管理方法については、[ この節 ](fragments.md) を参照してください。
 
 ![](assets/do-not-localize/fragments.gif)
-
->[!NOTE]
->
->コンテンツフラグメントの作成および管理方法については、[ この節 ](fragments.md) を参照してください。
 
 ## ビジュアルフラグメントの使用 {#use-fragment}
 

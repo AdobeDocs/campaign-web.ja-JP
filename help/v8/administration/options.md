@@ -2,14 +2,20 @@
 title: Configure [!DNL Campaign] options
 description: Campaign オプションを設定し、独自のカスタムオプションを作成する方法について説明します。
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 3bedb4562c5858cd6057fd8a17064ccac8303c39
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '418'
+ht-degree: 3%
 
 ---
 
 # [!DNL Campaign] オプションの設定 {#options}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="カスタムオプションの作成"
+>abstract="ニーズに合わせて独自の技術的なカスタムオプションを作成できるようになりました。 これは、**JavaScript コード** ワークフローアクティビティを操作して中間データを保存する場合に特に便利です。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"

@@ -2,25 +2,20 @@
 title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 51%
+source-wordcount: '686'
+ht-degree: 46%
 
 ---
 
 # 外部アカウントの管理 {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="外部アカウント"
->abstract="追加のプラットフォームに接続することや、ワークフローに合わせる接続をカスタマイズすることができるようになりました。また、特定のニーズを満たす新しい外部アカウントを簡単に作成することと、シームレスなデータ転送を確実に行うことができるようになりました。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
-
 >[!AVAILABILITY]
 >
-> 外部アカウントは、現在、バウンスメール（POP3）、ルーティング、実行インスタンスでのみ使用でき、今後追加されるアカウントタイプを備えていることに注意してください。
-> Adobe Campaign コンソールで作成された、サポートされていない外部アカウントは、web ユーザーインターフェイスに表示されますが、編集やアクセスはできません。
+>* 外部アカウントは現在、バウンスメール（POP3）、ルーティング、実行インスタンスでのみ使用できます。 今後、アカウントタイプが追加される予定です。
+>
+>* Adobe Campaign コンソールで作成された、サポートされていない外部アカウントは、web ユーザーインターフェイスに表示されますが、編集やアクセスはできません。
 
 Adobe Campaign には、様々なシステムと簡単に統合できる事前定義済みの外部アカウントのセットが付属します。追加のプラットフォームに接続したり、ワークフローに合わせて接続をカスタマイズしたりする必要がある場合は、web ユーザーインターフェイスを使用して新しい外部アカウントを容易に作成して、固有のニーズを満たし、シームレスなデータ転送を確実に行えるようになりました。
 
