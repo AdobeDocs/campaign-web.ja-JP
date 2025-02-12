@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '798'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 97%
       + [AI を使用したメール生成](email/generative-content.md)
       + [AI を使用した SMS 生成](email/generative-sms.md)
       + [AI を使用したプッシュ通知の生成](email/generative-push.md)
-      + [AI を使用したランディングページの生成](email/generative-lp.md)
+      + [AI を使用したランディングページ生成](email/generative-lp.md)
       + [AI アシスタントのユースケース](email/generative-uc.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
@@ -231,6 +231,6 @@ ht-degree: 97%
    + [外部アカウントの設定](administration/external-account.md)
    + [タイポロジの操作](administration/typologies.md)
    + [列挙の管理](administration/enumerations.md)
-   + [Configure [!DNL Campaign] options](administration/options.md)
+   + [ [!DNL Campaign]  オプションの設定](administration/options.md)
    + [JavaScript コードの操作](administration/javascript-codes.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

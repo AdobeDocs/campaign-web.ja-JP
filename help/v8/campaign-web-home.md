@@ -4,9 +4,9 @@ description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,24 +52,24 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 1 月リリース ]
+>[!TAB 2025年1月リリース]
 
-1 月リリースがリリースされ、トランザクションメッセージ、外部アカウントなどの改善が含まれるようになりました。
+トランザクションメッセージ、外部アカウント、その他の機能強化を含む 1月リリースが公開されました。
 
-[![ 「詳細情報」ボタン ](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![「詳細情報」ボタン](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB AI アシスタントコンテンツアクセラレータ]
 
 ✨ [AI アシスタントコンテンツアクセラレータ](../v8/email/generative-gs.md)のライブ機能プレビューは、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
-[![ 「詳細情報」ボタン ](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![「詳細情報」ボタン](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB よくある質問（FAQ）]
 
 Campaign web ユーザーインターフェイスに関するよくある質問が、新しい専用ページに一覧表示されます。
 
-[![ 「詳細情報」ボタン ](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
+[![「詳細情報」ボタン](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
