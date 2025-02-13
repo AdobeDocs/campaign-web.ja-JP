@@ -4,10 +4,10 @@ description: 新しい Campaign v8 アプリケーションの使用開始時に
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 100%
+source-wordcount: '1556'
+ht-degree: 99%
 
 ---
 
@@ -93,7 +93,7 @@ Campaign Standard ユーザーが Adobe Campaign v8 に移行する場合は、�
 
   Adobe Experience Manager as a Cloud Service では、クラウドネイティブの俊敏性を提供し、価値実現までの時間を短縮し、進化するビジネスニーズに適応できます。この統合により、コンテンツ管理機能が強化されるだけでなく、すべてのタッチポイントにわたって、よりパーソナライズされた魅力的なエクスペリエンスを顧客に提供できます。
 
-* **AI アシスタント - コンテンツアクセラレータ**
+* **AI アシスタント**
 
   Campaign の AI アシスタントを使用すると、メール、SMS、プッシュなどすべてのチャネルでマーケティングキャンペーンを、直感的でシンプルかつ手間のかからない方法で作成および実行でき、時間を節約し、効率を向上させ、より良い結果を導き出すことができます。
 
@@ -105,7 +105,7 @@ Campaign Standard ユーザーが Adobe Campaign v8 に移行する場合は、�
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  様々なメールテンプレートを提供し、画像を生成および再生成します。AI アシスタント - コンテンツアクセラレータについて詳しくは、[この節](../../v8/email/generative-content.md)を参照してください。Adobe Campaign v8 には、[メール](../../v8/email/generative-content.md)、[SMS](../../v8/email/generative-sms.md)、[プッシュ](../../v8/email/generative-push.md)で使用できる AI アシスタントが用意されています。
+  様々なメールテンプレートを提供し、画像を生成および再生成します。AI アシスタントについて詳しくは、[ この節 ](../../v8/email/generative-content.md) を参照してください。 Adobe Campaign v8 には、[メール](../../v8/email/generative-content.md)、[SMS](../../v8/email/generative-sms.md)、[プッシュ](../../v8/email/generative-push.md)で使用できる AI アシスタントが用意されています。
 
 * **アップグレードされた SMS インフラストラクチャ - SMS v2.0**
 

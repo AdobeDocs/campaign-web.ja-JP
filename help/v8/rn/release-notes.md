@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 93%
 
 ---
 
@@ -138,15 +138,15 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントコンテンツアクセラレーターを使用したランディングページの生成</strong><br/></th>
+<th><strong>AI アシスタントによるランディングページの生成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ランディングページ配信で AI アシスタントコンテンツアクセラレーターが使用できるようになりました。これにより、テキスト、画像または完全なページレイアウトを生成できます。</p>
+<p>ランディングページ配信で AI アシスタントが使用できるようになり、テキストや画像の生成、または完全なページレイアウトの生成が可能になりました。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>AI アシスタントコンテンツアクセラレーターについて詳しくは、<a href="../email/generative-lp.md">詳細ドキュメント</a>を参照してください。</p>
+<p>AI アシスタントの詳細については、<a href="../email/generative-lp.md"> 詳細ドキュメント </a> を参照してください。</p>
 </td>
 </tr>
 </tbody>

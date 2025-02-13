@@ -4,10 +4,10 @@ title: 監査記録
 description: Campaign 監査記録を使用してインスタンスを監視する方法について説明します
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Campaign web ユーザーインターフェイスで、**[!UICONTROL 監�
 
 インスタンスの&#x200B;**[!UICONTROL 監査記録]**&#x200B;にアクセスするには：
 
-1. **[!UICONTROL 管理]**&#x200B;メニューで、「**[!UICONTROL 監査記録]**」を選択します。
+1. **[!UICONTROL 管理]** メニューで、「**[!UICONTROL 監査記録]**」を選択します。
 
    ![](assets/audit-trail-1.png)
 

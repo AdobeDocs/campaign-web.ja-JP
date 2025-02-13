@@ -1,36 +1,36 @@
 ---
 audience: end-user
 title: 生成コンテンツ
-description: AI アシスタントコンテンツアクセラレータの基本を学ぶ
+description: AI アシスタントの基本を学ぶ
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 100%
+source-wordcount: '1563'
+ht-degree: 92%
 
 ---
 
-# AI アシスタントコンテンツアクセラレータを使用したメールの生成 {#generative-content}
+# AI アシスタントを使用したメールの生成 {#generative-content}
 
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->Adobe Campaign Web の AI アシスタントコンテンツアクセラレータを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Campaign Web で AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 
-メールを作成してパーソナライズしたら、生成 AI を活用した Adobe Campaign Web の AI アシスタントコンテンツアクセラレータを使用して、コンテンツを次のレベルに引き上げます。
+メールを作成してパーソナライズしたら、生成 AI を活用した Campaign のAdobe Campaign web の AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。
 
-Adobe Campaign web の AI アシスタントコンテンツアクセラレータは、メール全体、ターゲットを絞ったテキストコンテンツ、およびオーディエンスの共感を得るために調整された画像を生成することで、配信の影響を最適化するのに役立ちます。これにより、メールキャンペーンが最適化され、エンゲージメントが向上します。
+Adobe Campaign Web の AI アシスタントは、メール全体、ターゲットテキストコンテンツ、およびオーディエンスの共感を得るために特別にカスタマイズされた画像を生成することで、配信の影響を最適化するのに役立ちます。 これにより、メールキャンペーンが最適化され、エンゲージメントが向上します。
 
-メールキャンペーンでは、AI アシスタントを使用して、メール、テキストまたは画像を生成できます。Adobe Campaign web の AI アシスタントコンテンツアクセラレータを使用する方法については、以下のタブを参照してください。
+メールキャンペーンでは、AI アシスタントを使用して、メール、テキストまたは画像を生成できます。Adobe Campaign Web での AI アシスタントの使用方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
 >[!TAB 完全なメール生成]
 
-次の例では、Adobe Campaign web の AI アシスタントコンテンツアクセラレータを利用して既存のメールを改良し、特別なイベント用にカスタマイズします。
+次の例では、Adobe Campaign web の AI アシスタントを活用して、既存のメールを調整し、特別なイベント用にカスタマイズします。
 
 1. メール配信を作成および設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
