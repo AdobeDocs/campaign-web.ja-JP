@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 93%
+source-wordcount: '770'
+ht-degree: 74%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 93%
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
 
 以前のリリースで利用可能な変更と改善点については、[このページ](release-notes-24.md)を参照してください。
+
+## 2025 年 2 月リリース {#25-2-release}
+
+**リリース日**:2025 年 2 月 18 日（PT）
+
+2 月リリース以降、次の機能および改善点が提供されます。
+
+### 機能 {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>ビジネスルール（タイポロジルール）の作成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign web ユーザーインターフェイスでタイポロジとタイポロジルールを作成できるようになりました。 タイポロジを使用すると、配信の送信を制御、フィルタリングおよび優先順位付けすることができます。 タイポロジは、配信に常に必須のコンポーネント（購読解除リンクや件名行など）が含まれていることを検証したり、オーディエンスからグループを除外するフィルタリングルール（非購読者、競合他社、非ロイヤルティ顧客など）が含まれていることを検証したりするために使用されます。</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>詳しくは、<a href="../administration/typologies.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ターゲットマッピング</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign web ユーザーインターフェイスでターゲットマッピングを作成できるようになりました。 ターゲットマッピングは、様々な配信チャネル（メール、SMS、プッシュ通知）とスキーマのデータフィールドとのリンク方法を定義します。 ターゲットマッピングを使用すると、プロファイル、契約の受益者、オペレーター、サブスクライバー、見込み客など、ターゲットオーディエンスを定義できます。</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>詳しくは、<a href="../administration/target-mappings.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>スキーマの詳細</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>リストで名前を選択して、スキーマの詳細にアクセスできるようになりました。 カスタムフィールドの編集に、スキーマの詳細にある「<b> カスタムフィールドを編集 </b> ボタンからアクセスできるようになりました。</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>詳しくは、<a href="../administration/schemas.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2025年1月リリース {#25-1-release}
 
@@ -62,25 +121,6 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### 改善点 {#25-1-improvements}

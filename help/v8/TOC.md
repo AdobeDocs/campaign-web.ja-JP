@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 99%
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 99%
    + [早期リリース](rn/e-release-notes.md)
    + [最新リリース](rn/release-notes.md)
    + 以前のリリース {#previous-release-notes}
+      + [2025 リリース](rn/release-notes-25.md)
       + [2024 リリース](rn/release-notes-24.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の基本を学ぶ {#start}
@@ -227,10 +228,12 @@ ht-degree: 99%
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
 + 設定 {#conf}
+   + [ビジネスルール（タイポロジ）の操作](administration/typologies.md)
+   + [ターゲットマッピングの管理](administration/target-mappings.md)
+   + [スキーマの操作](administration/schemas.md)
    + [カスタムフィールドの設定](administration/custom-fields.md)
-   + [外部アカウントの設定](administration/external-account.md)
-   + [タイポロジの操作](administration/typologies.md)
-   + [列挙の管理](administration/enumerations.md)
    + [ [!DNL Campaign]  オプションの設定](administration/options.md)
+   + [外部アカウントの設定](administration/external-account.md)
+   + [列挙の管理](administration/enumerations.md)
    + [JavaScript コードの操作](administration/javascript-codes.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)
