@@ -6,7 +6,7 @@ exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 95%
 
   >[!AVAILABILITY]
   >
-  >この機能を使用するには、Campaign v8.6.4 を更新する必要があります。詳しくは、[Campaign v8 クライアントコンソールのリリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes) を参照してください。
+  >この機能を使用するには、Campaign v8.6.4 への更新が必要です。詳しくは、[Campaign v8 クライアントコンソールリリースノート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
 
 ## さらに深く掘り下げましょう
 
