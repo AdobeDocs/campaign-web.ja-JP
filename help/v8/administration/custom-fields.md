@@ -2,7 +2,7 @@
 title: カスタムフィールド
 description: カスタムフィールドと、インターフェイスでのそれらの表示を設定する方法を説明します。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 5%
@@ -38,6 +38,7 @@ ht-degree: 5%
 >abstract="サブセクションのインターフェイスに表示する名前を指定します。"
 
 <!-- NOT USED IN THE UI?-->
+
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
 >title="属性の設定"
