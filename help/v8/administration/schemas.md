@@ -1,19 +1,27 @@
 ---
 title: スキーマの操作
 description: スキーマの操作方法を説明します。
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 1%
+source-wordcount: '467'
+ht-degree: 2%
 
 ---
 
 # スキーマの操作 {#schemas}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="スキーマの操作"
+>abstract="リストで名前を選択して、スキーマの詳細にアクセスできるようになりました。 カスタムフィールド編集には、「**カスタム詳細を編集** ボタンからもアクセスできます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
+
+
+
+>[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="スキーマ"
->abstract="**[!DNL Adobe Campaign]** は、XML ベースのスキーマを使用して、アプリケーション内のデータの物理的および論理的構造を定義します。 この画面から、既存のすべてのスキーマを表示できます。 編集可能なスキーマのみを表示するなど、リストを絞り込むのに役立つフィルターを使用できます。"
+>abstract="**[!DNL Adobe Campaign]** は、XML ベースのスキーマを使用して、アプリケーション内のデータの物理的および論理的構造を定義します。 この画面から、既存のすべてのスキーマを表示し、リストで名前を選択してスキーマの詳細にアクセスできます。 編集可能なスキーマのみを表示するなど、リストを絞り込むのに役立つフィルターを使用できます。"
 
 ## スキーマについて {#about}
 

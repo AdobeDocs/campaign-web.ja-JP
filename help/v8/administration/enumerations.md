@@ -2,7 +2,7 @@
 title: 列挙の管理
 description: 列挙の操作方法を学ぶ
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 19%
@@ -12,7 +12,7 @@ ht-degree: 19%
 # 列挙の管理 {#enumerations}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
+>id="acw_homepage_welcome_rn4"
 >title="列挙の作成"
 >abstract="Adobe Campaign web ユーザーインターフェイスから列挙を直接作成できるようになりました。 列挙は、フィールドへの入力をシステムが推奨する値のリストです。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"

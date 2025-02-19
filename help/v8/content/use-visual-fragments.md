@@ -4,20 +4,14 @@ title: メールへのビジュアルフラグメントの追加
 description: ビジュアルフラグメントをメールに追加する方法を学ぶ
 badge: label="限定提供（LA）"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 86%
+source-wordcount: '573'
+ht-degree: 91%
 
 ---
 
 # メールへのビジュアルフラグメントの追加 {#use-visual-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="メールビジュアルフラグメント"
->abstract="ビジュアルフラグメントを作成して使用できるようになりました。 これらは、複数のメール配信やコンテンツテンプレートで再利用できる、事前定義されたビジュアルブロックです。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!AVAILABILITY]
 >
