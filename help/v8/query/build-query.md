@@ -4,9 +4,9 @@ title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2242'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 >
 >* 多くの値を持つフィールドの場合、最初の 20 個の値のみが表示されます。このような場合、**[!UICONTROL 部分読み込み]**&#x200B;という警告通知が表示されます。
 >
->* **[!UICONTROL 値の配分]** オプションは、すべての属性ピッカーでアクセスできます。 [ 属性の選択方法を学ぶ ](../get-started/attributes.md)
+>* 「**[!UICONTROL 値の配分]**」オプションは、すべての属性ピッカーでアクセスできます。[詳しくは、属性の選択方法を参照してください](../get-started/attributes.md)
 >* 「**[!A詳細フィルター]**」を使用して、結果に条件を追加できます。[詳しくは、こちらを参照してください](../get-started/work-with-folders.md#filter-the-values)。
 
 ## フィルタリングコンポーネントの追加 {#filtering}
@@ -62,7 +62,7 @@ ht-degree: 98%
 
 1. 目的のノードの「**+**」ボタンをクリックし、「**[!UICONTROL カスタム条件]**」を選択します。右側にカスタム条件のプロパティパネルが開きます。
 
-1. 「**属性**」フィールドで、条件の作成に活用するデータベースから属性を選択します。属性リストには、リンクされたテーブルの属性を含む、Campaign データベースのすべての属性が含まれます。 [ 属性を選択してお気に入りに追加する方法を説明します ](../get-started/attributes.md)
+1. 「**属性**」フィールドで、条件の作成に活用するデータベースから属性を選択します。属性リストには、リンクされたテーブルの属性を含む、Campaign データベースのすべての属性が含まれます。[詳しくは、属性を選択してお気に入りに追加する方法を参照してください](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
