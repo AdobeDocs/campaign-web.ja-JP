@@ -5,7 +5,7 @@ exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
 >title="列挙の作成"
->abstract="Adobe Campaign web ユーザーインターフェイスから列挙を直接作成できるようになりました。 列挙は、フィールドへの入力をシステムが推奨する値のリストです。"
+>abstract="Adobe Campaign web ユーザーインターフェイスから列挙を直接作成できるようになりました。 列挙とは、フィールドへの入力候補としてシステムによって表示される値のリストです。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 

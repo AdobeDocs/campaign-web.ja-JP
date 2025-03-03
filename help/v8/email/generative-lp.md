@@ -6,16 +6,16 @@ exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
 source-wordcount: '1521'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
-# AI アシスタントによるランディングページの生成{#generative-lp}
+# AI アシスタントを使用したランディングページの生成{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="AI を使用したランディングページの生成"
->abstract="これで、AI アシスタントを使用してランディングページ配信を作成し、テキストや画像を生成したり、ページレイアウトを完成させたりできるようになりました。"
+>abstract="AI アシスタントを使用してランディングページ配信を作成できるようになりました。これにより、テキスト、画像または完全なページレイアウトを生成できます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 

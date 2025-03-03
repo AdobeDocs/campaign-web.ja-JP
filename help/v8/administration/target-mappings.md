@@ -1,10 +1,11 @@
 ---
 title: ターゲットマッピングの管理
 description: ターゲットマッピングの管理方法について説明します。
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="ターゲットマッピング"
->abstract="Campaign web ユーザーインターフェイスでターゲットマッピングを作成できるようになりました。 ターゲットマッピングは、様々な配信チャネル（メール、SMS、プッシュ通知）とスキーマのデータフィールドとのリンク方法を定義します。"
+>abstract="Campaign web ユーザーインターフェイスでターゲットマッピングを作成できるようになりました。ターゲットマッピングは、様々な配信チャネル（メール、SMS、プッシュ通知）からスキーマのデータフィールドへのリンク方法を定義します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
@@ -42,7 +43,7 @@ Adobe Campaignに組み込まれているターゲットマッピングについ
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_mapping"
 >title="ターゲットマッピングマッピング"
->abstract="「**[!UICONTROL マッピング]**」セクションでは、ターゲットマッピングのスキーマから、様々な配信アドレスフィールドに使用する属性を識別できます。"
+>abstract="「**[!UICONTROL マッピング]**」セクションでは、様々な配信アドレスフィールドに使用するターゲットマッピングのスキーマの属性を識別できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_denylist"

@@ -5,7 +5,7 @@ description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2765'
 ht-degree: 100%
 

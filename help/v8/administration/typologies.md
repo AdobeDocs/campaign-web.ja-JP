@@ -6,7 +6,7 @@ exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
 source-wordcount: '1449'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="ビジネスルール"
->abstract="Adobe Campaign web ユーザーインターフェイスでタイポロジとタイポロジルールを作成できるようになりました。 タイポロジを使用すると、配信の送信を制御、フィルタリングおよび優先順位付けすることができます。"
+>abstract="Adobe Campaign web インターフェイスでタイポロジとタイポロジルールを作成できるようになりました。タイポロジでは、配信の送信を制御、フィルタリングおよび優先順位付けできます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 
