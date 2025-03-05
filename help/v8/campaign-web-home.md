@@ -4,9 +4,9 @@ description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,16 +52,16 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 2 月リリース ]
+>[!TAB 2025年2月リリース]
 
-2 月リリースがリリースされ、ビジネスルール、ターゲットマッピングなどの改善が含まれるようになりました。
+ビジネスルール、ターゲットマッピング、その他の機能強化を含む 2月リリースが公開されました。
 
 [![「詳細情報」ボタン](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB AI アシスタント ]
+>[!TAB AI アシスタント]
 
-✨ [AI アシスタント ](../v8/email/generative-gs.md) の機能を直接調べて、その機能を完全に理解できるように設計されたライブ機能プレビューで、実践的な体験に浸ってください。
+✨ [AI アシスタント](../v8/email/generative-gs.md)のライブ機能プレビューは、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 [![「詳細情報」ボタン](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 

@@ -3,9 +3,9 @@ title: カスタムフィールド
 description: インターフェイスでカスタムフィールドとその表示を設定する方法について説明します。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 source-git-commit: 27e44682178267353418de210af51067eee4141b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 87%
 >title="属性の設定"
 >abstract="属性の設定"
 
-カスタムフィールドは、Adobe Campaign コンソールから標準スキーマに追加されている属性です。組織のニーズに合わせて新しい属性を含めることで、スキーマをカスタマイズできます。 スキーマを拡張する方法について詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=ja){target="_blank"}を参照してください。
+カスタムフィールドは、Adobe Campaign コンソールから標準スキーマに追加されている属性です。組織のニーズに合わせて新しい属性を含めることで、スキーマをカスタマイズできます。スキーマを拡張する方法について詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=ja){target="_blank"}を参照してください。
 
 カスタムフィールドは、Campaign web インターフェイスのプロファイル詳細など、様々な画面に表示できます。管理者は、表示するフィールドとその表示方法を制御できます。これらの変更は、すべての Campaign ユーザーに適用されます。
 
@@ -71,7 +71,7 @@ ht-degree: 87%
 
    ![](assets/custom-fields-open.png)
 
-1. リストでスキーマ名を選択して開きます。 詳細なスキーマビューに [ スキーマの詳細の表示 ](../administration/schemas.md) が表示されます。 「**[!UICONTROL カスタム詳細を編集]**」ボタンをクリックして、カスタムフィールドにアクセスします。 この例では、**[!UICONTROL 受信者]**&#x200B;スキーマのフィールドを追加します。
+1. リストでスキーマ名を選択して開きます。詳細なスキーマビューが表示されます。[詳しくは、スキーマの詳細を参照してください](../administration/schemas.md)。「**[!UICONTROL カスタム詳細を編集]**」ボタンをクリックして、カスタムフィールドにアクセスします。この例では、**[!UICONTROL 受信者]**&#x200B;スキーマのフィールドを追加します。
 
    ![](assets/custom-fields-edit.png)
 
@@ -81,9 +81,9 @@ ht-degree: 87%
    |  ---  |  ---  |
    | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
-1. インターフェイスにカスタムフィールドを追加するには、「。..」ボタンをクリックし、次のいずれかのオプションを選択します。
+1. インターフェイスにカスタムフィールドを追加するには、省略記号ボタンをクリックし、次のいずれかのオプションを選択します。
 
-   * **[!UICONTROL カスタムフィールドを選択]**: インターフェイスに表示する 1 つ以上のカスタムフィールドを選択します。
+   * **[!UICONTROL カスタムフィールドを選択]**：インターフェイスに表示する 1 つまたは複数のカスタムフィールドを選択します。
    * **[!UICONTROL カスタムフィールドのリストを自動的に入力]**：スキーマに定義されているすべてのカスタムフィールドをインターフェイスに追加します。
 
    ![](assets/custom-fields-add.png)
@@ -94,7 +94,7 @@ ht-degree: 87%
    * **フィールドを必須にする**：「**必須**」チェックボックスを選択します。
    * **フィールド設定を編集**：省略記号ボタンをクリックし、「**[!UICONTROL 編集]**」を選択します。[詳細情報](#settings)
    * **フィールドを削除**：省略記号ボタンをクリックし、「**[!UICONTROL 削除]**」を選択します。
-   * **インターフェイスのサブセクションにフィールドを整理**：上向き矢印と下向き矢印の横にある省略記号ボタンをクリックし、「**[!UICONTROL 区切り記号を追加]**」を選択します。 [詳細情報](#separator)
+   * **インターフェイスのサブセクションにフィールドを整理**：上下の矢印の横にある省略記号ボタンをクリックし、「**[!UICONTROL 区切り記号を追加]**」を選択します。[詳細情報](#separator)
 
 ## カスタムフィールド設定の指定 {#settings}
 

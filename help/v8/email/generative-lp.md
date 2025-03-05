@@ -4,9 +4,9 @@ title: AI アシスタントを使用したランディングページ
 description: AI アシスタントの基本を学ぶ
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1521'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,19 +24,19 @@ ht-degree: 92%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->Adobe Campaign Web で AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
-ジェネレーティブ AI を活用したAdobe Campaign Web の AI アシスタントでランディングページを変革しましょう。
+生成 AI を活用した Adobe Campaign web の AI アシスタントを使用して、ランディングページを変革します。
 
 完全なページ、調整されたテキストスニペット、オーディエンスの共感を呼び、エンゲージメントとインタラクションを高めるカスタマイズされたビジュアルなど、効果的なコンテンツを簡単に作成できます。
 
-Adobe Campaign Web での AI アシスタントの使用方法については、以下のタブを参照してください。
+Adobe Campaign web の AI アシスタントを使用する方法について詳しくは、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
 >[!TAB 完全なランディングページの生成]
 
-次の例では、AI アシスタントを利用して、既存のランディングページテンプレートを調整します。
+次の例では、AI アシスタントを活用して、既存のランディングページテンプレートを調整します。
 
 1. ランディングページを作成および設定した後、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
@@ -171,7 +171,7 @@ Adobe Campaign Web での AI アシスタントの使用方法については、
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. AI アシスタントの **[!UICONTROL 参照スタイル]** オプションを有効にして、参照コンテンツに基づいて新しいコンテンツをパーソナライズします。 また、画像をアップロードして、バリエーションにコンテキストを追加することもできます。
+1. AI アシスタントの「**[!UICONTROL 参照スタイル]**」オプションを有効にして、参照コンテンツに基づいて新しいコンテンツをパーソナライズします。また、画像をアップロードして、バリエーションにコンテキストを追加することもできます。
 
 1. 「**[!UICONTROL プロンプト]**」フィールドに生成する内容を記述して、コンテンツを微調整します。
 

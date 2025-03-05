@@ -5,9 +5,9 @@ description: Campaign 監査記録を使用してインスタンスを監視す�
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign web ユーザーインターフェイスで、**[!UICONTROL 監�
 
   スキーマについて詳しくは、[Campaign v8 のドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/schemas)を参照してください。
 
-* **ワークフロー監査証跡**&#x200B;を使用すると、アクティビティとワークフローに対して行った最近の変更とを追跡できます。その例として、次のような現在の状態があります。
+* **ワークフロー監査記録**&#x200B;を使用すると、アクティビティとワークフローに対して行った最近の変更とを追跡できます。その例として、次のような現在の状態があります。
 
    * 開始
    * 一時停止
@@ -75,7 +75,7 @@ Adobe Campaign web ユーザーインターフェイスで、**[!UICONTROL 監�
 
 インスタンスの&#x200B;**[!UICONTROL 監査記録]**&#x200B;にアクセスするには：
 
-1. **[!UICONTROL 管理]** メニューで、「**[!UICONTROL 監査記録]**」を選択します。
+1. **[!UICONTROL 管理]**&#x200B;メニューで、「**[!UICONTROL 監査記録]**」を選択します。
 
    ![](assets/audit-trail-1.png)
 

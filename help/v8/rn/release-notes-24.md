@@ -3,15 +3,15 @@ title: Campaign v8 web ユーザーインターフェイスの以前のリリー
 description: 2024 Campaign web ユーザーインターフェイスリリース
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2502'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # 2024 リリースノート {#2024-release}
 
-このページには、**2024 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートについては、[このページ](release-notes.md)を参照してください。
+このページには、**2024 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートについて詳しくは、[このページ](release-notes.md)を参照してください。
 
 
 ## 2024年10月リリース {#24-10-release}
@@ -85,7 +85,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成してカスタマイズしたら、Adobe Campaign Web の AI アシスタントを使用して次のレベルに進めます。 この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
+<p>メッセージを作成して調整したら、Adobe Campaign web の AI アシスタントを使用して、メッセージを次のレベルに引き上げます。この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>は、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../email/generative-gs.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

@@ -4,7 +4,7 @@ title: 外部配信の基本を学ぶ
 description: Adobe Campaign Web で外部配信を作成して送信する方法について説明します
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
 source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 

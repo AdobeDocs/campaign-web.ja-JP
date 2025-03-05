@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: AI アシスタントによるプッシュ通知
+title: AI アシスタントを使用したプッシュ通知
 description: AI アシスタントの基本を学ぶ
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->Adobe Campaign Web で AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
 AI アシスタントを使用すると、オーディエンスの共感を呼ぶ可能性の高い異なるコンテンツを提案し、配信の影響を最適化できます。
 
@@ -44,7 +44,7 @@ AI アシスタントを使用すると、オーディエンスの共感を呼�
 1. 「**[!UICONTROL テキスト設定]**」オプションを使用してプロンプトを調整します。
 
    * **[!UICONTROL コミュニケーション戦略]**：生成テキストに最適なコミュニケーションスタイルを選択します。
-   * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼びます。情報を提供する、遊び心がある、説得力がある、のいずれを求めているかに関わらず、AI アシスタントはメッセージを適切に適応させることができます。
+   * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼びます。情報を提供する、遊び心がある、説得力がある、のいずれを求めているかに関わらず、AI アシスタントはメッセージを適切に調整できます。
 
    ![](assets/push-genai-3.png){zoomable="yes"}
 

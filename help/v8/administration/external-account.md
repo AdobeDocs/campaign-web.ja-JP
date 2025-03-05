@@ -3,9 +3,9 @@ title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
 source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 >[!AVAILABILITY]
 >
->* 外部アカウントは現在、バウンスメール（POP3）、ルーティング、実行インスタンスでのみ使用できます。 今後、アカウントタイプが追加される予定です。
+>* 外部アカウントは現在、バウンスメール（POP3）、ルーティング、実行インスタンスでのみ使用できます。今後は他のアカウントタイプも追加される予定です。
 >
 >* Adobe Campaign コンソールで作成された、サポートされていない外部アカウントは、web ユーザーインターフェイスに表示されますが、編集やアクセスはできません。
 

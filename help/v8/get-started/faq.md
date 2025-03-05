@@ -3,9 +3,9 @@ title: Campaign web での AI を活用したコンテキストヘルプの使�
 description: Campaign web ヘルプのポップオーバーで質問する
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 
 +++ 新しい web ユーザーインターフェイスの新機能には何がありますか？
 
-Adobe Campaign v8 の新しいユーザーインターフェイスは、Adobe Experience Platform との一貫性をもたらし、マーケティングの効率化を目的に設計されています。新しいワークフローキャンバスは、オーディエンス構成、ワークフロー管理、コンテンツデザインのための直感的で高度なワークスペースや、Journey Optimizer、Real-Time CDP などの Adobe Experience Platform ネイティブアプリケーションとの統合されたユースケースを提供します。WYSIWYG Message Designer にネイティブに組み込まれた AI アシスタントを使用すると、創造性を刺激し、生産性を向上し、クロスチャネルキャンペーンを大規模にパーソナライズできます。
+Adobe Campaign v8 の新しいユーザーインターフェイスは、Adobe Experience Platform との一貫性をもたらし、マーケティングの効率化を目的に設計されています。新しいワークフローキャンバスは、オーディエンス構成、ワークフロー管理、コンテンツデザインのための直感的で高度なワークスペースや、Journey Optimizer、Real-Time CDP などの Adobe Experience Platform ネイティブアプリケーションとの統合されたユースケースを提供します。WYSIWYG Message Designer にネイティブに組み込まれた AI アシスタントを使用して、創造性を引き出し、生産性を向上させて、クロスチャネルキャンペーンを大規模にパーソナライズします。
 
 マーケターは、生成 AI を使用して、完全な HTML メールのアイデアを作成し、テキストおよび画像の生成に、絞り込みやバリアント候補を含めることができます。新機能について詳しくは、[このページ](../rn/whats-new.md)を参照してください。新しいインターフェイスとアクションについて詳しくは、[このページ](../get-started/user-interface.md)を参照してください。また、[チュートリアル](https://experienceleague.adobe.com/ja/docs/campaign-web-learn/tutorials/overview){target="_blank"}にアクセスして、一連のチュートリアルビデオを通じて新しいインターフェイスの詳細を学ぶこともできます。
 

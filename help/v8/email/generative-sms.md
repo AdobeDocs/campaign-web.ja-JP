@@ -4,9 +4,9 @@ title: AI アシスタントを使用した SMS
 description: AI アシスタントの基本を学ぶ
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->Adobe Campaign Web で AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
-オーディエンスに合わせて SMS メッセージを作成しパーソナライズしたら、革新的な AI テクノロジーを活用したAdobe Campaign web の AI アシスタントを活用して、コミュニケーションを次のレベルに進めます。
+SMS メッセージをオーディエンスに合わせて作成してパーソナライズしたら、革新的な AI テクノロジーを利用した Adobe Campaign web の AI アシスタントを利用して、コミュニケーションを次のレベルに引き上げます。
 
 この便利なツールは、コンテンツを絞り込むインテリジェントな提案を提供し、メッセージが効果的に共感を呼び、エンゲージメントを最大化します。
 
@@ -46,7 +46,7 @@ ht-degree: 91%
 1. 「**[!UICONTROL テキスト設定]**」オプションを使用してプロンプトを調整します。
 
    * **[!UICONTROL コミュニケーション戦略]**：生成テキストに最適なコミュニケーションスタイルを選択します。
-   * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼びます。情報を提供する、遊び心がある、説得力がある、のいずれを求めているかに関わらず、AI アシスタントはメッセージを適切に適応させることができます。
+   * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼びます。情報を提供する、遊び心がある、説得力がある、のいずれを求めているかに関わらず、AI アシスタントはメッセージを適切に調整できます。
    * **テキストの長さ**：スライダーを使用して、テキストの目的の長さを選択します。
 
    ![](assets/sms-genai-3.png){zoomable="yes"}
