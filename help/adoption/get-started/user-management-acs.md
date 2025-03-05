@@ -4,7 +4,7 @@ description: ユーザーアクセス管理をCampaign Standardから Campaign V
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 3%
@@ -89,7 +89,9 @@ Campaign V8 では、**プログラム** は **フォルダー** として表さ
 **プログラム** は Campaign V8 では **フォルダー** として扱われるので、そのアクセスは他のフォルダーと同じように管理できます。 移行後、Campaign Standard管理者は次の手順を実行できます。
 
 1. エクスプローラーで任意のフォルダーを右クリックし、「**[!UICONTROL プロパティ…]**」を選択します。
+
 1. 「**[!UICONTROL セキュリティ]**」タブに移動します。
+
 1. 目的のアクセスモデルに従って、オペレーターグループの権限を変更します。 
 
 ## REST API にアクセスするための製品プロファイルのマッピング 
