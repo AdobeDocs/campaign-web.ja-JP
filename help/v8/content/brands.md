@@ -5,7 +5,7 @@ description: ブランドガイドラインの作成および管理方法につ�
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 2%
@@ -104,6 +104,6 @@ ht-degree: 2%
 
    ![](assets/brands_5.png)
 
-ブランドガイドラインに AI アシスタントメニューの **[!UICONTROL ブランド]** ドロップダウンからアクセスできるようになり、仕様に合ったコンテンツとアセットを生成できるようになりました。 [ 詳しくは、AI アシスタントを参照してください ](gs-generative.md)
+ブランドガイドラインに AI アシスタントメニューの **[!UICONTROL ブランド]** ドロップダウンからアクセスできるようになり、仕様に合ったコンテンツとアセットを生成できるようになりました。 [ 詳しくは、AI アシスタントを参照してください ](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
