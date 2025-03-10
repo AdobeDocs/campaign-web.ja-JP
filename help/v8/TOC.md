@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
-workflow-type: ht
-source-wordcount: '804'
-ht-degree: 100%
+source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 99%
 
 ---
 
@@ -124,6 +124,7 @@ ht-degree: 100%
       + [AI を使用したプッシュ通知の生成](email/generative-push.md)
       + [AI を使用したランディングページ生成](email/generative-lp.md)
       + [AI アシスタントのユースケース](email/generative-uc.md)
+      + [ブランドの作成と管理（ベータ版）](content/brands.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
    + [ランディングページの作成と公開](landing-pages/create-lp.md)
