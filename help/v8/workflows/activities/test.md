@@ -4,7 +4,7 @@ title: テストワークフローアクティビティの使用
 description: テストワークフローアクティビティの使用方法を学ぶ
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 source-git-commit: 7654d1838f3a7e5165558e6a1313c9e8b57b401a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 
