@@ -3,9 +3,9 @@ audience: end-user
 title: 最初のメールを送信
 description: Campaign web UI で最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1492'
 ht-degree: 90%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >特定のユースケースでは、「**[!UICONTROL コンテンツをシミュレート]**」ボタンは無効になっています。 制限について詳しくは [ この節 ](#content-simulation-limitations) を参照してください。
+   >特定のコンテキストでは、「**[!UICONTROL コンテンツをシミュレート]**」ボタンは無効になります。 制限について詳しくは [ この節 ](#content-simulation-limitations) を参照してください。
 
 1. 左側で、メールのプレビューに使用するプロファイルを選択します。
 
@@ -195,7 +195,7 @@ ht-degree: 90%
 
    コンテンツをシミュレート画面の「**[!UICONTROL 本配信前確認を表示]**」ボタンをクリックすると、送信ステータスの確認や送信済みの本配信前確認にいつでもアクセスできます。
 
-## コンテンツシミュレーションの制限 {#content-simulation-limitations}
+### コンテンツシミュレーションの制限 {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
