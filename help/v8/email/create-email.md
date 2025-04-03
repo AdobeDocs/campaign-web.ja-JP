@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールを送信
 description: Campaign web UI で最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 100%
+source-wordcount: '1493'
+ht-degree: 90%
 
 ---
 
@@ -162,6 +162,10 @@ ht-degree: 100%
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >特定のユースケースでは、「**[!UICONTROL コンテンツをシミュレート]**」ボタンは無効になっています。 制限について詳しくは [ この節 ](#content-simulation-limitations) を参照してください。
+
 1. 左側で、メールのプレビューに使用するプロファイルを選択します。
 
    右側のパネルに選択したプロファイルに基づくメールのプレビューが表示されます。 複数のプロファイルを追加した場合は、それぞれを切り替えて対応するメールをプレビューできます。
@@ -190,6 +194,37 @@ ht-degree: 100%
    ![](assets/proof-sent.png){zoomable="yes"}
 
    コンテンツをシミュレート画面の「**[!UICONTROL 本配信前確認を表示]**」ボタンをクリックすると、送信ステータスの確認や送信済みの本配信前確認にいつでもアクセスできます。
+
+## コンテンツシミュレーションの制限 {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="コンテンツシミュレーションはサポートされていません"
+>abstract="多言語配信にはロケールが 1 つしか含まれていないので、「**コンテンツをシミュレート**」ボタンは無効になります。"
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="コンテンツシミュレーションはサポートされていません"
+>abstract="「**コンテンツをシミュレート**」ボタンは、このフェーズの紐付けされた配信と互換性がないので無効になります。"
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="コンテンツシミュレーションはサポートされていません"
+>abstract="Campaign Enterprise Full Federated Access （FFDA）モードではサポートされていないので、「**コンテンツをシミュレート**」ボタンが無効になります。"
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="コンテンツシミュレーションはサポートされていません"
+>abstract="コンテンツがアップロードされていないので、「**コンテンツをシミュレート**」ボタンは無効になっています。"
+
+場合によっては、コンテンツのシミュレーションを実行できず、「**[!UICONTROL コンテンツをシミュレート]**」ボタンが無効になります。
+
+次の場合、コンテンツのシミュレーションはサポートされていません。
+
+<!--* When a multilingual delivery contains only one locale,-->
+* 紐付けされた配信で、
+* Campaign デプロイメントモデルが [Adobe Campaign Enterprise Full Federated Access （FFDA）の場合 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}
+* ファイルがアップロードされていない場合。
 
 ## メールの送信と監視 {#prepare-send}
 
