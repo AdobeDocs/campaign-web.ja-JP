@@ -2,10 +2,10 @@
 title: Adobe Campaign Web インターフェイスに接続
 description: Adobe Campaign Web ユーザーインターフェイスに接続する方法について説明します
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -19,19 +19,19 @@ Experience Cloud は、アドビのデジタルマーケティングアプリケ
 
 Adobe Experience Cloud にログインするための基本的な手順は次のとおりです。
 
-1. [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} を参照します。
+1. [Adobe Experience Cloud](https://experience.adobe.com/) を参照します。
 
-1. Adobe ID または Enterprise ID を使用してログインします。アドビの ID タイプについて詳しくは、[この記事](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
+1. Adobe ID または Enterprise ID を使用してログインします。Adobeでの ID タイプについて詳しくは、[ この記事 ](https://helpx.adobe.com/jp/enterprise/using/identity.html) を参照してください。
 
    Experience Cloud にログインすると、すべてのソリューションやアプリにすばやくアクセスできます。
 
-   ![](assets/exc-home.png){zoomable="yes"}
+   ![](assets/exc-home.png)
 
 1. 自分が正しい組織に属していることを確認してください。
 
-   ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+   ![](assets/exc-orgs.png)
 
-   Adobe Experience Cloud の組織について詳しくは、[この記事](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){target="_blank"}を参照してください。
+   Adobe Experience Cloudの組織について詳しくは、[ この記事 ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja) を参照してください。
 
 
 ## Adobe Campaign にアクセス {#access-to-campaign}
@@ -40,11 +40,11 @@ Campaign 環境にアクセスするには、Adobe Experience Cloud ホームペ
 
 既に別の Adobe Experience Cloud ソリューションに接続している場合は、画面右上のソリューション切り替えボタンから Campaign 環境を参照することもできます。
 
-![](assets/solution-switcher.png){zoomable="yes"}
+![](assets/solution-switcher.png)
 
 複数の環境（Campaign コントロールパネルを含む）にアクセスできる場合は、「**起動**」ボタンをクリックして正しいインスタンスを確認します。
 
-![](assets/launch-campaign.png){zoomable="yes"}
+![](assets/launch-campaign.png)
 
 Campaign に接続しました。ユーザーインターフェイスの使用を開始する方法については、[このページ](user-interface.md)を参照してください。
 
@@ -100,11 +100,11 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 * Campaign web ユーザーインターフェイスに関するフィードバックを共有
 * 組織を切り替え
 * Adobe Experience Cloud ソリューションとアプリを切り替え
-* [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=ja){target="_blank"} でヘルプを検索
+* [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=ja) のヘルプを検索
 * 製品通知を確認
 * アドビのプロファイルを編集し、[お気に入りの言語を更新](#language-pref)や[ライト／ダークテーマに切り替え](#dark-theme)などの設定を管理
 
-![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png)
 
 ## サポートしているブラウザー {#browsers}
 
@@ -134,17 +134,10 @@ Campaign web のデフォルト言語は、ユーザープロファイルで指�
 1. 次に、メールアドレスの下に表示されている言語リンクをクリックします。
 1. 優先言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
 
-<!--
->[!CAUTION]
->
->If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
->
--->
-
 ## ダークテーマとライトテーマ {#dark-theme}
 
 Adobe Campaign は、ライトテーマとダークテーマで使用できます。デフォルトでは、ユーザーインターフェイスはライトテーマで有効になっています。ダークテーマに切り替えるには、プロファイルアイコンをクリックし、「**ダークテーマ**」切替スイッチを使用して有効／無効にします。
 
-ユーザープロファイルの設定とアカウントの環境設定について詳しくは、[この節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ja#preferences){target="_blank"}を参照してください。
+ユーザープロファイル設定とアカウント環境設定について詳しくは、[ この節 ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ja#preferences) を参照してください。
 
-Experience Cloud セントラルインターフェイスコンポーネントについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ja){target="_blank"}を参照してください。
+Experience Cloud中央インターフェイスコンポーネントについて詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ja) を参照してください。
