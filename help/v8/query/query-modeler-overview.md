@@ -5,8 +5,8 @@ description: Adobe Campaign Web クエリモデラーの操作方法について
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 source-git-commit: bf7ee45a0702b66af6962453893cf9c50c140d54
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 91%
+source-wordcount: '639'
+ht-degree: 97%
 
 ---
 
@@ -37,29 +37,29 @@ Adobe Campaign Web ユーザーインターフェイスには、様々な基準�
 
 | 使用状況 | 例 |
 |  ---  |  ---  |
-| **オーディエンスの定義**：メッセージやワークフローでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。[詳しくは、オーディエンスの作成方法を参照してください。](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
-| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、**分割**&#x200B;や&#x200B;**紐付け**&#x200B;などのワークフローアクティビティ内にルールを適用します。[詳しくは、ワークフローアクティビティを参照してください。](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
-| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作中にショートカットとして機能する定義済みフィルターを作成します。[詳しくは、定義済みフィルターの操作方法を参照してください。](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
-| **レポートデータのフィルタリング**：レポートに表示されるデータをフィルタリングするルールを追加します。[詳しくは、レポートの操作方法を参照してください。](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
-| **リストのカスタマイズ**：受信者、配信リストなどのリストに表示されるデータをフィルタリングするカスタムルールを作成します。[詳しくは、リストをフィルターする方法を参照してください。](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"}{zoomable=&quot;yes&quot;}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
-| **条件付きコンテンツの作成**：様々な受信者に表示するコンテンツを定義する条件を作成することで、メールコンテンツを動的にします。これにより、パーソナライズされた、関連性の高いメッセージを確実に作成できます。[詳しくは、条件付きコンテンツの作成方法を参照してください。](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"}{width=&quot;200&quot; align=&quot;center&quot; zoomable=&quot;yes&quot;} |
+| **オーディエンスの定義**：メッセージやワークフローでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。[詳しくは、オーディエンスの作成方法を参照してください。](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて、**分割**&#x200B;や&#x200B;**紐付け**&#x200B;などのワークフローアクティビティ内にルールを適用します。[詳しくは、ワークフローアクティビティを参照してください。](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作中にショートカットとして機能する定義済みフィルターを作成します。[詳しくは、定義済みフィルターの操作方法を参照してください。](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **レポートデータのフィルタリング**：レポートに表示されるデータをフィルタリングするルールを追加します。[詳しくは、レポートの操作方法を参照してください。](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **リストのカスタマイズ**：受信者、配信リストなどのリストに表示されるデータをフィルタリングするカスタムルールを作成します。[詳しくは、リストをフィルターする方法を参照してください。](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **条件付きコンテンツの作成**：様々な受信者に表示するコンテンツを定義する条件を作成することで、メールコンテンツを動的にします。これにより、パーソナライズされた、関連性の高いメッセージを確実に作成できます。[詳しくは、条件付きコンテンツの作成方法を参照してください。](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
 >オーディエンスや定義済みフィルターなどのルールが適用されているクライアントコンソールで作成したオブジェクトにアクセスすると、「**[!UICONTROL ターゲットを絞り込む]**」セクションが表示される場合があります。つまり、ルールのターゲットを絞り込むために追加のパラメーターが設定されています。これらのパラメーターは、コンソールでのみ変更できます。
 >
->![](assets/target-warning.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## クエリモデラーインターフェイス {#interface}
 
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
 >title="新しいユーザーエクスペリエンス"
->abstract="Use this toggle to switch between the classic query modeler and the new rule builder experience."
+>abstract="この切替スイッチを使用して、従来のクエリモデラーと新しいルールビルダーエクスペリエンスを切り替えます。"
 
 クエリモデラーは、クエリを作成する中央のキャンバスと、クエリに関する情報を示す右側のパネルを提供します。
 
-![](assets/query-interface.png){zoomable="yes"}{zoomable=&quot;yes&quot;}
+![](assets/query-interface.png){zoomable="yes"}
 
 ### 中央のキャンバス {#canvas}
 
