@@ -3,13 +3,12 @@ audience: end-user
 title: 最初のメールを送信
 description: Campaign web UI で最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
+source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 99%
+source-wordcount: '1626'
+ht-degree: 66%
 
 ---
-
 
 # 最初のメールを作成 {#first-email}
 
@@ -29,20 +28,20 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="メールテンプレートの選択"
->abstract="メールテンプレートは、タイポロジルール、パーソナライゼーション、ルーティングパラメーターなど、事前定義された設定を含む特定の配信設定です。テンプレートは、Campaign クライアントコンソールで定義されます。"
+>abstract="メールテンプレートは、タイポロジルール、パーソナライゼーション、ルーティングパラメーターなど、事前定義された設定を含む特定の配信設定です。 テンプレートは、Campaign クライアントコンソールで定義されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
 >title="メールプロパティの定義"
->abstract="プロパティは、配信の名前付けや分類に役立つ一般的な配信パラメーターです。追加の設定はオプションです。配信が Adobe Campaign v8 コンソールで定義された拡張スキーマに基づいている場合は、いくつかの特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。"
+>abstract="プロパティは、配信の名前付けと分類に役立つ一般的な配信パラメーターです。 追加の設定はオプションです。配信が Adobe Campaign v8 コンソールで定義された拡張スキーマに基づいている場合は、いくつかの特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。"
 
 スタンドアロンのメール配信を作成することも、キャンペーンワークフローのコンテキストでメールを作成することもできます。以下の手順では、スタンドアロン（1 回限りの）メール配信の手順について説明します。Adobe Campaign での配信作成の手順について詳しくは、[このページ](../msg/gs-deliveries.md)を参照してください。
 
 新しいスタンドアロンのメール配信を作成するには、次の手順に従います。
 
-1. 左側のナビゲーションの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
+1. 左側のパネルの **[!UICONTROL 配信]** メニューを参照し、「**[!UICONTROL 配信を作成]**」ボタンをクリックします。
 
-   ![](../msg/assets/create-a-delivery.png)
+   ![ 配信メニューの「配信を作成」ボタンを示すスクリーンショット ](../msg/assets/create-a-delivery.png)
 
 1. 「**[!UICONTROL メール]**」をチャネルとして選択し、リストからメール配信テンプレートを選択します。
 
@@ -50,7 +49,7 @@ ht-degree: 99%
    >
    >テンプレートは、後で使用するために保存された、事前設定済みの配信設定です。[詳細情報](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png){zoomable="yes"}
+   ![ メールチャネルとテンプレートの選択を示すスクリーンショット ](assets/channel-template.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 配信を作成]**」ボタンをクリックして、確定します。
 1. 配信のラベルを入力し、必要に応じて追加のオプションを設定します。
@@ -65,9 +64,9 @@ ht-degree: 99%
    >
    >特定のカスタムフィールドを使用してスキーマを拡張した場合は、 「**[!UICONTROL カスタムオプション]**」セクションでそれらのフィールドにアクセスできます。
 
-   ![](assets/email-properties.png){zoomable="yes"}
+   ![ メールのプロパティ設定を示すスクリーンショット ](assets/email-properties.png){zoomable="yes"}
 
-1. また、画面右上にある「**[!UICONTROL 設定]**」ボタンから、タイポロジルールやターゲットマッピングなどの詳細設定にアクセスできます。これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。[詳細情報](../advanced-settings/delivery-settings.md)
+1. また、画面右上にある「**[!UICONTROL 設定]**」ボタンから、タイポロジルールやターゲットマッピングなどの詳細設定にアクセスできます。これらの設定は、選択したテンプレートで事前に設定されていますが、この特定のメールの必要に応じて編集できます。 [詳細情報](../advanced-settings/delivery-settings.md)
 
 ## オーディエンスを定義 {#define-audience}
 
@@ -86,15 +85,15 @@ ht-degree: 99%
 
    この例では、シルバーおよびゴールドのロイヤルティポイントレベルに属する顧客をターゲティングする既存のオーディエンスを使用します。
 
-   ![](assets/create-audience.png){zoomable="yes"}
+   ![ オーディエンス選択プロセスを示すスクリーンショット ](assets/create-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >リストで使用可能なオーディエンスは、Campaign v8 インスタンスから、またはインスタンスに宛先／ソースの統合が設定されている場合は Adobe Experience Platform から作成されます。この統合により、Experience Platform セグメントを Adobe Campaign に送信したり、キャンペーンの配信とトラッキングログを Adobe Experience Platform に送信したりできます。Campaign と Adobe Experience Platform の操作方法については、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
+   >リストで使用可能なオーディエンスは、Campaign v8 インスタンスから、またはインスタンスに宛先とAdobe Experience Platformの統合が設定されている場合はSourceから作成されます。 この統合により、Experience Platform セグメントをAdobe Campaignに送信したり、キャンペーンの配信ログとトラッキングログをAdobe Experience Platformに送信したりできます。 Campaign とAdobe Experience Platformの操作方法については、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"} を参照してください。
 
 1. オーディエンスを選択したら、追加のルールを適用してターゲットを絞り込むことができます。
 
-   ![](assets/audience-selected.png){zoomable="yes"}
+   ![ オーディエンスの絞り込みプロセスを示すスクリーンショット ](assets/audience-selected.png){zoomable="yes"}
 
 1. またコントロール母集団を設定して、ターゲットとならなかったユーザーと比較してメール受信者の行動を分析することもできます。[詳しくは、コントロール母集団の操作方法を参照してください](../audience/control-group.md)
 
@@ -106,31 +105,31 @@ ht-degree: 99%
 
 1. メール配信ダッシュボードで、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
-   ![](assets/email-edit-content.png){zoomable="yes"}
+   ![ 「コンテンツを編集」ボタンを示すスクリーンショット ](assets/email-edit-content.png){zoomable="yes"}
 
    これにより、メールコンテンツを設定し、E メールデザイナーをアクセスできる専用のインターフェイスが表示されます。[詳細情報](edit-content.md)
 
-   ![](assets/edit-content.png){zoomable="yes"}
+   ![ メールDesignerインターフェイスを示すスクリーンショット ](assets/edit-content.png){zoomable="yes"}
 
-1. メールの件名を入力し、式エディターを使用してパーソナライズします。詳しくは、[コンテンツをパーソナライズする方法](../personalization/personalize.md)を参照してください。
+1. メールの件名を入力し、式エディターを使用してパーソナライズします。 詳しくは、[コンテンツをパーソナライズする方法](../personalization/personalize.md)を参照してください。
 
-   ![](assets/subject-line.png){zoomable="yes"}
+   ![ 件名行の設定を示すスクリーンショット ](assets/subject-line.png){zoomable="yes"}
 
 1. メールのコンテンツをデザインするには、「**[!UICONTROL メール本文を編集]**」ボタンをクリックします。
 
    メールコンテンツの作成に使用する方法を選択します。この例では、[事前定義済みのコンテンツテンプレートを使用します](create-email-templates.md)。
 
-   ![](assets/select-template.png){zoomable="yes"}
+   ![ 事前定義済みのコンテンツテンプレートの選択を示すスクリーンショット ](assets/select-template.png){zoomable="yes"}
 
 1. テンプレートを選択すると、[E メールデザイナー](create-email-content.md)に表示され、必要な編集を加えたり、パーソナライゼーションを追加したりできます。
 
-   例えば、パーソナライゼーションをメールタイトルに追加するには、コンポーネントブロックを選択し、「**[!UICONTROL パーソナライゼーションを追加]**」をクリックします。
+   例えば、パーソナライゼーションをメールタイトルに追加するには、コンポーネントブロックを選択し、「**[!UICONTROL Personalizationを追加]**」をクリックします。
 
-   ![](assets/add-perso.png){zoomable="yes"}
+   ![ パーソナライゼーションプロセスを示すスクリーンショット ](assets/add-perso.png){zoomable="yes"}
 
 1. コンテンツの設定が完了したら、デザインを保存して閉じます。「**[!UICONTROL 保存]**」をクリックして、メール作成画面に戻ります。
 
-   ![](assets/save-content.png){zoomable="yes"}
+   ![ 「保存」ボタンを示したスクリーンショット ](assets/save-content.png){zoomable="yes"}
 
 ## 送信のスケジュール設定 {#schedule}
 
@@ -142,7 +141,7 @@ ht-degree: 99%
 
 1. 送信する日時を設定します。
 
-   ![](assets/schedule.png){zoomable="yes"}
+   ![ スケジュール設定を示すスクリーンショット ](assets/schedule.png){zoomable="yes"}
 
 配信を送信すると、実際の送信は、定義した連絡日に開始されます。
 
@@ -154,13 +153,13 @@ ht-degree: 99%
 
 このユースケースでは、ターゲットプロファイルの一部を偽装して、メールをプレビューし、特定のメールアドレスに本配信前確認を送信します。
 
-メールのプレビューと本配信前確認の送信方法に関する追加情報については、[この節](../preview-test/preview-test.md)を参照してください。
+メールのプレビュー方法と配達確認の送信方法に関する追加情報については、[ この節 ](../preview-test/preview-test.md) を参照してください。
 
-1. メールを確認するには、「**[!UICONTROL 確認して送信]**」をクリックします。これによりメールのプレビューが、設定済みのすべてのプロパティ、オーディエンス、スケジュールと共に表示されます。「変更」ボタンをクリックして、これらの要素を編集できます。
+1. メールを確認するには、「**[!UICONTROL 確認して送信]**」をクリックします。これにより、メールのプレビューが、設定済みのすべてのプロパティ、オーディエンス、スケジュールと共に表示されます。 「変更」ボタンをクリックして、これらの要素を編集できます。
 
 1. メールをプレビューして本配信前確認を送信するには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
-   ![](assets/review-email.png){zoomable="yes"}
+   ![ 「コンテンツをシミュレート」ボタンを示したスクリーンショット ](assets/review-email.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -170,30 +169,30 @@ ht-degree: 99%
 
    右側のパネルに選択したプロファイルに基づくメールのプレビューが表示されます。 複数のプロファイルを追加した場合は、それぞれを切り替えて対応するメールをプレビューできます。
 
-   ![](assets/preview.png){zoomable="yes"}
+   ![ 選択したプロファイルに基づくメールのプレビューを示すスクリーンショット ](assets/preview.png){zoomable="yes"}
 
-   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. 本配信前確認を送信するには、「**[!UICONTROL 本配信前確認を送信]**」ボタンをクリックして、使用するモードを選択します。
+1. 配達確認を送信するには、「**[!UICONTROL 配達確認を送信]**」ボタンをクリックして、使用するモードを選択します。
 
    この例では、**[!UICONTROL メインターゲットから代用]**&#x200B;モードを使用し、メールのターゲットプロファイルの一部を偽装して、特定のメールアドレスに本配信前確認を送信します。
 
-   ![](assets/proof-mode.png){zoomable="yes"}
+   ![ プルーフ送信モードの選択を示すスクリーンショット ](assets/proof-mode.png){zoomable="yes"}
 
-1. 「**[!UICONTROL アドレスを追加]**」をクリックして、本配信前確認を受信するメールアドレスを指定します。
+1. **[!UICONTROL アドレスを追加]** をクリックし、配達確認を受信するメールアドレスを指定します。
 
    メールアドレスごとに、別のユーザーとして実行するプロファイルを選択します。また、ターゲットからランダムなプロファイルを Adobe Campaign に選択させることもできます。
 
-   ![](assets/proof-test-profile.png){zoomable="yes"}
+   ![ 配達確認のメールアドレスの追加を示すスクリーンショット ](assets/proof-test-profile.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 本配信前確認を送信]**」をクリックし、送信を確認します。
+1. **[!UICONTROL 配達確認を送信]** をクリックし、送信を確認します。
 
    本配信前確認は、選択したプロファイルに **[Proof x]** という接頭辞を付けて使用し、指定したメールアドレスに送信されます。
 
-   ![](assets/proof-sent.png){zoomable="yes"}
+   ![ 配達確認の送信の確認を示すスクリーンショット ](assets/proof-sent.png){zoomable="yes"}
 
-   コンテンツをシミュレート画面の「**[!UICONTROL 本配信前確認を表示]**」ボタンをクリックすると、いつでも送信ステータスを確認したり、送信済みの本配信前確認にアクセスしたりできます。
+   コンテンツをシミュレート画面の「**[!UICONTROL 配達確認を表示]**」ボタンをクリックすると、送信ステータスの確認や送信済みの配達確認にいつでもアクセスできます。
 
 ### コンテンツシミュレーションの制限事項 {#content-simulation-limitations}
 
@@ -232,22 +231,22 @@ ht-degree: 99%
 
 1. メールの準備を開始するには、「**[!UICONTROL 準備]**」をクリックします。[詳しくは、メールの準備方法を参照してください](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png){zoomable="yes"}
+   ![ 「準備」ボタンを示したスクリーンショット ](assets/preparation.png){zoomable="yes"}
 
-1. メールを送信する準備が整ったら、「**[!UICONTROL 送信]**」ボタン（送信をスケジュールしている場合は「**[!UICONTROL スケジュールどおりに送信]**」）をクリックして、送信を確認します。
+1. メールを送信する準備が整ったら、「**[!UICONTROL 送信]** ボタン（送信をスケジュールしている場合は **[!UICONTROL スケジュールどおりに送信]**）をクリックして、送信を確認します。
 
 1. 送信プロセス中に、この画面で進行状況をリアルタイムで追跡し、統計を直接表示できます。
 
-   ![](assets/sending-email.png){zoomable="yes"}
+   ![ メール送信の進行状況を示すスクリーンショット ](assets/sending-email.png){zoomable="yes"}
 
    <!--
-    ![](assets/sent-email.png){zoomable="yes"}-->
+    ![Screenshot showing the email sent confirmation](assets/sent-email.png){zoomable="yes"}-->
 
    また、「**[!UICONTROL ログ]**」ボタンをクリックして、送信に関する詳細情報にアクセスできます。[詳しくは、配信ログの監視方法を参照してください](../monitor/delivery-logs.md)
 
 1. メール送信後、「**[!UICONTROL レポート]**」ボタンをクリックすると、専用のレポートにアクセスしてさらに詳しく分析できます。
 
-![](assets/reports.png){zoomable="yes"}
+![ 「レポート」ボタンを示したスクリーンショット ](assets/reports.png){zoomable="yes"}
 
 ## チュートリアルビデオ {#video}
 

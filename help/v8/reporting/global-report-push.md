@@ -3,18 +3,18 @@ audience: end-user
 title: プッシュチャネルのグローバルレポート
 description: プッシュチャネルのグローバルレポートについて
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 94%
+source-wordcount: '600'
+ht-degree: 71%
 
 ---
 
 # プッシュチャネルのグローバルレポート {#campaign-reports-push}
 
-グローバルレポートでは、チャネルレベルでのトラフィック指標とエンゲージメント指標の包括的な概要をユーザーに提供します。
+グローバルレポートでは、トラフィックとエンゲージメントの指標の包括的な概要をチャネルレベルでユーザーに提供します。
 
-**[!UICONTROL レポート]**&#x200B;セクション内の「**[!UICONTROL レポート]**」メニューに移動します。レポートの日付、フォルダーまたはルールに応じて、データをフィルタリングできます。[詳細情報](global-reports.md)
+**[!UICONTROL レポート]**&#x200B;セクション内の「**[!UICONTROL レポート]**」メニューに移動します。レポートの日付、フォルダー、ルールに応じて、データをフィルタリングできます。 [詳細情報](global-reports.md)
 
 ## 配信の概要 {#delivery-summary-push}
 
@@ -27,7 +27,7 @@ ht-degree: 94%
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートは、すべてのプッシュ通知配信に対する訪問者のエンゲージメントの詳細を示す主要業績評価指標（KPI）を提供します。指標については、以下で詳しく説明します。
 
-![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+![ 配信の概要指標。プッシュ通知のパフォーマンスに関連する KPI を表示します。](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++配信の概要指標の詳細情報
 
@@ -37,7 +37,7 @@ ht-degree: 94%
 
 * **[!UICONTROL 合計クリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 
-* **[!UICONTROL エラー数]**：配信と自動返信処理の間に、送信されたメッセージの合計数に関して累積したエラーの合計数。
+* **[!UICONTROL エラー]**：送信されたメッセージの合計数に対して、配信および自動返信処理の間に蓄積されたエラーの合計数。
 
 +++
 
@@ -50,7 +50,7 @@ ht-degree: 94%
 
 **[!UICONTROL ターゲットオーディエンス]**&#x200B;テーブルおよびグラフには、送信済みの各プッシュ通知配信の受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
 
-![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![ プッシュ通知の受信者および除外に関連するデータを表示する、ターゲットオーディエンス指標 ](assets/global_report_push_targeted_audience.png){zoomable="yes"}。
 
 +++ターゲットオーディエンス指標の詳細情報
 
@@ -58,7 +58,7 @@ ht-degree: 94%
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
-* **[!UICONTROL 除外]**：ルール（アドレスが不明、強制隔離された、ブロックリストに登録されているなど）を適用する際、分析中に無視されたアドレスの合計数。
+* **[!UICONTROL 除外]**：ルール（アドレスが不明、強制隔離された、ブロックリスト上など）を適用する際、分析中に無視されたアドレスの合計数。
 
 +++
 
@@ -71,7 +71,7 @@ ht-degree: 94%
 
 **[!UICONTROL 配信統計]**&#x200B;グラフには、すべてのプッシュ配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
 
-![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+![ プッシュ通知の成功率、エラーおよび強制隔離を表示する配信統計指標 ](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++配信統計指標の詳細情報
 
@@ -79,7 +79,7 @@ ht-degree: 94%
 
 * **[!UICONTROL 成功]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
 
-* **[!UICONTROL エラー数／バウンス数]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
+* **[!UICONTROL エラー/バウンス]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して蓄積されたエラーの合計数。
 
 * **[!UICONTROL 新しい強制隔離]**：配信の失敗後（無効な登録、メッセージの却下、ペイロードエラーなど）、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
 
@@ -105,6 +105,6 @@ ht-degree: 94%
 >title="配信スループットレポート"
 >abstract="**配信スループット**&#x200B;レポートには、指定した期間内のプラットフォーム全体のプッシュ通知配信スループットに関する詳細情報が表示されます。"
 
-![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![ 指定した期間のプッシュ通知の成功率とエラー率を示す配信スループット指標 ](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 **[!UICONTROL 配信スループット]**&#x200B;レポートには、プッシュ通知配信システムの効果に関する包括的なインサイトが表示され、指定された期間における成功率とエラー率の詳細な概要が示されます。

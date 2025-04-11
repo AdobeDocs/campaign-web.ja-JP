@@ -3,12 +3,13 @@ audience: end-user
 title: 分岐ワークフローアクティビティの使用
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 58%
 
 ---
+
 
 # 分岐 {#fork}
 
@@ -17,7 +18,6 @@ ht-degree: 100%
 >title="「分岐」アクティビティ"
 >abstract="**分岐**&#x200B;アクティビティを使用すると、アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。"
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_fork_transitions"
 >title="分岐アクティビティのトランジション"
@@ -25,21 +25,21 @@ ht-degree: 100%
 
 **分岐**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。
 
-## 分岐アクティビティの設定{#fork-configuration}
+## 分岐アクティビティの設定 {#fork-configuration}
 
 次の手順に従って、**分岐**&#x200B;アクティビティを設定します。
 
-![](../assets/workflow-fork.png)
+![ ワークフロー分岐アクティビティ設定のスクリーンショット ](../assets/workflow-fork.png)
 
 1. **分岐**&#x200B;アクティビティをワークフローに追加します。
 1. **トランジションを追加**&#x200B;をクリックし、新しいアウトバウンドトランジションを追加します。デフォルトでは、2 つのトランジションが定義されています。
 1. 各トランジションにラベルを追加します。
 
-## 例{#fork-example}
+## 例 {#fork-example}
 
-次の例では、2 つの&#x200B;**分岐**&#x200B;アクティビティを使用しています。
+次の例では、2 つの **分岐** アクティビティを使用しています。
 
 * 2 つのクエリの前にある 1 つのクエリは、同時に実行されます。
 * 積集合の後の 1 つは、ターゲット母集団にメールと SMS を同時に送信します。
 
-![](../assets/workflow-fork-example.png)
+![ ワークフロー分岐の例のスクリーンショット ](../assets/workflow-fork-example.png)

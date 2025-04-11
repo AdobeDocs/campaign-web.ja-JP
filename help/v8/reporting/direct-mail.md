@@ -3,16 +3,16 @@ audience: end-user
 title: ダイレクトメールレポート
 description: ダイレクトメールレポートへのアクセス方法と使用方法について説明します。
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 100%
+source-wordcount: '678'
+ht-degree: 41%
 
 ---
 
 # ダイレクトメール配信レポート {#direct-mail-report}
 
-**ダイレクトメール配信レポート**&#x200B;では、ダイレクトメール配信に固有の包括的なインサイトとデータが提供されます。個々の配信のパフォーマンス、有効性、結果に関する詳細情報が提供され、包括的な概要が得られます。
+**ダイレクトメール配信レポート** は、ダイレクトメール配信に固有の包括的なインサイトとデータを提供します。 個々の配信のパフォーマンス、有効性、結果に関する詳細情報が含まれ、完全な概要が提供されます。
 
 ## 配信の概要 {#delivery-summary-direct-mail}
 
@@ -23,17 +23,15 @@ ht-degree: 100%
 >title="配信の概要"
 >abstract="**配信の概要**&#x200B;には、各ダイレクトメール配信における訪問者のインタラクションに関する詳細なインサイトを提供する主要業績評価指標（KPI）が表示されます。指標の概要を以下に示します。"
 
-**[!UICONTROL 配信の概要]**&#x200B;では、訪問者が各ダイレクトメール配信とどのようにやり取りするかに関する詳細なインサイトが提供され、重要な主要業績評価指標（KPI）が表示されます。指標の概要を以下に示します。
+**[!UICONTROL 配信の概要]** は、各ダイレクトメール配信との訪問者のインタラクションに関する詳細なインサイトを提供し、重要な主要業績評価指標（KPI）を示します。 指標の概要を以下に示します。
 
-![](assets/direct-overview.png){zoomable="yes"}{align="center"}
+![ ダイレクトメール配信の主要なパフォーマンス指標を示す配信の概要指標グラフ。](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
 +++配信の概要指標の詳細情報
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
-
-* **[!UICONTROL ターゲット]**：ダイレクトメールメッセージのターゲットプロファイルとして選定されるユーザープロファイルの数。
-
-* **[!UICONTROL 除外する]**：ターゲットプロファイルから除外され、ダイレクトメールメッセージを受信しないユーザープロファイルの数。
+* **[!UICONTROL ターゲット]**：ダイレクトメールメッセージのターゲットプロファイルとして認定されるユーザープロファイルの数。
+* **[!UICONTROL 除外対象]**：ターゲットプロファイルから除外され、ダイレクトメールメッセージを受信しないユーザープロファイルの数。
 +++
 
 ### 初期ターゲット母集団 {#direct-mail-delivery-targeted-population}
@@ -43,20 +41,18 @@ ht-degree: 100%
 >title="初期ターゲット母集団"
 >abstract="**初期ターゲット母集団**&#x200B;グラフには、配信準備の結果に基づいて、受信者とメッセージに関するデータが表示されます。"
 
-**[!UICONTROL 初期ターゲット母集団]**&#x200B;グラフには、受信者に関するデータが表示されます。指標は配信の準備中に計算され、初期オーディエンス、送信するメッセージの数、除外された受信者の数を示します。
+**[!UICONTROL 初期ターゲット母集団]** グラフには、受信者に関連するデータが表示されます。 指標は配信の準備中に計算され、初期オーディエンス、送信するメッセージの数、除外された受信者の数が含まれます。
 
-![](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
+![ オーディエンスサイズ、送信するメッセージおよび除外を示す初期ターゲット母集団グラフ。](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
 
-グラフの一部にマウスを合わせると、正確な数が表示されます。
+グラフの一部にマウスを移動すると、正確な数値が表示されます。
 
-![](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
+![ ホバー機能を使用した初期ターゲット母集団グラフの詳細ビュー。](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
 +++詳しくは、ダイレクトメール配信レポート指標を参照してください。
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
-
 * **[!UICONTROL 配信]**：配信準備の後に配信されるメッセージの合計数。
-
 * **[!UICONTROL 除外]**：ターゲット母集団から除外された受信者の合計数。
 +++
 
@@ -67,20 +63,16 @@ ht-degree: 100%
 >title="配信統計"
 >abstract="**配信統計**&#x200B;グラフには、ダイレクトメール配信の成功と発生したエラーの詳細が表示されます。"
 
-**[!UICONTROL 配信統計]**&#x200B;グラフは、配信パフォーマンスの包括的な概要と、成功度と有効性を評価するための詳細な指標を提供します。
+**[!UICONTROL 配信統計]** グラフでは、配信パフォーマンスの概要が表示され、成功と有効性を測定するための詳細な指標が提供されます。
 
-![](assets/direct-mail-delivery-stats.png){zoomable="yes"}
+![ 成功率、エラー、強制隔離を示す配信統計グラフ ](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
 +++詳しくは、ダイレクトメールキャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL 送信済みメッセージ]**：配信準備の後に配信されるメッセージの合計数。
-
-* **[!UICONTROL 成功]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
-
-* **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に、配信されるメッセージ数に関して累積したエラーの合計数。
-
-* **[!UICONTROL 新しい強制隔離]**：配信されるメッセージ数に関して、配信の失敗後（不明なユーザー、無効なドメイン）に強制隔離されたアドレスの合計数。
-
+* **[!UICONTROL 成功]**：配信されるメッセージ数に対して、正常に処理されたメッセージ数、
+* **[!UICONTROL エラー]**：配信と自動リバウンド処理の間に蓄積された、配信されるメッセージ数に対するエラーの合計数。
+* **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメインなど）に強制隔離されたアドレスの、配信されるメッセージ数に対する合計数。
 +++
 
 ### 除外の理由 {#direct-mail-delivery-exclusions}
@@ -88,28 +80,21 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_causes_exclusion_direct_mail"
 >title="配信の除外の理由"
->abstract="**除外の理由**&#x200B;グラフは、配信の準備中に却下されたメッセージの配分を各ルール別に分類したものです。"
+>abstract="**除外の理由**&#x200B;グラフには、配信の準備中に却下されたメッセージの配分がルールごとに分類されて表示されます。"
 
-**[!UICONTROL 除外の理由]**&#x200B;グラフでは、配信準備のプロセス中にメッセージが却下される背後にある理由の詳細な分類を表示します。この分類は、様々なルールに従って整理され、メッセージの除外につながる要因を包括的に把握できます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types)を参照してください。
+**[!UICONTROL 除外の原因]** グラフには、配信の準備中にメッセージが却下された理由の分類が表示されます。 この分類は、様々なルール別に整理され、メッセージの除外に貢献する要因の詳細なビューを提供します。 除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types)を参照してください。
 
-![](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
+![ ルール別に却下されたメッセージの分布を示す除外の原因グラフ ](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++詳しくは、除外の理由指標を参照してください。
 
-* **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離に置かれた場合に生成されるエラータイプ。
-
-* **[!UICONTROL アドレスが未指定]**：配信の送信時に生成され、アドレスが存在しないことを示すエラータイプ。
-
+* **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離される際に生成されるエラータイプ。
+* **[!UICONTROL アドレスが指定されていません]**：アドレスが存在しない場合に生成されるエラータイプ。
 * **[!UICONTROL 低品質のアドレス]**：郵送先住所の品質評価が低すぎる場合に生成されるエラータイプ。
-
-* **[!UICONTROL ブロックリスト登録済みアドレス]**：配信実行時に受信者がブロックリストに登録されていた場合に生成されるエラータイプ。
-
-* **[!UICONTROL 重複]**：受信者のキー値が一意でなかったので、受信者が除外された場合に生成されるエラータイプ。
-
+* **[!UICONTROL ブロックリストに加えるアドレス]**：受信者が配信中にブロックリストに加えるされたときに生成されたエラータイプ。
+* **[!UICONTROL Double]**：一意でないキー値が原因で受信者が除外された場合に生成されるエラータイプ。
 * **[!UICONTROL コントロール母集団]**：受信者のアドレスはコントロール母集団に含まれています。
-
 * **[!UICONTROL サイズが制限されたターゲット]**：受信者に対する最大配信サイズに達しました。
-
 +++
 
 ### 除外 {#direct-mail-exclusions}
@@ -119,8 +104,8 @@ ht-degree: 100%
 >title="除外"
 >abstract="**[!UICONTROL 除外]**&#x200B;テーブルには、配信準備プロセス中に却下されたメッセージの詳細な分類がルール別に表示されます。"
 
-**[!UICONTROL 除外]**&#x200B;テーブルには、配信の準備フェーズで却下されたメッセージを特定のルールで分類した詳細を提供します。この包括的な分類により、これらのメッセージが配信プロセスから除外される理由を明確に理解できます。
+**[!UICONTROL 除外]** テーブルには、配信の準備中に却下されたメッセージの詳細な分類が、特定のルール別に分類されて表示されます。 この分類により、メッセージ除外の背後にある理由を明確に理解できます。
 
-![](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
+![ 却下されたメッセージの詳細な分類をルール別に示した除外表。](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 使用可能な指標は、上記の[除外の理由](#direct-mail-delivery-exclusions)の指標と同じです。

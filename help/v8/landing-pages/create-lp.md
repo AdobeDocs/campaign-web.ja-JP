@@ -3,21 +3,22 @@ title: ランディングページの作成
 description: Campaign web でランディングページを設定して公開する方法について説明します
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
+source-git-commit: bd938c3e2046123a9a9c6b64890bf41d0c272d4d
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 100%
+source-wordcount: '1731'
+ht-degree: 73%
 
 ---
+
 
 # ランディングページの作成と公開 {#create-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="ランディングページの作成と管理"
->abstract="Adobe Campaign では、ランディングページを作成、デザイン、共有して、ビルトインテンプレートに基づいて、獲得、購読／購読解除およびブロックリストのユースケースを管理することで、オンライン web ページにユーザーを誘導できます。"
+>abstract="Adobe Campaignブロックリストに加えるでは、ランディングページを作成、デザインおよび共有して、ユーザーをオンライン web ページに誘導できます。この web ページでは、組み込みテンプレートに基づいて、獲得、購読/購読解除、ユースケースを管理できます。"
 
-Campaign web ユーザーインターフェイスを使用すると、ランディングページの作成、デザインおよび公開することができます。公開されたら、配信でフォームへのリンクを挿入できます。受信者がそのリンクをクリックすると、対応するランディングページに移動します。
+Campaign web ユーザーインターフェイスを使用すると、ランディングページの作成、デザインおよび公開することができます。公開後、配信にフォームへのリンクを挿入できます。 受信者がそのリンクをクリックすると、対応するランディングページに移動します。
 
 [!DNL Adobe Campaign] には、**獲得**、**購読**、**登録解除**、**ブロックリスト**&#x200B;のユースケースを管理するための、4 つのテンプレートが付属しています。[詳細情報](lp-use-cases.md)
 
@@ -25,15 +26,14 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 ランディングページリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL キャンペーン管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
 
-![](assets/lp-inventory.png){zoomable="yes"}
+![Campaign web インターフェイスのランディングページインベントリを示すスクリーンショット。](assets/lp-inventory.png){zoomable="yes"}
 
 **[!UICONTROL ランディングページ]**&#x200B;インベントリには、作成したすべての項目が表示されます。「**[!UICONTROL フィルターを表示]**」ボタンを使用してフィルタリングできます。
 
-* 作成または変更した項目をフィルタリングできます。
+* 作成または変更した項目をフィルターできます。
+* ドロップダウンリストを使用して結果を特定の [ フォルダー ](../get-started/permissions.md#folders) に制限するか、[ クエリモデラー ](../query/query-modeler-overview.md) を使用してルールを追加できます。
 
-* ドロップダウンリストを使用して結果を特定の[フォルダー](../get-started/permissions.md#folders)に制限したり、[クエリモデラー](../query/query-modeler-overview.md)を使用してルールを追加したりできます。
-
-![](assets/lp-inventory-filter.png){zoomable="yes"}
+![ ランディングページインベントリのフィルターオプションを示したスクリーンショット。](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
@@ -55,12 +55,12 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="各ページのコンテンツの定義"
->abstract="フォーム自体、フォームの送信時に表示される確認ページ、エラーが発生した場合にユーザーがリダイレクトされるページなど、このランディングページの一部である各ページのコンテンツを調整します。"
+>abstract="このランディングページに含まれる各ページのコンテンツ（フォーム自体、フォームの送信時に表示される確認ページ、エラーが発生した場合に表示されるページのユーザーなど）を調整します。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="ランディングページのスケジュール"
->abstract="ランディングページの開始日と終了日を定義できます。ページが有効期間の終わりに達すると、フォームは使用できなくなります。その代わりに、**有効期限**&#x200B;のページが表示されます。"
+>abstract="ランディングページの開始日と終了日を定義します。 ページが有効期間の終わりに達すると、フォームは使用できなくなります。その代わりに、**有効期限**&#x200B;のページが表示されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
@@ -82,15 +82,15 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 1. **[!UICONTROL ランディングページ]**&#x200B;の在庫から、「**[!UICONTROL ランディングページを作成]**」をクリックします。
 
-   ![](assets/lp-create-button.png){zoomable="yes"}
+   ![ 「ランディングページを作成」ボタンを示したスクリーンショット。](assets/lp-create-button.png){zoomable="yes"}
 
 1. 次からテンプレートを選択します。
    * **[!UICONTROL 獲得]**：ランディングページのデフォルトテンプレートで、これを使用すると、プロファイルデータを取得および更新できます。
    * **[!UICONTROL 購読]**：ユーザーが特定の[サービス](../audience/manage-services.md)に登録できるようにするには、このテンプレートを使用します。
-   * **[!UICONTROL 登録解除]**：サービスのサブスクライバー宛に配信されたメールで使用できるテンプレートで、これを使用してサブスクライバーは、その[サービス](../audience/manage-services.md)を登録解除できます。
-   * **[!UICONTROL ブロックリスト]**：プロファイルが配信されたメールのオプトアウトリンクをクリックして、今後の連絡を希望しない場合に使用されるテンプレートです。
+   * **[!UICONTROL 購読解除]**：このテンプレートは、サービスの購読者に送信される配信で使用すると、この [ サービス ](../audience/manage-services.md) の購読を解除できます。
+   * **[!UICONTROL ブロックリスト]**：このテンプレートは、プロファイルが配信のオプトアウトリンクをクリックし、連絡を希望しない場合に使用する必要があります。
 
-   ![](assets/lp-templates.png){zoomable="yes"}
+   ![ ランディングページテンプレートを示したスクリーンショット。](assets/lp-templates.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -100,39 +100,37 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 1. ラベルなどの&#x200B;**[!UICONTROL プロパティ]**&#x200B;フィールドに入力します。
 
-   デフォルトでは、ランディングページは **[!UICONTROL web アプリケーション]**&#x200B;フォルダーに保存されます。**[!UICONTROL その他のオプション]**&#x200B;で目的の場所を参照して変更できます。[詳しくは、フォルダーの操作方法を参照してください](../get-started/permissions.md#folders)
+   デフォルトでは、ランディングページは **[!UICONTROL web アプリケーション]**&#x200B;フォルダーに保存されます。**[!UICONTROL その他のオプション]**&#x200B;で目的の場所を参照して変更できます。[ フォルダーの操作方法については、こちらを参照してください ](../get-started/permissions.md#folders)。
 
-   また、ランディングページを保護するために Captcha を設定することもできます。[詳しくは、こちらを参照してください](#captcha)。
+   また、ランディングページを保護するために Captcha を設定することもできます。 [詳しくは、こちらを参照してください](#captcha)。
 
-   ![](assets/lp-properties.png){zoomable="yes"}
+   ![ ランディングページのプロパティセクションを示したスクリーンショット。](assets/lp-properties.png){zoomable="yes"}
 
-1. 「**[!UICONTROL データの事前ロード]**」セクションでは、次の 2 つのオプションを使用できます。
+1. **[!UICONTROL データのプリロード]** セクションでは、次のオプションを使用できます。
 
-   * 「**[!UICONTROL フォームで参照されるデータを事前入力]**」のオプションを選択したときに、ランディングページの訪問者がデータベースのプロファイルと一致する場合、プロファイルの情報がフォームに自動的に事前ロードされます。ユーザーは、未入力のフィールドに入力し、必要に応じて既存の値を更新するだけです。これにより、重複を作成する代わりに、既存のプロファイルのデータを結合できます。
+   * 「**[!UICONTROL フォームで参照されるデータを事前入力]**」のオプションを選択したときに、ランディングページの訪問者がデータベースのプロファイルと一致する場合、プロファイルの情報がフォームに自動的に事前ロードされます。ユーザーは、不足しているフィールドに入力し、必要に応じて既存の値を更新するだけです。 これにより、重複を作成する代わりに、既存のプロファイルのデータを結合できます。
 
      >[!NOTE]
      >
      >このオプションは、すべてのランディングページテンプレートに対してデフォルトで選択されます。
 
-   <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
-
-   * 「**[!UICONTROL ID が存在しないことを承認]**」オプションを使用すると、すべての訪問者がランディングページにアクセスできます。このオプションを選択解除すると、匿名訪問者はこのオプションを使用できなくなります。つまり、識別されたユーザーのみがフォームにアクセスして送信できます。
+   * 「**[!UICONTROL ID が存在しないことを承認]**」オプションを使用すると、すべての訪問者がランディングページにアクセスできます。このオプションの選択を解除すると、匿名の訪問者はフォームを使用できなくなります。つまり、識別されたユーザーのみがフォームにアクセスして送信できます。
 
      >[!AVAILABILITY]
      >
      >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
-     **[!UICONTROL 獲得]**&#x200B;と&#x200B;**[!UICONTROL 購読]**&#x200B;のテンプレートの場合、このオプションはデフォルトで選択されます。**[!UICONTROL 購読解除]**&#x200B;と&#x200B;**[!UICONTROL ブロックリスト]**&#x200B;のテンプレートの場合、このオプションはデフォルトで選択されず、変更できません<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->。
+     **[!UICONTROL 獲得]**&#x200B;と&#x200B;**[!UICONTROL 購読]**&#x200B;のテンプレートの場合、このオプションはデフォルトで選択されます。**[!UICONTROL 購読解除]** および **[!UICONTROL ブロックリスト]** テンプレートの場合、このオプションはデフォルトで選択されておらず、変更できません。
 
-1. ランディングページの後続のページを作成できます。ページを追加するには、「**[!UICONTROL ページ]**」セクションで、このランディングページ用にデザインする各ページの「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。各ページのコンテンツは既に事前入力済みです。必要に応じて編集します。[詳細情報](lp-content.md)
+1. ランディングページの後続のページを作成できます。ページを追加するには、「**[!UICONTROL ページ]**」セクションで、このランディングページ用にデザインする各ページの「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。各ページのコンテンツは既に事前入力済みです。必要に応じて編集します。[詳細情報](lp-content.md)。
 
-   ![](assets/lp-pages.png){zoomable="yes"}
+   ![ ランディングページエディターのページセクションを示したスクリーンショット。](assets/lp-pages.png){zoomable="yes"}
 
-1. 「**[!UICONTROL ストレージ]**」セクションでは、「**[!UICONTROL 事前ロードされたレコードを更新]**」オプションがデフォルトで選択されます。ランディングページを使用して、データベースに保存されているプロファイルを更新できます。事前ロードボックスを使用すると、データベースで更新されるレコードの検索方法を示すことができます。
+1. 「**[!UICONTROL ストレージ]**」セクションでは、「**[!UICONTROL 事前ロードされたレコードを更新]**」オプションがデフォルトで選択されます。ランディングページを使用して、データベースに保存されているプロファイルを更新できます。 事前ロードボックスを使用すると、データベースで更新されるレコードの検索方法を示すことができます。
 
    また、ランディングページの現在のコンテキストフィールドから選択することもでき、データベースで対応するプロファイルを検索するために使用されます。これを行うには、「**[!UICONTROL 事前ロードされたレコードを更新]**」オプションを選択し、「**[!UICONTROL 紐付けオプション]**」にある目的のフィールドを確認します。
 
-   ![](assets/lp-storage.png){zoomable="yes"}
+   ![ ランディングページのストレージオプションを示すスクリーンショット。](assets/lp-storage.png){zoomable="yes"}
 
 1. ランディングページの送信時に内部データを保存する&#x200B;**[!UICONTROL 追加のデータ]**&#x200B;を作成します。このデータは、ページを訪問するユーザーには表示されません。定数値のみが使用できます。
 
@@ -140,11 +138,11 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
    >
    >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
-   ![](assets/lp-additional-data.png){zoomable="yes"}
+   ![ 追加のデータセクションを示すスクリーンショット。](assets/lp-additional-data.png){zoomable="yes"}
 
 1. ランディングページの開始日と終了日を定義できます。「**[!UICONTROL スケジュールを有効にする]**」を選択し、日付を設定します。
 
-   ![](assets/lp-schedule.png){zoomable="yes"}
+   ![ ランディングページのスケジュールオプションを示すスクリーンショット。](assets/lp-schedule.png){zoomable="yes"}
 
    * ランディングページは指定された開始日時に自動的に公開されます。
 
@@ -152,15 +150,15 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
      >
      >開始日を定義しない場合、ランディングページは公開されるとすぐにライブになります。
 
-   * ページが終了日に達したら、<!--the landing page is automatically unpublished and --> フォームは使用できなくなります。その代わりに、**[!UICONTROL 有効期限]**&#x200B;のページが表示されます。
+   * ページが終了日に達すると、フォームは使用できなくなります。 その代わりに、**[!UICONTROL 有効期限]**&#x200B;のページが表示されます。
 
      >[!NOTE]
      >
-     >セキュリティ上の理由とプラットフォームのパフォーマンス上の理由により、Adobe では終了日を設定することをお勧めしています。
+     >セキュリティ上の理由とプラットフォームのパフォーマンスのため、Adobeでは終了日を設定することをお勧めします。
 
 1. 「**[!UICONTROL レビューして公開]**」をクリックします。
 
-すべての設定を定義し、すべてのページの[デザインが終わったら](lp-content.md)、以下に示すようにランディングページを[テスト](#test-landing-page)して、[公開](#publish-landing-page)することができます。
+すべての設定と [ デザイン ](lp-content.md) すべてのページを定義したら、以下に説明するように、ランディングページを [ テスト ](#test-landing-page) および [ 公開 ](#publish-landing-page) できます。
 
 ## Captcha でランディングページを保護 {#captcha}
 
@@ -173,11 +171,11 @@ Captcha の設定は、ランディングページをスパムや不正使用か
 これを使用するには、ランディングページの&#x200B;**[!UICONTROL プロパティ]**に移動します。
 **[!UICONTROL その他のオプション]**&#x200B;でもかまいません。「**[!UICONTROL その他の Captcha ソリューションを有効にする]**」切替スイッチをアクティブ化します。
 
-![](assets/lp-properties-captcha.png){zoomable="yes"}
+![ 追加の Captcha を有効にするソリューション切り替えを示すスクリーンショット ](assets/lp-properties-captcha.png){zoomable="yes"}
 
 Captcha 設定を確認するには、「**[!UICONTROL レビューして公開]**」ボタン、「**[!UICONTROL コンテンツをシミュレート]**」の順にクリックします。フォームを送信すると、以下のように、検証中に Captcha ウィジェットが機能していることがわかります。
 
-![](assets/lp-captcha.png){zoomable="yes"}
+![Captcha ウィジェットのスクリーンショット ](assets/lp-captcha.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -206,7 +204,7 @@ Captcha 設定を確認するには、「**[!UICONTROL レビューして公開]
 
 1. 「**[!UICONTROL レビューと公開]**」をクリックした後、ランディングページの「**[!UICONTROL コンテンツをシミュレート]**」ボタンを選択して、テストプロファイルの選択にアクセスします。
 
-   ![](assets/lp-simulate-content.png){zoomable="yes"}
+   ![ 「コンテンツをシミュレート」ボタンのスクリーンショット ](assets/lp-simulate-content.png){zoomable="yes"}
 
 1. **[!UICONTROL シミュレート]**&#x200B;画面から、1 つ以上のテストプロファイルを選択します。
 
@@ -216,13 +214,13 @@ Captcha 設定を確認するには、「**[!UICONTROL レビューして公開]
 
 1. 「**[!UICONTROL プレビューを開く]**」を選択して、ランディングページをテストします。
 
-   ![](assets/lp-open-preview.png){zoomable="yes"}
+   ![ 「プレビューを開く」ボタンのスクリーンショット ](assets/lp-open-preview.png){zoomable="yes"}
 
 1. ランディングページのプレビューが新しいタブで開きます。パーソナライズされた要素が、選択したテストプロファイルデータに置き換えられます。
 
    ランディングページで「**[!UICONTROL フォームで参照されるデータを事前入力]**」オプションを選択すると、フォームフィールドには、対応するテストプロファイルデータが自動的に事前入力されます。<!--TBC-->
 
-   ![](assets/lp-preview.png){zoomable="yes"}
+   ![ 配信の例 ](assets/lp-preview.png){zoomable="yes"}
 
 1. 他のテストプロファイルを選択して、ランディングページの各バリアントに対するレンダリングをプレビューします。
 
@@ -242,6 +240,6 @@ Captcha 設定を確認するには、「**[!UICONTROL レビューして公開]
 >
 >ランディングページを完全にテストまたは活用する場合は、このリンクを web ブラウザーまたは配信に直接コピー＆ペーストできません。代わりに、[コンテンツをシミュレート](#test-landing-page)機能を使用してテストし、[この節](lp-use-cases.md)で説明する手順に従ってランディングページを適切に使用します。
 
-![](assets/lp-published.png){zoomable="yes"}
+![ ランディングページ URL を示すスクリーンショット ](assets/lp-published.png){zoomable="yes"}
 
 ランディングページの影響は、ログ<!--and specific reports-->を通じて監視できます。「**[!UICONTROL ログ]**」ボタンをクリックします。

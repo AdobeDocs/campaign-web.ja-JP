@@ -3,10 +3,10 @@ audience: end-user
 title: 「データソースを変更」ワークフローアクティビティの使用
 description: 「データソースを変更」ワークフローアクティビティの使用方法について説明します。
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 80%
 
 ---
 
@@ -17,21 +17,21 @@ ht-degree: 100%
 >title="データソースを変更"
 >abstract="「**データソースを変更**」アクティビティでは、ワークフローの作業用テーブルに別のデータソースを選択できます。"
 
-「**データソースを変更**」アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、ワークフローの作業用テーブルで使用されるデータソースを変更できます。これにより、様々なデータベースをまたいでデータを管理できるようになるので、パフォーマンスが向上し、柔軟性が高まります。
+「**データソースを変更**」アクティビティは、**ターゲティング**&#x200B;アクティビティです。このアクティビティを使用すると、ワークフローの作業用テーブルで使用されるデータソースを変更できます。これにより、異なるデータベース間でデータを管理でき、パフォーマンスが向上するため、柔軟性が向上します。
 
 ワークフローでは、トランジションを通じて 1 つのアクティビティから別のアクティビティへ移されたデータは、一時的な&#x200B;**作業用テーブル**&#x200B;に保存されます。デフォルトでは、作業用テーブルは、処理済みデータのソースと同じデータベースに作成されます。例えば、クラウドデータベースに格納された「プロファイル」テーブルに対してクエリを実行する場合、同じクラウドデータベースに作業用テーブルを作成します。
 
 場合によっては、データが現在のデータベースで使用できないか、単一操作を実行するのに十分に効率的でないことがあります。したがって、「**[!UICONTROL データソースを変更]**」アクティビティを追加して、ワークフローに別のデータベースを使用してこのような操作を実行させる必要が生じる場合があります。
 
-Campaign のアーキテクチャについて詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ja)を参照してください
+Campaign のアーキテクチャについて詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=ja) を参照してください。
 
 >[!IMPORTANT]
 >
->「**[!UICONTROL ディメンションを変更]**」アクティビティと「**[!UICONTROL データソースを変更]**」アクティビティを 1 行に追加しないでください。両方のアクティビティを連続して使用する必要がある場合は、これらの間に「**[!UICONTROL エンリッチメント]**」アクティビティを含める必要があります。これにより適切な実行が保証され、潜在的な競合やエラーが回避されます。
+>「**[!UICONTROL ディメンションを変更]**」アクティビティと「**[!UICONTROL データソースを変更]**」アクティビティを 1 つの行に追加しないでください。両方のアクティビティを連続して使用する必要がある場合は、それらの間に **[!UICONTROL エンリッチメント]** アクティビティを含めます。 これにより適切な実行が保証され、潜在的な競合やエラーが回避されます。
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -45,9 +45,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## 「データソースを変更」アクティビティの設定 {#configure}
 
-「**ディメンションを変更**」アクティビティを設定するには、次の手順に従います。
+**データソースを変更** アクティビティを設定するには、次の手順に従います。
 
-![](../assets/workflow-change-data-source-add.png)
+![ データソースを変更アクティビティをワークフローに追加する方法を示すスクリーンショット。](../assets/workflow-change-data-source-add.png)
 
 1. 「**データソースを変更**」アクティビティをワークフローに追加します。
 
@@ -65,6 +65,6 @@ Before executing the operation, the working table is copied to the local databas
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

@@ -2,10 +2,10 @@
 title: スキーマの操作
 description: スキーマの操作方法について説明します。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 69%
 
 ---
 
@@ -17,8 +17,6 @@ ht-degree: 100%
 >abstract="リストで名前を選択して、スキーマの詳細にアクセスできるようになりました。カスタムフィールドの編集は、「**カスタム詳細を編集**」ボタンからもアクセスできます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="スキーマ"
@@ -28,8 +26,8 @@ ht-degree: 100%
 
 **[!DNL Adobe Campaign]** は、XML ベースのスキーマを使用して、アプリケーション内のデータの物理的および論理的構造を定義します。スキーマは、次を定義するデータベーステーブルにリンクされた XML ドキュメントです。
 
-* SQL テーブル構造（テーブル名、フィールド、関係）。
-* XML データ構造（要素、属性、階層、タイプ、デフォルト値、ラベル）。
+* SQL テーブル構造（テーブル名、フィールド、関係を含む）。
+* 要素、属性、階層、タイプ、デフォルト値、ラベルを含む XML データ構造。
 
 スキーマは、次の点で重要な役割を果たします。
 
@@ -39,19 +37,19 @@ ht-degree: 100%
 
 Adobe Campaign の各エンティティには専用のスキーマがあり、データの一貫性と整理を確保します。
 
-スキーマについて詳しくは、[Campaign コンソールドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}を参照してください。
+スキーマについて詳しくは、[Campaign コンソールドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"} を参照してください。
 
 ## Web ユーザーインターフェイスのスキーマへのアクセス {#access}
 
 スキーマは、**[!UICONTROL 管理]**／**[!UICONTROL スキーマ]**&#x200B;メニューからアクセスできます。
 
-![](assets/schemas-list.png)
+![ 使用可能なスキーマとフィルターを表示するスキーマリスト画面 ](assets/schemas-list.png)
 
 この画面から、既存のすべてのスキーマを表示できます。編集可能なスキーマのみを表示するなど、リストを絞り込むのに役立つフィルターが使用できます。
 
 スキーマを開くには、その名前を選択します。詳細なスキーマビューが表示されます。
 
-![](assets/schema-details.png)
+![ スキーマのプロパティとコンテンツを示すスキーマ詳細画面 ](assets/schema-details.png)
 
 ### スキーマの概要 {#overview}
 
@@ -59,9 +57,9 @@ Adobe Campaign の各エンティティには専用のスキーマがあり、�
 
 * 「**[!UICONTROL プロパティ]**」セクションには、スキーマ名、名前空間、関連付けられたテーブル名などの主要な情報が表示されます。
 
-* 「**[!UICONTROL スキーマ定義]**」セクションには、データの紐付けに使用するプライマリキーや他のテーブルとのリンクなどのスキーマ定義の詳細が表示されます。
+* 「**[!UICONTROL スキーマ定義]**」セクションには、データの紐付けに使用するプライマリキーや他のテーブルとのリンクなど、スキーマ定義に関する詳細が表示されます。
 
-  「**[!UICONTROL スキーマのプレビュー]**」ボタンをクリックすると、スキーマを構成する様々なフィールドとリンクが表示されます。これにより、スキーマの完全な構造を確認できます。スキーマをカスタムフィールドで拡張すると、そのすべての拡張を視覚化できます。
+  「**[!UICONTROL スキーマプレビュー]**」ボタンをクリックして、スキーマを構成する様々なフィールドおよびリンクを表示します。 これにより、スキーマの完全な構造を確認できます。スキーマをカスタムフィールドで拡張すると、そのすべての拡張を視覚化できます。
 
 * 「**[!UICONTROL コンテンツ]**」セクションには、スキーマの XML コンテンツが表示され、ソースと生成された構文を切り替えることができます。
 
@@ -69,14 +67,14 @@ Adobe Campaign の各エンティティには専用のスキーマがあり、�
 
 「**[!UICONTROL データ]**」タブには、スキーマのデータに関する情報が表示されます。
 
-![](assets/schemas-data.png)
+![ データ構造と属性を表示する「スキーマデータ」タブ ](assets/schemas-data.png)
 
 ## カスタムフィールドの編集 {#fields}
 
 カスタムフィールドは、Adobe Campaign コンソールから標準スキーマに追加されている属性です。組織のニーズに合わせて新しい属性を含めることで、スキーマをカスタマイズできます。
 
-カスタムフィールドは、Campaign web インターフェイスのプロファイル詳細など、様々な画面に表示できます。表示するフィールドと、インターフェイスでその表示方法を制御できます。これを行うには、**[!UICONTROL スキーマ]**&#x200B;メニューの「**[!UICONTROL カスタム詳細を編集]**」ボタンをクリックします。
+カスタムフィールドは、Campaign web インターフェイスのプロファイル詳細など、様々な画面に表示できます。 表示するフィールドと、インターフェイスでその表示方法を制御できます。これを行うには、**[!UICONTROL スキーマ]** メニューの「カスタム詳細を編集 **[!UICONTROL ボタンをクリ]** クします。
 
-![](assets/schemas-custom.png)
+![ 編集可能な属性を示すカスタムフィールド画面 ](assets/schemas-custom.png)
 
-スキーマでカスタムフィールドを編集する方法について詳しくは、[カスタムフィールドの設定](../administration/custom-fields.md)の節を参照してください。
+スキーマでカスタムフィールドを編集する方法について詳しくは、この節 [ カスタムフィールドの設定 ](../administration/custom-fields.md) を参照してください。
