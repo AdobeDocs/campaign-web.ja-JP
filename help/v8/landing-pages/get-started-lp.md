@@ -4,10 +4,10 @@ title: ランディングページの基本を学ぶ
 description: Campaign Web のランディングページについて学ぶ
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 60%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 [!DNL Adobe Campaign] では、ランディングページを作成、設計および共有できます。
 
-マーケティングキャンペーンのコンテキストでは、ランディングページは、訪問者が配信または web サイト上のリンクをクリックした後に誘導されるスタンドアロン web ページです。
+マーケティングキャンペーンのコンテキストでは、ランディングページは、配信内または web サイト上のリンクをクリックした後に訪問者が誘導されるスタンドアロン web ページです。
 
-ランディングページでは、ユーザーをオンラインフォームに誘導して、データを更新したり、通信の受信をオプトイン／オプトアウトしたり、ニュースレターなどの特定のサービスを購読したりできます。
+ランディングページを使用すると、ユーザーはオンラインフォームにアクセスして、データの更新、コミュニケーションのオプトインやオプトアウト、ニュースレターなどの特定のサービスの購読を行うことができます。
 
 >[!CAUTION]
 >
 >Campaign Web ユーザーインターフェイスで作成するランディングページは、クライアントコンソールから作成した web フォームとは異なります。クライアントコンソールで作成した web フォームを、Campaign Web ユーザーインターフェイスで表示または編集できません。
 >
->Web フォームについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"}を参照してください。
+>Web フォームについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"} を参照してください。
 
 ランディングページの主な機能を以下に示します。
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="リード" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="事前入力されたテンプレートを使用したランディングページの作成" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>ランディングページの作成</strong>
 </div>
@@ -45,7 +45,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="低頻度" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="ユーザーの購読サービスの設定" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong>購読サービスの作成</strong></a>
@@ -53,7 +53,7 @@ ht-degree: 100%
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="検証" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="レスポンシブランディングページのデザイン" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong>ランディングページの設計</strong></a>
@@ -62,7 +62,7 @@ ht-degree: 100%
 </td>
 <td>
 <a href="lp-templates.md">
-<img alt="検証" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="ランディングページ用のコンテンツテンプレートの操作" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-templates.md"><strong>コンテンツテンプレートの操作</strong></a>

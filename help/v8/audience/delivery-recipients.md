@@ -3,10 +3,10 @@ audience: end-user
 title: 配信受信者の選択
 description: 配信の受信者を選択する方法について説明します。
 exl-id: 33366af1-17b5-4ef7-8e0c-b7a8ae6e1e82
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '110'
+ht-degree: 44%
 
 ---
 
@@ -14,9 +14,8 @@ ht-degree: 100%
 
 配信の受信者を定義するには、次の手順に従います。
 
-* [既存のオーディエンスを選択](add-audience.md)：Adobe Campaign クライアントコンソールまたは web ユーザーインターフェイスで作成するか、Adobe Experience Platform から取得します。
-* [1 回限りのオーディエンスを作成](one-time-audience.md)：この特定の配信に対して 1 回使用します。クエリモデラーでフィルタリング条件を定義して組み合わせて実行します。
-* [外部ファイルのオーディエンスを読み込み](file-audience.md)：このオプションは、スタンドアロンのメール配信でのみ使用できます。
+* [ 既存のオーディエンスを選択 ](add-audience.md)Adobe Campaign クライアントコンソールまたは web ユーザーインターフェイスで作成された、またはAdobe Experience Platformから作成されました。
+* [1 回限りのオーディエンスを作成](one-time-audience.md)：この特定の配信に対して 1 回使用します。クエリモデラーでフィルタリング条件を定義して組み合わせます。
+* [外部ファイルのオーディエンスを読み込み](file-audience.md)：このオプションは、スタンドアロンメール配信にのみ適用されます。
 
-また、オーディエンスをターゲティングする際に、**コントロール母集団**&#x200B;を定義すると、オーディエンスの一部にメッセージを送信しないようにして、キャンペーンの影響を測定することもできます。[コントロール母集団の設定方法を学ぶ](control-group.md)
-
+オーディエンスをターゲティングする場合は、**コントロール母集団** を定義して、オーディエンスの一部にメッセージを送信しないようにし、キャンペーンの影響を測定します。 [コントロール母集団の設定方法を学ぶ](control-group.md)

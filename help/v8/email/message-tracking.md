@@ -3,16 +3,16 @@ audience: end-user
 title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 41%
 
 ---
 
-# リンクの追加とメッセージのトラッキング {#tracking}
+# リンクの追加とメッセージの追跡 {#tracking}
 
-E メールデザイナーを使用してコンテンツにリンクを追加し、受信者の行動を監視するために送信されたメッセージを追跡します。
+メールDesignerを使用すると、コンテンツにリンクを追加し送信済みメッセージをトラッキングすることで、受信者の行動を監視できます。
 
 ## リンクを挿入 {#insert-links}
 
@@ -24,27 +24,27 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
 メールコンテンツにリンクを挿入するには、次の手順に従います。
 
-1. 要素を選択し、コンテキストツールバーから「**[!UICONTROL リンクを挿入]**」をクリックします。
+1. 要素を選択し、コンテキストツールバーの **[!UICONTROL リンクを挿入]** をクリックします。
 
 1. 作成するリンクのタイプを選択します。
 
-   ![](assets/message-tracking-insert-link.png){zoomable="yes"}
+   ![ メッセージトラッキングツールにリンクを挿入するためのインターフェイスを示すスクリーンショット ](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL 外部リンク]**：外部 URL へのリンクを挿入します。
 
      >[!AVAILABILITY]
      >
-     >次の機能（**[!UICONTROL ランディングページ]**、**[!UICONTROL 購読リンク]**&#x200B;および&#x200B;**[!UICONTROL 購読解除リンク]**）は限定提供（LA）中です。これらは、**Adobe Campaign Standard から Adobe Campaign v8** に移行する顧客に限定されており、他の環境にデプロイすることはできません。
+     >次の機能（リンクは **[!UICONTROL ランディングページ]**、**[!UICONTROL 購読リンク]** および **[!UICONTROL 購読解除リンク]**）は限定提供（LA）です。 これらは、**Adobe Campaign Standard から Adobe Campaign v8** に移行する顧客に限定されており、他の環境にデプロイすることはできません。
 
    * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。動的ランディングページを選択した場合（**[!UICONTROL URL からのサービス]**&#x200B;オプションが選択されている場合）、リストから任意のサービスを選択できます。[詳細情報](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-     ![](assets/email-link-to-landing-page.png){zoomable="yes"}
+     ![ 電子メールデザイナーでランディングページにリンクするためのインターフェイスを示すスクリーンショット ](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-   * **[!UICONTROL 購読リンク]**：購読サービスへのリンクを挿入します。ユーザーがリンクをクリックすると、選択したサービスで参照される購読ランディングページに移動します。[詳細情報](../audience/manage-services.md#create-service)
+   * **[!UICONTROL 購読リンク]**：購読サービスへのリンクを挿入します。ユーザーがリンクをクリックすると、選択したサービスで参照される購読ランディングページに移動します。 [詳細情報](../audience/manage-services.md#create-service)
 
-     ![](assets/service-create-default-lp-link.png){zoomable="yes"}
+     ![ サービスツールにデフォルトの購読リンクを作成するためのインターフェイスを示すスクリーンショット ](assets/service-create-default-lp-link.png){zoomable="yes"}
 
-   * **[!UICONTROL 購読解除リンク]**：購読解除サービスへのリンクを挿入します。サブスクライバーがリンクをクリックすると、選択したサービスで参照される購読解除ランディングページに移動します。[詳細情報](../audience/manage-services.md#create-service)
+   * **[!UICONTROL 購読解除リンク]**：購読解除サービスへのリンクを挿入します。購読者がリンクをクリックすると、選択したサービスで参照される購読解除ランディングページに移動します。 [詳細情報](../audience/manage-services.md#create-service)
 
    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
@@ -54,44 +54,44 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
 1. 変更内容を保存します。
 
-1. リンクを作成したら、「**[!UICONTROL 設定]**」タブから変更できます。
+1. リンクを作成したら、必要に応じて「**[!UICONTROL 設定]**」タブから変更します。
 
-   * リンクを編集して、**[!UICONTROL ターゲット]**&#x200B;を変更できます。
-   * リンクに下線を引くかどうかは、対応するオプションをオンにすることで選択できます。
+   * リンクを編集して、その **[!UICONTROL ターゲット]** を変更します。
+   * 対応するオプションをオンにして、リンクに下線を引くかどうかを選択します。
 
-   ![](assets/message-tracking-link-settings.png){zoomable="yes"}
+   ![ メッセージトラッキングツールでリンクプロパティを変更するための設定インターフェイスを示すスクリーンショット ](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
 >マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）はチャネルサーフェスレベルでメッセージの作成時に定義されます。
 
-すべてのメールメッセージに、ミラーページへの特定のリンクを追加する必要があります。ミラーページについて詳しくは、[この節](mirror-page.md)を参照してください。
+すべてのメールメッセージに、ミラーページへの特定のリンクを含めます。 ミラーページについて詳しくは、[この節](mirror-page.md)を参照してください。
 
 ## トラッキングの管理 {#manage-tracking}
 
-[E メールデザイナー](create-email-content.md)を使用すると、各リンクのトラッキングタイプを編集するなど、追跡する URL を管理できます。
+[ メールDesigner](create-email-content.md) を使用すると、追跡される URL を管理できます（各リンクのトラッキングタイプの編集など）。
 
-1. 左側のパネルで 「**[!UICONTROL リンク]**」アイコンをクリックすると、追跡するコンテンツのすべての URL のリストが表示されます。
+1. 左側のパネルから「**[!UICONTROL リンク]**」アイコンをクリックすると、追跡するコンテンツ内のすべての URL のリストが表示されます。
 
-   このリストを使用すると、一元表示が可能になり、メールコンテンツ内の各 URL を特定できます。
+   このリストは一元化されたビューを提供し、メールコンテンツ内の各 URL を見つけるのに役立ちます。
 
 1. リンクを編集するには、対応する鉛筆アイコンをクリックします。
 
-   ![](assets/message-tracking-edit-links.png){zoomable="yes"}
+   ![ メッセージトラッキングツールでリンクを編集するためのインターフェイスを示すスクリーンショット ](assets/message-tracking-edit-links.png){zoomable="yes"}
 
-1. 必要に応じて、**[!UICONTROL トラッキングタイプ]**&#x200B;を変更できます。
+1. 必要に応じて **[!UICONTROL トラッキングタイプ]** を変更します。
 
-   ![](assets/message-tracking-edit-a-link.png){zoomable="yes"}
+   ![ メッセージトラッキングツールでトラッキングタイプを編集するためのインターフェイスを示すスクリーンショット ](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
-   追跡する URL ごとに、トラッキングモードを次のいずれかの値に設定できます。
+   トラッキングする URL ごとに、トラッキングモードを次のいずれかの値に設定します。
 
-   * **[!UICONTROL トラッキング対象]**：この URL のトラッキングをアクティブ化します。
-   * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL とみなします。
-   * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL とみなします。
-   * **[!UICONTROL なし]**：この URL のトラッキングをアクティブ化しません。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL トラッキング対象]**：この URL のトラッキングを有効化します。
+   * **[!UICONTROL オプトアウト]**：この URL をオプトアウトまたは購読解除 URL としてマークします。
+   * **[!UICONTROL ミラーページ]**：この URL をミラーページの URL としてマークします。
+   * **[!UICONTROL なし]**：この URL のトラッキングを防ぎます。<!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. 「**[!UICONTROL カテゴリ]**」をリンクに追加して、トラッキングされたリンクをグループ化し、「**[!UICONTROL 保存]**」をクリックします。
+1. **[!UICONTROL カテゴリ]** をリンクに追加して、トラッキングされたリンクをグループ化し、「**[!UICONTROL 保存]** をクリックします。
 
-   ![](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
+   ![ メッセージ追跡ツールで追跡されるリンクにカテゴリを追加するためのインターフェイスを示すスクリーンショット ](assets/message-tracking-edit-a-link_2.png){zoomable="yes"}
 
 1. 配信を送信したら、配信レポートにアクセスします。 **[!UICONTROL トラッキング]**&#x200B;メニューの下の **[!UICONTROL URL とクリックストリーム]**&#x200B;レポートには、配信で最も訪問回数の多い URL が表示されます。 [詳細情報](../reporting/gs-reports.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: プランとプログラム
 description: Adobe Campaign でプランとプログラムを作成および設定する方法を学ぶ
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 23%
 
 ---
 
@@ -14,63 +14,63 @@ ht-degree: 100%
 
 Adobe Campaign では、マーケティングのプランとプログラムに関するフォルダー階層構造を設定できます。
 
-より適切に整理するために、アドビではプラン`>`プログラム`>` キャンペーンの階層を使用することをお勧めします。
+これらのコンポーネントをより適切に整理するために、Adobeでは、プログラムとキャンペーン `>` プランの階層を使用するこ `>` をお勧めします。
 
-* **プラン**&#x200B;には複数のプログラムを含めることができます。一定期間の戦略目標を定義します。
-* **プログラム**&#x200B;には、キャンペーン、ワークフロー、ランディングページに加えて、他のプログラムを含めることができます。
-* **キャンペーン**&#x200B;には、配信、ワークフロー、ランディングページを含めることができます。
+* **プラン**&#x200B;には複数のプログラムを含めることができます。特定の期間の戦略目標を定義します。
+* **プログラム** には、キャンペーン、ワークフロー、ランディングページだけでなく、他のプログラムも含まれる場合があります。
+* **キャンペーン** には、配信、ワークフロー、ランディングページを含めることができます。
 
 ## プランの作成と設定 {#create-plan}
 
-プランを作成するには、フォルダータイプが&#x200B;**[!UICONTROL プラン]**&#x200B;のフォルダーを作成する必要があります。[詳しくは、フォルダーの作成を参照してください](../get-started/work-with-folders.md)。
+プランを作成するには、フォルダータイプが **[!UICONTROL プラン]** のフォルダーを作成します。 [ フォルダー作成の詳細情報 ](../get-started/work-with-folders.md)
 
-![](assets/plan_create.png){zoomable="yes"}
+![ プランフォルダーの作成を示したスクリーンショット ](assets/plan_create.png){zoomable="yes"}
 
 プランを管理するには、プランの&#x200B;**[!UICONTROL フォルダー設定]**&#x200B;に移動します。
 
-![](assets/plan_settings.png){zoomable="yes"}
+![ プランのフォルダー設定を示すスクリーンショット ](assets/plan_settings.png){zoomable="yes"}
 
-**[!UICONTROL カスタムオプション]**&#x200B;を定義し、プランのスケジュール日を設定できます。
+**[!UICONTROL カスタムオプション]** を定義し、プランのスケジュール日を設定します。
 
-![](assets/plan_options.png){zoomable="yes"}
+![ プランのカスタムオプションを示すスクリーンショット ](assets/plan_options.png){zoomable="yes"}
 
-**[!UICONTROL カスタムオプション]**&#x200B;を管理するには：
+**[!UICONTROL カスタムオプション]** を管理するには：
 
-1. **[!UICONTROL スキーマ]**&#x200B;を参照します
-1. フィルターで&#x200B;**[!UICONTROL 編集可能]**&#x200B;なスキーマを選択します
-1. **[!UICONTROL カスタム詳細を編集]**&#x200B;のアイコンをクリックします
+1. **[!UICONTROL スキーマ]** を参照します。
+1. フィルターで **[!UICONTROL 編集可能]** スキーマを選択します。
+1. **[!UICONTROL カスタム詳細を編集]** アイコンをクリックします。
 
-![](assets/plan_edit.png){zoomable="yes"}
+![ プランのカスタム詳細の編集を示すスクリーンショット ](assets/plan_edit.png){zoomable="yes"}
 
-次の設定を行うことができます。
+カスタムオプションを設定します。
 
-![](assets/plan_customfields.png){zoomable="yes"}
+![ プランのカスタムフィールドの設定を示すスクリーンショット ](assets/plan_customfields.png){zoomable="yes"}
 
 ## プログラムの作成と設定
 
-プランにプログラムを作成するには（[詳しくは、プランの作成を参照してください](#create-plan)）、プラン内で、フォルダータイプが&#x200B;**[!UICONTROL プログラム]**&#x200B;のフォルダーを作成する必要があります。[詳しくは、フォルダーの作成を参照してください](../get-started/work-with-folders.md)。
+プランにプログラムを作成するには（[ プラン作成の詳細情報 ](#create-plan)）、プランに移動し、フォルダータイプが **[!UICONTROL プログラム]** のフォルダーを作成します。 [ フォルダー作成の詳細情報 ](../get-started/work-with-folders.md)。
 
-![](assets/program_create.png){zoomable="yes"}
+![ プログラムフォルダーの作成を示すスクリーンショット ](assets/program_create.png){zoomable="yes"}
 
 プログラムを管理するには、プログラムの&#x200B;**[!UICONTROL フォルダー設定]**&#x200B;に移動します。
 
-![](assets/program_settings.png){zoomable="yes"}
+![ プログラムのフォルダー設定を示すスクリーンショット ](assets/program_settings.png){zoomable="yes"}
 
-**[!UICONTROL カスタムオプション]**&#x200B;を定義し、プログラムのスケジュール日を設定できます。
+**[!UICONTROL カスタムオプション]** を定義し、プログラムのスケジュール日を設定します。
 
-![](assets/program_options.png){zoomable="yes"}
+![ プログラムのカスタムオプションを示すスクリーンショット ](assets/program_options.png){zoomable="yes"}
 
-**[!UICONTROL カスタムオプション]**&#x200B;を管理するには：
+**[!UICONTROL カスタムオプション]** を管理するには：
 
-1. **[!UICONTROL スキーマ]**&#x200B;を参照します
-1. フィルターで&#x200B;**[!UICONTROL 編集可能]**&#x200B;なスキーマを選択します
-1. **[!UICONTROL カスタム詳細を編集]**&#x200B;のアイコンをクリックします
+1. **[!UICONTROL スキーマ]** を参照します。
+1. フィルターで **[!UICONTROL 編集可能]** スキーマを選択します。
+1. **[!UICONTROL カスタム詳細を編集]** アイコンをクリックします。
 
-![](assets/program_edit.png){zoomable="yes"}
+![ プログラムのカスタム詳細の編集を示すスクリーンショット ](assets/program_edit.png){zoomable="yes"}
 
-次の設定を行うことができます。
+カスタムオプションを設定します。
 
-![](assets/program_customfields.png){zoomable="yes"}
+![ プログラムのカスタムフィールドの設定を示すスクリーンショット ](assets/program_customfields.png){zoomable="yes"}
 
 ## キャンペーンをプログラムにリンクする方法
 
@@ -78,28 +78,28 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 ### 方法 1：既にプログラムがあり、このプログラムにリンクされたキャンペーンを作成する場合
 
-新しいキャンペーンをプログラムにリンクするには、プログラムでキャンペーンを直接作成します。
+新しいキャンペーンをプログラムにリンクするには、プログラム内で直接キャンペーンを作成します。
 
-![](assets/program_campaign_create.png){zoomable="yes"}
+![ プログラム内のキャンペーンの作成を示すスクリーンショット ](assets/program_campaign_create.png){zoomable="yes"}
 
-**[!UICONTROL フォルダー]**&#x200B;設定は、プログラムへのパスと共に自動的に入力されます。
+**[!UICONTROL フォルダー]** 設定には、プログラムへのパスが自動的に入力されます。
 
-![](assets/program_campaign_folder.png){zoomable="yes"}
+![ プログラムにリンクされたキャンペーンのフォルダー設定を示すスクリーンショット ](assets/program_campaign_folder.png){zoomable="yes"}
 
 ### 方法 2：既にキャンペーンがあり、このキャンペーンを既存のプログラムにリンクする場合
 
-プログラムにリンクするキャンペーンの「**[!UICONTROL 設定]**」ボタンに移動します。
+プログラムにリンクするキャンペーンの **[!UICONTROL 設定]** ボタンに移動します。
 
-![](assets/campaign_settings.png){zoomable="yes"}
+![ キャンペーンの設定ボタンを示したスクリーンショット ](assets/campaign_settings.png){zoomable="yes"}
 
-**[!UICONTROL プログラム]**&#x200B;フォルダーを選択するには、**[!UICONTROL プロパティ]**&#x200B;で&#x200B;**[!UICONTROL フォルダー]**&#x200B;設定の&#x200B;**[!UICONTROL フォルダー]**&#x200B;アイコンをクリックします。
+**[!UICONTROL プロパティ]** で、**[!UICONTROL フォルダー]** 設定の **[!UICONTROL フォルダー]** アイコンをクリックして、**[!UICONTROL プログラム]** フォルダーを選択します。
 
-![](assets/campaign_folder.png){zoomable="yes"}
+![ キャンペーンをプログラムにリンクするためのフォルダー選択を示すスクリーンショット ](assets/campaign_folder.png){zoomable="yes"}
 
-**[!UICONTROL プログラム]**&#x200B;フォルダーを選択し、「**[!UICONTROL 確認]**」ボタンをクリックして、「**[!UICONTROL 保存して閉じる]**」ボタンをクリックします。
+**[!UICONTROL プログラム]** フォルダーを選択し、「**[!UICONTROL 確認]**」ボタンをクリックしてから、「**[!UICONTROL 保存して閉じる]**」ボタンをクリックします。
 
-![](assets/campaign_linked.png){zoomable="yes"}
+![ プログラムにリンクされたキャンペーンを示すスクリーンショット ](assets/campaign_linked.png){zoomable="yes"}
 
 キャンペーンがプログラムにリストされました。
 
-![](assets/campaign_in_program.png){zoomable="yes"}
+![ プログラム内でリストされたキャンペーンを示すスクリーンショット ](assets/campaign_in_program.png){zoomable="yes"}

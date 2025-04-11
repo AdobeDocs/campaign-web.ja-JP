@@ -3,44 +3,45 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 100%
+source-wordcount: '2106'
+ht-degree: 87%
 
 ---
 
+
 # 式の編集 {#expression}
 
-式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
+式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値フィールド、並べ替えなど、特定のクエリの実行に使用する値を操作できる高度な関数を使用できます。
 
 >[!IMPORTANT]
 >
->以下の節では、式エディターを操作してルールを作成する方法について説明します。ルールの作成に使用する構文は、パーソナライゼーションの追加に使用する構文とは異なることに注意してください。
+>以下の節では、式エディターを操作してルールを作成する方法について説明します。ルールの作成に使用される構文は、パーソナライゼーションの追加に使用される構文とは異なることに注意してください。
 
 ## 式エディターの操作 {#edit}
 
 式エディターは、クエリモデラーの「**[!UICONTROL 式を編集]**」ボタンから実行できます。このボタンは、カスタム条件を設定する際に「**[!UICONTROL 属性]**」フィールドと「**[!UICONTROL 値]**」フィールドで使用できます。
 
 | 「**属性**」フィールドからのアクセス | 「**値**」フィールドからのアクセス |
-|  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| --- | --- |
+| ![ 属性フィールドの式エディター ](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![ 値フィールドの式エディター ](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 式エディターには、次の内容があります。
 
-* 式を定義するための&#x200B;**入力フィールド（1）**。
-* 式で使用でき、かつクエリのターゲティングディメンションに対応する&#x200B;**フィールド（2）**&#x200B;の一覧。
+* 式が定義されている **入力フィールド （1）**。
+* 式で使用でき、クエリのターゲティングディメンションに対応する使用可能な **フィールド （2）** のリスト。
 * カテゴリ別に並べ替えられる&#x200B;**ヘルパー関数（3）**。
 
 式を編集するには、入力フィールドに式を直接入力します。フィールドまたはヘルパー関数を追加するには、式内の追加する場所にカーソルを置き、「+」ボタンをクリックします。
 
-![](assets/expression-editor.png){zoomable="yes"}
+![ 式エディターインターフェイス ](assets/expression-editor.png){zoomable="yes"}
 
 式の準備が整ったら、「**[!UICONTROL 確認]**」ボタンをクリックします。式は、選択したフィールドに表示されます。編集するには、式エディターを開き、目的の変更を行います。
 
-次の例は、「**[!UICONTROL 値]**」フィールドに設定された式を示しています。編集するには、「**[!UICONTROL 式を編集]**」ボタンを使用して式エディターを開く必要があります。
+次の例は、「**[!UICONTROL 値]**」フィールドに設定された式を示しています。編集するには、「**[!UICONTROL 式を編集]** ボタンを使用して式エディターを開きます。
 
-![](assets/edit-expression-value.png){zoomable="yes"}
+![ 値フィールドの式の編集例 ](assets/edit-expression-value.png){zoomable="yes"}
 
 ## ヘルパー関数
 
@@ -48,330 +49,326 @@ ht-degree: 100%
 
 ### 集計
 
-集計関数は、一連の値に対して計算を実行する場合に使用します。
+集計関数は、一連の値に対して計算を実行します。
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>名前</strong><br /> </td> 
-   <td> <strong>説明</strong><br /> </td> 
-   <td> <strong>構文</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Avg</strong><br /> </td> 
-   <td> 数値タイプの列の平均を返します<br /> </td> 
-   <td> Avg(&lt;値&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Count</strong><br /> </td> 
-   <td> 列の null でない値をカウントします<br /> </td> 
-   <td> Count(&lt;値&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>CountAll</strong><br /> </td> 
-   <td> 返される値をカウントします（すべてのフィールド）<br /> </td> 
-   <td> CountAll()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Countdistinct</strong><br /> </td> 
-   <td> 列の null でないユニーク値をカウントします<br /> </td> 
-   <td> Countdistinct(&lt;値&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Max</strong><br /> </td> 
-   <td> 数値、文字列または日付タイプの列の最大値を返します<br /> </td> 
-   <td> Max(&lt;値&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Min</strong><br /> </td> 
-   <td> 数値、文字列または日付タイプの列の最小値を返します<br /> </td> 
-   <td> Min(&lt;値&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>StdDev</strong><br /> </td> 
-   <td> 数値、文字列または日付タイプの列の標準偏差を返します<br /> </td> 
-   <td> StdDev(&lt;値&gt;)<br /></td> 
-  </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong><br /> </td> 
-   <td> 文字列タイプの列の値を 2 番目の引数の文字で区切って連結したものを返します<br /> </td> 
-   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Sum</strong><br /> </td> 
-   <td> 数値、文字列または日付タイプの列の値の合計を返します<br /> </td> 
-   <td> Sum(&lt;値&gt;)<br /></td> 
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>名前</strong></td>
+<td><strong>説明</strong></td>
+<td><strong>構文</strong></td>
+</tr>
+<tr>
+<td><strong>Avg</strong></td>
+<td>数値タイプの列の平均を返します</td>
+<td>Avg(&lt;値&gt;)</td>
+</tr>
+<tr>
+<td><strong>カウント</strong></td>
+<td>列の null でない値をカウントします</td>
+<td>Count(&lt;値&gt;)</td>
+</tr>
+<tr>
+<td><strong>CountAll</strong></td>
+<td>返される値をカウントします（すべてのフィールド）</td>
+<td>CountAll()</td>
+</tr>
+<tr>
+<td><strong>Countdistinct</strong></td>
+<td>列の null でないユニーク値をカウントします</td>
+<td>Countdistinct(&lt;値&gt;)</td>
+</tr>
+<tr>
+<td><strong>Max</strong></td>
+<td>数値、文字列または日付タイプの列の最大値を返します</td>
+<td>Max(&lt;値&gt;)</td>
+</tr>
+<tr>
+<td><strong>Min</strong></td>
+<td>数値、文字列、または日付タイプの列の最小値を返します</td>
+<td>Min(&lt;値&gt;)</td>
+</tr>
+<tr>
+<td><strong>StdDev</strong></td>
+<td>数値、文字列、または日付列の標準偏差を返します</td>
+<td>StdDev(&lt;値&gt;)</td>
+</tr>
+<tr>
+<td><strong>StringG</strong></td>
+<td>文字列タイプの列の値を,、2 番目の引数の文字で区切って連結した結果を返します</td>
+<td>StringAgg(&lt;Value&gt;, &lt;String&gt;)</td>
+</tr>
+<tr>
+<td><strong>Sum</strong></td>
+<td>数値、文字列または日付タイプの列の値の合計を返します</td>
+<td>Sum(&lt;値&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 ### 日付
 
-日付関数は、日付や時刻の値を操作する場合に使用します。
+日付関数は、日付または時刻の値を操作します。
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>名前</strong><br /> </td> 
-   <td> <strong>説明</strong><br /> </td> 
-   <td> <strong>構文</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AddDays</strong><br /> </td> 
-   <td> 日付に日数を追加します<br /> </td> 
-   <td> AddDays(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddHours</strong><br /> </td> 
-   <td> 日付に時間数を追加します<br /> </td> 
-   <td> AddHours(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMinutes</strong><br /> </td> 
-   <td> 日付に分数を追加します<br /> </td> 
-   <td> AddMinutes(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMonths</strong><br /> </td> 
-   <td> 日付に月数を追加します<br /> </td> 
-   <td> AddMonths(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddSeconds</strong><br /> </td> 
-   <td> 日付に秒数を追加します<br /> </td> 
-   <td> AddSeconds(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddYears</strong><br /> </td> 
-   <td> 日付に年数を追加します<br /> </td> 
-   <td> AddYears(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>ConvertNTZ</strong><br /> </td> 
-   <td> 定義されたセッション TZ を適用して、タイムスタンプ NTZ（タイムゾーンなしのタイムスタンプ）を TZ（タイムゾーンありのタイムスタンプ）に変換します<br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
-   <td> <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>-->
-  <tr> 
-   <td> <strong>DateCmp</strong><br /> </td> 
-   <td> 2 つの日付の比較<br/> </td> 
-   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>DateOnly</strong><br /> </td> 
-   <td> 日付のみを返します（時刻は 0:00）*<br /> </td> 
-   <td> DateOnly(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Day</strong><br /> </td> 
-   <td> 日付の日を表す数を返します<br /> </td> 
-   <td> Day(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> 日付の年の日数を返します<br /> </td> 
-   <td> DayOfYear(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> 現在の日付 - n 日に対応する日付を返します<br /> </td> 
-   <td> DaysAgo(&lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> 現在の日付 - n 日に対応する日付（整数 yyyymmdd）を返します<br /> </td> 
-   <td> DaysAgoInt(&lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysDiff</strong><br /> </td> 
-   <td> 2 つの日付の間の日数を返します<br /> </td> 
-   <td> DaysDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysOld</strong><br /> </td> 
-   <td> 年齢（日数）を返します<br /> </td> 
-   <td> DaysOld(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetDate</strong><br /> </td> 
-   <td> サーバーの現在のシステム日付を返します<br /> </td> 
-   <td> GetDate()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Hour</strong><br /> </td> 
-   <td> 日付の時間を返します<br /> </td> 
-   <td> Hour(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>HoursDiff</strong><br /> </td> 
-   <td> 2 つの日付の間の時間数を返します<br /> </td> 
-   <td> HoursDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Minute</strong><br /> </td> 
-   <td> 日付の分を返します<br /> </td> 
-   <td> Minute(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MinutesDiff</strong><br /> </td> 
-   <td> 2 つの日付の間の分数を返します<br /> </td> 
-   <td> MinutesDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Month</strong><br /> </td> 
-   <td> 日付の月を表す数を返します<br /> </td> 
-   <td> Month(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsAgo</strong><br /> </td> 
-   <td> 現在の日付 - n ヶ月に対応する日付を返します<br /> </td> 
-   <td> MonthsAgo(&lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsDiff</strong><br /> </td> 
-   <td> 2 つの日付の間の月数を返します<br /> </td> 
-   <td> MonthsDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsOld</strong><br /> </td> 
-   <td> 年齢（月数）を返します<br /> </td> 
-   <td> MonthsOld(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Oldest</strong><br /> </td> 
-   <td> 範囲内の最も古い日付を返します<br /> </td> 
-   <td> Oldest (&lt;date, date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Second</strong><br /> </td> 
-   <td> 日付の秒を返します<br /> </td> 
-   <td> Second(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SecondsDiff</strong><br /> </td> 
-   <td> 2 つの日付の間の秒数を返します<br /> </td> 
-   <td> SecondsDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubDays</strong><br /> </td> 
-   <td> 日付から日数を引きます<br /> </td> 
-   <td> SubDays(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubHours</strong><br /> </td> 
-   <td> 日付から時間数を引きます<br /> </td> 
-   <td> SubHours(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMinutes</strong><br /> </td> 
-   <td> 日付から分数を引きます<br /> </td> 
-   <td> SubMinutes(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMonths</strong><br /> </td> 
-   <td> 日付から月数を引きます<br /> </td> 
-   <td> SubMonths(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubSeconds</strong><br /> </td> 
-   <td> 日付から秒数を引きます<br /> </td> 
-   <td> SubSeconds(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubYears</strong><br /> </td> 
-   <td> 日付から年数を引きます<br /> </td> 
-   <td> SubYears(&lt;日付&gt;, &lt;数値&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDate</strong><br /> </td> 
-   <td> 日付 + 時間を日付に変換します<br /> </td> 
-   <td> ToDate(&lt;日付 + 時刻&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> 文字列を日付 + 時刻に変換します<br /> </td> 
-   <td> ToDateTime(&lt;文字列&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimestamp</strong><br /> </td> 
-   <td> 文字列をタイムスタンプに変換<br /> </td> 
-   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToTimeZone</strong><br /> </td> 
-   <td> 日付と時刻をタイムゾーンに変換<br /> </td> 
-   <td> ToTimeZone(&lt;date&gt;,&lt;time zone&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDate</strong><br /> </td> 
-   <td> 日付 + 時刻を最も近い秒に丸めます<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;秒数&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDateTZ</strong><br /> </td> 
-   <td> 日付と時刻を指定された精度（秒）に丸めます<br /> </td> 
-   <td> TruncDateTZ(&lt;日付&gt;, &lt;秒数&gt;, &lt;タイムゾーン&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncQuarter</strong><br /> </td> 
-   <td> 日付を四半期に丸めます<br /> </td> 
-   <td> TruncQuarter(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncTime</strong><br /> </td> 
-   <td> 時刻部分を最も近い秒に丸めます<br /> </td> 
-   <td> TruncTime(&lt;日付&gt;, &lt;秒数&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> 日付を週に丸めます<br /> </td> 
-   <td> TruncWeek(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncYear</strong><br /> </td> 
-   <td> 日付 + 時刻をその年の 1 月 1 日に丸めます<br /> </td> 
-   <td> TruncYear(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>WeekDay</strong><br /> </td> 
-   <td> 日付の曜日を表す数値を返します（0=月曜日、6=日曜日）<br /> </td> 
-   <td> WeekDay(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Year</strong><br /> </td> 
-   <td> 日付の年を表す数を返します<br /> </td> 
-   <td> Year(&lt;日付&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
-   <td> 日付の年と月を表す数を返します<br /> </td> 
-   <td> YearAndMonth(&lt;日付&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>YearsAgo</strong><br /> </td> 
-   <td> 指定された日付と現在の日付の間の年数を返します<br /> </td> 
-   <td> YearsAgo(&lt;date&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsDiff</strong><br /> </td> 
-   <td> 2 つの日付の間の年数を返します<br /> </td> 
-   <td> YearsDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsOld</strong><br /> </td> 
-   <td> 満年齢を返します<br /> </td> 
-   <td> YearsOld(&lt;日付&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>名前</strong></td>
+<td><strong>説明</strong></td>
+<td><strong>構文</strong></td>
+</tr>
+<tr>
+<td><strong>AddDays</strong></td>
+<td>日付に日数を追加します</td>
+<td>AddDays(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddHours</strong></td>
+<td>日付に時間数を追加します</td>
+<td>AddHours(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMinutes</strong></td>
+<td>日付に分数を追加します</td>
+<td>AddMinutes(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMonths</strong></td>
+<td>日付に月数を追加します</td>
+<td>AddMonths(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddSeconds</strong></td>
+<td>日付に秒数を追加します</td>
+<td>AddSeconds(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddYears</strong></td>
+<td>日付に年数を追加します</td>
+<td>AddYears(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>ConvertNTZ</strong></td>
+<td>定義済みセッション TZ を適用して、タイムスタンプ NTZ （timestamp without timezone）を TZ （timestamp with timezone）に変換する</td>
+<td>ConvertNTZ （&lt;date+time&gt;）</td>
+</tr>
+<tr>
+<td><strong>DateCmp</strong></td>
+<td>2 つの日付を比較</td>
+<td>DateCmp （&lt;date&gt;, &lt;date&gt;）</td>
+</tr>
+<tr>
+<td><strong>DateOnly</strong></td>
+<td>日付のみを返します（時刻は 0:00）</td>
+<td>DateOnly(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>日</strong></td>
+<td>日付の日を表す数を返します</td>
+<td>Day(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>DayOfYear</strong></td>
+<td>日付の年の日数を返します</td>
+<td>DayOfYear(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgo</strong></td>
+<td>現在の日付 - n 日に対応する日付を返します</td>
+<td>DaysAgo(&lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgoInt</strong></td>
+<td>現在の日付 - n 日に対応する日付（整数 yyyymmdd）を返します</td>
+<td>DaysAgoInt(&lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysDiff</strong></td>
+<td>2 つの日付間の日数を返します</td>
+<td>DaysDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysOld</strong></td>
+<td>年齢（日数）を返します</td>
+<td>DaysOld(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>GetDate</strong></td>
+<td>サーバーの現在のシステム日付を返します</td>
+<td>GetDate()</td>
+</tr>
+<tr>
+<td><strong>時間</strong></td>
+<td>日付の時間を返します</td>
+<td>Hour(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>HoursDiff</strong></td>
+<td>2 つの日付の間の時間数を返します</td>
+<td>HoursDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
+</tr>
+<tr>
+<td><strong>分</strong></td>
+<td>日付の分を返します</td>
+<td>Minute(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>MinutesDiff</strong></td>
+<td>2 つの日付の間の分数を返します</td>
+<td>MinutesDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
+</tr>
+<tr>
+<td><strong>月</strong></td>
+<td>日付の月を表す数を返します</td>
+<td>Month(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsAgo</strong></td>
+<td>現在の日付 - n ヶ月に対応する日付を返します</td>
+<td>MonthsAgo(&lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsDiff</strong></td>
+<td>2 つの日付の間の月数を返します</td>
+<td>MonthsDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsOld</strong></td>
+<td>年齢（月数）を返します</td>
+<td>MonthsOld(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>古い</strong></td>
+<td>範囲内の最も古い日付を返します</td>
+<td>Oldest （&lt;date, date&gt;）</td>
+</tr>
+<tr>
+<td><strong>Second</strong></td>
+<td>日付の秒を返します</td>
+<td>Second(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>SecondsDiff</strong></td>
+<td>2 つの日付の間の秒数を返します</td>
+<td>SecondsDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubDays</strong></td>
+<td>日付から日数を引きます</td>
+<td>SubDays(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubHours</strong></td>
+<td>日付から時間数を引きます</td>
+<td>SubHours(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMinutes</strong></td>
+<td>日付から分数を引きます</td>
+<td>SubMinutes(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMonths</strong></td>
+<td>日付から月数を引きます</td>
+<td>SubMonths(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubSeconds</strong></td>
+<td>日付から秒数を引きます</td>
+<td>SubSeconds(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubYears</strong></td>
+<td>日付から年数を引きます</td>
+<td>SubYears(&lt;日付&gt;, &lt;数値&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDate</strong></td>
+<td>日付 + 時間を日付に変換します</td>
+<td>ToDate(&lt;日付 + 時刻&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDateTime</strong></td>
+<td>文字列を日付 + 時刻に変換します</td>
+<td>ToDateTime(&lt;文字列&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToStamp</strong></td>
+<td>文字列をタイムスタンプに変換します</td>
+<td>ToTimestamp （&lt;string&gt;）</td>
+</tr>
+<tr>
+<td><strong>ToTimezone</strong></td>
+<td>日付+時刻をタイムゾーンに変換します</td>
+<td>ToTimeZone （&lt;date&gt;, &lt;time zone&gt;）</td>
+</tr>
+<tr>
+<td><strong>TruncDate</strong></td>
+<td>日付+時刻を最も近い秒に丸めます</td>
+<td>TruncDate(@lastModified, &lt;秒数&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDateTZ</strong></td>
+<td>日付と時刻を指定された精度（秒）に丸めます</td>
+<td>TruncDateTZ(&lt;日付&gt;, &lt;秒数&gt;, &lt;タイムゾーン&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncQuarter</strong></td>
+<td>日付を四半期に丸めます</td>
+<td>TruncQuarter(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncTime</strong></td>
+<td>時刻部分を最も近い秒に丸めます</td>
+<td>TruncTime(&lt;日付&gt;, &lt;秒数&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncWeek</strong></td>
+<td>日付を週に丸めます</td>
+<td>TruncWeek(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncYear</strong></td>
+<td>日付 + 時刻をその年の 1 月 1 日に丸めます</td>
+<td>TruncYear(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>平日</strong></td>
+<td>曜日を表す数値を返します (0=月曜日、6=日曜日)</td>
+<td>WeekDay(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>年</strong></td>
+<td>日付の年を表す数を返します</td>
+<td>Year(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearAndMonth</strong></td>
+<td>日付の年と月を表す数を返します</td>
+<td>YearAndMonth(&lt;日付&gt;)</td>
+</tr>
+<tr>
+<td><strong>年前</strong></td>
+<td>指定された日付から現在の日付までの年数を返します</td>
+<td>YearsAgo （&lt;date&gt;）</td>
+</tr>
+<tr>
+<td><strong>YearsDiff</strong></td>
+<td>2 つの日付間の年数を返します</td>
+<td>YearsDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearsOld</strong></td>
+<td>満年齢を返します</td>
+<td>YearsOld(&lt;日付&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 >[!NOTE]
 >
->**Dateonly** 関数はオペレーターのタイムゾーンではなく、サーバーのタイムゾーンを考慮することに注意してください。
+>**DateOnly** 関数は、オペレーターのタイムゾーンではなく、サーバーのタイムゾーンを考慮することに注意してください。
+
 
 ### ジオマーケティング
 
