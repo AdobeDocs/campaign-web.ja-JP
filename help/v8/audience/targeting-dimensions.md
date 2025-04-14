@@ -12,9 +12,8 @@ ht-degree: 25%
 # ターゲティングディメンション {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
+>
+ターゲティングディメンション（ターゲットマッピングとも呼ばれます）は、操作が処理するデータのタイプです。 プロファイル、契約の受益者、オペレーター、購読者などのターゲット母集団を定義します。
 
 ## ワークフローのターゲティングディメンション {#workflow}
 

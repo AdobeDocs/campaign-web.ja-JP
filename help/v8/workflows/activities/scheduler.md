@@ -13,9 +13,8 @@ ht-degree: 29%
 # スケジューラー {#scheduler}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_scheduler"
->title="Scheduler activity"
->abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
+>
+**スケジューラー**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。ワークフローの開始日時をスケジュールできます。このアクティビティは、予約済みの開始とみなされます。ワークフローの最初のアクティビティとしてのみ使用できます。
 
 ## ベストプラクティス {#scheduler-best-practices}
 
@@ -25,15 +24,9 @@ ht-degree: 29%
 
 ## 「スケジューラー」アクティビティの設定 {#scheduler-configuration}
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_validity"
->title="Scheduler validity"
->abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
+[!CONTEXTUALHELP]
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_schedule_options"
->title="Scheduler options"
->abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
+[!CONTEXTUALHELP]
 
 **スケジューラー**&#x200B;アクティビティを設定するには、次の手順に従います。
 

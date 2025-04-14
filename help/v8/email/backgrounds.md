@@ -13,9 +13,8 @@ ht-degree: 40%
 # メールの背景をパーソナライズする {#backgrounds}
 
 >[!CONTEXTUALHELP]
->id="ac_edition_backgroundimage"
->title="Background settings"
->abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
+>
+メールDesignerで背景を設定する場合、Adobeでは次の操作を推奨します。
 
 1. デザインで必要な場合は、メールの本文に背景色を適用します。
 1. ほとんどの場合、列レベルで背景色を設定します。

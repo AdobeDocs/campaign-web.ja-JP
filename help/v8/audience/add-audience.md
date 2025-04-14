@@ -13,10 +13,8 @@ ht-degree: 57%
 # 既存オーディエンスの選択 {#add-audience}
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
-
+>
+この節では、配信のターゲット母集団を定義する際に、既存のオーディエンスを選択する方法について説明します。配信のメインターゲットを定義する際には、次の操作も可能です。
 * クエリモデラーを使用して、[1 回限りのオーディエンスを作成します](one-time-audience.md)。
 * [外部ファイルのオーディエンスを読み込みます](file-audience.md)（メールの場合のみ）。
 
