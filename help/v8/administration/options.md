@@ -2,23 +2,29 @@
 title: ' [!DNL Campaign]  オプションの設定'
 description: Campaign オプションを設定し、独自のカスタムオプションを作成する方法について説明します。
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 49%
+source-wordcount: '431'
+ht-degree: 50%
 
 ---
 
 # [!DNL Campaign] オプションの設定 {#options}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="オプション"
+>abstract="オプション"
+
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="オプションを作成"
+>abstract="オプションを作成"
 
 Adobe Campaign Web には、より具体的にアプリケーションを設定できるテクニカルオプションが含まれています。 これらのオプションには、組み込みのオプションもあれば、必要に応じて手動で追加できるものもあります。
 
 >[!IMPORTANT]\
-ビルトインオプションは事前に設定されており、上級ユーザーのみが変更する必要があります。ご質問やご要望については、Adobeの担当者にお問い合わせください。
+>ビルトインオプションは事前に設定されており、上級ユーザーのみが変更する必要があります。ご質問やご要望については、Adobeの担当者にお問い合わせください。
 
 ## Campaign オプションへのアクセス {#access}
 
@@ -28,7 +34,7 @@ Adobe Campaign Web には、より具体的にアプリケーションを設定�
 [ 管理/オプションメニューに表示されるオプションリスト ]
 
 >[!NOTE]\
-Adobe Campaign コンソールと web ユーザーインターフェイスではオプションメニューの場所が異なりますが、リストは同じで、ミラーのように機能します。使用可能なオプションについて詳しくは、[Campaign v7 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"} のオプションのリストを参照してください。
+>Adobe Campaign コンソールと web ユーザーインターフェイスではオプションメニューの場所が異なりますが、リストは同じで、ミラーのように機能します。使用可能なオプションについて詳しくは、[Campaign v7 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"} のオプションのリストを参照してください。
 
 オプションリストから、次の操作を実行できます。
 

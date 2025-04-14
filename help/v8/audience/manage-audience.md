@@ -3,9 +3,9 @@ audience: end-user
 title: オーディエンスの基本を学ぶ
 description: Adobe Campaign web でオーディエンスを操作する方法を説明します。
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '371'
 ht-degree: 66%
 
 ---
@@ -13,12 +13,24 @@ ht-degree: 66%
 # オーディエンスの基本を学ぶ {#monitor-manage}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="プロパティ"
+>abstract="ここでは、オリジンやストレージフォルダーなど、オーディエンスプロパティの概要を確認できます。 「**前回のワークフロー**」セクションのリンクをクリックして、オーディエンスの作成に使用したワークフローを開きます。"
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="オーディエンスサイズ"
+>abstract="ここでは、オーディエンス内のプロファイルの合計数を確認できます。「**計算**」ボタンをクリックして、オーディエンスの結果を更新および再計算します。"
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="ターゲティング"
+>abstract="ターゲティング"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="オーディエンスエラー"
+>abstract="オーディエンスデータは利用できません。ワークフローの実行が終了するまでお待ちください。"
 
 オーディエンスは配信のメインターゲット、つまりメッセージを受信するプロファイルです。Campaign Web で使用できるオーディエンスのリストには、**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
 

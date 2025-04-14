@@ -3,17 +3,20 @@ audience: end-user
 title: スケジューラーワークフローアクティビティの使用
 description: スケジューラーワークフローアクティビティの使用方法について説明します
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 29%
+source-wordcount: '505'
+ht-degree: 40%
 
 ---
 
 # スケジューラー {#scheduler}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_orchestration_scheduler"
+>title="「スケジューラー」アクティビティ"
+>abstract="**スケジューラー**&#x200B;アクティビティを使用すると、ワークフローの開始日時をスケジュールできます。このアクティビティは、予約済みの開始とみなされます。ワークフローの最初のアクティビティとしてのみ使用できます。"
+
 **スケジューラー**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。ワークフローの開始日時をスケジュールできます。このアクティビティは、予約済みの開始とみなされます。ワークフローの最初のアクティビティとしてのみ使用できます。
 
 ## ベストプラクティス {#scheduler-best-practices}
@@ -24,9 +27,15 @@ ht-degree: 29%
 
 ## 「スケジューラー」アクティビティの設定 {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="スケジューラーの有効性"
+>abstract="スケジューラーの有効期間を定義できます。永続的（デフォルト）にすることも、特定の日付まで有効にすることもできます。"
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="スケジューラーオプション"
+>abstract="スケジューラーの頻度を定義します。特定の時点で、1 日、1 週間、1 か月に 1 回または数回実行できます。"
 
 **スケジューラー**&#x200B;アクティビティを設定するには、次の手順に従います。
 
@@ -52,7 +61,7 @@ ht-degree: 29%
    * **有効期間**：指定された頻度に応じて、特定の日付までワークフローが実行されます。 開始日と終了日を指定します。
 
 >[!NOTE]\
-すぐにワークフローを開始する場合は、スケジューラーの上部のアクションバーにある **保留中のタスクを実行** をクリックします。 このボタンは、ワークフローが開始されている場合にのみ使用できます。
+>すぐにワークフローを開始する場合は、スケジューラーの上部のアクションバーにある **保留中のタスクを実行** をクリックします。 このボタンは、ワークフローが開始されている場合にのみ使用できます。
 
 ## 例 {#scheduler-example}
 

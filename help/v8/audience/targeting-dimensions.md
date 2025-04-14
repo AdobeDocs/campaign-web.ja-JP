@@ -2,17 +2,20 @@
 title: ターゲティングディメンション
 description: Adobe Campaign Web でのターゲティングディメンションについて説明します
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 25%
+source-wordcount: '408'
+ht-degree: 29%
 
 ---
 
 # ターゲティングディメンション {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->
+>id="acw_orchestration_build_audience_dimension"
+>title="ターゲティングディメンションの選択"
+>abstract="ターゲティングディメンションを使用すると、受信者、契約の受益者、オペレーター、購読者など、ターゲットされる母集団を操作ごとに定義できます。 デフォルトでは、メールと SMS の場合、ターゲットは受信者ビルトインテーブルから選択されます。プッシュ通知の場合、デフォルトのターゲットディメンションはサブスクライバーのアプリケーションです。"
+
 ターゲティングディメンション（ターゲットマッピングとも呼ばれます）は、操作が処理するデータのタイプです。 プロファイル、契約の受益者、オペレーター、購読者などのターゲット母集団を定義します。
 
 ## ワークフローのターゲティングディメンション {#workflow}
