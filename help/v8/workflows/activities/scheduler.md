@@ -14,7 +14,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >
-**スケジューラー**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。ワークフローの開始日時をスケジュールできます。このアクティビティは、予約済みの開始とみなされます。ワークフローの最初のアクティビティとしてのみ使用できます。
+>**スケジューラー**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。ワークフローの開始日時をスケジュールできます。このアクティビティは、予約済みの開始とみなされます。ワークフローの最初のアクティビティとしてのみ使用できます。
 
 ## ベストプラクティス {#scheduler-best-practices}
 
@@ -24,9 +24,15 @@ ht-degree: 29%
 
 ## 「スケジューラー」アクティビティの設定 {#scheduler-configuration}
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Scheduler validity"
+>abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_options"
+>title="Scheduler options"
+>abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
 
 **スケジューラー**&#x200B;アクティビティを設定するには、次の手順に従います。
 
