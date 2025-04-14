@@ -13,8 +13,9 @@ ht-degree: 18%
 # 読み取り専用ワークフローについて {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->
-一部のワークフローは読み取り専用です。 ビルトインテクニカルワークフローは常に読み取り専用ですが、この制限は他のタイプのワークフローにも適用されます。
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to your rights or the type of the workflow."
 
 Campaign ユーザーは、Adobe Campaign データへのアクセスを制限されている場合があります。 Campaign 管理者は、特定の機能を表示する権限を付与できますが、編集や変更の権限は付与できません。 データとプロセスのセキュリティを確保するには、データに対するユーザー権限が不可欠です。 Campaign での権限管理について詳しくは、[ この節 ](../get-started/permissions.md) を参照してください。
 
