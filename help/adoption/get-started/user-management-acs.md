@@ -4,9 +4,9 @@ description: ユーザーアクセス管理をCampaign Standardから Campaign v
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1404'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,9 @@ Adobe Campaign Standardと Campaign v8 では、ユーザーアクセス管理�
 
 ## セキュリティグループからオペレーターグループへの移行アプローチ
 
-### 注意メモ
-
-これらの役割/ネームド権限の機能は、実装が異なる場合があり、権限の昇格や機能の中断などの承認の問題を引き起こす可能性があります。 適切なアクセス制御を確保するために、移行後にこれらのマッピングを確認することをお勧めします。 [ 権限の詳細 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
-
-### セキュリティグループとオペレーターグループ
+>[!IMPORTANT]
+>
+>これらの役割/ネームド権限の機能は、実装が異なる場合があり、権限の昇格や機能の中断などの承認の問題を引き起こす可能性があります。 適切なアクセス制御を確保するために、移行後にこれらのマッピングを確認することをお勧めします。 [ 権限の詳細 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 次の表に、Adobe Campaign Standardから Campaign v8 に移行する際の、ユーザーロールグループの移行アプローチの概要を示します。 Campaign Standardでは、Campaign v8 で **オペレーターグループ** と呼ばれる **セキュリティグループ** を使用して、一連のロールをユーザーに割り当てます。 一部のセキュリティグループやオペレーターグループはすぐに使用できますが、ユーザーは、必要に応じて新しいグループを作成したり、既存のグループを変更したりできます。
 
@@ -48,11 +46,9 @@ Adobe Campaign Standardと Campaign v8 の両方で、**セキュリティグル
 
 ## ユーザーの役割からネームド権限への移行アプローチ
 
-### 注意メモ
-
-Campaign v8 でのスキーマ作成には管理者権限が必要なので、Adobe Campaign Standardから Campaign v8 への移行中に、**データモデル** のロールを持つが **管理** を持たないユーザーは、自動的に **管理** アクセス権を取得します。 これを防ぐには、移行前に **データモデル** の役割を削除します。
-
-### ユーザーの役割とネームド権限
+>[!IMPORTANT]
+>
+>Campaign v8 でのスキーマ作成には管理者権限が必要なので、Adobe Campaign Standardから Campaign v8 への移行中に、**データモデル** のロールを持つが **管理** を持たないユーザーは、自動的に **管理** アクセス権を取得します。 これを防ぐには、移行前に **データモデル** の役割を削除します。
 
 Adobe Campaign Standardでは、Campaign v8 では **ユーザーロール** という用語は **ネームド権限** と呼ばれます。 次の表に、Campaign Standardの **ユーザーの役割** に対応する Campaign v8 の **ネームド権限** に使用される用語の概要を示します。
 
@@ -72,13 +68,12 @@ Adobe Campaign Standardでは、Campaign v8 では **ユーザーロール** と
 
 ## 組織単位からの移行アプローチ
 
-### 注意メモ
+>[!IMPORTANT]
+>
+>直接または間接の親として **すべて（すべて）** を持たないAdobe Campaign Standardの組織単位は、Campaign v8 に移行されません。
+></br>
+>複数のセキュリティ グループのユーザーには、最上位のセキュリティ グループの組織単位が割り当てられます。 複数のグループに並行する最上位レベルのユニットがある場合、システムはCampaign Standardでユーザーの組織単位を選択し、ユーザーは、システムで選択された組織単位とその子にのみアクセスできます。 移行後の Campaign v8 では、ユーザーは **割り当てられたすべての組織単位とその子** にアクセスでき、権限がエスカレーションされる可能性があります。 これを防ぐには、ユーザーを並列の組織単位を持つセキュリティ グループに割り当てないでください。 詳しくは、[ 並列組織単位の割り当て ](#parallel-assignments) を参照してください。
 
-直接または間接の親として **すべて（すべて）** を持たないAdobe Campaign Standardの組織単位は、Campaign v8 に移行されません。
-
-複数のセキュリティ グループのユーザーには、最上位のセキュリティ グループの組織単位が割り当てられます。 複数のグループに並行する最上位レベルのユニットがある場合、システムはCampaign Standardでユーザーの組織単位を選択し、ユーザーは、システムで選択された組織単位とその子にのみアクセスできます。 移行後の Campaign v8 では、ユーザーは **割り当てられたすべての組織単位とその子** にアクセスでき、権限がエスカレーションされる可能性があります。 これを防ぐには、ユーザーを並列の組織単位を持つセキュリティ グループに割り当てないでください。 詳しくは、[ 並列組織単位の割り当て ](#parallel-assignments) を参照してください。
-
-### 組織単位とフォルダー管理
 
 Adobe Campaign Standardでは、同様のアクセス制御を維持するために、**組織単位** が Campaign v8 の既存の **フォルダー** 階層モデルにマッピングされます。 [ フォルダー管理の詳細情報 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
