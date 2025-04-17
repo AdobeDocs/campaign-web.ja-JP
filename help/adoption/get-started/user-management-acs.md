@@ -4,9 +4,9 @@ description: ユーザーアクセス管理をCampaign Standardから Campaign v
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
+source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1403'
 ht-degree: 2%
 
 ---
@@ -178,4 +178,6 @@ Campaign Standardから移行したオペレーターは、Campaign v8 の特定
 
 * リレーアカウント
 
-Adobe Campaign Standardで作成され、ユーザーに割り当てられたカスタムの役割は、Campaign v8 に移行されません。
+>[!NOTE]
+>
+>Adobe Campaign Standardで作成され、ユーザーに割り当てられたカスタムの役割は、Adobe Campaign v8 に移行されません。
