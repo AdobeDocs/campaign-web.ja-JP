@@ -6,10 +6,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 41%
+ht-degree: 40%
 
 ---
 
@@ -104,6 +104,6 @@ ht-degree: 41%
 
    ![ ブランドダッシュボードの詳細メニューオプション ](assets/brands_5.png)
 
-ブランドガイドラインに、AI アシスタントメニューの **[!UICONTROL ブランド]** ドロップダウンからアクセスできるようになりました。 これにより、AI アシスタントが仕様に合ったコンテンツおよびアセットを生成できるようになります。 [詳しくは、AI アシスタントを参照してください](../email/generative-gs.md)
+ブランドガイドラインに、AI アシスタントメニューの **[!UICONTROL ブランド]** ドロップダウンからアクセスできるようになりました。 これにより、AI アシスタントが仕様に合ったコンテンツおよびアセットを生成できるようになります。 [AI アシスタントの詳細情報 ](../email/generative-gs.md)
 
 ![ ブランド ドロップダウン付き AI アシスタントメニュー ](assets/brands_6.png)

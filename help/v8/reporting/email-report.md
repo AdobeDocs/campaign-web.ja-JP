@@ -3,10 +3,10 @@ audience: end-user
 title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 93%
+source-wordcount: '2448'
+ht-degree: 89%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 93%
 
 ![ 正確な数を表示する部分にマウスを置いたグラフのスクリーンショット ](assets/reporting_email_1.1.png){zoomable="yes"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
 
@@ -56,7 +56,7 @@ ht-degree: 93%
 
 ![ 配信統計の詳細を示すグラフのスクリーンショット ](assets/reporting_email_2.png){zoomable="yes"}
 
-+++メールキャンペーンレポート指標の詳細情報。
++++メールキャンペーンレポート指標の詳細を説明します。
 
 * **[!UICONTROL 送信済みメッセージ]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -75,11 +75,11 @@ ht-degree: 93%
 >title="配信の除外の理由"
 >abstract="**除外の理由**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。"
 
-**[!UICONTROL 除外の理由]**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。除外ルールについて詳しくは、 [Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){_blank}を参照してください。
+**[!UICONTROL 除外の理由]**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。除外ルールについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){_blank} を参照してください
 
 ![ 除外の原因のグラフと表のスクリーンショット ](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 不明なユーザー]**：メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
 
@@ -120,7 +120,7 @@ ht-degree: 93%
 
 ![ ブロードキャスト統計情報のスクリーンショット ](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 処理済みのメール]**：配信サーバーによって処理されたメッセージの合計数。
 
@@ -153,11 +153,11 @@ ht-degree: 93%
 
 **[!UICONTROL タイプごとのエラーの分類]**&#x200B;テーブルおよびグラフには、エラーのタイプごとに入手可能なデータが表示されます。指標については、以下で詳しく説明します。
 
-このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}を参照してください。
+このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"} を参照してください。
 
 ![ タイプごとのエラーの内訳のスクリーンショット ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 不明なユーザー]**：メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
 
@@ -218,7 +218,7 @@ ht-degree: 93%
 
 ![ 配信統計のスクリーンショット ](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 成功]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
 
@@ -246,7 +246,7 @@ ht-degree: 93%
 
 ![ 開封率およびクリックスルー率テーブルのスクリーンショット ](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 送信済み]**：送信されたメッセージの合計数。
 
@@ -271,7 +271,7 @@ ht-degree: 93%
 
 ![URL のスクリーンショットとクリックストリームレポート ](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。
 
@@ -296,7 +296,7 @@ ht-degree: 93%
 
 ![ 最も訪問されたリンクの上位 10 位のグラフのスクリーンショット ](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 
@@ -328,7 +328,7 @@ ht-degree: 93%
 
 ![ ユーザーアクティビティレポートのスクリーンショット ](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 
@@ -347,7 +347,7 @@ ht-degree: 93%
 
 ![ トラッキング統計グラフのスクリーンショット ](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++詳しくは、メール配信レポート指標を参照してください。
++++メール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 

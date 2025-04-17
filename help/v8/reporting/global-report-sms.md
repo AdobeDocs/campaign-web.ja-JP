@@ -3,10 +3,10 @@ audience: end-user
 title: SMS チャネルのグローバルレポート
 description: SMS チャネルのグローバルレポートについて
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 54%
+ht-degree: 48%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 54%
 
 ![ 配信の概要レポートのスクリーンショット。SMS 配信の主要なパフォーマンス指標を示します。](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++配信の概要指標の詳細情報
++++配信の概要指標の詳細を説明します。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -52,7 +52,7 @@ ht-degree: 54%
 
 ![SMS 配信の受信者と除外に関するデータを示す、ターゲットオーディエンスレポートのスクリーンショット。](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
-+++ターゲットオーディエンス指標の詳細情報
++++ターゲットオーディエンス指標の詳細情報。
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -73,7 +73,7 @@ ht-degree: 54%
 
 ![ 配信統計レポートのスクリーンショット。SMS 配信の成功率、エラーおよび強制隔離を示しています ](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++配信統計指標の詳細情報
++++配信統計指標の詳細を説明します。
 
 * **[!UICONTROL メッセージの合計数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -83,7 +83,7 @@ ht-degree: 54%
 
 * **[!UICONTROL 新しい強制隔離]**：配信の失敗後（不明なユーザー、無効なドメインなど）、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
 
-  SMS エラータイプについては、[Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#sms-quarantines){target="_blank"}を参照してください。
+  SMS エラータイプは、[Adobe Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#sms-quarantines){target="_blank"} にリストされています。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 54%
 
 **[!UICONTROL 除外の理由]**&#x200B;のグラフとテーブルには、ターゲットプロファイルから除外されたユーザープロファイルが SMS 配信を受信できなかった理由が表示されます。
 
-エラータイプについては、[Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){target="_blank"}を参照してください。
+エラータイプの一覧については、[Adobe Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){target="_blank"} を参照してください。
 
 ![SMS 配信の除外の理由を示す、除外の原因レポートのスクリーンショット。](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 

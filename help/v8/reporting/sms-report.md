@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 63%
+source-wordcount: '607'
+ht-degree: 58%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 63%
 
 ![ 説明：画像は、成功率、エラー率、訪問者エンゲージメントなどの KPI を含む、配信の概要レポートを示します。](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++SMS 配信レポート指標の詳細情報。
++++SMS 配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの割合と合計数。
 
@@ -55,7 +55,7 @@ ht-degree: 63%
 
 ![ 説明：画像は、ターゲット母集団のグラフとテーブルを示しています。これには、配信するメッセージや除外などの指標が含まれています。](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++SMS 配信レポート指標の詳細情報。
++++SMS 配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 配信]**：配信の準備中に処理されたメッセージの合計数と割合。
 
@@ -73,7 +73,7 @@ ht-degree: 63%
 
 ![ 説明：画像は、成功率、エラー、強制隔離などの指標を含む、全体的な統計レポートを示しています。](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++SMS 配信レポート指標の詳細情報。
++++SMS 配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 成功]**：正常に処理されたメッセージの数と割合。
 
@@ -89,7 +89,7 @@ ht-degree: 63%
 >title="SMS の除外"
 >abstract="**除外**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。"
 
-**[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#sms-quarantines){_blank}を参照してください。
+**[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。除外ルールについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#sms-quarantines){_blank} を参照してください
 
 ![ 説明：この画像は、除外のグラフと表を示しています。このグラフには、ユーザープロファイルがメッセージの受信から除外される理由の詳細が示されています。](assets/reporting_sms_6.png){zoomable="yes"}
 

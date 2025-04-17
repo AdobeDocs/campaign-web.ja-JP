@@ -3,7 +3,7 @@ title: ランディングページの作成
 description: Campaign web でランディングページを設定して公開する方法について説明します
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bd938c3e2046123a9a9c6b64890bf41d0c272d4d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 73%
@@ -39,7 +39,7 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 >[!CAUTION]
 >
->Campaign web ユーザーインターフェイスのクライアントコンソール（web フォーム）から作成したランディングページは、表示または編集できません。詳しくは、[Campaign コンソールドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"}を参照してください。
+>Campaign web ユーザーインターフェイスのクライアントコンソール（web フォーム）から作成したランディングページは、表示または編集できません。詳しくは、[Campaign コンソールのドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"} を参照してください。
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -198,7 +198,7 @@ Captcha 設定を確認するには、「**[!UICONTROL レビューして公開]
 
 >[!CAUTION]
 >
->メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[詳しくは、テストプロファイルを参照してください](../audience/test-profiles.md)
+>メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[ テストプロファイルの詳細情報 ](../audience/test-profiles.md)
 
 ランディングページをテストするには、次の手順に従います。
 

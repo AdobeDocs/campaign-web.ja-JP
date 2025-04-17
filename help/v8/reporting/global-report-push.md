@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュチャネルのグローバルレポート
 description: プッシュチャネルのグローバルレポートについて
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 71%
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 71%
 
 ![ 配信の概要指標。プッシュ通知のパフォーマンスに関連する KPI を表示します。](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++配信の概要指標の詳細情報
++++配信の概要指標の詳細を説明します。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -52,7 +52,7 @@ ht-degree: 71%
 
 ![ プッシュ通知の受信者および除外に関連するデータを表示する、ターゲットオーディエンス指標 ](assets/global_report_push_targeted_audience.png){zoomable="yes"}。
 
-+++ターゲットオーディエンス指標の詳細情報
++++ターゲットオーディエンス指標の詳細情報。
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -73,7 +73,7 @@ ht-degree: 71%
 
 ![ プッシュ通知の成功率、エラーおよび強制隔離を表示する配信統計指標 ](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++配信統計指標の詳細情報
++++配信統計指標の詳細を説明します。
 
 * **[!UICONTROL メッセージの合計数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -83,7 +83,7 @@ ht-degree: 71%
 
 * **[!UICONTROL 新しい強制隔離]**：配信の失敗後（無効な登録、メッセージの却下、ペイロードエラーなど）、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
 
-  プッシュ通知のエラータイプについては、[Adobe Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"}を参照してください。
+  プッシュ通知のエラータイプは、[Adobe Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"} に一覧表示されます。
 
 +++
 
@@ -96,7 +96,7 @@ ht-degree: 71%
 
 **[!UICONTROL 除外の理由]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
 
-プッシュ通知のエラータイプについては、[Adobe Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"}を参照してください。
+プッシュ通知のエラータイプは、[Adobe Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"} に一覧表示されます。
 
 ## 配信スループット {#delivery-throughput-sms}
 

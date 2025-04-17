@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーの操作
 description: Adobe Campaign Web クエリモデラーの操作方法について説明します。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Campaign Web ユーザーインターフェイスには、様々な基準�
 | 使用状況 | 例 |
 |  ---  |  ---  |
 | **オーディエンスの定義**：メッセージやワークフローでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。[詳しくは、オーディエンスの作成方法を参照してください。](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ オーディエンス作成インターフェイスへのアクセス方法を示す画像 ] |
-| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて **分割** や **紐付け** などのルールをワークフローアクティビティ内で適用します。 [詳しくは、ワークフローアクティビティを参照してください。](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ ワークフローのカスタマイズオプションへのアクセス方法を示す画像 ] |
+| **ワークフローアクティビティのカスタマイズ**：特定の要件に合わせて **分割** や **紐付け** などのルールをワークフローアクティビティ内で適用します。 [ ワークフローアクティビティの詳細情報 ](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ ワークフローのカスタマイズオプションへのアクセス方法を示す画像 ] |
 | **定義済みフィルター**：データリストの操作や配信のオーディエンスの形成など、様々なフィルタリング操作中にショートカットとして機能する定義済みフィルターを作成します。[詳しくは、定義済みフィルターの操作方法を参照してください。](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ 定義済みフィルターへのアクセス方法を示す画像 ] |
 | **レポートデータのフィルタリング**：レポートに表示されるデータをフィルタリングするためのルールを追加します。 [詳しくは、レポートの操作方法を参照してください。](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ レポートのデータをフィルターする方法を示す画像 ] |
 | **リストのカスタマイズ**：リスト（受信者リストや配信リストなど）に表示されるデータをフィルタリングするカスタムルールを作成します。 [詳しくは、リストをフィルターする方法を参照してください。](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ リストフィルターのカスタマイズ方法を示す画像 ] |

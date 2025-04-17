@@ -3,7 +3,7 @@ title: ランディングページ固有のコンテンツの定義
 description: Campaign web でランディングページ固有のコンテンツを設計する方法について説明します
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 56%
@@ -111,7 +111,7 @@ ht-degree: 56%
    * **[!UICONTROL ランディングページ]**：ユーザーのリダイレクト先となる別のランディングページを選択します。 それに応じて選択したランディングページを設定します。
 
 1. フォームの送信時に追加の更新を行うには、「**[!UICONTROL 追加の更新]**」を選択し、更新する項目を選択します。
-   * 購読 [ サービス ](../audience/manage-services.md) - フォームの送信時にユーザーをオプトインまたはオプトアウトするかどうかを定義します。 メールをデザインする際に、このランディングページへの **[!UICONTROL ランディングページ]** タイプのリンクを定義すると、選択したサービスが自動的に使用されます。 [詳しくは、リンクの挿入を参照してください](../email/message-tracking.md)
+   * 購読 [ サービス ](../audience/manage-services.md) - フォームの送信時にユーザーをオプトインまたはオプトアウトするかどうかを定義します。 メールをデザインする際に、このランディングページへの **[!UICONTROL ランディングページ]** タイプのリンクを定義すると、選択したサービスが自動的に使用されます。 [ リンクの挿入の詳細情報 ](../email/message-tracking.md)
 
      >[!NOTE]
      >
@@ -131,7 +131,7 @@ ht-degree: 56%
 
    ![ フォームコンポーネントの URL 設定からのサービス ](assets/lp-form-service-from-url.png){zoomable="yes"}
 
-   メールをデザインする際に、**[!UICONTROL ランディングページ]** タイプのリンクをこのランディングページに定義すると、リストから任意のサービスを選択できます。 その後、このランディングページに対する他のリンクを定義する際に、他のサービスを選択できます。[詳しくは、リンクの挿入を参照してください](../email/message-tracking.md)
+   メールをデザインする際に、**[!UICONTROL ランディングページ]** タイプのリンクをこのランディングページに定義すると、リストから任意のサービスを選択できます。 その後、このランディングページに対する他のリンクを定義する際に、他のサービスを選択できます。[ リンクの挿入の詳細情報 ](../email/message-tracking.md)
 
    ![ ランディングページ設定へのメールリンク ](assets/email-link-to-landing-page.png){zoomable="yes"}
 

@@ -2,10 +2,10 @@
 title: カスタムフィールド
 description: インターフェイスでカスタムフィールドとその表示を設定する方法について説明します。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1003'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 76%
 >title="属性の設定"
 >abstract="属性の設定"
 
-カスタムフィールドは、Adobe Campaign コンソールから標準スキーマに追加されている属性です。組織のニーズに合わせて新しい属性を含めることで、スキーマをカスタマイズできます。スキーマを拡張する方法について詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=ja){target="_blank"}を参照してください。
+カスタムフィールドは、Adobe Campaign コンソールから標準スキーマに追加されている属性です。組織のニーズに合わせて新しい属性を含めることで、スキーマをカスタマイズできます。スキーマを拡張する方法については、[Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=ja){target="_blank"} を参照してください。
 
 カスタムフィールドは、Campaign web インターフェイスのプロファイル詳細など、様々な画面に表示できます。 管理者は、表示するフィールドとその表示方法を制御できます。これらの変更は、すべての Campaign ユーザーに適用されます。
 
@@ -70,7 +70,7 @@ ht-degree: 76%
 
    ![ ナビゲーションペインのスキーマ メニューと編集可能なフィルターを示すスクリーンショット ](assets/custom-fields-open.png)
 
-1. リストでスキーマ名を選択して開きます。詳細なスキーマビューが表示されます。 [ スキーマの詳細について詳しくはこちらを参照 ](../administration/schemas.md) てください。 「**[!UICONTROL カスタム詳細を編集]**」ボタンをクリックして、カスタムフィールドにアクセスします。この例では、「受信者 **[!UICONTROL スキーマにフィールドを追加し]** す。
+1. リストでスキーマ名を選択して開きます。詳細なスキーマビューが表示されます。 [ スキーマの詳細の詳細情報 ](../administration/schemas.md)。 「**[!UICONTROL カスタム詳細を編集]**」ボタンをクリックして、カスタムフィールドにアクセスします。この例では、「受信者 **[!UICONTROL スキーマにフィールドを追加し]** す。
 
    ![ スキーマビューで「カスタム詳細を編集」ボタンを示すスクリーンショット ](assets/custom-fields-edit.png)
 

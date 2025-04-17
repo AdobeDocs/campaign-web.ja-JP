@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 ✨ [AI アシスタント](../v8/email/generative-gs.md)のライブ機能プレビューは、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
-[![「詳細情報」ボタン](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![ 「詳細情報」ボタン ](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB よくある質問（FAQ）]
 
@@ -132,5 +132,5 @@ Campaign web ユーザーインターフェイスに関するよくある質問�
 
 ## その他のリソース
 
-* [Adobe Campaign 製品ドキュメント](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja){target="_blank"}
+* [Adobe Campaignの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja){target="_blank"}

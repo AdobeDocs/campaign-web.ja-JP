@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ配信レポート
 description: プッシュ配信レポートへのアクセス方法と使用方法を学ぶ
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 73%
+source-wordcount: '566'
+ht-degree: 68%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 73%
 
 ![ このスクリーンショットは、プッシュメッセージに対する訪問者のエンゲージメントに関する KPI を提供する、配信の概要レポートを示します。](assets/reporting_push_3.png){zoomable="yes"}
 
-+++プッシュ配信レポート指標の詳細情報。
++++プッシュ配信レポート指標の詳細はこちら。
 
 * **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの合計数。
 * **[!UICONTROL 配信済み数]**：送信されたメッセージの合計数に対して、正常に送信できたメッセージの数。
@@ -52,7 +52,7 @@ ht-degree: 73%
 
 ![ このスクリーンショットは、配信するメッセージと除外に関するデータを表示するターゲット母集団グラフとテーブルを示しています。](assets/reporting_push_4.png){zoomable="yes"}
 
-+++プッシュ配信レポート指標の詳細情報。
++++プッシュ配信レポート指標の詳細はこちら。
 
 * **[!UICONTROL 配信]**：配信の準備中に処理されたメッセージの合計数。
 * **[!UICONTROL 除外]**：分析から除外されたプロファイルの数。
@@ -70,7 +70,7 @@ ht-degree: 73%
 
 ![ このスクリーンショットは、全体的な統計レポートを示しています。ここには、送信されたプッシュ通知の成功、エラーおよび強制隔離に関するデータが表示されます。](assets/reporting_push_5.png){zoomable="yes"}
 
-+++プッシュ配信レポート指標の詳細情報。
++++プッシュ配信レポート指標の詳細はこちら。
 
 * **[!UICONTROL 成功]**：正常に処理されたメッセージ数。
 * **[!UICONTROL エラー]**：配信中に発生し、特定のプロファイルにメッセージを送信できなかったエラーの合計数。
@@ -85,7 +85,7 @@ ht-degree: 73%
 >title="プッシュの除外"
 >abstract="**除外**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。"
 
-**[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){_blank}を参照してください。
+**[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。除外ルールについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){_blank} を参照してください
 
 ![ このスクリーンショットは、除外されたユーザープロファイルがメッセージを受信できない理由を示す、除外のグラフとテーブルを示しています。](assets/reporting_push_6.png){zoomable="yes"}
 

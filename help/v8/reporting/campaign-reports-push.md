@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュチャネルのキャンペーンレポート
 description: プッシュチャネルのキャンペーンレポートについて
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 64%
+ht-degree: 56%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 64%
 
 ![ 配信の概要レポートに表示される配信の概要指標 ](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細はこちら。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -48,7 +48,7 @@ ht-degree: 64%
 
 ![ レポートに表示される初期ターゲットオーディエンス統計 ](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細はこちら。
 
 * **[!UICONTROL 初期オーディエンス]**：ターゲット受信者の合計数。
 
@@ -69,7 +69,7 @@ ht-degree: 64%
 
 ![ レポートに実行統計を表示 ](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細はこちら。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -79,7 +79,7 @@ ht-degree: 64%
 
 * **[!UICONTROL 新しい強制隔離]**：配信の失敗後（無効な登録、メッセージの却下、ペイロードエラーなど）、配信されるメッセージ数に関して強制隔離されたアドレスの合計数。
 
-  プッシュ通知のエラータイプについては、[Adobe Campaign v8 （クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"}を参照してください。
+  プッシュ通知のエラータイプは、[Adobe Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){target="_blank"} に一覧表示されます。
 
 +++
 
@@ -94,7 +94,7 @@ ht-degree: 64%
 
 ![ レポートに表示されるクリックストリーム ](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++詳しくは、プッシュキャンペーンレポート指標を参照してください。
++++プッシュキャンペーンレポート指標の詳細はこちら。
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 

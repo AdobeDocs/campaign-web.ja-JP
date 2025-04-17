@@ -4,10 +4,10 @@ description: Campaign v8 の主な機能を確認Campaign Standard から Campai
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2453'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
@@ -194,7 +194,7 @@ Campaign web ユーザーインターフェースを使用すると、マーケ�
 >
 >* トラッキングリンク、ミラーページ URL リンク、購読／購読解除リンクは Campaign Standard と同様に機能します。
 >
->また、Adobe Campaign での[トラッキングとモニタリング](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、[ブランディング](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}の節も参照してください。
+>Adobe Campaignの [ トラッキングとモニタリング ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、[ ブランディング ](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} の節も参照してください。
 
 ### メール配信 {#acs-gs-marketers-email}
 
@@ -208,7 +208,7 @@ Campaign v8 でのメール配信の作成、テスト、送信の詳細な手�
 
 1. **コンテンツの設計と定義**
 
-   Campaign v8 の E メールデザイナーは、Campaign Standard で使用できるE メールデザイナーと似ています。数年前に、Campaign Standard の[従来のメールエディターは廃止されました](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}。メールコンテンツを作成およびパーソナライズするには、既に Campaign E メールデザイナーに移行している必要があります。
+   Campaign v8 の E メールデザイナーは、Campaign Standard で使用できるE メールデザイナーと似ています。備考：数年前、Campaign Standard[ 従来のメールエディターは非推奨 ](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} なりました。 メールコンテンツを作成およびパーソナライズするには、既に Campaign E メールデザイナーに移行している必要があります。
 
    E メールデザイナーの操作方法について説明します。次のビデオでは、メールをゼロから構築して設計する方法とメールをパーソナライズしてテストする方法ついて説明します。
 
@@ -309,9 +309,9 @@ Campaign v8 では、プッシュ通知配信の作成、テスト、送信の�
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8 では、Android と iOS の両方のプッシュチャネルをサポートしています。プッシュチャネルを使用した既存のワークフローと配信の移行について詳しくは、Adobe Campaign トランジションマネージャーにお問い合わせください。詳しくは、[チャネル設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}を参照してください。
+>* Adobe Campaign v8 では、Android と iOS の両方のプッシュチャネルをサポートしています。プッシュチャネルを使用した既存のワークフローと配信の移行について詳しくは、Adobe Campaign トランジションマネージャーにお問い合わせください。詳細情報 [ チャネル設定 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
 >
->* モバイルアプリケーション用の SDK V4 は、数年前に [Campaign Standard で廃止](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}されました。Campaign v8 で使用されているものと同じ Adobe Experience Platform SDK に既に移行している必要があります。
+>* なお、モバイルアプリケーション用のSDK V4 は、数年前に [Campaign Standardで非推奨 ](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} になっていました。 Campaign v8 で使用されているものと同じ Adobe Experience Platform SDK に既に移行している必要があります。
 > 
 
 ### ダイレクトメール {#acs-gs-marketers-direct-mail}
@@ -369,15 +369,15 @@ Campaign Standard ユーザーが Campaign v8 に移行する場合は、既存�
 
 ## レポート {#acs-gs-marketers-reporting}
 
-Adobe Campaign には、一連の[レポートツール](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}があります。管理者は、レポートを作成および設定し、他の Campaign ユーザーと共有できます。
+Adobe Campaignには、一連の [ レポートツール ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"} が用意されています。 管理者は、レポートを作成および設定し、他の Campaign ユーザーと共有できます。
 
 Adobe Campaign のレポートツールスイートは、マーケティング活動の有効性に関する貴重なインサイトを提供し、最大の効果を得るのにキャンペーンを最適化できます。詳しくは、[レポートのドキュメント](../../v8/reporting/gs-reports.md)を参照してください。
 
-また、Adobe Campaign Standard エクスペリエンスに合わせて、メール配信用の動的レポートが Campaign v8 で使用できます。マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供します。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。詳しくは、[動的レポートのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}を参照してください。
+また、Adobe Campaign Standard エクスペリエンスに合わせて、メール配信用の動的レポートが Campaign v8 で使用できます。マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供します。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。詳しくは、[ 動的レポートドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} を参照してください
 
 >[!AVAILABILITY]
 >
->* [動的レポート](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}は、メール配信、メール配信を含むキャンペーン、トランザクションメッセージのレポートに使用できます。また、プロファイルディメンション別のデモグラフィック分析も使用できます。
+>* [ 動的レポート ](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} は、メール配信のレポート、メール配信を含むキャンペーン、トランザクションメッセージに使用できます。 また、プロファイルディメンション別のデモグラフィック分析も使用できます。
 >
 > * また、[Adobe Campaign web ユーザーインターフェイスレポート](../../v8/reporting/campaign-reports.md)は、Adobe Campaign Standard から Adobe Campaign v8 に移行するすべてのユーザーが使用することもできます。
 

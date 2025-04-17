@@ -3,7 +3,7 @@ audience: end-user
 title: ダイレクトメール配信の作成
 description: Adobe Campaign web を使用してダイレクトメール配信を作成する方法について説明します。
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 74%

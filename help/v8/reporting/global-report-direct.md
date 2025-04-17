@@ -3,10 +3,10 @@ audience: end-user
 title: ダイレクトメールチャネルのグローバルレポート
 description: ダイレクトメールチャネルのグローバルレポートについての詳細情報
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 62%
 
 ![ この画像は、ダイレクトメール配信の配信の概要指標を示しています。](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++配信の概要指標の詳細情報
++++配信の概要指標の詳細を説明します。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -57,7 +57,7 @@ ht-degree: 62%
 
 ![ この画像は、ダイレクトメール配信のターゲットオーディエンス指標を示しています。](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++ターゲットオーディエンス指標の詳細情報
++++ターゲットオーディエンス指標の詳細情報。
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -81,7 +81,7 @@ ht-degree: 62%
 
 **[!UICONTROL 配信統計]**&#x200B;グラフおよびテーブルには、すべてのダイレクトメール配信の成功の分類と、以下に概要を示す詳細な指標が表示されます。
 
-+++配信統計指標の詳細情報
++++配信統計指標の詳細を説明します。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -109,7 +109,7 @@ ht-degree: 62%
 
 除外グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
 
-+++詳しくは、除外の理由指標を参照してください。
++++除外指標の原因の詳細はこちら。
 
 * **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離される際に生成されるエラータイプ。
 

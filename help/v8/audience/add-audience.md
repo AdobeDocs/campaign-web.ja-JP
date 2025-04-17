@@ -3,10 +3,10 @@ audience: end-user
 title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 60%
 
    [ このスクリーンショットは、現在のフォルダー内の既存のオーディエンスのリストを示しています。](assets/create-audience2.png){zoomable="yes"}
 
-   Adobe Experience Platform からオーディエンスを選ぶには、画面のフィルターセクションから `AEP Audiences folder` を参照します。[詳しくは、Adobe Experience Platform オーディエンスを参照してください](manage-audience.md#monitor)
+   Adobe Experience Platform からオーディエンスを選ぶには、画面のフィルターセクションから `AEP Audiences folder` を参照します。[Adobe Experience Platform オーディエンスの詳細 ](manage-audience.md#monitor)
 
    [ このスクリーンショットは、AEP オーディエンスフォルダーが選択されたフィルターセクションを示しています ](assets/select-audience-folder.png){zoomable="yes"}。
 

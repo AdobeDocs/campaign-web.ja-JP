@@ -3,10 +3,10 @@ audience: end-user
 title: ダイレクトメールレポート
 description: ダイレクトメールレポートへのアクセス方法と使用方法について説明します。
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 41%
+source-wordcount: '677'
+ht-degree: 35%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 41%
 
 ![ ダイレクトメール配信の主要なパフォーマンス指標を示す配信の概要指標グラフ。](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++配信の概要指標の詳細情報
++++配信の概要指標の詳細を説明します。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 * **[!UICONTROL ターゲット]**：ダイレクトメールメッセージのターゲットプロファイルとして認定されるユーザープロファイルの数。
@@ -49,7 +49,7 @@ ht-degree: 41%
 
 ![ ホバー機能を使用した初期ターゲット母集団グラフの詳細ビュー。](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++詳しくは、ダイレクトメール配信レポート指標を参照してください。
++++ダイレクトメール配信レポート指標の詳細を説明します。
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
 * **[!UICONTROL 配信]**：配信準備の後に配信されるメッセージの合計数。
@@ -67,7 +67,7 @@ ht-degree: 41%
 
 ![ 成功率、エラー、強制隔離を示す配信統計グラフ ](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++詳しくは、ダイレクトメールキャンペーンレポート指標を参照してください。
++++ダイレクトメールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 送信済みメッセージ]**：配信準備の後に配信されるメッセージの合計数。
 * **[!UICONTROL 成功]**：配信されるメッセージ数に対して、正常に処理されたメッセージ数、
@@ -82,11 +82,11 @@ ht-degree: 41%
 >title="配信の除外の理由"
 >abstract="**除外の理由**&#x200B;グラフには、配信の準備中に却下されたメッセージの配分がルールごとに分類されて表示されます。"
 
-**[!UICONTROL 除外の原因]** グラフには、配信の準備中にメッセージが却下された理由の分類が表示されます。 この分類は、様々なルール別に整理され、メッセージの除外に貢献する要因の詳細なビューを提供します。 除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types)を参照してください。
+**[!UICONTROL 除外の原因]** グラフには、配信の準備中にメッセージが却下された理由の分類が表示されます。 この分類は、様々なルール別に整理され、メッセージの除外に貢献する要因の詳細なビューを提供します。 除外ルールについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){_blank} を参照してください
 
 ![ ルール別に却下されたメッセージの分布を示す除外の原因グラフ ](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++詳しくは、除外の理由指標を参照してください。
++++除外指標の原因の詳細はこちら。
 
 * **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離される際に生成されるエラータイプ。
 * **[!UICONTROL アドレスが指定されていません]**：アドレスが存在しない場合に生成されるエラータイプ。

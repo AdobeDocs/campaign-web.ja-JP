@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 76%
 
 ➡️ [この機能をビデオで確認](#video)
 
-<!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 テストプロファイルに本配信前確認を送信する手順については、[この節](../preview-test/test-deliveries.md#test-profiles)を参照してください。
 
@@ -96,11 +96,11 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. 「**[!UICONTROL 今後の連絡は不要（すべてのチャネル）]**」チェックボックスをオンにすると、テストプロファイルはブロックリストに登録されます。このような受信者は、いずれのチャネル（メール、SMS など）でもターゲットに設定されなくなりました。
 
-1. 「**[!UICONTROL 追加データ]**」タブでは、データ管理ワークフローで作成された配信に使用され、特定の値を割り当てたいパーソナライズデータを入力します。[詳しくは、ワークフローを参照してください](../workflows/gs-workflows.md)
+1. 「**[!UICONTROL 追加データ]**」タブでは、データ管理ワークフローで作成された配信に使用され、特定の値を割り当てたいパーソナライズデータを入力します。[ワークフローの詳細](../workflows/gs-workflows.md)
 
    ![ 「追加データ」タブ ](assets/test-profile-additional-data.png){zoomable="yes"}
 
-   追加のターゲットデータが、「**[!UICONTROL エンリッチメント]**」ワークフローアクティビティで「@」で始まるエイリアスで定義されていることを確認してください。それ以外の場合は、配信アクティビティでシードアドレスと共に適切に使用できません。[詳しくは、「エンリッチメント」アクティビティを参照してください](../workflows/activities/enrichment.md)
+   追加のターゲットデータが、「**[!UICONTROL エンリッチメント]**」ワークフローアクティビティで「@」で始まるエイリアスで定義されていることを確認してください。それ以外の場合は、配信アクティビティでシードアドレスと共に適切に使用できません。[ エンリッチメントアクティビティの詳細情報 ](../workflows/activities/enrichment.md)
 
 1. 「**[!UICONTROL 保存]**」ボタンをクリックします。
 

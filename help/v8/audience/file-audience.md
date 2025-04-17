@@ -3,10 +3,10 @@ audience: end-user
 title: ファイルからメールオーディエンスを読み込み
 description: 外部ファイルからプロファイルを読み込んでメールオーディエンスを作成する方法を学ぶ
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 66%
+ht-degree: 64%
 
 ---
 
@@ -99,7 +99,7 @@ Campaign web では、ファイルからアップロードされたオーディ�
 
 1. アップロードされたファイルに含まれるプロファイルが表示されます。コンテンツのプレビューに使用するプロファイルを選択し、「**[!UICONTROL 選択]**」をクリックします。
 
-1. 配信コンテンツのプレビューが、画面の右側のパネルに表示されます。パーソナライズされた要素は、左側のパネルで選択したプロファイルのデータに置き換えられます。[配信コンテンツのプレビューの詳細情報](../preview-test/preview-content.md)
+1. 配信コンテンツのプレビューが、画面の右側のパネルに表示されます。パーソナライズされた要素は、左側のパネルで選択したプロファイルのデータに置き換えられます。[ 配信コンテンツのプレビューの詳細情報 ](../preview-test/preview-content.md)
 
    ![ パーソナライズされた要素を含む配信コンテンツのプレビューを示すスクリーンショット ](assets/file-upload-preview.png){zoomable="yes"}
 
@@ -115,4 +115,4 @@ Campaign web では、ファイルからアップロードされたオーディ�
 
    ![ プルーフ送信プロセスを示すスクリーンショット ](assets/file-upload-test.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 配達確認を表示]** ボタンを使用して、いつでも配達確認の送信を監視できます。 [詳しくは、本配信前確認の監視を参照してください](../preview-test/test-deliveries.md#access-test-deliveries)
+1. 「**[!UICONTROL 配達確認を表示]** ボタンを使用して、いつでも配達確認の送信を監視できます。 [ 配達確認の監視の詳細情報 ](../preview-test/test-deliveries.md#access-test-deliveries)

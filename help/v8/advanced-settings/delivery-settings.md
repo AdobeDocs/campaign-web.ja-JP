@@ -4,10 +4,10 @@ title: 配信設定の指定
 description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2765'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->疲労管理と頻度ルールは、Campaign クライアントコンソールで設定されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}を参照してください。
+>疲労管理と頻度ルールは、Campaign クライアントコンソールで設定されます。詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"} を参照してください。
 
 ### 処理能力設定 {#capacity-settings}
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->タイポロジルールは、Campaign クライアントコンソールで設定されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"}を参照してください。
+>タイポロジルールは、Campaign クライアントコンソールで設定されます。詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=ja){target="_blank"} を参照してください。
 
 ## オーディエンス設定 {#audience}
 
@@ -102,7 +102,7 @@ ht-degree: 100%
 >title="配信用のオーディエンス設定"
 >abstract="利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択します。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。また、配信用の除外パラメーターを設定することもできます。"
 
-このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。ターゲットマッピングは、操作で処理されるデータのタイプです。ターゲット母集団 (受信者、契約の受取人、オペレーター、サブスクライバーなど) を定義できます。[詳しくは、ターゲットマッピングを参照してください](../audience/targeting-dimensions.md)。
+このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。ターゲットマッピングは、操作で処理されるデータのタイプです。ターゲット母集団 (受信者、契約の受取人、オペレーター、サブスクライバーなど) を定義できます。[ ターゲットマッピングの詳細情報 ](../audience/targeting-dimensions.md)。
 
 「**[!UICONTROL 除外]**」フィールドでは、今後連絡を希望しないプロファイルや強制隔離されているプロファイルを除外することを選択できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ja){target="_blank"}
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
 * **[!UICONTROL SMTP 配信をテスト]** (メールチャネル) : このオプションを使用して、SMTP 経由での送信をテストします。メールは SMTP サーバーへの接続まで処理されますが、送信はされません。メールの受信者ごとに、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
-* **[!UICONTROL BCC でメールを送信]** (メールチャネル) : BCC メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL BCC でメールを送信]** (メールチャネル) : BCC メールアドレスをメッセージのターゲットに追加するだけで、BCC 経由でメールを外部システムに保存します。詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=ja){target="_blank"} を参照してください。
 
 「**[!UICONTROL ウェーブの定義]**」セクションで、「**[!UICONTROL 複数のウェーブを使用して送信]**」オプションを選択し、ウェーブを使用して送信される音量を徐々に増やします。これにより、メッセージがスパムとしてマークされず、また 1 日あたりのメッセージ数を制限できます。ウェーブを使用すると、一度に大量のメッセージを送信するのではなく、配信をいくつかのバッチに分割できます。[詳細情報](send-using-waves.md)
 
@@ -160,7 +160,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Web 分析機能は、Campaign クライアントコンソールで設定されます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=ja#external-account-ac){target="_blank"}を参照してください。
+>Web 分析機能は、Campaign クライアントコンソールで設定されます。詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=ja#external-account-ac){target="_blank"} を参照してください。
 
 ## 再試行 {#retries}
 
@@ -229,7 +229,7 @@ ht-degree: 100%
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-配信の有効期間について詳しくは、[Campaign v8 (クライアントコンソール) ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja#validity-period){target="_blank"}を参照してください。
+配信の有効期間について詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja#validity-period){target="_blank"} を参照してください。
 
 ### ミラーページ管理 (メールチャネル) {#mirror}
 
