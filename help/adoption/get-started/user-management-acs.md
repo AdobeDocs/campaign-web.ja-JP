@@ -4,9 +4,9 @@ description: ユーザーアクセス管理をCampaign Standardから Campaign V
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
+source-git-commit: cc1f89fe5a67898e0905bd2823f73aa8b9424164
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '1020'
 ht-degree: 3%
 
 ---
@@ -68,13 +68,15 @@ Adobe Campaign Standardでは、**ユーザーロール** という用語は、C
 
 ## 組織単位からの移行アプローチ
 
->[!CAUTION]
->
->直接または間接の親として **すべて（すべて）** を持たないAdobe Campaign Standardの組織単位は、Campaign V8 に移行されません。
-></br>
->複数のセキュリティ グループのユーザーには、最上位のセキュリティ グループの組織単位が割り当てられます。 複数のグループの最上位ユニットが並行している場合、Campaign Standardではログインが制限されますが、Campaign v8 では移行後により幅広いアクセス権が付与され、権限がエスカレーションされる可能性があります。 これを防ぐには、ユーザーを並列の組織単位を持つセキュリティ グループに割り当てないでください。
+### 注意メモ
 
-Adobe Campaign Standardでは、同様のアクセス制御を維持するために、**Organization uni** t が Campaign V8 の既存の **フォルダー** 階層モデルにマッピングされます。 [ 詳しくは、フォルダー管理を参照してください ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+直接または間接の親として **すべて（すべて）** を持たないAdobe Campaign Standardの組織単位は、Campaign V8 に移行されません。
+
+複数のセキュリティ グループのユーザーには、最上位のセキュリティ グループの組織単位が割り当てられます。 複数のグループに並行する最上位レベルのユニットがある場合、システムはCampaign Standardでユーザーの組織単位を選択し、ユーザーは、システムで選択された組織単位とその子にのみアクセスできます。 移行後の Campaign v8 では、ユーザーは **割り当てられたすべての組織単位とその子** にアクセスでき、権限がエスカレーションされる可能性があります。 これを防ぐには、ユーザーを並列の組織単位を持つセキュリティ グループに割り当てないでください。<!--Know more about parallel organizational unit assignment here (link to ' Parallel Organizational Unit Assignment' section)-->
+
+### 組織単位とフォルダー管理
+
+Adobe Campaign Standardでは、同様のアクセス制御を維持するために、**組織単位** が Campaign V8 の既存の **フォルダー** 階層モデルにマッピングされます。 [ 詳しくは、フォルダー管理を参照してください ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign V8** |
 |---------|----------|---------|
