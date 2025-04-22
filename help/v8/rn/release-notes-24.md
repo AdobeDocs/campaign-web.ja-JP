@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2024 Campaign web ユーザーインターフェイスリリース
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '2502'
-ht-degree: 100%
+source-wordcount: '2501'
+ht-degree: 98%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成して調整したら、Adobe Campaign web の AI アシスタントを使用して、メッセージを次のレベルに引き上げます。この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
+<p>メッセージを作成してカスタマイズしたら、Adobe Campaign Web の AI アシスタントを使用して次のレベルに進めます。 この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>は、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../email/generative-gs.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -156,7 +156,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->この機能を使用するには、Campaign v8.6.3 <!--or v8.7.2-->へのアップデートが必要です。詳しくは、Campaign v8 クライアントコンソール[リリースノート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}を参照してください。
+>この機能を使用するには、Campaign v8.6.3 <!--or v8.7.2-->へのアップデートが必要です。詳しくは、Campaign v8 クライアントコンソール [ リリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} を参照してください。
 
 ### 改善点 {#improvements-24-7}
 
@@ -272,7 +272,7 @@ Android 経由でリッチプッシュ通知を送信できるようになりま
 
 >[!AVAILABILITY]
 >
->このバージョンは、[Campaign（コンソール）v8.6 リリース](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja)以降のすべてのユーザーが利用できます。Adobe Campaign クライアントコンソールのリリースとアップグレードについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ja){target="_blank"}を参照してください。
+>このバージョンは、[Campaign（コンソール）v8.6 リリース](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja)以降のすべてのユーザーが利用できます。Adobe Campaign クライアントコンソールのリリースとアップグレードについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ja){target="_blank"} を参照してください。
 
 **リリース日**：2024年3月19～20日（PT）
 

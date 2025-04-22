@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
       + [2025 リリース](rn/release-notes-25.md)
       + [2024 リリース](rn/release-notes-24.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
-+ Adobe Campaign の基本を学ぶ {#start}
++ Adobe Campaign の概要 {#start}
    + [基本を学ぶ](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
    + [インターフェイスの確認](get-started/user-interface.md)
@@ -91,7 +91,7 @@ ht-degree: 100%
       + [コンテンツを動的にする方法](personalization/gs-personalization.md)
       + [パーソナライゼーションの追加](personalization/personalize.md)
       + [条件付きコンテンツをビルド](personalization/conditions.md)
-   + コンテンツの再利用 {#manage-reusable-content}
+   + コンテンツを再利用 {#manage-reusable-content}
       + [コンテンツテンプレートの操作](email/create-email-templates.md)
       + コンテンツフラグメント {#fragments}
          + [コンテンツフラグメントの基本を学ぶ](content/fragments.md)
@@ -118,7 +118,7 @@ ht-degree: 100%
          + [リンクのスタイルの定義](email/styling-links.md)
          + [インラインスタイル属性を追加する](email/inline-styling.md)
    + AI アシスタント {#ai-assistant}
-      + [AI アシスタントの操作](email/generative-gs.md)
+      + [AI アシスタントを使用する](email/generative-gs.md)
       + [AI を使用したメール生成](email/generative-content.md)
       + [AI を使用した SMS 生成](email/generative-sms.md)
       + [AI を使用したプッシュ通知の生成](email/generative-push.md)
@@ -142,8 +142,8 @@ ht-degree: 100%
       + [テストプロファイルの操作](audience/test-profiles.md)
    + オーディエンスの操作 {#audiences}
       + [オーディエンスの基本を学ぶ](audience/manage-audience.md)
-      + [オーディエンスを作成](audience/create-audience.md)
-   + 配信受信者の選択 {#target-audiences}
+      + [オーディエンスの作成](audience/create-audience.md)
+   + 配信の受信者を選択 {#target-audiences}
       + [オーディエンス選択の基本を学ぶ](audience/delivery-recipients.md)
       + [既存オーディエンスの選択](audience/add-audience.md)
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)

@@ -6,10 +6,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 40%
+source-wordcount: '508'
+ht-degree: 37%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 40%
 
    ![ 画像オプションの例を含んだ「ビジュアルコンテンツ」タブ ](assets/brands_3.png)
 
-1. 設定が完了したら、「**[!UICONTROL 保存]**」、「**[!UICONTROL 公開]**」の順にクリックし、ブランドガイドラインを AI アシスタントで使用できるようにします。
+1. 設定が完了したら、**[!UICONTROL 保存]**/**[!UICONTROL 公開]** をクリックして、ブランドガイドラインを AI アシスタントで使用できるようにします。
 
 1. 公開したブランドを変更するには、「**[!UICONTROL ブランドを編集]**」をクリックします。
 
@@ -104,6 +104,6 @@ ht-degree: 40%
 
    ![ ブランドダッシュボードの詳細メニューオプション ](assets/brands_5.png)
 
-ブランドガイドラインに、AI アシスタントメニューの **[!UICONTROL ブランド]** ドロップダウンからアクセスできるようになりました。 これにより、AI アシスタントが仕様に合ったコンテンツおよびアセットを生成できるようになります。 [AI アシスタントの詳細情報 ](../email/generative-gs.md)
+ブランドガイドラインに、AI アシスタント メニューの **[!UICONTROL ブランド]** ドロップダウンからアクセスできるようになりました。 これにより、AI アシスタントが仕様に合ったコンテンツおよびアセットを生成できるようになります。 [AI アシスタントの詳細 ](../email/generative-gs.md)
 
 ![ ブランド ドロップダウン付き AI アシスタントメニュー ](assets/brands_6.png)
