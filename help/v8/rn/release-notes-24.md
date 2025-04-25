@@ -5,7 +5,7 @@ exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '2501'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->この機能を使用するには、Campaign v8.6.3 <!--or v8.7.2-->へのアップデートが必要です。詳しくは、Campaign v8 クライアントコンソール [ リリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes){target="_blank"} を参照してください。
+>この機能を使用するには、Campaign v8.6.3 <!--or v8.7.2-->へのアップデートが必要です。詳しくは、Campaign v8 クライアントコンソール[リリースノート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}を参照してください。
 
 ### 改善点 {#improvements-24-7}
 
@@ -272,7 +272,7 @@ Android 経由でリッチプッシュ通知を送信できるようになりま
 
 >[!AVAILABILITY]
 >
->このバージョンは、[Campaign（コンソール）v8.6 リリース](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja)以降のすべてのユーザーが利用できます。Adobe Campaign クライアントコンソールのリリースとアップグレードについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ja){target="_blank"} を参照してください。
+>このバージョンは、[Campaign（コンソール）v8.6 リリース](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja)以降のすべてのユーザーが利用できます。Adobe Campaign クライアントコンソールのリリースとアップグレードについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=ja){target="_blank"}を参照してください。
 
 **リリース日**：2024年3月19～20日（PT）
 
