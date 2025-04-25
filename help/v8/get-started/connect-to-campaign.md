@@ -3,47 +3,47 @@ title: Adobe Campaign Web インターフェイスに接続
 description: Adobe Campaign Web ユーザーインターフェイスに接続する方法について説明します
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
 source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '884'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # Adobe Campaign への接続 {#connect-to-campaign}
 
-Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。Adobe Experience Cloudに接続してAdobe Campaign web インターフェイスにアクセスする方法については、このページを参照してください。
+Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイスにアクセスする方法について詳しくは、このページを参照してください。
 
 ## Adobe Experience Cloud にログイン {#sign-in-to-exc}
 
 シングルサインオン（SSO）のみを使用して Campaign に接続できます。通常、Experience Cloud 管理者はアプリケーションやサービスへのアクセスを許可します。Experience Cloud への招待メールに記載されている手順に従います。
 
-Adobe Experience Cloudにログインするには、次の基本的な手順に従います。
+Adobe Experience Cloud にログインするには、次の基本的な手順に従います。
 
 1. [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} を参照します。
 
-1. Adobe ID または Enterprise ID を使用してログインします。Adobeの ID タイプについて詳しくは、[ この記事 ](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"} を参照してください。
+1. Adobe ID または Enterprise ID を使用してログインします。アドビの ID タイプについて詳しくは、[この記事](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 
    Experience Cloud にログインすると、すべてのソリューションやアプリにすばやくアクセスできます。
 
-   ![Adobe Experience Cloudのホームページを示したスクリーンショット ](assets/exc-home.png){zoomable="yes"}
+   ![Adobe Experience Cloud のホームページを示すスクリーンショット](assets/exc-home.png){zoomable="yes"}
 
-1. 自分が正しい組織に属していることを確認します。
+1. 自分が正しい組織に属していることを確認してください。
 
-   ![Adobe Experience Cloudでの組織選択を示したスクリーンショット ](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+   ![Adobe Experience Cloud での組織選択を示すスクリーンショット](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   Adobe Experience Cloudの組織について詳しくは、[ この記事 ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){target="_blank"} を参照してください。
+   Adobe Experience Cloud の組織について詳しくは、[この記事](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){target="_blank"}を参照してください。
 
 ## Adobe Campaign にアクセス {#access-to-campaign}
 
 Campaign 環境にアクセスするには、Adobe Experience Cloud ホームページの「**クイックアクセス**」セクションから **Campaign** を選択します。
 
-既に別のAdobe Experience Cloud ソリューションに接続している場合は、画面右上のソリューション切り替えボタンから Campaign 環境を参照します。
+既に別の Adobe Experience Cloud ソリューションに接続している場合は、画面右上のソリューション切り替えボタンから Campaign 環境を参照します。
 
-![Adobe Experience Cloudのソリューションスイッチャーを示したスクリーンショット ](assets/solution-switcher.png){zoomable="yes"}
+![Adobe Experience Cloud のソリューションスイッチャーを示すスクリーンショット](assets/solution-switcher.png){zoomable="yes"}
 
-複数の環境（Campaign コントロールパネルを含む）にアクセスできる場合は、「**起動**」ボタンをクリックして正しいインスタンスを確認します。
+複数の環境（Campaign コントロールパネルを含む）にアクセスできる場合は、「**起動する**」ボタンをクリックして正しいインスタンスを確認します。
 
-![Adobe Campaignの「起動」ボタンを示したスクリーンショット ](assets/launch-campaign.png){zoomable="yes"}
+![Adobe Campaign の「起動する」ボタンを示すスクリーンショット](assets/launch-campaign.png){zoomable="yes"}
 
 Campaign に接続しました。ユーザーインターフェイスの使用を開始する方法については、[このページ](user-interface.md)を参照してください。
 
@@ -67,7 +67,7 @@ Campaign に接続しました。ユーザーインターフェイスの使用�
 >[!CONTEXTUALHELP]
 >id="acw_recipients_readonlyprofile"
 >title="受信者の読み取り専用プロファイル"
->abstract="このプロファイルを編集する権限がありません。 必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
+>abstract="このプロファイルを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -84,11 +84,11 @@ Campaign に接続しました。ユーザーインターフェイスの使用�
 >title="このワークフローは読み取り専用です"
 >abstract="このワークフローを編集する権限がありません。必要に応じて、管理者に連絡し、アクセス権の付与を依頼してください。"
 
-アクセス制御は、配信、受信者、ワークフローなどのメインリストからのオブジェクトとデータへのアクセスを制限します。 また、これらの制限は、エクスプローラーのナビゲーションツリーにも適用されます。さらに、ユーザーインターフェイスからオブジェクトを作成、削除、複製、編集する権限が必要です。
+アクセス制御では、配信、受信者、ワークフローなどのメインリストからのオブジェクトやデータへのアクセスを制限します。また、これらの制限は、エクスプローラーのナビゲーションツリーにも適用されます。さらに、ユーザーインターフェイスからオブジェクトを作成、削除、複製、編集する権限が必要です。
 
-Campaign Web のすべての権限は、Campaign クライアントコンソールの権限と同期されます。 ユーザー権限を定義および変更できるのは、Campaign 管理者のみです。
+Campaign web のすべての権限は、Campaign クライアントコンソールの権限と同期されます。ユーザー権限を定義および変更できるのは、Campaign 管理者のみです。
 
-Campaign web ユーザーインターフェイスを参照する際は、権限に応じて、データ、オブジェクトおよび機能にアクセスできます。 例えば、フォルダーへのアクセス権限がない場合、そのフォルダーは表示されません。また、権限は、オブジェクトとデータの管理にも影響します。特定のフォルダーに対する書き込み権限がないと、ユーザーインターフェイスに配信が表示されていても、そのフォルダーに配信を作成することはできません。
+Campaign web ユーザーインターフェイスを参照すると、権限に応じてデータ、オブジェクト、機能にアクセスできます。例えば、フォルダーへのアクセス権限がない場合、そのフォルダーは表示されません。また、権限は、オブジェクトとデータの管理にも影響します。特定のフォルダーに対する書き込み権限がないと、ユーザーインターフェイスに配信が表示されていても、そのフォルダーに配信を作成することはできません。
 
 詳しくは、[権限の表示と管理](permissions.md)の方法を参照してください。
 
@@ -96,18 +96,18 @@ Campaign web ユーザーインターフェイスを参照する際は、権限�
 
 インターフェイスの上部バーを参照して、次の操作を実行できます。
 
-* Campaign web ユーザーインターフェイスに関するフィードバックをお寄せください。
-* 組織を切り替えます。
-* Adobe Experience Cloud ソリューションとアプリを切り替えます。
-* [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=ja){target="_blank"} のヘルプを検索します。
-* 製品通知を確認します。
-* Adobe プロファイルを編集して、「お気に入りの言語を更新 [ または [ テーマをライト/ダークに切り替え ](#language-pref) などの設定を管理 ](#dark-theme) ます。
+* Campaign web ユーザーインターフェイスに関するフィードバックを共有する。
+* 組織を切り替える。
+* Adobe Experience Cloud ソリューションとアプリを切り替える。
+* [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=ja){target="_blank"} でヘルプを検索する。
+* 製品通知を確認する。
+* アドビのプロファイルを編集し、[お気に入りの言語を更新](#language-pref)や[ライト／ダークテーマに切り替え](#dark-theme)などの設定を管理。
 
-![Adobe Experience Cloudの上部ナビゲーションバーを示すスクリーンショット ](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+![Adobe Experience Cloud の上部ナビゲーションバーを示すスクリーンショット](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## サポートしているブラウザー {#browsers}
 
-Adobe Campaign Web は、最新バージョンの Google Chrome、Safari および Microsoft Edge で最適に動作するように設計されています。古いバージョンや他のブラウザーでは、特定の機能を使用すると問題が発生する場合があります。
+Adobe Campaign Web は、最新バージョンの Google Chrome、Safari および Microsoft Edge で最適に動作するように設計されています。古いバージョンや他のブラウザーでは、特定の機能を使用する際に問題が発生する可能性があります。
 
 ## 言語環境設定 {#language-pref}
 
@@ -135,7 +135,7 @@ Campaign web のデフォルト言語は、ユーザープロファイルで指�
 
 ## ダークテーマとライトテーマ {#dark-theme}
 
-Adobe Campaign は、ライトテーマとダークテーマで使用できます。デフォルトでは、ユーザーインターフェイスはライトテーマで有効になっています。ダークテーマに切り替えるには、プロファイルアイコンをクリックし、「**ダークテーマ**」トグルで有効と無効を切り替えます。
+Adobe Campaign は、ライトテーマとダークテーマで使用できます。デフォルトでは、ユーザーインターフェイスはライトテーマで有効になっています。ダークテーマに切り替えるには、プロファイルアイコンをクリックし、「**ダークテーマ**」切替スイッチを使用して有効または無効にします。
 
 ユーザープロファイルの設定とアカウントの環境設定について詳しくは、[この節](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=ja#preferences){target="_blank"}を参照してください。
 
