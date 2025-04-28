@@ -3,10 +3,10 @@ audience: end-user
 title: ビジネスルール（タイポロジ）の操作
 description: タイポロジとタイポロジルールを使用して、配信の送信を制御、フィルタリングおよび監視する方法について説明します。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 42%
+source-wordcount: '1474'
+ht-degree: 39%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 42%
 >title="タイポロジとタイポロジルール"
 >abstract="タイポロジを使用すると、すべての配信でビジネスプラクティスを標準化できます。 タイポロジとは、配信の送信を制御、フィルタリングおよび優先順位付けできる、タイポロジルールのコレクションです。 タイポロジルールの条件に一致するプロファイルは、準備フェーズでは配信オーディエンスから除外されます。"
 
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="フィルタリング"
+>abstract=" タイポロジルールには、文字表示、SMS の長さ、アドレス形式、URL の短縮など、メッセージの品質と有効性を事前送信する <br/><br/>**コントロール** ルールの 2 つのタイプがあります。 <br/><br/>**フィルタリング** 年齢、場所、国、電話番号などの特定の条件に基づいて、ターゲットオーディエンスのセグメントを除外するルール。"
+
 ## タイポロジについて
 
 タイポロジを使用すると、すべての配信でビジネスプラクティスを標準化できます。 **タイポロジ** は、配信の送信を制御、フィルタリングおよび優先順位付けできる **タイポロジルール** のコレクションです。 タイポロジルールの条件に一致するプロファイルは、準備フェーズでは配信オーディエンスから除外されます。
@@ -35,7 +40,7 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->**[!UICONTROL タイポロジルール]**&#x200B;リストには、web ユーザーインターフェイスまたはクライアントコンソールでこれまでに作成されたすべての既存のルールが表示されます。ただし、web ユーザーインターフェイスで作成できるのは、**コントロール**&#x200B;ルールと&#x200B;**フィルタリング**&#x200B;ルールのみです。頻度ルールや処理能力ルールなど、他のタイプのタイポロジルールを作成するには、Campaign v8 クライアントコンソールを使用します。 [詳しくは、クライアントコンソールでタイポロジルールを作成する方法を参照してください](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>**[!UICONTROL タイポロジルール]**&#x200B;リストには、web ユーザーインターフェイスまたはクライアントコンソールでこれまでに作成されたすべての既存のルールが表示されます。ただし、web ユーザーインターフェイスで作成できるのは、**コントロール**&#x200B;ルールと&#x200B;**フィルタリング**&#x200B;ルールのみです。頻度ルールや処理能力ルールなど、他のタイプのタイポロジルールを作成するには、Campaign v8 クライアントコンソールを使用します。 [ クライアントコンソールでタイポロジルールを作成する方法を説明します ](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 メッセージにタイポロジを適用する主な手順は次のとおりです。
 
@@ -103,7 +108,7 @@ ht-degree: 42%
 
    >[!NOTE]
    >
-   >現在、Web ユーザーインターフェイスから作成できるのは、**コントロール** および **フィルタリング** タイポロジルールのみです。 その他のタイプのルールを作成するには、クライアントコンソールを使用します。 [詳しくは、クライアントコンソールでタイポロジルールを作成する方法を参照してください](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >現在、Web ユーザーインターフェイスから作成できるのは、**コントロール** および **フィルタリング** タイポロジルールのみです。 その他のタイプのルールを作成するには、クライアントコンソールを使用します。 [ クライアントコンソールでタイポロジルールを作成する方法を説明します ](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. ルールに関連付ける **[!UICONTROL チャネル]** を選択します。
 
