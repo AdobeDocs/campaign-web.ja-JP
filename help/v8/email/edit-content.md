@@ -3,10 +3,10 @@ audience: end-user
 title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスでメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 51%
+source-wordcount: '687'
+ht-degree: 48%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 51%
 >title="トラッキングの編集"
 >abstract="デフォルトでは、配信のトラッキングが有効になっています。つまり、メッセージコンテンツに含まれるすべてのリンクが追跡されます。ここからこのオプションを無効にできます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="リンクの追加とメッセージのトラッキング"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_multilingual"
+>title="言語を追加"
+>abstract="このタブには、配信を送信する言語のリストがあります。 「言語を追加」ボタンをクリックするか、このタブから別の言語を複製して、さらに言語を追加できます。"
 
 メールの&#x200B;**[!UICONTROL コンテンツを編集]**&#x200B;画面では、次の操作を実行できます。
 
