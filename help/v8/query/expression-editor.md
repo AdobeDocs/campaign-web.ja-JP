@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 87%
+source-wordcount: '2192'
+ht-degree: 83%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 87%
 
 式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値フィールド、並べ替えなど、特定のクエリの実行に使用する値を操作できる高度な関数を使用できます。
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >以下の節では、式エディターを操作してルールを作成する方法について説明します。ルールの作成に使用される構文は、パーソナライゼーションの追加に使用される構文とは異なることに注意してください。
+
+>[!IMPORTANT]
+>
+>クエリモデラー用の新しいインターフェイスを使用できます。この新しいルールビルダーエクスペリエンスに切り替えるには、右上隅の切り替えボタンを押します。 新しいインターフェイスを無効にするには、「戻る」ボタンを押すだけで、必要なときにいつでも従来のクエリモデラーに戻ることができます。 この新しいインターフェイスでは、クエリモデラーと同じ原則を適用できます。
+>![新しいルールビルダーインターフェイスの切り替えを示す画像 ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## 式エディターの操作 {#edit}
 
@@ -41,7 +46,17 @@ ht-degree: 87%
 
 次の例は、「**[!UICONTROL 値]**」フィールドに設定された式を示しています。編集するには、「**[!UICONTROL 式を編集]** ボタンを使用して式エディターを開きます。
 
+>[!BEGINTABS]
+
+>[!TAB  従来のクエリモデラー ]
+
 ![ 値フィールドの式の編集例 ](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB  新しいルールビルダー ]
+
+![ 値フィールドの式の編集例 ](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## ヘルパー関数
 

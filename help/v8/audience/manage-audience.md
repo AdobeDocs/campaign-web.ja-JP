@@ -3,10 +3,10 @@ audience: end-user
 title: オーディエンスの基本を学ぶ
 description: Adobe Campaign web でオーディエンスを操作する方法を説明します。
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 66%
+source-wordcount: '388'
+ht-degree: 49%
 
 ---
 
@@ -38,13 +38,15 @@ ht-degree: 66%
 
 オーディエンスは複数のソースから作成できます。**[!UICONTROL 接触チャネル]** 列は、特定のオーディエンスが作成された場所を示します。
 
-* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスは、[Adobe Campaign web ユーザーインターフェイス](create-audience.md)または [Adobe Campaign v8 クライアントコンソール](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=ja){target="_blank"}で作成されています。
+* **[!UICONTROL Adobe Campaign]**：これらのオーディエンスは、[Adobe Campaign web ユーザーインターフェイス ](create-audience.md) または [Adobe Campaign v8 クライアントコンソール ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=ja){target="_blank"} で作成されています。
 
-* **[!UICONTROL Adobe Experience Platform：]**&#x200B;これらのオーディエンスは、Adobe Experience Platform 内で作成され、アドビのソースおよび宛先との統合を使用して Campaign web に統合されます。この統合を設定する方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL Adobe Experience Platform：]**&#x200B;これらのオーディエンスは、Adobe Experience Platform 内で作成され、アドビのソースおよび宛先との統合を使用して Campaign web に統合されます。この統合の設定方法については、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"} を参照してください。
 
   ➡️ [この機能をビデオで確認](#video)
 
 オーディエンスに関する追加情報を取得するには、リストからオーディエンスを開きます。 オーディエンスプロパティが、オーディエンスに含まれるプロファイルの数と共に表示されます。 「**[!UICONTROL 計算]** ボタンを使用して、いつでもオーディエンス数を更新できます。
+
+オーディエンスの一時スキーマをプレビューするには、「プロパティ」セクションの **[!UICONTROL スキーマプレビュー]** ボタンをクリックします。
 
 「**[!UICONTROL データ]**」タブを使用すると、オーディエンスの一部であるプロファイルを視覚化できます。 列を追加してこのビューをカスタマイズするか、詳細フィルターを使用して表示されるデータを絞り込みます。
 
@@ -58,4 +60,4 @@ Adobe Campaign web ユーザーインターフェイスで Experience Platform �
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-アドビのソースと宛先の統合を設定する方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"}を参照してください。
+Adobeのソースと宛先の統合を設定する方法について詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=ja){target="_blank"} を参照してください。

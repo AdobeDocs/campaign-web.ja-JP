@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '823'
 ht-degree: 94%
 
 ---
@@ -68,6 +68,9 @@ ht-degree: 94%
       + [ダイレクトメール配信の作成](direct-mail/create-direct-mail.md)
       + [抽出ファイルの設計](direct-mail/content-direct-mail.md)
       + [ダイレクトメール配信のプレビューと送信](direct-mail/send-direct-mail.md)
+   + コールセンター {#call-center}
+      + [コールセンター配信の基本を学ぶ](call-center/gs-call-center.md)
+      + [コールセンター配信の作成と送信](call-center/create-call-center.md)
    + トランザクションメッセージ {#transactional-messages}
       + [トランザクションメッセージの基本を学ぶ](transactional-messaging/transactional.md)
       + [トランザクションメッセージの作成](transactional-messaging/create-transactional.md)

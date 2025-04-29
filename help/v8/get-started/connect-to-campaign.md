@@ -2,10 +2,10 @@
 title: Adobe Campaign Web インターフェイスに接続
 description: Adobe Campaign Web ユーザーインターフェイスに接続する方法について説明します
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: 497335e6f176d33c4e9cd214abf46665ad75e1eb
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 100%
+source-wordcount: '919'
+ht-degree: 97%
 
 ---
 
@@ -123,6 +123,14 @@ Adobe Campaign Web は現在、次の言語で利用できます。
 * 韓国語 - KR
 * 簡体字中国語 - CHS
 * 繁体字中国語 - CHT
+
+さらに、ロケール固有の形式（日付、時刻、カレンダー、数値など）は、ユーザーインターフェイスでサポートされている言語のバリアントでも使用できる場合があります。
+
+* 英語 (イスラエル)
+* 英語 (英国)
+* スペイン語 (メキシコ)
+* スペイン語 (ラテンアメリカ)
+* フランス語 (カナダ)
 
 Campaign web のデフォルト言語は、ユーザープロファイルで指定された優先言語によって決まります。Campaign サーバーとクライアントコンソールの言語とは関係ありません。
 

@@ -3,9 +3,9 @@ audience: end-user
 title: プランとプログラム
 description: Adobe Campaign でプランとプログラムを作成および設定する方法を学ぶ
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '522'
 ht-degree: 23%
 
 ---
@@ -38,9 +38,13 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 1. **[!UICONTROL スキーマ]** を参照します。
 1. フィルターで **[!UICONTROL 編集可能]** スキーマを選択します。
-1. **[!UICONTROL カスタム詳細を編集]** アイコンをクリックします。
+1. スキーマをクリックします。
 
 ![ プランのカスタム詳細の編集を示すスクリーンショット ](assets/plan_edit.png){zoomable="yes"}
+
+1. 「**[!UICONTROL 画面編集]**」ボタンをクリックします。
+
+   ![](assets/plan_edit2.png){zoomable="yes"}
 
 カスタムオプションを設定します。
 
@@ -64,9 +68,13 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 1. **[!UICONTROL スキーマ]** を参照します。
 1. フィルターで **[!UICONTROL 編集可能]** スキーマを選択します。
-1. **[!UICONTROL カスタム詳細を編集]** アイコンをクリックします。
+1. スキーマをクリックします。
 
 ![ プログラムのカスタム詳細の編集を示すスクリーンショット ](assets/program_edit.png){zoomable="yes"}
+
+1. 「**[!UICONTROL 画面編集]**」ボタンをクリックします。
+
+   ![](assets/program_edit2.png){zoomable="yes"}
 
 カスタムオプションを設定します。
 

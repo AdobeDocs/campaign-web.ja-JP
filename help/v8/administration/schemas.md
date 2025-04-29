@@ -2,10 +2,10 @@
 title: スキーマの操作
 description: スキーマの操作方法について説明します。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 69%
+source-wordcount: '513'
+ht-degree: 66%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="スキーマの操作"
->abstract="リストで名前を選択して、スキーマの詳細にアクセスできるようになりました。カスタムフィールドの編集は、「**カスタム詳細を編集**」ボタンからもアクセスできます。"
+>abstract="リストで名前を選択して、スキーマの詳細にアクセスできるようになりました。カスタムフィールドの編集は、「**画面編集**」ボタンからもアクセスできます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
@@ -73,8 +73,10 @@ Adobe Campaign の各エンティティには専用のスキーマがあり、�
 
 カスタムフィールドは、Adobe Campaign コンソールから標準スキーマに追加されている属性です。組織のニーズに合わせて新しい属性を含めることで、スキーマをカスタマイズできます。
 
-カスタムフィールドは、Campaign web インターフェイスのプロファイル詳細など、様々な画面に表示できます。 表示するフィールドと、インターフェイスでその表示方法を制御できます。これを行うには、**[!UICONTROL スキーマ]** メニューの「カスタム詳細を編集 **[!UICONTROL ボタンをクリ]** クします。
+カスタムフィールドは、Campaign web インターフェイスのプロファイル詳細など、様々な画面に表示できます。 表示するフィールドと、インターフェイスでその表示方法を制御できます。これを行うには、**[!UICONTROL スキーマ]** メニューの「**[!UICONTROL 画面編集]**」ボタンをクリックします。
 
 ![ 編集可能な属性を示すカスタムフィールド画面 ](assets/schemas-custom.png)
+
+**[!UICONTROL プレビュー]** をクリックして、カスタムフィールドをサンプル画面に表示します。
 
 スキーマでカスタムフィールドを編集する方法について詳しくは、この節 [ カスタムフィールドの設定 ](../administration/custom-fields.md) を参照してください。

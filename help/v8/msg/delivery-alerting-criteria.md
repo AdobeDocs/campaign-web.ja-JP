@@ -3,10 +3,10 @@ audience: end-user
 title: 配信アラート
 description: 配信アラートの操作方法について説明します。
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 51%
+source-wordcount: '712'
+ht-degree: 50%
 
 ---
 
@@ -61,11 +61,6 @@ Campaign web ユーザーインターフェイスには、スループットの�
 >title="基準頻度"
 >abstract="条件を満たす各配信に対する 1 日あたりのアラートの頻度を制御します。"
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="アラート条件の作成"
->abstract="独自の配信フィルターを作成するには、Campaign v8 コンソールで&#x200B;**管理**／**設定**／**定義済みフィルター**&#x200B;ノードから新しい定義済みフィルターを作成します。"
-
 新しい条件を作成するには、次の手順に従います。
 
 1. 左側のナビゲーションパネルで **配信アラート** メニューに移動し、「**条件**」タブを選択します。
@@ -79,7 +74,7 @@ Campaign web ユーザーインターフェイスには、スループットの�
 
    >[!NOTE]
    >
-   >定義済みフィルターでニーズに合うものがない場合は、管理者に連絡して独自のフィルターを作成してください。 Campaign コンソールで定義済みフィルターを作成する方法について詳しくは、[Adobe Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target="_blank"} を参照してください。
+   >定義済みフィルターがニーズに合わない場合は、**顧客管理**/**定義済みフィルター** メニューから独自のフィルターを作成できます。 [詳細情報](../get-started/predefined-filters.md)
    >
    >この操作は、上級ユーザーのみが実行する必要があります。
 

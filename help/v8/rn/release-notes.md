@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 96%
+source-wordcount: '681'
+ht-degree: 34%
 
 ---
 
@@ -16,30 +16,31 @@ ht-degree: 96%
 >title="リリースノート"
 >abstract="Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。これにより、Campaign リリースノートは月に数回更新され、最新の機能、改善点、修正が含まれます。定期的に確認することをお勧めします。"
 
-Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対して、スケーラブルで段階的なアプローチを実現できる継続的配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
+Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
 
-以前のリリースで利用可能な変更と改善点については、[このページ](release-notes-24.md)を参照してください。
+以前のリリースで使用可能な変更と改善点は、[2024](release-notes-24.md) および [2025](release-notes-25.md) に記載されています。
 
-## 2025年2月リリース {#25-2-release}
+## 2025 年 4 月リリース {#25-4-release}
 
-**リリース日**：2025年2月18日（PT）
+**リリース日**：2025年4月29日（PT）
 
-次の機能と改善点は、2月のリリース以降使用できます。
 
-### 機能 {#25-2-features}
+### 新機能 {#25-4-features}
+
+次の機能は、4月のリリース以降、すべてのユーザーが使用できます。
 
 <table>
 <thead>
 <tr>
-<th><strong>ビジネスルール（タイポロジルール）の作成</strong><br/></th>
+<th><strong>コールセンターチャネル</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Campaign web ユーザーインターフェイスでタイポロジとタイポロジルールを作成できるようになりました。タイポロジでは、配信の送信を制御、フィルタリングおよび優先順位付けします。タイポロジでは、必須コンポーネント（登録解除リンクや件名など）や、オーディエンスからグループ（登録解除者、競合他社、非ロイヤルティ顧客など）を除外するフィルタリングルールが配信に常に含まれていることを検証します。</p>
-<img src="assets/do-not-localize/typology.gif" alt="Adobe Campaign web ユーザーインターフェイスでのタイポロジルールの作成の図">
-<p>詳しくは、<a href="../administration/typologies.md">詳細なドキュメント</a>を参照してください。</p>
+<p>コールセンターチャネルを Campaign web ユーザーインターフェイスで使用できるようになりました。 このチャネルは、コールセンター（通常、エージェントによる顧客や見込み客への電話）を介して処理されるコミュニケーションやインタラクションを管理および追跡するために使用される通信方法を指します。</p>
+<img src="assets/do-not-localize/call-center.gif">
+<p>詳しくは、<a href="../call-center/gs-call-center.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -48,15 +49,15 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <table>
 <thead>
 <tr>
-<th><strong>ターゲットマッピング</strong><br/></th>
+<th><strong>新規ルールビルダー</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Campaign web ユーザーインターフェイスでターゲットマッピングを作成できるようになりました。ターゲットマッピングは、様々な配信チャネル（メール、SMS、プッシュ通知）からスキーマのデータフィールドへのリンク方法を定義します。ターゲットマッピングを使用すると、ターゲットオーディエンス（プロファイル、契約の受取人、オペレーター、サブスクライバーなど）を定義できます。</p>
-<img src="assets/do-not-localize/target-mapping.gif" alt="Adobe Campaign web ユーザーインターフェイスでのターゲットマッピングの作成の図">
-<p>詳しくは、<a href="../administration/target-mappings.md">詳細なドキュメント</a>を参照してください。</p>
+<p>改善されたユーザーインターフェイスで複雑な条件を定義するのに役立つ、新しいルールビルダーが使用できるようになりました。 必要に応じて、古いルールビルダーから新しいルールビルダーに切り替えることができます。</p>
+<img src="assets/do-not-localize/rule-builder-release.gif">
+<p>詳しくは、<a href="../query/query-modeler-overview.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -65,138 +66,56 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <table>
 <thead>
 <tr>
-<th><strong>スキーマの詳細</strong><br/></th>
+<th><strong>外部アカウントのオーサリング</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>リストで名前を選択して、スキーマの詳細にアクセスできるようになりました。カスタムフィールドの編集は、スキーマの詳細にある「<b>カスタムフィールドを編集</b>」ボタンからアクセスできるようになりました。</p>
-<img src="assets/do-not-localize/schemas.gif" alt="Adobe Campaign web ユーザーインターフェイスでのスキーマの詳細とカスタムフィールドの編集の図">
-<p>詳しくは、<a href="../administration/schemas.md">詳細なドキュメント</a>を参照してください。</p>
+<p>Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。
+また、既存の外部アカウントを表示、更新、管理することもできます。</p>
+<p>詳しくは、<a href="../administration/external-account.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## 2025年1月リリース {#25-1-release}
+### 改善点 {#25-4-improvements}
 
-**リリース日**：2025年2月5日（PT）
+**全般的なインターフェイスの改善**
 
-次の機能と改善点は、1月のリリース以降使用できます。
+* スキーマ属性のフィールドの説明、お気に入りに追加、値の配分のオプションがユーザーインターフェイスに表示されるようになりました。 詳しくは、[詳細なドキュメント](../get-started/attributes.md)を参照してください。
+* Experience Leagueの環境設定で指定されたプライマリ言語に従って、日時がインターフェイスに表示されるようになりました。 この機能強化は、複数の言語でのみ使用できます。 サポートされる言語の完全なリストを確認するには、[ 詳細なドキュメント ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank} を参照してください。
 
-### 機能 {#25-1-features}
+<!--
+ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
+ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>ビジュアルフラグメントの作成と使用</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>ビジュアルフラグメントは、複数のメール配信やコンテンツテンプレートをまたいで再利用できる、定義済みのビジュアルブロックです。この機能を、サーバービルド 8.6.4 以降を実行しているすべてのお客様が使用できるようになりました。</p>
-<img src="assets/do-not-localize/visual-fragment.gif" alt="Adobe Campaign web ユーザーインターフェイスでのビジュアルフラグメントの作成と使用の図">
-<p>詳しくは、<a href="../content/use-visual-fragments.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
+**メールエディター**:Campaign web UI のアクセシビリティを強化するために、メールDesignerで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `html` 要素の `title` 要素と lang 属性に対応しています。 「メール本文」セクションでは、プリヘッダーフィールドに加えて、これらの設定を定義できます。
 
-<table>
-<thead>
-<tr>
-<th><strong>サードパーティシステムを使用した配信の送信</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Campaign web インターフェイスで外部配信と外部配信テンプレートを定義できるようになりました。このモードでは、外部プロバイダーと共有できる出力ファイルにメッセージをコンパイルできます。デフォルトでは、ダイレクトメールチャネルには外部配信モードが使用されます。</p>
-<img src="assets/do-not-localize/external-delivery.gif" alt="Adobe Campaign web ユーザーインターフェイスでの外部配信の設定の図">
-<p>詳しくは、<a href="../msg/send-external-deliveries.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
+<!--
+**Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>列挙の管理</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Campaign web ユーザーインターフェイスから列挙を直接作成できるようになりました。列挙とは、フィールドへの入力候補としてシステムによって表示される値のリストです。列挙を利用することでフィールドの値を統一することができ、データ入力時やクエリでの利用に便利です。</p>
-<img src="assets/do-not-localize/enumerations.gif" alt="Adobe Campaign web ユーザーインターフェイスでの列挙の管理の図">
-<p>詳しくは、<a href="../administration/enumerations.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
+**スキーマ**
 
-<table>
-<thead>
-<tr>
-<th><strong>カスタムオプションの作成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Campaign web ユーザーインターフェイス内のテクニカルオプションにアクセスし、ニーズに合わせて独自のカスタムオプションを作成できるようになりました。これは、JavaScript コードワークフローアクティビティを使用して中間データを保存する際に特に便利です。</p>
-<img src="assets/do-not-localize/options.gif" alt="Adobe Campaign web ユーザーインターフェイスでのカスタムオプションの作成の図">
-<p>詳しくは、<a href="../administration/options.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
+* Campaign web ユーザーインターフェイスからリストの一時スキーマを編集できるようになりました。 詳しくは、[詳細なドキュメント](../audience/manage-audience.md)を参照してください。
+* サンプル画面でスキーマのカスタムフィールドをプレビューできるようになりました。 詳しくは、[詳細なドキュメント](../administration/custom-fields.md#add)を参照してください。
+* ドラッグ&amp;ドロップを使用して、リスト内のカスタムフィールドを移動できるようになりました。 詳しくは、[詳細なドキュメント](../administration/custom-fields.md#add)を参照してください。
 
-<table>
-<thead>
-<tr>
-<th><strong>JavaScript コードの定義と呼び出し</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Campaign web ユーザーインターフェイスで JavaScript コードを作成できるようになりました。これにより、ライブラリと同様に、ワークフロー全体で使用できる再利用可能な関数を作成できます。</p>
-<img src="assets/do-not-localize/javascript.gif" alt="Adobe Campaign web ユーザーインターフェイスでの JavaScript コードの作成の図">
-<p>詳しくは、<a href="../administration/javascript-codes.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>AI アシスタントによるランディングページの生成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>ランディングページ配信で AI アシスタントが使用できるようになり、テキストや画像の生成、または完全なページレイアウトの生成が可能になりました。</p>
-<img src="assets/do-not-localize/ai-lp.gif" alt="Adobe Campaign web ユーザーインターフェイスでのランディングページ生成のための AI アシスタントの使用の図">
-<p>AI アシスタントについて詳しくは、<a href="../email/generative-lp.md">詳細ドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
+### 限定提供の新機能 {#25-4-features-la}
 
-### 改善点 {#25-1-improvements}
+>[!AVAILABILITY]
+>
+>次の機能は、限定提供（LA）です。**Adobe Campaign StandardからAdobe Campaign v8 に** 移行するお客様に限定され、他の環境にデプロイすることはできません。 Campaign サーバーを v8.7.4 にアップグレードする必要があります。
+>
+>ドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)および [Campaign Standard ユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja)を参照してください。
 
-* インターフェイスでのカスタムフィールドの表示のカスタマイズ：
-   * インターフェイスに表示する追加のカスタムフィールドを選択する。
-   * リンクタイプのカスタムフィールドを表示するためのルールを設定する（他のフィールドの入力に基づいてリスト値を制限するなど）。
-   * インターフェイスのフィールドをより柔軟に並べ替える（フィールドの幅を 1 つの列全体に広げる、より適切に整理するためにサブセクションにグループ化する）。
-   * 特定のフィールドを読み取り専用として設定する。
+* **多言語配信の作成** - Adobe Campaign web ユーザーインターフェイスで、複数のメール配信を異なる言語で送信できるようになりました。 多言語配信機能を使用すると、配信のデフォルト言語と、配信を送信する様々な言語を選択できます。 また、選択した言語でこれらの配信をプレビューすることもできます。 詳しくは、[詳細なドキュメント](../email/edit-content.md)を参照してください。
 
-* 最近使用したフィルターとお気に入りフィルター：クイックアクセス用に、頻繁に使用する属性をお気に入りに追加します。お気に入りに加えて、最近選択した属性を表示したり使用したりします。
+* **多言語用の動的レポート** – 動的レポートが多言語メール配信で使用できるようになりました。 詳しくは、[詳細なドキュメント](../reporting/global-reports.md)を参照してください。
 
-* 外部アカウント：新しい外部アカウントを作成する際に、新しい&#x200B;**[!UICONTROL ルーティング]**&#x200B;タイプを選択できます。これにより、外部配信で使用する特定の外部アカウントを設定できます。[詳細情報](../administration/external-account.md#routing)。
+* **SMS REST API サポート（LA）** - トランザクションメッセージ REST API を SMS チャネルで使用できるようになりました。 ペイロードにメールと携帯電話の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。 指定しない場合、wishedChannel が SMS を明示的にリクエストしない限り、メールがデフォルトで使用されます。 詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}を参照してください。
+
