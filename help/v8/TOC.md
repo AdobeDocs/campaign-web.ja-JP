@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
+source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 94%
+source-wordcount: '822'
+ht-degree: 93%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 94%
          + [コンテンツコンポーネントの使用](email/content-components.md)
          + [リンクの追加とメッセージのトラッキング](email/message-tracking.md)
          + [ミラーページへのリンクの追加](email/mirror-page.md)
-         + [プリヘッダーを追加](email/preheader.md)
+         + [メタデータを追加](email/metadata.md)
          + [テキストバージョンを生成](email/text-version-email.md)
       + コンテンツのスタイル設定 {#style}
          + [メールスタイルの基本を学ぶ](email/get-started-email-style.md)
