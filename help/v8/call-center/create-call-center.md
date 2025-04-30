@@ -2,9 +2,10 @@
 audience: end-user
 title: コールセンター配信の作成
 description: Adobe Campaign Web を使用してコールセンター配信を作成する方法を説明します
-source-git-commit: 0721d20ddec3271d9fac5f5645bd5865380ef9ba
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 13%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 13%
 新しいスタンドアロンのコールセンター配信を作成して送信するには、次の主な手順に従います。
 
 1. 配信を作成します [ 詳細情報 ](#create-delivery)。
-1. オーディエンスを選択します [ 詳細を表示 ](#select-audience)。
+1. オーディエンスを定義します [ 詳細情報 ](#select-audience)。
 1. コンテンツを編集、[ 詳細情報 ](#edit-content)
 1. 配信のプレビューと送信 [ 詳細情報 ](#preview-send)
 
@@ -42,7 +43,7 @@ ht-degree: 13%
 >
 >特定の日付に送信されるように配信のスケジュールを設定できます。 詳しくは、[この節](../msg/gs-deliveries.md#gs-schedule)を参照してください。
 
-## オーディエンスの選択{#select-audience}
+## オーディエンスを定義{#select-audience}
 
 次に、抽出ファイルのターゲットとなるオーディエンスを定義する必要があります。
 
@@ -65,7 +66,7 @@ ht-degree: 13%
 
 ## コンテンツの編集{#edit-content}
 
-次に、コールセンター配信で生成される抽出ファイルのコンテンツをデザインします。
+次に、コールセンター配信で生成される抽出ファイルの内容を編集します。
 
 1. 配信ページで、「**[!UICONTROL コンテンツを編集]** ボタンをクリックします。
 
@@ -101,7 +102,7 @@ ht-degree: 13%
 
 抽出ファイルをプレビューして送信する主な手順は次のとおりです。 詳しくは、[ このページ ](../direct-mail/send-direct-mail.md) を参照してください。
 
-1. 配信コンテンツページから、「**[!UICONTROL コンテンツをシミュレート]**」を使用します。
+1. 配信コンテンツページから、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
    ![ 配信コンテンツページの「コンテンツをシミュレート」オプションを示すスクリーンショット ](assets/cc-simulate0.png){zoomable="yes"}
 
@@ -124,5 +125,3 @@ ht-degree: 13%
 配信ページからの KPI （主要業績評価指標）データと **[!UICONTROL ログ]** メニューからのデータを追跡します。
 
 組み込みレポートを使用して、メッセージの影響の測定を開始します。 [詳細情報](../reporting/direct-mail.md)
-
-
