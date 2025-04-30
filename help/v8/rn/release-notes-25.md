@@ -3,7 +3,7 @@ title: Campaign v8 web ユーザーインターフェイスの以前のリリー
 description: 2025 Campaign web ユーザーインターフェイスリリース
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: ec994efb6f88b729fe2dc9d7ba118e9ada10be9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
 ht-degree: 100%
 
