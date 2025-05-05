@@ -56,4 +56,4 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
 HTMLをアップロードしてメールを作成し、メールDesignerと互換性を持たせ、テンプレートに変換する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447033/?quality=12&captions=jpn)
