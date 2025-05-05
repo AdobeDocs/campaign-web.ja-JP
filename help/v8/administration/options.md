@@ -23,7 +23,8 @@ ht-degree: 50%
 
 Adobe Campaign Web には、より具体的にアプリケーションを設定できるテクニカルオプションが含まれています。 これらのオプションには、組み込みのオプションもあれば、必要に応じて手動で追加できるものもあります。
 
->[!IMPORTANT]\
+>[!IMPORTANT]
+>\
 >ビルトインオプションは事前に設定されており、上級ユーザーのみが変更する必要があります。ご質問やご要望については、Adobeの担当者にお問い合わせください。
 
 ## Campaign オプションへのアクセス {#access}
@@ -33,7 +34,8 @@ Adobe Campaign Web には、より具体的にアプリケーションを設定�
 ![](assets/options-list.png)\
 [ 管理/オプションメニューに表示されるオプションリスト ]
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Adobe Campaign コンソールと web ユーザーインターフェイスではオプションメニューの場所が異なりますが、リストは同じで、ミラーのように機能します。使用可能なオプションについて詳しくは、[Campaign v7 ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"} のオプションのリストを参照してください。
 
 オプションリストから、次の操作を実行できます。

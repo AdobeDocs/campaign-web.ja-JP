@@ -16,7 +16,7 @@ ht-degree: 37%
 
 Adobe Campaign web インターフェイスをAdobe Experience Managerと統合すると、メール配信のコンテンツとフォームをAdobe Experience Manager Platform 内で直接効率的に管理できます。
 
-![](assets/do-not-localize/book.png)[Adobe Experience Manager as a Cloud Serviceの詳細情報 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
+![](assets/do-not-localize/book.png) [Adobe Experience Manager as a Cloud Serviceの詳細情報 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
 
 ## [!DNL Adobe Experience Manager as a Cloud Service] でテンプレートを作成する{#create-aem-template}
 
@@ -44,7 +44,7 @@ Adobe Campaign web インターフェイスをAdobe Experience Managerと統合�
 
    ![ 免責事項を示すスクリーンショットと「完了」ボタン。](assets/aem_4.png)
 
-1. もう一度 **[!UICONTROL 完了]** をクリックし、「次の手順 **** ドロップダウンで **[!UICONTROL ニュースレターの承認]** を選択します。
+1. もう一度 **[!UICONTROL 完了]** をクリックし、「次の手順 **&#x200B;**&#x200B;ドロップダウンで **[!UICONTROL ニュースレターの承認]** を選択します。
 
 これでニュースレターが準備でき、Adobe Campaign で同期されました。
 

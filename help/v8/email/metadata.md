@@ -17,7 +17,7 @@ ht-degree: 21%
 >title="プリヘッダーの定義"
 >abstract="プリヘッダーは、メールクライアントからメールを表示する際に件名の後に続く短い概要テキストです。多くの場合、メールの短い概要を提供し、通常は 1 文の長さです。"
 
-読みやすさとアクセシビリティを向上させるためにメールをデザインする際に、コンテンツの追加のメタ属性を定義できます。 [!DNL Journey Optimizer] メールDesigner](get-started-email-designer.md) を使用すると、次の [ 素を指定できます。
+読みやすさとアクセシビリティを向上させるためにメールをデザインする際に、コンテンツの追加のメタ属性を定義できます。 [!DNL Journey Optimizer] メールDesigner[&#128279;](get-started-email-designer.md) を使用すると、次の  素を指定できます。
 
 ![](assets/email_body_settings_ex.png)
 

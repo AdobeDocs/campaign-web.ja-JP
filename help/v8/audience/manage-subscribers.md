@@ -30,7 +30,7 @@ ht-degree: 62%
 
    ![ サブスクライバーを追加するためのプロファイル選択インターフェイスを示すスクリーンショット。](assets/service-subscribers-select-profiles.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 送信 ]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->」をクリックして、選択した受信者に、「サービスの作成 [ 時に定義した購読 [ 確認メッセージ ](manage-services.md#create-confirmation-message) を受信させ ](manage-services.md#create-service) す。
+1. 「**[!UICONTROL 送信 &#x200B;]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->」をクリックして、選択した受信者に、「サービスの作成 [&#128279;](manage-services.md#create-service) 時に定義した購読 [ 確認メッセージ ](manage-services.md#create-confirmation-message) を受信させ  す。
 
    ![ 購読者を追加するための確認メッセージインターフェイスを示すスクリーンショット。](assets/service-subscribers-confirmation-msg.png){zoomable="yes"}
 
