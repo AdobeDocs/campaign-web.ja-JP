@@ -85,7 +85,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 **全般的なインターフェイスの改善**
 
 * スキーマ属性のフィールドの説明、お気に入りに追加、値の配分のオプションがユーザーインターフェイスに表示されるようになりました。 詳しくは、[詳細なドキュメント](../get-started/attributes.md)を参照してください。
-* Experience Leagueの環境設定で指定されたプライマリ言語に従って、日時がインターフェイスに表示されるようになりました。 この機能強化は、複数の言語でのみ使用できます。 サポートされる言語の完全なリストを確認するには、[ 詳細なドキュメント ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank} を参照してください。
+* Experience Leagueの環境設定で指定されたプライマリ言語に従って、日時がインターフェイスに表示されるようになりました。 この機能強化は、複数の言語でのみ使用できます。 サポートされる言語の完全なリストを確認するには、[ 詳細なドキュメント ](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/browser-language){target=_blank} を参照してください。
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -117,5 +117,5 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **多言語用の動的レポート** – 動的レポートが多言語メール配信で使用できるようになりました。 詳しくは、[詳細なドキュメント](../reporting/global-reports.md)を参照してください。
 
-* **SMS REST API サポート（LA）** - トランザクションメッセージ REST API を SMS チャネルで使用できるようになりました。 ペイロードにメールと携帯電話の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。 指定しない場合、wishedChannel が SMS を明示的にリクエストしない限り、メールがデフォルトで使用されます。 詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}を参照してください。
+* **SMS REST API サポート（LA）** - トランザクションメッセージ REST API を SMS チャネルで使用できるようになりました。 ペイロードにメールと携帯電話の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。 指定しない場合、wishedChannel が SMS を明示的にリクエストしない限り、メールがデフォルトで使用されます。 詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}を参照してください。
 
