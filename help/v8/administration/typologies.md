@@ -3,7 +3,7 @@ audience: end-user
 title: ビジネスルール（タイポロジ）の操作
 description: タイポロジとタイポロジルールを使用して、配信の送信を制御、フィルタリングおよび監視する方法について説明します。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 39%
@@ -13,7 +13,7 @@ ht-degree: 39%
 # ビジネスルール（タイポロジ）の操作 {#typologies}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn4"
 >title="ビジネスルール"
 >abstract="Adobe Campaign web ユーザーインターフェイスでタイポロジとタイポロジルールを作成できるようになりました。タイポロジでは、配信の送信を制御、フィルタリングおよび優先順位付けできます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
@@ -134,7 +134,7 @@ ht-degree: 39%
 
    **[!UICONTROL 分析の終了時]**：完全なメッセージのパーソナライゼーションが必要なチェックを適用します。
 
-   +++
++++
 
    * **[!UICONTROL レベル]**：ルールのアラートレベルを指定します。 詳しくは、以下の節を展開してください。
 
@@ -148,7 +148,7 @@ ht-degree: 39%
 
    **[!UICONTROL 詳細]**：サーバーログに情報を表示します。
 
-   +++
++++
 
 ### ルールコンテンツの作成 {#build}
 

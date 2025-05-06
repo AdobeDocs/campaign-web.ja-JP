@@ -2,17 +2,17 @@
 title: ターゲットマッピングの管理
 description: ターゲットマッピングの管理方法について説明します。
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
 # ターゲットマッピングの管理 {#target-mappings}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn5"
 >title="ターゲットマッピング"
 >abstract="Campaign web ユーザーインターフェイスでターゲットマッピングを作成できるようになりました。ターゲットマッピングは、様々な配信チャネル（メール、SMS、プッシュ通知）からスキーマのデータフィールドへのリンク方法を定義します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
@@ -30,7 +30,7 @@ ht-degree: 54%
 
 ![ 使用可能なマッピングを示すターゲットマッピングリスト画面 ](assets/target-mappings-list.png)
 
-Adobe Campaign に用意されている組み込みのターゲットマッピングについて詳しくは、[Campaign v8 クライアントコンソールドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
+Adobe Campaignに組み込まれているターゲットマッピングについて詳しくは、[Campaign v8 クライアントコンソールのドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"} を参照してください。
 
 ## ターゲットマッピングの作成 {#create-mapping}
 
@@ -84,7 +84,7 @@ Adobe Campaign に用意されている組み込みのターゲットマッピ�
 
    1. **[!UICONTROL トラッキングログ]**：トラッキングログのストレージスキーマを生成するには、「**[!UICONTROL トラッキングのスキーマを生成]**」オプションを有効にします。
 
-   +++
++++
 
 1. 「**[!UICONTROL マッピング]**」セクションを使用して、各配信アドレスフィールドに使用する属性をターゲットマッピングのスキーマから特定します。 フィールドごとに、マッピングする目的の属性を選択します。また、フィールドを識別する式を作成することもできます。例えば、address 属性に lower 関数を適用します。
 
