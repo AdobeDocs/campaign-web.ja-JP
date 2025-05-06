@@ -2,20 +2,14 @@
 title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 59f41ed2074484727a66a164b3633cb113b1f4af
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 34%
+source-wordcount: '1342'
+ht-degree: 39%
 
 ---
 
 # 外部アカウントの管理 {#external-accounts}
-
->[!AVAILABILITY]
->
->* 外部アカウントは現在、バウンスメール（POP3）、ルーティング、実行インスタンスでのみ使用できます。 その他のアカウントタイプは、後で追加されます。
->
->* Adobe Campaign コンソールで作成された、サポートされていない外部アカウントは、web ユーザーインターフェイスに表示されますが、編集やアクセスはできません。
 
 Adobe Campaignには、様々なシステムと容易に統合できるように事前設定済みの外部アカウントが含まれています。 追加のプラットフォームに接続したり、ワークフローに合わせて接続をカスタマイズしたりするには、web ユーザーインターフェイスを使用して新しい外部アカウントを作成します。 これにより、シームレスなデータ転送が可能になります。
 
@@ -63,10 +57,6 @@ Adobe Campaignには、様々なシステムと容易に統合できるように
 
 ### バウンスメール（POP3） {#bounce}
 
->[!AVAILABILITY]
->
-> OAuth 2.0 は現在サポートされていません。
-
 バウンスメール外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールを受信できます。
 
 ![ バウンスメール（POP3）外部アカウント設定フィールドを示すスクリーンショット。](assets/external_account_bounce.png)
@@ -88,6 +78,33 @@ Adobe Campaignには、様々なシステムと容易に統合できるように
    * SSL による POP3 セキュア （デフォルトポート 995）。
 
 * **[!UICONTROL 関数]** - **[!UICONTROL インバウンドメール]** を選択して受信メール用のアカウントを設定するか、**[!UICONTROL SOAP ルーター]** を選択してSOAP リクエストを処理します。
+
+>[!IMPORTANT]
+>
+>Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、[このページ](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app){target=_blank}を参照してください。
+
+Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「Microsoft OAuth 2.0」オプションをチェックし、次のフィールドに入力します。
+
+* **[!UICONTROL Azure テナント]**
+
+  Azure ID （またはディレクトリ（テナント） ID）は、Azure portal のアプリケーションの概要の「初期設定」ドロップダウンで確認できます。
+
+* **[!UICONTROL Azure クライアント ID]**
+
+  クライアント ID （またはアプリケーション（クライアント） ID）は、Azure portal のアプリケーションの概要の「初期設定」ドロップダウンで確認できます。
+
+* **[!UICONTROL Azure クライアントシークレット]**
+
+  クライアントシークレット ID は、Azure portal のアプリケーションの証明書と秘密鍵メニューから、「クライアントシークレット」列で確認することができます。
+
+
+* **[!UICONTROL Azure リダイレクト URL]**
+
+  リダイレクト URL は Azure portal のアプリケーションの認証メニューで確認することができます。 次の構文でnl/jsp/oauth.jsp終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
+
+セットアップを行い、クライアントコンソールの「接続をテスト」ボタンを使用するには、インターネットアクセスが必要です。 セットアップ後、inMail プロセスはインターネットを使用せずにMicrosoft サーバーと通信できます。
+
+別の資格情報を入力した後、接続の設定をクリックして、外部アカウントの設定を完了できます。
 
 ### ルーティング {#routing}
 
@@ -134,3 +151,114 @@ Adobe Campaignには、様々なシステムと容易に統合できるように
   FDA の場合、FDA アカウントを選択します。 外部システムへの Campaign の接続は上級ユーザーに制限され、クライアントコンソールからのみ使用できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL アーカイブワークフローの作成]** - 1 つ以上のインスタンスがあるかどうかに関係なく、Message Center に登録された実行インスタンスごとに、実行インスタンスに関連付けられた外部アカウントごとに個別のアーカイブワークフローを作成します。
+
+## Adobe ソリューション統合外部アカウント
+
+### Adobe Experience Cloud
+
+Adobe IDを使用してAdobe Campaign コンソールに接続するには、Adobe Experience Cloud（MAC）外部アカウントを設定する必要があります。
+
+![Adobe Experience Cloud MAC外部アカウント設定フィールドを示すスクリーンショット。](assets/external-MAC.png)
+
+* **[!UICONTROL IMS サーバー]**
+
+  IMS サーバーの URL。また、ステージングと本番用のインスタンスがいずれも、同じ IMS 本番エンドポイントを指していることを確認します。
+
+* **[!UICONTROL IMS スコープ]**
+
+  スコープは、IMS によりプロビジョニングされているスコープのサブセットでなければなりません。
+
+* **[!UICONTROL IMS クライアント識別子]**
+
+  IMS クライアントの ID。
+
+* **[!UICONTROL IMS クライアント秘密鍵]**
+
+  IMS クライアント秘密鍵の認証情報。
+
+* **[!UICONTROL コールバックサーバー]**
+
+  Adobe Campaign インスタンスの URL にアクセスします。
+
+* **[!UICONTROL IMS 組織 ID]**
+
+  組織の ID。 組織 ID を見つけるには、[ このページ ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){target=_blank} を参照してください。
+
+* **[!UICONTROL 関連付けマスク]**
+
+  このフィールドでは、Enterprise Dashboard の設定名を Adobe Campaign のグループと同期させる構文を定義することができます。
+
+* **[!UICONTROL サーバー]**
+
+  Adobe Experience Cloud インスタンスの URL。
+
+* **[!UICONTROL テナント]**
+
+  Adobe Experience Cloud テナントの名前。
+
+## データ転送外部アカウント
+
+### Amazon Simple Storage Service （S3） {#amazon-simple-storage-service--s3--external-account}
+
+Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、[このページ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
+
+![](assets/external-AWS.png)
+
+この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
+
+* **[!UICONTROL AWS S3 アカウントサーバー]**
+
+  サーバーの URL。次のように入力する必要があります。
+
+  `  <S3bucket name>.s3.amazonaws.com/<s3object path>`
+
+
+* **[!UICONTROL AWS アクセスキー ID]**
+
+  AWS アクセスキー ID の見つけ方については、この[ページ](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+
+* **[!UICONTROL AWS への秘密アクセスキー]**
+
+  AWS への秘密アクセスキーの見つけ方については、この[ページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
+
+* **[!UICONTROL AWS リージョン]**
+
+  AWS リージョンについて詳しくは、この[ページ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/)を参照してください。
+
+* **[!UICONTROL サーバー側の暗号化を使用]**&#x200B;チェックボックスをオンにすると、ファイルを S3 暗号モードで保存できます。
+
+アクセスキー ID および秘密アクセスキーの見つけ方については、Amazon Web サービス[ドキュメント](https://docs.aws.amazon.com/ja_jp/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys)を参照してください。
+
+### Azure Blob ストレージ {#azure-blob-external-account}
+
+**[!UICONTROL Azure Blob Storage]** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
+
+![](assets/external-azure.png)
+
+**[!UICONTROL Azure 外部アカウント]** をAdobe Campaignで使用できるように設定するには、次の情報が必要です。
+
+* **[!UICONTROL サーバー]**
+
+  Azure Blob ストレージサーバーの URL。
+
+* **[!UICONTROL 暗号化]**
+
+  選択した暗号化のタイプ（**[!UICONTROL なし]**&#x200B;または **[!UICONTROL SSL]**）。
+
+* **[!UICONTROL アクセスキー]**
+
+  **[!UICONTROL アクセスキー]** の場所については、この [ ページ ](https://docs.microsoft.com/ja-JP/azure/storage/common/storage-account-keys-manage?tabs=azure-portal) を参照してください。
+
+## Hadoop
+
+Hadoop外部アカウントを使用すると、Campaign インスタンスをHadoop外部データベースに接続できます。 Hadoopについて詳しくは、[Campaign V7 コンソールのドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} を参照してください。
+
+![Hadoop外部アカウントの設定を示すスクリーンショット。](assets/external-hadoop.png)
+
+* **[!UICONTROL サーバー]**
+
+  Hadoop ストレージサーバーの URL。
+
+* **[!UICONTROL アカウント]**
+
+  Hadoop サーバーアカウントの名前。
