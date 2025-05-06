@@ -3,14 +3,20 @@ audience: end-user
 title: コールセンターチャネルの基本を学ぶ
 description: Adobe Campaign web を使用してコールセンター配信を作成および送信する方法について説明します
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 7%
+source-wordcount: '243'
+ht-degree: 8%
 
 ---
 
 # コールセンターチャネルの基本を学ぶ {#gs-call-center}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="コールセンターチャネル"
+>abstract="コールセンターチャネルを Campaign web ユーザーインターフェイスで使用できるようになりました。 このチャネルは、コールセンター経由で処理される通信を管理および追跡するために使用される通信方法を指します。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 コールセンターチャネルを使用すると、アウトバウンドフォンキャンペーン用のターゲット連絡先リストをAdobe Campaign web UI から直接書き出すことができます。 社内チームまたは社外のコンタクトセンターを通じて通話を調整するために使用します。
 

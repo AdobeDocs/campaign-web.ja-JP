@@ -3,14 +3,20 @@ audience: end-user
 title: クエリモデラーの操作
 description: Adobe Campaign Web クエリモデラーの操作方法について説明します。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 41%
+source-wordcount: '926'
+ht-degree: 40%
 
 ---
 
-# クエリモデラーの操作 {#segment-builder}
+# クエリモデラーを操作 {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="新規ルールビルダー"
+>abstract="改善されたユーザーインターフェイスで複雑な条件を定義するのに役立つ、新しいルールビルダーが使用できるようになりました。 必要に応じて、古いルールビルダーから新しいルールビルダーに切り替えることができます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"

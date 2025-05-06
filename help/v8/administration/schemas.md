@@ -2,20 +2,14 @@
 title: スキーマの操作
 description: スキーマの操作方法について説明します。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '479'
 ht-degree: 66%
 
 ---
 
 # スキーマの操作 {#schemas}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="スキーマの操作"
->abstract="リストで名前を選択して、スキーマの詳細にアクセスできるようになりました。カスタムフィールドの編集は、「**画面編集**」ボタンからもアクセスできます。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
