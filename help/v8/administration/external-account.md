@@ -206,7 +206,7 @@ Adobe IDを使用してAdobe Campaign コンソールに接続するには、Ado
 
 ### Amazon Simple Storage Service （S3） {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、[このページ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
+Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
 
 ![](assets/external-AWS.png)
 
@@ -237,7 +237,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ### Azure Blob ストレージ {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob Storage]** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
+**[!UICONTROL Azure Blob Storage]** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
 
 ![](assets/external-azure.png)
 
@@ -257,7 +257,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ## Hadoop
 
-Hadoop外部アカウントを使用すると、Campaign インスタンスをHadoop外部データベースに接続できます。 Hadoopについて詳しくは、[Campaign V7 コンソールのドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} を参照してください。
+Hadoop外部アカウントを使用すると、Campaign インスタンスをHadoop外部データベースに接続できます。 Hadoopについて詳しくは、[Campaign V7 コンソールのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} を参照してください。
 
 ![Hadoop外部アカウントの設定を示すスクリーンショット。](assets/external-hadoop.png)
 
