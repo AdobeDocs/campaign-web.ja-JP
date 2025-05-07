@@ -3,7 +3,7 @@ audience: end-user
 title: スケジューラーワークフローアクティビティの使用
 description: スケジューラーワークフローアクティビティの使用方法について説明します
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
+source-git-commit: 058a9347329b35e49463b7d74bffa5b3c69b4a92
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 40%
@@ -61,7 +61,6 @@ ht-degree: 40%
    * **有効期間**：指定された頻度に応じて、特定の日付までワークフローが実行されます。 開始日と終了日を指定します。
 
 >[!NOTE]
->\
 >すぐにワークフローを開始する場合は、スケジューラーの上部のアクションバーにある **保留中のタスクを実行** をクリックします。 このボタンは、ワークフローが開始されている場合にのみ使用できます。
 
 ## 例 {#scheduler-example}
