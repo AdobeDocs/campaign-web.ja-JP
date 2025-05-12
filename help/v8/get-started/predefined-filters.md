@@ -3,9 +3,9 @@ title: 定義済みフィルターの操作
 description: Adobe Campaign Web での定義済みフィルターの作成および管理方法について説明します
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_filter"
->title="アラート条件の作成"
->abstract="顧客管理/定義済みフィルターメニューから、独自の配信フィルターを作成できます。"
+>title="アラート基準の作成"
+>abstract="顧客管理／定義済みフィルターメニューから独自の配信フィルターを作成できます。"
 
 定義済みフィルターは、後で使用することを目的に作成および保存されるカスタムフィルターです。これらは、クエリモデラーを使用したフィルタリング操作中のショートカットとして機能します。これらは、例えば、データのリストをフィルタリングしたり、配信のオーディエンスを作成したりする際に使用できます。
 

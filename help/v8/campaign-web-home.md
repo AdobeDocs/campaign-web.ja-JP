@@ -4,9 +4,9 @@ description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 4 月リリース ]
+>[!TAB 2025年4月リリース]
 
-4 月リリースがリリースされました。これには、コールセンターチャネル、新しいルールビルダーおよびその他の改善点が含まれます。
+コールセンターチャネル、新しいルールビルダー、その他の機能強化を含む 4月リリースが公開されました。
 
 [![「詳細情報」ボタン](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -63,7 +63,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 ✨ [AI アシスタント](../v8/email/generative-gs.md)のライブ機能プレビューは、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
-[![ 「詳細情報」ボタン ](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![「詳細情報」ボタン](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB よくある質問（FAQ）]
 
@@ -132,5 +132,5 @@ Campaign web ユーザーインターフェイスに関するよくある質問�
 
 ## その他のリソース
 
-* [Adobe Campaignの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [Adobe Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja){target="_blank"}
+* [Adobe Campaign 製品ドキュメント](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja){target="_blank"}
