@@ -2,10 +2,14 @@
 audience: end-user
 title: インターフェイスの確認
 description: Adobe Campaign Web ユーザーインターフェイス
+hidefromtoc: true
+hide: true
+robots: noindex
+googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1521'
 ht-degree: 100%
 
 ---
@@ -156,7 +160,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 
 * **スキーマ** - カスタムフィールドは、Adobe Campaign コンソールを通じて標準スキーマに追加される追加属性です。[詳細情報](../administration/custom-fields.md)。
 
-* **配信アラート** - 配信アラートは、ユーザーのグループが配信実行に関する情報を含むメール通知を自動的に受信できるようにする、アラート管理システムです。[詳細情報](../msg/delivery-alerting.md)。
+<!--* **Delivery Alerting** - Delivery Alerting is an alert management system that enables groups of users to automatically receive email notifications with information on their delivery executions. [Learn more](../msg/delivery-alerting.md).-->
 
 ## 詳細情報 {#learn-more}
 
