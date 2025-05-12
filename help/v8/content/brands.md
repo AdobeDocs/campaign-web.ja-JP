@@ -23,7 +23,7 @@ ht-degree: 17%
 
 ## ブランドへのアクセス {#generative-access}
 
-[!DNL Adobe Campaign Web] で **[!UICONTROL ブランド]** メニューにアクセスするには、ユーザーに **[!UICONTROL 管理者（管理者）]** および **[!UICONTROL ブランドキット]** 製品プロファイルを割り当て、ブランドを作成および管理する必要があります。 読み取り専用アクセスの場合、ユーザーには [!UICONTROL AI アシスタント ] 製品プロファイルが必要です。
+[!DNL Adobe Campaign Web] で **[!UICONTROL ブランド]** メニューにアクセスするには、ユーザーに **[!UICONTROL 管理者（管理者）]** および **[!UICONTROL ブランドキット]** 製品プロファイルを割り当て、ブランドを作成および管理する必要があります。 読み取り専用アクセスの場合、ユーザーには [!UICONTROL AI アシスタント &#x200B;] 製品プロファイルが必要です。
 
 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
