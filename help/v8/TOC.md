@@ -8,7 +8,7 @@ breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 92%
       + [配信アラートダッシュボード](msg/delivery-alerting-dashboards.md)
       + [配信アラート条件](msg/delivery-alerting-criteria.md)
 + コンテンツ管理 {#content}
-   + 動的コンテンツの作成 {#dynamic-content}
+   + 動的コンテンツを作成 {#dynamic-content}
       + [コンテンツを動的にする方法](personalization/gs-personalization.md)
       + [パーソナライゼーションの追加](personalization/personalize.md)
       + [条件付きコンテンツをビルド](personalization/conditions.md)
@@ -108,11 +108,11 @@ ht-degree: 92%
          + [メールコンテンツの読み込み](email/existing-content.md)
          + [独自コンテンツのコーディング](email/code-content.md)
          + [メールコンテンツテンプレートの使用](email/use-email-templates.md)
-      + コンテンツをデザイン {#design-content}
+      + コンテンツのデザイン {#design-content}
          + [コンテンツコンポーネントの使用](email/content-components.md)
          + [リンクの追加とメッセージのトラッキング](email/message-tracking.md)
          + [ミラーページへのリンクの追加](email/mirror-page.md)
-         + [メタデータを追加](email/metadata.md)
+         + [メタデータの追加](email/metadata.md)
          + [テキストバージョンを生成](email/text-version-email.md)
       + コンテンツのスタイル設定 {#style}
          + [メールスタイルの基本を学ぶ](email/get-started-email-style.md)
@@ -121,7 +121,7 @@ ht-degree: 92%
          + [リンクのスタイルの定義](email/styling-links.md)
          + [インラインスタイル属性を追加する](email/inline-styling.md)
    + AI アシスタント {#ai-assistant}
-      + [AI アシスタントを使用する](email/generative-gs.md)
+      + [AI アシスタントの操作](email/generative-gs.md)
       + [AI を使用したメール生成](email/generative-content.md)
       + [AI を使用した SMS 生成](email/generative-sms.md)
       + [AI を使用したプッシュ通知の生成](email/generative-push.md)
@@ -148,7 +148,7 @@ ht-degree: 92%
    + オーディエンスの操作 {#audiences}
       + [オーディエンスの基本を学ぶ](audience/manage-audience.md)
       + [オーディエンスの作成](audience/create-audience.md)
-   + 配信の受信者を選択 {#target-audiences}
+   + 配信受信者の選択 {#target-audiences}
       + [オーディエンス選択の基本を学ぶ](audience/delivery-recipients.md)
       + [既存オーディエンスの選択](audience/add-audience.md)
       + [1 回限りのオーディエンスの作成](audience/one-time-audience.md)
