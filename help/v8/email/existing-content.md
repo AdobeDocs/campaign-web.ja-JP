@@ -56,4 +56,4 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
 HTML をアップロードしてメールを作成する方法、E メールデザイナーと互換性を持たせる方法、テンプレートに変換する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447033/?quality=12&captions=jpn)
