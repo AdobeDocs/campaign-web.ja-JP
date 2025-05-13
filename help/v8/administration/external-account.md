@@ -5,7 +5,7 @@ exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
 source-git-commit: 75bb03c393ddafeeb869a44a523ab875a893ec3b
 workflow-type: tm+mt
 source-wordcount: '1400'
-ht-degree: 39%
+ht-degree: 71%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 39%
 >abstract="Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。 また、既存の外部アカウントを表示、更新、管理することもできます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
-Adobe Campaignには、様々なシステムと容易に統合できるように事前設定済みの外部アカウントが含まれています。 追加のプラットフォームに接続したり、ワークフローに合わせて接続をカスタマイズしたりするには、web ユーザーインターフェイスを使用して新しい外部アカウントを作成します。 これにより、シームレスなデータ転送が可能になります。
+Adobe Campaign には、様々なシステムと簡単に統合できる事前定義済みの外部アカウントが含まれます。追加のプラットフォームに接続したり、ワークフローに合わせて接続をカスタマイズしたりするには、web ユーザーインターフェイスを使用して新しい外部アカウントを容易に作成します。これにより、シームレスなデータ転送を確実に行えるようになります。
 
 ## 外部アカウントの作成 {#create-ext-account}
 
@@ -35,25 +35,25 @@ Adobe Campaignには、様々なシステムと容易に統合できるように
    >
    >Campaign 固有のタイプの設定について詳しくは、[この節](#campaign-specific)を参照してください。
 
-   ![ ラベルを入力して外部アカウントタイプを選択するためのフィールドを示すスクリーンショット。](assets/external_account_create_2.png)
+   ![ラベルを入力して外部アカウントタイプを選択するフィールドを示すスクリーンショット。](assets/external_account_create_2.png)
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
-1. **[!UICONTROL その他のオプション]** ドロップダウンから、必要に応じて **[!UICONTROL 内部名]** または **[!UICONTROL フォルダー]** パスを変更します。
+1. **[!UICONTROL その他のオプション]**&#x200B;ドロップダウンから、必要に応じて、**[!UICONTROL 内部名]**&#x200B;または&#x200B;**[!UICONTROL フォルダー]**&#x200B;のパスを変更します。
 
-   ![ 内部名とフォルダーパスの設定に関する追加オプションを示すスクリーンショット。](assets/external_account_create_3.png)
+   ![内部名とフォルダーパスの設定に関する追加オプションを示すスクリーンショット。](assets/external_account_create_3.png)
 
-1. この外部アカウントで管理されているデータを自動的にエクスポートするには、「**[!UICONTROL パッケージで自動的にエクスポートされる]** オプションを有効にします。<!--Exported where??-->
+1. この外部アカウントによって管理されているデータを自動的にエクスポートするには、「**[!UICONTROL パッケージで自動的にエクスポート]**」オプションを有効にします。<!--Exported where??-->
 
-   ![ パッケージの自動エクスポートを有効にするオプションを示すスクリーンショット。](assets/external_account_create_exported.png)
+   ![パッケージの自動エクスポートを有効にするオプションを示すスクリーンショット。](assets/external_account_create_exported.png)
 
-1. 「**[!UICONTROL 詳細]**」セクションで、選択した外部アカウントタイプに基づいて資格情報を指定し、アカウントへのアクセスを設定します。 [詳細情報](#bounce)
+1. 「**[!UICONTROL 詳細]**」セクションで、選択した外部アカウントタイプに基づいて資格情報を指定し、アカウントへのアクセスを設定します。[詳細情報](#bounce)
 
-1. **[!UICONTROL 接続をテスト]** をクリックして、設定が正しいことを確認します。
+1. 「**[!UICONTROL テスト接続]**」をクリックして、設定が正しいことを確認します。
 
 1. **[!UICONTROL 詳細…]**&#x200B;メニューから、外部アカウントを複製または削除します。
 
-   ![ 外部アカウントを複製または削除するオプションを含む詳細メニューを示すスクリーンショット。](assets/external_account_create_4.png)
+   ![外部アカウントを複製または削除するオプションを含む詳細メニューを示すスクリーンショット。](assets/external_account_create_4.png)
 
 1. 設定が完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -65,25 +65,25 @@ Adobe Campaignには、様々なシステムと容易に統合できるように
 
 バウンスメール外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールを受信できます。
 
-![ バウンスメール（POP3）外部アカウント設定フィールドを示すスクリーンショット。](assets/external_account_bounce.png)
+![バウンスメール（POP3）外部アカウント設定フィールドを示すスクリーンショット。](assets/external_account_bounce.png)
 
 **[!UICONTROL バウンスメール（POP3）]**&#x200B;外部アカウントを設定するには、次のフィールドに入力します。
 
 * **[!UICONTROL サーバー]** - POP3 サーバーの URL。
 
-* **[!UICONTROL ポート]** - POP3 接続のポート番号（デフォルトポートは 110）。
+* **[!UICONTROL ポート]** - POP3 接続ポート番号（デフォルトポートは 110）。
 
 * **[!UICONTROL アカウント]** - ユーザーの名前。
 
 * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード。
 
-* **[!UICONTROL 暗号化]** – 選択した暗号化のタイプ。次のものが含まれます。
-   * デフォルト （ポート 110 の場合は POP3、ポート 995 の場合は POP3S）。
+* **[!UICONTROL 暗号化]** - 次を含む選択した暗号化のタイプ：
+   * デフォルト（ポート 110 の場合は POP3、ポート 995 の場合は POP3S）。
    * STARTTLS の送信後に SSL に切り替える POP3。
-   * 非セキュアな POP3 （デフォルトポート 110）。
-   * SSL による POP3 セキュア （デフォルトポート 995）。
+   * 非セキュアな POP3（デフォルトポート 110）。
+   * SSL による POP3 セキュア（デフォルトポート 995）。
 
-* **[!UICONTROL 関数]** - **[!UICONTROL インバウンドメール]** を選択して受信メール用のアカウントを設定するか、**[!UICONTROL SOAP ルーター]** を選択してSOAP リクエストを処理します。
+* **[!UICONTROL 関数]** - 受信メールを受信するアカウントを設定するには「**[!UICONTROL インバウンドメール]**」を選択し、SOAP リクエストを処理するには「**[!UICONTROL SOAP ルーター]**」を選択します。
 
 >[!IMPORTANT]
 >
@@ -120,43 +120,43 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「Micros
 
 1. **[!UICONTROL ルーティング]**&#x200B;タイプを選択します。
 
-   ![ ルーティング外部アカウントタイプの選択を示すスクリーンショット。](assets/external-account-routing.png){zoomable="yes"}
+   ![外部アカウントのルーティングタイプの選択を示すスクリーンショット。](assets/external-account-routing.png){zoomable="yes"}
 
 1. 目的のチャネルを選択し、「**[!UICONTROL 作成]**」をクリックします。
 
 1. 外部アカウントの「**[!UICONTROL 詳細]**」セクションでは、**[!UICONTROL 配信モード]**&#x200B;として「**[!UICONTROL 外部]**」がデフォルトで選択されています。
 
-   ![ ルーティング外部アカウントの配信モード設定を示すスクリーンショット。](assets/external-account-delivery-mode.png){zoomable="yes"}
+   ![外部アカウントのルーティング用の配信モード設定を示すスクリーンショット。](assets/external-account-delivery-mode.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >現在、**[!UICONTROL 外部]** は使用可能な唯一のモードです。
+   >現在、使用可能なモードは&#x200B;**[!UICONTROL 外部]**&#x200B;のみです。
 
-1. 配信の実行後のプロセスを処理するには、これを後処理ワークフローに外部化します。 [ 外部シグナル ](../workflows/activities/external-signal.md) アクティビティを持つワークフローを作成し、「**[!UICONTROL 後処理]**」フィールドから選択します。
+1. 配信実行後のプロセスを処理するには、後処理ワークフローに外部化します。[外部シグナル](../workflows/activities/external-signal.md)アクティビティを含むワークフローを作成し、「**[!UICONTROL 後処理]**」フィールドから選択します。
 
-   ![ ルーティング外部アカウントの後処理フィールド設定を示すスクリーンショット。](assets/external-account-post-processing.png){zoomable="yes"}
+   ![外部アカウントのルーティング用の「後処理」フィールド設定を示すスクリーンショット。](assets/external-account-post-processing.png){zoomable="yes"}
 
-1. 「**[!UICONTROL アクティビティ]**」フィールドで、ログに表示された後処理ワークフローアクティビティの名前を編集します。<!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
+1. 「**[!UICONTROL アクティビティ]**」フィールドでは、ログに表示される後処理ワークフローアクティビティの名前を編集します。<!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
 
 ### 実行インスタンス {#instance-exec}
 
-セグメント化されたアーキテクチャがある場合は、コントロールインスタンスに関連付けられている実行インスタンスを特定し、それらの間の接続を確立します。 トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
+セグメント化されたアーキテクチャを使用している場合は、コントロールインスタンスに関連付けられた実行インスタンスを識別し、それらの間の接続を確立します。トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
 
-![ 実行インスタンス外部アカウント設定フィールドを示すスクリーンショット。](assets/external_account_exec.png)
+![実行インスタンス外部アカウント設定フィールドを示すスクリーンショット。](assets/external_account_exec.png)
 
 **[!UICONTROL 実行インスタンス]**&#x200B;の外部アカウントを設定するには：
 
-* **[!UICONTROL URL]** – 実行インスタンスがインストールされているサーバーの URL。
+* **[!UICONTROL URL]** - 実行インスタンスがインストールされているサーバーの URL。
 
-* **[!UICONTROL Account]** - オペレーターフォルダーで定義された Message Center エージェントに一致するアカウント名。
+* **[!UICONTROL アカウント]** - オペレータフォルダーで定義されている Message Center エージェントに一致するアカウント名。
 
-* **[!UICONTROL パスワード]** - オペレーターフォルダーで定義されたアカウントのパスワード。
+* **[!UICONTROL パスワード]** - 「オペレーター」フォルダーで定義されたアカウントのパスワード。
 
-* **[!UICONTROL メソッド]** - Web サービスまたは Federated Data Access （FDA）を選択します。
+* **[!UICONTROL メソッド]** - web サービスまたは Federated Data Access（FDA）から選択します。
 
-  FDA の場合、FDA アカウントを選択します。 外部システムへの Campaign の接続は上級ユーザーに制限され、クライアントコンソールからのみ使用できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/fda#_blank)
+  FDA の場合は、FDA アカウントを選択します。外部システムへの Campaign の接続は上級ユーザーに制限され、クライアントコンソールからのみ使用できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/fda#_blank)
 
-* **[!UICONTROL アーカイブワークフローの作成]** - 1 つ以上のインスタンスがあるかどうかに関係なく、Message Center に登録された実行インスタンスごとに、実行インスタンスに関連付けられた外部アカウントごとに個別のアーカイブワークフローを作成します。
+* **[!UICONTROL アーカイブワークフローの作成]** -1 つ以上のインスタンスがあるかどうかに関係なく、Message Center に登録された実行インスタンスごとに、実行インスタンスに関連付けられた外部アカウントにつき個別のアーカイブワークフローを作成します。
 
 ## Adobe ソリューション統合外部アカウント
 
@@ -206,7 +206,7 @@ Adobe IDを使用してAdobe Campaign コンソールに接続するには、Ado
 
 ### Amazon Simple Storage Service （S3） {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
+Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、[このページ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
 
 ![Amazon Simple Storage Service S3 外部アカウント設定フィールドを示すスクリーンショット。](assets/external-AWS.png)
 
@@ -237,7 +237,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ### Azure Blob ストレージ {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob Storage]** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
+**[!UICONTROL Azure Blob Storage]** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
 
 ![Azure Blob Storage 外部アカウント設定フィールドを示すスクリーンショット。](assets/external-azure.png)
 
@@ -257,7 +257,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ## Hadoop
 
-Hadoop外部アカウントを使用すると、Campaign インスタンスをHadoop外部データベースに接続できます。 Hadoopについて詳しくは、[Campaign V7 コンソールのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} を参照してください。
+Hadoop外部アカウントを使用すると、Campaign インスタンスをHadoop外部データベースに接続できます。 Hadoopについて詳しくは、[Campaign V7 コンソールのドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} を参照してください。
 
 ![Hadoop外部アカウントの設定を示すスクリーンショット。](assets/external-hadoop.png)
 
