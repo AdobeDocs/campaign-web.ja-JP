@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e825b7859bff299906725eddf3ba014ed0b5e1b7
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
+workflow-type: tm+mt
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
@@ -20,10 +20,28 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 以前のリリースで利用可能な変更と改善点について詳しくは、[2024](release-notes-24.md) と [2025](release-notes-25.md) を参照してください。
 
+## 2025 年 5 月更新 {#25-5-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>ブランドの整合性スコア（Beta）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ブランドのアラインメントスコア機能は、電子メールデザイナーで直接フィードバックを明確に提供し、コンテンツがブランドのトーン、スタイル、ガイドラインに従っているかどうかを確認するのに役立ちます。 この機能は、Betaで使用できます。</p>
+<p>詳しくは、<a href="../content/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
 ## 2025年4月リリース {#25-4-release}
 
 **リリース日**：2025年4月29日（PT）
-
 
 ### 新機能 {#25-4-features}
 
