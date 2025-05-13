@@ -4,9 +4,9 @@ title: オーディエンスを作成ワークフローアクティビティの�
 description: オーディエンスを作成ワークフローアクティビティの使用方法を学ぶ
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 **オーディエンスを作成**&#x200B;アクティビティを設定するには、次の手順に従います。
 
-![ ワークフローオーディエンス設定インターフェイスを示すスクリーンショット。](../assets/workflow-audience.png)
+![ワークフローのオーディエンス設定インターフェイスを示すスクリーンショット。](../assets/workflow-audience.png)
 
 1. **オーディエンスを作成**&#x200B;アクティビティを追加します。
 1. ラベルを定義します。
@@ -56,7 +56,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 独自のクエリを作成するには、次の手順に従います。
 
 1. 「**独自のクエリを作成**」を選択します。
-1. 「**ターゲティングディメンション**」を選択します。ターゲティングディメンションを使用すると、受信者、契約の受益者、オペレーター、サブスクライバーなど、操作のターゲットとなる母集団を定義できます。 デフォルトでは、ターゲットが受信者から選択されます。[ターゲティングディメンションについての詳細を学ぶ](../../audience/about-recipients.md#targeting-dimensions)
+1. 「**ターゲティングディメンション**」を選択します。ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲットされる母集団を操作ごとに定義します。デフォルトでは、ターゲットが受信者から選択されます。[ターゲティングディメンションについての詳細を学ぶ](../../audience/about-recipients.md#targeting-dimensions)
 1. 「**続行**」をクリックします。
 1. 新しいメールをデザインする際にオーディエンスを作成するのと同じ方法で、クエリモデラーを使用してクエリを定義します。[クエリモデラーの操作方法の詳細を学ぶ](../../query/query-modeler-overview.md)
 
@@ -74,4 +74,4 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 2 つの&#x200B;**オーディエンスを作成**&#x200B;アクティビティを使用したワークフローの例を次に示します。最初のアクティビティは、ポーカープレーヤーのオーディエンスをターゲットにし、次にメール配信が続きます。2 番目のアクティビティは VIP クライアントオーディエンスをターゲットにし、次に SMS 配信が続きます。
 
-![ 異なるオーディエンスをターゲットにする 2 つのオーディエンスを作成アクティビティを含む、ワークフローの例を示すスクリーンショット。](../assets/workflow-audience-example.png)
+![異なるオーディエンスをターゲットにする 2 つのオーディエンスを作成アクティビティを使用したワークフローの例を示すスクリーンショット。](../assets/workflow-audience-example.png)
