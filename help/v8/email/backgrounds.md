@@ -3,8 +3,8 @@ audience: end-user
 title: メールの背景をパーソナライズする
 description: メールの背景をパーソナライズする方法を学ぶ
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
-workflow-type: ht
+source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -41,7 +41,6 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >構造の背景色が隠れてしまう場合があるので、ビューポートの背景色を設定しないでください。
 
 * 構造コンポーネントのコンテンツに対して、**[!UICONTROL 背景画像]**&#x200B;を設定します。
@@ -50,7 +49,6 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >一部のメールプログラムでは、背景画像はサポートされていません。サポートされていない場合は、代わりに行の背景色が使用されます。画像を表示できない場合は、適切なフォールバックの背景色を選択します。
 
 * 列レベルで背景色を設定します。
@@ -59,7 +57,6 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >これは最も一般的なユースケースです。アドビでは、メールコンテンツ全体を柔軟に編集できるように、背景色を列レベルで設定することをお勧めします。
 
   また、列レベルで背景画像を設定することもできますが、ほとんど使用されません。
