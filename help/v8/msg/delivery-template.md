@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 100%
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 1. 中央の画面に新しいテンプレートダッシュボードが開きます。必要に応じて、テンプレート設定を編集します。
 
-1. 「**[!UICONTROL レビュー]**」ボタンをクリックして、テンプレートを保存して確認します。すべての設定を編集、削除および複製できます。
+1. 「**[!UICONTROL レビュー]**」ボタンをクリックしてテンプレートを保存およびレビューします。すべての設定を編集、削除および複製できます。
 
 1. 必要に応じて、テンプレートのレンダリングをテストします。[詳細情報](#test-template)
 

@@ -4,7 +4,7 @@ title: SMS 配信のデザイン
 description: SMS 配信のデザイン方法を学ぶ
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 100%
 
