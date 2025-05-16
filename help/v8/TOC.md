@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '828'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 99%
       + [AI アシスタントのユースケース](email/generative-uc.md)
       + ブランド（ベータ版） {#ai-assistant}
          + [ブランドの作成と管理](content/brands.md)
-         + [ブランドの整合性スコアの評価](content/brands-score.md)
+         + [ブランド整合性スコアの評価](content/brands-score.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
    + [ランディングページの作成と公開](landing-pages/create-lp.md)

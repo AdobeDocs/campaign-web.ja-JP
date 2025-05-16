@@ -3,9 +3,9 @@ title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: b730eeeaab5bfc87e8c9c10b6e25bed0e484fb64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,18 +20,18 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 以前のリリースで利用可能な変更と改善点について詳しくは、[2024](release-notes-24.md) と [2025](release-notes-25.md) を参照してください。
 
-## 2025 年 5 月更新 {#25-5-release}
+## 2025年5月の更新 {#25-5-release}
 
 <table>
 <thead>
 <tr>
-<th><strong>ブランドの整合性スコア（Beta）</strong><br/></th>
+<th><strong>ブランド整合性スコア（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ブランドのアラインメントスコア機能は、電子メールデザイナーで直接フィードバックを明確に提供し、コンテンツがブランドのトーン、スタイル、ガイドラインに従っているかどうかを確認するのに役立ちます。 この機能は、Betaで使用できます。</p>
+<p>ブランド整合性スコア機能は、E メールデザイナーで直接、明確なフィードバックを提供し、コンテンツがブランドのトーン、スタイル、ガイドラインと合っているかどうかを確認するのに役立ちます。この機能はベータ版で使用できます。</p>
 <p>詳しくは、<a href="../content/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
