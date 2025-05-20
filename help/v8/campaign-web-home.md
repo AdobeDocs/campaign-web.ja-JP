@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 89%
 
 ---
 
@@ -52,16 +52,16 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 >[!BEGINTABS]
 
 
->[!TAB 2025年4月リリース]
+>[!TAB 2025 年 5 月リリース ]
 
-コールセンターチャネル、新しいルールビルダー、その他の機能強化を含む 4月リリースが公開されました。
+5 月リリースがリリースされました。これには、コールセンターチャネル、新しいルールビルダーおよびその他の改善点が含まれます。
 
 [![「詳細情報」ボタン](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB AI アシスタント]
 
-✨ [AI アシスタント](../v8/email/generative-gs.md)のライブ機能プレビューは、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
+✨ 機能を直接調べて機能を完全に理解できるように設計された [AI アシスタント ](../v8/email/generative-gs.md) のライブ機能プレビューで、実践的な体験に没頭してください。
 
 [![「詳細情報」ボタン](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
