@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: ht
-source-wordcount: '828'
-ht-degree: 100%
+source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
+workflow-type: tm+mt
+source-wordcount: '831'
+ht-degree: 99%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 100%
    + コールセンター {#call-center}
       + [コールセンター配信の基本を学ぶ](call-center/gs-call-center.md)
       + [コールセンター配信の作成と送信](call-center/create-call-center.md)
+   + [カスタム外部チャネル](call-center/gs-custom-channel.md)
    + トランザクションメッセージ {#transactional-messages}
       + [トランザクションメッセージの基本を学ぶ](transactional-messaging/transactional.md)
       + [トランザクションメッセージの作成](transactional-messaging/create-transactional.md)

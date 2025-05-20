@@ -3,10 +3,10 @@ audience: end-user
 title: コールセンター配信の作成
 description: Adobe Campaign Web を使用してコールセンター配信を作成する方法を説明します
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 13%
+source-wordcount: '756'
+ht-degree: 24%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 13%
 >
 >コールセンターの受信者には、少なくとも名前と電話番号が含まれている必要があります。 情報が不完全な受信者は、コールセンター配信から除外されます。
 >
->コントロール母集団の設定方法については、この [ ページ ](../audience/control-group.md) を参照してください。
+>コントロールグループの設定方法については、この [ ページ ](../audience/control-group.md) を参照してください。
 
 ## コンテンツの編集{#edit-content}
 
@@ -72,7 +72,7 @@ ht-degree: 13%
 
    ![ コールセンター配信のコンテンツ編集を示すスクリーンショット ](assets/cc-content0.png){zoomable="yes"}
 
-1. 「**[!UICONTROL ファイル名]**」フィールドを指定します。 ファイル名をパーソナライズする方法については、この [ ページ ](../personalization/personalize.md) を参照してください。
+1. **[!UICONTROL ファイル名]** を指定します。 ファイル名をパーソナライズする方法については、この [ ページ ](../personalization/personalize.md) を参照してください。
 
 1. **[!UICONTROL ファイル形式]**:**テキスト**、**固定幅の列を使用したテキスト**、**CSV （Excel）**、**XML** を選択します。
 
@@ -86,15 +86,15 @@ ht-degree: 13%
 
 1. 「**[!UICONTROL コンテンツ]**」セクションで「**[!UICONTROL 属性を追加]**」ボタンをクリックして、抽出ファイルに表示する新しい列を作成します。
 
-1. 列に表示する属性を選択し、確認します。 属性を選択してお気に入りに追加する方法について詳しくは、この [ ページ ](../get-started/attributes.md) を参照してください。
+1. 列に表示する属性を選択し、確定します。属性を選択してお気に入りに追加する方法について詳しくは、この [ ページ ](../get-started/attributes.md) を参照してください。
 
-   ![ 「属性を追加」ボタンと、抽出ファイルに属性を追加するためのオプションを示すスクリーンショット。](assets/cc-add-attribute.png)
+   ![「属性を追加」ボタンと、抽出ファイルに属性を追加するオプションを示すスクリーンショット。](assets/cc-add-attribute.png)
 
 1. これらの手順を繰り返して、抽出ファイルに必要な数の列を追加します。
 
    その後、属性の編集、抽出ファイルの並べ替え、列の位置の変更を行うことができます。 詳しくは、この[ページ](../direct-mail/content-direct-mail.md#content)を参照してください。
 
-   ![ 抽出ファイルの属性設定オプションを示すスクリーンショット。](assets/cc-content-attributes.png)
+   ![抽出ファイルの属性設定オプションを示すスクリーンショット。](assets/cc-content-attributes.png)
 
 ## 配信のプレビューと送信{#preview-send}
 
@@ -104,24 +104,24 @@ ht-degree: 13%
 
 1. 配信コンテンツページから、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
 
-   ![ 配信コンテンツページの「コンテンツをシミュレート」オプションを示すスクリーンショット ](assets/cc-simulate0.png){zoomable="yes"}
+   ![配信コンテンツページの「コンテンツをシミュレート」オプションを示すスクリーンショット](assets/cc-simulate0.png){zoomable="yes"}
 
 1. 1 つまたは複数のテストプロファイルを選択して、パーソナライズされたコンテンツをプレビューします。 また、配達確認を送信することもできます。 [詳細情報](../direct-mail/send-direct-mail.md#preview-dm)
 
-   ![ 配信コンテンツページの「コンテンツをシミュレート」オプションを示すスクリーンショット ](assets/cc-simulate.png){zoomable="yes"}
+   ![配信コンテンツページの「コンテンツをシミュレート」オプションを示すスクリーンショット](assets/cc-simulate.png){zoomable="yes"}
 
 1. 配信ページで、「確認して送信 **[!UICONTROL をクリックし]** す。
 
-   ![ 配信ページの「確認して送信」オプションを示すスクリーンショット ](assets/cc-review-send.png){zoomable="yes"}
+   ![配信ページの「レビューして送信」オプションを示すスクリーンショット](assets/cc-review-send.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 準備]**」をクリックし、表示された進行状況と統計を監視して、確認します。
 
-   ![ 準備オプションとログメニューを示したスクリーンショット ](assets/cc-prepare.png){zoomable="yes"}
+   ![「準備」オプションとログメニューを示すスクリーンショット](assets/cc-prepare.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 送信]**」をクリックして最終的な送信プロセスに進み、確認します。
 
-配信を送信すると、抽出ファイルが自動的に生成され、配信テンプレートの[詳細設定](../advanced-settings/delivery-settings.md)で選択した&#x200B;**[!UICONTROL ルーティング]**&#x200B;外部アカウントで指定した場所に書き出されます。
+配信が送信されると、抽出ファイルが自動的に生成され、配信テンプレートの [ 詳細設定 ](../advanced-settings/delivery-settings.md) で選択した **[!UICONTROL ルーティング]** 外部アカウントで指定した場所に書き出されます。 また、画面の「**コンテンツ**」セクションの「**ファイルをプレビュー**」ボタンをクリックして、ファイルをプレビューすることもできます。
 
-配信ページからの KPI （主要業績評価指標）データと **[!UICONTROL ログ]** メニューからのデータを追跡します。
+配信ページから KPI（主要業績評価指標）データを追跡し、**[!UICONTROL ログ]**&#x200B;メニューからデータを追跡します。
 
-組み込みレポートを使用して、メッセージの影響の測定を開始します。 [詳細情報](../reporting/direct-mail.md)
+組み込みレポートを使用して、メッセージの影響の測定を開始します。[詳細情報](../reporting/direct-mail.md)

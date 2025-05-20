@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign web ユーザーインターフェイスでの権限管理
 description: Campaign web ユーザーインターフェイスの権限について説明します
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 80%
 
 ---
 
@@ -37,6 +37,12 @@ Adobe Campaign で権限を設定する手順について詳しくは、[Adobe C
 権限を直接クリックして、**[!UICONTROL 許可]**&#x200B;または&#x200B;**[!UICONTROL 拒否]**&#x200B;を変更できます。
 
 ![フォルダーセキュリティ設定での拒否された権限の例](assets/folder_security_denied.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>書き込み権限を持つフォルダーが 1 つ以上ないオブジェクトは作成できません。
+>
+>フラグメントの作成には管理者である必要はありませんが、「コンテンツビジュアルフラグメント」フォルダーの少なくとも 1 つに対する書き込み権限が必要です。 そうでない場合、ビジュアルフラグメントを作成することはできません。
 
 「**[!UICONTROL 生成]**」オプションが有効になっている場合、フォルダーに定義されているすべての権限がそのすべてのサブフォルダーに適用されます。これらの権限は、サブフォルダーごとに上書きできます。
 
