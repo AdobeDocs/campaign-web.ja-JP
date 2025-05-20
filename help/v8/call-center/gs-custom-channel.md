@@ -88,7 +88,7 @@ Adobe Campaign web UI から直接、サードパーティと統合されたカ�
 
    ![配信コンテンツページの「コンテンツをシミュレート」オプションを示すスクリーンショット](assets/cus-simulate.png){zoomable="yes"}
 
-1. 配信ページで、「確認して送信 **[!UICONTROL 」をクリックし、「**[!UICONTROL  準備 ]**」をクリック]** ます。 次に、確認します。
+1. 配信ページで、「確認して送信 **[!UICONTROL 」をクリックし、「**&#x200B;[!UICONTROL &#x200B; 準備 &#x200B;]&#x200B;**」をクリック]** ます。 次に、確認します。
 
    ![「準備」オプションとログメニューを示すスクリーンショット](assets/cus-prepare.png){zoomable="yes"}
 
