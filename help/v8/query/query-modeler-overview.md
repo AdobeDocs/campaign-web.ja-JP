@@ -14,7 +14,7 @@ ht-degree: 80%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
->title="新規ルールビルダー"
+>title="新しいルールビルダー"
 >abstract="改善されたユーザーインターフェイスで複雑な条件を定義するのに役立つ、新しいルールビルダーが使用できるようになりました。必要に応じて、古いルールビルダーから新しいルールビルダーに切り替えることができます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
