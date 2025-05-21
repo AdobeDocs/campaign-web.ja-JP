@@ -4,9 +4,9 @@ title: トラップグループの使用
 description: Campaign web ユーザーインターフェイスでの配信にトラップグループを使用する方法について説明します
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

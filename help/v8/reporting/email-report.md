@@ -6,7 +6,7 @@ exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2448'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -30,11 +30,11 @@ ht-degree: 89%
 
 **[!UICONTROL 初期ターゲット母集団]**&#x200B;グラフには、受信者に関するデータが表示されます。指標は配信の準備中に計算され、初期オーディエンス、送信するメッセージの数、除外された受信者の数を示します。
 
-![ データを示すグラフのスクリーンショット ](assets/reporting_email_1.png){zoomable="yes"}
+![データを示すグラフのスクリーンショット](assets/reporting_email_1.png){zoomable="yes"}
 
 グラフの一部にマウスを合わせると、正確な数が表示されます。
 
-![ 正確な数を表示する部分にマウスを置いたグラフのスクリーンショット ](assets/reporting_email_1.1.png){zoomable="yes"}
+![正確な数を表示する部分にマウスを合わせたグラフのスクリーンショット](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -52,9 +52,9 @@ ht-degree: 89%
 >title="配信統計"
 >abstract="**配信統計**&#x200B;グラフには、配信の成功と発生したエラーの詳細が表示されます。"
 
-**[!UICONTROL 配信統計]**&#x200B;グラフには、配信の成功の詳細が表示されます。指標については、以下で詳しく説明します。
+**[!UICONTROL 配信統計]**&#x200B;グラフには、配信の成功の詳細が表示されます。指標について詳しくは、以下で説明します。
 
-![ 配信統計の詳細を示すグラフのスクリーンショット ](assets/reporting_email_2.png){zoomable="yes"}
+![配信統計の詳細を示すグラフのスクリーンショット](assets/reporting_email_2.png){zoomable="yes"}
 
 +++メールキャンペーンレポート指標の詳細を説明します。
 
@@ -75,9 +75,9 @@ ht-degree: 89%
 >title="配信の除外の理由"
 >abstract="**除外の理由**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。"
 
-**[!UICONTROL 除外の理由]**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。除外ルールについて詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){_blank} を参照してください
+**[!UICONTROL 除外の理由]**&#x200B;グラフとテーブルには、配信準備中に却下されたメッセージの分類がルールごとに示されています。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#email-error-types){_blank}を参照してください。
 
-![ 除外の原因のグラフと表のスクリーンショット ](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
+![除外の理由グラフとテーブルのスクリーンショット](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -106,7 +106,7 @@ ht-degree: 89%
 
 このレポートには、指定した期間内のプラットフォーム全体の配信スループットに関する詳細情報が表示されます。メッセージ配信速度の測定に使用される主な指標は、1 時間あたりに送信されるメッセージの数です。
 
-![ 配信スループットのスクリーンショット ](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
+![配信スループットのスクリーンショット](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## ブロードキャスト統計 {#broadcast-statistics}
@@ -116,9 +116,9 @@ ht-degree: 89%
 >title="ブロードキャスト統計"
 >abstract="**ブロードキャスト統計**&#x200B;レポートには、各ドメインで発生する可能性のあるエラーに関する入手可能なデータが表示されます。"
 
-**[!UICONTROL ブロードキャスト統計]**&#x200B;テーブルには、各ドメインで発生する可能性のあるエラーに関する入手可能なデータが表示されます。指標については、以下で詳しく説明します。
+**[!UICONTROL ブロードキャスト統計]**&#x200B;テーブルには、各ドメインで発生する可能性のあるエラーに関する入手可能なデータが表示されます。指標について詳しくは、以下で説明します。
 
-![ ブロードキャスト統計情報のスクリーンショット ](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
+![ブロードキャスト統計のスクリーンショット](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -151,11 +151,11 @@ ht-degree: 89%
 >title="タイプ別のエラー分類"
 >abstract="**タイプ別のエラーの分類**&#x200B;テーブルには、各エラータイプの発生の包括的な分類が表示されます。"
 
-**[!UICONTROL タイプごとのエラーの分類]**&#x200B;テーブルおよびグラフには、エラーのタイプごとに入手可能なデータが表示されます。指標については、以下で詳しく説明します。
+**[!UICONTROL タイプごとのエラーの分類]**&#x200B;テーブルおよびグラフには、エラーのタイプごとに入手可能なデータが表示されます。指標について詳しくは、以下で説明します。
 
-このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8 （クライアントコンソール）ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"} を参照してください。
+このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}を参照してください。
 
-![ タイプごとのエラーの内訳のスクリーンショット ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
+![タイプ別のエラーの分類のスクリーンショット](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -189,11 +189,11 @@ ht-degree: 89%
 
 **[!UICONTROL ドメインごとのエラーの分類]**&#x200B;テーブルおよびグラフには、各ドメインで発生する可能性のあるエラーに関する入手可能なデータが表示されます。
 
-![ ドメインごとのエラーの分類のスクリーンショット ](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![ドメイン別のエラーの分類のスクリーンショット](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 詳細を表示するには、各ドメインの名前の横にあるアイコンをクリックします。
 
-![ ドメインごとのエラーの分類のスクリーンショットと各ドメインの詳細 ](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![ドメイン別のエラーの分類と各ドメインの詳細のスクリーンショット](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 使用可能な指標は、上記の[タイプごとのエラーの分類](#email-delivery-breakdown-type)の指標と同じです。
 
@@ -214,9 +214,9 @@ ht-degree: 89%
 >abstract="**配信統計**&#x200B;レポートは、送信されたメールに関して入手可能なデータの詳細（成功、開封数、クリック数など）を示す主要業績評価指標（KPI）を提供します。"
 
 
-**[!UICONTROL 配信統計]**&#x200B;レポートは、送信されたメールに関して入手可能なデータの詳細を示す主要業績評価指標（KPI）を提供します。指標については、以下で詳しく説明します。
+**[!UICONTROL 配信統計]**&#x200B;レポートは、送信されたメールに関して入手可能なデータの詳細を示す主要業績評価指標（KPI）を提供します。指標について詳しくは、以下で説明します。
 
-![ 配信統計のスクリーンショット ](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
+![配信統計のスクリーンショット](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -242,9 +242,9 @@ ht-degree: 89%
 
 
 
-**[!UICONTROL 開封率とクリックスルー率]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標については、以下で詳しく説明します。
+**[!UICONTROL 開封率とクリックスルー率]**&#x200B;テーブルには、受信者に関連するデータが表示されます。指標について詳しくは、以下で説明します。
 
-![ 開封率およびクリックスルー率テーブルのスクリーンショット ](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
+![開封率とクリックスルー率テーブルのスクリーンショット](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -269,7 +269,7 @@ ht-degree: 89%
 
 **[!UICONTROL URL とクリックストリーム]**&#x200B;レポートは、配信中に最もクリックされた URL の詳細を示す主要業績評価指標（KPI）を提供します。
 
-![URL のスクリーンショットとクリックストリームレポート ](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
+![URL とクリックストリームレポートのスクリーンショット](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -294,7 +294,7 @@ ht-degree: 89%
 
 **[!UICONTROL 最も訪問されたリンク上位 10 件]**&#x200B;のグラフとテーブルには、リンクごとの受信者の行動に関する利用可能なデータが表示されます。
 
-![ 最も訪問されたリンクの上位 10 位のグラフのスクリーンショット ](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
+![最も訪問されたリンク上位 10 件のグラフのスクリーンショット](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -315,7 +315,7 @@ ht-degree: 89%
 
 **[!UICONTROL 時間の経過に伴うクリック数の分類]**&#x200B;グラフには、リンクごとの受信者の行動に関する入手可能なデータが表示されます。
 
-![ 時間の経過に伴うクリック数の分類グラフのスクリーンショット ](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
+![クリック数の時間経過による分類グラフのスクリーンショット](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## ユーザーアクティビティ {#user-activities-email}
 
@@ -326,7 +326,7 @@ ht-degree: 89%
 
 **[!UICONTROL ユーザーアクティビティ]**&#x200B;レポートには、開封数とクリック数の分類がチャート形式で表示されます。データをターゲットにする期間を、最終日、時間、または 30 分から選択できます。
 
-![ ユーザーアクティビティレポートのスクリーンショット ](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
+![ユーザーアクティビティレポートのスクリーンショット](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -345,7 +345,7 @@ ht-degree: 89%
 
 **[!UICONTROL トラッキング統計]**&#x200B;グラフでは、開封数とクリック数の統計を表示します。データをターゲットにする特定の時間枠を選択することもできます。
 
-![ トラッキング統計グラフのスクリーンショット ](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
+![トラッキング統計グラフのスクリーンショット](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++メール配信レポート指標の詳細を説明します。
 
@@ -368,7 +368,7 @@ ht-degree: 89%
 
 それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルデバイスでの開封数に関する統計を示しています。2 つ目のグラフは、デバイスタイプごとの正確な数と割合を示しています。
 
-![ デバイス別分類レポートのスクリーンショット ](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
+![デバイス別分類レポートのスクリーンショット](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### 開封数の OS 別分類 {#breakdown-opens-os}
@@ -382,7 +382,7 @@ ht-degree: 89%
 
 それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルのオペレーティングシステムでの開封数に関する統計を示しています。2 つ目のグラフは、オペレーティングシステムごとの正確な数と割合を示しています。
 
-![OS 別分類レポートのスクリーンショット ](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
+![OS 別分類レポートのスクリーンショット](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### 開封数のブラウザー別分類 {#breakdown-opens-browser}
 
@@ -395,7 +395,7 @@ ht-degree: 89%
 
 それぞれのカテゴリで、2 つのグラフが使用されます。最初のグラフは、コンピューターおよびモバイルのオペレーティングシステムでの開封数に関する統計を示しています。2 つ目のグラフは、ブラウザーごとの正確な数と割合を示しています。
 
-![ ブラウザー別開封数の分類レポートのスクリーンショット ](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
+![開封数のブラウザー別分類レポートのスクリーンショット](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## ホットクリック数 {#hotclicks}
@@ -407,4 +407,4 @@ ht-degree: 89%
 
 このレポートは、各リンクでのメッセージのコンテンツ（HTML および／またはテキスト）を、リンクでのクリック率と共に表示します。パーソナライゼーションブロックの購読解除リンク、ミラーページリンクおよびオファーリンクは、累積クリック数の合計では考慮されますが、レポートには表示されません。
 
-![ ホットクリック数レポートのスクリーンショット ](assets/reporting11.png){zoomable="yes"}
+![ホットクリック数レポートのスクリーンショット](assets/reporting11.png){zoomable="yes"}

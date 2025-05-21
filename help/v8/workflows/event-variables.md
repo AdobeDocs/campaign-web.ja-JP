@@ -4,9 +4,9 @@ title: ワークフローイベント変数
 description: ワークフローでイベント変数を活用する方法を説明します。
 exl-id: 526dc98f-391d-4f3f-a687-c980bf60b93b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

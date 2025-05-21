@@ -4,9 +4,9 @@ title: SMS 配信の送信
 description: Adobe Campaign Web で SMS を送信する方法を学ぶ
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '403'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

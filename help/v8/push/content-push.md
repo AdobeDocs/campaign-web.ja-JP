@@ -5,8 +5,8 @@ description: Adobe Campaign Web を使用したプッシュ通知配信のデザ
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

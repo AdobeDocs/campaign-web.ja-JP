@@ -4,9 +4,9 @@ title: iOS のリッチプッシュ通知配信の設計
 description: Adobe Campaign web を使用した iOS のリッチプッシュ通知配信の設計方法について説明します。
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '1562'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

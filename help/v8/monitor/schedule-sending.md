@@ -4,9 +4,9 @@ title: 配信の送信のスケジュール設定
 description: 配信をスケジュール設定する方法について説明します
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '533'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
