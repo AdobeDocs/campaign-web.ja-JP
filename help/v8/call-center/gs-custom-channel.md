@@ -37,7 +37,7 @@ Adobe Campaign web UI から直接、サードパーティと統合されたカ�
 1. 新規ルーティング外部アカウントを作成します。
 1. 新しいチャネルに関連付ける新しい配信テンプレートを作成します。
 
-詳しくは、[ クライアントコンソールのドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html) を参照してください。
+詳しくは、[ クライアントコンソールのドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=ja) を参照してください。
 
 ## 配信の作成{#create-delivery}
 
