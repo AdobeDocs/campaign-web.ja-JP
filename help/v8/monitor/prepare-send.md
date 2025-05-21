@@ -51,7 +51,7 @@ ht-degree: 0%
 
    * **[!UICONTROL ターゲット]**：ターゲットとする受信者の数。
    * **[!UICONTROL 配信対象]**：送信されるメッセージの数。
-   * **[!UICONTROL 除外対象]**[：タイポロジルールによって除外されるメッセージの数](../advanced-settings/delivery-settings.md#typology)。
+   * **[!UICONTROL 除外対象]**&#x200B;[：タイポロジルールによって除外されるメッセージの数](../advanced-settings/delivery-settings.md#typology)。
 
 1. 「**[!UICONTROL ログ]**」ボタンをクリックし、エラーがないことを確認します。最後のログメッセージには、エラーメッセージとエラー件数が表示されます。[詳細情報](delivery-logs.md)
 

@@ -51,7 +51,7 @@ ht-degree: 0%
 
      ![スクリーンショットは、ラベルの横にワークフローの内部名を示します。](../assets/external-signal-workflow-name.png)
 
-+++
+     +++
 
    * ワークフローの&#x200B;**[!UICONTROL 実行オプション]**&#x200B;に表示される&#x200B;**外部シグナルアクティビティの名前**。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
      ![スクリーンショットは、実行オプションに外部シグナルアクティビティの名前を示します。](../assets/external-signal-name.png)
 
-+++
+     +++
 
 1. ワークフローをトリガーするには、`PostEvent` JavaScript 関数を実行します。この関数を使用すると、選択した値で変数を渡し、それらをトリガーされたワークフローで使用できます。
 
@@ -79,6 +79,6 @@ ht-degree: 0%
 
    ![スクリーンショットは、PostEvent 関数を使用して外部シグナルアクティビティをトリガーする例を示します。](../assets/external-signal-sample.png)
 
-+++
+   +++
 
    * **[!UICONTROL 外部シグナル]**&#x200B;アクティビティを API 呼び出しからトリガーにするには、Campaign API ドキュメントで説明されている手順に従ってください。[詳しくは、静的な `PostEvent` メソッドの使用方法を参照してください](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=ja)。
