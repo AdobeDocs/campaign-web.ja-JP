@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Adobe Campaign Web インターフェイスと Adobe Experience Manager の統合により、Adobe Experience Manager プラットフォーム内で直接メール配信コンテンツとフォームを効率的に管理できます。
 
-![](assets/do-not-localize/book.png)[Adobe Experience Manager as a Cloud Serviceの詳細情報 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
+![](assets/do-not-localize/book.png) [Adobe Experience Manager as a Cloud Serviceの詳細情報 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
 
 ## [!DNL Adobe Experience Manager as a Cloud Service] でテンプレートを作成する{#create-aem-template}
 
