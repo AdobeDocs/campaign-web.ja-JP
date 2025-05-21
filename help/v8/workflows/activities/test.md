@@ -5,8 +5,8 @@ description: テストワークフローアクティビティの使用方法を�
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

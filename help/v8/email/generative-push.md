@@ -3,7 +3,7 @@ audience: end-user
 title: AI アシスタントによるプッシュ通知
 description: AI アシスタントの基本を学ぶ
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 76%

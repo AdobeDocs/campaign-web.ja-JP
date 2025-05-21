@@ -3,10 +3,10 @@ audience: end-user
 title: メールスタイルの基本を学ぶ
 description: メールコンテンツのスタイルを調整する様々な方法を説明します
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

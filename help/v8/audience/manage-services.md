@@ -5,8 +5,8 @@ description: Adobe Campaign Web で購読サービスにアクセス、購読サ
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

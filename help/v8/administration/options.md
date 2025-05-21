@@ -3,9 +3,9 @@ title: ' [!DNL Campaign]  オプションの設定'
 description: Campaign オプションを設定し、独自のカスタムオプションを作成する方法について説明します。
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 source-git-commit: 10a43da9df57a32f987b3d4c51bea91da10cbf92
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

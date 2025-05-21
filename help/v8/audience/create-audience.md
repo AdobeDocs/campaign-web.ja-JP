@@ -5,8 +5,8 @@ description: Adobe Campaign Web でオーディエンスを作成する方法に
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -98,4 +98,4 @@ Campaign web を使用すると、ビジュアルワークフローキャンバ�
 
 オーディエンスの作成と管理方法、配信用のオーディエンスの選択方法、コントロール母集団の定義方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453203?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

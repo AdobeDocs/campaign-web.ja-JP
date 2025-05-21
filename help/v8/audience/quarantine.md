@@ -4,9 +4,9 @@ title: 強制隔離について
 description: 強制隔離アドレスの管理について
 exl-id: 4fddabbe-39ab-418b-a87c-f86fe96fa28b
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

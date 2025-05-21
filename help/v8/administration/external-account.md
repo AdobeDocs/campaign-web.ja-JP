@@ -2,7 +2,7 @@
 title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: 75bb03c393ddafeeb869a44a523ab875a893ec3b
 workflow-type: tm+mt
 source-wordcount: '1400'
 ht-degree: 73%
@@ -206,7 +206,7 @@ Adobe IDを使用してAdobe Campaign コンソールに接続するには、Ado
 
 ### Amazon Simple Storage Service （S3） {#amazon-simple-storage-service--s3--external-account}
 
-Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
+Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなうことができます。コネクタのセットアップはワークフローアクティビティでおこなえます。詳しくは、[このページ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
 
 ![Amazon Simple Storage Service S3 外部アカウント設定フィールドを示すスクリーンショット。](assets/external-AWS.png)
 
@@ -237,7 +237,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ### Azure Blob ストレージ {#azure-blob-external-account}
 
-**[!UICONTROL Azure Blob Storage]** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 詳しくは、[この節](https://experienceleague.adobe.com/ja/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
+**[!UICONTROL Azure Blob Storage]** 外部アカウントを使用すると、**[!UICONTROL ファイル転送]** ワークフローアクティビティでAdobe Campaignとの間でデータをインポートまたはエクスポートできます。 詳しくは、[この節](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank}を参照してください。
 
 ![Azure Blob Storage 外部アカウント設定フィールドを示すスクリーンショット。](assets/external-azure.png)
 
@@ -257,7 +257,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
 ## Hadoop
 
-Hadoop外部アカウントを使用すると、Campaign インスタンスをHadoop外部データベースに接続できます。 Hadoopについて詳しくは、[Campaign V7 コンソールのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} を参照してください。
+Hadoop外部アカウントを使用すると、Campaign インスタンスをHadoop外部データベースに接続できます。 Hadoopについて詳しくは、[Campaign V7 コンソールのドキュメント ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} を参照してください。
 
 ![Hadoop外部アカウントの設定を示すスクリーンショット。](assets/external-hadoop.png)
 

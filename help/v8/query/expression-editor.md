@@ -6,18 +6,18 @@ exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
 source-wordcount: '2192'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
 
 # 式の編集 {#expression}
 
-式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値フィールド、並べ替えなど、特定のクエリの実行に使用する値を操作できる高度な関数を使用できます。
+式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
 
 >[!NOTE]
 >
->以下の節では、式エディターを操作してルールを作成する方法について説明します。ルールの作成に使用される構文は、パーソナライゼーションの追加に使用される構文とは異なることに注意してください。
+>以下の節では、式エディターを操作してルールを作成する方法について説明します。ルールの作成に使用する構文は、パーソナライゼーションの追加に使用する構文とは異なることに注意してください。
 
 >[!IMPORTANT]
 >
@@ -30,31 +30,31 @@ ht-degree: 83%
 
 | 「**属性**」フィールドからのアクセス | 「**値**」フィールドからのアクセス |
 | --- | --- |
-| ![ 属性フィールドの式エディター ](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![ 値フィールドの式エディター ](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| ![属性フィールドの式エディター](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![値フィールドの式エディター](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 式エディターには、次の内容があります。
 
-* 式が定義されている **入力フィールド （1）**。
-* 式で使用でき、クエリのターゲティングディメンションに対応する使用可能な **フィールド （2）** のリスト。
+* 式を定義する&#x200B;**入力フィールド（1）**。
+* 式で使用でき、かつクエリのターゲティングディメンションに対応する&#x200B;**フィールド（2）**&#x200B;の一覧。
 * カテゴリ別に並べ替えられる&#x200B;**ヘルパー関数（3）**。
 
 式を編集するには、入力フィールドに式を直接入力します。フィールドまたはヘルパー関数を追加するには、式内の追加する場所にカーソルを置き、「+」ボタンをクリックします。
 
-![ 式エディターインターフェイス ](assets/expression-editor.png){zoomable="yes"}
+![式エディターのインターフェイス](assets/expression-editor.png){zoomable="yes"}
 
 式の準備が整ったら、「**[!UICONTROL 確認]**」ボタンをクリックします。式は、選択したフィールドに表示されます。編集するには、式エディターを開き、目的の変更を行います。
 
-次の例は、「**[!UICONTROL 値]**」フィールドに設定された式を示しています。編集するには、「**[!UICONTROL 式を編集]** ボタンを使用して式エディターを開きます。
+次の例は、「**[!UICONTROL 値]**」フィールドに設定された式を示しています。編集するには、「**[!UICONTROL 式を編集]**」ボタンを使用して式エディターを開きます。
 
 >[!BEGINTABS]
 
 >[!TAB  従来のクエリモデラー ]
 
-![ 値フィールドの式の編集例 ](assets/edit-expression-value.png){zoomable="yes"}
+![「値」フィールドの「式を編集」の例](assets/edit-expression-value.png){zoomable="yes"}
 
 >[!TAB  新しいルールビルダー ]
 
-![ 値フィールドの式の編集例 ](assets/ruleb-12.png){zoomable="yes"}
+![「値」フィールドの「式を編集」の例](assets/ruleb-12.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -100,18 +100,18 @@ ht-degree: 83%
 </tr>
 <tr>
 <td><strong>Min</strong></td>
-<td>数値、文字列、または日付タイプの列の最小値を返します</td>
+<td>数値、文字列または日付タイプの列の最小値を返します</td>
 <td>Min(&lt;値&gt;)</td>
 </tr>
 <tr>
 <td><strong>StdDev</strong></td>
-<td>数値、文字列、または日付列の標準偏差を返します</td>
+<td>数値、文字列または日付タイプの列の標準偏差を返します</td>
 <td>StdDev(&lt;値&gt;)</td>
 </tr>
 <tr>
-<td><strong>StringG</strong></td>
-<td>文字列タイプの列の値を,、2 番目の引数の文字で区切って連結した結果を返します</td>
-<td>StringAgg(&lt;Value&gt;, &lt;String&gt;)</td>
+<td><strong>StringAgg</strong></td>
+<td>文字列タイプの列の値を、2 番目の引数の文字で区切って連結した結果を返します</td>
+<td>StringAgg(&lt;値&gt;, &lt;文字列&gt;)</td>
 </tr>
 <tr>
 <td><strong>Sum</strong></td>
@@ -123,7 +123,7 @@ ht-degree: 83%
 
 ### 日付
 
-日付関数は、日付または時刻の値を操作します。
+日付関数は、日付や時刻の値を操作します。
 
 <table>
 <tbody>
@@ -164,13 +164,13 @@ ht-degree: 83%
 </tr>
 <tr>
 <td><strong>ConvertNTZ</strong></td>
-<td>定義済みセッション TZ を適用して、タイムスタンプ NTZ （timestamp without timezone）を TZ （timestamp with timezone）に変換する</td>
-<td>ConvertNTZ （&lt;date+time&gt;）</td>
+<td>定義されたセッション TZ を適用して、タイムスタンプ NTZ（タイムゾーンなしのタイムスタンプ）を TZ（タイムゾーンありのタイムスタンプ）に変換します</td>
+<td>ConvertNTZ (&lt;日付+時間&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateCmp</strong></td>
-<td>2 つの日付を比較</td>
-<td>DateCmp （&lt;date&gt;, &lt;date&gt;）</td>
+<td>2 つの日付の比較</td>
+<td>DateCmp(&lt;日付&gt;,&lt;日付&gt;)</td>
 </tr>
 <tr>
 <td><strong>DateOnly</strong></td>
@@ -199,7 +199,7 @@ ht-degree: 83%
 </tr>
 <tr>
 <td><strong>DaysDiff</strong></td>
-<td>2 つの日付間の日数を返します</td>
+<td>2 つの日付の間の日数を返します</td>
 <td>DaysDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
 </tr>
 <tr>
@@ -253,9 +253,9 @@ ht-degree: 83%
 <td>MonthsOld(&lt;日付&gt;)</td>
 </tr>
 <tr>
-<td><strong>古い</strong></td>
+<td><strong>Oldest</strong></td>
 <td>範囲内の最も古い日付を返します</td>
-<td>Oldest （&lt;date, date&gt;）</td>
+<td>Oldest (&lt;日付, 日付&gt;)</td>
 </tr>
 <tr>
 <td><strong>Second</strong></td>
@@ -308,48 +308,48 @@ ht-degree: 83%
 <td>ToDateTime(&lt;文字列&gt;)</td>
 </tr>
 <tr>
-<td><strong>ToStamp</strong></td>
+<td><strong>ToTimestamp</strong></td>
 <td>文字列をタイムスタンプに変換します</td>
-<td>ToTimestamp （&lt;string&gt;）</td>
+<td>ToTimestamp(&lt;文字列&gt;)</td>
 </tr>
 <tr>
-<td><strong>ToTimezone</strong></td>
-<td>日付+時刻をタイムゾーンに変換します</td>
-<td>ToTimeZone （&lt;date&gt;, &lt;time zone&gt;）</td>
+<td><strong>ToTimeZone</strong></td>
+<td>日時をタイムゾーンに変換します</td>
+<td>ToTimeZone(&lt;日付&gt;, &lt;タイムゾーン&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDate</strong></td>
-<td>日付+時刻を最も近い秒に丸めます</td>
+<td>日付 + 時刻を最も近い秒に四捨五入します</td>
 <td>TruncDate(@lastModified, &lt;秒数&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncDateTZ</strong></td>
-<td>日付と時刻を指定された精度（秒）に丸めます</td>
+<td>日付 + 時刻を指定された精度（秒）に四捨五入します</td>
 <td>TruncDateTZ(&lt;日付&gt;, &lt;秒数&gt;, &lt;タイムゾーン&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncQuarter</strong></td>
-<td>日付を四半期に丸めます</td>
+<td>日付を四半期に四捨五入します</td>
 <td>TruncQuarter(&lt;日付&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncTime</strong></td>
-<td>時刻部分を最も近い秒に丸めます</td>
+<td>時刻部分を最も近い秒に四捨五入します</td>
 <td>TruncTime(&lt;日付&gt;, &lt;秒数&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncWeek</strong></td>
-<td>日付を週に丸めます</td>
+<td>日付を週に四捨五入します</td>
 <td>TruncWeek(&lt;日付&gt;)</td>
 </tr>
 <tr>
 <td><strong>TruncYear</strong></td>
-<td>日付 + 時刻をその年の 1 月 1 日に丸めます</td>
+<td>日付 + 時刻をその年の 1月1日に四捨五入します</td>
 <td>TruncYear(&lt;日付&gt;)</td>
 </tr>
 <tr>
-<td><strong>平日</strong></td>
-<td>曜日を表す数値を返します (0=月曜日、6=日曜日)</td>
+<td><strong>WeekDay</strong></td>
+<td>曜日を表す数値を返します（0=月曜日、6=日曜日）</td>
 <td>WeekDay(&lt;日付&gt;)</td>
 </tr>
 <tr>
@@ -363,13 +363,13 @@ ht-degree: 83%
 <td>YearAndMonth(&lt;日付&gt;)</td>
 </tr>
 <tr>
-<td><strong>年前</strong></td>
-<td>指定された日付から現在の日付までの年数を返します</td>
-<td>YearsAgo （&lt;date&gt;）</td>
+<td><strong>YearsAgo</strong></td>
+<td>指定された日付と現在の日付の間の年数を返します</td>
+<td>YearsAgo(&lt;日付&gt;)</td>
 </tr>
 <tr>
 <td><strong>YearsDiff</strong></td>
-<td>2 つの日付間の年数を返します</td>
+<td>2 つの日付の間の年数を返します</td>
 <td>YearsDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
 </tr>
 <tr>
@@ -382,7 +382,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->**DateOnly** 関数は、オペレーターのタイムゾーンではなく、サーバーのタイムゾーンを考慮することに注意してください。
+>**DateOnly** 関数はオペレーターのタイムゾーンではなく、サーバーのタイムゾーンを考慮することに注意してください。
 
 
 ### ジオマーケティング

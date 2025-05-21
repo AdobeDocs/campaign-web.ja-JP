@@ -3,7 +3,7 @@ audience: end-user
 title: クエリモデラーの操作
 description: Adobe Campaign Web クエリモデラーの操作方法について説明します。
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 80%

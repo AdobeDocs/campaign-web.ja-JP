@@ -4,9 +4,9 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web でワークフローを作成する方法について説明します。
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '797'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

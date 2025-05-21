@@ -5,8 +5,8 @@ description: 購読サービスのワークフローアクティビティの使�
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

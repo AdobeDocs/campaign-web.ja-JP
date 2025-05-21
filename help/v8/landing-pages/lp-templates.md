@@ -5,9 +5,9 @@ description: ランディングページコンテンツをデザインテンプ�
 feature: Landing Pages
 exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '255'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

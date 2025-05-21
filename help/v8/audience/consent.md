@@ -4,9 +4,9 @@ title: 同意
 description: Adobe Campaign web での同意について説明します
 badge: label="限定提供（LA）"
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '471'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign を使用すると、個人情報や機密情報などのデー�
 
 ## オプトアウトの管理 {#opt-out}
 
-ブランドからの受信を購読解除できる機能を受信者に提供することは、法的要件です。また、この選択を確実に行うためにも必要です。<!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=ja#privacy-regulations){target="_blank"}.-->
+ブランドからの受信を購読解除できる機能を受信者に提供することは、法的要件です。また、この選択を確実に行うためにも必要です。<!--Learn more about the applicable legislation in the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html#privacy-regulations){target="_blank"}.-->
 
 **重要な理由**
 
@@ -87,6 +87,6 @@ QUESTION: When a user marks an email as spam, is the profile's No longer contact
 >
 >The **[!UICONTROL Denylisted]** status refers to the address only, the profile is not on the denylist, so that the user continues receiving SMS messages and push notifications.
 
-Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops){target="_blank"}.
+Learn more about Feedback loops in the [Delivery Best Practices Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops){target="_blank"}.
 
-Learn more about quarantine in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ja#non-deliverable-bounces){target="_blank"}.-->
+Learn more about quarantine in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html#non-deliverable-bounces){target="_blank"}.-->

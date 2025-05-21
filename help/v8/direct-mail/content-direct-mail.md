@@ -5,8 +5,8 @@ description: Adobe Campaign web を使用したダイレクトメール配信の
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

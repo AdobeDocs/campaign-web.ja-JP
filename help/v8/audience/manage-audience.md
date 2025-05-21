@@ -3,7 +3,7 @@ audience: end-user
 title: オーディエンスの基本を学ぶ
 description: Adobe Campaign web でオーディエンスを操作する方法を説明します。
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 95%
