@@ -3,7 +3,7 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
+source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 89%
@@ -54,7 +54,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 
 >[!TAB 2025 年 5 月リリース ]
 
-5 月リリースがリリースされました。これには、コールセンターチャネル、新しいルールビルダーおよびその他の改善点が含まれます。
+5 月リリースがリリースされ、新しいカスタムチャネル、ブランドのアラインメントスコア、タイポロジルールの改善が含まれるようになりました。
 
 [![「詳細情報」ボタン](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
