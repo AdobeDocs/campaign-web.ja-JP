@@ -4,9 +4,9 @@ title: AI アシスタントの基本を学ぶ
 description: AI アシスタントの基本を学ぶ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ AI アシスタントを使用すると、メール、SMS、プッシュ通知�
 >
 >* この機能を使用する前に、関連する[ガードレールと制限](#generative-guardrails)を参照してください。
 >
->* Adobe Campaign Web で AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>* Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
-## AI アシスタントにアクセス {#generative-access}
+## AI アシスタントへのアクセス {#generative-access}
 
-メール、プッシュ通知、SMS 用の AI アシスタントが一般提供（GA）になり、すべてのユーザーが使用できるようになりました。 ユーザーにアクセス権を付与するのに必要な権限と手順について詳しくは、以下を参照してください。
+メール、プッシュ通知、SMS 用の AI アシスタントが一般公開（GA）になり、すべてのユーザーが使用できるようになりました。ユーザーにアクセス権を付与するのに必要な権限と手順について詳しくは、以下を参照してください。
 
 +++ コンテンツ生成関連の権限を割り当てる方法について説明します。
 
@@ -61,14 +61,14 @@ Campaign で権限を定義する方法について詳しくは、[この節](..
 
 ## ガードレールと制限 {#generative-guardrails}
 
-メール生成にAdobe Campaign Web で AI アシスタントを使用する際の一般的なガイドラインを以下に示します。
+メールの生成に Adobe Campaign web の AI アシスタントを使用する際の一般的なガイドラインは次のとおりです。
 
 * 生成されるコンテンツの品質は、定義したマーケティング目的やプロンプトに大きく依存します。生成 AI モデルで正確に解釈できるように、適切に定義されたプロンプトを使用します。
 * ブランドアセットをアップロードして、正確なオンブランドコンテンツを確保します。それ以外の場合は、公開されている情報に基づいたコンテンツになります。アップロードされるコンテンツは、PDF、JPEG、PNG または ZIP ファイル（サポートされているファイル形式のもの）の形式です。
 * アップロードされたブランドアセットの最大サイズは 50MB です。これより大きなファイルや多数の画像の場合は、処理時間が長くなることがあります。
-* [ 組み込みのメールテンプレート ](../email/create-email-templates.md)、ブランド固有のテンプレート、またはカスタムテンプレートを使用して、AI アシスタントを使用してメールコンテンツを作成します。 最大 8～10 個の画像を含むメールテンプレートをお勧めします。
+* [組み込みのメールテンプレート](../email/create-email-templates.md)、ブランド固有のテンプレートまたはカスタムテンプレートを使用して、AI アシスタントでメールコンテンツを作成します。最大 8～10 個の画像を含むメールテンプレートをお勧めします。
 * バリアントを選択する際は、親指を立てる、親指を下げるまたはフラグのアイコンを使用して、問題のある出力を報告します。
-* AI アシスタントの使用には、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインが適用されます。 [詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+* AI アシスタントの使用は、Adobe Experience Cloud 生成 AI ユーザーガイドラインの対象となります。[詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
 * メディア作成における生成 AI ツールの使用の透明性に対するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、コンテンツ資格情報を適用します。[詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)。
 
 Adobe Campaign web の AI アシスタントには、次の制限が適用されます。
@@ -86,7 +86,7 @@ Adobe Campaign web の AI アシスタントには、次の制限が適用され
 <img alt="[AI アシスタントを使用したメールの生成]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>AI アシスタントによるメール生成 </strong></a>
+<a href="generative-content.md"><strong>AI アシスタントを使用したメールの生成</strong></a>
 </div>
 <p>
 </td>
@@ -94,7 +94,7 @@ Adobe Campaign web の AI アシスタントには、次の制限が適用され
 <a href="generative-sms.md">
 <img alt="[AI アシスタントを使用した SMS の生成]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>AI アシスタントによる SMS 生成 </strong>
+<div><a href="generative-sms.md"><strong>AI アシスタントを使用した SMS の生成</strong>
 </div>
 <p>
 </td>
@@ -103,7 +103,7 @@ Adobe Campaign web の AI アシスタントには、次の制限が適用され
 <img alt="[AI アシスタントを使用したプッシュ通知の生成]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>AI アシスタントによるプッシュ通知の生成 </strong></a>
+<a href="generative-push.md"><strong>AI アシスタントを使用したプッシュ通知の生成</strong></a>
 </div>
 <p></td>
 </tr></table>

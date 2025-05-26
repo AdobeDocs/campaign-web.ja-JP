@@ -4,9 +4,9 @@ title: ビジネスルール（タイポロジ）の操作
 description: タイポロジとタイポロジルールを使用して、配信の送信を制御、フィルタリングおよび監視する方法について説明します。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1474'
+ht-degree: 100%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
    **[!UICONTROL 分析の終了時]**：完全なメッセージのパーソナライゼーションが必要なチェックを適用します。
 
-   +++
++++
 
    * **[!UICONTROL レベル]**：ルールのアラートレベルを指定します。詳しくは、以下の節を展開してください。
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 
    **[!UICONTROL 詳細]**：サーバーログに情報を表示します。
 
-   +++
++++
 
 ### ルールコンテンツの作成 {#build}
 

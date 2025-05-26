@@ -4,9 +4,9 @@ title: メール配信レポート
 description: メール配信レポートへのアクセス方法と使用方法を学ぶ
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 96%
 
 ![正確な数を表示する部分にマウスを合わせたグラフのスクリーンショット](assets/reporting_email_1.1.png){zoomable="yes"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
 
@@ -56,7 +56,7 @@ ht-degree: 96%
 
 ![配信統計の詳細を示すグラフのスクリーンショット](assets/reporting_email_2.png){zoomable="yes"}
 
-+++メールキャンペーンレポート指標の詳細を説明します。
++++メールキャンペーンレポート指標の詳細情報
 
 * **[!UICONTROL 送信済みメッセージ]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -79,7 +79,7 @@ ht-degree: 96%
 
 ![除外の理由グラフとテーブルのスクリーンショット](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL 不明なユーザー]**：メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
 
@@ -120,7 +120,7 @@ ht-degree: 96%
 
 ![ブロードキャスト統計のスクリーンショット](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL 処理済みのメール]**：配信サーバーによって処理されたメッセージの合計数。
 
@@ -157,7 +157,7 @@ ht-degree: 96%
 
 ![タイプ別のエラーの分類のスクリーンショット](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL 不明なユーザー]**：メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
 
@@ -218,7 +218,7 @@ ht-degree: 96%
 
 ![配信統計のスクリーンショット](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL 成功]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
 
@@ -246,7 +246,7 @@ ht-degree: 96%
 
 ![開封率とクリックスルー率テーブルのスクリーンショット](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL 送信済み]**：送信されたメッセージの合計数。
 
@@ -271,7 +271,7 @@ ht-degree: 96%
 
 ![URL とクリックストリームレポートのスクリーンショット](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。
 
@@ -296,7 +296,7 @@ ht-degree: 96%
 
 ![最も訪問されたリンク上位 10 件のグラフのスクリーンショット](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 
@@ -328,7 +328,7 @@ ht-degree: 96%
 
 ![ユーザーアクティビティレポートのスクリーンショット](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 
@@ -347,7 +347,7 @@ ht-degree: 96%
 
 ![トラッキング統計グラフのスクリーンショット](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細情報
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 

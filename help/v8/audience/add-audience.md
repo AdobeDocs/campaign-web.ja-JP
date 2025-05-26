@@ -4,9 +4,9 @@ title: 既存オーディエンスの選択
 description: オーディエンスの選択方法を学ぶ
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 * クエリモデラーを使用して、[1 回限りのオーディエンスを作成します](one-time-audience.md)。
 * [外部ファイルのオーディエンスを読み込みます](file-audience.md)（メールの場合のみ）。
 
-配信のターゲットに設定できるオーディエンスには、**オーディエンス**&#x200B;の左メニューからアクセスできます。オーディエンスは、クライアントコンソール、Campaign web オーディエンスワークフロー、Adobe Experience Platformなど、複数のソースから選びます。[詳しくは、オーディエンスを参照してください](manage-audience.md)
+配信のターゲットに設定できるオーディエンスには、**オーディエンス**&#x200B;の左メニューからアクセスできます。オーディエンスは、クライアントコンソール、Campaign web オーディエンスワークフロー、Adobe Experience Platformなど、複数のソースから選びます。[オーディエンスの詳細情報](manage-audience.md)
 
 メッセージの既存のオーディエンスを選択するには、次の手順に従います。
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
    [このスクリーンショットは、現在のフォルダーの既存のオーディエンスのリストを示します。](assets/create-audience2.png){zoomable="yes"}
 
-   Adobe Experience Platform からオーディエンスを選ぶには、画面のフィルターセクションから `AEP Audiences folder` を参照します。[Adobe Experience Platform オーディエンスの詳細 ](manage-audience.md#monitor)
+   Adobe Experience Platform からオーディエンスを選ぶには、画面のフィルターセクションから `AEP Audiences folder` を参照します。[Adobe Experience Platform オーディエンスの詳細情報](manage-audience.md#monitor)
 
    [このスクリーンショットは、AEP オーディエンスフォルダーが選択されたフィルターセクションを示します。](assets/select-audience-folder.png){zoomable="yes"}
 

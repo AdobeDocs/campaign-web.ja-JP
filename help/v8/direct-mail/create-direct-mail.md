@@ -4,9 +4,9 @@ title: ダイレクトメール配信の作成
 description: Adobe Campaign web を使用してダイレクトメール配信を作成する方法について説明します。
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,7 @@ ht-degree: 99%
    * **[!UICONTROL 配信コード]**：独自の命名規則を使用して配信を整理します。
    * **[!UICONTROL 説明]**：配信の説明を指定します。
    * **[!UICONTROL 特性]**  : 分類目的で配信の特性を指定します。
-
-   +++
++++
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、既存のオーディエンスをターゲットにするか、独自のオーディエンスを作成します。
 
@@ -58,7 +57,7 @@ ht-degree: 99%
 
    >[!NOTE]
    >
-   >ワークフローのコンテキストで配信が送信された場合、「**スケジューラー**」アクティビティを使用する必要があります。詳しくは、[ このページ ](../workflows/activities/scheduler.md) を参照してください。
+   >ワークフローのコンテキストで配信が送信された場合、「**スケジューラー**」アクティビティを使用する必要があります。詳しくは、[このページ](../workflows/activities/scheduler.md)を参照してください。
 
 1. 「**[!UICONTROL 設定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
 

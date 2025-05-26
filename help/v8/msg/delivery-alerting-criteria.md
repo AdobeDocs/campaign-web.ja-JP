@@ -8,9 +8,9 @@ robots: noindex
 googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Campaign web ユーザーインターフェイスには、スループットが�
 
    >[!NOTE]
    >
-   >定義済みフィルターがニーズに合わない場合は、**顧客管理**/**定義済みフィルター** メニューから独自のフィルターを作成できます。 [詳細情報](../get-started/predefined-filters.md)
+   >定義済みフィルターがニーズに合わない場合は、**顧客管理**／**定義済みフィルター**&#x200B;メニューから独自のフィルターを作成できます。[詳細情報](../get-started/predefined-filters.md)
    >
    >この操作は、上級ユーザーのみが実行する必要があります。
 

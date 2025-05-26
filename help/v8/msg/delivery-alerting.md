@@ -8,9 +8,9 @@ robots: noindex
 googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
 source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->ダッシュボードとアラート条件にアクセスして設定するには、**管理者権限**&#x200B;を持っているか、**配信スーパーバイザー**&#x200B;のセキュリティグループに属している必要があります。標準ユーザーは、Adobe Campaign インターフェイスのダッシュボードにアクセスできませんが、アラート通知を受信することはできます。[ アクセスと権限の詳細 ](../get-started/permissions.md)。
+>ダッシュボードとアラート条件にアクセスして設定するには、**管理者権限**&#x200B;を持っているか、**配信スーパーバイザー**&#x200B;のセキュリティグループに属している必要があります。標準ユーザーは、Adobe Campaign インターフェイスのダッシュボードにアクセスできませんが、アラート通知を受信することはできます。[アクセスと権限の詳細情報を参照してください](../get-started/permissions.md)。

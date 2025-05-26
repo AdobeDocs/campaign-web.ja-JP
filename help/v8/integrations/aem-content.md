@@ -4,9 +4,9 @@ title: Adobe Experience Manager as a Cloud Service でのアセットの管理
 description: Adobe Experience Manager as a Cloud Service でのコンテンツの管理方法について説明します
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 Adobe Campaign Web インターフェイスと Adobe Experience Manager の統合により、Adobe Experience Manager プラットフォーム内で直接メール配信コンテンツとフォームを効率的に管理できます。
 
-![](assets/do-not-localize/book.png) [Adobe Experience Manager as a Cloud Serviceの詳細情報 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
+![](assets/do-not-localize/book.png)[Adobe Experience Manager as a Cloud Service の詳細情報を参照してください](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=ja)
 
 ## [!DNL Adobe Experience Manager as a Cloud Service] でテンプレートを作成する{#create-aem-template}
 
@@ -86,7 +86,7 @@ Experience Manager テンプレートが Adobe Campaign Web でコンテンツ�
 
 1. パーソナライズされたコンテンツを Experience Manager テンプレートに追加した場合は、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、テストプロファイルを使用してメッセージでの表示をプレビューします。
 
-[プレビューおよびテストプロファイルの詳細情報](../preview-test/preview-content.md)
+[プレビューとテストプロファイルの詳細情報を参照してください](../preview-test/preview-content.md)
 
 1. メッセージプレビューを表示する際、パーソナライズされた要素は、選択したテストプロファイルからの対応するデータに自動的に置き換えられます。
 

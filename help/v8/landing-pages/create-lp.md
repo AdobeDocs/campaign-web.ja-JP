@@ -4,9 +4,9 @@ description: Campaign web でランディングページを設定して公開す
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1731'
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
 Captcha の設定は、ランディングページをスパムや不正使用から保護するのに役立ちます。
 
-これを使用するには、ランディングページの&#x200B;**[!UICONTROL プロパティ]**&#x200B;に移動します。
+これを使用するには、ランディングページの&#x200B;**[!UICONTROL プロパティ]**に移動します。
 **[!UICONTROL その他のオプション]**&#x200B;でもかまいません。「**[!UICONTROL その他の Captcha ソリューションを有効にする]**」切替スイッチをアクティブ化します。
 
 ![「その他の Captcha ソリューションを有効にする」切替スイッチを示すスクリーンショット](assets/lp-properties-captcha.png){zoomable="yes"}
@@ -198,7 +198,7 @@ Captcha 設定を確認するには、「**[!UICONTROL レビューして公開]
 
 >[!CAUTION]
 >
->メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[詳しくは、テストプロファイルを参照してください](../audience/test-profiles.md)。
+>メッセージのプレビューや配達確認の送信を行うには、テストプロファイルを使用可能にしておく必要があります。[テストプロファイルの詳細情報を参照してください](../audience/test-profiles.md)。
 
 ランディングページをテストするには、次の手順に従います。
 

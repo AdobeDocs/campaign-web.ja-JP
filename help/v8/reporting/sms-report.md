@@ -4,9 +4,9 @@ title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 ![説明：画像は、成功率、エラー率、訪問者エンゲージメントなどの KPI を含む、配信の概要レポートを示します。](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++SMS 配信レポート指標の詳細を説明します。
++++SMS 配信レポート指標の詳細情報
 
 * **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの割合と合計数。
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 
 ![説明：画像は、配信するメッセージと除外などの指標を含むターゲット母集団のグラフおよびテーブルを示します。](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++SMS 配信レポート指標の詳細を説明します。
++++SMS 配信レポート指標の詳細情報
 
 * **[!UICONTROL 配信]**：配信の準備中に処理されたメッセージの合計数と割合。
 
@@ -73,7 +73,7 @@ ht-degree: 96%
 
 ![説明：画像は、成功率、エラー、強制隔離などの指標を含む、全体的な統計レポートを示します。](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++SMS 配信レポート指標の詳細を説明します。
++++SMS 配信レポート指標の詳細情報
 
 * **[!UICONTROL 成功]**：正常に処理されたメッセージの数と割合。
 

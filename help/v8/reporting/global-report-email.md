@@ -4,9 +4,9 @@ title: メールチャネルのグローバルレポート
 description: メールチャネルのグローバルレポートについて学ぶ
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1653'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 95%
 
 ![配信の概要指標](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++配信の概要指標の詳細を説明します。
++++配信の概要指標の詳細情報
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -55,7 +55,7 @@ ht-degree: 95%
 
 ![ターゲットオーディエンス指標](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++ターゲットオーディエンス指標の詳細情報。
++++ターゲットオーディエンス指標の詳細情報
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -76,7 +76,7 @@ ht-degree: 95%
 
 ![配信統計指標](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++配信統計指標の詳細を説明します。
++++配信統計指標の詳細情報
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -112,7 +112,7 @@ ht-degree: 95%
 
 配信スループットレポートには、配信プロセスの効率に関する詳細なインサイトが表示され、指定した期間内の成功率とエラー率の詳細な概要が示されます。
 
-+++配信スループット指標の詳細情報。
++++配信スループット指標の詳細情報
 
 * **[!UICONTROL 成功]**：配信されるメッセージ数に関して正常に処理されたメッセージ数。
 
@@ -135,7 +135,7 @@ ht-degree: 95%
 
 このレポートに表示されるエラーにより、強制隔離プロセスが実行されることになります。強制隔離の管理について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=ja){target="_blank"}を参照してください。
 
-+++タイプ指標ごとのエラーの分類について詳しくは、こちらを参照してください。
++++タイプ別のエラー分類指標の詳細情報
 
 * **[!UICONTROL 不明なユーザー]**：メールアドレスが無効であることを示すエラータイプで、配信中に生成される。
 
@@ -177,7 +177,7 @@ ht-degree: 95%
 
 ![配信統計トラッキング指標](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++配信統計指標の詳細を説明します。
++++配信統計指標の詳細情報
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -205,7 +205,7 @@ ht-degree: 95%
 
 ![開封率とクリックスルー率指標](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++開封率およびクリックスルー率指標の詳細はこちら。
++++開封率とクリックスルー率指標の詳細情報
 
 * **[!UICONTROL 送信済み]**：送信されたメッセージの合計数。
 
@@ -231,7 +231,7 @@ ht-degree: 95%
 
 ![URL とクリックストリーム指標](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++URL とクリックストリーム指標の詳細を説明します。
++++URL とクリックストリーム指標の詳細情報
 
 * **[!UICONTROL 反応度]**：配信を開封した推定ターゲット受信者数に対する、配信でクリックしたターゲット受信者数の割合。
 
@@ -253,7 +253,7 @@ ht-degree: 95%
 
 ![最も訪問されたリンク上位 10 件指標](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++最も訪問されたリンク指標の上位 10 位についての詳細。
++++最も訪問されたリンク上位 10 件指標の詳細情報
 
 * **[!UICONTROL 合計クリック数]**：配信におけるリンクの合計クリック数。
 
@@ -283,7 +283,7 @@ ht-degree: 95%
 
 ![ユーザーアクティビティ指標](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
-+++ユーザーアクティビティ指標の詳細情報。
++++ユーザーアクティビティ指標の詳細情報
 
 * **[!UICONTROL 合計クリック数]**：配信におけるリンクの合計クリック数。
 
