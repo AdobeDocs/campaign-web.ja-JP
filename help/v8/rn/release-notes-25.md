@@ -5,7 +5,7 @@ exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>コールセンターチャネルを Campaign web ユーザーインターフェイスで使用できるようになりました。このチャネルは、コールセンター（通常、エージェントによる顧客や見込み客への電話）を通じて処理される通信やインタラクションを管理および追跡するのに使用される通信方法を指します。</p>
-<p>メモ：レポートは、コールセンターチャネルの web UI では使用できません。 レポートにアクセスするには、クライアントコンソールを参照する必要があります。</p>
+<p>メモ：レポートは、コールセンターチャネルの Web UI では使用できません。レポートにアクセスするには、クライアントコンソールを参照する必要があります。</p>
 <img src="assets/do-not-localize/call-center.gif">
 <p>詳しくは、<a href="../call-center/gs-call-center.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
