@@ -3,9 +3,9 @@ title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 以前のリリースで利用可能な変更と改善点について詳しくは、[2024](release-notes-24.md) と [2025](release-notes-25.md) を参照してください。
 
-## 2025 年 5 月リリース {#25-5-release}
+## 2025年5月リリース {#25-5-release}
 
-次の機能は、5 月のリリース以降、すべてのユーザーが使用できます。
+次の機能は、5月のリリース以降、すべてのユーザーが使用できます。
 
 <table>
 <thead>
@@ -44,14 +44,14 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <table>
 <thead>
 <tr>
-<th><strong>外部配信用カスタムチャネル</strong><br/></th>
+<th><strong>外部配信のカスタムチャネル</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Campaign web UI から直接、カスタムの外部チャネルに基づいて配信を調整および実行できるようになりました。 これらの配信は、スタンドアロンで行うことも、ワークフローの一部で行うこともできます。 サードパーティと統合されたカスタム外部チャネルの作成は、コンソールで実行されます。</p>
-<p>メモ：カスタムチャネルの Web UI では、レポートを使用できません。 レポートにアクセスするには、クライアントコンソールを参照する必要があります。</p>
+<p>Adobe Campaign Web UI から直接、カスタム外部チャネルに基づいて配信を調整および実行できるようになりました。これらの配信は、スタンドアロンで行うか、ワークフローの一部として行うことができます。サードパーティと統合されたカスタム外部チャネルの作成は、コンソールで実行します。</p>
+<p>メモ：カスタムチャネルの Web UI では、レポートは使用できません。レポートにアクセスするには、クライアントコンソールを参照する必要があります。</p>
 <p>詳しくは、<a href="../call-center/gs-custom-channel.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>
