@@ -4,15 +4,23 @@ title: 配信設定の指定
 description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '2765'
-ht-degree: 100%
+source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
+workflow-type: tm+mt
+source-wordcount: '2800'
+ht-degree: 98%
 
 ---
 
 
 # 配信設定の指定 {#del-settings}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="SMS 配信設定"
+>abstract="SMS 配信パラメーターは、SMS 配信に適用する技術的な設定です。 送信者のアドレス、サービスパラメーター、送信モードなどを定義できます。 これらのオプションは、エキスパートユーザーのみに制限されます。"
+
+
 
 配信設定は、配信テンプレートで定義される&#x200B;**技術的な配信パラメーター**&#x200B;です。配信ごとに過負荷になる可能性があります。これらの設定は、配信または配信テンプレートの編集時に使用できる「**設定**」ボタンから利用できます。
 
@@ -110,7 +118,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="配信用の配信設定"
+>title="配信のグローバル設定"
 >abstract="配信パラメーターは、配信に適用する技術的な設定です。配信およびルーチンモードの変更、メールの BCC の有効化、ウェーブを使用した送信および送信されるメールメッセージの形式の選択を行うことができます。これらのオプションは、エキスパートユーザーのみに制限されます。"
 
 **[!UICONTROL 配信]**&#x200B;パラメーターは、配信に適用する技術的な設定です。
@@ -278,7 +286,7 @@ ht-degree: 100%
 また、配達確認のラベルをカスタマイズすることもできます。
 
 * **[!UICONTROL 配達確認の配信コードを保持]**&#x200B;を使用すると、関連する配信用に定義されたのと同じ配信コードを、配達確認に関連付けることができます。
-* デフォルトでは、配達確認の件名の先頭にプレフィックス「PROOF #」が付きます（「#」は配達確認の番号）。このプレフィックスは「**[!UICONTROL ラベルのプレフィックス]**」フィールドで変更できます。
+* デフォルトでは、配達確認の件名の先頭に接頭辞「PROOF #」が付きます（「#」は配達確認の番号）。この接頭辞は「**[!UICONTROL ラベルの接頭辞]**」フィールドで変更できます。
 
 
 
