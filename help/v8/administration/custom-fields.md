@@ -2,10 +2,10 @@
 title: カスタムフィールド
 description: インターフェイスでカスタムフィールドとその表示を設定する方法について説明します。
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
-workflow-type: ht
-source-wordcount: '988'
-ht-degree: 100%
+source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
+workflow-type: tm+mt
+source-wordcount: '1017'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,13 @@ ht-degree: 100%
 * シードアドレス（nms）
 * 配信（nms）
 
-## インターフェイスへのカスタムフィールドの追加 {#add}
+## インターフェイスへのカスタムフィールドの追加 {#add-custom}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_screen_definition"
+>title="画面の定義"
+>abstract="スキーマ用に編集するカスタムフィールドとそのプロパティのリストを定義します。 「**プレビュー**」ボタンをクリックして、カスタムフィールドをサンプル画面に表示します。"
+
 
 インターフェイスにカスタムフィールドを表示するには、次の手順に従います。
 
