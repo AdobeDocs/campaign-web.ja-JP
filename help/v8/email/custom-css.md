@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, エディター，概要，メール
-source-git-commit: 4ebe0990f086d6d9ea54ea68c3061e8361344b5c
+source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '649'
 ht-degree: 1%
 
 ---
@@ -238,16 +238,19 @@ body {
 
 * CSS が `data-name="global-custom"` 属性で `<style>` タグに追加されていること、および `data-disabled` が `global-custom` に適用されていないことを確認します。 [詳細情報](#implementation)
 
-* コンテンツに適用された [ テーマ ](apply-email-themes.md) を含む他の CSS ルールによって CSS が上書きされないようにしてください。
+<!--
+* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
+ 
+  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
+  
+  * Consider adding `!important` to your declarations to ensure they take precedence. 
+    
+    For example:
 
-   * ブラウザーの開発者ツールを使用して、コンテンツを調べ、CSS が正しいセレクターをターゲットにしていることを確認します。
+    ```css
+    .acr-Form {
+      background: red !important;
+    }
+    ```
+    -->
 
-   * 必ず優先されるように、宣言に `!important` を追加することを検討してください。
-
-     例：
-
-     ```css
-     .acr-Form {
-       background: red !important;
-     }
-     ```
