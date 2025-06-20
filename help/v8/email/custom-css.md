@@ -134,6 +134,7 @@ ht-degree: 1%
   }
 }
 ```
+
 +++
 
 +++ 無効な CSS のサンプル
@@ -160,6 +161,7 @@ ht-degree: 1%
 body {
   background: red;
 ```
+
 +++
 
 ## 技術的実装 {#implementation}
