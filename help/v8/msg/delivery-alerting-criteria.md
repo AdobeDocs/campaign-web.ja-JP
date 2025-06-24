@@ -2,14 +2,10 @@
 audience: end-user
 title: 配信アラート
 description: 配信アラートの操作方法について説明します。
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '741'
 ht-degree: 100%
 
 ---
@@ -26,6 +22,10 @@ Campaign web ユーザーインターフェイスには、スループットが�
 アラート条件には、左側のナビゲーションパネルの「**条件**」タブの&#x200B;**配信アラート**&#x200B;メニューからアクセスできます。
 
 ![配信アラートメニューに表示されるアラート条件のリスト](assets/alerting-criteria-list.png)
+
+>[!AVAILABILITY]
+>
+>この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
 ## 定義済みアラート条件 {#ootb-criteria}
 

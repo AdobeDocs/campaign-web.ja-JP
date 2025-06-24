@@ -2,14 +2,10 @@
 audience: end-user
 title: 配信アラート
 description: 配信アラートの操作方法について説明します。
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '315'
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '344'
 ht-degree: 100%
 
 ---
@@ -21,6 +17,10 @@ ht-degree: 100%
 通知は、Adobe Campaign web ユーザーインターフェイスを通じて定義された特定のアラート条件に基づいてカスタマイズします。
 
 配信エラーの管理について詳しくは、[Adobe Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}を参照してください。
+
+>[!AVAILABILITY]
+>
+>この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
 ## メール通知コンテンツ {#content}
 

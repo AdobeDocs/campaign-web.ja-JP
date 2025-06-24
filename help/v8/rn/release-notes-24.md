@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2024 Campaign web ユーザーインターフェイスリリース
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
-workflow-type: ht
-source-wordcount: '2470'
-ht-degree: 100%
+source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
+workflow-type: tm+mt
+source-wordcount: '2535'
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 100%
 * **ランディングページの Captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。[詳細情報](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7月リリースノート {#24-7-release}
@@ -168,9 +168,6 @@ ht-degree: 100%
 
 次の機能と改善点は、6月のリリース以降、すべてのユーザーが使用できます。
 
-<!--### Delivery alerting {#24-6-3}
-
-The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)-->
 
 ### プランとプログラム {#24-6-4}
 
@@ -179,6 +176,18 @@ The Delivery alerting feature is an alert management system that enables a group
 ### 改善点 {#improvements-24-6}
 
 * **エンリッチメントアクティビティでの紐付け**：**エンリッチメント**&#x200B;アクティビティを使用して、Campaign データベーススキーマのデータを、別のスキーマのデータや、一時スキーマのデータ（ファイルを読み込みアクティビティを使用してアップロードされたデータなど）と紐付けられるようになりました。例えば、このオプションを使用すると、アップロードされたファイルで指定したプロファイルの国を、Campaign データベースの専用テーブルで使用可能な国のいずれかと紐付けることができます。[詳細情報](../workflows/activities/enrichment.md)
+
+
+### 限定提供（LA）の新機能 {#acs-24-6}
+
+>[!AVAILABILITY]
+>
+>次の機能は、限定提供（LA）で提供されています。 **Adobe Campaign StandardからAdobe Campaign v8 に** 移行するお客様に限定され、他の環境にデプロイすることはできません。
+
+* **配信アラート**
+
+配信アラート機能は、配信の実行に関する情報を含んだ通知をユーザーグループが自動的に受信できるようにするアラート管理システムです。[詳細情報](../msg/delivery-alerting.md)
+
 
 ## 5月リリースノート {#24-5-release}
 
