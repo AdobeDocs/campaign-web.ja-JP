@@ -3,10 +3,10 @@ audience: end-user
 title: フォルダーの操作
 description: Adobe Campaign でフォルダーを管理する方法について説明します
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 86%
 
 ---
 
@@ -23,19 +23,9 @@ ht-degree: 100%
 >abstract="フォルダーのセキュリティ"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="フォルダーの制限"
->abstract="フォルダーの制限"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="フォルダーのスケジュール"
 >abstract="フォルダーのスケジュール"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="お気に入り"
->abstract="お気に入り"
 
 ## フォルダーについて {#about-folders}
 
@@ -46,6 +36,16 @@ ht-degree: 100%
 ![フォルダー組織を示すフォルダーインターフェイス](assets/folders.png){zoomable="yes"}
 
 フォルダータイプを設定できます。例：配信のフォルダー。フォルダーのアイコンは、タイプに応じて変わります。
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="フォルダーの制限"
+>abstract="自動作成されたオブジェクトとテクニカルワークフローのフォルダーは制限され、左側のパネルには表示できません。"
+
+>[!IMPORTANT]
+>
+>フォルダー **[!UICONTROL 自動作成されたオブジェクト]** と **[!UICONTROL テクニカルワークフロー]** は制限され、左側のパネルには表示できません。
+
 
 ## 新しいフォルダーの作成 {#create-a-folder}
 
@@ -80,6 +80,19 @@ Adobe Campaign web UI で新しいフォルダーを作成するには、次の�
 フォルダーの順序は、**ドラッグ＆ドロップ**&#x200B;または&#x200B;**上下の矢印**&#x200B;を使用して変更できます。
 
 ![フォルダーの並べ替えのドラッグ＆ドロップ機能](assets/folder-draganddrop.png){zoomable="yes"}
+
+### お気に入りフォルダー {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="お気に入り"
+>abstract="お気に入りのフォルダーが左のタブの上部に表示されます。"
+
+「お気に入り」とマークされたフォルダーは、常に左側のタブの上部に表示されます。
+
+フォルダーをフォルダーとしてお気に入りに追加するには、フォルダーを表示する際に、右上隅にある星形ボタンをクリックします。
+
+![ お気に入りフォルダーの場所のスクリーンショット ](assets/folders-favorite.png){zoomable="yes"}
 
 ## フォルダーの削除 {#delete-a-folder}
 

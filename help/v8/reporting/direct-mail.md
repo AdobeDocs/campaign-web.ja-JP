@@ -3,16 +3,18 @@ audience: end-user
 title: ダイレクトメールレポート
 description: ダイレクトメールレポートへのアクセス方法と使用方法について説明します。
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
+workflow-type: tm+mt
+source-wordcount: '696'
+ht-degree: 94%
 
 ---
 
-# ダイレクトメール配信レポート {#direct-mail-report}
+# 外部配信レポート {#direct-mail-report}
 
-**ダイレクトメール配信レポート**&#x200B;では、ダイレクトメール配信に固有の包括的なインサイトとデータが提供されます。個々の配信のパフォーマンス、有効性、結果に関する詳細情報が含まれ、完全な概要が得られます。
+**外部配信レポート** では、外部配信に固有の包括的なインサイトとデータが提供されます。 個々の配信のパフォーマンス、有効性、結果に関する詳細情報が含まれ、完全な概要が得られます。
+
+ダイレクトメールのコンテキストでは、次のレポートについて説明します。 また、コールセンターやカスタム外部チャネルでも使用できます。
 
 ## 配信の概要 {#delivery-summary-direct-mail}
 

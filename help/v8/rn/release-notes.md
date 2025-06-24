@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
-workflow-type: ht
-source-wordcount: '277'
-ht-degree: 100%
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 45%
 
 ---
 
@@ -20,45 +20,22 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 以前のリリースで利用可能な変更と改善点について詳しくは、[2024](release-notes-24.md) と [2025](release-notes-25.md) を参照してください。
 
-## 2025年5月リリース {#25-5-release}
+## 2025 年 6 月リリース {#25-6-release}
 
-次の機能は、5月のリリース以降、すべてのユーザーが使用できます。
+### 改善点 {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>ブランド整合性スコア（ベータ版）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>ブランド整合性スコア機能は、E メールデザイナーで直接、明確なフィードバックを提供し、コンテンツがブランドのトーン、スタイル、ガイドラインと合っているかどうかを確認するのに役立ちます。この機能はベータ版で使用できます。</p>
-<p>詳しくは、<a href="../content/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* 配信概要レポートが、コールセンターとカスタムチャネルの両方で使用できるようになりました。 [詳細情報](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>外部配信のカスタムチャネル</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Campaign Web UI から直接、カスタム外部チャネルに基づいて配信を調整および実行できるようになりました。これらの配信は、スタンドアロンで行うか、ワークフローの一部として行うことができます。サードパーティと統合されたカスタム外部チャネルの作成は、コンソールで実行します。</p>
-<p>メモ：カスタムチャネルの Web UI では、レポートは使用できません。レポートにアクセスするには、クライアントコンソールを参照する必要があります。</p>
-<p>詳しくは、<a href="../call-center/gs-custom-channel.md">詳細なドキュメント</a>を参照してください。</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* SMS 配信を設定する際に、特定の SMS パラメーターにアクセスできるようになりました。 これらは、クライアントコンソールで使用できるパラメーターと同じです。 [詳細情報](../advanced-settings/delivery-settings.md#sms-tab)
 
-### 改善点 {#25-5-improvements}
+* お気に入りのフォルダーがエクスプローラーページの左パネルの上部に表示され、アクセスしやすくなりました。 [詳細情報](../get-started/work-with-folders.md#favorite-folders)
 
-タイポロジルールの作成画面が更新され、ルールのタイプを簡単に選択できるようになりました。
+* ルールビルダーでドラッグ&amp;ドロップがサポートされるようになり、クエリのコンポーネントをより効率的に並べ替えることができます。 [詳細情報](../query/build-query.md#drag-and-drop)
+
+* ルールビルダーの「人間条件」が改善されました。 次に、ルールを記述した、言語なしのバージョンを画面の下部に表示します。
+
+   * 属性がハイライト表示され、関連するスキーマが表示されます。
+   * これらの要素をクリックすると、より詳細な情報を表示できます。
+   * 対応するボタンを使用して、人間の状況をコピーできるようになりました。
+
+* 「テクニカルワークフロー」フォルダーおよび「自動的に作成されたオブジェクト」フォルダーへのアクセスが、表示されないように制限されるようになりました。 [詳細情報](../get-started/work-with-folders.md#about-folders)

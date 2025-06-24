@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
+source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 99%
+source-wordcount: '834'
+ht-degree: 98%
 
 ---
 
@@ -218,13 +218,13 @@ ht-degree: 99%
       + [メール配信レポート](reporting/email-report.md)
       + [プッシュ配信レポート](reporting/push-report.md)
       + [SMS 配信レポート](reporting/sms-report.md)
-      + [ダイレクトメール配信レポート](reporting/direct-mail.md)
+      + [外部配信レポート](reporting/direct-mail.md)
    + キャンペーンレポート {#campaign-report}
       + [キャンペーンレポートの基本を学ぶ](reporting/campaign-reports.md)
       + [メールキャンペーンレポート](reporting/campaign-reports-email.md)
       + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
       + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
-      + [ダイレクトメールキャンペーンレポート](reporting/campaign-reports-direct-mail.md)
+      + [外部配信キャンペーンレポート](reporting/campaign-reports-direct-mail.md)
    + グローバルレポート {#global-report}
       + [グローバルレポートの基本を学ぶ](reporting/global-reports.md)
       + [メールグローバルレポート](reporting/global-report-email.md)

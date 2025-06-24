@@ -3,16 +3,18 @@ audience: end-user
 title: ダイレクトメールチャネルのキャンペーンレポート
 description: ダイレクトメールチャネルのキャンペーンレポートについて
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 93%
 
 ---
 
-# ダイレクトメールチャネルのキャンペーンレポート {#campaign-reports-direct-mail}
+# 外部配信チャネル用のキャンペーンレポート {#campaign-reports-direct-mail}
 
-各キャンペーンレポートは、キャンペーンの成功とエラーの詳細を表示する様々なウィジェットに分かれています。ダイレクトメールチャネル、レポートおよび指標について詳しくは、以下を参照してください。キャンペーンレポートにアクセスする方法については、[このページ](campaign-reports.md)を参照してください。
+各キャンペーンレポートは、キャンペーンの成功とエラーの詳細を表示する様々なウィジェットに分かれています。外部配信チャネルの場合、レポートと指標について詳しくは以下を参照してください。 キャンペーンレポートにアクセスする方法については、[このページ](campaign-reports.md)を参照してください。
+
+ダイレクトメールのコンテキストでは、次のレポートについて説明します。 また、コールセンターやカスタム外部チャネルでも使用できます。
 
 ## 配信の概要 {#delivery-summary-direct}
 
