@@ -4,10 +4,10 @@ title: 配信設定の指定
 description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
+source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
-source-wordcount: '3324'
-ht-degree: 87%
+source-wordcount: '3159'
+ht-degree: 90%
 
 ---
 
@@ -289,16 +289,20 @@ ht-degree: 87%
 
 SMS 配信パラメーターは、SMS 配信に適用する技術的な設定です。 送信者のアドレス、サービスパラメーター、送信モードなどを定義できます。 これらのオプションは、エキスパートユーザーのみに制限されます。
 
-* **[!UICONTROL 送信者のアドレス]**
+<!--
 
-  SMPP 仕様では、このフィールドの文字数が 21 文字に制限されていますが、プロバイダーによっては、これより長い値を使用できる場合があります。また、一部の国では、非常に厳しい制限（長さ、コンテンツ、許可されている文字など）が適用される場合があるので、ここに配置するコンテンツが合法であることを再確認する必要があります。 パーソナライズされたフィールドを使用する際は、特に注意する必要があります。
+* **[!UICONTROL Sender address]**
+
+  The field is limited to 21 characters by the SMPP specification, but some providers may allow longer values. Note also that very strict restrictions may be applied in some countries (length, content, allowed characters, …), so you may need to double-check that the content you place here is legal. Be especially careful when using personalized fields.
 
 
-  このオプションのフィールドを使用すると、送信者アドレス（oADC）を上書きできます。 その内容は、SUBMIT_SM PDU の *source_addr* フィールドに配置されます。
+  This optional field allows you to override the sender address (oADC). Its content is placed in the *source_addr* field of the SUBMIT_SM PDU.
 
-  SMPP の仕様では、このフィールドを 21 文字に制限していますが、一部のプロバイダーはより長い値をサポートする場合があります。 特定の国では（長さ、コンテンツ、許可されている文字などに関して）送信者のアドレスに対して厳しい規制が課されていることに注意してください。そのため、入力が地域の要件に準拠していることを常に確認してください。 パーソナライズされたフィールドを使用する場合は、特に注意が必要です。
+  Although the SMPP specification limits this field to 21 characters, some providers may support longer values. Be aware that certain countries impose strict regulations on sender addresses (regarding length, content, allowed characters, etc.), so always verify that your input complies with local requirements. Use extra caution when working with personalized fields.
 
-  このフィールドが空のままの場合は、代わりに外部アカウントで定義されたソース番号フィールドの値が使用されます。両方の値が空の場合、*source_addr* フィールドは空のままになります。
+  If this field is left empty, the value of the Source number field defined in the external account will be used instead. If both values are empty, the *source_addr* field will be left empty.
+
+-->
 
 * **[!UICONTROL サービスタイプ]**:
 
