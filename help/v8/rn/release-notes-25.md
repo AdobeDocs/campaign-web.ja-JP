@@ -2,9 +2,9 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2025 Campaign web ユーザーインターフェイスリリース
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
+source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1438'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,49 @@ ht-degree: 100%
 # 2025 リリースノート {#2025-release}
 
 このページには、**2025 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートについて詳しくは、[このページ](release-notes.md)を参照してください。
+
+## 2025年5月リリース {#25-5-release}
+
+次の機能は、5月のリリース以降、すべてのユーザーが使用できます。
+
+<table>
+<thead>
+<tr>
+<th><strong>ブランド整合性スコア（ベータ版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ブランド整合性スコア機能は、E メールデザイナーで直接、明確なフィードバックを提供し、コンテンツがブランドのトーン、スタイル、ガイドラインと合っているかどうかを確認するのに役立ちます。この機能はベータ版で使用できます。</p>
+<p>詳しくは、<a href="../content/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>外部配信のカスタムチャネル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign Web UI から直接、カスタム外部チャネルに基づいて配信を調整および実行できるようになりました。これらの配信は、スタンドアロンで行うか、ワークフローの一部として行うことができます。サードパーティと統合されたカスタム外部チャネルの作成は、コンソールで実行します。</p>
+<p>メモ：カスタムチャネルの Web UI では、レポートは使用できません。レポートにアクセスするには、クライアントコンソールを参照する必要があります。</p>
+<p>詳しくは、<a href="../call-center/gs-custom-channel.md">詳細なドキュメント</a>を参照してください。</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改善点 {#25-5-improvements}
+
+タイポロジルールの作成画面が更新され、ルールのタイプを簡単に選択できるようになりました。
 
 ## 2025年4月リリース {#25-4-release}
 
