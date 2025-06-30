@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, エディター，概要，メール
-source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
+exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
+source-git-commit: 416dab7e671a33a44da43d93d6de9fc73d816600
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
 >title="独自の CSS を入力"
->abstract="コンテンツの外観をより柔軟に、また制御するために、カスタム CSS をメールDesigner内に直接追加して、高度な特定のスタイル設定を適用できます。"
+>abstract="コンテンツの外観に対する柔軟性と制御を高めるために、E メールデザイナー内で直接カスタム CSS を追加して、高度で特定のスタイルを適用できます。"
 
 メールをデザインする際に、独自のカスタム CSS を [ メールDesigner](get-started-email-designer.md) 内に直接追加できます。 この機能を使用すると、高度な特定のスタイル設定を適用して、コンテンツの外観をより柔軟に制御できます。
 
@@ -253,4 +254,3 @@ body {
     }
     ```
     -->
-
