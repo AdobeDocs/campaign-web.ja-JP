@@ -6,8 +6,8 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 5835d45ea2a383eed7d280fdd263548ea2e8530d
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="配信のグローバル設定"
+>title="配信用のグローバル設定"
 >abstract="配信パラメーターは、配信に適用する技術的な設定です。配信およびルーチンモードの変更、メールの BCC の有効化、ウェーブを使用した送信および送信されるメールメッセージの形式の選択を行うことができます。これらのオプションは、エキスパートユーザーのみに制限されます。"
 
 **[!UICONTROL 配信]**&#x200B;パラメーターは、配信に適用する技術的な設定です。
@@ -285,9 +285,9 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="acw_sms_delivery_settings"
 >title="SMS 配信設定"
->abstract="SMS 配信パラメーターは、SMS 配信に適用する技術的な設定です。 送信者のアドレス、サービスパラメーター、送信モードなどを定義できます。 これらのオプションは、エキスパートユーザーのみに制限されます。"
+>abstract="SMS 配信パラメーターは、SMS 配信に適用する技術的な設定です。送信者アドレス、サービスパラメーター、トランスミッションモードなどを定義できます。これらのオプションは、エキスパートユーザーのみに制限されます。"
 
-SMS 配信パラメーターは、SMS 配信に適用する技術的な設定です。 送信者のアドレス、サービスパラメーター、送信モードなどを定義できます。 これらのオプションは、エキスパートユーザーのみに制限されます。
+SMS 配信パラメーターは、SMS 配信に適用する技術的な設定です。送信者アドレス、サービスパラメーター、トランスミッションモードなどを定義できます。これらのオプションは、エキスパートユーザーのみに制限されます。
 
 <!--
 
