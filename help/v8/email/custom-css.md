@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: css, エディター，概要，メール
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: 416dab7e671a33a44da43d93d6de9fc73d816600
+source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 8%
+source-wordcount: '712'
+ht-degree: 7%
 
 ---
 
@@ -41,14 +41,13 @@ ht-degree: 8%
 
 1. 「**[!UICONTROL カスタム CSS を追加]**」ボタンをクリックします。
 
-1. ポップアップ表示される専用のテキスト領域に CSS コードを入力します。 カスタム CSS が有効で、適切な構文に従っていることを確認します。 [詳細情報](#use-valid-css)
-
-   ![ 専用のテキスト領域にカスタム CSS を入力します ](assets/email-body-custom-css.png){width="65%"}
-
    >[!NOTE]
    >
    >「**[!UICONTROL カスタム CSS を追加]**」ボタンは、「**[!UICONTROL 本文]**」が選択されている場合にのみ使用できます。 ただし、コンテンツ内のすべてのコンポーネントにカスタム CSS スタイルを適用できます。
 
+1. ポップアップ表示される専用のテキスト領域に CSS コードを入力します。 カスタム CSS が有効で、適切な構文に従っていることを確認します。 [詳細情報](#use-valid-css)
+
+   ![ 専用のテキスト領域にカスタム CSS を入力します ](assets/email-body-custom-css.png){width="65%"}
 
 1. カスタム CSS を保存し、カスタム CSS がコンテンツに正しく適用されていることを確認します。 これに該当しない場合は、「[ トラブルシューティング ](#troubleshooting)」セクションを確認してください。
 
@@ -68,8 +67,9 @@ ht-degree: 8%
 >
 >意図せずコンテンツのレイアウトや機能を損なう可能性がある CSS の使用は避けます。
 
-+++ 有効な CSS のサンプル
++++ CSS のサンプル
 
+有効な CSS の例を以下に示します。
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -167,7 +167,7 @@ body {
 
 ## 技術的実装 {#implementation}
 
-次の例に示すように、カスタム CSS は `data-name="global-custom"` 属性を持つ `<style>` タグの一部として `<head>` セクションの最後に追加されます。 これにより、カスタムスタイルがコンテンツにグローバルに適用されます。
+次の例に示すように、カスタム CSS は `<head>` 属性を持つ `<style>` タグの一部として `data-name="global-custom"` セクションの最後に追加されます。 これにより、カスタムスタイルがコンテンツにグローバルに適用されます。
 
 +++ サンプルを参照
 
@@ -220,7 +220,7 @@ body {
 
 +++
 
-## ガードレール
+## ガードレール – 読み込まれたコンテンツ
 
 メールDesignerに読み込んだコンテンツでカスタム CSS を使用する場合は、次の点を考慮してください。
 
@@ -237,20 +237,30 @@ body {
 
 * CSS が有効で、構文エラー（中括弧の欠落、プロパティ名の誤りなど）がないことを確認します。 [詳細情報](#use-valid-css)
 
-* CSS が `data-name="global-custom"` 属性で `<style>` タグに追加されていること、および `data-disabled` が `global-custom` に適用されていないことを確認します。 [詳細情報](#implementation)
+* CSS が、`<style>` 属性を持つ `data-name="global-custom"` タグに追加されていることを確認します。
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
- 
-  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
-  
-  * Consider adding `!important` to your declarations to ensure they take precedence. 
-    
-    For example:
+* `global-custom` スタイルタグの属性 `data-disabled` が `true` に設定されているかどうかを確認します。 その場合、カスタム CSS は適用されません。
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+  +++例：
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
++++
+
+* CSS が他の CSS ルールによって上書きされていないことを確認します。
+
+   * ブラウザーの開発者ツールを使用して、コンテンツを調べ、CSS が正しいセレクターをターゲットにしていることを確認します。
+
+   * 必ず優先されるように、宣言に `!important` を追加することを検討してください。
+
++++ 例：
+
+     ```css
+     .acr-Form {
+       background: red !important;
+     }
+     ```
+
++++
