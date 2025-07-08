@@ -3,9 +3,9 @@ title: Campaign v8 web ユーザーインターフェイスの以前のリリー
 description: 2024 Campaign web ユーザーインターフェイスリリース
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: c572c2edd037b8d6bb6cbfcb77a5fbe5885a2799
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2535'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 </table>
 
 
-### 改善点
+### 機能強化
 
 * **ワークフローアクティビティ** - アクティビティとそのすべての子ノードをワークフロー内のトランジションから別のトランジションに移動できるようになりました。これを実行するには、アクティビティのプロパティパネルにある専用の「**移動**」ボタンを使用できます。[詳細情報](../workflows/orchestrate-activities.md#move)
 
@@ -122,7 +122,7 @@ ht-degree: 98%
 * **ランディングページの Captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。[詳細情報](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7月リリースノート {#24-7-release}
@@ -158,7 +158,7 @@ ht-degree: 98%
 >
 >この機能を使用するには、Campaign v8.6.3 <!--or v8.7.2-->へのアップデートが必要です。詳しくは、Campaign v8 クライアントコンソール[リリースノート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}を参照してください。
 
-### 改善点 {#improvements-24-7}
+### 機能強化 {#improvements-24-7}
 
 **フォルダー管理** - フォルダーに対する権限と制限を管理できるようになりました。
 
@@ -173,16 +173,16 @@ ht-degree: 98%
 
 キャンペーンを整理するプランとプログラムを作成できるようになりました。フォルダー階層を定義すると、キャンペーンをプログラムに、プログラムをプランに整理できます。[詳細情報](../administration/plans-programs.md)
 
-### 改善点 {#improvements-24-6}
+### 機能強化 {#improvements-24-6}
 
 * **エンリッチメントアクティビティでの紐付け**：**エンリッチメント**&#x200B;アクティビティを使用して、Campaign データベーススキーマのデータを、別のスキーマのデータや、一時スキーマのデータ（ファイルを読み込みアクティビティを使用してアップロードされたデータなど）と紐付けられるようになりました。例えば、このオプションを使用すると、アップロードされたファイルで指定したプロファイルの国を、Campaign データベースの専用テーブルで使用可能な国のいずれかと紐付けることができます。[詳細情報](../workflows/activities/enrichment.md)
 
 
-### 限定提供（LA）の新機能 {#acs-24-6}
+### 限定提供の新機能 {#acs-24-6}
 
 >[!AVAILABILITY]
 >
->次の機能は、限定提供（LA）で提供されています。 **Adobe Campaign StandardからAdobe Campaign v8 に** 移行するお客様に限定され、他の環境にデプロイすることはできません。
+>次の機能は、限定提供（LA）です。**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定されており、他の環境にデプロイすることはできません。
 
 * **配信アラート**
 

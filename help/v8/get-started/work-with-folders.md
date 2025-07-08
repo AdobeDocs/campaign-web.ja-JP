@@ -4,9 +4,9 @@ title: フォルダーの操作
 description: Adobe Campaign でフォルダーを管理する方法について説明します
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '721'
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_folder_restrictions"
 >title="フォルダーの制限"
->abstract="オブジェクトが自動的に作成したフォルダーとテクニカルワークフローが制限されたフォルダーは、左側のサイドパネルには表示できません。"
+>abstract="自動的に作成されたオブジェクトフォルダーとテクニカルワークフローフォルダーは制限され、左側のサイドパネルには表示できません。"
 
 >[!IMPORTANT]
 >
->フォルダー **[!UICONTROL 自動作成されたオブジェクト]** と **[!UICONTROL テクニカルワークフロー]** は制限され、左側のパネルには表示できません。
+>**[!UICONTROL 自動的に作成されたオブジェクト]**&#x200B;フォルダーと&#x200B;**[!UICONTROL テクニカルワークフロー]**&#x200B;フォルダーは制限され、左側のサイドパネルには表示できません。
 
 
 ## 新しいフォルダーの作成 {#create-a-folder}
@@ -88,11 +88,11 @@ Adobe Campaign web UI で新しいフォルダーを作成するには、次の�
 >title="お気に入り"
 >abstract="お気に入りフォルダーは、左側のタブの上部に表示されます。"
 
-「お気に入り」とマークされたフォルダーは、常に左側のタブの上部に表示されます。
+「お気に入り」としてマークされたフォルダーは、常に左側のタブの上部に表示されます。
 
-フォルダーをフォルダーとしてお気に入りに追加するには、フォルダーを表示する際に、右上隅にある星形ボタンをクリックします。
+フォルダーを表示する際に、右上隅にある星形ボタンをクリックすると、フォルダーをお気に入りとして追加できます。
 
-![ お気に入りフォルダーの場所のスクリーンショット ](assets/folders-favorite.png){zoomable="yes"}
+![お気に入りフォルダーの場所のスクリーンショット](assets/folders-favorite.png){zoomable="yes"}
 
 ## フォルダーの削除 {#delete-a-folder}
 
