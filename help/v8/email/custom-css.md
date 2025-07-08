@@ -1,18 +1,18 @@
 ---
 title: メールコンテンツへのカスタム CSS の追加
-description: Adobe CampaignのメールDesigner内でメールコンテンツに直接カスタム CSS を追加する方法を説明します
+description: Adobe Campaign の E メールデザイナー内でメールコンテンツにカスタム CSS を直接追加する方法について説明します
 feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-keywords: css, エディター，概要，メール
+keywords: CSS, エディター, 概要, メール
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 7%
+ht-degree: 87%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 7%
 >title="独自の CSS を入力"
 >abstract="コンテンツの外観に対する柔軟性と制御を高めるために、E メールデザイナー内で直接カスタム CSS を追加して、高度で特定のスタイルを適用できます。"
 
-メールをデザインする際に、独自のカスタム CSS を [ メールDesigner](get-started-email-designer.md) 内に直接追加できます。 この機能を使用すると、高度な特定のスタイル設定を適用して、コンテンツの外観をより柔軟に制御できます。
+メールをデザインする際に、[E メールデザイナー](get-started-email-designer.md)内で独自のカスタム CSS を直接追加できます。この機能により、コンテンツの外観に対する柔軟性と制御を高めるのに、高度で特定のスタイルを適用できます。
 
 ## カスタム CSS の定義 {#define-custom-css}
 
 メールコンテンツにカスタム CSS を追加するには、次の手順に従います。
 
-1. 少なくとも 1 つの [ コンポーネント ](content-components.md) を追加して、メールDesignerでコンテンツの一部が定義されていることを確認します。
+1. 1 つ以上の[コンポーネント](content-components.md)を追加して、E メールデザイナーにコンテンツが定義されていることを確認します。
 
-1. 左側の **[!UICONTROL ナビゲーションツリー]** または右側のパネルの上部にある **[!UICONTROL 本文]** を選択します。 **[!UICONTROL CSS スタイル]** セクションが右側に表示されます。
+1. 左側の&#x200B;**[!UICONTROL ナビゲーションツリー]**&#x200B;または右側のパネルの上部にある「**[!UICONTROL 本文]**」を選択します。「**[!UICONTROL CSS スタイル]**」セクションが右側に表示されます。
 
-   ![ 「カスタム CSS を追加」ボタンを選択 ](assets/email-body-css-styles.png){width="85%"}
+   ![「カスタム CSS を追加」ボタンを選択](assets/email-body-css-styles.png){width="85%"}
 
    >[!NOTE]
    >
@@ -43,29 +43,29 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >「**[!UICONTROL カスタム CSS を追加]**」ボタンは、「**[!UICONTROL 本文]**」が選択されている場合にのみ使用できます。 ただし、コンテンツ内のすべてのコンポーネントにカスタム CSS スタイルを適用できます。
+   >「**[!UICONTROL カスタム CSS を追加]**」ボタンは、「**[!UICONTROL 本文]**」を選択した場合にのみ使用できます。ただし、コンテンツ内のすべてのコンポーネントにカスタム CSS スタイルを適用できます。
 
-1. ポップアップ表示される専用のテキスト領域に CSS コードを入力します。 カスタム CSS が有効で、適切な構文に従っていることを確認します。 [詳細情報](#use-valid-css)
+1. ポップアップされる専用のテキスト領域に CSS コードを入力します。カスタム CSS が有効で、適切な構文に従っていることを確認します。[詳細情報](#use-valid-css)
 
-   ![ 専用のテキスト領域にカスタム CSS を入力します ](assets/email-body-custom-css.png){width="65%"}
+   ![専用のテキスト領域にカスタム CSS を入力](assets/email-body-custom-css.png){width="65%"}
 
-1. カスタム CSS を保存し、カスタム CSS がコンテンツに正しく適用されていることを確認します。 これに該当しない場合は、「[ トラブルシューティング ](#troubleshooting)」セクションを確認してください。
+1. カスタム CSS を保存し、カスタム CSS がコンテンツに正しく適用されていることを確認します。該当しない場合は、[トラブルシューティング](#troubleshooting)の節を確認してください。
 
-   ![ 「カスタム CSS を追加」ボタンを選択 ](assets/email-body-custom-css-applied.png){width="85%"}
+   ![「カスタム CSS を追加」ボタンを選択](assets/email-body-custom-css-applied.png){width="85%"}
 
 1. すべてのコンテンツを削除すると、セクションが非表示になり、以前に定義したカスタム CSS は適用されなくなります。
 
-1. コンテンツをエディターに追加して戻し、「**[!UICONTROL CSS スタイル]**」セクションを再表示します。 カスタム CSS が再度適用されます。
+1. コンテンツをエディターに追加し直すと、「**[!UICONTROL CSS スタイル]**」セクションが再表示されます。カスタム CSS が再度適用されます。
 
 ## 有効な CSS の使用の確認 {#use-valid-css}
 
-**[!UICONTROL カスタム CSS を追加]** テキスト領域に有効な任意の CSS 文字列を入力できます。 適切な形式の CSS がコンテンツにすぐに適用されます。
+**[!UICONTROL カスタム CSS を追加]**&#x200B;テキスト領域に有効な CSS 文字列を入力できます。適切な形式の CSS がコンテンツにすぐに適用されます。
 
 >[!CAUTION]
 >
->ユーザーは、カスタム CSS のセキュリティに対して責任があります。 CSS によって脆弱性が発生したり、既存のコンテンツと競合したりしていないことを確認します。
+>ユーザーは、カスタム CSS のセキュリティに対して責任があります。CSS によって脆弱性が発生したり、既存のコンテンツと競合したりしないことを確認します。
 >
->意図せずコンテンツのレイアウトや機能を損なう可能性がある CSS の使用は避けます。
+>意図せずコンテンツのレイアウトや機能を損なう可能性がある CSS の使用は回避します。
 
 +++ CSS のサンプル
 
@@ -138,7 +138,7 @@ ht-degree: 7%
 
 +++
 
-無効な CSS を入力すると、CSS を保存できないことを示すエラーメッセージが表示されます。 無効な CSS の例を以下に示します。
+無効な CSS を入力すると、CSS を保存できないことを示すエラーメッセージが表示されます。無効な CSS の例を以下に示します。
 
 +++ 無効な CSS のサンプル
 
@@ -156,7 +156,7 @@ ht-degree: 7%
 </style>
 ```
 
-中括弧が見つからないなどの無効な構文は使用できません。
+中括弧の欠落などの無効な構文は許可されていません。
 
 ```css
 body {
@@ -167,9 +167,9 @@ body {
 
 ## 技術的実装 {#implementation}
 
-次の例に示すように、カスタム CSS は `<head>` 属性を持つ `<style>` タグの一部として `data-name="global-custom"` セクションの最後に追加されます。 これにより、カスタムスタイルがコンテンツにグローバルに適用されます。
+次の例に示すように、カスタム CSS は、`data-name="global-custom"` 属性を持つ `<style>` タグの一部として `<head>` セクションの末尾に追加されます。これにより、カスタムスタイルがコンテンツにグローバルに適用されます。
 
-+++ サンプルを参照
++++ 詳しくは、サンプルを参照してください
 
 ```html
 <!DOCTYPE html>
@@ -206,7 +206,7 @@ body {
 
 +++
 
-カスタム CSS は、メールDesignerの **[!UICONTROL 設定]** パネルで解釈または検証されません。 これは完全に独立しており、「**[!UICONTROL カスタム CSS を追加]** オプションを使用してのみ変更できます。
+カスタム CSS は、E メールデザイナーの&#x200B;**[!UICONTROL 設定]**&#x200B;パネルでは解釈または検証されません。これは完全に独立しており、「**[!UICONTROL カスタム CSS を追加]**」オプションを通じてのみ変更できます。
 
 <!--
 If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
@@ -224,20 +224,20 @@ For example:
 
 ## ガードレール – 読み込まれたコンテンツ
 
-メールDesignerに読み込んだコンテンツでカスタム CSS を使用する場合は、次の点を考慮してください。
+E メールデザイナーにインポートしたコンテンツでカスタム CSS を使用する場合は、次の点を考慮します。
 
-* CSS を含む外部HTML コンテンツを読み込む場合、そのコンテンツを変換しない限り、「**[!UICONTROL CSS スタイル]**」セクションを使用できない **[!UICONTROL 互換モード]** になります。 [ 既存のコンテンツの読み込みの詳細情報 ](existing-content.md)
+* CSS を含む外部 HTML コンテンツをインポートする場合、そのコンテンツを変換しない限り、**[!UICONTROL 互換性モード]**&#x200B;になり、「**[!UICONTROL CSS スタイル]**」セクションは使用できません。[既存のコンテンツのインポートの詳細情報](existing-content.md)
 
-* 「**[!UICONTROL カスタム CSS を追加]**」オプションを通じて適用された CSS を含む、メールDesignerで作成されたコンテンツを読み込むと、以前に適用された CSS が同じオプションから表示および編集できるようになります。
+* 「**[!UICONTROL カスタム CSS を追加]**」オプションを通じて適用された CSS を含む、E メールデザイナーで作成したコンテンツをインポートする場合、以前に適用された CSS は同じオプションから表示および編集できます。
 
 <!--
 * If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.-->
 
 ## トラブルシューティング {#troubleshooting}
 
-カスタム CSS が適用されない場合は、以下のオプションを考慮してください。
+カスタム CSS が適用されない場合は、以下のオプションを考慮します。
 
-* CSS が有効で、構文エラー（中括弧の欠落、プロパティ名の誤りなど）がないことを確認します。 [詳細情報](#use-valid-css)
+* CSS が有効で、構文エラー（中括弧の欠落、プロパティ名の誤りなど）がないことを確認します。[詳細情報](#use-valid-css)
 
 * CSS が、`<style>` 属性を持つ `data-name="global-custom"` タグに追加されていることを確認します。
 
@@ -249,7 +249,7 @@ For example:
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * CSS が他の CSS ルールによって上書きされていないことを確認します。
 
