@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: css, エディター，概要，メール
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
+source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '692'
 ht-degree: 7%
 
 ---
@@ -138,9 +138,9 @@ ht-degree: 7%
 
 +++
 
-+++ 無効な CSS のサンプル
-
 無効な CSS を入力すると、CSS を保存できないことを示すエラーメッセージが表示されます。 無効な CSS の例を以下に示します。
+
++++ 無効な CSS のサンプル
 
 `<style>` タグの使用は許可されていません。
 
@@ -208,17 +208,19 @@ body {
 
 カスタム CSS は、メールDesignerの **[!UICONTROL 設定]** パネルで解釈または検証されません。 これは完全に独立しており、「**[!UICONTROL カスタム CSS を追加]** オプションを使用してのみ変更できます。
 
-`global-custom` スタイルタグの属性 `data-disabled` が `true` に設定されている場合、カスタム CSS は適用されません。
+<!--
+If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
-+++ サンプルを参照
++++ See sample
 
-例：
+For example:
 
 ```html
 <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
 ```
 
 +++
+-->
 
 ## ガードレール – 読み込まれたコンテンツ
 
@@ -247,7 +249,7 @@ body {
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * CSS が他の CSS ルールによって上書きされていないことを確認します。
 
