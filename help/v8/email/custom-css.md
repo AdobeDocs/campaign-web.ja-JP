@@ -249,7 +249,7 @@ E メールデザイナーにインポートしたコンテンツでカスタム
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * CSS が他の CSS ルールによって上書きされていないことを確認します。
 
