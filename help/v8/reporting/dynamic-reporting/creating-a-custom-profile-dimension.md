@@ -50,7 +50,7 @@ ht-degree: 3%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. スキーマに加えた変更を適用するには、**[!UICONTROL ツール]**/**[!UICONTROL 詳細]**/**[!UICONTROL データベース構造を更新]** からデータベース更新ウィザードを起動して、データベース構造を更新を実行します。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. スキーマに加えた変更を適用するには、**[!UICONTROL ツール]**/**[!UICONTROL 詳細]**/**[!UICONTROL データベース構造を更新]** からデータベース更新ウィザードを起動して、データベース構造を更新を実行します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 

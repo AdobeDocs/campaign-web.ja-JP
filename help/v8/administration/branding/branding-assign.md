@@ -47,7 +47,7 @@ ht-degree: 22%
 
 >[!TAB Adobe Campaign V8]
 
-配信テンプレートを作成するには、組み込みテンプレートの複製、既存の配信のテンプレートへの変換、最初からの配信テンプレートの作成を行います。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
+配信テンプレートを作成するには、組み込みテンプレートの複製、既存の配信のテンプレートへの変換、最初からの配信テンプレートの作成を行います。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=ja)
 
 テンプレートを作成したら、それをブランドにリンクできます。手順は次のとおりです。
 
