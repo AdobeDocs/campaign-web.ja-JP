@@ -2,11 +2,10 @@
 audience: end-user
 title: 配信アラート
 description: 配信アラートの操作方法について説明します。
-badge: label="限定提供（LA）"
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
-workflow-type: ht
-source-wordcount: '1146'
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+workflow-type: tm+mt
+source-wordcount: '1115'
 ht-degree: 100%
 
 ---
@@ -21,10 +20,6 @@ ht-degree: 100%
 配信アラートダッシュボードを使用すると、メールアラートを受信するユーザーの指定、アラート送信に使用するアラート条件の選択と設定、すべての送信済み通知の履歴へのアクセスが可能になります。これらは、「**ダッシュボード**」タブの左側のナビゲーションパネルにある&#x200B;**配信アラート**&#x200B;メニューからアクセスできます。
 
 ![配信アラートメニューのアラートダッシュボードのリストを示すスクリーンショット。](assets/alerting-dashboard-list.png)
-
->[!AVAILABILITY]
->
->この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
 ## 配信ダッシュボードの作成 {#dashboards}
 

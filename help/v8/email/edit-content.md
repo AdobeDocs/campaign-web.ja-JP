@@ -3,8 +3,8 @@ audience: end-user
 title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスでメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
-workflow-type: ht
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
+workflow-type: tm+mt
 source-wordcount: '1229'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 1. メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。[詳しくは、メールのプレビューとテストの方法を参照してください](../preview-test/preview-test.md)。
 
-## 多言語配信の設定
+## 多言語配信の設定 {#multilingual-delivery}
 
 Campaign web ユーザーインターフェイスでは、メール配信を多言語として設定し、プロファイルの優先言語に基づいてメッセージを送信できます。環境設定を定義していない場合、メッセージはデフォルトの言語で送信されます。
 

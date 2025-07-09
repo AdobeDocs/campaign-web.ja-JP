@@ -2,16 +2,36 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2025 Campaign web ユーザーインターフェイスリリース
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
-workflow-type: ht
-source-wordcount: '1438'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '1604'
+ht-degree: 99%
 
 ---
 
 # 2025 リリースノート {#2025-release}
 
 このページには、**2025 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートについて詳しくは、[このページ](release-notes.md)を参照してください。
+
+## 2025年6月リリース {#25-6-release}
+
+### 機能強化 {#25-6-improvements}
+
+* 配信概要レポートが、コールセンターチャネルとカスタムチャネルの両方で使用できるようになりました。[詳細情報](../reporting/direct-mail.md)
+
+* SMS 配信を設定する際に、特定の SMS パラメーターにアクセスできるようになりました。これらは、クライアントコンソールで使用できるパラメーターと同じです。[詳細情報](../advanced-settings/delivery-settings.md#sms-tab)
+
+* お気に入りフォルダーがエクスプローラーページの左側のパネルの上部に表示され、アクセスしやすくなりました。[詳細情報](../get-started/work-with-folders.md#favorite-folders)
+
+* ルールビルダーでドラッグ＆ドロップがサポートされ、クエリのコンポーネントをより効率的に並べ替えることができるようになりました。[詳細情報](../query/build-query.md#drag-and-drop)
+
+* ルールビルダーの「人間の状況」が改善されました。これは、画面の下部に表示される、ルールをわかりやすく記述したバージョンです。
+
+   * 属性がハイライト表示されるようになり、関連するスキーマが表示されます。
+   * これらの要素をクリックすると、より詳細な情報を表示できます。
+   * 対応するボタンを使用して、人間の状況をコピーできるようになりました。
+
+* テクニカルワークフローフォルダーおよび自動的に作成されたオブジェクトフォルダーへのアクセスが制限され、表示されなくなりました。[詳細情報](../get-started/work-with-folders.md#about-folders)
 
 ## 2025年5月リリース {#25-5-release}
 
@@ -52,7 +72,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 改善点 {#25-5-improvements}
+### 機能強化 {#25-5-improvements}
 
 タイポロジルールの作成画面が更新され、ルールのタイプを簡単に選択できるようになりました。
 
@@ -116,7 +136,7 @@ ht-degree: 100%
 </tbody>
 </table>
 
-### 改善点 {#25-4-improvements}
+### 機能強化 {#25-4-improvements}
 
 **一般的なインターフェイスの改善**
 
@@ -153,7 +173,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **多言語用の動的レポート** - 多言語メール配信で動的レポートが使用できるようになりました。詳しくは、[詳細なドキュメント](../reporting/global-reports.md)を参照してください。
 
-* **SMS REST API サポート（LA）** - トランザクションメッセージング REST API が SMS チャネルで使用できるようになりました。ペイロードにメールと mobilePhone の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。指定しない場合は、wishedChannel で明示的に SMS をリクエストしない限り、デフォルトでメールが使用されます。詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/ja/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank}を参照してください。
+* **SMS REST API サポート（LA）** - トランザクションメッセージング REST API が SMS チャネルで使用できるようになりました。ペイロードにメールと mobilePhone の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。指定しない場合は、wishedChannel で明示的に SMS をリクエストしない限り、デフォルトでメールが使用されます。詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}を参照してください。
 
 ## 2025年2月リリース {#25-2-release}
 

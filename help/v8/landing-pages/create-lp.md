@@ -3,9 +3,9 @@ title: ランディングページの作成
 description: Campaign web でランディングページを設定して公開する方法について説明します
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '1731'
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+workflow-type: tm+mt
+source-wordcount: '1643'
 ht-degree: 100%
 
 ---
@@ -116,10 +116,6 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 
    * 「**[!UICONTROL ID が存在しないことを承認]**」オプションを使用すると、すべての訪問者がランディングページにアクセスできます。このオプションを選択解除すると、匿名訪問者はこのオプションを使用できなくなります。つまり、識別されたユーザーのみがフォームにアクセスして送信できます。
 
-     >[!AVAILABILITY]
-     >
-     >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
-
      **[!UICONTROL 獲得]**&#x200B;と&#x200B;**[!UICONTROL 購読]**&#x200B;のテンプレートの場合、このオプションはデフォルトで選択されます。**[!UICONTROL 購読解除]**&#x200B;と&#x200B;**[!UICONTROL ブロックリスト]**&#x200B;のテンプレートの場合、このオプションはデフォルトで選択されず、変更できません。
 
 1. ランディングページの後続のページを作成できます。ページを追加するには、「**[!UICONTROL ページ]**」セクションで、このランディングページ用にデザインする各ページの「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。各ページのコンテンツは既に事前入力済みです。必要に応じて編集します。[詳細情報](lp-content.md)。
@@ -133,10 +129,6 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
    ![ランディングページのストレージオプションを示すスクリーンショット。](assets/lp-storage.png){zoomable="yes"}
 
 1. ランディングページの送信時に内部データを保存する&#x200B;**[!UICONTROL 追加のデータ]**&#x200B;を作成します。このデータは、ページを訪問するユーザーには表示されません。定数値のみが使用できます。
-
-   >[!AVAILABILITY]
-   >
-   >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
    ![追加のデータセクションを示すスクリーンショット。](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -161,10 +153,6 @@ Campaign web ユーザーインターフェイスを使用すると、ランデ�
 すべての設定を定義し、すべてのページの[デザイン](lp-content.md)が終わったら、以下に示すようにランディングページを[テスト](#test-landing-page)して、[公開](#publish-landing-page)できます。
 
 ## Captcha でランディングページを保護 {#captcha}
-
->[!AVAILABILITY]
->
->この機能は、限定提供（LA）です。これは、**前回の修正バージョンでアップグレードされた Adobe Campaign v8.7.2** を使用しているお客様に制限され、他の環境にデプロイできません。
 
 Captcha の設定は、ランディングページをスパムや不正使用から保護するのに役立ちます。
 

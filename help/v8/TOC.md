@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
-workflow-type: ht
-source-wordcount: '834'
-ht-degree: 100%
+source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 98%
 
 ---
 
@@ -209,33 +209,64 @@ ht-degree: 100%
    + [クエリのサンプル](query/query-samples.md)
    + [フィルターリスト](query/filter.md)
 + レポート {#reports}
-   + [レポートの基本を学ぶ](reporting/gs-reports.md)
    + [監査記録](reporting/audit-trail.md)
-   + [レポートをエクスポート](reporting/export-reports.md)
    + [主要業績評価指標](reporting/kpis.md)
-   + 配信レポート {#delivery-report}
-      + [配信レポートの基本を学ぶ](reporting/delivery-reports.md)
-      + [メール配信レポート](reporting/email-report.md)
-      + [プッシュ配信レポート](reporting/push-report.md)
-      + [SMS 配信レポート](reporting/sms-report.md)
-      + [外部配信レポート](reporting/direct-mail.md)
-   + キャンペーンレポート {#campaign-report}
-      + [キャンペーンレポートの基本を学ぶ](reporting/campaign-reports.md)
-      + [メールキャンペーンレポート](reporting/campaign-reports-email.md)
-      + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
-      + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
-      + [外部配信キャンペーンレポート](reporting/campaign-reports-direct-mail.md)
-   + グローバルレポート {#global-report}
-      + [グローバルレポートの基本を学ぶ](reporting/global-reports.md)
-      + [メールグローバルレポート](reporting/global-report-email.md)
-      + [プッシュグローバルレポート](reporting/global-report-push.md)
-      + [SMS グローバルレポート](reporting/global-report-sms.md)
-      + [ダイレクトメールグローバルレポート](reporting/global-report-direct.md)
+   + 標準レポート {#standard-reports}
+      + [レポートの基本を学ぶ](reporting/gs-reports.md)
+      + [レポートをエクスポート](reporting/export-reports.md)
+      + 配信レポート {#delivery-report}
+         + [配信レポートの基本を学ぶ](reporting/delivery-reports.md)
+         + [メール配信レポート](reporting/email-report.md)
+         + [プッシュ配信レポート](reporting/push-report.md)
+         + [SMS 配信レポート](reporting/sms-report.md)
+         + [外部配信レポート](reporting/direct-mail.md)
+      + キャンペーンレポート {#campaign-report}
+         + [キャンペーンレポートの基本を学ぶ](reporting/campaign-reports.md)
+         + [メールキャンペーンレポート](reporting/campaign-reports-email.md)
+         + [プッシュキャンペーンレポート](reporting/campaign-reports-push.md)
+         + [SMS キャンペーンレポート](reporting/campaign-reports-sms.md)
+         + [外部配信キャンペーンレポート](reporting/campaign-reports-direct-mail.md)
+      + グローバルレポート {#global-report}
+         + [グローバルレポートの基本を学ぶ](reporting/global-reports.md)
+         + [メールグローバルレポート](reporting/global-report-email.md)
+         + [プッシュグローバルレポート](reporting/global-report-push.md)
+         + [SMS グローバルレポート](reporting/global-report-sms.md)
+         + [ダイレクトメールグローバルレポート](reporting/global-report-direct.md)
+   + 動的レポート {#dynamic-reporting}
+      + [動的レポートの基本を学ぶ](reporting/dynamic-reporting/get-started-reporting.md)
+      + レポートについて {#about-reporting}
+         + [動的レポートについて](reporting/dynamic-reporting/about-dynamic-reports.md)
+         + [レポートインターフェイス](reporting/dynamic-reporting/reporting-interface.md)
+         + [コンポーネントのリスト](reporting/dynamic-reporting/list-of-components.md)
+         + [指標の計算](reporting/dynamic-reporting/indicator-calculation.md)
+         + [トラブルシューティング](reporting/dynamic-reporting/troubleshooting.md)
+      + レポートのリスト {#list-of-reports}
+         + [レポート期間の定義](reporting/dynamic-reporting/defining-the-report-period.md)
+         + [バウンス概要](reporting/dynamic-reporting/bounce-summary.md)
+         + [ドメイン別の分類](reporting/dynamic-reporting/breakdown-by-domains.md)
+         + [苦情](reporting/dynamic-reporting/complaints.md)
+         + [配信の概要](reporting/dynamic-reporting/delivery-summary.md)
+         + [配信スループット](reporting/dynamic-reporting/delivery-throughput.md)
+         + [配信不能件数とバウンス数](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [開封数](reporting/dynamic-reporting/opens.md)
+         + [トラッキング指標](reporting/dynamic-reporting/tracking-indicators.md)
+         + [購読解除](reporting/dynamic-reporting/unsubscriptions.md)
+         + [URL とクリックストリーム](reporting/dynamic-reporting/urls-and-click-streams.md)
+      + レポートのカスタマイズ {#customizing-reports}
+         + [パネルの追加](reporting/dynamic-reporting/adding-panels.md)
+         + [ビジュアライゼーションの追加](reporting/dynamic-reporting/adding-visualizations.md)
+         + [コンポーネントの追加](reporting/dynamic-reporting/adding-components.md)
+         + [カスタムプロファイルディメンションの作成](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
+         + [動的レポート使用契約](reporting/dynamic-reporting/pii-agreement.md)
 + 統合 {#integrations}
    + [他のアドビソリューションの操作](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
 + 設定 {#conf}
+   + ブランディング {#branding}
+      + [ブランディングについて](administration/branding/branding-gs.md)
+      + [ブランドの設定](administration/branding/branding-configure.md)
+      + [ブランドの割り当て](administration/branding/branding-assign.md)
    + [ビジネスルール（タイポロジ）の操作](administration/typologies.md)
    + [ターゲットマッピングの管理](administration/target-mappings.md)
    + [スキーマの操作](administration/schemas.md)

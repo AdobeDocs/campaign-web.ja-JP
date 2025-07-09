@@ -2,11 +2,10 @@
 audience: end-user
 title: 配信アラート
 description: 配信アラートの操作方法について説明します。
-badge: label="限定提供（LA）"
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
-workflow-type: ht
-source-wordcount: '346'
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
+workflow-type: tm+mt
+source-wordcount: '315'
 ht-degree: 100%
 
 ---
@@ -18,10 +17,6 @@ ht-degree: 100%
 通知は、Adobe Campaign web ユーザーインターフェイスを通じて定義された特定のアラート条件に基づいてカスタマイズします。
 
 配信エラーの管理について詳しくは、[Adobe Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}を参照してください。
-
->[!AVAILABILITY]
->
->この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
 ## メール通知コンテンツ {#content}
 

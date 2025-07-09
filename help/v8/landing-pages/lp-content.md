@@ -3,9 +3,9 @@ title: ランディングページ固有のコンテンツの定義
 description: Campaign web でランディングページ固有のコンテンツを設計する方法について説明します
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '1248'
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
+workflow-type: tm+mt
+source-wordcount: '1161'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,6 @@ ht-degree: 100%
 * メールのデザインに使用するコンポーネントと同じコンポーネントを使用します。[詳細情報](../email/content-components.md#add-content-components)
 
 * メールと同じ方法で、ランディングページに条件付きコンテンツを追加します。[詳細情報](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
 ## フォームコンポーネントの使用 {#use-form-component}
 
@@ -125,10 +121,6 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL URL からサービス]**」オプションを選択すると、ランディングページを複数のサービスに使用でき、動的になります。フォームの送信時にユーザーをオプトインまたはオプトアウトするかを定義します。
 
-   >[!AVAILABILITY]
-   >
-   >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
-
    ![フォームコンポーネントの URL 設定からのサービス](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    メールをデザインする際に、このランディングページに対する&#x200B;**[!UICONTROL ランディングページ]**&#x200B;タイプのリンクを定義すると、リストから任意のサービスを選択できます。その後、このランディングページに対する他のリンクを定義する際に、他のサービスを選択できます。[リンクの挿入の詳細情報](../email/message-tracking.md)
@@ -138,10 +130,6 @@ ht-degree: 100%
 1. ランディングページの送信時にメッセージを送信します。[詳しくは、こちらを参照してください](#lp-message)
 
 ### 送信後のメッセージの送信 {#lp-message}
-
->[!AVAILABILITY]
->
->この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
 ランディングページの送信後に確認メッセージを自動的に送信するには、次の手順に従います。
 

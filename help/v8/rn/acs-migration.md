@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign Standard から Adobe Campaign web への移行
 description: Campaign web ユーザーインターフェイスの確認
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 99%
 
 ---
 
@@ -72,11 +72,11 @@ Campaign クライアントコンソールは、管理者と開発者が環境�
 
 Campaign v8 へのスムーズな移行を行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。これらの機能について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target=&quot;_blank} を参照してください。このドキュメントは、Campaign Standard から移行するユーザーのみが利用できます。
 
-* **動的レポート**：動的レポートでは、マーケティングアクティビティの影響を測定する、カスタマイズ可能なリアルタイムのレポートを提供します。これには、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのディメンション別のデモグラフィック分析のためのプロファイルデータへのアクセスが含まれます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja){target="_blank"}。
+* **動的レポート**：動的レポートでは、マーケティングアクティビティの影響を測定する、カスタマイズ可能なリアルタイムのレポートを提供します。これには、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのディメンション別のデモグラフィック分析のためのプロファイルデータへのアクセスが含まれます。[詳細情報](../reporting/dynamic-reporting/get-started-reporting.md)。
 
-* **一元化されたブランディング**：Adobe Campaign を使用すると、会社はブランドの視覚的ガイドラインと技術的ガイドラインを定義できます。ユーザーは、ロゴからメール送信者、URL、ドメインなどの技術的側面に至るまで、一貫したブランドを顧客に提供できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=ja)。
+* **一元化されたブランディング**：Adobe Campaign を使用すると、会社はブランドの視覚的ガイドラインと技術的ガイドラインを定義できます。ユーザーは、ロゴからメール送信者、URL、ドメインなどの技術的側面に至るまで、一貫したブランドを顧客に提供できます。[詳細情報](../administration/branding/branding-gs.md)。
 
-* **REST API**：Campaign Standard に移行したユーザーは、REST API を使用して Adobe Campaign の統合を作成し、Adobe Campaign を他のテクノロジーと連携させてエコシステムを作成できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=ja){target="_blank"}。
+* **REST API**：Campaign Standard に移行したユーザーは、REST API を使用して Adobe Campaign の統合を作成し、Adobe Campaign を他のテクノロジーと連携させてエコシステムを作成できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}。
 
 * **ランディングページ**：Campaign v8 ランディングページには、Campaign Standard と同等の機能を確保するための改善が含まれています。詳しくは、[リリースノート](../rn/release-notes.md#new-24-4)とランディングページ[ドキュメント](../landing-pages/get-started-lp.md)を参照してください。
 

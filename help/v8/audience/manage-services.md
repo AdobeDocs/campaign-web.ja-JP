@@ -3,10 +3,10 @@ audience: end-user
 title: 購読サービスの操作
 description: Adobe Campaign Web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1127'
+ht-degree: 100%
 
 ---
 
@@ -87,10 +87,6 @@ Adobe Campaign web を使用すると、ニュースレターなどのサービ�
 1. 「**[!UICONTROL 保存してレビュー]**」をクリックします。新しいサービスが&#x200B;**[!UICONTROL 購読サービス]**&#x200B;リストに追加されました。
 
 1. このサービスに関連付けられたデフォルトの購読と購読解除のランディングページを選択します。
-
-   >[!AVAILABILITY]
-   >
-   >この機能は、限定提供（LA）です。これは、**Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。
 
    ![購読サービスのデフォルトのランディングページ設定を示すスクリーンショット](assets/service-create-default-lp.png){zoomable="yes"}
 
