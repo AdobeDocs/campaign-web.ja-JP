@@ -4,7 +4,7 @@ title: 配信アラート
 description: 配信アラートの操作方法について説明します。
 exl-id: b91ef82b-f3e9-4704-87a2-0e3f75104572
 source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
 ht-degree: 100%
 
