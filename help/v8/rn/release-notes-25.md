@@ -173,7 +173,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 * **多言語用の動的レポート** - 多言語メール配信で動的レポートが使用できるようになりました。詳しくは、[詳細なドキュメント](../reporting/global-reports.md)を参照してください。
 
-* **SMS REST API サポート（LA）** - トランザクションメッセージング REST API が SMS チャネルで使用できるようになりました。ペイロードにメールと mobilePhone の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。指定しない場合は、wishedChannel で明示的に SMS をリクエストしない限り、デフォルトでメールが使用されます。詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank}を参照してください。
+* **SMS REST API サポート（LA）** - トランザクションメッセージング REST API が SMS チャネルで使用できるようになりました。ペイロードにメールと mobilePhone の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。指定しない場合は、wishedChannel で明示的に SMS をリクエストしない限り、デフォルトでメールが使用されます。詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target=_blank}を参照してください。
 
 ## 2025年2月リリース {#25-2-release}
 

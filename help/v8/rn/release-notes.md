@@ -59,7 +59,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 このリリースには、上記の機能に加えて、クライアントコンソールで使用できる一連の機能も付属しています。
 
 * [ 新しい SMS 送信コネクタ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja)。
-* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja)
 
 クライアントコンソール [ リリースノート ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"} を参照してください。
 

@@ -76,7 +76,7 @@ Campaign v8 へのスムーズな移行を行うために、Campaign v8 に Camp
 
 * **一元化されたブランディング**：Adobe Campaign を使用すると、会社はブランドの視覚的ガイドラインと技術的ガイドラインを定義できます。ユーザーは、ロゴからメール送信者、URL、ドメインなどの技術的側面に至るまで、一貫したブランドを顧客に提供できます。[詳細情報](../administration/branding/branding-gs.md)。
 
-* **REST API**：Campaign Standard に移行したユーザーは、REST API を使用して Adobe Campaign の統合を作成し、Adobe Campaign を他のテクノロジーと連携させてエコシステムを作成できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}。
+* **REST API**：Campaign Standard に移行したユーザーは、REST API を使用して Adobe Campaign の統合を作成し、Adobe Campaign を他のテクノロジーと連携させてエコシステムを作成できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target="_blank"}。
 
 * **ランディングページ**：Campaign v8 ランディングページには、Campaign Standard と同等の機能を確保するための改善が含まれています。詳しくは、[リリースノート](../rn/release-notes.md#new-24-4)とランディングページ[ドキュメント](../landing-pages/get-started-lp.md)を参照してください。
 
