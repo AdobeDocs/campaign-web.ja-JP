@@ -4,9 +4,9 @@ title: Campaign Standard から Adobe Campaign web への移行
 description: Campaign web ユーザーインターフェイスの確認
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Campaign クライアントコンソールは、管理者と開発者が環境�
 
 ## 特定の機能 {#new-features}
 
-Campaign v8 へのスムーズな移行を行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。これらの機能について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target=_blank} を参照してください。このドキュメントは、Campaign Standard から移行するユーザーのみが利用できます。
+Campaign v8 へのスムーズな移行を行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。これらの機能について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target=&quot;_blank} を参照してください。このドキュメントは、Campaign Standard から移行するユーザーのみが利用できます。
 
 * **動的レポート**：動的レポートでは、マーケティングアクティビティの影響を測定する、カスタマイズ可能なリアルタイムのレポートを提供します。これには、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのディメンション別のデモグラフィック分析のためのプロファイルデータへのアクセスが含まれます。[詳細情報](../reporting/dynamic-reporting/get-started-reporting.md)。
 

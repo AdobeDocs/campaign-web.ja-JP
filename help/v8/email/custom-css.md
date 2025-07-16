@@ -10,9 +10,9 @@ hidefromtoc: true
 keywords: CSS, エディター, 概要, メール
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -222,7 +222,7 @@ For example:
 +++
 -->
 
-## ガードレール – 読み込まれたコンテンツ
+## ガードレール - インポートしたコンテンツ
 
 E メールデザイナーにインポートしたコンテンツでカスタム CSS を使用する場合は、次の点を考慮します。
 
@@ -239,9 +239,9 @@ E メールデザイナーにインポートしたコンテンツでカスタム
 
 * CSS が有効で、構文エラー（中括弧の欠落、プロパティ名の誤りなど）がないことを確認します。[詳細情報](#use-valid-css)
 
-* CSS が、`<style>` 属性を持つ `data-name="global-custom"` タグに追加されていることを確認します。
+* CSS が `data-name="global-custom"` 属性を持つ `<style>` タグに追加されていることを確認します。
 
-* `global-custom` スタイルタグの属性 `data-disabled` が `true` に設定されているかどうかを確認します。 その場合、カスタム CSS は適用されません。
+* `global-custom` スタイルのタグに属性 `data-disabled` が `true` に設定されているかどうかを確認します。該当する場合、カスタム CSS は適用されません。
 
   +++例：
 
@@ -249,13 +249,13 @@ E メールデザイナーにインポートしたコンテンツでカスタム
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * CSS が他の CSS ルールによって上書きされていないことを確認します。
 
    * ブラウザーの開発者ツールを使用して、コンテンツを調べ、CSS が正しいセレクターをターゲットにしていることを確認します。
 
-   * 必ず優先されるように、宣言に `!important` を追加することを検討してください。
+   * 優先されるようにするには、宣言に `!important` を追加することを考慮します。
 
 +++ 例：
 
