@@ -3,10 +3,10 @@ audience: end-user
 title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 100%
 
 ---
 
@@ -31,10 +31,6 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
    ![メッセージトラッキングツールにリンクを挿入するためのインターフェイスを示すスクリーンショット](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL 外部リンク]**：外部 URL へのリンクを挿入します。
-
-     >[!AVAILABILITY]
-     >
-     >次の機能（**[!UICONTROL ランディングページ]**、**[!UICONTROL 購読リンク]**&#x200B;および&#x200B;**[!UICONTROL 購読解除リンク]**）は限定提供（LA）中です。これらは、**Adobe Campaign Standard から Adobe Campaign v8** に移行する顧客に限定されており、他の環境にデプロイすることはできません。
 
    * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。動的ランディングページを選択した場合（**[!UICONTROL URL からのサービス]**&#x200B;オプションが選択されている場合）、リストから任意のサービスを選択できます。[詳細情報](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
