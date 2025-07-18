@@ -1,25 +1,25 @@
 ---
 title: 配信スループット
-description: 標準の配信スループット レポートで、配信の成功を確認します。
+description: 配信スループットの標準レポートでは、配信の成功を確認できます。
 level: Intermediate
 audience: end-user
 exl-id: cf086a57-dd70-41bc-a039-4070cecc3a66
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '87'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 # 配信スループット{#delivery-throughput}
 
-このレポートには、1 つまたは複数の送信の配信スループットに関するデータが含まれています。 次の機能が提供されます。
+このレポートには、1 つまたは複数の送信の配信スループットに関するデータが含まれています。含まれるデータは次のとおりです。
 
-* 1 時間あたりに処理されるメッセージの数
-* **[!UICONTROL 上位 5 件の配信]** の表と補完的な概要数値は、再試行で最も得られる結果が最も多い 5 件の配信を示しています。
+* 1 時間あたりのメッセージ処理数
+* **[!UICONTROL 上位 5 件の配信]**&#x200B;デーブルと補完的な概要の数値。再試行によって最良の結果を得られた 5 件の配信を表示します。
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->**[!UICONTROL 配信スループット]** ページには、Campaign からAdobe Campaign Enhanced MTA （Message Transfer Agent）にメッセージをリレーするためのスループット速度が表示されます。
+>**[!UICONTROL 配信スループット]**&#x200B;ページには、Campaign から Adobe Campaign Enhanced MTA （メール転送エージェント）にメッセージをリレーするスループット速度が表示されます。

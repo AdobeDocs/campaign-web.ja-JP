@@ -5,9 +5,9 @@ audience: end-user
 level: Intermediate
 exl-id: dcd794bb-05be-430f-868e-b63d242debc6
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '67'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 52%
 
 ![](assets/delivery_reports_opens.png)
 
-4 つの表とグラフが、メールを開封した受信者の合計数を次の条件に基づいて分類します。
+次の条件に基づいて、4 つの表とグラフによって、メールを開封した受信者の合計数を分類します。
 
 * ブラウザー
 * デバイス
