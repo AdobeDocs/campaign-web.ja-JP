@@ -4,14 +4,18 @@ description: 組み込みレポートまたはカスタマイズされた動的�
 audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
-source-wordcount: '278'
-ht-degree: 100%
+source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 95%
 
 ---
 
 # 動的レポートの概要 {#get-started-reporting}
+
+>[!AVAILABILITY]
+>
+>この機能はオンデマンドでのみ使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。
 
 動的レポートは、マーケティングアクティビティの影響を測定するための完全にカスタマイズ可能なリアルタイムのレポートを提供します。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。
 
