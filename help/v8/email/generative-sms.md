@@ -15,7 +15,7 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)を参照してください。
->></br>
+>&#x200B;></br>
 >
 >Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
