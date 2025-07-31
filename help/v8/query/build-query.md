@@ -3,10 +3,10 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
-workflow-type: ht
-source-wordcount: '2863'
-ht-degree: 100%
+source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
+workflow-type: tm+mt
+source-wordcount: '2921'
+ht-degree: 98%
 
 ---
 
@@ -407,6 +407,13 @@ ht-degree: 100%
   >[!IMPORTANT]
   >
   >ルールのプロパティパネルから定義済みフィルターを選択すると、キャンバスに作成されたクエリが選択したフィルターで置き換えられます。
+
+新しいルールビルダーエクスペリエンスを使用する際に、各条件およびグループにターゲット母集団を直接表示できます。
+
+* 目的の条件またはグループで「**条件を計算**」アイコンをクリックし、クエリのターゲットとなるレコード数を計算して表示します。
+* レコードの詳細なリストを表示するには、結果番号をクリックします。
+
+![ 母集団と結果の表示 ](assets/ruleb-11bis.png){zoomable="yes"}
 
 クエリの準備が整ったら、右上隅にある「**[!UICONTROL 確認]**」ボタンをクリックして保存します。
 
