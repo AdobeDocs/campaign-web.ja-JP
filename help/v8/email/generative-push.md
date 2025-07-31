@@ -3,10 +3,10 @@ audience: end-user
 title: AI アシスタントを使用したプッシュ通知
 description: AI アシスタントの基本を学ぶ
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)を参照してください。
-></br>
+>></br>
 >
 >Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
@@ -39,7 +39,7 @@ AI アシスタントは、オーディエンスの共感を呼ぶ様々なコ�
 
    ![プロンプトライブラリインターフェイスを示すスクリーンショット](assets/push-genai-2.png){zoomable="yes"}
 
-1. 生成するフィールド（「**[!UICONTROL タイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 画像]**」）を選択します。
+1. 生成するフィールド（**[!UICONTROL タイトル]**、**[!UICONTROL サブタイトル]**、**[!UICONTROL メッセージ]**、**[!UICONTROL 画像]**）を選択します。
 
 1. 「**[!UICONTROL テキスト設定]**」オプションを使用してプロンプトを調整します。
 
@@ -63,7 +63,13 @@ AI アシスタントは、オーディエンスの共感を呼ぶ様々なコ�
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
-1. 生成された&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照して、「**[!UICONTROL プレビュー]**」をクリックし、選択したバリエーションのフルスクリーンバージョンを表示します。
+1. 生成された **[!UICONTROL バリエーション]** を参照し、「**[!UICONTROL プレビュー]**」をクリックして選択したバリエーションのフルスクリーンバージョンを表示するか、「**[!UICONTROL 適用]**」をクリックして現在のコンテンツを置き換えます。
+
+1. パーセンテージアイコンをクリックして **[!UICONTROL ブランドの整合性スコア]** を表示し、ブランドとの不一致を識別します。
+
+   詳しくは、[ ブランドの整合性スコア ](../content/brands-score.md) を参照してください。
+
+   ![](assets/push-genai-6.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
@@ -75,10 +81,10 @@ AI アシスタントは、オーディエンスの共感を呼ぶ様々なコ�
 
    ![「絞り込み」オプションを示すスクリーンショット](assets/push-genai-5.png){zoomable="yes"}
 
+1. 「**[!UICONTROL ブランドの関連付け]**」タブを開き、コンテンツが [ ブランドのガイドライン ](../content/brands.md) にどのように関連付けられているかを確認します。
+
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
 1. パーソナライゼーションフィールドを挿入して、プロファイルデータに基づいてメールコンテンツをカスタマイズします。次に「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。[詳細情報](../preview-test/preview-content.md)
-
-   ![「コンテンツをシミュレート」ボタンを示すスクリーンショット](assets/push-genai-6.png){zoomable="yes"}
 
 コンテンツ、オーディエンスおよびスケジュールを定義する際、プッシュ配信の準備を行います。[詳細情報](../monitor/prepare-send.md)

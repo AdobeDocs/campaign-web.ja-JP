@@ -3,10 +3,10 @@ audience: end-user
 title: 生成コンテンツ
 description: AI アシスタントの基本を学ぶ
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
-workflow-type: ht
-source-wordcount: '1525'
-ht-degree: 100%
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+workflow-type: tm+mt
+source-wordcount: '1624'
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)を参照してください。
-></br>
+>></br>
 >
 >Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
@@ -54,7 +54,7 @@ Adobe Campaign web の AI アシスタントは、メール全体、ターゲッ
    * **[!UICONTROL コミュニケーション戦略]**：生成テキストに最適なコミュニケーションスタイルを選択します。
    * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼びます。情報の提供や遊び心、説得力のいずれを目指している場合であっても、AI アシスタントはメッセージを適切に調整します。
 
-   ![Adobe Campaign web のテキスト設定オプションを示すスクリーンショット](assets/full-email-3.png){zoomable="yes"}
+   ![Adobe Campaign web のテキスト設定オプションを示すスクリーンショット](assets/full-email-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 画像設定]**&#x200B;を選択します。
 
@@ -64,15 +64,21 @@ Adobe Campaign web の AI アシスタントは、メール全体、ターゲッ
    * **[!UICONTROL 照明]**：画像の照明を変更して雰囲気を形成し、特定の要素をハイライト表示します。
    * **[!UICONTROL 構成]**：画像のフレーム内に要素を配置します。
 
-   ![Adobe Campaign web の画像設定オプションを示すスクリーンショット](assets/full-email-4.png){zoomable="yes"}
-
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから、「**[!UICONTROL ブランドアセットをアップロード]**」をクリックして、AI アシスタントに追加のコンテキストを提供するブランドアセットを追加するか、以前にアップロードしたものを選択します。
 
    以前にアップロードしたファイルは、**[!UICONTROL アップロードされたブランドアセット]**&#x200B;ドロップダウンで使用できます。生成に含めるアセットを切り替えます。
 
+   ![Adobe Campaign Web のブランド設定オプションを示すスクリーンショット ](assets/full-email-3.png){zoomable="yes"}
+
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
-1. 生成された&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照して、「**[!UICONTROL プレビュー]**」をクリックし、選択したバリエーションのフルスクリーンバージョンを表示します。
+1. 生成された **[!UICONTROL バリエーション]** を参照し、「**[!UICONTROL プレビュー]**」をクリックして選択したバリエーションのフルスクリーンバージョンを表示するか、「**[!UICONTROL 適用]**」をクリックして現在のコンテンツを置き換えます。
+
+1. パーセンテージアイコンをクリックして **[!UICONTROL ブランドの整合性スコア]** を表示し、ブランドとの不一致を識別します。
+
+   詳しくは、[ ブランドの整合性スコア ](../content/brands-score.md) を参照してください。
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
@@ -83,11 +89,11 @@ Adobe Campaign web の AI アシスタントは、メール全体、ターゲッ
 
    ![Adobe Campaign web の絞り込みオプションを示すスクリーンショット](assets/full-email-5.png){zoomable="yes"}
 
+1. 「**[!UICONTROL ブランドの関連付け]**」タブを開き、コンテンツが [ ブランドのガイドライン ](../content/brands.md) にどのように関連付けられているかを確認します。
+
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
 1. パーソナライゼーションフィールドを挿入して、プロファイルデータに基づいてメールコンテンツをカスタマイズします。次に「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。[詳細情報](../preview-test/preview-content.md)
-
-   ![Adobe Campaign web の「コンテンツをシミュレート」ボタンを示すスクリーンショット](assets/full-email-6.png){zoomable="yes"}
 
 コンテンツ、オーディエンスおよびスケジュールを定義する際、メール配信の準備を行います。[詳細情報](../monitor/prepare-send.md)
 
@@ -117,7 +123,7 @@ Adobe Campaign web の AI アシスタントは、メール全体、ターゲッ
    * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼びます。情報の提供や遊び心、説得力のいずれを目指している場合であっても、AI アシスタントはメッセージを適切に調整します。
    * **テキストの長さ**：スライダーを使用して、テキストの目的の長さを選択します。
 
-   ![Adobe Campaign web のテキスト設定オプションを示すスクリーンショット](assets/text-genai-3.png){zoomable="yes"}
+   ![Adobe Campaign web のテキスト設定オプションを示すスクリーンショット](assets/text-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから、「**[!UICONTROL ブランドアセットをアップロード]**」をクリックして、AI アシスタントに追加のコンテキストを提供するブランドアセットを追加するか、以前にアップロードしたものを選択します。
 
@@ -125,7 +131,13 @@ Adobe Campaign web の AI アシスタントは、メール全体、ターゲッ
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
-1. 生成された&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照して、「**[!UICONTROL プレビュー]**」をクリックし、選択したバリエーションのフルスクリーンバージョンを表示します。
+1. 生成された **[!UICONTROL バリエーション]** を参照し、「**[!UICONTROL プレビュー]**」をクリックして選択したバリエーションのフルスクリーンバージョンを表示するか、「**[!UICONTROL 適用]**」をクリックして現在のコンテンツを置き換えます。
+
+1. パーセンテージアイコンをクリックして **[!UICONTROL ブランドの整合性スコア]** を表示し、ブランドとの不一致を識別します。
+
+   詳しくは、[ ブランドの整合性スコア ](../content/brands-score.md) を参照してください。
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
@@ -137,7 +149,9 @@ Adobe Campaign web の AI アシスタントは、メール全体、ターゲッ
 
    また、テキストの&#x200B;**[!UICONTROL トーン]**&#x200B;と&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を変更することもできます。
 
-   ![Adobe Campaign web の絞り込みオプションを示すスクリーンショット](assets/text-genai-4.png){zoomable="yes"}
+   ![Adobe Campaign web の絞り込みオプションを示すスクリーンショット](assets/text-genai-5.png){zoomable="yes"}
+
+1. 「**[!UICONTROL ブランドの関連付け]**」タブを開き、コンテンツが [ ブランドのガイドライン ](../content/brands.md) にどのように関連付けられているかを確認します。
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
@@ -171,14 +185,14 @@ Adobe Campaign web の AI アシスタントは、メール全体、ターゲッ
 
 1. 「**[!UICONTROL 画像設定]**」オプションを使用してプロンプトを調整します。
 
-   * **[!UICONTROL 縦横比]**：アセットの幅と高さが決まります。16:9、4:3、3:2、1:1 など、一般的な比率から選択するか、カスタムサイズを入力します。
+   * **[!UICONTROL 縦横比]**：アセットの幅と高さが決まります。16:9、4:3、3:2、1:1 などの一般的な比率から選択するか、カスタムサイズを入力します。
    * **[!UICONTROL コンテンツタイプ]**：視覚要素の性質が分類され、写真、グラフィック、アートなど、様々な視覚的表現が区別されます。
    * **[!UICONTROL 視覚的な強度]**：画像の強度を調整することで、画像の影響を制御します。低い値（2）を設定すると、より柔らかい外観が作成され、高い値（10）を設定すると、画像はより鮮やかになります。
    * **[!UICONTROL カラーとトーン]**：カラーの全体的な外観と、伝えられるムードまたは雰囲気を調整します。
    * **[!UICONTROL 照明]**：画像の照明を変更して雰囲気を形成し、特定の要素をハイライト表示します。
    * **[!UICONTROL 構成]**：画像のフレーム内に要素を配置します。
 
-   ![Adobe Campaign web の画像設定オプションを示すスクリーンショット](assets/image-genai-3.png){zoomable="yes"}
+   ![Adobe Campaign web の画像設定オプションを示すスクリーンショット](assets/image-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから、「**[!UICONTROL ブランドアセットをアップロード]**」をクリックして、AI アシスタントに追加のコンテキストを提供するブランドアセットを追加するか、以前にアップロードしたものを選択します。
 
@@ -186,15 +200,17 @@ Adobe Campaign web の AI アシスタントは、メール全体、ターゲッ
 
 1. プロンプトの設定が完了したら、「**[!UICONTROL 生成]**」をクリックします。
 
-1. **[!UICONTROL バリエーションの提案]**&#x200B;を参照して、目的のアセットを見つけます。
+1. 生成された **[!UICONTROL バリエーション]** を参照し、「**[!UICONTROL プレビュー]**」をクリックして選択したバリエーションのフルスクリーンバージョンを表示するか、「**[!UICONTROL 適用]**」をクリックして現在のコンテンツを置き換えます。
 
-   「**[!UICONTROL プレビュー]**」をクリックして、選択したバリエーションのフルスクリーンバージョンを表示します。
+1. パーセンテージアイコンをクリックして **[!UICONTROL ブランドの整合性スコア]** を表示し、ブランドとの不一致を識別します。
 
-   ![Adobe Campaign web での画像生成用のバリエーションの提案を示すスクリーンショット](assets/image-genai-5.png){zoomable="yes"}
+   詳しくは、[ ブランドの整合性スコア ](../content/brands-score.md) を参照してください。
+
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. このバリアントに関連する画像を表示する場合は、「**[!UICONTROL 類似を生成]**」を選択します。
 
-   ![Adobe Campaign web の「類似を生成」オプションを示すスクリーンショット](assets/image-genai-6.png){zoomable="yes"}
+1. 「**[!UICONTROL ブランドの関連付け]**」タブを開き、コンテンツが [ ブランドのガイドライン ](../content/brands.md) にどのように関連付けられているかを確認します。
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 

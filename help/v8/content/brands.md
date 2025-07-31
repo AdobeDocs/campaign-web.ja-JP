@@ -2,20 +2,15 @@
 audience: end-user
 title: ブランドの管理
 description: ブランドガイドラインの作成および管理方法について説明します
-badge: label="ベータ版" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
-workflow-type: ht
-source-wordcount: '1275'
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+workflow-type: tm+mt
+source-wordcount: '1255'
 ht-degree: 100%
 
 ---
 
 # ブランドの作成と管理 {#brands}
-
->[!AVAILABILITY]
->
->この機能は非公開のベータ版としてリリースされています。今後のリリースで、すべてのお客様が段階的に利用できるようになります。
 
 ブランドガイドラインは、ブランドの視覚的および言語的なアイデンティティを定義する包括的な一連のルールおよび標準です。すべてのマーケティングおよびコミュニケーションチャネルにわたって一貫したブランド表現を確保するための参照として機能します。
 

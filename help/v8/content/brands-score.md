@@ -2,20 +2,18 @@
 audience: end-user
 title: ブランド一致
 description: ブランドスコアを使用して、ブランドに即したコンテンツを作成、検証、管理する方法について説明します。
-badge: label="ベータ版" type="Informative"
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
-source-git-commit: 86c28c023adc7a70ea9d0c47fdd40857e05cb8b7
-workflow-type: ht
-source-wordcount: '247'
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+workflow-type: tm+mt
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
 
-# ブランド一致（ベータ版）{#brands-score}
+# ブランド一致 {#brands-score}
 
 >[!AVAILABILITY]
 >
->この機能は非公開のベータ版としてリリースされています。今後のリリースで、すべてのお客様が段階的に利用できるようになります。
 >AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
 ブランド一致機能は、ブランドガイドラインに準拠したコンテンツを作成、確認、管理できるように作成されています。これにより、メールキャンペーン全体でトーン、メッセージ、視覚的なアイデンティティの一貫性が確保されると共に、コンテンツが公開される前の品質チェックとしても機能します。
