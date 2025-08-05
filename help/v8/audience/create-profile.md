@@ -4,8 +4,8 @@ description: Campaign Web でプロファイルを作成する方法について
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '573'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_othersfields"
 >title="その他"
->abstract="この節では、追加の組み込み属性について説明します。情報を変更するには、各フィールド内で直接変更を行い、画面の右上隅にある「**保存**」ボタンをクリックします。"
+>abstract="この節では、追加のビルトインの属性について説明します。情報を変更するには、各フィールド内で直接変更を行い、画面の右上隅にある「**保存**」ボタンをクリックします。"
 
 プロファイルを作成するには、次の手順に従います。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
    | **アカウントの詳細** | ステータスやアカウント番号など、プロファイルのアカウントに関する情報。 |
    | **今後の連絡は不要** | プロファイルの連絡先の環境設定。これらのオプションのいずれかを選択すると、プロファイルはブロックリストに登録されます。<br/>例えば、受信者がニュースレターの購読解除リンクをクリックした場合、この情報は連絡先データに追加されます。このような受信者は、選択したチャネルのターゲットに設定されなくなりました。強制隔離管理について詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ja){target="_blank"}を参照してください |
    | **カスタムフィールド** | カスタムフィールドを設定している場合は、このセクションに表示されます。カスタムフィールドは、Adobe Campaign コンソールを通じて&#x200B;**[!UICONTROL プロファイル]**&#x200B;スキーマに追加される追加属性です。詳しくは、[Adobe Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=ja){target="_blank"}を参照してください。 |
-   | **その他** | 追加の組み込み属性。 |
+   | **その他** | 追加のビルトインの属性。 |
 
 1. プロファイルを設定したら、「**[!UICONTROL 作成]**」をクリックしてデータベースに保存します。
 
