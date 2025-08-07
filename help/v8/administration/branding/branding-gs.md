@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
 source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->この機能は、新規実装の場合はオンデマンドでのみ使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。
+>この機能は、新しい実装でのみオンデマンドで使用できます。アクセスするには、アドビ担当者にお問い合わせください。
 
 
 >[!IMPORTANT]

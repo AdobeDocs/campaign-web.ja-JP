@@ -3,9 +3,9 @@ title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 60%
 
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
 
-以前のリリースで利用可能な変更と改善点は、[2024 年 ](release-notes-24.md) および [2025](release-notes-25.md) ページに記載されています。
+以前のリリースで利用可能な変更と改善点について詳しくは、[2024](release-notes-24.md) ページと [2025](release-notes-25.md) ページを参照してください。
 
-## 2025 年 7 月リリース {#25-7-release}
+## 2025年7月リリース {#25-7-release}
 
 ### 新機能 {#25-7-features}
 
-次の機能は 7 月のリリース以降で使用できます。
+次の機能は、7月のリリース以降使用できます。
 
 <!--table>
 <thead>
@@ -37,7 +37,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -63,13 +63,13 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <table>
 <thead>
 <tr>
-<th><strong>メールDesignerでのカスタム CSS のサポート</strong><br/></th>
+<th><strong>E メールデザイナーでのカスタム CSS のサポート</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メールをデザインする際に、独自のカスタム CSS をメールのDesigner内に直接追加できるようになりました。 この機能により、コンテンツの外観に対する柔軟性と制御を高めるのに、高度で特定のスタイルを適用できます。</p>
+<p>メールをデザインする際に、E メールデザイナー内で独自のカスタム CSS を直接追加できるようになりました。この機能により、コンテンツの外観に対する柔軟性と制御を高めるのに、高度で特定のスタイルを適用できます。</p>
 <p>詳しくは、<a href="../email/custom-css.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -85,7 +85,7 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <tbody>
 <tr>
 <td>
-<p>独自のブランドを作成およびカスタマイズして、コミュニケーション全体で視覚的および言語的なアイデンティティを明確に定義できるようになりました。 ブランドのアラインメントスコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するリアルタイムのフィードバックを受け取ることができ、送信するすべてのメッセージでブランドに一貫性を持って滞在するのに役立ちます。
+<p>独自のブランドを作成およびカスタマイズし、コミュニケーション全体で視覚的および言語的な ID を明確に定義できるようになりました。ブランド整合性スコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するフィードバックをリアルタイムで受信でき、送信するすべてのメッセージでブランドに即して一貫性を保つことができます。
 </p>
 <p>詳しくは、<a href="../content/brands.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -143,8 +143,8 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <tbody>
 <tr>
 <td>
-<p>動的レポートにアクセスできるようになりました。動的レポートは完全にカスタマイズ可能で、リアルタイムレポートを提供するので、マーケティングアクティビティの影響を測定できます。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。動的レポートは、多言語のメール配信とトランザクションメッセージにも使用できます。</p>
-<p>この機能は、オンデマンドでのみ使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。 サーバーは 8.8.1 以上にアップグレードする必要があります。 詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
+<p>マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供する動的レポートにアクセスできるようになりました。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。また、動的レポートは、多言語のメール配信とトランザクションメッセージにも使用できます。</p>
+<p>この機能は、オンデマンドでのみ使用できます。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以上にアップグレードする必要があります。詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
 <p>詳しくは、<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -154,14 +154,14 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 <table>
 <thead>
 <tr>
-<th><strong>ブランディングの一元化</strong><br/></th>
+<th><strong>一元化されたブランディング</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>技術管理者は、1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。 ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできます。こうした設定はテンプレートで管理されます。ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで使用できます。</p>
-<p>この機能は、新規実装の場合にのみオンデマンドで使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。 サーバーは 8.8.1 以上にアップグレードする必要があります。 詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
+<p>技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできます。こうした設定はテンプレートで管理されます。ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで使用できます。</p>
+<p>この機能は、新しい実装でのみオンデマンドで使用できます。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以上にアップグレードする必要があります。詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
 <p>詳しくは、<a href="../administration/branding/branding-gs.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -170,8 +170,8 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 このリリースには、上記の機能に加えて、クライアントコンソールで使用できる一連の機能も付属しています。
 
-* [ 新しい SMS 送信コネクタ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja) （FDA 環境）
-* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja) （オンデマンド、FDA 環境）
+* [新しい SMS 送信コネクタ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja)（FDA 環境）
+* [Rest API](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja)（オンデマンド、FDA 環境）
 
 詳しくは、クライアントコンソール[リリースノート](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"}を参照してください。
 
@@ -181,14 +181,14 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=ja){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -215,24 +215,24 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
 ### 機能強化 {#25-7-improvements}
 
-* ルールビルダーで、各条件およびグループに対してターゲット母集団を直接計算できるようになりました。 レコードの詳細なリストを表示するには、結果番号をクリックします。 [詳細情報](../query/build-query.md#validate-query)
+* ルールビルダーで、各条件とグループに対してターゲット母集団を直接計算できるようになりました。レコードの詳細なリストを表示するには、結果番号をクリックします。[詳細情報](../query/build-query.md#validate-query)
 
-* 定義済みフィルターをルールビルダーから直接編集または削除できるようになりました。 [詳細情報](../get-started/predefined-filters.md#manage-predefined-filter)
+* 定義済みフィルターをルールビルダーから直接編集または削除できるようになりました。[詳細情報](../get-started/predefined-filters.md#manage-predefined-filter)
 
-* SMS 配信を設定する際に、「**SMS**」セクションで **オプションの SMPP パラメーター（TLV）** にアクセスできるようになりました。 このパラメーターは、クライアントコンソールの場合と同じです。 [詳細情報](../advanced-settings/delivery-settings.md#sms-tab)
+* SMS 配信を設定する際に、「**SMS**」セクションで&#x200B;**オプションの SMPP パラメーター（TLV）**&#x200B;にアクセスできるようになりました。このパラメーターは、クライアントコンソールの場合と同じです。[詳細情報](../advanced-settings/delivery-settings.md#sms-tab)
 
-* iOS コンテンツ編集画面の「**詳細設定**」セクションにある新しい **コンテンツ利用可能** オプションを使用して、iOSのバックグラウンド通知を有効にできるようになりました。 これにより、`content-available:1` ペイロードに `aps` フラグが追加されます。 詳しくは [ このページ ](../push/content-push.md) を参照してください。 [ このページ ](../push/rich-push-ios.md) も参照してください。
+* iOS コンテンツ編集画面の「**詳細設定**」セクションにある新しい「**コンテンツ使用可能**」オプションを使用して、iOS でバックグラウンド通知を有効にできるようになりました。これにより、`aps` ペイロードに `content-available:1` フラグが追加されます。詳しくは、[このページ](../push/content-push.md)を参照してください。また、[このページ](../push/rich-push-ios.md)も参照してください
 
-* ランディングページが次のように改善されました。
+* ランディングページの次の機能強化が使用できるようになりました。
 
    * サービスの設定時に、デフォルトの購読／購読解除のランディングページを参照できるようになりました。メールのデザイン時に、そのランディングページへのリンクを定義すると、ランディングページフォームを送信したユーザーは、このサービスに自動的に購読または登録解除されます。[詳細情報](../audience/manage-services.md#create-service)
    * ランディングページ設定の新しいオプションでは、匿名訪問者がランディングページにアクセスできます。このオプションを選択解除すると、識別されたユーザーのみがフォームにアクセスして送信できます。[詳細情報](../landing-pages/create-lp.md#create-landing-page)

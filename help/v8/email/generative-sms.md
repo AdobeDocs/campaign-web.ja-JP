@@ -4,9 +4,9 @@ title: AI アシスタントを使用した SMS
 description: AI アシスタントの基本を学ぶ
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)を参照してください。
->&#x200B;></br>
+>></br>
 >
 >Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
@@ -29,7 +29,7 @@ SMS メッセージをオーディエンスに合わせて作成してパーソ�
 
 1. 配信の&#x200B;**[!UICONTROL 基本的な詳細]**&#x200B;を入力します。完了したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
-1. **[!UICONTROL AI アシスタントを表示]** メニューにアクセスします。 また、「**[!UICONTROL メッセージ]** フィールドの横にアクセスすることもできます。
+1. **[!UICONTROL AI アシスタントを表示]**&#x200B;メニューにアクセスします。また、「**[!UICONTROL メッセージ]**」フィールドの横からアクセスすることもできます。
 
    ![AI アシスタントを表示メニューを示すスクリーンショット](assets/sms-genai-1.png){zoomable="yes"}
 
@@ -53,11 +53,11 @@ SMS メッセージをオーディエンスに合わせて作成してパーソ�
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
-1. 生成された **[!UICONTROL バリエーション]** を参照し、「**[!UICONTROL プレビュー]**」をクリックして選択したバリエーションのフルスクリーンバージョンを表示するか、「**[!UICONTROL 適用]**」をクリックして現在のコンテンツを置き換えます。
+1. 生成された&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照して、「**[!UICONTROL プレビュー]**」をクリックし、選択したバリエーションのフルスクリーンバージョンを表示するか、「**[!UICONTROL 適用]**」をクリックして、現在のコンテンツを置き換えます。
 
-1. パーセンテージアイコンをクリックして **[!UICONTROL ブランドの整合性スコア]** を表示し、ブランドとの不一致を識別します。
+1. パーセンテージアイコンをクリックし、**[!UICONTROL ブランド整合性スコア]**&#x200B;を表示して、ブランドとの不整合を特定します。
 
-   詳しくは、[ ブランドの整合性スコア ](../content/brands-score.md) を参照してください。
+   詳しくは、[ブランド整合性スコア](../content/brands-score.md)を参照してください。
 
    ![](assets/sms-genai-5.png){zoomable="yes"}
 

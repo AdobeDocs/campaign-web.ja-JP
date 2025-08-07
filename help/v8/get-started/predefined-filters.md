@@ -3,9 +3,9 @@ title: 定義済みフィルターの操作
 description: Adobe Campaign Web での定義済みフィルターの作成および管理方法について説明します
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
 source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -131,9 +131,9 @@ ht-degree: 93%
 * 定義済みフィルターを複製します。
 * 定義済みフィルターを削除します。
 
-定義済みフィルターは、ルールビルダーから直接編集または削除することもできます。 定義済みフィルターの選択ウィンドウから、「その他のアクション **ボタンを使用** ます。 フィルターは削除または編集できます。 ラベルを変更し、説明を追加して、お気に入りとして追加できます。
+また、定義済みフィルターをルールビルダーから直接編集または削除できます。定義済みフィルター選択ウィンドウから、「**その他のアクション**」ボタンを使用します。フィルターを削除または編集できます。ラベルを変更し、説明を追加して、お気に入りとして追加できます。
 
-![ 定義済みフィルターの編集 ](assets/filter-edit.png){zoomable="yes"}
+![定義済みフィルターの編集](assets/filter-edit.png){zoomable="yes"}
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
