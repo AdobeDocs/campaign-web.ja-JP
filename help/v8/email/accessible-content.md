@@ -27,6 +27,7 @@ ht-degree: 0%
 
 <!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
+
 ## テキストを読みやすくする {#text-readability}
 
 **[!UICONTROL テキスト]** コンポーネントの「**[!UICONTROL スタイル]**」タブを活用して、適切なカラーコントラストやシンプルなフォントの使用など、テキストが読みやすいようにします。 [詳細情報](content-components.md#text)
