@@ -5,8 +5,8 @@ description: JavaScript コードワークフローアクティビティの使�
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '965'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_processerrors"
 >title="エラーを処理"
->abstract="「**[!UICONTROL エラーを処理]**」オプションを有効にすると、スクリプトの実行中に発生したエラーが追加の出力トランジションで保持されます。"
+>abstract="「**[!UICONTROL エラーを処理]**」オプションを有効に切り替えると、スクリプトの実行中に発生したエラーが追加の出力トランジションで保持されます。"
 
 **JavaScript コード**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティです。このアクティビティを使用して、ワークフローのコンテキストで JavaScript スクリプトを実行します。これにより、データベースから情報を収集したり、その他の複雑な操作を実行したりできます。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    ![実行遅延の設定インターフェイス](../assets/javascript-config.png)
 
-1. 「**[!UICONTROL エラーを処理]**」オプションを有効にすると、スクリプトの実行中に発生したエラーを、追加の出力トランジションに保持できます。
+1. 「**[!UICONTROL エラーを処理]**」オプションを有効に切り替えると、スクリプトの実行中に発生したエラーを、追加の出力トランジションに保持できます。
 
 ## 高度な JavaScript コードアクティビティ {#advanced}
 
