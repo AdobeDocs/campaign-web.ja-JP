@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 875e60defa2d96a6d7b3663516b757f3cc8cd154
+source-git-commit: a10ec6bf3ec5675d62d4031660d5196babd55403
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 63%
+source-wordcount: '221'
+ht-degree: 54%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 63%
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
 
 以前のリリースで利用可能な変更と改善点について詳しくは、[2024](release-notes-24.md) ページと [2025](release-notes-25.md) ページを参照してください。
+
+## 2025 年 9 月の更新 {#25-9-updates}
+
+次の機能強化がリリースされました。
+
+* メールDesignerの条件付きコンテンツ機能を使用して条件を設定する際に、一連の新しい演算子が追加されました。
 
 ## 2025 年 8 月リリース {#25-8-release}
 
