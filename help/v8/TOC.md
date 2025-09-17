@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
+source-git-commit: 94098841096c06894a5bfed4cbc8ea58b60b96d7
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 99%
 
 ---
@@ -122,7 +122,6 @@ ht-degree: 99%
          + [リンクのスタイルの定義](email/styling-links.md)
          + [インラインスタイル属性を追加する](email/inline-styling.md)
          + [カスタム CSS の追加](email/custom-css.md)
-         + [ダークモードコンテンツの管理](email/dark-mode.md)
       + [アクセシブルなコンテンツの作成](email/accessible-content.md)
    + AI アシスタント {#ai-assistant}
       + [AI アシスタントの操作](email/generative-gs.md)
