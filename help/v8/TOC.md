@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 94098841096c06894a5bfed4cbc8ea58b60b96d7
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 99%
+source-wordcount: '929'
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
    + コールセンター {#call-center}
       + [コールセンター配信の基本を学ぶ](call-center/gs-call-center.md)
       + [コールセンター配信の作成と送信](call-center/create-call-center.md)
-   + [カスタム外部チャネル](call-center/gs-custom-channel.md)
+   + [カスタムチャネル](call-center/gs-custom-channel.md)
    + トランザクションメッセージ {#transactional-messages}
       + [トランザクションメッセージの基本を学ぶ](transactional-messaging/transactional.md)
       + [トランザクションメッセージの作成](transactional-messaging/create-transactional.md)
@@ -96,7 +96,10 @@ ht-degree: 99%
       + [パーソナライゼーションの追加](personalization/personalize.md)
       + [条件付きコンテンツをビルド](personalization/conditions.md)
    + コンテンツを再利用 {#manage-reusable-content}
-      + [コンテンツテンプレートの操作](email/create-email-templates.md)
+      + コンテンツテンプレート {#content-templates}
+         + [コンテンツテンプレートの操作](content/create-email-templates.md)
+         + [メールコンテンツテンプレートの使用](content/use-email-templates.md)
+         + [メールテンプレート内のコンテンツをロック](content/content-locking.md)
       + コンテンツフラグメント {#fragments}
          + [コンテンツフラグメントの基本を学ぶ](content/fragments.md)
          + [コンテンツフラグメントの作成と編集](content/create-fragment.md)
@@ -108,7 +111,6 @@ ht-degree: 99%
          + [ゼロから開始](email/create-email-content.md)
          + [メールコンテンツの読み込み](email/existing-content.md)
          + [独自コンテンツのコーディング](email/code-content.md)
-         + [メールコンテンツテンプレートの使用](email/use-email-templates.md)
       + コンテンツのデザイン {#design-content}
          + [コンテンツコンポーネントの使用](email/content-components.md)
          + [リンクの追加とメッセージのトラッキング](email/message-tracking.md)
@@ -273,7 +275,13 @@ ht-degree: 99%
    + [スキーマの操作](administration/schemas.md)
    + [カスタムフィールドの設定](administration/custom-fields.md)
    + [ [!DNL Campaign]  オプションの設定](administration/options.md)
-   + [外部アカウントの設定](administration/external-account.md)
+   + 外部アカウント {#external-accounts}
+      + [外部アカウントの作成](administration/create-external-account.md)
+      + [Adobe ソリューションの統合](administration/integration-external-account.md)
+      + [キャンペーン固有](administration/external-account.md)
+      + [外部データベース](administration/external-account-database.md)
+      + [Hadoop](administration/external-hadoop.md)
+      + [データを転送](administration/transfer-external-account.md)
    + [列挙の管理](administration/enumerations.md)
    + [JavaScript コードの操作](administration/javascript-codes.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

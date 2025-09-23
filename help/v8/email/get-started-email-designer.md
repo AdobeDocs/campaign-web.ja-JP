@@ -3,8 +3,8 @@ audience: end-user
 title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスのE メールデザイナーを使用して、コンテンツ作成を開始する方法を学ぶ
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
-workflow-type: ht
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 
@@ -45,6 +45,6 @@ The Email Designer allows you to create email content and email content template
 
 * **既存の HTML コンテンツをインポート** - ファイルまたは .zip フォルダーから行います。メールコンテンツのインポート方法については、[この節](existing-content.md)を参照してください。
 
-* **既存のコンテンツを選択** - 組み込みテンプレートまたはカスタムテンプレートのリストから行います。メールテンプレートの操作方法については、[この節](create-email-templates.md)を参照してください。
+* **既存のコンテンツを選択** - ビルトインのテンプレートまたはカスタムテンプレートのリストから行います。メールテンプレートの操作方法については、[この節](../content/create-email-templates.md)を参照してください。
 
   ![メールコンテンツを作成するために E メールデザイナーインターフェイスで使用できるオプション](assets/email_designer_create_options.png){zoomable="yes"}

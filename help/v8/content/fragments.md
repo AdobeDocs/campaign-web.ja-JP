@@ -3,10 +3,10 @@ audience: end-user
 title: コンテンツフラグメントの基本を学ぶ
 description: コンテンツフラグメントの作成方法について説明します
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * **式フラグメント**&#x200B;は、式エディターの専用エントリから使用できる定義済みの式です。Campaign には、配信に挿入できる特定のレンダリングを含んだ一連の定義済みのコンテンツブロックが含まれています。例えば、ロゴ、挨拶メッセージまたはメッセージのミラーページへのリンクを追加できます。また、ニーズに合わせて独自の式フラグメントを作成することもできます。
 
-* **ビジュアルフラグメント**&#x200B;は、複数の[メール配信](../email/get-started-email-designer.md)や[コンテンツテンプレート](../email/use-email-templates.md)で再利用できる、定義済みのビジュアルブロックです。
+* **ビジュアルフラグメント**&#x200B;は、複数の[メール配信](../email/get-started-email-designer.md)や[コンテンツテンプレート](../content/use-email-templates.md)で再利用できる、定義済みのビジュアルブロックです。
 
   >[!AVAILABILITY]
   >

@@ -3,10 +3,10 @@ audience: end-user
 title: コンテンツフラグメントの作成
 description: コンテンツフラグメントの作成方法について説明します
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1026'
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 1. コンテンツの準備が整ったら、「**保存**」をクリックします。
 
-コンテンツフラグメントが、Campaign 内での配信や[コンテンツテンプレート](../email/use-email-templates.md)を作成するときに使用できるようになりました。ビジュアルフラグメントと式フラグメントの使用方法について詳しくは、次の節を参照してください。
+コンテンツフラグメントが、Campaign 内での配信や[コンテンツテンプレート](../content/use-email-templates.md)を作成するときに使用できるようになりました。ビジュアルフラグメントと式フラグメントの使用方法について詳しくは、次の節を参照してください。
 * [メールへのビジュアルフラグメントの追加](use-visual-fragments.md)
 * [式エディターへの式フラグメントの追加](use-expression-fragments.md)
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 <!--pas vu dans l'UI-->
 
-すべてのメールコンテンツは、後で再利用できるようにビジュアルフラグメントとして保存できます。[コンテンツテンプレート](../email/use-email-templates.md)または[メール](../email/get-started-email-designer.md)配信を設計する場合は、コンテンツの一部をビジュアルフラグメントとして保存します。これを行うには、次の手順に従います。
+すべてのメールコンテンツは、後で再利用できるようにビジュアルフラグメントとして保存できます。[コンテンツテンプレート](../content/use-email-templates.md)または[メール](../email/get-started-email-designer.md)配信を設計する場合は、コンテンツの一部をビジュアルフラグメントとして保存します。これを行うには、次の手順に従います。
 
 1. [E メールデザイナー](../email/get-started-email-designer.md)で、画面の右上にある「**その他**」ボタンをクリックします。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
    ![ビジュアルフラグメントの保存の確認画面](assets/fragment-save-confirm.png)
 
-   このコンテンツはスタンドアロンのフラグメントになり、[フラグメントリスト](#manage-fragments)に追加され、専用メニューからアクセスできるようになりました。このフラグメントは、Campaign 内で[メール](../email/get-started-email-designer.md)または[コンテンツテンプレート](../email/use-email-templates.md)を作成する際に使用します。[詳細情報](../content/use-visual-fragments.md)
+   このコンテンツはスタンドアロンのフラグメントになり、[フラグメントリスト](#manage-fragments)に追加され、専用メニューからアクセスできるようになりました。このフラグメントは、Campaign 内で[メール](../email/get-started-email-designer.md)または[コンテンツテンプレート](../content/use-email-templates.md)を作成する際に使用します。[詳細情報](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >

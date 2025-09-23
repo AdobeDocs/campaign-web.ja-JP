@@ -4,16 +4,20 @@ description: 動的レポートに関するよくある質問を以下に示し�
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
-source-wordcount: '1230'
-ht-degree: 100%
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+workflow-type: tm+mt
+source-wordcount: '1245'
+ht-degree: 98%
 
 ---
 
 # トラブルシューティング{#troubleshooting}
 
 このセクションでは、動的レポートに関するよくある質問を紹介します。
+
+## 動的レポートはどの言語で使用できますか。 {#langages}
+
+現在、動的レポートは、英語でのみ使用できます。
 
 ## ユニーク開封数およびユニーククリック数で、集計行のカウントが個々の行のカウントと一致しない {#unique-open-clicks-no-match}
 
