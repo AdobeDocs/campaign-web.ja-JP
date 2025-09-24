@@ -38,11 +38,11 @@ Adobe Campaign web UI から直接、サードパーティと統合されたカ�
 
 まず、カスタムチャネルを設定する必要があります。 クライアントコンソールで実行する主な手順は次のとおりです。 これらの手順は、カスタムの外部チャネルと API チャネルに共通です。
 
-1. スキーマを設定して、使用可能なチャネルのリストに新しいチャネルを追加します。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=ja#configure-schema){target="_blank"}
-1. 新規ルーティング外部アカウントを作成します。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=ja#reate-ext-account){target="_blank"}
-1. 新しいチャネルに関連付ける新しい配信テンプレートを作成します。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=ja#create-template){target="_blank"}
+1. スキーマを設定して、使用可能なチャネルのリストに新しいチャネルを追加します。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#configure-schema){target="_blank"}
+1. 新規ルーティング外部アカウントを作成します。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#reate-ext-account){target="_blank"}
+1. 新しいチャネルに関連付ける新しい配信テンプレートを作成します。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#create-template){target="_blank"}
 
-カスタム API チャネルの場合は、追加の設定が必要です。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=ja#api-additional){target="_blank"}
+カスタム API チャネルの場合は、追加の設定が必要です。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional){target="_blank"}
 
 ## 配信の作成{#create-delivery}
 
@@ -90,7 +90,7 @@ Adobe Campaign web UI から直接、サードパーティと統合されたカ�
 
 1. 配信ダッシュボードで、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
-1. 必要に応じてフィールドに入力します。 この画面の設定方法については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=ja#api-additional-screen){target="_blank"} を参照してください。
+1. 必要に応じてフィールドに入力します。 この画面の設定方法については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-screen){target="_blank"} を参照してください。
 
    ![API チャネルの属性設定オプションを示すスクリーンショット。](assets/cc-content-attributes-api.png)
 
@@ -118,7 +118,7 @@ Adobe Campaign web UI から直接、サードパーティと統合されたカ�
 
 1. 配信コンテンツページから、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてテストプロファイルを選択します。
 
-1. 右側の「**プレビューを開く** をクリックします。 この機能は、JSSP を使用して設定する必要があります。 この[ページ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=ja#api-additional-preview){target="_blank"}を参照してください。
+1. 右側の「**プレビューを開く** をクリックします。 この機能は、JSSP を使用して設定する必要があります。 この[ページ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-preview){target="_blank"}を参照してください。
 
    ![API の配信コンテンツページの「コンテンツをシミュレート」オプションを示すスクリーンショット ](assets/cus-simulate-api.png){zoomable="yes"}
 
