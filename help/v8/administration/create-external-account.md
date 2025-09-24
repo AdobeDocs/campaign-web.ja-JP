@@ -1,14 +1,21 @@
 ---
 title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 84%
+source-wordcount: '246'
+ht-degree: 86%
 
 ---
 
 # 外部アカウントの作成 {#create-external-account}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="外部アカウントのオーサリング"
+>abstract="Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。また、既存の外部アカウントを表示、更新、管理することもできます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 新しい外部アカウントを作成するには、次に示す手順に従います。 具体的な設定は、作成している外部アカウントのタイプによって異なります。
 
