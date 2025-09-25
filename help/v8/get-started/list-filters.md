@@ -3,8 +3,8 @@ audience: end-user
 title: リストの参照とフィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法の確認
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
+workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 ## フィルター {#list-built-in-filters}
 
-項目をすばやく見つけるには、検索バーを使用するか、組み込みフィルターやカスタムフィルターを使用して、コンテキスト条件に基づいてリストを調整します。
+項目を素早く見つけるには、検索バーを使用するか、ビルトインのフィルターやカスタムフィルターを使用して、コンテキスト条件に基づいてリストを調整します。
 
 [スクリーンショットは、リスト表示の絞り込みに使用できるフィルターオプションを示しています。](assets/filter.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
