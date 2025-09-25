@@ -5,7 +5,7 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -159,7 +159,7 @@ _2025 年 9 月 23 日_
 
 ### 機能強化 {#25-9-improvements}
 
-* メールDesignerの条件付きコンテンツ機能を使用して条件を設定する際に、一連の新しい演算子が追加されました。
+* E メールデザイナーの条件付きコンテンツ機能を使用して条件を設定する際に、新しい演算子のセットが追加されました。
 * フィルタリングディメンションが **オーディエンスを作成** ワークフローアクティビティで使用できるようになりました。 表示または変更するには、ターゲティングディメンションの横にあるアイコンをクリックします。 [詳細情報](../workflows/activities/build-audience.md#build-audience-configuration)。
 <!--
 

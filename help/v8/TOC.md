@@ -124,7 +124,7 @@ ht-degree: 98%
          + [リンクのスタイルの定義](email/styling-links.md)
          + [インラインスタイル属性を追加する](email/inline-styling.md)
          + [カスタム CSS の追加](email/custom-css.md)
-      + [アクセシブルなコンテンツの作成](email/accessible-content.md)
+      + [アクセス可能なコンテンツの作成](email/accessible-content.md)
    + AI アシスタント {#ai-assistant}
       + [AI アシスタントの操作](email/generative-gs.md)
       + [AI を使用したメール生成](email/generative-content.md)
