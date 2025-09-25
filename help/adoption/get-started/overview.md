@@ -4,9 +4,9 @@ description: 新しい Campaign v8 アプリケーションの使用開始時に
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 98%
 
 ---
@@ -142,8 +142,6 @@ Campaign v8 への移行をスムーズに行うために、Campaign v8 に Camp
 
 ほとんどの概念は、Adobe Campaign v8 と Adobe Campaign Standard で類似しています。ただし、以下に示すようにいくつかの違いがあります。
 
-### 用語の変更 {#terminology-changes}
-
 Campaign Standard と Campaign v8 の用語の違いを以下に示します。
 
 * カスタムリソースは&#x200B;**スキーマ**&#x200B;です
@@ -160,6 +158,7 @@ Campaign Standard と Campaign v8 の用語の違いを以下に示します。
 * 配信分析は、**配信準備**&#x200B;になりました。メッセージの準備を開始する必要がある場合は、「**準備**」ボタンをクリックします。[詳細情報](../../v8/monitor/prepare-send.md)
 * メールのプレビューが、「**コンテンツをシミュレート**」ボタンから使用できるようになりました。[詳細情報](../../v8/preview-test/preview-test.md)
 * リストは、**オーディエンス**&#x200B;になりました。[詳細情報](../../v8/audience/gs-audiences-recipients.md)
+
 
 ## 新しいユーザーエクスペリエンス
 
@@ -229,4 +228,4 @@ Adobe Campaign v8 の新しいユーザーエクスペリエンスについて�
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->

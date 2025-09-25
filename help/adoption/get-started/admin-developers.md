@@ -4,10 +4,10 @@ description: このチュートリアルでは、Campaign v8 の主な管理機�
 role: Admin, Developer
 level: Beginner, Experienced
 exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '2657'
-ht-degree: 80%
+source-wordcount: '2777'
+ht-degree: 76%
 
 ---
 
@@ -47,7 +47,7 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 次のビデオでは、Adobe Campaign クライアントコンソールをダウンロードしてインストールし、インスタンスへの接続を管理する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449878?quality=12&learn=on&captions=jpn){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
 詳しくは、[ クライアントコンソールを使用した Campaign への接続 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target="_blank"} を参照してください。
 
@@ -57,7 +57,7 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 このチュートリアルビデオでは、Adobe Campaign v8 ユーザーインターフェイスと、主な機能の操作方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426439?quality=12&learn=on&captions=jpn){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
 詳しくは [ クライアントコンソールの操作 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} を参照してください。
 
@@ -156,7 +156,7 @@ Adobe Campaign Standard と同様に、Adobe Campaign v8 に含まれている�
 
 * このビデオでは、ターゲティングディメンションと作業用テーブルの概要と、様々なデータソースをまたいだデータを Adobe Campaign で管理する仕組みについて説明します。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452592?quality=12&learn=on&captions=jpn){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
 * Campaign を使用すると、クラウドデータベースに連絡先を追加できます。ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。詳しくは、[ データのインポート（コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} を参照してください。
 
@@ -195,10 +195,18 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You can design your landing page content, and save it for future reuse. See the [landing page template documentation](../../v8/landing-pages/lp-templates.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
+
+## プライバシーと同意
+
+Campaign Standardから Campaign v8 に移行する際は、プライバシー規制がデータ運用に与える影響を確認することが重要です。 お客様のビジネスや事業地域に応じて、お客様は、お客様が保持している彼らに関するデータにアクセスしたり、削除をリクエストしたりする法的権利を有する場合があります。
+
+Campaign v8 では、すべてのプライバシーリクエストは、**Adobe Privacy Service** 統合を通じて管理される必要があります。 詳しくは、[Campaign v8 （コンソール）ドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/privacy) を参照してください。
+
+Campaign Standard環境は切り替え後、しばらくはアクティブなままであることに注意してください。 この間、両方のシステムでプライバシーリクエストが送信される場合があります。 コンプライアンスを確保しギャップを避けるために、Adobeのトランジションマネージャーと調整して、両方の環境にわたってリクエストを適切に処理します。
 
 ## 購読サービス {#acs-gs-admin-sub}
 
@@ -206,7 +214,7 @@ Campaign Standard と同様に、管理者は購読サービスを作成し、�
 
 購読とターゲットのサブスクライバーを設定および管理する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426552?quality=12&learn=on&captions=jpn){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * 詳しくは、購読サービスの [web ユーザーインターフェイスのドキュメント](../../v8/audience/manage-subscribers.md)を参照してください。
 
@@ -264,7 +272,7 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 このビデオでは、Campaign v8 の管理者は、動的コンテンツブロックを定義し、動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449007?quality=12&learn=on&captions=jpn){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 役立つリンク：
 
