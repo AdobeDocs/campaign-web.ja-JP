@@ -3,7 +3,7 @@ audience: end-user
 title: リストの参照とフィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法の確認
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: b81f80655b1becf6e1e23f8c0095970c95ebcb05
+source-git-commit: f5ef0f8d7c3396bdd031e5b3b7c690f90adc0e86
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 100%
@@ -18,21 +18,21 @@ ht-degree: 100%
 
 リストは複数の列で表示されます。列の設定を変更すると、追加情報を表示できます。これを行うには、リストの右上隅にある「**カスタムレイアウトの列を設定**」アイコンをクリックします。
 
-[スクリーンショットは、リスト列のレイアウトをカスタマイズするために使用される「列を設定」アイコンを示しています。](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![スクリーンショットは、リスト列のレイアウトをカスタマイズするために使用される「列を設定」アイコンを示しています。](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 「**列を設定**」画面で、列の追加または削除や表示順序の変更を行うことができます。
 
 リストの順序は、**ドラッグ＆ドロップ**&#x200B;するか、以下に示すように&#x200B;**上下の矢印**&#x200B;を使用して変更できます。
 
-[スクリーンショットは、ドラッグ＆ドロップまたは矢印ボタンを使用してリスト列を並べ替える方法を示しています。](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![スクリーンショットは、ドラッグ＆ドロップまたは矢印ボタンを使用してリスト列を並べ替える方法を示しています。](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 例えば、次の設定の場合：
 
-[スクリーンショットは、「列を設定」画面に列設定の例を表示します。](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![スクリーンショットは、「列を設定」画面に列設定の例を表示します。](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 リストには、次の列が表示されます。
 
-[スクリーンショットは、サンプル設定に従って設定された列を含む、結果のリストを示しています。](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![スクリーンショットは、サンプル設定に従って設定された列を含む、結果のリストを示しています。](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## データを並べ替え {#sort-lists}
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 項目を素早く見つけるには、検索バーを使用するか、ビルトインのフィルターやカスタムフィルターを使用して、コンテキスト条件に基づいてリストを調整します。
 
-[スクリーンショットは、リスト表示の絞り込みに使用できるフィルターオプションを示しています。](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![スクリーンショットは、リスト表示の絞り込みに使用できるフィルターオプションを示しています。](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
 フィルターの使用方法と独自のカスタムフィルターの作成方法について詳しくは、[この節](../query/filter.md)を参照してください。
 
