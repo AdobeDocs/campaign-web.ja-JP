@@ -2,8 +2,8 @@
 title: 定義済みフィルターの操作
 description: Adobe Campaign Web での定義済みフィルターの作成および管理方法について説明します
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
-workflow-type: ht
+source-git-commit: a12ddf56a72e62ec8f4d668f686672dcdc195a09
+workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 
