@@ -4,7 +4,7 @@ title: コンテンツフラグメントの基本を学ぶ
 description: コンテンツフラグメントの作成方法について説明します
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
