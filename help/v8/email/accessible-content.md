@@ -6,10 +6,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
-source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
-workflow-type: ht
+exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
+source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
+workflow-type: tm+mt
 source-wordcount: '1536'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -23,10 +24,8 @@ ht-degree: 100%
 
 これに沿って、[!DNL Adobe Campaign] を使用してアクセス可能なコンテンツをデザインするベストプラクティスを以下に示します。
 
-このページでは、[!DNL Adobe Campaign] でデザインしたメールやランディングページを障害のある人物が読み、理解し、操作できるように、すべての受信者がコンテンツにアクセスできるようにする方法について説明します。
-
-<!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
-  
+このページは、すべての受信者がコンテンツにアクセスできるようにして、障害のあるユーザーが [!DNL Adobe Campaign] で設計されたメールやランディングページを読み、理解し、やり取りできるようにします。
+ 
 ## テキストの読みやすさの確保 {#text-readability}
 
 **[!UICONTROL テキスト]**&#x200B;コンポーネントの「**[!UICONTROL スタイル]**」タブを活用して、適切なカラーコントラストやシンプルなフォントを使用するなど、テキストの読みやすさを確保します。[詳細情報](content-components.md#text)
