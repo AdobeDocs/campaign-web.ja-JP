@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -277,11 +277,11 @@ ht-degree: 98%
    + [ [!DNL Campaign]  オプションの設定](administration/options.md)
    + 外部アカウント {#external-accounts}
       + [外部アカウントの作成](administration/create-external-account.md)
-      + [Adobe ソリューションの統合](administration/integration-external-account.md)
-      + [キャンペーン固有](administration/external-account.md)
+      + [Adobe ソリューション統合](administration/integration-external-account.md)
+      + [Campaign 固有](administration/external-account.md)
       + [外部データベース](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
-      + [データを転送](administration/transfer-external-account.md)
+      + [データの転送](administration/transfer-external-account.md)
    + [列挙の管理](administration/enumerations.md)
    + [JavaScript コードの操作](administration/javascript-codes.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

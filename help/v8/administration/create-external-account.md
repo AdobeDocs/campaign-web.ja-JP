@@ -3,9 +3,9 @@ title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 86%
 >abstract="Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。また、既存の外部アカウントを表示、更新、管理することもできます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
-新しい外部アカウントを作成するには、次に示す手順に従います。 具体的な設定は、作成している外部アカウントのタイプによって異なります。
+新しい外部アカウントを作成するには、次の手順に従います。特定の設定は、作成している外部アカウントのタイプによって異なります。
 
 1. 左側のパネルメニューから、**[!UICONTROL 管理]**&#x200B;の下にある「**[!UICONTROL 外部アカウント]**」を選択します。
 
@@ -27,9 +27,9 @@ ht-degree: 86%
 
 1. **[!UICONTROL ラベル]**&#x200B;を入力し、外部アカウントの&#x200B;**[!UICONTROL タイプ]**&#x200B;を選択します。
 
-   * [キャンペーン固有のタイプ](external-account.md)
-   * [Adobe ソリューションの統合](integration-external-account.md)
-   * [データを転送](transfer-external-account.md)
+   * [Campaign 固有のタイプ](external-account.md)
+   * [Adobe ソリューション統合](integration-external-account.md)
+   * [データの転送](transfer-external-account.md)
    * [外部データベース](external-account-database.md)
 
    ![ラベルを入力して外部アカウントタイプを選択するフィールドを示すスクリーンショット。](assets/external_account_create_2.png)

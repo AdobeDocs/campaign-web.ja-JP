@@ -1,10 +1,11 @@
 ---
 title: 外部アカウントの管理
-description: Hadoop外部アカウントの設定方法を学ぶ
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+description: Hadoop 外部アカウントの設定方法について説明します
+exl-id: d2dc4d88-a97d-48bb-b668-ed970e138dfd
+source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
+workflow-type: ht
 source-wordcount: '75'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 

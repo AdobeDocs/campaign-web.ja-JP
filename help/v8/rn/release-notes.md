@@ -3,9 +3,9 @@ title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 以前のリリースで利用可能な変更と改善点について詳しくは、[2024](release-notes-24.md) ページと [2025](release-notes-25.md) ページを参照してください。
 
-## 2025 年 9 月リリース {#25-9-release}
+## 2025年9月リリース {#25-9-release}
 
-_2025 年 9 月 23 日_
+_2025年9月23日（PT）_
 
-9 月リリース以降、次の機能が使用できます。
+次の機能は、9月のリリース以降使用できます。
 
 <table>
 <thead>
@@ -35,7 +35,7 @@ _2025 年 9 月 23 日_
 <tbody>
 <tr>
 <td>
-<p>Adobe Campaign web UI から直接、カスタム API チャネルに基づいて配信を編成および実行できるようになりました。 これらの配信は、スタンドアロンで行うか、ワークフローの一部として行うことができます。カスタム API チャネルの設定は、コンソールで実行します。</p>
+<p>Adobe Campaign web UI から直接、カスタム API チャネルに基づいて配信を調整および実行できるようになりました。これらの配信は、スタンドアロンで行うか、ワークフローの一部として行うことができます。カスタム API チャネルの設定は、コンソールで実行します。</p>
 <p>詳しくは、<a href="../call-center/gs-custom-channel.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -61,13 +61,13 @@ _2025 年 9 月 23 日_
 <table>
 <thead>
 <tr>
-<th><strong>E メールコンテンツのロック</strong><br/></th>
+<th><strong>メールコンテンツのロック</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Campaign では、テンプレート全体または特定の構造とコンポーネントをロックすることで、メールテンプレートのコンテンツをロックできるようになりました。 これにより、意図しない編集や削除を防ぎ、テンプレートのカスタマイズをより細かく制御して、メールキャンペーンの効率と信頼性を向上させることができます。</p>
+<p>Campaign では、テンプレート全体または特定の構造とコンポーネントをロックして、メールテンプレート内のコンテンツをロックできるようになりました。これにより、意図しない編集や削除を防ぎ、テンプレートのカスタマイズをより細かく制御して、メールキャンペーンの効率と信頼性を向上させることができます。</p>
 <p>詳しくは、<a href="../content/content-locking.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -160,7 +160,7 @@ _2025 年 9 月 23 日_
 ### 機能強化 {#25-9-improvements}
 
 * E メールデザイナーの条件付きコンテンツ機能を使用して条件を設定する際に、新しい演算子のセットが追加されました。
-* フィルタリングディメンションが **オーディエンスを作成** ワークフローアクティビティで使用できるようになりました。 表示または変更するには、ターゲティングディメンションの横にあるアイコンをクリックします。 [詳細情報](../workflows/activities/build-audience.md#build-audience-configuration)。
+* フィルタリングディメンションが&#x200B;**オーディエンスを作成**&#x200B;ワークフローアクティビティで使用できるようになりました。表示または変更するには、ターゲティングディメンションの横にあるアイコンをクリックします。[詳細情報](../workflows/activities/build-audience.md#build-audience-configuration)。
 <!--
 
 NEO-84915 Stop button for deliveries???? ->>> met pas, juste bouton ajouté dans webUI meme comportement que console. bleu, marche, marche pas.

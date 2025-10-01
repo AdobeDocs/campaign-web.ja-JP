@@ -4,9 +4,9 @@ description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 source-git-commit: 1cec57c38b5f196db0881c498044fc9b999ed3b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 >[!BEGINTABS]
 
 
->[!TAB 2025 年 9 月リリース ]
+>[!TAB 2025年9月リリース]
 
-9 月リリースが公開されました。 API 配信用のカスタムチャネル、外部アカウントオーサリングおよびメールコンテンツのロックなど、Campaign web ユーザーインターフェイスの新機能と機能強化が使用できるようになりました。 概要については、リリースノートを参照してください。
+9月リリースが公開されました。API 配信用のカスタムチャネル、外部アカウントオーサリング、メールコンテンツのロックなど、新機能と機能強化が Campaign web ユーザーインターフェイスで使用できるようになりました。概要の全文について詳しくは、リリースノートを参照してください。
 
 [![「詳細情報」ボタン](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
