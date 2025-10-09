@@ -25,11 +25,11 @@ ht-degree: 8%
 
 プロファイルエンリッチメントを設定するには、次の主な手順に従います。
 
-1. トランザクションメッセージを作成します [ 詳細情報 ](#create-enrichment)。
-1. イベントタイプを定義します [ 詳細情報 ](#event-enrichment)。
-1. エンリッチメント設定を指定します [ 詳細情報 ](#settings-enrichment)。
-1. コンテンツを定義します [ 詳細情報 ](#content-enrichment)。
-1. 検証と送信、[ 詳細を表示 ](#send-enrichment)
+1. トランザクションメッセージを作成します [&#x200B; 詳細情報 &#x200B;](#create-enrichment)。
+1. イベントタイプを定義します [&#x200B; 詳細情報 &#x200B;](#event-enrichment)。
+1. エンリッチメント設定を指定します [&#x200B; 詳細情報 &#x200B;](#settings-enrichment)。
+1. コンテンツを定義します [&#x200B; 詳細情報 &#x200B;](#content-enrichment)。
+1. 検証と送信、[&#x200B; 詳細を表示 &#x200B;](#send-enrichment)
 
 ## トランザクションメッセージの作成{#create-enrichment}
 
