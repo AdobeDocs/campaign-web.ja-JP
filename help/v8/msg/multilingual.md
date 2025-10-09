@@ -2,9 +2,9 @@
 audience: end-user
 title: 多言語配信の設定
 description: 多言語配信の設定方法を学ぶ
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '586'
 ht-degree: 18%
 
 ---
@@ -20,7 +20,7 @@ Campaign web UI では、配信を多言語として設定し、プロファイ�
 
 多言語配信では、言語管理はバリアントに基づいています。各バリアントは 1 つの言語を表します。 配信の作成時には、メッセージに必要な言語の数に一致する複数の言語のバリアントを追加できます。 また、これらのバリアントを追加した後、いつでもデフォルト言語を変更できます。
 
-現在、多言語機能は、メール、プッシュ通知、トランザクションメッセージで使用できます。
+現在、多言語機能は、メール、プッシュ通知、トランザクションメッセージ、SMS で使用できます。
 
 >[!AVAILABILITY]
 >
@@ -28,9 +28,9 @@ Campaign web UI では、配信を多言語として設定し、プロファイ�
 
 多言語配信を設定するには、次の主な手順に従います。
 
-1. 言語バリアントを追加します [&#x200B; 詳細を表示 &#x200B;](#add-variant)
-1. 各バリアントのコンテンツを定義します [&#x200B; 詳細を表示 &#x200B;](#define-content)
-1. 言語バリアントの管理 [&#x200B; 詳細を表示 &#x200B;](#manage-variant)
+1. 言語バリアントを追加します [ 詳細を表示 ](#add-variant)
+1. 各バリアントのコンテンツを定義します [ 詳細を表示 ](#define-content)
+1. 言語バリアントの管理 [ 詳細を表示 ](#manage-variant)
 
 ## 言語バリアントの追加{#add-variant}
 
@@ -40,7 +40,7 @@ Campaign web UI では、配信を多言語として設定し、プロファイ�
 
    >[!IMPORTANT]
    >
-   >「**[!UICONTROL 言語を追加]**」ボタンは、ターゲットディメンションに **言語** スキーマが含まれている場合にのみ使用できます。 スキーマとターゲットディメンションについて詳しくは、[&#x200B; 詳細ドキュメント &#x200B;](../audience/targeting-dimensions.md) を参照してください。
+   >「**[!UICONTROL 言語を追加]**」ボタンは、ターゲットディメンションに **言語** スキーマが含まれている場合にのみ使用できます。 スキーマとターゲットディメンションについて詳しくは、[ 詳細ドキュメント ](../audience/targeting-dimensions.md) を参照してください。
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -52,7 +52,7 @@ Campaign web UI では、配信を多言語として設定し、プロファイ�
 
    >[!NOTE]
    >
-   >このリストから使用できる言語は、**Language** 属性で定義された値（system、user、dbenum などの値）によって異なります。 列挙の管理について詳しくは、この [&#x200B; 節 &#x200B;](../administration/enumerations.md) を参照してください。
+   >このリストから使用できる言語は、**Language** 属性で定義された値（system、user、dbenum などの値）によって異なります。 列挙の管理について詳しくは、この [ 節 ](../administration/enumerations.md) を参照してください。
 
 1. 他の言語を追加するには、この操作を繰り返します。 **[!UICONTROL 言語]** パネルの左側には、選択した言語のリスト、言語数およびデフォルト言語が表示されます。
 
@@ -60,7 +60,7 @@ Campaign web UI では、配信を多言語として設定し、プロファイ�
 
    ![](assets/edit-content_9.png){zoomable="yes"}
 
-   言語のバリアントの管理方法については、この [&#x200B; 節 &#x200B;](#manage-variant) を参照してください。
+   言語のバリアントの管理方法については、この [ 節 ](#manage-variant) を参照してください。
 
 ## 各バリアントのコンテンツを定義します{#define-content}
 
