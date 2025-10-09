@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
-source-wordcount: '929'
-ht-degree: 100%
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+workflow-type: tm+mt
+source-wordcount: '939'
+ht-degree: 99%
 
 ---
 
@@ -77,8 +77,10 @@ ht-degree: 100%
       + [トランザクションメッセージの作成](transactional-messaging/create-transactional.md)
       + [トランザクションメッセージの検証](transactional-messaging/validate-transactional.md)
       + [トランザクションメッセージの監視](transactional-messaging/monitor-transactional.md)
+      + [プロファイルデータによるトランザクションメッセージのエンリッチメント](transactional-messaging/profile-enrichment.md)
    + [外部配信の送信](msg/send-external-deliveries.md)
    + [メッセージへのオファーの追加](msg/offers.md)
+   + [多言語配信の設定](msg/multilingual.md)
    + [サブスクライバーへのメッセージの送信](msg/send-to-subscribers.md)
    + [配信設定の指定](advanced-settings/delivery-settings.md)
    + 配信のプレビューとテスト {#preview-test}
