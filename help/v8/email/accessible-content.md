@@ -8,9 +8,9 @@ level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
 source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1536'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,7 @@ ht-degree: 97%
 
 これに沿って、[!DNL Adobe Campaign] を使用してアクセス可能なコンテンツをデザインするベストプラクティスを以下に示します。
 
-このページは、すべての受信者がコンテンツにアクセスできるようにして、障害のあるユーザーが [!DNL Adobe Campaign] で設計されたメールやランディングページを読み、理解し、やり取りできるようにします。
- 
+このページでは、[!DNL Adobe Campaign] でデザインしたメールやランディングページを障害のある人物が読み、理解し、操作できるように、すべての受信者がコンテンツにアクセスできるようにする方法について説明します。
 
 ## テキストの読みやすさの確保 {#text-readability}
 

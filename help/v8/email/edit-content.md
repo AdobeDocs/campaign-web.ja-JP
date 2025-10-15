@@ -4,9 +4,9 @@ title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスでメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 99%
 * 送信者のアドレスや件名など、メッセージの基本要素を定義する
 * 添付ファイルの追加やオファーの設定など、追加のアクションを実行する
 * [E メールデザイナー](get-started-email-designer.md#start-authoring)にアクセスして、適切なメールのコンテンツの作成を開始する
-* 配信に言語のバリアントを追加します。 [詳細情報](../msg/multilingual.md)
+* 配信に言語バリアントを追加します。[詳細情報](../msg/multilingual.md)
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -276,7 +276,7 @@ ht-degree: 99%
    + [ターゲットマッピングの管理](administration/target-mappings.md)
    + [スキーマの操作](administration/schemas.md)
    + [カスタムフィールドの設定](administration/custom-fields.md)
-   + [&#x200B; [!DNL Campaign]  オプションの設定](administration/options.md)
+   + [ [!DNL Campaign]  オプションの設定](administration/options.md)
    + 外部アカウント {#external-accounts}
       + [外部アカウントの作成](administration/create-external-account.md)
       + [Adobe ソリューション統合](administration/integration-external-account.md)
