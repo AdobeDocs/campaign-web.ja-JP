@@ -3,10 +3,10 @@ audience: end-user
 title: ワークフロー設定の指定
 description: Adobe Campaign Web でのワークフロー設定方法について説明します
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1083'
+ht-degree: 96%
 
 ---
 
@@ -100,5 +100,10 @@ ht-degree: 0%
 * **[!UICONTROL 連続エラー]**：このフィールドは、「**[!UICONTROL エラーの場合]**」フィールドで「**[!UICONTROL 無視]**」の値が選択されたときに有効になります。プロセスを停止するまでに無視するエラーの数を指定します。この数に達すると、ワークフローのステータスが「**[!UICONTROL 失敗]**」に変わります。このフィールドの値が 0 の場合、エラーの数にかかわらず、ワークフローが停止することはありません。
 
 ## 初期化スクリプト {#initialization-script}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initialization"
+>title="初期化スクリプト"
+>abstract="このセクションでは、ワークフローの開始時に実行されるJavaScript コードを定義できます。 ワークフローアクティビティの実行前に、変数の初期化、パラメーターの設定またはデータの準備を行うために使用できます。"
 
 **初期化スクリプト**&#x200B;では、変数を初期化したり、アクティビティのプロパティを変更したりできます。「**コードを編集**」ボタンをクリックし、実行するコードのスニペットを入力します。スクリプトは、ワークフローの実行時に呼び出されます。詳しくは、[イベント変数](../workflows/event-variables.md)に関連する節を参照してください。

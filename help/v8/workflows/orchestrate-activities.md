@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1302'
+ht-degree: 90%
 
 ---
 
@@ -106,7 +106,12 @@ Journey Optimizer を使用すると、アクティビティとその子ノー�
 
 ![実行オプションパネル](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### プロパティ
+### プロパティ {#properties}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_properties"
+>title="アクティビティプロパティ"
+>abstract="このセクションでは、アクティビティを実行する方法と場所を定義できます。 実行アクションの設定、実行時間の制限、タイムゾーンの選択、マシンのアフィニティの割り当て、非同期動作の管理、エラー発生時の動作の指定を行うことができます。"
 
 「**実行**」フィールドでは、タスクの開始時に実行されるアクションを定義できます。
 
@@ -118,11 +123,21 @@ Journey Optimizer を使用すると、アクティビティとその子ノー�
 
 「**動作**」フィールドでは、非同期タスクが使用される場合に従う手順を定義できます。
 
-### エラー管理
+### エラー管理 {#execution-options}
 
-「**エラーの場合**」フィールドでは、アクティビティでエラーが発生した場合に実行するアクションを指定できます。
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_error"
+>title="初期化スクリプト"
+>abstract="このセクションでは、アクティビティが失敗した場合の動作を定義できます。 ワークフローの停止、次のアクティビティへの移動、カスタムエラー処理プロセスのトリガーなどのアクションを選択できます。"
 
-### 初期化スクリプト
+「**エラーの場合**」フィールドでは、アクティビティでエラーが発生した場合に実行するアクションを指定できます。 この[節](workflow-settings.md#error-settings)を参照してください。
+
+### 初期化スクリプト {#initialization-options}
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_activity_execution_options_initialization"
+>title="初期化スクリプト"
+>abstract="このセクションでは、アクティビティの開始時に実行されるJavaScriptを追加できます。 変数の初期化、パラメーターの設定、アクティビティの実行に固有のデータの準備に使用します。"
 
 **初期化スクリプト**&#x200B;では、変数を初期化したり、アクティビティのプロパティを変更したりできます。「**コードを編集**」ボタンをクリックし、実行するコードのスニペットを入力します。スクリプトは、アクティビティの実行時に呼び出されます。[イベント変数](../workflows/event-variables.md)に関連する節を参照してください。
 
