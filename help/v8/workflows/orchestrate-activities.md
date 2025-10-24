@@ -3,10 +3,10 @@ audience: end-user
 title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
+source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 90%
+source-wordcount: '1287'
+ht-degree: 91%
 
 ---
 
@@ -111,7 +111,7 @@ Journey Optimizer を使用すると、アクティビティとその子ノー�
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_properties"
 >title="アクティビティプロパティ"
->abstract="このセクションでは、アクティビティを実行する方法と場所を定義できます。 実行アクションの設定、実行時間の制限、タイムゾーンの選択、マシンのアフィニティの割り当て、非同期動作の管理、エラー発生時の動作の指定を行うことができます。"
+>abstract="このセクションでは、実行するアクション、最大期間、タイムゾーン、マシンのアフィニティ、非同期動作など、アクティビティの実行設定を指定できます。"
 
 「**実行**」フィールドでは、タスクの開始時に実行されるアクションを定義できます。
 
