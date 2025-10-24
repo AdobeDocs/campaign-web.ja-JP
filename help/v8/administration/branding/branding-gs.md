@@ -42,7 +42,7 @@ Campaign で組織の新しいエンティティを追加することや、別�
 
 ## 互換性に関する注意事項 {#compatibility-note}
 
-新しい一元化されたブランディングモデルは、以前クライアントコンソールで使用されていた [ 従来のブランディング ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} 設定と互換性がありません。
+新しい一元化されたブランディングモデルは、以前クライアントコンソールで使用されていた [&#x200B; 従来のブランディング &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} 設定と互換性がありません。
 
 従来のアプローチでは、お客様は extAccount フォームを拡張し、「**Branding**」タブを使用してブランディングを実装しました。
 
