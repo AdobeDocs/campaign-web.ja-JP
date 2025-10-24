@@ -104,7 +104,7 @@ ht-degree: 83%
 
 1. 「**[!UICONTROL タイポロジルールを作成]**」ボタンをクリックし、次に説明する手順に従います。
 
-   ![ タイポロジルールの作成 ](assets/business-rules-create-typo.png)
+   ![&#x200B; タイポロジルールの作成 &#x200B;](assets/business-rules-create-typo.png)
 
 ### ルールの主要なプロパティの定義 {#properties}
 
@@ -126,7 +126,7 @@ ht-degree: 83%
 
 1. ルールの&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力します。
 
-   ![ コントロールルールの作成 ](assets/business-rules-create-typo1.png)
+   ![&#x200B; コントロールルールの作成 &#x200B;](assets/business-rules-create-typo1.png)
 
 1. 「**[!UICONTROL その他のオプション]**」セクションを使用すると、ルールの内部名、フォルダーストレージ、説明などの詳細設定にアクセスできます。 また、ルールを適用するタイミングやアラートレベルも指定できます。 詳しくは、以下のセクションを展開してください。
 
@@ -169,11 +169,11 @@ ht-degree: 83%
 
 1. ルールの&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力します。
 
-   ![ フィルタールールの作成 ](assets/business-rules-create-typo2.png)
+   ![&#x200B; フィルタールールの作成 &#x200B;](assets/business-rules-create-typo2.png)
 
 1. 「**[!UICONTROL その他のオプション]**」セクションを展開して、ルールの内部名、フォルダーストレージ、説明などの詳細設定にアクセスします。
 
-1. ルールのコンテンツを作成するには、ターゲティングディメンションを選択し、「**[!UICONTROL ルールを追加]**」ボタンをクリックし、[ ルールビルダー ](../query/query-modeler-overview.md) を使用してフィルター条件を定義します。
+1. ルールのコンテンツを作成するには、ターゲティングディメンションを選択し、「**[!UICONTROL ルールを追加]**」ボタンをクリックし、[&#x200B; ルールビルダー &#x200B;](../query/query-modeler-overview.md) を使用してフィルター条件を定義します。
 
    ![フィルタリングルールクエリモデラー](assets/business-rules-query.png)
 
@@ -185,7 +185,7 @@ ht-degree: 83%
 
 次に、追加のパラメーターを定義します。 この画面では、以前に定義した主なプロパティを引き続き変更できます。
 
-![ フィルタールールの作成を追加 ](assets/business-rules-create-typo3.png)
+![&#x200B; フィルタールールの作成を追加 &#x200B;](assets/business-rules-create-typo3.png)
 
 1. ルールを作成した直後にアクティブにしない場合は、「**[!UICONTROL アクティブ]**」オプションの切替スイッチをオフにします。
 
