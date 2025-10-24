@@ -3,10 +3,10 @@ audience: end-user
 title: Campaign web ユーザーインターフェイス／クライアントコンソール機能マトリックス
 description: Campaign web ユーザーインターフェイスでサポートされる機能のリスト
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 031d157feb122283c0b9bec24fb3ffafc3e63297
-workflow-type: ht
-source-wordcount: '2072'
-ht-degree: 100%
+source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+workflow-type: tm+mt
+source-wordcount: '2134'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ Campaign web ユーザーインターフェイスを使用すれば、[この節
 提供されたリンクを使用して、Campaign v8（クライアントコンソール）ドキュメントを参照し、これらの機能の使用方法の詳細を確認してください。
 
 * **マーケティングカレンダー**。キャンペーンカレンダーには、すべてのプログラム、プラン、キャンペーンおよび配信がグローバルタイムラインで表示されます。この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#campaign-calendar){target="_blank"}
-* **プログラムとプラン**。各キャンペーンは 1 つのプログラムに属し、プログラムはプランに属します。Campaign web ユーザーインターフェイスでは、すべてのキャンペーンがデフォルトの組み込みプランおよびプログラムに関連付けられます。クライアントコンソールで作成および管理できるのは、プランとプログラムのみです。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#work-with-plan-and-program){target="_blank"}
+* **プログラムとプラン**。各キャンペーンは 1 つのプログラムに属し、プログラムはプランに属します。Campaign web ユーザーインターフェイスでは、すべてのキャンペーンがデフォルトのビルトインのプランおよびプログラムに関連付けられます。クライアントコンソールで作成および管理できるのは、プランとプログラムのみです。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#work-with-plan-and-program){target="_blank"}
 * **プロバイダー、予算およびコストの管理**。キャンペーン内で実行されるジョブに関係するサービスプロバイダー（コスト構造など）を設定し、各プログラムとキャンペーン内の予算を管理できます。この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html?lang=ja){target="_blank"}
 * **分散型マーケティング**（セントラル／ローカルマーケティング）Adobe Campaign では、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域のエージェントなど）が協調キャンペーンを展開できる、分散型マーケティングアプリを活用できます。この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}
 * **マーケティングリソース管理**（MRM）、目標、シミュレーションおよびコスト管理。また、Adobe Campaign では、マーケティングリソース管理（MRM）アプリを活用して、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。この機能は、クライアントコンソールでのみ使用できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ja){target="_blank"}
@@ -52,7 +52,7 @@ Adobe Campaign では、ランディングページを作成、設計および�
 その結果、Campaign クライアントコンソールでは、web インターフェイスで作成したランディングページを編集、更新、変更できません。逆も同様です。次のタイプの web アプリケーションは、Campaign web ユーザーインターフェイスでは使用できません。ただし、ランディングページのリストには表示されます。提供されたリンクを使用して、Campaign Classic v7 ドキュメントを参照し、これらの web アプリの詳細を確認してください。
 
 * **Web アプリケーション**。Adobe Campaign では、データベースからプリロードされたデータと、接続ユーザーの権限に応じたコンテンツを使用して、動的でインタラクティブな web アプリケーションを作成および公開できます。この機能は、クライアントコンソールでのみ使用できます。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=ja){target="_blank"}を参照してください
-* **Web フォーム**。クライアントコンソールで設計した web ページとランディングページは、Campaign Web ユーザーインターフェイスに表示されますが、編集または変更できません。一部のオプションは、クライアントコンソール web ページデザイナーと、Campaign web ユーザーインターフェイスに付属するランディングページデザイナーとの間で異なる場合があります。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。
+* **Web フォーム**。クライアントコンソールで設計した web ページとランディングページは、Campaign Web ユーザーインターフェイスに表示されますが、編集または変更できません。一部のオプションは、クライアントコンソール web ページ designer と、Campaign web ユーザーインターフェイスに付属するランディングページ designer との間で異なる場合があります。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=ja){target="_blank"}を参照してください。
 * **オンライン調査**。オンライン調査を作成し、クライアントコンソールからのみ回答を収集できます。この機能は、Campaign web ユーザーインターフェイスでは使用できません。詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/online-surveys/about-surveys.html?lang=ja){target="_blank"}を参照してください。
 
 ## プロファイル、テストプロファイルおよびオーディエンス {#profiles-audiences-capabilities}
@@ -72,7 +72,7 @@ Campaign クライアントコンソールまたは Adobe Experience Platform �
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=ja){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -104,16 +104,16 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい�
 提供されたリンクを使用して、Campaign v8（クライアントコンソール）ドキュメントを参照し、タイポロジルールの詳細を確認してください。
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ja){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
 * 疲労／頻度ルールの作成。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=ja){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=ja){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
 * キャンペーンのシミュレーション。[詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=ja){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## ワークフロー {#wf-capabilities}
@@ -126,7 +126,7 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい�
 * Scripting in workflows
 -->
 
-* ETL アクティビティ：書き出し、スキーマ編集、データ読み込み、データ抽出、SQL コード
+* ETL アクティビティ：エクスポート、スキーマ編集、データインポート、データ抽出、SQL コード
 
 使用可能なワークフローアクティビティについて詳しくは、[こちら](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=ja){target="_blank"}にある Adobe Campaign v8（コンソール）ワークフロードキュメントを参照してください。
 
@@ -153,7 +153,7 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい�
 
 一部の機能は、クライアントコンソールからのみ使用できます。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=ja){target="_blank"}の提供されたリンクを参照してください。
 
-* 組み込み配信品質レポートとインボックスレンダリング。[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/inbox-rendering.html?lang=ja){target="_blank"}
+* ビルトインの配信品質レポートとインボックスレンダリング。[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/inbox-rendering.html?lang=ja){target="_blank"}
 * レポートのカスタマイズ。[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-new-report.html?lang=ja){target="_blank"}
 * 記述的分析。[詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=ja){target="_blank"}
 * キャンペーン分析／キューブレポート。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=ja){target="_blank"}
@@ -212,3 +212,9 @@ Campaign プラットフォームの監視機能は、クライアントコン�
 * [ワークフローヒートマップ](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=ja){target="_blank"}
 * [パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja){target="_blank"}
 * [配信品質の監視](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=ja){target="_blank"}
+
+## タイムゾーン管理 {#timezone-management}
+
+Adobe Campaign Web UI は、**ユーザーの web ブラウザーのローカルタイムゾーン** に基づいて、すべての日付と時刻の値を表示します。 この動作により、web UI とクライアントコンソールでタイムスタンプを比較する際に違いが生じる可能性があります。
+
+[Web UI](../administration/timezone-management.md)、**クライアントコンソール**、および **ワークフロー実行** タイムゾーンの違いについて詳しくは、この **ページ** を参照してください。
