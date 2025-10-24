@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 74%
 
 ---
 
@@ -126,3 +126,27 @@ ht-degree: 100%
 1. 配信をさらにパーソナライズします。メールの作成について詳しくは、[メールのデザインと送信](../../email/create-email.md)の節を参照してください。
 
 >[!ENDTABS]
+
+## トランザクションメッセージに関連付けられたブランディングの確認 {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>この節は、トランザクションメッセージ（Message Center）にのみ適用されます。
+>
+>トランザクション機能は Campaign web UI で使用できますが、以下の検証手順は Campaign v8 クライアントコンソール（コントロールインスタンス）で実行する必要があります。
+
+リアルタイム（RT）実行インスタンスからコントロールインスタンスに同期されるトランザクション配信では、ルーティングやブランディングなどのプロパティはレプリケートされません。 これらの同期された配信は、コントロールインスタンスに配信指標を返すために、同じテンプレートから毎週生成されます。
+
+このため、コントロールインスタンスにはデフォルトのブランドが表示されます。 メッセージ実行時に使用される実際のブランドとルーティング設定は、コントロールインスタンスのトランザクションメッセージテンプレートで定義されます。
+
+トランザクションメッセージに使用されたブランドを確認するには：
+
+1. リアルタイムに公開されるトランザクションテンプレートの内部名（例：`TransactionalMessaging4768`）を識別します。
+
+   ![](assets/branding-transactional.png)
+
+1. コントロールインスタンスの **トランザクションメッセージテンプレート** で、この内部名を検索します。
+
+   ![](assets/branding-transactional2.png)
+
+1. テンプレートを開いて、ブランドとその他の関連プロパティを表示します。

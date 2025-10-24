@@ -3,10 +3,10 @@ audience: end-user
 title: 本配信前確認の送信
 description: 本配信前確認の送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 100%
+source-wordcount: '1193'
+ht-degree: 95%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >配信の[オーディエンス](../audience/about-recipients.md)を選択していない場合、「**[!UICONTROL メインターゲットから代用]**」オプションは灰色表示され、代用プロファイルを選択できません。
+   >配信の [ オーディエンス ](../audience/about-recipients.md) を選択していない場合、「**[!UICONTROL メインターゲットから代用]**」オプションは灰色表示され、代用プロファイルを選択できません。 また、ターゲットオーディエンスが選択されている場合でも、繰り返しタイプの配信では、メインの配信がテンプレートなので、このオプションは引き続きグレー表示されます。
 
 1. 「**[!UICONTROL アドレスを追加]**」ボタンをクリックし、本配信前確認を受信するメールアドレスまたは電話番号を指定します。
 
