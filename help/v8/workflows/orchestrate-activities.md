@@ -4,9 +4,9 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -128,16 +128,16 @@ Journey Optimizer を使用すると、アクティビティとその子ノー�
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_error"
 >title="初期化スクリプト"
->abstract="このセクションでは、アクティビティが失敗した場合の動作を定義できます。 ワークフローの停止、次のアクティビティへの移動、カスタムエラー処理プロセスのトリガーなどのアクションを選択できます。"
+>abstract="このセクションでは、アクティビティが失敗した場合のアクションを定義できます。ワークフローの停止、次のアクティビティへの移動、カスタムエラー処理プロセスのトリガーなどのアクションを選択できます。"
 
-「**エラーの場合**」フィールドでは、アクティビティでエラーが発生した場合に実行するアクションを指定できます。 この[節](workflow-settings.md#error-settings)を参照してください。
+「**エラーの場合**」フィールドでは、アクティビティでエラーが発生した場合に実行するアクションを指定できます。この[節](workflow-settings.md#error-settings)を参照してください。
 
 ### 初期化スクリプト {#initialization-options}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_activity_execution_options_initialization"
 >title="初期化スクリプト"
->abstract="このセクションでは、アクティビティの開始時に実行されるJavaScriptを追加できます。 変数の初期化、パラメーターの設定、アクティビティの実行に固有のデータの準備に使用します。"
+>abstract="このセクションでは、アクティビティの開始時に実行される JavaScript を追加できます。変数の初期化、パラメーターの設定、そのアクティビティの実行に固有のデータの準備に使用します。"
 
 **初期化スクリプト**&#x200B;では、変数を初期化したり、アクティビティのプロパティを変更したりできます。「**コードを編集**」ボタンをクリックし、実行するコードのスニペットを入力します。スクリプトは、アクティビティの実行時に呼び出されます。[イベント変数](../workflows/event-variables.md)に関連する節を参照してください。
 
