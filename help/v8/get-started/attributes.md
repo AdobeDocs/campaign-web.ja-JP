@@ -4,7 +4,7 @@ title: 属性を選択してお気に入りに追加
 description: 属性を操作し、お気に入りの属性や最近使用した属性に簡単にアクセスする方法について説明します。
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
 source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%
 

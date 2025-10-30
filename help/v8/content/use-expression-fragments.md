@@ -5,8 +5,8 @@ description: コンテンツフラグメントの作成方法について説明�
 exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '161'
+ht-degree: 100%
 
 ---
 

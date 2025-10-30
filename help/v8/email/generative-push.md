@@ -4,7 +4,7 @@ title: AI アシスタントを使用したプッシュ通知
 description: AI アシスタントの基本を学ぶ
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ title: SMS チャネルのキャンペーンレポート
 description: SMS チャネルのキャンペーンレポートについて
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ![SMS 指標を示す配信の概要レポート](assets/campaign_report_sms_1.png){zoomable="yes"}
 
-+++SMS キャンペーンレポート指標の詳細情報
++++SMS キャンペーンレポート指標の詳細を説明します。
 
 * **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 ![受信者データを示す初期ターゲットオーディエンス統計テーブル](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++SMS キャンペーンレポート指標の詳細情報
++++SMS キャンペーンレポート指標の詳細を説明します。
 
 * **[!UICONTROL 初期オーディエンス]**：ターゲット受信者の合計数。
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 ![配信の成功指標を示す実行統計テーブル](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++SMS キャンペーンレポート指標の詳細情報
++++SMS キャンペーンレポート指標の詳細を説明します。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 ![受信者のインタラクションデータを示す生成されたクリックストリームテーブル](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++SMS キャンペーンレポート指標の詳細情報
++++SMS キャンペーンレポート指標の詳細を説明します。
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 

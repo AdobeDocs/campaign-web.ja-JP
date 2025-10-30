@@ -5,8 +5,8 @@ description: Adobe Campaign web でダイレクトメール配信をプレビュ
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '572'
+ht-degree: 100%
 
 ---
 
@@ -68,8 +68,8 @@ ht-degree: 0%
 
    ダイレクトメール配信がスケジュールされている場合は、「**[!UICONTROL スケジュールどおりに送信]**」ボタンをクリックします。配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#schedule-the-delivery-sending)を参照してください。
 
-配信を送信すると、抽出ファイルが自動的に生成され、配信テンプレートの[詳細設定](../advanced-settings/delivery-settings.md)で選択した&#x200B;**[!UICONTROL ルーティング]**&#x200B;外部アカウントで指定した場所に書き出されます。
+配信を送信すると、抽出ファイルが自動的に生成され、配信テンプレートの[詳細設定](../advanced-settings/delivery-settings.md)で選択した&#x200B;**[!UICONTROL ルーティング]**&#x200B;外部アカウントで指定した場所にエクスポートされます。
 
 配信ページから KPI（主要業績評価指標）データを追跡し、**[!UICONTROL ログ]**&#x200B;メニューからデータを追跡します。
 
-組み込みレポートを使用して、メッセージの影響の測定を開始します。[詳細情報](../reporting/direct-mail.md)
+ビルトインのレポートを使用して、メッセージの影響の測定を開始します。[詳細情報](../reporting/direct-mail.md)

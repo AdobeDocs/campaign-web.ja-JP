@@ -3,7 +3,7 @@ title: プロファイルの詳細の探索
 description: プロファイルの詳細の探索方法について説明します。
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 100%
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 プロファイルの情報は、次のように分類されます。
 
-* 「**[!UICONTROL 詳細]**」タブを使用すると、プロファイルの組み込み属性とカスタム属性を参照できます。属性を編集するには、必要なフィールドに変更を加え、「**[!UICONTROL 保存]**」ボタンをクリックします。プロファイルの属性について詳しくは、[プロファイルの作成](create-profile.md)の節を参照してください。
+* 「**[!UICONTROL 詳細]**」タブを使用すると、プロファイルのビルトインの属性とカスタム属性を参照できます。属性を編集するには、必要なフィールドに変更を加え、「**[!UICONTROL 保存]**」ボタンをクリックします。プロファイルの属性について詳しくは、[プロファイルの作成](create-profile.md)の節を参照してください。
 
-  ![組み込み属性とカスタム属性を含む、プロファイルの「詳細」タブを示すスクリーンショット。](assets/profile-details.png){zoomable="yes"}
+  ![ビルトインの属性とカスタム属性を含む、プロファイルの「詳細」タブを示すスクリーンショット。](assets/profile-details.png){zoomable="yes"}
 
 * 「**[!UICONTROL サブスクリプション]**」タブには、プロファイルがサブスクライブしているサービスに関する情報が表示されます。[サブスクリプションサービスの詳細情報を参照してください](manage-services.md)
 

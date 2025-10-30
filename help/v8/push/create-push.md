@@ -5,8 +5,8 @@ description: Adobe Campaign Web を使用してプッシュ通知配信を作成
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '738'
+ht-degree: 96%
 
 ---
 
@@ -45,13 +45,12 @@ ht-degree: 0%
 
 1. 必要に応じて、**[!UICONTROL 追加オプション]**&#x200B;ドロップダウンを参照してオプションをカスタマイズします。配信が拡張スキーマに基づいている場合は、特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。
 
-   +++要件に基づいて次の設定を行います。
+   +++要件に基づいて、次の設定を指定します。
    * **[!UICONTROL 内部名]**：配信に一意の ID を割り当てます。
    * **[!UICONTROL フォルダー]**：配信を特定のフォルダーに保存します。
    * **[!UICONTROL 配信コード]**：独自の命名規則を使用して配信を整理します。
    * **[!UICONTROL 説明]**：配信の説明を指定します。
    * **[!UICONTROL 特性]** : 分類目的で配信の特性を指定します。
-
    +++
 
 ## プッシュ配信オーディエンスの選択 {#create-audience-push}
@@ -68,7 +67,7 @@ ht-degree: 0%
 
    ![プッシュ配信のオーディエンスの選択を示すスクリーンショット](assets/push_create_2.png){zoomable="yes"}
 
-1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。プッシュ通知の場合、デフォルトの[ターゲットディメンション](../audience/about-recipients.md#targeting-dimensions)は&#x200B;**サブスクライバーのアプリケーション**（nms:appSubscriptionRcp）であり、受信者のテーブルにリンクされています。
+1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。プッシュ通知の場合、デフォルトの [ ターゲットディメンション ](../audience/about-recipients.md#targeting-dimensions) は **購読者のアプリケーション** （nms:appSubscriptionRcp）であり、受信者テーブルにリンクされています。
 
    既存のオーディエンスを選択する方法について詳しくは、[このページ](../audience/add-audience.md)を参照してください。
 

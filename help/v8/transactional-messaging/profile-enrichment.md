@@ -3,7 +3,7 @@ audience: end-user
 title: トランザクションメッセージにおけるプロファイルのエンリッチメント
 description: Campaign web ユーザーインターフェイスでトランザクションメッセージを作成する方法について説明します。
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: 8f41312e-422f-4be1-b874-1b143c500912
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3892'
 ht-degree: 100%
 

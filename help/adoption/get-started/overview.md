@@ -105,19 +105,19 @@ Campaign Standard ユーザーが Adobe Campaign v8 に移行する場合は、�
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  様々なメールテンプレートを提供し、画像を生成および再生成します。AI アシスタントについて詳しくは、[&#x200B; この節 &#x200B;](../../v8/email/generative-content.md) を参照してください。 Adobe Campaign v8 には、[メール](../../v8/email/generative-content.md)、[SMS](../../v8/email/generative-sms.md)、[プッシュ](../../v8/email/generative-push.md)で使用できる AI アシスタントが用意されています。
+  様々なメールテンプレートを提供し、画像を生成および再生成します。AI アシスタントについて詳しくは、[ この節 ](../../v8/email/generative-content.md) を参照してください。 Adobe Campaign v8 には、[メール](../../v8/email/generative-content.md)、[SMS](../../v8/email/generative-sms.md)、[プッシュ](../../v8/email/generative-push.md)で使用できる AI アシスタントが用意されています。
 
 * **アップグレードされた SMS インフラストラクチャ - SMS v2.0**
 
   SMS は、その堅牢性と数十億台の端末にわたる比類のない互換性に加え、そのシンプルさと使いやすさにより、非常に価値のある通信チャネルとなっています。
 
-  Adobe Campaign v8 には、SMS の送信を改善する新しいインフラストラクチャが付属しています。[&#x200B; 新しい SMS 設定の詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
+  Adobe Campaign v8 には、SMS の送信を改善する新しいインフラストラクチャが付属しています。[ 新しい SMS 設定の詳細情報 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}。
 
 * **アップグレードされたプッシュインフラストラクチャ**
 
   Adobe Campaign v8 では、最新の最先端テクノロジーに基づいて作成された堅牢なフレームワークを活用した、最新のプッシュ通知サービスが導入されています。このサービスは、新しいレベルのスケーラビリティを実現するように設計されており、シームレスな効率でより多くのオーディエンスに通知を届けることができます。インフラストラクチャの強化とプロセスの最適化により、より高いスケールと信頼性が期待でき、これまでにない方法でモバイルアプリユーザーと関わり、つながりを持てるようになります。
 
-  [&#x200B; アップグレードされたプッシュインフラストラクチャの詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
+  [ アップグレードされたプッシュインフラストラクチャの詳細情報 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}。
 
 
 ## Managed Services {#ac-managed-services}
@@ -126,7 +126,7 @@ Adobe Campaign v8 は Managed Cloud Services として利用でき、先を見�
 
 ## v8 に追加された Campaign Standard 機能 {#ac-v8-added}
 
-Campaign v8 への移行をスムーズに行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。詳しくは、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"} を参照してください。
+Campaign v8 への移行をスムーズに行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja){target="_blank"} を参照してください。
 
 * **動的レポート**：動的レポートでは、マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供します。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析を可能にします。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=ja){target="_blank"}。
 
@@ -228,4 +228,4 @@ Adobe Campaign v8 の新しいユーザーエクスペリエンスについて�
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->

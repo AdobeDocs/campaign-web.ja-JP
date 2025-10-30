@@ -5,8 +5,8 @@ description: Adobe Campaign Web を使用してワークフローを作成する
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '351'
+ht-degree: 100%
 
 ---
 

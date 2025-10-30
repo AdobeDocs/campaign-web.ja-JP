@@ -4,9 +4,9 @@ title: ダイレクトメールレポート
 description: ダイレクトメールレポートへのアクセス方法と使用方法について説明します。
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '696'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ![ダイレクトメール配信の主要業績評価指標を示す配信の概要指標グラフ。](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++配信の概要指標の詳細情報
++++配信の概要指標について説明します。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 * **[!UICONTROL ターゲット]**：ダイレクトメールメッセージのターゲットプロファイルとして選定されるユーザープロファイルの数。
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 ![マウス機能を使用した初期ターゲット母集団グラフの詳細ビュー。](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++ダイレクトメール配信レポート指標の詳細情報
++++ダイレクトメール配信レポート指標の詳細について説明します。
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
 * **[!UICONTROL 配信]**：配信準備の後に配信されるメッセージの合計数。
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 ![成功率、エラー、強制隔離を示す配信統計グラフ](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++ダイレクトメールキャンペーンレポート指標の詳細情報
++++ダイレクトメールキャンペーンレポート指標の詳細について説明します。
 
 * **[!UICONTROL 送信済みメッセージ]**：配信準備完了後に配信されるメッセージの合計数。
 * **[!UICONTROL 成功数]**：配信するメッセージ数と比較した、正常に処理されたメッセージ数。
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 ![却下されたメッセージのルール別の割合を示す除外の理由グラフ](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++除外の理由指標の詳細情報
++++除外指標の原因の詳細を説明します。
 
 * **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離された場合に生成されるエラータイプ。
 * **[!UICONTROL アドレスが未指定]**：アドレスが存在しない場合に生成されるエラータイプ。

@@ -5,8 +5,8 @@ description: Campaign web ユーザーインターフェイスでのメールの
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '949'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
    * **[!UICONTROL ターゲット]**：ターゲットとする受信者の数。
    * **[!UICONTROL 配信対象]**：送信されるメッセージの数。
-   * **[!UICONTROL 除外対象]**&#x200B;[：タイポロジルールによって除外されるメッセージの数](../advanced-settings/delivery-settings.md#typology)。
+   * **[!UICONTROL 除外対象]**[：タイポロジルールによって除外されるメッセージの数](../advanced-settings/delivery-settings.md#typology)。
 
 1. 「**[!UICONTROL ログ]**」ボタンをクリックし、エラーがないことを確認します。最後のログメッセージには、エラーメッセージとエラー件数が表示されます。[詳細情報](delivery-logs.md)
 

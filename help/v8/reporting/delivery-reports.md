@@ -5,8 +5,8 @@ description: 配信レポートへのアクセス方法と使用方法につい�
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '286'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## レポートダッシュボードの管理 {#manage-reports}
 
-Adobe Campaign には、配信ごとにアクセス可能な複数のタイプのレポートが用意されています。これらのレポートは、メッセージの影響とパフォーマンスを組み込みダッシュボードで測定し、視覚化します。
+Adobe Campaign には、配信ごとにアクセス可能な複数のタイプのレポートが用意されています。これらのレポートは、メッセージの影響とパフォーマンスをビルトインのダッシュボードで測定し、視覚化します。
 
 レポートを表示および管理するには、次の手順に従います。
 

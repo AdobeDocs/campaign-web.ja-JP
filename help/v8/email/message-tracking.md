@@ -4,7 +4,7 @@ title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 

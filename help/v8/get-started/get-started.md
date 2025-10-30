@@ -4,9 +4,9 @@ title: Adobe Campaign Web の基本を学ぶ
 description: Adobe Campaign Web の基本を学ぶ
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
-source-wordcount: '566'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ Campaign を使用すると、次のことが可能になります。
 
 Adobe Campaign Web に接続する方法については、[このページ](connect-to-campaign.md)を参照してください。
 
-➡️ [Campaign web をビデオで確認](#video)
+➡️[ ビデオで Campaign Web を確認する ](#video)
 
 ## Campaign クライアントコンソールについて {#ac-client}
 
@@ -66,7 +66,7 @@ Campaign v8 をクライアントコンソールで使用する方法につい�
 
 Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI-powered Knowledge Assistant.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453423?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
 -->
 
 <!--
@@ -96,7 +96,7 @@ With workflows, you can orchestrate the full range of processes and tasks, impro
 
 Understand how workflows work and how to create a targeting workflow in this how-to video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3448365?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
 
 Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. Learn how to use it in [this section](../query/query-modeler-overview.md)
 

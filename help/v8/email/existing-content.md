@@ -5,8 +5,8 @@ description: メールコンテンツの読み込み方法を学ぶ
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '290'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ E メールデザイナーで既存の HTML コンテンツを読み込むこと
 >
 >.zip ファイル構造に制約はありません。ただし、.zip フォルダーのツリー構造内に合わせて、相対参照を指定する必要があります。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
 
 HTML コンテンツを含んだファイルをインポートするには、次の手順に従います。
 
@@ -56,4 +56,4 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
 HTML をアップロードしてメールを作成する方法、E メールデザイナーと互換性を持たせる方法、テンプレートに変換する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447033/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

@@ -4,7 +4,7 @@ description: プッシュ通知の標準レポートでは、プッシュ通知�
 level: Intermediate
 audience: end-user
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%
 

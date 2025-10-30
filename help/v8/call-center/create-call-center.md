@@ -4,7 +4,7 @@ title: コールセンター配信の作成
 description: Adobe Campaign web でコールセンター配信を作成する方法について説明します
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 100%
 
@@ -124,4 +124,4 @@ ht-degree: 100%
 
 配信ページから KPI（主要業績評価指標）データを追跡し、**[!UICONTROL ログ]**&#x200B;メニューからデータを追跡します。
 
-組み込みレポートを使用して、メッセージの影響の測定を開始します。[詳細情報](../reporting/direct-mail.md)
+ビルトインのレポートを使用して、メッセージの影響の測定を開始します。[詳細情報](../reporting/direct-mail.md)

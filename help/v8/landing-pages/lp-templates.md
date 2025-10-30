@@ -6,8 +6,8 @@ feature: Landing Pages
 exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 100%
 
 ---
 
@@ -55,6 +55,6 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL このテンプレートを使用]**」をクリックします。
 
-1. ランディングページデザイナーを使用して、必要に応じてコンテンツを編集します。
+1. ランディングページ designer を使用して、必要に応じてコンテンツを編集します。
 
 <!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

@@ -8,7 +8,7 @@ level: Intermediate
 keywords: CSS, エディター, 概要, メール
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
 source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -167,7 +167,7 @@ body {
 
 次の例に示すように、カスタム CSS は、`data-name="global-custom"` 属性を持つ `<style>` タグの一部として `<head>` セクションの末尾に追加されます。これにより、カスタムスタイルがコンテンツにグローバルに適用されます。
 
-+++ 詳しくは、サンプルを参照してください
++++ 詳しくは、サンプルを参照してください 
 
 ```html
 <!DOCTYPE html>
@@ -247,7 +247,7 @@ E メールデザイナーにインポートしたコンテンツでカスタム
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * CSS が他の CSS ルールによって上書きされていないことを確認します。
 
@@ -255,7 +255,7 @@ E メールデザイナーにインポートしたコンテンツでカスタム
 
    * 優先されるようにするには、宣言に `!important` を追加することを考慮します。
 
-+++ 例：
+     +++ 例：
 
      ```css
      .acr-Form {
@@ -263,4 +263,4 @@ E メールデザイナーにインポートしたコンテンツでカスタム
      }
      ```
 
-+++
+     +++

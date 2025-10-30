@@ -3,7 +3,7 @@ title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 

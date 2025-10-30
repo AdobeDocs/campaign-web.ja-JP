@@ -5,8 +5,8 @@ description: Adobe Campaign Web で SMS を作成して送信する方法を学�
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '511'
+ht-degree: 98%
 
 ---
 
@@ -43,13 +43,12 @@ ht-degree: 0%
 
 1. 配信の&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力し、**[!UICONTROL その他のオプション]**&#x200B;ドロップダウンにアクセスします。配信が拡張スキーマを使用する場合は、特定の&#x200B;**カスタムオプション**&#x200B;フィールドを使用できます。
 
-   +++要件に基づいて次の設定を行います。
+   +++要件に基づいて、次の設定を指定します。
    * **[!UICONTROL 内部名]**：配信に一意の ID を割り当てます。
    * **[!UICONTROL フォルダー]**：配信を特定のフォルダーに保存します。
    * **[!UICONTROL 配信コード]**：独自の命名規則を使用して配信を整理します。
    * **[!UICONTROL 説明]**：配信の説明を指定します。
    * **[!UICONTROL 特性]**  : 分類目的で配信の特性を指定します。
-
    +++
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、既存のオーディエンスをターゲットにするか、独自のユーザーを作成します。[詳しくは、オーディエンスを参照してください](../audience/about-recipients.md)。

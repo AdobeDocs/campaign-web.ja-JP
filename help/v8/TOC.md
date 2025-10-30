@@ -6,7 +6,7 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 100%
 

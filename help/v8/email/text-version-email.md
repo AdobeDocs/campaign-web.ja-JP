@@ -5,8 +5,8 @@ description: メールのテキストバージョンを作成する方法を学�
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
 

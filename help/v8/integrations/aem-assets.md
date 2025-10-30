@@ -5,8 +5,8 @@ description: Adobe Experience Manager Assets as a Cloud Service を使用して�
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '435'
+ht-degree: 100%
 
 ---
 

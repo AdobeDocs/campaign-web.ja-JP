@@ -4,7 +4,7 @@ title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスのE メールデザイナーを使用して、コンテンツ作成を開始する方法を学ぶ
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 

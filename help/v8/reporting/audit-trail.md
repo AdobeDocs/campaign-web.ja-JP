@@ -5,7 +5,7 @@ description: Campaign 監査記録を使用してインスタンスを監視す�
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Adobe Campaign web ユーザーインターフェイスで、**[!UICONTROL 監�
    * 開始
    * 一時停止
    * 停止
-   * 再度開始
+   * 再開
    * クリーンアップ（「履歴をパージ」アクションと同じ）
    * シミュレーション（「シミュレーションモードで開始」アクションと同じ）
    * ウェイクアップ（「保留中のタスクを今すぐ実行」アクションと同じ）

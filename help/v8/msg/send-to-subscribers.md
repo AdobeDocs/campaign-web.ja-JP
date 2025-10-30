@@ -5,8 +5,8 @@ description: サービスのサブスクライバーにメッセージを送信�
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '296'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign でサブスクリプションサービスを作成し、メッ�
 
 1. 配信を作成します。配信の作成手順について詳しくは、[このページ](../msg/gs-messages.md#create-delivery)を参照してください。
 
-1. 配信設定を参照し、デフォルトのターゲットマッピングを&#x200B;**サブスクリプション（nms:subscriptions）**&#x200B;に変更します。
+1. 配信設定を参照し、デフォルトのターゲットマッピングを **購読（nms:subscriptions）** に変更します。
 
    ![ターゲットマッピングを Adobe Campaign の購読に変更した配信設定を示すスクリーンショット。](assets/service-delivery-change-mapping.png){zoomable="yes"}
 

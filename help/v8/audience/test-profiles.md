@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ➡️ [ビデオでこの機能を確認する](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=ja){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 テストプロファイルに本配信前確認を送信する手順については、[この節](../preview-test/test-deliveries.md#test-profiles)を参照してください。
 
@@ -112,4 +112,4 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 Campaign web ユーザーインターフェイスを使用してテストプロファイルを作成および管理する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3442896?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

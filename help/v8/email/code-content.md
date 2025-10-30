@@ -5,8 +5,8 @@ description: 独自のメールコンテンツのコーディング方法を説�
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '131'
+ht-degree: 100%
 
 ---
 

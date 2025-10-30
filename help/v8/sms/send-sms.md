@@ -5,8 +5,8 @@ description: Adobe Campaign Web で SMS を送信する方法を学ぶ
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ SMS メッセージを確認してオーディエンスに送信します。
 
 本配信前確認の送信は、配信の品質と有効性を保証するために重要です。本配信前確認の受信者は、リンク、オプトアウトリンク、画像などの様々な要素を確認し、レンダリング、コンテンツ、パーソナライゼーション設定、SMS 設定のエラーを特定します。このプロセスは、メインオーディエンスにリーチする前に SMS を徹底的に評価して最適化します。
 
-![本配信前確認を送信するためのブックアイコン &#x200B;](../assets/do-not-localize/book.png) 本配信前確認の送信方法について詳しくは、[この節](../preview-test/test-deliveries.md)を参照してください。
+![本配信前確認を送信するためのブックアイコン ](../assets/do-not-localize/book.png) 本配信前確認の送信方法について詳しくは、[この節](../preview-test/test-deliveries.md)を参照してください。
 
 ![SMS 配信のテスト](assets/sms_send_6.png){zoomable="yes"}
 
@@ -70,4 +70,4 @@ SMS メッセージを確認してオーディエンスに送信します。
 
 配信が送信されると、配信ページから KPI（主要業績評価指標）データを追跡し、**[!UICONTROL ログ]**&#x200B;メニューからデータを追跡します。
 
-組み込みレポートを使用して、メッセージの影響の測定を開始します。[詳細情報](../reporting/sms-report.md)
+ビルトインのレポートを使用して、メッセージの影響の測定を開始します。[詳細情報](../reporting/sms-report.md)

@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Campaign web 式エディターに JavaScript 構造を挿入することで、�
 
   [説明：受信者の購読に基づくメールバナーの条件付きコンテンツの例。](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
 
 ## 式エディターへのアクセス {#access}
 

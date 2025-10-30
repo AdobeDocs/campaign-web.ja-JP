@@ -6,7 +6,7 @@ exl-id: 1adffb16-2373-4ad4-8009-b53ff7a9c425
 source-git-commit: bca2b133968d9392098e9b8b76d65e44d7e84645
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -93,4 +93,4 @@ Adobe Campaign v8 で提供される最新の機能強化の概要を確認し�
 
 ## その他のリソース
 
-[Adobe Campaign v8 の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign web ユーザーインターフェイスドキュメント](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} - [Adobe Campaign クライアントコンソールドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [クライアントコンソールチュートリアル](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign] 自動化ガイド](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Campaign v8 のコントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}
+[Adobe Campaign v8 製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Adobe Campaign web ユーザーインターフェイスのドキュメント ](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=ja){target="_blank"} - [Adobe Campaign クライアントコンソールのドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home){target="_blank"} - [ クライアントコンソールのチュートリアル ](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=ja){target="_blank"} - [[!DNL Adobe Campaign]  自動化ガイド ](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=ja){target="_blank"} - [Campaign v8 のCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja){target="_blank"}

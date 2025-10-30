@@ -5,8 +5,8 @@ description: メールコンテンツのスタイルを調整する様々な方�
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '120'
+ht-degree: 100%
 
 ---
 

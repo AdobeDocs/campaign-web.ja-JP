@@ -3,7 +3,7 @@ title: Campaign v8 web ユーザーインターフェイスの以前のリリー
 description: 2024 Campaign web ユーザーインターフェイスリリース
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>トランザクションメッセージ（Message Center）が Campaign web ユーザーインターフェイスで使用できるようになりました。このアドオンは、情報システムからトリガーされたイベントから生成されるメッセージをトリガーする目的で設計され、請求書、注文確認、出荷確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などが含まれます。</p>
+<p>トランザクションメッセージ（Message Center）が Campaign web ユーザーインターフェイスで使用できるようになりました。このアドオンは、情報システムからトリガーされたイベントから生成されるメッセージをトリガーする目的で設計され、請求書、注文確認、発送確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などが含まれます。</p>
 <p>詳しくは、<a href="../transactional-messaging/transactional.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -122,7 +122,7 @@ ht-degree: 100%
 * **ランディングページの Captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。[詳細情報](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7月リリースノート {#24-7-release}

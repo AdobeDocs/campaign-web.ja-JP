@@ -5,8 +5,8 @@ description: Campaign web ユーザーインターフェイスでメールのレ
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. セクションの右上隅の「**Litmus アカウントを接続**」をクリックします。
 
-   ![メールレンダリングインターフェイスの Litmus アカウント接続オプション](assets/simulate-rendering-litmus.png){zoomable="yes"}
+   ![メールのレンダリングインターフェイスの Litmus アカウント接続オプション](assets/simulate-rendering-litmus.png){zoomable="yes"}
 
 1. 資格情報を入力してログインします。
 

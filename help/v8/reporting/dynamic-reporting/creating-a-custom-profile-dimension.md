@@ -6,9 +6,9 @@ content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
-source-wordcount: '478'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
    ![](assets/custom_field_1.png)
 
-1. カスタム受信者スキーマを特定し、選択します。ビルトイン nms:recipient スキーマをまだ拡張していない場合は、[この手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)を参照してください。
+1. カスタム受信者スキーマを特定し、選択します。ビルトイン nms:recipient スキーマをまだ拡張していない場合は、[ この手順 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) を参照してください。
 
 1. カスタムフィールドをスキーマエディターに追加します。
 

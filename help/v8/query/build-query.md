@@ -4,7 +4,7 @@ title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2921'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ ht-degree: 100%
    | 次に類似 | 「次を含む」演算子と同様に、値に % ワイルドカード文字を挿入できます。 | 姓（@lastName）が「Jon%s」に類似しています。ワイルドカード文字は、「佐藤」のような名前を見つけるために「ジョーカー」として機能します。 |
    | 次に類似しない | 「次を含む」演算子と同様に、値に % ワイルドカード文字を挿入できます。 | 姓（@lastName）が「Smi%h」に類似していません。姓が「田中」の受信者は返されません。 |
 
-+++
+   +++
 
 1. 「**値**」フィールドで、期待値を定義します。また、Campaign web 式エディターを使用して、データベースのフィールドとヘルパー関数を使用して式を手動で定義することもできます。それには、「**式を編集**」ボタンをクリックします。[詳しくは、式の編集方法を参照してください](expression-editor.md)
 
@@ -132,7 +132,7 @@ ht-degree: 100%
 
 >[!TAB 従来のクエリモデラー]
 
-![21 歳以上のプロファイルをターゲットにしたクエリの例。](assets/query-custom-condition.png){zoomable="yes"}
+![21 歳以上のプロファイルをターゲティングしたクエリの例。](assets/query-custom-condition.png){zoomable="yes"}
 
 >[!TAB 新しいルールビルダー]
 
@@ -178,7 +178,7 @@ ht-degree: 100%
 
 ![クエリサンプルの例](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 **1 対多リンク**&#x200B;の場合は、次の例に示すように、サブ条件を定義してクエリを絞り込むことができます。
 
@@ -202,7 +202,7 @@ ht-degree: 100%
 
    ![サブ条件の例](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 #### 集計データの操作 {#aggregate}
 

@@ -2,7 +2,7 @@
 title: タイムゾーン管理
 description: Adobe Campaign web UI でブラウザー、オペレーター、ワークフロー、サーバーのタイムゾーンに基づいて日付と時刻の値を表示する方法について説明します。
 source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 

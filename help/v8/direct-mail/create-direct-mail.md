@@ -4,9 +4,9 @@ title: ダイレクトメール配信の作成
 description: Adobe Campaign web を使用してダイレクトメール配信を作成する方法について説明します。
 exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
 
    ![ダイレクトメール配信のプロパティ設定を示すスクリーンショット](assets/dm-properties.png){zoomable="yes"}
 
-   +++要件に基づいて次の設定を行います。
+   +++要件に基づいて、次の設定を指定します。
    * **[!UICONTROL 内部名]**：配信に一意の ID を割り当てます。
    * **[!UICONTROL フォルダー]**：配信を特定のフォルダーに保存します。
    * **[!UICONTROL 配信コード]**：独自の命名規則を使用して配信を整理します。
    * **[!UICONTROL 説明]**：配信の説明を指定します。
    * **[!UICONTROL 特性]**  : 分類目的で配信の特性を指定します。
-+++
+   +++
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、既存のオーディエンスをターゲットにするか、独自のオーディエンスを作成します。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL コントロール母集団を有効にする]**」オプションをオンにして、配信の影響を測定するコントロール母集団を設定します。そのコントロール母集団にはメッセージが送信されないので、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。[詳しくは、コントロール母集団の操作方法を参照してください。](../audience/control-group.md)
 
-1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、抽出ファイルに書き出す情報（列）を定義します。[詳細情報](content-direct-mail.md)
+1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、抽出ファイルにエクスポートする情報（列）を定義します。[詳細情報](content-direct-mail.md)
 
    ![ダイレクトメール配信のコンテンツ編集を示すスクリーンショット](assets/dm-content.png){zoomable="yes"}
 

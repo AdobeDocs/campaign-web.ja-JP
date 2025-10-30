@@ -4,7 +4,7 @@ title: AI アシスタントを使用したランディングページ
 description: AI アシスタントの基本を学ぶ
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1595'
 ht-degree: 100%
 

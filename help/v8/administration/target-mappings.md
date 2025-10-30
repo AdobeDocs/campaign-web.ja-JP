@@ -4,8 +4,8 @@ description: ターゲットマッピングの管理方法について説明し�
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '806'
+ht-degree: 97%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 ## ターゲットマッピングについて {#about}
 
-各通信チャネルは、デフォルトのターゲットマッピングを使用して受信者をターゲットにします。例えば、メールと SMS 配信のデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。したがって、ターゲットマッピングには **nms:recipient** テーブルのフィールドが使用されます。プッシュ通知の場合、デフォルトのターゲットマッピングは「**購読者のアプリケーション（nms:appSubscriptionRcp）**」で、受信者のテーブルにリンクされています。
+各通信チャネルは、デフォルトのターゲットマッピングを使用して受信者をターゲットにします。例えば、メールと SMS 配信のデフォルトのターゲットは「**[!UICONTROL 受信者]**」です。したがって、ターゲットマッピングには **nms:recipient:recipient** テーブルのフィールドが使用されます。プッシュ通知の場合、デフォルトのターゲットマッピングは **購読者のアプリケーション（nms:appSubscriptionRcp）** で、受信者のテーブルにリンクされています。
 
 ターゲットマッピングには、**[!UICONTROL 管理]**／**[!UICONTROL ターゲットマッピング]**&#x200B;メニューからアクセスできます。この画面から、各ターゲットマッピングの詳細にアクセスしたり、必要に応じて新しいターゲットマッピングを作成したりできます。
 
 ![使用可能なマッピングを示すターゲットマッピングリスト画面](assets/target-mappings-list.png)
 
-Adobe Campaign に用意されている組み込みのターゲットマッピングについて詳しくは、[Campaign v8 クライアントコンソールドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
+Adobe Campaign に用意されているビルトインのターゲットマッピングについて詳しくは、[Campaign v8 クライアントコンソールドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=ja){target="_blank"}を参照してください。
 
 ## ターゲットマッピングの作成 {#create-mapping}
 

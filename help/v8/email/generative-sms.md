@@ -4,7 +4,7 @@ title: AI アシスタントを使用した SMS
 description: AI アシスタントの基本を学ぶ
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 

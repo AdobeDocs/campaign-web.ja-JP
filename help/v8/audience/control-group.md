@@ -5,8 +5,8 @@ description: Campaign web ユーザーインターフェイスでメッセージ
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '798'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 コントロール母集団は、配信から除外されるサブ母集団です。コントロール母集団を定義して、オーディエンスの一部にメッセージを送信しないようにし、配信後の動作をメインターゲットと比較できます。このオプションは、キャンペーンの影響を測定するのに役立ちます。
 
-➡️ [ビデオでこの機能を確認する](create-audience.md#video)
+➡️ [この機能について詳しくは、ビデオを参照してください。](create-audience.md#video)
 
 ## コントロール母集団を有効にする {#add-a-control-group}
 

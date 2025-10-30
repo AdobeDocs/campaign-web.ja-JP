@@ -4,7 +4,7 @@ title: ブランド一致
 description: ブランドスコアを使用して、ブランドに即したコンテンツを作成、検証、管理する方法について説明します。
 exl-id: 5e65d3f4-6a4e-4390-94ae-e59856f1370d
 source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 100%
 

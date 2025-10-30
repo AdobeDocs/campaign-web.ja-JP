@@ -5,8 +5,8 @@ description: ワークフローが読み取り専用モードである理由に�
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
 source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '266'
+ht-degree: 100%
 
 ---
 

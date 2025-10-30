@@ -4,9 +4,9 @@ title: プッシュチャネルのグローバルレポート
 description: プッシュチャネルのグローバルレポートについて
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ![プッシュ通知のパフォーマンスに関連する KPI を示す配信の概要指標。](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++配信の概要指標の詳細情報
++++配信の概要指標について説明します。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ![プッシュ通知の受信者および除外に関連するデータを示すターゲットオーディエンス指標。](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
-+++ターゲットオーディエンス指標の詳細情報
++++ターゲットオーディエンス指標の詳細情報。
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 ![プッシュ通知の成功率、エラー、強制隔離を示す配信統計指標。](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++配信統計指標の詳細情報
++++配信統計指標の詳細を説明します。
 
 * **[!UICONTROL メッセージの合計数]**：配信準備の後に配信されるメッセージの合計数。
 

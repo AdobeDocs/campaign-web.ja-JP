@@ -5,8 +5,8 @@ description: グローバルレポートについて
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '305'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL フォルダーを選択]**」フィールドで、特定のフォルダーから配信またはキャンペーンをターゲットにするかどうかを選択します。
 
-   ![&#x200B; 配信またはキャンペーンを選択するための「フォルダーを選択」フィールドを示すスクリーンショット](assets/global_report_manage_2.png){zoomable="yes"}
+   ![ 配信またはキャンペーンを選択するための「フォルダーを選択」フィールドを示すスクリーンショット](assets/global_report_manage_2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ルールを追加]**」をクリックしてクエリの作成を開始し、レポートデータをより適切にフィルタリングします。[詳しくは、クエリモデラーの使用方法を参照してください](../query/query-modeler-overview.md)。
 

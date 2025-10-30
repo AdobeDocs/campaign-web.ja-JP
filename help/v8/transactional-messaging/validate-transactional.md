@@ -5,8 +5,8 @@ description: Campaign web ユーザーインターフェイスでトランザク
 exl-id: 4a24792f-b9f4-4224-b3a8-75f6969b64da
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '293'
+ht-degree: 100%
 
 ---
 

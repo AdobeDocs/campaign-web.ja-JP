@@ -4,9 +4,9 @@ title: SMS チャネルのグローバルレポート
 description: SMS チャネルのグローバルレポートについて
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ![SMS 配信の主要業績評価指標を示す配信の概要レポートのスクリーンショット。](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++配信の概要指標の詳細情報
++++配信の概要指標について説明します。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ![SMS 配信の受信者および除外に関するデータを示すターゲットオーディエンスレポートのスクリーンショット。](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
-+++ターゲットオーディエンス指標の詳細情報
++++ターゲットオーディエンス指標の詳細情報。
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 ![SMS 配信の成功率、エラー、強制隔離を示す配信統計レポートのスクリーンショット。](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++配信統計指標の詳細情報
++++配信統計指標の詳細を説明します。
 
 * **[!UICONTROL メッセージの合計数]**：配信準備の後に配信されるメッセージの合計数。
 

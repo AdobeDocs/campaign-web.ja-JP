@@ -5,8 +5,8 @@ description: 配信用の 1 回限りのオーディエンスを作成する方�
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
 

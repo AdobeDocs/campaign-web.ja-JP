@@ -5,8 +5,8 @@ description: Adobe Campaign Web でプッシュ通知配信を送信する方法
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 100%
 
 ---
 
@@ -63,4 +63,4 @@ ht-degree: 0%
 
 配信が送信されると、配信ページから主要業績評価指標（KPI）データを追跡し、**[!UICONTROL ログ]**&#x200B;メニューからデータを追跡します。
 
-組み込みレポートを使用して、メッセージの影響の測定を開始します。[詳細情報](../reporting/push-report.md)。
+ビルトインのレポートを使用して、メッセージの影響の測定を開始します。[詳細情報](../reporting/push-report.md)。

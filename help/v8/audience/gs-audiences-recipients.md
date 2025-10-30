@@ -3,7 +3,7 @@ title: プロファイルとオーディエンスの基本を学ぶ
 description: Campaign web でのプロファイルとオーディエンスの操作について説明します
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
