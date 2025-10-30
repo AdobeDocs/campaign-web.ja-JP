@@ -228,4 +228,4 @@ Adobe Campaign v8 の新しいユーザーエクスペリエンスについて�
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features).-->
