@@ -28,7 +28,7 @@ ht-degree: 97%
 
    ![](assets/custom_field_1.png)
 
-1. カスタム受信者スキーマを特定し、選択します。ビルトイン nms:recipient スキーマをまだ拡張していない場合は、[ この手順 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) を参照してください。
+1. カスタム受信者スキーマを特定し、選択します。ビルトイン nms:recipient スキーマをまだ拡張していない場合は、[&#x200B; この手順 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) を参照してください。
 
 1. カスタムフィールドをスキーマエディターに追加します。
 
