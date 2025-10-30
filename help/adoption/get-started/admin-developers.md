@@ -47,7 +47,7 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 次のビデオでは、Adobe Campaign クライアントコンソールをダウンロードしてインストールし、インスタンスへの接続を管理する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449878?captions=jpn&quality=12&learn=on){transcript=true}
 
 詳しくは、[&#x200B; クライアントコンソールを使用した Campaign への接続 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target="_blank"} を参照してください。
 
@@ -57,7 +57,7 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 このチュートリアルビデオでは、Adobe Campaign v8 ユーザーインターフェイスと、主な機能の操作方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426439?captions=jpn&quality=12&learn=on){transcript=true}
 
 詳しくは [&#x200B; クライアントコンソールの操作 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} を参照してください。
 
@@ -156,7 +156,7 @@ Adobe Campaign Standard と同様に、Adobe Campaign v8 に含まれている�
 
 * このビデオでは、ターゲティングディメンションと作業用テーブルの概要と、様々なデータソースをまたいだデータを Adobe Campaign で管理する仕組みについて説明します。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/3452592?captions=jpn&quality=12&learn=on){transcript=true}
 
 * Campaign を使用すると、クラウドデータベースに連絡先を追加できます。ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。詳しくは、[&#x200B; データのインポート（コンソール）ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"} を参照してください。
 
@@ -214,7 +214,7 @@ Campaign Standard と同様に、管理者は購読サービスを作成し、�
 
 購読とターゲットのサブスクライバーを設定および管理する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426552?captions=jpn&quality=12&learn=on){transcript=true}
 
 * 詳しくは、購読サービスの [web ユーザーインターフェイスのドキュメント](../../v8/audience/manage-subscribers.md)を参照してください。
 
@@ -272,7 +272,7 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 このビデオでは、Campaign v8 の管理者は、動的コンテンツブロックを定義し、動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449007?captions=jpn&quality=12&learn=on){transcript=true}
 
 役立つリンク：
 
