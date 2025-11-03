@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
-source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 100%
+source-wordcount: '1623'
+ht-degree: 92%
 
 ---
 
@@ -136,19 +136,17 @@ E メールデザイナーの関連する構造および[コンテンツコン�
 
 ## ダークモードの使用 {#dark-mode}
 
-ダークモードでコンテンツをデザインするベストプラクティスとして、透明な PNG または SVG を使用し、適切なメタタグと CSS を設定して、ダークモードがサポートされていない場合はアクセス可能なフォールバックスタイルを指定することをお勧めします。
+ダークモードは、明るい感度や視覚障害のあるユーザーの視覚的なアクセシビリティを強化し、視聴体験を向上させます。
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED
-
-Dark mode enhances visual accessibility for users with light sensitivity or visual impairments, for an improved viewing experience.
+E メールDesignerでは、**[!UICONTROL ダークモード]** に切り替えて、サポートされている E メールクライアントで表示される特定のカスタム設定を確認して定義できます。 [詳細情報](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
-Amongst the best practices for designing content in dark mode, use transparent PNGs or SVGs, set appropriate meta tags and CSS, and provide accessible fallback styling if dark mode is not supported. Finally, make sure your emails render correctly in dark mode by testing all email content and UI elements in both light and dark modes.
+ダークモードでコンテンツをデザインするためのベストプラクティスとして、透明な PNG または SVG を使用し、適切なメタタグと CSS を設定し、ダークモードがサポートされていない場合はアクセス可能なフォールバックスタイル設定を提供します。 最後に、すべてのメールコンテンツと UI 要素をライトモードとダークモードの両方でテストして、メールがダークモードで正しくレンダリングされていることを確認します。
 
-Detailed best practices specific to dark mode, including guidelines to ensure accessibility, are listed in [this section](dark-mode.md#best-practices).
+アクセシビリティを確保するためのガイドラインなど、ダークモードに固有の詳細なベストプラクティスについては、[ この節 ](dark-mode.md#best-practices) を参照してください。
 
-KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
+<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on the Dark mode page.-->
 
 ## アクセシビリティに対する特定の属性の使用 {#attributes}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: メールコンテンツの読み込み
 description: メールコンテンツの読み込み方法を学ぶ
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -46,9 +46,9 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
    ![「HTML コンバーター」タブと「変換」ボタンを示すスクリーンショット。](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->`<table>` タグを HTML ファイルの最初のレイヤーとして使用すると、最上位レイヤータグの背景や幅の設定などのスタイルが失われる場合があります。
+   >[!NOTE]
+   >
+   >`<table>` タグを HTML ファイルの最初のレイヤーとして使用すると、最上位レイヤータグの背景や幅の設定などのスタイルが失われる場合があります。
 
 1. E メールデザイナーの機能を使用して、必要に応じてインポートしたファイルをパーソナライズします。[詳細情報](content-components.md)
 
@@ -56,4 +56,4 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
 HTML をアップロードしてメールを作成する方法、E メールデザイナーと互換性を持たせる方法、テンプレートに変換する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447033/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

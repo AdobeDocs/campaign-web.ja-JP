@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 99%
 
 ---
 
@@ -126,6 +126,7 @@ ht-degree: 100%
          + [リンクのスタイルの定義](email/styling-links.md)
          + [インラインスタイル属性を追加する](email/inline-styling.md)
          + [カスタム CSS の追加](email/custom-css.md)
+         + [ダークモードコンテンツの管理](email/dark-mode.md)
       + [アクセス可能なコンテンツの作成](email/accessible-content.md)
    + AI アシスタント {#ai-assistant}
       + [AI アシスタントの操作](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 100%
    + [他のアドビソリューションの操作](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
+   + [パフォーマンスマーケティング用の GenStudio の操作](integrations/genstudio.md)
 + 設定 {#conf}
    + ブランディング {#branding}
       + [ブランディングについて](administration/branding/branding-gs.md)
@@ -285,6 +287,7 @@ ht-degree: 100%
       + [外部データベース](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [データの転送](administration/transfer-external-account.md)
+      + [CRM 外部アカウント](administration/external-crm.md)
    + [列挙の管理](administration/enumerations.md)
    + [JavaScript コードの操作](administration/javascript-codes.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

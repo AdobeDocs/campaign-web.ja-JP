@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 90%
 
 ---
 
@@ -35,11 +35,13 @@ ht-degree: 100%
 
 ![パラメーターとレポートを示す配信の詳細画面](assets/delivery-details.png)
 
->[!NOTE]
->
->クライアントコンソールで作成した配信を開くと、オーディエンスに対して「**[!UICONTROL 追加ターゲット]**」セクションが表示される場合があります。これは、この配信には複数のターゲットが設定されていることを示します。これらのパラメーターは、コンソールでのみ変更できます。
->
->![追加ターゲット設定に関する警告メッセージ](assets/target-warning-audience.png){zoomable="yes"}
+クライアントコンソールで作成した配信を開くと、オーディエンスに対して 2 つの新しいセクションが表示される場合があります。 これらのパラメーターは、コンソールでのみ変更できます。
+
+* **[!UICONTROL 追加のターゲット]**：この配信に対して複数のターゲットが設定されていることを示します。
+
+* **[!UICONTROL 追加の配達確認ターゲット]**：この配信の配達確認ターゲットに対して動的条件が定義されていることを示します。
+
+![追加ターゲット設定に関する警告メッセージ](assets/target-warning-audience.png){zoomable="yes"}
 
 ## 配信を複製 {#delivery-duplicate}
 
