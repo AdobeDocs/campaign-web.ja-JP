@@ -87,16 +87,16 @@ Adobe Campaign の各エンティティには専用のスキーマがあり、�
 
 1. インターフェイスにコレクションリストを追加するには、省略記号ボタンをクリックし、「**カスタムリストを選択** を選択します。
 
-   ![ コレクションリストの作成 ](assets/schemas-collection1.png)
+   ![&#x200B; コレクションリストの作成 &#x200B;](assets/schemas-collection1.png)
 
 1. 利用可能なカスタムリスト（購入など）の 1 つを選択し、「**確認**」をクリックします。
 
-   ![ コレクションリストの作成 ](assets/schemas-collection2.png)
+   ![&#x200B; コレクションリストの作成 &#x200B;](assets/schemas-collection2.png)
 
 1. **プロファイル** メニューを参照し、購入したプロファイルをフィルタリングします。
 
-   ![ コレクションリストの作成 ](assets/schemas-collection3.png)
+   ![&#x200B; コレクションリストの作成 &#x200B;](assets/schemas-collection3.png)
 
 1. プロファイルをクリックします。 新しいタブが表示されます。 必要に応じて、列をさらに追加できます。
 
-   ![ コレクションリストの作成 ](assets/schemas-collection4.png)
+   ![&#x200B; コレクションリストの作成 &#x200B;](assets/schemas-collection4.png)

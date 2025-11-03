@@ -28,9 +28,9 @@ ht-degree: 88%
 
   ![プロファイルがサブスクライブしているサービスを一覧表示した、「サブスクリプション」タブを示すスクリーンショット。](assets/profile-subscriptions.png){zoomable="yes"}
 
-* 受信者スキーマの画面定義でコレクションリンクを定義すると、購入などのカスタムタブを表示できます。 [ コレクションリンクの詳細情報 ](../administration/schemas.md#collection-lists)
+* 受信者スキーマの画面定義でコレクションリンクを定義すると、購入などのカスタムタブを表示できます。 [&#x200B; コレクションリンクの詳細情報 &#x200B;](../administration/schemas.md#collection-lists)
 
-  ![ カスタムタブを示すスクリーンショット ](assets/schemas-collection4.png){zoomable="yes"}
+  ![&#x200B; カスタムタブを示すスクリーンショット &#x200B;](assets/schemas-collection4.png){zoomable="yes"}
 
 * また、画面の右上隅にある「**[!UICONTROL ログ]**」ボタンを使用すると、送信ログ、除外ログ、トラッキングログを通じてプロファイルのインタラクションの履歴が表示されます。[配信ログの詳細情報を参照してください](../monitor/delivery-logs.md)
 

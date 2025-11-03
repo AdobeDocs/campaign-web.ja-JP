@@ -33,7 +33,7 @@ ht-degree: 9%
 
 >[!INFO]
 >
->詳細については、こちらの [ 概要 ](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} と [ の ](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} デモ [!DNL Adobe GenStudio for Performance Marketing] を参照してください。
+>詳細については、こちらの [&#x200B; 概要 &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} と [&#x200B; の &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} デモ [!DNL Adobe GenStudio for Performance Marketing] を参照してください。
 
 ## Adobe CampaignでのGenStudio機能の使用 {#use-genstudio}
 
@@ -57,19 +57,19 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >HTML テンプレートを [!DNL GenStudio] にアップロードする方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} 専用の節を参照してください。<!--GenStudio doc to be updated with Campaign-->
+   >HTML テンプレートを [!DNL GenStudio] にアップロードする方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} 専用の節を参照してください。<!--GenStudio doc to be updated with Campaign-->
 
 1. GenStudioでは、このテンプレートを使用して、AI プロンプトで複数のメールのバリエーションを作成し、保存します。
 
    >[!NOTE]
    >
-   >メールエクスペリエンスを作成する方法については、GenStudio専用の [ 節 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} を参照してください。
+   >メールエクスペリエンスを作成する方法については、GenStudio専用の [&#x200B; 節 &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} を参照してください。
 
 ### Adobe CampaignでのGenStudio エクスペリエンスの活用 {#leverage-genstudio-experiences}
 
 [!DNL GenStudio] に読み込んで作成した [!DNL Adobe Campaign] メールのバリエーションを活用するには、次の手順に従います。
 
-1. [!DNL Adobe Campaign]: [ メール配信を作成 ](../email/create-email.md)。
+1. [!DNL Adobe Campaign]: [&#x200B; メール配信を作成 &#x200B;](../email/create-email.md)。
 
 1. メール配信ダッシュボードで、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。 [詳細情報](../email/create-email.md#create-content)
 
@@ -95,9 +95,9 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >GenStudioのエクスペリエンス [ テンプレートから作成  [!DNL Adobe Campaign]  は ](#export-from-ajo-to-genstudio) メールDesignerに直接読み込まれます。 [!DNL Adobe Campaign] テンプレートなしで作成されたGenStudio エクスペリエンスは、[ 互換モード ](../email/existing-content.md) に読み込まれます。
+   >GenStudioのエクスペリエンス [&#x200B; テンプレートから作成  [!DNL Adobe Campaign]  は &#x200B;](#export-from-ajo-to-genstudio) メールDesignerに直接読み込まれます。 [!DNL Adobe Campaign] テンプレートなしで作成されたGenStudio エクスペリエンスは、[&#x200B; 互換モード &#x200B;](../email/existing-content.md) に読み込まれます。
 
-   [ メールコンテンツ編集ツール ](../email/create-email-content.md) および [ パーソナライゼーションフィールド ](../personalization/personalize.md) を使用して、メールを必要に応じて編集します。 コンテンツを保存します。
+   [&#x200B; メールコンテンツ編集ツール &#x200B;](../email/create-email-content.md) および [&#x200B; パーソナライゼーションフィールド &#x200B;](../personalization/personalize.md) を使用して、メールを必要に応じて編集します。 コンテンツを保存します。
 
 <!--Detail a use case with A/B testing to import other GenStudio variations and track how your tratments are performing.-->
 

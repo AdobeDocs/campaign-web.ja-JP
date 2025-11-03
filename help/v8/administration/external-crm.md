@@ -20,7 +20,7 @@ Microsoft Dynamics CRM 外部アカウントを使用すると、Campaign イン
 
 Adobe Campaign Web ユーザーインターフェイスで、Microsoft Dynamics CRM 外部アカウントを設定します。
 
-1. [ 外部アカウントを作成 ](external-account.md) し、外部アカウントの **[!UICONTROL タイプ]** として「**[!UICONTROL 外部データベース]**」を選択し、**[!UICONTROL プロバイダータイプ]** として「Microsoft Dynamics CRM」を選択します。
+1. [&#x200B; 外部アカウントを作成 &#x200B;](external-account.md) し、外部アカウントの **[!UICONTROL タイプ]** として「**[!UICONTROL 外部データベース]**」を選択し、**[!UICONTROL プロバイダータイプ]** として「Microsoft Dynamics CRM」を選択します。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -98,7 +98,7 @@ Adobe Campaign Web ユーザーインターフェイスで、Microsoft Dynamics 
 
 Salesforce外部アカウントをAdobe Campaignで使用できるように設定するには、次の情報が必要です。
 
-1. [ 外部アカウントを作成 ](external-account.md) し、外部アカウントの **[!UICONTROL タイプ]** として **[!UICONTROL 外部データベース]** を選択し、**[!UICONTROL プロバイダータイプ]** としてSalesforce.comを選択します。
+1. [&#x200B; 外部アカウントを作成 &#x200B;](external-account.md) し、外部アカウントの **[!UICONTROL タイプ]** として **[!UICONTROL 外部データベース]** を選択し、**[!UICONTROL プロバイダータイプ]** としてSalesforce.comを選択します。
 
    ![Salesforce外部アカウント設定フィールドを示すスクリーンショット。](assets/crm-salesforce-1.png)
 
