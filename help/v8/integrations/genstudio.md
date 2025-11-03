@@ -23,7 +23,7 @@ ht-degree: 9%
 
 ## GenStudioの概要 {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} は、生成 AI ファーストのアプリケーションで、マーケティングチームが独自の広告やメールを作成し、ブランド標準を遵守し、企業ポリシーに準拠した、インパクトのあるパーソナライズされたマーケティングキャンペーンを推進できるようにします。 Adobeの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減する包括的なツールスイートを提供し、クリエイティブ担当者がイノベーションに集中できるようにします。
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} は、生成 AI ファーストのアプリケーションで、マーケティングチームが独自の広告やメールを作成し、ブランド標準を遵守し、企業ポリシーに準拠した、インパクトのあるパーソナライズされたマーケティングキャンペーンを推進できるようにします。 Adobeの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減する包括的なツールスイートを提供し、クリエイティブ担当者がイノベーションに集中できるようにします。
 
 >[!AVAILABILITY]
 >
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 >[!INFO]
 >
->詳細については、こちらの [&#x200B; 概要 &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} と [&#x200B; の &#x200B;](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} デモ [!DNL Adobe GenStudio for Performance Marketing] を参照してください。
+>詳細については、こちらの [&#x200B; 概要 &#x200B;](https://business.adobe.com/jp/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} と [&#x200B; の &#x200B;](https://business.adobe.com/jp/products/genstudio-for-performance-marketing.html#demo){target="_blank"} デモ [!DNL Adobe GenStudio for Performance Marketing] を参照してください。
 
 ## Adobe CampaignでのGenStudio機能の使用 {#use-genstudio}
 
@@ -57,13 +57,13 @@ ht-degree: 9%
 
    >[!NOTE]
    >
-   >HTML テンプレートを [!DNL GenStudio] にアップロードする方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} 専用の節を参照してください。<!--GenStudio doc to be updated with Campaign-->
+   >HTML テンプレートを [!DNL GenStudio] にアップロードする方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"} 専用の節を参照してください。<!--GenStudio doc to be updated with Campaign-->
 
 1. GenStudioでは、このテンプレートを使用して、AI プロンプトで複数のメールのバリエーションを作成し、保存します。
 
    >[!NOTE]
    >
-   >メールエクスペリエンスを作成する方法については、GenStudio専用の [&#x200B; 節 &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} を参照してください。
+   >メールエクスペリエンスを作成する方法については、GenStudio専用の [&#x200B; 節 &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} を参照してください。
 
 ### Adobe CampaignでのGenStudio エクスペリエンスの活用 {#leverage-genstudio-experiences}
 
