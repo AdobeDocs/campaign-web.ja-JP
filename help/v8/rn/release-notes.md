@@ -2,7 +2,7 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 64%
@@ -88,7 +88,7 @@ _2025 年 11 月 3 日_
 <tr>
 <td>
 <p>メールDesignerで、ダークモード表示に切り替える機能が追加されました。このビューで、特定のカスタム設定を追加で定義できます。 最終的なレンダリングは受信者のメールクライアントに依存し、すべてのメールクライアントがダークモードをサポートしているわけではありません。</p>
-<p>詳しくは、<a href="../email/accessible-content.md#dark-mode">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/dark-mode.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
