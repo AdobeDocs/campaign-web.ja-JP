@@ -2,7 +2,7 @@
 title: 定義済みフィルターの操作
 description: Adobe Campaign Web での定義済みフィルターの作成および管理方法について説明します
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: a12ddf56a72e62ec8f4d668f686672dcdc195a09
+source-git-commit: f2a3bb0ba95466d9574cab2915980d4fad3c328b
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 フィルターをお気に入りに保存すると、以下に示すように、フィルター作成リストの「**お気に入りのフィルター**」セクションですべてのユーザーが使用できます。
 
-![「お気に入りのフィルター」セクション](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
+![「お気に入りのフィルター」セクション](assets/predefined-filters-favorite.png){zoomable="yes"}
 
 ## 定義済みフィルターを使用 {#use-predefined-filter}
 
