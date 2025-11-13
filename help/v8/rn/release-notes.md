@@ -3,9 +3,9 @@ title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 以前のリリースで利用可能な変更と改善点について詳しくは、[2024](release-notes-24.md) ページと [2025](release-notes-25.md) ページを参照してください。
 
-## 2025 年 10 月リリース {#25-10-updates}
+## 2025年10月リリース {#25-10-updates}
 
-_2025 年 11 月 3 日_
+_2025年11月3日（PT）_
 
 <table>
 <thead>
@@ -65,13 +65,13 @@ _2025 年 11 月 3 日_
 <table>
 <thead>
 <tr>
-<th><strong>Adobe GenStudioとの統合</strong><br/></th>
+<th><strong>Adobe GenStudio との統合</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>これで、マーケティング効率を高め、ブランドの一貫性を保つために、GenStudio for Performance Marketingのエクスペリエンスを Campaign とシームレスに統合できるようになりました。 これにより、Campaign の高度なオーケストレーション機能と共に、GenStudioの AI を活用したコンテンツ作成を活用できます。<p>
+<p>マーケティング効率を高め、ブランドの一貫性を維持するために、GenStudio for Performance Marketing エクスペリエンスを Campaign とシームレスに統合できるようになりました。これにより、Campaign の高度なオーケストレーション機能と共に、GenStudio の AI を活用したコンテンツ作成を活用できます。<p>
 <p>詳しくは、<a href="../integrations/genstudio.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -81,13 +81,13 @@ _2025 年 11 月 3 日_
 <table>
 <thead>
 <tr>
-<th><strong>メールデザイナーでのダークモードのサポート</strong><br/></th> 
+<th><strong>E メールデザイナーでのダークモードのサポート</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メールDesignerで、ダークモード表示に切り替える機能が追加されました。このビューで、特定のカスタム設定を追加で定義できます。 最終的なレンダリングは受信者のメールクライアントに依存し、すべてのメールクライアントがダークモードをサポートしているわけではありません。</p>
+<p>E メールデザイナーには、ダークモードビューに切り替える機能が用意され、特定のカスタム設定をさらに定義できるようになりました。最終的なレンダリングは受信者のメールクライアントに応じて異なり、すべてのメールクライアントがダークモードをサポートしているわけではありません。</p>
 <p>詳しくは、<a href="../email/dark-mode.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -114,11 +114,11 @@ _2025 年 11 月 3 日_
 
 * クライアントコンソールで作成した配信の「**オーディエンス**」セクションに、配達確認ターゲットに対する動的条件が定義されているかどうかを示すようになりました。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
 
-* メールDesignerの条件付きコンテンツ機能を使用して条件を設定する際に、新しいルールビルダーと従来のルールビルダーを切り替えられるようになりました。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+* E メールデザイナーの条件付きコンテンツ機能を使用して条件を設定する際に、新しいルールビルダーとレガシールールビルダーを切り替えられるようになりました。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* 受信者スキーマの画面定義で、購入などのコレクションリンクを選択できるようになりました。 専用のタブを使用して、プロファイル画面に関連データが表示されます。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* 受信者スキーマの画面定義で、購入などのコレクションリンクを選択できるようになりました。これにより、専用タブを通じてプロファイル画面に関連データが表示されます。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
 
-* Campaign 管理者は、Salesforce CRM とMicrosoft Dynamicsへの接続を設定できるようになりました。
+* Campaign 管理者は、Salesforce CRM と Microsoft Dynamics への接続を設定できるようになりました。
   [詳細情報](../administration/external-crm.md)
 
 <!--

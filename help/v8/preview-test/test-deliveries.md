@@ -4,7 +4,7 @@ title: 本配信前確認の送信
 description: 本配信前確認の送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_additional_proof_target"
 >title="追加の配達確認ターゲット"
->abstract="これらのルールは、デスクトップコンソールでのみ変更できます。"
+>abstract="これらのルールは、クライアントコンソールでのみ変更できます。"
 
 メッセージコンテンツを定義したら、本配信前確認をテストプロファイルに送信することで、メッセージコンテンツをプレビューおよびテストできます。パーソナライズされたコンテンツを挿入した場合は、このコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 

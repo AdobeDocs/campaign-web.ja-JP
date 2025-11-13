@@ -6,9 +6,9 @@ role: Admin, User
 level: Beginner
 exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
 source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ Campaign と接続できるソリューションやアプリケーションと�
 
 ## GenStudio for Performance Marketing {#integration-genstudio}
 
-Adobe GenStudio for Performance Marketingは、生成 AI ファーストのアプリケーションで、マーケティングチームが独自の広告やメールを作成し、ブランド標準を遵守し、企業ポリシーに準拠した、インパクトのあるパーソナライズされたマーケティングキャンペーンを推進できるようにします。 Adobeの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減する包括的なツールスイートを提供し、クリエイティブ担当者がイノベーションに集中できるようにします。
+Adobe GenStudio for Performance Marketing は、マーケティングチームが独自の広告やメールを作成して、ブランド標準を遵守し、企業ポリシーに準拠した、効果的でパーソナライズされたマーケティングキャンペーンを推進できるようにする生成 AI ファーストのアプリケーションです。Adobe AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを簡素化し、クリエイターがイノベーションに焦点を当てることができるようにする包括的なツールスイートを提供します。
 
-マーケティング効率を高め、ブランドの一貫性を保つために、[!DNL **GenStudio for Performance Marketing**] のエクスペリエンスを [!DNL **Adobe Campaign**] とシームレスに統合できます。 これにより、[!DNL GenStudio] の高度なオーケストレーション機能に加えて、[!DNL Adobe Campaign] の AI 機能を活用したコンテンツ作成が可能になります。
+マーケティング効率を高め、ブランドの一貫性を維持するために、[!DNL **GenStudio for Performance Marketing**] エクスペリエンスを [!DNL **Adobe Campaign**] とシームレスに統合できます。これにより、[!DNL Adobe Campaign] の高度なオーケストレーション機能とともに、[!DNL GenStudio] の AI を活用したコンテンツ制作をご利用いただけます。
 
-詳細情報：[Adobe Campaign + GenStudio for Performance Marketing](genstudio.md)。
+詳しくは、[Adobe Campaign + GenStudio for Performance Marketing](genstudio.md) を参照してください。
