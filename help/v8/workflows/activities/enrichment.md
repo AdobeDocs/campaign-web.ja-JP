@@ -3,10 +3,10 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 29e8ad045155fc561b1645f91d4a980911bdf259
 workflow-type: tm+mt
-source-wordcount: '2043'
-ht-degree: 100%
+source-wordcount: '2053'
+ht-degree: 99%
 
 ---
 
@@ -51,6 +51,13 @@ ht-degree: 100%
 >id="acw_orchestration_enrichment_data"
 >title="エンリッチメントアクティビティ"
 >abstract="エンリッチメントデータをワークフローに追加すると、後続のアクティビティで使用して、行動、好み、ニーズに基づいて顧客を個別のグループにセグメント化したり、ターゲットオーディエンスの共感を呼ぶパーソナライズされたマーケティングメッセージやキャンペーンを作成したりできます。"
+
+<!-- /NEO-92684 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_settings"
+>title="エンリッチメント設定"
+>abstract="エンリッチメント設定：ターゲティングディメンション、追加の属性およびオプション。"
 
 1. 「**エンリッチメントデータを追加**」をクリックし、エンリッチメントに対して使用する属性を選択します。[詳しくは、属性を選択してお気に入りに追加する方法を参照してください](../../get-started/attributes.md)。
 
