@@ -252,4 +252,4 @@ ht-degree: 100%
 
 メール配信をゼロから作成し、オーディエンスの定義、コンテンツの設計、プレビューのシミュレートを行い、配達確認を送信する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454006/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
