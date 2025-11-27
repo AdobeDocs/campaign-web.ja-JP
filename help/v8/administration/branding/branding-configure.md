@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '548'
+ht-degree: 68%
 
 ---
 
@@ -60,3 +60,29 @@ Adobe Campaign v8 では、ブランドは&#x200B;**[!UICONTROL 管理／プラ�
   **[!UICONTROL 追加の URL パラメーター]**&#x200B;メニューを使用して、適用条件と共にキーと値のペアとして追加のパラメーターを作成します。各パラメーター名は一意で空でない必要があり、各パラメーター値は空でない必要があります。適用条件は空にすることができますが、これらの値には JST タグを含めることはできません。
 
   これらのパラメーターは、**[!UICONTROL ドメイン名のリスト]**&#x200B;で指定したドメイン名（正規表現を含めることができる）に一致するトラッキング対象 URL に適用されます。
+
+  **例：** `https://www.example.com` のようなトラッキング対象 URL は、そのドメインに追加のパラメーター `https://www.example.com/?age=21&deliveryName=DM101` および `age=21` が設定されると、`deliveryName=DM101` になります。
+
+## トランザクションメッセージ用のブランディングの設定 {#branding-transactional-config}
+
+>[!IMPORTANT]
+>
+>この節は、トランザクションメッセージ（Message Center）にのみ適用されます。
+>
+>トランザクション機能は Campaign web UI で使用できますが、以下の手順は Campaign v8 クライアントコンソール（コントロールインスタンス）で実行する必要があります。
+
+ブランディングにトランザクションメッセージ（Message Center）を使用する場合は、追加の設定が必要です。
+
+### リアルタイムインスタンスのトラッキング式
+
+ブランディングがリアルタイム（RT）コントロールインスタンスでアクティブ化されると、トラッキング式の管理に特定のトラッキングオプションが使用されます。 これらの式は、各 RT 実行インスタンスで個別に設定するのではなく、RT コントロールインスタンスで一元的に設定されます。
+
+次のオプションでは、RT 配信で使用されるトラッキング式を定義します。
+
+* **`NmsTracking_RT_ClickFormula`**: RT インスタンスでのクリックの追跡に使用する式を指定します
+
+* **`NmsTracking_RT_OpenFormula`**: RT インスタンスでの開封トラッキングに使用する式を指定します
+
+実装でトランザクションメッセージ用のカスタムトラッキング式が必要な場合は、次のオプションを使用します。
+
+* **`Branding_RT_ListXtkOptions_toPublish`**：カスタム式の XTK オプション名をここにリストします（コンマで区切ります）。 これにより、RT 配信でカスタムトラッキング式を適用できるようになります。
