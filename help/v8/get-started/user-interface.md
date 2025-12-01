@@ -7,9 +7,9 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1525'
 ht-degree: 100%
 
 ---
@@ -165,3 +165,12 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 ## 詳細情報 {#learn-more}
 
 Campaign 環境で使用可能なリストを参照、検索、フィルタリングする方法については、[このページ](list-filters.md)を参照してください。
+
+
+
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_notification"
+>title="連続配信"
+>abstract="連続配信"
