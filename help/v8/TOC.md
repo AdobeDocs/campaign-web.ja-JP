@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '953'
+ht-degree: 98%
 
 ---
 
@@ -129,12 +129,12 @@ ht-degree: 100%
          + [ダークモードコンテンツの管理](email/dark-mode.md)
       + [アクセス可能なコンテンツの作成](email/accessible-content.md)
    + AI アシスタント {#ai-assistant}
-      + [AI アシスタントの操作](email/generative-gs.md)
-      + [AI を使用したメール生成](email/generative-content.md)
-      + [AI を使用した SMS 生成](email/generative-sms.md)
-      + [AI を使用したプッシュ通知の生成](email/generative-push.md)
-      + [AI を使用したランディングページ生成](email/generative-lp.md)
-      + [AI アシスタントのユースケース](email/generative-uc.md)
+      + [AI アシスタントの操作](content/generative-gs.md)
+      + [AI プロンプトのベストプラクティス](content/ai-assistant-prompting-guide.md)
+      + [AI を使用した完全なコンテンツ生成](content/generative-full-content.md)
+      + [AI を使用したテキスト生成](content/generative-text.md)
+      + [AI による画像生成](content/generative-image.md)
+      + [AI アシスタントのユースケース](content/generative-uc.md)
       + ブランド {#ai-assistant}
          + [ブランドの作成と管理](content/brands.md)
          + [ブランド整合性スコアの評価](content/brands-score.md)

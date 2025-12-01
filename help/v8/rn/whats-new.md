@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
@@ -78,7 +78,7 @@ Microsoft Azure OpenAI と Adobe Firefly を活用した革新的なコンテン
 
 シンプルさと効率性を追求して設計された、高度な WYSIWYG ドラッグ＆ドロップエディターを使用して、コンテンツ配信を再定義します。シームレスな AEM 統合、動的コンテンツ機能、画期的な AI アシスタントを備えたこのオールインワンツールは、配信の作成を直感的かつ効率的にし、高度にパーソナライズします。
 
-AI アシスタントの高度なアルゴリズムを活用して、結果を促す魅力的で調整されたコンテンツを作成します。インテリジェントな AI 駆動型コンテンツ生成により、開封率、クリックスルー率、コンバージョン率が向上します。詳しくは、[こちら](../email/generative-gs.md)を参照してください。
+AI アシスタントの高度なアルゴリズムを活用して、結果を促す魅力的で調整されたコンテンツを作成します。インテリジェントな AI 駆動型コンテンツ生成により、開封率、クリックスルー率、コンバージョン率が向上します。詳しくは、[こちら](../content/generative-gs.md)を参照してください。
 
 **新しくデザインを変更したキャンペーンワークフローアクティビティ**
 
