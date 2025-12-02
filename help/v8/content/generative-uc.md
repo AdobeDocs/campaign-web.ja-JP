@@ -109,7 +109,7 @@ ht-degree: 88%
 
 ## サポートされている言語のコンテンツを生成{#languages}
 
-![ フランス語、スペイン語、ドイツ語など複数の言語でコンテンツを生成する AI アシスタントのアニメーションデモ ](assets/do-not-localize/ai-language.gif)
+![&#x200B; フランス語、スペイン語、ドイツ語など複数の言語でコンテンツを生成する AI アシスタントのアニメーションデモ &#x200B;](assets/do-not-localize/ai-language.gif)
 
 1. 配信を設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
