@@ -4,7 +4,7 @@ description: ユーザーアクセス管理をCampaign Standardから Campaign v
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 3%
@@ -36,7 +36,7 @@ Adobe Campaign Standardと Campaign v8 では、ユーザーアクセス管理�
 |---------|----------|---------|
 | **用語**  | セキュリティグループ | オペレーターグループ |
 
-Adobe Campaign Standardと Campaign v8 の両方で、**セキュリティグループ** および **オペレーターグループ** が Admin Console の製品プロファイルにマッピングされます。 **セキュリティグループ** または **オペレーターグループ** をユーザーに割り当てる場合は、対応する **製品プロファイル** を Admin Console でリンクできます。 この関連付けは、ユーザーがログインしたときに同期されます。 [&#x200B; 製品プロファイルの詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+Adobe Campaign Standardと Campaign v8 の両方で、**セキュリティグループ** および **オペレーターグループ** が Admin Console の製品プロファイルにマッピングされます。 **セキュリティグループ** または **オペレーターグループ** をユーザーに割り当てる場合は、対応する **製品プロファイル** を Admin Console でリンクできます。 この関連付けは、ユーザーがログインしたときに同期されます。 [ 製品プロファイルの詳細情報 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **Campaign Standard セキュリティ グループ** | **Campaign v8 オペレーターグループ** |
 |----------|---------|
@@ -71,11 +71,11 @@ Adobe Campaign Standardでは、Campaign v8 では **ユーザーロール** と
 >[!IMPORTANT]
 >
 >直接または間接の親として **すべて（すべて）** を持たないAdobe Campaign Standardの組織単位は、Campaign v8 に移行されません。
->&#x200B;></br>
->&#x200B;>複数のセキュリティ グループのユーザーには、最上位のセキュリティ グループの組織単位が割り当てられます。 複数のグループに並行する最上位レベルのユニットがある場合、システムはCampaign Standardでユーザーの組織単位を選択し、ユーザーは、システムで選択された組織単位とその子にのみアクセスできます。 移行後の Campaign v8 では、ユーザーは **割り当てられたすべての組織単位とその子** にアクセスでき、権限がエスカレーションされる可能性があります。 これを防ぐには、ユーザーを並列の組織単位を持つセキュリティ グループに割り当てないでください。 詳しくは、[&#x200B; 並列組織単位の割り当て &#x200B;](#parallel-assignments) を参照してください。
+></br>
+>複数のセキュリティ グループのユーザーには、最上位のセキュリティ グループの組織単位が割り当てられます。 複数のグループに並行する最上位レベルのユニットがある場合、システムはCampaign Standardでユーザーの組織単位を選択し、ユーザーは、システムで選択された組織単位とその子にのみアクセスできます。 移行後の Campaign v8 では、ユーザーは **割り当てられたすべての組織単位とその子** にアクセスでき、権限がエスカレーションされる可能性があります。 これを防ぐには、ユーザーを並列の組織単位を持つセキュリティ グループに割り当てないでください。 詳しくは、[ 並列組織単位の割り当て ](#parallel-assignments) を参照してください。
 
 
-Adobe Campaign Standardでは、同様のアクセス制御を維持するために、**組織単位** が Campaign v8 の既存の **フォルダー** 階層モデルにマッピングされます。 [&#x200B; フォルダー管理の詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Adobe Campaign Standardでは、同様のアクセス制御を維持するために、**組織単位** が Campaign v8 の既存の **フォルダー** 階層モデルにマッピングされます。 [ フォルダー管理の詳細情報 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign v8** |
 |---------|----------|---------|
@@ -88,17 +88,17 @@ Adobe Campaign Standardでは、同様のアクセス制御を維持するため
 
 例えば、次のような組織単位階層があるとします。
 
-![&#x200B; 並列組織単位の割り当てのサンプル図 &#x200B;](assets/do-not-localize/parallel-org-units-sample.png){width="50%" zoomable="yes"}
+![ 並列組織単位の割り当てのサンプル図 ](assets/do-not-localize/parallel-org-units-sample.png){width="50%" zoomable="yes"}
 
 並列の組織単位を持たない割り当ては、次のようになります。
 
-![&#x200B; 並列組織単位のサンプル図なし &#x200B;](assets/do-not-localize/without-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
+![ 並列組織単位のサンプル図なし ](assets/do-not-localize/without-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
 
 ここで、ユーザーは親組織単位 A の下に接続されている組織単位 A、A1、A2-1 にアクセスできます。ユーザーは、A の下のすべての項目にアクセスできます。
 
 次の割り当てには、並列の組織単位が含まれています：
 
-![&#x200B; 並列組織単位のサンプル図を使用 &#x200B;](assets/do-not-localize/with-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
+![ 並列組織単位のサンプル図を使用 ](assets/do-not-localize/with-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
 
 ユーザーは、共通の親が割り当てられていない別々のブランチに存在する A1-1、A2 および A2-1 にアクセスできます。
 
@@ -140,7 +140,7 @@ Adobe Campaign Standardでは、同様のアクセス制御を維持するため
 
 Campaign v8 では、**プログラム** は **フォルダー** として表されます。 Campaign v8 では、フォルダーを作成でき、フォルダーへのアクセスを制限できます。
 
-**グループ** および **ネームド権限** を使用すると、**オペレーター** にナビゲーション階層内の特定の **フォルダー** へのアクセス権を付与し、読み取り、書き込みおよび削除の権限を割り当てることができます。 [&#x200B; フォルダー管理の詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+**グループ** および **ネームド権限** を使用すると、**オペレーター** にナビゲーション階層内の特定の **フォルダー** へのアクセス権を付与し、読み取り、書き込みおよび削除の権限を割り当てることができます。 [ フォルダー管理の詳細情報 ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 **プログラム** は Campaign v8 では **フォルダー** として扱われるので、そのアクセスは他のフォルダーと同じように管理できます。 移行後、Campaign Standard管理者は次の手順を実行できます。
 

@@ -3,10 +3,10 @@ audience: end-user
 title: ブランドの管理
 description: ブランドガイドラインの作成および管理方法について説明します
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
 source-wordcount: '1420'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 86%
 
 ## ブランドへのアクセス {#generative-access}
 
-[!DNL Adobe Campaign Web] の&#x200B;**[!UICONTROL ブランド]**&#x200B;メニューにアクセスするには、ブランドを作成および管理するための&#x200B;**[!UICONTROL 管理者 (管理者)]** と&#x200B;**[!UICONTROL ブランドキット]**&#x200B;製品プロファイルをユーザーに割り当てる必要があります。読み取り専用アクセスの場合、ユーザーには [!UICONTROL AI アシスタント]製品プロファイルが必要です。
-
-[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[!DNL Adobe Campaign Web] の&#x200B;**[!UICONTROL ブランド]**&#x200B;メニューにアクセスするには、ブランドを作成および管理するための&#x200B;**[!UICONTROL 管理者 (管理者)]** と&#x200B;**[!UICONTROL ブランドキット]**&#x200B;製品プロファイルをユーザーに割り当てる必要があります。読み取り専用アクセスの場合、ユーザーには [!UICONTROL AI アシスタント ] 製品プロファイルが必要です。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ ブランド関連の権限を割り当てる方法について説明します
 
@@ -317,7 +315,7 @@ AI アシスタントメニューのブランドドロップダウンから&#x20
 
    * **[!UICONTROL 要素タイプ]**：ルールを適用するコンテンツ要素を指定します。 これには、見出し、ボタン、リンクなどの要素や、コンテンツ内のその他のコンポーネントが含まれる場合があります。
 
-     ![&#x200B; 使用状況コンテンツを追加 &#x200B;](assets/brands-17.png)
+     ![ 使用状況コンテンツを追加 ](assets/brands-17.png)
 
 1. ガイドライン、例外または除外を設定したら、「**[!UICONTROL 追加]**」をクリックします。
 

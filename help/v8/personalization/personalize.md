@@ -3,10 +3,11 @@ title: Campaign でのコンテンツのパーソナライズ
 description: Adobe Campaign Web でのコンテンツのパーソナライズ方法について説明します
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+old-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 100%
@@ -28,7 +29,7 @@ Adobe Campaign では、プロファイルの名前、場所、過去のやり�
 
 ## パーソナライゼーションに対するプロファイルデータの使用 {#data-personalization}
 
-式エディターを使用して、プロファイルデータを使用して任意の配信をパーソナライズします。式エディターには、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンのある各フィールド（件名行、メールリンク、テキスト／ボタンのコンテンツコンポーネントなど）からアクセスできます。[詳しくは、式エディターにアクセスする方法を参照してください](gs-personalization.md/#access)。
+式エディターを使用して、プロファイルデータを使用して任意の配信をパーソナライズします。式エディターには、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンのある各フィールド（件名行、メールリンク、テキスト／ボタンのコンテンツコンポーネントなど）からアクセスできます。[詳しくは、式エディターにアクセスする方法を参照してください](gs-personalization.md#access)。
 
 ### パーソナライゼーション構文 {#syntax}
 
@@ -42,7 +43,7 @@ Adobe Campaign では、プロファイルの名前、場所、過去のやり�
 
 配信にパーソナライゼーションタグを追加するには、次の手順に従います。
 
-1. 式エディターを開くには、テキストタイプの編集フィールド（件名行や SMS 本文など）からアクセスできる「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンを使用します。[詳しくは、式エディターにアクセスする方法を参照してください](gs-personalization.md/#access)。
+1. 式エディターを開くには、テキストタイプの編集フィールド（件名行や SMS 本文など）からアクセスできる「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンを使用します。[詳しくは、式エディターにアクセスする方法を参照してください](gs-personalization.md#access)。
 
    ![パーソナライゼーションダイアログへのアクセス方法を示すスクリーンショット](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 
