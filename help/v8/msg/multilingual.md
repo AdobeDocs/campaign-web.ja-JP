@@ -2,10 +2,10 @@
 audience: end-user
 title: 多言語配信の設定
 description: 多言語配信の設定方法を学ぶ
-source-git-commit: e005c409a61748d99b70b2a99f4f4f89d4d6229e
+source-git-commit: 50a798abea166e89d58e8e46eb55590333071ef0
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 92%
+source-wordcount: '628'
+ht-degree: 93%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 92%
 >abstract="このタブには、配信を送信する言語のリストがあります。「言語を追加」ボタンをクリックするか、このタブから別の言語を複製して、さらに言語を追加できます。"
 
 >[!CONTEXTUALHELP]
->id=&quot;acw_multilingual_file_upload&quot;
->title=&quot;言語のバリアントを読み込む&quot;
->abstract=&quot;このダイアログを使用して、CSV ファイルを読み込んで言語バリアントを追加します。 ファイルは、選択した言語で使用可能なすべてのフィールドに自動的に入力されます。 ファイルをドラッグ&amp;ドロップするか、コンピューターから選択してから確認できます。」
+>id="acw_multilingual_file_upload"
+>title="言語バリアントの読み込み"
+>abstract="このダイアログを使用して、CSV ファイルを読み込んで言語バリアントを追加します。 ファイルは、選択した言語で使用可能なすべてのフィールドに自動的に入力されます。 確認する前に、ファイルをドラッグ&amp;ドロップするか、コンピューターから選択できます。"
 
 Campaign web ユーザーインターフェイスでは、メール配信を多言語として設定し、プロファイルの優先言語に基づいてメッセージを送信できます。環境設定を定義していない場合、メッセージはデフォルトの言語で送信されます。
 
@@ -34,7 +34,7 @@ Campaign web ユーザーインターフェイスでは、メール配信を多�
 多言語配信を設定するには、次の主な手順に従います。
 
 1. 言語バリアントを追加します。[詳細情報](#add-variant)
-1. 各バリアントのコンテンツを定義します。[詳細情報 &#x200B;](#define-content)
+1. 各バリアントのコンテンツを定義します。[詳細情報 ](#define-content)
 1. 言語バリアントを管理します。[詳細情報](#manage-variant)
 
 ## 言語バリアントの追加{#add-variant}
