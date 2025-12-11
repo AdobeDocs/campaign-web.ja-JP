@@ -4,7 +4,7 @@ title: ビジネスルール（タイポロジ）の操作
 description: タイポロジとタイポロジルールを使用して、配信の送信を制御、フィルタリングおよび監視する方法について説明します。
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
 source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1506'
 ht-degree: 100%
 

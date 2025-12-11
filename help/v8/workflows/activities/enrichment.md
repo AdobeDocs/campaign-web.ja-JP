@@ -4,7 +4,7 @@ title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2043'
 ht-degree: 100%
 

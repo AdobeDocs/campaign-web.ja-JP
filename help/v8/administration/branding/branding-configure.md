@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '548'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -61,9 +61,9 @@ Adobe Campaign v8 では、ブランドは&#x200B;**[!UICONTROL 管理／プラ�
 
   これらのパラメーターは、**[!UICONTROL ドメイン名のリスト]**&#x200B;で指定したドメイン名（正規表現を含めることができる）に一致するトラッキング対象 URL に適用されます。
 
-  **例：** `https://www.example.com` のようなトラッキング対象 URL は、そのドメインに追加のパラメーター `https://www.example.com/?age=21&deliveryName=DM101` および `age=21` が設定されると、`deliveryName=DM101` になります。
+  **例：**`https://www.example.com` のようなトラッキング対象 URL は、そのドメインに追加パラメーター `age=21` および `deliveryName=DM101` が設定されている場合は `https://www.example.com/?age=21&deliveryName=DM101` になります。
 
-## トランザクションメッセージ用のブランディングの設定 {#branding-transactional-config}
+## トランザクションメッセージのブランディングの設定 {#branding-transactional-config}
 
 >[!IMPORTANT]
 >
@@ -71,18 +71,18 @@ Adobe Campaign v8 では、ブランドは&#x200B;**[!UICONTROL 管理／プラ�
 >
 >トランザクション機能は Campaign web UI で使用できますが、以下の手順は Campaign v8 クライアントコンソール（コントロールインスタンス）で実行する必要があります。
 
-ブランディングにトランザクションメッセージ（Message Center）を使用する場合は、追加の設定が必要です。
+ブランディングにトランザクションメッセージ（Message Center）を使用している場合は、追加の設定が必要です。
 
 ### リアルタイムインスタンスのトラッキング式
 
-ブランディングがリアルタイム（RT）コントロールインスタンスでアクティブ化されると、トラッキング式の管理に特定のトラッキングオプションが使用されます。 これらの式は、各 RT 実行インスタンスで個別に設定するのではなく、RT コントロールインスタンスで一元的に設定されます。
+リアルタイム（RT）コントロールインスタンスでブランディングをアクティブ化すると、トラッキング式を管理する特定のトラッキングオプションが使用されます。これらの式は、各 RT 実行インスタンスで個別に設定するのではなく、RT コントロールインスタンスで一元的に設定されます。
 
-次のオプションでは、RT 配信で使用されるトラッキング式を定義します。
+次のオプションは、RT 配信で使用されるトラッキング式を定義します。
 
-* **`NmsTracking_RT_ClickFormula`**: RT インスタンスでのクリックの追跡に使用する式を指定します
+* **`NmsTracking_RT_ClickFormula`**：RT インスタンスのクリックの追跡に使用される式を指定します
 
-* **`NmsTracking_RT_OpenFormula`**: RT インスタンスでの開封トラッキングに使用する式を指定します
+* **`NmsTracking_RT_OpenFormula`**：RT インスタンスの開封トラッキングに使用される式を指定します
 
-実装でトランザクションメッセージ用のカスタムトラッキング式が必要な場合は、次のオプションを使用します。
+実装でトランザクションメッセージのカスタムトラッキング式が必要な場合は、以下のオプションを使用します。
 
-* **`Branding_RT_ListXtkOptions_toPublish`**：カスタム式の XTK オプション名をここにリストします（コンマで区切ります）。 これにより、RT 配信でカスタムトラッキング式を適用できるようになります。
+* **`Branding_RT_ListXtkOptions_toPublish`**：カスタム式の XTK オプション名をここにリストします（コンマで区切ります）。これにより、RT 配信でカスタムトラッキング式を適用できます。

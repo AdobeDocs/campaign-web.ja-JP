@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '953'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ ht-degree: 98%
       + [AI プロンプトのベストプラクティス](content/ai-assistant-prompting-guide.md)
       + [AI を使用した完全なコンテンツ生成](content/generative-full-content.md)
       + [AI を使用したテキスト生成](content/generative-text.md)
-      + [AI による画像生成](content/generative-image.md)
+      + [AI を使用した画像生成](content/generative-image.md)
       + [AI アシスタントのユースケース](content/generative-uc.md)
       + ブランド {#ai-assistant}
          + [ブランドの作成と管理](content/brands.md)
@@ -278,7 +278,7 @@ ht-degree: 98%
    + [ターゲットマッピングの管理](administration/target-mappings.md)
    + [スキーマの操作](administration/schemas.md)
    + [カスタムフィールドの設定](administration/custom-fields.md)
-   + [&#x200B; [!DNL Campaign]  オプションの設定](administration/options.md)
+   + [ [!DNL Campaign]  オプションの設定](administration/options.md)
    + [タイムゾーン管理](administration/timezone-management.md)
    + 外部アカウント {#external-accounts}
       + [外部アカウントの作成](administration/create-external-account.md)

@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
 source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 94%
 
 1. 配信をさらにパーソナライズします。メールの作成について詳しくは、[メールのデザインと送信](../../email/create-email.md)の節を参照してください。
 
-1. パーソナライゼーションフィールドにブランド情報を追加することもできます。 **[!UICONTROL ブランディング]** に移動し、挿入するブランド関連のパーソナライゼーションブロック（ブランド名、ロゴ URL、web サイト URL、送信者情報など）を選択します。
+1. また、パーソナライゼーションフィールドを使用してブランド情報を追加することもできます。**[!UICONTROL ブランディング]**&#x200B;に移動し、挿入するブランド関連のパーソナライゼーションブロック（ブランド名、ロゴ URL、web サイト URL、送信者情報など）を選択します。
 
 >[!ENDTABS]
 
