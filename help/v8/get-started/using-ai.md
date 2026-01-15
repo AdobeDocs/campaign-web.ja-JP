@@ -5,7 +5,7 @@ badge: label="ベータ版"
 hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b2de0d0061e5c2b582c3e73ccaf2dab1490cc854
+source-git-commit: c29259234059270d01af4ae1d0cb813e777eb826
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
@@ -42,7 +42,7 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/jp/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/ai.html){target="_blank"}.
 -->
 
 ## 推奨される質問 {#questions-ai}
@@ -63,7 +63,7 @@ Adobe Campaign の AI を活用したコンテキストヘルプはサポート�
 
 時間が経つにつれて人工知能および機械学習モデルが改善され、特定のユースケースに適切に対応できるようになります。Campaign の AI を活用したコンテキストヘルプは、引き続き改善を行います。  <img src="assets/do-not-localize/thumb.png" width="10%"/> ボタンを使用してアドビのエンジニアに通知することを強くお勧めします。
 
-## 推奨事項 {#recommendations-ai}
+## レコメンデーション {#recommendations-ai}
 
 AI を活用したコンテキストヘルプで質問する場合、現在の製品のコンテキスト（現在の画面）と現在のヘルプボックスの内容が考慮されます。
 
