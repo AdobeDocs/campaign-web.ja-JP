@@ -3,7 +3,7 @@ audience: end-user
 title: Adobe Campaign Web でのキャンペーンの作成
 description: Adobe Campaign Web を使用してクロスチャネルキャンペーンを作成する方法を学ぶ
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f1fe8e08401f6ad98ab6920c9ae33fa6336c209d
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    ![キャンペーンメニューの「キャンペーンを作成」ボタンを示すスクリーンショット](assets/create-campaign-button.png)
 
-1. 使用する&#x200B;**テンプレート**&#x200B;を選択し、キャンペーンのラベルを入力します。[詳細情報](manage-campaigns.md#manage-campaign-templates)。
+1. 使用する&#x200B;**テンプレート**&#x200B;を選択し、キャンペーンのラベルを入力します。[詳細情報](manage-campaigns.md#manage-campaign-templates)
 1. 必要に応じて、内部名、フォルダー、担当者、説明、特性などの&#x200B;**追加オプション**&#x200B;を変更します。
 1. キャンペーンの&#x200B;**スケジュール**&#x200B;を定義します。キャンペーンスケジュールを設定する方法について詳しくは、[この節](#campaign-schedule)を参照してください。
 1. 「**作成**」をクリックします。
