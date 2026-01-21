@@ -3,10 +3,10 @@ audience: end-user
 title: ワークフローアクティビティの操作
 description: ワークフローアクティビティの操作方法を学ぶ
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 61f3a2bff32bba1e202d3e811e9f116f3987c191
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '562'
+ht-degree: 96%
 
 ---
 
@@ -58,6 +58,11 @@ Adobe Campaign Web を使用すると、複数のチャネル間でマーケテ�
 >id="acw_orchestration_end"
 >title="終了アクティビティ"
 >abstract="**終了**&#x200B;アクティビティを使用すると、ワークフローの終了を視覚的に示すことができます。このアクティビティは、機能上の影響はないので、省略可能です。"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_signal"
+>title="外部シグナル"
+>abstract="終了アクティビティパラメーターの外部信号セクションのプレースホルダー。 オーケストレートキャンペーンでのみ使用できます。 DELETEしない"
 
 次のアクティビティは、ワークフローの整理と実行に固有です。主なタスクは、他のアクティビティの調整です。
 
