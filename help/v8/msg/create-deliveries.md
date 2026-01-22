@@ -7,13 +7,13 @@ role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
 source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 100%
 
 ---
 
-# 配信を作成 {#create-delivery}
+#  配信の作成 {#create-delivery}
 
 <!-- /NEO-92684 / DOCAC-13767-->
 

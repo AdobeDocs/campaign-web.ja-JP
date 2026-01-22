@@ -3,7 +3,7 @@ audience: end-user
 title: 多言語配信の設定
 description: 多言語配信の設定方法を学ぶ
 source-git-commit: 50a798abea166e89d58e8e46eb55590333071ef0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
 

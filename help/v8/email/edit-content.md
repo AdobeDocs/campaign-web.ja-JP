@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="メールコンテンツを定義"
+>title="メールコンテンツの定義"
 >abstract="**コンテンツを編集**&#x200B;画面では、送信者アドレスや件名などのメッセージの基本要素を定義し、添付ファイルやオファーの追加などの追加アクションを実行し、E メールデザイナーにアクセスしてメッセージを洗練された外観にすることができます。"
 
 >[!CONTEXTUALHELP]
