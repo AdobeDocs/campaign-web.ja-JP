@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 803a20ac-e75f-45c6-af89-054b84eb3405
-source-git-commit: 0e48f27982368b00a29a64b7dbcb0b6be965efd2
+source-git-commit: f611f57ea0e1d52056cf14e6b08f44148fef31ad
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_profile_enrichment_settings"
 >title="プロファイルエンリッチメントを有効にする"
->abstract="プロファイルエンリッチメントのフィールドを選択します。"
+>abstract="プロファイルエンリッチメントのフィールドを選択します。 紐付けキーとして選択できるのは、インデックスを持つフィールドのみです。サポートされていないフィールドはグレー表示されます。"
 
 **[!UICONTROL 配信]**&#x200B;の左メニューからスタンドアロンの配信を作成したり、キャンペーンに含まれるかどうかに関係なく、ワークフローのコンテキストで配信を作成したりできます。
 
