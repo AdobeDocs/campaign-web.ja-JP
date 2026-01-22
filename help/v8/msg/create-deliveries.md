@@ -13,7 +13,7 @@ ht-degree: 99%
 
 ---
 
-#  配信の作成 {#create-delivery}
+# 配信の作成 {#create-delivery}
 
 <!-- /NEO-92684 / DOCAC-13767-->
 
