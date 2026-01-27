@@ -124,7 +124,7 @@ E メールデザイナーの関連する構造および[コンテンツコン�
 
 * Litmus を活用した「[メールレンダリング](../preview-test/email-rendering.md)」オプションを使用して、主要なメールクライアント（Apple メール、Gmail、Outlook）でデザインをシミュレートし、テキスト、色、画像によってコンテンツがアクセス可能になるかどうかを確認します。<!--Litmus includes accessibility testing-->
 
-* アクセシビリティの重要なコンポーネントである読みやすさを評価するために、コンテンツ品質を検証します。 [ コンテンツ品質検証の詳細情報 ](../content/brands-score.md#validate-quality)
+* アクセシビリティの重要なコンポーネントである読みやすさを評価するために、コンテンツ品質を検証します。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](../content/brands-score.md#validate-quality)
 
 * 実際のオーディエンスに送信する前に、コンテンツのレンダリングをテストする配達確認を送信します。[詳細情報](../preview-test/test-deliveries.md)
 

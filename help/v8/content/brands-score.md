@@ -61,7 +61,7 @@ ht-degree: 36%
 
 コンテンツ品質を評価するには：
 
-1. [ メール配信 ](../email/create-email.md) を作成します。
+1. [&#x200B; メール配信 &#x200B;](../email/create-email.md) を作成します。
 
 1. メールDesignerで **[!UICONTROL ブランドの関連付け]** メニューを開きます。
 
@@ -75,7 +75,7 @@ ht-degree: 36%
 
    ![](assets/quality-score-3.png)
 
-1. 「![ フルスクリーン」アイコンをクリックすると ](assets/do-not-localize/Smock_FullScreen_18_N.svg " 詳細なインサイトが表示されます ") 「フルスクリーン」アイコンをクリックすると、品質スコアの詳細な表示が表示されます。
+1. 「![&#x200B; フルスクリーン」アイコンをクリックすると &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg " 詳細なインサイトが表示されます ") 「フルスクリーン」アイコンをクリックすると、品質スコアの詳細な表示が表示されます。
 
    ![](assets/quality-score-4.png)
 

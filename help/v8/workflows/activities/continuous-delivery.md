@@ -19,7 +19,7 @@ ht-degree: 6%
 
 1. **連続配信** アクティビティをワークフローキャンバスに追加します。
 
-   ![ 連続配信アクティビティを示すスクリーンショット ](../assets/continuous-delivery.png){zoomable="yes"}
+   ![&#x200B; 連続配信アクティビティを示すスクリーンショット &#x200B;](../assets/continuous-delivery.png){zoomable="yes"}
 
 1. アクティビティのカスタム **[!UICONTROL ラベル]** を入力します（オプション）。 デフォルトでは、「連続配信」というラベルが付いています。
 
