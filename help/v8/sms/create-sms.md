@@ -3,10 +3,10 @@ audience: end-user
 title: SMS 配信の作成
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 98%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -60,6 +60,8 @@ ht-degree: 98%
    新しいオーディエンスを作成する方法について詳しくは、[このページ](../audience/one-time-audience.md)を参照してください。
 
 1. 「**[!UICONTROL コントロール母集団を有効にする]**」オプションをオンにして、配信の影響を測定するコントロール母集団を設定します。そのコントロール母集団にはメッセージが送信されないので、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。[詳細情報](../audience/control-group.md)
+
+1. SMS 配信を多言語配信として設定し、プロファイルの優先言語に基づいてメッセージを送信できます。 [詳細情報](../msg/multilingual.md)。
 
 1. 「**[!UICONTROL コンテンツの編集]**」をクリックして、SMS メッセージのコンテンツのデザインを開始します。[詳細情報](content-sms.md)
 

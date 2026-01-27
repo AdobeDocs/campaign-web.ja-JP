@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '953'
-ht-degree: 100%
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '973'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
       + [2024 リリース](rn/release-notes-24.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の概要 {#start}
-   + [基本を学ぶ](get-started/get-started.md)
+   + [はじめに](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
    + [インターフェイスの確認](get-started/user-interface.md)
    + [リストの参照とフィルタリング](get-started/list-filters.md)
@@ -37,14 +37,15 @@ ht-degree: 100%
    + [Campaign Standard から v8 へ](rn/acs-migration.md)
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
    + [FAQ](get-started/faq.md)
-+ メッセージと配信 {#msg}
+   + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
    + [配信へのアクセス](msg/gs-deliveries.md)
-   + [配信を作成](msg/create-deliveries.md)
+   + [配信の作成](msg/create-deliveries.md)
    + [配信テンプレートの使用](msg/delivery-template.md)
    + メール {#email}
       + [最初のメールを作成](email/create-email.md)
       + [メールコンテンツの設定](email/edit-content.md)
+      + [コンテンツ実験の作成](email/ab-testing.md)
       + メールの送信と監視 {#monitor}
          + [メールの準備と送信](monitor/prepare-send.md)
          + [複数のウェーブを使用して送信](advanced-settings/send-using-waves.md)
@@ -60,7 +61,7 @@ ht-degree: 100%
       + [プッシュ配信のプレビューと送信](push/send-push.md)
    + SMS {#sms}
       + [SMS 配信の基本を学ぶ](sms/gs-sms.md)
-      + [SMS 配信を作成](sms/create-sms.md)
+      + [SMS 配信の作成](sms/create-sms.md)
       + [SMS 配信をデザイン](sms/content-sms.md)
       + [SMS 配信のプレビューと送信](sms/send-sms.md)
    + ダイレクトメール {#direct-mail}
@@ -86,7 +87,7 @@ ht-degree: 100%
    + 配信のプレビューとテスト {#preview-test}
       + [プレビューと配達確認について](preview-test/preview-test.md)
       + [メッセージコンテンツのプレビュー](preview-test/preview-content.md)
-      + [本配信前確認の送信](preview-test/test-deliveries.md)
+      + [配達確認の送信](preview-test/test-deliveries.md)
       + [メールのレンダリングのテスト](preview-test/email-rendering.md)
    + 配信アラート {#delivery-alerting}
       + [配信アラートの基本を学ぶ](msg/delivery-alerting.md)
@@ -137,7 +138,8 @@ ht-degree: 100%
       + [AI アシスタントのユースケース](content/generative-uc.md)
       + ブランド {#ai-assistant}
          + [ブランドの作成と管理](content/brands.md)
-         + [ブランド整合性スコアの評価](content/brands-score.md)
+         + [ブランドのパーソナライズ](content/brands-personalize.md)
+         + [コンテンツの評価](content/brands-score.md)
 + ランディングページ {#landing-pages}
    + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
    + [ランディングページの作成と公開](landing-pages/create-lp.md)
@@ -170,6 +172,7 @@ ht-degree: 100%
    + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
    + [キャンペーンへのアクセスと管理](campaigns/manage-campaigns.md)
    + [最初のキャンペーンを作成](campaigns/create-campaigns.md)
+   + [承認プロセスの設定と管理](campaigns/campaign-approvals.md)
    + [プランとプログラム](administration/plans-programs.md)
 + ワークフロー {#wf}
    + [ワークフローの基本を学ぶ](workflows/gs-workflows.md)
@@ -190,13 +193,14 @@ ht-degree: 100%
       + [データソースを変更](workflows/activities/change-data-source.md)
       + [ディメンションを変更](workflows/activities/change-dimension.md)
       + [結合](workflows/activities/combine.md)
+      + [連続配信](workflows/activities/continuous-delivery.md)
       + [重複の除外](workflows/activities/deduplication.md)
       + [メール, SMS, プッシュ, ダイレクトメール](workflows/activities/channels.md)
       + [エンリッチメント](workflows/activities/enrichment.md)
       + [外部シグナル](workflows/activities/external-signal.md)
-      + [ファイルを抽出](workflows/activities/extract-file.md)
+      + [ファイル抽出](workflows/activities/extract-file.md)
       + [分岐](workflows/activities/fork.md)
-      + [増分クエリ](workflows/activities/incremental-query.md)
+      + [増分処理クエリ](workflows/activities/incremental-query.md)
       + [JavaScript コード](workflows/activities/javascript-code.md)
       + [ファイルを読み込み](workflows/activities/load-file.md)
       + [紐付け](workflows/activities/reconciliation.md)
@@ -206,7 +210,7 @@ ht-degree: 100%
       + [購読サービス](workflows/activities/subscription-services.md)
       + [テスト](workflows/activities/test.md)
       + [ファイルを転送](workflows/activities/transfer-file.md)
-      + [データの更新](workflows/activities/update-data.md)
+      + [データ更新](workflows/activities/update-data.md)
       + [待機](workflows/activities/wait.md)
 + データベースのクエリ {#query-database}
    + [クエリモデラーの操作](query/query-modeler-overview.md)
@@ -263,11 +267,12 @@ ht-degree: 100%
          + [ビジュアライゼーションの追加](reporting/dynamic-reporting/adding-visualizations.md)
          + [コンポーネントの追加](reporting/dynamic-reporting/adding-components.md)
          + [カスタムプロファイルディメンションの作成](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
-         + [動的レポート使用契約](reporting/dynamic-reporting/pii-agreement.md)
+         + [動的レポートの使用契約](reporting/dynamic-reporting/pii-agreement.md)
 + 統合 {#integrations}
    + [他のアドビソリューションの操作](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
+   + [Adobe Experience Managerでの言語コピーの管理](integrations/aem-multilingual.md)
    + [GenStudio for Performance Marketing の操作](integrations/genstudio.md)
 + 設定 {#conf}
    + ブランディング {#branding}

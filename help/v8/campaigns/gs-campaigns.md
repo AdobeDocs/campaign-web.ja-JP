@@ -3,9 +3,9 @@ audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '221'
 ht-degree: 100%
 
 ---
@@ -29,4 +29,5 @@ Adobe Campaign では、ビルトインのキャンペーン管理機能を使�
 
 * [キャンペーンへのアクセスと管理](manage-campaigns.md)
 * [最初のキャンペーンを作成](create-campaigns.md)
+* [承認プロセスの設定と管理](campaign-approvals.md)
 * [キャンペーンレポートを参照します](../reporting/campaign-reports.md)。

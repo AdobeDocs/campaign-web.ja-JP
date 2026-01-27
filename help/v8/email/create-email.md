@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールを送信
 description: Campaign web UI で最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 100%
+source-wordcount: '1648'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 事前定義された[デザインテンプレート](../content/create-email-templates.md)に基づき、メールには、顧客プロファイル属性に基づいてパーソナライズされたコンテンツも含まれます。
 
-➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
+➡️ [ビデオでこの機能を確認する](#video)
 
 ## メール配信の作成 {#create-email}
 
@@ -153,6 +153,8 @@ ht-degree: 100%
 
 このユースケースでは、ターゲットプロファイルの一部を偽装して、メールをプレビューし、特定のメールアドレスに本配信前確認を送信します。
 
+また、コンテンツ品質を検証して、読みやすさ、CTAの効果、件名の品質などを確認することもできます。 [ コンテンツ品質検証の詳細情報 ](../content/brands-score.md#validate-quality)
+
 メールのプレビューと本配信前確認の送信方法に関する追加情報について詳しくは、[この節](../preview-test/preview-test.md)を参照してください。
 
 1. メールを確認するには、「**[!UICONTROL 確認して送信]**」をクリックします。これによりメールのプレビューが、設定済みのすべてのプロパティ、オーディエンス、スケジュールと共に表示されます。「変更」ボタンをクリックして、これらの要素を編集できます。
@@ -252,4 +254,4 @@ ht-degree: 100%
 
 メール配信をゼロから作成し、オーディエンスの定義、コンテンツの設計、プレビューのシミュレートを行い、配達確認を送信する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454006/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

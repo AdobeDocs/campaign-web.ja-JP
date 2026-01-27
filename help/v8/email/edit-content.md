@@ -3,10 +3,10 @@ audience: end-user
 title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスでメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
@@ -106,4 +106,6 @@ ht-degree: 100%
 
 1. デフォルトでは、配信のトラッキングが有効になっています。このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。[リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
 
-1. メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。[詳しくは、メールのプレビューとテストの方法を参照してください](../preview-test/preview-test.md)。
+1. メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。また、コンテンツ品質を検証して、読みやすさ、CTAの効果および全体的な品質を評価することもできます。 [ コンテンツ品質検証の詳細情報 ](../content/brands-score.md#validate-quality)
+
+1. [詳しくは、メールのプレビューとテストの方法を参照してください](../preview-test/preview-test.md)。

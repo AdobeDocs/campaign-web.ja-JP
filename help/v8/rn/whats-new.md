@@ -3,8 +3,8 @@ audience: end-user
 title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 100%
 
@@ -141,10 +141,10 @@ Campaign Standard ユーザーが Campaign v8 に移行する場合は、[この
 既存の Campaign ユーザーとして、一部の概念は最新の用語標準に合わせて名前が変更されています。これらの変更は Campaign Web ユーザーインターフェイスにのみ適用され、クライアントコンソールには反映されません。以下を参照してください。
 
 * 受信者は、**プロファイル**&#x200B;になりました。[詳細情報](../audience/gs-audiences-recipients.md)。
-* シードアドレスは、**テストプロファイル**&#x200B;になりました。[詳細情報](../preview-test/test-deliveries.md)
-* 配信分析は、**配信準備**&#x200B;になりました。メッセージの準備を開始する必要がある場合は、「**準備**」ボタンをクリックします。[詳細情報](../monitor/prepare-send.md)
+* シードアドレスは、**テストプロファイル**&#x200B;になりました。[詳細情報](../preview-test/test-deliveries.md)。
+* 配信分析は、**配信準備**&#x200B;になりました。メッセージの準備を開始する必要がある場合は、「**準備**」ボタンをクリックします。[詳細情報](../monitor/prepare-send.md)。
 * メールのプレビューが、「**コンテンツをシミュレート**」ボタンから使用できるようになりました。[詳細情報](../preview-test/preview-test.md)
-* リストは、**オーディエンス**&#x200B;になりました。[詳細情報](../audience/gs-audiences-recipients.md)
+* リストは、**オーディエンス**&#x200B;になりました。[詳細情報](../audience/gs-audiences-recipients.md)。
 
 ## 制限事項{#limitations-beta}
 

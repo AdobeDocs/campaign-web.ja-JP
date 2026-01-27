@@ -2,9 +2,9 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2025 Campaign web ユーザーインターフェイスリリース
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
-source-wordcount: '2667'
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+workflow-type: tm+mt
+source-wordcount: '3052'
 ht-degree: 100%
 
 ---
@@ -12,6 +12,111 @@ ht-degree: 100%
 # 2025 リリースノート {#2025-release}
 
 このページには、**2025 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートについて詳しくは、[このページ](release-notes.md)を参照してください。
+
+## 2025年10月リリース {#25-10-updates}
+
+_2025年11月3日（PT）_
+
+<table>
+<thead>
+<tr>
+<th><strong>トランザクションメッセージ、プッシュ通知、SMS （LA）の多言語機能</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Campaign web ユーザーインターフェイスで、複数のトランザクションメッセージ、プッシュ通知、SMS メッセージを異なる言語で送信できるようになりました。 多言語配信機能を使用すると、配信のデフォルト言語と、配信を送信できる様々な言語を選択できます。また、選択した言語でこれらの配信をプレビューすることもできます。</p>
+<p>メモ：この機能は一連の組織でのみ使用でき（使用制限あり）、今後のリリースでグローバルにロールアウトされます。</p>
+<p>詳しくは、<a href="../msg/multilingual.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>トランザクションメッセージ（LA）でのプロファイルエンリッチメント</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>この機能では、Adobe Campaign データベースフィールドをメッセージのコンテンツにリンクすることによって、トランザクションメッセージをパーソナライズできます。 ターゲットマッピング、エンリッチメント列および紐付けキーを選択して、パフォーマンスのしきい値を維持しながら、正確でリアルタイムのパーソナライゼーションを行うことができます。</p>
+<p>メモ：この機能は一連の組織でのみ使用でき（使用制限あり）、今後のリリースでグローバルにロールアウトされます。 この機能は現在、メールでのみ使用できます。</p>
+<p>詳しくは、<a href="../transactional-messaging/profile-enrichment.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe GenStudio との統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>マーケティング効率を高め、ブランドの一貫性を維持するために、GenStudio for Performance Marketing エクスペリエンスを Campaign とシームレスに統合できるようになりました。これにより、Campaign の高度なオーケストレーション機能と共に、GenStudio の AI を活用したコンテンツ作成を活用できます。<p>
+<p>詳しくは、<a href="../integrations/genstudio.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>E メールデザイナーでのダークモードのサポート</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>E メールデザイナーには、ダークモードビューに切り替える機能が用意され、特定のカスタム設定をさらに定義できるようになりました。最終的なレンダリングは受信者のメールクライアントに応じて異なり、すべてのメールクライアントがダークモードをサポートしているわけではありません。</p>
+<p>詳しくは、<a href="../email/dark-mode.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>Continuous delivery activity</strong><br/></th> not ready
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Continuous delivery activity</p>
+<p>For more information, refer to the detailed documentation.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### 改善点 {#25-10-improvements}
+
+* クライアントコンソールで作成した配信の「**オーディエンス**」セクションに、配達確認ターゲットに対する動的条件が定義されているかどうかを示すようになりました。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
+
+* E メールデザイナーの条件付きコンテンツ機能を使用して条件を設定する際に、新しいルールビルダーとレガシールールビルダーを切り替えられるようになりました。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+
+* 受信者スキーマの画面定義で、購入などのコレクションリンクを選択できるようになりました。これにより、専用タブを通じてプロファイル画面に関連データが表示されます。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
+
+* Campaign 管理者は、Salesforce CRM と Microsoft Dynamics への接続を設定できるようになりました。
+  [詳細情報](../administration/external-crm.md)
+
+<!--
+* Stop button for deliveries not linked to release and no info
+-->
 
 ## 2025年9月リリース {#25-9-release}
 
@@ -29,7 +134,7 @@ _2025年9月23日（PT）_
 <tr>
 <td>
 <p>Adobe Campaign web UI から直接、カスタム API チャネルに基づいて配信を調整および実行できるようになりました。これらの配信は、スタンドアロンで行うか、ワークフローの一部として行うことができます。カスタム API チャネルの設定は、コンソールで実行します。</p>
-<p>詳しくは、<a href="../call-center/gs-custom-channel.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../call-center/gs-custom-channel.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -45,7 +150,7 @@ _2025年9月23日（PT）_
 <tr>
 <td>
 <p>Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。また、既存の外部アカウントを表示、更新、管理することもできます。</p>
-<p>詳しくは、<a href="../administration/create-external-account.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/create-external-account.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -61,7 +166,7 @@ _2025年9月23日（PT）_
 <tr>
 <td>
 <p>Campaign では、テンプレート全体または特定の構造とコンポーネントをロックして、メールテンプレート内のコンテンツをロックできるようになりました。これにより、意図しない編集や削除を防ぎ、テンプレートのカスタマイズをより細かく制御して、メールキャンペーンの効率と信頼性を向上させることができます。</p>
-<p>詳しくは、<a href="../content/content-locking.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content/content-locking.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -150,7 +255,7 @@ _2025年9月23日（PT）_
 </table-->
 
 
-### 機能強化 {#25-9-improvements}
+### 改善点 {#25-9-improvements}
 
 * E メールデザイナーの条件付きコンテンツ機能を使用して条件を設定する際に、新しい演算子のセットが追加されました。
 * フィルタリングディメンションが&#x200B;**オーディエンスを作成**&#x200B;ワークフローアクティビティで使用できるようになりました。表示または変更するには、ターゲティングディメンションの横にあるアイコンをクリックします。[詳細情報](../workflows/activities/build-audience.md#build-audience-configuration)。
@@ -190,7 +295,7 @@ query activity -> query ds workflow fitleting dimentsion
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -223,7 +328,7 @@ query activity -> query ds workflow fitleting dimentsion
 <tr>
 <td>
 <p>メールをデザインする際に、E メールデザイナー内で独自のカスタム CSS を直接追加できるようになりました。この機能により、コンテンツの外観に対する柔軟性と制御を高めるのに、高度で特定のスタイルを適用できます。</p>
-<p>詳しくは、<a href="../email/custom-css.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/custom-css.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -240,7 +345,7 @@ query activity -> query ds workflow fitleting dimentsion
 <td>
 <p>独自のブランドを作成およびカスタマイズし、コミュニケーション全体で視覚的および言語的な ID を明確に定義できるようになりました。ブランド整合性スコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するフィードバックをリアルタイムで受信でき、送信するすべてのメッセージでブランドに即して一貫性を保つことができます。
 </p>
-<p>詳しくは、<a href="../content/brands.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content/brands.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -256,7 +361,7 @@ query activity -> query ds workflow fitleting dimentsion
 <tr>
 <td>
 <p>配信アラート機能は、配信の実行に関する情報を含んだ通知をユーザーグループが自動的に受信できるようにするアラート管理システムです。</p>
-<p>詳しくは、<a href="../msg/delivery-alerting.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../msg/delivery-alerting.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +403,7 @@ query activity -> query ds workflow fitleting dimentsion
 <td>
 <p>マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供する動的レポートにアクセスできるようになりました。プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。また、動的レポートは、多言語のメール配信とトランザクションメッセージにも使用できます。</p>
 <p>この機能は、オンデマンドでのみ使用できます。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以上にアップグレードする必要があります。詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
-<p>詳しくは、<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -315,7 +420,7 @@ query activity -> query ds workflow fitleting dimentsion
 <td>
 <p>技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできます。こうした設定はテンプレートで管理されます。ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで使用できます。</p>
 <p>この機能は、新しい実装でのみオンデマンドで使用できます。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以上にアップグレードする必要があります。詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
-<p>詳しくは、<a href="../administration/branding/branding-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/branding/branding-gs.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -334,14 +439,14 @@ query activity -> query ds workflow fitleting dimentsion
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=ja){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -368,14 +473,14 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
-### 機能強化 {#25-7-improvements}
+### 改善点 {#25-7-improvements}
 
 * ルールビルダーで、各条件とグループに対してターゲット母集団を直接計算できるようになりました。レコードの詳細なリストを表示するには、結果番号をクリックします。[詳細情報](../query/build-query.md#validate-query)
 
@@ -397,7 +502,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 ## 2025年6月リリース {#25-6-release}
 
-### 機能強化 {#25-6-improvements}
+### 改善点 {#25-6-improvements}
 
 * 配信概要レポートが、コールセンターチャネルとカスタムチャネルの両方で使用できるようになりました。[詳細情報](../reporting/direct-mail.md)
 
@@ -429,7 +534,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tr>
 <td>
 <p>ブランド整合性スコア機能は、E メールデザイナーで直接、明確なフィードバックを提供し、コンテンツがブランドのトーン、スタイル、ガイドラインと合っているかどうかを確認するのに役立ちます。この機能はベータ版で使用できます。</p>
-<p>詳しくは、<a href="../content/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content/brands-score.md">詳細ドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
@@ -447,14 +552,14 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <td>
 <p>Adobe Campaign Web UI から直接、カスタム外部チャネルに基づいて配信を調整および実行できるようになりました。これらの配信は、スタンドアロンで行うか、ワークフローの一部として行うことができます。サードパーティと統合されたカスタム外部チャネルの作成は、コンソールで実行します。</p>
 <p>メモ：カスタムチャネルの Web UI では、レポートは使用できません。レポートにアクセスするには、クライアントコンソールを参照する必要があります。</p>
-<p>詳しくは、<a href="../call-center/gs-custom-channel.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../call-center/gs-custom-channel.md">詳細ドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/custom-channel.gif">
 </td>
 </tr>
 </tbody>
 </table>
 
-### 機能強化 {#25-5-improvements}
+### 改善点 {#25-5-improvements}
 
 タイポロジルールの作成画面が更新され、ルールのタイプを簡単に選択できるようになりました。
 
@@ -478,7 +583,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <p>コールセンターチャネルを Campaign web ユーザーインターフェイスで使用できるようになりました。このチャネルは、コールセンター（通常、エージェントによる顧客や見込み客への電話）を通じて処理される通信やインタラクションを管理および追跡するのに使用される通信方法を指します。</p>
 <p>メモ：レポートは、コールセンターチャネルの Web UI では使用できません。レポートにアクセスするには、クライアントコンソールを参照する必要があります。</p>
 <img src="assets/do-not-localize/call-center.gif">
-<p>詳しくは、<a href="../call-center/gs-call-center.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../call-center/gs-call-center.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -495,7 +600,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <td>
 <p>改善されたユーザーインターフェイスで複雑な条件を定義するのに役立つ、新しいルールビルダーが使用できるようになりました。必要に応じて、古いルールビルダーから新しいルールビルダーに切り替えることができます。</p>
 <img src="assets/do-not-localize/rule-builder-release.gif">
-<p>詳しくは、<a href="../query/query-modeler-overview.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../query/query-modeler-overview.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -512,17 +617,17 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <td>
 <p>Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。
 また、既存の外部アカウントを表示、更新、管理することもできます。</p>
-<p>詳しくは、<a href="../administration/external-account.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/external-account.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 機能強化 {#25-4-improvements}
+### 改善点 {#25-4-improvements}
 
 **一般的なインターフェイスの改善**
 
-* スキーマ属性のフィールドの説明、お気に入りに追加、値の配分のオプションがユーザーインターフェイスでより見やすくなりました。詳しくは、[詳細なドキュメント](../get-started/attributes.md)を参照してください。
+* スキーマ属性のフィールドの説明、お気に入りに追加、値の配分のオプションがユーザーインターフェイスでより見やすくなりました。詳しくは、[詳細ドキュメント](../get-started/attributes.md)を参照してください。
 * Experience League の環境設定で指定したプライマリ言語に従って、日時がインターフェイスに表示されるようになりました。この改善は、複数の言語でのみ使用できます。サポートされる言語の完全なリストを確認するには、[詳細なドキュメント](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/browser-language){target=_blank}を参照してください。
 
 <!--
@@ -530,7 +635,7 @@ ko * Built-in options are now only visible in the list of options if the **Show 
 ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
 -->
 
-**メールエディター**：Campaign web UI のアクセシビリティを強化することを目的に、E メールデザイナーで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `html` 要素の `title` 要素と lang 属性に対応しています。これらの設定は、メールの「本文」セクションの「プリヘッダー」フィールドに加えて定義できます。詳しくは、[詳細なドキュメント](../email/metadata.md)を参照してください。
+**メールエディター**：Campaign web UI のアクセシビリティを強化することを目的に、E メールデザイナーで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `html` 要素の `title` 要素と lang 属性に対応しています。これらの設定は、メールの「本文」セクションの「プリヘッダー」フィールドに加えて定義できます。詳しくは、[詳細ドキュメント](../email/metadata.md)を参照してください。
 
 <!--
 **Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
@@ -538,9 +643,9 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 
 **スキーマ**
 
-* Campaign web ユーザーインターフェイスからリストの一時スキーマを編集できるようになりました。詳しくは、[詳細なドキュメント](../audience/manage-audience.md)を参照してください。
-* サンプル画面でスキーマのカスタムフィールドをプレビューできるようになりました。詳しくは、[詳細なドキュメント](../administration/custom-fields.md#add)を参照してください。
-* ドラッグ＆ドロップを使用して、リストのカスタムフィールドを移動できるようになりました。詳しくは、[詳細なドキュメント](../administration/custom-fields.md#add)を参照してください。
+* Campaign web ユーザーインターフェイスからリストの一時スキーマを編集できるようになりました。詳しくは、[詳細ドキュメント](../audience/manage-audience.md)を参照してください。
+* サンプル画面でスキーマのカスタムフィールドをプレビューできるようになりました。詳しくは、[詳細ドキュメント](../administration/custom-fields.md#add)を参照してください。
+* ドラッグ＆ドロップを使用して、リストのカスタムフィールドを移動できるようになりました。詳しくは、[詳細ドキュメント](../administration/custom-fields.md#add)を参照してください。
 
 
 ### 限定提供の新機能 {#25-4-features-la}
@@ -551,11 +656,11 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >ドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)および [Campaign Standard ユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja)を参照してください。
 
-* **多言語配信の作成** - Adobe Campaign web ユーザーインターフェイスで、複数のメール配信を異なる言語で送信できるようになりました。多言語配信機能を使用すると、配信のデフォルト言語と、配信を送信できる様々な言語を選択できます。また、選択した言語でこれらの配信をプレビューすることもできます。詳しくは、[詳細なドキュメント](../email/edit-content.md)を参照してください。
+* **多言語配信の作成** - Adobe Campaign web ユーザーインターフェイスで、複数のメール配信を異なる言語で送信できるようになりました。多言語配信機能を使用すると、配信のデフォルト言語と、配信を送信できる様々な言語を選択できます。また、選択した言語でこれらの配信をプレビューすることもできます。詳しくは、[詳細ドキュメント](../email/edit-content.md)を参照してください。
 
-* **多言語用の動的レポート** - 多言語メール配信で動的レポートが使用できるようになりました。詳しくは、[詳細なドキュメント](../reporting/global-reports.md)を参照してください。
+* **多言語用の動的レポート** - 多言語メール配信で動的レポートが使用できるようになりました。詳しくは、[詳細ドキュメント](../reporting/global-reports.md)を参照してください。
 
-* **SMS REST API サポート（LA）** - トランザクションメッセージング REST API が SMS チャネルで使用できるようになりました。ペイロードにメールと mobilePhone の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。指定しない場合は、wishedChannel で明示的に SMS をリクエストしない限り、デフォルトでメールが使用されます。詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target=_blank}を参照してください。
+* **SMS REST API サポート（LA）** - トランザクションメッセージング REST API が SMS チャネルで使用できるようになりました。ペイロードにメールと mobilePhone の両方が存在する場合は、「wishedChannel」フィールドを使用してチャネルを指定できます。指定しない場合は、wishedChannel で明示的に SMS をリクエストしない限り、デフォルトでメールが使用されます。詳しくは、[詳細ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target=_blank}を参照してください。
 
 ## 2025年2月リリース {#25-2-release}
 
@@ -576,7 +681,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスでタイポロジとタイポロジルールを作成できるようになりました。タイポロジでは、配信の送信を制御、フィルタリングおよび優先順位付けできます。タイポロジを使用すると、必須コンポーネント（登録解除リンクや件名など）や、オーディエンス（登録解除者、競合他社、非ロイヤルティ顧客など）からグループを除外するフィルタリングルールが配信に常に含まれていることを検証できます。</p>
 <img src="assets/do-not-localize/typology.gif">
-<p>詳しくは、<a href="../administration/typologies.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/typologies.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -593,7 +698,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>Campaign web ユーザーインターフェイスでターゲットマッピングを作成できるようになりました。ターゲットマッピングは、様々な配信チャネル（メール、SMS、プッシュ通知）からスキーマのデータフィールドへのリンク方法を定義します。ターゲットマッピングを使用すると、ターゲットオーディエンス（プロファイル、契約の受取人、オペレーター、サブスクライバーなど）を定義できます。</p>
 <img src="assets/do-not-localize/target-mapping.gif">
-<p>詳しくは、<a href="../administration/target-mappings.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/target-mappings.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -610,7 +715,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>リストで名前を選択して、スキーマの詳細にアクセスできるようになりました。カスタムフィールドの編集は、スキーマの詳細にある「<b>カスタムフィールドを編集</b>」ボタンからアクセスできるようになりました。</p>
 <img src="assets/do-not-localize/schemas.gif">
-<p>詳しくは、<a href="../administration/schemas.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/schemas.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -636,7 +741,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>ビジュアルフラグメントは、複数のメール配信やコンテンツテンプレートをまたいで再利用できる、定義済みのビジュアルブロックです。この機能を、サーバービルド 8.6.4 以降を実行しているすべてのお客様が使用できるようになりました。</p>
 <img src="assets/do-not-localize/visual-fragment.gif">
-<p>詳しくは、<a href="../content/use-visual-fragments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content/use-visual-fragments.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -653,7 +758,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>Campaign web インターフェイスで外部配信と外部配信テンプレートを定義できるようになりました。このモードでは、外部プロバイダーと共有できる出力ファイルにメッセージをコンパイルできます。デフォルトでは、ダイレクトメールチャネルには外部配信モードが使用されます。</p>
 <img src="assets/do-not-localize/external-delivery.gif">
-<p>詳しくは、<a href="../msg/send-external-deliveries.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../msg/send-external-deliveries.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -670,7 +775,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスから列挙を直接作成できるようになりました。列挙とは、フィールドへの入力候補としてシステムによって表示される値のリストです。列挙を使用してフィールドの値を統一すると、データ入力やクエリ内での使用が簡単になります。</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<p>詳しくは、<a href="../administration/enumerations.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/enumerations.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -687,7 +792,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>Adobe Campaign web ユーザーインターフェイス内のテクニカルオプションにアクセスし、ニーズに合わせて独自のカスタムオプションを作成できるようになりました。これは、JavaScript コードワークフローアクティビティを使用して中間データを保存する際に特に便利です。</p>
 <img src="assets/do-not-localize/options.gif">
-<p>詳しくは、<a href="../administration/options.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/options.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -705,7 +810,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスで JavaScript コードを作成できるようになりました。これにより、ライブラリと同様に、ワークフロー全体で利用できる再利用可能な関数を作成できます。</p>
 <img src="assets/do-not-localize/javascript.gif">
-<p>詳しくは、<a href="../administration/javascript-codes.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/javascript-codes.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

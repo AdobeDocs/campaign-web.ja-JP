@@ -3,10 +3,10 @@ audience: end-user
 title: E メールデザイナーでのメールの設計
 description: メールコンテンツをゼロから設計する方法を学ぶ
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 97%
+source-wordcount: '673'
+ht-degree: 93%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 97%
 
 E メールデザイナーを使用すると、メールの構造を簡単に定義できます。簡単なドラッグ＆ドロップ操作で構造要素を追加および移動して、メールの本文を数秒でデザインします。
 
-➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
+➡️ [ビデオでこの機能を確認する](#video)
 
 メールコンテンツの作成を開始するには、次の手順に従います。
 
@@ -104,10 +104,12 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
    ![E メールデザイナーのシミュレーションオプションを示すスクリーンショット。](assets/email_designer-simulate.png){zoomable="yes"}
 
+1. また、コンテンツ品質を検証して、読みやすさ、CTAの効果、件名の品質などを評価することもできます。 [ コンテンツ品質検証の詳細情報 ](../content/brands-score.md#validate-quality)
+
 1. メールの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 
 ## チュートリアルビデオ {#video}
 
-E メールデザイナーの操作方法について説明します。メールをゼロから構造化して設計する方法と、メールをパーソナライズしてテストする方法について説明します。
+メールデザイナーの操作方法について説明します。メールをゼロから構造化して設計する方法と、メールをパーソナライズしてテストする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453563/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

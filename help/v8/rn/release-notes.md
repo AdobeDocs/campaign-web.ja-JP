@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '700'
+ht-degree: 30%
 
 ---
 
@@ -20,43 +20,28 @@ Adobe Campaign web ユーザーインターフェイスのリリースは、機�
 
 以前のリリースで利用可能な変更と改善点について詳しくは、[2024](release-notes-24.md) ページと [2025](release-notes-25.md) ページを参照してください。
 
-## 2025年10月リリース {#25-10-updates}
+## 2026 年 1 月リリース {#26-1-release}
 
-_2025年11月3日（PT）_
+_2026 年 1 月 27 日_
+
+### 新機能 {#26-1-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>トランザクションメッセージ、プッシュ通知、SMS （LA）の多言語機能</strong><br/></th> 
+<th><strong>多言語配信機能（GA）</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Campaign web ユーザーインターフェイスで、複数のトランザクションメッセージ、プッシュ通知、SMS メッセージを異なる言語で送信できるようになりました。 多言語配信機能を使用すると、配信のデフォルト言語と、配信を送信できる様々な言語を選択できます。また、選択した言語でこれらの配信をプレビューすることもできます。</p>
-<p>メモ：この機能は一連の組織でのみ使用でき（使用制限あり）、今後のリリースでグローバルにロールアウトされます。</p>
-<p>詳しくは、<a href="../msg/multilingual.md">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<!--
-* Enable OOTB File Upload for Multi-lingual Push Notification Deliveries. 
--->
-
-<table>
-<thead>
-<tr>
-<th><strong>トランザクションメッセージ（LA）でのプロファイルエンリッチメント</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>この機能では、Adobe Campaign データベースフィールドをメッセージのコンテンツにリンクすることによって、トランザクションメッセージをパーソナライズできます。 ターゲットマッピング、エンリッチメント列および紐付けキーを選択して、パフォーマンスのしきい値を維持しながら、正確でリアルタイムのパーソナライゼーションを行うことができます。</p>
-<p>メモ：この機能は一連の組織でのみ使用でき（使用制限あり）、今後のリリースでグローバルにロールアウトされます。 この機能は現在、メールでのみ使用できます。</p>
-<p>詳しくは、<a href="../transactional-messaging/profile-enrichment.md">詳細なドキュメント</a>を参照してください。</p>
+<p>すべての顧客（GA）が多言語配信機能を使用できるようになりました。 この機能を使用すると、Adobe Campaign web ユーザーインターフェイスで、異なる言語で複数のメッセージを送信できます。 配信のデフォルト言語だけでなく、配信を送信する様々な言語を選択できます。 また、選択した言語でこれらの配信をプレビューすることもできます。 
+<p>詳しくは、<a href="../msg/multilingual.md">詳細ドキュメント</a>を参照してください。</p>
+<p>多言語プッシュ通知が次のように改善されました。</p>
+<ul>
+<li>多言語コンテンツを含む CSV ファイルをアップロードすることで、すべての言語バリアントをすばやく入力できるようになりました。 <a href="../msg/multilingual.md#csv-upload">詳細を表示</a>
+</li>
+<li>リッチなプッシュ通知がサポートされるようになりました。</li>
 </td>
 </tr>
 </tbody>
@@ -65,14 +50,14 @@ _2025年11月3日（PT）_
 <table>
 <thead>
 <tr>
-<th><strong>Adobe GenStudio との統合</strong><br/></th>
+<th><strong>トランザクションメッセージ（GA）でのプロファイルのエンリッチメント</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>マーケティング効率を高め、ブランドの一貫性を維持するために、GenStudio for Performance Marketing エクスペリエンスを Campaign とシームレスに統合できるようになりました。これにより、Campaign の高度なオーケストレーション機能と共に、GenStudio の AI を活用したコンテンツ作成を活用できます。<p>
-<p>詳しくは、<a href="../integrations/genstudio.md">詳細なドキュメント</a>を参照してください。</p>
+<p>トランザクションメッセージ機能のプロファイルエンリッチメントを、すべてのお客様が利用できるようになりました（GA）。 メールに加えて、SMS およびプッシュ通知もサポートされるようになりました。 この機能を使用すると、Adobe Campaign データベースフィールドをメッセージのコンテンツにリンクして、トランザクションメッセージをパーソナライズできます。 ターゲットマッピング、エンリッチメント列および紐付けキーを選択して、パフォーマンスのしきい値を維持しながら、正確でリアルタイムのパーソナライゼーションを行うことができます。</p>
+<p>詳しくは、<a href="../transactional-messaging/profile-enrichment.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -81,47 +66,71 @@ _2025年11月3日（PT）_
 <table>
 <thead>
 <tr>
-<th><strong>E メールデザイナーでのダークモードのサポート</strong><br/></th> 
+<th><strong>Adobe Experience Managerのライブコピーと言語コピー</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>E メールデザイナーには、ダークモードビューに切り替える機能が用意され、特定のカスタム設定をさらに定義できるようになりました。最終的なレンダリングは受信者のメールクライアントに応じて異なり、すべてのメールクライアントがダークモードをサポートしているわけではありません。</p>
-<p>詳しくは、<a href="../email/dark-mode.md">詳細なドキュメント</a>を参照してください。</p>
+<p>Adobe Experience Managerのコンテンツ統合機能を使用すると、配信を作成する際に、Adobe Experience Managerで作成されたすべての言語とライブコピーに Campaign 内で直接アクセスできます。 コンテンツをリアルタイムに更新して、Adobe Experience Managerの最新バージョンを取得できます。 この統合により、Adobe Experience Managerと Campaign の間で手動によるコンテンツの同期が不要になり、多言語キャンペーンのワークフローが合理化されます。</p>
+<p>詳しくは、<a href="../integrations/aem-multilingual.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!-- table>
+<table>
 <thead>
 <tr>
-<th><strong>Continuous delivery activity</strong><br/></th> not ready
+<th><strong>コンテンツ実験 – A/B テスト</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Continuous delivery activity</p>
-<p>For more information, refer to the detailed documentation.</p>
+<p>Adobe Campaign Web でのコンテンツ実験では、ターゲットオーディエンスに最適なパフォーマンスを発揮する製品を測定するために、複数の A/B テスト用の配信バリアントを定義できます。 配信コンテンツ、件名または送信者を変更して、様々なバージョンをテストし、どのバリアントが最適な結果を生み出すかを決定できます。 件名、送信者名、メール本文のコンテンツなど、様々なメール要素に対して A/B テストを実行できます。</p>
+<p>詳しくは、<a href="../email/ab-testing.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
-### 機能強化 {#25-10-improvements}
+<table>
+<thead>
+<tr>
+<th><strong>連続配信アクティビティ</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>連続配信アクティビティでは、既存の配信に新しい受信者を追加できます。 この配信タイプでは、毎回新しい配信を作成する必要がないので、必要に応じて送信される少量のアラートや通知の方が効率的です。 連続配信では、1 つの配信インスタンスが作成されます。 すべての配信ログ（broadLog）とトラッキングログは、この 1 つの配信を参照するので、監視とレポートがシンプルになります。</p>
+<p>詳しくは、<a href="../workflows/activities/continuous-delivery.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* クライアントコンソールで作成した配信の「**オーディエンス**」セクションに、配達確認ターゲットに対する動的条件が定義されているかどうかを示すようになりました。<!-- [Learn more](../msg/gs-deliveries.md#access)-->
+<table>
+<thead>
+<tr>
+<th><strong>キャンペーン承認管理</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>承認プロセスは、複数の関係者の調整に役立ち、配信が送信される前の品質管理を確実にします。 組織が様々なチームからの検証を必要とする場合（マーケティングマネージャーによるコンテンツのレビューや、データアナリストによるターゲットオーディエンスの検証など）に、承認を使用します。</p>
+<p>詳しくは、<a href="../campaigns/campaign-approvals.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* E メールデザイナーの条件付きコンテンツ機能を使用して条件を設定する際に、新しいルールビルダーとレガシールールビルダーを切り替えられるようになりました。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
+### 改善点 {#26-1-improvements}
 
-* 受信者スキーマの画面定義で、購入などのコレクションリンクを選択できるようになりました。これにより、専用タブを通じてプロファイル画面に関連データが表示されます。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
-
-* Campaign 管理者は、Salesforce CRM と Microsoft Dynamics への接続を設定できるようになりました。
-  [詳細情報](../administration/external-crm.md)
-
-<!--
-* Stop button for deliveries not linked to release and no info
--->
-
+* 動的レポートで、プッシュ通知と SMS がサポートされるようになりました。 [詳細情報](../reporting/dynamic-reporting/get-started-reporting.md)
+* 定義済みフィルター – 新しい「共有フィルター」オプションを使用すると、組織内の他のユーザーが定義済みフィルターを使用できるようになります。 [詳細情報](../get-started/predefined-filters.md#share-filter)
+* 名前、メール、日付、住所など、Adobe Experience Managerで作成されたパーソナライゼーションフィールドが含まれ、コンテンツテンプレートを使用する際に使用できるようになりました。
+* コンテンツ品質評価では、ブランドガイドラインに関係なく、読みやすさ、凝集性、有効性の問題をチェックし、メッセージの不明瞭さ、トーンの不一致、構造ギャップを特定するようになりました。 [詳細情報](../content/brands-score.md)
+* ブランドガイドラインに、ブランドのカラーシステムの標準を定義する「カラー」セクションが含まれるようになりました。これにより、すべてのエクスペリエンスでプライマリカラー、セカンダリカラー、アクセントカラー、ニュートラルカラーを一貫して使用できます。 [詳細情報](../content/brands-personalize.md)
