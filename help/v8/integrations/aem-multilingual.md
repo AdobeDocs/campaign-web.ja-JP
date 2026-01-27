@@ -23,7 +23,7 @@ Adobe Experience Manager統合を使用すると、Adobe Experience Managerの�
 多言語メール配信を作成する前に、次のことを確認します。
 
 * Adobe Campaign Web インターフェイス統合用に設定されたAdobe Experience Manager インスタンスにアクセスします。
-* 言語コピーが作成済みおよび承認済みのAdobe Experience Manager コンテンツ。 言語コピーウィザードについて詳しくは、[Adobe Experience Manager ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* 言語コピーが作成済みおよび承認済みのAdobe Experience Manager コンテンツ。 言語コピーウィザードについて詳しくは、[Adobe Experience Manager ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Adobe Experience Manager コンテンツを受信するように設定されたメール配信テンプレート。 [&#x200B; 多言語モードの有効化 &#x200B;](#enable-multilingual) の節で説明されている手順を参照してください。
 
 ## 多言語配信の作成
