@@ -7,10 +7,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e4f374cdab838717e46ac0b67a99306b310880ec
-workflow-type: ht
+source-git-commit: 4e5840f8566fb511ef2d862833a09b581f0250c2
+workflow-type: tm+mt
 source-wordcount: '1525'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -132,7 +132,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 * **プロファイル** - プロファイルを作成および管理し、受信者データベースにアクセスします。 デフォルトでは、メールアドレス、名前（名）および名前（姓）が表示されます。プロファイルについて詳しくは、[この節](../audience/about-recipients.md)を参照してください。
 * **オーディエンス** - オーディエンスのリストです。デフォルトでは、オーディエンスのタイプ、接触チャネル、作成日、最終変更日およびラベルが表示されます。このリストは接触チャネルでフィルタリングできます。オーディエンスとリストについて詳しくは、[この節](../audience/about-recipients.md)を参照してください。
 * **購読サービス** - 購読リストを参照できます。デフォルトでは、購読リストのタイプ、モードおよびラベルが表示されます。購読と購読解除を管理する方法について詳しくは、[Adobe Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=ja){target="_blank"}を参照してください。
-* **定義済みフィルター** - 定義済みフィルターは、作成および保存して後で使用できるカスタムフィルターです。これらは、例えば、データのリストをフィルタリングしたり、配信のオーディエンスを作成したりする場合に、クエリモデラーでの任意のフィルタリング操作でショートカットとして使用できます。詳しくは、[このセクション](predefined-filters.md)を参照してください。
+* **定義済みフィルター** - 定義済みフィルターは、作成および保存して後で使用できるカスタムフィルターです。これらは、例えば、データのリストをフィルタリングしたり、配信のオーディエンスを作成したりする場合に、クエリモデラーでの任意のフィルタリング操作でショートカットとして使用できます。詳しくは、[こちら](predefined-filters.md)を参照してください。
 
 ### 意思決定管理 {#decision-management}
 
@@ -140,7 +140,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 >id="acw_offers_list"
 >title="オファー"
 >abstract="**インタラクション**&#x200B;モジュールを使用して、コンソールで作成されたオファーとオファーテンプレートのリストを参照します。これらのリストは読み取り専用です。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=ja" text="配信へのオファーの追加"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="配信へのオファーの追加"
 
 「**意思決定管理**」セクションでは、オファーとオファーテンプレートを表示できます。これらのリストは読み取り専用です。
 
