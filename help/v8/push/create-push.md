@@ -16,7 +16,7 @@ ht-degree: 93%
 >id="acw_push_notification_template"
 >title="プッシュ通知テンプレート"
 >abstract="プッシュ通知テンプレートを選択して、プッシュ配信を開始します。配信テンプレートを使用すると、キャンペーンや配信全体でカスタムコンテンツや設定を簡単に再利用できます。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="配信テンプレートの使用"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/delivery-template" text="配信テンプレートの使用"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
