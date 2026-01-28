@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 30%
+source-wordcount: '670'
+ht-degree: 31%
 
 ---
 
@@ -133,4 +133,3 @@ _2026 年 1 月 27 日_
 * 定義済みフィルター – 新しい「共有フィルター」オプションを使用すると、組織内の他のユーザーが定義済みフィルターを使用できるようになります。 [詳細情報](../get-started/predefined-filters.md#share-filter)
 * 名前、メール、日付、住所など、Adobe Experience Managerで作成されたパーソナライゼーションフィールドが含まれ、コンテンツテンプレートを使用する際に使用できるようになりました。
 * コンテンツ品質評価では、ブランドガイドラインに関係なく、読みやすさ、凝集性、有効性の問題をチェックし、メッセージの不明瞭さ、トーンの不一致、構造ギャップを特定するようになりました。 [詳細情報](../content/brands-score.md)
-* ブランドガイドラインに、ブランドのカラーシステムの標準を定義する「カラー」セクションが含まれるようになりました。これにより、すべてのエクスペリエンスでプライマリカラー、セカンダリカラー、アクセントカラー、ニュートラルカラーを一貫して使用できます。 [詳細情報](../content/brands-personalize.md)

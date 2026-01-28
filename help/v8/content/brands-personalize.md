@@ -4,10 +4,10 @@ title: ブランドの管理
 description: ブランドガイドラインをパーソナライズする方法を学ぶ
 role: User
 level: Beginner, Intermediate
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 71%
+source-wordcount: '998'
+ht-degree: 91%
 
 ---
 
@@ -18,9 +18,8 @@ ht-degree: 71%
 * **[!UICONTROL ブランドについて]** は、ブランドのコアアイデンティティと価値を確立します。
 * **[!UICONTROL ライティングスタイル]** 言語とコンテンツの標準を定義します。
 * **[!UICONTROL ビジュアルコンテンツ]** は、画像とデザインのガイドラインを設定します。
-* **[!UICONTROL カラー]** は、ブランドのカラーシステムと使用状況を管理します。
 
-設定が完了したら、ブランドガイドラインを使用して、コンテンツ品質とブランドとの整合性を検証できます。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](brands-score.md#validate-quality)
+設定が完了したら、ブランドガイドラインを使用して、コンテンツ品質とブランドとの整合性を検証できます。 [ コンテンツ品質検証の詳細情報 ](brands-score.md#validate-quality)
 
 ## ブランドについて {#about-brand}
 
@@ -249,60 +248,61 @@ ht-degree: 71%
 
 ブランドをさらにパーソナライズしたり、[ブランドを公開](#create-brand-kit)したりできるようになりました。
 
-## カラー {#colors}
+<!--
+## Colors {#colors}
 
-**[!UICONTROL カラー]** セクションには、ブランドのカラーシステムの標準が表示され、エクスペリエンス間でカラーを選択、整理、適用する方法の概要が示されます。 これにより、プライマリー、セカンダリー、アクセント、ニュートラルカラーを一貫して使用し、一貫性があり、アクセスしやすく、識別可能なブランドアイデンティティを維持できます。
+The **[!UICONTROL Colors]** section the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to maintain a cohesive, accessible, and recognizable brand identity.
 
-+++ 使用可能なカテゴリと例
++++ Available categories and examples
 
 <table>
   <thead>
     <tr>
-      <th>カテゴリ</th>
-      <th>ガイドラインの例</th>
-      <th>除外の例</th>
+      <th>Category</th>
+      <th>Guidelines Example</th>
+      <th>Exclusions Example</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>プライマリの色</td>
-      <td>ロゴ、ヘッダー、メインのcall-to-action要素にはプライマリブランドカラーを使用します。</td>
-      <td>プライマリブランドカラーを置き換えたり、変更したりしないでください。</td>
+      <td>Primary colors</td>
+      <td>Use primary brand colors for logos, headers, and main call-to-action elements.</td>
+      <td>Do not substitute or modify primary brand colors.</td>
     </tr>
     <tr>
-      <td>セカンダリ色</td>
-      <td>セカンダリカラーを使用して、レイアウト、イラスト、UI コンポーネントをサポートします。</td>
-      <td>セカンダリカラーがプライマリブランドカラーを圧倒しないようにします。</td>
+      <td>Secondary colors</td>
+      <td>Use secondary colors to support layouts, illustrations, and UI components.</td>
+      <td>Do not let secondary colors overpower primary brand colors.</td>
     </tr>
     <tr>
-      <td>アクセントの色</td>
-      <td>ボタン、リンク、アラートに対しては、アクセントの色は控えめに使用してください。</td>
-      <td>大きな背景領域にはアクセントカラーを使用しないでください。</td>
+      <td>Accent colors</td>
+      <td>Use accent colors sparingly for buttons, links, and alerts.</td>
+      <td>Do not use accent colors for large background areas.</td>
     </tr>
     <tr>
-      <td>中間色</td>
-      <td>テキスト、境界線、境界線、細かい UI 要素には中間色を使用します。</td>
-      <td>コントラストが低い中和材や色のキャストが多い中和材は使用しないでください。</td>
+      <td>Neutral colors</td>
+      <td>Use neutral colors for text, dividers, borders, and subtle UI elements.</td>
+      <td>Avoid using neutrals with poor contrast or heavy color casts.</td>
     </tr>
     <tr>
-      <td>背景色</td>
-      <td>明るい背景やニュートラルな背景を使用して、読みやすさと視覚的な明確さを確保します。</td>
-      <td>低コントラストの背景にテキストやロゴを配置しないでください。</td>
+      <td>Background colors</td>
+      <td>Use light or neutral backgrounds to ensure readability and visual clarity.</td>
+      <td>Do not place text or logos on low-contrast backgrounds.</td>
     </tr>
     <tr>
-      <td>追加の色</td>
-      <td>追加の色は、データビジュアライゼーションまたは承認済みキャンペーンにのみ使用します。</td>
-      <td>未承認のカラーやブランド外のカラーを導入しないでください。</td>
+      <td>Additional colors</td>
+      <td>Use additional colors only for data visualization or approved campaigns.</td>
+      <td>Do not introduce unapproved or off-brand colors.</td>
     </tr>
     <tr>
-      <td>カラースケール</td>
-      <td>UI の状態（ホバー、アクティブ、無効など）に対して承認済みの色合いとシェードを使用します。</td>
-      <td>非公式の色合いやグラデーションを作成しないでください。</td>
+      <td>Color scales</td>
+      <td>Use approved tints and shades for UI states such as hover, active, and disabled.</td>
+      <td>Do not create unofficial shades or gradients.</td>
     </tr>
     <tr>
-      <td>使用ガイドライン</td>
-      <td>すべてのアセットで一貫したカラー使用状況とアクセス可能なコントラストを維持します。</td>
-      <td>競合するパレットを混在させたり、カラーを一貫して適用したりしないでください。</td>
+      <td>Usage guidelines</td>
+      <td>Maintain consistent color usage and accessible contrast across all assets.</td>
+      <td>Do not mix conflicting palettes or apply colors inconsistently.</td>
     </tr>
 </table>
 
@@ -310,39 +310,40 @@ ht-degree: 71%
 
 </br>
 
-**[!UICONTROL カラー]** をパーソナライズするには：
+To personalize your **[!UICONTROL Colors]**:
 
-1. **[!UICONTROL カラー]** タブで、カラー、ガイドラインまたは除外を追加する ![](assets/do-not-localize/Smock_Add_18_N.svg) をクリックします。
+1. From the **[!UICONTROL Colors]** tab, click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add a color, guideline or exclusion. 
 
-1. 正確に定義するには、次のようにカラー情報を入力します。
+1. Enter your color information to define it accurately:
 
-   * **カラー名**：ブランドシステム内のカラーを識別するわかりやすい名前を指定します。
+    * **Color name**: Provide a clear, descriptive name to identify the color within your brand system.
 
-   * **カラー値**：色相ピッカーを使用して色を選択するか、RGB、16 進数、Pantoneの名前/コードを使用して正確な値を入力し、デジタルアセットとプリントアセットの間で一貫性を確保します。
+    * **Color value**: Choose your color using the hue picker or enter precise values using RGB, HEX, or Pantone name/code to ensure consistency across digital and print assets.
 
-   ![](assets/brands-color-1.png)
+    ![](assets/brands-color-1.png)
 
-1. 選択内容を確認して精度と視覚的な一貫性を確認し、「**[!UICONTROL 追加]**」をクリックしてカラーを保存します。
+1. Review your selection to confirm accuracy and visual consistency and click **[!UICONTROL Add]** to save your color.
 
-1. 次に、ガイドラインまたは除外を入力します。
+1. Then, enter your guideline or exclusion.
 
-1. ガイドラインまたは除外の使用コンテキストを指定します。
+1. Specify the Usage context for your guideline or exclusion:
 
-   * **[!UICONTROL チャネルタイプ]**：このガイドライン、例外または除外を適用する場所を選択します。例えば、特定の書き込みスタイルをメール、モバイル、プリントまたは他の通信チャネルにのみ表示する場合があります。
+    * **[!UICONTROL Channel type]**: Choose where this guideline, exception, or exclusion should apply. For example, you may want a specific writing style to appear only in Email, Mobile, Prints, or other communication channels.
 
-   * **[!UICONTROL 要素タイプ]**：ルールが適用されるコンテンツ要素を指定します。これには、見出し、ボタン、リンクまたはコンテンツ内の他のコンポーネントなどの要素が含まれる場合があります。
+    * **[!UICONTROL Element type]**: Specify which content element the rule applies to. This could include elements such as Headings, Buttons, Links, or other components within your content.
 
-     ![](assets/brands-color-2.png)
+      ![](assets/brands-color-2.png)
+  
+1. Once your guideline, exception, or exclusion is set up, click **[!UICONTROL Add]**. 
 
-1. ガイドライン、例外または除外を設定したら、「**[!UICONTROL 追加]**」をクリックします。
+1. If needed, select one of your guideline or exclusion to update or delete.
 
-1. 必要に応じて、更新または削除するガイドラインや除外の 1 つを選択します。
+1. Select one your guideline or exclusion to update it. Click the ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")icon to delete it. 
 
-1. 更新するガイドラインや除外の 1 つを選択します。![詳細画像の代替テキスト](assets/do-not-localize/Smock_Delete_18_N.svg "削除") アイコンをクリックして削除します。
+    ![](assets/brands-color-3.png)
 
-   ![](assets/brands-color-3.png)
+1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
 
-1. ブランドの追加のカラーを定義したり、カラースケールグループを追加したりするには、「**[!UICONTROL グループを追加]**」をクリックします。
+You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
 
-ブランドをさらにパーソナライズしたり、[ブランドを公開](brands.md#create-brand-kit)したりできるようになりました。
-
+-->
