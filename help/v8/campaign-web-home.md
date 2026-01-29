@@ -3,10 +3,10 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: 43bf37b2886afb7ba64f06f699637b8a3019f861
+workflow-type: tm+mt
 source-wordcount: '488'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 100%
 
 新しいバージョンの Adobe Campaign Web ユーザーインターフェイスを導入しました。アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された、直感的な機能が組み込まれています。この新しい現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform などの他のアドビソリューションとの一貫性をもたらします。
 
-## 新機能
+## 新着情報
 
 Adobe Campaign Web 製品とドキュメントの最新の機能強化について少し説明します。主な機能とリリースの更新機能の包括的なリストについては、[このページ](rn/whats-new.md)を参照してください。
 
 >[!BEGINTABS]
 
 
->[!TAB 2025年10月リリース]
+>[!TAB Jannyary &#39;26 リリース ]
 
 10月リリースが公開されました。トランザクションメッセージ、プッシュ通知、SMS の多言語機能、Adobe GenStudio との統合、トランザクションメッセージのプロファイルエンリッチメントなど、新機能と機能強化が Campaign web ユーザーインターフェイスで使用できるようになりました。概要の全文について詳しくは、リリースノートを参照してください。
 
