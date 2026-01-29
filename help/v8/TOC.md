@@ -5,7 +5,7 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 98%
@@ -37,7 +37,7 @@ ht-degree: 98%
    + [Campaign Standard から v8 へ](rn/acs-migration.md)
    + [AI を活用したコンテキストヘルプ](get-started/using-ai.md)
    + [FAQ](get-started/faq.md)
-   + メッセージと配信 {#msg}
++ メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
    + [配信へのアクセス](msg/gs-deliveries.md)
    + [配信の作成](msg/create-deliveries.md)
@@ -283,7 +283,7 @@ ht-degree: 98%
    + [ターゲットマッピングの管理](administration/target-mappings.md)
    + [スキーマの操作](administration/schemas.md)
    + [カスタムフィールドの設定](administration/custom-fields.md)
-   + [&#x200B; [!DNL Campaign]  オプションの設定](administration/options.md)
+   + [ [!DNL Campaign]  オプションの設定](administration/options.md)
    + [タイムゾーン管理](administration/timezone-management.md)
    + 外部アカウント {#external-accounts}
       + [外部アカウントの作成](administration/create-external-account.md)
