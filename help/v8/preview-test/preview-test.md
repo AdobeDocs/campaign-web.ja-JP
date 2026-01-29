@@ -16,7 +16,7 @@ ht-degree: 92%
 >id="acw_deliveries_simulate"
 >title="コンテンツのプレビューとテスト"
 >abstract="コンテンツを定義したら、プロファイルとテストプロファイルを使用してプレビューとテストを行うことができます。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/preview-test/preview-test" text="配達確認の送信"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/preview-test/preview-test" text="配達確認の送信"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ja#test-landing-page" text="ランディングページのテスト"
 
 配信コンテンツを定義したら、メッセージを送信する前に、プロファイルとテストプロファイルを使用してプレビューとテストを行うことができます。この手順により、コンテンツとパーソナライゼーションの設定の両方の正確性が確保され、エラーが排除されます。

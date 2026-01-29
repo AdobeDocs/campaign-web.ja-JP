@@ -140,7 +140,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 >id="acw_offers_list"
 >title="オファー"
 >abstract="**インタラクション**&#x200B;モジュールを使用して、コンソールで作成されたオファーとオファーテンプレートのリストを参照します。これらのリストは読み取り専用です。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="配信へのオファーの追加"
+>additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/start/offers" text="配信へのオファーの追加"
 
 「**意思決定管理**」セクションでは、オファーとオファーテンプレートを表示できます。これらのリストは読み取り専用です。
 
