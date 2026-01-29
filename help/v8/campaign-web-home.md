@@ -3,7 +3,7 @@ keywords: Campaign Web：ホーム：人気のトピック
 description: Campaign Web ヘルプセンター
 title: Adobe Campaign Web 製品ドキュメント
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 43bf37b2886afb7ba64f06f699637b8a3019f861
+source-git-commit: 62e064b5a2e2c0d8b81755d2a8a9ea04c512e6f2
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 99%
@@ -52,7 +52,7 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 >[!BEGINTABS]
 
 
->[!TAB Jannyary &#39;26 リリース ]
+>[!TAB 2026 年 1 月リリース ]
 
 10月リリースが公開されました。トランザクションメッセージ、プッシュ通知、SMS の多言語機能、Adobe GenStudio との統合、トランザクションメッセージのプロファイルエンリッチメントなど、新機能と機能強化が Campaign web ユーザーインターフェイスで使用できるようになりました。概要の全文について詳しくは、リリースノートを参照してください。
 
