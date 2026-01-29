@@ -68,7 +68,7 @@ ht-degree: 94%
 
    ![プッシュ配信のオーディエンスの選択を示すスクリーンショット](assets/push_create_2.png){zoomable="yes"}
 
-1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。プッシュ通知の場合、デフォルトの [ ターゲットディメンション ](../audience/about-recipients.md#targeting-dimensions) は **購読者のアプリケーション** （nms:appSubscriptionRcp）であり、受信者テーブルにリンクされています。
+1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。プッシュ通知の場合、デフォルトの [&#x200B; ターゲットディメンション &#x200B;](../audience/about-recipients.md#targeting-dimensions) は **購読者のアプリケーション** （nms:appSubscriptionRcp）であり、受信者テーブルにリンクされています。
 
    既存のオーディエンスを選択する方法について詳しくは、[このページ](../audience/add-audience.md)を参照してください。
 

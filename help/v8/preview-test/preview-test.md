@@ -25,7 +25,7 @@ ht-degree: 93%
 * [メッセージのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)
 * テストおよび検証のために特定の受信者またはサブスクライバーに対して[本配信前確認を送信](test-deliveries.md)
 * 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](email-rendering.md)します。
-* [ コンテンツ品質を検証 ](../content/brands-score.md#validate-quality) して、読みやすさ、CTAの効果、件名の品質などを評価します
+* [&#x200B; コンテンツ品質を検証 &#x200B;](../content/brands-score.md#validate-quality) して、読みやすさ、CTAの効果、件名の品質などを評価します
 * [ランディングページのプレビューとテスト](../landing-pages/create-lp.md#test-landing-page)
 
 これらのアクションは、配信のコンテンツを編集画面または[E メールデザイナー](../email/get-started-email-designer.md)からアクセスできる「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行します。
