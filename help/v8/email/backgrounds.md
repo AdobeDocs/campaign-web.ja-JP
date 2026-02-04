@@ -4,7 +4,7 @@ title: メールの背景をパーソナライズする
 description: メールの背景をパーソナライズする方法を学ぶ
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -57,6 +57,6 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >これは最も一般的なユースケースです。アドビでは、メールコンテンツ全体を柔軟に編集できるように、背景色を列レベルで設定することをお勧めします。
+  >これは最も一般的な使用例です。アドビでは、メールコンテンツ全体を柔軟に編集できるように、背景色を列レベルで設定することをお勧めします。
 
   また、列レベルで背景画像を設定することもできますが、ほとんど使用されません。

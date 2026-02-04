@@ -4,7 +4,7 @@ title: Adobe Campaign Web でのワークフローの作成
 description: Adobe Campaign Web を使用してワークフローを作成する方法
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
 source-git-commit: 8ba304ef0bf922fc8057a5ee6f1e296805793735
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Journey Optimizer を使用すると、アクティビティとその子ノー�
 
 ![アクティビティと子ノードの移動](assets/activity-move.png)
 
-## 実行オプション {#execution}
+## 「EXECUTION OPTIONS」タブ {#execution}
 
 すべてのアクティビティで、実行オプションを管理できます。アクティビティを選択し、「**実行オプション**」ボタンをクリックします。これにより、アクティビティの実行モードとエラー時の動作を定義できます。
 

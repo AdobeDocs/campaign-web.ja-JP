@@ -4,7 +4,7 @@ title: ダイレクトメール配信のプレビューと送信
 description: Adobe Campaign web でダイレクトメール配信をプレビューして送信する方法について説明します。
 exl-id: 06ce7535-e84d-4aed-bea9-b85b4ee0d008
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
    ![右側のパネルに抽出ファイルのプレビューを示すスクリーンショット](assets/dm-preview-right.png){zoomable="yes"}
 
-## 本配信前確認の送信 {#test-dm}
+## 配達確認の送信 {#test-dm}
 
 **Adobe Campaign** を使用して、メインオーディエンスに配信する前に本配信前確認を送信します。この手順では、配信を検証し、問題を特定します。テスト受信者は、パーソナライゼーション設定などの要素を確認し、最適なパフォーマンスの確保やエラー検出を行います。このプロセスにより、メインオーディエンスに届ける前に抽出ファイルは調整され、最適化されます。
 

@@ -3,13 +3,13 @@ title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: 99648377-112b-428a-8faf-5268d730f19a
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
 ---
 
-# アドビソリューション統合外部アカウント {#integration-external-account}
+# Adobe ソリューション統合外部アカウント {#integration-external-account}
 
 選択したアドビソリューション統合外部アカウントのタイプに応じて、次の手順に従って、アドビサービスとのシームレスな統合を行う接続とアカウント設定を指定します。
 

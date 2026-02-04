@@ -35,7 +35,7 @@ AI アシスタントを使用してテキストコンテンツの生成を開�
 
 1. 「**[!UICONTROL テキストコンポーネント]**」を選択して特定のコンテンツをターゲットにし、**[!UICONTROL AI アシスタント]**&#x200B;メニューにアクセスします。
 
-   ![Adobe Campaign web でのテキストコンポーネントの選択を示すスクリーンショット](assets/text-genai-1.png){zoomable="yes"}
+   ![Adobe Campaign Web でのテキストコンポーネントの選択を示すスクリーンショット](assets/text-genai-1.png){zoomable="yes"}
 
 ### コンテンツを生成 {#generate-content}
 

@@ -4,7 +4,7 @@ title: メールのレンダリングのテスト
 description: Campaign web ユーザーインターフェイスでメールのレンダリングをテストする方法について説明します
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 

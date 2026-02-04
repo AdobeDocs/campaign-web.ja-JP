@@ -4,7 +4,7 @@ title: Campaign Standard から Adobe Campaign web への移行
 description: Campaign web ユーザーインターフェイスの確認
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
 source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
 ht-degree: 100%
 

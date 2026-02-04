@@ -4,7 +4,7 @@ title: フォルダーの作成と管理
 description: Adobe Campaign でフォルダーを作成および管理する方法について説明します
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
 ht-degree: 100%
 

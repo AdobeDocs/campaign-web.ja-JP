@@ -4,7 +4,7 @@ title: E メールデザイナーのコンテンツコンポーネントの使�
 description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1389'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 メールにコンテンツコンポーネントを追加し、必要に応じて調整するには、次の手順に従います。
 
-1. E メールデザイナーで、[既存のコンテンツ](existing-content.md)を使用するか、**[!UICONTROL 構造]**&#x200B;を空のコンテンツにドラッグ＆ドロップして、メールのレイアウトを定義します。方法については、[こちら](create-email-content.md)を参照してください。
+1. E メールデザイナーで、[既存のコンテンツ](existing-content.md)を使用するか、**[!UICONTROL 構造]**&#x200B;を空のコンテンツにドラッグ＆ドロップして、メールのレイアウトを定義します。[詳細情報](create-email-content.md)
 
 1. 選択した&#x200B;**[!UICONTROL コンテンツ]**&#x200B;を、関係のある構造内にドラッグ＆ドロップします。
 

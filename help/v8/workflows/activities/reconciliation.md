@@ -4,7 +4,7 @@ title: 紐付けワークフローアクティビティの使用
 description: 紐付けワークフローアクティビティの使用方法を学ぶ
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
 ht-degree: 100%
 

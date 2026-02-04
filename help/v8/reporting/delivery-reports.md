@@ -4,7 +4,7 @@ title: 配信レポート
 description: 配信レポートへのアクセス方法と使用方法について説明します
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '286'
 ht-degree: 100%
 

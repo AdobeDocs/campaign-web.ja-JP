@@ -4,17 +4,17 @@ title: 増分クエリワークフローアクティビティの使用
 description: 増分クエリワークフローアクティビティの使用方法を学ぶ
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '716'
 ht-degree: 100%
 
 ---
 
-# 増分クエリ {#incremental-query}
+# 増分処理クエリ {#incremental-query}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
->title="増分クエリ"
+>title="増分処理クエリ"
 >abstract="**増分クエリ**&#x200B;アクティビティとは、クエリモデラーを使用してデータベースでクエリを実行できる&#x200B;**ターゲティング**&#x200B;アクティビティを意味します。このアクティビティが実行されるたびに、以前の実行結果が除外されます。これにより、新しい要素だけをターゲットにすることができます。"
 
 >[!CONTEXTUALHELP]

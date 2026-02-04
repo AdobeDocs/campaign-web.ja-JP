@@ -4,7 +4,7 @@ title: レポートをエクスポート
 description: レポートのエクスポート方法について
 exl-id: ac48e541-7735-4961-80ee-ce9d24c8b9ad
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 

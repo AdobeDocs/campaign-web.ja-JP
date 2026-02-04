@@ -4,7 +4,7 @@ title: ワークフロー設定の指定
 description: Adobe Campaign Web でのワークフロー設定方法について説明します
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1083'
 ht-degree: 100%
 

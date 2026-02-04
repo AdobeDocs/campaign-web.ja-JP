@@ -4,7 +4,7 @@ title: Adobe Experience Manager as a Cloud Service でのアセットの管理
 description: Adobe Experience Manager as a Cloud Service でのコンテンツの管理方法について説明します
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
 ht-degree: 100%
 

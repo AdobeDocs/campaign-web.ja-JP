@@ -4,7 +4,7 @@ title: フィルターリスト
 description: ビルトインのフィルターとカスタムフィルターを使用して、Adobe Campaign Web リストをフィルタリングする方法について説明します。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Adobe Campaign Web では、オブジェクトの各リスト内にフィルタ�
 >[!IMPORTANT]
 >
 >クエリモデラーで新しいインターフェイスを使用できます。新しいルールビルダーでは、簡素化されたインターフェースにより、クエリをより簡単に作成できます。このエクスペリエンスに切り替えるには、右上隅の切替スイッチボタンを押します。切替スイッチボタンを押して新しいインターフェイスを無効にするだけで、いつでも従来のクエリモデラーに戻ることができます。この新しいインターフェイスでは、クエリモデラーと同じ原則を適用できます。
->>![新しいルールビルダーインターフェイスの切替スイッチを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
+>![新しいルールビルダーインターフェイスの切替スイッチを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## フィルターの適用 {#apply}
 

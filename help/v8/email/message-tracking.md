@@ -4,7 +4,7 @@ title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '568'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
 1. **[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL リンク]**&#x200B;を追加します。
 
-1. 変更を保存します。
+1. 変更内容を保存します。
 
 1. リンクを作成したら、必要に応じて「**[!UICONTROL 設定]**」タブから変更します。
 

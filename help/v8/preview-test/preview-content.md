@@ -4,7 +4,7 @@ title: 配信コンテンツのプレビュー
 description: Campaign web ユーザーインターフェイスで配信コンテンツをプレビューする方法について説明します
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 

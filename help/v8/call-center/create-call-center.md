@@ -4,7 +4,7 @@ title: コールセンター配信の作成
 description: Adobe Campaign web でコールセンター配信を作成する方法について説明します
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
 source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
 ht-degree: 100%
 

@@ -32,7 +32,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>Adobe Campaign web ユーザーインターフェイスを通じて外部アカウントを直接設定および管理できるようになりました。この新機能により、バウンスメール（POP3）や実行インスタンスなど、様々なタイプの外部アカウントを簡単に設定できます。</p>
-<p>詳しくは、<a href="../administration/external-account.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../administration/external-account.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -49,14 +49,14 @@ ht-degree: 100%
 <tr>
 <td>
 <p>トランザクションメッセージ（Message Center）が Campaign web ユーザーインターフェイスで使用できるようになりました。このアドオンは、情報システムからトリガーされたイベントから生成されるメッセージをトリガーする目的で設計され、請求書、注文確認、発送確認、パスワード変更、製品入手不可通知、アカウントステートメント、web サイトアカウント作成などが含まれます。</p>
-<p>詳しくは、<a href="../transactional-messaging/transactional.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../transactional-messaging/transactional.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-### 機能強化
+### 改善点
 
 * **ワークフローアクティビティ** - アクティビティとそのすべての子ノードをワークフロー内のトランジションから別のトランジションに移動できるようになりました。これを実行するには、アクティビティのプロパティパネルにある専用の「**移動**」ボタンを使用できます。[詳細情報](../workflows/orchestrate-activities.md#move)
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 <td>
 <p>メッセージを作成して調整したら、Adobe Campaign web の AI アシスタントを使用して、メッセージを次のレベルに引き上げます。この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>は、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
-<p>詳しくは、<a href="../content/generative-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content/generative-gs.md">詳細ドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>公開日：9月12日（PT）</p>
 </td>
@@ -122,7 +122,7 @@ ht-degree: 100%
 * **ランディングページの Captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。[詳細情報](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7月リリースノート {#24-7-release}
@@ -158,7 +158,7 @@ ht-degree: 100%
 >
 >この機能を使用するには、Campaign v8.6.3 <!--or v8.7.2-->へのアップデートが必要です。詳しくは、Campaign v8 クライアントコンソール[リリースノート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}を参照してください。
 
-### 機能強化 {#improvements-24-7}
+### 改善点 {#improvements-24-7}
 
 **フォルダー管理** - フォルダーに対する権限と制限を管理できるようになりました。
 
@@ -173,7 +173,7 @@ ht-degree: 100%
 
 キャンペーンを整理するプランとプログラムを作成できるようになりました。フォルダー階層を定義すると、キャンペーンをプログラムに、プログラムをプランに整理できます。[詳細情報](../administration/plans-programs.md)
 
-### 機能強化 {#improvements-24-6}
+### 改善点 {#improvements-24-6}
 
 * **エンリッチメントアクティビティでの紐付け**：**エンリッチメント**&#x200B;アクティビティを使用して、Campaign データベーススキーマのデータを、別のスキーマのデータや、一時スキーマのデータ（ファイルを読み込みアクティビティを使用してアップロードされたデータなど）と紐付けられるようになりました。例えば、このオプションを使用すると、アップロードされたファイルで指定したプロファイルの国を、Campaign データベースの専用テーブルで使用可能な国のいずれかと紐付けることができます。[詳細情報](../workflows/activities/enrichment.md)
 
@@ -237,7 +237,7 @@ ht-degree: 100%
 
 **リッチプッシュ通知テンプレート**
 
-Android 経由でリッチプッシュ通知を送信できるようになりました。リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージを超えたモバイル通知の拡張形式です。[詳細情報](../push/rich-push.md)
+Android 経由でリッチプッシュ通知を送信できるようになりました。リッチプッシュ通知は、画像、インタラクティブボタン、その他のリッチメディアコンテンツなどのマルチメディア要素を組み込むことで、単純なテキストメッセージ以上の機能を持つモバイル通知の拡張形式です。[詳細情報](../push/rich-push.md)
 
 この機能は、**限定提供**（LA）です。
 
@@ -250,7 +250,7 @@ Android 経由でリッチプッシュ通知を送信できるようになりま
 >
 >ドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)および [Campaign Standard ユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja)を参照してください。
 
-* **ブランディング** - Campaign Standard で移行したユーザーは、技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできます。こうした設定はテンプレートで管理されます。[詳細情報](../administration/branding/branding-gs.md)
+* **ブランディング** - Campaign Standard に移行したユーザーとして、技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。これらのブランドを作成して、メッセージやランディングページにリンクできます。こうした設定はテンプレートで管理されます。[詳細情報](../administration/branding/branding-gs.md)
 
 * **Rest API** - Campaign Standard で移行したユーザーは、Rest API を使用して Adobe Campaign の統合を作成し、使用するテクノロジーのパネルと Adobe Campaign をインターフェイスで接続することで独自のエコシステムを作成できます。[詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja)
 

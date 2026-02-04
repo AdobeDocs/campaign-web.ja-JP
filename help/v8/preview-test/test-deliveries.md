@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: 本配信前確認の送信
+title: 配達確認の送信
 description: 本配信前確認の送信方法を学ぶ
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3afb50f14fbc6b7efcedb43f4c8c323fd21d1e70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
 ht-degree: 100%
 
 ---
 
-# 本配信前確認の送信 {#send-test-deliveries}
+# 配達確認の送信 {#send-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"

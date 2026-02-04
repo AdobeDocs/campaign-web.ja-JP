@@ -4,7 +4,7 @@ description: アプリ内標準レポートを使用して、アプリ内メッ�
 audience: end-user
 level: Intermediate
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 

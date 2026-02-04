@@ -5,7 +5,7 @@ description: Campaign 監査記録を使用してインスタンスを監視す�
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
 ht-degree: 100%
 

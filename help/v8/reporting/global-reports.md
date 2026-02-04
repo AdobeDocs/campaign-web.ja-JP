@@ -4,7 +4,7 @@ title: グローバルレポートの基本を学ぶ
 description: グローバルレポートについて
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
 ht-degree: 100%
 

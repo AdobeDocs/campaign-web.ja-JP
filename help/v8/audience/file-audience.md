@@ -4,7 +4,7 @@ title: ファイルからメールオーディエンスを読み込み
 description: 外部ファイルからプロファイルを読み込んでメールオーディエンスを作成する方法を学ぶ
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '691'
 ht-degree: 100%
 

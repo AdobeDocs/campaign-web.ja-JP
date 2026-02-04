@@ -1,5 +1,5 @@
 ---
-title: 条件付きコンテンツを作成
+title: 条件付きコンテンツの作成
 description: Adobe Campaign Web でコンテンツをパーソナライズするための条件を定義する方法について説明します
 feature: Personalization
 topic: Personalization

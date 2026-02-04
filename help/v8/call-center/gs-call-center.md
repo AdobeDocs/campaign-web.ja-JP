@@ -4,7 +4,7 @@ title: コールセンターチャネルの基本を学ぶ
 description: Adobe Campaign web でコールセンター配信を作成して送信する方法について説明します
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
 source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
 ht-degree: 100%
 

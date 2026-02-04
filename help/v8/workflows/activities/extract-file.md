@@ -4,17 +4,17 @@ title: ファイルを抽出ワークフローアクティビティの使用
 description: ファイルを抽出ワークフローアクティビティの使用方法について説明します
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '945'
 ht-degree: 100%
 
 ---
 
-# ファイルを抽出 {#extract-file}
+# ファイル抽出 {#extract-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
->title="ファイルを抽出"
+>title="ファイル抽出"
 >abstract="**ファイルを抽出**&#x200B;アクティビティを使用すると、Adobe Campaign から外部ファイルの形式でデータをエクスポートできます。その後、ファイル転送アクティビティを使用して、データを SFTP、クラウドストレージ、キャンペーンサーバーなどのサーバーの場所にエクスポートできます。"
 
 **ファイルを抽出**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティです。このアクティビティを使用すると、Adobe Campaign から外部ファイルの形式でデータをエクスポートできます。その後、ファイル転送アクティビティを使用して、データを SFTP、クラウドストレージ、キャンペーンサーバーなどのサーバーの場所にエクスポートできます。

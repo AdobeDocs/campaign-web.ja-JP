@@ -4,7 +4,7 @@ title: AND 結合ワークフローアクティビティの使用
 description: AND 結合アクティビティワークフローの使用方法を学ぶ
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 

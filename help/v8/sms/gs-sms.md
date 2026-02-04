@@ -4,7 +4,7 @@ title: SMS 配信の基本を学ぶ
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
 source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ SMS チャネルには、SMS 配信を作成する次の 3 つの方法が用意
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="SMS 配信を作成" src="assets/do-not-localize/create_sms.png">
+<img alt="SMS 配信の作成" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong>SMS 配信を作成</strong>
 </div>

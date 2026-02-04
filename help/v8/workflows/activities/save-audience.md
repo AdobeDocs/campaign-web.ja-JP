@@ -4,7 +4,7 @@ title: オーディエンスを保存ワークフローアクティビティの�
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 

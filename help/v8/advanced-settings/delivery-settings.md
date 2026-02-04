@@ -5,7 +5,7 @@ description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 source-git-commit: 49457bf8d6ac292ad20df28867c0eefc92e26dea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3449'
 ht-degree: 100%
 
@@ -324,7 +324,7 @@ SMS 配信パラメーターは、SMS 配信に適用する技術的な設定で
 
    * 「**Flash**」の場合、値を 1 に設定します。画面にすぐに表示され、保存されない Flash SMS を送信します。
    * 「**通常**」の場合、値を 0 に設定します。標準の SMS を送信します。
-   * 「**携帯電話に保存**」の場合、値を 2 に設定します。SMS を内部メモリに保存するようデバイスに指示します。
+   * 「**モバイルに保存**」の場合、値を 2 に設定します。SMS を内部メモリに保存するようデバイスに指示します。
    * 「**ターミナルに保存**」の場合、値を 3 に設定します。SMS を SIM カードに保存するようデバイスに指示します。
 
 * **[!UICONTROL 優先度、通信タイプ]**

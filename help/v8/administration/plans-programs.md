@@ -4,7 +4,7 @@ title: プランとプログラム
 description: Adobe Campaign でプランとプログラムを作成および設定する方法を学ぶ
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
 ht-degree: 100%
 

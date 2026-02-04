@@ -4,7 +4,7 @@ title: メッセージにオファーを追加
 description: オファーを追加して送信する方法を学ぶ
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '795'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Adobe Campaign を利用すれば、特定の連絡先とのインタラクシ�
    >
    >使用可能な提案の数は、エンジンの呼び出しがどのように設定されているかによって異なります。また、提案の順序は、オファーの優先度によって異なります。詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ja){target="_blank"}を参照してください。
 
-1. 変更を保存します。
+1. 変更内容を保存します。
 
 1. コンテンツを完成させ、配信をテストして送信します。[詳細情報](gs-messages.md)。
 

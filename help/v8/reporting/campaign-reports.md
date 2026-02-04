@@ -4,7 +4,7 @@ title: キャンペーンレポート
 description: 配信レポートへのアクセス方法と使用方法を学ぶ
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
 ht-degree: 100%
 

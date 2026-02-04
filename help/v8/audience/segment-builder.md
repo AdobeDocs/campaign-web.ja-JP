@@ -4,7 +4,7 @@ title: Campaign のルールビルダーを使用してオーディエンスを�
 description: ルールビルダーを操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
 ht-degree: 100%
 

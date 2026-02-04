@@ -4,7 +4,7 @@ title: 配信の送信のスケジュール設定
 description: 配信をスケジュール設定する方法について説明します
 exl-id: 0738a148-d550-41c2-a8c2-6054684ba789
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 スタンドアロン配信の場合は、配信の日時を直接スケジュール設定します。各配信タイプ（メール、SMS、プッシュ通知）の例について詳しくは、以下を参照してください。
 
-### メール {#schedule-email-standalone}
+### 電子メール {#schedule-email-standalone}
 
 メール配信の送信をスケジュール設定するには、次の手順に従います。
 

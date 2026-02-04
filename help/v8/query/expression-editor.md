@@ -4,7 +4,7 @@ title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
 source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2192'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >クエリモデラーで新しいインターフェイスを使用できます。この新しいルールビルダーエクスペリエンスに切り替えるには、右上隅の切替スイッチボタンを押します。切替スイッチボタンを押して新しいインターフェイスを無効にするだけで、いつでも従来のクエリモデラーに戻ることができます。この新しいインターフェイスでは、クエリモデラーと同じ原則を適用できます。
->>![新しいルールビルダーインターフェイスの切替スイッチを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
+>![新しいルールビルダーインターフェイスの切替スイッチを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## 式エディターの操作 {#edit}
 
