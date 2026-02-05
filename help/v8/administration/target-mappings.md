@@ -2,20 +2,14 @@
 title: ターゲットマッピングの管理
 description: ターゲットマッピングの管理方法について説明します。
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
-source-git-commit: 6bc40942166531d9adb94a9ce2a691ddd031a005
-workflow-type: ht
-source-wordcount: '806'
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+workflow-type: tm+mt
+source-wordcount: '770'
 ht-degree: 100%
 
 ---
 
 # ターゲットマッピングの管理 {#target-mappings}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="ターゲットマッピング"
->abstract="Campaign web ユーザーインターフェイスでターゲットマッピングを作成できるようになりました。ターゲットマッピングは、様々な配信チャネル（メール、SMS、プッシュ通知）からスキーマのデータフィールドへのリンク方法を定義します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"

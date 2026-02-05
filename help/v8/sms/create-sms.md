@@ -3,9 +3,9 @@ audience: end-user
 title: SMS 配信の作成
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: eb18e2cfc97c13bb0cffac0f8a5bcfa5b18ceabb
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '532'
 ht-degree: 94%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 94%
 >id="acw_deliveries_sms_template_selection"
 >title="SMS テンプレートの選択"
 >abstract="事前定義済みのテンプレートを選択して SMS 配信を開始します。配信テンプレートを使用すると、キャンペーンや配信全体でカスタムコンテンツや設定を再利用できます。"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="配信テンプレートの使用"
 
 スタンドアロンの SMS 配信を作成することも、キャンペーンワークフローのコンテキストで SMS を作成することもできます。以下の手順では、スタンドアロン（1 回限りの）SMS 配信の手順について説明します。キャンペーンワークフローのコンテキストで作業している場合、作成手順について詳しくは、[この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)を参照してください。
 

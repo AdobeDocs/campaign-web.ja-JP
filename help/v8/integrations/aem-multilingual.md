@@ -6,15 +6,21 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 2%
+source-wordcount: '546'
+ht-degree: 3%
 
 ---
 
 
 # Adobe Experience Managerでの多言語メールの作成 {#aem-multilingual}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Experience Managerのライブコピーと言語コピー"
+>abstract="Adobe Experience Manager言語とライブコピーに Campaign で直接アクセスできるようになりました。 リアルタイムのコンテンツ更新により、手動での同期が不要になり、複数の言語を使用したワークフローが合理化されます。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 Adobe Experience Manager統合を使用すると、Adobe Experience Managerの言語コピーを使用して多言語のメール配信を作成できます。 これにより、様々な言語のコンテンツのバリアントを管理し、受信者の言語の環境設定に基づいてパーソナライズされたメールを配信できます。
 
@@ -23,8 +29,8 @@ Adobe Experience Manager統合を使用すると、Adobe Experience Managerの�
 多言語メール配信を作成する前に、次のことを確認します。
 
 * Adobe Campaign Web インターフェイス統合用に設定されたAdobe Experience Manager インスタンスにアクセスします。
-* 言語コピーが作成済みおよび承認済みのAdobe Experience Manager コンテンツ。 言語コピーウィザードについて詳しくは、[Adobe Experience Manager ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
-* Adobe Experience Manager コンテンツを受信するように設定されたメール配信テンプレート。 [&#x200B; 多言語モードの有効化 &#x200B;](#enable-multilingual) の節で説明されている手順を参照してください。
+* 言語コピーが作成済みおよび承認済みのAdobe Experience Manager コンテンツ。 言語コピーウィザードについて詳しくは、[Adobe Experience Manager ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Adobe Experience Manager コンテンツを受信するように設定されたメール配信テンプレート。 [ 多言語モードの有効化 ](#enable-multilingual) の節で説明されている手順を参照してください。
 
 ## 多言語配信の作成
 
@@ -79,7 +85,7 @@ Adobe Experience Manager コンテンツを選択し、配信に含める言語�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. コンテンツエディターで言語のバリアントをレビューします。 これで [&#x200B; 各バリアントを個別に管理 &#x200B;](#manage-variants) するか、[&#x200B; 配信の送信 &#x200B;](../monitor/prepare-send.md) に進むことができます。
+1. コンテンツエディターで言語のバリアントをレビューします。 これで [ 各バリアントを個別に管理 ](#manage-variants) するか、[ 配信の送信 ](../monitor/prepare-send.md) に進むことができます。
 
    ![](assets/lg-copy-7.png)
 

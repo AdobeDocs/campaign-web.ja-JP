@@ -3,14 +3,20 @@ audience: end-user
 title: 承認プロセスの設定と管理
 description: Campaign Web でマーケティングキャンペーンの承認を管理する方法を学ぶ
 feature: Approvals, Campaigns
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 4%
+source-wordcount: '723'
+ht-degree: 5%
 
 ---
 
 # 承認プロセスの管理 {#campaign-approvals}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn6"
+>title="キャンペーン承認管理"
+>abstract="配信を送信する前に、関係者の検証を調整できるようになりました。 品質管理のために、マーケティングマネージャー、データアナリストまたはその他のチームの承認が必要です。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!IMPORTANT]
 >
@@ -34,7 +40,7 @@ ht-degree: 4%
 
 1. 「**[!UICONTROL 承認]**」セクションで、次のオプションを設定します。
 
-   ![&#x200B; キャンペーン承認設定を示すスクリーンショット &#x200B;](assets/approvals1.png){zoomable="yes"}
+   ![ キャンペーン承認設定を示すスクリーンショット ](assets/approvals1.png){zoomable="yes"}
 
    * **[!UICONTROL コンテンツの承認を有効化]**：有効にする場合は、送信前に配信コンテンツを承認する必要があります。 「**[!UICONTROL レビュー担当者]** フィールドのフォルダーアイコンをクリックして、オペレーターまたはオペレーターグループを選択します。
 
@@ -56,7 +62,7 @@ ht-degree: 4%
 
 1. 配信ダッシュボードで、「**[!UICONTROL コンテンツを送信]**」ボタンをクリックします。 指名されたレビュー担当者は、承認または却下できます。 この[節](#approve-reject)を参照してください。
 
-   ![&#x200B; 「コンテンツを送信」ボタンを示したスクリーンショット &#x200B;](assets/approvals2.png){zoomable="yes"}
+   ![ 「コンテンツを送信」ボタンを示したスクリーンショット ](assets/approvals2.png){zoomable="yes"}
 
    配信ダッシュボードの「**[!UICONTROL プロパティ]**」セクションで、承認のステータスが「保留中」に変わります。 この[節](#rack-approvals)を参照してください。
 
@@ -64,7 +70,7 @@ ht-degree: 4%
 
 1. 「**[!UICONTROL ターゲットを送信]**」ボタンをクリックします。 指名されたレビュー担当者は、承認または却下できます。 この[節](#approve-reject)を参照してください。
 
-   ![&#x200B; 「ターゲットを送信」ボタンを示したスクリーンショット &#x200B;](assets/approvals5.png){zoomable="yes"}
+   ![ 「ターゲットを送信」ボタンを示したスクリーンショット ](assets/approvals5.png){zoomable="yes"}
 
    承認のステータスが「保留」に変わります。 この[節](#rack-approvals)を参照してください。
 
@@ -86,13 +92,13 @@ ht-degree: 4%
 
 1. **[!UICONTROL コンテンツを承認]** または **[!UICONTROL ターゲットを承認]** ボタンをクリックします。
 
-   ![&#x200B; 配信ダッシュボードの「コンテンツを承認」ボタンを示すスクリーンショット &#x200B;](assets/approvals3.png){zoomable="yes"}
+   ![ 配信ダッシュボードの「コンテンツを承認」ボタンを示すスクリーンショット ](assets/approvals3.png){zoomable="yes"}
 
 1. **[!UICONTROL 承認]** または **[!UICONTROL 拒否]** をクリックします。
 
 1. オプションで、決定について説明する **[!UICONTROL コメント]** を追加します。
 
-   ![&#x200B; 「承認」ボタン、「拒否」ボタンおよび「コメント」フィールドを含んだ承認ダイアログを示すスクリーンショット &#x200B;](assets/approvals4.png){zoomable="yes"}
+   ![ 「承認」ボタン、「拒否」ボタンおよび「コメント」フィールドを含んだ承認ダイアログを示すスクリーンショット ](assets/approvals4.png){zoomable="yes"}
 
 1. 決定を確定します。 配信ダッシュボードで、承認ステータスが直ちに更新されます。 この[節](#rack-approvals)を参照してください。
 
@@ -100,7 +106,7 @@ ht-degree: 4%
 
 承認ステータスは、配信ダッシュボードの **[!UICONTROL プロパティ]** セクションに表示されます。 ステータスには、待機中の承認と現在の状態が表示されます。
 
-![&#x200B; 承認ステータスを示すスクリーンショット &#x200B;](assets/approvals5.png){zoomable="yes"}
+![ 承認ステータスを示すスクリーンショット ](assets/approvals5.png){zoomable="yes"}
 
 * **[!UICONTROL 編集中]**：コンテンツまたはターゲットはまだ承認用に送信されていません
 * **[!UICONTROL 承認待ち]**：コンテンツまたはターゲットはレビュー待ちです

@@ -2,14 +2,20 @@
 audience: end-user
 title: 連続配信ワークフローアクティビティの使用
 description: 連続配信ワークフローアクティビティの使用方法を説明します
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '280'
 ht-degree: 6%
 
 ---
 
 # 連続配信 {#continuous-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="連続配信アクティビティ"
+>abstract="既存の配信に新しい受信者を追加できるようになりました。 この配信タイプでは、毎回新しい配信を作成する必要がないので、必要に応じて送信される少量のアラートや通知の方が効率的です。"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 **連続配信** アクティビティでは、既存の配信に新しい受信者を追加できます。 この配信タイプでは、毎回新しい配信を作成する必要がないので、必要に応じて送信される少量のアラートや通知の方が効率的です。
 
@@ -19,7 +25,7 @@ ht-degree: 6%
 
 1. **連続配信** アクティビティをワークフローキャンバスに追加します。
 
-   ![&#x200B; 連続配信アクティビティを示すスクリーンショット &#x200B;](../assets/continuous-delivery.png){zoomable="yes"}
+   ![ 連続配信アクティビティを示すスクリーンショット ](../assets/continuous-delivery.png){zoomable="yes"}
 
 1. アクティビティのカスタム **[!UICONTROL ラベル]** を入力します（オプション）。 デフォルトでは、「連続配信」というラベルが付いています。
 
