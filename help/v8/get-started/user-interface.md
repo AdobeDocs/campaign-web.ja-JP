@@ -7,10 +7,10 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
 workflow-type: tm+mt
 source-wordcount: '1525'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ Campaign エクスプローラー、フォルダー階層およびリソース�
 >id="acw_offers_list"
 >title="オファー"
 >abstract="**インタラクション**&#x200B;モジュールを使用して、コンソールで作成されたオファーとオファーテンプレートのリストを参照します。これらのリストは読み取り専用です。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/offers" text="配信へのオファーの追加"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=ja" text="配信へのオファーの追加"
 
 「**意思決定管理**」セクションでは、オファーとオファーテンプレートを表示できます。これらのリストは読み取り専用です。
 

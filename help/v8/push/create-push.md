@@ -3,10 +3,10 @@ audience: end-user
 title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+source-git-commit: 93525fd1900c3a667051720205219ae5f9884736
 workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 93%
 >id="acw_push_notification_template"
 >title="プッシュ通知テンプレート"
 >abstract="プッシュ通知テンプレートを選択して、プッシュ配信を開始します。配信テンプレートを使用すると、キャンペーンや配信全体でカスタムコンテンツや設定を簡単に再利用できます。"
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/delivery-template" text="配信テンプレートの使用"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ja" text="配信テンプレートの使用"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
@@ -69,7 +69,7 @@ ht-degree: 93%
 
    ![プッシュ配信のオーディエンスの選択を示すスクリーンショット](assets/push_create_2.png){zoomable="yes"}
 
-1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。プッシュ通知の場合、デフォルトの [&#x200B; ターゲットディメンション &#x200B;](../audience/about-recipients.md#targeting-dimensions) は **購読者のアプリケーション** （nms:appSubscriptionRcp）であり、受信者テーブルにリンクされています。
+1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。プッシュ通知の場合、デフォルトの [ ターゲットディメンション ](../audience/about-recipients.md#targeting-dimensions) は **購読者のアプリケーション** （nms:appSubscriptionRcp）であり、受信者テーブルにリンクされています。
 
    既存のオーディエンスを選択する方法について詳しくは、[このページ](../audience/add-audience.md)を参照してください。
 
