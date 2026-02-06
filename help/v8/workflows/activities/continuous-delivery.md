@@ -2,7 +2,8 @@
 audience: end-user
 title: 連続配信ワークフローアクティビティの使用
 description: 連続配信ワークフローアクティビティの使用方法を説明します
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 6%
@@ -25,7 +26,7 @@ ht-degree: 6%
 
 1. **連続配信** アクティビティをワークフローキャンバスに追加します。
 
-   ![&#x200B; 連続配信アクティビティを示すスクリーンショット &#x200B;](../assets/continuous-delivery.png){zoomable="yes"}
+   ![ 連続配信アクティビティを示すスクリーンショット ](../assets/continuous-delivery.png){zoomable="yes"}
 
 1. アクティビティのカスタム **[!UICONTROL ラベル]** を入力します（オプション）。 デフォルトでは、「連続配信」というラベルが付いています。
 
