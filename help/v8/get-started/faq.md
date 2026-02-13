@@ -2,10 +2,10 @@
 title: よくある質問
 description: Campaign web ユーザーインターフェイスに関するよくある質問
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
-workflow-type: ht
-source-wordcount: '782'
-ht-degree: 100%
+source-git-commit: 94926311c3e3c512e48f5af4a5bedeb3f218cbcd
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Campaign クライアントコンソールは、新しいインターフェイ�
 
 +++ Adobe Campaign Classic v7 のサポートは終了するということですか？
 
-Adobe Campaign Classic v7 は、2027年3月31日（PT）までサポートする予定です。詳しくは、[製品とテクニカルサポート期間](https://helpx.adobe.com/jp/support/programs/eol-matrix.html){target="_blank"}ページを参照してください。
+Adobe Campaign Classic v7 のサポート終了日については、[ 製品とテクニカルサポート期間 ](https://helpx.adobe.com/jp/support/programs/eol-matrix.html){target="_blank"} ページを参照してください。
 
 +++
 
