@@ -59,7 +59,7 @@ Campaign クライアントコンソールは、新しいインターフェイ�
 
 +++ Adobe Campaign Classic v7 のサポートは終了するということですか？
 
-Adobe Campaign Classic v7 のサポート終了日については、[ 製品とテクニカルサポート期間 ](https://helpx.adobe.com/jp/support/programs/eol-matrix.html){target="_blank"} ページを参照してください。
+Adobe Campaign Classic v7 のサポート終了日については、[&#x200B; 製品とテクニカルサポート期間 &#x200B;](https://helpx.adobe.com/jp/support/programs/eol-matrix.html){target="_blank"} ページを参照してください。
 
 +++
 
