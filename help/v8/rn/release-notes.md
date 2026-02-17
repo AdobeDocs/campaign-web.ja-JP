@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 42%
+source-wordcount: '274'
+ht-degree: 46%
 
 ---
 
@@ -66,7 +66,7 @@ _2026 年 2 月 17 日_
 <tr>
 <td>
 <p>キャンペーン在庫には、キャンペーンを経時的に視覚化および管理できるタイムライン ビューが含まれるようになりました。リストとタイムラインの切り替え、週別、月別または日別のナビゲーション、「今日」ボタンを使用して現在の日付にジャンプ、キャンペーンの詳細（ステータス、ワークフロー、配信）を右側のパネルにリスト ビューと同じフィルターおよび検索で開きます。</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>詳しくは、<a href="../campaigns/manage-campaigns.md#timeline">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -82,7 +82,7 @@ _2026 年 2 月 17 日_
 <tr>
 <td>
 <p>Campaign web ユーザーインターフェイスから直接スキーマを作成および管理できるようになりました。 この機能を使用すると、新しいテーブルの作成、既存のスキーマの拡張、カスタムフォームの作成を行うことができます。 クライアントコンソールにアクセスする必要なく、特定のビジネスニーズをサポートするカスタムデータ構造を定義できます。</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>詳しくは、<a href="../administration/schemas.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ _2026 年 2 月 17 日_
 ### 改善点 {#26-2-improvements}
 
 * ブランドガイドラインに、ブランドのカラーシステムの標準を定義する「カラー」セクションが含まれるようになりました。これにより、すべてのエクスペリエンスでプライマリカラー、セカンダリカラー、アクセントカラー、ニュートラルカラーを一貫して使用できます。
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [詳細情報](../content/brands-personalize.md)
 
 
 
