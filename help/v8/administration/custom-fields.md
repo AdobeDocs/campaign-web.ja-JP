@@ -1,8 +1,10 @@
 ---
 title: カスタムフィールド
 description: インターフェイスでカスタムフィールドとその表示を設定する方法について説明します。
+hide: true
+hidefromtoc: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 99%

@@ -2,8 +2,8 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2025 Campaign web ユーザーインターフェイスリリース
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: ht
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+workflow-type: tm+mt
 source-wordcount: '3052'
 ht-degree: 100%
 
@@ -109,7 +109,7 @@ _2025年11月3日（PT）_
 
 * E メールデザイナーの条件付きコンテンツ機能を使用して条件を設定する際に、新しいルールビルダーとレガシールールビルダーを切り替えられるようになりました。<!-- [Learn more](../personalization/conditions.md#condition-condition-builder)-->
 
-* 受信者スキーマの画面定義で、購入などのコレクションリンクを選択できるようになりました。これにより、専用タブを通じてプロファイル画面に関連データが表示されます。<!-- [Learn more](../administration/schemas.md#collection-lists)-->
+* 受信者スキーマの画面定義で、購入などのコレクションリンクを選択できるようになりました。これにより、専用タブを通じてプロファイル画面に関連データが表示されます。<!-- [Learn more](../administration/schemas.md)-->
 
 * Campaign 管理者は、Salesforce CRM と Microsoft Dynamics への接続を設定できるようになりました。
   [詳細情報](../administration/external-crm.md)
@@ -295,7 +295,7 @@ query activity -> query ds workflow fitleting dimentsion
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -439,14 +439,14 @@ query activity -> query ds workflow fitleting dimentsion
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=ja){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -473,10 +473,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -644,8 +644,8 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 **スキーマ**
 
 * Campaign web ユーザーインターフェイスからリストの一時スキーマを編集できるようになりました。詳しくは、[詳細ドキュメント](../audience/manage-audience.md)を参照してください。
-* サンプル画面でスキーマのカスタムフィールドをプレビューできるようになりました。詳しくは、[詳細ドキュメント](../administration/custom-fields.md#add)を参照してください。
-* ドラッグ＆ドロップを使用して、リストのカスタムフィールドを移動できるようになりました。詳しくは、[詳細ドキュメント](../administration/custom-fields.md#add)を参照してください。
+* サンプル画面でスキーマのカスタムフィールドをプレビューできるようになりました。詳しくは、[詳細ドキュメント](../administration/schemas-custom-fields.md)を参照してください。
+* ドラッグ＆ドロップを使用して、リストのカスタムフィールドを移動できるようになりました。詳しくは、[詳細ドキュメント](../administration/schemas-custom-fields.md)を参照してください。
 
 
 ### 限定提供の新機能 {#25-4-features-la}

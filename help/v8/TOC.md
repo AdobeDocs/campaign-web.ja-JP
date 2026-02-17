@@ -5,10 +5,10 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: 039d5447d7283072feb1a8555d203e15b0fadcc7
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 98%
+source-wordcount: '998'
+ht-degree: 97%
 
 ---
 
@@ -282,9 +282,16 @@ ht-degree: 98%
       + [ブランドの割り当て](administration/branding/branding-assign.md)
    + [ビジネスルール（タイポロジ）の操作](administration/typologies.md)
    + [ターゲットマッピングの管理](administration/target-mappings.md)
-   + [スキーマの操作](administration/schemas.md)
+   + スキーマの操作 {#schemas}
+      + [スキーマについて](administration/schemas.md)
+      + [スキーマへのアクセスと設定](administration/schemas-browse-access.md)
+      + [リスト列の設定](administration/schemas-list-columns.md)
+      + [カスタムフィールドの編集](administration/schemas-custom-fields.md)
+      + [コレクションリストの追加](administration/schemas-collection-lists.md)
+      + [スキーマの作成と公開](administration/schemas-create-publish.md)
+      + [カスタムフォームの操作](administration/schemas-custom-forms.md)
    + [カスタムフィールドの設定](administration/custom-fields.md)
-   + [&#x200B; [!DNL Campaign]  オプションの設定](administration/options.md)
+   + [ [!DNL Campaign]  オプションの設定](administration/options.md)
    + [タイムゾーン管理](administration/timezone-management.md)
    + 外部アカウント {#external-accounts}
       + [外部アカウントの作成](administration/create-external-account.md)

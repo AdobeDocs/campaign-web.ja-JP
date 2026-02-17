@@ -2,8 +2,8 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2024 Campaign web ユーザーインターフェイスリリース
 exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ ht-degree: 100%
 * **ランディングページの Captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。[詳細情報](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.-->
 
 
 ## 7月リリースノート {#24-7-release}
@@ -201,7 +201,7 @@ ht-degree: 100%
 
 ### カスタムフィールド {#24-5-2}
 
-**カスタムフィールド**&#x200B;は、Adobe Campaign コンソールを通じて標準スキーマに追加される追加属性です。Campaign web ユーザーインターフェイスでは、これらのカスタムフィールドが、プロファイルやテストプロファイルの詳細など、様々な画面に表示されるようになりました。Web ユーザーインターフェイスでは、カスタムフィールドを作成できませんが、表示方法を変更できるようになりました。[詳細情報](../administration/custom-fields.md)
+**カスタムフィールド**&#x200B;は、Adobe Campaign コンソールを通じて標準スキーマに追加される追加属性です。Campaign web ユーザーインターフェイスでは、これらのカスタムフィールドが、プロファイルやテストプロファイルの詳細など、様々な画面に表示されるようになりました。Web ユーザーインターフェイスでは、カスタムフィールドを作成できませんが、表示方法を変更できるようになりました。[詳細情報](../administration/schemas-custom-fields.md)
 
 ### テーブル間のリンクの作成 {#24-5-3}
 

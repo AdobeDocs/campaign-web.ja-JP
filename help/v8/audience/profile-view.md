@@ -2,8 +2,8 @@
 title: プロファイルの詳細の探索
 description: プロファイルの詳細の探索方法について説明します。
 exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
-workflow-type: ht
+source-git-commit: 8815abf9a7851b67f45038acad5ff8bff84db81b
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
   ![プロファイルが登録しているサービスを一覧表示した、「サブスクリプション」タブを示すスクリーンショット。](assets/profile-subscriptions.png){zoomable="yes"}
 
-* 受信者スキーマの画面定義でコレクションリンクを定義することで、カスタムタブ（購入など）を表示できます。[コレクションリンクの詳細情報](../administration/schemas.md#collection-lists)
+* 受信者スキーマの画面定義でコレクションリンクを定義することで、カスタムタブ（購入など）を表示できます。[コレクションリンクの詳細情報](../administration/schemas-collection-lists.md)
 
   ![カスタムタブを示すスクリーンショット](assets/schemas-collection4.png){zoomable="yes"}
 
