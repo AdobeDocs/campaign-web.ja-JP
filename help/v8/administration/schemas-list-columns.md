@@ -12,7 +12,7 @@ ht-degree: 4%
 
 「**[!UICONTROL 在庫リスト設定]**」セクションでは、デフォルトでリスト表示に表示される列を設定できます。 各列には、ラベルと対応する属性が表示されます。
 
-画面定義画面とアクセス方法について詳しくは、[ 画面定義へのアクセス ](schemas-browse-access.md#screen-def) の節を参照してください。
+画面定義画面とアクセス方法について詳しくは、[&#x200B; 画面定義へのアクセス &#x200B;](schemas-browse-access.md#screen-def) の節を参照してください。
 
 デフォルトのリストに新しい列を追加するには、次の手順に従います。
 
@@ -22,12 +22,12 @@ ht-degree: 4%
 
 1. 省略記号アイコン（3 つのドット）をクリックします。
 1. **[!UICONTROL 列を選択]** を選択します。
-   ![ リスト列の設定 ](assets/schemas-list-columns2.png)
+   ![&#x200B; リスト列の設定 &#x200B;](assets/schemas-list-columns2.png)
 
 1. リスト表示に表示する属性を選択して確認します。
 
-   ![ リスト列の設定 ](assets/schemas-list-columns.png)
+   ![&#x200B; リスト列の設定 &#x200B;](assets/schemas-list-columns.png)
 
 1. **プロファイル** メニューを参照して、プロファイルリスト表示にアクセスします。 新しいタブが表示されます。 必要に応じて、列をさらに追加できます。
 
-   ![ リスト列の設定 ](assets/schemas-list-columns3.png)
+   ![&#x200B; リスト列の設定 &#x200B;](assets/schemas-list-columns3.png)

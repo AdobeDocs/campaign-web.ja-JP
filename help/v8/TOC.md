@@ -291,7 +291,7 @@ ht-degree: 97%
       + [スキーマの作成と公開](administration/schemas-create-publish.md)
       + [カスタムフォームの操作](administration/schemas-custom-forms.md)
    + [カスタムフィールドの設定](administration/custom-fields.md)
-   + [ [!DNL Campaign]  オプションの設定](administration/options.md)
+   + [&#x200B; [!DNL Campaign]  オプションの設定](administration/options.md)
    + [タイムゾーン管理](administration/timezone-management.md)
    + 外部アカウント {#external-accounts}
       + [外部アカウントの作成](administration/create-external-account.md)
