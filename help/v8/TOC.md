@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign web ユーザーインターフェイス�
 title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
-source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
+source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '975'
 ht-degree: 98%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 98%
    + [早期リリース](rn/e-release-notes.md)
    + [最新リリース](rn/release-notes.md)
    + 以前のリリース {#previous-release-notes}
+      + [2026 リリース](rn/release-notes-26.md)
       + [2025 リリース](rn/release-notes-25.md)
       + [2024 リリース](rn/release-notes-24.md)
    + [ドキュメントの更新](rn/documentation-updates.md)
@@ -283,7 +284,7 @@ ht-degree: 98%
    + [ターゲットマッピングの管理](administration/target-mappings.md)
    + [スキーマの操作](administration/schemas.md)
    + [カスタムフィールドの設定](administration/custom-fields.md)
-   + [&#x200B; [!DNL Campaign]  オプションの設定](administration/options.md)
+   + [ [!DNL Campaign]  オプションの設定](administration/options.md)
    + [タイムゾーン管理](administration/timezone-management.md)
    + 外部アカウント {#external-accounts}
       + [外部アカウントの作成](administration/create-external-account.md)
