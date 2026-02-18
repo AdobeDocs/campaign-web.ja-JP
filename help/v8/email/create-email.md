@@ -153,7 +153,7 @@ ht-degree: 98%
 
 このユースケースでは、ターゲットプロファイルの一部を偽装して、メールをプレビューし、特定のメールアドレスに本配信前確認を送信します。
 
-また、コンテンツ品質を検証して、読みやすさ、CTAの効果、件名の品質などを確認することもできます。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](../content/brands-score.md#validate-quality)
+また、コンテンツ品質を検証して、読みやすさ、CTAの効果、件名の品質などを確認することもできます。 [ コンテンツ品質検証の詳細情報 ](../content/brands-score.md#validate-quality)
 
 メールのプレビューと本配信前確認の送信方法に関する追加情報について詳しくは、[この節](../preview-test/preview-test.md)を参照してください。
 
@@ -254,4 +254,4 @@ ht-degree: 98%
 
 メール配信をゼロから作成し、オーディエンスの定義、コンテンツの設計、プレビューのシミュレートを行い、配達確認を送信する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454006/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

@@ -4,7 +4,7 @@ title: コントロール母集団の設定
 description: Campaign web ユーザーインターフェイスでメッセージのコントロール母集団を設定する方法について説明します
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 100%
 

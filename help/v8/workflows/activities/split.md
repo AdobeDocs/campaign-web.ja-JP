@@ -4,7 +4,7 @@ title: 分割ワークフローアクティビティの使用
 description: 分割ワークフローアクティビティの使用方法を説明します
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 100%
 

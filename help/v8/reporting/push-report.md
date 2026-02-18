@@ -87,7 +87,7 @@ ht-degree: 96%
 
 **[!UICONTROL 除外]**&#x200B;グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった様々な理由が表示されます。除外ルールについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=ja#push-error-types){_blank}を参照してください。
 
-![このスクリーンショットは、除外されたユーザープロファイルがメッセージを受信できない理由を示す除外グラフおよびテーブルを示します。](assets/reporting_push_6.png){zoomable="yes"}
+![このスクリーンショットは、除外されたユーザープロファイルがメッセージを受信できない理由を表示する除外グラフおよびテーブルを示します。](assets/reporting_push_6.png){zoomable="yes"}
 
 ## 配信スループット {#delivery-throughput}
 

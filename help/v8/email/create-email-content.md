@@ -104,7 +104,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
    ![E メールデザイナーのシミュレーションオプションを示すスクリーンショット。](assets/email_designer-simulate.png){zoomable="yes"}
 
-1. また、コンテンツ品質を検証して、読みやすさ、CTAの効果、件名の品質などを評価することもできます。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](../content/brands-score.md#validate-quality)
+1. また、コンテンツ品質を検証して、読みやすさ、CTAの効果、件名の品質などを評価することもできます。 [ コンテンツ品質検証の詳細情報 ](../content/brands-score.md#validate-quality)
 
 1. メールの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -112,4 +112,4 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 メールデザイナーの操作方法について説明します。メールをゼロから構造化して設計する方法と、メールをパーソナライズしてテストする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453563/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

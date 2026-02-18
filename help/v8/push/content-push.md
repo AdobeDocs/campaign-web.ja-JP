@@ -4,7 +4,7 @@ title: プッシュ通知配信をデザイン
 description: Adobe Campaign Web を使用したプッシュ通知配信のデザイン方法を学ぶ
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ title: プロファイルの基本を学ぶ
 description: Campaign web でプロファイルを監視および管理する方法について説明します。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 Campaign web ユーザーインターフェイスを使用してプロファイルにアクセス、管理および探索する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448365?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

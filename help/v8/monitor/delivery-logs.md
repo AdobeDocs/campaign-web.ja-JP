@@ -4,7 +4,7 @@ title: 配信ログの監視
 description: 配信ログの監視方法について説明します
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 

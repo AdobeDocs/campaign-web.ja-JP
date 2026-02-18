@@ -3,7 +3,7 @@ title: 列挙の管理
 description: 列挙の操作方法について説明します
 exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
 source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 100%
 

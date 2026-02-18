@@ -4,7 +4,7 @@ title: AI アシスタントの基本を学ぶ
 description: AI アシスタントの基本を学ぶ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 100%
 
