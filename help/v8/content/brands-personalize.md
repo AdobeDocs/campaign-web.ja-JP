@@ -22,7 +22,7 @@ ht-degree: 91%
 
 <!-- * **[!UICONTROL Colors]** manages your brand's color system and usage. -->
 
-設定が完了したら、ブランドガイドラインを使用して、コンテンツ品質とブランドとの整合性を検証できます。 [ コンテンツ品質検証の詳細情報 ](brands-score.md#validate-quality)
+設定が完了したら、ブランドガイドラインを使用して、コンテンツ品質とブランドとの整合性を検証できます。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](brands-score.md#validate-quality)
 
 ## ブランドについて {#about-brand}
 
