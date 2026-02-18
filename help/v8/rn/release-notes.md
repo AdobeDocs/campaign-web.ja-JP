@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
+source-git-commit: 06208ed2cbb08d9cebfceff3ebbc661c0b9682ee
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 46%
+ht-degree: 45%
 
 ---
 
@@ -88,10 +88,11 @@ _2026 年 2 月 17 日_
 </tbody>
 </table>
 
+<!-->
 ### 改善点 {#26-2-improvements}
 
 * ブランドガイドラインに、ブランドのカラーシステムの標準を定義する「カラー」セクションが含まれるようになりました。これにより、すべてのエクスペリエンスでプライマリカラー、セカンダリカラー、アクセントカラー、ニュートラルカラーを一貫して使用できます。
-  [詳細情報](../content/brands-personalize.md)
+  [ 詳細情報 ](../content/brands-personalize.md)—>
 
 
 

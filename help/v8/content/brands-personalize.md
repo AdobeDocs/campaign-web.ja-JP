@@ -5,9 +5,9 @@ description: ブランドガイドラインをパーソナライズする方法�
 role: User
 level: Beginner, Intermediate
 exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
-source-git-commit: 3426490deea7dc8653b30f29c530ecc21b52f7b6
+source-git-commit: 06208ed2cbb08d9cebfceff3ebbc661c0b9682ee
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1444'
 ht-degree: 71%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 71%
 * **[!UICONTROL ブランドについて]** は、ブランドのコアアイデンティティと価値を確立します。
 * **[!UICONTROL ライティングスタイル]** 言語とコンテンツの標準を定義します。
 * **[!UICONTROL ビジュアルコンテンツ]** は、画像とデザインのガイドラインを設定します。
-* **[!UICONTROL カラー]** は、ブランドのカラーシステムと使用状況を管理します。
+  <!--* **[!UICONTROL Colors]** manages your brand's color system and usage.-->
 
-設定が完了したら、ブランドガイドラインを使用して、コンテンツ品質とブランドとの整合性を検証できます。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](brands-score.md#validate-quality)
+設定が完了したら、ブランドガイドラインを使用して、コンテンツ品質とブランドとの整合性を検証できます。 [ コンテンツ品質検証の詳細情報 ](brands-score.md#validate-quality)
 
 ## ブランドについて {#about-brand}
 
@@ -250,6 +250,7 @@ ht-degree: 71%
 
 ブランドをさらにパーソナライズしたり、[ブランドを公開](#create-brand-kit)したりできるようになりました。
 
+<!-->
 ## カラー {#colors}
 
 **[!UICONTROL カラー]** セクションには、ブランドのカラーシステムの標準が表示され、エクスペリエンス間でカラーを選択、整理、適用する方法の概要が示されます。 これにより、プライマリー、セカンダリー、アクセント、ニュートラルカラーを一貫して使用し、一貫性があり、アクセスしやすく、識別可能なブランドアイデンティティを維持できます。
@@ -345,5 +346,5 @@ ht-degree: 71%
 
 1. ブランドの追加のカラーを定義したり、カラースケールグループを追加したりするには、「**[!UICONTROL グループを追加]**」をクリックします。
 
-ブランドをさらにパーソナライズしたり、[ブランドを公開](brands.md#create-brand-kit)したりできるようになりました。
-
+ブランドをさらにパーソナライズしたり、[ ブランドを公開 ](brands.md#create-brand-kit) したりできるようになりました。
+—>
