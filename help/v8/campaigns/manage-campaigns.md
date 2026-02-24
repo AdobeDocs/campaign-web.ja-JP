@@ -3,7 +3,7 @@ audience: end-user
 title: キャンペーンの基本を学ぶ
 description: クロスチャネルキャンペーンを開始する方法を学ぶ
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: 176b6abeee5391cc806b1660b2fd5bb39c654945
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 71%
@@ -29,7 +29,7 @@ ht-degree: 71%
 
 「**[!UICONTROL 参照]** タブには、キャンペーンの現在のステータス、開始日と終了日、作成日、最終変更日時などに関する情報が表示されます。 リストの右上隅にある「**カスタムレイアウトの列を設定**」アイコンをクリックすると、表示される列をカスタマイズできます。これにより、列の追加や削除、キャンペーンリスト内の情報の並べ替えが可能になります。
 
-### 在庫の検索とフィルタリング {#search}
+### 在庫の検索とフィルタリング {#search-and-filter}
 
 検索バーとフィルターを使用して、リスト内での検索を簡単にできます。 [詳細情報](../get-started/user-interface.md#list-screens)。例えば、キャンペーンスケジュールに基づいてフィルタリングできます。フィルターパネルを開き、「**開始日から終了日**」セクションを使用します。
 

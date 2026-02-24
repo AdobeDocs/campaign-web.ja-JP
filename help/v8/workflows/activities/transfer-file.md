@@ -3,7 +3,7 @@ audience: end-user
 title: ファイルを転送アクティビティの使用
 description: ファイル転送ワークフローアクティビティの使用方法について学ぶ
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: ca35e633f2b7a3a286155c4f564378ebf1f72f4f
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 97%
@@ -155,6 +155,8 @@ ht-degree: 97%
    * **[!UICONTROL リダイレクトに従う]**：ファイルのリダイレクトでは、上書きを使用して、データの入力や出力を別のタイプのデバイスに送信できます。
    * **[!UICONTROL HTTP ヘッダーをファイルに追加]**：場合によっては、ファイルに HTTP ヘッダーを追加することが必要になる場合があります。最も一般的に、これらのヘッダーは、トラブルシューティング目的、[クロスオリジンリソース共有（CORS）](https://developer.mozilla.org/docs/Web/HTTP/CORS)用の追加情報を提供するため、または特定のキャッシュディレクティブを設定するために使用されます。
    * **[!UICONTROL HTTP リターンコードを無視]**：HTTP リターンコード（HTTP ステータスコードとも呼ばれる）は、HTTP リクエストの結果を示します。
+
+   +++
 
 1. 「**[!UICONTROL エラーを処理]**」オプションでは、転送中にエラーが発生した場合、アクティビティの後に「エラー」のアウトバウンドトランジションをアクティブ化できます。
 
