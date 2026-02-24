@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 51%
+source-wordcount: '267'
+ht-degree: 55%
 
 ---
 
@@ -75,13 +75,14 @@ _2026 年 2 月 17 日_
 <table>
 <thead>
 <tr>
-<th><strong>スキーマオーサリング</strong><br/></th> 
+<th><strong>スキーマオーサリング（LA）</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Campaign web ユーザーインターフェイスから直接スキーマを作成および管理できるようになりました。 この機能を使用すると、新しいテーブルの作成、既存のスキーマの拡張、カスタムフォームの作成を行うことができます。 クライアントコンソールにアクセスする必要なく、特定のビジネスニーズをサポートするカスタムデータ構造を定義できます。</p>
+<p>メモ：この機能は一連の組織でのみ使用でき（使用制限あり）、今後のリリースでグローバルにロールアウトされます。</p>
 <p>詳しくは、<a href="../administration/schemas.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
