@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 3a5121a4dca59532e1aada49c26de6ece1a58e4b
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 3%
@@ -29,8 +29,8 @@ Adobe Experience Manager統合を使用すると、Adobe Experience Managerの�
 多言語メール配信を作成する前に、次のことを確認します。
 
 * Adobe Campaign Web インターフェイス統合用に設定されたAdobe Experience Manager インスタンスにアクセスします。
-* 言語コピーが作成済みおよび承認済みのAdobe Experience Manager コンテンツ。 言語コピーウィザードについて詳しくは、[Adobe Experience Manager ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
-* Adobe Experience Manager コンテンツを受信するように設定されたメール配信テンプレート。 [&#x200B; 多言語モードの有効化 &#x200B;](#enable-multilingual) の節で説明されている手順を参照してください。
+* 言語コピーが作成済みおよび承認済みのAdobe Experience Manager コンテンツ。 言語コピーウィザードについて詳しくは、[Adobe Experience Manager ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Adobe Experience Manager コンテンツを受信するように設定されたメール配信テンプレート。 [ 多言語モードの有効化 ](#enable-multilingual) の節で説明されている手順を参照してください。
 
 ## 多言語配信の作成
 
@@ -85,7 +85,7 @@ Adobe Experience Manager コンテンツを選択し、配信に含める言語�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. コンテンツエディターで言語のバリアントをレビューします。 これで [&#x200B; 各バリアントを個別に管理 &#x200B;](#manage-variants) するか、[&#x200B; 配信の送信 &#x200B;](../monitor/prepare-send.md) に進むことができます。
+1. コンテンツエディターで言語のバリアントをレビューします。 これで [ 各バリアントを個別に管理 ](#manage-variants) するか、[ 配信の送信 ](../monitor/prepare-send.md) に進むことができます。
 
    ![](assets/lg-copy-7.png)
 
