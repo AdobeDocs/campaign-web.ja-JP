@@ -2,10 +2,10 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
+source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 55%
+source-wordcount: '369'
+ht-degree: 42%
 
 ---
 
@@ -17,6 +17,26 @@ ht-degree: 55%
 >abstract="Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。これにより、Campaign リリースノートは月に数回更新され、最新の機能、改善点、修正が含まれます。定期的に確認することをお勧めします。"
 
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。したがって、これらのリリースノートは月に数回更新されます。定期的に確認してください。
+
+## 2026 年 3 月の更新 {#26-3-release}
+
+<table>
+<thead>
+<tr>
+<th><strong>カスタムのFirefly モデルとサードパーティの画像生成モデルの統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>標準およびカスタムのFirefly モデルを承認済みのサードパーティ画像モデルとシームレスに統合して、画像の生成時の柔軟性、コントロール、ブランドの関連付けを強化できます。</p>
+<p>ニーズに合った適切なモデルの選択：</p>
+<ul><li> 追加のセットアップを必要とせずに即座に画像を生成するための <strong>Adobe モデル </strong> （Firefly Image Model 4を活用）</li><li> <strong> パートナーモデル </strong> （Gemini 2.5 Flash 搭載）により、特殊な機能を実現</li><li><strong> カスタムモデル </strong> （独自のアセットに基づいてトレーニングされたブランド固有のモデル）を使用すると、ブランドアイデンティティ、スタイル、視覚的なガイドラインに正確に合致するオンブランド生成機能を実現できます。</li></ul>
+<p>詳しくは、<a href="../content/generative-models.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2026 年 2 月リリース {#26-2-release}
 
