@@ -3,10 +3,10 @@ audience: end-user
 title: AI アシスタントの基本を学ぶ
 description: AI アシスタントの基本を学ぶ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 3d6943c5856a2631846f773b864f52bbedff6ce1
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 96%
 
 ---
 
@@ -33,6 +33,39 @@ ht-degree: 100%
 >[ライブ機能プレビュー](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator)では、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 マーケティング業界の競争が激化する中、ブランドは、影響力のあるコンテンツを迅速に生成する効率的な方法を模索しています。Microsoft Azure OpenAI と Adobe Firefly を活用した Adobe Campaign web の AI アシスタントは、アドビの AI コンテンツ生成機能です。メール、SMS、プッシュ通知など、あらゆるチャネルで、マーケターがプロフェッショナルでブランドに即したコンテンツの作成方法を変革します。高度な 生成 AI モデルを用い、ブランドガイドラインを深く理解している AI アシスタントは、ブランドの概要を示したスタイル、レイアウト、トーンなどに合わせてコンテンツを最適化し、マーケティング目標に基づいてパーソナライズされた魅力的かつ効果的なコンテンツを自動生成します。
+
+AI アシスタントは、世代 **複数の言語** をサポートし、多様なグローバルオーディエンスにリーチして関与できるようにします。 AI アシスタントは次の言語で使用できます。
+
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+  <tbody>
+    <tr style="border: 0;background-color: #FFFFFF;">
+      <td>
+        <ul>
+          <li>中国語（香港）</li>
+          <li>中国語（簡体字）</li>
+          <li>中国語（台湾）</li>
+          <li>オランダ語</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>フランス語</li>
+          <li>ドイツ語</li>
+          <li>イタリア語</li>
+          <li>日本語</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>ノルウェー語</li>
+          <li>ポルトガル語</li>
+          <li>スペイン語</li>
+          <li>スウェーデン語</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 AI アシスタントを使用すると、メール、SMS、プッシュ通知などすべてのチャネルでのマーケティングキャンペーンの作成と実行が簡素化され、時間を節約し、効率を向上させ、より良い結果を導き出すことができます。
 
