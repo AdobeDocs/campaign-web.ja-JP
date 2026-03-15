@@ -6,7 +6,7 @@ exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
 >title="プロファイルエンリッチメント"
->abstract="Campaign データベースフィールドをコンテンツにリンクして、トランザクションメッセージをパーソナライズできるようになりました。 正確なリアルタイムパーソナライゼーションを実現するには、ターゲットマッピング、エンリッチメント列および紐付けキーを選択します。"
+>abstract="Campaign データベースフィールドをコンテンツにリンクさせて、トランザクションメッセージをパーソナライズできるようになりました。正確なリアルタイムのパーソナライゼーションを実現するには、ターゲットマッピング、エンリッチメント列および紐付けキーを選択します。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 この機能では、Adobe Campaign データベースフィールドをメッセージのコンテンツにリンクすることによって、トランザクションメッセージをパーソナライズできます。 ターゲットマッピング、エンリッチメント列および紐付けキーを選択して、パフォーマンスのしきい値を維持しながら、正確でリアルタイムのパーソナライゼーションを行うことができます。
