@@ -3,10 +3,10 @@ audience: end-user
 title: 分岐ワークフローアクティビティの使用
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 91%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 >abstract="デフォルトでは、**分岐**&#x200B;アクティビティで 2 つのトランジションが作成されます。「**トランジションを追加**」ボタンをクリックして追加のアウトバウンドトランジションを定義し、そのラベルを入力します。"
 
 **分岐**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。
+
+**分岐を追加** （**+**） ツールバーボタンを使用して、別の分岐を作成することもできます。 [ アクティビティの調整](../orchestrate-activities.md#toolbar)を参照してください。
 
 ## 分岐アクティビティの設定 {#fork-configuration}
 
