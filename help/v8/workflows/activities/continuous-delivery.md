@@ -20,7 +20,7 @@ ht-degree: 17%
 
 1. ワークフローキャンバスに&#x200B;**継続配信** アクティビティを追加します。
 
-   継続配信アクティビティを示す![ スクリーンショット ](../assets/continuous-delivery.png){zoomable="yes"}
+   継続配信アクティビティを示す![&#x200B; スクリーンショット &#x200B;](../assets/continuous-delivery.png){zoomable="yes"}
 
 1. アクティビティのカスタム **[!UICONTROL Label]**&#x200B;を入力します（オプション）。 デフォルトでは、「継続配信」というラベルが付けられます。
 
