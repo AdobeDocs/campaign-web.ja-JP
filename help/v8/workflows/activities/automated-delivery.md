@@ -3,7 +3,7 @@ audience: end-user
 title: 配信ワークフローの自動処理
 description: 自動配信ワークフローアクティビティの使用方法を説明します
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 5%
@@ -26,7 +26,8 @@ ht-degree: 5%
 **自動配信** アクティビティを使用すると、ワークフロー内で直接配信アクションを作成、設定、実行できます。 スケジュール上または自動フローの一部として定義済みの配信を実行する場合、またはアクティビティが実行されるたびにテンプレートから新しい配信を生成する場合に使用します。
 
 <!--
-**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. -->
+**[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. 
+-->
 
 このアクティビティを設定するには、次の手順に従います。
 
@@ -39,7 +40,7 @@ ht-degree: 5%
 
 アクティビティを設定する際に、配信の送信元を選択します。 このセクションでは、次の2つのオプションを使用できます。
 
-自動配信を示す![&#x200B; スクリーンショット &#x200B;](../assets/automated-delivery.png){zoomable="yes"}
+自動配信を示す![ スクリーンショット ](../assets/automated-delivery.png){zoomable="yes"}
 
 * スタンドアロン配信やキャンペーンから作成された配信など、既存の配信を操作する場合は、**明示的な配信**&#x200B;を選択します。 「**配信を選択**」ボタンを使用して配信を選択します。 ワークフローが実行され、このアクティビティに到達するたびに、**同じ**&#x200B;の配信に作用します。 実行ごとに新しい配信は作成されません。 アクティビティは、同じ配信を再利用します。 これは、スケジュールや承認ステップの後など、繰り返し準備または送信する配信が1つしかない場合に便利です。
 
@@ -57,7 +58,7 @@ ht-degree: 5%
 
 このセクションでは、アクティビティで配信に対して行う処理を選択します。 次のオプションを使用できます。
 
-自動配信で実行するアクションを示す![&#x200B; スクリーンショット &#x200B;](../assets/automated-delivery2.png){zoomable="yes"}
+自動配信で実行するアクションを示す![ スクリーンショット ](../assets/automated-delivery2.png){zoomable="yes"}
 
 * **保存**：分析または送信せずに配信を作成および保存します。
 * **ターゲットの見積もり**：配信ターゲットを計算して、その可能性を評価します（最初の分析フェーズ）。
@@ -69,7 +70,7 @@ ht-degree: 5%
 
 このセクションでは、アクティビティの後にトランジションを生成するかどうかを選択できます。 次のオプションを使用できます。
 
-自動配信のトランジションを示す![&#x200B; スクリーンショット &#x200B;](../assets/automated-delivery3.png){zoomable="yes"}
+自動配信のトランジションを示す![ スクリーンショット ](../assets/automated-delivery3.png){zoomable="yes"}
 
 * **アウトバウンドトランジションを生成**: アクティビティの完了時にアウトバウンドトランジションを生成します。
 * **遷移ラベル**: キャンバスの遷移に表示されるラベルをカスタマイズできます。

@@ -5,8 +5,8 @@ badge: label="ベータ版"
 hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: c29259234059270d01af4ae1d0cb813e777eb826
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -21,7 +21,8 @@ Q&amp;A AI を活用したコンテキストヘルプを製品のコンテキス
 Campaign 生成 AI の機能を活用したこのコンポーネントは、ユーザーのエクスペリエンスを向上させ、情報の取得と問題解決を簡素化します。複雑なタスクでガイダンスを求めている場合でも、膨大なドキュメントから必要な情報を探している場合でも、AI を活用したコンテキストヘルプは究極のコンパニオンとして、あらゆるインタラクションにおいて比類のない効率性と正確さを提供します。
 
 <!--
-[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)-->
+[Animation showing AI-powered contextual help in action](assets/do-not-localize/CH+AI-BETA.gif)
+-->
 
 >[!AVAILABILITY]
 >
@@ -42,7 +43,7 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/jp/ai.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/ai.html){target="_blank"}.
 -->
 
 ## 推奨される質問 {#questions-ai}

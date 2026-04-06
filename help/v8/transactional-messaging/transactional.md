@@ -3,8 +3,8 @@ audience: end-user
 title: トランザクションメッセージ
 description: Adobe Campaign web を使用したトランザクションメッセージについて
 exl-id: 90830dca-acff-4aa3-a88b-1005e349cf52
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 
@@ -17,10 +17,12 @@ ht-degree: 100%
 >title="トランザクションメッセージ"
 >abstract="トランザクションメッセージは、トリガーされたメッセージの処理を目的に設計された Adobe Campaign の特殊なモジュールです。"
 
-<!-- >>[!CONTEXTUALHELP]
+<!--
+>[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactional messaging exclusion logs"
->abstract="Transactional messaging exclusion logs" -->
+>abstract="Transactional messaging exclusion logs" 
+-->
 
 トランザクションメッセージは、トリガーされたメッセージの処理を目的に設計された Adobe Campaign の特殊なモジュールです。これらのメッセージは、情報システムから発生するイベントに応答して自動的に生成されます。このようなイベントの一般的な例としては、ボタンやリンクのクリック、買い物かごの放棄、製品の在庫アラートのリクエスト、アカウントの作成や変更があります。
 

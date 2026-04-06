@@ -3,8 +3,8 @@ audience: end-user
 title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 100%
 
@@ -524,11 +524,13 @@ ht-degree: 100%
    <td> 値 1 = 値 2 の場合は値 3 を返します。そうでない場合は値 4 を返します<br /> </td> 
    <td> Decode(&lt;値 1&gt;, &lt;値 2&gt;, &lt;値 3&gt;, &lt;値 4&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
+  <!--
+<tr> 
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> -->
+  </tr> 
+-->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> 値 1 を返します（case 関数のパラメーターとしてのみ使用できます）<br /> </td> 

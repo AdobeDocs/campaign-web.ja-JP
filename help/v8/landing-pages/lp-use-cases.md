@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: a9ce4fd103c4af8f47ba887031e8d6d53e8d5f0b
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 100%
@@ -137,7 +137,8 @@ ht-degree: 100%
 
    ![購読チェックボックスインターフェイスを示すスクリーンショット。](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
-1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
+1. You can add an additional checkbox to offer subscription to your newsletter for example.
+-->
 
 1. 必要に応じて、コンテンツを調整し、変更を保存します。
 

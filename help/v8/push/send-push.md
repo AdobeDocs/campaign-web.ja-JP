@@ -3,8 +3,8 @@ audience: end-user
 title: プッシュ通知配信を送信
 description: Adobe Campaign Web でプッシュ通知配信を送信する方法を学ぶ
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 
@@ -24,8 +24,10 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL サブスクライバーを追加]**」をクリックし、1 つまたは複数のプロファイルを選択して、プッシュ通知コンテンツ内のデータをプレビューします。
 
-   <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png){zoomable="yes"}-->
+   <!--
+    Once your test subscribers are selected, click **[!UICONTROL Select]**.
+    ![](assets/push_send_5.png){zoomable="yes"}
+    -->
 
 1. 右側のパネルにはプッシュ通知のプレビューが表示され、パーソナライズされた要素が選択したプロファイルのデータに動的に置き換えられます。
 

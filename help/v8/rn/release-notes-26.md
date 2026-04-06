@@ -2,7 +2,7 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2026 Campaign web ユーザーインターフェイスリリース
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 22%
@@ -11,7 +11,7 @@ ht-degree: 22%
 
 # 2026 リリースノート {#2026-release}
 
-このページには、**2026 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートは、[このページ &#x200B;](release-notes.md)で入手できます。
+このページには、**2026 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。最新のリリースノートは、[このページ ](release-notes.md)で入手できます。
 
 ## 26/2月リリース {#26-2-release}
 
@@ -19,7 +19,8 @@ _2026年2月17日_
 
 ### 新機能 {#26-2-features}
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Delivery scheduling compute process</strong><br/></th> 
@@ -33,9 +34,11 @@ _2026年2月17日_
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
@@ -49,7 +52,8 @@ _2026年2月17日_
 </td>
 </tr>
 </tbody>
-</table-->
+</table
+-->
 
 <table>
 <thead>
@@ -89,7 +93,8 @@ _2026年2月17日_
 ### Improvement {#26-2-improvements}
 
 * Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)-->
+[Learn more](../content/brands-personalize.md)
+-->
 
 ## 26年1月リリース {#26-1-release}
 

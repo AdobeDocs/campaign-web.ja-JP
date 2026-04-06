@@ -7,8 +7,8 @@ role: User
 level: Intermediate
 keywords: CSS, エディター, 概要, メール
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: 8f8c1645952c6a7f73c083573e18d2b04e9d9ac7
-workflow-type: ht
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -229,7 +229,8 @@ E メールデザイナーにインポートしたコンテンツでカスタム
 * 「**[!UICONTROL カスタム CSS を追加]**」オプションを通じて適用された CSS を含む、E メールデザイナーで作成したコンテンツをインポートする場合、以前に適用された CSS は同じオプションから表示および編集できます。
 
 <!--
-* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.-->
+* If importing content created with the Email Designer with CSS applied externally, the CSS code previously applied cannot be accessed within the **[!UICONTROL Add custom CSS]** pop-up window, but you can still override it with new custom CSS.
+-->
 
 ## トラブルシューティング {#troubleshooting}
 

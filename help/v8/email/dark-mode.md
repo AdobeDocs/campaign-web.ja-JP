@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 keywords: ダークモード, メール, カラー, エディター
 exl-id: 0f1bbaf9-d648-4625-94fa-2e0c240d7264
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 100%
@@ -148,7 +148,8 @@ E メールデザイナーでダークモードにアクセスし、デフォル
 <!--
 >[!WARNING]
 >
->Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.-->
+>Not all email clients support dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.
+-->
 
 E メールデザイナーのカスタムダークモードのスタイル設定を活用するには、Journey Optimizer では<!-- `@media (prefers-color-scheme: dark)` method--> `@media (prefers-color-scheme: dark)` CSS クエリを使用します。このクエリでは、ユーザーのメールクライアントがダークモードに設定されているかどうかを検出し、メールで定義したダークテーマのデザインが適用されます。
 
@@ -204,15 +205,19 @@ E メールデザイナーのカスタムダークモードのスタイル設定
 
 * 重要なコンテンツについては、背景色にのみ依存することは回避します。一部のクライアントでは、ダークモードで背景色を上書きすることがあるので、重要な情報が表示されていることを確認します。
 
-<!--**Inline critical styles**
+<!--
+**Inline critical styles**
 
-Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.-->
+Inline CSS helps maintain more control over styling, as some clients strip external styles in dark mode.
+-->
 
 **ダークモードでのアクセス可能なコンテンツのデザイン**
 
-<!--KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
+<!--
+KEEP dark mode accessibility best practices IN ONE SINGLE LOCATION - for now listed on this page.
 If needed, it can be moved to the Design accessible content page:
-The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).-->
+The best practices for designing accesible content in dark mode are listed in [this section](accessible-content.md#dark-mode).
+-->
 
 * 色覚異常のある人物でも簡単に区別できる色の組み合わせを使用します。
 
