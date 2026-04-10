@@ -2,9 +2,8 @@
 title: カスタムフィールド
 description: インターフェイスでカスタムフィールドとその表示を設定する方法について説明します。
 hide: true
-hidefromtoc: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+source-git-commit: 464be736082dfd895954388d879a9244d06824c9
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 99%
@@ -126,7 +125,7 @@ ht-degree: 99%
 
   以下の例では、条件は @ref フィールドの値が @refCom フィールドに入力された値と一致するかどうかを確認します。一方、`$(@refCom)` の代わりに `@refCom` を使用すると、データベースに存在する @ref フィールドの値が参照されます。
 
-  +++例を表示
+  +++事例を見る
 
   ![カスタムフィールドのフィルター設定の例を示すスクリーンショット](assets/custom-fields-ref.png)
 
