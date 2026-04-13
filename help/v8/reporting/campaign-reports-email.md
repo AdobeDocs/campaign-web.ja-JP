@@ -291,7 +291,7 @@ ht-degree: 99%
 
 ![ユーザーアクティビティレポートのスクリーンショット](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++メール配信レポート指標の詳細を説明します。
++++メール配信レポート指標の詳細。
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 

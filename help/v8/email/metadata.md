@@ -4,7 +4,7 @@ title: メールコンテンツへのメタデータの追加
 description: メタデータを使用して、メールコンテンツの読みやすさとアクセシビリティを向上させる方法について説明します
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 

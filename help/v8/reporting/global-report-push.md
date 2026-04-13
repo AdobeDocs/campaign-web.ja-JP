@@ -29,7 +29,7 @@ ht-degree: 97%
 
 ![プッシュ通知のパフォーマンスに関連する KPI を示す配信の概要指標。](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++配信の概要指標について説明します。
++++配信の概要指標について詳しく見る。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 
 ![プッシュ通知の受信者および除外に関連するデータを示すターゲットオーディエンス指標。](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
-+++ターゲットオーディエンス指標の詳細情報。
++++ターゲットオーディエンス指標の詳細。
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -73,7 +73,7 @@ ht-degree: 97%
 
 ![プッシュ通知の成功率、エラー、強制隔離を示す配信統計指標。](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++配信統計指標の詳細を説明します。
++++配信の統計指標について詳しく見る。
 
 * **[!UICONTROL メッセージの合計数]**：配信準備の後に配信されるメッセージの合計数。
 

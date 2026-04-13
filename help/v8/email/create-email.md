@@ -3,10 +3,10 @@ audience: end-user
 title: 最初のメールを送信
 description: Campaign web UI で最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: d69042d4d968325d9d7d3e58f02d804cf435f8f6
+source-git-commit: 2f7f29f1c6e137c9a8b75c4f24c12526843ddd9f
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 97%
+source-wordcount: '1648'
+ht-degree: 98%
 
 ---
 
@@ -173,10 +173,7 @@ ht-degree: 97%
 
    ![選択したプロファイルに基づくメールのプレビューを示すスクリーンショット](assets/preview.png){zoomable="yes"}
 
-   <!--
-さらに、「**[!UICONTROL メールをレンダリング]**」ボタンを使用すると、複数のデバイスまたはメールプロバイダーを使用してメールをプレビューできます。 メールのレンダリングをプレビューする方法について説明します
-
-—>
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using multiple devices or mail providers. Learn on how to preview email rendering-->
 
 1. 本配信前確認を送信するには、「**[!UICONTROL 本配信前確認を送信]**」ボタンをクリックして、使用するモードを選択します。
 

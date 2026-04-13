@@ -3,7 +3,7 @@ title: ターゲットマッピングの管理
 description: ターゲットマッピングの管理方法について説明します。
 exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
