@@ -112,4 +112,4 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 メールデザイナーの操作方法について説明します。メールをゼロから構造化して設計する方法と、メールをパーソナライズしてテストする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453563/?captions=jpn&quality=12)
