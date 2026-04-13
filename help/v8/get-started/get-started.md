@@ -49,7 +49,7 @@ Campaign を使用すると、次のことを行えます。
 
 Adobe Campaign Web に接続する方法については、[このページ](connect-to-campaign.md)を参照してください。
 
-➡️ [ ビデオでのCampaign Webの検索](#video)
+➡️ [&#x200B; ビデオでのCampaign Webの検索](#video)
 
 ## Campaign クライアントコンソールについて {#ac-client}
 
