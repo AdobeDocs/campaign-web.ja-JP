@@ -28,7 +28,7 @@ ht-degree: 0%
 - Gemini 2.5 Flashを搭載した&#x200B;**[!UICONTROL パートナーモデル]**&#x200B;は、特定のユースケースに特化した機能を提供します。
 - **[!UICONTROL カスタムモデル]**&#x200B;は、自社のアセットでトレーニングし、自社が追加したブランド固有のモデルです。
 
-  **[!UICONTROL カスタムモデル]**&#x200B;の詳細については、[Adobe Firefly ドキュメント &#x200B;](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)を参照してください
+  **[!UICONTROL カスタムモデル]**&#x200B;の詳細については、[Adobe Firefly ドキュメント ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)を参照してください
 
 一度設定すれば、コンテンツに画像を作成する際に、任意の生成モデルを選択できます。 [画像の生成に関する詳細情報](generative-image.md)。
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 カスタムのFireflyモデルプロバイダーを作成することで、AI能力をデフォルトモデル以上に向上させ、ブランド独自のデザインと要件を一貫して反映したコンテンツを生成できます。
 
-➡️ [&#x200B; カスタムモデルのトレーニング方法を学ぶ](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [ カスタムモデルのトレーニング方法を学ぶ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. **[!UICONTROL ブランド]** メニューから、**[!UICONTROL 生成モデル]** タブにアクセスし、**[!UICONTROL モデルを追加]**&#x200B;をクリックします。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL モデル ID]**&#x200B;を入力します。
 
-   Firefly モデル IDを見つけるには、Firefly web サイトにアクセスし、トレーニング済みモデルに移動します。 一意のIDは、公開後にモデルの管理セクションで使用できます。 詳しくは、[Firefly カスタムモデルのドキュメント &#x200B;](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)を参照してください。
+   Firefly モデル IDを見つけるには、Firefly web サイトにアクセスし、トレーニング済みモデルに移動します。 一意のIDは、公開後にモデルの管理セクションで使用できます。 詳しくは、[Firefly カスタムモデルのドキュメント ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)を参照してください。
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 

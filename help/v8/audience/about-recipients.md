@@ -46,4 +46,4 @@ ht-degree: 100%
 
 Campaign web ユーザーインターフェイスを使用してプロファイルにアクセス、管理および探索する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448365?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
