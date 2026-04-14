@@ -1,19 +1,19 @@
 ---
 audience: end-user
 title: Adobe Campaign Web でのメッセージと配信の基本を学ぶ
-description: Campaign Web での配信の操作方法とメッセージの送信方法を学ぶ
+description: Adobe Campaign Web ユーザーインターフェイスを使用した配信の操作方法とメッセージの送信方法について説明します
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
-source-wordcount: '163'
-ht-degree: 100%
+source-git-commit: c0e5809611c81684ba951b1f1fc8723e809a9573
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 75%
 
 ---
 
 
 # メッセージの基本を学ぶ{#gs-messages}
 
-Adobe Campaign を使用すると、メール、SMS、プッシュ通知などのクロスチャネルキャンペーンを送信し、各種の専用レポートを使用してキャンペーンの影響を評価できます。
+Adobe Campaignでは、電子メール、SMS、プッシュ通知、[WhatsApp](../whatsapp/get-started-whatsapp.md)、ダイレクトメールなどのクロスチャネルキャンペーンを送信し、さまざまな専用レポートを使用してその影響を測定することができます。
 
 これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズできます。これらの配信は、スタンドアロンで行うことも、マーケティングキャンペーンのコンテキストでワークフローに含めることもできます。Adobe Campaign で配信を作成および管理する方法について詳しくは、[この節](gs-deliveries.md)を参照してください。
 
