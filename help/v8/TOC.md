@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '1027'
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 95%
 + [Adobe Campaign web ユーザーインターフェイスドキュメント](campaign-web-home.md)
 + リリースノート {#release-notes}
    + [新機能](rn/whats-new.md)
-   + {hide-from-toc}[早期リリース &#x200B;](rn/e-release-notes.md)
+   + {hide-from-toc}[早期リリース](rn/e-release-notes.md)
    + [最新リリース](rn/release-notes.md)
    + 以前のリリース {#previous-release-notes}
       + [2026 リリース](rn/release-notes-26.md)
       + [2025 リリース](rn/release-notes-25.md)
       + [2024 リリース](rn/release-notes-24.md)
-   + {hide-from-toc}[&#x200B; ドキュメントの更新](rn/documentation-updates.md)
+   + {hide-from-toc}[ドキュメントの更新](rn/documentation-updates.md)
 + Adobe Campaign の概要 {#start}
    + [はじめに](get-started/get-started.md)
    + [Campaign への接続](get-started/connect-to-campaign.md)
@@ -36,7 +36,7 @@ ht-degree: 95%
    + [権限](get-started/permissions.md)
    + [Campaign web およびクライアントコンソール](get-started/capability-matrix.md)
    + [Campaign Standard から v8 へ](rn/acs-migration.md)
-   + {hide-from-toc}[AIを活用したコンテキストに関するヘルプ &#x200B;](get-started/using-ai.md)
+   + {hide-from-toc}[AI を活用したコンテキストヘルプ](get-started/using-ai.md)
    + [FAQ](get-started/faq.md)
 + メッセージと配信 {#msg}
    + [メッセージの基本を学ぶ](msg/gs-messages.md)
@@ -73,8 +73,8 @@ ht-degree: 95%
    + コールセンター {#call-center}
       + [コールセンター配信の基本を学ぶ](call-center/gs-call-center.md)
       + [コールセンター配信の作成と送信](call-center/create-call-center.md)
-   + {hide-from-toc}[WhatsAppの基本を学ぶ](whatsapp/get-started-whatsapp.md)
-   + {hide-from-toc}[WhatsApp配信の作成](whatsapp/create-whatsapp.md)
+   + {hide-from-toc}[WhatsApp の基本を学ぶ](whatsapp/get-started-whatsapp.md)
+   + {hide-from-toc}[WhatsApp の配信の作成](whatsapp/create-whatsapp.md)
    + [カスタムチャネル](call-center/gs-custom-channel.md)
    + トランザクションメッセージ {#transactional-messages}
       + [トランザクションメッセージの基本を学ぶ](transactional-messaging/transactional.md)
@@ -221,7 +221,7 @@ ht-degree: 95%
    + [クエリモデラーの操作](query/query-modeler-overview.md)
    + [最初のクエリの作成](query/build-query.md)
    + [式の編集](query/expression-editor.md)
-   + {hide-from-toc}[&#x200B; サンプルのクエリ &#x200B;](query/query-samples.md)
+   + {hide-from-toc}[クエリサンプル](query/query-samples.md)
    + [フィルターリスト](query/filter.md)
 + レポート {#reports}
    + [監査記録](reporting/audit-trail.md)
@@ -251,7 +251,7 @@ ht-degree: 95%
       + [動的レポートの基本を学ぶ](reporting/dynamic-reporting/get-started-reporting.md)
       + レポートについて {#about-reporting}
          + [動的レポートについて](reporting/dynamic-reporting/about-dynamic-reports.md)
-         + [レポートインターフェイス](reporting/dynamic-reporting/reporting-interface.md)
+         + [レポートのインターフェイス](reporting/dynamic-reporting/reporting-interface.md)
          + [コンポーネントのリスト](reporting/dynamic-reporting/list-of-components.md)
          + [指標の計算](reporting/dynamic-reporting/indicator-calculation.md)
          + [トラブルシューティング](reporting/dynamic-reporting/troubleshooting.md)
@@ -277,7 +277,7 @@ ht-degree: 95%
    + [他のアドビソリューションの操作](integrations/integration.md)
    + [Adobe Experience Manager Assets as a Cloud Service でのアセットの管理](integrations/aem-assets.md)
    + [Adobe Experience Manager as a Cloud Service でのテンプレートの管理](integrations/aem-content.md)
-   + [Adobe Experience Managerで言語コピーを管理する](integrations/aem-multilingual.md)
+   + [Adobe Experience Manager での言語コピーの管理](integrations/aem-multilingual.md)
    + [GenStudio for Performance Marketing の操作](integrations/genstudio.md)
 + 設定 {#conf}
    + ブランディング {#branding}
@@ -288,14 +288,14 @@ ht-degree: 95%
    + [ターゲットマッピングの管理](administration/target-mappings.md)
    + スキーマの操作 {#schemas}
       + [スキーマについて](administration/schemas.md)
-      + [スキーマへのアクセスと設定](administration/schemas-browse-access.md)
-      + [リスト列の設定](administration/schemas-list-columns.md)
+      + [アクセスと設定のスキーマ](administration/schemas-browse-access.md)
+      + [リストの列の設定](administration/schemas-list-columns.md)
       + [カスタムフィールドの編集](administration/schemas-custom-fields.md)
       + [コレクションリストの追加](administration/schemas-collection-lists.md)
       + [スキーマの作成と公開](administration/schemas-create-publish.md)
       + [カスタムフォームの操作](administration/schemas-custom-forms.md)
-   + {hide-from-toc}[&#x200B; カスタムフィールドの設定](administration/custom-fields.md)
-   + [&#x200B; [!DNL Campaign]  オプションの設定](administration/options.md)
+   + {hide-from-toc}[カスタムフィールドの設定](administration/custom-fields.md)
+   + [ [!DNL Campaign]  オプションの設定](administration/options.md)
    + [タイムゾーン管理](administration/timezone-management.md)
    + 外部アカウント {#external-accounts}
       + [外部アカウントの作成](administration/create-external-account.md)
