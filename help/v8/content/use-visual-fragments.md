@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->この機能を使用するには、Campaign v8.6.4へのアップデートが必要です。 詳しくは、[Campaign v8 クライアントコンソールのリリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
+>この機能を使用するには、Campaign v8.6.4へのアップデートが必要です。 詳しくは、[Campaign v8 クライアントコンソールのリリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
 
 Campaign web インターフェイスでは、**ビジュアルフラグメント**&#x200B;は、複数の[メール配信](../email/get-started-email-designer.md)や[コンテンツテンプレート](../content/use-email-templates.md)で再利用できる、定義済みのビジュアルブロックです。 コンテンツフラグメントの作成と管理の方法について詳しくは、[この節](fragments.md)を参照してください。
 

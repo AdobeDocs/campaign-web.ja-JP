@@ -25,7 +25,7 @@ Adobe Campaign Webを活用すれば、電子メールやSMS、WhatsApp、ダイ
 >* [スタンドアロン SMS 配信を作成](../../sms/create-sms.md)
 >* [スタンドアロンプッシュ配信を作成](../../push/create-push.md)
 >* [スタンドアロンダイレクトメール配信を作成](../../direct-mail/create-direct-mail.md)
->* [ スタンドアロン WhatsApp配信の作成](../../whatsapp/create-whatsapp.md)
+>* [&#x200B; スタンドアロン WhatsApp配信の作成](../../whatsapp/create-whatsapp.md)
 
 ## 前提条件 {#channel-activity-prereq}
 

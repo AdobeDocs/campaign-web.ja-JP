@@ -56,7 +56,7 @@ ht-degree: 98%
 
    >[!AVAILABILITY]
    >
-   >ビジュアルフラグメントには、Campaign v8.6.4へのアップデートが必要です。 詳しくは、[Campaign v8 クライアントコンソールのリリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
+   >ビジュアルフラグメントには、Campaign v8.6.4へのアップデートが必要です。 詳しくは、[Campaign v8 クライアントコンソールのリリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
 
 1. 「**作成**」ボタンをクリックします。
 

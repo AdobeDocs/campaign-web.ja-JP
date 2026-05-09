@@ -34,7 +34,7 @@ ht-degree: 95%
 
   >[!AVAILABILITY]
   >
-  >この機能を使用するには、Campaign v8.6.4へのアップデートが必要です。 詳しくは、[Campaign v8 クライアントコンソールのリリースノート ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
+  >この機能を使用するには、Campaign v8.6.4へのアップデートが必要です。 詳しくは、[Campaign v8 クライアントコンソールのリリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
 
 ## さらに深く掘り下げましょう
 
