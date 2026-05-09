@@ -2,10 +2,10 @@
 title: スキーマについて
 description: スキーマの操作方法について説明します。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 56%
+ht-degree: 64%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 56%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
 >title="スキーマのオーサリング"
->abstract="Campaign Web ユーザーインターフェイスから直接スキーマを作成および管理できるようになりました。 新しいテーブルを作成したり、既存のスキーマを拡張したり、カスタムフォームを作成したりできます。"
+>abstract="Campaign web ユーザーインターフェイスから直接スキーマを作成および管理できるようになりました。 新しいテーブルの作成、既存のスキーマの拡張、カスタムフォームの作成ができます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]

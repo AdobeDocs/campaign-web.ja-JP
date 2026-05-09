@@ -6,9 +6,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 61e6dcf13fc6a405f5e25328bf336e863701b2fe
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 100%
 
 ## GenStudio の基本を学ぶ {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} は、マーケティングチームが独自の広告やメールを作成して、ブランド標準を遵守し、企業ポリシーに準拠した、効果的でパーソナライズされたマーケティングキャンペーンを推進できるようにする生成 AI ファーストのアプリケーションです。Adobe AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを簡素化し、クリエイターがイノベーションに焦点を当てることができるようにする包括的なツールスイートを提供します。
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} は、マーケティングチームが独自の広告やメールを作成して、ブランド標準を遵守し、企業ポリシーに準拠した、効果的でパーソナライズされたマーケティングキャンペーンを推進できるようにする生成 AI ファーストのアプリケーションです。 Adobe AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを簡素化し、クリエイターがイノベーションに焦点を当てることができるようにする包括的なツールスイートを提供します。
 
 >[!AVAILABILITY]
 >
 >この機能は、メールチャネルでのみ使用できます。
 
-マーケティング効率を高め、ブランドの一貫性を維持するために、[!DNL **GenStudio for Performance Marketing**] エクスペリエンスを [!DNL **Adobe Campaign**] とシームレスに統合できます。これにより、[!DNL Adobe Campaign] の高度なオーケストレーション機能と共に、[!DNL GenStudio] の AI を活用したコンテンツ作成を活用できます。
+マーケティング効率を高め、ブランドの一貫性を維持するために、[!DNL **GenStudio for Performance Marketing**] エクスペリエンスを [!DNL **Adobe Campaign**] とシームレスに統合できます。 これにより、[!DNL Adobe Campaign] の高度なオーケストレーション機能とともに、[!DNL GenStudio] の AI を活用したコンテンツ制作をご利用いただけます。
 
 >[!INFO]
 >
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 まず、ブランドのガイドラインを含む [!DNL Adobe Campaign] HTML テンプレートを [!DNL GenStudio for Performance Marketing] にエクスポートできます。 以下の手順に従います。
 
-1. [!DNL Adobe Campaign] で、メールのコンテンツにアクセスします。[詳細情報](../email/create-email.md#create-content)
+1. [!DNL Adobe Campaign] で、メールのコンテンツにアクセスします。 [詳細情報](../email/create-email.md#create-content)
 
 1. E メールデザイナーで、「**[!UICONTROL 詳細]**」ボタンから「**[!UICONTROL HTML をエクスポート]**」を選択します。
 
@@ -70,13 +70,13 @@ ht-degree: 100%
 
 1. [!DNL Adobe Campaign] で、[メール配信を作成します](../email/create-email.md)。
 
-1. メール配信ダッシュボードで、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。[詳細情報](../email/create-email.md#create-content)
+1. メール配信ダッシュボードで、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。 [詳細情報](../email/create-email.md#create-content)
 
 1. E メールデザイナーのホームページで、「**[!UICONTROL HTML をインポート]**」を選択し、「**[!UICONTROL Adobe GenStudio for Performance Marketing]**」ボタンをクリックします。
 
    ![](assets/genstudio-pem-import-email.png){zoomable="yes"}
 
-1. GenStudio エクスペリエンスを参照して、コンテンツの作成を開始します。製品、ペルソナ、ブランド、色など、複数の条件でエクスペリエンスをフィルタリングできます。
+1. GenStudio エクスペリエンスを参照して、コンテンツの作成を開始します。 製品、ペルソナ、ブランド、色など、複数の条件でエクスペリエンスをフィルタリングできます。
 
    <!--![](assets/genstudio-filter-experiences.png){zoomable="yes"}-->
 
@@ -94,9 +94,9 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >[ [!DNL Adobe Campaign]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、E メールデザイナーに直接インポートされます。[!DNL Adobe Campaign] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換性モード](../email/existing-content.md)にインポートされます。
+   >[ [!DNL Adobe Campaign]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、E メールデザイナーに直接インポートされます。 [!DNL Adobe Campaign] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換性モード](../email/existing-content.md)にインポートされます。
 
-   [メールコンテンツ編集ツール](../email/create-email-content.md)と[パーソナライゼーションフィールド](../personalization/personalize.md)を使用して、必要に応じてメールを編集します。コンテンツを保存します。
+   [メールコンテンツ編集ツール](../email/create-email-content.md)と[パーソナライゼーションフィールド](../personalization/personalize.md)を使用して、必要に応じてメールを編集します。 コンテンツを保存します。
 
 <!--Detail a use case with A/B testing to import other GenStudio variations and track how your tratments are performing.-->
 

@@ -3,10 +3,10 @@ audience: end-user
 title: 配信ワークフローの自動処理
 description: 自動配信ワークフローアクティビティの使用方法を説明します
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 5%
+source-wordcount: '643'
+ht-degree: 13%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn4"
->title="配信アクティビティの自動化"
->abstract="自動配信ワークフローアクティビティがワークフローパレットで使用できるようになりました。 ワークフロー内で配信アクション（準備、プルーフの送信、準備、開始など）を直接作成または実行するために使用できます。"
+>title="自動配信アクティビティ"
+>abstract="自動配信ワークフローアクティビティがワークフローパレットで使用できるようになりました。 配信アクションの作成または実行（準備、配達確認の送信、準備と開始など）に使用できます。 ワークフローに直接組み込むことができます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
->title="配信アクティビティの自動化"
+>title="自動配信アクティビティ"
 >abstract="**自動配信** アクティビティは、自動化に使用されます。ワークフローで配信を作成または再利用してから、実行するアクション（準備、準備、開始、プルーフの送信など）を選択します。 ワークフローの外部で作成された既存の明示的な配信を選択するか、アクティビティが実行されるたびにテンプレートから新しい配信を作成できます。"
 
 **自動配信** アクティビティを使用すると、ワークフロー内で直接配信アクションを作成、設定、実行できます。 スケジュール上または自動フローの一部として定義済みの配信を実行する場合、またはアクティビティが実行されるたびにテンプレートから新しい配信を生成する場合に使用します。

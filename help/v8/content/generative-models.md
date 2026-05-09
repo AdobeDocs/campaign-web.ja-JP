@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 0%
+source-wordcount: '560'
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="画像生成モデルの統合"
->abstract="標準Fireflyモデルとカスタム Adobe Target モデルを、承認済みのサードパーティ画像モデルとシームレスに統合することで、画像を生成する際の柔軟性、コントロール、ブランドの整合性を向上できます。"
+>abstract="標準およびカスタムの Firefly モデルと承認済みのサードパーティ画像モデルとのシームレスな統合によって、画像を生成する際の柔軟性、コントロール、ブランドの整合性を高めます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 組み込みモデル、カスタム Firefly モデル、サードパーティの画像生成プロバイダーなど、AI画像作成機能を拡張して、特定のニーズに対応し、ブランドの整合性を向上させることができます。

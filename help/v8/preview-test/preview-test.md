@@ -3,9 +3,9 @@ audience: end-user
 title: 配信のプレビューとテストについて
 description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 2906239bb1f13496da3777a27675de8a50f259f0
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '229'
 ht-degree: 93%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 93%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html?lang=ja" text="配達確認の送信"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=ja#test-landing-page" text="ランディングページのテスト"
 
-配信コンテンツを定義したら、メッセージを送信する前に、プロファイルとテストプロファイルを使用してプレビューとテストを行うことができます。この手順により、コンテンツとパーソナライゼーションの設定の両方の正確性が確保され、エラーが排除されます。
+配信コンテンツを定義したら、メッセージを送信する前に、プロファイルとテストプロファイルを使用してプレビューとテストを行うことができます。 この手順により、コンテンツとパーソナライゼーションの設定の両方の正確性が確保され、エラーが排除されます。
 
 [!DNL Adobe Campaign Web user interface] では、次の操作を実行できます。
 

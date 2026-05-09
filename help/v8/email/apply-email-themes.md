@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メールテーマ，モジュール，再利用性，ブランドの一貫性，メールデザイン，カスタム CSS, モバイル最適化
 exl-id: c9e02bca-032d-4771-ad53-5bbebabc4c5d
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 2%
+source-wordcount: '2077'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
->title="メールDesigner（LA）のテーマ"
+>title="E メールデザイナー（LA）のテーマ"
 >abstract="再利用可能なテーマのスタイルと変数を適用して、メールコンテンツとブランドの一貫性を維持できます。 この機能は、一連の組織でのみ使用できます（制限付き可用性）"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
@@ -231,7 +231,7 @@ ht-degree: 2%
 
    >[!CAUTION]
    >
-   >メールコンテンツでフラグメントを使用する場合は、このフラグメントに定義したテーマ [を](#apply-themes-email)適用してください。 そうしないと、特にOutlook 2021以前のバージョンで、表示の問題が発生する可能性があります。
+   >メールコンテンツでフラグメントを使用する場合は、このフラグメントに定義したテーマ [&#128279;](#apply-themes-email)を適用してください。 そうしないと、特にOutlook 2021以前のバージョンで、表示の問題が発生する可能性があります。
 
 1. 「**[!UICONTROL 閉じる]**」をクリックします。
 
@@ -261,7 +261,7 @@ ht-degree: 2%
 
 1. テーマに名前を付けます。
 
-1. カラーバリエーションの追加やフォントの編集など、ゼロからテーマを作成する場合と同様に、必要に応じて独自の調整を行います。 [詳細情報](#create-and-edit-themes)
+1. カラーバリエーションの追加やフォントの編集など、ゼロからテーマを作成する場合と同じように、必要に応じて独自の調整を行います。[方法を学ぶ](#create-and-edit-themes)
 
    ![&#x200B; カラーパレットとバリエーションのコントロールを表示するエディターで生成されたテーマ &#x200B;](assets/generate-theme-colors.png){width=90%}
 
