@@ -2,7 +2,7 @@
 title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f1f207785ad25ceb8f9891bfad74193768cb2937
+source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 91%
@@ -122,6 +122,6 @@ _2026年3月1日（PT） 24_
 
 ### 改善点 {#26-3-improvements}
 
-* クライアントコンソールとの互換性を向上させるために、ワークフローの&#x200B;**開始**&#x200B;アクティビティが追加されました。 このアクティビティはオプションであるため、新しいワークフローにはデフォルトで挿入されません。 ただし、既存のワークフローには自動的に追加されます。
+* クライアントコンソールとの互換性を向上させるために、ワークフローの&#x200B;**開始**アクティビティが追加されました。 このアクティビティはオプションであるため、新しいワークフローにはデフォルトで挿入されません。 ただし、既存のワークフローには自動的に追加されます。
   [詳細情報](../workflows/activities/about-activities.md#flow-control)
 * 配信の「**スケジュール**」設定のタイムゾーン選択フィールドが、「**連絡日**」フィールドの下に移動しました。 [詳細情報](../msg/create-deliveries.md#gs-schedule)
