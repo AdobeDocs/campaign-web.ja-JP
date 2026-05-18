@@ -6,7 +6,7 @@ exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content_experiment"
 >title="コンテンツ実験"
->abstract="コンテンツ実験では、ターゲットオーディエンスにとって最適なパフォーマンスを測定するために、複数のA/B テスト配信のバリエーションを定義できます。 配信コンテンツ、件名、送信者を変更して、さまざまなバージョンをテストし、どのバリアントが最も優れた結果を生み出すのかを判断できます。"
+>abstract="コンテンツ実験では、ターゲットオーディエンスに対して最適なパフォーマンスを測定するために、複数の A/B テスト配信のバリアントを定義できます。 配信コンテンツ、件名、送信者を変更して、さまざまなバージョンをテストし、どのバリアントが最も優れた結果を生み出すのかを判断できます。"
 
 ## コンテンツ実験について {#about-content-experiment}
 

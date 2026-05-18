@@ -6,7 +6,7 @@ exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 43%
+ht-degree: 58%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="ワークフローの複数の分岐と結合アクティビティ"
->abstract="複数のブランチがサポートされるようになりました。 フォークを使用する代わりに、ツールバーの「分岐を追加」をクリックできます。 AND結合アクティビティも改善されました。 これは、ANDとORの結合オプションを選択できる汎用的な結合アクティビティです。"
+>abstract="複数の分岐がサポートされるようになりました。 分岐を使用する代わりに、ツールバーの「分岐を追加」をクリックできます。 また、AND 結合アクティビティも改善されました。 これは、AND と OR の結合オプションを選択できる汎用的な結合アクティビティになりました。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=ja" text="リリースノートを参照してください"
 
 >[!CONTEXTUALHELP]
@@ -26,7 +26,7 @@ ht-degree: 43%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_join"
 >title="結合アクティビティ"
->abstract="**結合** アクティビティを使用すると、複数のインバウンドトランジションを結合できます。 すべてのインバウンドトランジションが完了（AND）した場合と、任意のインバウンドトランジションが完了した場合（OR）に続行するかどうかを選択します。"
+>abstract="**結合**&#x200B;アクティビティを使用すると、複数のインバウンドトランジションを結合できます。 すべてのインバウンドトランジションが完了した際（AND）に続行するか、いずれかのインバウンドトランジションが完了した際（OR）に続行するかを選択します。"
 
 **結合** アクティビティは&#x200B;**フロー制御** アクティビティです。 ワークフローの複数の実行分岐を同期します。
 インバウンドトランジションの評価方法を選択できます。
@@ -38,7 +38,7 @@ ht-degree: 43%
 
 **OR**&#x200B;が選択されると、選択したインバウンドトランジションのいずれかがアクティブ化されるとすぐに実行が続行されます。 すべてのブランチを待つわけではありません。
 
-## 結合アクティビティの設定 {#join-configuration}
+## 結合アクティビティを設定 {#join-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
