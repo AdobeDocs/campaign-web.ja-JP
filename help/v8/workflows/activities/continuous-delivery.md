@@ -3,10 +3,15 @@ audience: end-user
 title: 継続的な配信ワークフローアクティビティの使用
 description: 継続配信ワークフローアクティビティの使用方法を説明します
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
-source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
+TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 17%
+source-wordcount: 242
+ht-degree: 26%
 
 ---
 
@@ -14,7 +19,7 @@ ht-degree: 17%
 
 **継続配信** アクティビティを使用すると、既存の配信に新しい受信者を追加できます。 この配信タイプを使用すると、毎回新しい配信を作成する必要がなくなります。このモードは、容量不足のアラートや通知を必要に応じて送信する場合に、より効率的です。
 
-継続的な配信は、単一の配信インスタンスを作成します。 すべての配信ログ（broadLog）とトラッキングログがこの1つの配信を参照するため、監視とレポートが簡素化されます。
+連続配信では、単一の配信インスタンスが作成されます。 すべての配信ログ（broadLog）とトラッキングログがこの 1 つの配信を参照するため、監視とレポートが簡素化されます。
 
 ## 継続配信アクティビティの設定 {#configure}
 

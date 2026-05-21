@@ -3,9 +3,14 @@ audience: end-user
 title: サブスクライバーの管理
 description: Adobe Campaign Web で、サービスのサブスクライバーに対して管理および配信する方法を学ぶ
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '359'
+TQID: https://experienceleague.adobe.com/4-ZuptAIqEcFECF-a-ocCGG8kImzn-OHp34UnSToF9c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 359
 ht-degree: 100%
 
 ---
@@ -14,7 +19,7 @@ ht-degree: 100%
 
 「[サービスを作成](manage-services.md#create-service)」したら、サブスクライバーを追加したり、受信者を登録解除したり、そのサービスのサブスクライバーにメッセージを送信したりできます。
 
-サブスクライバー管理について詳しくは、このページを参照してください。サブスクライバーにメッセージを送信する方法については、[この節](../msg/send-to-subscribers.md)を参照してください
+サブスクライバー管理について詳しくは、このページを参照してください。 サブスクライバーにメッセージを送信する方法については、[この節](../msg/send-to-subscribers.md)を参照してください
 
 ## サブスクライバーをサービスに追加 {#add-subscribers}
 
@@ -38,13 +43,13 @@ ht-degree: 100%
    >
    >「**[!UICONTROL キャンセル]**」を選択した場合、選択したプロファイルに確認メッセージは送信されませんが、購読されます。
 
-追加したプロファイルは、「**[!UICONTROL サブスクライバー]**」タブに表示されます。このプロファイルをサービスに登録しました。
+追加したプロファイルは、「**[!UICONTROL サブスクライバー]**」タブに表示されます。 このプロファイルをサービスに登録しました。
 
 ## サービスからサブスクライバーを削除 {#remove-subscribers}
 
 ### 手動でプロファイルを登録解除 {#manual-unsubscription}
 
-サービスに[サブスクライバーを追加](#add-subscribers)したら、それ各サブスクライバーを手動で登録解除できます。以下の手順に従います。
+サービスに[サブスクライバーを追加](#add-subscribers)したら、それ各サブスクライバーを手動で登録解除できます。 以下の手順に従います。
 
 1. **[!UICONTROL サブスクリプションサービス]**&#x200B;リストから既存のサービスを選択します。
 
@@ -62,9 +67,9 @@ ht-degree: 100%
 
 ### 受信者を自動的に登録解除 {#automatic-unsubscription}
 
-サブスクリプションサービスの期間を限定することができます。有効期間が終了すると、プロファイルは自動的に登録解除されます。
+サブスクリプションサービスの期間を限定することができます。 有効期間が終了すると、プロファイルは自動的に登録解除されます。
 
-この期間は、[サービスの作成](manage-services.md#create-service)時に指定されます。「**[!UICONTROL その他のオプション]**」から、「**[!UICONTROL 無制限の有効期間]**」オプションを選択し、サービスの有効期間を定義します。
+この期間は、[サービスの作成](manage-services.md#create-service)時に指定されます。 「**[!UICONTROL その他のオプション]**」から、「**[!UICONTROL 無制限の有効期間]**」オプションを選択し、サービスの有効期間を定義します。
 
 ![購読サービスの有効期間設定を示すスクリーンショット。](assets/service-create-validity-period.png){zoomable="yes"}
 

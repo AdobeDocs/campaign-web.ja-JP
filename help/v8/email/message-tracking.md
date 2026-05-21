@@ -3,9 +3,12 @@ audience: end-user
 title: メッセージの追跡
 description: リンクを追加し、送信済みメッセージを追跡する方法を学ぶ
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
-workflow-type: ht
-source-wordcount: '568'
+TQID: https://experienceleague.adobe.com/0cPQ1ZElguYmeDUybrkRyzW0l-ZXxoxSdQTesjPLrps
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 571
 ht-degree: 100%
 
 ---
@@ -32,15 +35,15 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
    * **[!UICONTROL 外部リンク]**：外部 URL へのリンクを挿入します。
 
-   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。動的ランディングページを選択した場合（**[!UICONTROL URL からのサービス]**&#x200B;オプションが選択されている場合）、リストから任意のサービスを選択できます。[詳細情報](../landing-pages/create-lp.md#define-actions-on-form-submission)
+   * **[!UICONTROL ランディングページ]**：ランディングページへのリンクを挿入します。 動的ランディングページを選択した場合（**[!UICONTROL URL からのサービス]**&#x200B;オプションが選択されている場合）、リストから任意のサービスを選択できます。 [詳細情報](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
      ![E メールデザイナーでランディングページにリンクするためのインターフェイスを示すスクリーンショット](assets/email-link-to-landing-page.png){zoomable="yes"}
 
-   * **[!UICONTROL 購読リンク]**：購読サービスへのリンクを挿入します。ユーザーがリンクをクリックすると、選択したサービスで参照される購読ランディングページに移動します。[詳細情報](../audience/manage-services.md#create-service)
+   * **[!UICONTROL 購読リンク]**：購読サービスへのリンクを挿入します。 ユーザーがリンクをクリックすると、選択したサービスで参照される購読ランディングページに移動します。 [詳細情報](../audience/manage-services.md#create-service)
 
      ![サービスツールでデフォルトの購読リンクを作成するためのインターフェイスを示すスクリーンショット](assets/service-create-default-lp-link.png){zoomable="yes"}
 
-   * **[!UICONTROL 登録解除リンク]**：購読解除サービスへのリンクを挿入します。サブスクライバーがリンクをクリックすると、選択したサービスで参照される購読解除ランディングページに移動します。[詳細情報](../audience/manage-services.md#create-service)
+   * **[!UICONTROL 登録解除リンク]**：購読解除サービスへのリンクを挿入します。 サブスクライバーがリンクをクリックすると、選択したサービスで参照される購読解除ランディングページに移動します。 [詳細情報](../audience/manage-services.md#create-service)
 
    <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
 
@@ -59,9 +62,9 @@ E メールデザイナーを使用してコンテンツにリンクを追加し
 
 >[!NOTE]
 >
->マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）はチャネルサーフェスレベルでメッセージの作成時に定義されます。
+>マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。 メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）はチャネルサーフェスレベルでメッセージの作成時に定義されます。
 
-すべてのメールメッセージに、ミラーページへの特定のリンクを含めます。ミラーページについて詳しくは、[この節](mirror-page.md)を参照してください。
+すべてのメールメッセージに、ミラーページへの特定のリンクを含めます。 ミラーページについて詳しくは、[この節](mirror-page.md)を参照してください。
 
 ## トラッキングの管理 {#manage-tracking}
 

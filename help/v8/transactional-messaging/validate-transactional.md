@@ -3,9 +3,14 @@ audience: end-user
 title: トランザクションメッセージの検証
 description: Campaign web ユーザーインターフェイスでトランザクションメッセージを検証する方法について説明します。
 exl-id: 4a24792f-b9f4-4224-b3a8-75f6969b64da
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '293'
+TQID: https://experienceleague.adobe.com/YWPUl-Uc62k2YII-60Thm6B2ZuXDMPNjVogjTWKyeTY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 293
 ht-degree: 100%
 
 ---
@@ -18,7 +23,7 @@ ht-degree: 100%
 
 メッセージのコンテンツをシミュレートするには、次の手順に従います。
 
-* メッセージコンテンツのパーソナライゼーションパスがコンテキストサンプルと一致することを確認します。次の例では、テストプロファイルの名を表示するために、パス *rtEvent.ctx.basicDetails.firstName* を使用します。
+* メッセージコンテンツのパーソナライゼーションパスがコンテキストサンプルと一致することを確認します。 次の例では、テストプロファイルの名を表示するために、パス *rtEvent.ctx.basicDetails.firstName* を使用します。
 
   メッセージのコンテンツやコンテキストサンプルを変更して、整列させることができます。
 
@@ -40,7 +45,7 @@ ht-degree: 100%
 
 ![シミュレーションコンテンツウィンドウの「配達確認を送信」ボタンを示すスクリーンショット](assets/transactional-proof.png){zoomable="yes"}
 
-表示された新しいウィンドウで、チャネルに応じて、配達確認を受信するメールアドレスまたは電話番号を入力します。目的のアドレスを入力したら、「**[!UICONTROL 配達確認を送信]**」ボタンと「**[!UICONTROL 確認]**」ボタンをクリックします。このアクションにより、トランザクションメッセージのサンプルを送信して、すべてのパーソナライゼーション、動的コンテンツおよび書式設定がエンドユーザーに対して正しく表示されることを確認できます。
+表示された新しいウィンドウで、チャネルに応じて、配達確認を受信するメールアドレスまたは電話番号を入力します。 目的のアドレスを入力したら、「**[!UICONTROL 配達確認を送信]**」ボタンと「**[!UICONTROL 確認]**」ボタンをクリックします。 このアクションにより、トランザクションメッセージのサンプルを送信して、すべてのパーソナライゼーション、動的コンテンツおよび書式設定がエンドユーザーに対して正しく表示されることを確認できます。
 
 ![「配達確認を送信」機能と確認プロセスを示すスクリーンショット](assets/transactional-sendproof.png){zoomable="yes"}
 

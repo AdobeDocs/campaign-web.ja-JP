@@ -2,9 +2,25 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2025 Campaign web ユーザーインターフェイスリリース
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: be38a0d27ae805ac64f0c951e5ea470cd1feb859
-workflow-type: ht
-source-wordcount: '3136'
+TQID: https://experienceleague.adobe.com/z7Nz4ghVS6vEP7Aa3lgB1fv66coY-MCvyGALfzOn0O0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 3136
 ht-degree: 100%
 
 ---
@@ -674,7 +690,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >ドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)および [Campaign Standard ユーザー向けの機能](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=ja)を参照してください。
 
-* **多言語配信の作成** - Adobe Campaign web ユーザーインターフェイスで、複数のメール配信を異なる言語で送信できるようになりました。 多言語配信機能を使用すると、配信のデフォルト言語と、配信を送信できる様々な言語を選択できます。 また、選択した言語でこれらの配信をプレビューすることもできます。詳しくは、[詳細ドキュメント](../email/edit-content.md)を参照してください。
+* **多言語配信の作成** - Adobe Campaign web ユーザーインターフェイスで、複数のメール配信を異なる言語で送信できるようになりました。 多言語配信機能を使用すると、配信のデフォルト言語と、配信を送信できる様々な言語を選択できます。 また、選択した言語でこれらの配信をプレビューすることもできます。 詳しくは、[詳細ドキュメント](../email/edit-content.md)を参照してください。
 
 * **多言語用の動的レポート** - 多言語メール配信で動的レポートが使用できるようになりました。 詳しくは、[詳細ドキュメント](../reporting/global-reports.md)を参照してください。
 
