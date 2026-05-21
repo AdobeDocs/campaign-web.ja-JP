@@ -3,17 +3,19 @@ audience: end-user
 title: SMS 配信の基本を学ぶ
 description: Adobe Campaign Web で SMS を作成して送信する方法を学ぶ
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
-workflow-type: ht
-source-wordcount: '160'
+TQID: https://experienceleague.adobe.com/o-0MeELRewgw68-diUevmn9qDYgEK8rzDlHv54Kx00A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 173
 ht-degree: 100%
 
 ---
 
-
 # SMS 配信の基本を学ぶ {#sms}
 
-SMS 配信は、顧客のモバイルデバイスにテキストメッセージを送信する実用的で効率的な方法を提供します。この機能を使用すると、テキストベースのメッセージを作成、パーソナライズ、プレビューして、効果的な通信を実現できます。
+SMS 配信は、顧客のモバイルデバイスにテキストメッセージを送信する実用的で効率的な方法を提供します。 この機能を使用すると、テキストベースのメッセージを作成、パーソナライズ、プレビューして、効果的な通信を実現できます。
 
 SMS チャネルには、SMS 配信を作成する次の 3 つの方法が用意されています。
 
@@ -39,7 +41,7 @@ SMS チャネルには、SMS 配信を作成する次の 3 つの方法が用意
 <img alt="SMS 配信をデザイン" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href="content-sms.md"><strong>SMS 配信をデザイン<strong></strong></a>
+<a href="content-sms.md"><strong>SMS 配信のデザイン<strong></strong></a>
 </div>
 <p></td>
 <td>

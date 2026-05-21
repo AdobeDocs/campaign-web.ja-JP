@@ -3,9 +3,12 @@ audience: end-user
 title: 配信ワークフローアクティビティの使用
 description: 配信ワークフローアクティビティ（メール、プッシュ、SMS、WhatsApp、ダイレクトメール）の追加方法について説明します
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: 995
 ht-degree: 93%
 
 ---
@@ -25,7 +28,7 @@ Adobe Campaign Webを活用すれば、電子メールやSMS、WhatsApp、ダイ
 >* [スタンドアロン SMS 配信を作成](../../sms/create-sms.md)
 >* [スタンドアロンプッシュ配信を作成](../../push/create-push.md)
 >* [スタンドアロンダイレクトメール配信を作成](../../direct-mail/create-direct-mail.md)
->* [&#x200B; スタンドアロン WhatsApp配信の作成](../../whatsapp/create-whatsapp.md)
+>* [ スタンドアロン WhatsApp配信の作成](../../whatsapp/create-whatsapp.md)
 
 ## 前提条件 {#channel-activity-prereq}
 

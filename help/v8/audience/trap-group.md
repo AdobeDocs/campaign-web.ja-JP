@@ -3,16 +3,19 @@ audience: end-user
 title: トラップグループの使用
 description: Campaign web ユーザーインターフェイスでの配信にトラップグループを使用する方法について説明します
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 429
+ht-degree: 91%
 
 ---
 
 # トラップグループの使用 {#trap-group}
 
-**[!UICONTROL トラップグループ]**（**[!UICONTROL シードリスト]**&#x200B;とも呼ばれる）を使用すると、配信に特定のアドレスを含め、定義済みのターゲティング条件に一致しないプロファイルをターゲットにすることで、配信プロセスを監視および検証できます。これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信できます。
+**[!UICONTROL トラップグループ]**（**[!UICONTROL シードリスト]**&#x200B;とも呼ばれる）を使用すると、配信に特定のアドレスを含め、定義済みのターゲティング条件に一致しないプロファイルをターゲットにすることで、配信プロセスを監視および検証できます。 これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信できます。
 
 **[!UICONTROL トラップグループ]**&#x200B;は、**[!UICONTROL シードアドレス]**&#x200B;のグループです。Campaign web ユーザーインターフェイスでは&#x200B;**[!UICONTROL テストプロファイル]**&#x200B;という名前になります。
 
@@ -30,13 +33,13 @@ ht-degree: 100%
 
 ## トラップグループについて {#about-trap-group}
 
-テストプロファイルは、**クリック数**、**開封数**、**購読解除**&#x200B;の配信統計に関するレポートからは自動的に除外されます。レポートは、実際のオーディエンスに関する内容のみ焦点を当てます。
+テストプロファイルは、**クリック数**、**開封数**、**購読解除**&#x200B;の配信統計に関するレポートからは自動的に除外されます。 レポートは、実際のオーディエンスに関する内容のみ焦点を当てます。
 
-メール配信の場合、**[!UICONTROL トラップグループ]**&#x200B;のメールアドレスのみが必要です。他のフィールドのパーソナライゼーションは、Campaign によってランダムに入力されます。
+メール配信の場合、**[!UICONTROL トラップグループ]**&#x200B;のメールアドレスのみが必要です。 他のフィールドのパーソナライゼーションは、Campaign によってランダムに入力されます。
 
 ## 配信でのトラップグループの追加 {#trap-group-in-delivery}
 
-**[!UICONTROL トラップグループ]**&#x200B;を設定するには、配信の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;設定に移動します。次の 2 つのオプションがあります。
+**[!UICONTROL トラップグループ]**&#x200B;を設定するには、配信の&#x200B;**[!UICONTROL オーディエンス]**&#x200B;設定に移動します。 次の 2 つのオプションがあります。
 
 * [テストプロファイルを選択](#select-test-profiles)
 * [条件を作成](#create-condition)
@@ -47,33 +50,33 @@ ht-degree: 100%
 
 「**テストプロファイルを選択**」を選択する際、次に示すように「**テストプロファイルを追加**」ボタンを使用します。
 
-[「テストプロファイルを追加」ボタンのスクリーンショット](assets/trap-no-test-profile.png){zoomable="yes"}
+[テストプロファイルボタンのスクリーンショットを追加](assets/trap-no-test-profile.png){zoomable="yes"}
 
-ボタンをクリックすると、**[!UICONTROL トラップグループ]**&#x200B;を追加するテストプロファイルにアクセスできます。使用するテストプロファイルを選択します。
+ボタンをクリックすると、**[!UICONTROL トラップグループ]**&#x200B;を追加するテストプロファイルにアクセスできます。 使用するテストプロファイルを選択します。
 
-また、新しいテストプロファイルを作成することもできます。[詳細情報](#create-seed)
+また、新しいテストプロファイルを作成することもできます。 [詳細情報](#create-seed)
 
-[「テストプロファイルを選択」インターフェイスのスクリーンショット](assets/trap-select-test-profiles.png){zoomable="yes"}
+[テストプロファイルインターフェイスのスクリーンショットを選択](assets/trap-select-test-profiles.png){zoomable="yes"}
 
 テストプロファイルを確認したら、「**[!UICONTROL トラップグループ]**」の下に正しい番号が表示されていることを確認します。
 
-[トラップグループ確認のスクリーンショット](assets/trap-check.png){zoomable="yes"}
+[トラップグループの確認スクリーンショット](assets/trap-check.png){zoomable="yes"}
 
 ### 条件を作成 {#create-condition}
 
 「**[!UICONTROL 条件を作成]**」オプションでは、クエリを作成して、使用するテストプロファイルを定義します。
 
-[「条件を作成」インターフェイスのスクリーンショット](assets/trap-create-condition.png){zoomable="yes"}
+[条件インターフェイスのスクリーンショットを作成](assets/trap-create-condition.png){zoomable="yes"}
 
 クエリは、**[!UICONTROL トラップグループ]**&#x200B;の下に表示されます。
 
-[トラップグループクエリ表示のスクリーンショット](assets/trap-custom.png){zoomable="yes"}
+[トラップグループクエリの表示スクリーンショット](assets/trap-custom.png){zoomable="yes"}
 
 ## 新しいテストプロファイルの作成 {#create-seed}
 
 **[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードメンバー]**&#x200B;フォルダーから新しい&#x200B;**[!UICONTROL テストプロファイル]**&#x200B;を作成できます。
 
-[「テストプロファイルを作成」ナビゲーションのスクリーンショット](assets/trap-create.png){zoomable="yes"}
+[テストプロファイルナビゲーションの作成スクリーンショット](assets/trap-create.png){zoomable="yes"}
 
 任意のプロファイルについて、**[!UICONTROL テストプロファイル]**&#x200B;に関するすべての設定を行います。
 

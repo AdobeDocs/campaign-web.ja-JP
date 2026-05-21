@@ -2,16 +2,19 @@
 title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
-workflow-type: ht
-source-wordcount: '210'
+TQID: https://experienceleague.adobe.com/YS9Wajit0WQlARuXk-6m0cTI87bUjAOfDIkRH-ahV7E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 213
 ht-degree: 100%
 
 ---
 
 # 外部アカウントの作成 {#create-external-account}
 
-新しい外部アカウントを作成するには、次の手順に従います。特定の設定は、作成している外部アカウントのタイプによって異なります。
+新しい外部アカウントを作成するには、次の手順に従います。 特定の設定は、作成している外部アカウントのタイプによって異なります。
 
 1. 左側のパネルメニューから、**[!UICONTROL 管理]**&#x200B;の下にある「**[!UICONTROL 外部アカウント]**」を選択します。
 
@@ -38,7 +41,7 @@ ht-degree: 100%
 
    ![パッケージの自動エクスポートを有効にするオプションを示すスクリーンショット。](assets/external_account_create_exported.png)
 
-1. 「**[!UICONTROL 詳細]**」セクションで、選択した外部アカウントタイプに基づいて資格情報を指定し、アカウントへのアクセスを設定します。[詳細情報](#bounce)
+1. 「**[!UICONTROL 詳細]**」セクションで、選択した外部アカウントタイプに基づいて資格情報を指定し、アカウントへのアクセスを設定します。 [詳細情報](#bounce)
 
 1. 「**[!UICONTROL テスト接続]**」をクリックして、設定が正しいことを確認します。
 

@@ -3,9 +3,11 @@ audience: end-user
 title: インラインスタイル属性を追加する
 description: インラインスタイル属性を追加する方法を説明します
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '137'
+TQID: https://experienceleague.adobe.com/zDt9wDMvygP9NTWF5c36g-7jzikNEaTPegCJMvN4dec
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 141
 ht-degree: 100%
 
 ---
@@ -22,7 +24,7 @@ E メールデザイナーインターフェイスで、要素を選択してそ
 
 1. 既存の属性の値を変更します。
 
-1. 「**+**」ボタンを使用して、新しいプロパティを追加します。CSS に準拠している任意の属性と値を追加します。
+1. 「**+**」ボタンを使用して、新しいプロパティを追加します。 CSS に準拠している任意の属性と値を追加します。
 
    ![CSS に準拠している新しい属性を追加する「+」ボタンを示す「詳細」セクション。](assets/styles_2.png){zoomable="yes"}
 

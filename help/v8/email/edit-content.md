@@ -3,9 +3,12 @@ audience: end-user
 title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスでメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: 699
 ht-degree: 96%
 
 ---
@@ -106,6 +109,6 @@ ht-degree: 96%
 
 1. デフォルトでは、配信のトラッキングが有効になっています。 このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。 [リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
 
-1. メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。 また、コンテンツの読みやすさ、CTAの有効性、全体的な品質を評価するために、コンテンツの品質を検証することもできます。 [&#x200B; コンテンツ品質検証について詳しく見る](../content/brands-score.md#validate-quality)
+1. メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。 また、コンテンツの読みやすさ、CTAの有効性、全体的な品質を評価するために、コンテンツの品質を検証することもできます。 [ コンテンツ品質検証について詳しく見る](../content/brands-score.md#validate-quality)
 
 1. [詳しくは、メールのプレビューとテストの方法を参照してください](../preview-test/preview-test.md)。

@@ -3,9 +3,11 @@ audience: end-user
 title: E メールデザイナーでの垂直方向の整列とパディングの調整
 description: 垂直方向の整列とパディングの調整方法を学ぶ
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
-workflow-type: ht
-source-wordcount: '204'
+TQID: https://experienceleague.adobe.com/5KgmbJc0yXRXl8-jCKBR7evxfcVHEcvQtdMxU-rV28s
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+workflow-type: tm+mt
+source-wordcount: 204
 ht-degree: 100%
 
 ---
@@ -18,15 +20,15 @@ ht-degree: 100%
 
    ![ナビゲーションツリーでの構造コンポーネントの選択を示すスクリーンショット](assets/alignment_1.png){zoomable="yes"}
 
-1. コンテキストツールバーから「**[!UICONTROL 列を選択]**」をクリックし、編集する列を選択します。左側の構造ツリーから選択することもできます。
+1. コンテキストツールバーから「**[!UICONTROL 列を選択]**」をクリックし、編集する列を選択します。 左側の構造ツリーから選択することもできます。
 
    ![コンテキストツールバーからの列の選択を示すスクリーンショット](assets/alignment_2.png){zoomable="yes"}
 
-1. 選択した列の編集可能なパラメーターは、「**[!UICONTROL スタイル]**」タブに表示されます。専用セクションを使用して、**[!UICONTROL 整列]**&#x200B;を調整します。
+1. 選択した列の編集可能なパラメーターは、「**[!UICONTROL スタイル]**」タブに表示されます。 専用セクションを使用して、**[!UICONTROL 整列]**&#x200B;を調整します。
 
    ![「スタイル」タブの整列調整オプションを示すスクリーンショット](assets/alignment_3.png){zoomable="yes"}
 
-   例えば、「**[!UICONTROL 下部]**」を選択します。コンテンツコンポーネントが列の下部に移動します。
+   例えば、「**[!UICONTROL 下部]**」を選択します。 コンテンツコンポーネントが列の下部に移動します。
 
 1. **[!UICONTROL パディング]**&#x200B;の下で、列の内側の上部のパディングを定義し、その列の左右のパディングを設定します。
 

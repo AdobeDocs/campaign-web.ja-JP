@@ -3,13 +3,16 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
+TQID: https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: 2064
 ht-degree: 99%
 
 ---
-
 
 # エンリッチメント {#enrichment}
 
@@ -22,7 +25,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->**オーディエンスを作成** アクティビティでは、**追加データ**&#x200B;を追加することもできます。 [&#x200B; オーディエンスの作成アクティビティの使用](build-audience.md#build-audience-configuration)を参照してください。
+>**オーディエンスを作成** アクティビティでは、**追加データ**&#x200B;を追加することもできます。 [ オーディエンスの作成アクティビティの使用](build-audience.md#build-audience-configuration)を参照してください。
 
 エンリッチメントデータは次のいずれかから取得できます。
 
@@ -173,7 +176,7 @@ ht-degree: 99%
 
 ワークフロー内で、エンリッチメントアクティビティから取得したオファーを配信で使用する場合は、次の手順に従います。
 
-1. 配信アクティビティを開き、コンテンツ編集に移動します。 「**[!UICONTROL オファー設定]**」ボタンをクリックし、ドロップダウンリストでオファーに対応する&#x200B;**[!UICONTROL オファースペース]**&#x200B;を選択します。
+1. 配信アクティビティを開き、コンテンツ編集に移動します。 「**[!UICONTROL オファー設定]**」ボタンをクリックし、ドロップダウンリストでオファーに対応する&#x200B;**[!UICONTROL オファースペース]**を選択します。
 エンリッチメントアクティビティからのオファーのみを表示する場合は、**[!UICONTROL 提案]**&#x200B;の数を 0 に設定し、変更を保存します。
 
    ![](../assets/offers-settings.png)
