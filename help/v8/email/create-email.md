@@ -4,8 +4,11 @@ title: 最初のメールを送信
 description: Campaign web UI で最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 TQID: https://experienceleague.adobe.com/3pZPhEZkXmt4Ma9klxulMH8SB0G-e-RuNL-nwqcgo-8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1695
@@ -156,7 +159,7 @@ ht-degree: 98%
 
 このユースケースでは、ターゲットプロファイルの一部を偽装して、メールをプレビューし、特定のメールアドレスに本配信前確認を送信します。
 
-また、コンテンツの品質を検証して、読みやすさ、CTAの有効性、件名の品質などをチェックすることもできます。 [ コンテンツ品質検証について詳しく見る](../content/brands-score.md#validate-quality)
+また、コンテンツの品質を検証して、読みやすさ、CTAの有効性、件名の品質などをチェックすることもできます。 [&#x200B; コンテンツ品質検証について詳しく見る](../content/brands-score.md#validate-quality)
 
 メールのプレビューと本配信前確認の送信方法に関する追加情報について詳しくは、[この節](../preview-test/preview-test.md)を参照してください。
 
