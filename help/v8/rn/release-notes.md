@@ -3,15 +3,9 @@ title: Campaign v8 web ユーザーインターフェイスリリースノート
 description: 最新の Campaign web ユーザーインターフェイスリリースで提供される新機能について説明します
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
 workflow-type: tm+mt
 source-wordcount: 631
@@ -132,6 +126,6 @@ _2026年3月1日（PT） 24_
 
 ### 改善点 {#26-3-improvements}
 
-* クライアントコンソールとの互換性を向上させるために、ワークフローの&#x200B;**開始**&#x200B;アクティビティが追加されました。 このアクティビティはオプションであるため、新しいワークフローにはデフォルトで挿入されません。 ただし、既存のワークフローには自動的に追加されます。
+* クライアントコンソールとの互換性を向上させるために、ワークフローの&#x200B;**開始**アクティビティが追加されました。 このアクティビティはオプションであるため、新しいワークフローにはデフォルトで挿入されません。 ただし、既存のワークフローには自動的に追加されます。
   [詳細情報](../workflows/activities/about-activities.md#flow-control)
 * 配信の「**スケジュール**」設定のタイムゾーン選択フィールドが、「**連絡日**」フィールドの下に移動しました。 [詳細情報](../msg/create-deliveries.md#gs-schedule)

@@ -4,8 +4,7 @@ title: 分岐ワークフローアクティビティの使用
 description: 分岐ワークフローアクティビティの使用方法を学ぶ
 exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
 TQID: https://experienceleague.adobe.com/a6KZ9gWNyGRY2D5vYKVJ-MP6WB4H-weR5RZTMbD71vA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 184
@@ -27,7 +26,7 @@ ht-degree: 91%
 
 **分岐**&#x200B;アクティビティは&#x200B;**フロー制御**&#x200B;アクティビティです。 アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始できます。
 
-**分岐を追加** （**+**） ツールバーボタンを使用して、別の分岐を作成することもできます。 [&#x200B; アクティビティの調整](../orchestrate-activities.md#toolbar)を参照してください。
+**分岐を追加** （**+**） ツールバーボタンを使用して、別の分岐を作成することもできます。 [ アクティビティの調整](../orchestrate-activities.md#toolbar)を参照してください。
 
 ## 分岐アクティビティの設定 {#fork-configuration}
 

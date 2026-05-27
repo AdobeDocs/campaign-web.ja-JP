@@ -4,10 +4,8 @@ title: 継続的な配信ワークフローアクティビティの使用
 description: 継続配信ワークフローアクティビティの使用方法を説明します
 exl-id: 659bddcb-280c-4623-8115-6f975515d1a2
 TQID: https://experienceleague.adobe.com/uWGhvUmHdS0ixFI4d-uEPgpxSnZoOwNRMbn8aZfqA98
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 242
@@ -25,7 +23,7 @@ ht-degree: 26%
 
 1. ワークフローキャンバスに&#x200B;**継続配信** アクティビティを追加します。
 
-   継続配信アクティビティを示す![&#x200B; スクリーンショット &#x200B;](../assets/continuous-delivery.png){zoomable="yes"}
+   継続配信アクティビティを示す![ スクリーンショット ](../assets/continuous-delivery.png){zoomable="yes"}
 
 1. アクティビティのカスタム **[!UICONTROL Label]**&#x200B;を入力します（オプション）。 デフォルトでは、「継続配信」というラベルが付けられます。
 
