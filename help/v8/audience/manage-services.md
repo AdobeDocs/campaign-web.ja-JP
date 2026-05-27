@@ -4,7 +4,8 @@ title: 購読サービスの操作
 description: Adobe Campaign Web で購読サービスにアクセス、購読サービスを作成および管理する方法について説明します
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
 TQID: https://experienceleague.adobe.com/2LQ-qBQhvcL1tBbL3EvnNIAhYOHkgNQrhnwaj3wmGh8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 1130
