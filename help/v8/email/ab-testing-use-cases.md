@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: コンテンツ実験のユースケース
-description: Adobe Campaign Web での A/B テストを使用したコンテンツ実験の実用的なユースケースについて説明します
+description: Adobe Campaign WebのA/B テストによるコンテンツ実験の実用的なユースケースを紹介します
 exl-id: 7c7d7e0e-8c8e-4e5e-9f9e-0e5e5e5e5e5e
 source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
