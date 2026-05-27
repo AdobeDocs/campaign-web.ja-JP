@@ -3,8 +3,8 @@ title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: ht
-source-wordcount: '648'
+workflow-type: tm+mt
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ## バウンスメール（POP3） {#bounce}
 
-バウンスメール外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。POP3 アクセス用に設定されたすべてのサーバーは、返信メールを受信できます。
+バウンスメール外部アカウントで、メールサービスの接続に使用する外部 POP3 アカウントを指定します。 POP3 アクセス用に設定されたすべてのサーバーは、返信メールを受信できます。
 
 ![バウンスメール（POP3）外部アカウント設定フィールドを示すスクリーンショット。](assets/external_account_bounce.png)
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。詳しくは、[このページ](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app){target=_blank}を参照してください。
+>Microsoft OAuth 2.0 を使用して POP3 外部アカウントを設定する前に、まず Azure portal にアプリケーションを登録する必要があります。 詳しくは、[このページ](https://learn.microsoft.com/ja-jp/entra/identity-platform/quickstart-register-app){target=_blank}を参照してください。
 
 Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「Microsoft OAuth 2.0」オプションをチェックし、次のフィールドに入力します。
 
@@ -57,9 +57,9 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「Micros
 
 * **[!UICONTROL Azure リダイレクト URL]**
 
-  リダイレクト URL は Azure portal のアプリケーションの認証メニューで確認できます。次の構文 nl/jsp/oauth.jsp で終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
+  リダイレクト URL は Azure portal のアプリケーションの認証メニューで確認できます。 次の構文 nl/jsp/oauth.jsp で終わる必要があります。例：`https://redirect.adobe.net/nl/jsp/oauth.jsp`。
 
-設定を行い、クライアントコンソールの「テスト接続」ボタンを使用するには、インターネットアクセスが必要です。設定後、inMail プロセスはインターネットを使用せずに Microsoft サーバーと通信できます。
+設定を行い、クライアントコンソールの「テスト接続」ボタンを使用するには、インターネットアクセスが必要です。 設定後、inMail プロセスはインターネットを使用せずに Microsoft サーバーと通信できます。
 
 別の資格情報を入力した後、「接続を設定」をクリックして、外部アカウントの設定を終了できます。
 
@@ -67,7 +67,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「Micros
 
 外部配信用の特定の外部アカウントを設定するには、次の手順に従います。
 
-1. 外部アカウントを作成します。[詳細情報](create-external-account.md)
+1. 外部アカウントを作成します。 [詳細情報](create-external-account.md)
 
 1. **[!UICONTROL ルーティング]**&#x200B;タイプを選択します。
 
@@ -83,7 +83,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「Micros
    >
    >現在、使用可能なモードは&#x200B;**[!UICONTROL 外部]**&#x200B;のみです。
 
-1. 配信実行後のプロセスを処理するには、後処理ワークフローに外部化します。[外部シグナル](../workflows/activities/external-signal.md)アクティビティを含むワークフローを作成し、「**[!UICONTROL 後処理]**」フィールドから選択します。
+1. 配信実行後のプロセスを処理するには、後処理ワークフローに外部化します。 [外部シグナル](../workflows/activities/external-signal.md)アクティビティを含むワークフローを作成し、「**[!UICONTROL 後処理]**」フィールドから選択します。
 
    ![外部アカウントのルーティング用の「後処理」フィールド設定を示すスクリーンショット。](assets/external-account-post-processing.png){zoomable="yes"}
 
@@ -91,7 +91,7 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「Micros
 
 ## 実行インスタンス {#instance-exec}
 
-セグメント化されたアーキテクチャを使用している場合は、コントロールインスタンスに関連付けられた実行インスタンスを識別し、それらの間の接続を確立します。トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
+セグメント化されたアーキテクチャを使用している場合は、コントロールインスタンスに関連付けられた実行インスタンスを識別し、それらの間の接続を確立します。 トランザクションメッセージテンプレートは、実行インスタンスにデプロイされます。
 
 ![実行インスタンス外部アカウント設定フィールドを示すスクリーンショット。](assets/external_account_exec.png)
 
@@ -105,6 +105,6 @@ Microsoft OAuth 2.0 を使用して POP3 外部を設定するには、「Micros
 
 * **[!UICONTROL メソッド]** - web サービスまたは Federated Data Access（FDA）から選択します。
 
-  FDA の場合は、FDA アカウントを選択します。外部システムへの Campaign の接続は上級ユーザーに制限され、クライアントコンソールからのみ使用できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/fda#_blank)
+  FDA の場合は、FDA アカウントを選択します。 外部システムへの Campaign の接続は上級ユーザーに制限され、クライアントコンソールからのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL アーカイブワークフローの作成]** -1 つ以上のインスタンスがあるかどうかに関係なく、Message Center に登録された実行インスタンスごとに、実行インスタンスに関連付けられた外部アカウントにつき個別のアーカイブワークフローを作成します。

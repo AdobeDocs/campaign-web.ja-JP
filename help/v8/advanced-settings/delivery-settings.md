@@ -5,14 +5,9 @@ description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
 workflow-type: tm+mt
 source-wordcount: 3516
@@ -109,7 +104,7 @@ ht-degree: 99%
 >title="配信用のオーディエンス設定"
 >abstract="利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択します。 ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。 また、配信用の除外パラメーターを設定することもできます。"
 
-このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。 ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。 ターゲットマッピングは、操作で処理されるデータのタイプです。 ターゲット母集団（受信者、契約受益者、オペレーター、サブスクライバーなど）を定義できます。[&#x200B; ターゲットマッピングの詳細](../audience/targeting-dimensions.md)。
+このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。 ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。 ターゲットマッピングは、操作で処理されるデータのタイプです。 ターゲット母集団（受信者、契約受益者、オペレーター、サブスクライバーなど）を定義できます。[ ターゲットマッピングの詳細](../audience/targeting-dimensions.md)。
 
 「**[!UICONTROL 除外]**」フィールドでは、今後連絡を希望しないプロファイルや強制隔離されているプロファイルを除外することを選択できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ja){target="_blank"}
 
