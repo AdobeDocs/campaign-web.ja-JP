@@ -5,8 +5,8 @@ level: Beginner
 audience: end-user
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
-source-wordcount: '761'
+workflow-type: tm+mt
+source-wordcount: '764'
 ht-degree: 100%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 100%
    <td> オファーがクリックされた割合。<br/> </td> 
   </tr> 
   <tr> 
-   <td> 開封数<br/> </td> 
+   <td> 開封<br/> </td> 
    <td> 1 つの配信で、あるメッセージが開かれた回数。<br/> </td> 
   </tr> 
   <tr> 
