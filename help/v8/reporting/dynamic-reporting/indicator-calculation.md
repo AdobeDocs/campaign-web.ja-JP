@@ -5,8 +5,8 @@ level: Intermediate
 audience: end-user
 exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
-source-wordcount: '379'
+workflow-type: tm+mt
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->大量かつリアルタイムの分析をより適切に処理および管理するために、動的レポートでは個別カウントの推定に概算集計を使用します。概算集計ではメモリ使用量が制限されるため、多くの場合、厳密な計算よりも高速です。
+>大量かつリアルタイムの分析をより適切に処理および管理するために、動的レポートでは個別カウントの推定に概算集計を使用します。 概算集計ではメモリ使用量が制限されるため、多くの場合、厳密な計算よりも高速です。
 
 以下の表は、様々なレポートで使用する指標のリストと、配信タイプに応じた計算式を示したものです。
 
@@ -83,7 +83,7 @@ ht-degree: 100%
    <td> 配信率<br/> </td> 
    <td> @rateDelivered<br/> </td> 
    <td> @delivered/@sent<br/> </td> 
-   <td> レート計算の分母は、送信数（配信済み + バウンス）に基づいています。<br/> </td> 
+   <td> レート計算の分母は、送信済みカウント（配信済み + バウンス）に基づいています。<br/> </td> 
   </tr> 
   <tr> 
    <td> ハードバウンス<br/> </td> 
@@ -95,7 +95,7 @@ ht-degree: 100%
    <td> ハードバウンス率<br/> </td> 
    <td> @rateHardBounces<br/> </td> 
    <td> @hardBounces/@sent<br/> </td> 
-   <td> レート計算の分母は、送信数（配信済み + バウンス）に基づいています。<br/> </td> 
+   <td> レート計算の分母は、送信済みカウント（配信済み + バウンス）に基づいています。<br/> </td> 
   </tr> 
   <tr> 
    <td> 無効なドメイン<br/> </td> 
@@ -184,7 +184,7 @@ ht-degree: 100%
   <tr> 
    <td> ユニーククリック数<br/> </td> 
    <td> @uniqueclicks<br/> </td> 
-   <td> ユニーククリック数は、ThetaSketch の概念を使用して計算されます。</a>.<br/> </td> 
+   <td> ユニーククリック数は、ThetaSketch の概念を使用して計算されます。 </a>.<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
