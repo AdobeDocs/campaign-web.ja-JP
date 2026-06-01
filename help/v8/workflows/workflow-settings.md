@@ -6,10 +6,10 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 100%
+source-wordcount: 1070
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 これらの設定は、ワークフローの作成時に選択したテンプレートで事前に設定されていますが、この特定のワークフローで必要に応じて編集できます。
 
-![ワークフローの設定ボタンインターフェイス](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![ワークフローの設定ボタンインターフェイス](assets/workflow-settings-button.png){zoomable="yes"}{width="70%"}
 
 ## ワークフローのプロパティ {#properties}
 
@@ -35,15 +35,15 @@ ht-degree: 100%
 
 「**[!UICONTROL プロパティ]**」セクションには、ワークフローの作成時に設定できる一般的な設定が用意されています。 既存のワークフローのプロパティにアクセスするには、ワークフローキャンバス上のアクションバーにある「**[!UICONTROL 設定]**」ボタンをクリックします。
 
-![ワークフローの設定インターフェイス](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![ワークフローの設定インターフェイス](assets/workflow-settings.png){zoomable="yes"}{width="70%"}
 
 これらのプロパティには次のものが含まれます。
 
 * リストに表示されるワークフローの&#x200B;**[!UICONTROL ラベル]**。
 * ワークフローの&#x200B;**[!UICONTROL 内部名]**。
 * ワークフローを保存する&#x200B;**[!UICONTROL フォルダー]**。
-* すべてのワークフローのアクティビティで使用するデフォルトの&#x200B;**[!UICONTROL タイムゾーン]**。 デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
-次のような値を選択できます。
+* すべてのワークフローのアクティビティで使用する既定の&#x200B;**[!UICONTROL タイムゾーン]**。デフォルトでは、ワークフローのタイムゾーンは、現在のCampaign オペレーターに対して定義されたものです。
+使用可能な値は次のとおりです。
    * **サーバーのタイムゾーン**：Adobe Campaign アプリケーションサーバーのタイムゾーンを使用します。
    * **オペレーターのタイムゾーン**：オペレーターのプロファイルで定義しているように、クライアントコンソールでワークフローを実行する Adobe Campaign オペレーターのタイムゾーンを使用します。
    * **データベースのタイムゾーン**：データベースサーバーのタイムゾーンを使用します。

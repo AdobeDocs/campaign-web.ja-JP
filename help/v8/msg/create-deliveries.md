@@ -17,7 +17,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 90%
@@ -50,7 +50,7 @@ ht-degree: 90%
 1. 配信用チャネルを選択します。
 1. メインターゲットとコントロール母集団に対する配信オーディエンスを定義します。 [詳しくは、オーディエンスを参照してください](../audience/about-recipients.md)。
 
-   ![オーディエンスの選択インターフェイスを示すスクリーンショット](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
+   ![オーディエンスの選択インターフェイスを示すスクリーンショット](assets/select-audience.png){zoomable="yes"}{width="70%"}
 
 1. メッセージコンテンツを定義します。 配信チャネルと配信コンテンツの定義方法について詳しくは、次の節を参照してください。
 

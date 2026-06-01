@@ -8,7 +8,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: 325
 ht-degree: 100%
@@ -23,21 +23,21 @@ ht-degree: 100%
 
 リストは複数の列で表示されます。 列の設定を変更すると、追加情報を表示できます。 これを行うには、リストの右上隅にある「**カスタムレイアウトの列を設定**」アイコンをクリックします。
 
-![スクリーンショットは、リスト列のレイアウトをカスタマイズするために使用される「列を設定」アイコンを示しています。](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![スクリーンショットは、リスト列のレイアウトをカスタマイズするために使用される「列を設定」アイコンを示しています。](assets/config-columns.png){zoomable="yes"}{width="70%"}
 
 「**列を設定**」画面で、列の追加または削除や表示順序の変更を行うことができます。
 
 リストの順序は、**ドラッグ＆ドロップ**&#x200B;するか、以下に示すように&#x200B;**上下の矢印**&#x200B;を使用して変更できます。
 
-![スクリーンショットは、ドラッグ＆ドロップまたは矢印ボタンを使用してリスト列を並べ替える方法を示しています。](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![スクリーンショットは、ドラッグ＆ドロップまたは矢印ボタンを使用してリスト列を並べ替える方法を示しています。](assets/list-reorder.png){zoomable="yes"}{width="70%"}
 
 例えば、次の設定の場合：
 
-![スクリーンショットは、「列を設定」画面に列設定の例を表示します。](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![スクリーンショットは、「列を設定」画面に列設定の例を表示します。](assets/columns.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 リストには、次の列が表示されます。
 
-![スクリーンショットは、サンプル設定に従って設定された列を含む、結果のリストを示しています。](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![スクリーンショットは、サンプル設定に従って設定された列を含む、結果のリストを示しています。](assets/column-sample.png){zoomable="yes"}{width="70%"}
 
 ## データを並べ替え {#sort-lists}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 項目を素早く見つけるには、検索バーを使用するか、ビルトインのフィルターやカスタムフィルターを使用して、コンテキスト条件に基づいてリストを調整します。
 
-![スクリーンショットは、リスト表示の絞り込みに使用できるフィルターオプションを示しています。](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![スクリーンショットは、リスト表示の絞り込みに使用できるフィルターオプションを示しています。](assets/filter.png){zoomable="yes"}{width="70%"}
 
 フィルターの使用方法と独自のカスタムフィルターの作成方法について詳しくは、[この節](../query/filter.md)を参照してください。
 
@@ -75,5 +75,5 @@ Only the most common attributes are displayed by default in the attribute list a
 
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list updates instantly.
 
-[The screenshot shows the Display advanced attributes toggle used to reveal hidden attributes in the rule builder palette.](assets/adv-toggle.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+[The screenshot shows the Display advanced attributes toggle used to reveal hidden attributes in the rule builder palette.](assets/adv-toggle.png){zoomable="yes"}{width="70%" zoomable="yes"}
 -->
