@@ -3,7 +3,7 @@ audience: end-user
 title: Campaign のルールビルダーを使用してオーディエンスを作成
 description: ルールビルダーを操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 左側のパレットには、オーディエンスを作成するのにフィルタリングできるすべての要素が含まれています。 要素をすばやく見つけるには、検索バーを使用します。 パレットに含まれているタイルを設定し考慮するには、中央のキャンバスに移動します。
 
-![フィルタリングオプションとタブを示すパレットインターフェイス](assets/segment-builder2.png){zoomable="yes"}{width="70%" align="left"}
+![フィルタリングオプションとタブを示すパレットインターフェイス](assets/segment-builder2.png){zoomable="yes"}{width="70%"}
 
 パレットは次の 2 つのタブに分かれています。
 
@@ -37,13 +37,13 @@ ht-degree: 100%
 
 キャンバスは、パレットから追加された要素を基に、ルールを設定したり組み合わせたりできる中央ゾーンです。 新しいルールを追加するには、パレットからタイルをドラッグし、キャンバスにドロップします。 コンテキスト固有のオプションは、追加するデータのタイプに基づいて表示されます。
 
-![ルール設定オプションを示すキャンバスインターフェイス](assets/segment-builder4.png){zoomable="yes"}{width="70%" align="left"}
+![ルール設定オプションを示すキャンバスインターフェイス](assets/segment-builder4.png){zoomable="yes"}{width="70%"}
 
 ## ルールのプロパティパネル
 
 右側にある&#x200B;**ルールのプロパティ**&#x200B;パネルでは、次のアクションを実行できます。
 
-![使用可能なアクションを示すルールのプロパティパネル](assets/segment-builder5.png){zoomable="yes"}{width="70%" align="left"}
+![使用可能なアクションを示すルールのプロパティパネル](assets/segment-builder5.png){zoomable="yes"}{width="70%"}
 
 * **結果を表示：**&#x200B;オーディエンスのターゲットとなるプロファイルのリストを表示します。
 * **コードビュー**：オーディエンスのコードベースのバージョンを SQL で表示します。
