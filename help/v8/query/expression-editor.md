@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: eceffbb89ed4635df723e139bb2dab8b7efc1d30
 workflow-type: tm+mt
-source-wordcount: 2199
-ht-degree: 100%
+source-wordcount: 2152
+ht-degree: 98%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->クエリモデラーで新しいインターフェイスを使用できます。この新しいルールビルダーエクスペリエンスに切り替えるには、右上隅の切替スイッチボタンを押します。 切替スイッチボタンを押して新しいインターフェイスを無効にするだけで、いつでも従来のクエリモデラーに戻ることができます。 この新しいインターフェイスでは、クエリモデラーと同じ原則を適用できます。
->![新しいルールビルダーインターフェイスの切替スイッチを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
+>クエリモデラの新しいインターフェイスが使用できるようになりました。この新しいルールビルダーエクスペリエンスに切り替えるには、右上隅のトグルボタンを押します。トグルを押して新しいインターフェイスを無効にするだけで、いつでも従来のクエリモデラーに戻すことができます。この新しいインターフェイスでは、クエリモデラと同じ原則を適用できます。
+>![新しいルールビルダーインターフェイスの切り替えスイッチを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## 式エディターの操作 {#edit}
 
@@ -533,7 +533,7 @@ ht-degree: 100%
    <td> <strong>DefaultFolder</strong><br /> </td> 
    <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
    <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
-  </tr> 
+  </tr>
   -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
