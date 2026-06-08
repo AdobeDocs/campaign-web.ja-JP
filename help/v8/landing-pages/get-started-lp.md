@@ -5,15 +5,12 @@ description: Campaign Web のランディングページについて学ぶ
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
 TQID: https://experienceleague.adobe.com/2iCdY2zsGGy6us4VqszVNGpB1LeVmtZ2D1jKImBUuMA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 268
+workflow-type: ht
+source-wordcount: 266
 ht-degree: 100%
 
 ---
@@ -38,13 +35,13 @@ ht-degree: 100%
 * [!DNL Adobe Campaign] のコンテンツデザイン機能を活用して、**レスポンシブランディングページ**&#x200B;を簡単に作成します。 [詳細情報](lp-content.md)
 * **オプトインとオプトアウトのフロー**&#x200B;を迅速かつシームレスに設定します。 [詳細情報](lp-use-cases.md)
 * 購読サービスを作成して、ユーザーが&#x200B;**サービスを購読**&#x200B;できるようにします。 [詳細情報](lp-use-cases.md#lp-subscription)
-* 受信者に通信の受信を&#x200B;**登録解除できる機能**&#x200B;を提供します。 [詳細情報](lp-use-cases.md#lp-unsubscription)
+* 受信者にコミュニケーションの受信を&#x200B;**登録解除できる機能**&#x200B;を提供する。[詳細情報](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="事前入力済みテンプレートを使用したランディングページの作成" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="事前入力済みテンプレートを使用してランディングページを作成" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong>ランディングページの作成</strong>
 </div>

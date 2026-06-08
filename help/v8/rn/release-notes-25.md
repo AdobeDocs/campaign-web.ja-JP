@@ -3,25 +3,14 @@ title: Campaign v8 web ユーザーインターフェイスの以前のリリー
 description: 2025 Campaign web ユーザーインターフェイスリリース
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 TQID: https://experienceleague.adobe.com/z7Nz4ghVS6vEP7Aa3lgB1fv66coY-MCvyGALfzOn0O0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3032
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -324,7 +313,7 @@ table>
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -375,7 +364,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>ブランドを作成およびカスタマイズして、コミュニケーション全体でビジュアルおよび口頭でのアイデンティティを明確に定義できるようになりました。ブランドの整合性スコアを利用すれば、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するフィードバックをリアルタイムで受け取ることができ、送信するあらゆるメッセージでブランド基準を一貫して維持することができます。
+<p>自分のブランドを作成し、カスタマイズできるようになりました。これにより、あらゆるコミュニケーションにおいて、視覚的および言語的なアイデンティティを明確に定義できます。ブランド整合性スコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するフィードバックをリアルタイムで受信でき、送信するすべてのメッセージでブランドに即して一貫性を保つことができます。
 </p>
 <p>詳しくは、<a href="../content/brands.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -436,7 +425,7 @@ table>
 <tr>
 <td>
 <p>マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供する動的レポートにアクセスできるようになりました。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。 また、動的レポートは、多言語のメール配信とトランザクションメッセージにも使用できます。</p>
-<p>この機能はオンデマンドでのみ利用できます。アクセスするには、Adobe担当者にお問い合わせください。サーバーは最低8.8.1にアップグレードする必要があります。クライアントコンソール <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank"> リリースノート </a>を参照してください。
+<p>この機能はオンデマンドでのみ利用できます。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以降にアップグレードされている必要があります。クライアントコンソールの<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
 <p>詳しくは、<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -453,7 +442,7 @@ table>
 <tr>
 <td>
 <p>技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。 ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。 これらのブランドを作成して、メッセージやランディングページにリンクできます。 こうした設定はテンプレートで管理されます。 ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで使用できます。</p>
-<p>この機能は、新しい実装のために、オンデマンドでのみ利用可能です。アクセスするには、Adobe担当者にお問い合わせください。サーバーは最低8.8.1にアップグレードする必要があります。クライアントコンソール <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank"> リリースノート </a>を参照してください。
+<p>この機能は、新規導入時に限りオンデマンドで利用可能です。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以降にアップグレードされている必要があります。クライアントコンソールの<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
 <p>詳しくは、<a href="../administration/branding/branding-gs.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -473,14 +462,14 @@ table>
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=ja){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -507,10 +496,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=ja) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -649,8 +638,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tbody>
 <tr>
 <td>
-<p>Campaign管理者は、Campaign Web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。
-また、既存の外部アカウントを表示、更新、管理することもできます。</p>
+<p>Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。また、既存の外部アカウントを表示、更新、管理することも可能です。</p>
 <p>詳しくは、<a href="../administration/external-account.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -688,7 +676,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >次の機能は、限定提供（LA）です。 **Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。 Campaign サーバーを v8.7.4 にアップグレードする必要があります。
 >
->次のドキュメントページを参照してください。[Campaign v8](../rn/acs-migration.md)へのCampaign Standardの移行
+>以下のドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)を参照してください。
 
 * **多言語配信の作成** - Adobe Campaign web ユーザーインターフェイスで、複数のメール配信を異なる言語で送信できるようになりました。 多言語配信機能を使用すると、配信のデフォルト言語と、配信を送信できる様々な言語を選択できます。 また、選択した言語でこれらの配信をプレビューすることもできます。 詳しくは、[詳細ドキュメント](../email/edit-content.md)を参照してください。
 

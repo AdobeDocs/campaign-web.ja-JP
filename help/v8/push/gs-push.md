@@ -4,12 +4,10 @@ title: プッシュ通知の基本を学ぶ
 description: Adobe Campaign Web を使用してプッシュ通知を作成し、送信する方法を学ぶ
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 206
 ht-degree: 100%
 
@@ -40,10 +38,10 @@ ht-degree: 100%
 </td>
 <td>
 <a href="content-push.md">
-<img alt="プッシュ配信をデザイン" src="assets/do-not-localize/push_design.jpeg">
+<img alt="プッシュ配信の設計" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md"><strong>プッシュ配信のデザイン<strong></strong></a>
+<a href="content-push.md"><strong>プッシュ配信をデザイン<strong></strong></a>
 </div>
 <p></td>
 <td>
