@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3032
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>ブランドを作成およびカスタマイズして、コミュニケーション全体でビジュアルおよび口頭でのアイデンティティを明確に定義できるようになりました。ブランドの整合性スコアを利用すれば、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するフィードバックをリアルタイムで受け取ることができ、送信するあらゆるメッセージでブランド基準を一貫して維持することができます。
+<p>自分のブランドを作成し、カスタマイズできるようになりました。これにより、あらゆるコミュニケーションにおいて、視覚的および言語的なアイデンティティを明確に定義できます。ブランド整合性スコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するフィードバックをリアルタイムで受信でき、送信するすべてのメッセージでブランドに即して一貫性を保つことができます。
 </p>
 <p>詳しくは、<a href="../content/brands.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供する動的レポートにアクセスできるようになりました。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。 また、動的レポートは、多言語のメール配信とトランザクションメッセージにも使用できます。</p>
-<p>この機能はオンデマンドでのみ利用できます。アクセスするには、Adobe担当者にお問い合わせください。サーバーは最低8.8.1にアップグレードする必要があります。クライアントコンソール <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank"> リリースノート </a>を参照してください。
+<p>この機能はオンデマンドでのみ利用できます。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以降にアップグレードされている必要があります。クライアントコンソールの<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
 <p>詳しくは、<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。 ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。 これらのブランドを作成して、メッセージやランディングページにリンクできます。 こうした設定はテンプレートで管理されます。 ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで使用できます。</p>
-<p>この機能は、新しい実装のために、オンデマンドでのみ利用可能です。アクセスするには、Adobe担当者にお問い合わせください。サーバーは最低8.8.1にアップグレードする必要があります。クライアントコンソール <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank"> リリースノート </a>を参照してください。
+<p>この機能は、新規導入時に限りオンデマンドで利用可能です。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以降にアップグレードされている必要があります。クライアントコンソールの<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
 <p>詳しくは、<a href="../administration/branding/branding-gs.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -649,8 +649,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tbody>
 <tr>
 <td>
-<p>Campaign管理者は、Campaign Web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。
-また、既存の外部アカウントを表示、更新、管理することもできます。</p>
+<p>Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。また、既存の外部アカウントを表示、更新、管理することも可能です。</p>
 <p>詳しくは、<a href="../administration/external-account.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -688,7 +687,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >次の機能は、限定提供（LA）です。 **Adobe Campaign Standard から Adobe Campaign v8** に移行するお客様に限定され、他の環境にはデプロイできません。 Campaign サーバーを v8.7.4 にアップグレードする必要があります。
 >
->次のドキュメントページを参照してください。[Campaign v8](../rn/acs-migration.md)へのCampaign Standardの移行
+>以下のドキュメントページの [Campaign v8 への Campaign Standard の移行](../rn/acs-migration.md)を参照してください。
 
 * **多言語配信の作成** - Adobe Campaign web ユーザーインターフェイスで、複数のメール配信を異なる言語で送信できるようになりました。 多言語配信機能を使用すると、配信のデフォルト言語と、配信を送信できる様々な言語を選択できます。 また、選択した言語でこれらの配信をプレビューすることもできます。 詳しくは、[詳細ドキュメント](../email/edit-content.md)を参照してください。
 

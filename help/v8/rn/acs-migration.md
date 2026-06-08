@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 570
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 ## 特定の機能 {#new-features}
 
-Campaign v8へのスムーズな移行を実現するために、主要なCampaign Standard機能がCampaign v8に追加されました。
+Campaign v8 へのスムーズな移行を行うために、Campaign v8 に Campaign Standard の主な機能が追加されました。
 
 * **動的レポート**：動的レポートでは、マーケティングアクティビティの影響を測定する、カスタマイズ可能なリアルタイムのレポートを提供します。 これには、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのディメンション別のデモグラフィック分析のためのプロファイルデータへのアクセスが含まれます。 [詳細情報](../reporting/dynamic-reporting/get-started-reporting.md)。
 
