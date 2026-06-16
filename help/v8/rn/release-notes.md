@@ -12,9 +12,9 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6581a2d6ab44b711ed6aea6736d60f932a7ce315
+source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
 workflow-type: tm+mt
-source-wordcount: 242
+source-wordcount: 243
 ht-degree: 45%
 
 ---
@@ -42,11 +42,7 @@ _2026年6月16日_
 
 * **重複排除**&#x200B;および&#x200B;**終了** ワークフローアクティビティで、複数のインバウンド移行がサポートされるようになりました。 いつ
 複数のインバウンドトランジションを使用できます。アクティビティの&#x200B;**セットを使用して** セクションに参加してください
-接続するトランジションを選択するプロパティ。 詳しくは、次のページを参照してください：[重複排除](../workflows/activities/deduplication.md),
-
-<!--
-[End](../workflows/activities/end.md)
--->
+接続するトランジションを選択するプロパティ。 詳しくは、次のページを参照してください：[重複排除](../workflows/activities/deduplication.md)、[終了](../workflows/activities/end.md)
 
 * 高度なパラメーターが、**ビルドオーディエンス** （クエリタイプ）および&#x200B;**エンリッチメント** ワークフローアクティビティの&#x200B;**エンリッチメントデータ** セクションに公開されるようになりました。 これらのパラメーターを使用して、グループ化、重複排除、プライマリキーの処理、インバウンドイベントデータなど、エンリッチメントデータの構築方法を調整できます。 [詳細情報](../workflows/activities/enrichment.md)
 
