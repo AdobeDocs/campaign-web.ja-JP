@@ -6,10 +6,10 @@ exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
 TQID: https://experienceleague.adobe.com/6CerJ1hOBDDc3gAN-AQFuxkiBpbcxH-2YLPAXaBpanE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
+source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 88%
+source-wordcount: 518
+ht-degree: 87%
 
 ---
 
@@ -63,7 +63,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 1. ターゲティングディメンションの横にあるアイコンをクリックして、「**フィルタリングディメンション**」を選択します。 フィルタリングディメンションを使用すると、メインのターゲティングディメンションを変更せずに、関連する条件を参照して、ターゲット母集団にフィルターを適用できます。 [ターゲティングディメンションについての詳細を学ぶ](../../audience/targeting-dimensions.md#filtering)
 1. 「**続行**」をクリックします。
 1. 新しいメールをデザインする際にオーディエンスを作成するのと同じ方法で、クエリモデラーを使用してクエリを定義します。 [クエリモデラーの操作方法の詳細を学ぶ](../../query/query-modeler-overview.md)
-1. 「**エンリッチメントデータ**」セクションを使用して、契約参照やニュースレター購読など、データベースからの追加情報でターゲットデータを強化します。 そのデータは、ワークフロー&#x200B;**ワークテーブル**&#x200B;のオーディエンスと共に保存され、後のアクティビティで使用できます。 単一のエンリッチメント属性、コレクションリンク、またはエクスプレッションを追加できます。 詳細な手順と例については、[&#x200B; エンリッチメントデータの追加](enrichment.md#enrichment-add)を参照してください。
+1. 「**エンリッチメントデータ**」セクションを使用して、契約参照やニュースレター購読など、データベースからの追加情報でターゲットデータを強化します。 そのデータは、ワークフロー&#x200B;**ワークテーブル**&#x200B;のオーディエンスと共に保存され、後のアクティビティで使用できます。 単一のエンリッチメント属性、コレクションリンク、またはエクスプレッションを追加し、詳細オプションにアクセスできます。 詳細な手順と例については、[&#x200B; エンリッチメントデータの追加](enrichment.md#enrichment-add)を参照してください。
 
 >[!TAB オーディエンスの閲覧]
 
