@@ -4,12 +4,11 @@ title: 配信ログの監視
 description: 配信ログの監視方法について説明します
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
 TQID: https://experienceleague.adobe.com/70yFDGvkMFv82CTMbN3cbzS6nXLmYGRZ7as20DYYXRs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 43a0518b8d273a8b4fcd56a529f6af6bb70a2530
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 100%
+source-wordcount: 456
+ht-degree: 94%
 
 ---
 
@@ -23,6 +22,10 @@ ht-degree: 100%
 配信の準備が整い、「**送信**」ボタンをクリックしたら、配信ログを参照して、警告、エラー、ステータス、除外、トラッキングデータを確認します。 これらのログは、メッセージダッシュボードから直接アクセスできます。 送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
 
 ログを表示するには、配信ダッシュボードにアクセスし、「**ログ**」ボタンをクリックします。
+
+>[!TIP]
+>
+>各ログタブは、リストの上にある「**読み込まれた行をCSV**&#x200B;として書き出し」ボタンを使用して、CSV ファイルとして書き出すことができます。 詳しくは、[ リストデータの書き出し](../get-started/list-filters.md#export-list)を参照してください。
 
 次のタブを使用できます。
 
