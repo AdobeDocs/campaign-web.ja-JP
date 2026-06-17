@@ -4,8 +4,10 @@ title: リストの参照とフィルタリング
 description: Campaign Web v8 のリストを参照およびフィルタリングする方法の確認
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
 TQID: https://experienceleague.adobe.com/GKGmvMJtlQgAftvZuOb33tQSgqHC9s8qlYJMVFnWjz0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: b510c77a5a9c763e37a79137becaf4f192c52ce5
 workflow-type: tm+mt
 source-wordcount: 433
@@ -60,7 +62,7 @@ ht-degree: 72%
 1. 必要に応じて、下にスクロールしてさらに行を表示します。 リストに現在ロードされている行のみが書き出されます。
 1. リストの上にある「**読み込まれた行をCSV**&#x200B;として書き出し」ボタンをクリックします。 ファイルは、ブラウザーのデフォルトのダウンロードフォルダーに保存されます。
 
-![ スクリーンショットには、リストの書き出しが表示されています。](assets/filter-export.png){zoomable="yes"}
+![&#x200B; スクリーンショットには、リストの書き出しが表示されています。](assets/filter-export.png){zoomable="yes"}
 
 
 <!--
