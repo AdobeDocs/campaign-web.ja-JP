@@ -4,9 +4,12 @@ title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
 TQID: https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3207311cda7b2b88b68ef194d2776ae40e907f48
 workflow-type: tm+mt
 source-wordcount: 2327
@@ -76,7 +79,7 @@ ht-degree: 87%
 
 少なくとも1つのエンリッチメント属性を追加したら、**[!UICONTROL 詳細パラメーター]**&#x200B;をクリックして、グループ化、重複排除、プライマリキーの処理、インバウンドイベントデータなど、エンリッチメントデータの構築方法を設定します。 これらのオプションは、クライアントコンソールをミラーリングし、高度なワークフローシナリオを目的としています。
 
-エンリッチメントの詳細パラメーターを示す![ スクリーンショット ](../assets/workflow-query-advanced-parameters.png)
+エンリッチメントの詳細パラメーターを示す![&#x200B; スクリーンショット &#x200B;](../assets/workflow-query-advanced-parameters.png)
 
 >[!NOTE]
 >
@@ -207,7 +210,7 @@ ht-degree: 87%
 
 ワークフロー内で、エンリッチメントアクティビティから取得したオファーを配信で使用する場合は、次の手順に従います。
 
-1. 配信アクティビティを開き、コンテンツ編集に移動します。「**[!UICONTROL オファー設定]**」ボタンをクリックし、ドロップダウンリストから、オファーに対応する&#x200B;**[!UICONTROL オファースペース]**を選択します。
+1. 配信アクティビティを開き、コンテンツ編集に移動します。「**[!UICONTROL オファー設定]**」ボタンをクリックし、ドロップダウンリストから、オファーに対応する&#x200B;**[!UICONTROL オファースペース]**&#x200B;を選択します。
 エンリッチメントアクティビティからのオファーのみを表示する場合は、**[!UICONTROL 提案]**&#x200B;の数を 0 に設定し、変更を保存します。
 
    ![](../assets/offers-settings.png)
