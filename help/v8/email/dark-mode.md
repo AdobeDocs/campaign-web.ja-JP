@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1519
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ E メールデザイナーでダークモードのカスタム設定を定義し
 
 ### 独自のダークモードを適用しているクライアント {#default-support}
 
-一部のメールクライアントでは、受信したすべてのメールに対して、独自のデフォルトのダークモードが体系的に適用されます。 色、背景、画像などは、メールクライアント固有のダークモード設定で自動的に調整されるため、外部からの変更は不可能です。
+一部のメールクライアントでは、受信したすべてのメールに対して、独自のデフォルトのダークモードが体系的に適用されます。 色、背景、画像などはメールクライアント固有のダークモード設定で自動的に調整されるので、外部からの変更はできません。
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 

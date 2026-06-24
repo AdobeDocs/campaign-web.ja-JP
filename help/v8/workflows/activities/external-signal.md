@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 411
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
 
    * ラベルの横に表示される&#x200B;**ワークフローの内部名**。
 
-     +++事例を見る
+     +++例を表示
 
      ![スクリーンショットは、ラベルの横にワークフローの内部名を示します。](../assets/external-signal-workflow-name.png)
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
    * ワークフローの&#x200B;**[!UICONTROL 実行オプション]**&#x200B;に表示される&#x200B;**外部シグナルアクティビティの名前**。
 
-     +++事例を見る
+     +++例を表示
 
      ![スクリーンショットは、実行オプションに外部シグナルアクティビティの名前を示します。](../assets/external-signal-name.png)
 
@@ -78,7 +78,7 @@ ht-degree: 98%
      xtk.workflow.PostEvent("<workflow-internal-name>","<signal-activity-name>","",<variables <variable-name>="<value>"/>, false);
      ```
 
-   +++事例を見る
+   +++例を表示
 
    この例では、「signal1」外部シグナルアクティビティをトリガーします。 内部名が「WKF12345」のワークフローに追加されました。 「customID」という名前の変数が、値「123456」と共に渡されます。
 

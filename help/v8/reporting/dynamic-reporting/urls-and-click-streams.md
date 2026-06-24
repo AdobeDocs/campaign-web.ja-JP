@@ -6,7 +6,7 @@ audience: end-user
 exl-id: bccd04f1-d4f2-474c-89eb-c0b1087a3946
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: ht
-source-wordcount: '116'
+source-wordcount: '119'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ![](assets/delivery_reports_8.png)
 
-各テーブルは、概要の数値とグラフで表されています。それぞれのビジュアライゼーション設定で、詳細の表示方法を変更できます。
+各テーブルは、概要の数値とグラフで表されています。 それぞれのビジュアライゼーション設定で、詳細の表示方法を変更できます。
 
 **最も多く訪問されたリンク**&#x200B;テーブルには、配信ごとの受信者の行動に関する次のような利用可能なデータが含まれます。
 

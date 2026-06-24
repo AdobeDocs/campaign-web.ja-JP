@@ -12,9 +12,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1707
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -299,7 +299,7 @@ ht-degree: 99%
 
 ![ユーザーアクティビティレポートのスクリーンショット](assets/campaign_report_email_user_activities.png){zoomable="yes"}{align="center"}
 
-+++メール配信レポート指標の詳細。
++++メール配信レポート指標の詳細情報。
 
 * **[!UICONTROL クリック数]**：配信におけるリンクの合計クリック数。
 

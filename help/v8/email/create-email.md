@@ -10,9 +10,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1695
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 98%
 
 このユースケースでは、ターゲットプロファイルの一部を偽装して、メールをプレビューし、特定のメールアドレスに本配信前確認を送信します。
 
-また、コンテンツの品質を検証して、読みやすさ、CTAの有効性、件名の品質などをチェックすることもできます。 [&#x200B; コンテンツ品質検証について詳しく見る](../content/brands-score.md#validate-quality)
+また、コンテンツの品質を検証して、読みやすさ、CTA 効果、件名の品質などを確認することもできます。[詳しくは、コンテンツ品質の検証を参照してください](../content/brands-score.md#validate-quality)
 
 メールのプレビューと本配信前確認の送信方法に関する追加情報について詳しくは、[この節](../preview-test/preview-test.md)を参照してください。
 

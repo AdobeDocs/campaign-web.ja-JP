@@ -9,9 +9,9 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 251
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 
 1. 配信作成アシスタントの「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックします。
 
-   [「オーディエンスを選択」ボタンが強調表示された、配信作成アシスタントの「オーディエンス」セクションを示すスクリーンショット](assets/segment-builder0.png){zoomable="yes"}
+   [「オーディエンスを選択」ボタンがハイライト表示された配信作成アシスタントの「オーディエンス」セクションを示すスクリーンショット](assets/segment-builder0.png){zoomable="yes"}
 
 1. 「**独自に作成**」を選択して、クエリモデラーを開きます。 クエリモデラーを使用すると、データベースに含まれているデータをフィルタリングして、ターゲット母集団を定義できます。 [詳しくは、クエリモデラーの使用方法を参照してください](../query/query-modeler-overview.md)。
 

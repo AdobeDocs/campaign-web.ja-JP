@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1070
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,7 @@ ht-degree: 99%
 * リストに表示されるワークフローの&#x200B;**[!UICONTROL ラベル]**。
 * ワークフローの&#x200B;**[!UICONTROL 内部名]**。
 * ワークフローを保存する&#x200B;**[!UICONTROL フォルダー]**。
-* すべてのワークフローのアクティビティで使用する既定の&#x200B;**[!UICONTROL タイムゾーン]**。デフォルトでは、ワークフローのタイムゾーンは、現在のCampaign オペレーターに対して定義されたものです。
-使用可能な値は次のとおりです。
+* ワークフローのアクティビティすべてで使用するデフォルトの&#x200B;**[!UICONTROL タイムゾーン]**。デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。可能な値は次のとおりです。
    * **サーバーのタイムゾーン**：Adobe Campaign アプリケーションサーバーのタイムゾーンを使用します。
    * **オペレーターのタイムゾーン**：オペレーターのプロファイルで定義しているように、クライアントコンソールでワークフローを実行する Adobe Campaign オペレーターのタイムゾーンを使用します。
    * **データベースのタイムゾーン**：データベースサーバーのタイムゾーンを使用します。

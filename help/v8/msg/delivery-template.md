@@ -16,7 +16,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1109
 ht-degree: 100%
 
@@ -181,7 +181,7 @@ ht-degree: 100%
 
 ## 配信テンプレートをテスト {#test-template}
 
-ゼロから作成した場合も、既存のコンテンツから作成した場合も、配信テンプレートのレンダリングをテストできます。 それには、次の手順に従います。
+ゼロから作成した場合も、既存のコンテンツから作成した場合も、配信テンプレートのレンダリングをテストできます。 これを行うには、次の手順に従います。
 
 1. **[!UICONTROL キャンペーン管理]**／**[!UICONTROL 配信]**&#x200B;メニューから「**テンプレート**」タブに移動し、任意のテンプレートを選択します。 [詳細情報](#access-manage-templates)
 

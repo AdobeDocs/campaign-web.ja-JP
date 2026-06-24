@@ -5,9 +5,9 @@ level: Beginner
 audience: end-user
 exl-id: d79f8a07-2322-4bc7-9d74-446db24a8d70
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 動的レポートは次の 2 つのカテゴリに分かれています。
 
-* **テンプレート**。**別名で保存** オプション（**プロジェクト/別名で保存…**）を使用してコピーすると変更できます。 テンプレート内で利用できます。
+* **テンプレート**&#x200B;は、テンプレートの「**名前を付けて保存**」オプション（**プロジェクト／名前を付けて保存…**）を使用してコピーすることで変更できます。
 * **カスタムレポート**（青色で表示）は、**レポート**&#x200B;ホームページの「**新規プロジェクトの作成**」ボタンをクリックすることで、直接作成できます。
 
 ![](assets/dynamic_report_overview.png)

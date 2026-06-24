@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 545
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 ![配信の概要レポートに表示される配信の概要指標](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
-+++プッシュキャンペーンレポート指標の詳細。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -53,7 +53,7 @@ ht-degree: 94%
 
 ![レポートに表示される初期ターゲットオーディエンス統計](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
-+++プッシュキャンペーンレポート指標の詳細。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 初期オーディエンス]**：ターゲット受信者の合計数。
 
@@ -74,7 +74,7 @@ ht-degree: 94%
 
 ![レポートに表示される実行統計](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++プッシュキャンペーンレポート指標の詳細。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -99,7 +99,7 @@ ht-degree: 94%
 
 ![レポートに表示された生成クリックストリーム](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++プッシュキャンペーンレポート指標の詳細。
++++プッシュキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 

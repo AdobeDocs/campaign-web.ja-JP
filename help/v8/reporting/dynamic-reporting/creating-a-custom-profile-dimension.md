@@ -6,9 +6,9 @@ content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '517'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 
    ![](assets/custom_field_1.png)
 
-1. カスタム受信者スキーマを特定し、選択します。ビルトイン nms:recipient スキーマをまだ拡張していない場合は、[&#x200B; この手順 &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) を参照してください。
+1. カスタム受信者スキーマを特定し、選択します。 ビルトイン nms:recipient スキーマをまだ拡張していない場合は、[この手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)を参照してください。
 
 1. カスタムフィールドをスキーマエディターに追加します。
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. 次に、カスタム broadLogRcp スキーマを特定して選択します。ビルトイン配信ログスキーマをまだ拡張していない場合は、[この手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)を参照してください。
+1. 次に、カスタム broadLogRcp スキーマを特定して選択します。 ビルトイン配信ログスキーマをまだ拡張していない場合は、[この手順](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)を参照してください。
 
 1. 受信者スキーマと同じカスタムフィールドをスキーマエディターに追加します。
 
@@ -50,7 +50,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. スキーマに加えた変更を適用するには、**[!UICONTROL ツール]**／**[!UICONTROL 詳細]**／**[!UICONTROL データベース構造を更新]**&#x200B;からデータベース更新ウィザードを起動して、「データベース構造を更新」を実行します。[詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. スキーマに加えた変更を適用するには、**[!UICONTROL ツール]**／**[!UICONTROL 詳細]**／**[!UICONTROL データベース構造を更新]**&#x200B;からデータベース更新ウィザードを起動して、「データベース構造を更新」を実行します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 
@@ -64,7 +64,7 @@ ht-degree: 97%
 
 プロファイルフィールドを作成したら、対応する動的レポートのディメンションにこのフィールドをリンクする必要があります。
 
-プロファイルフィールドを使用してログを拡張する前に、PII データを動的レポートに送信できるように PII ウィンドウが許可されていることを確認します。詳しくは、この[ページ](pii-agreement.md)を参照してください。
+プロファイルフィールドを使用してログを拡張する前に、PII データを動的レポートに送信できるように PII ウィンドウが許可されていることを確認します。 詳しくは、この[ページ](pii-agreement.md)を参照してください。
 
 1. エクスプローラーの&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL 設定]**／**[!UICONTROL データスキーマ]**／**[!UICONTROL 追加のレポートフィールド]**&#x200B;フォルダーに移動します。
 
@@ -76,13 +76,13 @@ ht-degree: 97%
 
    ![](assets/custom_field_6.png)
 
-1. 「**[!UICONTROL 終了]**」をクリックします。
+1. 「**[!UICONTROL 完了]**」をクリックします。
 
 1. 動的レポートに表示されるディメンション&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力し、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/custom_field_7.png)
 
-レポートで、プロファイルフィールドをプロファイルディメンションとして使用できるようになりました。プロファイルディメンションを削除するには、ディメンションを選択して&#x200B;**[!UICONTROL 削除]**&#x200B;アイコンをクリックします。
+レポートで、プロファイルフィールドをプロファイルディメンションとして使用できるようになりました。 プロファイルディメンションを削除するには、ディメンションを選択して&#x200B;**[!UICONTROL 削除]**&#x200B;アイコンをクリックします。
 
 このプロファイルフィールドを使用して受信者スキーマを拡張し、カスタムディメンションを作成したので、配信で受信者のターゲティングを開始できます。
 

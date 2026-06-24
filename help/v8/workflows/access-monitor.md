@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/Xb9IpNhdTmJ3Ho8r8-cWUhVioaSjvMTnFkfk5ze
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 777611699d3d4189cdd7d0d7ded66a9b08cf26cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 363
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 89%
 * **[!UICONTROL ドラフト]**：ワークフローが作成され、保存されました。
 * **[!UICONTROL 処理中]**：ワークフローは現在実行中です。
 * **[!UICONTROL 完了]**：ワークフローの実行が完了しました。
-* **[!UICONTROL 一時停止]**: ワークフローは、手動またはエラー発生後に自動的に一時停止されました。 エラーが原因でワークフローが一時停止した場合は、ワークフローを開き、ログとタスクにアクセスして問題を特定し、解決します。 [ログとタスクの監視方法を学ぶ](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL 一時停止]**：ワークフローは、エラー発生後、手動または自動で一時停止されました。ワークフローがエラーにより一時停止された場合は、ワークフローを開き、ログとタスクにアクセスして問題を特定し、解決します。[ログとタスクの監視方法を学ぶ](start-monitor-workflows.md#logs-tasks)
 
 ワークフローの実行を開始および監視する方法について詳しくは、[このページ](start-monitor-workflows.md)を参照してください。
 

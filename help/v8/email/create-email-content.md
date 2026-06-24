@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 676
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
    ![E メールデザイナーの構造コンポーネントパネルを示すスクリーンショット。](assets/email_designer_structure_components.png){zoomable="yes"}
 
-1. **[!UICONTROL n:n列]** コンポーネントを選択して、選択した列数（3 ～ 10個）を定義します。 各列の下部にある矢印を移動して、各列の幅を定義します。
+1. **[!UICONTROL n:n 列]**&#x200B;コンポーネントを選択して、選択した列数（3～10個）を定義します。各列の下部にある矢印を移動して、各列の幅を定義します。
 
    >[!NOTE]
    >
@@ -109,7 +109,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
    ![E メールデザイナーのシミュレーションオプションを示すスクリーンショット。](assets/email_designer-simulate.png){zoomable="yes"}
 
-1. また、コンテンツの品質を検証して、読みやすさ、CTAの効果、件名の品質などを評価することもできます。 [&#x200B; コンテンツ品質検証について詳しく見る](../content/brands-score.md#validate-quality)
+1. また、コンテンツの品質を検証して、読みやすさ、CTA 効果、件名の品質などを評価することもできます。[詳しくは、コンテンツ品質の検証を参照してください](../content/brands-score.md#validate-quality)
 
 1. メールの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 

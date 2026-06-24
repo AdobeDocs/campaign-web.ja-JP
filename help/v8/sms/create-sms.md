@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 552
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL コントロール母集団を有効にする]**」オプションをオンにして、配信の影響を測定するコントロール母集団を設定します。 そのコントロール母集団にはメッセージが送信されないので、メッセージを受信した母集団の行動と、受信しなかった連絡先の行動を比較できます。 [詳細情報](../audience/control-group.md)
 
-1. プロファイルの優先言語に基づいてメッセージを送信するように、SMS配信を多言語配信として設定できます。 [詳細情報](../msg/multilingual.md)。
+1. SMS 配信を多言語配信として設定すると、プロファイルの優先言語に基づいてメッセージを送信できます。[詳細情報](../msg/multilingual.md)。
 
 1. 「**[!UICONTROL コンテンツの編集]**」をクリックして、SMS メッセージのコンテンツのデザインを開始します。 [詳細情報](content-sms.md)
 

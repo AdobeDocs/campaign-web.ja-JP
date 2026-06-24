@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/U-EF1-B9KZ1bbmh5Khlw-89zuo5garZiWeC-lHx
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 379
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 
   >[!AVAILABILITY]
   >
-  >この機能を使用するには、Campaign v8.6.4へのアップデートが必要です。 詳しくは、[Campaign v8 クライアントコンソールのリリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
+  >この機能を使用するには、Campaign v8.6.4 へのアップデートが必要です。詳しくは、[Campaign v8 クライアントコンソールリリースノート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
 
 ## さらに深く掘り下げましょう
 

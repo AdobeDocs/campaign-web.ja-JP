@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: 配信ワークフローアクティビティの使用
-description: 配信ワークフローアクティビティ（メール、プッシュ、SMS、WhatsApp、ダイレクトメール）の追加方法について説明します
+description: 配信ワークフローアクティビティ（メール、プッシュ、SMS、WhatsApp、ダイレクトメール）を追加する方法について説明します
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
 TQID: https://experienceleague.adobe.com/A58FyTL-G-NDqeY27VY8ZKw5iHg7iQ9KMdOob-yFCFM
 product_v2:
@@ -9,15 +9,15 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 995
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 電子メール、SMS、WhatsApp、プッシュ通知、ダイレクトメールアクティビティ {#channel}
+# メール, SMS, WhatsApp, プッシュ, ダイレクトメールアクティビティ {#channel}
 
-Adobe Campaign Webを活用すれば、電子メールやSMS、WhatsApp、ダイレクトメール、プッシュチャネルをまたいでマーケティングキャンペーンを自動的に展開し、展開できます。 チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーするクロスチャネルワークフローを作成できます。
+Adobe Campaign web を使用すると、メール、SMS、WhatsApp、ダイレクトメール、プッシュチャネルにおいて、マーケティングキャンペーンを自動化および実行できます。チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーするクロスチャネルワークフローを作成できます。
 
 例えば、メール、SMS、プッシュ、ダイレクトメールなど、様々なチャネルをまたいで一連のメッセージを含むウェルカムメールキャンペーンを作成します。 また、顧客が購入を完了した後や、SMS を使用してパーソナライズされた誕生日メッセージを顧客に送信した後に、フォローアップメールを送信することもできます。
 
@@ -30,7 +30,7 @@ Adobe Campaign Webを活用すれば、電子メールやSMS、WhatsApp、ダイ
 >* [スタンドアロン SMS 配信を作成](../../sms/create-sms.md)
 >* [スタンドアロンプッシュ配信を作成](../../push/create-push.md)
 >* [スタンドアロンダイレクトメール配信を作成](../../direct-mail/create-direct-mail.md)
->* [&#x200B; スタンドアロン WhatsApp配信の作成](../../whatsapp/create-whatsapp.md)
+>* [スタンドアロン WhatsApp 配信を作成](../../whatsapp/create-whatsapp.md)
 
 ## 前提条件 {#channel-activity-prereq}
 
@@ -77,7 +77,7 @@ Adobe Campaign Webを活用すれば、電子メールやSMS、WhatsApp、ダイ
 
 ワークフローのコンテキストで配信を設定するには、次の手順に従います。
 
-1. チャネルアクティビティを追加：**[!UICONTROL 電子メール]**、**[!UICONTROL SMS]**、**[!UICONTROL WhatsApp]**、**[!UICONTROL プッシュ通知（Android）]**、**[!UICONTROL プッシュ通知（iOS）]**、または&#x200B;**[!UICONTROL ダイレクトメール]**。
+1. チャネルアクティビティ（**[!UICONTROL メール]**、**[!UICONTROL SMS]**、**[!UICONTROL WhatsApp]**、**[!UICONTROL プッシュ通知（Android）]**、**[!UICONTROL プッシュ通知（iOS）]**&#x200B;または&#x200B;**[!UICONTROL ダイレクトメール]**）を追加します。
 
 1. 「**配信のタイプ**」（単一または繰り返し）を選択します。
 

@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >
 >この機能は、メールチャネルでのみ使用できます。
 
-マーケティング効率を高め、ブランドの一貫性を維持するために、[!DNL **GenStudio for Performance Marketing**] エクスペリエンスを [!DNL **Adobe Campaign**] とシームレスに統合できます。 これにより、[!DNL Adobe Campaign] の高度なオーケストレーション機能とともに、[!DNL GenStudio] の AI を活用したコンテンツ制作をご利用いただけます。
+マーケティング効率を高め、ブランドの一貫性を維持するために、[!DNL **GenStudio for Performance Marketing**] エクスペリエンスを [!DNL **Adobe Campaign**] とシームレスに統合できます。 これにより、[!DNL Adobe Campaign] の高度なオーケストレーション機能と共に、[!DNL GenStudio] の AI を活用したコンテンツ作成を活用できます。
 
 >[!INFO]
 >

@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 542
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 96%
 
 AI アシスタントメニューのブランドドロップダウンから&#x200B;**[!UICONTROL ブランド]**&#x200B;ガイドラインにアクセスできるようになりました。 これにより、AI アシスタントで仕様に合わせたコンテンツとアセットを生成できます。 [詳しくは、AI アシスタントを参照してください](../content/generative-gs.md)
 
-また、ブランドガイドラインを活用して、コンテンツの品質とブランドの整合性を評価することもできます。 [&#x200B; コンテンツ品質検証について詳しく見る](brands-score.md#validate-quality)
+また、ブランドガイドラインを使用して、コンテンツの品質とブランド一致を評価することもできます。[コンテンツ品質の検証の詳細情報](brands-score.md#validate-quality)
 
 ![ブランドドロップダウンを含む AI アシスタントメニュー](assets/brands_6.png)
 
