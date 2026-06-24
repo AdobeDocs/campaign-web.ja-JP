@@ -4,15 +4,12 @@ title: SMS 配信レポート
 description: SMS 配信レポートへのアクセス方法と使用方法を説明します
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
 TQID: https://experienceleague.adobe.com/C-KNGxZ2YfM6sHQVJARzemPJ0ltBtmrG7Ps2y5K-jx0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 620
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +35,7 @@ ht-degree: 96%
 
 ![説明：画像は、成功率、エラー率、訪問者エンゲージメントなどの KPI を含む、配信の概要レポートを示します。](assets/reporting_sms_3.png){zoomable="yes"}
 
-+++SMS配信レポート指標の詳細。
++++SMS 配信レポート指標の詳細情報。
 
 * **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの割合と合計数。
 
@@ -61,7 +58,7 @@ ht-degree: 96%
 
 ![説明：画像は、配信するメッセージと除外などの指標を含むターゲット母集団のグラフおよびテーブルを示します。](assets/reporting_sms_4.png){zoomable="yes"}
 
-+++SMS配信レポート指標の詳細。
++++SMS 配信レポート指標の詳細情報。
 
 * **[!UICONTROL 配信]**：配信の準備中に処理されたメッセージの合計数と割合。
 
@@ -79,7 +76,7 @@ ht-degree: 96%
 
 ![説明：画像は、成功率、エラー、強制隔離などの指標を含む、全体的な統計レポートを示します。](assets/reporting_sms_5.png){zoomable="yes"}
 
-+++SMS配信レポート指標の詳細。
++++SMS 配信レポート指標の詳細情報。
 
 * **[!UICONTROL 成功]**：正常に処理されたメッセージの数と割合。
 

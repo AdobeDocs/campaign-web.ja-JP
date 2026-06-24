@@ -4,15 +4,12 @@ title: ダイレクトメールチャネルのグローバルレポート
 description: ダイレクトメールチャネルのグローバルレポートについての詳細情報
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
 TQID: https://experienceleague.adobe.com/KiKxS4DGB1G8je5lqmO8DGePSzSGXzqfaW--g7GLIII
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 661
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +32,7 @@ ht-degree: 96%
 
 ![この画像は、ダイレクトメール配信の配信の概要指標を示します。](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++配信の概要指標について詳しく見る。
++++詳しくは、配信の概要指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -63,7 +60,7 @@ ht-degree: 96%
 
 ![この画像は、ダイレクトメール配信のターゲットオーディエンス指標を示します。](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++ターゲットオーディエンス指標の詳細。
++++詳しくは、ターゲットオーディエンス指標を参照してください。
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -87,7 +84,7 @@ ht-degree: 96%
 
 **[!UICONTROL 配信統計]**&#x200B;グラフおよびテーブルには、すべてのダイレクトメール配信の成功の分類と、以下に概要を示す詳細な指標が表示されます。
 
-+++配信の統計指標について詳しく見る。
++++詳しくは、配信の統計指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -115,7 +112,7 @@ ht-degree: 96%
 
 除外グラフおよびテーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
 
-+++除外指標の原因について詳しく説明します。
++++詳しくは、除外の理由指標を参照してください。
 
 * **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離に置かれた場合に生成されるエラータイプ。
 

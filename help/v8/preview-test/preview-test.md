@@ -4,14 +4,12 @@ title: 配信のプレビューとテストについて
 description: 配信のプレビューとテストの方法を説明します
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 TQID: https://experienceleague.adobe.com/o4jYAJjBPMecytLyeZ9sks-Sshww-hYJW-A8QO5ObNs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 229
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +29,7 @@ ht-degree: 93%
 * [メッセージのコンテンツとパーソナライゼーションのプレビュー](preview-content.md)
 * テストおよび検証のために特定の受信者またはサブスクライバーに対して[本配信前確認を送信](test-deliveries.md)
 * 一般的なデスクトップ、モバイル、web ベースのクライアントで[メールのレンダリングを確認](email-rendering.md)します。
-* [読みやすさ、CTAの有効性、件名の品質などを評価するために、コンテンツの品質](../content/brands-score.md#validate-quality)を検証します
+* [コンテンツの品質を検証](../content/brands-score.md#validate-quality)して、読みやすさ、CTA 効果、件名の品質などを評価します。
 * [ランディングページのプレビューとテスト](../landing-pages/create-lp.md#test-landing-page)
 
 これらのアクションは、配信のコンテンツを編集画面または[E メールデザイナー](../email/get-started-email-designer.md)からアクセスできる「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行します。

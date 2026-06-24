@@ -4,12 +4,11 @@ description: Campaign web でランディングページ固有のコンテンツ
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
 TQID: https://experienceleague.adobe.com/Q9tP0Cf1np2-49fxWzaqEwfqiTX4UIfUV4evNCd3PLM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1170
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +90,7 @@ ht-degree: 96%
    * **[!UICONTROL はい（オンの場合）]**。
    * **[!UICONTROL いいえ（オンの場合）]**。
 
-1. フィールド（テキストフィールド、ラジオボタン、チェックボックス、ドロップダウンリストなど）の削除と追加 必要に応じて。
+1. 必要に応じて、テキストフィールド、ラジオボタン、チェックボックス、ドロップダウンリストなど、任意の数のフィールドを削除および追加します。
 
 1. すべてのフィールドを追加または更新したら、「**[!UICONTROL コールトゥアクション]**」をクリックして、対応するセクションを展開します。 これにより、**[!UICONTROL フォーム]**&#x200B;コンポーネントのボタンの動作を定義できます。 [詳細情報](#define-actions-on-form-submission)
 
@@ -154,7 +153,7 @@ ht-degree: 96%
 
    ![チェックボックスのスタイル設定](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. 追加した他のフィールド（ラジオボタン、ドロップダウンリスト、日時など）に対応するその他のセクションを展開して編集します。 追加できます。
+1. フォームに追加した他のフィールド（ラジオボタン、ドロップダウンリスト、日付と時刻など）に対応する他のセクションを展開して編集します。
 
 1. 「**[!UICONTROL コールトゥアクション]**」セクションを展開して、コンポーネントフォームのボタンの外観を変更します。 例えば、フォントを変更したり、境界線を追加したり、マウスポインターを置いたときのラベルの色を編集したり、ボタンの配置を調整したりします。
 

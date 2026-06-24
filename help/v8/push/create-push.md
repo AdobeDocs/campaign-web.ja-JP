@@ -4,12 +4,11 @@ title: プッシュ通知配信を作成
 description: Adobe Campaign Web を使用してプッシュ通知配信を作成する方法を説明します
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
 TQID: https://experienceleague.adobe.com/J2FB-oR-oGwBw18HLWt3F3nzu-mHXVnRlyPlSr5ISiI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 779
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +55,7 @@ ht-degree: 94%
    * **[!UICONTROL 特性]**  : 分類目的で配信の特性を指定します。
    +++
 
-1. プッシュ通知を多言語配信として設定し、プロファイルが好む言語に基づいてメッセージを送信できます。 [詳細情報](../msg/multilingual.md)。
+1. プッシュ通知を多言語配信として設定すると、プロファイルの優先言語に基づいてメッセージを送信できます。[詳細情報](../msg/multilingual.md)。
 
 ## プッシュ配信オーディエンスの選択 {#create-audience-push}
 
@@ -72,7 +71,7 @@ ht-degree: 94%
 
    ![プッシュ配信のオーディエンスの選択を示すスクリーンショット](assets/push_create_2.png){zoomable="yes"}
 
-1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。 プッシュ通知の場合、デフォルトの[&#x200B; ターゲットディメンション &#x200B;](../audience/about-recipients.md#targeting-dimensions)は&#x200B;**サブスクライバーアプリケーション** （nms:appSubscriptionRcp）で、受信者テーブルにリンクされています。
+1. 既存のオーディエンスを選択するか、独自のオーディエンスを作成して、プッシュ配信のターゲット母集団を絞り込みます。 プッシュ通知の場合、デフォルトの[ターゲットディメンション](../audience/about-recipients.md#targeting-dimensions)は&#x200B;**サブスクライバーのアプリケーション**（nms:appSubscriptionRcp）であり、受信者のテーブルにリンクされています。
 
    既存のオーディエンスを選択する方法について詳しくは、[このページ](../audience/add-audience.md)を参照してください。
 

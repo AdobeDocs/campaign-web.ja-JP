@@ -4,15 +4,12 @@ title: プッシュチャネルのグローバルレポート
 description: プッシュチャネルのグローバルレポートについて
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
 TQID: https://experienceleague.adobe.com/mN4wAht0Rsnz0qIpxfuvoT0TvQsbC6GC9vy7i24rZrk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 624
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +32,7 @@ ht-degree: 97%
 
 ![プッシュ通知のパフォーマンスに関連する KPI を示す配信の概要指標。](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++配信の概要指標について詳しく見る。
++++詳しくは、配信の概要指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -58,7 +55,7 @@ ht-degree: 97%
 
 ![プッシュ通知の受信者および除外に関連するデータを示すターゲットオーディエンス指標。](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
-+++ターゲットオーディエンス指標の詳細。
++++詳しくは、ターゲットオーディエンス指標を参照してください。
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -79,7 +76,7 @@ ht-degree: 97%
 
 ![プッシュ通知の成功率、エラー、強制隔離を示す配信統計指標。](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++配信の統計指標について詳しく見る。
++++詳しくは、配信の統計指標を参照してください。
 
 * **[!UICONTROL メッセージの合計数]**：配信準備の後に配信されるメッセージの合計数。
 

@@ -4,15 +4,12 @@ title: プッシュ配信レポート
 description: プッシュ配信レポートへのアクセス方法と使用方法を学ぶ
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 TQID: https://experienceleague.adobe.com/guXWmt9-cw6X5O897TQ9iZR4e7QccWG9iI-OK6XEIDQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 579
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +35,7 @@ ht-degree: 96%
 
 ![このスクリーンショットは、プッシュメッセージに対する訪問者のエンゲージメントに関する KPI を提供する、配信の概要レポートを示します。](assets/reporting_push_3.png){zoomable="yes"}
 
-+++プッシュ配信レポート指標の詳細。
++++プッシュ配信レポート指標の詳細情報。
 
 * **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの合計数。
 * **[!UICONTROL 配信済み数]**：送信されたメッセージの合計数に対する、正常に送信されたメッセージの数。
@@ -58,7 +55,7 @@ ht-degree: 96%
 
 ![このスクリーンショットは、配信するメッセージと除外に関するデータを表示するターゲット母集団グラフおよびテーブルを示します。](assets/reporting_push_4.png){zoomable="yes"}
 
-+++プッシュ配信レポート指標の詳細。
++++プッシュ配信レポート指標の詳細情報。
 
 * **[!UICONTROL 配信]**：配信の準備中に処理されたメッセージの合計数。
 * **[!UICONTROL 除外]**：分析から除外されたプロファイルの数。
@@ -76,7 +73,7 @@ ht-degree: 96%
 
 ![このスクリーンショットは、送信されたプッシュ通知の成功、エラーおよび強制隔離に関するデータを示す全体的な統計レポートを示します。](assets/reporting_push_5.png){zoomable="yes"}
 
-+++プッシュ配信レポート指標の詳細。
++++プッシュ配信レポート指標の詳細情報。
 
 * **[!UICONTROL 成功]**：正常に処理されたメッセージ数。
 * **[!UICONTROL エラー]**：配信中に発生し、特定のプロファイルにメッセージを送信できなかったエラーの合計数。

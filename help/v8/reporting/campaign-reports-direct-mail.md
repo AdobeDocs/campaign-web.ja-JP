@@ -4,17 +4,13 @@ title: ダイレクトメールチャネルのキャンペーンレポート
 description: ダイレクトメールチャネルのキャンペーンレポートについて
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
 TQID: https://experienceleague.adobe.com/QKxR-bOuqjwx6Rmn0ncEESNE-A1-1yH2bDFPhzfDPXE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 576
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +33,7 @@ ht-degree: 95%
 
 ![ダイレクトメールキャンペーン配信の概要指標](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++配信の概要指標について詳しく見る。
++++詳しくは、配信の概要指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -60,7 +56,7 @@ ht-degree: 95%
 
 ![ダイレクトメールキャンペーンの初期ターゲットオーディエンスの統計](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++初期ターゲットオーディエンス統計指標の詳細。
++++初期ターゲットオーディエンス統計指標の詳細情報。
 
 * **[!UICONTROL 初期オーディエンス]**：ターゲット受信者の合計数。
 
@@ -81,7 +77,7 @@ ht-degree: 95%
 
 **[!UICONTROL 実行統計]**&#x200B;テーブルには、すべてのダイレクトメール配信の成功の分類と、以下に概要を示す詳細な指標が表示されます。
 
-+++配信の統計指標について詳しく見る。
++++詳しくは、配信の統計指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -104,7 +100,7 @@ ht-degree: 95%
 
 **クリックストリーム**&#x200B;テーブルには、ターゲットプロファイルから除外されたユーザープロファイルがメッセージを受信できなかった理由が表示されます。
 
-+++生成されたクリックストリーム指標の詳細。
++++生成されたクリックストリーム指標の詳細情報。
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 

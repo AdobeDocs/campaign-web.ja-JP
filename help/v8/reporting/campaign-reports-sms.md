@@ -4,14 +4,12 @@ title: SMS チャネルのキャンペーンレポート
 description: SMS チャネルのキャンペーンレポートについて
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 TQID: https://experienceleague.adobe.com/k-EClMV8DYeD3QZU3zb6fZU4eSy4qyDuw0XtGNMXHLo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 532
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +28,7 @@ ht-degree: 94%
 
 ![SMS 指標を示す配信の概要レポート](assets/campaign_report_sms_1.png){zoomable="yes"}
 
-+++SMS キャンペーンレポート指標の詳細。
++++詳しくは、SMS キャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL 合計送信数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -53,7 +51,7 @@ ht-degree: 94%
 
 ![受信者データを示す初期ターゲットオーディエンス統計テーブル](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++SMS キャンペーンレポート指標の詳細。
++++詳しくは、SMS キャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL 初期オーディエンス]**：ターゲット受信者の合計数。
 
@@ -74,7 +72,7 @@ ht-degree: 94%
 
 ![配信の成功指標を示す実行統計テーブル](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++SMS キャンペーンレポート指標の詳細。
++++詳しくは、SMS キャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信準備の後に配信されるメッセージの合計数。
 
@@ -99,7 +97,7 @@ ht-degree: 94%
 
 ![受信者のインタラクションデータを示す生成されたクリックストリームテーブル](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++SMS キャンペーンレポート指標の詳細。
++++詳しくは、SMS キャンペーンレポート指標を参照してください。
 
 * **[!UICONTROL ユニーククリック数]**：配信で少なくとも 1 回クリックしたユニーク受信者の合計数。
 

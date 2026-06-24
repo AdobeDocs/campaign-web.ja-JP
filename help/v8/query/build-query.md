@@ -4,11 +4,10 @@ title: クエリモデラーを使用した最初のクエリの作成
 description: Adobe Campaign Web クエリモデラーで最初のクエリを作成する方法を学びます。
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
 TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxIDgVWQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 2946
+workflow-type: ht
+source-wordcount: 2867
 ht-degree: 100%
 
 ---
@@ -19,8 +18,8 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->クエリモデラーで新しいインターフェイスを使用できます。 新しいルールビルダーでは、簡素化されたインターフェースにより、クエリをより簡単に作成できます。 このエクスペリエンスに切り替えるには、右上隅の切替スイッチボタンを押します。 切替スイッチボタンを押して新しいインターフェイスを無効にするだけで、いつでも従来のクエリモデラーに戻ることができます。 この新しいインターフェイスでは、クエリモデラーと同じ原則を適用できます。
->![新しいルールビルダーインターフェイスの切替スイッチを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
+>クエリモデラー用のまったく新しいインターフェイスを利用できます。新しいルールビルダーでは、シンプルなインターフェイスにより、クエリをこれまでより容易に構築できるようになります。このエクスペリエンスに切り替えるには、右上隅の切替スイッチボタンを押します。従来のクエリモデラーに戻したい場合は、切替スイッチをオフにするだけでいつでも戻ることができます。この新しいインターフェイスでは、クエリモデラーと同じ原則を適用できます。
+>![新しいルールビルダーインターフェイスの切替スイッチボタンを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
 
 次の 2 種類の要素を追加できます。
 

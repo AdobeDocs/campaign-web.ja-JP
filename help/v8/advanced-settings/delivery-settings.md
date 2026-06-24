@@ -5,18 +5,13 @@ description: Campaign web で配信設定を指定する方法について学ぶ
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
-source-wordcount: 3516
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 3482
+ht-degree: 100%
 
 ---
 
@@ -109,7 +104,7 @@ ht-degree: 99%
 >title="配信用のオーディエンス設定"
 >abstract="利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択します。 ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。 また、配信用の除外パラメーターを設定することもできます。"
 
-このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。 ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。 ターゲットマッピングは、操作で処理されるデータのタイプです。 ターゲット母集団（受信者、契約受益者、オペレーター、サブスクライバーなど）を定義できます。[&#x200B; ターゲットマッピングの詳細](../audience/targeting-dimensions.md)。
+このセクションでは、利用可能な&#x200B;**ターゲットマッピング**&#x200B;を選択できます。 ターゲットマッピングは、Adobe Campaign v8 コンソールで定義されます。 ターゲットマッピングは、操作で処理されるデータのタイプです。 ターゲット母集団（受信者、契約の受益者、オペレーター、サブスクライバーなど）を定義できます。[詳しくは、ターゲットマッピングを参照してください](../audience/targeting-dimensions.md)。
 
 「**[!UICONTROL 除外]**」フィールドでは、今後連絡を希望しないプロファイルや強制隔離されているプロファイルを除外することを選択できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=ja){target="_blank"}
 
@@ -350,8 +345,8 @@ SMS 配信パラメーターは、SMS 配信に適用する技術的な設定で
 
 * **[!UICONTROL オプションの SMPP パラメーター（TLV）]**
 
-  オプションの SMPP パラメーター（TLV）として送信する追加のフィールドを指定できます。 これらの追加フィールドは各 MT で送信され、パーソナライズされたフィールドにより各 MT に異なる値を設定できます。
-表には、各メッセージで送信されるオプションのパラメーターが一覧表示されます。 列には、次の情報が含まれます。
+  オプションの SMPP パラメーター（TLV）として送信する追加フィールドを指定できます。これらの追加フィールドは MT ごとに送信され、パーソナライズされたフィールドには MT ごとに異なる値を入力できます。
+この表には、各メッセージで送信するオプションのパラメーターが一覧表示されます。列には、次の情報が含まれます。
 
    * **ラベル**：これは、オプションの自由形式のラベルです。 プロバイダーには送信されません。 パラメーターの説明をテキストで指定できます。
    * **タグ**：10 進数形式（例：12345）または 0x 接頭辞が付いた 16 進数形式（例：0x12ab）のいずれかのタグの値。 タグには 0～65535 の範囲を指定できます。 サポートされているタグについて詳しくは、SMPP サービスプロバイダーにお問い合わせください。

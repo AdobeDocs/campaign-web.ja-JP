@@ -4,15 +4,12 @@ title: SMS チャネルのグローバルレポート
 description: SMS チャネルのグローバルレポートについて
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
 TQID: https://experienceleague.adobe.com/I0CK5wcp99rHrQUw6e-dYpHQzms7kS5IW-RY-k4-W24
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 689
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +32,7 @@ ht-degree: 97%
 
 ![SMS 配信の主要業績評価指標を示す配信の概要レポートのスクリーンショット。](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++配信の概要指標について詳しく見る。
++++詳しくは、配信の概要指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 
@@ -58,7 +55,7 @@ ht-degree: 97%
 
 ![SMS 配信の受信者および除外に関するデータを示すターゲットオーディエンスレポートのスクリーンショット。](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
-+++ターゲットオーディエンス指標の詳細。
++++詳しくは、ターゲットオーディエンス指標を参照してください。
 
 * **[!UICONTROL ターゲットオーディエンス]**：ターゲット受信者の合計数。
 
@@ -79,7 +76,7 @@ ht-degree: 97%
 
 ![SMS 配信の成功率、エラー、強制隔離を示す配信統計レポートのスクリーンショット。](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++配信の統計指標について詳しく見る。
++++詳しくは、配信の統計指標を参照してください。
 
 * **[!UICONTROL メッセージの合計数]**：配信準備の後に配信されるメッセージの合計数。
 

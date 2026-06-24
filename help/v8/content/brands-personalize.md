@@ -1,38 +1,33 @@
 ---
 audience: end-user
 title: ブランドの管理
-description: ブランドガイドラインをパーソナライズする方法
+description: ブランドガイドラインをパーソナライズする方法について説明します
 role: User
 level: Beginner, Intermediate
 exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
 TQID: https://experienceleague.adobe.com/Wwn4Gh2Xgf8A5dHJ-2bWu6DIziufzW7TsAlKDrUgWY4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 997
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # ブランドのパーソナライズ {#brands-personalize}
 
-あらゆるコンテンツやチャネルの一貫性を維持するための包括的なブランドキットを作成するには、ブランドアイデンティティの異なる側面に焦点を当てた、次の4つのタブを設定します。
+すべてのコンテンツとチャネルをまたいで一貫性を確保する包括的なブランドキットを作成するには、それぞれがブランドアイデンティティの様々な側面に焦点を当てた、次の 4 つのタブを設定します。
 
-* **[!UICONTROL ブランドについて]**&#x200B;は、ブランドのコアアイデンティティと価値観を確立します。
-* **[!UICONTROL 文体]**&#x200B;は、言語とコンテンツの標準を定義します。
-* **[!UICONTROL ビジュアルコンテンツ]**&#x200B;は、画像とデザインのガイドラインを設定します。
+* 「**[!UICONTROL ブランドについて]**」では、ブランドのコアアイデンティティと価値を確立します。
+* 「**[!UICONTROL 書き込みのスタイル]**」では、言語とコンテンツの標準を定義します。
+* 「**[!UICONTROL ビジュアルコンテンツ]**」では、画像とデザインのガイドラインを設定します。
 
 <!-- * **[!UICONTROL Colors]** manages your brand's color system and usage. -->
 
-設定が完了したら、ブランドガイドラインを使用して、コンテンツの品質とブランドの整合性を検証できます。 [&#x200B; コンテンツ品質検証について詳しく見る](brands-score.md#validate-quality)
+設定したら、ブランドガイドラインを使用して、コンテンツの品質とブランド一致を検証できます。[コンテンツ品質の検証の詳細情報](brands-score.md#validate-quality)
 
 ## ブランドについて {#about-brand}
 

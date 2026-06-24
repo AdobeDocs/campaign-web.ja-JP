@@ -4,14 +4,12 @@ title: トラップグループの使用
 description: Campaign web ユーザーインターフェイスでの配信にトラップグループを使用する方法について説明します
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
 TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 429
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -52,33 +50,33 @@ ht-degree: 91%
 
 「**テストプロファイルを選択**」を選択する際、次に示すように「**テストプロファイルを追加**」ボタンを使用します。
 
-[テストプロファイルボタンのスクリーンショットを追加](assets/trap-no-test-profile.png){zoomable="yes"}
+[「テストプロファイルを追加」ボタンのスクリーンショット](assets/trap-no-test-profile.png){zoomable="yes"}
 
 ボタンをクリックすると、**[!UICONTROL トラップグループ]**&#x200B;を追加するテストプロファイルにアクセスできます。 使用するテストプロファイルを選択します。
 
 また、新しいテストプロファイルを作成することもできます。 [詳細情報](#create-seed)
 
-[テストプロファイルインターフェイスのスクリーンショットを選択](assets/trap-select-test-profiles.png){zoomable="yes"}
+[「テストプロファイルを選択」インターフェイスのスクリーンショット](assets/trap-select-test-profiles.png){zoomable="yes"}
 
 テストプロファイルを確認したら、「**[!UICONTROL トラップグループ]**」の下に正しい番号が表示されていることを確認します。
 
-[トラップグループの確認スクリーンショット](assets/trap-check.png){zoomable="yes"}
+[トラップグループ確認のスクリーンショット](assets/trap-check.png){zoomable="yes"}
 
 ### 条件を作成 {#create-condition}
 
 「**[!UICONTROL 条件を作成]**」オプションでは、クエリを作成して、使用するテストプロファイルを定義します。
 
-[条件インターフェイスのスクリーンショットを作成](assets/trap-create-condition.png){zoomable="yes"}
+[「条件を作成」インターフェイスのスクリーンショット](assets/trap-create-condition.png){zoomable="yes"}
 
 クエリは、**[!UICONTROL トラップグループ]**&#x200B;の下に表示されます。
 
-[トラップグループクエリの表示スクリーンショット](assets/trap-custom.png){zoomable="yes"}
+[トラップグループクエリ表示のスクリーンショット](assets/trap-custom.png){zoomable="yes"}
 
 ## 新しいテストプロファイルの作成 {#create-seed}
 
 **[!UICONTROL エクスプローラー]**／**[!UICONTROL リソース]**／**[!UICONTROL キャンペーン管理]**／**[!UICONTROL シードメンバー]**&#x200B;フォルダーから新しい&#x200B;**[!UICONTROL テストプロファイル]**&#x200B;を作成できます。
 
-[テストプロファイルナビゲーションの作成スクリーンショット](assets/trap-create.png){zoomable="yes"}
+[「テストプロファイルを作成」ナビゲーションのスクリーンショット](assets/trap-create.png){zoomable="yes"}
 
 任意のプロファイルについて、**[!UICONTROL テストプロファイル]**&#x200B;に関するすべての設定を行います。
 

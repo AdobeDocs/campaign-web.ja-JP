@@ -4,15 +4,12 @@ title: ダイレクトメールレポート
 description: ダイレクトメールレポートへのアクセス方法と使用方法について説明します。
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 TQID: https://experienceleague.adobe.com/1HplEC3KMsKLbAMeYgCLlFo5oIJI2gJUhksr2mmOv5o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 710
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +32,7 @@ ht-degree: 95%
 
 ![ダイレクトメール配信の主要業績評価指標を示す配信の概要指標グラフ。](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++配信の概要指標について詳しく見る。
++++詳しくは、配信の概要指標を参照してください。
 
 * **[!UICONTROL 配信メッセージ数]**：配信の準備中に処理されたメッセージの合計数。
 * **[!UICONTROL ターゲット]**：ダイレクトメールメッセージのターゲットプロファイルとして選定されるユーザープロファイルの数。
@@ -57,7 +54,7 @@ ht-degree: 95%
 
 ![マウス機能を使用した初期ターゲット母集団グラフの詳細ビュー。](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++ダイレクトメール配信レポート指標の詳細。
++++詳しくは、ダイレクトメール配信レポート指標を参照してください。
 
 * **[!UICONTROL 初期オーディエンス数]**：ターゲット受信者の合計数。
 * **[!UICONTROL 配信]**：配信準備の後に配信されるメッセージの合計数。
@@ -75,7 +72,7 @@ ht-degree: 95%
 
 ![成功率、エラー、強制隔離を示す配信統計グラフ](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++ダイレクトメールキャンペーンレポート指標の詳細。
++++ダイレクトメールキャンペーンレポート指標の詳細情報。
 
 * **[!UICONTROL 送信済みメッセージ]**：配信準備完了後に配信されるメッセージの合計数。
 * **[!UICONTROL 成功数]**：配信するメッセージ数と比較した、正常に処理されたメッセージ数。
@@ -94,7 +91,7 @@ ht-degree: 95%
 
 ![却下されたメッセージのルール別の割合を示す除外の理由グラフ](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++除外指標の原因について詳しく説明します。
++++詳しくは、除外の理由指標を参照してください。
 
 * **[!UICONTROL 強制隔離中のアドレス]**：アドレスが強制隔離に置かれた場合に生成されるエラータイプ。
 * **[!UICONTROL アドレスが未指定]**：アドレスが存在しない場合に生成されるエラータイプ。

@@ -3,12 +3,10 @@ title: プロファイルの基本を学ぶ
 description: Campaign web でプロファイルを監視および管理する方法について説明します。
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 TQID: https://experienceleague.adobe.com/fY9Y7Fet1y7L09ELWUCEvlJNpPAFwx4dpMmAW6tOye0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 441
 ht-degree: 100%
 
@@ -51,4 +49,4 @@ ht-degree: 100%
 
 Campaign web ユーザーインターフェイスを使用してプロファイルにアクセス、管理および探索する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448365?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
