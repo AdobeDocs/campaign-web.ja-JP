@@ -4,14 +4,12 @@ title: ダイレクトメール配信のデザイン
 description: Adobe Campaign web を使用したダイレクトメール配信のデザイン方法について説明します。
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
 TQID: https://experienceleague.adobe.com/fKC3OQ7C-LxYlcHO3IuQt-dI6Ju3jn8ywPxzLzhfbwg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 606
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3890701b9c04bd404848c5447d08522b3cee64d5
+workflow-type: tm+mt
+source-wordcount: 648
+ht-degree: 93%
 
 ---
 
@@ -48,7 +46,7 @@ ht-degree: 100%
    * **[!UICONTROL 列区切り記号]**（テキスト形式）：抽出ファイルで列区切り記号として使用する文字を指定します。
    * **[!UICONTROL 文字列の区切り]**（テキスト形式）：抽出ファイルの文字列を区切る方法を指定します。
    * **[!UICONTROL 行末]**（テキスト形式）：抽出ファイルで行末を区切る方法を指定します。
-   * **[!UICONTROL エンコード]**：抽出ファイルのエンコーディングを選択します。
+   * **[!UICONTROL エンコード]**：抽出ファイルのエンコーディングを選択します。 デフォルトのエンコーディングは&#x200B;**Latin-1 （1252）**&#x200B;です。 CJK言語（日本語、韓国語、簡体字中国語、繁体字中国語）で受信者をターゲットとするダイレクトメール配信を作成する場合は、代わりに&#x200B;**UTF-8 （65001）**&#x200B;を選択します。 Latin-1はCJK文字を表すことができないため、空のファイルプレビューになります。
    * **[!UICONTROL 日付形式と区切り記号]**：抽出ファイルでの日付の書式設定方法を指定します。
    * **[!UICONTROL 数値の形式]**：抽出ファイルでの数値の形式設定方法を指定します。
    * **[!UICONTROL 列挙の内部値の代わりにラベルをエクスポート]**：列挙値をエクスポートし、内部 ID ではなく、わかりやすい列ラベルを取得する場合は、このオプションをオンに切り替えます。
