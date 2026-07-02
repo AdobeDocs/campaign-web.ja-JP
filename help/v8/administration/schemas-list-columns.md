@@ -2,16 +2,21 @@
 title: デフォルトのリスト列の設定
 description: リストビューにデフォルトで表示する列を設定する方法について説明します。
 exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
-source-git-commit: 9d7ff3bc648567640ef501bff2228e5c6cff25bc
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 94%
 
 ---
 
 # リストの列の設定 {#list-columns}
 
-「**[!UICONTROL インベントリリストの設定]**」セクションでは、リストビューにデフォルトで表示される列を設定できます。各列には、ラベルと対応する属性が表示されます。
+>[!CONTEXTUALHELP]
+>id="acw_schema_inventory_list_configuration"
+>title="インベントリリストの設定"
+>abstract="リストビューにデフォルトで表示する列を設定します。 各列には、ラベルと対応する属性が表示されます。"
+
+「**[!UICONTROL インベントリリストの設定]**」セクションでは、リストビューにデフォルトで表示される列を設定できます。 各列には、ラベルと対応する属性が表示されます。
 
 画面の定義画面とそのアクセス方法について詳しくは、[画面の定義へのアクセス](schemas-browse-access.md#screen-def)のセクションを参照してください。
 
@@ -29,6 +34,6 @@ ht-degree: 100%
 
    ![リストの列の設定](assets/schemas-list-columns.png)
 
-1. **プロファイル**&#x200B;メニューを参照し、プロファイルリストビューにアクセスします。新しいタブが表示されます。必要に応じて、列をさらに追加できます。
+1. **プロファイル**&#x200B;メニューを参照し、プロファイルリストビューにアクセスします。 新しいタブが表示されます。 必要に応じて、列をさらに追加できます。
 
    ![リストの列の設定](assets/schemas-list-columns3.png)
