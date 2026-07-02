@@ -2,9 +2,9 @@
 title: カスタムフィールドの編集
 description: インターフェイスでカスタムフィールドとその表示を設定する方法について説明します。
 exl-id: 1b531722-0935-4787-a673-60d97f776936
-source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
+source-git-commit: 6f835141111dbacac0b6e1156f744d3f8db9ae24
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '744'
 ht-degree: 95%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 95%
 >id="acw_schema_detail_screen_configuration"
 >title="詳細画面の設定"
 >abstract="詳細画面に表示するカスタムフィールドを設定し、セクションに整理します。 コレクションリストを追加して、プロファイル画面に関連データを表示します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/conf/schemas/schemas-collection-lists" text="コレクションリストの追加"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-collection-lists.html?lang=ja" text="コレクションリストの追加"
 
 カスタムフィールドは、Adobe Campaign コンソールから標準スキーマに追加されている属性です。 組織のニーズに合わせて新しい属性を含めることで、スキーマをカスタマイズできます。
 
