@@ -8,10 +8,10 @@ product_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93bc914bca3d6f729cbb92a925a8ba19fd120bb5
+source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
 workflow-type: tm+mt
-source-wordcount: 535
-ht-degree: 88%
+source-wordcount: 611
+ht-degree: 78%
 
 ---
 
@@ -26,6 +26,16 @@ ht-degree: 88%
 >id="acw_javascript_codes_create"
 >title="JavaScript コードを作成"
 >abstract="JavaScript コードの名前空間、名前、ラベルを定義し、条件と日付の書式設定に使用できる事前定義済みの関数を使用してコンテンツを記述します。 作成した名前空間と名前は変更できません。"
+
+>[!CONTEXTUALHELP]
+>id="acw_dynamic_javascript_pages_list"
+>title="動的な JavaScript ページ"
+>abstract="動的JavaScript ページ（JSSP）を使用すると、カスタム API、書き出し、web アプリケーションロジックなどのURLを介してアクセスしたときに動的コンテンツを生成するサーバーサイドページを構築できます。 このリストから、動的なJavaScript ページを作成、変更、複製、または削除できます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_dynamic_javascript_pages_create"
+>title="ダイナミックJavaScriptページの作成"
+>abstract="動的なJavaScript ページの名前空間、名前、ラベルを定義し、JavaScript コードを使用してコンテンツを記述します。 作成した名前空間と名前は変更できません。"
 
 ## JavaScript コードについて {#about}
 
