@@ -3,15 +3,12 @@ title: JavaScript コードの操作
 description: JavaScript コードの操作方法について説明します。
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
 TQID: https://experienceleague.adobe.com/MEB6-W3pMbt97vozcG7sKjyFLHzLqTs3D0B9JjU44hw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 479
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93bc914bca3d6f729cbb92a925a8ba19fd120bb5
+workflow-type: tm+mt
+source-wordcount: 535
+ht-degree: 88%
 
 ---
 
@@ -20,12 +17,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="JavaScript コード"
->abstract="JavaScript コード"
+>abstract="JavaScript コードは、ライブラリと同様に、ワークフロー全体で使用できる再利用可能な関数です。 このリストから、JavaScript コードを作成、変更、複製、または削除できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
 >title="JavaScript コードを作成"
->abstract="JavaScript コードを作成"
+>abstract="JavaScript コードの名前空間、名前、ラベルを定義し、条件と日付の書式設定に使用できる事前定義済みの関数を使用してコンテンツを記述します。 作成した名前空間と名前は変更できません。"
 
 ## JavaScript コードについて {#about}
 
