@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cbecd07b053d0ceb4e9114aa3c6d37752392febc
-workflow-type: ht
+source-git-commit: b8cf1d45b1a69efbe8e055d57b430d0fa04f8494
+workflow-type: tm+mt
 source-wordcount: 243
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -38,12 +38,12 @@ _2026年6月16日（PT）_
 * Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
 -->
 
-* トラッキングログを含む任意のリスト画面からデータをエクスポートできるようになりました。リストを見つけて、エクスポートボタンをクリックするだけです。エクスポートでは、現在読み込まれている行が含まれ、画面に表示されている列やアクティブな検索またはフィルターが考慮されます。[詳細情報](../get-started/list-filters.md)
+* トラッキングログを含む任意のリスト画面からデータをエクスポートできるようになりました。 リストを見つけて、エクスポートボタンをクリックするだけです。 エクスポートでは、現在読み込まれている行が含まれ、画面に表示されている列やアクティブな検索またはフィルターが考慮されます。 [詳細情報](../get-started/list-filters.md)
 
-* **重複排除 - 重複**&#x200B;および&#x200B;**終了**&#x200B;ワークフローアクティビティで、複数のインバウンドトランジションがサポートされるようになりました複数のインバウンドトランジションが使用可能な場合は、アクティビティプロパティの「**結合の設定**」セクションを使用して、
-接続するトランジションを選択します。詳しくは、[重複排除 - 重複](../workflows/activities/deduplication.md)、[終了](../workflows/activities/end.md)の各ページを参照してください。
+* **重複排除 - 重複**&#x200B;および&#x200B;**終了**&#x200B;ワークフローアクティビティで、複数のインバウンドトランジションがサポートされるようになりました 複数のインバウンドトランジションが使用可能な場合は、アクティビティの「**結合に設定する**」セクションを使用します
+接続するトランジションを選択します。 詳しくは、[重複排除 - 重複](../workflows/activities/deduplication.md)、[終了](../workflows/activities/end.md)の各ページを参照してください。
 
-* **オーディエンスを作成**（クエリタイプ）および&#x200B;**エンリッチメント**&#x200B;ワークフローアクティビティの「**エンリッチメントデータ**」セクションで、詳細設定パラメーターが公開されるようになりました。これらのパラメーターを使用すると、グループ化、重複排除 - 重複、プライマリキーの処理、インバウンドイベントデータなど、エンリッチメントデータの作成方法を微調整できます。[詳細情報](../workflows/activities/enrichment.md)
+* **オーディエンスを作成**（クエリタイプ）および&#x200B;**エンリッチメント**&#x200B;ワークフローアクティビティの「**エンリッチメントデータ**」セクションで、詳細設定パラメーターが公開されるようになりました。 これらのパラメーターを使用すると、グループ化、重複排除 - 重複、プライマリキーの処理、インバウンドイベントデータなど、エンリッチメントデータの作成方法を微調整できます。 [詳細情報](../workflows/activities/enrichment.md)
 
 <!--
 * Delivery templates now allow you to define a time zone in the Schedule settings.
