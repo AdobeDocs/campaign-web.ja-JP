@@ -5,7 +5,7 @@ exl-id: 55513ecd-fc3f-4371-93b0-f2c9d01d4db4
 source-git-commit: 56b0144bec96f8dbf18d44c1dc8fc0966617195a
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -13,8 +13,8 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_inventory_list_configuration"
->title="インベントリリストの設定"
->abstract="リストビューにデフォルトで表示する列を設定します。 各列には、ラベルと対応する属性が表示されます。"
+>title="在庫リストの設定"
+>abstract="リスト表示にデフォルトで表示される列を設定します。 各列には、ラベルと対応する属性が表示されます。"
 
 「**[!UICONTROL インベントリリストの設定]**」セクションでは、リストビューにデフォルトで表示される列を設定できます。 各列には、ラベルと対応する属性が表示されます。
 
