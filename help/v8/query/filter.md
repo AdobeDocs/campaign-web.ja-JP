@@ -4,14 +4,12 @@ title: フィルターリスト
 description: ビルトインのフィルターとカスタムフィルターを使用して、Adobe Campaign Web リストをフィルタリングする方法について説明します。
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 TQID: https://experienceleague.adobe.com/a683b5CBnXIK41ltJJeX9cBgMh2drsjlzoAicypOLzA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 337
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 7b43dd8a4a498fdbd0c205d28645901cf44df3a6
+workflow-type: tm+mt
+source-wordcount: 365
+ht-degree: 92%
 
 ---
 
@@ -33,6 +31,10 @@ Adobe Campaign Web では、オブジェクトの各リスト内にフィルタ�
 ![リストで使用可能なフィルターを示すフィルターパネル](assets/filters-pane.png){zoomable="yes"}{width="70%" zoomable="yes"}
 
 独自の条件に基づいてリストをフィルタリングするには、カスタムフィルターを作成します。 これを行うには、フィルターパネルの下部を参照し、「**ルールを追加**」ボタンをクリックします。 [詳しくは、カスタムフィルターの作成方法を参照してください](#custom)。
+
+>[!NOTE]
+>
+>カスタムスキーマの場合、管理者は、**ルールを追加** ボタンの上にあるフィルターペインに独自のクイックアクセスフィールドを追加できます。 詳しくは、[ カスタムフィルターの追加](../administration/schemas-custom-filters.md)を参照してください。
 
 リストに適用すると、検索バーの下にフィルターが表示されます。 個別のフィルターはいつでも削除できます。また、「**すべてクリア**」ボタンをクリックしてすべてのフィルターを削除することもできます。
 

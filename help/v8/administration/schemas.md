@@ -3,18 +3,14 @@ title: スキーマについて
 description: スキーマの操作方法について説明します。
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
 TQID: https://experienceleague.adobe.com/D7gEyOdvyADCac9T3By3KKnx7kpN8LuE2-rnRBJDyMA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 319
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
+workflow-type: tm+mt
+source-wordcount: 348
+ht-degree: 91%
 
 ---
 
@@ -48,8 +44,10 @@ Adobe Campaign の各エンティティには専用のスキーマがあり、�
 
 * [スキーマへのアクセスとカスタマイズ](schemas-browse-access.md) – 使用可能なスキーマを表示し、その詳細を確認して、画面表示をカスタマイズします
 * [リスト列の設定](schemas-list-columns.md) - リスト表示にデフォルトで表示される列を設定します。
+* [ カスタムフィルターを追加](schemas-custom-filters.md) - リストビューのフィルターペインにクイックアクセスフィルターフィールドを追加します。
 * [カスタムフィールドを編集](schemas-custom-fields.md) – 詳細画面に表示するカスタムフィールドを設定し、セクションに整理します。
 * [コレクションリストを追加](schemas-collection-lists.md) - コレクションリストを追加して、プロファイル画面に関連データを表示します。
+* [ データに対するアクションの制御](schemas-action-data.md) - カスタムスキーマの作成、編集および削除アクションを制限します。
 * [スキーマの作成と管理](schemas-create-publish.md#create-schemas) – 新しいスキーマを作成して、既存のスキーマを拡張します
 * [スキーマの公開と同期](schemas-create-publish.md#publish) - スキーマの変更をデータベース構造と同期します。
 * [カスタムフォームの操作](schemas-custom-forms.md) - データ入力フォームを使用して、カスタムスキーマのレコードを作成、編集、管理します。

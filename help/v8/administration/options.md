@@ -3,16 +3,13 @@ title: ' [!DNL Campaign]  オプションの設定'
 description: Campaign オプションを設定し、独自のカスタムオプションを作成する方法について説明します。
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
 TQID: https://experienceleague.adobe.com/a3MU21qEI7ggDv-gUT4--glIkWdU05mz14v3U9Q2wnM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 447
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
+workflow-type: tm+mt
+source-wordcount: 592
+ht-degree: 75%
 
 ---
 
@@ -83,3 +80,17 @@ Adobe Campaign web ユーザーインターフェイスを使用すると、要�
 1. 更新した値が&#x200B;**[!UICONTROL オプション]**&#x200B;メニューに表示されるようになりました。
 
    ![カスタムオプションの更新した値を表示するオプションメニュー](assets/options-sample-updated.png)
+
+## 配信の送信者メールアドレスを制限 {#restrict-sender-address}
+
+デフォルトでは、マーケターはメール配信の「**[!UICONTROL メールから]**」フィールドに任意のアドレスを入力できます。 このフィールドを事前定義されたアドレスのリストに制限するには、組み込み`NmsDelivery_senderAddressMask` オプションを作成または編集し、その値を許可された送信者アドレスのコンマ区切りリスト（例：`abc@adobe.com,bcd@adobe.com`）に設定します。
+
+![差出人メニュー](assets/option-restrict-from.png)の値を制限するオプション
+
+このオプションに値が設定されると、**[!UICONTROL 電子メールから]** フィールドは、フリーテキストフィールドではなく、これらのアドレスのみを含むドロップダウンリストになります。 オプションが存在しない場合、または値が空の場合、フィールドは以前と同様にフリーテキストのままになります。
+
+![電子メールで使用可能な値](assets/option-restrict-from2.png)
+
+この制限はグローバルです。 これは、あらゆるブランドと配信テンプレートに適用され、パーソナライゼーションフィールドをサポートするものではなく、静的なアドレスにのみ適用されます。
+
+「**[!UICONTROL 電子メールから]**」フィールドについて詳しくは、[電子メールコンテンツの設定](../email/edit-content.md#edit-content)を参照してください。

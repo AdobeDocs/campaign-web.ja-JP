@@ -2,19 +2,14 @@
 title: スキーマの参照とアクセス
 description: インターフェイスでスキーマを参照してアクセスする方法について説明します。
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: c6da1a4cb21c1346982303a29364cf97e26b4f4a
+source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 90%
+source-wordcount: '446'
+ht-degree: 93%
 
 ---
 
 # アクセスと設定のスキーマ {#access}
-
->[!CONTEXTUALHELP]
->id="acw_schema_action_data"
->title="データに対するアクション"
->abstract="スキーマの詳細画面とリスト画面で使用できるアクションを設定します。 **[!UICONTROL 読み取り専用]**&#x200B;を有効にして、詳細画面を読み取り専用として設定し、リストからアクションを削除します。 「**[!UICONTROL 削除を許可しない]**」を有効にして、詳細画面とリスト画面から削除アクションを削除します。"
 
 スキーマは、**[!UICONTROL 管理]**／**[!UICONTROL スキーマ]**&#x200B;メニューからアクセスできます。
 
@@ -65,5 +60,7 @@ ht-degree: 90%
 画面の定義から、以下の操作を実行できます。
 
 * [デフォルトのリスト列を設定](schemas-list-columns.md) - リスト ビューにデフォルトで表示する列を設定します。
-* [カスタムフィールドを編集](schemas-custom-fields.md) – 詳細画面に表示するカスタムフィールドを設定し、セクションごとに整理します。
+* [ カスタムフィルターを追加](schemas-custom-filters.md) - リストビューのフィルターペインにクイックアクセスフィルターフィールドを追加します。
+* [カスタムフィールドを編集](schemas-custom-fields.md) – 詳細画面に表示するカスタムフィールドを設定し、セクションに整理します。
 * [コレクションリストを追加](schemas-collection-lists.md) - コレクションリストを追加して、プロファイル画面に関連データを表示します。
+* [ データに対するアクションの制御](schemas-action-data.md) - カスタムスキーマの作成、編集および削除アクションを制限します。
