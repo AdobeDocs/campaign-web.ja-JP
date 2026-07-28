@@ -4,8 +4,10 @@ title: メッセージにオファーを追加
 description: オファーを追加して送信する方法を学ぶ
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
 workflow-type: tm+mt
 source-wordcount: 805
@@ -19,7 +21,7 @@ Campaign Web UIから直接配信にオファーを追加できます。 これ�
 
 Campaign Web UIから、クライアントコンソールに切り替えることなく、オファー環境、オファースペース、オファーを直接作成および管理することもできます。 [詳細情報](../offers/gs-offer-management.md)。
 
-高度な設定については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
+高度な設定については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
 
 配信でオファーを送信する手順は、次のとおりです。
 
@@ -48,7 +50,7 @@ Adobe Campaign を利用すれば、特定の連絡先とのインタラクシ�
 
 1. 受信者に提案するオファーを設定します。
 
-   まず、オファー環境に合致する&#x200B;**[!UICONTROL オファースペース]**&#x200B;を選択します。 この[ セクション ](../offers/offer-space.md)で、Campaign Web UIからオファースペースを直接作成する方法について説明します。
+   まず、オファー環境に合致する&#x200B;**[!UICONTROL オファースペース]**&#x200B;を選択します。 この[&#x200B; セクション &#x200B;](../offers/offer-space.md)で、Campaign Web UIからオファースペースを直接作成する方法について説明します。
 
    ![オファー作成コンテンツでのオファースペースの選択を示すスクリーンショット](assets/offer-create-content.png){zoomable="yes"}
 

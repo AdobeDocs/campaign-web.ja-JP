@@ -4,8 +4,10 @@ title: E メールデザイナーのコンテンツコンポーネントの使�
 description: メールでコンテンツコンポーネントを使用する方法について説明します
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
 workflow-type: tm+mt
 source-wordcount: 1517
@@ -159,7 +161,7 @@ ht-degree: 85%
 
 1. 次のいずれかのオプションを選択して、画像を追加します。
 
-   電子メール Designerの画像コンポーネントのオプションを示す![ スクリーンショット。](assets/email_designer_28.png){zoomable="yes"}
+   電子メール Designerの画像コンポーネントのオプションを示す![&#x200B; スクリーンショット。](assets/email_designer_28.png){zoomable="yes"}
 
    +++**[!UICONTROL 参照]**
 

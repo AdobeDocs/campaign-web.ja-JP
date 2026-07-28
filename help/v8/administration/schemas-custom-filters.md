@@ -11,7 +11,7 @@ ht-degree: 20%
 
 # カスタムフィルターを追加 {#custom-filters}
 
-**[!UICONTROL 在庫リスト設定]** > **[!UICONTROL カスタムフィルター]** セクションでは、スキーマのリストビューの[ フィルターペイン ](../query/filter.md)に、**[!UICONTROL 詳細フィルター]**&#x200B;のルールビルダーの上に表示される属性をクイックアクセスフィールドとして選択できます。
+**[!UICONTROL 在庫リスト設定]** > **[!UICONTROL カスタムフィルター]** セクションでは、スキーマのリストビューの[&#x200B; フィルターペイン &#x200B;](../query/filter.md)に、**[!UICONTROL 詳細フィルター]**&#x200B;のルールビルダーの上に表示される属性をクイックアクセスフィールドとして選択できます。
 
 画面の定義画面とそのアクセス方法について詳しくは、[画面の定義へのアクセス](schemas-browse-access.md#screen-def)の節を参照してください。
 
@@ -23,7 +23,7 @@ ht-degree: 20%
 
 1. **[!UICONTROL インベントリ リスト設定]** セクションに移動し、**[!UICONTROL カスタムフィルター]** テーブルの上にある省略記号アイコンをクリックし、**[!UICONTROL 属性を選択]**&#x200B;します。
 
-   ![ カスタムフィルターの選択](assets/schemas-custom-filters1.png)
+   ![&#x200B; カスタムフィルターの選択](assets/schemas-custom-filters1.png)
 
 1. 1つまたは複数の属性を選択して確認します。
 
@@ -39,7 +39,7 @@ ht-degree: 20%
 
 1. このスキーマのレコードのリストを参照し、フィルターペインを開きます。 選択した属性は、**[!UICONTROL 詳細フィルター]** ルールビルダーの上に&#x200B;**[!UICONTROL カスタムフィルター]**&#x200B;として表示されます。
 
-   ![ フィルターペインに表示されるカスタムフィルター](assets/schemas-custom-filters3.png)
+   ![&#x200B; フィルターペインに表示されるカスタムフィルター](assets/schemas-custom-filters3.png)
 
    >[!NOTE]
    >

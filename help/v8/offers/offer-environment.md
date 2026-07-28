@@ -3,8 +3,10 @@ audience: end-user
 title: オファー環境設定の確認
 description: Campaign Webでオファー環境を表示、設定、デプロイする方法について説明します
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
 workflow-type: tm+mt
 source-wordcount: 319
@@ -21,7 +23,7 @@ ht-degree: 9%
 
 各&#x200B;**デザイン**&#x200B;環境は、**ライブ**&#x200B;環境にリンクされています。 オファーが完了して承認されると、オファーは自動的に&#x200B;**Live**&#x200B;環境にデプロイされ、配信に利用できるようになります。
 
-環境を示す![ スクリーンショット。](assets/offers-env.png){zoomable="yes"}
+環境を示す![&#x200B; スクリーンショット。](assets/offers-env.png){zoomable="yes"}
 
 デフォルトでは、Campaignには、組み込みの受信者テーブル（特定されたオファー）をターゲットにするように事前設定された2つの&#x200B;**デザイン**&#x200B;および&#x200B;**ライブ**&#x200B;環境が用意されています。
 
@@ -39,11 +41,11 @@ ht-degree: 9%
 
 1. 「。..」ボタンをクリックし、**[!UICONTROL フォルダー設定]**&#x200B;を選択して、環境設定を表示します。
 
-   環境の「フォルダー設定」オプションを示す![ スクリーンショット ](assets/offers-env-1.png){zoomable="yes"}
+   環境の「フォルダー設定」オプションを示す![&#x200B; スクリーンショット &#x200B;](assets/offers-env-1.png){zoomable="yes"}
 
 1. さまざまなセクションを確認します。 オファー環境グループのフォルダー設定は、オファー固有のオプションです。
 
-   環境のプロパティ設定を示す![ スクリーンショット ](assets/offers-env-2.png){zoomable="yes"}
+   環境のプロパティ設定を示す![&#x200B; スクリーンショット &#x200B;](assets/offers-env-2.png){zoomable="yes"}
 
    ほとんどの設定は、クライアントコンソールで使用できるオファー環境設定を反映しています。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html){target="_blank"}を参照してください。
 
@@ -165,4 +167,4 @@ These two sections are generic Campaign folder controls. They are not specific t
 
 * **[!UICONTROL Restrictions]** — Lets you turn the folder into a view by enabling **[!UICONTROL This folder is a view]** and clicking **[!UICONTROL Edit restrictions]** to define a filter on the records displayed in the folder.
 -->
-次に、[ オファースペースを作成](offer-space.md)して、オファーの公開場所と公開方法を定義します。
+次に、[&#x200B; オファースペースを作成](offer-space.md)して、オファーの公開場所と公開方法を定義します。

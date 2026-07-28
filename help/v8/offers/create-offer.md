@@ -3,8 +3,10 @@ audience: end-user
 title: オファーの作成と公開
 description: Campaign Webでオファーを作成、設定、承認、デプロイする方法について説明します
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7bd09b83112efb99c90884b7da21a5e9a5c76b6c
 workflow-type: tm+mt
 source-wordcount: 1057
@@ -16,13 +18,13 @@ ht-degree: 3%
 
 **オファー**&#x200B;は、独自の実施期間、ターゲットフィルター、重み、およびコンテンツを持つ個別の提案です。 オファーは、**カテゴリー**&#x200B;を通じてオファーカタログに整理され、**オファースペース**&#x200B;を通じて受信者に表示されます。
 
-オファーを作成する前に、オファー環境が設定されており、少なくとも1つのオファースペースが公開されていることを確認します。 詳細については、[ オファー環境の設定](offer-environment.md)および[ オファースペースの作成と管理](offer-space.md)を参照してください。
+オファーを作成する前に、オファー環境が設定されており、少なくとも1つのオファースペースが公開されていることを確認します。 詳細については、[&#x200B; オファー環境の設定](offer-environment.md)および[&#x200B; オファースペースの作成と管理](offer-space.md)を参照してください。
 
 ## オファーカタログへのアクセス {#access}
 
-オファーを参照して作成するには、左側のナビゲーションパネルから「**[!UICONTROL オファー]**」を選択します。 リストには、既存のオファーが表示されます。 検索フィールド、フォルダーセレクター、または[ クエリモデラー](../query/query-modeler-overview.md)を使用して、リストをフィルタリングします。
+オファーを参照して作成するには、左側のナビゲーションパネルから「**[!UICONTROL オファー]**」を選択します。 リストには、既存のオファーが表示されます。 検索フィールド、フォルダーセレクター、または[&#x200B; クエリモデラー](../query/query-modeler-overview.md)を使用して、リストをフィルタリングします。
 
-オファーカタログを示す![ スクリーンショット。](assets/offers-offer.png){zoomable="yes"}
+オファーカタログを示す![&#x200B; スクリーンショット。](assets/offers-offer.png){zoomable="yes"}
 
 オファー名をクリックして編集用に開くか、オファーの横にある3つのドットを使用して&#x200B;**[!UICONTROL 複製]**&#x200B;または&#x200B;**[!UICONTROL 削除]**&#x200B;します。
 
@@ -34,7 +36,7 @@ ht-degree: 3%
 
 1. オファーを作成する&#x200B;**[!UICONTROL テンプレート]**&#x200B;を選択します（空白のオファーや匿名のオファーテンプレートなど）。
 
-   オファー作成を示す![ スクリーンショット。](assets/offers-offer-1.png){zoomable="yes"}
+   オファー作成を示す![&#x200B; スクリーンショット。](assets/offers-offer-1.png){zoomable="yes"}
 
 1. **[!UICONTROL ラベル]**&#x200B;を入力し、オプションで、**[!UICONTROL 割り当て先]**&#x200B;を使用してオペレーターにオファーを割り当てるか、**[!UICONTROL オファーコード]**&#x200B;を入力します。
 
@@ -46,7 +48,7 @@ ht-degree: 3%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。 フル設定画面が表示されます。
 
-   オファー設定画面を表示している![ スクリーンショット。](assets/offers-offer-2.png){zoomable="yes"}
+   オファー設定画面を表示している![&#x200B; スクリーンショット。](assets/offers-offer-2.png){zoomable="yes"}
 
 ### 実施要件の定義 {#eligibility}
 
@@ -58,13 +60,13 @@ ht-degree: 3%
   >
   >親カテゴリとの適格性期間の交差は考慮されます。オファーの独自のスケジュールが広い場合でも、オファーは親カテゴリも対象となる間のみ表示されます。
 
-* **[!UICONTROL ターゲット上のフィルター]** – 「**[!UICONTROL フィルターを作成]**」をクリックしてルールビルダーを開き、オファーを特定のオーディエンスに制限します。 環境全体のオーディエンスに対してオファーを適用するには、フィルターを空のままにします。 プラットフォームレベルで宣言された&#x200B;**定義済みフィルター**&#x200B;を再利用するには、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}を参照してください。 定義済みフィルターは、クライアントコンソールから作成されます。
+* **[!UICONTROL ターゲット上のフィルター]** – 「**[!UICONTROL フィルターを作成]**」をクリックしてルールビルダーを開き、オファーを特定のオーディエンスに制限します。 環境全体のオーディエンスに対してオファーを適用するには、フィルターを空のままにします。 プラットフォームレベルで宣言された&#x200B;**定義済みフィルター**&#x200B;を再利用するには、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}を参照してください。 定義済みフィルターは、クライアントコンソールから作成されます。
 
 * **[!UICONTROL オファーの重み付けの管理]** – 「**[!UICONTROL オファーの重み付けを表示]**」をクリックしてから、**[!UICONTROL 重み付けを追加]**」をクリックすると、複数のオファーが同時に実施要件を満たす場合に、オファーの優先順位に影響を与えます。 各ウェイトには、開始日、終了日、オプションのフィルターがあります。
 
 >[!NOTE]
 >
->オファーエンジンは、ウェイトを下げて適格なオファーを並べ替え、最初に最も重み付けされた提案を返します。 選択ロジック（**アービトラージ**&#x200B;と呼ばれる）では、親カテゴリと環境で設定された実施要件ルールと重みも考慮されます。 裁定原則について詳しくは、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ja){target="_blank"}を参照してください。
+>オファーエンジンは、ウェイトを下げて適格なオファーを並べ替え、最初に最も重み付けされた提案を返します。 選択ロジック（**アービトラージ**&#x200B;と呼ばれる）では、親カテゴリと環境で設定された実施要件ルールと重みも考慮されます。 裁定原則について詳しくは、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ja){target="_blank"}を参照してください。
 
 ### コンテンツの定義 {#content}
 
@@ -78,7 +80,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL コンテンツ]** セクションで使用できる属性は、[!DNL nms:offer] スキーマによって異なります。 カスタム属性を公開するには、スキーマを拡張し、**[!UICONTROL オファーコンテンツ]** セクションで選択します。 詳しくは、[ スキーマの操作](../administration/schemas.md)を参照してください。
+>**[!UICONTROL コンテンツ]** セクションで使用できる属性は、[!DNL nms:offer] スキーマによって異なります。 カスタム属性を公開するには、スキーマを拡張し、**[!UICONTROL オファーコンテンツ]** セクションで選択します。 詳しくは、[&#x200B; スキーマの操作](../administration/schemas.md)を参照してください。
 
 ## オファーのプレビュー {#preview}
 
@@ -86,7 +88,7 @@ ht-degree: 3%
 
 1. オファーから、**[!UICONTROL 概要]**&#x200B;の横にある&#x200B;**[!UICONTROL プレビュー]** タブを選択します。
 
-   オファーのプレビューを示す![ スクリーンショット。](assets/offers-offer-3.png){zoomable="yes"}
+   オファーのプレビューを示す![&#x200B; スクリーンショット。](assets/offers-offer-3.png){zoomable="yes"}
 
 1. ターゲットプロファイルを選択し、該当する場合は、プレビューを実行するオファースペースを指定します。
 
@@ -102,7 +104,7 @@ ht-degree: 3%
 
 1. オファーの概要から、**[!UICONTROL 承認]**&#x200B;をクリックします。
 
-   オファーの承認を示す![ スクリーンショット。](assets/offers-offer-4.png){zoomable="yes"}
+   オファーの承認を示す![&#x200B; スクリーンショット。](assets/offers-offer-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 実施要件]**&#x200B;と&#x200B;**[!UICONTROL コンテンツ]**&#x200B;を承認します。 コンテンツはオファースペースごとに承認できるため、1つのオファースペースを承認しながら、他のオファースペースを保留中にすることができます。
 
@@ -124,7 +126,7 @@ ht-degree: 3%
 
 オファー&#x200B;**[!UICONTROL 概要]** タブには、**[!UICONTROL プロパティ]**、**[!UICONTROL コンテンツ]**、および&#x200B;**[!UICONTROL 実施要件]**&#x200B;のオファーステータスが要約され、それぞれに鉛筆アイコンが表示されてエディションに戻ります。 **[!UICONTROL 表示域]** カードには、オファーがリンクされているすべてのオファースペースと、現在のデザインステータスが一覧表示されます。
 
-オファーダッシュボードを示す![ スクリーンショット。](assets/offers-offer-5.png){zoomable="yes"}
+オファーダッシュボードを示す![&#x200B; スクリーンショット。](assets/offers-offer-5.png){zoomable="yes"}
 
 **[!UICONTROL ログ]**&#x200B;をクリックしてデプロイメントログにアクセスするか、**・・・** （**[!UICONTROL 詳細]**）メニューから&#x200B;**[!UICONTROL オファーを複製]**&#x200B;または&#x200B;**[!UICONTROL 削除]**&#x200B;します。
 
@@ -132,7 +134,7 @@ ht-degree: 3%
 
 ## 配信でのオファーの使用 {#use-in-delivery}
 
-オファーがライブになると、一致するオファースペースをターゲットとする任意の配信からオファーを選択できます。 配信でオファーを設定する方法については、[ メッセージにオファーを追加する](../msg/offers.md)を参照してください。
+オファーがライブになると、一致するオファースペースをターゲットとする任意の配信からオファーを選択できます。 配信でオファーを設定する方法については、[&#x200B; メッセージにオファーを追加する](../msg/offers.md)を参照してください。
 
 エンジン呼び出しの構築方法や、オファーリンクにトラッキングを適用する方法など、完全なアウトバウンドデリバリー統合については、[Campaign v8 ドキュメントのアウトバウンドデリバリーのオファー](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}を参照してください。
 

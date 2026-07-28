@@ -3,8 +3,10 @@ audience: end-user
 title: オファースペースの作成と管理
 description: Campaign Webでオファースペースを作成、設定、デプロイ、プレビューする方法について説明します
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 921
@@ -16,17 +18,17 @@ ht-degree: 0%
 
 **オファースペース**&#x200B;は、使用するチャネル（電子メール、ダイレクトメール、SMS、インバウンド webなど）、オファーが使用できるコンテンツフィールド、最終表現の構築方法など、オファーが連絡先に公開される場所と方法を定義します。 1つの環境に複数のオファースペースを含めることができます。各エクスポジションポイントに1つずつ含めることができます。
 
-オファースペースは、それ自体がチャネルではありません。 オファーがチャネル上に表示される特定の場所を表します。 同じweb ページ上の2つのバナーは、通常、2つの異なるオファースペースに対応します。 完全な概念モデルについては、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}を参照してください。
+オファースペースは、それ自体がチャネルではありません。 オファーがチャネル上に表示される特定の場所を表します。 同じweb ページ上の2つのバナーは、通常、2つの異なるオファースペースに対応します。 完全な概念モデルについては、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}を参照してください。
 
 ## オファースペースの作成または変更{#create-offer-space}
 
 オファースペースは、オファー環境フォルダーに保存されます。 プラットフォームで使用可能なオファースペースを参照するには、**[!UICONTROL Explorer]**&#x200B;を開き、オファー環境に移動して、それらを含むサブフォルダーを選択します。
 
-オファー空間リストを示す![ スクリーンショット。](assets/offers-space.png){zoomable="yes"}
+オファー空間リストを示す![&#x200B; スクリーンショット。](assets/offers-space.png){zoomable="yes"}
 
 そこから、「**[!UICONTROL オファースペースを作成]**」をクリックして、既存のオファースペースを開くか、新しいオファースペースを作成できます。
 
-オファースペース画面を示す![ スクリーンショット。](assets/offers-space-1.png){zoomable="yes"}
+オファースペース画面を示す![&#x200B; スクリーンショット。](assets/offers-space-1.png){zoomable="yes"}
 
 ### プロパティの定義 {#properties}
 
@@ -46,7 +48,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->オファー&#x200B;**[!UICONTROL コンテンツ]** セクションからカスタム属性を編集可能にするには、[!DNL nms:offer] スキーマの&#x200B;**[!UICONTROL オファーコンテンツ]** セクションでも属性を宣言する必要があります。 詳しくは、[ スキーマの操作](../administration/schemas.md)を参照してください。
+>オファー&#x200B;**[!UICONTROL コンテンツ]** セクションからカスタム属性を編集可能にするには、[!DNL nms:offer] スキーマの&#x200B;**[!UICONTROL オファーコンテンツ]** セクションでも属性を宣言する必要があります。 詳しくは、[&#x200B; スキーマの操作](../administration/schemas.md)を参照してください。
 
 ### レンダリング関数の設定 {#rendering}
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 承認時のステータス]** – 受信者がオファーを操作したときに適用されるステータス（通常は&#x200B;**[!UICONTROL Accepted]**）。
 
-使用可能なステータス値は、クライアントコンソールで使用されるリストと一致します。 詳しくは、コンソールドキュメントの[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"}を参照してください。
+使用可能なステータス値は、クライアントコンソールで使用されるリストと一致します。 詳しくは、コンソールドキュメントの[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html#offer-proposition-statuses){target="_blank"}を参照してください。
 
 <!--
 >[!NOTE]
@@ -80,15 +82,15 @@ ht-degree: 0%
 
 ### 詳細設定 {#advanced}
 
-このセクションでは、**[!UICONTROL ターゲット ID]**&#x200B;を定義できます。 「**[!UICONTROL 追加]**」をクリックし、1つまたは複数の&#x200B;**[!UICONTROL 受信者]**&#x200B;属性を選択するか、「**[!UICONTROL 式を編集]**」をクリックして、代わりにカスタム式を定義します。 この設定は、基本的なオファースペースの場合はオプションです。 完全な参照と動作については、[Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}を参照してください。
+このセクションでは、**[!UICONTROL ターゲット ID]**&#x200B;を定義できます。 「**[!UICONTROL 追加]**」をクリックし、1つまたは複数の&#x200B;**[!UICONTROL 受信者]**&#x200B;属性を選択するか、「**[!UICONTROL 式を編集]**」をクリックして、代わりにカスタム式を定義します。 この設定は、基本的なオファースペースの場合はオプションです。 完全な参照と動作については、[Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer-spaces.html){target="_blank"}を参照してください。
 
-**インバウンド web チャネル**&#x200B;で作成されたオファースペースでは、オファーを表示し、オファーエンジンを呼び出すようにweb サイトを設定する必要もあります。 この統合はクライアントコンソールで実行されます。Campaign v8 ドキュメントの「[ リアルタイムでオファーを表示](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"}」および「[ オファーエンジン統合を設定](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"}」を参照してください。
+**インバウンド web チャネル**&#x200B;で作成されたオファースペースでは、オファーを表示し、オファーエンジンを呼び出すようにweb サイトを設定する必要もあります。 この統合はクライアントコンソールで実行されます。Campaign v8 ドキュメントの「[&#x200B; リアルタイムでオファーを表示](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-present-offers.html){target="_blank"}」および「[&#x200B; オファーエンジン統合を設定](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-integration.html){target="_blank"}」を参照してください。
 
 ## オファースペースのデプロイ {#deploy}
 
 配信でオファースペースを使用する前に、オファースペースをデプロイする必要があります。 オファースペースを保存し、**デプロイ**&#x200B;をクリックします。 デプロイメントのステータスは、オファースペースに反映されます。
 
-オファーのデプロイを示す![ スクリーンショット。](assets/offers-space-2.png){zoomable="yes"}
+オファーのデプロイを示す![&#x200B; スクリーンショット。](assets/offers-space-2.png){zoomable="yes"}
 
 ## オファースペースのプレビュー {#preview}
 
@@ -96,7 +98,7 @@ ht-degree: 0%
 
 1. オファースペースから、**[!UICONTROL 概要]**&#x200B;の横にある「**[!UICONTROL プレビュー]**」タブを選択します。
 
-   オファーのプレビューを示す![ スクリーンショット。](assets/offers-space-3.png){zoomable="yes"}
+   オファーのプレビューを示す![&#x200B; スクリーンショット。](assets/offers-space-3.png){zoomable="yes"}
 
 1. ターゲットプロファイルを選択し、プレビューを実行します。 一致するオファーは、レンダリング関数によって生成された表現で返されます。
 
@@ -104,4 +106,4 @@ ht-degree: 0%
 >
 >提案が返されない場合は、オファーの実施要件ルールとスペースの設定を確認します。
 
-次に、[ カタログでオファー](create-offer.md)を作成し、このスペースに割り当てます。
+次に、[&#x200B; カタログでオファー](create-offer.md)を作成し、このスペースに割り当てます。

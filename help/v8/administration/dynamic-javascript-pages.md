@@ -2,8 +2,11 @@
 title: ダイナミックJavaScriptページの操作
 description: ダイナミックJavaScriptページの操作方法について説明します。
 exl-id: b7de9f55-2aef-4ba9-a2a1-e9ca15deacfb
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
 workflow-type: tm+mt
 source-wordcount: 392
@@ -27,7 +30,7 @@ ht-degree: 11%
 
 動的JavaScript ページ（JSSP）を使用すると、カスタム API、書き出し、web アプリケーションロジックなどのURLを介してアクセスしたときに動的コンテンツを生成するサーバーサイドページを構築できます。 これらのページは、左側のナビゲーションパネルの&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 動的JavaScript ページ]** メニューに保存されます。
 
-利用可能なオプションを表示する![Dynamic JavaScript ページリストインターフェイス ](assets/dynamic-javascript-pages.png)
+利用可能なオプションを表示する![Dynamic JavaScript ページリストインターフェイス &#x200B;](assets/dynamic-javascript-pages.png)
 
 動的なJavaScript ページリストから、次の操作を実行できます。
 
@@ -53,7 +56,7 @@ ht-degree: 11%
    * **[!UICONTROL 名前]**: ページの参照に使用される一意のID。
    * **[!UICONTROL ラベル]**：動的なJavaScript ページリストに表示される説明ラベル。
 
-   ![名前空間、名前、ラベルのフィールドを表示するダイナミック JavaScript ページ作成インターフェイス ](assets/dynamic-javascript-pages2.png)
+   ![名前空間、名前、ラベルのフィールドを表示するダイナミック JavaScript ページ作成インターフェイス &#x200B;](assets/dynamic-javascript-pages2.png)
 
    >[!NOTE]
    >

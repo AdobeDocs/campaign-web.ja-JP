@@ -3,8 +3,10 @@ audience: end-user
 title: オファー管理のまとめ
 description: Adobe Campaign Webでのオファーの管理方法を説明します
 feature: Offers
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 58c94bacd8eaf86f9f90a4c641f42bd04a442fab
 workflow-type: tm+mt
 source-wordcount: 763
@@ -22,7 +24,7 @@ Campaign Web ユーザーインターフェイスを使用すると、オファ�
 
 >[!NOTE]
 >
->Campaign Web ユーザーインターフェイスは、最も一般的なオファー管理用途に焦点を当てています。 高度な設定は、Campaign クライアントコンソールで引き続き使用できます。 [Campaign v8 ドキュメント ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください
+>Campaign Web ユーザーインターフェイスは、最も一般的なオファー管理用途に焦点を当てています。 高度な設定は、Campaign クライアントコンソールで引き続き使用できます。 [Campaign v8 ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください
 
 <!--
 and check the [Campaign Web and client console capability matrix](../get-started/capability-matrix.md#offer-capabilities) for the current scope.
@@ -66,7 +68,7 @@ Campaign Web UIの一般的なエンドツーエンドのフローは次のと�
 
 オファーは、左側の&#x200B;**[!UICONTROL オファー]** メニューから利用できます。 そこから、カタログを参照し、編集用のオファーを開き、承認とデプロイメントのステータスを監視できます。
 
-オファーメニューを示す![ スクリーンショット。](assets/offers-gs.png){zoomable="yes"}
+オファーメニューを示す![&#x200B; スクリーンショット。](assets/offers-gs.png){zoomable="yes"}
 
 オファー環境とオファースペースには、対応するフォルダーに移動して、**[!UICONTROL Explorer]**&#x200B;からアクセスできます。
 
@@ -75,14 +77,14 @@ Campaign Web UIの一般的なエンドツーエンドのフローは次のと�
 
 一部のオファー機能は、Web ユーザーインターフェイスにまだ公開されていないため、引き続きクライアントコンソールから設定する必要があります。
 
-* **Offer simulation** — オファーの配布を送信前にテストできる&#x200B;**Simulation** モジュール。 [ オファーのシミュレーション ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}を参照してください。
+* **Offer simulation** — オファーの配布を送信前にテストできる&#x200B;**Simulation** モジュール。 [&#x200B; オファーのシミュレーション &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}を参照してください。
 
 * **定義済みフィルター**&#x200B;管理 – 任意のオファーから参照できる再利用可能なフィルタールール。 [定義済みフィルターの管理](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}を参照してください。
 
-* **オファートラッキング** – 提案の履歴をフィードするためのオファー提案のトラッキングの設定。 [ オファー提案の追跡](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}を参照してください。
+* **オファートラッキング** – 提案の履歴をフィードするためのオファー提案のトラッキングの設定。 [&#x200B; オファー提案の追跡](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}を参照してください。
 
-* **オペレーターの役割** — オファーマネージャー/配信マネージャーの権限の割り当て。 インタラクションモジュール ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}の[ オペレーターを参照してください。
+* **オペレーターの役割** — オファーマネージャー/配信マネージャーの権限の割り当て。 インタラクションモジュール [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}の オペレーターを参照してください。
 
-* **操作のベストプラクティスと裁定規則**。 [ キャンペーンインタラクションのベストプラクティス ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ja){target="_blank"}を参照してください。
+* **操作のベストプラクティスと裁定規則**。 [&#x200B; キャンペーンインタラクションのベストプラクティス &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=ja){target="_blank"}を参照してください。
 
 * **レポート** – 専用のオファーおよび提案レポートは、Web ユーザーインターフェイスではまだ使用できません。
