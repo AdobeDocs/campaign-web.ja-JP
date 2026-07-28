@@ -136,5 +136,5 @@ ht-degree: 3%
 
 オファーがライブになると、一致するオファースペースをターゲットとする任意の配信からオファーを選択できます。 配信でオファーを設定する方法については、[&#x200B; メッセージにオファーを追加する](../msg/offers.md)を参照してください。
 
-エンジン呼び出しの構築方法や、オファーリンクにトラッキングを適用する方法など、完全なアウトバウンドデリバリー統合については、[Campaign v8 ドキュメントのアウトバウンドデリバリーのオファー](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html){target="_blank"}を参照してください。
+エンジン呼び出しの構築方法や、オファーリンクにトラッキングを適用する方法など、完全なアウトバウンドデリバリー統合については、[Campaign v8 ドキュメントのアウトバウンドデリバリーのオファー](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-send-offers.html?lang=ja){target="_blank"}を参照してください。
 

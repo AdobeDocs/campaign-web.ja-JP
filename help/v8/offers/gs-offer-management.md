@@ -77,11 +77,11 @@ Campaign Web UIの一般的なエンドツーエンドのフローは次のと�
 
 一部のオファー機能は、Web ユーザーインターフェイスにまだ公開されていないため、引き続きクライアントコンソールから設定する必要があります。
 
-* **Offer simulation** — オファーの配布を送信前にテストできる&#x200B;**Simulation** モジュール。 [&#x200B; オファーのシミュレーション &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-simulation){target="_blank"}を参照してください。
+* **Offer simulation** — オファーの配布を送信前にテストできる&#x200B;**Simulation** モジュール。 [&#x200B; オファーのシミュレーション &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=ja#offer-simulation){target="_blank"}を参照してください。
 
 * **定義済みフィルター**&#x200B;管理 – 任意のオファーから参照できる再利用可能なフィルタールール。 [定義済みフィルターの管理](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-predefined-filters.html){target="_blank"}を参照してください。
 
-* **オファートラッキング** – 提案の履歴をフィードするためのオファー提案のトラッキングの設定。 [&#x200B; オファー提案の追跡](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html){target="_blank"}を参照してください。
+* **オファートラッキング** – 提案の履歴をフィードするためのオファー提案のトラッキングの設定。 [&#x200B; オファー提案の追跡](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-tracking.html?lang=ja){target="_blank"}を参照してください。
 
 * **オペレーターの役割** — オファーマネージャー/配信マネージャーの権限の割り当て。 インタラクションモジュール [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-operators.html){target="_blank"}の オペレーターを参照してください。
 
