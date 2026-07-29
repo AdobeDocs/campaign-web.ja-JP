@@ -15,7 +15,7 @@ ht-degree: 77%
 >id="acw_schema_inventory_list_configuration"
 >title="在庫リストの設定"
 >abstract="リスト表示にデフォルトで表示される列を設定します。 各列には、ラベルと対応する属性が表示されます。 カスタムフィルターを追加して、リストビューのフィルターペインにクイックアクセスフィルターフィールドを表示します。"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html" text="カスタムフィルターを追加"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas/schemas-custom-filters.html?lang=ja" text="カスタムフィルターを追加"
 
 「**[!UICONTROL インベントリリストの設定]**」セクションでは、リストビューにデフォルトで表示される列を設定できます。 各列には、ラベルと対応する属性が表示されます。
 
