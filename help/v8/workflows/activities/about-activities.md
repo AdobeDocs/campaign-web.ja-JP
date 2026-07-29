@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: fa12c9e0408d36e41e87ce4caa306671b433d186
+source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 91%
+source-wordcount: 597
+ht-degree: 97%
 
 ---
 
@@ -52,11 +52,7 @@ ht-degree: 91%
 
 これらのアクティビティは、母集団データの操作およびエンリッチメントに固有です。
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_data_loading_rdbms"
->title="データ読み込み（RDBMS）アクティビティ"
->abstract="**データ読み込み（RDBMS）** アクティビティは&#x200B;**データ管理** アクティビティです。 このアクティビティを使用すると、クライアントコンソールに切り替えずに、外部リレーショナルデータベースからワークフローにデータを直接読み込むことができます。 抽出されたデータはワークフロー全体を通じて利用でき、ターゲティング、エンリッチメント、またはさらなるデータ処理に使用できます。"
-
+* [&#x200B; データ読み込み（RDBMS） &#x200B;](data-loading-rdbms.md)：外部リレーショナルデータベースからワークフローに直接データを読み込みます。
 * [ファイルを抽出](extract-file.md)：Adobe Campaign から別のシステムにデータを外部ファイルとしてエクスポートします。
 * [ファイルを読み込み](load-file.md)：外部ファイルに保存されたプロファイルとデータを操作します。
 * [ファイルを転送](transfer-file.md)：ファイルの送受信、ファイルの有無の確認、サーバー上のファイルのリストアップを行います。 使用されるプロトコルは、サーバー間プロトコルまたは HTTP プロトコルのいずれかです。

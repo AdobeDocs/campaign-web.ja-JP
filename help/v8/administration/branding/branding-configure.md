@@ -6,62 +6,111 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 37%
 
 ---
 
 # ブランドの設定 {#branding-configure}
 
+技術管理者は、Web UIから複数のブランドを直接作成および管理できます。 これにより、ロゴやメールトラッキング設定など、ブランドアイデンティティを設定するすべての要素を定義できます。
+
+>[!NOTE]
+>
+>この機能を使用するには、インスタンス上のブランディングパッケージが必要です。 **Branding** メニューが表示されない場合は、Adobe担当者にお問い合わせください。
+
+## ブランドの作成または編集 {#create-edit-brand}
+
+>[!CONTEXTUALHELP]
+>id="acw_branding_create"
+>title="ブランドの構築"
+>abstract="「**ブランドを作成**」をクリックして、新しいブランドアイデンティティを定義します。 設定タブでブランドの詳細を入力し、**ブランドを作成**&#x200B;をクリックして保存します。 ブランドは、配信テンプレートとスタンドアロン配信にリンクできるようになります。"
+
+新しいブランドを作成するには、次の手順に従います。
+
+1. 左側のメニューから&#x200B;**[!UICONTROL 管理/ ブランディング]**&#x200B;に移動するか、**[!UICONTROL エクスプローラー]**&#x200B;から&#x200B;**[!UICONTROL 管理/ プラットフォーム / ブランディング]**&#x200B;に移動します。
+
+1. リストの上にある「**[!UICONTROL ブランドを作成]**」ボタンをクリックします。
+
+   ブランド作成を示す![&#x200B; スクリーンショット &#x200B;](assets/branding-create.png)
+
+1. さまざまなセクションにブランドの詳細を入力します。 各フィールドについては、以下の「[&#x200B; ブランド属性](#brand-attributes)」セクションで説明します。
+
+   ブランド作成フィールドを示す![&#x200B; スクリーンショット &#x200B;](assets/branding-create2.png)
+
+1. 「**[!UICONTROL ブランドを作成]**」をクリックして保存します。 ブランドは、配信テンプレートとスタンドアロン配信にリンクできるようになりました。 [&#x200B; ブランドの割り当て方法を学ぶ](branding-assign.md)。
+
+既存のブランドを編集するには、リストからブランドを選択し、フィールドを更新して、変更を保存します。
+
+## ブランド属性 {#brand-attributes}
+
+**[!UICONTROL ブランド]**&#x200B;は、4つのセクションに分けて設定されています：**[!UICONTROL ID]**、**[!UICONTROL ブランド設定]**、**[!UICONTROL メールヘッダーパラメーター]**、および&#x200B;**[!UICONTROL URL トラッキングパラメーター]**。
+
+### ID {#identity}
+
+「**[!UICONTROL ID]**」セクションでは、ブランドを定義およびパーソナライズできます。
+
+ブランド作成時に「ID」タブを表示する![&#x200B; スクリーンショット &#x200B;](assets/branding-create3.png)
+
+このセクションには、次のフィールドが含まれています。
+
+* **[!UICONTROL ブランド名]**：ブランドの名前。 このフィールドは必須です。
+* **[!UICONTROL Label]**: インターフェイスに表示されるラベル。
+* **[!UICONTROL ID]**：内部識別子が自動的に生成されます。 それを変更することができます。 英数字とアンダースコアのみ使用できます。 特殊文字はアンダースコアに置き換えられます。
+* **[!UICONTROL ロゴ URL]**: ブランドロゴ画像のURL。
+* **[!UICONTROL Web サイト URL]**&#x200B;および&#x200B;**[!UICONTROL Web サイト ラベル]**：ブランドに関連付けられているweb サイト URLとラベル。
+
+
+### ブランド設定 {#brand-configs}
+
+「**[!UICONTROL ブランド設定]**」セクションでは、トラッキングとランディングページへのアクセスに使用するサブドメインとURL プロトコルを定義します。
+
+「ブランド設定」タブを表示する![&#x200B; スクリーンショット &#x200B;](assets/branding-create4.png)
+
+このセクションには、次のフィールドが含まれています。
+
+* **[!UICONTROL ブランドサブドメイン]**：このブランドに固有のサブドメイン URLで、Adobeからの委任を要求されています。
+* **[!UICONTROL トラッキング URL プロトコル]**、**[!UICONTROL ミラーページ URL プロトコル]**、および&#x200B;**[!UICONTROL アプリケーション URL プロトコル]**：各URL タイプに使用されるプロトコル（**セキュア （https）**&#x200B;など）。
+
+>[!NOTE]
+>
+>トラッキング、ミラー、およびアプリケーションサーバーの設定は、ルーティングに関連付けられた個別の外部アカウントに保存されます。 これらの設定は、プロビジョニング中に適用されるので、変更しないでください。 URL を表示するには、外部アカウントから「**[!UICONTROL ブランディングプレフィックス]**」タブにアクセスします。
+
+### メールヘッダーのパラメーター {#header-param}
+
+**[!UICONTROL メールヘッダーパラメーター]**&#x200B;を使用すると、キャンペーンのヘッダーセクションに表示される受信者の内容をパーソナライズできます。
+
+![電子メールヘッダーフィールドを含む「ヘッダーパラメーター」タブを示すスクリーンショット &#x200B;](assets/branding-create5.png)
+
+このセクションには、次のフィールドが含まれています。
+
+* **[!UICONTROL 送信者（メールアドレス）]**：ブランドのメールアドレス。
+* **[!UICONTROL 送信者（名前）]**：ブランド名。
+* **[!UICONTROL 返信先（電子メールアドレス）]**：お客様が返信できる電子メールアドレス。
+* **[!UICONTROL 返信先（名前）]**：返信の表示名。
+* **[!UICONTROL エラー（電子メールアドレス）]**：エラーが発生した場合に使用する電子メールアドレス。
+
+<!--
 >[!IMPORTANT]
 >
->ブランドは、エンドユーザーが作成または変更することはできません。これらの操作は、Adobe Campaign の技術管理者が実行する必要があります。 ご要望がある場合は、アドビカスタマーケアにお問合せください。
+>After having updated the header parameters of the emails, if the name and email address of the sender have not changed in the email created from the template, check the template's advanced settings.
+-->
 
-Adobe Campaign v8 では、ブランドは&#x200B;**[!UICONTROL 管理／プラットフォーム／ブランディング]**&#x200B;メニューにあります。
+### URL トラッキングパラメーター {#tracking-param}
 
-**[!UICONTROL ブランドは]**、次の特性によって定義されます。
+**[!UICONTROL URL トラッキングパラメーター]** セクションでは、Adobe AnalyticsやGoogle AnalyticsなどのWeb分析ツールと統合するためのパラメーターを追加してURL トラッキングを強化できます。
 
-* **[!UICONTROL Identity]**：ブランドを定義しパーソナライズします。 このセクションには、次のフィールドが含まれています。
+「ヘッダーパラメーター」タブにURL トラッキングパラメーターを表示する![&#x200B; スクリーンショット &#x200B;](assets/branding-create6.png)
 
-   * **[!UICONTROL Label]**：インターフェイスに表示されます。
-   * **[!UICONTROL ID]**
-   * **[!UICONTROL Brand name]**
-   * **[!UICONTROL Website URL]** と **[!UICONTROL Website label]**
-   * **[!UICONTROL Logo URL]**
+このセクションには、次のフィールドが含まれています。
 
-  ![](assets/branding_1.png)
+* **[!UICONTROL 追加のURL パラメーター]**: パラメーターをキーと値のペアとして、適用条件とともに追加します。 各パラメーター名は一意で空でない必要があり、各パラメーター値は空でない必要があります。 適用条件は空にすることができますが、これらの値には JST タグを含めることはできません。
 
-* **[!UICONTROL 送信メールのヘッダーパラメーター]**：キャンペーンの受信者に表示される内容をパーソナライズします。 このセクションには、次のフィールドが含まれています。
+* **[!UICONTROL ドメイン名allow-list]**：トラッキングパラメーターが追加されるURLに一致するように、ドメイン名または正規表現を追加します。
 
-   * **[!UICONTROL Sender (email address)]**：ブランドの電子メールアドレスです。
-   * **[!UICONTROL Sender (name)]**：ブランドの名前です。
-   * **[!UICONTROL Reply to (email address)]**：ユーザーからの返信先のメールアドレスです。
-   * ブランド名を含む&#x200B;**[!UICONTROL Reply to (name)]**：ユーザーからの返信先（ブランド）の名前です。
-   * **[!UICONTROL ）Error (email address)]**：エラーの場合に使用するメールアドレスです。
-
-  >[!IMPORTANT]
-  >
-  >メールのヘッダーパラメーターを更新した後、送信者の名前とメールアドレスが、テンプレートから作成されたメール内で変更されていない場合は、テンプレートの詳細設定を確認します。
-
-  ![](assets/branding_2.png)
-
-* **[!UICONTROL ブランド設定]**：ランディングページへのアクセスのトラッキングにも使用するサーバーを定義します。 このセクションには、次のフィールドが含まれています。
-
-   * **[!UICONTROL ブランドサブドメイン]**：アドビからのデリゲーションをリクエストされた、このブランドに固有の指定されたサブドメイン URL を指します。
-
-  トラッキング、ミラー、アプリケーションサーバーの設定は、ルーティングに関連付けられた個別の外部アカウントに保存されます。 これらの設定は、プロビジョニング中に適用されるので、変更しないでください。 URL を表示するには、外部アカウントから「**[!UICONTROL ブランディングプレフィックス]**」タブにアクセスします。
-
-  ![](assets/branding_3.png)
-
-* **[!UICONTROL トラッキング URL 設定]**&#x200B;メニューを使用すると、Adobe Analytics や Google Analytics などの web 分析ツールとの統合の追加パラメーターを定義して、URL トラッキングを強化できます。
-
-  **[!UICONTROL 追加の URL パラメーター]**&#x200B;メニューを使用して、適用条件と共にキーと値のペアとして追加のパラメーターを作成します。 各パラメーター名は一意で空でない必要があり、各パラメーター値は空でない必要があります。 適用条件は空にすることができますが、これらの値には JST タグを含めることはできません。
-
-  これらのパラメーターは、**[!UICONTROL ドメイン名のリスト]**&#x200B;で指定したドメイン名（正規表現を含めることができる）に一致するトラッキング対象 URL に適用されます。
-
-  **例：**`https://www.example.com` のようなトラッキング対象 URL は、そのドメインに追加パラメーター `age=21` および `deliveryName=DM101` が設定されている場合は `https://www.example.com/?age=21&deliveryName=DM101` になります。
+**例：**`https://www.luma.com` のようなトラッキング対象 URL は、そのドメインに追加パラメーター `age=21` および `deliveryName=DM101` が設定されている場合は `https://www.luma.com/?age=21&deliveryName=DM101` になります。
 
 ## トランザクションメッセージのブランディングの設定 {#branding-transactional-config}
 

@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1402
-ht-degree: 100%
+source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
+workflow-type: tm+mt
+source-wordcount: 1517
+ht-degree: 85%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 
 ## テキスト {#text}
 
-**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用すると、メールにテキストを挿入し、スタイル（境界線、サイズ、パディングなど）を「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブを使用して調整できます。
+**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用すると、メールにテキストを挿入し、スタイル（境界線、サイズ、パディングなど）を 「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブを使用して調整できます。
 
 1. **[!UICONTROL コンテンツ]**&#x200B;メニューから、**[!UICONTROL テキスト]**&#x200B;を&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントにドラッグ＆ドロップします。
 
@@ -116,7 +116,7 @@ ht-degree: 100%
    * **[!UICONTROL リストを作成]**：テキストに箇条書きリストまたは番号リストを追加します。
    * **[!UICONTROL 見出しを設定]**：テキストに最大 6 つの見出しレベルを追加します。
    * **フォントサイズ**：テキストのフォントサイズをピクセル単位で選択します。
-   * **[!UICONTROL 画像を編集]**：テキストコンポーネントに画像またはアセットを追加します。
+   * **[!UICONTROL 画像を編集]**: Adobe Experience Manager Assets ライブラリからテキストコンポーネントに画像を追加するか、コンピューターから画像を追加するか、Adobe Campaign インスタンスで使用可能な画像を再利用します。 [詳細情報](#image)
    * **[!UICONTROL ソースコードを表示]**：テキストのソースコードを表示します。 これは変更できません。
    * **[!UICONTROL 複製]**：テキストコンポーネントの複製を追加します。
    * **[!UICONTROL 削除]**：選択したテキストコンポーネントをメールから削除します。
@@ -153,27 +153,53 @@ ht-degree: 100%
 
 ## 画像 {#image}
 
->[!IMPORTANT]
->
->Assets メニューへのアクセスは、アクティブな Adobe Experience Manager as a Cloud Service ライセンスを持つユーザーに制限されます。 このライセンスを保持していない場合、Assets メニューは使用できません。
-
-**[!UICONTROL 画像]**&#x200B;コンポーネントを使用して、コンピューターからメールに画像ファイルを挿入します。
+**[!UICONTROL 画像]** コンポーネントを使用して、メールに画像を挿入します。
 
 1. **[!UICONTROL コンテンツ]**&#x200B;メニューで、**[!UICONTROL 画像]**&#x200B;コンポーネントを&#x200B;**[!UICONTROL 構造]**&#x200B;コンポーネントにドラッグ＆ドロップします。
 
    ![E メールデザイナーに画像コンポーネントをドラッグ＆ドロップする方法を示すスクリーンショット。](assets/email_designer_9.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 参照]**」をクリックして、アセットから画像ファイルを選択します。 また、「**[!UICONTROL メディアを読み込み]**」を選択することもできます。
+1. 次のいずれかのオプションを選択して、画像を追加します。
+
+   電子メール Designerの画像コンポーネントのオプションを示す![&#x200B; スクリーンショット。](assets/email_designer_28.png){zoomable="yes"}
+
+   +++**[!UICONTROL 参照]**
+
+   Adobe Experience Manager Assets ライブラリから画像を選択するには、このオプションを選択します。
+
+   >[!IMPORTANT]
+   >
+   >このオプションを使用するには、アクティブなAdobe Experience Manager as a Cloud Service ライセンスが必要です。
+
+   フォルダー内を移動して必要な特定のアセットを見つけるか、検索バーを使用して効率的に見つけます。 アセットが見つかったら、**[!UICONTROL 選択]**&#x200B;をクリックします。
+
+   ![E メールデザイナーのアセット選択プロセスを示すスクリーンショット。](assets/email_designer_29.png){zoomable="yes"}
 
    Adobe Experience Manager でアセットをアップロードおよび追加する方法について詳しくは、[Adobe Experience Manager as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=ja)を参照してください。
 
-   ![E メールデザイナーの画像コンポーネント用の「参照」オプションを示すスクリーンショット。](assets/email_designer_28.png){zoomable="yes"}
+   +++
 
-1. フォルダー内を移動して必要な特定のアセットを見つけるか、検索バーを使用して効率的に見つけます。
+   +++**[!UICONTROL 読み込み]**
 
-   検索しているアセットが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
+   コンピューターから新しい画像をアップロードするには、このオプションを選択します。 ファイルは、Adobe Campaign インスタンスのパブリックリソースとしてアップロードされます。
 
-   ![E メールデザイナーのアセット選択プロセスを示すスクリーンショット。](assets/email_designer_29.png){zoomable="yes"}
+   +++
+
+   +++**[!UICONTROL パブリックリソースの読み込み]**
+
+   このオプションを選択すると、Adobe Campaign インスタンスで既に使用可能な画像（以前に電子メールDesignerに読み込まれたファイルや、クライアントコンソールからパブリックリソースとして読み込まれたファイルなど）を選択できます。
+
+   ![電子メール Designerでのパブリックリソースの選択プロセスを示すスクリーンショット。](assets/email_designer_30.png){zoomable="yes"}
+
+   リソースを名前で検索します。 フィルターを使用して列を再編成することもできます。
+
+   >[!NOTE]
+   >
+   >セキュリティの制約は、クライアントコンソールと同じです。ユーザー権限に基づいて、アクセスできるリソースのみを選択できます。
+
+   リソースを選択し、**[!UICONTROL 確認]**&#x200B;をクリックします。
+
+   +++
 
 1. 新しく追加したコンポーネントをクリックし、「**[!UICONTROL 設定]**」タブを使用して画像プロパティを設定します。
 

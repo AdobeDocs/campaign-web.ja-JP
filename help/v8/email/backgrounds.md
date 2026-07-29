@@ -6,10 +6,10 @@ exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
 TQID: https://experienceleague.adobe.com/ssELWLmS9gyORG4JCf-6w5lxyn0UeaC63LBNheBGU8M
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 351
-ht-degree: 100%
+source-git-commit: 1fe9a9727557de8bd1b0b2f10c58d89526b64095
+workflow-type: tm+mt
+source-wordcount: 366
+ht-degree: 96%
 
 ---
 
@@ -30,34 +30,29 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
 
 * **[!UICONTROL 背景色]**&#x200B;をメール全体に対して設定します。 左側のウィンドウからアクセス可能なナビゲーションツリーで、本文設定を選択します。
 
-  [ナビゲーションツリー経由でアクセスできる、メール本文全体に対する背景色の設定。]\
-  ![](assets/background_1.png){zoomable="yes"}
+  ![ナビゲーションツリー経由でアクセスできる、メール本文全体に対する背景色の設定。](assets/background_1.png){zoomable="yes"}
 
 * すべての構造コンポーネントに同じ背景色を設定するには、**[!UICONTROL ビューポートの背景色]**&#x200B;を選択します。 このオプションを使用すると、背景色から別の設定を選択できます。
 
-  [ビューポートの背景色オプションを使用する、すべての構造コンポーネントに対する均一な背景色を設定する。]\
-  ![](assets/background_2.png){zoomable="yes"}
+  ![ビューポートの背景色オプションを使用する、すべての構造コンポーネントに対する均一な背景色を設定する。](assets/background_2.png){zoomable="yes"}
 
 * 構造コンポーネントごとに異なる背景色を設定します。 左側ウィンドウのナビゲーションツリーで構造を選択し、その構造にのみ特定の背景色を適用します。
 
-  [ナビゲーションツリー経由での個々の構造コンポーネントに一意の背景色を適用する。]\
-  ![](assets/background_3.png){zoomable="yes"}
+  ![ナビゲーションツリー経由での個々の構造コンポーネントに一意の背景色を適用する。](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
   >構造の背景色が隠れてしまう場合があるので、ビューポートの背景色を設定しないでください。
 
-* 構造コンポーネントのコンテンツに対して、**[!UICONTROL 背景画像]**&#x200B;を設定します。
+* 構造コンポーネントのコンテンツに対して、**[!UICONTROL 背景画像]**&#x200B;を設定します。 **[!UICONTROL アセットを選択]**、**[!UICONTROL メディアの読み込み]**、**[!UICONTROL パブリックリソースの読み込み]**&#x200B;を使用して画像を選択します。 [詳細情報](content-components.md#image)
 
-  [特定の構造コンポーネントのコンテンツに対する背景画像の追加。]\
-  ![](assets/background_4.png){zoomable="yes"}
+  ![特定の構造コンポーネントのコンテンツに対する背景画像の追加。](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
   >一部のメールプログラムでは、背景画像はサポートされていません。 サポートされていない場合は、代わりに行の背景色が使用されます。 画像を表示できない場合は、適切なフォールバックの背景色を選択します。
 
 * 列レベルで背景色を設定します。
 
-  [柔軟性を高めるための列レベルでの背景色の適用。]\
-  ![](assets/background_5.png){zoomable="yes"}
+  ![柔軟性を高めるための列レベルでの背景色の適用。](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
   >これは最も一般的な使用例です。 アドビでは、メールコンテンツ全体を柔軟に編集できるように、背景色を列レベルで設定することをお勧めします。

@@ -2,16 +2,37 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2026 Campaign web ユーザーインターフェイスのリリース
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 4eae8f0ea3c176a12e040f7406aac699e14a5ba8
-workflow-type: ht
-source-wordcount: '1204'
-ht-degree: 100%
+source-git-commit: 2f61ad20f37aab1b89e983ee23fa5182b2ef0f29
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 98%
 
 ---
 
 # 2026 リリースノート {#2026-release}
 
 このページには、**2026 リリース**&#x200B;で提供されるすべての変更点と改善点が一覧表示されています。 最新のリリースノートについて詳しくは、[このページ](release-notes.md)を参照してください。
+
+## 2026年6月リリース {#26-6-release}
+
+_2026年6月16日（PT）_
+
+### 改善点 {#26-6-improvements}
+
+<!--
+* Technical administrators can now create and configure brands directly from the Campaign Web User Interface, without using the Client Console. All brand settings, including identity, subdmain and protocols, email header parameters and URL tracking parameters, are now available in the Web UI. <!-- [Learn more](../administration/branding/branding-configure.md)
+-->
+
+* トラッキングログを含む任意のリスト画面からデータをエクスポートできるようになりました。 リストを見つけて、エクスポートボタンをクリックするだけです。 エクスポートでは、現在読み込まれている行が含まれ、画面に表示されている列やアクティブな検索またはフィルターが考慮されます。 [詳細情報](../get-started/list-filters.md)
+
+* **重複排除 - 重複**&#x200B;および&#x200B;**終了**&#x200B;ワークフローアクティビティで、複数のインバウンドトランジションがサポートされるようになりました 複数のインバウンドトランジションが使用可能な場合は、アクティビティの「**結合に設定する**」セクションを使用します
+接続するトランジションを選択します。 詳しくは、[重複排除 - 重複](../workflows/activities/deduplication.md)、[終了](../workflows/activities/end.md)の各ページを参照してください。
+
+* **オーディエンスを作成**（クエリタイプ）および&#x200B;**エンリッチメント**&#x200B;ワークフローアクティビティの「**エンリッチメントデータ**」セクションで、詳細設定パラメーターが公開されるようになりました。 これらのパラメーターを使用すると、グループ化、重複排除 - 重複、プライマリキーの処理、インバウンドイベントデータなど、エンリッチメントデータの作成方法を微調整できます。 [詳細情報](../workflows/activities/enrichment.md)
+
+<!--
+* Delivery templates now allow you to define a time zone in the Schedule settings.
+-->
 
 ## 2026年4月リリース {#26-4-release}
 
@@ -117,7 +138,7 @@ _2026年4月29日（PT）_
 
 ### 改善点 {#26-3-improvements}
 
-* クライアントコンソールとの互換性を向上させるために、ワークフローの&#x200B;**開始**アクティビティが追加されました。このアクティビティはオプションで、新規ワークフローにはデフォルトでは挿入されません。ただし、既存のワークフローには自動的に追加されます。
+* クライアントコンソールとの互換性を向上させるために、ワークフローの&#x200B;**開始**&#x200B;アクティビティが追加されました。このアクティビティはオプションで、新規ワークフローにはデフォルトでは挿入されません。ただし、既存のワークフローには自動的に追加されます。
   [詳細情報](../workflows/activities/about-activities.md#flow-control)
 * 配信の「**スケジュール**」設定のタイムゾーン選択フィールドが、「**連絡日**」フィールドの下に移動しました。 [詳細情報](../msg/create-deliveries.md#gs-schedule)
 
@@ -219,7 +240,7 @@ _2026年1月27日（PT）_
 <tbody>
 <tr>
 <td>
-<p>多言語配信機能を、すべてのお客様が使用できるようになりました（GA）。この機能を使用すると、Adobe Campaign web ユーザーインターフェイスの様々な言語で複数のメッセージを送信できます。配信のデフォルト言語や、配信を送信できる様々な言語を選択できます。また、選択した言語で、これらの配信をプレビューすることもできます。
+<p>多言語配信機能を、すべてのお客様が使用できるようになりました（GA）。この機能を使用すると、Adobe Campaign web ユーザーインターフェイスの様々な言語で複数のメッセージを送信できます。配信のデフォルト言語や、配信を送信できる様々な言語を選択できます。また、選択した言語で、これらの配信をプレビューすることもできます。 
 <p>詳しくは、<a href="../msg/multilingual.md">詳細ドキュメント</a>を参照してください。</p>
 <p>多言語プッシュ通知に対して、次の改善が行われました。</p>
 <ul>
