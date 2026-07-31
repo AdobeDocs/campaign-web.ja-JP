@@ -4,9 +4,12 @@ title: 生成コンテンツ
 description: AIを活用して画像を生成する方法を学ぶ
 exl-id: 9de12187-c437-467b-974a-1e165adc5fe1
 TQID: https://experienceleague.adobe.com/kMFMddQ-ZYGJIZ7-0BfrUMQzJ701fQlpehO15llbJAw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1212
@@ -21,7 +24,7 @@ ht-degree: 73%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)を参照してください。
 ></br>
 >
->AIを使用してAdobe Campaign Webでコンテンツを生成する前に、[ ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>AIを使用してAdobe Campaign Webでコンテンツを生成する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 Adobe Campaign WebのAIを利用して、魅力的なビジュアルコンテンツを制作し、電子メール、ランディングページ、プッシュ通知をまたいでメッセージを強化できます。 AIを活用して画像を生成および最適化し、コンテンツが視覚的に魅力的で、ブランドに即していることを確認します。
 
@@ -112,7 +115,7 @@ AIを使用してプッシュ通知用の画像を生成するには、まず配
 
 1. **[!UICONTROL コンテンツ生成を表示]** メニューにアクセスします。
 
-   ![ コンテンツ生成メニューを表示するスクリーンショット ](assets/push-img-1.png){zoomable="yes"}
+   ![&#x200B; コンテンツ生成メニューを表示するスクリーンショット &#x200B;](assets/push-img-1.png){zoomable="yes"}
 
 ### 画像を生成 {#mobile-generate-content}
 
@@ -124,7 +127,7 @@ AIを使用してプッシュ通知用の画像を生成するには、まず配
 
    プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。 [プロンプトのベストプラクティスの詳細情報](ai-assistant-prompting-guide.md)
 
-   ![ プロンプトフィールドとオプションを使用したコンテンツの生成](assets/push-img-2.png){zoomable="yes"}
+   ![&#x200B; プロンプトフィールドとオプションを使用したコンテンツの生成](assets/push-img-2.png){zoomable="yes"}
 
 1. アセットのみを生成するには、「**[!UICONTROL 画像]**」を選択します。
 

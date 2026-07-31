@@ -4,8 +4,11 @@ title: 生成コンテンツ
 description: Journey OptimizerのAI （人工知能）を利用して、包括的なコンテンツエクスペリエンスを構築する方法を紹介します。
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 TQID: https://experienceleague.adobe.com/nXCZiZL0nd7Jso0wMFrBCEZCzzcx83-c0BdI-PxCOp4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1620
@@ -20,7 +23,7 @@ ht-degree: 76%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)を参照してください。
 ></br>
 >
->AIを使用してAdobe Campaign Webでコンテンツを生成する前に、[ ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>AIを使用してAdobe Campaign Webでコンテンツを生成する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 Adobe Campaign WebのAIを利用して、電子メール、ランディングページ、プッシュ通知チャネルをまたいで、包括的なコンテンツエクスペリエンスを生成できます。 AIは、オーディエンスの心に響く包括的なコンテンツを作成することで、配信の影響を最適化するのに役立ちます。
 
@@ -39,7 +42,7 @@ AIを活用したコンテンツの制作を開始する前に、配信を設定
 
 1. 必要に応じてレイアウトをパーソナライズし、**[!UICONTROL コンテンツを生成]** メニューにアクセスします。
 
-   ![ ブランドの選択とプロンプトフィールドを表示するコンテンツパネルを生成](assets/full-email-1.png){zoomable="yes"}
+   ![&#x200B; ブランドの選択とプロンプトフィールドを表示するコンテンツパネルを生成](assets/full-email-1.png){zoomable="yes"}
 
 ### 完全なコンテンツを生成 {#generate-content}
 
@@ -133,7 +136,7 @@ AIを活用してプッシュ通知用のコンテンツを生成するには、
 
 1. **[!UICONTROL コンテンツ生成を表示]** メニューにアクセスします。
 
-   ![ コンテンツ生成メニューを表示するスクリーンショット ](assets/push-genai-1.png){zoomable="yes"}
+   ![&#x200B; コンテンツ生成メニューを表示するスクリーンショット &#x200B;](assets/push-genai-1.png){zoomable="yes"}
 
 ### 完全なコンテンツを生成 {#mobile-generate-content}
 
@@ -145,7 +148,7 @@ AIを活用してプッシュ通知用のコンテンツを生成するには、
 
    プロンプトの作成に関するサポートが必要な場合は、配信を改善する様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。 [プロンプトのベストプラクティスの詳細情報](ai-assistant-prompting-guide.md)
 
-   ![ プロンプトフィールドとオプションを使用したコンテンツの生成](assets/push-genai-2.png){zoomable="yes"}
+   ![&#x200B; プロンプトフィールドとオプションを使用したコンテンツの生成](assets/push-genai-2.png){zoomable="yes"}
 
 1. 生成するフィールド（「**[!UICONTROL タイトル]**」、「**[!UICONTROL サブタイトル]**」、「**[!UICONTROL メッセージ]**」、「**[!UICONTROL 画像]**」）を選択します。
 

@@ -3,7 +3,8 @@ title: コンテンツのユースケースを生成
 description: AIを活用してコンテンツを生成する方法をユースケースを通じて学ぶ
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
 TQID: https://experienceleague.adobe.com/WcuIJGn2iv3OY8MT5qQ8sYiQ1zNbPd55hCmAi-dQUeQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1243
@@ -19,7 +20,7 @@ ht-degree: 69%
 
 ## 既存コンテンツの使用
 
-![ コンテンツの生成で既存のコンテンツを再利用するデモ ](assets/do-not-localize/gen-ai-reuse-text.gif)
+![&#x200B; コンテンツの生成で既存のコンテンツを再利用するデモ &#x200B;](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 キャンペーン内のコンテンツとコンテキストからバリエーションを生成し、メッセージとオーディエンスの一貫性を維持します。
 
@@ -39,7 +40,7 @@ ht-degree: 69%
 
 ## バリエーションの絞り込み {#refine}
 
-![ コンテンツ生成でコンテンツのバリエーションを絞り込むデモ ](assets/do-not-localize/gen-ai-variation.gif)
+![&#x200B; コンテンツ生成でコンテンツのバリエーションを絞り込むデモ &#x200B;](assets/do-not-localize/gen-ai-variation.gif)
 
 最終テキストを選択する前に、AI が生成したバリエーションの位置、トーン、長さ、文言、戦略を調整します。
 
@@ -71,7 +72,7 @@ ht-degree: 69%
 
 ## 類似画像の生成
 
-![ コンテンツを生成して類似の画像を生成するデモ ](assets/do-not-localize/uc-image-similar.gif)
+![&#x200B; コンテンツを生成して類似の画像を生成するデモ &#x200B;](assets/do-not-localize/uc-image-similar.gif)
 
 画像がほぼ適切である場合は、全体的な外観とテーマが同じになるように、追加のオプションを生成します。
 
@@ -93,7 +94,7 @@ ht-degree: 69%
 
 ## スタイル参照のアップロード
 
-![ コンテンツを生成するためのスタイル参照のアップロードのデモ ](assets/do-not-localize/uc-image-reference.gif)
+![&#x200B; コンテンツを生成するためのスタイル参照のアップロードのデモ &#x200B;](assets/do-not-localize/uc-image-reference.gif)
 
 新しいビジュアルが目的のスタイル、パレット、または構成に沿うように、参照画像をアップロードします。
 
@@ -119,7 +120,7 @@ ht-degree: 69%
 
 ## サポートされている言語をまたいでコンテンツを生成{#languages}
 
-![ フランス語、スペイン語、ドイツ語を含む多言語でコンテンツを生成する生成コンテンツのアニメーションデモ ](assets/do-not-localize/ai-language.gif)
+![&#x200B; フランス語、スペイン語、ドイツ語を含む多言語でコンテンツを生成する生成コンテンツのアニメーションデモ &#x200B;](assets/do-not-localize/ai-language.gif)
 
 AIでサポートされている言語でテキストを生成し、プロンプトと明示的な言語設定を組み合わせます。
 
@@ -139,7 +140,7 @@ AIでサポートされている言語でテキストを生成し、プロンプ
 
 ## 生成に参照コンテンツを使用
 
-![参照コンテンツを含むコンテンツを生成するアニメーションのデモ ](assets/do-not-localize/gen-url.gif)
+![参照コンテンツを含むコンテンツを生成するアニメーションのデモ &#x200B;](assets/do-not-localize/gen-url.gif)
 
 **参照コンテンツ**、web ページ、またはアップロードされたファイルを追加することで、AIにコンテキストをより多く提供できるので、生成されたコピーと提案はソース素材に近い状態を維持できます。
 
@@ -163,7 +164,7 @@ AIでサポートされている言語でテキストを生成し、プロンプ
 
 ## 生成モデルの使用 {#generative-model}
 
-![ カスタムモデルを使用してコンテンツを生成するアニメーションのデモ ](assets/do-not-localize/gen-ai-model.gif)
+![&#x200B; カスタムモデルを使用してコンテンツを生成するアニメーションのデモ &#x200B;](assets/do-not-localize/gen-ai-model.gif)
 
 カスタム生成モデルを登録し、「コンテンツを生成」からカスタム生成モデルを通じて画像生成をルーティングします。
 
@@ -189,7 +190,7 @@ AIでサポートされている言語でテキストを生成し、プロンプ
 
 ## Gemini をテキストオーバーレイ画像の生成モデルとして使用
 
-![生成モデルとしてGeminiを使用してコンテンツを生成する「コンテンツを生成」のアニメーションデモ ](assets/do-not-localize/gen-nano.gif)
+![生成モデルとしてGeminiを使用してコンテンツを生成する「コンテンツを生成」のアニメーションデモ &#x200B;](assets/do-not-localize/gen-nano.gif)
 
 生成モデルとして&#x200B;**Gemini 2.5**&#x200B;を選択した場合、コンテンツの生成で画像バリエーションを生成し、URL、ファイル、またはAIが生成したプロンプトからテキストオーバーレイを追加し、最終的なバリエーションを適用する前にオーバーレイを配置できます。
 

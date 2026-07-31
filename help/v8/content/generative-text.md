@@ -4,8 +4,11 @@ title: 生成コンテンツ
 description: AIを活用してテキストコンテンツエクスペリエンスを生成する方法を学ぶ
 exl-id: da60d57e-d17f-40eb-9c24-0bfea940d236
 TQID: https://experienceleague.adobe.com/yV28iGW0nS-R6ZgQnfOrpfZlCzQu-1Ng1TH6aWD8QOg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 1450
@@ -20,7 +23,7 @@ ht-degree: 75%
 >この機能の使用を開始する前に、関連する[ガードレールと制限](generative-gs.md#generative-guardrails)を参照してください。
 ></br>
 >
->AIを使用してAdobe Campaign Webでコンテンツを生成する前に、[ ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>AIを使用してAdobe Campaign Webでコンテンツを生成する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 Adobe Campaign WebでAIを利用して、オーディエンスの心に響く魅力的なテキストを生成できます。 AIは、メールのコピー強化、説得力のあるランディングページコンテンツの作成、プッシュ通知メッセージの作成、SMS テキストの作成など、明確でインパクトのあるコミュニケーションの提供に役立ちます。
 
@@ -123,7 +126,7 @@ AIを活用して、プッシュ通知やSMS メッセージ用の魅力的な�
 
 1. **[!UICONTROL コンテンツ生成を表示]** メニューにアクセスします。
 
-   ![ コンテンツ生成メニューを表示するスクリーンショット ](assets/sms-genai-1.png){zoomable="yes"}
+   ![&#x200B; コンテンツ生成メニューを表示するスクリーンショット &#x200B;](assets/sms-genai-1.png){zoomable="yes"}
 
 ### テキストを生成 {#mobile-generate-content}
 
@@ -135,7 +138,7 @@ AIを活用して、プッシュ通知やSMS メッセージ用の魅力的な�
 
    プロンプトの作成に関するサポートが必要な場合は、配信を改善する様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。 [プロンプトのベストプラクティスの詳細情報](ai-assistant-prompting-guide.md)
 
-   ![ プロンプトフィールドとオプションを使用したコンテンツの生成](assets/sms-genai-2.png){zoomable="yes"}
+   ![&#x200B; プロンプトフィールドとオプションを使用したコンテンツの生成](assets/sms-genai-2.png){zoomable="yes"}
 
 1. **プッシュ通知の場合**、生成するテキストフィールド（「**[!UICONTROL タイトル]**」、「**[!UICONTROL サブタイトル]**」、「**[!UICONTROL メッセージ]**」）を選択します。
 
