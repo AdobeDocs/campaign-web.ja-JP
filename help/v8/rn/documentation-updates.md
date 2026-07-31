@@ -5,12 +5,11 @@ description: Adobe Campaign Web ドキュメントの更新
 exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
 hide: true
 TQID: https://experienceleague.adobe.com/vmGBr2-v9PG2veid6Tg-TV2r3h-Y2DqcZcBKkCdVu7E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 057c090eff18a183890d4996b580d74b5aa4732d
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 138
-ht-degree: 53%
+ht-degree: 33%
 
 ---
 
@@ -27,5 +26,5 @@ ht-degree: 53%
 
 **日付：2025年12月1日（PT）**
 
-* [完全なコンテンツ生成](../content/generative-full-content.md)、[テキスト生成](../content/generative-text.md)、[画像生成](../content/generative-image.md)のページを統合して、AI アシスタントのドキュメントガイドを再編成しました。
-* ユーザーが効果的なプロンプトを作成するのに役立つ [AI アシスタントプロンプトのベストプラクティスガイド](../content/ai-assistant-prompting-guide.md)を追加しました
+* [ フルコンテンツ生成](../content/generative-full-content.md)、[ テキスト生成](../content/generative-text.md)、[画像生成](../content/generative-image.md)の統合ページを含むコンテンツドキュメントガイドを再編成
+* ユーザーが効果的なプロンプトを作成するのに役立つ[ コンテンツプロンプト生成のベストプラクティスガイド ](../content/ai-assistant-prompting-guide.md)を追加しました

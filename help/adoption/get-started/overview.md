@@ -5,30 +5,16 @@ role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
 TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -67,14 +53,14 @@ Adobe Campaign v8 に付属する主な機能強化を以下に示します。
 
   Adobe Campaign v8 では、高度なクラウド規模のデータベーステクノロジーを活用し、パフォーマンスと効率性を大幅に向上させます。 この再設計されたアーキテクチャには、次のような主なメリットがあります。
 
-   * *拡大・縮小*：システムは現在、処理能力の大幅な向上をサポートし、バッチ処理のスループットは **1 時間あたり最大 2,000 万操作**&#x200B;に達します。 この新しいアーキテクチャにより、さらに高いプロファイルを予測可能なパフォーマンスで管理できます。
-   * *速度*：システムは、セグメント化、配信準備、トランザクションメッセージのスループット（現在は **1 時間あたり 100 万件**）など、あらゆるマーケティングアクティビティ向けに改善されました。
+  * *拡大・縮小*：システムは現在、処理能力の大幅な向上をサポートし、バッチ処理のスループットは **1 時間あたり最大 2,000 万操作**&#x200B;に達します。 この新しいアーキテクチャにより、さらに高いプロファイルを予測可能なパフォーマンスで管理できます。
+  * *速度*：システムは、セグメント化、配信準備、トランザクションメッセージのスループット（現在は **1 時間あたり 100 万件**）など、あらゆるマーケティングアクティビティ向けに改善されました。
 
   完全に管理されたクラウドサービスでは、ユーザーに次の機能を提供します。
 
-   * リアルタイムデータ探索：データに即座にアクセスして分析することで、クイックインサイトを得て、より多くの情報に基づいた意思決定が可能になります。
+  * リアルタイムデータ探索：データに即座にアクセスして分析することで、クイックインサイトを得て、より多くの情報に基づいた意思決定が可能になります。
 
-   * オーディエンスの迅速な作成：ターゲットオーディエンスを数分以内で簡単に作成し、キャンペーンのセグメント化を効率化できます。
+  * オーディエンスの迅速な作成：ターゲットオーディエンスを数分以内で簡単に作成し、キャンペーンのセグメント化を効率化できます。
 
   全体的に、Adobe Campaign v8 の堅牢なアーキテクチャは、速度と効率を向上させ、広範で複雑なマーケティングキャンペーンを管理する強力な基盤を提供します。
 
@@ -92,9 +78,9 @@ Campaign Standard ユーザーが Adobe Campaign v8 に移行する場合は、�
 
   次の場合、顧客のシステムに基づいて通知を調整できます。
 
-   * [Android](../../v8/push/rich-push.md) テンプレートの場合
+  * [Android](../../v8/push/rich-push.md) テンプレートの場合
 
-   * [iOS](../../v8/push/rich-push.md) テンプレートの場合
+  * [iOS](../../v8/push/rich-push.md) テンプレートの場合
 
   プッシュ通知は、モバイルアプリのユーザーを引き付ける重要なツールで、ユーザーがアプリを積極的に使用していない場合でもユーザーにリーチできます。
 
@@ -104,29 +90,29 @@ Campaign Standard ユーザーが Adobe Campaign v8 に移行する場合は、�
 
   この統合によって有効になる主な機能は次のとおりです。
 
-   * *アセット管理*：Adobe Campaign v8 内では、E メールデザイナーがアセットにアクセスして管理するピッカーを提供します。 この機能により、Adobe Experience Manager の要素を配信に簡単に統合できるので、コンテンツ管理がより効率的になります。 [詳しくは、アセット管理を参照してください](../../v8/integrations/aem-assets.md)。
+  * *アセット管理*：Adobe Campaign v8 内では、E メールデザイナーがアセットにアクセスして管理するピッカーを提供します。 この機能により、Adobe Experience Manager の要素を配信に簡単に統合できるので、コンテンツ管理がより効率的になります。 [詳しくは、アセット管理を参照してください](../../v8/integrations/aem-assets.md)。
 
-     ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *メールテンプレートの読み込み*：Adobe Campaign v8 を使用すると、Adobe Experience Manager からメールテンプレートを直接参照して Campaign に読み込むことができます。 [詳しくは、メールテンプレートの読み込みを参照してください](../../v8/integrations/aem-content.md)。
+  * *メールテンプレートの読み込み*：Adobe Campaign v8 を使用すると、Adobe Experience Manager からメールテンプレートを直接参照して Campaign に読み込むことができます。 [詳しくは、メールテンプレートの読み込みを参照してください](../../v8/integrations/aem-content.md)。
 
-     ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
+    ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
   Adobe Experience Manager as a Cloud Service では、クラウドネイティブの俊敏性を提供し、価値実現までの時間を短縮し、進化するビジネスニーズに適応できます。 この統合により、コンテンツ管理機能が強化されるだけでなく、すべてのタッチポイントにわたって、よりパーソナライズされた魅力的なエクスペリエンスを顧客に提供できます。
 
-* **AI アシスタント**
+* **コンテンツを生成**
 
-  Campaign の AI アシスタントを使用すると、メール、SMS、プッシュなどすべてのチャネルでマーケティングキャンペーンを、直感的でシンプルかつ手間のかからない方法で作成および実行でき、時間を節約し、効率を向上させ、より良い結果を導き出すことができます。
+  Campaign Generate Contentは、電子メール、SMS、プッシュ通知などのチャネルをまたいで、マーケティングキャンペーンを直感的かつシンプルに展開できます。また、時間を節約し、効率を向上させ、より優れた成果を達成しながら、手間のかからないものになります。
 
   ![](../../v8/email/assets/full-email-1.png){zoomable="yes"}
 
-  AI アシスタントは、あらゆるチャネルで、プロフェッショナルでブランドに一貫性のあるコンテンツを作成する方法に革命をもたらします。 高度な 生成 AI モデルとブランドガイドラインの深い理解により、AI アシスタントは、ブランドの概要を示したスタイル、レイアウト、トーンなどに最適化されたコンテンツを使用して、マーケティング目的に基づいてパーソナライズされた魅力的で効果的なコンテンツを自動生成します。
+  コンテンツ生成は、チャネルをまたいでプロフェッショナルでブランド一貫性のあるコンテンツを作成する方法に革命をもたらします。 高度な生成AI モデルとブランドガイドラインの深い理解により、「コンテンツを生成」では、ブランド概要のスタイル、レイアウト、トーンなどに最適化されたコンテンツで、マーケティング目標にもとづいて、パーソナライズされた魅力的かつ効果的なコンテンツを自動的に生成できます。
 
-  AI アシスタントを使用すると、マーケティングキャンペーンを、直感的でシンプルかつ手間のかからない方法で作成および実行でき、時間を節約し、効率を向上させ、より良い結果を導き出すことができます。
+  「コンテンツを生成」は、マーケティングキャンペーンの作成と実行を直感的でシンプルで手間のかからないものにしながら、時間を節約し、効率を高め、より良い結果を導き出します。
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  様々なメールテンプレートを提供し、画像を生成および再生成します。 AI アシスタントの詳細については、[こちらのセクション](../../v8/content/generative-full-content.md)を参照してください。Adobe Campaign v8 には、[メール](../../v8/content/generative-full-content.md)、[SMS](../../v8/content/generative-text.md)、[プッシュ](../../v8/content/generative-full-content.md)で使用できる AI アシスタントが用意されています。
+  様々なメールテンプレートを提供し、画像を生成および再生成します。 コンテンツの生成について詳しくは、[このセクション ](../../v8/content/generative-full-content.md)を参照してください。 Adobe Campaign v8では、[電子メール ](../../v8/content/generative-full-content.md)、[SMS](../../v8/content/generative-text.md)、[ プッシュ ](../../v8/content/generative-full-content.md)に対して利用可能な「コンテンツを生成」が用意されています。
 
 * **アップグレードされた SMS インフラストラクチャ - SMS v2.0**
 
@@ -249,5 +235,5 @@ Adobe Campaign v8 の新しいユーザーエクスペリエンスについて�
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->

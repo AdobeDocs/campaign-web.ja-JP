@@ -3,14 +3,12 @@ title: よくある質問
 description: Campaign web ユーザーインターフェイスに関するよくある質問
 exl-id: 332db61b-a82d-4bca-a2f5-51557f06120c
 TQID: https://experienceleague.adobe.com/ArGP0QngUR7EiLAsdQb6FcneQ1fj4vcna40-tVEMXwE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 865
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +30,7 @@ ht-degree: 100%
 
 +++ 新しい web ユーザーインターフェイスの新機能には何がありますか？
 
-Adobe Campaign v8 の新しいユーザーインターフェイスは、Adobe Experience Platform との一貫性をもたらし、マーケティングの効率化を目的に設計されています。 新しいワークフローキャンバスは、オーディエンス構成、ワークフロー管理、コンテンツデザインの直感的で高度なワークスペースや、Journey Optimizer、Real-Time CDP などの Adobe Experience Platform ネイティブアプリケーションとの統合されたユースケースを提供します。 WYSIWYG Message Designer にネイティブに組み込まれた AI アシスタントを使用して、創造性を引き出し、生産性を向上させて、クロスチャネルキャンペーンを大規模にパーソナライズします。
+Adobe Campaign v8 の新しいユーザーインターフェイスは、Adobe Experience Platform との一貫性をもたらし、マーケティングの効率化を目的に設計されています。 新しいワークフローキャンバスは、オーディエンス構成、ワークフロー管理、コンテンツデザインの直感的で高度なワークスペースや、Journey Optimizer、Real-Time CDP などの Adobe Experience Platform ネイティブアプリケーションとの統合されたユースケースを提供します。 WYSIWYGのメッセージデザイナーにネイティブに組み込まれた「コンテンツを生成」機能を利用して、クリエイティビティを刺激し、生産性を向上させ、クロスチャネルのキャンペーンを大規模にパーソナライズできます。
 
 マーケターは、生成 AI を使用して、完全な HTML メールのアイデアを作成し、テキストおよび画像の生成に、絞り込みやバリアント候補を含めることができます。 新機能について詳しくは、[このページ](../rn/whats-new.md)を参照してください。 新しいインターフェイスとアクションについて詳しくは、[このページ](../get-started/user-interface.md)を参照してください。 また、[チュートリアル](https://experienceleague.adobe.com/ja/docs/campaign-web-learn/tutorials/overview){target="_blank"}にアクセスして、一連のチュートリアルビデオを通じて新しいインターフェイスの詳細を学ぶこともできます。
 

@@ -1,39 +1,30 @@
 ---
-title: AI アシスタントのコンテンツのプロンプトガイド
+title: コンテンツ生成プロンプトガイド
 description: CO-STAR フレームワークを使用して AI を活用したコンテンツ生成の効果的なプロンプトを作成し、コンバージョン率が高くブランドに一致したマーケティングコンテンツを作成する方法について説明します。
 role: User
 level: Intermediate
 exl-id: 2ae7ae4b-79fb-427a-8386-0602d313c0ed
 TQID: https://experienceleague.adobe.com/IAlzJ0kutFAF8RwYMe4L9wjLD4hXe-lR4ZndjIocQPw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 2055
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 2054
+ht-degree: 97%
 
 ---
 
-# AI アシスタントプロンプトのベストプラクティス {#ai-assistant-prompting-guide}
+# コンテンツプロンプトの生成のベストプラクティス {#ai-assistant-prompting-guide}
 
-このガイドは、リクエストを構造化し、明確に意図を伝え、AI がブランドガイドライン、オーディエンスのニーズ、キャンペーンの目標に沿ったメッセージを生成できるようにするのに役立ちます。
-AI アシスタントが目標に合わせてカスタマイズされた高品質でブランドに即したマーケティングコンテンツを生成できるようにする効果的なプロンプトを書き込む方法について説明します。
+このガイドは、リクエストの構成や意図の明確化を図り、AIがブランドガイドライン、オーディエンスのニーズ、キャンペーンの目標に沿ったメッセージを生成することを支援します。
+AIが、顧客目標に合わせた高品質でブランドに即したマーケティングコンテンツを生成できるようにする効果的なプロンプトの書き方を説明します。
 
 ## CO-STAR フレームワークの使用 {#costar-framework}
 
-AI アシスタントで最適な結果を得るには、CO-STAR フレームワークを使用してプロンプトを整理します。 この構造化されたアプローチにより、AI がユーザーのニーズを正確に理解できます。
+「コンテンツを生成」で最適な結果を得るには、CO-STAR フレームワークを使用してプロンプトを整理します。 この構造化されたアプローチにより、AI がユーザーのニーズを正確に理解できます。
 
 | コンポーネント | 意味 | これが重要な理由 |
 |-|-|-|

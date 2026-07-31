@@ -4,23 +4,14 @@ title: Campaign Web ユーザーインターフェイスの新機能
 description: Campaign web ユーザーインターフェイスに含まれる新機能を確認
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 TQID: https://experienceleague.adobe.com/pR1iKb30qV4nynpuQ8daJoivMS7HX5DKHzIVFLVDPAY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1327
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
+source-wordcount: 1326
+ht-degree: 96%
 
 ---
 
@@ -85,13 +76,13 @@ Adobe Campaign を使用すると、メール、SMS、プッシュ通知など�
 * ビルトインレポートを使用した送信の監視および結果の測定 - [詳細情報](../reporting/delivery-reports.md)
 
 
-**AI アシスタントを使用したコンテンツの生成**
+**コンテンツ生成とコンテンツ生成**
 
 Microsoft Azure OpenAI と Adobe Firefly を活用した革新的なコンテンツ designer を使用して、手動によるコンテンツ制作の手間を省き、効率化されたキャンペーンの新しい時代を楽しみましょう。
 
-シンプルさと効率性を追求して設計された、高度な WYSIWYG ドラッグ＆ドロップエディターを使用して、コンテンツ配信を再定義します。 シームレスな AEM 統合、動的コンテンツ機能、画期的な AI アシスタントを備えたこのオールインワンツールは、配信の作成を直感的かつ効率的にし、高度にパーソナライズします。
+シンプルさと効率性を追求して設計された、高度な WYSIWYG ドラッグ＆ドロップエディターを使用して、コンテンツ配信を再定義します。 AEMとのシームレスな連携、動的なコンテンツ制作、画期的な「コンテンツを生成」を搭載したこのオールインワンのツールは、直感的かつ効率的で、高度にパーソナライズされた配信を実現します。
 
-AI アシスタントの高度なアルゴリズムを活用して、結果を促す魅力的で調整されたコンテンツを作成します。 インテリジェントな AI 駆動型コンテンツ生成により、開封率、クリックスルー率、コンバージョン率が向上します。 詳しくは、[こちら](../content/generative-gs.md)を参照してください。
+AIの高度なアルゴリズムの力を活用して、魅力的でカスタマイズされたコンテンツを作成し、成果を上げることができます。 インテリジェントな AI 駆動型コンテンツ生成により、開封率、クリックスルー率、コンバージョン率が向上します。 詳しくは、[こちら](../content/generative-gs.md)を参照してください。
 
 **新しくデザインを変更したキャンペーンワークフローアクティビティ**
 
