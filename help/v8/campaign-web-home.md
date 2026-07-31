@@ -11,10 +11,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1b73c95ac5c6147f71d328772b3988f9417121f2
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
-source-wordcount: 707
-ht-degree: 100%
+source-wordcount: 523
+ht-degree: 94%
 
 ---
 
@@ -73,9 +73,9 @@ Adobe Campaign Web 製品とドキュメントの最新の機能強化につい�
 [![「詳細情報」ボタン](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->[!TAB AI アシスタント]
+>[!TAB  コンテンツを生成]
 
-✨[AI アシスタント](../v8/content/generative-gs.md)のライブ機能プレビューは、実際に体験して、その機能を直接探索し、完全に理解できるように設計されています。
+✨ ライブ機能プレビューの[Generate Content](../v8/content/generative-gs.md)を使用して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 [![「詳細情報」ボタン](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -123,23 +123,23 @@ Campaign web ユーザーインターフェイスに関するよくある質問�
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
-    <br/>
-      <strong>基本を学ぶ</strong><br/><a href="get-started/get-started.md#web">ユーザーインターフェイス</a> - <a href="get-started/connect-to-campaign.md">Campaign への接続</a> - <a href="get-started/permissions.md">アクセスと権限</a>
+    <br/>
+      <strong>基本を学ぶ</strong><br/><a href="get-started/get-started.md#web">ユーザーインターフェイス</a> - <a href="get-started/connect-to-campaign.md">Campaign への接続</a> - <a href="get-started/permissions.md">アクセスと権限</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>顧客のエクスペリエンス</strong><br/><a href="workflows/gs-workflows.md" target="_blank">ワークフローを使用して自動化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">キャンペーンオーケストレーション</a> - <a href="personalization/gs-personalization.md">動的コンテンツ</a> - <a href="reporting/gs-reports.md">レポートと分析</a>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="workflows/gs-workflows.md" target="_blank">ワークフローを使用した自動化</a> - <a href="campaigns/gs-campaigns.md" target="_blank">キャンペーンオーケストレーション</a> - <a href="personalization/gs-personalization.md">動的コンテンツ</a> - <a href="reporting/gs-reports.md">レポートと分析</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-message.svg" width="35px">
-    <br/>
-      <strong>メッセージの送信</strong><br/><a href="msg/gs-deliveries.md">配信の作成</a> - <a href="email/create-email.md">メール</a> - <a href="push/gs-push.md">プッシュ通知</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">配信テンプレート</a> - <a href="preview-test/preview-test.md">プレビューとテスト</a> 
+    <br/>
+      <strong>メッセージの送信</strong><br/><a href="msg/gs-deliveries.md">配信の作成</a> - <a href="email/create-email.md">メール</a> - <a href="push/gs-push.md">プッシュ通知</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">配信テンプレート</a> - <a href="preview-test/preview-test.md">プレビューとテスト</a> 
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile.svg" width="35px">
-    <br/>
-      <strong>プロファイルとオーディエンス</strong><br/><a href="audience/gs-audiences-recipients.md">基本を学ぶ</a> - <a href="audience/create-audience.md">オーディエンスの作成</a> - <a href="audience/test-profiles.md">テストプロファイル</a> - <a href="audience/manage-services.md">購読サービス</a> - <a href="query/query-modeler-overview.md">クエリモデラー</a>
+    <br/>
+      <strong>プロファイルとオーディエンス</strong><br/><a href="audience/gs-audiences-recipients.md">基本を学ぶ</a> - <a href="audience/create-audience.md">オーディエンスの作成</a> - <a href="audience/test-profiles.md">テストプロファイル</a> - <a href="audience/manage-services.md">購読サービス</a> - <a href="query/query-modeler-overview.md">クエリモデラー</a>
     </td>
   </tr>
 </table>

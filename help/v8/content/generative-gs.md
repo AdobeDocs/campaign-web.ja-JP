@@ -1,30 +1,30 @@
 ---
 audience: end-user
-title: AI アシスタントの基本を学ぶ
-description: AI アシスタントの基本を学ぶ
+title: コンテンツ生成の基本を学ぶ
+description: コンテンツ生成の基本を学ぶ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 887
-ht-degree: 100%
+ht-degree: 63%
 
 ---
 
-# AI アシスタントの操作 {#generative-gs}
+# コンテンツ生成の操作 {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
->title="AI アシスタント"
->abstract="配信を作成してパーソナライズしたら、AI アシスタントを使用してコンテンツを強化します。 この機能を使用すると、生成する内容を記述してコンテンツを微調整できるので、パーソナライゼーションとコンテンツ改善が簡素化されます。"
+>title="コンテンツ生成"
+>abstract="配信の作成とパーソナライズが完了したら、AIを活用してコンテンツを強化します。 この機能を使用すると、生成する内容を記述してコンテンツを微調整できるので、パーソナライゼーションとコンテンツ改善が簡素化されます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
->title="Campaign で AI アシスタントを使用してコンテキストを定義"
+>title="Campaignの「コンテンツを生成」でコンテキストを定義"
 >abstract="選択したコンテンツをコンテンツ生成の入力として使用するには、「**現在のコンテンツを使用して強化**」切替スイッチをオンにします。 また、ブランドアセットをアップロードして、ソースとして使用することもできます。 選択したコンテンツを使用しない場合は、ブランドアセットのアップロードと選択が必須です。"
 
 >[!CONTEXTUALHELP]
@@ -37,9 +37,9 @@ ht-degree: 100%
 >
 >[ライブ機能プレビュー](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator)では、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
-マーケティング業界の競争が激化する中、ブランドは、影響力のあるコンテンツを迅速に生成する効率的な方法を模索しています。 Microsoft Azure OpenAI と Adobe Firefly を活用した Adobe Campaign web の AI アシスタントは、アドビの AI コンテンツ生成機能です。メール、SMS、プッシュ通知など、あらゆるチャネルで、マーケターがプロフェッショナルでブランドに即したコンテンツの作成方法を変革します。 高度な 生成 AI モデルを用い、ブランドガイドラインを深く理解している AI アシスタントは、ブランドの概要を示したスタイル、レイアウト、トーンなどに合わせてコンテンツを最適化し、マーケティング目標に基づいてパーソナライズされた魅力的かつ効果的なコンテンツを自動生成します。
+マーケティング業界の競争が激化する中、ブランドは、影響力のあるコンテンツを迅速に生成する効率的な方法を模索しています。 Microsoft Azure OpenAIとAdobe Fireflyを活用したAdobe Campaign Webのコンテンツ生成は、AdobeのAI コンテンツ生成機能です。メール、SMS、プッシュ通知などのさまざまなチャネルを通じて、マーケターが一貫性のあるプロフェッショナルなコンテンツを制作する方法を変革します。 高度な生成AI モデルとブランドガイドラインの深い理解により、「コンテンツを生成」では、マーケティング目標にもとづいて、パーソナライズされた魅力的で効果的なコンテンツを自動的に生成し、ブランドが説明するスタイル、レイアウト、トーンなどをコンテンツに最適化できます。
 
-AI アシスタントは、多様なグローバルオーディエンスにリーチしてエンゲージできるよう、**多言語**&#x200B;での生成をサポートしています。AI アシスタントは、次の言語で利用できます。
+コンテンツ生成では、生成&#x200B;**を多言語**&#x200B;でサポートしており、多様なグローバルオーディエンスにリーチしてエンゲージできます。 コンテンツの生成は、次の言語で使用できます。
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -72,17 +72,17 @@ AI アシスタントは、多様なグローバルオーディエンスにリ�
   </tbody>
 </table>
 
-AI アシスタントを使用すると、メール、SMS、プッシュ通知などすべてのチャネルでのマーケティングキャンペーンの作成と実行が簡素化され、時間を節約し、効率を向上させ、より良い結果を導き出すことができます。
+「コンテンツを生成」は、電子メール、SMS、プッシュ通知などのチャネルをまたいでマーケティングキャンペーンの構築と実施を簡素化し、時間を節約し、効率を向上させ、より優れた成果を達成するのに役立ちます。
 
 >[!IMPORTANT]
 >
 >* この機能を使用する前に、関連する[ガードレールと制限](#generative-guardrails)を参照してください。
 >
->* Adobe Campaign web の AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>* AIを使用してAdobe Campaign Webでコンテンツを生成する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
-## AI アシスタントへのアクセス {#generative-access}
+## コンテンツ生成にアクセス {#generative-access}
 
-メール、プッシュ通知、ランディングページ、SMS 用の AI アシスタントが一般公開（GA）になり、すべてのユーザーが使用できるようになりました。 ユーザーにアクセス権を付与するのに必要な権限と手順について詳しくは、以下を参照してください。
+メール、プッシュ通知、ランディングページ、SMSのコンテンツを生成する機能が一般公開（GA）され、すべてのユーザーが利用できるようになります。 ユーザーにアクセス権を付与するのに必要な権限と手順について詳しくは、以下を参照してください。
 
 +++ コンテンツ生成関連の権限を割り当てる方法について説明します。
 
@@ -92,9 +92,9 @@ AI アシスタントを使用すると、メール、SMS、プッシュ通知�
 
    `Campaign - <instance-name> - AIAssistant`
 
-1. AI アシスタントへのアクセスに必要な権限を使用して製品プロファイルを設定します。
+1. 「コンテンツを生成」アクセスに必要な権限を持つ製品プロファイルを設定します。
 
-1. **ユーザーまたはユーザーグループを追加します**。次のいずれかのオプションを選択します。
+1. **ユーザーまたはユーザーグループを追加します**。 次のいずれかのオプションを選択します。
    * **個人ユーザーを追加**：必要なユーザーをその製品プロファイルに追加します。
    * **ユーザーグループを追加**：ユーザーグループを作成し、そのグループにユーザーを追加してから、製品プロファイルにユーザーグループを追加します。
 
@@ -104,49 +104,49 @@ Campaign で権限を定義する方法について詳しくは、[この節](..
 
 ## ガードレールと制限 {#generative-guardrails}
 
-メールの生成に Adobe Campaign web の AI アシスタントを使用する際の一般的なガイドラインは次のとおりです。
+Adobe Campaign WebでAIを使用してコンテンツを生成し、電子メールを生成するための一般的なガイドラインを次に示します。
 
 * 生成されるコンテンツの品質は、定義したマーケティング目的やプロンプトに大きく依存します。 生成 AI モデルで正確に解釈できるように、適切に定義されたプロンプトを使用します。
 * ブランドアセットをアップロードして、正確なオンブランドコンテンツを確保します。 それ以外の場合は、公開されている情報に基づいたコンテンツになります。 アップロードされるコンテンツは、PDF、JPEG、PNG または ZIP ファイル（サポートされているファイル形式のもの）の形式です。
 * アップロードされたブランドアセットの最大サイズは 50MB です。 これより大きなファイルや多数の画像の場合は、処理時間が長くなることがあります。
-* [ビルトインのメールテンプレート](../content/create-email-templates.md)、ブランド固有のテンプレートまたはカスタムテンプレートを使用して、AI アシスタントでメールコンテンツを作成します。 最大 8～10 個の画像を含むメールテンプレートをお勧めします。
+* [組み込みのメールテンプレート &#x200B;](../content/create-email-templates.md)、ブランド固有のテンプレート、またはカスタムテンプレートを使用して、AIを活用してメールコンテンツを作成します。 最大 8～10 個の画像を含むメールテンプレートをお勧めします。
 * バリアントを選択する際は、親指を立てる、親指を下げるまたはフラグのアイコンを使用して、問題のある出力を報告します。
-* AI アシスタントの使用は、Adobe Experience Cloud 生成 AI ユーザーガイドラインの対象となります。 [詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
+* コンテンツの生成の使用には、Adobe Experience Cloudの生成AI ユーザーガイドラインが適用されます。 [詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
 * メディア作成における生成 AI ツールの使用の透明性に対するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、コンテンツ資格情報を適用します。 [詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)。
 
-Adobe Campaign web の AI アシスタントには、次の制限が適用されます。
+Adobe Campaign Webでコンテンツを生成するには、次の制限が適用されます。
 
-* Adobe Campaign web の AI アシスタントは、現在、英語でのみサポートされています。 英語以外の入力では、一貫性のない結果や誤った結果が生成される場合があります。 英語以外の応答から生じる問題は、現時点では対処または改善されません。
+* Adobe Campaign Webでのコンテンツの生成は、現在、英語でのみサポートされています。 英語以外の入力では、一貫性のない結果や誤った結果が生成される場合があります。 英語以外の応答から生じる問題は、現時点では対処または改善されません。
 * メール、プッシュ、SMS の各チャネルにのみ使用できます。
 * 生成 AI コンテンツは必ずしも正確ではない可能性があります。 エンジニアがモデルを改善できるよう、フィードバックを共有してください。
 * 複数のブランドアセットをアップロードできますが、特定の生成に利用できるのは 1 つだけです。
 
-## AI アシスタントコンテンツ生成機能 {#generative-features}
+## コンテンツ生成 {#generative-features}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-full-content.md">
-<img alt="[AI アシスタントを使用した完全なコンテンツ生成]" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="[ コンテンツ生成機能による完全なコンテンツ生成]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>AI アシスタントを使用した完全なコンテンツ生成</strong></a>
+<a href="generative-full-content.md"><strong> コンテンツを生成する</strong></a>による完全なコンテンツ生成
 </div>
 <p>
 </td>
 <td>
 <a href="generative-text.md">
-<img alt="[AI アシスタントを使用したテキストコンテンツ生成]" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="[ コンテンツを生成する機能によるテキストコンテンツの生成]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-text.md"><strong>AI アシスタントを使用したテキスト生成</strong>
+<div><a href="generative-text.md"><strong> コンテンツを生成するテキスト生成</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="[AI アシスタントを使用した画像生成]" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="[ コンテンツ生成による画像生成]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-image.md"><strong>AI アシスタントを使用した画像生成</strong></a>
+<a href="generative-image.md"><strong> コンテンツを生成した画像の生成</strong></a>
 </div>
 <p></td>
 </tr></table>

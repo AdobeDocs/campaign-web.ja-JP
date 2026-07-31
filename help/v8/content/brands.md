@@ -10,10 +10,10 @@ feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 542
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
    ![](assets/brands-15.png)
 
-1. 設定が完了したら、「**[!UICONTROL 保存]**」、「**[!UICONTROL 公開]**」の順にクリックし、ブランドガイドラインを AI アシスタントで使用できるようにします。
+1. 設定が完了したら、**[!UICONTROL 保存]**、**[!UICONTROL 公開]**&#x200B;をクリックして、ブランドガイドラインを「コンテンツを生成」で利用できるようにします。
 
 1. 公開済みのブランドの変更を行うには、「**[!UICONTROL ブランドを編集]**」をクリックします。
 
@@ -97,9 +97,9 @@ ht-degree: 100%
 
    ![ブランドダッシュボードの詳細設定メニューオプション](assets/brands-6.png)
 
-AI アシスタントメニューのブランドドロップダウンから&#x200B;**[!UICONTROL ブランド]**&#x200B;ガイドラインにアクセスできるようになりました。 これにより、AI アシスタントで仕様に合わせたコンテンツとアセットを生成できます。 [詳しくは、AI アシスタントを参照してください](../content/generative-gs.md)
+ブランドガイドラインに、「**[!UICONTROL ブランド]**」ドロップダウンから「コンテンツを生成」メニューにアクセスできるようになりました。 これにより、AIがユーザーの仕様に沿ったコンテンツやアセットを生成できるようになります。 [&#x200B; コンテンツ生成の詳細](../content/generative-gs.md)
 
-また、ブランドガイドラインを使用して、コンテンツの品質とブランド一致を評価することもできます。[コンテンツ品質の検証の詳細情報](brands-score.md#validate-quality)
+また、ブランドガイドラインを使用して、コンテンツの品質とブランド一致を評価することもできます。 [コンテンツ品質の検証の詳細情報](brands-score.md#validate-quality)
 
 ![ブランドドロップダウンを含む AI アシスタントメニュー](assets/brands_6.png)
 

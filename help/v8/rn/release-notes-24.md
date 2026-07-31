@@ -17,10 +17,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
+source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+workflow-type: tm+mt
 source-wordcount: 2580
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -77,8 +77,8 @@ ht-degree: 100%
 
 * **ワークフローエンリッチメントアクティビティ**
 
-   * **エンリッチメント**&#x200B;アクティビティで新しいフィールドを作成する際に、エイリアスとラベルを定義できるようになりました。 [詳細情報](../workflows/activities/enrichment.md#collection-settings)
-   * **エンリッチメント**&#x200B;アクティビティで各プロファイルに対してオファーを追加できるようになりました。 [詳細情報](../workflows/activities/enrichment.md##add-offers)
+  * **エンリッチメント**&#x200B;アクティビティで新しいフィールドを作成する際に、エイリアスとラベルを定義できるようになりました。 [詳細情報](../workflows/activities/enrichment.md#collection-settings)
+  * **エンリッチメント**&#x200B;アクティビティで各プロファイルに対してオファーを追加できるようになりました。 [詳細情報](../workflows/activities/enrichment.md##add-offers)
 
 * **値の配分** - パーソナライゼーション用のフィールドリストにアクセスすると、各フィールドに値がどのように配分されているかを確認できるようになりました。 専用のポップアップウィンドウに、各値の数と割合が表示されます。 [詳細情報](../query/build-query.md#distribution-values-query)
 
@@ -94,13 +94,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタント</strong><br/></th>
+<th><strong>コンテンツ生成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成して調整したら、Adobe Campaign web の AI アシスタントを使用して、メッセージを次のレベルに引き上げます。 この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
+<p>メッセージを作成してカスタマイズしたら、Adobe Campaign Webの「コンテンツを生成」で次のレベルに引き上げます。 この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>は、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../content/generative-gs.md">詳細ドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -274,11 +274,11 @@ Android 経由でリッチプッシュ通知を送信できるようになりま
 
 * **ランディングページ** - ランディング ページの次の機能強化は、Campaign Standard から移行するユーザーのみが利用できます。
 
-   * サービスの設定時に、デフォルトの購読／購読解除のランディングページを参照できるようになりました。 メールのデザイン時に、そのランディングページへのリンクを定義すると、ランディングページフォームを送信したユーザーは、このサービスに自動的に購読または登録解除されます。 [詳細情報](../audience/manage-services.md#create-service)
-   * ランディングページ設定の新しいオプションでは、匿名訪問者がランディングページにアクセスできます。 このオプションを選択解除すると、識別されたユーザーのみがフォームにアクセスして送信できます。 [詳細情報](../landing-pages/create-lp.md#create-landing-page)
-   * ランディングページ設定の新しいオプションでは、ランディングページの送信時に追加の内部データを保存できます。 [詳細情報](../landing-pages/create-lp.md#create-landing-page)
-   * 新しいオプションでは、複数のサービスにランディングページを使用し、動的にすることができます。 メールへのリンクの追加時に、動的ランディングページを選択すると、任意のサービスを選択できます。 特定のサービスが関連付けられているランディングページを選択すると、このサービスが自動的に使用されます（別のサービスは選択できません）。 [詳細情報](../landing-pages/create-lp.md#define-actions-on-form-submission)
-   * ランディングページで条件付きコンテンツがサポートされるようになりました。 [詳細情報](../landing-pages/lp-content.md)
+  * サービスの設定時に、デフォルトの購読／購読解除のランディングページを参照できるようになりました。 メールのデザイン時に、そのランディングページへのリンクを定義すると、ランディングページフォームを送信したユーザーは、このサービスに自動的に購読または登録解除されます。 [詳細情報](../audience/manage-services.md#create-service)
+  * ランディングページ設定の新しいオプションでは、匿名訪問者がランディングページにアクセスできます。 このオプションを選択解除すると、識別されたユーザーのみがフォームにアクセスして送信できます。 [詳細情報](../landing-pages/create-lp.md#create-landing-page)
+  * ランディングページ設定の新しいオプションでは、ランディングページの送信時に追加の内部データを保存できます。 [詳細情報](../landing-pages/create-lp.md#create-landing-page)
+  * 新しいオプションでは、複数のサービスにランディングページを使用し、動的にすることができます。 メールへのリンクの追加時に、動的ランディングページを選択すると、任意のサービスを選択できます。 特定のサービスが関連付けられているランディングページを選択すると、このサービスが自動的に使用されます（別のサービスは選択できません）。 [詳細情報](../landing-pages/create-lp.md#define-actions-on-form-submission)
+  * ランディングページで条件付きコンテンツがサポートされるようになりました。 [詳細情報](../landing-pages/lp-content.md)
 
 ### 一般的な改善点 {#improvements-24-4}
 
