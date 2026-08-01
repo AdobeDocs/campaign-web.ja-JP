@@ -4,10 +4,8 @@ title: コンテンツ生成の基本を学ぶ
 description: コンテンツ生成の基本を学ぶ
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 TQID: https://experienceleague.adobe.com/jpw4u-Vy7M2Q9qRyQ2J3rJ-Mr8UKLUpxhw39tglbbNc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
 workflow-type: tm+mt
 source-wordcount: 887
@@ -78,7 +76,7 @@ ht-degree: 63%
 >
 >* この機能を使用する前に、関連する[ガードレールと制限](#generative-guardrails)を参照してください。
 >
->* AIを使用してAdobe Campaign Webでコンテンツを生成する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>* AIを使用してAdobe Campaign Webでコンテンツを生成する前に、[ ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 ## コンテンツ生成にアクセス {#generative-access}
 
@@ -109,7 +107,7 @@ Adobe Campaign WebでAIを使用してコンテンツを生成し、電子メー
 * 生成されるコンテンツの品質は、定義したマーケティング目的やプロンプトに大きく依存します。 生成 AI モデルで正確に解釈できるように、適切に定義されたプロンプトを使用します。
 * ブランドアセットをアップロードして、正確なオンブランドコンテンツを確保します。 それ以外の場合は、公開されている情報に基づいたコンテンツになります。 アップロードされるコンテンツは、PDF、JPEG、PNG または ZIP ファイル（サポートされているファイル形式のもの）の形式です。
 * アップロードされたブランドアセットの最大サイズは 50MB です。 これより大きなファイルや多数の画像の場合は、処理時間が長くなることがあります。
-* [組み込みのメールテンプレート &#x200B;](../content/create-email-templates.md)、ブランド固有のテンプレート、またはカスタムテンプレートを使用して、AIを活用してメールコンテンツを作成します。 最大 8～10 個の画像を含むメールテンプレートをお勧めします。
+* [組み込みのメールテンプレート ](../content/create-email-templates.md)、ブランド固有のテンプレート、またはカスタムテンプレートを使用して、AIを活用してメールコンテンツを作成します。 最大 8～10 個の画像を含むメールテンプレートをお勧めします。
 * バリアントを選択する際は、親指を立てる、親指を下げるまたはフラグのアイコンを使用して、問題のある出力を報告します。
 * コンテンツの生成の使用には、Adobe Experience Cloudの生成AI ユーザーガイドラインが適用されます。 [詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)。
 * メディア作成における生成 AI ツールの使用の透明性に対するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、コンテンツ資格情報を適用します。 [詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)。
