@@ -11,9 +11,9 @@ feature_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 510
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->コンテンツの生成を使用する前に、[&#x200B; ユーザー契約書](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>コンテンツを生成を使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
 コンテンツレビュー機能には、包括的な評価ツールが用意されています。これにより、キャンペーンがブランドガイドラインにどの程度合致しており、あらゆるコミュニケーションをまたいでコンテンツの品質基準を維持しているかを測定できます。
 

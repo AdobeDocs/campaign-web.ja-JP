@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 728
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >管理者は、このフィールドを送信者アドレスの事前定義リストに制限できます。 この場合は、ドロップダウンリストからアドレスを入力せずに選択します。 [詳細情報](../administration/options.md#restrict-sender-address)
+   >管理者は、このフィールドを送信者アドレスの定義済みリストに制限できます。この場合は、アドレスを入力する代わりに、ドロップダウンリストから選択します。[詳細情報](../administration/options.md#restrict-sender-address)
 
 1. 「**[!UICONTROL 返信先フィールド]**」セクションを展開します。 送信者の名前とアドレスは、デフォルトで返信に使用されます。 カスタマーケアの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。 そうすれば、受信者から返信が来た場合に、カスタマーケアチームが対応できます。
 

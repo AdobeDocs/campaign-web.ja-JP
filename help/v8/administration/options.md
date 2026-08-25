@@ -10,9 +10,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0638cc11f533521f7c8f3df3a80361b040a05b0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 592
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -84,16 +84,16 @@ Adobe Campaign web ユーザーインターフェイスを使用すると、要�
 
    ![カスタムオプションの更新した値を表示するオプションメニュー](assets/options-sample-updated.png)
 
-## 配信の送信者メールアドレスを制限 {#restrict-sender-address}
+## 配信で使用する送信者メールアドレスを制限 {#restrict-sender-address}
 
-デフォルトでは、マーケターはメール配信の「**[!UICONTROL メールから]**」フィールドに任意のアドレスを入力できます。 このフィールドを事前定義されたアドレスのリストに制限するには、組み込み`NmsDelivery_senderAddressMask` オプションを作成または編集し、その値を許可された送信者アドレスのコンマ区切りリスト（例：`abc@adobe.com,bcd@adobe.com`）に設定します。
+デフォルトでは、マーケターはメール配信の「**[!UICONTROL 送信元メール]**」フィールドに任意のアドレスを入力できます。このフィールドをアドレスの定義済みリストに制限するには、ビルトインの `NmsDelivery_senderAddressMask` オプションを作成または編集し、その値を、許可される送信者アドレスのコンマ区切りリスト（例：`abc@adobe.com,bcd@adobe.com`）に設定します。
 
-![差出人メニュー](assets/option-restrict-from.png)の値を制限するオプション
+![送信元メニューの値を制限するオプション](assets/option-restrict-from.png)
 
-このオプションに値が設定されると、**[!UICONTROL 電子メールから]** フィールドは、フリーテキストフィールドではなく、これらのアドレスのみを含むドロップダウンリストになります。 オプションが存在しない場合、または値が空の場合、フィールドは以前と同様にフリーテキストのままになります。
+このオプションに値が設定されると、「**[!UICONTROL 送信元メール]**」フィールドは、フリーテキストフィールドではなく、これらのアドレスのみを含むドロップダウンリストになります。オプションが存在しない場合や、値が空である場合、フィールドは以前と同様にフリーテキストのままになります。
 
-![電子メールで使用可能な値](assets/option-restrict-from2.png)
+![メールで使用可能な値](assets/option-restrict-from2.png)
 
-この制限はグローバルです。 これは、あらゆるブランドと配信テンプレートに適用され、パーソナライゼーションフィールドをサポートするものではなく、静的なアドレスにのみ適用されます。
+この制限はグローバルです。すべてのブランドと配信テンプレートに適用され、パーソナライゼーションフィールドはサポートされず、静的なアドレスのみが対象となります。
 
-「**[!UICONTROL 電子メールから]**」フィールドについて詳しくは、[電子メールコンテンツの設定](../email/edit-content.md#edit-content)を参照してください。
+「**[!UICONTROL 送信元メール]**」フィールドについて詳しくは、[メールコンテンツの設定](../email/edit-content.md#edit-content)を参照してください。

@@ -7,9 +7,9 @@ description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 nudge: true
 source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1072'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -134,13 +134,13 @@ ht-degree: 95%
       + [カスタム CSS の追加](email/custom-css.md)
       + [ダークモードコンテンツの管理](email/dark-mode.md)
     + [アクセス可能なコンテンツの作成](email/accessible-content.md)
-  + コンテンツ生成 {#ai-assistant}
-    + [コンテンツ生成の操作](content/generative-gs.md)
+  + コンテンツを生成 {#ai-assistant}
+    + [「コンテンツを生成」の操作](content/generative-gs.md)
     + [AI プロンプトのベストプラクティス](content/ai-assistant-prompting-guide.md)
     + [AI を使用した完全なコンテンツ生成](content/generative-full-content.md)
     + [AI を使用したテキスト生成](content/generative-text.md)
     + [AI を使用した画像生成](content/generative-image.md)
-    + [コンテンツのユースケースを生成](content/generative-uc.md)
+    + [コンテンツを生成のユースケース](content/generative-uc.md)
     + ブランド {#ai-assistant}
       + [ブランドの作成と管理](content/brands.md)
       + [ブランドのパーソナライズ](content/brands-personalize.md)
@@ -152,11 +152,11 @@ ht-degree: 95%
   + [ランディングページのコンテンツのデザイン](landing-pages/lp-content.md)
   + [ユースケースを通じて学ぶ](landing-pages/lp-use-cases.md)
 + オファー管理 {#offers}
-  + [オファー管理のまとめ](offers/gs-offer-management.md)
+  + [オファー管理の基本を学ぶ](offers/gs-offer-management.md)
   + [オファー環境設定の確認](offers/offer-environment.md)
   + [オファースペースの作成と管理](offers/offer-space.md)
   + [オファーの作成と公開](offers/create-offer.md)
-  + [オファースキーマへの編集可能リストの追加](offers/offer-editable-list.md)
+  + [編集可能リストをオファースキーマに追加](offers/offer-editable-list.md)
 + プロファイルとオーディエンス {#audiences}
   + [プロファイルとオーディエンスの基本を学ぶ](audience/gs-audiences-recipients.md)
   + [ターゲティングディメンション](audience/targeting-dimensions.md)
@@ -205,7 +205,7 @@ ht-degree: 95%
     + [ディメンションを変更](workflows/activities/change-dimension.md)
     + [結合](workflows/activities/combine.md)
     + [連続配信](workflows/activities/continuous-delivery.md)
-    + [データの読み込み（RDBMS）](workflows/activities/data-loading-rdbms.md)
+    + [データ読み込み（RDBMS）](workflows/activities/data-loading-rdbms.md)
     + [重複の除外](workflows/activities/deduplication.md)
     + [メール, SMS, プッシュ, ダイレクトメール](workflows/activities/channels.md)
     + [終了](workflows/activities/end.md)
@@ -301,12 +301,12 @@ ht-degree: 95%
     + [リストの列の設定](administration/schemas-list-columns.md)
     + [カスタムフィルターを追加](administration/schemas-custom-filters.md)
     + [カスタムフィールドの編集](administration/schemas-custom-fields.md)
-    + [コレクションリストの追加](administration/schemas-collection-lists.md)
-    + [データに対するアクションの制御](administration/schemas-action-data.md)
+    + [コレクションリストを追加](administration/schemas-collection-lists.md)
+    + [データに対するアクションを制御](administration/schemas-action-data.md)
     + [スキーマの作成と公開](administration/schemas-create-publish.md)
     + [カスタムフォームの操作](administration/schemas-custom-forms.md)
   + {hide-from-toc}[カスタムフィールドの設定](administration/custom-fields.md)
-  + [&#x200B; [!DNL Campaign]  オプションの設定](administration/options.md)
+  + [ [!DNL Campaign]  オプションの設定](administration/options.md)
   + [タイムゾーン管理](administration/timezone-management.md)
   + 外部アカウント {#external-accounts}
     + [外部アカウントの作成](administration/create-external-account.md)
@@ -318,5 +318,5 @@ ht-degree: 95%
     + [CRM 外部アカウント](administration/external-crm.md)
   + [列挙の管理](administration/enumerations.md)
   + [JavaScript コードの操作](administration/javascript-codes.md)
-  + [ダイナミックJavaScriptページの操作](administration/dynamic-javascript-pages.md)
+  + [動的な JavaScript ページの操作](administration/dynamic-javascript-pages.md)
 + [Campaign v8（コンソール）ドキュメント >](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/campaign-home)

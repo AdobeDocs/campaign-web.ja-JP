@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/ssELWLmS9gyORG4JCf-6w5lxyn0UeaC63LBNheB
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 1fe9a9727557de8bd1b0b2f10c58d89526b64095
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 366
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
   >[!NOTE]
   >構造の背景色が隠れてしまう場合があるので、ビューポートの背景色を設定しないでください。
 
-* 構造コンポーネントのコンテンツに対して、**[!UICONTROL 背景画像]**&#x200B;を設定します。 **[!UICONTROL アセットを選択]**、**[!UICONTROL メディアの読み込み]**、**[!UICONTROL パブリックリソースの読み込み]**&#x200B;を使用して画像を選択します。 [詳細情報](content-components.md#image)
+* 構造コンポーネントのコンテンツに対して、**[!UICONTROL 背景画像]**&#x200B;を設定します。 **[!UICONTROL アセットを選択]**、**[!UICONTROL メディアをインポート]**&#x200B;または&#x200B;**[!UICONTROL パブリックリソースをインポート]**&#x200B;を使用して画像を選択します。[詳細情報](content-components.md#image)
 
   ![特定の構造コンポーネントのコンテンツに対する背景画像の追加。](assets/background_4.png){zoomable="yes"}
 

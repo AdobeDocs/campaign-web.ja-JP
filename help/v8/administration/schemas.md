@@ -12,9 +12,9 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 348
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -48,10 +48,10 @@ Adobe Campaign の各エンティティには専用のスキーマがあり、�
 
 * [スキーマへのアクセスとカスタマイズ](schemas-browse-access.md) – 使用可能なスキーマを表示し、その詳細を確認して、画面表示をカスタマイズします
 * [リスト列の設定](schemas-list-columns.md) - リスト表示にデフォルトで表示される列を設定します。
-* [&#x200B; カスタムフィルターを追加](schemas-custom-filters.md) - リストビューのフィルターペインにクイックアクセスフィルターフィールドを追加します。
+* [カスタムフィルターを追加](schemas-custom-filters.md) - リスト表示のフィルターパネルに、クイックアクセスフィルターフィールドを追加します。
 * [カスタムフィールドを編集](schemas-custom-fields.md) – 詳細画面に表示するカスタムフィールドを設定し、セクションに整理します。
 * [コレクションリストを追加](schemas-collection-lists.md) - コレクションリストを追加して、プロファイル画面に関連データを表示します。
-* [&#x200B; データに対するアクションの制御](schemas-action-data.md) - カスタムスキーマの作成、編集および削除アクションを制限します。
+* [データに対するアクションを制御](schemas-action-data.md) - カスタムスキーマの作成、編集および削除アクションを制限します。
 * [スキーマの作成と管理](schemas-create-publish.md#create-schemas) – 新しいスキーマを作成して、既存のスキーマを拡張します
 * [スキーマの公開と同期](schemas-create-publish.md#publish) - スキーマの変更をデータベース構造と同期します。
 * [カスタムフォームの操作](schemas-custom-forms.md) - データ入力フォームを使用して、カスタムスキーマのレコードを作成、編集、管理します。

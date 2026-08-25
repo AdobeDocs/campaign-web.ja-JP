@@ -19,9 +19,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
-source-wordcount: 3030
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 3118
+ht-degree: 100%
 
 ---
 
@@ -375,7 +375,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>自分のブランドを作成し、カスタマイズできるようになりました。これにより、あらゆるコミュニケーションにおいて、視覚的および言語的なアイデンティティを明確に定義できます。ブランド整合性スコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するフィードバックをリアルタイムで受信でき、送信するすべてのメッセージでブランドに即して一貫性を保つことができます。
+<p>独自のブランドを作成およびカスタマイズし、コミュニケーション全体で視覚的および言語的な ID を明確に定義できるようになりました。 ブランド整合性スコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するフィードバックをリアルタイムで受信でき、送信するすべてのメッセージでブランドに即して一貫性を保つことができます。
 </p>
 <p>詳しくは、<a href="../content/brands.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -436,7 +436,7 @@ table>
 <tr>
 <td>
 <p>マーケティングアクティビティの影響を測定する完全にカスタマイズ可能なリアルタイムのレポートを提供する動的レポートにアクセスできるようになりました。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。 また、動的レポートは、多言語のメール配信とトランザクションメッセージにも使用できます。</p>
-<p>この機能はオンデマンドでのみ利用できます。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以降にアップグレードされている必要があります。クライアントコンソールの<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
+<p>この機能は、オンデマンドでのみ使用できます。 アクセスするには、アドビ担当者にお問い合わせください。 サーバーは 8.8.1 以上にアップグレードする必要があります。 詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
 <p>詳しくは、<a href="../reporting/dynamic-reporting/get-started-reporting.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -453,7 +453,7 @@ table>
 <tr>
 <td>
 <p>技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。 ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。 これらのブランドを作成して、メッセージやランディングページにリンクできます。 こうした設定はテンプレートで管理されます。 ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで使用できます。</p>
-<p>この機能は、新規導入時に限りオンデマンドで利用可能です。アクセスするには、アドビ担当者にお問い合わせください。サーバーは 8.8.1 以降にアップグレードされている必要があります。クライアントコンソールの<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
+<p>この機能は、新しい実装でのみオンデマンドで使用できます。アクセスするには、アドビ担当者にお問い合わせください。 サーバーは 8.8.1 以上にアップグレードする必要があります。 詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
 <p>詳しくは、<a href="../administration/branding/branding-gs.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -649,7 +649,8 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 <tbody>
 <tr>
 <td>
-<p>Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。また、既存の外部アカウントを表示、更新、管理することも可能です。</p>
+<p>Campaign 管理者は、Campaign web ユーザーインターフェイスから外部システムとの新しい接続を設定できるようになりました。
+また、既存の外部アカウントを表示、更新、管理することもできます。</p>
 <p>詳しくは、<a href="../administration/external-account.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -852,15 +853,15 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 <table>
 <thead>
 <tr>
-<th><strong>コンテンツ生成によるランディングページの生成</strong><br/></th>
+<th><strong>コンテンツを生成を使用したランディングページの生成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ランディングページの配信で「コンテンツを生成」が使用できるようになりました。これにより、テキスト、画像、または完全なページレイアウトを生成できます。</p>
+<p>ランディングページ配信でコンテンツを生成が使用できるようになりました。これにより、テキスト、画像または完全なページレイアウトを生成できます。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>コンテンツの生成について詳しくは、<a href="../content/generative-full-content.md">詳細ドキュメント </a>を参照してください。</p>
+<p>コンテンツを生成について詳しくは、<a href="../content/generative-full-content.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

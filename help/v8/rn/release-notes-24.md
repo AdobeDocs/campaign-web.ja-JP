@@ -18,9 +18,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2580
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -94,13 +94,13 @@ ht-degree: 99%
 <table>
 <thead>
 <tr>
-<th><strong>コンテンツ生成</strong><br/></th>
+<th><strong>コンテンツを生成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成してカスタマイズしたら、Adobe Campaign Webの「コンテンツを生成」で次のレベルに引き上げます。 この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
+<p>メッセージを作成して調整したら、Adobe Campaign Web のコンテンツを生成を使用して、メッセージを次のレベルに引き上げます。この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>は、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../content/generative-gs.md">詳細ドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>

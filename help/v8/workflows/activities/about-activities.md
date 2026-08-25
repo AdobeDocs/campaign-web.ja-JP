@@ -15,9 +15,9 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 597
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 
 これらのアクティビティは、母集団データの操作およびエンリッチメントに固有です。
 
-* [&#x200B; データ読み込み（RDBMS） &#x200B;](data-loading-rdbms.md)：外部リレーショナルデータベースからワークフローに直接データを読み込みます。
+* [データ読み込み（RDBMS）](data-loading-rdbms.md)：外部リレーショナルデータベースからワークフローに直接データを読み込みます。
 * [ファイルを抽出](extract-file.md)：Adobe Campaign から別のシステムにデータを外部ファイルとしてエクスポートします。
 * [ファイルを読み込み](load-file.md)：外部ファイルに保存されたプロファイルとデータを操作します。
 * [ファイルを転送](transfer-file.md)：ファイルの送受信、ファイルの有無の確認、サーバー上のファイルのリストアップを行います。 使用されるプロトコルは、サーバー間プロトコルまたは HTTP プロトコルのいずれかです。
