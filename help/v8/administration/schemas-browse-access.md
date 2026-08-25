@@ -3,9 +3,9 @@ title: スキーマの参照とアクセス
 description: インターフェイスでスキーマを参照してアクセスする方法について説明します。
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
 source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 93%
 画面の定義から、以下の操作を実行できます。
 
 * [デフォルトのリスト列を設定](schemas-list-columns.md) - リスト ビューにデフォルトで表示する列を設定します。
-* [&#x200B; カスタムフィルターを追加](schemas-custom-filters.md) - リストビューのフィルターペインにクイックアクセスフィルターフィールドを追加します。
+* [カスタムフィルターを追加](schemas-custom-filters.md) - リスト表示のフィルターパネルにクイックアクセスフィルターフィールドを追加します。
 * [カスタムフィールドを編集](schemas-custom-fields.md) – 詳細画面に表示するカスタムフィールドを設定し、セクションに整理します。
 * [コレクションリストを追加](schemas-collection-lists.md) - コレクションリストを追加して、プロファイル画面に関連データを表示します。
-* [&#x200B; データに対するアクションの制御](schemas-action-data.md) - カスタムスキーマの作成、編集および削除アクションを制限します。
+* [データに対するアクションを制御](schemas-action-data.md) - カスタムスキーマの作成、編集および削除アクションを制限します。

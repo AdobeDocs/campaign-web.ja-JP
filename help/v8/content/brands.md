@@ -4,16 +4,13 @@ title: ブランドの管理
 description: ブランドガイドラインの作成および管理方法について説明します
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
 TQID: https://experienceleague.adobe.com/MAYS264-CrLxRFoLLh8Ph0mujglOSxki7tX5iD2a8rM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-topic_v2:
-  - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+topic_v2: id: e6ff21d3-dec6-4298-8590-7c749fffaf78
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 542
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +72,7 @@ ht-degree: 91%
 
    ![](assets/brands-15.png)
 
-1. 設定が完了したら、**[!UICONTROL 保存]**、**[!UICONTROL 公開]**&#x200B;をクリックして、ブランドガイドラインを「コンテンツを生成」で利用できるようにします。
+1. 設定が完了したら、「**[!UICONTROL 保存]**」、「**[!UICONTROL 公開]**」の順にクリックし、ブランドガイドラインを「コンテンツを生成」で使用できるようにします。
 
 1. 公開済みのブランドの変更を行うには、「**[!UICONTROL ブランドを編集]**」をクリックします。
 
@@ -97,7 +94,7 @@ ht-degree: 91%
 
    ![ブランドダッシュボードの詳細設定メニューオプション](assets/brands-6.png)
 
-ブランドガイドラインに、「**[!UICONTROL ブランド]**」ドロップダウンから「コンテンツを生成」メニューにアクセスできるようになりました。 これにより、AIがユーザーの仕様に沿ったコンテンツやアセットを生成できるようになります。 [&#x200B; コンテンツ生成の詳細](../content/generative-gs.md)
+コンテンツを生成メニューの&#x200B;**[!UICONTROL ブランド]**&#x200B;ドロップダウンから、ブランドガイドラインにアクセスできるようになりました。これにより、AI で、仕様に合わせたコンテンツとアセットを生成できます。[コンテンツを生成の詳細情報](../content/generative-gs.md)
 
 また、ブランドガイドラインを使用して、コンテンツの品質とブランド一致を評価することもできます。 [コンテンツ品質の検証の詳細情報](brands-score.md#validate-quality)
 

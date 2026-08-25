@@ -1,53 +1,51 @@
 ---
 audience: end-user
 title: オファー環境設定の確認
-description: Campaign Webでオファー環境を表示、設定、デプロイする方法について説明します
+description: Campaign Web でオファー環境を表示、設定、デプロイする方法について説明します。
 feature: Offers
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 319
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 # オファー環境設定の確認 {#offer-environment}
 
-**オファー環境**&#x200B;は、オファーカタログと関連するオファースペースを整理するコンテナです。 環境には次の 2 つのタイプがあります。
+**オファー環境**&#x200B;は、オファーカタログと関連するオファースペースを整理するコンテナです。環境には次の 2 つのタイプがあります。
 
 * オファーが作成、設定、承認される&#x200B;**デザイン**&#x200B;環境。
-* 読み取り専用の&#x200B;**Live**&#x200B;環境。承認済みおよびデプロイ済みのオファーを配信の選択に利用できます。
+* 読み取り専用の&#x200B;**ライブ**&#x200B;環境。承認済みおよびデプロイ済みのオファーを配信の選択に使用できます。
 
-各&#x200B;**デザイン**&#x200B;環境は、**ライブ**&#x200B;環境にリンクされています。 オファーが完了して承認されると、オファーは自動的に&#x200B;**Live**&#x200B;環境にデプロイされ、配信に利用できるようになります。
+各&#x200B;**デザイン**&#x200B;環境は、**ライブ**&#x200B;環境にリンクされています。オファーが完了して承認されると、そのオファーは自動的に&#x200B;**ライブ**&#x200B;環境にデプロイされ、配信に使用できるようになります。
 
-環境を示す![&#x200B; スクリーンショット。](assets/offers-env.png){zoomable="yes"}
+![環境を示すスクリーンショット。](assets/offers-env.png){zoomable="yes"}
 
-デフォルトでは、Campaignには、組み込みの受信者テーブル（特定されたオファー）をターゲットにするように事前設定された2つの&#x200B;**デザイン**&#x200B;および&#x200B;**ライブ**&#x200B;環境が用意されています。
+Campaign ではデフォルトで、ビルトインの受信者テーブル（識別されたオファー）をターゲットにするための事前設定された&#x200B;**デザイン**&#x200B;環境と&#x200B;**ライブ**&#x200B;環境の 2 つが用意されています。
 
-インバウンドインタラクションのためにweb サイトを訪問する匿名プロファイルなどの別のテーブルをターゲットにするには、追加の環境（ターゲティングディメンションごとに1つ）を作成する必要があります。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}を参照してください。
+インバウンドインタラクション用の web サイトにアクセスする匿名プロファイルなど、別のテーブルをターゲットにするには、追加の環境を作成する必要があります（ターゲティングディメンションごとに 1 つ）。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}を参照してください。
 
 ## オファー環境へのアクセス {#offer-environment-settings}
 
-オファー環境はフォルダーとして保存されます。 環境設定（実施要件、体重管理、セキュリティ）にアクセスして確認するには、次の手順に従います。
+オファー環境は、フォルダーとして保存されます。環境設定（実施要件、重み付け管理、セキュリティ）にアクセスして確認するには、次の手順に従います。
 
 >[!CAUTION]
 >
->これらの設定は変更できますが、既存の実装が変更される可能性があるため、非常に注意する必要があります。
+>これらの設定は変更できますが、既存の実装に影響を与える可能性があるので、変更の際は慎重に行う必要があります。
 
-1. 左側のナビゲーションメニューから、**[!UICONTROL Explorer]**&#x200B;を開き、**デザイン環境** ノードの下にあるオファー環境フォルダーを見つけます。
+1. 左側のナビゲーションメニューから&#x200B;**[!UICONTROL エクスプローラー]**&#x200B;を開き、**デザイン環境**&#x200B;ノードの下にあるオファー環境フォルダーを見つけます。
 
-1. 「。..」ボタンをクリックし、**[!UICONTROL フォルダー設定]**&#x200B;を選択して、環境設定を表示します。
+1. 「…」ボタンをクリックし、「**[!UICONTROL フォルダー設定]**」を選択して、環境設定を表示します。
 
-   環境の「フォルダー設定」オプションを示す![&#x200B; スクリーンショット &#x200B;](assets/offers-env-1.png){zoomable="yes"}
+   ![環境の「フォルダー設定」オプションを示すスクリーンショット](assets/offers-env-1.png){zoomable="yes"}
 
-1. さまざまなセクションを確認します。 オファー環境グループのフォルダー設定は、オファー固有のオプションです。
+1. 様々なセクションを確認します。オファー環境グループのフォルダー設定には、オファー固有のオプションが用意されています。
 
-   環境のプロパティ設定を示す![&#x200B; スクリーンショット &#x200B;](assets/offers-env-2.png){zoomable="yes"}
+   ![環境のプロパティ設定を示すスクリーンショット](assets/offers-env-2.png){zoomable="yes"}
 
-   ほとんどの設定は、クライアントコンソールで使用できるオファー環境設定を反映しています。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html){target="_blank"}を参照してください。
+   ほとんどの設定は、クライアントコンソールで使用できるオファー環境設定を反映しています。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html?lang=ja){target="_blank"}を参照してください。
 
 <!--
 ## Create a new offer environment {#create}
@@ -117,7 +115,7 @@ This section gathers the offer-specific settings of the folder.
 
 ### Execution instances {#execution-instances}
 
-* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html?lang=ja#distributed-architecture){target="_blank"}.
+* **[!UICONTROL Display execution instances]** — Opens the list of execution instances mapped to the environment. This section is only displayed when the multi-instance execution option is activated. Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-architecture.html#distributed-architecture){target="_blank"}.
 
 ### Targets of this environment {#targets}
 
@@ -149,7 +147,7 @@ and [Anonymous interactions](https://experienceleague.adobe.com/docs/campaign/ca
 
   ![Screenshot showing the other Environment settings of an environment](assets/offers-env-5.png){zoomable="yes"}
 
-* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html?lang=ja#offer-presentation){target="_blank"} for the full rule reference.
+* **[!UICONTROL Presentation typology]** — Typology rule of type **[!UICONTROL Offer presentation]** referenced by the environment. Presentation typologies exclude offers based on the proposition history of a recipient. You can edit these rules directly from the Web UI's **[!UICONTROL Business rules]** screen — see [Work with business rules (typologies)](../administration/typologies.md). Refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-offer.html#offer-presentation){target="_blank"} for the full rule reference.
 
 * **[!UICONTROL Filters on the target]** — Filter rules that apply to every offer in the environment. Use **[!UICONTROL Add rules]** to open the rule builder and restrict the audience targeted by all offers contained in this environment.
 
@@ -167,4 +165,4 @@ These two sections are generic Campaign folder controls. They are not specific t
 
 * **[!UICONTROL Restrictions]** — Lets you turn the folder into a view by enabling **[!UICONTROL This folder is a view]** and clicking **[!UICONTROL Edit restrictions]** to define a filter on the records displayed in the folder.
 -->
-次に、[&#x200B; オファースペースを作成](offer-space.md)して、オファーの公開場所と公開方法を定義します。
+次に、[オファースペースを作成](offer-space.md)して、オファーの表示場所と表示方法を定義します。
