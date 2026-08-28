@@ -57,4 +57,4 @@ C2PA メタデータは、Adobe Campaignのweb ユーザーインターフェイ
 ## その他のリソース
 
 * [「コンテンツを生成」の操作](generative-gs.md)
-* [生成AI コンテンツの透明性](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
+* [生成AI コンテンツの透明性](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency)
