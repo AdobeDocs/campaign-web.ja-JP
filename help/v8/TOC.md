@@ -6,10 +6,10 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 nudge: true
-source-git-commit: dae21b648eb4278746052eea3a6f33b1f8cc25da
-workflow-type: ht
-source-wordcount: '1072'
-ht-degree: 100%
+source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 99%
 
 ---
 
@@ -141,6 +141,7 @@ ht-degree: 100%
     + [AI を使用したテキスト生成](content/generative-text.md)
     + [AI を使用した画像生成](content/generative-image.md)
     + [コンテンツを生成のユースケース](content/generative-uc.md)
+    + [電子メールとランディングページのC2PA メタデータ Designer](content/c2pa-metadata-email-designer.md)
     + ブランド {#ai-assistant}
       + [ブランドの作成と管理](content/brands.md)
       + [ブランドのパーソナライズ](content/brands-personalize.md)
@@ -301,7 +302,7 @@ ht-degree: 100%
     + [リストの列の設定](administration/schemas-list-columns.md)
     + [カスタムフィルターを追加](administration/schemas-custom-filters.md)
     + [カスタムフィールドの編集](administration/schemas-custom-fields.md)
-    + [コレクションリストを追加](administration/schemas-collection-lists.md)
+    + [コレクションリストの追加](administration/schemas-collection-lists.md)
     + [データに対するアクションを制御](administration/schemas-action-data.md)
     + [スキーマの作成と公開](administration/schemas-create-publish.md)
     + [カスタムフォームの操作](administration/schemas-custom-forms.md)
