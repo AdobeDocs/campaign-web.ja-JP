@@ -3,13 +3,10 @@ title: JavaScript コードの操作
 description: JavaScript コードの操作方法について説明します。
 exl-id: 4f3b7fce-0373-4db1-8239-64b1bda0f14c
 TQID: https://experienceleague.adobe.com/MEB6-W3pMbt97vozcG7sKjyFLHzLqTs3D0B9JjU44hw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2df9759bb21eae0630bcbe9130a1a20b165e8cca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 535
 ht-degree: 100%
 
@@ -20,12 +17,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_list"
 >title="JavaScript コード"
->abstract="JavaScript コードは、ライブラリと同様に、ワークフロー全体で使用できる再利用可能な関数です。このリストから、JavaScript コードを作成、変更、複製または削除できます。"
+>abstract="JavaScript コードは、ライブラリと同様に、ワークフロー全体で使用できる再利用可能な関数です。 このリストから、JavaScript コードを作成、変更、複製または削除できます。"
 
 >[!CONTEXTUALHELP]
 >id="acw_javascript_codes_create"
 >title="JavaScript コードを作成"
->abstract="JavaScript コードの名前空間、名前、ラベルを定義し、条件および日付の書式設定に使用できる定義済みの関数を使用してコンテンツを記述します。作成後、名前空間と名前は変更できません。"
+>abstract="JavaScript コードの名前空間、名前、ラベルを定義し、条件および日付の書式設定に使用できる定義済みの関数を使用してコンテンツを記述します。 作成後、名前空間と名前は変更できません。"
 
 ## JavaScript コードについて {#about}
 
@@ -59,7 +56,7 @@ JavaScript コードを作成するには、次の手順に従います。
 
    >[!NOTE]
    >
-   >作成後は、「**[!UICONTROL 名前空間]**」フィールドと「**[!UICONTROL 名前]**」フィールドを変更することはできません。変更を行うには、必要に応じてコードを複製し、更新します。
+   >作成後は、「**[!UICONTROL 名前空間]**」フィールドと「**[!UICONTROL 名前]**」フィールドを変更することはできません。 変更を行うには、必要に応じてコードを複製し、更新します。
    >
    >Campaign コンソールでは、JavaScript コード名は、これら 2 つのフィールドの連結として表示されます。
 
