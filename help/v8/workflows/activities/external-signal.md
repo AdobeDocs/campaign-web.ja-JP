@@ -86,4 +86,4 @@ ht-degree: 98%
 
    +++
 
-   * **[!UICONTROL 外部シグナル]**&#x200B;アクティビティを API 呼び出しからトリガーにするには、Campaign API ドキュメントで説明されている手順に従ってください。 [詳しくは、静的な `PostEvent` メソッドの使用方法を参照してください](https://experienceleague.adobe.com/en/tools/campaign-api)。
+   * **[!UICONTROL 外部シグナル]**&#x200B;アクティビティを API 呼び出しからトリガーにするには、Campaign API ドキュメントで説明されている手順に従ってください。 [詳しくは、静的な `PostEvent` メソッドの使用方法を参照してください](https://experienceleague.adobe.com/ja/tools/campaign-api)。
