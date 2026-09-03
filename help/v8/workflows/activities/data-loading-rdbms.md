@@ -8,7 +8,7 @@ product_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 772
 ht-degree: 100%
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_data_loading_rdbms"
 >title="データ読み込み（RDBMS）アクティビティ"
->abstract="**データ読み込み（RDBMS）**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティの 1 つです。このアクティビティを使用して、外部のリレーショナルデータベースからワークフローにデータを直接読み込みます。抽出されたデータはワークフロー全体で使用でき、ターゲティング、エンリッチメントまたはさらなるデータ処理に使用できます。"
+>abstract="**データ読み込み（RDBMS）**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティの 1 つです。 このアクティビティを使用して、外部のリレーショナルデータベースからワークフローにデータを直接読み込みます。 抽出されたデータはワークフロー全体で使用でき、ターゲティング、エンリッチメントまたはさらなるデータ処理に使用できます。"
 
-**データ読み込み（RDBMS）**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティの 1 つです。このアクティビティを使用して、外部のリレーショナルデータベースからワークフローにデータを直接読み込みます。抽出されたデータはワークフロー全体で使用でき、ターゲティング、エンリッチメントまたはさらなるデータ処理に使用できます。
+**データ読み込み（RDBMS）**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティの 1 つです。 このアクティビティを使用して、外部のリレーショナルデータベースからワークフローにデータを直接読み込みます。 抽出されたデータはワークフロー全体で使用でき、ターゲティング、エンリッチメントまたはさらなるデータ処理に使用できます。
 
 <!--
 This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
@@ -31,16 +31,16 @@ This activity relies on the [Federated Data Access (FDA)](https://experienceleag
 >
 >パフォーマンスを向上させるには、外部データベースから収集するデータ量が許可されている場合に、代わりに外部データを使用した&#x200B;**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティ（クエリタイプ）の使用を検討してください。
 >
->**[!UICONTROL データ読み込み（RDBMS）]**&#x200B;アクティビティは、ワークフロー分岐の最初のアクティビティにする必要があります。キャンバス内の別のアクティビティの後に追加することはできません。
+>**[!UICONTROL データ読み込み（RDBMS）]**&#x200B;アクティビティは、ワークフロー分岐の最初のアクティビティにする必要があります。 キャンバス内の別のアクティビティの後に追加することはできません。
 
 まず、**データ読み込み（RDBMS）**&#x200B;アクティビティをワークフロー分岐の最初のアクティビティとして追加します。
 
 アクティビティは、次の 4 つのセクションに分かれています。
 
-* **[!UICONTROL ターゲット設定]**：読み込まれたデータの保存場所を選択します。[詳細情報](#target-settings)
-* **[!UICONTROL ソース設定]**：読み込むデータを含む外部データベースにアクセスする方法を選択します。[詳細情報](#source-settings)
-* **[!UICONTROL 収集される情報]**：外部テーブルから収集する列を定義します。[詳細情報](#information-collected)
-* **[!UICONTROL ソースフィルター]**：外部テーブルからデータの一部のみを収集するフィルターを定義します。[詳細情報](#filter)
+* **[!UICONTROL ターゲット設定]**：読み込まれたデータの保存場所を選択します。 [詳細情報](#target-settings)
+* **[!UICONTROL ソース設定]**：読み込むデータを含む外部データベースにアクセスする方法を選択します。 [詳細情報](#source-settings)
+* **[!UICONTROL 収集される情報]**：外部テーブルから収集する列を定義します。 [詳細情報](#information-collected)
+* **[!UICONTROL ソースフィルター]**：外部テーブルからデータの一部のみを収集するフィルターを定義します。 [詳細情報](#filter)
 
 最後の 2 つのセクションは、**[!UICONTROL ソース設定]**&#x200B;が定義されている場合にのみ表示されます。
 
@@ -48,13 +48,13 @@ This activity relies on the [Federated Data Access (FDA)](https://experienceleag
 
 ## ターゲット設定 {#target-settings}
 
-「**[!UICONTROL ターゲット設定]**」セクションで、読み込まれたデータの保存場所を選択します。「**[!UICONTROL デフォルトデータソース]**」と「**[!UICONTROL アクティブ FDA 外部アカウント]**」の 2 つのオプションを使用できます。
+「**[!UICONTROL ターゲット設定]**」セクションで、読み込まれたデータの保存場所を選択します。 「**[!UICONTROL デフォルトデータソース]**」と「**[!UICONTROL アクティブ FDA 外部アカウント]**」の 2 つのオプションを使用できます。
 
 ![データ読み込み（RDBMS）アクティビティ](../assets/workflow-data-loading-rdbms2.png)
 
 ### デフォルトデータソース {#default-data-source}
 
-このオプションは、デフォルトで選択されています。これにより、読み込まれたデータをデフォルトの Campaign データベースに保存できます。オプションの選択のみが必要です。
+このオプションは、デフォルトで選択されています。 これにより、読み込まれたデータをデフォルトの Campaign データベースに保存できます。 オプションの選択のみが必要です。
 
 ### アクティブ FDA 外部アカウント {#active-fda-external-account}
 
@@ -67,13 +67,13 @@ This activity relies on the [Federated Data Access (FDA)](https://experienceleag
 
 ## ソース設定 {#source-settings}
 
-「**[!UICONTROL ソース設定]**」セクションで、読み込むデータを含む外部データベースにアクセスする方法を選択します。「**[!UICONTROL 共有外部データソース]**」、「**[!UICONTROL ローカル外部データソース]**」、「**[!UICONTROL サーバー定義の外部データソース]**」の 3 つのオプションを使用できます。
+「**[!UICONTROL ソース設定]**」セクションで、読み込むデータを含む外部データベースにアクセスする方法を選択します。 「**[!UICONTROL 共有外部データソース]**」、「**[!UICONTROL ローカル外部データソース]**」、「**[!UICONTROL サーバー定義の外部データソース]**」の 3 つのオプションを使用できます。
 
 ![データ読み込み（RDBMS）アクティビティ](../assets/workflow-data-loading-rdbms3.png)
 
 ### 共有外部データソース {#shared-data-source}
 
-このオプションは、デフォルトで選択されています。Campaign 管理者が既に設定した外部アカウントを使用できます。[外部アカウントの設定方法の詳細情報](../../administration/create-external-account.md)。
+このオプションは、デフォルトで選択されています。 Campaign 管理者が既に設定した外部アカウントを使用できます。 [外部アカウントの設定方法の詳細情報](../../administration/create-external-account.md)。
 
 1. 「**[!UICONTROL データソース]**」フィールドの右側にあるボタンをクリックし、使用するアカウントを選択します。
 
@@ -85,7 +85,7 @@ This activity relies on the [Federated Data Access (FDA)](https://experienceleag
 
 ### ローカル外部データソース {#local-external-data-source}
 
-このオプションを使用すると、アクティビティ内で外部データベースへの接続を直接定義し、このワークフロー内でのみ一時的に使用できます。この接続は外部アカウントとして保存されません。
+このオプションを使用すると、アクティビティ内で外部データベースへの接続を直接定義し、このワークフロー内でのみ一時的に使用できます。 この接続は外部アカウントとして保存されません。
 
 1. 「**[!UICONTROL データソースを定義]**」ボタンをクリックし、接続先のデータベースエンジンを選択します。
 
@@ -123,7 +123,7 @@ This activity relies on the [Federated Data Access (FDA)](https://experienceleag
 In the **[!UICONTROL Select attribute]** dialog, scoped to the schema of the selected table, pick an attribute and confirm. [Learn how to select attributes and add them to favorites](../../get-started/attributes.md)
 -->
 
-1. 属性を選択し、確定します。属性は、「**[!UICONTROL 列]**」フィールドと編集可能な「**[!UICONTROL ラベル]**」フィールドを持つ行として追加されます。削除アイコンを使用して削除します。
+1. 属性を選択し、確定します。 属性は、「**[!UICONTROL 列]**」フィールドと編集可能な「**[!UICONTROL ラベル]**」フィールドを持つ行として追加されます。 削除アイコンを使用して削除します。
 
    ![データ読み込み（RDBMS）アクティビティ](../assets/workflow-data-loading-rdbms10.png)
 
@@ -153,7 +153,7 @@ If you need to reconcile the loaded data with an existing table, such as the Rec
 
    ![データ読み込み（RDBMS）アクティビティ](../assets/workflow-data-loading-rdbms11.png)
 
-1. 選択したテーブルのスキーマを対象とした専用の画面でクエリモデラーが開きます。テーブルの属性に対する条件を作成するために使用します。[クエリモデラーの操作方法の詳細を学ぶ](../../query/query-modeler-overview.md)
+1. 選択したテーブルのスキーマを対象とした専用の画面でクエリモデラーが開きます。 テーブルの属性に対する条件を作成するために使用します。 [クエリモデラーの操作方法の詳細を学ぶ](../../query/query-modeler-overview.md)
 
    ![データ読み込み（RDBMS）アクティビティ](../assets/workflow-data-loading-rdbms12.png)
 
