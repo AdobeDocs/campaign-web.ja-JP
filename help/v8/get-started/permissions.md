@@ -4,14 +4,12 @@ title: Campaign web ユーザーインターフェイスでの権限管理
 description: Campaign web ユーザーインターフェイスの権限について説明します
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
 TQID: https://experienceleague.adobe.com/RJbtR10FIXBaSjXv-HxYIsJg1vpDA71Gwu99Jl9GQh0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 318
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 342
+ht-degree: 88%
 
 ---
 
@@ -53,6 +51,8 @@ Adobe Campaign で権限を設定する手順について詳しくは、[Adobe C
 
 「**[!UICONTROL システムフォルダー]**」オプションを選択した場合、権限に関係なく、すべてのオペレーターにアクセス権が付与されます。
 
-また、[Adobe Campaign コンソールでフォルダーの権限を管理](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}することもできます。
+これらの権限がフォルダーで利用できるアクションにどのように影響するかについては、この[ セクション ](work-with-folders.md#folder-access-rights)を参照してください。
+
+ネームド権限は、オペレーターが使用できるフォルダーアクションも決定します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}を参照してください。
 
 Campaign web ユーザーインターフェイスのすべての権限は、Campaign クライアントコンソールの権限と同期されます。

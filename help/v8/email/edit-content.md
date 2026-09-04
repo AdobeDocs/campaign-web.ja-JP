@@ -4,14 +4,12 @@ title: メールコンテンツを編集する
 description: Campaign Web ユーザーインターフェイスでメールコンテンツを編集する方法を学ぶ
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8d818a3b36f21909cd3ca1f48d1594839a54d0df
-workflow-type: ht
-source-wordcount: 728
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 734
+ht-degree: 98%
 
 ---
 
@@ -79,7 +77,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >管理者は、このフィールドを送信者アドレスの定義済みリストに制限できます。この場合は、アドレスを入力する代わりに、ドロップダウンリストから選択します。[詳細情報](../administration/options.md#restrict-sender-address)
+   >管理者は、このフィールドを送信者アドレスの定義済みリストに制限できます。 この場合は、アドレスを入力する代わりに、ドロップダウンリストから選択します。 [詳細情報](../administration/options.md#restrict-sender-address)
 
 1. 「**[!UICONTROL 返信先フィールド]**」セクションを展開します。 送信者の名前とアドレスは、デフォルトで返信に使用されます。 カスタマーケアの代表アドレスなど、実際にある既存のアドレスを使用することをお勧めします。 そうすれば、受信者から返信が来た場合に、カスタマーケアチームが対応できます。
 
@@ -113,7 +111,7 @@ ht-degree: 100%
    * [新規でのメールの作成](create-email-content.md)
    * [コンテンツのスタイル設定](get-started-email-style.md)
 
-1. デフォルトでは、配信のトラッキングが有効になっています。 このオプションは、「**[!UICONTROL オプション機能]**」セクションから無効にすることができます。 [リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
+1. デフォルトでは、配信のトラッキングが有効になっています。 配信の「**[!UICONTROL 設定]**」 > 「**[!UICONTROL トラッキング]**」タブから、この機能を無効にするか、オープントラッキングを設定できます。 [詳細情報](../advanced-settings/delivery-settings.md#tracking-tab)。 [リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
 
 1. メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。 また、コンテンツの読みやすさ、CTA 効果、および全体的な品質を評価するために、コンテンツの品質を検証することもできます。 [詳しくは、コンテンツの品質の検証を参照してください](../content/brands-score.md#validate-quality)
 

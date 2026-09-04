@@ -2,10 +2,10 @@
 title: カスタムフィルターを追加
 description: カスタムフィルターを、リスト表示のフィルターパネルでクイックアクセスフィールドとして追加する方法について説明します。
 exl-id: 2c3d4e5f-6a7b-4c8d-9e0f-1a2b3c4d5e6f
-source-git-commit: c2e627d322937b80cb0bc09e86680757d4867dcd
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 65%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 100%
    次の項目を選択できます。
 
    * スキーマの直接的な属性（例：コードやカテゴリ）。
-   * リンク属性（例：製品にリンクされたブランド）。この場合、フィルターは、リンクされたスキーマに制限された検索ピッカーを使用します。
+   * リンク属性（例：製品にリンクされたブランド）。 この場合、フィルターは、リンクされたスキーマに制限された検索ピッカーを使用します。
    * リンクのサブ属性（例：リンクされたフォルダーの完全な名前やリンクされた受信者のメール）。
 
    ![直接属性とリンクサブ属性を示す属性ピッカー](assets/schemas-custom-filters2.png)
 
-1. 「**[!UICONTROL 保存]**」をクリックします。上下の矢印を使用するか、ドラッグしてカスタムフィルターを並べ替え、その行のごみ箱アイコンを使用してフィルターを削除できます。
+1. 「**[!UICONTROL 保存]**」をクリックします。 上向き矢印と下向き矢印を使用するか、ドラッグすることで、カスタムフィルターを並べ替えることができます。 フィルターを削除するには、その行の省略記号アイコンをクリックし、**[!UICONTROL 削除]**&#x200B;を選択します。
 
-1. このスキーマのレコードのリストを参照し、フィルターパネルを開きます。選択した属性は、**[!UICONTROL 詳細フィルター]**&#x200B;ルールビルダーの上に&#x200B;**[!UICONTROL カスタムフィルター]**&#x200B;として表示されます。
+1. このスキーマのレコードのリストを参照し、フィルターパネルを開きます。 選択した属性は、**[!UICONTROL 詳細フィルター]**&#x200B;ルールビルダーの上に&#x200B;**[!UICONTROL カスタムフィルター]**&#x200B;として表示されます。
 
    ![フィルターパネルに表示されているカスタムフィルター](assets/schemas-custom-filters3.png)
 
@@ -47,15 +47,20 @@ ht-degree: 100%
 
 1. いずれかのカスタムフィルターに値を入力または選択して、リストを絞り込みます。
 
-<!--
-## Configure a custom filter's settings {#settings}
+## リンクタイプのカスタムフィルターの値を制限 {#settings}
 
-To configure specific settings for a custom filter, click the ellipsis icon on its row and select **[!UICONTROL Edit]**.
+リンク属性に基づくカスタムフィルターの場合、ピッカーで使用できる値を制限できます。
 
-![Custom filter settings dialog](assets/schemas-custom-filters5.png)
+>[!NOTE]
+>
+>以下に説明する&#x200B;**[!UICONTROL 編集]** オプションは、リンク属性に基づくカスタムフィルターでのみ使用できます。 他の属性タイプに基づくカスタムフィルターは、並べ替えまたは削除することしかできません。
 
-Available settings are:
+1. リンクタイプのカスタムフィルターの行で、省略記号アイコンをクリックし、**[!UICONTROL 編集]**&#x200B;を選択します。
 
-* **[!UICONTROL Label (custom)]**: The label to display for this filter. If no label is provided, the attribute's label defined in the schema is used.
-* **[!UICONTROL Filter settings]** (for link-type custom filters only): Use the query modeler to specify a condition that restricts the values available in the picker. For example, restrict a delivery filter to deliveries using the email channel.
--->
+   ![ リンクタイプのカスタムフィルターの編集オプション ](assets/schemas-custom-filters4.png)
+
+1. **[!UICONTROL フィルター設定]** タブで、**[!UICONTROL フィルターを編集]**&#x200B;をクリックし、クエリモデラーを使用して、ピッカーで使用できる値を制限する条件を定義します。 例えば、配信フィルターをメールチャネルを使用する配信に制限します。
+
+   ![ リンク設定ダイアログの「フィルター設定」タブ ](assets/schemas-custom-filters5.png)
+
+1. 変更を確認します。
