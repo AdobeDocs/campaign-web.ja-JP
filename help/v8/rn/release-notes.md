@@ -12,10 +12,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d6b9b9c9905d840e65ac0aa267a665997c6e6b16
-workflow-type: ht
-source-wordcount: 330
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 332
+ht-degree: 78%
 
 ---
 
@@ -27,10 +27,6 @@ ht-degree: 100%
 >abstract="Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。 これにより、Campaign リリースノートは月に数回更新され、最新の機能、改善点、修正が含まれます。 定期的に確認することをお勧めします。"
 
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。 したがって、これらのリリースノートは月に数回更新されます。 定期的に確認してください。
-
->[!NOTE]
->
->以下の機能と改善点に関する詳細なドキュメントは、今後数日間にわたって段階的に追加されます。
 
 ## 2026年8月リリース {#26-8-release}
 
@@ -47,7 +43,8 @@ _2026年8月18日（PT）_
 <tbody>
 <tr>
 <td>
-<p>以前はクライアントコンソールでのみ使用可能であった<strong>承認</strong>ワークフローアクティビティが、Campaign web ユーザーインターフェイスで使用できるようになりました。タスクをグループまたは個々のオペレーターに割り当て、通知のタイトルとメッセージをカスタマイズし、考えられる回答（例：はい／いいえ）を出力分岐として定義します。</p>
+<p>以前はクライアントコンソールでのみ使用可能であった<strong>承認</strong>ワークフローアクティビティが、Campaign web ユーザーインターフェイスで使用できるようになりました。 タスクをグループまたは個々のオペレーターに割り当て、通知のタイトルとメッセージをカスタマイズし、考えられる回答（例：はい／いいえ）を出力分岐として定義します。</p>
+<p>詳しくは、<a href="../workflows/activities/approval.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -55,11 +52,12 @@ _2026年8月18日（PT）_
 
 ### 改善点 {#26-8-improvements}
 
-* **トラッキングを開く**：Campaign web ユーザーインターフェイスから直接、トラッキングを開いたり、無効にしたりできるようになりました。これにより、データ保護規制に準拠できます。
-* **プログラムリスト表示**：プログラムは、キャンペーン、配信、ワークフローと同様に、専用ビューに一覧表示されるようになりました。この表示から直接、既存のプログラムを参照したり、新しいプログラムを作成したりできます。
-* **カスタムスキーマ設定**：「**アクションデータ**」セクションで、カスタムスキーマのレコードに対する&#x200B;**複製**アクションを許可できなくなりました。
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
-* **カスタムフィルター**：スキーマエディターで、カスタムフィルターがダイレクトリンク上のフィルタリング条件をサポートするようになりました。新しい&#x200B;**カスタムフィルター設定**&#x200B;を使用して、任意の属性のデフォルトラベルを上書きできます。
-* **スキーマ検証**：新しい「**検証**」ボタンを使用して、スキーマエディターからスキーマの構造を直接検証できるようになりました。
-* **フォルダーセキュリティ**：ユーザーが&#x200B;**挿入**&#x200B;または&#x200B;**編集**&#x200B;アクセス権を持っている場合、フォルダーに「**名前変更**」オプションを使用できるようになりました。
+* **トラッキングを開く**：Campaign web ユーザーインターフェイスから直接、トラッキングを開いたり、無効にしたりできるようになりました。 これにより、データ保護規制に準拠できます。 [詳細を表示](../advanced-settings/delivery-settings.md#tracking-tab)
+* **プログラムリスト表示**：プログラムは、キャンペーン、配信、ワークフローと同様に、専用ビューに一覧表示されるようになりました。 この表示から直接、既存のプログラムを参照したり、新しいプログラムを作成したりできます。 [詳細を表示](../administration/plans-programs.md#create-program)
+* **カスタムスキーマ設定**：「**アクションデータ**」セクションで、カスタムスキーマのレコードに対する&#x200B;**複製**&#x200B;アクションを許可できなくなりました。 [詳細を表示](../administration/schemas-action-data.md#action-data)
+* **カスタムフィルター**: スキーマエディターで、新しい&#x200B;**リンク設定** ダイアログを使用して、リンクタイプのカスタムフィルターのピッカーで使用できる値を制限できるようになりました。 [詳細を表示](../administration/schemas-custom-filters.md#settings)
+* **スキーマ検証**：新しい&#x200B;**チェック** ボタンを使用して、スキーマエディターから直接スキーマの構造を検証できるようになりました。 [詳細を表示](../administration/schemas-create-publish.md#create-new)
+* **フォルダーセキュリティ**: フォルダーで使用可能なアクションは、クライアントコンソールの動作と一致して、オペレーターの権限によって一貫して管理されるようになりました。 [詳細情報](../get-started/work-with-folders.md#about-folders)。
   <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+

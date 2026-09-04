@@ -14,10 +14,10 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: bece1698fc2ac1020ae28cbef04d3717ee0607bb
-workflow-type: ht
-source-wordcount: 597
-ht-degree: 100%
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+workflow-type: tm+mt
+source-wordcount: 616
+ht-degree: 96%
 
 ---
 
@@ -73,6 +73,7 @@ Adobe Campaign Web を使用すると、複数のチャネル間でマーケテ�
 
 次のアクティビティは、ワークフローの整理と実行に固有です。 主なタスクは、他のアクティビティの調整です。
 
+* [承認](approval.md): グループまたは個々のオペレーターにタスクを割り当て、その回答に基づいてワークフローをルーティングします。
 * [外部シグナル](external-signal.md)：別のワークフローまたは API 呼び出しからワークフローの実行をトリガーします。
 * [分岐](fork.md)：アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始します。
 * [結合](join.md)：ワークフローの複数の実行分岐を同期します。

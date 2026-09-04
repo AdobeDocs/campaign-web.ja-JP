@@ -6,9 +6,9 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 nudge: true
-source-git-commit: 645352d9e2ba12d5430ddf1b62852077344c3016
+source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1081'
 ht-degree: 99%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 99%
     + [ワークフローの開始と監視](workflows/start-monitor-workflows.md)
   + ワークフローアクティビティの操作 {#design-workflows}
     + [ワークフローアクティビティについて](workflows/activities/about-activities.md)
+    + [承認](workflows/activities/approval.md)
     + [自動配信](workflows/activities/automated-delivery.md)
     + [オーディエンスを作成](workflows/activities/build-audience.md)
     + [データソースを変更](workflows/activities/change-data-source.md)
