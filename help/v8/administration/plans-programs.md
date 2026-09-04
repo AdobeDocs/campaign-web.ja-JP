@@ -4,9 +4,13 @@ title: プランとプログラム
 description: Adobe Campaign でプランとプログラムを作成および設定する方法を学ぶ
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
 TQID: https://experienceleague.adobe.com/FSiHCjupRlS0zoI9HPdcU--Y2PZot5fQOzWICwmV-oQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: 640
@@ -58,17 +62,17 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 プログラムは、キャンペーン、配信、ワークフローのリストビューと同様に、左側のナビゲーションメニューから利用できます。 **[!UICONTROL プログラム]** エントリを使用すると、プランの下ではなく、既存のプログラム内でプログラムを作成できます。
 
-プランに最初の最上位のプログラムを作成するには、エクスプローラーでプランに移動し（この[ セクション ](#create-plan)を参照）、フォルダーの種類が&#x200B;**[!UICONTROL プログラム]**&#x200B;のフォルダーを作成します。 [詳しくは、フォルダーの作成を参照してください](../get-started/work-with-folders.md)。
+プランに最初の最上位のプログラムを作成するには、エクスプローラーでプランに移動し（この[&#x200B; セクション &#x200B;](#create-plan)を参照）、フォルダーの種類が&#x200B;**[!UICONTROL プログラム]**&#x200B;のフォルダーを作成します。 [詳しくは、フォルダーの作成を参照してください](../get-started/work-with-folders.md)。
 
 既存のプログラム内にプログラムを作成するには、次の手順に従います。
 
 1. 左側のナビゲーションメニューで&#x200B;**[!UICONTROL プログラム]** エントリを参照します。 このビューには、すべてのプログラムが一覧表示され、検索とフィルターを実行できます。 プログラムをクリックすると、エクスプローラー表示が開きます。
 
-   プログラムリスト表示を示す![ スクリーンショット ](assets/program_view.png){zoomable="yes"}
+   プログラムリスト表示を示す![&#x200B; スクリーンショット &#x200B;](assets/program_view.png){zoomable="yes"}
 
 1. 「**[!UICONTROL プログラムを作成]**」をクリックし、次のオプションを設定します。
 
-   プログラムの作成画面を表示する![ スクリーンショット ](assets/program_create.png){zoomable="yes"}
+   プログラムの作成画面を表示する![&#x200B; スクリーンショット &#x200B;](assets/program_create.png){zoomable="yes"}
 
    * **[!UICONTROL ラベル]**&#x200B;を入力します。
    * **[!UICONTROL 親フォルダー]**&#x200B;として使用する既存のプログラムを選択します。
@@ -80,9 +84,9 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 
 1. 「**[!UICONTROL プログラムを作成]**」をもう一度クリックして、変更を保存し、プログラムを作成します。 その後、エクスプローラービューにプログラムが表示されます。 他のフォルダーと同様に、名前を変更したり、削除したり、設定にアクセスしたりできます。 このプログラム内でサブプログラムを作成することもできます。
 
-   エクスプローラービューでプログラムを表示している![ スクリーンショット ](assets/program_explorer.png){zoomable="yes"}
+   エクスプローラービューでプログラムを表示している![&#x200B; スクリーンショット &#x200B;](assets/program_explorer.png){zoomable="yes"}
 
-プログラムのカスタムオプションは、プランと同じように設定されます。 [ プランの作成と設定](#create-plan)を参照してください。
+プログラムのカスタムオプションは、プランと同じように設定されます。 [&#x200B; プランの作成と設定](#create-plan)を参照してください。
 
 ## キャンペーンをプログラムにリンクする方法
 

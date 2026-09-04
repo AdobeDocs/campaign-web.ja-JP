@@ -57,10 +57,10 @@ ht-degree: 65%
 
 1. リンクタイプのカスタムフィルターの行で、省略記号アイコンをクリックし、**[!UICONTROL 編集]**&#x200B;を選択します。
 
-   ![ リンクタイプのカスタムフィルターの編集オプション ](assets/schemas-custom-filters4.png)
+   ![&#x200B; リンクタイプのカスタムフィルターの編集オプション &#x200B;](assets/schemas-custom-filters4.png)
 
 1. **[!UICONTROL フィルター設定]** タブで、**[!UICONTROL フィルターを編集]**&#x200B;をクリックし、クエリモデラーを使用して、ピッカーで使用できる値を制限する条件を定義します。 例えば、配信フィルターをメールチャネルを使用する配信に制限します。
 
-   ![ リンク設定ダイアログの「フィルター設定」タブ ](assets/schemas-custom-filters5.png)
+   ![&#x200B; リンク設定ダイアログの「フィルター設定」タブ &#x200B;](assets/schemas-custom-filters5.png)
 
 1. 変更を確認します。

@@ -4,7 +4,8 @@ title: フォルダーの操作
 description: Adobe Campaign でフォルダーを管理する方法について説明します
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
 TQID: https://experienceleague.adobe.com/VMZuBbHAkU-hffCTjd5QIwXM0c8K3Q9r9tIx4-Ny08s
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: 837
@@ -50,7 +51,7 @@ ht-degree: 88%
 
 フォルダーで利用できるアクションは、そのフォルダーで付与された権限によって異なります。 **[!UICONTROL フォルダー設定]** ダイアログが&#x200B;**読み取り専用モード**&#x200B;で開く場合があり、権限によっては、一部のアクションまたはセクションが使用できない場合があります。
 
-フォルダーの権限が欠落している場合は、管理者にお問い合わせください。 フォルダー権限の管理方法については、この[ セクション ](permissions.md#folder-permissions)を参照してください。
+フォルダーの権限が欠落している場合は、管理者にお問い合わせください。 フォルダー権限の管理方法については、この[&#x200B; セクション &#x200B;](permissions.md#folder-permissions)を参照してください。
 
 **[!UICONTROL フォルダーの挿入]**、**[!UICONTROL フォルダーの編集]**、**[!UICONTROL フォルダーの削除]**&#x200B;などの名前付き権限も、オペレーターが使用できるフォルダーアクションを決定します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}を参照してください。
 

@@ -41,7 +41,7 @@ ht-degree: 91%
 
 1. **[!UICONTROL Check]** ボタンをクリックして、保存する前にスキーマのXML構造を確認します。 特定されたエラーは、画面の下部に表示されます（例：「無効なXML形式」）。
 
-   ![ スキーマ作成ダイアログエラー](assets/schemas-create3bis.png)
+   ![&#x200B; スキーマ作成ダイアログエラー](assets/schemas-create3bis.png)
 
 1. エラーを修正し、変更を保存してスキーマを生成します。
 
