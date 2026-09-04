@@ -55,6 +55,6 @@ Adobe Campaign で権限を設定する手順について詳しくは、[Adobe C
 
 これらの権限がフォルダーで利用できるアクションにどのように影響するかについては、この[&#x200B; セクション &#x200B;](work-with-folders.md#folder-access-rights)を参照してください。
 
-ネームド権限は、オペレーターが使用できるフォルダーアクションも決定します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}を参照してください。
+ネームド権限は、オペレーターが使用できるフォルダーアクションも決定します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=ja#use-named-rights){target="_blank"}を参照してください。
 
 Campaign web ユーザーインターフェイスのすべての権限は、Campaign クライアントコンソールの権限と同期されます。

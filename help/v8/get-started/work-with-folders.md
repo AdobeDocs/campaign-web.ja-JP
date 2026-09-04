@@ -53,7 +53,7 @@ ht-degree: 88%
 
 フォルダーの権限が欠落している場合は、管理者にお問い合わせください。 フォルダー権限の管理方法については、この[&#x200B; セクション &#x200B;](permissions.md#folder-permissions)を参照してください。
 
-**[!UICONTROL フォルダーの挿入]**、**[!UICONTROL フォルダーの編集]**、**[!UICONTROL フォルダーの削除]**&#x200B;などの名前付き権限も、オペレーターが使用できるフォルダーアクションを決定します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html#use-named-rights){target="_blank"}を参照してください。
+**[!UICONTROL フォルダーの挿入]**、**[!UICONTROL フォルダーの編集]**、**[!UICONTROL フォルダーの削除]**&#x200B;などの名前付き権限も、オペレーターが使用できるフォルダーアクションを決定します。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/permissions/manage-permissions.html?lang=ja#use-named-rights){target="_blank"}を参照してください。
 
 ## 新しいフォルダーの作成 {#create-a-folder}
 
