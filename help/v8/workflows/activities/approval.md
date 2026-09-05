@@ -44,7 +44,7 @@ ht-degree: 4%
 
 グループまたはオペレーターへのタスクの割り当ては必須です。グループまたはオペレーターにタスクを割り当てると、警告が表示されます。
 
-承認アクティビティの割り当てセクションを示す![&#x200B; スクリーンショット &#x200B;](../assets/workflow-approval1.png){zoomable="yes"}
+承認アクティビティの割り当てセクションを示す![ スクリーンショット ](../assets/workflow-approval1.png){zoomable="yes"}
 
 次の手順に従います。
 
@@ -56,13 +56,13 @@ ht-degree: 4%
 
 1. **[!UICONTROL 詳細パラメーター]**&#x200B;をクリックして、通知に使用する配信テンプレートを選択します。 デフォルトでは、組み込みテンプレートが使用されますが、他の配信テンプレートを選択することもできます。
 
-   承認アクティビティの詳細パラメーターを示す![&#x200B; スクリーンショット &#x200B;](../assets/workflow-approval1bis.png){zoomable="yes"}
+   承認アクティビティの詳細パラメーターを示す![ スクリーンショット ](../assets/workflow-approval1bis.png){zoomable="yes"}
 
 ## 通知メッセージの定義 {#message}
 
 担当者に送信する通知メッセージを定義できるようになりました。
 
-承認アクティビティの「メッセージ」セクションを表示する![&#x200B; スクリーンショット &#x200B;](../assets/workflow-approval2.png){zoomable="yes"}
+承認アクティビティの「メッセージ」セクションを表示する![ スクリーンショット ](../assets/workflow-approval2.png){zoomable="yes"}
 
 次の手順に従います。
 
@@ -72,13 +72,13 @@ ht-degree: 4%
 
 両方のフィールドでパーソナライゼーションがサポートされています。パーソナライゼーションアイコンをクリックして、**[!UICONTROL 返信したオペレーター]**&#x200B;や&#x200B;**[!UICONTROL 応答]**&#x200B;などのイベント変数を挿入し、ワークフローの他の場所で再利用できます。
 
-メッセージのパーソナライゼーションを示す![&#x200B; スクリーンショット &#x200B;](../assets/workflow-approval2bis.png){zoomable="yes"}
+メッセージのパーソナライゼーションを示す![ スクリーンショット ](../assets/workflow-approval2bis.png){zoomable="yes"}
 
 ## 考えられる回答を定義する {#answers}
 
 アクティビティには、デフォルトの回答が&#x200B;**[!UICONTROL Yes]**&#x200B;と&#x200B;**[!UICONTROL No]**&#x200B;の2つあります。 各回答は、キャンバス上の出力遷移に対応します。
 
-承認アクティビティの「回答」セクションを表示する![&#x200B; スクリーンショット &#x200B;](../assets/workflow-approval3.png){zoomable="yes"}
+承認アクティビティの「回答」セクションを表示する![ スクリーンショット ](../assets/workflow-approval3.png){zoomable="yes"}
 
 「**[!UICONTROL 回答を追加]**」をクリックして、追加の選択肢を定義します。
 
@@ -88,7 +88,7 @@ ht-degree: 4%
 
 最後に、承認タスクの有効期限を定義できます。 回答と同様に、担当者が期限までに回答しなかった場合、有効期限は自身の出力トランジションをトリガーします。
 
-承認アクティビティの「有効期限」セクションを表示する![&#x200B; スクリーンショット &#x200B;](../assets/workflow-approval4.png){zoomable="yes"}
+承認アクティビティの「有効期限」セクションを表示する![ スクリーンショット ](../assets/workflow-approval4.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 有効期限を追加]**」をクリックします。
 
