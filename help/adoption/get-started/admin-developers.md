@@ -154,7 +154,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 * **IP アドレスを追加** - Campaign コントロールパネルでは、IP アドレスの範囲を許可リストに登録することで、インスタンスへの新しい接続をセットアップできます。 詳しくは、[IP 許可リストのドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}を参照してください
 
 * **サブドメイン設定** - Adobe Campaign で使用するドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。
-詳しくは、[ サブドメイン委任ドキュメント ](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}を参照してください
+詳しくは、[&#x200B; サブドメイン委任ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}を参照してください
 
 * **SFTP サーバーを管理** - コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 詳しくは、[SFTP 管理のドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}を参照してください
 
@@ -377,6 +377,6 @@ Campaign Standard ユーザーが Campaign v8 に移行する場合は、次の�
 
 * Campaign Standard でこれらの統合を使用していた場合、**Adobe Analytics** および **Audience Manager** の設定とデータは、アドビによって移行されています。
 * Campaign Standard 環境が **Adobe Experience Manager** と統合されている場合は、Campaign web ユーザーインターフェイスでメールを設計する際にこの機能を使用し、Adobe Experience Manager 環境内で直接メール配信コンテンツとフォームの効率的な管理を容易に行うことができるように、**Adobe Experience Manager as a Cloud Service** に移行することをお勧めします。 詳しくは、[このページ](../../v8/integrations/aem-content.md)を参照してください。
-CampaignはAdobe Experience Manager 6.5と統合することもできます。 この統合を設定するには、[このドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}を参照してください。
+CampaignはAdobe Experience Manager 6.5と統合することもできます。 この統合を設定するには、[このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}を参照してください。
 * Campaign Standard 環境が **Triggers** と統合されていた場合は、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}の説明に従って、Campaign v8 でこの統合を設定する必要があります。
 * Campaign Standard 環境が **Adobe Target** と統合されていた場合は、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}の説明に従って、Campaign v8 でこの統合を設定する必要があります。

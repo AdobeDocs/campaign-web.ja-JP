@@ -138,7 +138,7 @@ Campaign Standard ユーザーが Adobe Campaign v8 に移行する場合は、�
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  様々なメールテンプレートを提供し、画像を生成および再生成します。 コンテンツの生成について詳しくは、[このセクション ](../../v8/content/generative-full-content.md)を参照してください。 Adobe Campaign v8では、[電子メール ](../../v8/content/generative-full-content.md)、[SMS](../../v8/content/generative-text.md)、[ プッシュ ](../../v8/content/generative-full-content.md)に対して利用可能な「コンテンツを生成」が用意されています。
+  様々なメールテンプレートを提供し、画像を生成および再生成します。 コンテンツの生成について詳しくは、[このセクション &#x200B;](../../v8/content/generative-full-content.md)を参照してください。 Adobe Campaign v8では、[電子メール &#x200B;](../../v8/content/generative-full-content.md)、[SMS](../../v8/content/generative-text.md)、[&#x200B; プッシュ &#x200B;](../../v8/content/generative-full-content.md)に対して利用可能な「コンテンツを生成」が用意されています。
 
 * **アップグレードされた SMS インフラストラクチャ - SMS v2.0**
 

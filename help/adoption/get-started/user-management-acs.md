@@ -96,12 +96,12 @@ Adobe Campaign Standardでは、Campaign v8では、**User role**&#x200B;とい�
 
 >[!IMPORTANT]
 >
->直接または間接の親として&#x200B;**All （all）**を持たないAdobe Campaign Standardの組織単位は、Campaign v8に移行されません。
+>直接または間接の親として&#x200B;**All （all）**&#x200B;を持たないAdobe Campaign Standardの組織単位は、Campaign v8に移行されません。
 ></br>
 >複数のセキュリティグループのユーザーには、最もランクの高いセキュリティグループの組織単位が割り当てられます。 複数のグループに並行する最上位ユニットがある場合、Campaign Standardでユーザーの組織単位が選択され、ユーザーは選択された組織単位とその子にのみアクセスできます。 移行後のCampaign v8では、ユーザーは&#x200B;**割り当てられたすべての組織単位とその子**&#x200B;にアクセスでき、権限がエスカレーションされる可能性があります。 これを防ぐには、並列の組織単位を持つセキュリティ グループにユーザーを割り当てないようにします。 [組織ユニットの並列割り当て](#parallel-assignments)について詳しく説明します。
 
 
-Adobe Campaign Standardでは、同様のアクセス制御を維持するために、**組織ユニット**&#x200B;がCampaign v8の既存の&#x200B;**フォルダー**&#x200B;階層モデルにマッピングされます。 [ フォルダー管理の詳細](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Adobe Campaign Standardでは、同様のアクセス制御を維持するために、**組織ユニット**&#x200B;がCampaign v8の既存の&#x200B;**フォルダー**&#x200B;階層モデルにマッピングされます。 [&#x200B; フォルダー管理の詳細](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign v8** |
 |---------|----------|---------|
@@ -166,7 +166,7 @@ Adobe Campaign Standardでは、同様のアクセス制御を維持するため
 
 Campaign v8では、**プログラム**&#x200B;は&#x200B;**フォルダー**&#x200B;として表されます。 Campaign v8では、フォルダーの作成が有効になり、フォルダーへのアクセスを制限できます。
 
-**グループ**&#x200B;と&#x200B;**名前付き権限**&#x200B;を使用すると、**オペレーター**&#x200B;にナビゲーション階層内の特定の&#x200B;**フォルダー**&#x200B;へのアクセス権を付与し、読み取り、書き込み、削除の権限を割り当てることができます。 [ フォルダー管理の詳細](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+**グループ**&#x200B;と&#x200B;**名前付き権限**&#x200B;を使用すると、**オペレーター**&#x200B;にナビゲーション階層内の特定の&#x200B;**フォルダー**&#x200B;へのアクセス権を付与し、読み取り、書き込み、削除の権限を割り当てることができます。 [&#x200B; フォルダー管理の詳細](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 **プログラム**&#x200B;はCampaign v8では&#x200B;**フォルダー**&#x200B;として扱われるので、そのアクセスは他のフォルダーと同じように管理できます。 移行後、Campaign Standard管理者は次の手順を実行できます。
 
