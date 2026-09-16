@@ -43,8 +43,8 @@
 <target xml:lang="en-XX">特定のアクション（作成、変更、削除）へのアクセス</target>
 </trans-unit>
 <trans-unit id="tu9" xml:space="preserve">
-<source xml:lang="en-US">A detailed procedure for setting up permissions in Adobe Campaign is available in <ph id="1" ctype="x-LINK">[</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe Campaign で権限を設定する手順について詳しくは、<ph id="1" ctype="x-LINK">[</ph>Adobe Campaign v8（コンソール）ドキュメント<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>を参照してください。</target>
+<source xml:lang="en-US">A detailed procedure for setting up permissions in Adobe Campaign is available in <ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe Campaign で権限を設定する手順について詳しくは、<ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign v8（コンソール）ドキュメント<ph id="2" ctype="x-LINK">[#$tu10]{target="_blank"}</ph>を参照してください。</target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
 <source xml:lang="en-US">Permissions on folders</source>
@@ -79,8 +79,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>フォルダーセキュリティ設定での拒否された権限の例<ph id="2" ctype="x-IMAGE">](assets/folder_security_denied.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
 <source xml:lang="en-US">You should not be able to create an object for which you do not have at least one folder with writing rights.</source>
@@ -103,8 +103,8 @@
 <target xml:lang="en-XX">これらの権限がフォルダーに対して実行可能なアクションに与える影響について詳しくは、この<ph id="1" ctype="x-LINK">[</ph>節<ph id="2" ctype="x-LINK">](work-with-folders.md#folder-access-rights)</ph>を参照してください。</target>
 </trans-unit>
 <trans-unit id="tu25" xml:space="preserve">
-<source xml:lang="en-US">Named rights also determine which folder actions are available to an operator. Refer to the <ph id="1" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">ネームド権限も、オペレーターが使用できるフォルダーアクションを決定します。<ph id="1" ctype="x-LINK">[</ph>Campaign v8 ドキュメント<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>を参照してください。</target>
+<source xml:lang="en-US">Named rights also determine which folder actions are available to an operator. Refer to the <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">ネームド権限も、オペレーターが使用できるフォルダーアクションを決定します。<ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 ドキュメント<ph id="2" ctype="x-LINK">[#$tu26]{target="_blank"}</ph>を参照してください。</target>
 </trans-unit>
 <trans-unit id="tu27" xml:space="preserve">
 <source xml:lang="en-US">All permissions in the Campaign Web user interface synchronize with Campaign Client Console permissions.</source>

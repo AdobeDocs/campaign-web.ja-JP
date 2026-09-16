@@ -75,8 +75,8 @@
 <target xml:lang="en-XX">配信に言語バリアントを追加します。 <ph id="1" ctype="x-LINK">[</ph>詳細情報<ph id="2" ctype="x-LINK">](../msg/multilingual.md)</ph></target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
 <source xml:lang="en-US">All the editable text fields of this screen can be filled in using personalization fields. <ph id="1" ctype="x-LINK">[</ph>Learn how to personalize content<ph id="2" ctype="x-LINK">](../personalization/personalize.md)</ph></source>
@@ -107,8 +107,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>メールコンテンツ編集ダッシュボードを示すスクリーンショット。<ph id="2" ctype="x-IMAGE">](assets/email-edit-content-dashboard.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu27" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu28" xml:space="preserve">
 <source xml:lang="en-US">If you are configuring a new email, the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>From name<ph id="3" ctype="x-LINK_REF">]**</ph> and <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>From email<ph id="7" ctype="x-LINK_REF">]**</ph> fields are already populated.</source>
@@ -119,8 +119,8 @@
 <target xml:lang="en-XX">「<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>送信者名<ph id="3" ctype="x-LINK_REF">]**</ph>」フィールドは、メールテンプレートで定義されます。 変更する場合は、ブランド名など、受信者が容易に識別できる名前を使用して、配信の開封率を高めます。</target>
 </trans-unit>
 <trans-unit id="tu30" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu31" xml:space="preserve">
 <source xml:lang="en-US">To further improve the recipient's experience, you can add a person's name, for example, "Eve from Luma".</source>
@@ -131,16 +131,16 @@
 <target xml:lang="en-XX">また、「<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>送信元メール<ph id="3" ctype="x-LINK_REF">]**</ph>」アドレスフィールドもメールテンプレートで定義されます。 アドレスドメインがアドビにデリゲートしたサブドメインと一致していることを確認します。</target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu34" xml:space="preserve">
 <source xml:lang="en-US">You can change the part preceding the '@', but not the domain address.</source>
 <target xml:lang="en-XX">「@」より前の部分は変更できますが、ドメインアドレスは変更できません。</target>
 </trans-unit>
 <trans-unit id="tu35" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu36" xml:space="preserve">
 <source xml:lang="en-US">Administrators can restrict this field to a predefined list of sender addresses. In this case, you select an address from a dropdown list instead of typing it. <ph id="1" ctype="x-LINK">[</ph>Learn more<ph id="2" ctype="x-LINK">](../administration/options.md#restrict-sender-address)</ph></source>
@@ -163,8 +163,8 @@
 <target xml:lang="en-XX">メールにファイルを添付する場合は、「<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>添付ファイルを追加<ph id="3" ctype="x-LINK_REF">]**</ph>」ボタンをクリックして、1 つまたは複数のファイルを選択します。</target>
 </trans-unit>
 <trans-unit id="tu41" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu42" xml:space="preserve">
 <source xml:lang="en-US">To avoid performance issues, it is recommended not to include more than one attachment per email.</source>
@@ -187,8 +187,8 @@
 <target xml:lang="en-XX">「<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>メール本文を編集<ph id="3" ctype="x-LINK_REF">]**</ph>」ボタンをクリックし、<ph id="5" ctype="x-LINK">[</ph>E メールデザイナー<ph id="6" ctype="x-LINK">](get-started-email-designer.md#start-authoring)</ph> を使用して、メールのコンテンツを構成およびデザインします。</target>
 </trans-unit>
 <trans-unit id="tu47" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu48" xml:space="preserve">
 <source xml:lang="en-US">You can also hover over the email preview and select <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Open email designer<ph id="3" ctype="x-LINK_REF">]**</ph>.</source>

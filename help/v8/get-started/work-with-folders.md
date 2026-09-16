@@ -75,8 +75,8 @@
 <target xml:lang="en-XX">自動的に作成されたオブジェクトフォルダーとテクニカルワークフローフォルダーは制限され、左側のサイドパネルには表示できません。</target>
 </trans-unit>
 <trans-unit id="tu17" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu18" xml:space="preserve">
 <source xml:lang="en-US">The folders <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Objects created automatically<ph id="3" ctype="x-LINK_REF">]**</ph> and <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Technical workflows<ph id="7" ctype="x-LINK_REF">]**</ph> are restricted, and cannot be viewed on the left side panel.</source>
@@ -91,8 +91,8 @@
 <target xml:lang="en-XX">フォルダーに対する権限が不足している場合は、管理者にお問い合わせください。フォルダー権限の管理方法について詳しくは、この<ph id="1" ctype="x-LINK">[</ph>節<ph id="2" ctype="x-LINK">](permissions.md#folder-permissions)</ph>を参照してください。</target>
 </trans-unit>
 <trans-unit id="tu21" xml:space="preserve">
-<source xml:lang="en-US">Named rights such as <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Insert Folders<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Edit Folders<ph id="7" ctype="x-LINK_REF">]**</ph>, and <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Delete Folder<ph id="11" ctype="x-LINK_REF">]**</ph> also determine which folder actions are available to an operator. Refer to the <ph id="13" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>フォルダーを挿入<ph id="3" ctype="x-LINK_REF">]**</ph>、<ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>フォルダーを編集<ph id="7" ctype="x-LINK_REF">]**</ph>、<ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>フォルダーを削除<ph id="11" ctype="x-LINK_REF">]**</ph>などのネームド権限も、オペレーターが使用できるフォルダーアクションを決定します。<ph id="13" ctype="x-LINK">[</ph>Campaign v8 ドキュメント<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>を参照してください。</target>
+<source xml:lang="en-US">Named rights such as <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Insert Folders<ph id="3" ctype="x-LINK_REF">]**</ph>, <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Edit Folders<ph id="7" ctype="x-LINK_REF">]**</ph>, and <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Delete Folder<ph id="11" ctype="x-LINK_REF">]**</ph> also determine which folder actions are available to an operator. Refer to the <ph id="13" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>フォルダーを挿入<ph id="3" ctype="x-LINK_REF">]**</ph>、<ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>フォルダーを編集<ph id="7" ctype="x-LINK_REF">]**</ph>、<ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>フォルダーを削除<ph id="11" ctype="x-LINK_REF">]**</ph>などのネームド権限も、オペレーターが使用できるフォルダーアクションを決定します。<ph id="13" ctype="x-LINK">&lbrack;</ph>Campaign v8 ドキュメント<ph id="14" ctype="x-LINK">[#$tu22]{target="_blank"}</ph>を参照してください。</target>
 </trans-unit>
 <trans-unit id="tu23" xml:space="preserve">
 <source xml:lang="en-US">Create a new folder</source>
@@ -135,8 +135,8 @@
 <target xml:lang="en-XX">特定のタイプのないフォルダーを作成する場合は、「<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>汎用フォルダー<ph id="3" ctype="x-LINK_REF">]**</ph>」タイプを選択します。</target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US">You can also <ph id="1" ctype="x-LINK">[</ph>create and manage folders in Adobe Campaign console<ph id="2" ctype="x-LINK">[#$tu34]</ph>.</source>
-<target xml:lang="en-XX">また、<ph id="1" ctype="x-LINK">[</ph>Adobe Campaign コンソールでフォルダーを作成および管理<ph id="2" ctype="x-LINK">[#$tu34]</ph>することもできます。</target>
+<source xml:lang="en-US">You can also <ph id="1" ctype="x-LINK">&lbrack;</ph>create and manage folders in Adobe Campaign console<ph id="2" ctype="x-LINK">[#$tu34]</ph>.</source>
+<target xml:lang="en-XX">また、<ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign コンソールでフォルダーを作成および管理<ph id="2" ctype="x-LINK">[#$tu34]</ph>することもできます。</target>
 </trans-unit>
 <trans-unit id="tu35" xml:space="preserve">
 <source xml:lang="en-US">Reorder folders</source>
@@ -191,8 +191,8 @@
 <target xml:lang="en-XX">フォルダーの削除</target>
 </trans-unit>
 <trans-unit id="tu48" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></target>
 </trans-unit>
 <trans-unit id="tu49" xml:space="preserve">
 <source xml:lang="en-US">When deleting a folder, all data stored in the folder is also deleted.</source>
@@ -243,8 +243,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>チャネル列の値の割合配分<ph id="2" ctype="x-IMAGE">](assets/values_percentage.png){zoomable="yes"}</ph></target>
 </trans-unit>
 <trans-unit id="tu61" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu62" xml:space="preserve">
 <source xml:lang="en-US">For columns with many values, only the first twenty values are displayed. A notification <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Partial load<ph id="3" ctype="x-LINK_REF">]**</ph> warns you.</source>

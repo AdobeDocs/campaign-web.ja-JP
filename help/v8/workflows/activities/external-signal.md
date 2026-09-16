@@ -51,12 +51,12 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>外部シグナル<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>アクティビティは<ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>フロー制御<ph id="4" ctype="x-STRONG_EMPHASIS">**</ph>アクティビティであり、 別のワークフローまたは API 呼び出しからワークフローの実行をトリガーできます。</target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
-<source xml:lang="en-US">This page explains the main steps to configure an <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>External Signal<ph id="3" ctype="x-LINK_REF">]**</ph> activity in Campaign Web User Interface and trigger it from another workflow or an API call. Detailed information on how to trigger a workflow, best practices, and how to work with Campaign APIs is available in the <ph id="5" ctype="x-LINK">[</ph>Campaign v8 (client console) documentation<ph id="6" ctype="x-LINK">[#$tu13]</ph>.</source>
-<target xml:lang="en-XX">このページでは、Campaign web ユーザーインターフェイスで<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>外部シグナル<ph id="3" ctype="x-LINK_REF">]**</ph>を設定し、別のワークフローまたは API 呼び出しからトリガーする主な手順について説明します。 ワークフローをトリガーする方法、ベストプラクティスおよび Campaign API で使用する方法について詳しくは、<ph id="5" ctype="x-LINK">[</ph>Campaign v8（クライアントコンソール）ドキュメント<ph id="6" ctype="x-LINK">[#$tu13]</ph>を参照してください。</target>
+<source xml:lang="en-US">This page explains the main steps to configure an <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>External Signal<ph id="3" ctype="x-LINK_REF">]**</ph> activity in Campaign Web User Interface and trigger it from another workflow or an API call. Detailed information on how to trigger a workflow, best practices, and how to work with Campaign APIs is available in the <ph id="5" ctype="x-LINK">&lbrack;</ph>Campaign v8 (client console) documentation<ph id="6" ctype="x-LINK">[#$tu13]</ph>.</source>
+<target xml:lang="en-XX">このページでは、Campaign web ユーザーインターフェイスで<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>外部シグナル<ph id="3" ctype="x-LINK_REF">]**</ph>を設定し、別のワークフローまたは API 呼び出しからトリガーする主な手順について説明します。 ワークフローをトリガーする方法、ベストプラクティスおよび Campaign API で使用する方法について詳しくは、<ph id="5" ctype="x-LINK">&lbrack;</ph>Campaign v8（クライアントコンソール）ドキュメント<ph id="6" ctype="x-LINK">[#$tu13]</ph>を参照してください。</target>
 </trans-unit>
 <trans-unit id="tu14" xml:space="preserve">
 <source xml:lang="en-US">Follow these steps to configure the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>External signal<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> activity and trigger its execution:</source>
@@ -131,8 +131,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>スクリーンショットは、PostEvent 関数を使用して外部シグナルアクティビティをトリガーする例を示します。<ph id="2" ctype="x-IMAGE">](../assets/external-signal-sample.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu32" xml:space="preserve">
-<source xml:lang="en-US">To trigger an <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>External signal<ph id="3" ctype="x-LINK_REF">]**</ph> activity from an API call, follow the steps detailed in the Campaign API documentation. <ph id="5" ctype="x-LINK">[</ph>Learn how to use the static <ph id="6" ctype="x-CODE">`PostEvent`</ph> method<ph id="7" ctype="x-LINK">[#$tu33]</ph>.</source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>外部シグナル<ph id="3" ctype="x-LINK_REF">]**</ph>アクティビティを API 呼び出しからトリガーにするには、Campaign API ドキュメントで説明されている手順に従ってください。 <ph id="5" ctype="x-LINK">[</ph>詳しくは、静的な <ph id="6" ctype="x-CODE">`PostEvent`</ph> メソッドの使用方法を参照してください<ph id="7" ctype="x-LINK">[#$tu33]</ph>。</target>
+<source xml:lang="en-US">To trigger an <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>External signal<ph id="3" ctype="x-LINK_REF">]**</ph> activity from an API call, follow the steps detailed in the Campaign API documentation. <ph id="5" ctype="x-LINK">&lbrack;</ph>Learn how to use the static <ph id="6" ctype="x-CODE">`PostEvent`</ph> method<ph id="7" ctype="x-LINK">[#$tu33]</ph>.</source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>外部シグナル<ph id="3" ctype="x-LINK_REF">]**</ph>アクティビティを API 呼び出しからトリガーにするには、Campaign API ドキュメントで説明されている手順に従ってください。 <ph id="5" ctype="x-LINK">&lbrack;</ph>詳しくは、静的な <ph id="6" ctype="x-CODE">`PostEvent`</ph> メソッドの使用方法を参照してください<ph id="7" ctype="x-LINK">[#$tu33]</ph>。</target>
 </trans-unit>
 </body>
 </file>

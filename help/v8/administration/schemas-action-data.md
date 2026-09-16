@@ -27,8 +27,8 @@
 <target xml:lang="en-XX">「<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>アクションデータ<ph id="3" ctype="x-LINK_REF">]**</ph>」セクションでは、個々のフォルダーで設定された<ph id="5" ctype="x-LINK">[</ph>セキュリティルール<ph id="6" ctype="x-LINK">](../get-started/work-with-folders.md)</ph>に関係なく、カスタムスキーマのレコードで使用できるアクションを制限できます。 この制限は、管理者を含むすべてのユーザーに対して、すべてのフォルダーのスキーマレベルで適用されます。</target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu8" xml:space="preserve">
 <source xml:lang="en-US">This section is only available for custom schemas.</source>
@@ -75,8 +75,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>複製を許可しない<ph id="3" ctype="x-LINK_REF">]**</ph>：複製アクションは、すべてのフォルダーの詳細画面とリストから削除されます。作成、削除、更新など、その他のアクションは引き続き使用できます。</target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
 <source xml:lang="en-US">Enabling <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Read-only<ph id="3" ctype="x-LINK_REF">]**</ph> automatically covers deletion and duplication as well, so the <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Do not allow deletion<ph id="7" ctype="x-LINK_REF">]**</ph> and <ph id="9" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Do not allow duplicate<ph id="11" ctype="x-LINK_REF">]**</ph> options are disabled while <ph id="13" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Read-only<ph id="15" ctype="x-LINK_REF">]**</ph> is selected.</source>
