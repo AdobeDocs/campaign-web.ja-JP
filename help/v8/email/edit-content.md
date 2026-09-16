@@ -47,7 +47,7 @@
 <target xml:lang="en-XX">デフォルトでは、配信のトラッキングが有効になっています。つまり、メッセージコンテンツに含まれるすべてのリンクが追跡されます。 ここからこのオプションを無効にできます。</target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/email-design/design-content/message-tracking</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/email-design/design-content/message-tracking</target>
 </trans-unit>
 <trans-unit id="tu13" xml:space="preserve">

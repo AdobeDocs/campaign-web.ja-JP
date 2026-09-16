@@ -171,7 +171,7 @@
 <target xml:lang="en-XX">生成 AI コンテンツの透明性</target>
 </trans-unit>
 <trans-unit id="tu43" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency</target>
 </trans-unit>
 </body>
