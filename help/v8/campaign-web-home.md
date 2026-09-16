@@ -148,6 +148,6 @@ Campaign web ユーザーインターフェイスに関するよくある質問�
 
 ## その他のリソース
 
-* [Adobe Campaign の製品説明](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Adobe Campaign v8 のドキュメント](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=ja){target="_blank"}
 * [メールトラッキングピクセルと CNIL ガイダンス](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
