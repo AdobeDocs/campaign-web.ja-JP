@@ -6,15 +6,15 @@ exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
 TQID: https://experienceleague.adobe.com/k-EClMV8DYeD3QZU3zb6fZU4eSy4qyDuw0XtGNMXHLo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 532
+workflow-type: tm+mt
+source-wordcount: '532'
 ht-degree: 100%
-
 ---
-
 # SMS チャネルのキャンペーンレポート {#campaign-reports-sms-channel}
 
 各キャンペーンレポートは、キャンペーンの成功とエラーの詳細を表示する様々なウィジェットに分かれています。 SMS チャネルのレポートと指標について、以下で詳しく説明します。 キャンペーンレポートにアクセスする方法について詳しくは、[このページ](campaign-reports.md)を参照してください。

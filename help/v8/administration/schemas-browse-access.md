@@ -3,12 +3,10 @@ title: スキーマの参照とアクセス
 description: インターフェイスでスキーマを参照してアクセスする方法について説明します。
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
 source-git-commit: b3d611e9a9a723a5b76fdcd1053d93db4417dbaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
-
 ---
-
 # アクセスと設定のスキーマ {#access}
 
 スキーマは、**[!UICONTROL 管理]**／**[!UICONTROL スキーマ]**&#x200B;メニューからアクセスできます。

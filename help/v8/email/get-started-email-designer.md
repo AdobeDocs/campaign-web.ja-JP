@@ -6,20 +6,20 @@ exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
 TQID: https://experienceleague.adobe.com/E13LxJL9krN2GR4LP2HdvRgxpEohILuNDwUz8YkeNVQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 415
+workflow-type: tm+mt
+source-wordcount: '415'
 ht-degree: 100%
-
 ---
-
 # E メールデザイナーの基本を学ぶ {#get-started-email-designer}
 
 Adobe Campaign でメールを作成したら、そのコンテンツを定義する必要があります。
 
-E メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個別にカスタマイズされた魅力的なメールを作成できます。 空白の状態から開始する場合でも、既存のコンテンツをインポートする場合でも、既存のテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆるメールコンテンツのデザインと強化に対応します。
+E メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個人ごとにカスタマイズされた魅力的なメールを作成できます。 空白の状態から開始する場合でも、既存のコンテンツをインポートする場合でも、既存のテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆるメールコンテンツのデザインと強化に対応します。
 
 <!--
 Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.

@@ -4,12 +4,10 @@ title: コンテンツ実験のユースケース
 description: Adobe Campaign web の A/B テストを使用したコンテンツ実験の実用的なユースケースについて説明します
 exl-id: 7c7d7e0e-8c8e-4e5e-9f9e-0e5e5e5e5e5e
 source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 100%
-
 ---
-
 # コンテンツ実験のユースケース {#content-experiment-use-cases}
 
 <!--

@@ -5,15 +5,15 @@ description: データ読み込み（RDBMS）ワークフローアクティビ�
 exl-id: 18c969f7-c94e-4fff-a132-a2114860841f
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 56a7ef49e4ccebcc0fe35abcefcf73d1ff9c1017
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 100%
-
 ---
-
 # データ読み込み（RDBMS） {#data-loading-rdbms}
 
 >[!CONTEXTUALHELP]
@@ -24,7 +24,7 @@ ht-degree: 100%
 **データ読み込み（RDBMS）**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティの 1 つです。 このアクティビティを使用して、外部のリレーショナルデータベースからワークフローにデータを直接読み込みます。 抽出されたデータはワークフロー全体で使用でき、ターゲティング、エンリッチメントまたはさらなるデータ処理に使用できます。
 
 <!--
-This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
+This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
 -->
 
 >[!NOTE]

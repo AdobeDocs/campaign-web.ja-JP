@@ -7,18 +7,17 @@ exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
 TQID: https://experienceleague.adobe.com/0ToLS9KSS60CgXGExzD633W-tSMQy3aOAX2byjsw-ck
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 623
+workflow-type: tm+mt
+source-wordcount: '623'
 ht-degree: 100%
-
 ---
-
 # メールへのビジュアルフラグメントの追加 {#use-visual-fragments}
 
 >[!AVAILABILITY]
 >
->この機能を使用するには、Campaign v8.6.4 へのアップデートが必要です。詳しくは、[Campaign v8 クライアントコンソールリリースノート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
+>この機能を使用するには、Campaign v8.6.4 へのアップデートが必要です。 詳しくは、[Campaign v8 クライアントコンソールリリースノート](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/releases/release-notes)を参照してください。
 
 Campaign web インターフェイスでは、**ビジュアルフラグメント**&#x200B;は、複数の[メール配信](../email/get-started-email-designer.md)や[コンテンツテンプレート](../content/use-email-templates.md)で再利用できる、定義済みのビジュアルブロックです。 コンテンツフラグメントの作成と管理の方法について詳しくは、[この節](fragments.md)を参照してください。
 

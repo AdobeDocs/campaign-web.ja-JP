@@ -5,19 +5,21 @@ exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
 TQID: https://experienceleague.adobe.com/z1xVr4EklA-E-ftQfChptYCaC0zYrdY0Ykr-cDI8sM8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 781
+workflow-type: tm+mt
+source-wordcount: '781'
 ht-degree: 100%
-
 ---
-
 # ターゲットマッピングの管理 {#target-mappings}
 
 >[!CONTEXTUALHELP]
@@ -105,16 +107,16 @@ Adobe Campaign に用意されているビルトインのターゲットマッ�
 
   ![ログのテーブルオプションを示す「ストレージ」セクション](assets/target-mappings-storage.png)
 
-   * **[!UICONTROL メッセージスキーマ]**：送信ログの保存に使用するスキーマを識別します。
-   * **[!UICONTROL 除外されたメッセージ]**：配信ログと除外ログのストレージを管理する方法を指定します。
+  * **[!UICONTROL メッセージスキーマ]**：送信ログの保存に使用するスキーマを識別します。
+  * **[!UICONTROL 除外されたメッセージ]**：配信ログと除外ログのストレージを管理する方法を指定します。
 
-      * **[!UICONTROL 除外とメッセージを同じテーブルに保存]**
-      * **[!UICONTROL メッセージのみを保存]**：除外を保存しません。
-      * **[!UICONTROL 除外とメッセージを個別のテーブルに保存]**：「**[!UICONTROL 却下スキーマ]**」フィールドで、除外ログの保存に使用するスキーマを選択します。
+    * **[!UICONTROL 除外とメッセージを同じテーブルに保存]**
+    * **[!UICONTROL メッセージのみを保存]**：除外を保存しません。
+    * **[!UICONTROL 除外とメッセージを個別のテーブルに保存]**：「**[!UICONTROL 却下スキーマ]**」フィールドで、除外ログの保存に使用するスキーマを選択します。
 
-   * **[!UICONTROL トラッキングログ]**：トラッキングログを保存する場所とデフォルトのトラフィックソースを選択します。
-   * **[!UICONTROL 追加のフィールド]**：配信ログに保存する追加のフィールドのリストを指定します。 これらのフィールドには、ターゲットの個々のメンバーに関する情報（例：`recipient/@firstName`）を永続的に保存したり、ワークフロー中に計算された追加データを保存したりできます（例：`[targetData/@offeCode]`）。
+  * **[!UICONTROL トラッキングログ]**：トラッキングログを保存する場所とデフォルトのトラフィックソースを選択します。
+  * **[!UICONTROL 追加のフィールド]**：配信ログに保存する追加のフィールドのリストを指定します。 これらのフィールドには、ターゲットの個人メンバーに関する情報（例：`recipient/@firstName`）を永続的に保存したり、ワークフロー中に計算された追加データを保存したりできます（例：`[targetData/@offeCode]`）。
 
-     これを行うには、「**[!UICONTROL フィールドを追加]**」を選択します。 「**[!UICONTROL ソース]**」フィールドに保存する情報と、「**[!UICONTROL 宛先]**」フィールドにこの情報を保存するに送信ログで使用する属性を識別します。
+    これを行うには、「**[!UICONTROL フィールドを追加]**」を選択します。 「**[!UICONTROL ソース]**」フィールドに保存する情報と、「**[!UICONTROL 宛先]**」フィールドにこの情報を保存するに送信ログで使用する属性を識別します。
 
-     ![追加のデータを保存するオプションを示す「追加のフィールド」セクション](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+    ![追加のデータを保存するオプションを示す「追加のフィールド」セクション](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

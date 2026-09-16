@@ -6,15 +6,15 @@ exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 TQID: https://experienceleague.adobe.com/iT-8fzpVcEzhMpuUynQB3uvnA8FcJoJfnzb9-hsN5Vo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: e4673544f8e4a06b4fdc517929a03efae35a3715
-workflow-type: ht
-source-wordcount: 1517
+workflow-type: tm+mt
+source-wordcount: '1517'
 ht-degree: 100%
-
 ---
-
 # コンテンツコンポーネントの使用 {#content-components}
 
 >[!CONTEXTUALHELP]
@@ -116,7 +116,7 @@ ht-degree: 100%
    * **[!UICONTROL リストを作成]**：テキストに箇条書きリストまたは番号リストを追加します。
    * **[!UICONTROL 見出しを設定]**：テキストに最大 6 つの見出しレベルを追加します。
    * **フォントサイズ**：テキストのフォントサイズをピクセル単位で選択します。
-   * **[!UICONTROL 画像を編集]**：Adobe Experience Manager Assets ライブラリやコンピュータからテキストコンポーネントに画像を追加するか、Adobe Campaign インスタンスで使用可能な画像を再利用します。[詳細情報](#image)
+   * **[!UICONTROL 画像を編集]**：Adobe Experience Manager Assets ライブラリやコンピュータからテキストコンポーネントに画像を追加するか、Adobe Campaign インスタンスで使用可能な画像を再利用します。 [詳細情報](#image)
    * **[!UICONTROL ソースコードを表示]**：テキストのソースコードを表示します。 これは変更できません。
    * **[!UICONTROL 複製]**：テキストコンポーネントの複製を追加します。
    * **[!UICONTROL 削除]**：選択したテキストコンポーネントをメールから削除します。
@@ -171,7 +171,7 @@ ht-degree: 100%
    >
    >このオプションには、アクティブな Adobe Experience Manager as a Cloud Service ライセンスが必要です。
 
-   フォルダー内を移動して必要な特定のアセットを見つけるか、検索バーを使用して効率的に見つけます。アセットが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
+   フォルダー内を移動して必要な特定のアセットを見つけるか、検索バーを使用して効率的に見つけます。 アセットが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
    ![E メールデザイナーのアセット選択プロセスを示すスクリーンショット。](assets/email_designer_29.png){zoomable="yes"}
 
@@ -181,7 +181,7 @@ ht-degree: 100%
 
    +++**[!UICONTROL インポート]**
 
-   コンピュータから新しい画像をアップロードするには、このオプションを選択します。ファイルは、Adobe Campaign インスタンスでパブリックリソースとしてアップロードされます。
+   コンピュータから新しい画像をアップロードするには、このオプションを選択します。 ファイルは、Adobe Campaign インスタンスでパブリックリソースとしてアップロードされます。
 
    +++
 
@@ -191,7 +191,7 @@ ht-degree: 100%
 
    ![E メールデザイナーのパブリックリソース選択プロセスを示すスクリーンショット。](assets/email_designer_30.png){zoomable="yes"}
 
-   リソースを名前で検索します。フィルターを使用して列を再編成することもできます。
+   リソースを名前で検索します。 フィルターを使用して列を再編成することもできます。
 
    >[!NOTE]
    >

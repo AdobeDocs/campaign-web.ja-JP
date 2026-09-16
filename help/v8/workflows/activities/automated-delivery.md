@@ -4,12 +4,10 @@ title: 自動配信ワークフローアクティビティ
 description: 自動配信ワークフローアクティビティの使用方法について説明します
 exl-id: a9c485f1-0369-414d-9e43-bedb0390a2f5
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 100%
-
 ---
-
 # 自動配信 {#automated-delivery}
 
 >[!CONTEXTUALHELP]
@@ -23,7 +21,7 @@ ht-degree: 100%
 >title="自動配信アクティビティ"
 >abstract="**自動配信**&#x200B;アクティビティは自動処理に使用されます。ワークフロー内で配信を作成または再利用し、実行するアクション（準備、準備と開始、配達確認の送信など）を選択します。 ワークフローの外部で作成された既存の明示的な配信を選択するか、アクティビティが実行されるたびにテンプレートから新しい配信を作成できます。"
 
-**自動配信**&#x200B;アクティビティを使用すると、ワークフロー内で直接、配信アクションを作成、設定、実行できます。定義済みの配信をスケジュール上または自動フローの一部として実行する場合や、アクティビティが実行されるたびにテンプレートから新しい配信を生成する場合に使用します。
+**自動配信**&#x200B;アクティビティを使用すると、ワークフロー内で直接、配信アクションを作成、設定、実行できます。 定義済みの配信をスケジュール上または自動フローの一部として実行する場合や、アクティビティが実行されるたびにテンプレートから新しい配信を生成する場合に使用します。
 
 <!--
 **[Continuous delivery](continuous-delivery.md)** always uses a template. The first run creates one delivery; later runs send to new recipients through that same delivery. **Automated delivery** is different: you either reuse one existing delivery every run, or you create a new delivery from a template each time—so each run can be its own delivery if you want. 
@@ -38,25 +36,25 @@ ht-degree: 100%
 
 ## 配信設定の定義 {#delivery-settings}
 
-アクティビティを設定する際は、配信の送信元を選択します。この節では、次の 2 つのオプションを使用できます。
+アクティビティを設定する際は、配信の送信元を選択します。 この節では、次の 2 つのオプションを使用できます。
 
 ![自動配信を示すスクリーンショット](../assets/automated-delivery.png){zoomable="yes"}
 
-* 既存の配信（例：スタンドアロン配信やキャンペーンから作成された配信）に対して操作を実行する際は、「**明示的な配信**」を選択します。「**配信を選択**」ボタンを使用して配信を選択します。ワークフローが実行され、このアクティビティに到達するたびに、**同じ**&#x200B;配信に対して操作が実行されます。 実行ごとに新しい配信は作成されません。アクティビティは、同じ配信を再利用します。これは、スケジュール上や承認手順の後など、単一の配信を繰り返し準備または送信する際に役立ちます。
+* 既存の配信（例：スタンドアロン配信やキャンペーンから作成された配信）に対して操作を実行する際は、「**明示的な配信**」を選択します。 「**配信を選択**」ボタンを使用して配信を選択します。 ワークフローが実行され、このアクティビティに到達するたびに、**同じ**&#x200B;配信に対して操作が実行されます。 実行ごとに新しい配信は作成されません。 アクティビティは、同じ配信を再利用します。 これは、スケジュール上や承認手順の後など、単一の配信を繰り返し準備または送信する際に役立ちます。
 
 <!-- by default, the list shows unfinished deliveries in the Deliveries folder. You can browse other folders to select a delivery from another campaign. You choose the action to perform (prepare, prepare and start, send a proof, and so on).-->
 
-* アクティビティが実行されるたびに&#x200B;**新しい**&#x200B;配信を作成する際は、「**新規（テンプレートから作成）**」を選択します。「**テンプレートを選択**」ボタンを使用して、配信テンプレートを選択します。各実行では、そのテンプレートに基づいて新しい配信が生成されます。各ワークフロー実行で個別の配信が必要な場合（例えば、実行ごとに 1 通のメール）に使用します。
+* アクティビティが実行されるたびに&#x200B;**新しい**&#x200B;配信を作成する際は、「**新規（テンプレートから作成）**」を選択します。 「**テンプレートを選択**」ボタンを使用して、配信テンプレートを選択します。 各実行では、そのテンプレートに基づいて新しい配信が生成されます。 各ワークフロー実行で個別の配信が必要な場合（例えば、実行ごとに 1 通のメール）に使用します。
 
 <!-- Unlike the Continuous delivery activity, there is no “append” to a previous execution—each run produces a separate delivery. -->
 
 >[!NOTE]
 >
->高度なユースケースに使用される「**トランジションで指定**」および「**スクリプトで計算**」オプションは、クライアントコンソールでのみ設定できます。[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}を参照してください。
+>高度なユースケースに使用される「**トランジションで指定**」および「**スクリプトで計算**」オプションは、クライアントコンソールでのみ設定できます。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}を参照してください。
 
 ## 実行するアクションの選択 {#action-to-execute}
 
-この節では、アクティビティで配信に対して行う処理を選択します。次のオプションを使用できます。
+この節では、アクティビティで配信に対して行う処理を選択します。 次のオプションを使用できます。
 
 ![自動配信で実行するアクションを示すスクリーンショット](../assets/automated-delivery2.png){zoomable="yes"}
 
@@ -68,7 +66,7 @@ ht-degree: 100%
 
 ## トランジションの設定 {#transition-to-execute}
 
-この節では、アクティビティの後にトランジションを生成するかどうかを選択できます。次のオプションを使用できます。
+この節では、アクティビティの後にトランジションを生成するかどうかを選択できます。 次のオプションを使用できます。
 
 ![自動配信のトランジションを示すスクリーンショット](../assets/automated-delivery3.png){zoomable="yes"}
 
@@ -78,7 +76,7 @@ ht-degree: 100%
 
 ## 変更スクリプトの定義 {#script}
 
-スクリプトを使用すると、アクティビティの動作（例：アクティビティラベルなどの配信パラメーター）を変更できます。このアクティビティに対してカスタムロジックが必要な場合に使用します。
+スクリプトを使用すると、アクティビティの動作（例：アクティビティラベルなどの配信パラメーター）を変更できます。 このアクティビティに対してカスタムロジックが必要な場合に使用します。
 
 「**スクリプトを作成**」をクリックし、エディターで変更ロジックを書き込みます。
 

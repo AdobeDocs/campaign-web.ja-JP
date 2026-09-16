@@ -7,24 +7,31 @@ exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
 TQID: https://experienceleague.adobe.com/J3c5k0g22amplf8KqJGCByig3OKIqSZ-Hk87ea8C7mM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
+    internal-label: Audit trail
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 649
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
-
 ---
-
 # 監査記録 {#audit-trail}
 
 Adobe Campaign web ユーザーインターフェイスで、**[!UICONTROL 監査記録]**&#x200B;機能により、インスタンス内の重要なエンティティに対して行われたすべての変更（通常、インスタンスのスムーズな操作に大きな影響を与える変更）を完全に表示できます。
@@ -34,7 +41,7 @@ Adobe Campaign web ユーザーインターフェイスで、**[!UICONTROL 監�
 >* Adobe Campaign web ユーザーインターフェイスでは、ユーザー権限、テンプレート、パーソナライゼーションまたはキャンペーン内で行われた変更を監査しません。
 >* 監査記録を管理できるのは、インスタンスの管理者のみです。
 
-**[!UICONTROL 監査記録]**&#x200B;機能は、Adobe Campaign インスタンス内で発生するアクションとイベントの詳細なログをリアルタイムで常に記録します。 データの時系列の記録にアクセスする便利な方法を提供し、ワークフローのステータス、ワークフローを変更した直近のユーザー、インスタンス内でユーザーが実行したアクティビティなどのクエリに対処します。
+**[!UICONTROL 監査記録]**&#x200B;機能は、Adobe Campaign インスタンス内で発生するアクションとイベントの詳細なログをリアルタイムで常に記録します。 データの時系列の記録にアクセスする便利な方法を提供し、ワークフローのステータス、ワークフローを変更した直近の個人、インスタンス内でユーザーが実行したアクティビティなどのクエリに対処します。
 
 +++ 詳しくは、監査記録が使用可能なエンティティの詳細情報を参照してください
 
@@ -44,14 +51,14 @@ Adobe Campaign web ユーザーインターフェイスで、**[!UICONTROL 監�
 
 * **ワークフロー監査記録**&#x200B;を使用すると、アクティビティとワークフローに対して行った最近の変更とを追跡できます。その例として、次のような現在の状態があります。
 
-   * 開始
-   * 一時停止
-   * 停止
-   * 再開
-   * クリーンアップ（「履歴をパージ」アクションと同じ）
-   * シミュレーション（「シミュレーションモードで開始」アクションと同じ）
-   * ウェイクアップ（「保留中のタスクを今すぐ実行」アクションと同じ）
-   * 無条件停止
+  * 開始
+  * 一時停止
+  * 停止
+  * 再開
+  * クリーンアップ（「履歴をパージ」アクションと同じ）
+  * シミュレーション（「シミュレーションモードで開始」アクションと同じ）
+  * ウェイクアップ（「保留中のタスクを今すぐ実行」アクションと同じ）
+  * 無条件停止
 
   ワークフローについて詳しくは、この[ページ](../workflows/gs-workflows.md)を参照してください。
 

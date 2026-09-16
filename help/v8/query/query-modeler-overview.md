@@ -6,13 +6,12 @@ exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
 TQID: https://experienceleague.adobe.com/lT-df-KAmZo0z77wk9iB882eSxmrW60-a-WYnHd0RzE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 813
+workflow-type: tm+mt
+source-wordcount: '898'
 ht-degree: 100%
-
 ---
-
 # クエリモデラーの操作 {#segment-builder}
 
 >[!CONTEXTUALHELP]
@@ -59,8 +58,8 @@ Adobe Campaign Web ユーザーインターフェイスには、様々な基準�
 
 >[!IMPORTANT]
 >
->クエリモデラー用のまったく新しいインターフェイスを利用できます。新しいルールビルダーでは、シンプルなインターフェイスにより、クエリをこれまでより容易に構築できるようになります。このエクスペリエンスに切り替えるには、右上隅の切替スイッチボタンを押します。従来のクエリモデラーに戻す場合は、切替スイッチをオフにするだけでいつでも戻ることができます。この新しいインターフェイスでは、クエリモデラーと同じ原則を適用できます。
->![新しいルールビルダーインターフェイスの切替スイッチボタンを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
+>クエリモデラーで新しいインターフェイスを使用できます。 新しいルールビルダーでは、簡素化されたインターフェースにより、クエリをより簡単に作成できます。 このエクスペリエンスに切り替えるには、右上隅の切替スイッチボタンを押します。 切替スイッチボタンを押して新しいインターフェイスを無効にするだけで、いつでも従来のクエリモデラーに戻ることができます。 この新しいインターフェイスでは、クエリモデラーと同じ原則を適用できます。
+>![新しいルールビルダーインターフェイスの切替スイッチを示す画像](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]

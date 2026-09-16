@@ -4,12 +4,10 @@ title: Campaign のルールビルダーを使用してオーディエンスを�
 description: ルールビルダーを操作方法を学ぶ
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 100%
-
 ---
-
 # ルールビルダーの操作 {#segment-builder}
 
 ルールビルダーを使用すると、データベースに含まれているデータをフィルタリングして、配信のターゲットとなる母集団を定義できます。 ルールビルダーを使用して、**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用するワークフローからオーディエンスを作成するか、配信の作成時に直接、1 回限りのオーディエンスを作成します。

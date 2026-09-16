@@ -5,16 +5,17 @@ exl-id: 6daa35c2-21cf-4121-ba57-3749e1ed9c2d
 TQID: https://experienceleague.adobe.com/3bDvcavO8Ias-8gWnaSJr6GAo-Otn9l-W5Qx7uCOaWg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 743
+workflow-type: tm+mt
+source-wordcount: '743'
 ht-degree: 100%
-
 ---
-
 # データ転送外部アカウント {#transfer-external-account}
 
 ## Amazon Simple Storage Service（S3） {#amazon-simple-storage-service--s3--external-account}
@@ -95,9 +96,9 @@ SFTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー
 
   SFTP サーバーで認証する方法を選択します。 オプションを次に示します。
 
-   * **[!UICONTROL パスワード]**：アカウントのパスワードを使用して認証します。
+  * **[!UICONTROL パスワード]**：アカウントのパスワードを使用して認証します。
 
-   * **[!UICONTROL 公開鍵]**：SSH キーペア（秘密鍵と公開鍵）を使用して認証します。
+  * **[!UICONTROL 公開鍵]**：SSH キーペア（秘密鍵と公開鍵）を使用して認証します。
 
 **[!UICONTROL 公開鍵]**&#x200B;認証を選択した場合は、次のフィールドに入力する必要があります。
 
@@ -141,8 +142,8 @@ HTTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー
 
   接続の認証タイプを選択します。 オプションを次に示します。
 
-   * パスワード
-   * 公開鍵
+  * パスワード
+  * 公開鍵
 
 **[!UICONTROL 公開鍵]**&#x200B;認証を使用している場合は、**[!UICONTROL 公開鍵認証]**&#x200B;メニューから、次の必要な値を入力します。
 
@@ -180,7 +181,7 @@ FTP 外部アカウントを使用すれば、Adobe Campaign 外でサーバー�
 
   接続の暗号化タイプを選択します。 オプションを次に示します。
 
-   * デフォルト
-   * POP3 + STARTTLS
-   * POP3 非セキュア
-   * POP3 セキュア
+  * デフォルト
+  * POP3 + STARTTLS
+  * POP3 非セキュア
+  * POP3 セキュア

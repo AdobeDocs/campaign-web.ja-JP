@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: 6c5c013c-014f-4d0c-9967-32ac0fbab4af
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
-
 ---
-
 # 配信の概要{#delivery-summary}
 
 **[!UICONTROL 配信の概要]**&#x200B;レポートは、1 つまたは複数のメールに関連する主な情報の詳細を示します。

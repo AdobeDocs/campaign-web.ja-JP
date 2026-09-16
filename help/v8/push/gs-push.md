@@ -6,15 +6,15 @@ exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
 TQID: https://experienceleague.adobe.com/JuLOa50dKmVllMtoxSWk11GClat6IQoPI5j3d-b6NFs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 206
+workflow-type: tm+mt
+source-wordcount: '206'
 ht-degree: 100%
-
 ---
-
 # プッシュ通知の基本を学ぶ {#push}
 
 プッシュ通知は、モバイルアプリのユーザーが積極的にアプリを使用していない場合でも、そのユーザーへ通知するのに不可欠です。 更新の提供、特定のアクションの促進、お得な情報のユーザーへの通知など、様々な目的に対応します。 これらの通知を受信するには、ユーザーはオプトインする必要があります。
@@ -43,7 +43,7 @@ ht-degree: 100%
 <img alt="プッシュ配信の設計" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md"><strong>プッシュ配信をデザイン<strong></strong></a>
+<a href="content-push.md"><strong>プッシュ配信のデザイン<strong></strong></a>
 </div>
 <p></td>
 <td>

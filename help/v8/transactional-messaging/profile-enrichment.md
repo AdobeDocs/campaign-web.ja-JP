@@ -4,12 +4,10 @@ title: トランザクションメッセージにおけるプロファイルの�
 description: Campaign web ユーザーインターフェイスでトランザクションメッセージを作成する方法について説明します。
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
 source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
-
 ---
-
 # プロファイルデータによるトランザクションメッセージのエンリッチメント{#profile-enrichment}
 
 この機能では、Adobe Campaign データベースフィールドをメッセージのコンテンツにリンクすることによって、トランザクションメッセージをパーソナライズできます。 ターゲットマッピング、エンリッチメント列および紐付けキーを選択して、パフォーマンスのしきい値を維持しながら、正確でリアルタイムのパーソナライゼーションを行うことができます。
