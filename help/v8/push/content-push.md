@@ -6,13 +6,12 @@ exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 TQID: https://experienceleague.adobe.com/G8sMnMSpcXFaVpdkKIkp8Yhmu6fxOiSHdl4icd2z4P8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1615
+workflow-type: tm+mt
+source-wordcount: '1653'
 ht-degree: 100%
-
 ---
-
 # プッシュ配信をデザイン {#content-push}
 
 >[!CONTEXTUALHELP]
@@ -52,8 +51,8 @@ Firebase Cloud Messaging では、次の 2 つのタイプのメッセージの�
 
 * **[!UICONTROL データメッセージ]**&#x200B;は、クライアントアプリで処理されます。 これらのメッセージは、モバイルアプリケーションに直接送信され、デバイス上で Android 通知を生成して表示されます。 データメッセージには、カスタムアプリケーション変数のみが含まれます。
 
-  コンテンツを定義し、データをパーソナライズし、動的コンテンツを追加するには、「**[!UICONTROL メッセージ]**」フィールドをクリックし、式エディターを使用します。このエディターにアクセスして、メッセージをカスタマイズします。
-**[!UICONTROL アプリケーション変数]**&#x200B;メニューでは、アプリケーション変数が自動的に追加されます。これらの変数を使用すると、通知の動作を定義できます。例えば、ユーザーが通知をアクティブ化した際に表示される特定のアプリケーション画面を設定できます。
+  コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行うには、「**[!UICONTROL メッセージ]**」フィールドをクリックし、式エディターを使用します。 このエディターにアクセスして、メッセージをカスタマイズします。
+  **[!UICONTROL アプリケーション変数]**&#x200B;メニューに追加される変数は、自動的に追加されます。 これらの変数を使用して、通知の動作を定義できます。 例えば、ユーザーが通知をアクティブ化したときに表示される、特定のアプリケーション画面を設定します。
 
   ![説明：Android 通知でデータメッセージのコンテンツを定義する例](assets/push_content_4.png){zoomable="yes"}
 

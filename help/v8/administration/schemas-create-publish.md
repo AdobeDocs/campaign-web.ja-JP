@@ -5,10 +5,8 @@ exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 91%
-
+ht-degree: 100%
 ---
-
 # スキーマの作成と公開 {#create-publish}
 
 ## スキーマの作成と管理 {#create-schemas}
@@ -39,9 +37,9 @@ ht-degree: 91%
 
    ![スキーマ作成ダイアログ](assets/schemas-create3.png)
 
-1. **[!UICONTROL Check]** ボタンをクリックして、保存する前にスキーマのXML構造を確認します。 特定されたエラーは、画面の下部に表示されます（例：「無効なXML形式」）。
+1. 保存前に「**[!UICONTROL 確認]**」ボタンをクリックして、スキーマの XML 構造を検証します。 特定されたエラーは、画面の下部に表示されます（例：「無効な XML 形式」）。
 
-   ![&#x200B; スキーマ作成ダイアログエラー](assets/schemas-create3bis.png)
+   ![スキーマ作成ダイアログのエラー](assets/schemas-create3bis.png)
 
 1. エラーを修正し、変更を保存してスキーマを生成します。
 

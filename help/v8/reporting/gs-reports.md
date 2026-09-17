@@ -6,18 +6,20 @@ exl-id: b353bc86-2228-4e02-879c-ae9425c48489
 TQID: https://experienceleague.adobe.com/YSkF82u-0-DmG1N7SnJwXSdHJdWZwp8A8ZLwkBbYJLg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 233
+workflow-type: tm+mt
+source-wordcount: '233'
 ht-degree: 100%
-
 ---
-
 # レポートの基本を学ぶ {#get-started-reports}
 
 アドビの包括的なレポートツールスイートは、マーケティング活動の有効性に関する貴重なインサイトを提供し、最大の効果を得るためにキャンペーンを最適化できます。 配信率から開封率やクリックスルー率まで、アドビのレポートスイートには、結果を導くデータ駆動型の決定を行うために必要な情報がすべて用意されています。

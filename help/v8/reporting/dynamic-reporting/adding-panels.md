@@ -5,12 +5,10 @@ audience: end-user
 level: Intermediate
 exl-id: c87f6155-821d-422d-86e5-4f5533d62fda
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
-
 ---
-
 # パネルの追加{#adding-panels}
 
 ## 空のパネルの追加 {#adding-a-blank-panel}

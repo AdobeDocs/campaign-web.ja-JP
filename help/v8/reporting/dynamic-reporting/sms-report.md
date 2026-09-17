@@ -4,12 +4,10 @@ description: 標準の SMS レポートを使用して、SMS 配信の成功に�
 level: Intermediate
 audience: end-user
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 100%
-
 ---
-
 # SMS レポート{#sms-report}
 
 **SMS** レポートは、配信やバウンス率など、SMS 配信に関する詳細を提供します。

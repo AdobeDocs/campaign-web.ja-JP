@@ -7,19 +7,22 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 TQID: https://experienceleague.adobe.com/bj4PO7hhfT21Xd44PQYyrUbVytxnLSF7mnSJPbmJQRw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 3646
-ht-degree: 97%
-
+source-wordcount: '3646'
+ht-degree: 100%
 ---
-
 # 配信設定の指定 {#del-settings}
 
 配信設定は、配信テンプレートで定義される&#x200B;**技術的な配信パラメーター**&#x200B;です。 配信ごとに過負荷になる可能性があります。 これらの設定は、配信または配信テンプレートの編集時に使用できる「**設定**」ボタンから利用できます。
@@ -162,10 +165,10 @@ ht-degree: 97%
 >abstract="デフォルトでは、配信のトラッキングが有効になっています。つまり、メッセージコンテンツに含まれるすべてのリンクが追跡されます。 ここからこのオプションを無効にできます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="リンクの追加とメッセージのトラッキング"
 
-このタブは、配信にトラッキングログスキーマが設定されており、配信モードが外部ではない場合に使用できます。
+このタブは、配信に対してトラッキングログスキーマが設定され、配信モードが外部ではない場合に使用できます。
 
-* **[!UICONTROL トラッキングを有効にする]**：配信のトラッキングを有効または無効にします。 無効にした場合、クリックまたはオープンのトラッキングデータは収集されません。
-* **[!UICONTROL トラッキングを開く]** （電子メールチャネル）: トラッキングピクセルを使用して、メッセージの開封のトラッキングを有効または無効にします。 このオプションは、**[!UICONTROL トラッキングを有効にする]**&#x200B;が有効になっている場合にのみ使用できます。 これにより、CNILやGDPRなどのデータ保護規制に準拠することができます。
+* **[!UICONTROL トラッキングをアクティブ化]**：配信のトラッキングを有効または無効にします。 無効にした場合、クリックまたはオープントラッキングデータは収集されません。
+* **[!UICONTROL オープントラッキング]**（メールチャネル）：トラッキングピクセルを使用して、メッセージの開封のトラッキングを有効または無効にします。 このオプションは、**[!UICONTROL トラッキングをアクティブ化]**&#x200B;が有効になっている場合にのみ使用できます。 これにより、CNIL や GDPR などのデータ保護規制に準拠できます。
 
 ## Web 分析 {#web-analytics}
 

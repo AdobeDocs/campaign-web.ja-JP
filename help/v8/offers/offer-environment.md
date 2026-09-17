@@ -5,33 +5,33 @@ description: Campaign Web でオファー環境を表示、設定、デプロイ
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 7be45366e3ae14e6fa7e4569a37c64e6d72f534c
-workflow-type: ht
-source-wordcount: 319
+workflow-type: tm+mt
+source-wordcount: '319'
 ht-degree: 100%
-
 ---
-
 # オファー環境設定の確認 {#offer-environment}
 
-**オファー環境**&#x200B;は、オファーカタログと関連するオファースペースを整理するコンテナです。環境には次の 2 つのタイプがあります。
+**オファー環境**&#x200B;は、オファーカタログと関連するオファースペースを整理するコンテナです。 環境には次の 2 つのタイプがあります。
 
 * オファーが作成、設定、承認される&#x200B;**デザイン**&#x200B;環境。
 * 読み取り専用の&#x200B;**ライブ**&#x200B;環境。承認済みおよびデプロイ済みのオファーを配信の選択に使用できます。
 
-各&#x200B;**デザイン**&#x200B;環境は、**ライブ**&#x200B;環境にリンクされています。オファーが完了して承認されると、そのオファーは自動的に&#x200B;**ライブ**&#x200B;環境にデプロイされ、配信に使用できるようになります。
+各&#x200B;**デザイン**&#x200B;環境は、**ライブ**&#x200B;環境にリンクされています。 オファーが完了して承認されると、そのオファーは自動的に&#x200B;**ライブ**&#x200B;環境にデプロイされ、配信に使用できるようになります。
 
 ![環境を示すスクリーンショット。](assets/offers-env.png){zoomable="yes"}
 
 Campaign ではデフォルトで、ビルトインの受信者テーブル（識別されたオファー）をターゲットにするための事前設定された&#x200B;**デザイン**&#x200B;環境と&#x200B;**ライブ**&#x200B;環境の 2 つが用意されています。
 
-インバウンドインタラクション用の web サイトにアクセスする匿名プロファイルなど、別のテーブルをターゲットにするには、追加の環境を作成する必要があります（ターゲティングディメンションごとに 1 つ）。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}を参照してください。
+インバウンドインタラクション用の web サイトにアクセスする匿名プロファイルなど、別のテーブルをターゲットにするには、追加の環境を作成する必要があります（ターゲティングディメンションごとに 1 つ）。 [Campaign v8 ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"}を参照してください。
 
 ## オファー環境へのアクセス {#offer-environment-settings}
 
-オファー環境は、フォルダーとして保存されます。環境設定（実施要件、重み付け管理、セキュリティ）にアクセスして確認するには、次の手順に従います。
+オファー環境は、フォルダーとして保存されます。 環境設定（実施要件、重み付け管理、セキュリティ）にアクセスして確認するには、次の手順に従います。
 
 >[!CAUTION]
 >
@@ -43,11 +43,11 @@ Campaign ではデフォルトで、ビルトインの受信者テーブル（�
 
    ![環境の「フォルダー設定」オプションを示すスクリーンショット](assets/offers-env-1.png){zoomable="yes"}
 
-1. 様々なセクションを確認します。オファー環境グループのフォルダー設定には、オファー固有のオプションが用意されています。
+1. 様々なセクションを確認します。 オファー環境グループのフォルダー設定には、オファー固有のオプションが用意されています。
 
    ![環境のプロパティ設定を示すスクリーンショット](assets/offers-env-2.png){zoomable="yes"}
 
-   ほとんどの設定は、クライアントコンソールで使用できるオファー環境設定を反映しています。詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html?lang=ja){target="_blank"}を参照してください。
+   ほとんどの設定は、クライアントコンソールで使用できるオファー環境設定を反映しています。 詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-env.html?lang=ja){target="_blank"}を参照してください。
 
 <!--
 ## Create a new offer environment {#create}

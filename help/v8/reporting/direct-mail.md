@@ -6,16 +6,17 @@ exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
 TQID: https://experienceleague.adobe.com/1HplEC3KMsKLbAMeYgCLlFo5oIJI2gJUhksr2mmOv5o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 710
+workflow-type: tm+mt
+source-wordcount: '710'
 ht-degree: 100%
-
 ---
-
 # 外部配信レポート {#direct-mail-report}
 
 **外部配信レポート**&#x200B;では、外部配信に固有の包括的なインサイトとデータが提供されます。 個々の配信のパフォーマンス、有効性、結果に関する詳細情報が含まれ、完全な概要が得られます。

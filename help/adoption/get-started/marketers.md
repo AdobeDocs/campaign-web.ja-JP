@@ -7,30 +7,41 @@ exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
 TQID: https://experienceleague.adobe.com/5IcrHiiZw336nAlxRhiWlE2XfR-9TE7uj-cs6gW3xf4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
 subfeature_v2:
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
-source-wordcount: 2803
+workflow-type: tm+mt
+source-wordcount: '2851'
 ht-degree: 100%
-
 ---
-
 # マーケター向けの基本を学ぶ {#acs-gs-marketers}
 
 このガイドでは、Campaign Standard から Campaign v8 に移行するマーケターを対象に、Campaign v8 の主な機能の概要を説明します。
@@ -92,8 +103,8 @@ Adobe Campaign では、プロファイルはデータベースに保存され�
 
 詳しくは、[ オーディエンスの基本を学ぶ](../../v8/audience/manage-audience.md){target="_blank"}を参照してください。
 
-Campaign Standard と同様に、配信にコントロール母集団を追加できます。コントロール母集団を定義して、オーディエンスの一部にメッセージを送信しないようにし、配信後の動作をメインターゲットと比較できます。キャンペーンの影響を測定するのに役立ちます。
-[コントロール母集団の設定](../../v8/audience/control-group.md){target="_blank"}方法を参照してください。
+Campaign Standard と同様に、配信にコントロール母集団を追加できます。 コントロール母集団を定義して、オーディエンスの一部にメッセージを送信しないようにし、配信後の動作をメインターゲットと比較できます。 このオプションは、キャンペーンの影響を測定するのに役立ちます。
+[コントロール母集団の設定](../../v8/audience/control-group.md){target="_blank"}方法について説明します。
 
 >[!AVAILABILITY]
 >
@@ -201,10 +212,10 @@ Campaign web ユーザーインターフェースを使用すると、マーケ�
 
 * **スケジュール設定** - メッセージを送信する日付と正確な時刻を設定できます。 マーケティングメッセージに最も適した時間を選択することで、開封率を最大化します。
 
-   * 詳しくは、[スタンドアロン配信のスケジュール設定](../../v8/msg/gs-deliveries.md#gs-schedule)方法を参照してください。
-   * 詳しくは、[ワークフローでの配信のスケジュール設定](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)方法を参照してください。
+  * 詳しくは、[スタンドアロン配信のスケジュール設定](../../v8/msg/gs-deliveries.md#gs-schedule)方法を参照してください。
+  * 詳しくは、[ワークフローでの配信のスケジュール設定](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow)方法を参照してください。
 
-* **オファーを追加** - Adobe Campaign Web ユーザーインターフェイスで配信にオファーを追加できます。これらのオファーは、オファーのリストにアクセスできる左側のオファーメニューから使用できます。  詳しくは、[メッセージへのオファーの追加](../../v8/msg/offers.md)方法を参照してください。
+* **オファーを追加** - Adobe Campaign Web ユーザーインターフェイスで配信にオファーを追加できます。 これらのオファーは、オファーのリストにアクセスできる左側のオファーメニューから使用できます。  詳しくは、[メッセージへのオファーの追加](../../v8/msg/offers.md)方法を参照してください。
 
 >[!AVAILABILITY]
 >
@@ -216,7 +227,7 @@ Campaign web ユーザーインターフェースを使用すると、マーケ�
 >
 >* トラッキングリンク、ミラーページ URL リンク、購読／購読解除リンクは Campaign Standard と同様に機能します。
 >
->次の節も参照してください。[トラッキングと監視](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、Adobe Campaign の[ブランディング](../../v8/administration/branding/branding-gs.md)。
+>次の節も参照してください。[トラッキングとモニタリング](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、Adobe Campaign の[ブランディング](../../v8/administration/branding/branding-gs.md)。
 
 ### メール配信 {#acs-gs-marketers-email}
 
@@ -230,13 +241,13 @@ Campaign v8 でのメール配信の作成、テスト、送信の詳細な手�
 
 1. **コンテンツの設計と定義**
 
-   Campaign v8 の E メールデザイナーは、Campaign Standard で使用できるE メールデザイナーと似ています。 Campaign Standard の[従来のメールエディターは数年前に廃止されました](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}。メールコンテンツを作成およびパーソナライズするには、既に Campaign E メールデザイナーに移行している必要があります。
+   Campaign v8 の E メールデザイナーは、Campaign Standard で使用できるE メールデザイナーと似ています。 Campaign Standard の[従来のメールエディターは数年前に廃止されました](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}。 メールコンテンツを作成およびパーソナライズするには、既に Campaign E メールデザイナーに移行している必要があります。
 
    メールデザイナーの操作方法について説明します。 次のビデオでは、メールをゼロから構築して設計する方法とメールをパーソナライズしてテストする方法ついて説明します。
 
    >[!VIDEO](https://video.tv.adobe.com/v/3453563?captions=jpn&quality=12&learn=on){transcript=true}
 
-   E メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個別にカスタマイズされた魅力的なメールを作成できます。 詳しくは、[E メールデザイナーのドキュメント](../../v8/email/get-started-email-designer.md)を参照してください。
+   E メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個人ごとにカスタマイズされた魅力的なメールを作成できます。 詳しくは、[E メールデザイナーのドキュメント](../../v8/email/get-started-email-designer.md)を参照してください。
 
    このビデオでは、HTML をアップロードしてメールを作成する方法、E メールデザイナーと互換性を持たせる方法、テンプレートに変換する方法について説明します。
 
@@ -281,7 +292,7 @@ Campaign v8 では、SMS 配信の作成、テスト、送信の詳細な手順�
 <img alt="低頻度" src="assets/design_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/sms/content-sms"><strong>SMS 配信をデザイン<strong></strong></a>
+<a href="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/sms/content-sms"><strong>SMS 配信のデザイン<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -316,7 +327,7 @@ Campaign v8 では、プッシュ通知配信の作成、テスト、送信の�
 <img alt="低頻度" src="assets/push_design.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/push/content-push"><strong>プッシュ配信をデザイン<strong></strong></a>
+<a href="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/msg/push/content-push"><strong>プッシュ配信のデザイン<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -333,7 +344,7 @@ Campaign v8 では、プッシュ通知配信の作成、テスト、送信の�
 >
 >* Adobe Campaign v8 では、Android と iOS の両方のプッシュチャネルをサポートしています。 プッシュチャネルを使用した既存のワークフローと配信の移行について詳しくは、Adobe Campaign トランジションマネージャーにお問い合わせください。 詳細については[チャネル設定](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}をご覧ください。
 >
->* モバイルアプリケーション用の SDK V4 は、数年前に [Campaign Standard で廃止](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}されました。Campaign v8 で使用されているものと同じ Adobe Experience Platform SDK に既に移行している必要があります。
+>* モバイルアプリケーション用の SDK V4 は、数年前に [Campaign Standard で廃止](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"}されました。 Campaign v8 で使用されているものと同じ Adobe Experience Platform SDK に既に移行している必要があります。
 > 
 
 ### ダイレクトメール {#acs-gs-marketers-direct-mail}
@@ -394,7 +405,7 @@ Campaign Standard ユーザーが Campaign v8 に移行する場合は、既存�
 
 ## レポート {#acs-gs-marketers-reporting}
 
-Adobe Campaign では、[レポートツール](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}のセットを提供しています。管理者は、レポートを作成および設定し、他の Campaign ユーザーと共有できます。
+Adobe Campaign では、[レポートツール](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}のセットを提供しています。 管理者は、レポートを作成および設定し、他の Campaign ユーザーと共有できます。
 
 Adobe Campaign のレポートツールスイートは、マーケティング活動の有効性に関する貴重なインサイトを提供し、最大の効果を得るのにキャンペーンを最適化できます。 詳しくは、[レポートのドキュメント](../../v8/reporting/gs-reports.md)を参照してください。
 
@@ -402,7 +413,7 @@ Adobe Campaign のレポートツールスイートは、マーケティング�
 
 >[!AVAILABILITY]
 >
->* [動的レポート](../../v8/reporting/dynamic-reporting/get-started-reporting.md)は、メール配信、メール配信を使用したキャンペーン、およびトランザクションメッセージのレポートに使用できます。また、プロファイルディメンション別のデモグラフィック分析も使用できます。
+>* [動的レポート](../../v8/reporting/dynamic-reporting/get-started-reporting.md)は、メール配信、メール配信を使用したキャンペーン、およびトランザクションメッセージのレポートに使用できます。 また、プロファイルディメンション別のデモグラフィック分析も使用できます。
 >
 > * また、[Adobe Campaign web ユーザーインターフェイスレポート](../../v8/reporting/campaign-reports.md)は、Adobe Campaign Standard から Adobe Campaign v8 に移行するすべてのユーザーが使用することもできます。
 

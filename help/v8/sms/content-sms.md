@@ -6,15 +6,15 @@ exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
 TQID: https://experienceleague.adobe.com/CZSfyKVl4NOWhNVcs8ZXj9b9o3EPaVjsDOz-7t2g20s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 278
-ht-degree: 96%
-
+source-wordcount: '278'
+ht-degree: 100%
 ---
-
 # SMS 配信をデザイン {#design-sms}
 
 >[!CONTEXTUALHELP]
@@ -41,7 +41,7 @@ SMS 配信のコンテンツをデザインするには、次の手順に従い�
 
    ![動的コンテンツを追加するオプションを含むメッセージフィールドを示すスクリーンショット](assets/sms_content_2.png){zoomable="yes"}
 
-1. デフォルトでは、配信のトラッキングが有効になっています。 必要に応じて、配信の&#x200B;**[!UICONTROL 設定]**/**[!UICONTROL トラッキング]** タブからこのオプションを無効にします。 [詳細情報](../advanced-settings/delivery-settings.md#tracking-tab)
+1. デフォルトでは、配信のトラッキングが有効になっています。 必要に応じて、配信の&#x200B;**[!UICONTROL 設定]**／**[!UICONTROL トラッキング]**&#x200B;タブからこのオプションを無効にします。 [詳細情報](../advanced-settings/delivery-settings.md#tracking-tab)
 
 1. 「**[!UICONTROL 設定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。 [詳細情報](../advanced-settings/delivery-settings.md)
 

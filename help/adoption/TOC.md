@@ -6,12 +6,10 @@ user-guide-description: Campaign Standard ユーザーが Campaign v8 に移行�
 description: Campaign Standard ユーザー向けの Campaign v8 の開始方法について説明します。
 breadcrumb-title: Campaign 導入ガイド
 source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 100%
-
 ---
-
 
 # Adobe Campaign 導入ガイド {#acs-to-ac}
 

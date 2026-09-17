@@ -6,13 +6,12 @@ exl-id: 3aef912b-086b-4aa4-9556-c09396112313
 TQID: https://experienceleague.adobe.com/u76tPZP4tkdiIUuXc0yIoIFvy-mEO8JRd-MKYY9J11o
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 8de6db4dc4aa20cfb72a9e9c997f4348fccb2c39
-workflow-type: ht
-source-wordcount: 1070
+workflow-type: tm+mt
+source-wordcount: '1087'
 ht-degree: 100%
-
 ---
-
 # ワークフロー設定の指定 {#workflow-settings}
 
 >[!CONTEXTUALHELP]
@@ -42,11 +41,12 @@ ht-degree: 100%
 * リストに表示されるワークフローの&#x200B;**[!UICONTROL ラベル]**。
 * ワークフローの&#x200B;**[!UICONTROL 内部名]**。
 * ワークフローを保存する&#x200B;**[!UICONTROL フォルダー]**。
-* ワークフローのアクティビティすべてで使用するデフォルトの&#x200B;**[!UICONTROL タイムゾーン]**。デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。可能な値は次のとおりです。
-   * **サーバーのタイムゾーン**：Adobe Campaign アプリケーションサーバーのタイムゾーンを使用します。
-   * **オペレーターのタイムゾーン**：オペレーターのプロファイルで定義しているように、クライアントコンソールでワークフローを実行する Adobe Campaign オペレーターのタイムゾーンを使用します。
-   * **データベースのタイムゾーン**：データベースサーバーのタイムゾーンを使用します。
-   * 特定のタイムゾーン。
+* すべてのワークフローのアクティビティで使用するデフォルトの&#x200B;**[!UICONTROL タイムゾーン]**。 デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
+次のような値を選択できます。
+  * **サーバーのタイムゾーン**：Adobe Campaign アプリケーションサーバーのタイムゾーンを使用します。
+  * **オペレーターのタイムゾーン**：オペレーターのプロファイルで定義しているように、クライアントコンソールでワークフローを実行する Adobe Campaign オペレーターのタイムゾーンを使用します。
+  * **データベースのタイムゾーン**：データベースサーバーのタイムゾーンを使用します。
+  * 特定のタイムゾーン。
 * ワークフローが失敗した場合、「**[!UICONTROL スーパーバイザー]**」フィールドで選択したオペレーターグループに属するオペレーターにメールで通知されます。
 * ワークフローの&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 
@@ -95,9 +95,9 @@ ht-degree: 100%
 
 * **[!UICONTROL エラー管理]**：このフィールドでは、ワークフロータスクでエラーが発生した場合に行うアクションを定義できます。 次の 3 つのオプションが使用可能です。
 
-   * **[!UICONTROL プロセスを中断]**：ワークフローは自動的に一時停止され、ワークフローのステータスは「**[!UICONTROL 失敗]**」に変わります。 問題が解決したら、「**[!UICONTROL 再開]**」ボタンを使用してワークフローを再開します。
-   * **[!UICONTROL 無視]**：エラーをトリガーしたタスクのステータスは「**[!UICONTROL 失敗]**」に変わりますが、ワークフローのステータスは「**[!UICONTROL 開始済み]**」のままです。<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL プロセスを中止]**：ワークフローは自動的に停止し、ステータスが「**[!UICONTROL 失敗]**」に変わります。 問題が解決したら、「**[!UICONTROL 開始]**」ボタンを使用してワークフローを再開します。
+  * **[!UICONTROL プロセスを中断]**：ワークフローは自動的に一時停止され、ワークフローのステータスは「**[!UICONTROL 失敗]**」に変わります。 問題が解決したら、「**[!UICONTROL 再開]**」ボタンを使用してワークフローを再開します。
+  * **[!UICONTROL 無視]**：エラーをトリガーしたタスクのステータスは「**[!UICONTROL 失敗]**」に変わりますが、ワークフローのステータスは「**[!UICONTROL 開始済み]**」のままです。<!-- TO ADD ONCE SCHEDULER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
+  * **[!UICONTROL プロセスを中止]**：ワークフローは自動的に停止し、ステータスが「**[!UICONTROL 失敗]**」に変わります。 問題が解決したら、「**[!UICONTROL 開始]**」ボタンを使用してワークフローを再開します。
 
 * **[!UICONTROL 連続エラー]**：このフィールドは、「**[!UICONTROL エラーの場合]**」フィールドで「**[!UICONTROL 無視]**」の値が選択されたときに有効になります。 プロセスを停止するまでに無視するエラーの数を指定します。 この数に達すると、ワークフローのステータスが「**[!UICONTROL 失敗]**」に変わります。 このフィールドの値が 0 の場合、エラーの数にかかわらず、ワークフローが停止することはありません。
 

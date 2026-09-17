@@ -6,20 +6,20 @@ exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 TQID: https://experienceleague.adobe.com/aAihPctzpv-wOectPp1y1qntZBX9rH5MqT1e0OLD4uA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5eee68c2201dac7b9c3ee6aa894e3ea1bef2c027
-workflow-type: ht
-source-wordcount: 805
+workflow-type: tm+mt
+source-wordcount: '805'
 ht-degree: 100%
-
 ---
-
 # メッセージへのオファーの追加 {#offers-content}
 
-Campaign Web UI から、配信にオファーを直接追加できます。これらのオファーは、左側のメニューにあるオファーのリストの&#x200B;**オファー**&#x200B;からアクセスできます。
+Campaign Web UI から、配信にオファーを直接追加できます。 これらのオファーは、左側のメニューにあるオファーのリストの&#x200B;**オファー**&#x200B;からアクセスできます。
 
-Campaign Web UI から、クライアントコンソールに切り替えることなく、オファー環境、オファースペース、オファーを直接作成および管理することもできます。[詳細情報](../offers/gs-offer-management.md)。
+Campaign Web UI から、クライアントコンソールに切り替えることなく、オファー環境、オファースペース、オファーを直接作成および管理することもできます。 [詳細情報](../offers/gs-offer-management.md)。
 
 詳細設定について詳しくは、[Campaign v8 ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
 

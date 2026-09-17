@@ -6,13 +6,12 @@ exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
 TQID: https://experienceleague.adobe.com/ae0IUbZBdla45dSwwODEJg0Dd8rvA1TyR-fuzx2X6Vg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 504
+workflow-type: tm+mt
+source-wordcount: '504'
 ht-degree: 100%
-
 ---
-
 # ダイレクトメール配信の作成 {#create-direct-mail}
 
 スタンドアロンのダイレクトメール配信を作成することも、キャンペーンワークフローのコンテキストでダイレクトメール配信を作成することもできます。 以下の手順では、スタンドアロン（1 回限りの）ダイレクトメール配信の手順について説明します。 キャンペーンワークフローのコンテキストで作業している場合、作成手順について詳しくは、[この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)を参照してください。

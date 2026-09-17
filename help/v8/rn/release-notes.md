@@ -5,20 +5,24 @@ exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
 TQID: https://experienceleague.adobe.com/HkI2JUqLNM805hPfVsXl-8nwR70TzxRP31V9EI4yKGA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 78%
-
+source-wordcount: '332'
+ht-degree: 100%
 ---
-
 # リリースノート {#latest-release}
 
 >[!CONTEXTUALHELP]
@@ -53,11 +57,11 @@ _2026年8月18日（PT）_
 ### 改善点 {#26-8-improvements}
 
 * **トラッキングを開く**：Campaign web ユーザーインターフェイスから直接、トラッキングを開いたり、無効にしたりできるようになりました。 これにより、データ保護規制に準拠できます。 [詳細を表示](../advanced-settings/delivery-settings.md#tracking-tab)
-* **プログラムリスト表示**：プログラムは、キャンペーン、配信、ワークフローと同様に、専用ビューに一覧表示されるようになりました。 この表示から直接、既存のプログラムを参照したり、新しいプログラムを作成したりできます。 [詳細を表示](../administration/plans-programs.md#create-program)
+* **プログラムリスト表示**：キャンペーン、配信、ワークフローと同様に、プログラムが専用ビューに一覧表示されるようになりました。 この表示から直接、既存のプログラムを参照したり、新しいプログラムを作成したりできます。 [詳細を表示](../administration/plans-programs.md#create-program)
 * **カスタムスキーマ設定**：「**アクションデータ**」セクションで、カスタムスキーマのレコードに対する&#x200B;**複製**&#x200B;アクションを許可できなくなりました。 [詳細を表示](../administration/schemas-action-data.md#action-data)
-* **カスタムフィルター**: スキーマエディターで、新しい&#x200B;**リンク設定** ダイアログを使用して、リンクタイプのカスタムフィルターのピッカーで使用できる値を制限できるようになりました。 [詳細を表示](../administration/schemas-custom-filters.md#settings)
-* **スキーマ検証**：新しい&#x200B;**チェック** ボタンを使用して、スキーマエディターから直接スキーマの構造を検証できるようになりました。 [詳細を表示](../administration/schemas-create-publish.md#create-new)
-* **フォルダーセキュリティ**: フォルダーで使用可能なアクションは、クライアントコンソールの動作と一致して、オペレーターの権限によって一貫して管理されるようになりました。 [詳細情報](../get-started/work-with-folders.md#about-folders)。
+* **カスタムフィルター**：スキーマエディターで、新しい&#x200B;**リンク設定**&#x200B;ダイアログを使用して、リンクタイプのカスタムフィルターのピッカーで使用可能な値を制限できるようになりました。 [詳細を表示](../administration/schemas-custom-filters.md#settings)
+* **スキーマ検証**：新しい「**確認**」ボタンを使用して、スキーマエディターからスキーマの構造を直接検証できるようになりました。 [詳細を表示](../administration/schemas-create-publish.md#create-new)
+* **フォルダーセキュリティ**：フォルダーに対して実行可能なアクションは、クライアントコンソールの動作と一致して、オペレーターの権限によって一貫して管理されるようになりました。 [詳細情報](../get-started/work-with-folders.md#about-folders)。
   <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
   <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 

@@ -5,25 +5,33 @@ exl-id: 430dc1ba-dfa9-4d51-b4ed-f3f048da6ec0
 TQID: https://experienceleague.adobe.com/N4YGqWeKVOfakNNxhRekN1TsH4vyLhYav47axHu5O08
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: ht
-source-wordcount: 2580
+workflow-type: tm+mt
+source-wordcount: '2580'
 ht-degree: 100%
-
 ---
-
 # 2024 リリースノート {#2024-release}
 
 このページには、**2024 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。 最新のリリースノートについて詳しくは、[このページ](release-notes.md)を参照してください。
@@ -100,7 +108,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成して調整したら、Adobe Campaign Web のコンテンツを生成を使用して、メッセージを次のレベルに引き上げます。この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
+<p>メッセージを作成して調整したら、Adobe Campaign Web のコンテンツを生成を使用して、メッセージを次のレベルに引き上げます。 この強力なツールを使用すると、様々な魅力的なテキスト、メインタイトル、視覚的に魅力的な画像を生成することで、コンテンツの影響を最適化できます。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>は、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../content/generative-gs.md">詳細ドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
@@ -213,7 +221,7 @@ ht-degree: 100%
 
 ### 監査記録  {#24-5-1}
 
-新しい&#x200B;**監査記録**&#x200B;機能では、Adobe Campaign インスタンスに対して行われたすべてのアクションとイベントの詳細かつ時系列のレコードをリアルタイムで取得できます。 これには、ワークフローのステータス、ワークフローを最後に変更したユーザー、インスタンス内でユーザーが実行したアクティビティなどのクエリに対応する、Campaign データへのすべての変更を追跡する便利なメソッドが用意されています。 [詳細情報](../reporting/audit-trail.md)
+新しい&#x200B;**監査記録**&#x200B;機能では、Adobe Campaign インスタンスに対して行われたすべてのアクションとイベントの詳細かつ時系列のレコードをリアルタイムで取得できます。 これには、ワークフローのステータス、ワークフローを最後に変更した個人、インスタンス内でユーザーが実行したアクティビティなどのクエリに対応する、Campaign データへのすべての変更を追跡する便利なメソッドが用意されています。 [詳細情報](../reporting/audit-trail.md)
 
 ### カスタムフィールド {#24-5-2}
 

@@ -5,16 +5,17 @@ exl-id: c242c2b5-c847-4c01-a82b-9ccaeb0c2c97
 TQID: https://experienceleague.adobe.com/Fn3O9rjM5mkBzfTZbKeV5aZUF2XmfQ87JGUZP7V-RR8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 374
+workflow-type: tm+mt
+source-wordcount: '374'
 ht-degree: 100%
-
 ---
-
 # タイムゾーン管理 {#timezone-management}
 
 Adobe Campaign web UI では、すべての日付と時刻の値が&#x200B;**ユーザーの web ブラウザーのローカルタイムゾーン**&#x200B;に従って表示されます。 この動作により、web UI とクライアントコンソールのタイムスタンプを比較する際に違いが生じる場合があります。

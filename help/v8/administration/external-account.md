@@ -3,12 +3,10 @@ title: 外部アカウントの管理
 description: 外部アカウントの設定方法について説明します
 exl-id: 24e70106-3312-4138-bf2d-ffad74e2962d
 source-git-commit: 155a7f3fb55a579dbf9a2ad81a1dc7e4ea3847df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
-
 ---
-
 # Campaign 固有の外部アカウント {#external-account}
 
 選択した外部アカウントのタイプに基づいてアカウント設定を指定するには、次の手順に従います。
@@ -30,10 +28,10 @@ ht-degree: 100%
 * **[!UICONTROL パスワード]**：ユーザーアカウントのパスワード。
 
 * **[!UICONTROL 暗号化]** - 次を含む選択した暗号化のタイプ：
-   * デフォルト（ポート 110 の場合は POP3、ポート 995 の場合は POP3S）。
-   * STARTTLS の送信後に SSL に切り替える POP3。
-   * 非セキュアな POP3（デフォルトポート 110）。
-   * SSL による POP3 セキュア（デフォルトポート 995）。
+  * デフォルト（ポート 110 の場合は POP3、ポート 995 の場合は POP3S）。
+  * STARTTLS の送信後に SSL に切り替える POP3。
+  * 非セキュアな POP3（デフォルトポート 110）。
+  * SSL による POP3 セキュア（デフォルトポート 995）。
 
 * **[!UICONTROL 関数]** - 受信メールを受信するアカウントを設定するには「**[!UICONTROL インバウンドメール]**」を選択し、SOAP リクエストを処理するには「**[!UICONTROL SOAP ルーター]**」を選択します。
 

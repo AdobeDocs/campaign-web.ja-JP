@@ -10,34 +10,36 @@ exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
 TQID: https://experienceleague.adobe.com/t7jTgugTG9NOGwqQ9OMcRCrLcr83sTI5cu-O-iYQsRk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 527
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
-
 ---
-
 # Adobe Experience Manager での多言語メールの作成 {#aem-multilingual}
 
-Adobe Experience Manager との統合により、Adobe Experience Manager の言語コピーを使用して、多言語メール配信を作成できます。これにより、様々な言語でコンテンツのバリアントを管理し、受信者の言語設定に基づいて、パーソナライズされたメールを配信することができます。
+Adobe Experience Manager との統合により、Adobe Experience Manager の言語コピーを使用して、多言語メール配信を作成できます。 これにより、様々な言語でコンテンツのバリアントを管理し、受信者の言語設定に基づいて、パーソナライズされたメールを配信することができます。
 
 ## 前提条件 {#prerequisites}
 
 多言語メール配信を作成する前に、次のことを確認してください。
 
 * Adobe Campaign Web インターフェイス統合用に設定された、Adobe Experience Manager インスタンスへのアクセス。
-* Adobe Experience Manager のコンテンツと、すでに作成および承認されている言語コピー。言語コピーウィザードについて詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)を参照してください
-* Adobe Experience Manager コンテンツを受信するように設定されたメール配信テンプレート。[多言語モードを有効にする](#enable-multilingual)セクションで、詳細な手順を参照してください。
+* Adobe Experience Manager のコンテンツと、すでに作成および承認されている言語コピー。 言語コピーウィザードについて詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)を参照してください
+* Adobe Experience Manager コンテンツを受信するように設定されたメール配信テンプレート。 [多言語モードを有効にする](#enable-multilingual)セクションで、詳細な手順を参照してください。
 
 ## 多言語配信を作成
 
-多言語メール配信を作成するには、まず配信設定で多言語オプションを有効にする必要があります。システムによって使用可能な言語コピーが自動的に検出され、追加する言語コピーを選択できます。
+多言語メール配信を作成するには、まず配信設定で多言語オプションを有効にする必要があります。 システムによって使用可能な言語コピーが自動的に検出され、追加する言語コピーを選択できます。
 
 ### 多言語モードを有効にする {#enable-multilingual}
 
@@ -51,7 +53,7 @@ Adobe Experience Manager との統合により、Adobe Experience Manager の言
 
    ![](assets/lg-copy-2.png)
 
-1. 配信のラベルを入力し、オーディエンスを設定します。[詳細情報](../email/create-email.md)
+1. 配信のラベルを入力し、オーディエンスを設定します。 [詳細情報](../email/create-email.md)
 
 1. 配信&#x200B;**[!UICONTROL 設定]**&#x200B;にアクセスし、「**[!UICONTROL 詳細]**」セクションに移動します。
 
@@ -88,7 +90,7 @@ Adobe Experience Manager のコンテンツを選択し、配信に含める言�
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. コンテンツエディターで言語のバリアントを確認します。各バリアントを[個別に管理](#manage-variants)するか、[配信の送信](../monitor/prepare-send.md)に進むことができます。
+1. コンテンツエディターで言語のバリアントを確認します。 各バリアントを[個別に管理](#manage-variants)するか、[配信の送信](../monitor/prepare-send.md)に進むことができます。
 
    ![](assets/lg-copy-7.png)
 
@@ -96,7 +98,7 @@ Adobe Experience Manager のコンテンツを選択し、配信に含める言�
 
 コンテンツのバリアントを作成したら、配信でそれらを直接管理できます。
 
-1. デフォルトの言語を設定するには、選択したバリアントの詳細メニューにアクセスし、「**[!UICONTROL デフォルトとして設定]**」を選択します。デフォルトの言語は、プロファイルの言語設定が設定されていないか、使用可能なバリアントと一致しない場合に使用されます。
+1. デフォルトの言語を設定するには、選択したバリアントの詳細メニューにアクセスし、「**[!UICONTROL デフォルトとして設定]**」を選択します。 デフォルトの言語は、プロファイルの言語設定が設定されていないか、使用可能なバリアントと一致しない場合に使用されます。
 
    「**[!UICONTROL 削除]**」をクリックして、配信からバリアントを削除します。
 
@@ -118,4 +120,4 @@ Adobe Experience Manager のコンテンツを選択し、配信に含める言�
 
    >[!CAUTION]
    >
-   >リンクを解除すると、Adobe Experience Manager からコンテンツを更新したり、新しいバリアントを作成したりできなくなります。コンテンツは Adobe Experience Manager から独立します。
+   >リンクを解除すると、Adobe Experience Manager からコンテンツを更新したり、新しいバリアントを作成したりできなくなります。 コンテンツは Adobe Experience Manager から独立します。

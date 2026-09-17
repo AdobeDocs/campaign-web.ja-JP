@@ -9,10 +9,8 @@ nudge: true
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
 source-wordcount: '1081'
-ht-degree: 99%
-
+ht-degree: 100%
 ---
-
 
 # Adobe Campaign Web ドキュメント {#v8}
 
@@ -135,13 +133,13 @@ ht-degree: 99%
       + [ダークモードコンテンツの管理](email/dark-mode.md)
     + [アクセス可能なコンテンツの作成](email/accessible-content.md)
   + コンテンツを生成 {#ai-assistant}
-    + [「コンテンツを生成」の操作](content/generative-gs.md)
+    + [コンテンツを生成の操作](content/generative-gs.md)
     + [AI プロンプトのベストプラクティス](content/ai-assistant-prompting-guide.md)
     + [AI を使用した完全なコンテンツ生成](content/generative-full-content.md)
     + [AI を使用したテキスト生成](content/generative-text.md)
     + [AI を使用した画像生成](content/generative-image.md)
     + [コンテンツを生成のユースケース](content/generative-uc.md)
-    + [電子メールとランディングページのC2PA メタデータ Designer](content/c2pa-metadata-email-designer.md)
+    + [E メールおよびランディングページデザイナーの C2PA メタデータ](content/c2pa-metadata-email-designer.md)
     + ブランド {#ai-assistant}
       + [ブランドの作成と管理](content/brands.md)
       + [ブランドのパーソナライズ](content/brands-personalize.md)
@@ -308,7 +306,7 @@ ht-degree: 99%
     + [スキーマの作成と公開](administration/schemas-create-publish.md)
     + [カスタムフォームの操作](administration/schemas-custom-forms.md)
   + {hide-from-toc}[カスタムフィールドの設定](administration/custom-fields.md)
-  + [&#x200B; [!DNL Campaign]  オプションの設定](administration/options.md)
+  + [ [!DNL Campaign]  オプションの設定](administration/options.md)
   + [タイムゾーン管理](administration/timezone-management.md)
   + 外部アカウント {#external-accounts}
     + [外部アカウントの作成](administration/create-external-account.md)

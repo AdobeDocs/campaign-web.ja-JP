@@ -8,21 +8,19 @@ role: User
 level: Beginner
 hide: true
 source-git-commit: f0c22710efcda2f59f75ea26cf239d549ff34f96
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
-
 ---
-
 # WhatsApp メッセージの基本を学ぶ {#get-started-whatsapp}
 
-Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) を使用して、**Adobe Campaign Web ユーザーインターフェイス**&#x200B;から WhatsApp メッセージを送信できます。スタンドアロン配信、キャンペーンワークフロー、マーケティングキャンペーン内などで、他のチャネルと並行して WhatsApp を使用します。
+Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) を使用して、**Adobe Campaign Web ユーザーインターフェイス**&#x200B;から WhatsApp メッセージを送信できます。 スタンドアロン配信、キャンペーンワークフロー、マーケティングキャンペーン内などで、他のチャネルと並行して WhatsApp を使用します。
 
-* **[!UICONTROL 配信]**：Adobe Campaign Web ユーザーインターフェイスで、左側のパネルの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューから、SMS やプッシュ通知と同様に、スタンドアロン WhatsApp 配信を作成します。[詳細情報](create-whatsapp.md)
+* **[!UICONTROL 配信]**：Adobe Campaign Web ユーザーインターフェイスで、左側のパネルの&#x200B;**[!UICONTROL 配信]**&#x200B;メニューから、SMS やプッシュ通知と同様に、スタンドアロン WhatsApp 配信を作成します。 [詳細情報](create-whatsapp.md)
 
-* **[!UICONTROL キャンペーン]**：Adobe Campaign Web ユーザーインターフェイスでキャンペーンを開き、「**[!UICONTROL 配信]**」タブから WhatsApp 配信を追加するか、キャンペーンにワークフローを添付して送信を調整します。[詳細情報](../campaigns/create-campaigns.md)
+* **[!UICONTROL キャンペーン]**：Adobe Campaign Web ユーザーインターフェイスでキャンペーンを開き、「**[!UICONTROL 配信]**」タブから WhatsApp 配信を追加するか、キャンペーンにワークフローを添付して送信を調整します。 [詳細情報](../campaigns/create-campaigns.md)
 
-* **[!UICONTROL ワークフロー]**：Adobe Campaign Web ユーザーインターフェイスのワークフローキャンバスで、**[!UICONTROL WhatsApp]** チャネルアクティビティを追加し、配信テンプレートを選択してから、配信ダッシュボードでコンテンツと設定を定義します。チャネルアクティビティについて詳しくは、[このセクション](../workflows/activities/channels.md)を参照してください。
+* **[!UICONTROL ワークフロー]**：Adobe Campaign Web ユーザーインターフェイスのワークフローキャンバスで、**[!UICONTROL WhatsApp]** チャネルアクティビティを追加し、配信テンプレートを選択してから、配信ダッシュボードでコンテンツと設定を定義します。 チャネルアクティビティについて詳しくは、[このセクション](../workflows/activities/channels.md)を参照してください。
 
 ## 前提条件 {#prereq}
 

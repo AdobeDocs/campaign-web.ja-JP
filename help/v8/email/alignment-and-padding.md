@@ -6,13 +6,12 @@ exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 TQID: https://experienceleague.adobe.com/5KgmbJc0yXRXl8-jCKBR7evxfcVHEcvQtdMxU-rV28s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 204
+workflow-type: tm+mt
+source-wordcount: '204'
 ht-degree: 100%
-
 ---
-
 # 垂直方向の整列とパディングを調整する {#alignment-and-padding}
 
 この例では、3 列で構成される構造コンポーネント内のパディングと垂直方向の整列を調整します。

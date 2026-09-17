@@ -6,24 +6,31 @@ exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 TQID: https://experienceleague.adobe.com/pR1iKb30qV4nynpuQ8daJoivMS7HX5DKHzIVFLVDPAY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: ht
-source-wordcount: 1326
+workflow-type: tm+mt
+source-wordcount: '1326'
 ht-degree: 100%
-
 ---
-
 # 新機能 {#new}
 
 新しいバージョンの **Adobe Campaign Web ユーザーインターフェイス**&#x200B;を導入しました。 アドビの最新リリースには、パーソナライズされたクロスチャネルキャンペーンの作成を簡素化し、優れた結果をもたらし、すべてのチャネル間で競争上の優位性をもたらすように設計された、直感的な機能が組み込まれています。 Campaign Web ユーザーインターフェイス（UI）を使用すると、Adobe Experience Platform と接続されたキャンバスが提供され、統合されたエクスペリエンスを実現できます。
@@ -91,7 +98,7 @@ Microsoft Azure OpenAI と Adobe Firefly を活用した革新的なコンテン
 
 シンプルさと効率性を追求して設計された、高度な WYSIWYG ドラッグ＆ドロップエディターを使用して、コンテンツ配信を再定義します。 シームレスな AEM 統合、動的コンテンツ機能、画期的なコンテンツを生成を備えたこのオールインワンツールは、配信の作成を直感的かつ効率的にし、高度にパーソナライズします。
 
-AI の高度なアルゴリズムを活用して、結果を促す魅力的で調整されたコンテンツを作成します。インテリジェントな AI 駆動型コンテンツ生成により、開封率、クリックスルー率、コンバージョン率が向上します。 詳しくは、[こちら](../content/generative-gs.md)を参照してください。
+AI の高度なアルゴリズムを活用して、結果を促す魅力的で調整されたコンテンツを作成します。 インテリジェントな AI 駆動型コンテンツ生成により、開封率、クリックスルー率、コンバージョン率が向上します。 詳しくは、[こちら](../content/generative-gs.md)を参照してください。
 
 **新しくデザインを変更したキャンペーンワークフローアクティビティ**
 

@@ -6,20 +6,23 @@ exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
 TQID: https://experienceleague.adobe.com/Rmo8DFWF59I9rFtnyFHiHmsIzz0PbeMzSf7tFHAF-uY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1043
+workflow-type: tm+mt
+source-wordcount: '1043'
 ht-degree: 100%
-
 ---
-
 # カスタムフィールドの設定 {#custom-fields}
 
 >[!CONTEXTUALHELP]
@@ -149,7 +152,7 @@ Campaign web ユーザーインターフェイスでは、読みやすくする�
 
 1. 上下の矢印の横にある省略記号ボタンをクリックし、「**[!UICONTROL 区切り記号を追加]**」を選択します。
 
-1. 区切り記号を表す新しい行をリストに追加します。省略記号ボタンをクリックし、「**[!UICONTROL 編集]**」を選択してサブセクションに名前を付けます。
+1. 区切り記号を表す新しい行をリストに追加します。 省略記号ボタンをクリックし、「**[!UICONTROL 編集]**」を選択してサブセクションに名前を付けます。
 
 1. 上下の矢印を使用して、区切り記号を目的の位置に移動します。 区切り記号の下にリストされるフィールドは、その下にグループ化されます。
 

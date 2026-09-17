@@ -6,12 +6,10 @@ content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
-
 ---
-
 # プロファイルディメンションの作成{#creating-a-custom-profile-dimension}
 
 レポートは、受信者スキーマの拡張時に作成されたプロファイルデータに基づいて作成および管理することもできます。

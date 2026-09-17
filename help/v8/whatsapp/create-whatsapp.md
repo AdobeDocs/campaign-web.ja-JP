@@ -9,12 +9,10 @@ level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 hide: true
 source-git-commit: aa1a7c48d1708e73e4d6c6bbe4decd2e5ca69102
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 100%
-
 ---
-
 
 # WhatsApp 配信の作成 {#create-whatsapp}
 
@@ -48,34 +46,34 @@ Adobe Campaign Web ユーザーインターフェイスで、次の手順に従�
 
    ![](assets/whatsapp-create-1.png)
 
-1. 「**[!UICONTROL WhatsApp]**」を選択し、配信テンプレートを選択します。[テンプレートの詳細情報はこちら](../msg/delivery-template.md)。
+1. 「**[!UICONTROL WhatsApp]**」を選択し、配信テンプレートを選択します。 [テンプレートの詳細情報はこちら](../msg/delivery-template.md)。
 
    ![](assets/whatsapp-create-2.png)
 
 1. 「**[!UICONTROL 配信を作成]**」をクリックし、確定します。
 
-1. 「**[!UICONTROL 設定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。[詳細情報](../advanced-settings/delivery-settings.md)
+1. 「**[!UICONTROL 設定]**」をクリックして、配信テンプレートに関連する詳細オプションにアクセスします。 [詳細情報](../advanced-settings/delivery-settings.md)
 
    ![](assets/whatsapp-create-3.png)
 
-1. 配信の&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力します。内部の名前、フォルダー、配信コード、説明、または性質、または他のチャネルと同じパターンが必要な場合は、「**[!UICONTROL その他のオプション]**」を使用します。
+1. 配信の&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力します。 内部の名前、フォルダー、配信コード、説明、または性質、または他のチャネルと同じパターンが必要な場合は、「**[!UICONTROL その他のオプション]**」を使用します。
 
-1. 「**[!UICONTROL オーディエンスを選択]**」をクリックして、既存のオーディエンスをターゲットにするか、独自のオーディエンスを作成します。[詳しくは、オーディエンスを参照してください](../audience/about-recipients.md)。
+1. 「**[!UICONTROL オーディエンスを選択]**」をクリックして、既存のオーディエンスをターゲットにするか、独自のオーディエンスを作成します。 [詳しくは、オーディエンスを参照してください](../audience/about-recipients.md)。
 
 1. 「**[!UICONTROL コンテンツを編集]**」をクリックして WhatsApp コンテンツエディターを開きます。[WhatsApp コンテンツの定義](#whatsapp-content)を参照してください。
 
    ![](assets/whatsapp-create-4.png)
 
-1. 「**[!UICONTROL スケジュールを有効にする]**」をオンにすると、特定の日時に送信できます。[詳細情報](../msg/gs-deliveries.md#gs-schedule)
+1. 「**[!UICONTROL スケジュールを有効にする]**」をオンにすると、特定の日時に送信できます。 [詳細情報](../msg/gs-deliveries.md#gs-schedule)
 
 
 ## WhatsApp コンテンツの定義{#whatsapp-content}
 
 >[!BEGINSHADEBOX]
 
-Adobe Campaign Web ユーザーインターフェイスで WhatsApp メッセージをデザインする前に、Meta でテンプレートを作成して送信します。[詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Adobe Campaign Web ユーザーインターフェイスで WhatsApp メッセージをデザインする前に、Meta でテンプレートを作成して送信します。 [詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
-WhatsApp テンプレートは、使用前に Meta による承認を受ける必要があります。承認には通常数時間かかりますが、最大 24 時間かかる場合もあります。[詳細情報](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+WhatsApp テンプレートは、使用前に Meta による承認を受ける必要があります。 承認には通常数時間かかりますが、最大 24 時間かかる場合もあります。 [詳細情報](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
 >[!ENDSHADEBOX]
 
@@ -97,7 +95,7 @@ WhatsApp テンプレートは、使用前に Meta による承認を受ける�
 
    ![](assets/whatsapp-design-3.png)
 
-1. 「**パーソナライゼーションプレースホルダー**」フィールドで、パーソナライゼーションエディターを使用して、プロファイルフィールドと式をテンプレートパラメーターにマッピングします。[詳細情報](../personalization/personalize.md)
+1. 「**パーソナライゼーションプレースホルダー**」フィールドで、パーソナライゼーションエディターを使用して、プロファイルフィールドと式をテンプレートパラメーターにマッピングします。 [詳細情報](../personalization/personalize.md)
 
    ![](assets/whatsapp-design-4.png)
 
@@ -105,6 +103,6 @@ WhatsApp テンプレートは、使用前に Meta による承認を受ける�
 
 * **スタンドアロン配信またはキャンペーン配信**：配信ダッシュボードの「**[!UICONTROL 確認して送信]**」と「**[!UICONTROL 送信]**」を使用します。
 
-* **ワークフロー**：実行により配信が使用可能になった際に、ワークフローアクティビティから配信を開き、同じ方法で配信ダッシュボードを使用します。[詳細情報](../workflows/start-monitor-workflows.md)
+* **ワークフロー**：実行により配信が使用可能になった際に、ワークフローアクティビティから配信を開き、同じ方法で配信ダッシュボードを使用します。 [詳細情報](../workflows/start-monitor-workflows.md)
 
 次に、配信&#x200B;**[!UICONTROL レポート]**&#x200B;のエントリポイントと[配信レポー](../reporting/delivery-reports.md)トから結果を追跡できます。

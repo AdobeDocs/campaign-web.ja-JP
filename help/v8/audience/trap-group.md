@@ -6,15 +6,15 @@ exl-id: 48c34581-8825-4798-b24e-c462303f7645
 TQID: https://experienceleague.adobe.com/FLW4wHKHcUeZNDnlwmOSR344jNm8yLwOYtVXnnNWE2w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 429
+workflow-type: tm+mt
+source-wordcount: '429'
 ht-degree: 100%
-
 ---
-
 # トラップグループの使用 {#trap-group}
 
 **[!UICONTROL トラップグループ]**（**[!UICONTROL シードリスト]**&#x200B;とも呼ばれる）を使用すると、配信に特定のアドレスを含め、定義済みのターゲティング条件に一致しないプロファイルをターゲットにすることで、配信プロセスを監視および検証できます。 これにより、配信スコープ外の受信者が他のターゲット受信者と同様に配信を受信できます。

@@ -6,15 +6,15 @@ exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
 TQID: https://experienceleague.adobe.com/uSHKibujGz6C3osE2eVMIjaOIOE4wuHSw1z-N0vGfSY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 1135
+workflow-type: tm+mt
+source-wordcount: '1135'
 ht-degree: 100%
-
 ---
-
 # 購読サービス {#subscription-services}
 
 >[!CONTEXTUALHELP]
@@ -111,8 +111,8 @@ ht-degree: 100%
   ```
 
   この操作は、ファイル内で「sub」または「unsub」と指定されています。 実行する操作を認識するために、**ブール値**&#x200B;または&#x200B;**整数**&#x200B;値が必要です。「0」が購読登録解除、「1」が購読登録です。 この要件を満たすには：
-   * 「操作」列の&#x200B;**データタイプ**&#x200B;は、整数に設定します。
-   * 「sub」と「unsub」の値を「1」と「0」の値と一致させるには、**値の再マッピング**&#x200B;を実行する必要があります。
+  * 「操作」列の&#x200B;**データタイプ**&#x200B;は、整数に設定します。
+  * 「sub」と「unsub」の値を「1」と「0」の値と一致させるには、**値の再マッピング**&#x200B;を実行する必要があります。
 
   ![ワークフローの購読サービスマッピングインターフェイスのスクリーンショット。](../assets/workflow-subscription-service-uc2-mapping.png)
 

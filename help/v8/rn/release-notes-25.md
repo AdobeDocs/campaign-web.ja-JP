@@ -5,26 +5,35 @@ exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
 TQID: https://experienceleague.adobe.com/z7Nz4ghVS6vEP7Aa3lgB1fv66coY-MCvyGALfzOn0O0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
-workflow-type: ht
-source-wordcount: 3118
+workflow-type: tm+mt
+source-wordcount: '3118'
 ht-degree: 100%
-
 ---
-
 # 2025 リリースノート {#2025-release}
 
 このページには、**2025 リリース**&#x200B;で使用可能なすべての変更点と改善点が記載されています。 最新のリリースノートについて詳しくは、[このページ](release-notes.md)を参照してください。
@@ -453,7 +462,7 @@ table>
 <tr>
 <td>
 <p>技術管理者が 1 つまたは複数のブランドを定義して、ブランドの ID に影響を与えるパラメーターを一元化できるようになりました。 ブランドのロゴ、ランディングページのアクセス URL のドメイン、メッセージトラッキングの設定などが含まれます。 これらのブランドを作成して、メッセージやランディングページにリンクできます。 こうした設定はテンプレートで管理されます。 ブランディングオプションは、SMS やダイレクトメールを含むすべてのチャネルで使用できます。</p>
-<p>この機能は、新しい実装でのみオンデマンドで使用できます。アクセスするには、アドビ担当者にお問い合わせください。 サーバーは 8.8.1 以上にアップグレードする必要があります。 詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
+<p>この機能は、新しい実装でのみオンデマンドで使用できます。 アクセスするには、アドビ担当者にお問い合わせください。 サーバーは 8.8.1 以上にアップグレードする必要があります。 詳しくは、クライアントコンソール<a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=ja" target="_blank">リリースノート</a>を参照してください。
 <p>詳しくは、<a href="../administration/branding/branding-gs.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>

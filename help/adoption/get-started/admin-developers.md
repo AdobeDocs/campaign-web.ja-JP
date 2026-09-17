@@ -7,47 +7,75 @@ exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
 TQID: https://experienceleague.adobe.com/-hVxbMvBihOVGmmQxQ2eCpa-mL-yRWHX2J1vkSSMZaE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: a14877cc-63b1-41d9-bf0b-5f97cadd0417
+    internal-label: Configuration guidelines
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: b4ecd69f-2adf-4219-bc47-c9cd9a53c118
+    internal-label: Channel configuration
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
+    internal-label: Audit trail
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
   - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
+    internal-label: Federated Data Access
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 096132b46c985e1b23ca0fc6fbcf06a70e1630c7
-workflow-type: ht
-source-wordcount: 3217
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '3256'
+ht-degree: 98%
 ---
-
 # 管理者と開発者向けの基本を学ぶ {#acs-gs-admin}
 
 このページでは、Campaign v8 の主な管理機能とデータ管理機能の概要について説明します。 Campaign Standard から Campaign v8 に移行する管理者とテクニカルマーケターを対象としています。
@@ -126,7 +154,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 * **IP アドレスを追加** - Campaign コントロールパネルでは、IP アドレスの範囲を許可リストに登録することで、インスタンスへの新しい接続をセットアップできます。 詳しくは、[IP 許可リストのドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}を参照してください
 
 * **サブドメイン設定** - Adobe Campaign で使用するドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。
-詳しくは、[サブドメインのデリゲーションのドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}を参照してください
+詳しくは、[&#x200B; サブドメイン委任ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}を参照してください
 
 * **SFTP サーバーを管理** - コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 詳しくは、[SFTP 管理のドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}を参照してください
 
@@ -188,7 +216,7 @@ Campaign Standard で使用可能な機能と同様に、カスタムリソー�
 
 ## ワークフローとデータ管理 {#acs-gs-admin-data-management}
 
-Adobe Campaign Standard と同様に、Adobe Campaign v8 に含まれているワークフローモジュールを使用すると、アプリケーションサーバーの様々なモジュールにわたり、すべての範囲のプロセスとタスクを調整できます。 総合的なグラフィカル環境により、セグメント化、キャンペーン実行、ファイル処理、手作業での処理などのプロセスをデザインできます。これらのプロセスは、ワークフローエンジンが実行し、追跡します。Campaign v8 でのワークフローの開始方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/workflows){target="_blank"}を参照してください。
+Adobe Campaign Standard と同様に、Adobe Campaign v8 に含まれているワークフローモジュールを使用すると、アプリケーションサーバーの様々なモジュールにわたり、すべての範囲のプロセスとタスクを調整できます。 総合的なグラフィカル環境により、セグメント化、キャンペーン実行、ファイル処理、手作業での処理などのプロセスをデザインできます。これらのプロセスは、ワークフローエンジンが実行し、追跡します。 Campaign v8 でのワークフローの開始方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/workflows){target="_blank"}を参照してください。
 
 他の役立つリソースへのリンクについて詳しくは、以下を参照してください。
 
@@ -208,7 +236,7 @@ Campaign Standard ユーザーが Campaign v8 に移行する場合は、REST AP
 
 詳しくは、[Rest API ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target="_blank"}を参照してください。
 
-Campaign Standard から Campaign v8 に移行する際、REST API にはいくつかのレコメンデーションと制限が適用されます。 詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}を参照してください。また、Campaign v8 に移行する際には、以下の可用性に関するメモに記載されている特定の制限も適用されます。
+Campaign Standard から Campaign v8 に移行する際、REST API にはいくつかのレコメンデーションと制限が適用されます。 詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/developer/apis/limitations){target="_blank"}を参照してください。 また、Campaign v8 に移行する際には、以下の可用性に関するメモに記載されている特定の制限も適用されます。
 
 >[!AVAILABILITY]
 >
@@ -240,11 +268,11 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 ## プライバシーと同意
 
-Campaign Standard から Campaign v8 に移行する際は、プライバシー規制がデータ運用に与える影響を確認することが重要です。ビジネスや運用する地域によっては、お客様は保持するデータにアクセスしたり、データの削除をリクエストしたりする法的権利を有する場合があります。
+Campaign Standard から Campaign v8 に移行する際は、プライバシー規制がデータ運用に与える影響を確認することが重要です。 ビジネスや運用する地域によっては、お客様は保持するデータにアクセスしたり、データの削除をリクエストしたりする法的権利を有する場合があります。
 
-Campaign v8 では、すべてのプライバシーリクエストは **Adobe Privacy Service** との統合を通じて管理する必要があります。詳細については、[Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/privacy)を参照してください。
+Campaign v8 では、すべてのプライバシーリクエストは **Adobe Privacy Service** との統合を通じて管理する必要があります。 詳細については、[Campaign v8 （コンソール）ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/privacy/privacy)を参照してください。
 
-Campaign Standard 環境は、移行後では一定期間アクティブなままです。この期間中、プライバシーリクエストは両方のシステムに届く場合があります。コンプライアンスを確保し、ギャップを回避するには、Adobe Transition Manager と連携して、両方の環境をまたいでリクエストを適切に処理します。
+Campaign Standard 環境は、移行後では一定期間アクティブなままです。 この期間中、プライバシーリクエストは両方のシステムに届く場合があります。 コンプライアンスを確保し、ギャップを回避するには、Adobe Transition Manager と連携して、両方の環境をまたいでリクエストを適切に処理します。
 
 ## 購読サービス {#acs-gs-admin-sub}
 
@@ -348,7 +376,7 @@ Campaign インスタンスを Adobe Experience Cloud ソリューションと�
 Campaign Standard ユーザーが Campaign v8 に移行する場合は、次の内容が適用されます。
 
 * Campaign Standard でこれらの統合を使用していた場合、**Adobe Analytics** および **Audience Manager** の設定とデータは、アドビによって移行されています。
-* Campaign Standard 環境が **Adobe Experience Manager** と統合されていた場合は、Campaign web ユーザーインターフェイスでメールを設計する際にこの機能を使用し、Adobe Experience Manager 環境内で直接メール配信コンテンツとフォームの効率的な管理を容易に行うことができるように、**Adobe Experience Manager as a Cloud Service** に移行することをお勧めします。詳しくは、[このページ](../../v8/integrations/aem-content.md)を参照してください。
-また、Campaign は、Adobe Experience Manager 6.5 とも統合できます。この統合を設定するには、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}を参照してください。
+* Campaign Standard 環境が **Adobe Experience Manager** と統合されている場合は、Campaign web ユーザーインターフェイスでメールを設計する際にこの機能を使用し、Adobe Experience Manager 環境内で直接メール配信コンテンツとフォームの効率的な管理を容易に行うことができるように、**Adobe Experience Manager as a Cloud Service** に移行することをお勧めします。 詳しくは、[このページ](../../v8/integrations/aem-content.md)を参照してください。
+CampaignはAdobe Experience Manager 6.5と統合することもできます。 この統合を設定するには、[このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}を参照してください。
 * Campaign Standard 環境が **Triggers** と統合されていた場合は、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}の説明に従って、Campaign v8 でこの統合を設定する必要があります。
 * Campaign Standard 環境が **Adobe Target** と統合されていた場合は、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}の説明に従って、Campaign v8 でこの統合を設定する必要があります。

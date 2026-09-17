@@ -6,15 +6,15 @@ exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
 TQID: https://experienceleague.adobe.com/96G-USwsSAOJUSeXTpgpCTgeCNfwgIBHorvcxvObcuw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 251
+workflow-type: tm+mt
+source-wordcount: '251'
 ht-degree: 100%
-
 ---
-
 # 1 回限りのオーディエンスの作成 {#one-time}
 
 この節では、新しい配信を作成する際にオーディエンスを作成する方法について説明します。 このシナリオでは、配信オーディエンスに含まれるプロファイルは、クエリモデラーを使用してデータベースに対してクエリを実行することでターゲットに設定されます。 作成されたオーディエンスは、この配信に 1 回だけ使用され、オーディエンスリストには保存されません。

@@ -5,18 +5,18 @@ description: カスタムコレクションリンクを、編集可能なリス�
 feature: Offers
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 043cc60da1938800404964aa7e698f959ef908fd
-workflow-type: ht
-source-wordcount: 449
+workflow-type: tm+mt
+source-wordcount: '449'
 ht-degree: 100%
-
 ---
-
 # 編集可能リストをオファースキーマに追加 {#offer-editable-list}
 
-オファーにリンクされた一連のセグメントなど、カスタムコレクションリンクを使用して [ [!DNL nms:offer]  スキーマ](../administration/schemas.md)を拡張すると、オファーの「**[!UICONTROL カスタムオプション]**」セクションで編集可能なリストとして直接表示できます。別の画面で関連レコードを管理する代わりに、コレクションがオファーの詳細にリストとして表示され、専用のダイアログを通じてインラインで新しい関連レコードを作成できます。
+オファーにリンクされた一連のセグメントなど、カスタムコレクションリンクを使用して [ [!DNL nms:offer]  スキーマ](../administration/schemas.md)を拡張すると、オファーの「**[!UICONTROL カスタムオプション]**」セクションで編集可能なリストとして直接表示できます。 別の画面で関連レコードを管理する代わりに、コレクションがオファーの詳細にリストとして表示され、専用のダイアログを通じてインラインで新しい関連レコードを作成できます。
 
 >[!NOTE]
 >
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 ## コレクションリンクフィールドを追加 {#add-field}
 
-1. カスタムコレクションを使用して [!DNL nms:offer] スキーマを拡張し、**[!UICONTROL スキーマ]**&#x200B;メニューに移動して、**[!UICONTROL マーケティングオファー]**&#x200B;スキーマを開き、「**[!UICONTROL 画面編集]**」をクリックします。[詳細情報](../administration/schemas-browse-access.md#screen-def)。
+1. カスタムコレクションを使用して [!DNL nms:offer] スキーマを拡張し、**[!UICONTROL スキーマ]**&#x200B;メニューに移動して、**[!UICONTROL マーケティングオファー]**&#x200B;スキーマを開き、「**[!UICONTROL 画面編集]**」をクリックします。 [詳細情報](../administration/schemas-browse-access.md#screen-def)。
 
    ![画面の定義ボタンを示すスクリーンショット。](assets/offers-editable-list.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 詳細画面の設定]**」セクションで、**[!UICONTROL カスタムフィールドのリスト]**&#x200B;テーブルの上にある省略記号アイコンをクリックし、「**[!UICONTROL 属性を選択]**」を選択します。[詳細情報](../administration/schemas-custom-fields.md)。
+1. 「**[!UICONTROL 詳細画面の設定]**」セクションで、**[!UICONTROL カスタムフィールドのリスト]**&#x200B;テーブルの上にある省略記号アイコンをクリックし、「**[!UICONTROL 属性を選択]**」を選択します。 [詳細情報](../administration/schemas-custom-fields.md)。
 
    ![画面の定義ボタンを示すスクリーンショット。](assets/offers-editable-list-0.png){zoomable="yes"}
 
@@ -38,9 +38,9 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >コレクションリンクフィールドは必須にすることはできず、サブ属性をサポートしていません。デフォルトでは、フォーム内で 2 列にまたがっています。
+   >コレクションリンクフィールドは必須にすることはできず、サブ属性をサポートしていません。 デフォルトでは、フォーム内で 2 列にまたがっています。
 
-1. 選択内容を確認します。コレクションリンクが&#x200B;**[!UICONTROL カスタムフィールドのリスト]**&#x200B;テーブルに追加され、タイプは&#x200B;**[!UICONTROL コレクション]**&#x200B;になります。
+1. 選択内容を確認します。 コレクションリンクが&#x200B;**[!UICONTROL カスタムフィールドのリスト]**&#x200B;テーブルに追加され、タイプは&#x200B;**[!UICONTROL コレクション]**&#x200B;になります。
 
    ![追加された属性を示すスクリーンショット。](assets/offers-editable-list-2.png){zoomable="yes"}
 
@@ -64,15 +64,15 @@ ht-degree: 100%
 
 ## 編集可能なリストをオファーで使用 {#use-list}
 
-1. 左側のメニューから「**オファー**」をクリックして、オファーを開きます。[詳細情報](create-offer.md#create)
+1. 左側のメニューから「**オファー**」をクリックして、オファーを開きます。 [詳細を表示](create-offer.md#create)
 
    ![オファー画面を示すスクリーンショット。](assets/offers-editable-list-7.png){zoomable="yes"}
 
-1. オファープロパティにアクセスします。コレクションは、「**カスタムオプション**」セクションにリストとして表示されます。
+1. オファープロパティにアクセスします。 コレクションは、「**カスタムオプション**」セクションにリストとして表示されます。
 
    ![オファーの詳細画面に表示される編集可能なリストを示すスクリーンショット。](assets/offers-editable-list-6.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 追加]**」をクリックして、設定した属性を表示し、入力して、「**[!UICONTROL 確認]**」をクリックします。新しい要素がリストに追加されます。
+1. 「**[!UICONTROL 追加]**」をクリックして、設定した属性を表示し、入力して、「**[!UICONTROL 確認]**」をクリックします。 新しい要素がリストに追加されます。
 
    同じリストに複数の要素を追加でき、オファーの詳細には複数の編集可能なリストを含めることができます。
 

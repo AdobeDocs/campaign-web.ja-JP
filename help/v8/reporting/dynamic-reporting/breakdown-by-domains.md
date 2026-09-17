@@ -5,12 +5,10 @@ level: Intermediate
 audience: end-user
 exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8
 source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 100%
-
 ---
-
 # ドメイン別の分類{#breakdown-by-domains}
 
 このレポートには、メール配信のオーディエンスで表される各ドメインのパフォーマンスデータが含まれています。 キャンペーンレポートまたはプログラムレポートの場合は、パフォーマンスデータを複数のオーディエンスで使用できます。 このデータを使用して、特定のイベントに対する各ドメインの反応を分析できます。 例えば、リンク表示、ブロックリストに登録されている URL などです。

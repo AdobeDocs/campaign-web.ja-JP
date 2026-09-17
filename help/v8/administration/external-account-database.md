@@ -5,15 +5,15 @@ exl-id: 8f41312e-422f-4be1-b874-1b143c500912
 TQID: https://experienceleague.adobe.com/3UXLVWPQ0AxtloNmhumWXdi4VOVbHqveeZdkGlxhlQQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 3863
+workflow-type: tm+mt
+source-wordcount: '3911'
 ht-degree: 100%
-
 ---
-
 # 外部データベースアカウント {#external-accounts}
 
 外部データベースタイプの外部アカウントを使用して、Adobe Campaign をサードパーティのデータベースに接続します。
@@ -240,7 +240,7 @@ Adobe Campaign web ユーザーインターフェイスで、Microsoft SQL Serve
 ## MySQL
 
 MySQL 外部アカウントを使用すれば、Campaign インスタンスを MySQL 外部データベースに接続できます。
-Adobe Campaign Web ユーザーインターフェイスで、MySQL 外部アカウントを設定します。
+Adobe Campaign web ユーザーインターフェイスで、MySQL 外部アカウントを設定します。
 
 1. [外部アカウントを作成](external-account.md)し、外部アカウントの&#x200B;**[!UICONTROL タイプ]**&#x200B;として「**[!UICONTROL 外部データベース]**」を選択し、**[!UICONTROL プロバイダータイプ]**&#x200B;として「MySQL」を選択します。
 
@@ -303,7 +303,7 @@ Adobe Campaign web ユーザーインターフェイスで、Netezza 外部ア�
 ## ODBC（Sybase ASE、Sybase IQ）
 
 ODBC（Sybase ASE、Sybase IQ）外部アカウントを使用すれば、Campaign インスタンスを ODBC（Sybase ASE、Sybase IQ）外部データベースに接続できます。
-Adobe Campaign Web ユーザーインターフェイスで、ODBC（Sybase ASE、Sybase IQ）外部アカウントを設定します。
+Adobe Campaign web ユーザーインターフェイスで、ODBC（Sybase ASE、Sybase IQ）外部アカウントを設定します。
 
 1. [外部アカウントを作成](external-account.md)し、外部アカウントの&#x200B;**[!UICONTROL タイプ]**&#x200B;として「**[!UICONTROL 外部データベース]**」を選択し、**[!UICONTROL プロバイダータイプ]**&#x200B;として「ODBC（Sybase ASE、Sybase IQ）」を選択します。
 
@@ -370,7 +370,7 @@ Adobe Campaign web ユーザーインターフェイスで、「リモートデ�
 ## Oracle
 
 Oracle 外部アカウントを使用すれば、Campaign インスタンスを Oracle 外部データベースに接続できます。
-Adobe Campaign Web ユーザーインターフェイスで、Oracle 外部アカウントを設定します。
+Adobe Campaign web ユーザーインターフェイスで、Oracle 外部アカウントを設定します。
 
 1. [外部アカウントを作成](external-account.md)し、外部アカウントの&#x200B;**[!UICONTROL タイプ]**&#x200B;として「**[!UICONTROL 外部データベース]**」を選択し、**[!UICONTROL プロバイダータイプ]**&#x200B;として「Oracle」を選択します。
 
@@ -399,7 +399,7 @@ Adobe Campaign Web ユーザーインターフェイスで、Oracle 外部アカ
 ## PostgreSQL
 
 PostgreSQL 外部アカウントを使用すれば、Campaign インスタンスを PostgreSQL 外部データベースに接続できます。
-Adobe Campaign Web ユーザーインターフェイスで、PostgreSQL 外部アカウントを設定します。
+Adobe Campaign web ユーザーインターフェイスで、PostgreSQL 外部アカウントを設定します。
 
 1. [外部アカウントを作成](external-account.md)し、外部アカウントの&#x200B;**[!UICONTROL タイプ]**&#x200B;として「**[!UICONTROL 外部データベース]**」を選択し、**[!UICONTROL プロバイダータイプ]**&#x200B;として「PostgreSQL」を選択します。
 

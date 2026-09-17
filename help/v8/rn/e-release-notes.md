@@ -6,13 +6,12 @@ exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
 TQID: https://experienceleague.adobe.com/s1-w6QPAcZkFNzkImCJ5RHds9nhbaghxgQLxh07NFEA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 262
+workflow-type: tm+mt
+source-wordcount: '262'
 ht-degree: 100%
-
 ---
-
 # 早期リリースノート {#e-release}
 
 Adobe Campaign web ユーザーインターフェイスでは、新機能、既存機能の強化、バグ修正が継続的に提供されます。 すべての変更は、毎月末の[リリースノート](release-notes.md)に統合されます。

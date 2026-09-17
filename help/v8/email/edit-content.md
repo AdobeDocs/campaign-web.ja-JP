@@ -6,15 +6,15 @@ exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 TQID: https://experienceleague.adobe.com/G--NwJZpg2lItNE9tWbJrqG83a8jMEzzfQ4MVfvXFyY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
 workflow-type: tm+mt
-source-wordcount: 734
-ht-degree: 98%
-
+source-wordcount: '734'
+ht-degree: 100%
 ---
-
 # メールコンテンツの設定 {#edit-content}
 
 >[!CONTEXTUALHELP]
@@ -113,7 +113,7 @@ ht-degree: 98%
    * [新規でのメールの作成](create-email-content.md)
    * [コンテンツのスタイル設定](get-started-email-style.md)
 
-1. デフォルトでは、配信のトラッキングが有効になっています。 配信の「**[!UICONTROL 設定]**」 > 「**[!UICONTROL トラッキング]**」タブから、この機能を無効にするか、オープントラッキングを設定できます。 [詳細情報](../advanced-settings/delivery-settings.md#tracking-tab)。 [リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
+1. デフォルトでは、配信のトラッキングが有効になっています。 配信の&#x200B;**[!UICONTROL 設定]**／**[!UICONTROL トラッキング]**&#x200B;タブから、無効にするか、オープントラッキングを設定できます。 [詳細情報](../advanced-settings/delivery-settings.md#tracking-tab)。 [リンクを追加してトラッキングを管理する方法を学ぶ](message-tracking.md)
 
 1. メールのコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、どのように表示されるかを送信前に確認します。 また、コンテンツの読みやすさ、CTA 効果、および全体的な品質を評価するために、コンテンツの品質を検証することもできます。 [詳しくは、コンテンツの品質の検証を参照してください](../content/brands-score.md#validate-quality)
 

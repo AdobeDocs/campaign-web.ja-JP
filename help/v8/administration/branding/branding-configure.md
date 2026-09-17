@@ -10,9 +10,7 @@ source-git-commit: 5c9d3db95905f77dddffaf824156c87b9d79013c
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 100%
-
 ---
-
 # ブランドの設定 {#branding-configure}
 
 技術管理者は、web UI から複数のブランドを直接作成および管理できます。 これにより、ロゴやメールトラッキング設定など、ブランドアイデンティティを設定するすべての要素を定義できます。

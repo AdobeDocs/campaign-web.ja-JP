@@ -5,17 +5,18 @@ exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 TQID: https://experienceleague.adobe.com/MhYxb45yBenENo-YGBuRDE28l-0Rq891a5PyTS2FlFQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
-workflow-type: ht
-source-wordcount: 587
+workflow-type: tm+mt
+source-wordcount: '587'
 ht-degree: 100%
-
 ---
-
 # ターゲティングとフィルタリングディメンション {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
@@ -53,7 +54,7 @@ ht-degree: 100%
 
 ## フィルタリングディメンション {#filtering}
 
-ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲティングされた母集団を操作ごとに定義します。フィルタリングディメンションを使用すると、メインのターゲティングディメンションを変更せずに、関連する条件を参照して、この母集団にフィルターを適用できます。例えば、契約加入者やニュースレターサブスクライバーなど、特定の条件に基づいて母集団を選択できます。
+ターゲティングディメンションは、受信者、契約の受益者、オペレーター、サブスクライバーなど、ターゲティングされた母集団を操作ごとに定義します。フィルタリングディメンションを使用すると、メインのターゲティングディメンションを変更せずに、関連する条件を参照して、この母集団にフィルターを適用できます。 例えば、契約加入者やニュースレターサブスクライバーなど、特定の条件に基づいて母集団を選択できます。
 
 フィルタリングディメンションは、**オーディエンスを作成**&#x200B;アクティビティでのみ使用できます。
 

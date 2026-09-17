@@ -6,12 +6,10 @@ role: User
 level: Beginner, Intermediate
 exl-id: e4db43de-5dc1-4ab7-a703-598534e54826
 source-git-commit: 65031741dc7c667ef74469d75b8ea60a5fc20aaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
-
 ---
-
 # 生成モデルの作成と管理 {#generative-models}
 
 >[!CONTEXTUALHELP]
@@ -30,17 +28,17 @@ ht-degree: 100%
 
   **[!UICONTROL カスタムモデル]**&#x200B;の詳細については、[Adobe Firefly ドキュメント](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)を参照してください
 
-一度設定すれば、コンテンツに画像を作成する際に、任意の生成モデルを選択できます。[画像の生成に関する詳細情報](generative-image.md)。
+一度設定すれば、コンテンツに画像を作成する際に、任意の生成モデルを選択できます。 [画像の生成に関する詳細情報](generative-image.md)。
 
 ## 生成モデルを管理
 
-一か所で生成モデルを管理します。利用可能なモデルをすべて表示し、フィルタリングと検索で特定のモデルを見つけ、ブランドに合わせて設定できます。
+一か所で生成モデルを管理します。 利用可能なモデルをすべて表示し、フィルタリングと検索で特定のモデルを見つけ、ブランドに合わせて設定できます。
 
 1. **[!UICONTROL ブランド]**&#x200B;メニューから、「**[!UICONTROL 生成モデル]**」タブを選択します。
 
    ![](assets/gen-model-manage-1.png){zoomable="yes"}
 
-1. ![](assets/do-not-localize/Smock_Filter_18_N.svg) アイコンをクリックして、フィルターメニューにアクセスします。**[!UICONTROL タイプ]**&#x200B;または&#x200B;**[!UICONTROL ステータス]**&#x200B;でモデルをフィルタリングします。
+1. ![](assets/do-not-localize/Smock_Filter_18_N.svg) アイコンをクリックして、フィルターメニューにアクセスします。 **[!UICONTROL タイプ]**&#x200B;または&#x200B;**[!UICONTROL ステータス]**&#x200B;でモデルをフィルタリングします。
 
    ![](assets/gen-model-manage-2.png){zoomable="yes"}
 
@@ -54,7 +52,7 @@ ht-degree: 100%
 
 1. クリックして、新しい生成モデルをゼロから作成するには、「**[!UICONTROL モデルを追加]**」をクリックします。
 
-コンテンツで画像を作成する際に、任意の生成モデルを選択できるようになりました。[画像の生成に関する詳細情報](generative-image.md)。
+コンテンツで画像を作成する際に、任意の生成モデルを選択できるようになりました。 [画像の生成に関する詳細情報](generative-image.md)。
 
 ## 生成モデルを追加
 
@@ -76,7 +74,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL モデル ID]**」を入力します。
 
-   Firefly モデル IDを見つけるには、Firefly web サイトにアクセスし、トレーニング済みモデルに移動します。一意の ID は、公開後にモデルの管理セクションで使用できます。詳しくは、[Firefly カスタムモデルドキュメント](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)を参照してください。
+   Firefly モデル IDを見つけるには、Firefly web サイトにアクセスし、トレーニング済みモデルに移動します。 一意の ID は、公開後にモデルの管理セクションで使用できます。 詳しくは、[Firefly カスタムモデルドキュメント](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)を参照してください。
 
    ![](assets/gen-model-manage-5.png){zoomable="yes"}
 
@@ -88,7 +86,7 @@ ht-degree: 100%
 
    ![](assets/gen-model-manage-7.png){zoomable="yes"}
 
-1. 保存後、カスタムモデルがモデルリストに追加されます。いつでも無効化または削除できます。
+1. 保存後、カスタムモデルがモデルリストに追加されます。 いつでも無効化または削除できます。
 
    ![](assets/gen-model-manage-8.png){zoomable="yes"}
 
@@ -100,6 +98,6 @@ ht-degree: 100%
     If disabled, select which brands this model should be applied to.
 -->
 
-一度設定すれば、コンテンツで画像を作成する際に、任意のカスタム生成モデルを選択できます。[画像の生成に関する詳細情報](generative-image.md)。
+一度設定すれば、コンテンツで画像を作成する際に、任意のカスタム生成モデルを選択できます。 [画像の生成に関する詳細情報](generative-image.md)。
 
 ![](assets/gen-model-manage-9.png){zoomable="yes"}
