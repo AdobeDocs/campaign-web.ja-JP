@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/D9lkZe8AvBCas-wt-Fe6GLaAoBR-JJNfAHSrRrp
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 6e68cd4e3741b480dc04d8a86d0cf6cb07835811
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 100%
+source-wordcount: '1791'
+ht-degree: 96%
 ---
 # アクティビティをオーケストレーション {#orchestrate}
 
@@ -48,6 +48,12 @@ ht-degree: 100%
 * **マップを表示**：位置を示すキャンバスのスナップショットを開きます。
 
 ![ワークフローのキャンバスのツールバーオプション](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+
+## 変更を保存または破棄 {#save-cancel}
+
+画面の上部にある「**[!UICONTROL 保存]**」ボタンを使用して、ワークフローに加えた変更を保存します。
+
+変更を加えるとすぐに、**[!UICONTROL 保存]**&#x200B;の横に&#x200B;**[!UICONTROL キャンセル]** ボタンも表示されます。 これをクリックして、未保存の変更をすべて破棄し、ワークフローを最後に保存したバージョンに復元します。 このアクションは元に戻すことができないため、変更が破棄される前に確認メッセージが表示されます。
 
 ## アクティビティを管理 {#manage}
 

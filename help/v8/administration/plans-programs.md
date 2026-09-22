@@ -15,9 +15,9 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '630'
 ht-degree: 100%
 ---
 # プランとプログラム {#plan-and-programs}
@@ -97,8 +97,6 @@ Adobe Campaign では、マーケティングのプランとプログラムに�
 ### 方法 1：既にプログラムがあり、このプログラムにリンクされたキャンペーンを作成する場合
 
 新しいキャンペーンをプログラムにリンクするには、プログラム内でキャンペーンを直接作成します。
-
-![プログラム内のキャンペーンの作成を示すスクリーンショット](assets/program_campaign_create.png){zoomable="yes"}
 
 **[!UICONTROL フォルダー]**&#x200B;設定は、プログラムへのパスと共に自動的に入力されます。
 

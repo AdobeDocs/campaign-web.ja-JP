@@ -18,10 +18,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 38%
 ---
 # リリースノート {#latest-release}
 
@@ -32,36 +32,36 @@ ht-degree: 100%
 
 Adobe Campaign web ユーザーインターフェイスのリリースは、機能のデプロイメントに対してより拡張性の高い、段階的なアプローチを可能にする継続的な配信モデルに基づいて動作します。 したがって、これらのリリースノートは月に数回更新されます。 定期的に確認してください。
 
-## 2026年8月リリース {#26-8-release}
+## 26年9月リリース {#26-9-release}
 
-_2026年8月18日（PT）_
+_2026年9月22日_
 
-### 新機能 {#26-8-features}
+### 新機能 {#26-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>承認ワークフローアクティビティ</strong><br/></th>
+<th><strong>LINE チャネル</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>以前はクライアントコンソールでのみ使用可能であった<strong>承認</strong>ワークフローアクティビティが、Campaign web ユーザーインターフェイスで使用できるようになりました。 タスクをグループまたは個々のオペレーターに割り当て、通知のタイトルとメッセージをカスタマイズし、考えられる回答（例：はい／いいえ）を出力分岐として定義します。</p>
-<p>詳しくは、<a href="../workflows/activities/approval.md">詳細ドキュメント</a>を参照してください。</p>
+<p>Adobe Campaignは、人気のあるインスタント メッセージ アプリケーションである<strong>LINE</strong> チャネルをサポートするようになりました。 テキスト、画像、動画コンテンツ、スタンドアロン配信、ワークフローなどを使用して、LINE メッセージを作成、送信できます。 <a href="../line/get-started-line.md">詳細情報</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 改善点 {#26-8-improvements}
+### 改善点 {#26-9-improvements}
 
-* **トラッキングを開く**：Campaign web ユーザーインターフェイスから直接、トラッキングを開いたり、無効にしたりできるようになりました。 これにより、データ保護規制に準拠できます。 [詳細を表示](../advanced-settings/delivery-settings.md#tracking-tab)
-* **プログラムリスト表示**：キャンペーン、配信、ワークフローと同様に、プログラムが専用ビューに一覧表示されるようになりました。 この表示から直接、既存のプログラムを参照したり、新しいプログラムを作成したりできます。 [詳細を表示](../administration/plans-programs.md#create-program)
-* **カスタムスキーマ設定**：「**アクションデータ**」セクションで、カスタムスキーマのレコードに対する&#x200B;**複製**&#x200B;アクションを許可できなくなりました。 [詳細を表示](../administration/schemas-action-data.md#action-data)
-* **カスタムフィルター**：スキーマエディターで、新しい&#x200B;**リンク設定**&#x200B;ダイアログを使用して、リンクタイプのカスタムフィルターのピッカーで使用可能な値を制限できるようになりました。 [詳細を表示](../administration/schemas-custom-filters.md#settings)
-* **スキーマ検証**：新しい「**確認**」ボタンを使用して、スキーマエディターからスキーマの構造を直接検証できるようになりました。 [詳細を表示](../administration/schemas-create-publish.md#create-new)
-* **フォルダーセキュリティ**：フォルダーに対して実行可能なアクションは、クライアントコンソールの動作と一致して、オペレーターの権限によって一貫して管理されるようになりました。 [詳細情報](../get-started/work-with-folders.md#about-folders)。
-  <!--* **Enrichment activity**: You can now enrich data from an external database directly from the **Enrichment** workflow activity. This matches the capability already available in the Client Console.-->
-  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
+* **サイドナビゲーションアクセス**：管理者は、サイドナビゲーションから特定のメニューエントリを非表示にできるようになりました。 [詳細を表示](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
+* **追加の承認タイプ**: コンテンツとターゲットの承認に加えて、キャンペーン配信に予算と配信開始の承認を必要とできるようになりました。 [詳細を表示](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **訪問者ベースのSMS ターゲティング**：訪問者ターゲットマッピングをSMS配信で使用できるようになりました。 [詳細を表示](../sms/create-sms.md)
+* **ワークフローのキャンセル ボタン**：新しい&#x200B;**キャンセル** ボタンを使用すると、ワークフロー内の保存されていない変更を元に戻すことができます。 [詳細を表示](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
+* **複数の値を持つ重複排除**: **値のリストに従う** オプションで、複数の属性がサポートされるようになりました。 [詳細を表示](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
+* **モバイルターゲットマッピング**: モバイルアプリケーションターゲットのターゲットマッピングを作成できるようになりました。 [詳細を表示](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **外部データベースのエンリッチメント**：外部データベースのデータを&#x200B;**エンリッチメント**&#x200B;または&#x200B;**オーディエンスを構築** アクティビティでエンリッチメントできるようになりました。 [詳細を表示](../workflows/activities/enrichment.md#external-data)
+* **ファイルオーディエンスの紐付け**: ファイルからオーディエンスをターゲティングする際に、受信者をデータベースにインポートするかどうかを設定できるようになりました。 [詳細を表示](../audience/file-audience.md#select-and-configure-the-input-file-upload)
+* **コレクションで直接結合**：コレクションから直接属性を選択する際に、推奨されるデフォルトオプション、集計関数、または高度な直接結合を使用して、条件の構築方法を選択できるようになりました。 [詳細を表示](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
 

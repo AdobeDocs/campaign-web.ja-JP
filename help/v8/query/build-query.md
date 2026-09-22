@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2952'
-ht-degree: 100%
+source-wordcount: '3041'
+ht-degree: 91%
 ---
 # 最初のクエリの作成 {#build-query}
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 >
 >* 多くの値を持つフィールドの場合、最初の 20 個の値のみが表示されます。 このような場合、**[!UICONTROL 部分読み込み]**&#x200B;という警告通知が表示されます。
 >* 「**[!UICONTROL 値の配分]**」オプションは、すべての属性ピッカーでアクセスできます。 [詳しくは、属性の選択方法を参照してください](../get-started/attributes.md)
->* 「**[!A詳細フィルター]**」を使用して、結果に条件を追加できます。 [詳しくは、こちらを参照してください](../get-started/work-with-folders.md#filter-the-values)。
+>* 「**[ !A詳細フィルター]**」を使用して、結果に条件を追加できます。 [詳しくは、こちらを参照してください](../get-started/work-with-folders.md#filter-the-values)。
 
 ## フィルタリングコンポーネントの追加 {#filtering}
 
@@ -155,9 +155,11 @@ ht-degree: 100%
 
 >[!ENDTABS]
 
-#### リンクされたテーブルのカスタム条件（1 対 1 および 1 対多リンク）{#links}
+### リンクされたテーブルのカスタム条件（1 対 1 および 1 対多リンク）{#links}
 
 カスタム条件を使用すると、ルールで現在使用されているテーブルにリンクされたテーブルに対してクエリを実行できます。 これには、1 対 1 の基数リンクを持つテーブルや、コレクションテーブル（1 対多リンク）が含まれます。
+
+#### 1-1 リンク
 
 **1 対 1 リンク**&#x200B;の場合は、リンクされたテーブルに移動し、目的の属性を選択して、期待される値を定義します。
 
@@ -169,63 +171,51 @@ ht-degree: 100%
 
 1. **ブランド**&#x200B;テーブル内に移動し、**ラベル**&#x200B;属性を選択します。
 
-   ![ブランドテーブルのスクリーンショット](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![ブランドテーブルのスクリーンショット](assets/rule-builder-1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. 属性の期待値を定義します。
 
-   ![定義済みの期待値の例](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![ブランドテーブルのスクリーンショット](assets/rule-builder-1-1-attribute-value.png){zoomable="yes"}{width="85%" align="center"}
 
 テーブルリンクを直接選択したクエリのサンプルを以下に示します。 このテーブルで使用可能な値は、専用のピッカーから選択する必要があります。
 
-![クエリサンプルの例](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![ブランドテーブルのスクリーンショット](assets/rule-builder-1-1-attribute-table.png){zoomable="yes"}{width="85%" align="center"}
 
 +++ 
 
-**1 対多リンク**&#x200B;の場合は、次の例に示すように、サブ条件を定義してクエリを絞り込むことができます。
+#### 1-N リンク
 
-+++クエリの例
+**1-N リンク**&#x200B;の場合、次の2つの方法で条件を定義できます。
 
-ここでは、クエリは、BrewMaster 製品に関連する購入金額の合計が 100 ドル以上の受信者をターゲットにしています。
+* **コレクション自体**&#x200B;を選択します（**購入**&#x200B;など）。 これにより、**などの**&#x200B;が作成され、サブ条件を追加できます。
 
-1. **購入**&#x200B;テーブルを選択し、確定します。
+  +++クエリの例
 
-   ![購入テーブルのスクリーンショット](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+  ここでは、クエリは、BrewMaster製品に関連する購入を行った受信者を100 ドル以上でターゲットにしています。
 
-1. アウトバウンドトランジションが追加され、サブ条件を作成できます。
+  1. **購入**&#x200B;テーブルを選択し、確定します。
 
-   ![アウトバウンドトランジションの例](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+  1. **[!UICONTROL 条件を追加]**&#x200B;をクリックして、選択したテーブルに適用するサブ条件を定義します。
 
-1. **価格**&#x200B;属性を選択し、1,000 ドル以上の購入をターゲットにします
+     ![購入テーブルのスクリーンショット](assets/rule-builder-1-n-purchase.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![価格属性のスクリーンショット](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+  1. ニーズに合わせてサブ条件を追加します。
 
-1. ニーズに合わせてサブ条件を追加します。 ここでは、BrewMaster 製品を購入したプロファイルをターゲットにする条件を追加しました。
+     ![購入テーブルのスクリーンショット](assets/rule-builder-1-n-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-   ![サブ条件の例](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+  +++
 
-+++ 
+* **コレクション**&#x200B;から属性を選択します（**価格**、**購入**&#x200B;など）。 条件を定義するための3つのオプションが用意されています。
 
-#### 集計データの操作 {#aggregate}
+  コレクション条件のオプションを示す![&#x200B; スクリーンショット &#x200B;](assets/rule-builder-collection.png){zoomable="yes"}{width="85%" align="center"}
 
-カスタム条件を使用すると、集計操作を実行できます。 これを行うには、コレクション テーブルから属性を直接選択する必要があります。
+  * **[!UICONTROL Default]**：ほとんどのユースケースで推奨されるオプション。 コレクションの&#x200B;**条件など**&#x200B;が自動的に作成されます。 これは、上記の方法でコレクションを直接選択し、同じ結果を生成することに相当します。 例えば、**Purchases**&#x200B;から&#x200B;**Price**&#x200B;属性を選択すると、**条件など** Purchasesが存在します。 次に、演算子と値を設定できます。例えば、**が** `0`に等しい場合です。
 
-1. 目的のコレクションテーブル内に移動し、集計操作を実行する属性を選択します。
+  * **[!UICONTROL 集計]**：選択したコレクション属性に集計関数を適用します。 例えば、**Count**&#x200B;を選択して、**Count （Price）などの条件を0**&#x200B;に等しく作成します。 追加条件を使用して、集計に含まれるレコードを絞り込むことができます。
 
-   ![属性リストのスクリーンショット](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+  * **[!UICONTROL Advanced]**：コレクション要素への直接結合を使用します。 選択した属性が直接評価されます。例：**価格（購入/@price）**。 このオプションは、コレクション要素の1つの条件に使用します。
 
-1. プロパティパネルで、「**データを集計**」オプションの切替スイッチをオンにして、目的の集計関数を選択します。
-
->[!BEGINTABS]
-
->[!TAB 従来のクエリモデラー]
-
-![「データを集計」オプションのスクリーンショット](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
-
->[!TAB 新しいルールビルダー]
-
-![「データを集計」オプションのスクリーンショット](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
-
->[!ENDTABS]
+  デフォルトでは、**[!UICONTROL Default]** オプションが選択されています。 コレクションレコードをカウントまたは集計する必要がある場合は&#x200B;**[!UICONTROL Aggregate]**&#x200B;を使用し、1つのコレクション属性に直接結合する必要がある場合は&#x200B;**[!UICONTROL Advanced]**&#x200B;を使用します。
 
 ### オーディエンスを選択 {#audiences}
 
