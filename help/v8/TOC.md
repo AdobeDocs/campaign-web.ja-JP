@@ -6,10 +6,10 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 nudge: true
-source-git-commit: 404a5a4f1d793404a326feb07cd6869aa97af664
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 100%
+source-wordcount: '1090'
+ht-degree: 99%
 ---
 
 # Adobe Campaign Web ドキュメント {#v8}
@@ -74,6 +74,9 @@ ht-degree: 100%
     + [コールセンター配信の作成と送信](call-center/create-call-center.md)
   + {hide-from-toc}[WhatsApp の基本を学ぶ](whatsapp/get-started-whatsapp.md)
   + {hide-from-toc}[WhatsApp の配信の作成](whatsapp/create-whatsapp.md)
+  + LINE {#line}
+    + [LINEを使い始める](line/get-started-line.md)
+    + [LINE メッセージを送信する](line/send-line.md)
   + [カスタムチャネル](call-center/gs-custom-channel.md)
   + トランザクションメッセージ {#transactional-messages}
     + [トランザクションメッセージの基本を学ぶ](transactional-messaging/transactional.md)

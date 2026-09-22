@@ -2,14 +2,46 @@
 title: Campaign v8 web ユーザーインターフェイスの以前のリリースノート
 description: 2026 Campaign web ユーザーインターフェイスのリリース
 exl-id: 40735c57-94ae-4646-8c3d-68197569fbd4
-source-git-commit: 6ed3a17593d0dc7bda55d9f90fc27526c09d99ed
+source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2251'
 ht-degree: 100%
 ---
 # 2026 リリースノート {#2026-release}
 
 このページには、**2026 リリース**&#x200B;で提供されるすべての変更点と改善点が一覧表示されています。 最新のリリースノートについて詳しくは、[このページ](release-notes.md)を参照してください。
+
+## 2026年8月リリース {#26-8-release}
+
+_2026年8月18日（PT）_
+
+### 新機能 {#26-8-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>承認ワークフローアクティビティ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>以前はクライアントコンソールでのみ使用可能であった<strong>承認</strong>ワークフローアクティビティが、Campaign web ユーザーインターフェイスで使用できるようになりました。 タスクをグループまたは個々のオペレーターに割り当て、通知のタイトルとメッセージをカスタマイズし、考えられる回答（例：はい／いいえ）を出力分岐として定義します。</p>
+<p>詳しくは、<a href="../workflows/activities/approval.md">詳細ドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 改善点 {#26-8-improvements}
+
+* **トラッキングを開く**：Campaign web ユーザーインターフェイスから直接、トラッキングを開いたり、無効にしたりできるようになりました。 これにより、データ保護規制に準拠できます。 [詳細を表示](../advanced-settings/delivery-settings.md#tracking-tab)
+* **プログラムリスト表示**：キャンペーン、配信、ワークフローと同様に、プログラムが専用ビューに一覧表示されるようになりました。 この表示から直接、既存のプログラムを参照したり、新しいプログラムを作成したりできます。 [詳細を表示](../administration/plans-programs.md#create-program)
+* **カスタムスキーマ設定**：「**アクションデータ**」セクションで、カスタムスキーマのレコードに対する&#x200B;**複製**&#x200B;アクションを許可できなくなりました。 [詳細を表示](../administration/schemas-action-data.md#action-data)
+* **カスタムフィルター**：スキーマエディターで、新しい&#x200B;**リンク設定**&#x200B;ダイアログを使用して、リンクタイプのカスタムフィルターのピッカーで使用可能な値を制限できるようになりました。 [詳細を表示](../administration/schemas-custom-filters.md#settings)
+* **スキーマ検証**：新しい「**確認**」ボタンを使用して、スキーマエディターからスキーマの構造を直接検証できるようになりました。 [詳細を表示](../administration/schemas-create-publish.md#create-new)
+* **フォルダーセキュリティ**：フォルダーに対して実行可能なアクションは、クライアントコンソールの動作と一致して、オペレーターの権限によって一貫して管理されるようになりました。 [詳細情報](../get-started/work-with-folders.md#about-folders)。
+  <!--* **Workflow and delivery templates (only msf???)**: When creating a new workflow or delivery, you must now explicitly select a template. A default template is no longer applied automatically.-->
 
 ## 2026年7月リリース {#26-7-release}
 
