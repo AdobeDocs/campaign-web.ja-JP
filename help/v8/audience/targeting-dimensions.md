@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
     internal-label: PI
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 100%
@@ -43,7 +43,7 @@ ht-degree: 100%
 | 名前 | 次の配信先に使用 | スキーマ |
 |-----------------------|-------------------------------------------------------|-------------------------|
 | 受信者 | プロファイル／受信者（ビルトイン受信者テーブル） | nms:recipient |
-| 訪問者 | 紹介（バイラルマーケティング）などの方法でプロファイルを収集した訪問者 | mns:visitor |
+| 訪問者 | 紹介（バイラルマーケティング）などの方法でプロファイルを収集した訪問者 | nms:visitor |
 | 購読 | ニュースレターなどの情報サービスを購読しているプロファイル | nms:subscription |
 | 訪問者の購読 | 情報サービスを購読している訪問者 | nms:visitorSub |
 | オペレーター | Adobe Campaign オペレーター | nms:operator |

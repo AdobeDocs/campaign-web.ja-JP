@@ -10,7 +10,7 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 100%
@@ -69,7 +69,7 @@ SMS メッセージを確認してオーディエンスに送信します。
 
    ![SMS 配信の送信](assets/sms_send_5.png){zoomable="yes"}
 
-   SMS 配信がスケジュールされている場合は、「**[!UICONTROL スケジュールどおりに送信]**」ボタンをクリックします。 配信スケジュールについて詳しくは、[この節](../msg/gs-messages.md#schedule-the-delivery-sending)を参照してください。
+   SMS 配信がスケジュールされている場合は、「**[!UICONTROL スケジュールどおりに送信]**」ボタンをクリックします。 配信スケジュールについて詳しくは、[この節](../msg/create-deliveries.md#gs-schedule)を参照してください。
 
 1. 「**[!UICONTROL 送信]**」ボタンをクリックして、送信アクションを確定します。
 

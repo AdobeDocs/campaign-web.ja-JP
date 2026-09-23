@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7a22b75c81435fa891fa8aa73c5c1acad1931710
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 38%
@@ -55,13 +55,13 @@ _2026年9月22日_
 
 ### 改善点 {#26-9-improvements}
 
-* **サイドナビゲーションアクセス**：管理者は、サイドナビゲーションから特定のメニューエントリを非表示にできるようになりました。 [詳細を表示](../administration/schemas-browse-access.md#customize-screen-display-screen-def)
-* **追加の承認タイプ**: コンテンツとターゲットの承認に加えて、キャンペーン配信に予算と配信開始の承認を必要とできるようになりました。 [詳細を表示](../campaigns/campaign-approvals.md#configure-approval-settings-configure-approvals)
+* **サイドナビゲーションアクセス**：管理者は、サイドナビゲーションから特定のメニューエントリを非表示にできるようになりました。 [詳細を表示](../administration/schemas-browse-access.md#screen-def)
+* **追加の承認タイプ**: コンテンツとターゲットの承認に加えて、キャンペーン配信に予算と配信開始の承認を必要とできるようになりました。 [詳細を表示](../campaigns/campaign-approvals.md#configure-approvals)
 * **訪問者ベースのSMS ターゲティング**：訪問者ターゲットマッピングをSMS配信で使用できるようになりました。 [詳細を表示](../sms/create-sms.md)
-* **ワークフローのキャンセル ボタン**：新しい&#x200B;**キャンセル** ボタンを使用すると、ワークフロー内の保存されていない変更を元に戻すことができます。 [詳細を表示](../workflows/orchestrate-activities.md#save-or-discard-your-changes-save-cancel)
-* **複数の値を持つ重複排除**: **値のリストに従う** オプションで、複数の属性がサポートされるようになりました。 [詳細を表示](../workflows/activities/deduplication.md#configure-the-deduplication-activity-deduplication-configuration)
-* **モバイルターゲットマッピング**: モバイルアプリケーションターゲットのターゲットマッピングを作成できるようになりました。 [詳細を表示](../administration/target-mappings.md#create-a-target-mapping-create-mapping)
+* **ワークフローのキャンセル ボタン**：新しい&#x200B;**キャンセル** ボタンを使用すると、ワークフロー内の保存されていない変更を元に戻すことができます。 [詳細を表示](../workflows/orchestrate-activities.md#save-cancel)
+* **複数の値を持つ重複排除**: **値のリストに従う** オプションで、複数の属性がサポートされるようになりました。 [詳細を表示](../workflows/activities/deduplication.md#deduplication-configuration)
+* **モバイルターゲットマッピング**: モバイルアプリケーションターゲットのターゲットマッピングを作成できるようになりました。 [詳細を表示](../administration/target-mappings.md#create-mapping)
 * **外部データベースのエンリッチメント**：外部データベースのデータを&#x200B;**エンリッチメント**&#x200B;または&#x200B;**オーディエンスを構築** アクティビティでエンリッチメントできるようになりました。 [詳細を表示](../workflows/activities/enrichment.md#external-data)
-* **ファイルオーディエンスの紐付け**: ファイルからオーディエンスをターゲティングする際に、受信者をデータベースにインポートするかどうかを設定できるようになりました。 [詳細を表示](../audience/file-audience.md#select-and-configure-the-input-file-upload)
-* **コレクションで直接結合**：コレクションから直接属性を選択する際に、推奨されるデフォルトオプション、集計関数、または高度な直接結合を使用して、条件の構築方法を選択できるようになりました。 [詳細を表示](../query/build-query.md#custom-conditions-on-linked-tables-1-1-and-1-n-links-links)
+* **ファイルオーディエンスの紐付け**: ファイルからオーディエンスをターゲティングする際に、受信者をデータベースにインポートするかどうかを設定できるようになりました。 [詳細を表示](../audience/file-audience.md#upload)
+* **コレクションで直接結合**：コレクションから直接属性を選択する際に、推奨されるデフォルトオプション、集計関数、または高度な直接結合を使用して、条件の構築方法を選択できるようになりました。 [詳細を表示](../query/build-query.md#links)
 
