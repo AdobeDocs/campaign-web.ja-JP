@@ -7,7 +7,7 @@ TQID: https://experienceleague.adobe.com/s8cjbxjs-71srb0hufQBlBgqJhUxBHFSHhBsxID
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '3041'
 ht-degree: 91%
@@ -71,7 +71,7 @@ ht-degree: 91%
 >
 >* 多くの値を持つフィールドの場合、最初の 20 個の値のみが表示されます。 このような場合、**[!UICONTROL 部分読み込み]**&#x200B;という警告通知が表示されます。
 >* 「**[!UICONTROL 値の配分]**」オプションは、すべての属性ピッカーでアクセスできます。 [詳しくは、属性の選択方法を参照してください](../get-started/attributes.md)
->* 「**[ !A詳細フィルター]**」を使用して、結果に条件を追加できます。 [詳しくは、こちらを参照してください](../get-started/work-with-folders.md#filter-the-values)。
+>* 「**[ !A詳細フィルター]**」を使用して、結果に条件を追加できます。 [詳しくは、こちらを参照してください](../get-started/work-with-folders.md#filter-values)。
 
 ## フィルタリングコンポーネントの追加 {#filtering}
 

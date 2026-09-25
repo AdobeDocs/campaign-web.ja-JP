@@ -7,10 +7,10 @@ TQID: https://experienceleague.adobe.com/OoPPDmXtKfikWjcycfkDDBng38EvW6geird8w3B
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 97%
 ---
 # SMS 配信の作成 {#create-sms}
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 >abstract="事前定義済みのテンプレートを選択して SMS 配信を開始します。 配信テンプレートを使用すると、キャンペーンや配信全体でカスタムコンテンツや設定を再利用できます。"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=ja" text="配信テンプレートの使用"
 
-スタンドアロンの SMS 配信を作成することも、キャンペーンワークフローのコンテキストで SMS を作成することもできます。 以下の手順では、スタンドアロン（1 回限りの）SMS 配信の手順について説明します。 キャンペーンワークフローのコンテキストで作業している場合、作成手順について詳しくは、[この節](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow)を参照してください。
+スタンドアロンの SMS 配信を作成することも、キャンペーンワークフローのコンテキストで SMS を作成することもできます。 以下の手順では、スタンドアロン（1 回限りの）SMS 配信の手順について説明します。 キャンペーンワークフローのコンテキストで作業している場合、作成手順について詳しくは、[この節](../workflows/activities/channels.md#create-a-delivery-in-a-workflow)を参照してください。
 
 スタンドアロン SMS 配信を新規作成するには、次の手順に従います。
 
@@ -55,6 +55,8 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、既存のオーディエンスをターゲットにするか、独自のオーディエンスを作成します。 [詳しくは、オーディエンスを参照してください](../audience/about-recipients.md)。
 
+   デフォルトの&#x200B;**[!UICONTROL 受信者]** ターゲットマッピングに加えて、SMS配信は&#x200B;**[!UICONTROL 訪問者]**&#x200B;または&#x200B;**[!UICONTROL 訪問者サブスクリプション]**&#x200B;もターゲットにできます。 [ターゲティングディメンションの詳細情報を参照してください](../audience/targeting-dimensions.md#targeting)。
+
    ![「オーディエンスを選択」ボタンを示すスクリーンショット](assets/sms_create_2.png){zoomable="yes"}
 
    既存のオーディエンスを選択する方法について詳しくは、[このページ](../audience/add-audience.md)を参照してください。
@@ -71,7 +73,7 @@ ht-degree: 100%
 
    この画面から、[コンテンツをシミュレート](../preview-test/preview-test.md)したり、[オファーを設定](../msg/offers.md)したりすることもできます。
 
-1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。 配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。 配信スケジュールについて詳しくは、[この節](../msg/gs-deliveries.md#gs-schedule)を参照してください。
+1. 特定の日時に配信をスケジュールするには、「**[!UICONTROL スケジュールを有効にする]**」オプションをオンにします。 配信を開始すると、メッセージは、その受信者に対して定義した、正確な日時に自動的に送信されます。 配信スケジュールについて詳しくは、[この節](../msg/create-deliveries.md#gs-schedule)を参照してください。
 
    >[!NOTE]
    >

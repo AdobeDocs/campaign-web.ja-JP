@@ -6,7 +6,7 @@ feature: Line App
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 73553f19c6e88256f0e9f38479bdfc292a3221f8
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 13%
@@ -92,7 +92,7 @@ LINE配信には、最大5つのメッセージを含めることができます
 
 1. コンテンツを定義したら、**保存**&#x200B;をクリックし、戻るアイコンをクリックして配信設定画面に戻ります。
 
-1. **[!UICONTROL スケジュール]**&#x200B;を有効にして、特定の日時に送信します。 [詳細情報](../msg/gs-deliveries.md#gs-schedule)。
+1. **[!UICONTROL スケジュール]**&#x200B;を有効にして、特定の日時に送信します。 [詳細情報](../msg/create-deliveries.md#gs-schedule)。
 
    ![行メッセージスケジュール &#x200B;](assets/line-message9.png)
 
