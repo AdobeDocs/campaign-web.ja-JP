@@ -64,7 +64,7 @@ Adobe Campaign v8 には、クライアントコンソールまたは web ユー
 
 以下のビデオでは、Campaign web ユーザーインターフェイスにアクセスして操作する方法と、在庫リストをカスタマイズする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453423?captions=jpn&quality=12&learn=on){transcript=true}
 
 詳しくは、以下のドキュメントを参照してください。
 
@@ -85,13 +85,13 @@ Adobe Campaign では、プロファイルはデータベースに保存され�
 
 1. このビデオでは、Campaign web ユーザーインターフェイスを使用してプロファイルにアクセス、管理および探索する方法について説明します。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448365?captions=jpn&quality=12&learn=on){transcript=true}
 
    詳しくは、[プロファイルの基本を学ぶ](../../v8/audience/about-recipients.md)ドキュメントを参照してください。
 
 1. Campaign v8 でテストプロファイルを作成および管理する方法
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3442896?captions=jpn&quality=12&learn=on){transcript=true}
 
 ### オーディエンス管理 {#acs-gs-marketers-audiences}
 
@@ -99,7 +99,7 @@ Adobe Campaign では、プロファイルはデータベースに保存され�
 
 このビデオでは、オーディエンスの作成と管理方法、配信用のオーディエンスの選択方法、コントロール母集団の定義方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453203?captions=jpn&quality=12&learn=on){transcript=true}
 
 詳しくは、[ オーディエンスの基本を学ぶ](../../v8/audience/manage-audience.md){target="_blank"}を参照してください。
 
@@ -177,7 +177,7 @@ Campaign web ユーザーインターフェイスでは、ワークフローユ�
 
 このビデオでは、ワークフローの仕組みと、ターゲティングワークフローの作成方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453970?captions=jpn&quality=12&learn=on){transcript=true}
 
 詳しくは、[ワークフローのドキュメント](../../v8/workflows/gs-workflows.md)を参照してください。
 
@@ -233,7 +233,7 @@ Campaign web ユーザーインターフェースを使用すると、マーケ�
 
 このビデオでは、メール配信をゼロから作成、オーディエンスの定義、コンテンツの設計、プレビューのシミュレート、配達確認を送信する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454006?captions=jpn&quality=12&learn=on){transcript=true}
 
 最初のターゲットメールを作成する方法について詳しくは、[最初のメールの作成に関するドキュメント](../../v8/email/create-email.md)を参照してください。
 
@@ -245,13 +245,13 @@ Campaign v8 でのメール配信の作成、テスト、送信の詳細な手�
 
    メールデザイナーの操作方法について説明します。 次のビデオでは、メールをゼロから構築して設計する方法とメールをパーソナライズしてテストする方法ついて説明します。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453563?captions=jpn&quality=12&learn=on){transcript=true}
 
    E メールデザイナーを使用すると、直感的なドラッグ＆ドロップインターフェイスを通じて、個人ごとにカスタマイズされた魅力的なメールを作成できます。 詳しくは、[E メールデザイナーのドキュメント](../../v8/email/get-started-email-designer.md)を参照してください。
 
    このビデオでは、HTML をアップロードしてメールを作成する方法、E メールデザイナーと互換性を持たせる方法、テンプレートに変換する方法について説明します。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447033?captions=jpn&quality=12&learn=on){transcript=true}
 
    コンテンツフラグメントは、1 つ以上のメッセージで参照できる再利用可能なコンポーネントです。 メール配信の作成の簡素化について詳しくは、[コンテンツフラグメント](../../v8/content/fragments.md)を参照してください。
 
@@ -261,7 +261,7 @@ Campaign v8 でのメール配信の作成、テスト、送信の詳細な手�
 
    このビデオでは、メールメッセージのコンテンツとパーソナライゼーションをプレビューし、テスト配信（配達確認）を送信し、一般的なデスクトップ、モバイル、web ベースのクライアントでメールのレンダリングを確認する方法について説明します。
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450338?captions=jpn&quality=12&learn=on){transcript=true}
 
 1. **メールの送信とログの確認**
 
@@ -351,7 +351,7 @@ Campaign v8 では、プッシュ通知配信の作成、テスト、送信の�
 
 ダイレクトメールは、はがき、チラシ、カタログなどのパーソナライズされたレターを顧客に大量に配信するファイルを作成できるオフラインチャネルです。 ダイレクトメール配信を作成する際、Adobe Campaign では、すべてのターゲットプロファイルと選択したデータ（郵送先住所やプロファイル属性など）を含む抽出ファイルを自動的に生成します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451784/?captions=jpn&learn=on)
 
 Campaign v8 では、ダイレクトメール配信の作成、テスト、送信の詳細な手順は Campaign Standard と似ています。
 
@@ -359,7 +359,7 @@ Campaign v8 では、ダイレクトメール配信の作成、テスト、送�
 1. [抽出ファイルの定義](../../v8/direct-mail/content-direct-mail.md)
 1. [プレビューと送信](../../v8/direct-mail/send-direct-mail.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453563?captions=jpn&quality=12&learn=on){transcript=true}
 
 ### アプリ内チャネル {#acs-gs-marketers-in-app}
 
