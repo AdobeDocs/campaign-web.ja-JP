@@ -34,7 +34,7 @@ ht-degree: 22%
 
 LINE は、無料のインスタントメッセージ、音声およびビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。 Adobe Campaign を使用して、LINE メッセージを送信できます。 スタンドアロン配信またはワークフローで、他のチャネルと並行してLINEを使用します。
 
-![ モバイルデバイスで受信したLINE メッセージの例](assets/line-message.png)
+![&#x200B; モバイルデバイスで受信したLINE メッセージの例](assets/line-message.png)
 
 * **[!UICONTROL 配信]**: SMSまたはプッシュ通知と同様に、左側のパネルの&#x200B;**[!UICONTROL 配信]** メニューからスタンドアロンのLINE配信を作成します。 [詳細情報](send-line.md)。
 

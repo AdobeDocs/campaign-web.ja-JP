@@ -47,13 +47,13 @@ ht-degree: 13%
 
 1. **[!UICONTROL LINE]**&#x200B;を選択し、デフォルトの&#x200B;**[!UICONTROL LINE V2配信]** テンプレートなどの配信テンプレートを選択します。 [テンプレートの詳細情報はこちら](../msg/delivery-template.md)。
 
-   ![行メッセージ作成テンプレート ](assets/line-message2.png)
+   ![行メッセージ作成テンプレート &#x200B;](assets/line-message2.png)
 
 1. 「**[!UICONTROL 配信を作成]**」をクリックして、配信設定画面を確認および表示します。
 
 1. 配信の&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力し、必要に応じて追加またはカスタムオプションを定義します。 [詳細情報](../push/create-push.md#configure-push-settings)。
 
-   ![行メッセージのプロパティ ](assets/line-message3.png)
+   ![行メッセージのプロパティ &#x200B;](assets/line-message3.png)
 
 ## オーディエンスの選択 {#audience}
 
@@ -65,7 +65,7 @@ ht-degree: 13%
 
 「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
-![Line メッセージ編集コンテンツ ボタン ](assets/line-message4.png)
+![Line メッセージ編集コンテンツ ボタン &#x200B;](assets/line-message4.png)
 
 LINE コンテンツエディターが表示されます。
 
@@ -85,7 +85,7 @@ LINE配信には、最大5つのメッセージを含めることができます
 
 テキストメッセージは、テキストフォームで送信されるシンプルなメッセージです。 関連するフィールドにメッセージを入力し、必要に応じてパーソナライゼーションフィールドを使用するだけです。
 
-![Line メッセージ編集コンテンツ テキスト ](assets/line-message6.png)
+![Line メッセージ編集コンテンツ テキスト &#x200B;](assets/line-message6.png)
 
 ### 画像メッセージ {#image-message}
 
@@ -102,7 +102,7 @@ LINE配信には、最大5つのメッセージを含めることができます
 
 ビデオメッセージを使用すると、受信者にビデオを送信できます。
 
-![Line メッセージ編集コンテンツ ビデオ ](assets/line-message8.png)
+![Line メッセージ編集コンテンツ ビデオ &#x200B;](assets/line-message8.png)
 
 * **[!UICONTROL ビデオ URL]**：ビデオのURL。 MP4形式のみがサポートされています。
 * **[!UICONTROL 画像のプレビューURL]**：ビデオの再生前に表示される画像のURL。
@@ -113,11 +113,11 @@ LINE配信には、最大5つのメッセージを含めることができます
 
 1. **[!UICONTROL スケジュール]**&#x200B;を有効にして、特定の日時に送信します。 [詳細情報](../msg/create-deliveries.md#gs-schedule)。
 
-   ![行メッセージスケジュール ](assets/line-message9.png)
+   ![行メッセージスケジュール &#x200B;](assets/line-message9.png)
 
 1. コンテンツの準備ができたら、**[!UICONTROL レビューして送信]**&#x200B;をクリックします。 配信ダッシュボードが開きます。
 
-   ![Line メッセージダッシュボード ](assets/line-message10.png)
+   ![Line メッセージダッシュボード &#x200B;](assets/line-message10.png)
 
 1. 「**[!UICONTROL 準備]**」をクリックしてから確認します。 エラーがある場合は、修正して、**[!UICONTROL 準備]**&#x200B;をもう一度クリックします。
 

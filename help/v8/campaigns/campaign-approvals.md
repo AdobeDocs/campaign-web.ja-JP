@@ -98,7 +98,7 @@ ht-degree: 57%
 
 1. 「**[!UICONTROL ターゲットを送信]**」ボタンをクリックします。 次に、指定されたレビュアーは承認または却下できます。 [こちら](#approve-reject)を参照してください。
 
-   ターゲットを送信ボタンを表示する![ スクリーンショット ](assets/approvals5.png){zoomable="yes"}
+   ターゲットを送信ボタンを表示する![&#x200B; スクリーンショット &#x200B;](assets/approvals5.png){zoomable="yes"}
 
    承認ステータスが保留に変更されます。 [こちら](#track-approvals)を参照してください。
 
