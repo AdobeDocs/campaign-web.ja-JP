@@ -118,4 +118,4 @@ Campaign web を使用すると、ビジュアルワークフローキャンバ�
 
 オーディエンスの作成と管理方法、配信用のオーディエンスの選択方法、コントロール母集団の定義方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453203?captions=jpn&quality=12)
