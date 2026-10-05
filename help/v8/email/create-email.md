@@ -1,18 +1,22 @@
 ---
 audience: end-user
 title: 最初のメールを送信
-description: Campaign web UI で最初のメールを送信する方法を学ぶ
+description: Campaign web ユーザーインターフェイスで最初のメールを送信する方法を学ぶ
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-TQID: https://experienceleague.adobe.com/3pZPhEZkXmt4Ma9klxulMH8SB0G-e-RuNL-nwqcgo-8
+TQID: 'https://experienceleague.adobe.com/3pZPhEZkXmt4Ma9klxulMH8SB0G-e-RuNL-nwqcgo-8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5a231f1dc49379d1be5d36e1732660111f851649
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1695'
 ht-degree: 100%
@@ -261,4 +265,4 @@ ht-degree: 100%
 
 メール配信をゼロから作成し、オーディエンスの定義、コンテンツの設計、プレビューのシミュレートを行い、配達確認を送信する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3454006/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

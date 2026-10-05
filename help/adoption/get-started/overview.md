@@ -4,10 +4,14 @@ description: 新しい Campaign v8 アプリケーションの使用開始時に
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-TQID: https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58
+TQID: 'https://experienceleague.adobe.com/ef945wiVtBxLFJEMMYmrrSHMg8ZtxFn-UUkEE7ntk58'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -39,7 +43,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d4e22ba88bcb6dc74d22e8a927c1640f21d75d3e
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 91%
@@ -138,7 +142,7 @@ Campaign Standard ユーザーが Adobe Campaign v8 に移行する場合は、�
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  様々なメールテンプレートを提供し、画像を生成および再生成します。 コンテンツの生成について詳しくは、[このセクション &#x200B;](../../v8/content/generative-full-content.md)を参照してください。 Adobe Campaign v8では、[電子メール &#x200B;](../../v8/content/generative-full-content.md)、[SMS](../../v8/content/generative-text.md)、[&#x200B; プッシュ &#x200B;](../../v8/content/generative-full-content.md)に対して利用可能な「コンテンツを生成」が用意されています。
+  様々なメールテンプレートを提供し、画像を生成および再生成します。 コンテンツの生成について詳しくは、[このセクション ](../../v8/content/generative-full-content.md)を参照してください。 Adobe Campaign v8では、[電子メール ](../../v8/content/generative-full-content.md)、[SMS](../../v8/content/generative-text.md)、[ プッシュ ](../../v8/content/generative-full-content.md)に対して利用可能な「コンテンツを生成」が用意されています。
 
 * **アップグレードされた SMS インフラストラクチャ - SMS v2.0**
 
@@ -261,5 +265,5 @@ Adobe Campaign v8 の新しいユーザーエクスペリエンスについて�
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/ja/docs/campaign-standard/using/release-notes/deprecated-features).
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).
 -->

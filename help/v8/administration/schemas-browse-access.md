@@ -2,7 +2,14 @@
 title: スキーマの参照とアクセス
 description: インターフェイスでスキーマを参照してアクセスする方法について説明します。
 exl-id: deafd171-0a3f-4ba2-8fa4-09661d8cdb3e
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 83%
@@ -63,4 +70,4 @@ ht-degree: 83%
 * [コレクションリストを追加](schemas-collection-lists.md) - コレクションリストを追加して、プロファイル画面に関連データを表示します。
 * [データに対するアクションを制御](schemas-action-data.md) - カスタムスキーマの作成、編集および削除アクションを制限します。
 
-**nms:delivery**&#x200B;や&#x200B;**xtk:workflow**&#x200B;など、左側のナビゲーションの1つ以上のエントリを強化するスキーマの場合、画面定義には&#x200B;**[!UICONTROL サイドナビゲーションアクセス]** セクションも表示されます。 個々のアクセス権に関係なく、インスタンス上のすべてのユーザーに対して、メニューエントリに対応する&#x200B;**のメニューアクセスを削除チェックボックスを選択して、左側のナビゲーションから非表示にします。**&#x200B;一部のスキーマでは、複数のメニューエントリを利用できます。例えば、**nms:delivery**&#x200B;は&#x200B;**[!UICONTROL 配信]**&#x200B;および&#x200B;**[!UICONTROL トランザクションメッセージ]** エントリによって共有されているため、それぞれにチェックボックスが表示されます。
+**nms:delivery**&#x200B;や&#x200B;**xtk:workflow**&#x200B;など、左側のナビゲーションの1つ以上のエントリを強化するスキーマの場合、画面定義には&#x200B;**[!UICONTROL サイドナビゲーションアクセス]** セクションも表示されます。 個々のアクセス権に関係なく、インスタンス上のすべてのユーザーに対して、メニューエントリに対応する&#x200B;]**のメニューアクセスを削除チェックボックスを選択して、左側のナビゲーションから非表示にします。**[!UICONTROL &#x200B;一部のスキーマでは、複数のメニューエントリを利用できます。例えば、**nms:delivery**&#x200B;は&#x200B;**[!UICONTROL 配信]**&#x200B;および&#x200B;**[!UICONTROL トランザクションメッセージ]** エントリによって共有されているため、それぞれにチェックボックスが表示されます。

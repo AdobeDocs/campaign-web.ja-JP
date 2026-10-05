@@ -3,17 +3,21 @@ audience: end-user
 title: エンリッチメントワークフローアクティビティの使用
 description: エンリッチメントワークフローアクティビティの使用方法を説明します
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-TQID: https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4
+TQID: 'https://experienceleague.adobe.com/yYV7iC9u6wWwpJMEUUlwGRAPsuDiZkPvLD-cmw4IPf4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+  - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
+    internal-label: Campaign v8 Web User Interface
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
 workflow-type: tm+mt
 source-wordcount: '2702'
 ht-degree: 88%
@@ -159,7 +163,7 @@ ht-degree: 88%
 1. 使用するFDA外部アカウントを選択し、使用するテーブルの名前を参照または入力します。
 1. 必要な列を選択し、**追加**&#x200B;をクリックします。
 
-   外部データベース ボタンを表示する![&#x200B; スクリーンショット &#x200B;](../assets/workflow-enrichment8.png)
+   外部データベース ボタンを表示する![ スクリーンショット ](../assets/workflow-enrichment8.png)
 
 1. **[!UICONTROL 紐付け条件]** セクションで、**[!UICONTROL Source]**&#x200B;属性と&#x200B;**[!UICONTROL Destination]**&#x200B;外部列を定義して、データを紐付けます。 **[!UICONTROL 結合を追加]**&#x200B;をクリックすると、複数の結合を追加できます。
 
@@ -177,7 +181,7 @@ ht-degree: 88%
 
 1. 必要に応じて、**[!UICONTROL フィルターを作成]**&#x200B;をクリックして、クエリモデラーを使用して外部データをフィルタリングします。 [詳しくは、クエリモデラーの操作方法を参照してください](../../query/query-modeler-overview.md)。
 
-   外部データベース設定を示す![&#x200B; スクリーンショット &#x200B;](../assets/workflow-enrichment8.png)
+   外部データベース設定を示す![ スクリーンショット ](../assets/workflow-enrichment8.png)
 
 追加されたフィールドには、アクティビティ名とテーブル名を使用してラベルが付けられます。
 
@@ -249,7 +253,7 @@ ht-degree: 88%
 
 ワークフロー内で、エンリッチメントアクティビティから取得したオファーを配信で使用する場合は、次の手順に従います。
 
-1. 配信アクティビティを開き、コンテンツ編集に移動します。 「**[!UICONTROL オファー設定]**」ボタンをクリックし、ドロップダウンリストでオファーに対応する&#x200B;**[!UICONTROL オファースペース]**&#x200B;を選択します。
+1. 配信アクティビティを開き、コンテンツ編集に移動します。 「**[!UICONTROL オファー設定]**」ボタンをクリックし、ドロップダウンリストでオファーに対応する&#x200B;**[!UICONTROL オファースペース]**を選択します。
 エンリッチメントアクティビティからのオファーのみを表示する場合は、**[!UICONTROL 提案]**&#x200B;の数を 0 に設定し、変更を保存します。
 
    ![](../assets/offers-settings.png)
