@@ -23,9 +23,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_data_loading_rdbms"
 >title="データ読み込み（RDBMS）アクティビティ"
->abstract="**データ読み込み（RDBMS）**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティの 1 つです。 このアクティビティを使用して、外部のリレーショナルデータベースからワークフローにデータを直接読み込みます。 抽出されたデータはワークフロー全体で使用でき、ターゲティング、エンリッチメントまたはさらなるデータ処理に使用できます。"
+>abstract="**データ読み込み（RDBMS）** アクティビティは&#x200B;**データ管理** アクティビティです。 このアクティビティを使用して、外部のリレーショナルデータベースからワークフローにデータを直接読み込みます。 抽出されたデータは、ワークフロー全体を通じて利用でき、ターゲティング、エンリッチメント、またはさらなるデータ処理に使用できます。"
 
-**データ読み込み（RDBMS）**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティの 1 つです。 このアクティビティを使用して、外部のリレーショナルデータベースからワークフローにデータを直接読み込みます。 抽出されたデータはワークフロー全体で使用でき、ターゲティング、エンリッチメントまたはさらなるデータ処理に使用できます。
+**データ読み込み（RDBMS）** アクティビティは&#x200B;**データ管理** アクティビティです。 このアクティビティを使用して、外部のリレーショナルデータベースからワークフローにデータを直接読み込みます。 抽出されたデータは、ワークフロー全体を通じて利用でき、ターゲティング、エンリッチメント、またはさらなるデータ処理に使用できます。
 
 <!--
 This activity relies on the [Federated Data Access (FDA)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=ja){target="_blank"} option, which lets Adobe Campaign process information stored in one or more external databases without changing the structure of the Adobe Campaign data.
