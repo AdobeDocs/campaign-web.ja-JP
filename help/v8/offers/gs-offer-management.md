@@ -48,7 +48,7 @@ and check the [Campaign Web and client console capability matrix](../get-started
 * **オファーカタログとカテゴリ** - オファーは、**カテゴリ**&#x200B;とサブカテゴリの階層型カタログに整理されます。 各カテゴリでは、実施要件ルール、有効期限、**アプリケーションのテーマ**&#x200B;を共有できます。 デザイン環境には、すべてのオファーを受信するデフォルトのカテゴリが用意されています。
 
 <!--
-To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html){target="_blank"}.
+To configure categories in depth — including sub-categories, fallback categories, and theme management — refer to the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-catalog/interaction-offer-catalog.html?lang=ja){target="_blank"}.
 -->
 
 * **オファー** - 独自の実施期間、ターゲットフィルター、重み付けおよびコンテンツを持つ、個別のオファー。 オファーは、受信者に表示される前に承認およびデプロイされます。 [詳細情報](create-offer.md)
