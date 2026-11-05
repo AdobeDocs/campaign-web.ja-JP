@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 1848b3a9b756587f0ec5a4e9cef5731675f4e1ae
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '309'
+ht-degree: 86%
 ---
 # ランディングページの基本を学ぶ {#get-sarted-lp}
 
@@ -41,6 +41,8 @@ ht-degree: 100%
 >Campaign Web ユーザーインターフェイスで作成するランディングページは、クライアントコンソールから作成した web フォームとは異なります。 クライアントコンソールで作成した web フォームを、Campaign Web ユーザーインターフェイスで表示または編集できません。
 >
 >Web フォームについて詳しくは、[Campaign v8（コンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=ja){target="_blank"}を参照してください。
+>
+>Campaign Web ユーザーインターフェイスで作成されたランディングページは、非表示の入力フィールドやカスタム JavaScriptをサポートしていません。 訪問者に表示されない値を計算して保存するには、代わりにクライアントコンソールでweb アプリケーションとしてフォームを作成します。
 
 ランディングページの主な機能を以下に示します。
 
