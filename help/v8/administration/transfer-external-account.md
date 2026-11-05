@@ -74,7 +74,7 @@ Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign 
 
   >[!NOTE]
   >
-  >Azure Blob Storageでは、名前のプレフィックスでファイルをフィルタリングします。パターンはフィルタリングされません。 ファイルマスクの末尾のアスタリスク （`*`）が削除されるので、`TEST_EXPORT_AZURE_*`は`TEST_EXPORT_AZURE_`で始まるすべてのファイルと一致します。 アスタリスクの後の文字（`TEST_EXPORT_AZURE_*.csv`など）はサポートされていません。 [詳しくは、Microsoft ドキュメント ](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}を参照してください。
+  >Azure Blob Storageでは、名前のプレフィックスでファイルをフィルタリングします。パターンはフィルタリングされません。 ファイルマスクの末尾のアスタリスク （`*`）が削除されるので、`TEST_EXPORT_AZURE_*`は`TEST_EXPORT_AZURE_`で始まるすべてのファイルと一致します。 アスタリスクの後の文字（`TEST_EXPORT_AZURE_*.csv`など）はサポートされていません。 [詳しくは、Microsoft ドキュメント &#x200B;](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}を参照してください。
 
 ## SFTP
 
