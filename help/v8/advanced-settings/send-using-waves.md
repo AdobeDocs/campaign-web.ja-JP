@@ -18,10 +18,10 @@ feature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: bc86048e548df4c551cde273c6100c6b5450fc5b
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 96%
 ---
 # ウェーブを使用した送信 {#send-using-waves}
 
@@ -61,6 +61,8 @@ ht-degree: 100%
    >最後のウェーブが「[有効性](delivery-settings.md#validity)」タブで定義された配信期限を過ぎていないことを確認してください。期限を過ぎている場合、一部のメッセージが送信されない可能性があります。 特別なタイポロジコントロールルールである「**[!UICONTROL ウェーブスケジュールの検証]**」では、最後のウェーブが配信の有効期限の前に計画されているかどうかが確認されます。 コントロールルールについて詳しくは、[Adobe Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ja)を参照してください。
    >
    >また、最後のウェーブを設定するときに、再試行の時間を十分にみておく必要があります。 [詳細情報](delivery-settings.md#retries)
+   >
+   >ウェーブは、配信の連絡日からスケジュールされます。 一部のウェーブの予定時刻の後に配信が開始された場合、それらのウェーブは間隔を空けずに一緒に送信されます。
 
 1. 送信状況を監視するには、[配信ログ](../monitor/delivery-logs.md)を参照してください。 処理済みのウェーブで既に送信された配信（ステータスが&#x200B;**[!UICONTROL 送信済み]**）と、残りのウェーブで送信されるウェーブ（ステータスが&#x200B;**[!UICONTROL 保留中]**）を確認できます。
 
