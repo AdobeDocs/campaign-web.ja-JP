@@ -89,4 +89,4 @@ Adobe Campaign web では、式エディターを使用すると、すべての�
 
 式エディターを使用し、メッセージをパーソナライズしたり、条件付きコンテンツを追加したりして、メッセージコンテンツを動的にする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3505238?captions=jpn&quality=12)
