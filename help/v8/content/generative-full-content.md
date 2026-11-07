@@ -217,4 +217,4 @@ AI を使用してコンテンツの作成を開始する前に、配信を設�
 
 AI を使用して、完全なメールコンテンツ、テキスト、画像を生成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428984)
+>[!VIDEO](https://video.tv.adobe.com/v/3505094?captions=jpn)
