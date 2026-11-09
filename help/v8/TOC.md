@@ -6,10 +6,10 @@ title: Adobe Campaign Web ドキュメント
 description: Campaign web ドキュメント
 breadcrumb-title: Campaign web ユーザーインターフェイス
 nudge: true
-source-git-commit: 1c4cdd5164d0cf572e9b88881bbe240b06308866
+source-git-commit: b1159f7f6d255f739c8344037f1ff1ffa6dc50fa
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 99%
+source-wordcount: '1082'
+ht-degree: 98%
 ---
 
 # Adobe Campaign Web ドキュメント {#v8}
@@ -24,7 +24,7 @@ ht-degree: 99%
     + [2025 リリース](rn/release-notes-25.md)
     + [2024 リリース](rn/release-notes-24.md)
   + {hide-from-toc}[ドキュメントの更新](rn/documentation-updates.md)
-+ Adobe Campaign の概要 {#start}
++ 基本を学ぶ {#start}
   + [はじめに](get-started/get-started.md)
   + [Campaign への接続](get-started/connect-to-campaign.md)
   + {hide-from-toc}[インターフェイスの確認](get-started/user-interface.md)
@@ -37,7 +37,7 @@ ht-degree: 99%
   + [Campaign Standard から v8 へ](rn/acs-migration.md)
   + {hide-from-toc}[AI を活用したコンテキストヘルプ](get-started/using-ai.md)
   + [FAQ](get-started/faq.md)
-+ メッセージと配信 {#msg}
++ メッセージ {#msg}
   + [メッセージの基本を学ぶ](msg/gs-messages.md)
   + [配信へのアクセス](msg/gs-deliveries.md)
   + [配信の作成](msg/create-deliveries.md)
@@ -98,7 +98,7 @@ ht-degree: 99%
     + [配信アラートの基本を学ぶ](msg/delivery-alerting.md)
     + [配信アラートダッシュボード](msg/delivery-alerting-dashboards.md)
     + [配信アラート条件](msg/delivery-alerting-criteria.md)
-+ コンテンツ管理 {#content}
++ コンテンツとパーソナライゼーション {#content}
   + 動的コンテンツを作成 {#dynamic-content}
     + [コンテンツを動的にする方法](personalization/gs-personalization.md)
     + [パーソナライゼーションの追加](personalization/personalize.md)
@@ -148,17 +148,6 @@ ht-degree: 99%
       + [ブランドのパーソナライズ](content/brands-personalize.md)
       + [生成モデルの作成と管理](content/generative-models.md)
       + [コンテンツの評価](content/brands-score.md)
-+ ランディングページ {#landing-pages}
-  + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
-  + [ランディングページの作成と公開](landing-pages/create-lp.md)
-  + [ランディングページのコンテンツのデザイン](landing-pages/lp-content.md)
-  + [ユースケースを通じて学ぶ](landing-pages/lp-use-cases.md)
-+ オファー管理 {#offers}
-  + [オファー管理の基本を学ぶ](offers/gs-offer-management.md)
-  + [オファー環境設定の確認](offers/offer-environment.md)
-  + [オファースペースの作成と管理](offers/offer-space.md)
-  + [オファーの作成と公開](offers/create-offer.md)
-  + [編集可能リストをオファースキーマに追加](offers/offer-editable-list.md)
 + プロファイルとオーディエンス {#audiences}
   + [プロファイルとオーディエンスの基本を学ぶ](audience/gs-audiences-recipients.md)
   + [ターゲティングディメンション](audience/targeting-dimensions.md)
@@ -181,7 +170,12 @@ ht-degree: 99%
   + 購読サービスの操作 {#work-with-services}
     + [購読サービスの作成と管理](audience/manage-services.md)
     + [購読者の管理](audience/manage-subscribers.md)
-+ クロスチャネルキャンペーン {#campaigns}
++ ランディングページとフォーム {#landing-pages}
+  + [ランディングページの基本を学ぶ](landing-pages/get-started-lp.md)
+  + [ランディングページの作成と公開](landing-pages/create-lp.md)
+  + [ランディングページのコンテンツのデザイン](landing-pages/lp-content.md)
+  + [ユースケースを通じて学ぶ](landing-pages/lp-use-cases.md)
++ キャンペーン {#campaigns}
   + [キャンペーンの基本を学ぶ](campaigns/gs-campaigns.md)
   + [キャンペーンへのアクセスと管理](campaigns/manage-campaigns.md)
   + [最初のキャンペーンを作成](campaigns/create-campaigns.md)
@@ -229,13 +223,19 @@ ht-degree: 99%
     + [ファイルを転送](workflows/activities/transfer-file.md)
     + [データ更新](workflows/activities/update-data.md)
     + [待機](workflows/activities/wait.md)
-+ データベースのクエリ {#query-database}
++ オファー {#offers}
+  + [オファー管理の基本を学ぶ](offers/gs-offer-management.md)
+  + [オファー環境設定の確認](offers/offer-environment.md)
+  + [オファースペースの作成と管理](offers/offer-space.md)
+  + [オファーの作成と公開](offers/create-offer.md)
+  + [編集可能リストをオファースキーマに追加](offers/offer-editable-list.md)
++ クエリとデータ {#query-database}
   + [クエリモデラーの操作](query/query-modeler-overview.md)
   + [最初のクエリの作成](query/build-query.md)
   + [式の編集](query/expression-editor.md)
   + {hide-from-toc}[クエリサンプル](query/query-samples.md)
   + [フィルターリスト](query/filter.md)
-+ レポート {#reports}
++ レポートと追跡 {#reports}
   + [監査記録](reporting/audit-trail.md)
   + [主要業績評価指標](reporting/kpis.md)
   + 標準レポート {#standard-reports}
