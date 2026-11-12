@@ -52,7 +52,7 @@ ht-degree: 2%
 | 既存のプッシュワークフローと配信を移行するには、Adobe Campaign Transition Managerにお問い合わせください。 | [プッシュ通知](marketers.md#acs-gs-marketers-push) |
 | Campaign Standardでは、テストプロファイルを&#x200B;**トラップ**&#x200B;としてマークして、最終送信を受け取ることができます。 Campaign v8で、配信のメインオーディエンスにテストプロファイルを含めるオプションを有効にします。 | [配信のテスト &#x200B;](../../v8/preview-test/test-deliveries.md) |
 | Campaign Web ユーザーインターフェイスで作成されたランディングページは、非表示の入力フィールドやカスタム JavaScriptをサポートしていません。 | [ランディングページ](../../v8/landing-pages/get-started-lp.md) |
-| Campaign Standardでは、ダイレクトメールアクティビティのアウトバウンドトランジションにも、生成されたファイルが含まれています。 Campaign v8では、ターゲット母集団のみが取り込まれます。 ファイルをサーバーに送信するには、**データ抽出** アクティビティを追加してから、**ファイル転送** アクティビティを追加します。 | [&#x200B; ダイレクトメール &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Campaign Standardでは、ダイレクトメールアクティビティのアウトバウンドトランジションにも、生成されたファイルが含まれています。 Campaign v8では、ターゲット母集団のみが取り込まれます。 ファイルをサーバーに送信するには、**データ抽出** アクティビティを追加してから、**ファイル転送** アクティビティを追加します。 | [&#x200B; ダイレクトメール &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## オーディエンス、ワークフロー、配信 {#data-and-workflows}
 
