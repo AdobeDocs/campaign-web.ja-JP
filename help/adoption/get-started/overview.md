@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 91%
+source-wordcount: '1602'
+ht-degree: 90%
 ---
 # Campaign Standard から v8 へ {#ac-acs}
 
@@ -57,6 +57,8 @@ Campaign Standard から Campaign v8 に移行する場合に、このリファ�
 1. まず、[Adobe Campaign v8 の新機能](#new)について説明します。
 
 1. 次に、役割に応じて、[Adobe Campaign Standard と Adobe Campaign v8 のエクスペリエンスの違い](#experiences)について説明します。
+
+<!-- 1. After your transition, review the [checks and troubleshooting](post-transition-checks.md). -->
 
 ## 新機能 {#new}
 
@@ -171,7 +173,7 @@ Campaign v8 への移行をスムーズに行うために、Campaign v8 に Camp
 
 * **Rest API** - Campaign Stardard で移行したユーザーは、Rest API を使用して Adobe Campaign の統合を作成し、使用するテクノロジーのパネルと Adobe Campaign をインターフェイスで接続することで独自のエコシステムを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target="_blank"}
 
-* **ランディングページ** - Campaign v8 のランディングページにいくつかの改善が加えられ、Campaign Standard と同等の機能を実現しました。 詳しくは、[リリースノート](../../v8/rn/release-notes.md#new-24-4)とランディングページ[ドキュメント](../../v8/landing-pages/get-started-lp.md)を参照してください。
+* **ランディングページ** - Campaign v8 ランディングページを改善し、Campaign Standardと連携させました。<!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). --> 詳しくは、[リリースノート](../../v8/rn/release-notes.md#new-24-4)とランディングページ[ドキュメント](../../v8/landing-pages/get-started-lp.md)を参照してください。
 
 * **ビジュアルフラグメント** - ビジュアルフラグメントは、1 つ以上のメール配信またはコンテンツテンプレートで参照できる再利用可能なビジュアルコンポーネントです。 フラグメントを変更すると、そのフラグメントを使用するすべてのコンテンツが更新されます。 この機能を使用すると、マーケティングユーザーが改善されたデザインプロセスでメッセージコンテンツを迅速に組み立てるために使用できる複数のカスタムコンテンツブロックを事前に作成できます。 [詳細情報](../../v8//content/use-visual-fragments.md)
 
@@ -195,6 +197,8 @@ Campaign Standard と Campaign v8 の用語の違いを以下に示します。
 * 配信分析は、**配信準備**&#x200B;になりました。 メッセージの準備を開始する必要がある場合は、「**準備**」ボタンをクリックします。 [詳細情報](../../v8/monitor/prepare-send.md)。
 * メールのプレビューが、「**コンテンツをシミュレート**」ボタンから使用できるようになりました。 [詳細情報](../../v8/preview-test/preview-test.md)
 * リストは、**オーディエンス**&#x200B;になりました。 [詳細情報](../../v8/audience/gs-audiences-recipients.md)。
+
+<!-- For the other differences that affect your transition, see [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md). -->
 
 
 ## 新しいユーザーエクスペリエンス

@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 071900a6c0b717161ae123097aeae8bf9e97898c
 workflow-type: tm+mt
-source-wordcount: '2851'
-ht-degree: 100%
+source-wordcount: '2849'
+ht-degree: 98%
 ---
 # マーケター向けの基本を学ぶ {#acs-gs-marketers}
 
@@ -107,7 +107,7 @@ Adobe Campaign では、プロファイルはデータベースに保存され�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3453203?captions=jpn&quality=12&learn=on){transcript=true}
 
-詳しくは、[ オーディエンスの基本を学ぶ](../../v8/audience/manage-audience.md){target="_blank"}を参照してください。
+詳しくは、[&#x200B; オーディエンスの基本を学ぶ](../../v8/audience/manage-audience.md){target="_blank"}を参照してください。
 
 Campaign Standard と同様に、配信にコントロール母集団を追加できます。 コントロール母集団を定義して、オーディエンスの一部にメッセージを送信しないようにし、配信後の動作をメインターゲットと比較できます。 このオプションは、キャンペーンの影響を測定するのに役立ちます。
 [コントロール母集団の設定](../../v8/audience/control-group.md){target="_blank"}方法について説明します。
@@ -231,7 +231,7 @@ Campaign web ユーザーインターフェースを使用すると、マーケ�
 >
 >* キャンセル済み／再試行中のいずれかのステータスにある配信は、キャンセル済み配信として移行されました。
 >
->* トラッキングリンク、ミラーページ URL リンク、購読／購読解除リンクは Campaign Standard と同様に機能します。
+>* Campaign v8から送信された配信のトラッキングリンク、ミラーページ URL リンク、サブスクリプション/購読解除リンクは、Campaign v8標準に従います。
 >
 >次の節も参照してください。[トラッキングとモニタリング](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}、Adobe Campaign の[ブランディング](../../v8/administration/branding/branding-gs.md)。
 
@@ -375,7 +375,7 @@ Campaign v8 では、ダイレクトメール配信の作成、テスト、送�
 
 Adobe Campaign v8 web ユーザーインターフェイスには、ランディングページの再考されたユーザーエクスペリエンスが付属しています。 Campaign では、ランディングページを作成、設計および共有できます。 ランディングページでは、ユーザーをオンラインフォームに誘導して、データを更新したり、通信の受信をオプトイン／オプトアウトしたり、ニュースレターなどの特定のサービスを購読したりできます。
 
-Campaign Standard ユーザーが Campaign v8 に移行する場合は、既存のランディングページが Campaign web ユーザーインターフェイスに移行されます。 同じ範囲の機能にアクセスできます。
+Campaign Standard ユーザーがCampaign v8に移行すると、既存のランディングページがCampaign Web ユーザーインターフェイスに移行されます。<!-- Some differences apply, as listed in [Differences between Campaign Standard and Campaign v8](acs-v8-differences.md#channels). -->
 
 ランディングページについて詳しくは、次の節を参照してください。
 

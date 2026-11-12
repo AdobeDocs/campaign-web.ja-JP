@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: b4c02b038a1cb398f61d30a601b0df61f23f0432
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 97%
 ---
 # Campaign v8 への Campaign Standard の移行 {#acs-to-ac}
 
@@ -96,7 +96,7 @@ Campaign v8 へのスムーズな移行を行うために、Campaign v8 に Camp
 
 * **REST API**：Campaign Standard に移行したユーザーは、REST API を使用して Adobe Campaign の統合を作成し、Adobe Campaign を他のテクノロジーと連携させてエコシステムを作成できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target="_blank"}。
 
-* **ランディングページ**：Campaign v8 ランディングページには、Campaign Standard と同等の機能を確保するための改善が含まれています。 詳しくは、[リリースノート](../rn/release-notes.md#new-24-4)とランディングページ[ドキュメント](../landing-pages/get-started-lp.md)を参照してください。
+* **ランディングページ**: Campaign v8 ランディングページには、Campaign Standardと連携するための改善点が含まれています。<!-- Some differences remain, as listed in [Differences between Campaign Standard and Campaign v8](../../adoption/get-started/acs-v8-differences.md#channels). --> 詳しくは、[リリースノート](../rn/release-notes.md#new-24-4)とランディングページ[ドキュメント](../landing-pages/get-started-lp.md)を参照してください。
 
 * **ビジュアルフラグメント**：ビジュアルフラグメントは、1 つ以上のメール配信またはコンテンツテンプレートで参照される、再利用可能なビジュアルコンポーネントです。 フラグメントを変更すると、そのフラグメントを使用するすべてのコンテンツが更新されます。 この機能により、マーケティングユーザーは、改善されたデザインプロセスでメッセージを迅速に組み立てるために、複数のカスタムコンテンツブロックを事前に作成できます。 [詳細情報](../content/use-visual-fragments.md)。
 
