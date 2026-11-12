@@ -5,16 +5,18 @@ title: Adobe Campaign 導入ガイド
 user-guide-description: Campaign Standard ユーザーが Campaign v8 に移行する場合の開始方法について説明します。
 description: Campaign Standard ユーザー向けの Campaign v8 の開始方法について説明します。
 breadcrumb-title: Campaign 導入ガイド
-source-git-commit: aaf74b9c924c7c0bb3150478e812aec71c579c40
+source-git-commit: 11cf5f2a6e3e77d0747a0b88758ce3fe871e66fd
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '96'
+ht-degree: 90%
 ---
 
 # Adobe Campaign 導入ガイド {#acs-to-ac}
 
 + [Campaign 導入ガイド](home.md)
 + [Standard から v8 へ](get-started/overview.md)
++ {hide-from-toc}[Standardとv8](get-started/acs-v8-differences.md)の違い
++ {hide-from-toc}[移行後のチェック ](get-started/post-transition-checks.md)
 + [マーケター向けの基本を学ぶ](get-started/marketers.md)
 + [管理者／開発者向けの基本を学ぶ](get-started/admin-developers.md)
 + [ユーザーアクセス管理](get-started/user-management-acs.md)
