@@ -36,23 +36,23 @@ ht-degree: 2%
 ---
 # Campaign StandardとCampaign v8の違い {#acs-v8-differences}
 
-ほとんどのコンセプトは、Campaign StandardとCampaign v8で同じです。 このページでは、移行後に影響を与える違いを収集し、それぞれの違いを説明するページにリンクします。 [ マーケター](marketers.md)および[管理者と開発者](admin-developers.md)のガイドを補完します。
+ほとんどのコンセプトは、Campaign StandardとCampaign v8で同じです。 このページでは、移行後に影響を与える違いを収集し、それぞれの違いを説明するページにリンクします。 [&#x200B; マーケター](marketers.md)および[管理者と開発者](admin-developers.md)のガイドを補完します。
 
 * 用語の変更については、[Campaign StandardとCampaign v8](overview.md#experiences)の主な違いを参照してください。
-* 移行を実行するためのチェックと、移行後に報告された問題については、[移行後のチェックとトラブルシューティング ](post-transition-checks.md)を参照してください。
-* クライアントコンソールでのみ使用できる機能については、[Campaign WebおよびCampaign クライアントコンソール ](../../v8/get-started/capability-matrix.md)を参照してください。
+* 移行を実行するためのチェックと、移行後に報告された問題については、[移行後のチェックとトラブルシューティング &#x200B;](post-transition-checks.md)を参照してください。
+* クライアントコンソールでのみ使用できる機能については、[Campaign WebおよびCampaign クライアントコンソール &#x200B;](../../v8/get-started/capability-matrix.md)を参照してください。
 
 ## チャネルとコンテンツ {#channels}
 
-メッセージの作成と送信の手順は、両方の製品で似ています。詳しくは、[ マーケター向けガイド ](marketers.md)を参照してください。 以下の違いは、チャネルの可用性、テスト配信、ランディングページ、ダイレクトメールワークフローに関するものです。
+メッセージの作成と送信の手順は、両方の製品で似ています。詳しくは、[&#x200B; マーケター向けガイド &#x200B;](marketers.md)を参照してください。 以下の違いは、チャネルの可用性、テスト配信、ランディングページ、ダイレクトメールワークフローに関するものです。
 
 | 変更点 | 詳細情報 |
 |---|---|
-| アプリ内チャネルは、Campaign v8では使用できません。 | [ アプリ内チャネル ](marketers.md#acs-gs-marketers-in-app) |
+| アプリ内チャネルは、Campaign v8では使用できません。 | [&#x200B; アプリ内チャネル &#x200B;](marketers.md#acs-gs-marketers-in-app) |
 | 既存のプッシュワークフローと配信を移行するには、Adobe Campaign Transition Managerにお問い合わせください。 | [プッシュ通知](marketers.md#acs-gs-marketers-push) |
-| Campaign Standardでは、テストプロファイルを&#x200B;**トラップ**&#x200B;としてマークして、最終送信を受け取ることができます。 Campaign v8で、配信のメインオーディエンスにテストプロファイルを含めるオプションを有効にします。 | [配信のテスト ](../../v8/preview-test/test-deliveries.md) |
+| Campaign Standardでは、テストプロファイルを&#x200B;**トラップ**&#x200B;としてマークして、最終送信を受け取ることができます。 Campaign v8で、配信のメインオーディエンスにテストプロファイルを含めるオプションを有効にします。 | [配信のテスト &#x200B;](../../v8/preview-test/test-deliveries.md) |
 | Campaign Web ユーザーインターフェイスで作成されたランディングページは、非表示の入力フィールドやカスタム JavaScriptをサポートしていません。 | [ランディングページ](../../v8/landing-pages/get-started-lp.md) |
-| Campaign Standardでは、ダイレクトメールアクティビティのアウトバウンドトランジションにも、生成されたファイルが含まれています。 Campaign v8では、ターゲット母集団のみが取り込まれます。 ファイルをサーバーに送信するには、**データ抽出** アクティビティを追加してから、**ファイル転送** アクティビティを追加します。 | [ ダイレクトメール ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Campaign Standardでは、ダイレクトメールアクティビティのアウトバウンドトランジションにも、生成されたファイルが含まれています。 Campaign v8では、ターゲット母集団のみが取り込まれます。 ファイルをサーバーに送信するには、**データ抽出** アクティビティを追加してから、**ファイル転送** アクティビティを追加します。 | [&#x200B; ダイレクトメール &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## オーディエンス、ワークフロー、配信 {#data-and-workflows}
 
@@ -60,10 +60,10 @@ ht-degree: 2%
 
 | 変更点 | 詳細情報 |
 |---|---|
-| オーディエンスは移行中に変換されます。 例えば、「クエリ」アクティビティで作成されたオーディエンスは定義済みのフィルターになり、ファイルタイプのオーディエンスはディメンションのないリストタイプのオーディエンスになります。 | [ オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
+| オーディエンスは移行中に変換されます。 例えば、「クエリ」アクティビティで作成されたオーディエンスは定義済みのフィルターになり、ファイルタイプのオーディエンスはディメンションのないリストタイプのオーディエンスになります。 | [&#x200B; オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
 | Campaign Standardで実行されたワークフローの履歴ログは移行されません。 | [ワークフローの作成](marketers.md#acs-gs-marketers-wf) |
-| Campaign Standardでは、定期的なメールの集計期間を選択できます。 このオプションは、Campaign v8では使用できません。 | [ チャネルアクティビティ ](../../v8/workflows/activities/channels.md) |
-| Campaign Standardでは、**ファイル転送** アクティビティでファイルを英数字で並べ替えることができます。 このオプションは、Campaign v8では使用できません。 | [ ファイルの転送](../../v8/workflows/activities/transfer-file.md) |
+| Campaign Standardでは、定期的なメールの集計期間を選択できます。 このオプションは、Campaign v8では使用できません。 | [&#x200B; チャネルアクティビティ &#x200B;](../../v8/workflows/activities/channels.md) |
+| Campaign Standardでは、**ファイル転送** アクティビティでファイルを英数字で並べ替えることができます。 このオプションは、Campaign v8では使用できません。 | [&#x200B; ファイルの転送](../../v8/workflows/activities/transfer-file.md) |
 | 動的レポートでは、メール配信、メール配信を伴うキャンペーン、トランザクションメッセージを取り上げます。 | [レポート](marketers.md#acs-gs-marketers-reporting) |
 
 ## アクセスとセキュリティ {#access}
@@ -72,10 +72,10 @@ Campaign Standardのセキュリティグループ、ロール、組織単位は
 
 | 変更点 | 詳細情報 |
 |---|---|
-| セキュリティグループ、役割、組織単位は、オペレーターグループ、名前付き権限、フォルダー権限にマッピングされます。 カスタムの役割は移行されません。 | [ ユーザーアクセス管理](user-management-acs.md) |
-| **データモデル**&#x200B;の役割を持ち、**管理**&#x200B;の役割を持たないユーザーは、**管理**&#x200B;へのアクセス権を取得します。 | [ ユーザーアクセス管理](user-management-acs.md#migration-approach-from-user-roles-to-named-rights) |
+| セキュリティグループ、役割、組織単位は、オペレーターグループ、名前付き権限、フォルダー権限にマッピングされます。 カスタムの役割は移行されません。 | [&#x200B; ユーザーアクセス管理](user-management-acs.md) |
+| **データモデル**&#x200B;の役割を持ち、**管理**&#x200B;の役割を持たないユーザーは、**管理**&#x200B;へのアクセス権を取得します。 | [&#x200B; ユーザーアクセス管理](user-management-acs.md#migration-approach-from-user-roles-to-named-rights) |
 | 並列の組織単位を持つセキュリティ グループに割り当てられたユーザーは、Campaign v8でより広範なアクセス権を持つことができます。 | [組織ユニットの並列割り当て](user-management-acs.md#parallel-assignments) |
-| 実行インスタンスからトランザクション APIにアクセスするには、新しい製品プロファイルが必要です。 | [製品プロファイルマッピング ](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
+| 実行インスタンスからトランザクション APIにアクセスするには、新しい製品プロファイルが必要です。 | [製品プロファイルマッピング &#x200B;](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
 | プライバシーリクエストは、Campaign Standard環境がアクティブな状態を維持している間に、Campaign StandardとCampaign v8の両方に送信されます。 | [プライバシーと同意](admin-developers.md#privacy-and-consent) |
 
 ## 管理、トラッキング、ミラーページ {#admin-tracking}
@@ -84,12 +84,12 @@ Campaign Standardのセキュリティグループ、ロール、組織単位は
 
 | 変更点 | 詳細情報 |
 |---|---|
-| 移行前にCampaign Standardから送信された配信のミラーページは使用できません。 Campaign v8から送信された配信のミラーページは、通常どおり機能します。 | [ ミラーページ ](../../v8/email/mirror-page.md) |
-| 移行前にCampaign Standardから送信されたリアルタイムのトランザクション配信のトラッキングデータがCampaign v8でキャプチャされない。 これらのメッセージのリンクは引き続きリダイレクトされます。 | [ トランザクションメッセージの監視](../../v8/transactional-messaging/monitor-transactional.md) |
-| ドラフト配信のトラッキングされたURL設定は保持されません。 移行後、トラッキング、ミラーページ、サブスクリプションリンクはCampaign v8標準に従い、リンクはデフォルトで追跡されます。 | [ リンクを追加してメッセージを追跡](../../v8/email/message-tracking.md) |
-| 地理的単位は使用できません。 地理的単位に基づくアクセス制御が失われます。 | [ アクセス制御](../../v8/get-started/connect-to-campaign.md#access-control) |
+| 移行前にCampaign Standardから送信された配信のミラーページは使用できません。 Campaign v8から送信された配信のミラーページは、通常どおり機能します。 | [&#x200B; ミラーページ &#x200B;](../../v8/email/mirror-page.md) |
+| 移行前にCampaign Standardから送信されたリアルタイムのトランザクション配信のトラッキングデータがCampaign v8でキャプチャされない。 これらのメッセージのリンクは引き続きリダイレクトされます。 | [&#x200B; トランザクションメッセージの監視](../../v8/transactional-messaging/monitor-transactional.md) |
+| ドラフト配信のトラッキングされたURL設定は保持されません。 移行後、トラッキング、ミラーページ、サブスクリプションリンクはCampaign v8標準に従い、リンクはデフォルトで追跡されます。 | [&#x200B; リンクを追加してメッセージを追跡](../../v8/email/message-tracking.md) |
+| 地理的単位は使用できません。 地理的単位に基づくアクセス制御が失われます。 | [&#x200B; アクセス制御](../../v8/get-started/connect-to-campaign.md#access-control) |
 | エンティティの&#x200B;**作成者**&#x200B;および&#x200B;**変更者**&#x200B;情報は、移行後に使用できません。 | [監査記録](admin-developers.md#acs-gs-admin-audit-trail) |
-| ブランディングサブドメイン URLは、Campaign v8標準に合わせて調整されます。 非標準のブランディング設定は移行されず、デフォルトのブランドを通じて提供されます。 | [ ブランディング ](../../v8/administration/branding/branding-gs.md) |
+| ブランディングサブドメイン URLは、Campaign v8標準に合わせて調整されます。 非標準のブランディング設定は移行されず、デフォルトのブランドを通じて提供されます。 | [&#x200B; ブランディング &#x200B;](../../v8/administration/branding/branding-gs.md) |
 
 ## APIと統合 {#apis-and-integrations}
 

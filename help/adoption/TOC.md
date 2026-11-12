@@ -15,8 +15,8 @@ ht-degree: 90%
 
 + [Campaign 導入ガイド](home.md)
 + [Standard から v8 へ](get-started/overview.md)
-+ {hide-from-toc}[Standardとv8](get-started/acs-v8-differences.md)の違い
-+ {hide-from-toc}[移行後のチェック ](get-started/post-transition-checks.md)
++ {hide-from-toc}[Standardとv8の違い](get-started/acs-v8-differences.md)
++ {hide-from-toc}[移行後のチェック &#x200B;](get-started/post-transition-checks.md)
 + [マーケター向けの基本を学ぶ](get-started/marketers.md)
 + [管理者／開発者向けの基本を学ぶ](get-started/admin-developers.md)
 + [ユーザーアクセス管理](get-started/user-management-acs.md)

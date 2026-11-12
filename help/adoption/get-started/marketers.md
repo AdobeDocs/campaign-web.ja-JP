@@ -107,7 +107,7 @@ Adobe Campaign では、プロファイルはデータベースに保存され�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
-詳しくは、[ オーディエンスの基本を学ぶ](../../v8/audience/manage-audience.md){target="_blank"}を参照してください。
+詳しくは、[&#x200B; オーディエンスの基本を学ぶ](../../v8/audience/manage-audience.md){target="_blank"}を参照してください。
 
 Campaign Standard と同様に、配信にコントロール母集団を追加できます。 コントロール母集団を定義して、オーディエンスの一部にメッセージを送信しないようにし、配信後の動作をメインターゲットと比較できます。 このオプションは、キャンペーンの影響を測定するのに役立ちます。
 [コントロール母集団の設定](../../v8/audience/control-group.md){target="_blank"}方法について説明します。
