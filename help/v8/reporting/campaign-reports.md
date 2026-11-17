@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '477'
+ht-degree: 70%
 ---
 # キャンペーンレポートの基本を学ぶ {#campaign-reports}
 
@@ -64,3 +64,43 @@ ht-degree: 100%
 1. **[!UICONTROL URL とクリックストリーム]**&#x200B;から、「**[!UICONTROL 上位訪問リンク]**」または「**[!UICONTROL 期間]**」を選択します。
 
    「**[!UICONTROL 表示条件]**」オプションを使用すると、URL、ラベルまたはカテゴリでフィルタリングできます。
+
+## LINE チャネルのレポート {#line-reports}
+
+LINE チャネルで使用可能なレポートは以下のとおりです。
+
+### 配信の概要 {#line-delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_deliveries_overview"
+>title="配信の概要"
+>abstract="LINEの配信メッセージ、配信メッセージ、配信エラーを表示します。"
+
+**[!UICONTROL 配信の概要]** レポートには、LINE配信の配信、配信メッセージ、配信エラーのメッセージが表示されます。
+
+#### 初期ターゲットオーディエンス統計 {#line-initial-target}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_target"
+>title="初期ターゲットオーディエンス統計"
+>abstract="LINE配信が実行される前に、最初のターゲット母集団と除外されたプロファイルを確認します。"
+
+**[!UICONTROL 初期ターゲットオーディエンス統計]** テーブルには、初期ターゲット母集団と、LINE配信が実行される前に除外されたプロファイルが表示されます。
+
+#### 実行統計 {#line-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_exec_stats"
+>title="実行統計"
+>abstract="配信されたメッセージやエラーなど、LINE メッセージの処理と配信の結果を確認します。"
+
+**[!UICONTROL 実行統計]** テーブルには、配信されたメッセージとエラーを含む、LINE メッセージの処理と配信の結果が表示されます。
+
+#### クリックストリーム {#line-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_line_click_streams"
+>title="クリックストリーム"
+>abstract="LINE配信の受信者によって生成された追跡されたリンクアクティビティを表示します。"
+
+「**[!UICONTROL 生成クリックストリーム]**」テーブルには、LINE配信の受信者が生成した追跡リンクアクティビティが表示されます。
