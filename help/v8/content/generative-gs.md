@@ -14,10 +14,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '930'
+ht-degree: 95%
 ---
 # 「コンテンツを生成」の操作 {#generative-gs}
 
@@ -124,6 +124,7 @@ Adobe Campaign Web のコンテンツを生成には、次の制限が適用さ�
 * メール、プッシュ、SMS の各チャネルにのみ使用できます。
 * 生成 AI コンテンツは必ずしも正確ではない可能性があります。 エンジニアがモデルを改善できるよう、フィードバックを共有してください。
 * 複数のブランドアセットをアップロードできますが、特定の生成に利用できるのは 1 つだけです。
+* AIが生成した画像へのリンクは一時的なもので、受信者に画像を配信するために使用することはできません。 配信を保存すると、生成された画像がCampaign インスタンスに保存され、リンクが置き換えられます。 配信を送信する前に保存します。
 
 ## コンテンツを生成機能 {#generative-features}
 

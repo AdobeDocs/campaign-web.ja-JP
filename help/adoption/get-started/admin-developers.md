@@ -77,9 +77,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '3256'
+source-wordcount: '3253'
 ht-degree: 98%
 ---
 # 管理者と開発者向けの基本を学ぶ {#acs-gs-admin}
@@ -377,7 +377,7 @@ Campaign v8 では、タイポロジルールに特定のキャンペーンの�
 
 ## Adobe Campaign 統合の管理 {#acs-gs-integrations}
 
-Campaign インスタンスを Adobe Experience Cloud ソリューションと接続して、それぞれの機能を組み合わせることができます。 Adobe Campaign にはいくつかのコネクタが付属しており、それらを使用して、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有と同期などを行うことができます。 ソリューションを組み合わせる方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/integration){target="_blank"}を参照してください。
+Campaign インスタンスを[!DNL Adobe CX Enterprise]個のソリューションと接続して、機能を組み合わせることができます。 Adobe Campaign にはいくつかのコネクタが付属しており、それらを使用して、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有と同期などを行うことができます。 ソリューションを組み合わせる方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/integration){target="_blank"}を参照してください。
 
 Campaign Standard ユーザーが Campaign v8 に移行する場合は、次の内容が適用されます。
 

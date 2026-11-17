@@ -17,10 +17,10 @@ feature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 100%
+source-wordcount: '1255'
+ht-degree: 96%
 ---
 # 画像を生成 {#generative-image}
 
@@ -32,6 +32,10 @@ ht-degree: 100%
 >Adobe Campaign Web の AI を使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 Adobe Campaign Web で AI を使用して、メール、ランディングページ、プッシュ通知をまたいでメッセージを強化する魅力的なビジュアルコンテンツを作成します。 AI は、画像の生成と最適化に役立ち、コンテンツが視覚的に魅力的で、ブランドに即したものなるようにします。
+
+>[!IMPORTANT]
+>
+>AIが生成した画像へのリンクは一時的なもので、受信者に画像を配信するために使用することはできません。 配信を保存すると、生成された画像がCampaign インスタンスに保存され、リンクが置き換えられます。 配信を送信する前に保存します。
 
 ## メールとランディングページの場合 {#email-web-channels}
 

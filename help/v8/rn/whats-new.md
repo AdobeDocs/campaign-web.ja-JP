@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1326'
-ht-degree: 100%
+source-wordcount: '1317'
+ht-degree: 96%
 ---
 # 新機能 {#new}
 
@@ -48,14 +48,14 @@ ht-degree: 100%
 
 **最新のわかりやすい統一されたエクスペリエンス**
 
-Campaign の新しい web ユーザーインターフェイスは、すべての Adobe Experience Cloud ソリューションおよびアプリと連携して、新しいユーザーエクスペリエンスを提供します。 提供される機能は次のとおりです。
+Campaignの新しいWeb ユーザーインターフェイスは、[!DNL Adobe CX Enterprise]のすべてのソリューションとアプリに接続された新しいユーザーエクスペリエンスを提供します。 提供される機能は次のとおりです。
 
 * 単一の共有ユーザーセッションで新しい Campaign インターフェイスや他のアドビソリューションにアクセス
 * 左側のパネルからすべてのメニューとフォルダーにアクセスできる、新しいナビゲーションエクスペリエンス
 * 上部バーのソリューションと組織の切り替えボタン
 * コミュニティ、ヘルプセンター、サポートへの直接アクセスを備えた統合シェルの統合
 
-Adobe Experience Cloud にログインし、Campaign に接続する方法については、[このページ](../get-started/connect-to-campaign.md)を参照してください。
+[!DNL Adobe CX Enterprise]にログインして[このページ &#x200B;](../get-started/connect-to-campaign.md)でCampaignに接続する方法について説明します。
 
 
 **新しい強力な機能とシームレスなプロセス**
@@ -178,7 +178,7 @@ Campaign Standard ユーザーが Campaign v8 に移行する場合は、[この
 * 管理機能と高度な設定機能は、Campaign Web ユーザーインターフェイスでは使用できません。
 * レポート指標（開封数やトラッキングデータなど）は、1 時間ごとに更新されます。
 * 配信ダッシュボードの KPI は 5 分ごとに更新されます。 - ただし、配信の準備はリアルタイムです。
-* 上部のバーにある Adobe Experience Cloud 通知と統合ヘルプは、まだ統合されていません。
+* 上部のバーで利用できる[!DNL Adobe CX Enterprise]通知と統合ヘルプはまだ統合されていません。
 
 Campaign クライアントコンソールで作成または変更されたワークフローを Campaign web ユーザーインターフェイスで使用する場合、特定のガードレールと制限が適用されます。 詳しくは、[この節](../get-started/guardrails.md)を参照してください。
 

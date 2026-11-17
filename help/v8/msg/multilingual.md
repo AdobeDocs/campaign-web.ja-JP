@@ -10,10 +10,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 100%
+source-wordcount: '1509'
+ht-degree: 98%
 ---
 # 多言語配信の設定 {#multilingual-delivery}
 
@@ -33,10 +33,14 @@ Campaign web ユーザーインターフェイスでは、メール配信を多�
 
 現在、多言語機能は、メール、プッシュ通知、トランザクションメッセージおよび SMS で使用できます。
 
+>[!NOTE]
+>
+>単一バリアントの多言語配信はサポートされていません。 メッセージで必要な言語が1つしかない場合は、代わりに標準（単一）配信を作成します。
+
 多言語配信を設定するには、次の主な手順に従います。
 
 1. 言語バリアントを追加します。[詳細情報](#add-variant)
-1. 各バリアントのコンテンツを定義します。[詳細情報 ](#define-content)
+1. 各バリアントのコンテンツを定義します。[詳細情報 &#x200B;](#define-content)
 1. 言語バリアントを管理します。[詳細情報](#manage-variant)
 
 ## 言語バリアントの追加{#add-variant}

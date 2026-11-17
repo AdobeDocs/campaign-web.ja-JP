@@ -14,10 +14,10 @@ product_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 77%
 ---
 # 独自のメールコンテンツをコーディング {#code-content}
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >この方法には、HTML の知識が必要です。
+
+>[!IMPORTANT]
+>
+>電子メールコンテンツでHTML `<base>` タグを使用しないでください。 セキュリティ上の理由から、このタグはサポートされておらず、コンテンツエディターでのコンテンツの読み込みを妨げる可能性があります。 代わりに、リンクと外部リソースに絶対URLを使用してください。
 
 1. [E メールデザイナー](get-started-email-designer.md)のホームページで、「**[!UICONTROL 独自にコーディング]**」を選択します。
 

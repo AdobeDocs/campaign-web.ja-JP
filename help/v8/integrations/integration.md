@@ -36,14 +36,14 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 95%
 ---
 # Campaign およびその他のアドビソリューションの操作 {#gs-integration}
 
-Campaign 環境を Adobe Experience Cloud ソリューションおよびアプリケーションと接続して、それぞれの機能を組み合わせることができます。
+Campaign環境を[!DNL Adobe CX Enterprise]個のソリューションとアプリケーションに接続して、機能を組み合わせることができます。
 
 Adobe Campaign には、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有と同期を可能にするいくつかのコネクタが含まれています。 アドビがこれらの接続を設定します。
 

@@ -52,9 +52,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 980797ae8e315192d95957fcfd5dbdb68bb6ab32
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2543'
 ht-degree: 99%
 ---
 # Campaign web および Campaign クライアントコンソール {#capabilities-matrix}
@@ -185,14 +185,14 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい�
 
 オファーカタログを管理する方法について詳しくは、[Campaign v8（クライアントコンソール）ドキュメント](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=ja){target="_blank"}を参照してください。
 
-## Adobe Experience Cloud ソリューションとの統合 {#exc-capabilities}
+## [!DNL Adobe CX Enterprise] ソリューションとの統合 {#exc-capabilities}
 
 新しい Campaign の現代的な UI は、マーケティングキャンペーンのデザインと配信を簡素化し、Adobe Experience Platform と Adobe Experience Manager などの他のアドビソリューションとの一貫性をもたらします。
 
 次の統合は、Adobe Campaign クライアントコンソールから使用できますが、Campaign web ユーザーインターフェイスではまだ使用できません。 提供されたリンクを使用して、Campaign v8（クライアントコンソール）ドキュメントを参照し、これらの統合について詳細を確認してください。
 
 * Adobe Analytics データの使用と KPI の共有。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=ja){target="_blank"}
-* Adobe Experience Cloud（Adobe Audience Manager）とのオーディエンスの共有。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja){target="_blank"}
+* [!DNL Adobe CX Enterprise]様（Adobe Audience Manager）とオーディエンスを共有しています。 [詳細情報](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=ja){target="_blank"}
 * Adobe Target との統合。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-at.html?lang=ja){target="_blank"}
 * Adobe Experience Cloud トリガーとの統合。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-triggers.html?lang=ja){target="_blank"}
 
@@ -247,7 +247,7 @@ Campaign web ユーザーインターフェイスでは、コンテンツ、配�
 
 ## 権限 {#permissions-capabilities}
 
-Campaign ユーザーは、Adobe ID を使用して、Adobe Identity Management System（IMS）を通じてのみ Campaign web ユーザーインターフェイスにアクセスできます。 また、ユーザーに付与される権限は、Campaign web ユーザーインターフェイスにも適用されます。
+Campaign ユーザーは、Adobe ID を使用して、Adobe ID 管理システム（IMS）を通じてのみ Campaign web ユーザーインターフェイスにアクセスできます。 また、ユーザーに付与される権限は、Campaign web ユーザーインターフェイスにも適用されます。
 
 [この節](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=ja)で詳しく説明されているように、権限は Adobe Admin Console と Adobe Campaign クライアントコンソールで定義されます。 Adobe Campaign web ユーザーインターフェイスからは、権限に対するアクションは実行できません。
 

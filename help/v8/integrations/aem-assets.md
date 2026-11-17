@@ -14,16 +14,16 @@ product_v2:
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 100%
+source-wordcount: '490'
+ht-degree: 96%
 ---
 # [!DNL Adobe Experience Manager Assets as a Cloud Service] を使用したアセットの管理{#aem-assets}
 
 ## [!DNL Adobe Experience Manager Assets as a Cloud Service] の基本を学ぶ {#get-started-assets-essentials}
 
-[!DNL Adobe Experience Manager Assets as a Cloud Service] は、クリエイティブワークフローを合理化し、デジタルアセットを一元管理してシームレスなエクスペリエンス配信を実現する、統合された共同プラットフォームです。 これにより、承認された実稼動アセットの整理、タグ付け、取得が簡単になり、チーム間でのブランドの一貫性が確保されます。 使いやすいインターフェイスを備えた [!DNL Assets as Cloud Service] を使用すると、アドビのクリエイティブアプリケーションと Experience Cloud アプリケーション内のアセットに即座にアクセスして共有できます。
+[!DNL Adobe Experience Manager Assets as a Cloud Service] は、クリエイティブワークフローを合理化し、デジタルアセットを一元管理してシームレスなエクスペリエンス配信を実現する、統合された共同プラットフォームです。 これにより、承認された実稼動アセットの整理、タグ付け、取得が簡単になり、チーム間でのブランドの一貫性が確保されます。 使いやすいインターフェイスを備えた[!DNL Assets as Cloud Service]を使用すると、[!DNL Adobe Creative Cloud for enterprise]および[!DNL Adobe CX Enterprise] アプリケーション内のアセットにすばやくアクセスして共有できます。
 
 詳しくは、[Adobe Experience Manager Assets as a Cloud Serviceドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=ja){target="_blank"}を参照してください。
 

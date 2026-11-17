@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 62a8e2ac2a726b568e3c25b4e435d4de2f305b5f
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '509'
+ht-degree: 62%
 ---
 # グローバルレポートの基本を学ぶ {#global-report-gs}
 
@@ -58,10 +58,59 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL フォルダーを選択]**」フィールドで、特定のフォルダーから配信またはキャンペーンをターゲットにするかどうかを選択します。
 
-   ![ 配信またはキャンペーンを選択するための「フォルダーを選択」フィールドを示すスクリーンショット](assets/global_report_manage_2.png){zoomable="yes"}
+   ![&#x200B; 配信またはキャンペーンを選択するための「フォルダーを選択」フィールドを示すスクリーンショット](assets/global_report_manage_2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ルールを追加]**」をクリックしてクエリの作成を開始し、レポートデータをより適切にフィルタリングします。 [詳しくは、クエリモデラーの使用方法を参照してください](../query/query-modeler-overview.md)。
 
 1. **[!UICONTROL URL とクリックストリーム]**&#x200B;から、**[!UICONTROL 上位訪問リンク]**&#x200B;または&#x200B;**[!UICONTROL 期間]**&#x200B;を選択します。
 
    「**[!UICONTROL 表示条件]**」オプションを使用すると、URL、ラベルまたはカテゴリでフィルタリングできます。
+
+## LINE チャネルのレポート {#line-reports}
+
+LINE チャネルで使用可能なレポートは以下のとおりです。
+
+### 配信の概要 {#line-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_deliveries_overview"
+>title="LINE配信の概要"
+>abstract="LINEの配信メッセージ、配信メッセージ、配信エラーを表示します。"
+
+**[!UICONTROL 配信の概要]** レポートには、配信するメッセージ、配信されたメッセージ、およびLINEの配信エラーが表示されます。
+
+### ターゲットオーディエンス {#line-targeted-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_targeted_audience"
+>title="LINE ターゲットオーディエンス"
+>abstract="LINE配信がターゲットとするオーディエンスと、その配信結果を表示します。"
+
+**[!UICONTROL ターゲットオーディエンス]**&#x200B;のグラフとテーブルには、LINE配信によってターゲティングされたオーディエンスと、その結果の配信結果が表示されます。
+
+### 配信統計 {#line-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_delivery_stats"
+>title="LINE配信の統計"
+>abstract="配信メッセージ、配信メッセージ、配信エラーなど、LINE メッセージの主要な配信結果を表示します。"
+
+**[!UICONTROL 配信統計]**&#x200B;のグラフとテーブルには、配信メッセージ、配信メッセージ、配信エラーなど、LINE メッセージの主要な配信結果が表示されます。
+
+### 除外の理由 {#line-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_line_exclusions"
+>title="LINEの除外の原因"
+>abstract="対象プロファイルがLINE配信から除外された理由（適格性、検証、設定ルールなど）を表示します。"
+
+除外の原因&#x200B;**[!UICONTROL グラフとテーブルには、ターゲットプロファイルがLINE配信から除外された理由（適格性、検証、設定ルールなど）が表示されます。]**
+
+### 配信スループット {#line-delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_line"
+>title="LINE配信スループット"
+>abstract="LINE メッセージの送信率を経時的に表示します。"
+
+**[!UICONTROL 配信スループット]** レポートには、LINE メッセージの送信率が時間の経過とともに表示されます。
