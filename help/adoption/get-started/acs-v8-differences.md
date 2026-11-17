@@ -29,18 +29,18 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 982fb1a5060db5b4eac6c6f68487116d9a72e109
+source-git-commit: 5a6b111d1aaa2a34ce165eaf6d1b1a997fd8bc85
 workflow-type: tm+mt
-source-wordcount: '1926'
+source-wordcount: '1916'
 ht-degree: 5%
 ---
 # Campaign StandardとCampaign v8の違い {#acs-v8-differences}
 
-ほとんどのコンセプトは、Campaign StandardとCampaign v8で同じです。 このページでは、移行後に影響を与える違いを収集し、それぞれの違いを説明するページにリンクします。 [&#x200B; マーケター](marketers.md)および[管理者と開発者](admin-developers.md)のガイドを補完します。
+ほとんどのコンセプトは、Campaign StandardとCampaign v8で同じです。 このページでは、移行後に影響を与える違いを収集し、それぞれの違いを説明するページにリンクします。 [ マーケター](marketers.md)および[管理者と開発者](admin-developers.md)のガイドを補完します。
 
 * 用語の変更については、[用語](#terminology)を参照してください。
-* 移行を実行するためのチェックと、移行後に報告された問題については、[移行後のチェックとトラブルシューティング &#x200B;](post-transition-checks.md)を参照してください。
-* クライアントコンソールでのみ使用できる機能については、[Campaign WebおよびCampaign クライアントコンソール &#x200B;](../../v8/get-started/capability-matrix.md)を参照してください。
+* 移行を実行するためのチェックと、移行後に報告された問題については、[移行後のチェックとトラブルシューティング ](post-transition-checks.md)を参照してください。
+* クライアントコンソールでのみ使用できる機能については、[Campaign WebおよびCampaign クライアントコンソール ](../../v8/get-started/capability-matrix.md)を参照してください。
 
 ## 用語 {#terminology}
 
@@ -59,23 +59,23 @@ ht-degree: 5%
 
 | Campaign Standardの | Campaign Web | 詳細情報 |
 |---|---|---|
-| 受信者 | **プロファイル** | [&#x200B; プロファイル &#x200B;](../../v8/audience/gs-audiences-recipients.md) |
-| シードアドレス | **プロファイルのテスト** | [配信のテスト &#x200B;](../../v8/preview-test/test-deliveries.md) |
+| 受信者 | **プロファイル** | [ プロファイル ](../../v8/audience/gs-audiences-recipients.md) |
+| シードアドレス | **プロファイルのテスト** | [配信のテスト ](../../v8/preview-test/test-deliveries.md) |
 | 配信分析 | **配信準備**。 メッセージの準備を開始するには、「**準備**」ボタンをクリックします。 | [準備と送信](../../v8/monitor/prepare-send.md) |
 | メールのプレビュー | 「**コンテンツをシミュレート**」ボタンから使用できます。 | [プレビューとテスト](../../v8/preview-test/preview-test.md) |
-| リスト | **オーディエンス** | [&#x200B; オーディエンス &#x200B;](../../v8/audience/gs-audiences-recipients.md) |
+| リスト | **オーディエンス** | [ オーディエンス ](../../v8/audience/gs-audiences-recipients.md) |
 
 ## チャネルとコンテンツ {#channels}
 
-メッセージの作成と送信の手順は、両方の製品で似ています。詳しくは、[&#x200B; マーケター向けガイド &#x200B;](marketers.md)を参照してください。 以下の違いは、チャネルの可用性、テスト配信、ランディングページ、ダイレクトメールワークフローに関するものです。
+メッセージの作成と送信の手順は、両方の製品で似ています。詳しくは、[ マーケター向けガイド ](marketers.md)を参照してください。 以下の違いは、チャネルの可用性、テスト配信、ランディングページ、ダイレクトメールワークフローに関するものです。
 
 | 変更点 | 詳細情報 |
 |---|---|
-| アプリ内チャネルは、Campaign v8では使用できません。 | [&#x200B; アプリ内チャネル &#x200B;](marketers.md#acs-gs-marketers-in-app) |
+| アプリ内チャネルは、Campaign v8では使用できません。 | [ アプリ内チャネル ](marketers.md#acs-gs-marketers-in-app) |
 | 既存のプッシュワークフローと配信を移行するには、Adobe Campaign Transition Managerにお問い合わせください。 | [プッシュ通知](marketers.md#acs-gs-marketers-push) |
-| Campaign Standardでは、テストプロファイルを&#x200B;**トラップ**&#x200B;としてマークして、最終送信を受け取ることができます。 Campaign v8で、配信のオーディエンス設定に&#x200B;**トラップグループ**&#x200B;を追加します。 | [&#x200B; トラップグループ &#x200B;](../../v8/audience/trap-group.md) |
+| Campaign Standardでは、テストプロファイルを&#x200B;**トラップ**&#x200B;としてマークして、最終送信を受け取ることができます。 Campaign v8で、配信のオーディエンス設定に&#x200B;**トラップグループ**&#x200B;を追加します。 | [ トラップグループ ](../../v8/audience/trap-group.md) |
 | Campaign Web ユーザーインターフェイスで作成されたランディングページは、非表示の入力フィールドやカスタム JavaScriptをサポートしていません。 | [ランディングページ](../../v8/landing-pages/get-started-lp.md) |
-| Campaign Standardでは、ダイレクトメールアクティビティのアウトバウンドトランジションにも、生成されたファイルが含まれています。 Campaign v8では、ターゲット母集団のみが取り込まれます。 ファイルをサーバーに送信するには、**データ抽出** アクティビティを追加してから、**ファイル転送** アクティビティを追加します。 | [&#x200B; ダイレクトメール &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
+| Campaign Standardでは、ダイレクトメールアクティビティのアウトバウンドトランジションにも、生成されたファイルが含まれています。 Campaign v8では、ターゲット母集団のみが取り込まれます。 ファイルをサーバーに送信するには、**データ抽出** アクティビティを追加してから、**ファイル転送** アクティビティを追加します。 | [ ダイレクトメール ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/direct-mail){target="_blank"} |
 
 ## オーディエンス、ワークフロー、配信 {#data-and-workflows}
 
@@ -83,12 +83,12 @@ ht-degree: 5%
 
 | 変更点 | 詳細情報 |
 |---|---|
-| Campaign Standardの「クエリ」アクティビティで作成されたオーディエンスは、Campaign v8で[定義済みフィルター](../../v8/query/build-query.md)になります。 Campaign v8では、クエリアクティビティもサポートしています。 | [&#x200B; オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
-| オーディエンスを読み取りアクティビティは、定義済みのフィルターを持つクエリアクティビティになります。 | [&#x200B; オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
-| 定義済みフィルターは、オーディエンスの移行後に最新の値のみを使用します。 | [&#x200B; オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
-| ファイルタイプのオーディエンスは、ディメンションを持たないリストタイプのオーディエンスになります。 | [&#x200B; オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
+| Campaign Standardの「クエリ」アクティビティで作成されたオーディエンスは、Campaign v8で[定義済みフィルター](../../v8/query/build-query.md)になります。 Campaign v8では、クエリアクティビティもサポートしています。 | [ オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
+| オーディエンスを読み取りアクティビティは、定義済みのフィルターを持つクエリアクティビティになります。 | [ オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
+| 定義済みフィルターは、オーディエンスの移行後に最新の値のみを使用します。 | [ オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
+| ファイルタイプのオーディエンスは、ディメンションを持たないリストタイプのオーディエンスになります。 | [ オーディエンスの管理](marketers.md#acs-gs-marketers-audiences) |
 | Campaign Standardで実行されたワークフローの履歴ログは移行されません。 | [ワークフローの作成](marketers.md#acs-gs-marketers-wf) |
-| Campaign Standardでは、定期的なメールの集計期間を選択できます。 このオプションは、Campaign v8では使用できません。 | [&#x200B; チャネルアクティビティ &#x200B;](../../v8/workflows/activities/channels.md) |
+| Campaign Standardでは、定期的なメールの集計期間を選択できます。 このオプションは、Campaign v8では使用できません。 | [ チャネルアクティビティ ](../../v8/workflows/activities/channels.md) |
 | 動的レポートでは、メール配信、メール配信を伴うキャンペーン、トランザクションメッセージを取り上げます。 | [レポート](marketers.md#acs-gs-marketers-reporting) |
 
 ## アクセスとセキュリティ {#access}
@@ -97,10 +97,10 @@ Campaign Standardのセキュリティグループ、ロール、組織単位は
 
 | 変更点 | 詳細情報 |
 |---|---|
-| セキュリティグループ、役割、組織単位は、オペレーターグループ、名前付き権限、フォルダー権限にマッピングされます。 カスタムの役割は移行されません。 | [&#x200B; ユーザーアクセス管理](user-management-acs.md) |
-| **データモデル**&#x200B;の役割を持ち、**管理**&#x200B;の役割を持たないユーザーは、**管理**&#x200B;へのアクセス権を取得します。 | [&#x200B; ユーザーアクセス管理](user-management-acs.md#migration-approach-from-user-roles-to-named-rights) |
+| セキュリティグループ、役割、組織単位は、オペレーターグループ、名前付き権限、フォルダー権限にマッピングされます。 カスタムの役割は移行されません。 | [ ユーザーアクセス管理](user-management-acs.md) |
+| **データモデル**&#x200B;の役割を持ち、**管理**&#x200B;の役割を持たないユーザーは、**管理**&#x200B;へのアクセス権を取得します。 | [ ユーザーアクセス管理](user-management-acs.md#migration-approach-from-user-roles-to-named-rights) |
 | 並列の組織単位を持つセキュリティ グループに割り当てられたユーザーは、Campaign v8でより広範なアクセス権を持つことができます。 | [組織ユニットの並列割り当て](user-management-acs.md#parallel-assignments) |
-| 実行インスタンスからトランザクション APIにアクセスするには、新しい製品プロファイルが必要です。 | [製品プロファイルマッピング &#x200B;](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
+| 実行インスタンスからトランザクション APIにアクセスするには、新しい製品プロファイルが必要です。 | [製品プロファイルマッピング ](user-management-acs.md#product-profile-mapping-to-access-rest-apis) |
 | プライバシーリクエストは、Campaign Standard環境がアクティブな状態を維持している間に、Campaign StandardとCampaign v8の両方に送信されます。 | [プライバシーと同意](admin-developers.md#privacy-and-consent) |
 
 ## APIと統合 {#apis-and-integrations}
@@ -109,8 +109,8 @@ Campaign Standardのセキュリティグループ、ロール、組織単位は
 
 | 変更点 | 詳細情報 |
 |---|---|
-| PKEY値は、移行後に変更されます。 Campaign以外でPKEYを保存する場合は、代わりにAPIから返されるhrefsに従います。 | [&#x200B; キーの使用状況](#key-usage) |
-| タイムゾーンや`ccpaOptOut`などの一部の移行されたプロファイルフィールドは、`profileAndServicesExt/profile` APIによってのみ返されます。 | [&#x200B; プロファイルタイムゾーンとccpaOptOut](#profile-timezone) |
+| PKEY値は、移行後に変更されます。 Campaign以外でPKEYを保存する場合は、代わりにAPIから返されるhrefsに従います。 | [ キーの使用状況](#key-usage) |
+| タイムゾーンや`ccpaOptOut`などの一部の移行されたプロファイルフィールドは、`profileAndServicesExt/profile` APIによってのみ返されます。 | [ プロファイルタイムゾーンとccpaOptOut](#profile-timezone) |
 | Adobeは、Adobe AnalyticsとAudience Managerの設定を移行します。 トリガーとAdobe Targetの統合を再度設定する必要があります。 | [Adobe Campaign統合の管理](admin-developers.md#acs-gs-integrations) |
 
 ## REST APIの推奨事項と制限事項 {#rest-api-limitations}
@@ -144,8 +144,6 @@ PKey値の管理は、Campaign Standard v8とCampaign v8で異なります。 Ca
 * **トランザクションメッセージ**
 
 >[!AVAILABILITY]
->
->現時点では、**トランザクションメッセージ** REST APIは使用できません。
 >
 >以下に示すREST APIは非推奨（廃止予定）であり、使用できません。
 >* マーケティング履歴
