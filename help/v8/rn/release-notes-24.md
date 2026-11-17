@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 100%
+source-wordcount: '2577'
+ht-degree: 99%
 ---
 # 2024 リリースノート {#2024-release}
 
@@ -149,7 +149,7 @@ ht-degree: 100%
 * **ランディングページの Captcha** - Captcha を追加して、ボットによるスパムや不正使用からランディングページを保護できるようになりました。 このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。 [詳細情報](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=ja){target="_blank"}.
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 -->
 
 
@@ -241,7 +241,7 @@ ht-degree: 100%
 
 * **フォルダー管理** - 親フォルダーとは異なるタイプのサブフォルダーを作成できるようになりました。 [詳細情報](../get-started/permissions.md#folders)
 
-* **グローバライゼーション** - 統一されたユーザーエクスペリエンスを提供するための継続的な取り組みの一環として、Adobe Experience Cloud 製品とアプリで使用される用語を統一します。 これは、オブジェクトの名前に関連する場合に「ラベル」に変更されるドイツ語の用語「Titel」に影響します。 変更は、UI とドキュメントに段階的にロールアウトされます。
+* **グローバル化** – 統合されたユーザーエクスペリエンスを提供するための継続的な取り組みの一環として、[!DNL Adobe CX Enterprise]の製品とアプリで使用される用語を調和させます。 これは、オブジェクトの名前に関連する場合に「ラベル」に変更されるドイツ語の用語「Titel」に影響します。 変更は、UI とドキュメントに段階的にロールアウトされます。
 
 
 ## 4月リリースノート {#april-24-4-release}

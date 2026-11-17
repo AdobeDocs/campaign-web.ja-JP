@@ -77,9 +77,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '3256'
+source-wordcount: '3253'
 ht-degree: 98%
 ---
 # 管理者と開発者向けの基本を学ぶ {#acs-gs-admin}
@@ -118,7 +118,7 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 次のビデオでは、Adobe Campaign クライアントコンソールをダウンロードしてインストールし、インスタンスへの接続を管理する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449878?captions=jpn&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
 詳しくは、[クライアントコンソールを使用した Campaign への接続](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/connect){target="_blank"}を参照してください。
 
@@ -128,7 +128,7 @@ Campaign クライアントコンソールは、SOAP や HTTP などの標準の
 
 Adobe Campaign v8 ユーザーインターフェイスと主な機能の操作方法について詳しくは、このチュートリアルビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426439?captions=jpn&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
 詳しくは、[クライアントコンソールの操作](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"}を参照してください。
 
@@ -160,7 +160,7 @@ Campaign コントロールパネルを使用すると、各インスタンス�
 * **IP アドレスを追加** - Campaign コントロールパネルでは、IP アドレスの範囲を許可リストに登録することで、インスタンスへの新しい接続をセットアップできます。 詳しくは、[IP 許可リストのドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}を参照してください
 
 * **サブドメイン設定** - Adobe Campaign で使用するドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。
-詳しくは、[&#x200B; サブドメイン委任ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}を参照してください
+詳しくは、[ サブドメイン委任ドキュメント ](https://experienceleague.adobe.com/ja/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}を参照してください
 
 * **SFTP サーバーを管理** - コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 詳しくは、[SFTP 管理のドキュメント](https://experienceleague.adobe.com/ja/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}を参照してください
 
@@ -228,7 +228,7 @@ Adobe Campaign Standard と同様に、Adobe Campaign v8 に含まれている�
 
 * このビデオでは、ターゲティングディメンションと作業用テーブルの概要と、様々なデータソースをまたいだデータを Adobe Campaign で管理する仕組みについて説明します。
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3452592?captions=jpn&quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
 * Campaign を使用すると、クラウドデータベースに連絡先を追加できます。 ファイルを読み込んだり、複数の連絡先の更新をスケジュールして自動化したり、web でデータを収集したり、プロファイル情報を受信者テーブルに直接入力したりできます。  詳しくは、[データのインポート（コンソール）のドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/data/import){target="_blank"}を参照してください。
 
@@ -267,9 +267,9 @@ Workflow templates contain pre-configured settings and activities which can be r
 
 You choose a built-in template when you create a landing page, then design the content. See [Create and publish a landing page](../../v8/landing-pages/create-lp.md) and [Learn through use cases](../../v8/landing-pages/lp-use-cases.md).
 
-Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional-template)
+Each event can trigger a personalized message. For this to happen, you need to create a message template to match each event type. Templates contain the necessary information for personalizing the transactional message. See the [Transactional messaging template documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template)
 
-Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/ja/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
+Using a workflow template is a best practice if you need to regularly import files with the same structure. See the [Import template documentation](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/recurring-import-workflow){target="_blank"}
 -->
 
 ## プライバシーと同意
@@ -286,7 +286,7 @@ Campaign Standard と同様に、管理者は購読サービスを作成し、�
 
 購読とターゲット購読者を設定し管理する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3426552?captions=jpn&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
 * 詳しくは、購読サービスの [web ユーザーインターフェイスのドキュメント](../../v8/audience/manage-subscribers.md)を参照してください。
 
@@ -345,7 +345,7 @@ Campaign を使用して動的コンテンツを作成し、パーソナライ�
 
 このビデオでは、Campaign v8 の管理者は、動的コンテンツブロックを定義し、動的コンテンツブロックを使用してメール配信のコンテンツをパーソナライズする方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449007?captions=jpn&quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12&learn=on){transcript=true}
 
 役立つリンク：
 
@@ -377,12 +377,12 @@ Campaign v8 では、タイポロジルールに特定のキャンペーンの�
 
 ## Adobe Campaign 統合の管理 {#acs-gs-integrations}
 
-Campaign インスタンスを Adobe Experience Cloud ソリューションと接続して、それぞれの機能を組み合わせることができます。 Adobe Campaign にはいくつかのコネクタが付属しており、それらを使用して、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有と同期などを行うことができます。 ソリューションを組み合わせる方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/integration){target="_blank"}を参照してください。
+Campaign インスタンスを[!DNL Adobe CX Enterprise]個のソリューションと接続して、機能を組み合わせることができます。 Adobe Campaign にはいくつかのコネクタが付属しており、それらを使用して、外部アプリケーションとの通信、データベースエンジンへの接続、データの共有と同期などを行うことができます。 ソリューションを組み合わせる方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/integration){target="_blank"}を参照してください。
 
 Campaign Standard ユーザーが Campaign v8 に移行する場合は、次の内容が適用されます。
 
 * Campaign Standard でこれらの統合を使用していた場合、**Adobe Analytics** および **Audience Manager** の設定とデータは、アドビによって移行されています。
 * Campaign Standard 環境が **Adobe Experience Manager** と統合されている場合は、Campaign web ユーザーインターフェイスでメールを設計する際にこの機能を使用し、Adobe Experience Manager 環境内で直接メール配信コンテンツとフォームの効率的な管理を容易に行うことができるように、**Adobe Experience Manager as a Cloud Service** に移行することをお勧めします。 詳しくは、[このページ](../../v8/integrations/aem-content.md)を参照してください。
-CampaignはAdobe Experience Manager 6.5と統合することもできます。 この統合を設定するには、[このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}を参照してください。
+CampaignはAdobe Experience Manager 6.5と統合することもできます。 この統合を設定するには、[このドキュメント ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}を参照してください。
 * Campaign Standard 環境が **Triggers** と統合されていた場合は、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}の説明に従って、Campaign v8 でこの統合を設定する必要があります。
 * Campaign Standard 環境が **Adobe Target** と統合されていた場合は、[このページ](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}の説明に従って、Campaign v8 でこの統合を設定する必要があります。

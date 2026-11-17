@@ -15,42 +15,42 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 81%
 ---
 # Adobe Campaign への接続 {#connect-to-campaign}
 
-Experience Cloud は、アドビのデジタルマーケティングアプリケーション、製品、サービスの統合ファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。 Adobe Experience Cloud に接続し、Adobe Campaign web インターフェイスにアクセスする方法について詳しくは、このページを参照してください。
+[!DNL Adobe CX Enterprise]は、Adobeの統合デジタルマーケティングアプリケーション、製品、サービスのファミリーです。 直感的なインターフェイスから、クラウドアプリケーション、製品機能、サービスにすばやくアクセスできます。 [!DNL CX Enterprise]に接続し、このページのAdobe Campaign Web インターフェイスにアクセスする方法について説明します。
 
-## Adobe Experience Cloud にログイン {#sign-in-to-exc}
+## [!DNL Adobe CX Enterprise]にログイン {#sign-in-to-exc}
 
-シングルサインオン（SSO）のみを使用して Campaign に接続できます。 通常、Experience Cloud 管理者はアプリケーションやサービスへのアクセスを許可します。 Experience Cloud への招待メールに記載されている手順に従います。
+シングルサインオン（SSO）のみを使用して Campaign に接続できます。 通常、[!DNL CX Enterprise]人の管理者がアプリケーションとサービスへのアクセス権を付与します。 [!DNL CX Enterprise]へのメール招待状の手順に従います。
 
-Adobe Experience Cloud にログインするには、次の基本的な手順に従います。
+[!DNL Adobe CX Enterprise]にログインするには、次の基本的な手順に従います。
 
-1. [Adobe Experience Cloud](https://experience.adobe.com/){target="_blank"} を参照します。
+1. [[!DNL Adobe CX Enterprise]](https://experience.adobe.com/){target="_blank"}を参照します。
 
 1. Adobe ID または Enterprise ID を使用してログインします。 アドビの ID タイプについて詳しくは、[この記事](https://helpx.adobe.com/jp/enterprise/using/identity.html){target="_blank"}を参照してください。
 
-   Experience Cloud にログインすると、すべてのソリューションやアプリにすばやくアクセスできます。
+   [!DNL CX Enterprise]にログインすると、すべてのソリューションとアプリにすばやくアクセスできます。
 
-   ![Adobe Experience Cloud のホームページを示すスクリーンショット](assets/exc-home.png){zoomable="yes"}
+   ![Adobe CX Enterpriseのホームページを示すスクリーンショット ](assets/exc-home.png){zoomable="yes"}
 
 1. 自分が正しい組織に属していることを確認してください。
 
-   ![Adobe Experience Cloud での組織選択を示すスクリーンショット](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
+   ![Adobe CX Enterpriseでの組織選択を示すスクリーンショット ](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
-   Adobe Experience Cloud の組織について詳しくは、[この記事](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){target="_blank"}を参照してください。
+   [!DNL Adobe CX Enterprise]の組織について詳しくは、[この記事](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){target="_blank"}を参照してください。
 
 ## Adobe Campaign にアクセス {#access-to-campaign}
 
-Campaign 環境にアクセスするには、Adobe Experience Cloud ホームページの「**クイックアクセス**」セクションから **Campaign** を選択します。
+Campaign環境にアクセスするには、[!DNL Adobe CX Enterprise] ホームページの&#x200B;**クイックアクセス** セクションから&#x200B;**Campaign**&#x200B;を選択します。
 
-既に別の Adobe Experience Cloud ソリューションに接続している場合は、画面右上のソリューション切り替えボタンから Campaign 環境を参照します。
+既に別の[!DNL Adobe CX Enterprise] ソリューションに接続している場合は、画面右上のソリューション スイッチャーからCampaign環境を参照します。
 
-![Adobe Experience Cloud のソリューションスイッチャーを示すスクリーンショット](assets/solution-switcher.png){zoomable="yes"}
+Adobe CX Enterpriseのソリューションスイッチャーを示す![ スクリーンショット ](assets/solution-switcher.png){zoomable="yes"}
 
 複数の環境（Campaign コントロールパネルを含む）にアクセスできる場合は、「**起動する**」ボタンをクリックして正しいインスタンスを確認します。
 
@@ -103,17 +103,17 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 
 詳しくは、[権限の表示と管理](permissions.md)の方法を参照してください。
 
-## Adobe Experience Cloud の上部ナビゲーション {#top-bar}
+## [!DNL Adobe CX Enterprise]上部ナビゲーション {#top-bar}
 
-インターフェイス上部のバーから、Experience Cloud のコア機能にクイックアクセスできます。
+インターフェイスの上部バーでは、コア [!DNL CX Enterprise]機能にすばやくアクセスできます。
 
-![Adobe Experience Cloud の上部ナビゲーションバーを示すスクリーンショット](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+![Adobe CX Enterpriseの上部のナビゲーションバーを示すスクリーンショット ](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
 上部のバーを使用すると、以下を実行できます。
 
 * Campaign web ユーザーインターフェイスに関するフィードバックを共有する。
 * 組織を切り替える。
-* Adobe Experience Cloud ソリューションとアプリを切り替える。
+* [!DNL Adobe CX Enterprise]個のソリューションとアプリを切り替えます。
 * [Adobe Experience League](https://experienceleague.adobe.com/docs/?lang=ja){target="_blank"} でヘルプを検索する。
 * 製品通知を表示する。
 * アドビのプロファイルを編集し、[優先言語の更新](#language-pref)や[ライト／ダークテーマに切り替え](#dark-theme)などの設定を管理する。

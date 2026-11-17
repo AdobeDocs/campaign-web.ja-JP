@@ -11,10 +11,10 @@ product_v2:
     internal-label: Campaign v8
   - id: ccdd4c6f-8203-4e89-85f0-79883f86f5fd
     internal-label: Campaign v8 Web User Interface
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 88%
 ---
 # メールコンテンツの読み込み {#existing-content}
 
@@ -31,6 +31,10 @@ E メールデザイナーで既存の HTML コンテンツを読み込むこと
 >[!NOTE]
 >
 >.zip ファイル構造に制約はありません。 ただし、.zip フォルダーのツリー構造内に合わせて、相対参照を指定する必要があります。
+
+>[!IMPORTANT]
+>
+>電子メールコンテンツでHTML `<base>` タグを使用しないでください。 セキュリティ上の理由から、このタグはサポートされておらず、コンテンツエディターでのコンテンツの読み込みを妨げる可能性があります。 代わりに、リンクと外部リソースに絶対URLを使用してください。
 
 ➡️ [ビデオでこの機能を確認する](#video)
 
@@ -62,4 +66,4 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
 HTML をアップロードしてメールを作成する方法、E メールデザイナーと互換性を持たせる方法、テンプレートに変換する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447033/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
