@@ -36,11 +36,11 @@ ht-degree: 81%
 
    [!DNL CX Enterprise]にログインすると、すべてのソリューションとアプリにすばやくアクセスできます。
 
-   ![Adobe CX Enterpriseのホームページを示すスクリーンショット ](assets/exc-home.png){zoomable="yes"}
+   ![Adobe CX Enterpriseのホームページを示すスクリーンショット &#x200B;](assets/exc-home.png){zoomable="yes"}
 
 1. 自分が正しい組織に属していることを確認してください。
 
-   ![Adobe CX Enterpriseでの組織選択を示すスクリーンショット ](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
+   ![Adobe CX Enterpriseでの組織選択を示すスクリーンショット &#x200B;](assets/exc-orgs.png){zoomable="yes"}{width="50%"}
 
    [!DNL Adobe CX Enterprise]の組織について詳しくは、[この記事](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja){target="_blank"}を参照してください。
 
@@ -50,7 +50,7 @@ Campaign環境にアクセスするには、[!DNL Adobe CX Enterprise] ホーム
 
 既に別の[!DNL Adobe CX Enterprise] ソリューションに接続している場合は、画面右上のソリューション スイッチャーからCampaign環境を参照します。
 
-Adobe CX Enterpriseのソリューションスイッチャーを示す![ スクリーンショット ](assets/solution-switcher.png){zoomable="yes"}
+Adobe CX Enterpriseのソリューションスイッチャーを示す![&#x200B; スクリーンショット &#x200B;](assets/solution-switcher.png){zoomable="yes"}
 
 複数の環境（Campaign コントロールパネルを含む）にアクセスできる場合は、「**起動する**」ボタンをクリックして正しいインスタンスを確認します。
 
@@ -107,7 +107,7 @@ Campaign web ユーザーインターフェイスを参照すると、権限に�
 
 インターフェイスの上部バーでは、コア [!DNL CX Enterprise]機能にすばやくアクセスできます。
 
-![Adobe CX Enterpriseの上部のナビゲーションバーを示すスクリーンショット ](assets/do-not-localize/unified-shell.png){zoomable="yes"}
+![Adobe CX Enterpriseの上部のナビゲーションバーを示すスクリーンショット &#x200B;](assets/do-not-localize/unified-shell.png){zoomable="yes"}
 
 上部のバーを使用すると、以下を実行できます。
 

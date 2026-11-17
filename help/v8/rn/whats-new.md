@@ -55,7 +55,7 @@ Campaignの新しいWeb ユーザーインターフェイスは、[!DNL Adobe CX
 * 上部バーのソリューションと組織の切り替えボタン
 * コミュニティ、ヘルプセンター、サポートへの直接アクセスを備えた統合シェルの統合
 
-[!DNL Adobe CX Enterprise]にログインして[このページ ](../get-started/connect-to-campaign.md)でCampaignに接続する方法について説明します。
+[!DNL Adobe CX Enterprise]にログインして[このページ &#x200B;](../get-started/connect-to-campaign.md)でCampaignに接続する方法について説明します。
 
 
 **新しい強力な機能とシームレスなプロセス**
