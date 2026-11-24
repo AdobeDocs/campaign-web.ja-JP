@@ -16,10 +16,10 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 01252df5ef63ee2453f94f658da4ddcd42779259
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 75%
 ---
 # 配信レポートの基本を学ぶ {#reports}
 
@@ -68,3 +68,28 @@ Adobe Campaign には、配信ごとにアクセス可能な複数のタイプ�
    「**[!UICONTROL 表示条件]**」オプションを使用すると、URL、ラベルまたはカテゴリでフィルタリングできます。
 
    ![URL、ラベルまたはカテゴリをフィルタリングする「表示条件」オプション](assets/manage_delivery_report_5.png){zoomable="yes"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_deliveries_overview"
+>title="LINE配信の概要"
+>abstract="LINE配信の配信、配信メッセージ、配信エラーを表示します。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_targeted_population"
+>title="LINE ターゲット母集団"
+>abstract="**ターゲット母集団**&#x200B;のグラフとテーブルには、LINE オーディエンスに関連するデータが表示されます。配信するメッセージと除外です。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_overall_stats"
+>title="LINEの全体統計"
+>abstract="**全体統計** レポートには、送信されたLINE メッセージのデータが表示されます。成功とエラーです。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_line_exclusions"
+>title="LINEの除外"
+>abstract="**除外** グラフとテーブルには、除外されたプロファイルがLINE メッセージを受信できなかった理由が表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_line"
+>title="LINE配信スループット"
+>abstract="**配信スループット** レポートは、指定された期間内のLINE メッセージの配信速度を示します。"
