@@ -14,18 +14,18 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
-source-git-commit: 4fa6c49fb2456ef2edeb3f609b77c0cc5d33b95e
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 74%
 ---
 # メッセージの基本を学ぶ{#gs-messages}
 
-Adobe Campaign を使用すると、メール、SMS、プッシュ通知、[WhatsApp](../whatsapp/get-started-whatsapp.md)、ダイレクトメールなどのクロスチャネルキャンペーンを送信し、様々な専用レポートを使用してキャンペーンの影響を評価できます。
+Adobe Campaignなら、電子メールやSMS、プッシュ通知、ダイレクトメールなどを含むクロスチャネル施策を展開し、さまざまな専用レポートを利用してその効果を測定できます。
 
 これらのメッセージは、デザインし、配信を介して送信します。また、受信者ごとにパーソナライズできます。 これらの配信は、スタンドアロンで行うことも、マーケティングキャンペーンのコンテキストでワークフローに含めることもできます。 Adobe Campaign で配信を作成および管理する方法について詳しくは、[この節](gs-deliveries.md)を参照してください。
 
-Adobe Campaign v8 には、メール、SMS、プッシュ通知およびダイレクトメールの配信チャネルが含まれています。 アプリ内メッセージや X（Twitter）を使用したソーシャルマーケティングなどの他のチャネルは、まだサポートされていません。
+Adobe Campaign v8には、電子メール、SMS、プッシュ通知、ダイレクトメール、LINE、コールセンター、カスタムチャネルの配信チャネルが含まれています。 アプリ内メッセージや X（Twitter）を使用したソーシャルマーケティングなどの他のチャネルは、まだサポートされていません。
 
 メッセージの作成および送信方法については、以下の節を参照してください。
 
