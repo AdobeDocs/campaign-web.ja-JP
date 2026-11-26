@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7bbc2d4c383886788afc1ef83cdd27e7ec4b24ae
+source-git-commit: 9f6e7f05783276d217311e1b2ab6ea6bb1f8b536
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 99%
+source-wordcount: '2498'
+ht-degree: 94%
 ---
 # Campaign web および Campaign クライアントコンソール {#capabilities-matrix}
 
@@ -78,19 +78,19 @@ Campaign web ユーザーインターフェイスを使用すれば、[この節
 
 * **マーケティングカレンダー**。 キャンペーンカレンダーには、すべてのプログラム、プラン、キャンペーンおよび配信がグローバルタイムラインで表示されます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#campaign-calendar){target="_blank"}
 * **プログラムとプラン**。 各キャンペーンは 1 つのプログラムに属し、プログラムはプランに属します。 Campaign web ユーザーインターフェイスでは、すべてのキャンペーンがデフォルトのビルトインのプランおよびプログラムに関連付けられます。 クライアントコンソールで作成および管理できるのは、プランとプログラムのみです。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=ja#work-with-plan-and-program){target="_blank"}
-* **プロバイダー、予算およびコストの管理**。 キャンペーン内で実行されるジョブに関係するサービスプロバイダー（コスト構造など）を設定し、各プログラムとキャンペーン内の予算を管理できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
+* **プロバイダー、予算およびコストの管理**。 キャンペーン内で実行されるジョブに関係するサービスプロバイダー（コスト構造など）を設定し、各プログラムとキャンペーン内の予算を管理できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/providers-stocks-and-budgets){target="_blank"}
 * **分散型マーケティング**（セントラル／ローカルマーケティング） Adobe Campaign では、セントラルエンティティ（本社、マーケティング部門など）とローカルエンティティ（販売店、地域のエージェントなど）が協調キャンペーンを展開できる、分散型マーケティングアプリを活用できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=ja){target="_blank"}
 * **マーケティングリソース管理**（MRM）、目標、シミュレーションおよびコスト管理。 また、Adobe Campaign では、マーケティングリソース管理（MRM）アプリを活用して、関連するタスク、予算およびマーケティングリソースの完全な管理とリアルタイムトラッキングにより、マーケティングアクションを協調モードで制御できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=ja){target="_blank"}
 * **タスク管理** MRM アプリの一部として、キャンペーンダッシュボードから Campaign タスクを作成、割り当て、トラッキングおよび監視できます。 この機能は、クライアントコンソールでのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html?lang=ja){target="_blank"}
 
 ## 通信チャネル {#channels-capabilities}
 
-Campaign web ユーザーインターフェイスを使用すると、[この節](../msg/gs-messages.md)で詳しく説明するように、**メール**、**SMS**、**プッシュ通知**、**ダイレクトメール**&#x200B;を作成、デザイン、送信し、様々な専用レポートを使用してその影響を測定できます。 ただし、アプリ内、LINE、コールセンター／カスタムチャネル、X によるソーシャルマーケティング（Twitter）などのチャネルは現在利用でき&#x200B;**ません**。
+Campaign Web ユーザーインターフェイスを使用すると、**電子メール**、**SMS**、**プッシュ通知**、**ダイレクトメール**、**LINE** メッセージ、**コールセンター**&#x200B;配信、および&#x200B;**カスタムチャネル**&#x200B;配信を作成、設計、送信できます。また、この節](../msg/gs-messages.md)で詳しく説明しているように、様々な専用レポートを使用して影響を測定できます。 [ただし、現在、次のチャネルは&#x200B;**利用できません**：アプリ内、Xでのソーシャルマーケティング（Twitter）。
 
-提供されたリンクを使用して、Campaign v8（クライアントコンソール）ドキュメントを参照し、これらのチャネルの詳細を確認してください。
+一部のチャネル機能は、クライアントコンソールでのみ使用できます。
 
-* **LINE メッセージ**。 LINE は、無料のインスタントメッセージ、音声およびビデオ通話用のアプリケーションで、すべてのモバイルデバイスと PC で利用できます。 Adobe Campaign では、クライアントコンソールからのみ LINE メッセージを送信できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html?lang=ja){target="_blank"}
-* **コールセンターとカスタムチャネル**。 コールセンターやその他のカスタムチャネルは、Campaign 環境に実装できます。 これらのチャネルは、クライアントコンソールでのみ使用できます。 詳しくは、[Campaign Classic v7 ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html?lang=ja#other-channels){target="_blank"}を参照してください
+* **コールセンターのレポート**。 コールセンターチャネルのWeb UIでは、レポートは使用できません。 クライアントコンソールを使用してアクセスします。 [詳細情報](../call-center/gs-call-center.md)
+* **カスタムチャネル設定**。 Web UIでカスタムチャネル用の配信を作成しますが、カスタムチャネル自体をクライアントコンソールで設定します。 [詳細情報](../call-center/gs-custom-channel.md)
 * X（Twitter）を使用した&#x200B;**ソーシャルマーケティング**。 X（Twitter）を通じてメッセージを投稿したり、ダイレクトメッセージを送信したりしてお客様とやり取りします。 この機能は、ソーシャルマーケティングアドオンに付属し、クライアントコンソールからのみ使用できます。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=ja){target="_blank"}
 
 ## ランディングページと web アプリケーション {#Webapps-capabilities}
@@ -120,7 +120,7 @@ Campaign クライアントコンソールまたは Adobe Experience Platform �
 
 Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html?lang=ja){target="_blank"} and learn more about real-time messaging capabilities, such as:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
 * Realtime message authoring and execution on email, SMS and push
 * Message enrichment and personalization
@@ -153,16 +153,16 @@ Adobe Campaign Web ユーザーインターフェイスに付属する新しい�
 提供されたリンクを使用して、Campaign v8（クライアントコンソール）ドキュメントを参照し、タイポロジルールの詳細を確認してください。
 
 <!--
-* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=ja){target="_blank"}
+* Control rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html){target="_blank"}
 -->
 * 疲労／頻度ルールの作成。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja){target="_blank"}
 <!--
-* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html?lang=ja){target="_blank"}
-* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html?lang=ja){target="_blank"}
+* Filtering rules creation. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
+* Typology rules management. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 -->
 * キャンペーンのシミュレーション。 [詳細情報](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html?lang=ja){target="_blank"}
 <!--
-* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=ja#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript coding for typology rules authoring. [Learn more](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 -->
 
 ## ワークフロー {#wf-capabilities}
